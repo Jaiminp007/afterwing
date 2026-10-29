@@ -5,7 +5,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {TasteExperiment,schedWindowOpen,runTasteProbe} from '../learning/taste-experiment.mjs';
-import {scoreRGap} from '../scripts/r-gap-dev.mjs';
+import {scoreRGap,scoreRGapV1b} from '../scripts/r-gap-dev.mjs';
 import {BT_LEARNER_OPTIONS,BT_PRICING} from '../scripts/body-transfer.mjs';
 
 test('schedWindowOpen splits every phase at its midpoint',()=>{
@@ -97,4 +97,29 @@ test('scoreRGap verdict branches: GO / NOGO / INVALID-billing / INVALID-baseline
     control:{1:mk(0.01,0.01,0.0),2:mk(0.01,0.01,0.0)},
     prop:{1:mk(5.0,5.0,0.0),2:mk(5.0,5.0,0.0)}};
   assert.equal(scoreRGap(dead).verdict,'INVALID-BASELINE');
+});
+
+test('scoreRGapV1b branches: GO / NOGO / INVALID-sanity / sign-inconsistent',()=>{
+  const row=(tag,seed,aC,aR,bC,bR,tC,tR)=>({tag,history:{seed},probes:{
+    'A:current':{value:aC},'A:reset':{value:aR},'B:current':{value:bC},'B:reset':{value:bR},
+    'transfer:current':{value:tC},'transfer:reset':{value:tR}}});
+  const mk=(tag,seeds,fn)=>seeds.map(s=>row(tag,s,...fn(s)));
+  // GO: corrected best clears +0.5, gates hold.
+  const go=[...mk('control',[1,2,3,4,5,6],()=>[-60,-60.5,-60,-60.5,0,0]),
+    ...mk('cand', [1,2,3,4,5,6],()=>[-58,-60.5,-58,-60.5,0,0])];
+  assert.equal(scoreRGapV1b(go).verdict,'V1B-GO');
+  // NOGO: best below bar.
+  const no=[...mk('control',[1,2,3],()=>[-60,-60.5,-60,-60.5,0,0]),
+    ...mk('cand', [1,2,3],()=>[-59.9,-60.5,-59.9,-60.5,0,0])];
+  assert.equal(scoreRGapV1b(no).verdict,'V1B-NOGO');
+  // INVALID: transfer spike on winner.
+  const bad=[...mk('control',[1,2],()=>[-60,-60.5,-60,-60.5,0,0]),
+    ...mk('cand', [1,2],()=>[ -58,-60.5,-58,-60.5,10,0])];
+  assert.equal(scoreRGapV1b(bad).verdict,'INVALID-CORRUPT');
+  // Sign-inconsistent NOGO: |gap| big but trained loses.
+  const neg=[...mk('control',[1,2,3,4,5,6],()=>[-60,-60.5,-60,-60.5,0,0]),
+    ...mk('cand', [1,2,3,4,5,6],()=>[-62,-60.5,-62,-60.5,0,0])];
+  const rneg=scoreRGapV1b(neg);
+  assert.equal(rneg.verdict,'V1B-NOGO');
+  assert.equal(rneg.signOk,0);
 });

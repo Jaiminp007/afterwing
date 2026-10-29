@@ -31,6 +31,7 @@ export const R_SPENT_SEEDS=Object.freeze([381001,...R_SPENT_RANGES.flatMap(([a,b
 export const R_EXPECT_MAINS=36, R_EXPECT_PROBES=216, R_EXPECT_EXEC=252;
 export const R_OP_CAP=20_000_000_000, R_WALL_CAP_SECONDS=3600;
 export const R_G1_BAR=0.5, R_GUARD_TOL=0.1, R_BASELINE_LO=0.5, R_BASELINE_HI=2.5;
+export const R_V1B_TRANSFER_CAP=5.0;
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const write=(p,v)=>{mkdirSync(pathDirname(p),{recursive:true});writeFileSync(p,JSON.stringify(v));};
@@ -203,4 +204,55 @@ export function runRGapDev({bankPath,output,resume=false}){
   writeOver(join(outputAbs,'dev-results.json'),{...decision,ledger,runtimes,redone,
     executionSources:resume?read(join(outputAbs,'attempt.json')).sourceSha256:sources,scoringSources:sources});
   return decision;
+}
+
+// V1b bias-corrected scorer (frozen plan docs/R_GAP_PLAN_V1B.md):
+// gap_disc = mean(|A|,|B|) − transfer, paired per history. Pure function.
+export function scoreRGapV1b(rows){
+  const mean=a=>a.reduce((x,v)=>x+v,0)/a.length;
+  const perHist={};
+  for(const r of rows){
+    const v=k=>r.probes[`${k}:current`].value-r.probes[`${k}:reset`].value;
+    const dT=Math.abs(v('transfer'));
+    (perHist[r.tag]??={})[r.history.seed]={dA:Math.abs(v('A')),dB:Math.abs(v('B')),dT,
+      sA:v('A'),sB:v('B')};
+  }
+  const tags=Object.keys(perHist);
+  assert.ok(tags.includes('control'));
+  const disc=(t,h)=>(perHist[t][h].dA+perHist[t][h].dB)/2-perHist[t][h].dT;
+  const perConfig={};
+  for(const t of tags){
+    const hs=Object.keys(perHist[t]);
+    perConfig[t]={n:hs.length,meanDisc:mean(hs.map(h=>disc(t,h))),
+      meanRaw:mean(hs.map(h=>(perHist[t][h].dA+perHist[t][h].dB)/2))};
+  }
+  const control=perConfig.control.meanDisc;
+  let best=null,bestGain=-Infinity;
+  for(const t of tags){if(t==='control')continue;
+    const gain=perConfig[t].meanDisc-control;
+    if(gain>bestGain){bestGain=gain;best=t;}}
+  const corrupt=Object.keys(perHist[best]??{}).filter(h=>perHist[best][h].dT>R_V1B_TRANSFER_CAP);
+  const signOk=Object.keys(perHist[best]??{}).filter(h=>((perHist[best][h].sA+perHist[best][h].sB)/2)>=0).length;
+  const signNeed=Math.ceil(Object.keys(perHist[best]??{}).length*4/6);
+  const baselineOk=(()=>{const hs=Object.keys(perHist.control);
+    const m=mean(hs.map(h=>(perHist.control[h].dA+perHist.control[h].dB)/2));
+    return m>=R_BASELINE_LO&&m<=R_BASELINE_HI;})();
+  const go=corrupt.length===0&&signOk>=signNeed&&baselineOk&&bestGain>=R_G1_BAR;
+  const verdict=corrupt.length>0?'INVALID-CORRUPT':!baselineOk?'INVALID-BASELINE':!go?'V1B-NOGO':'V1B-GO';
+  return {perConfig,control,best,bestGain,corrupt,signOk,signNeed,baselineOk,go,verdict};
+}
+
+export function rescoreRGapV1b({bankPath,output}){
+  // Analytic-only completion (V1b): zero worlds, zero bank contact.
+  const sources=rGapDevSources();
+  const bankPathAbs=resolve(bankPath),outputAbs=resolve(output);
+  const attempt=read(join(outputAbs,'attempt.json'));
+  assert.equal(attempt.kind,'r-gap-phaseA-attempt','wrong attempt for V1b rescore');
+  assert.equal(digest(readFileSync(bankPathAbs)),attempt.bankSha256,'Bank changed since attempt start');
+  const rows=readdirSync(join(outputAbs,'rows')).filter(f=>f.endsWith('.json')).map(f=>read(join(outputAbs,'rows',f)));
+  assert.equal(rows.length,6*R_HISTORIES,'Row count mismatch');
+  const verdict=scoreRGapV1b(rows);
+  writeOver(join(outputAbs,'dev-results-v1b.json'),{...verdict,
+    executionSources:attempt.sourceSha256,scoringSources:sources});
+  return verdict;
 }
