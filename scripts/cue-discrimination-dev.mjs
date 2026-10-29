@@ -185,31 +185,31 @@ export function runCueDiscDev({bankPath,output,resume=false}){
     assert.ok(ledger.scalarOperations<=C_OP_CAP,'Dev aggregate op cap breached');};
   const timed=(label,fn)=>{
     const began=performance.now(),cpu=process.cpuUsage();const out=fn();
-    const wall=(performance.now()-began)/1000,used=process.cpuUsage(cpu),cpuS=(used.user+used.cpu)/1e6;
+    const wall=(performance.now()-began)/1000,used=process.cpuUsage(cpu),cpuS=(used.user+used.system)/1e6;
     assert.ok(wall<BT_ROW_WALL_SECONDS,`${label} exceeded wall cap`);assert.ok(cpuS<BT_ROW_CPU_SECONDS,`${label} exceeded CPU cap`);
     return {out,wall,cpuS};
   };
   for(const arm of C_ARMS){
-    const {wall,cpuS}=timed(arm,()=>{
-      for(const history of p.histories){
-        let row=rows.find(r=>r.history.seed===history.seed&&r.tag===arm);
-        if(row&&row.summary){
-          console.log(JSON.stringify({stage:'skip',arm,seed:history.seed,reason:'complete on disk'}));continue;
-        }
-        if(resume)redone.push(`${history.seed}:${arm}`);
-        const collector=collectCueChoice();
+    const armRuns={wall:0,cpuS:0};
+    for(const history of p.histories){
+      const found=rows.find(r=>r.history.seed===history.seed&&r.tag===arm&&r.summary);
+      if(found){console.log(JSON.stringify({stage:'skip',arm,seed:history.seed,reason:'complete on disk'}));continue;}
+      if(resume)redone.push(`${history.seed}:${arm}`);
+      const collector=collectCueChoice();
+      const {wall,cpuS}=timed(`${arm}/${history.seed}`,()=>{
         const run=new TasteExperiment({history,arm,learnerOptions:{...BT_LEARNER_OPTIONS},cruiseSpeed:0,body:'N',pricing:{...BT_PRICING},emit:collector.emit});
         run.advance(BT_TICKS);
         const endpoint=run.endpoint();checkMainIntegrity(endpoint,`${arm}/${history.seed}`);
-        row={history:{seed:history.seed},tag:arm,endpoint,summary:collector.summarize()};
+        const row={history:{seed:history.seed},tag:arm,endpoint,summary:collector.summarize()};
         note(1,0,BT_TICKS,endpoint.scalarOperations);
-        if(!rows.includes(row))rows.push(row);
+        rows.push(row);
         writeOver(join(outputAbs,'rows',`${history.seed}-${arm}.json`),row);
         checkpointLedger();
         console.log(JSON.stringify({stage:'world',arm,seed:history.seed,energy:endpoint.budgetAdjustedEnergyPerFounder}));
-      }
-    });
-    runtimes[arm]={wall,cpuS};checkpointLedger();
+      });
+      armRuns.wall+=wall;armRuns.cpuS+=cpuS;
+    }
+    runtimes[arm]=armRuns;checkpointLedger();
   }
   assert.deepEqual(cueDiscDevSources(),sources,'Sources changed during dev run');
   assert.ok((Date.now()-t0)/1000<=C_WALL_CAP_SECONDS,'Dev aggregate wall cap breached');
