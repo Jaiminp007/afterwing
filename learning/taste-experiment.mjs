@@ -22,6 +22,31 @@ export function schedWindowOpen(arm,tickInPhase,phaseLen){
   if(arm==='recent')return tickInPhase>=phaseLen/2;
   return true;
 }
+// M-POP newborn-learner sync (plan docs/M_POP_PLAN_V1.md + V1a):
+// TasteExperiment crashes on newborn flies (no learner entry). For each
+// living fly lacking one, create a zeroed body with the run's options
+// (standing variation = founder seeds only; no weight inheritance — this
+// design tests SELECTION, not Lamarckism). Acquisition mirrors the arm:
+// unlearned frozen always; frozen learns only while phase A is running
+// (matches old-timers: learn in A, frozen from B on); candidate always on.
+// Fixed-program arms get fixed bodies. Unreachable unless reproduction is
+// enabled (default off = unchanged). Plain-JS bookkeeping (unbilled).
+export function syncNewbornLearners(run){
+  let created=0;
+  for(const f of run.world.flies){
+    if(run.learners[f.id]!==undefined)continue;
+    let s;
+    if(fixed(run.arm))s=fixedBody(f.id,Number.isFinite(f.brainSeed)?f.brainSeed:1,run.world.tick);
+    else{
+      s=createTasteEnergyBody(f.id,Number.isFinite(f.brainSeed)?f.brainSeed:1,{...run.learnerOptions,
+        tasteLearning:run.arm!=='noTaste',normalizeMotor:run.arm!=='noNormalization',cueBlind:run.arm==='blind'});
+      if(run.arm==='unlearned')freezeTasteEnergyBody(s);
+      else if(run.arm==='frozen'&&run.phaseIndex!==0)freezeTasteEnergyBody(s);
+    }
+    run.learners[f.id]=s;created++;
+  }
+  return created;
+}
 const fixed=arm=>['acceptCruise','acceptStationary','nativeFullCruise'].includes(arm);
 const canonical=value=>JSON.parse(JSON.stringify(value));
 const validSeed=value=>Number.isInteger(value)&&value>0&&value<=0xffffffff;
@@ -29,13 +54,14 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
   work:{scalarOperations:0,liveUpdates:0,replayUpdates:0},charge:{operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0}});
 
 export class TasteExperiment{
-  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null}){
+  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false}){
+    assert.ok(typeof reproduction==='boolean');
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
-    this.cruiseSpeed=cruiseSpeed;this.body=body;
+    this.cruiseSpeed=cruiseSpeed;this.body=body;this.reproduction=reproduction;
     this.history=structuredClone(history);this.arm=arm;this.program=fixed(arm)?'fixed':'taste';this.reference=structuredClone(reference);this.pricing={...pricing};this.learnerOptions={...learnerOptions};
-    this.world=new World({seed:history.seed,founders:reference.founders,capacity:240,reproduction:false,mutation:false,learning:false,controller:'episodic-actor',
+    this.world=new World({seed:history.seed,founders:reference.founders,capacity:240,reproduction:reproduction,mutation:false,learning:false,controller:'episodic-actor',
       actorParameters:reference.actorParameters,episodicParameters:{...reference.parameters,actuator:'move',memoryLearning:false,neuralLearning:false},
       nutrient:.4,seasonal:false,challenges:'off',cueForaging:true});
     this.codebook=makeCueCodebook(history.cueSeed);this.founderIds=this.world.flies.map(f=>f.id);this.learners={};
@@ -58,6 +84,7 @@ export class TasteExperiment{
       if(['B','C'].includes(phase.id)&&['frozen','reset'].includes(this.arm))for(const f of this.world.flies)(this.arm==='frozen'?freezeTasteEnergyBody:resetTasteEnergyBody)(this.learners[f.id]);
       this.resource=enterCuePhase(this.world,phase,this.history.resourceSeeds[this.phaseIndex],this.codebook);this.phaseEnd+=phase.ticks;
     }
+    if(this.reproduction)syncNewbornLearners(this);
     if(this.arm==='frontload'||this.arm==='recent'){
       const phase=CONTINUAL_PHASES[this.phaseIndex],tip=this.world.tick-(this.phaseEnd-phase.ticks);
       for(const f of this.world.flies){const s=this.learners[f.id];if(s.dead)continue;
@@ -129,7 +156,7 @@ export class TasteExperiment{
   static restore(cp,emit=null){
     assert.equal(cp.schema,1);assert.equal(cp.kind,'taste-world');const run=Object.create(TasteExperiment.prototype);Object.assign(run,structuredClone(cp.state));
     run.world=World.restore(cp.world);run.atA=structuredClone(cp.atA);run.atB=structuredClone(cp.atB??null);run.atC=structuredClone(cp.atC);Object.defineProperty(run,'emit',{value:emit,writable:true,enumerable:false});
-    assert.ok(TASTE_ARMS.includes(run.arm));assert.equal(run.program,fixed(run.arm)?'fixed':'taste');assert.equal(run.world.config.reproduction,false);assert.equal(run.world.config.mutation,false);
+    assert.ok(TASTE_ARMS.includes(run.arm));assert.equal(run.program,fixed(run.arm)?'fixed':'taste');assert.equal(typeof run.world.config.reproduction,'boolean');assert.equal(run.world.config.mutation,false);
     assert.equal(run.world.config.learning,false);assert.equal(run.world.config.episodicParameters.memoryLearning,false);assert.equal(run.world.config.episodicParameters.neuralLearning,false);
     if(run.body===undefined)run.body='N';assert.ok(['N','P','Q'].includes(run.body));
     assert.deepEqual(Object.keys(run.learners).sort(),run.founderIds.map(String).sort());assert.equal(run.founderIds.length,run.reference.founders);
