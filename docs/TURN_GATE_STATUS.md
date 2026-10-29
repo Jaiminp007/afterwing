@@ -12,4 +12,4 @@ Question: does the turn-gating replicate on a fresh bank?
   on ≥4/6; G2b unlearned flat ≤0.1 on ≥4/6 (else INVALID/NOGO, no second
   run). Fixtures green (5/5: collector/join/labels/turn/4 scorer branches).
   Triage clean (6 shifted-pristine failures only). Bank pre-built + verified.
-- Next: single Phase-A attempt via module import, then RESULTS + commit.
+- 2026-10-29: Phase-A EXECUTED → **GO**. G1 join 1.00 everywhere; G2a turn|harm−turn|ben 0.81–0.83 on 6/6 histories (bar ≥0.5); G2b unlearned flat ≈0.00. 12 mains, all caps, no crash, no resume. Licensed follow-up PROPOSED (not started): V1b cue-conditioned avoidance training, needs its own frozen plan + fresh goal. Full record: TURN_GATE_RESULTS_V1.md.
