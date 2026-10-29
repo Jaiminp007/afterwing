@@ -17,4 +17,9 @@ measurable target instead of a menu: widen trained-vs-zeroed, don't retain.
   (trained<reset in transfer, consistent sign; symmetric configs immune).
   S1 disqualified (would-be best +0.229 = bias, not discrimination); S2/S3
   clean nulls. No Phase B. 252 exec in caps, no crash. Cumulative 7648.
-  Full record: `docs/R_GAP_RESULTS_V1.md`.
+- 2026-10-29: V1b recomputation COMPLETE (zero new worlds, separate output
+  file, dual provenance) → V1B-NOGO: corrected S1 gaps NEGATIVE (−0.86 —
+  pause-bias exceeded the signal); best validated +0.045 (S2-frontload);
+  guards clean. Line CLOSED, no Phase B. ARENA contexts stand as the
+  licensed testbed for future mechanisms. Cumulative 7648 (V1b added
+  0 worlds). Full record: `docs/R_GAP_RESULTS_V1B.md`.
