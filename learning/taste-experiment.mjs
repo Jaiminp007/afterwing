@@ -10,7 +10,18 @@ import {chargeForStep,billSarsaWork,encodedStateBytes} from './sarsa-experiment.
 import {createTasteEnergyBody,chooseTasteEnergyAction,observeTasteEnergyBody,freezeTasteEnergyBody,resetTasteEnergyBody,compactTasteEnergyBody,restoreTasteEnergyBody} from './taste-energy.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
-export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise']);
+export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent']);
+
+// R-GAP S2 schedule gate (plan docs/R_GAP_PLAN_V1A.md): per-tick acquisition
+// windows within each continual phase. frontload learns the first half of every
+// phase, recent the second half. Computed with plain JS (unbilled); skipped
+// updates bill nothing — the frozen-arm pattern, transfer-guard-monitored.
+// Unreachable unless the arm is named (default off).
+export function schedWindowOpen(arm,tickInPhase,phaseLen){
+  if(arm==='frontload')return tickInPhase<phaseLen/2;
+  if(arm==='recent')return tickInPhase>=phaseLen/2;
+  return true;
+}
 const fixed=arm=>['acceptCruise','acceptStationary','nativeFullCruise'].includes(arm);
 const canonical=value=>JSON.parse(JSON.stringify(value));
 const validSeed=value=>Number.isInteger(value)&&value>0&&value<=0xffffffff;
@@ -46,6 +57,11 @@ export class TasteExperiment{
       const phase=CONTINUAL_PHASES[this.phaseIndex];
       if(['B','C'].includes(phase.id)&&['frozen','reset'].includes(this.arm))for(const f of this.world.flies)(this.arm==='frozen'?freezeTasteEnergyBody:resetTasteEnergyBody)(this.learners[f.id]);
       this.resource=enterCuePhase(this.world,phase,this.history.resourceSeeds[this.phaseIndex],this.codebook);this.phaseEnd+=phase.ticks;
+    }
+    if(this.arm==='frontload'||this.arm==='recent'){
+      const phase=CONTINUAL_PHASES[this.phaseIndex],tip=this.world.tick-(this.phaseEnd-phase.ticks);
+      for(const f of this.world.flies){const s=this.learners[f.id];if(s.dead)continue;
+        if(schedWindowOpen(this.arm,tip,phase.ticks))s.acquisition=true;else freezeTasteEnergyBody(s);}
     }
     if(this.transfer)updateContinualResources(this.world,this.resource);else updateCueResources(this.world,this.resource);
     const family=this.transfer?'transfer':this.resource.family,stats=this.statistics[family]??={decisions:0,actions:[0,0,0,0],tasteExamples:0,beneficialEaten:0,toxinDamage:0,physicalCosts:0};
