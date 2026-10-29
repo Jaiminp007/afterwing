@@ -10,5 +10,11 @@ learning cannot? M2-reading + milestone-5 vehicle.
   + lineage read-only). Standing variation only (no mutation/inheritance —
   tests selection, not Lamarckism). Stage 0 feasibility gate inside the
   single attempt (≥1 birth or INVALID-FEASIBLE).
-- Next: implement instrument + fixtures + triage, pre-build bank
-  388001–388054, then the single Phase-A attempt (12 mains, zero probes).
+- V1a (same turn): 3rd arm added (unlearned = true never-learns control;
+  frozen learns phase A only, newborns frozen outside A); 18 mains total.
+- 2026-10-29: Phase-A EXECUTED → INVALID-FEASIBLE, line CLOSED. Stage-0
+  triple (388001 × 3 arms) completed: 0 births anywhere; survivors 17/10/3
+  with deeply negative energies (thrash-and-starve WITH reproduction on).
+  1 crashed pre-invocation disclosed (missing helper, zero ledgered).
+  Gate worked as designed: 3 mains spent, bank preserved. Full record:
+  `docs/M_POP_RESULTS_V1.md`.

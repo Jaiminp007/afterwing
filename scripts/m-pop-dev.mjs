@@ -81,6 +81,10 @@ export function mPopDevBank(path){
 }
 // Lineage scoring (pure; exported for fixtures). rows: [{tag,history:{seed},
 // perLine:[{a:0|1 alive, d:descendants, g:maxGen}]}. totalBirths: ledgered.
+function checkMainIntegrity(endpoint,label){
+  assert.ok(Math.abs(endpoint.accountingResidual)<1e-7,`${label}: physical conservation failed`);
+  assert.ok(endpoint.scalarOperations<=BT_MAIN_OP_CAP,`${label}: main op ceiling breached`);
+}
 export function scoreMpop(rows,totalBirths){
   const perTag={};
   for(const t of P_ARMS){
