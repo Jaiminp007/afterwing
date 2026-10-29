@@ -7,6 +7,8 @@ and is there room/slowness worth intervening on?
   Verified read-only: decision records carry cue+action per tick, physical
   records carry beneficial/harmful intake per tick, observe records carry
   energy — a join collector suffices, NO new emitter needed.
-- Next: implement join collector + dev script + smoke, triage, bank
-  pre-build (386001–386054), then the single Phase-A attempt (24 mains,
-  zero probes) via module import.
+- 2026-10-29: V1a bank move (386xxx poisoned by M-POP exclusion record →
+  393001–393054, verified clean in all namespaces). Instrument implemented
+  (join collector + dev script, no engine changes); fixtures 5/5;
+  bank pre-built and verified; triage clean (6 shifted-pristine only).
+  Next: single Phase-A attempt (24 mains, zero probes) via module import.
