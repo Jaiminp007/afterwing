@@ -70,19 +70,12 @@ test('random control applies blindly with logged flip and only the draw billed',
   assert.equal(st.work.scalarOperations-before,7);
 });
 
-test('bank builds 36-unique on 398001-398036 and registers spent+self exclusions',()=>{
-  // Pre-spend build verification (converts to a rebuild-refusal guard after
-  // the authorized V1c spend, per the standing rule).
-  const dir=mkdtempSync(join(tmpdir(),'rsi-self-v1c-bank-'));
-  const p=rsiSelfV1cBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'rsi-self-v1c');
-  assert.equal(p.histories.length,4);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,36);
-  assert.equal(Math.min(...flat),398001);
-  assert.equal(Math.max(...flat),398036);
-  for(const s of [381001,388001,395019,396001,397001,398001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(rsiSelfV1cBank(join(dir,'protocol.json')),p);
+test('spent bank 398001-398036 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance: the V1c bank built cleanly pre-spend (verified
+  // 36-unique, range-exact, exclusions registered) and is now spent; the
+  // builder must refuse to rebuild it anywhere. Standing rule.
+  const dir=mkdtempSync(join(tmpdir(),'rsi-self-v1c-bank-guard-'));
+  assert.throws(()=>rsiSelfV1cBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
 
 test('hook bit-identity re-verified with six checkpoints on fixture world',()=>{
@@ -140,12 +133,12 @@ test('scorer V1c branches: GO+label, NOGOs, INVALID, INCOMPLETE',()=>{
   const go=scoreRsiSelfV1c([...goSelf,...goRand,...goFix]);
   assert.equal(go.go,true);
   assert.equal(go.g6label,'selection signal');
-  assert.ok(go.verdict.startsWith('PHASE-B-GO'));
+  assert.ok(go.verdict.startsWith('PHASE-C-GO'));
   assert.equal(go.persistent,8);
   assert.deepEqual([...go.persistItems].sort(),['gain','rate']);
   const flat=scoreRsiSelfV1c([...goSelf.map(r=>({...r,endpoint:{budgetAdjustedEnergyPerFounder:0.7}})),...goRand,...goFix]);
   assert.equal(flat.go,false);
-  assert.equal(flat.verdict,'PHASE-B-NOGO');
+  assert.equal(flat.verdict,'PHASE-C-NOGO');
   const bad=scoreRsiSelfV1c([...goSelf.map(r=>r.history.seed===398001
     ?{...r,proposals:r.proposals.map(q=>({...q,decision:'keep'}))}:r),...goRand,...goFix]);
   assert.equal(bad.go,false);
@@ -163,5 +156,5 @@ test('scorer V1c branches: GO+label, NOGOs, INVALID, INCOMPLETE',()=>{
   const revS=scoreRsiSelfV1c(revRows);
   assert.equal(revS.persistent,2);
   assert.equal(revS.go,false);
-  assert.equal(revS.verdict,'PHASE-B-NOGO');
+  assert.equal(revS.verdict,'PHASE-C-NOGO');
 });

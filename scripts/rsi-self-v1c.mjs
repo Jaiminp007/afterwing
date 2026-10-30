@@ -318,6 +318,6 @@ export function scoreRsiSelfV1c(rows){
   const g6label=!Number.isFinite(dSelf)?'NO-RANDOM-BASELINE':dSelf>S3_SEL_BAND?'selection signal':dSelf<-S3_SEL_BAND?'selection harmful':'no selection signal';
   const go=g1&&g2&&g3&&g4&&g5;
   return {g1,g2,g3,g4,g5,go,gap,adoptCp,keepCp,skipCp,persistent,persistItems:[...persistItems],selGap:dSelf,g6label,
-    verdict:go?`PHASE-B-GO [${g6label}]`:(!g1?'INVALID':(!g2?'INVALID':(!g4?'INCOMPLETE':'PHASE-B-NOGO'))),
+    verdict:go?`PHASE-C-GO [${g6label}]`:(!g1?'INVALID':(!g2?'INVALID':(!g4?'INCOMPLETE':'PHASE-C-NOGO'))),
     detail:slots.map(({seed,tick,n,adopts,keeps,skips})=>({seed,tick,n,adopts,keeps,skips}))};
 }
