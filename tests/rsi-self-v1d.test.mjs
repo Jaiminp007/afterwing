@@ -70,19 +70,12 @@ test('random control applies blindly with logged flip and only the draw billed',
   assert.equal(st.work.scalarOperations-before,7);
 });
 
-test('bank builds 72-unique on 400001-400072 and registers spent+self exclusions',()=>{
-  // Pre-spend build verification (converts to a rebuild-refusal guard after
-  // the authorized V1d spend, per the standing rule).
-  const dir=mkdtempSync(join(tmpdir(),'rsi-self-v1d-bank-'));
-  const p=rsiSelfV1dBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'rsi-self-v1d');
-  assert.equal(p.histories.length,8);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,72);
-  assert.equal(Math.min(...flat),400001);
-  assert.equal(Math.max(...flat),400072);
-  for(const s of [381001,388001,395019,396001,397001,398001,400001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(rsiSelfV1dBank(join(dir,'protocol.json')),p);
+test('spent bank 400001-400072 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance: the V1d bank built cleanly pre-spend and is now
+  // spent; the builder must refuse to rebuild it anywhere. Standing rule
+  // (fourth instance).
+  const dir=mkdtempSync(join(tmpdir(),'rsi-self-v1d-bank-guard-'));
+  assert.throws(()=>rsiSelfV1dBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
 
 test('hook bit-identity re-verified with six checkpoints on fixture world',()=>{
