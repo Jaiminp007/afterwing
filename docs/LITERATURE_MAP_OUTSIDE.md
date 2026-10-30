@@ -373,3 +373,42 @@ dynamics features from reward → transfer across goals. → Principled
   pattern; curriculum-via-curiosity framing for generated ecologies.
 - **Avalanches theory (2111.07479).** Scale-free cascades from interacting
   wave modes — background for the criticality lens above.
+
+## Round 8 — curricula, consensus, signaling games, modularity, culture
+
+- **Teacher-Student Curriculum (1707.00183).** Teacher samples subtasks by
+  LEARNING-PROGRESS SLOPE; revisits tasks where performance DROPS
+  (anti-forgetting). Solved an otherwise-unsolvable maze, 10x faster than
+  uniform. → THE scheduler for generated ecologies (Phase 2 of that line;
+  needs ecologies to schedule first).
+- **House-hunting trilogy (1505.03799, 1408.4487, 2105.00883).** Distributed
+  consensus with Ω(log n) bound; optimal via nest-size info; DDM individual
+  choice + quorum + recruitment; collective FAR less error-prone than
+  individuals. → Quorum-based consensus protocols for sociality (assess →
+  recruit → quorum → commit). Fourth independent arrival of drift-diffusion
+  (foraging, AIF, collective choice, house-hunting): DDM is THE canonical
+  individual decision mechanism — the leaky-integrator proposal is now
+  quadruply motivated.
+- **Signaling games (1103.5818, 2201.11680).** RL converges to shared
+  lexicons (no synonym+homonym correspondences); SUPERLINEAR feedback
+  (Metcalfe's law) matches linguistics. → Protocol learning rule: reinforce
+  successful communication superlinearly. Concrete update for channel-4.
+- **Modularity evolution (1211.5646, 1302.4267).** Modularity growth rate
+  tracks environmental FLUCTUATION rate (fluctuation-dissipation); PRODUCT-
+  rule (multiplicative) mutations → sparseness naturally, sum-rule does
+  NOT. → (a) Our A/B/C/return-A fluctuation SHOULD induce modularity
+  (taste blocks 4/5 already are modules?); (b) any resumed evolutionary
+  search must use product-rule mutations; (c) costly connections (our 96-dim
+  billing!) independently induce modularity — coherence check passed.
+- **CCE navigators (2206.06281).** Minimal architecture (goal-direction +
+  social proximity + route memory) SUFFICES for cumulative culture;
+  experienced+naive pairing improves BOTH (regression to the goal).
+  Lesioning proximity/memory kills it. → Design requirements for a future
+  lineage track: proximity sensing + route memory + cross-generational
+  pairing (not just inheritance).
+- **Pheromones→Policies (2509.20095).** Stigmergic signals = distributed RL
+  (cross-learning); persistent trails LOCK IN obsolete choices; a minority
+  of pheromone-INSENSITIVE explorers restores plasticity (heterogeneity as
+  design!). → Recruitment design with lock-in guard: keep an explorer caste
+  (reset/unlearned agents as functional explorers?); heterogeneity, not
+  uniformity, is the design principle.
