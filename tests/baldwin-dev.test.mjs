@@ -54,22 +54,20 @@ test('scorer INCOMPLETE-SATURATED (fast + censored control) + DESIGN-FAILURE',()
   assert.equal(vn.verdict,'DESIGN-FAILURE');
 });
 
-test('config switch: slowTaste iff rate>0; bank builds 36-unique on 402001-402036',()=>{
+test('config switch: slowTaste iff rate>0 (bank built cleanly pre-spend)',()=>{
   const off=createTasteEnergyBody(7,12345,{tasteRate:1});
   assert.equal(off.config.consolidationRate,0);
   assert.equal(off.weights.slowTaste,undefined);
   const on=createTasteEnergyBody(7,12345,{tasteRate:1,consolidationRate:0.001});
   assert.ok(Array.isArray(on.weights.slowTaste));
-  const dir=mkdtempSync(join(tmpdir(),'baldwin-bank-'));
-  const p=baldwinDevBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'baldwin-dev');
-  assert.equal(p.histories.length,4);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,36);
-  assert.equal(Math.min(...flat),402001);
-  assert.equal(Math.max(...flat),402036);
-  for(const s of [381001,400001,402001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(baldwinDevBank(join(dir,'protocol.json')),p);
+});
+test('spent bank 402001-402036 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance: the BALDWIN bank built cleanly pre-spend
+  // (36-unique, range-exact, exclusions registered — verified in the
+  // pre-spend run) and is now spent; the builder must refuse to rebuild
+  // it anywhere. Standing rule.
+  const dir=mkdtempSync(join(tmpdir(),'baldwin-bank-guard-'));
+  assert.throws(()=>baldwinDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
 
 test('return-A windowing: bounds, sustain requirement, censoring',()=>{
