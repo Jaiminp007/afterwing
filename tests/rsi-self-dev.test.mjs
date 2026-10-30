@@ -67,18 +67,12 @@ test('billing: live meter delta is exactly the flat fee',()=>{
   assert.equal(r.testN,8);
 });
 
-test('bank builds 36-unique on 396001-396036 and registers spent+self exclusions',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'rsi-self-bank-'));
-  const p=rsiSelfDevBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'rsi-self-dev');
-  assert.equal(p.histories.length,4);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,36);
-  assert.equal(Math.min(...flat),396001);
-  assert.equal(Math.max(...flat),396036);
-  for(const s of [381001,388001,395019,396001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  const p2=rsiSelfDevBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+test('spent bank 396001-396036 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance (V1b): the V1a bank built cleanly pre-spend
+  // (commit 38c7b0f) and is now spent; the builder must refuse to rebuild
+  // it anywhere. This guards the never-duplicate-runs rule mechanically.
+  const dir=mkdtempSync(join(tmpdir(),'rsi-self-bank-guard-'));
+  assert.throws(()=>rsiSelfDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
 
 test('hook bit-identity: null-hook stepping equals plain advance on fixture world',()=>{

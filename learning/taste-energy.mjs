@@ -16,7 +16,7 @@ function math(state){
 }
 function dot(state,w,x){const m=math(state);return w.reduce((sum,v,j)=>m.add(sum,m.mul(v,x[j])),0);}
 function sigmoid(state,value){const m=math(state);return m.div(1,m.add(1,m.exp(m.sub(0,value))));}
-function draw(state,key){state[key]=advanceRng(state[key]);state.work.scalarOperations+=6;return math(state).div(state[key],4294967296);}
+export function draw(state,key){state[key]=advanceRng(state[key]);state.work.scalarOperations+=6;return math(state).div(state[key],4294967296);}
 function indexDraw(state,key,n){const m=math(state);const value=m.mul(draw(state,key),n);state.work.scalarOperations++;return Math.floor(value);}
 function clip(state,value,bound=8){const m=math(state);return m.max(-bound,m.min(bound,value));}
 
