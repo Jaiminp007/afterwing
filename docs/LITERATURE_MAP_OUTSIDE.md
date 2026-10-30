@@ -210,3 +210,50 @@ Each entry: what it says → what it means for us.
    + online Bayesian selection instead of weight relearning.
 6. **MCC-style minimal mating gate** — replace the 6-condition gate with
    one survival milestone (feeds the actuation line's Option B refinement).
+
+## Round 4 — consolidation neuroscience, drift, credit assignment, foraging
+
+- **EWC nuts-and-bolts (2105.04093).** Fisher-weighted consolidation:
+  protect what mattered, not everything equally. → Upgrades BALDWIN:
+  importance-weighted slow weights with OUR surpriseEma as the importance
+  proxy (surprising = informative = worth protecting). Concrete V1b.
+- **CTDL (1905.02636) + CLS-ER (2201.12604).** Fast pattern-separated
+  (SOM, TD-updated) + slow distributed (DNN); dual semantic memories,
+  no task boundaries. → Our architecture is INVERTED (fast distributed,
+  slow averaged, no separation; streams=1). Architecture direction: give
+  the fast system pattern separation.
+- **Normative patch foraging (2004.10671) + evidence accumulation
+  (1809.05023).** Bayesian residence times; drift-diffusion patch
+  decisions (drift rate + threshold = strategies). → Our greedy 0.5
+  threshold is a degenerate DDM with zero accumulation. New decision
+  mechanism: leaky cue integrator + threshold (small instrument change,
+  testable). MVT as the normative bar for the foraging line.
+- **World Models unlock foraging (2512.12548).** Model-based agents
+  converge to MVT; anticipation > reward-max. Reinforces dream-model
+  evaluation + MVT bar.
+- **COMA (1705.08926).** Counterfactual baselines (marginalize one
+  agent's action) for multi-agent credit assignment; centralized training,
+  decentralized execution — our runner IS centralized. → How a fly knows
+  if ITS signal helped. Concrete MARL design for sociality.
+- **QMIX (1803.11485).** Monotonic team-value factorization — needs a team
+  objective we lack (total biomass?). Conditional note.
+- **Hanabi conventions (2412.06333).** Augment action space with opt-in
+  multi-step cooperative conventions. → Formal precedent for courtship-as-
+  convention (MATE-ACT Phase 2): predefined opt-in sequences over existing
+  channels. Strengthens Option C.
+- **Phylogenetic diversity (2108.12586).** Lineage-aware metrics predict
+  EA success better than richness/evenness. → QD the archive by
+  LINEAGE, not just behavior.
+- **From knowledge (flagged, not arXiv-fetched): Lynch drift-barrier —
+  selection cannot beat drift in tiny populations. OUR n=24 founders with
+  ±0.07-level effects is a DRIFT-DOMINATED regime by population genetics,
+  independent of mechanism.** This reframes V1d's null a third way
+  (saturated substrate AND drift-dominated sampling) and re-prioritizes
+  population size with quantitative teeth: selection needs N≫24 or
+  effects ≫ drift. Yet another reason mating matters.
+- **From knowledge: MODES toolbox (Dolson et al.) — change/novelty/
+  complexity potential metrics, runnable on frozen artifacts; Keramati
+  homeostatic RL (setpoint defense — our energy billing IS a homeostatic
+  loop); Mirollo-Strogatz pulse sync (decentralized coordination
+  primitive for channel 4); RIAL (discrete emergent comm — ours would be
+  RIAL-style, no differentiability needed).
