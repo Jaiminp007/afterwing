@@ -211,6 +211,43 @@ Each entry: what it says → what it means for us.
 6. **MCC-style minimal mating gate** — replace the 6-condition gate with
    one survival milestone (feeds the actuation line's Option B refinement).
 
+## Round 5 — replay upgrades, plasticity, collective decisions, foraging theory
+
+- **PER (1511.05952) + ReaPER (2506.18482).** Prioritize replay by
+  significance (TD-error), reliability-adjusted. → OUR replay is uniform +
+  tournament; the knobs EXIST (`replaySkip`, `replaySurpriseGain` — both 0).
+  Concrete config-only line: surprise-prioritized replay (replay what
+  surprises). Upgrades exactly the machinery V1c proved load-bearing.
+- **HER (1707.01495).** Relabel failures with achieved goals (implicit
+  curriculum for sparse rewards). → Less applicable (our rewards are dense),
+  noted.
+- **Universal SF (2001.04025) + limitations (1708.00102).** Decouple
+dynamics features from reward → transfer across goals. → Principled
+  redesign for the transfer line (R-GAP failed on billing AND on
+  entanglement). Bigger machinery; future.
+- **Differentiable plasticity (1804.02464) + Backpropamine (2002.10585).**
+  LEARN the plasticity rule (Hebbian coeffs + neuromodulatory gating) —
+  outperforms static on maze exploration + meta-learning. → Our rule is
+  hand-designed; the menu could include PARAMETERIZED plasticity tuned by
+  the in-agent loop itself (per-weight rates, not global dials). V1e-shaped.
+- **Neuromodulated Meta-Learning (2411.06746).** Flexible per-task
+  structure; no universal pattern. → Our streams=1 everywhere; structure
+  knobs (streams, hysteresis, controller) unexplored. Architecture vein.
+- **AIF-DDM (2508.04435).** Active inference + drift-diffusion; effort =
+  habit-vs-optimal conflict. → Full formalism for the DDM decision
+  mechanism (round 4): leaky evidence + conflict-metered threshold.
+- **Alignment-free evasion (2509.11083).** Attraction+repulsion WITHOUT
+  alignment suffices for collective evasion. → Social coordination needs
+  only simple local rules — SIMPLIFIES recruitment design (no complex
+  protocol).
+- **Hanabi conventions + QMIX + COMA (already mapped round 4, abstracts
+  confirmed).** Conventions = opt-in multi-step cooperative actions;
+  QMIX monotonic team factorization (needs a team objective we lack);
+  COMA counterfactual baselines (our runner is centralized training
+  already). MARL toolkit for the sociality track, ordered by readiness:
+  conventions first (design-only), COMA second (needs team reward),
+  QMIX last (needs factorization machinery).
+
 ## Round 4 — consolidation neuroscience, drift, credit assignment, foraging
 
 - **EWC nuts-and-bolts (2105.04093).** Fisher-weighted consolidation:
