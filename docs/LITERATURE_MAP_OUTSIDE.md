@@ -454,3 +454,39 @@ dynamics features from reward → transfer across goals. → Principled
 - **Flocking + turning (1403.1202) + Vicsek foundations.** Polarized turns
   via conserved rotational info; Vicsek dissipates it. → Our per-agent
   turning discards coordination info; collective turning is unexplored.
+
+## Round 10 — formal plasticity, development guides evolution, social allostasis
+
+- **Evolutionary Le Chatelier (2607.20915).** Plasticity (fast) + genetic
+  assimilation (slow relaxation of self-generated stress) via timescale
+  separation IN THE PRICE EQUATION. → FORMALIZES the BALDWIN design
+  (fast weights = plastic displacement; slow = relaxation) that V1 tested
+  with a void metric. V1b (importance-weighted, proper reference) now has
+  a formal backbone, not just intuition.
+- **Differential canalization (1711.07387).** Only robustness-conferring
+  traits assimilate; CONTROLLERS keep tinkering within permissive BODIES.
+  → Profound scoping result: bodies SHOULD be stable, controllers plastic —
+  our fixed bodies + plastic weights match the ENDPOINT, not a limitation.
+  Reframes body-transfer: evolve bodies for robustness, never for policy.
+- **Surprise-as-stress (2406.08471).** Cortisol-like stress hormone as
+  allostatic mediator of prediction errors. → Concretizes the chain:
+  surpriseEma = cortisol analog gating consolidation. Implementable
+  neuromodulation, no new machinery.
+- **Social allostasis (2508.12791).** Leverage environmental AND SOCIAL
+  noise for reconfiguration (cortisol + oxytocin analogues). → Social
+  signals as REGULATORY inputs, not just information. Oxytocin-analog =
+  affiliation channel design.
+- **Plasticity-led GRN review (2208.00649).** GRNs ≈ RNNs; criteria
+  checklist for claiming plasticity-led adaptation. → Audit standard for
+  any future Baldwin claim.
+- **Darwinian→Lamarckian holobiont (1612.03567).** Two-level selection
+  produces inheritable acquired adaptation. → Formal justification for
+  V1b-with-vertical-transmission (transmit slowTaste, not just births);
+  transmission-mode tracking per RITHMS (2502.07366).
+- **Clune modularity (1207.2743) + rate effect (1501.04708).** DIRECT
+  selection on connection COST → modular + evolvable networks; horizontal
+  transfer couples with modularity. → Our 96-dim billing ALREADY imposes
+  the modularity pressure (unmeasured — weights aren't archived; note as
+  instrumentation gap). Supports cross-lineage transfer design.
+- **Developmental world models (2301.05832).** Dream + predictive coding
+  for cognitive development. Reinforces dream-model evaluation.
