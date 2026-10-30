@@ -63,15 +63,10 @@ test('founder plumbing: 72-founder construction runs; flag default is null',()=>
   assert.equal(b.endpoint().scalarOperations,a.endpoint().scalarOperations);
 });
 
-test('bank builds 36-unique on 403001-403036 and registers spent+self exclusions',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'mate-dense-bank-'));
-  const p=mateDenseDevBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'mate-dense-dev');
-  assert.equal(p.histories.length,4);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,36);
-  assert.equal(Math.min(...flat),403001);
-  assert.equal(Math.max(...flat),403036);
-  for(const s of [381001,400001,402001,403001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(mateDenseDevBank(join(dir,'protocol.json')),p);
+test('spent bank 403001-403036 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance: the MATE-DENSE bank built cleanly pre-spend and
+  // is now spent; the builder must refuse to rebuild it anywhere.
+  // Standing rule (seventh instance).
+  const dir=mkdtempSync(join(tmpdir(),'mate-dense-bank-guard-'));
+  assert.throws(()=>mateDenseDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
