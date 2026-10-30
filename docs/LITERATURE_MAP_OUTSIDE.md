@@ -412,3 +412,45 @@ dynamics features from reward → transfer across goals. → Principled
   design!). → Recruitment design with lock-in guard: keep an explorer caste
   (reset/unlearned agents as functional explorers?); heterogeneity, not
   uniformity, is the design principle.
+
+## Round 9 — immunity, individuality, heuristics-as-inference, courtship honesty, quorum physics
+
+- **Emergence of Individuality (2006.05842).** Intrinsic reward for being
+  IDENTIFIABLE (classifier predicts agent from observation); promotes
+  behavioral diversity in MARL, beats baselines. → Direct attack on our
+  all-arms-identical uniformity: reward agents for being distinguishable.
+  Implementable (classifier agent←behavior + self-prediction bonus).
+  Genuinely new objective for the program.
+- **Danger Theory AIS (0801.3549).** Respond to DAMAGE signals, not
+  non-self. → Our deaths are energy-depletion (endogenous danger already
+  logged: harmfulEaten, toxinDamage, crashes). Trigger protection /
+  consolidation on damage, not novelty — different trigger than
+  surprise-gating, using existing signals.
+- **Free Energy Heuristics (2606.15877).** PROVEN: active inference under
+  uncertain precision IS take-the-best (fast-and-frugal). Our greedy 0.5
+  threshold is ALREADY the optimal computation for high-meta-uncertainty
+  environments; more deliberation manufactures false confidence. →
+  Converts the decision-machinery closure from empirical ("we failed to
+  improve it") to THEOREM-BACKED ("improvement by deliberation is provably
+  wrong here"). The V1a–V1d arc ends in a theorem, not just a null.
+- **Volvocine phototaxis (2207.10405).** Adaptive response TUNED to the
+  colony's rotation period (separation of timescales). → Principle:
+  adaptation rates should match ecology timescales (our 512-tick phases).
+  Grounds tau/surprise-window choices mechanistically instead of
+  arbitrarily.
+- **Synthetic quorum sensing (2502.13919).** Density-conditioned motility →
+  absorbing transitions / atypical phase separation. → Density-gated
+  behavior (slow down when crowded; display only above density) is
+  physically grounded collective decision WITHOUT explicit protocol.
+  Implementable via existing Spatial machinery.
+- **Handicap → dimorphism (1509.08158).** Costly ornaments MUST be costly
+  to stay honest; dimorphism emerges. → Courtship displays should be
+  SEX-DIFFERENTIATED (males display, females choose) and energy-burning.
+  Upgrades Option C with Zahavian teeth.
+- **OML representations (1905.12588) + IB theory (2305.18887).** Learn
+  representations that accelerate FUTURE learning; IB controls
+  generalization error rigorously. → V1b material for consolidation (if
+  V1 ever goes); 96-dim billing already prices the IB tradeoff.
+- **Flocking + turning (1403.1202) + Vicsek foundations.** Polarized turns
+  via conserved rotational info; Vicsek dissipates it. → Our per-agent
+  turning discards coordination info; collective turning is unexplored.
