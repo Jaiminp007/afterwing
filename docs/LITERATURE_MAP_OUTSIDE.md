@@ -82,3 +82,76 @@ Each entry: what it says → what it means for us.
 3. Next substrate (proposed): generated ecologies (AI-GAs pillar 3), not
    new knobs in BT. This is the outside-the-box line the literature
    points to — frozen plan required before any bank contact.
+
+## Round 2 — lateral angles (researched 2026-10-30)
+
+- **POET (1901.01753).** Paired environment-agent coevolution; environments
+  generated challenging-but-solvable with stepping-stone TRANSFER between
+  problems. → Design for the generated-ecologies line: coevolve difficulty
+  with capability (not naive randomization), and transfer solutions across
+  ecologies — our lines never transfer anything but the base config.
+- **PowerPlay (1112.5309).** Continually invent the SIMPLEST still-unsolvable
+  task + the solver mod that solves it, provably retaining old skills. →
+  Task-generation rule with anti-forgetting built in; re-validation on all
+  prior tasks. Curriculum-shaped, VISION-shaped.
+- **MAP-Elites (1504.04909).** Illuminate, don't optimize: archive elites
+  across user-chosen behavior dimensions. → Directly applicable to OUR
+  frozen archive (7,500+ worlds): a QD archive over turn-profile /
+  foraging-signature dimensions would show diversity we HAVE but never
+  selected for. Zero new worlds. (Lehman & Stanley's abandon-objectives
+  lesson: our G-bars may CAUSE the saturation — archive behaviors instead.)
+- **Surprise Search (1706.02556).** Select deviation from EXPECTED behavior
+  (predictive model of search history); beats objective search. → We HAVE
+  surprise machinery (surpriseEma)! Select configs that SURPRISE the
+  predictor rather than minimize error — unexploitable the way our eval
+  was. Concrete future selection rule.
+- **World Models (1803.10122) + RWM for policy evolution (1809.01999).**
+  Train the agent ENTIRELY in its own dream, transfer back. → Fixes our
+  eval problem a third way (after live-only: overfits; faithful-mix:
+  honest but blind to counterfactuals): evaluate candidate configs by
+  dreaming. Our agents are tiny (11–96 dims) — a dream model at that
+  scale (next-obs MLP) is oddly tractable HERE.
+- **Cully et al. (1407.3501).** Precompute a behavior-performance MAP
+  offline (MAP-Elites), adapt online by Bayesian SELECTION over the map
+  (<2 min, no weight relearning). → M-RELEARN's ceiling (relearning costs
+  nothing) says our agents should adapt by SELECTION from a repertoire,
+  not gradient updates. New intervention class: repertoire + selection.
+- **Generative Agents (2304.03442).** 25 agents, memory + reflection →
+  emergent sociality (party spreading) with ZERO reproduction. → M5 does
+  NOT require mating. Lateral track: sociality via the EXISTING signal
+  channel (index 4, costed, currently constant 0) + co-location — decoupled
+  from the reproduction block entirely.
+- **Bedau/Ecolab (nlin/0004026).** Class-4 (unbounded diversity) needs
+  dynamics that reduce connectivity over time; conservative operators bound
+  diversity (class 1/2). → Our per-line ties (all arms ±0.07, reset≡
+  trained) read as class-1/2: no persistent adaptive activity. The
+  boundedness is in the OPERATOR (rate dials are ultra-conservative), not
+  the selection. To get class-3 dynamics we must REWIRE (new pathways —
+  e.g., actually wiring channels 3/4 to something), not re-tune.
+- **MCC, Brant & Stanley 2017 (GECCO, from knowledge).** Reproduce iff a
+  MINIMAL criterion is met (reach the goal at all, however badly), then
+  open-ended search. → The mating-gate alternative: replace our
+  6-condition gate with ONE survival milestone. Fires often, still
+  selective, preserves lineage.
+- **Polyworld, Yaeger (Alife, from knowledge).** Embodied mating via
+  COURTSHIP: approach + visual display + mutual acceptance; dances evolve.
+  → Agency-preserving mating WITHOUT overloading foraging actions: use
+  approach (movement, exists) + signal burst (channel 4, exists but dead)
+  + mutual proximity. New Option C for the actuation line (see below).
+
+## Outside-the-box moves now on the table
+
+1. **Mating Option C (courtship via channel 4)** — recommended primary for
+   the licensed actuation line: agency-preserving, no foraging confound
+   (unlike A), no agency removal (unlike B), ALife-precented. Uses two
+   channels that already exist (movement + signal).
+2. **QD archive of the frozen record** — zero new worlds; map what
+   behavioral diversity 7,500 worlds already contain.
+3. **Surprise-gated selection** — unexploitable successor to error-gated
+   adoption, using our own surprise machinery.
+4. **Dream-model evaluation** — candidate configs evaluated in a learned
+   forward model instead of replayed past.
+5. **Repertoire + selection adaptation** — MAP-Elites behavior map + online
+   Bayesian selection instead of weight relearning.
+6. **Sociality without mating** — signal channel + co-location → emergent
+   coordination; M5 decoupled from the reproduction block.
