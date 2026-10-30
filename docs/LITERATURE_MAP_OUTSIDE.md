@@ -211,7 +211,46 @@ Each entry: what it says → what it means for us.
 6. **MCC-style minimal mating gate** — replace the 6-condition gate with
    one survival milestone (feeds the actuation line's Option B refinement).
 
-## Round 5 — replay upgrades, plasticity, collective decisions, foraging theory
+## Round 6 — exploration machinery, transitions, communication learning
+
+- **Go-Explore (1901.10995) + Latent (2208.14928).** Remember states →
+  RETURN to the frontier without re-exploring → explore onward; works in
+  deterministic simulators (ours are seeded!). Latent version needs no
+  hand-designed cells. → Directly addresses M-RELEARN's ceiling (resets
+  cost nothing because behavior is already there): DON'T reset to zero,
+  return to the frontier. Our anchors (atA/atB/atC) are half the machinery;
+  missing: archive interesting states + relaunch FROM them. Concrete line.
+- **RIAL (1605.06676) + MACC (2006.07200) + comm review (1911.05438).**
+  Centralized learning, decentralized execution (matches our runner);
+  counterfactual credit for speakers; SOCIAL loss — agents must be trained
+  to LISTEN, not just speak. Our protocol sketches only specify speaking.
+  Entropy-based protocol metrics; account signal costs (we bill energy!).
+- **Assembly Theory (2206.02279).** Assembly Index (minimal construction
+  steps) × copy number = selection quantified. → Formalizes our
+  replication logic: TURN-GATE 6/6 = high copy number = genuine selection;
+  V1c +0.21 (n=4, vanished at n=8) = low assembly = noise. Use AT as the
+  language for future GO bars.
+- **Autocatalytic structure (1205.0584).** Decompose into subsets;
+  evolvability/enablement/emergence; applies to entire ecologies. → Our
+  lines ARE autocatalytic subsets (each verdict enables the next plan).
+  Look for the program's autocatalytic CORE (what self-sustains?).
+- **MLS assortment/reciprocity (1910.06933).** Within-group mechanisms
+  SYNERGIZE with between-group selection. → Our 8 histories are already
+  isolated lineages (groups!); program-level line selection IS group
+  selection. Formal MLS framing for "select at the right level."
+- **First major transition, MLS view (2608.22348).** Transition REQUIRES
+  coupling replication to division + suppressing pure-replication
+  selection. Replicators (selfish) + reproducers (compartments) must unite.
+  → Deepest diagnosis yet: our system has NEITHER half (weights aren't
+  inherited; flies can't divide). VERIFIED in code: `syncNewbornLearners`
+  (`taste-experiment.mjs:34-49`) creates newborns with FRESH ZERO weights
+  — no vertical transmission. So even MATE-ACT V1 births would NOT cross
+  the transition. Phase 2 MUST wire inheritance (parental weights ±
+  mutation), not just birth events. This reframes the whole mating track.
+- **Minimax-regret UED refinement (2402.12284).** Regret-maximizing levels
+  STAGNATE at the bound; BLP/ReMiDi continues learning. → Design rule
+  for generated ecologies: naive regret saturates (like our G-bars);
+  require level-perfect refinement.
 
 - **PER (1511.05952) + ReaPER (2506.18482).** Prioritize replay by
   significance (TD-error), reliability-adjusted. → OUR replay is uniform +
