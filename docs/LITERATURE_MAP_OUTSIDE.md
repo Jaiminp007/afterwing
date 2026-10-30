@@ -491,7 +491,7 @@ dynamics features from reward → transfer across goals. → Principled
 - **Developmental world models (2301.05832).** Dream + predictive coding
   for cognitive development. Reinforces dream-model evaluation.
 
-## Round 10 — bet-hedging, predictive coding, stickiness, developmental evaluation
+## Round 11 — bet-hedging, predictive coding, stickiness, developmental evaluation
 
 - **Extinction in bet-hedging models (2406.11482).** KEY NUMBER: a 4x
   population increase beats switching from max-growth to min-extinction
@@ -524,3 +524,27 @@ dynamics features from reward → transfer across goals. → Principled
 - **Honest misses (disclosed, NOT cited):** 1803.08829 fetched as comets,
   not symbol emergence (search-index collision — dropped); IB-control
   query duplicated round-5 hits (no new content).
+
+## Round 11 — dream-model limits, canalization, embodiment scaling
+
+- **MuZero interpretability (2306.00840, 2411.04580).** Value-equivalent
+  models (not reconstruction); dynamics degrade over long sims but
+  planning corrects errors; better latents in board games than Atari. →
+  Recipe for dream-model evaluation: value-equivalent, SHORT horizon +
+  replan, don't trust long rollouts. Direct implementable constraints.
+- **Morphological computation vs integrated info (2108.00904).**
+  ANTAGONISTIC: more body-computation → less brain-integration needed.
+  → Formal backing for simple controllers: our greedy threshold exploits
+  body+ecology computation; learned weights add integration load without
+  proportional gain. Keep brains simple ON PURPOSE.
+- **Embodiment scaling (2505.05753).** 1000 embodiments; cross-embodiment
+  generalization beats data scaling; morphology co-design. → Redesigns
+  VISION M4: train ACROSS many bodies, not transfer once to P/Q. Our
+  body-transfer line tested the weak version.
+- **Canalizing networks (q-bio/0701025, 1902.00056, 1101.1893, CANA).**
+  Fitness = attractor robustness → global max always reachable, huge
+  neutral spaces; canalizing depth controls attractor counts/basins;
+  modular RBNs nearer criticality with more attractors. → Lens on frozen
+  behavior: V1d stampede = HIGH canalization (one attractor); CANA
+  tooling exists for measuring it. New runs could map policy attractors
+  per arm — a repurposing of the WHAT-RETAINS line with teeth.
