@@ -490,3 +490,37 @@ dynamics features from reward → transfer across goals. → Principled
   instrumentation gap). Supports cross-lineage transfer design.
 - **Developmental world models (2301.05832).** Dream + predictive coding
   for cognitive development. Reinforces dream-model evaluation.
+
+## Round 10 — bet-hedging, predictive coding, stickiness, developmental evaluation
+
+- **Extinction in bet-hedging models (2406.11482).** KEY NUMBER: a 4x
+  population increase beats switching from max-growth to min-extinction
+  strategy; agent models converge to collective behavior only at N>=100
+  (ours: N=24 — BELOW the threshold where collective models even apply).
+  → Stop tuning strategy, grow N. Strongest quantitative support yet for
+  the population track; our lines tune dials in a regime where dials
+  provably matter less than headcount.
+- **Bet-hedging expanding populations (1810.01142).** Bet-hedging favored
+  in colonizing/spatially-structured populations, NEVER in well-mixed
+  ones. → Our well-mixed ecology selects AGAINST diversification; frontier
+  or patch-structured ecologies would select for it. Design note for
+  generated ecologies (spatial structure first, then diversity).
+- **Division of labour → multicellularity (1111.4597).** Mathematical core:
+  compartmentalizing incompatible processes creates new fitness maxima
+  (unicellular optima become saddles); transition evolves via ONE heritable
+  parameter — STICKINESS (adhesion propensity). → Concrete minimal knob
+  for our transition: heritable co-location affinity; select on group
+  output. Plus: our generalist flies (forage+learn+reproduce in one body)
+  may needCASTES (foragers vs reproducers) — division of labour as the
+  unlock, not better generalists.
+- **Predictive coding theories (2112.10048) + active PC (2210.13461).**
+  Rao-Ballard hierarchy (top-down predictions, bottom-up errors);
+  hierarchical world models + compositional representations + planning.
+  → Organizes our surprise machinery hierarchically (cue-level vs
+  value-level errors); reinforces dream-model evaluation.
+- **SEDRo (2009.01810).** Developmental test battery (fetus→12mo) as
+  evaluation. → Evaluate developmental PROGRESSION (our A/B/C/return-A as
+  a crude battery), not just endpoints.
+- **Honest misses (disclosed, NOT cited):** 1803.08829 fetched as comets,
+  not symbol emergence (search-index collision — dropped); IB-control
+  query duplicated round-5 hits (no new content).
