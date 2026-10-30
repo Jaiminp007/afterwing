@@ -94,7 +94,7 @@ function checkMainIntegrity(endpoint,label){
   assert.ok(Math.abs(endpoint.accountingResidual)<1e-7,`${label}: physical conservation failed`);
   assert.ok(endpoint.scalarOperations<=BT_MAIN_OP_CAP,`${label}: main op ceiling breached`);
 }
-export function runMateEnergyDev({bankPath,output,resume=false}){
+export function runMateInheritDev({bankPath,output,resume=false}){
   const sources=mateInheritDevSources();
   const bankPathAbs=resolve(bankPath),outputAbs=resolve(output);
   const p=mateInheritDevBank(bankPathAbs);
