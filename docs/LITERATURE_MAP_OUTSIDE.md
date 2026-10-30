@@ -333,3 +333,43 @@ dynamics features from reward → transfer across goals. → Principled
   loop); Mirollo-Strogatz pulse sync (decentralized coordination
   primitive for channel 4); RIAL (discrete emergent comm — ours would be
   RIAL-style, no differentiability needed).
+
+## Round 7 — curiosity, criticality, homeostasis, collective transition physics
+
+- **Episodic curiosity via reachability (1810.02274).** Novelty bonus =
+  environment steps to reach the observation from memory (dynamics-aware);
+  defeats couch-potato self-gratification. → Our exploration is TAXED
+  (M-ORIGIN), never bonused; prediction-error bonuses would fail HERE
+  (stochastic ecology → noise-chasing). Reachability, not prediction error,
+  is the design that survives our setting.
+- **Large-scale curiosity (1808.04355).** Pure curiosity aligns with
+  hand-designed rewards; random features suffice; FAILS in stochastic
+  setups. → Second vote for reachability-over-prediction-error in our world.
+- **Maximum dynamic range at criticality (0906.0527) + foundations
+  (2306.05635) + avalanches review (2111.07479).** Critical state maximizes
+  input dynamic range via E/I balance; deviations = frozen or stampede. →
+  DIAGNOSTIC LENS on V1d (queued analysis, zero new worlds): 47/48 adopts
+  at ONE checkpoint is a supercritical stampede, not 47 independent votes —
+  effective N ≈ checkpoints-with-variation, not agent-decisions. Would
+  dissolve the residual mystique around "28 persistent adopts" (correlated
+  copies of boundary events). Strengthens the closure honestly.
+- **SPICED (2509.17439).** Synaptic homeostasis: strengthen discriminative
+  traces, WEAKEN detrimental ones, RENORMALIZE globally, preferentially
+  replay discriminative traces. → Three upgrades beyond our consolidation:
+  (a) renormalization pass (we only ever ADD learning — no homeostatic
+  set-point), (b) discriminative replay prioritization (ours is
+  uniform+tournament), (c) suppress detrimental replay. (a) is most novel.
+- **Snowflake yeast geometry (1802.03615) + E. coli self-organization
+  (2503.03001).** Physical constraints (packing, stress) shape the path
+  more than selection does. → For mating: ENCOUNTER RATE (26-unit radius
+  in 1000×640 with 24 diffusing flies) may be the binding constraint —
+  even with the channel fixed, births could be vanishingly rare. Reframes
+  MATE-ACT V1's NOGO branch in advance: "no births" may mean "no
+  encounters" → density/ecology, not gating. (Analytic encounter-rate
+  estimate possible from diffusion; queued.)
+- **Emergence of structured behaviors (1802.07461) + curiosity survey
+  (1802.10546).** Adversarial challenge of the world model → ego-motion,
+  attention, gathering, WITHOUT extrinsic reward. → Developmental play
+  pattern; curriculum-via-curiosity framing for generated ecologies.
+- **Avalanches theory (2111.07479).** Scale-free cascades from interacting
+  wave modes — background for the criticality lens above.
