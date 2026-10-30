@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import {mkdtempSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
-import {TasteExperiment} from '../learning/taste-experiment.mjs';
+import {TasteExperiment,syncNewbornLearners} from '../learning/taste-experiment.mjs';
 import {BT_LEARNER_OPTIONS,BT_PRICING} from '../scripts/body-transfer.mjs';
 import {mateEnergyDevBank,scoreMateEnergyRows} from '../scripts/mate-energy-dev.mjs';
 
@@ -62,15 +62,27 @@ test('bar plumbing: default 65, explicit passthrough, short runs complete',()=>{
   assert.equal(a.endpoint().scalarOperations,d.endpoint().scalarOperations);
 });
 
-test('bank builds 36-unique on 404001-404036 and registers spent+self exclusions',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'mate-energy-bank-'));
-  const p=mateEnergyDevBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'mate-energy-dev');
-  assert.equal(p.histories.length,4);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,36);
-  assert.equal(Math.min(...flat),404001);
-  assert.equal(Math.max(...flat),404036);
-  for(const s of [381001,400001,402001,404001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(mateEnergyDevBank(join(dir,'protocol.json')),p);
+test('syncNewbornLearners aligns tick (post-crash regression guard)',()=>{
+  // Attempt-01 crashed on its first birth: newborn learners carried
+  // lastObservedTick 0 into a mid-run world, tripping the tick-alignment
+  // assert on first choose. The fix initializes alignment at creation;
+  // null-default (no newborns -> no-op; verified by unchanged triage).
+  const run={world:{tick:512,flies:[{id:7,brainSeed:5}]},learners:{},
+    arm:'candidate',learnerOptions:{...BT_LEARNER_OPTIONS}};
+  const n=syncNewbornLearners(run);
+  assert.equal(n,1);
+  const s=run.learners[7];
+  assert.ok(s);
+  assert.equal(s.lastObservedTick,512);
+  assert.equal(s.credit.tick,512);
+  assert.equal(s.dead,false);
+  const n2=syncNewbornLearners(run);
+  assert.equal(n2,0);
+});
+test('spent bank 404001-404036 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend: the MATE-ENERGY bank built cleanly pre-spend and is now
+  // in evidence; the builder must refuse to rebuild it anywhere.
+  // Standing rule (eighth instance).
+  const dir=mkdtempSync(join(tmpdir(),'mate-energy-bank-guard-'));
+  assert.throws(()=>mateEnergyDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });

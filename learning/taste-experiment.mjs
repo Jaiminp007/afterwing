@@ -43,6 +43,8 @@ export function syncNewbornLearners(run){
       if(run.arm==='unlearned')freezeTasteEnergyBody(s);
       else if(run.arm==='frozen'&&run.phaseIndex!==0)freezeTasteEnergyBody(s);
     }
+    s.lastObservedTick=run.world.tick;
+    if(s.credit)s.credit.tick=s.lastObservedTick;
     run.learners[f.id]=s;created++;
   }
   return created;
