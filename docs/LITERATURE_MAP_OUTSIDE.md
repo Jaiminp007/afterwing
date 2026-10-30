@@ -155,3 +155,58 @@ Each entry: what it says → what it means for us.
    Bayesian selection instead of weight relearning.
 6. **Sociality without mating** — signal channel + co-location → emergent
    coordination; M5 decoupled from the reproduction block.
+
+## Round 3 — coordination without reproduction, evo-devo, non-reward drives
+
+- **Baldwin: Meta-Learning by the Baldwin Effect (1806.07917) + Revival
+  (1702.08411).** Learning guides evolution; learned behaviors become
+  innate (genetic accommodation); learning ability itself is easily
+  selected for. → OUR `consolidationRate` is 0 EVERYWHERE — the slow-weight
+  tracking machinery exists, fully plumbed (`slowTaste`, replay-mode mutual
+  tracking, checkpoint validation), but never switched on. WHAT-RETAINS
+  closed direction-protection; consolidation (slow tracking) is a DIFFERENT
+  mechanism, never tested. Concrete line: consolidationRate ∈ {0, small,
+  large} × relearning/return-A-rebound metrics. Zero engine changes
+  (config knob only). The highest-value concrete proposal this round.
+- **Recruitment cascades (2610.24865).** Foraging recruitment as contagion:
+  finder triggers linear-threshold cascade on the communication network;
+  self-limiting via crowding; percolation decides local vs swarm-wide.
+  Emergent patch-leaving + Lévy search fall out untuned. → Design for the
+  signal channel: find → broadcast → threshold-follow. No mating needed.
+  Gives dead channel 4 a function.
+- **Emergent Comm + World Models (2002.09604).** Messages grounded in
+  PREDICTED future observations ("enhanced observation"); positive
+  signalling/listening losses. → Fuses our dream-model + communication
+  threads: signal = predicted food direction. Concrete protocol design.
+- **Iterated learning NIL (2002.01365).** Compositional protocols emerge
+  via transmission bottlenecks; give learning-speed advantages amplified
+  over generations. → Frames WHY lineage matters (cumulative culture) —
+  supporting argument for unblocking mating, not a workaround. (Warning:
+  2404.04286 — iterated learning also AMPLIFIES bias; errors compound.)
+- **Empowerment (1310.1863, 1406.1767).** Channel capacity actions→sensors
+  as task-independent utility; can motivate restructuring the environment
+  itself. → Alternative selection criterion (with surprise-search):
+  maximize future options. Implementable-ish via own transition counts.
+- **Stigmergy learning (1811.08210).** Indirect coordination via state
+  traces; distance-regulated. → Our food-depletion trails ARE stigmergic
+  traces; noted, secondary to direct recruitment.
+- **Quorum sensing (1412.7767).** Feedbacks resolve 2+ more density ranges.
+  → Design pattern for density-gated behavior (don't court when alone).
+  Relevant to mating-protocol efficiency.
+
+## New concrete moves (ranked)
+
+1. **Baldwin-consolidation line** — config-only, no engine work, sharp
+   hypothesis (slow tracking retains what direction-anchoring couldn't),
+   metrics exist (return-A rebound, relearning speed with headroom TBD).
+   Recommended next freeze.
+2. **Recruitment cascade via channel 4** — signal-on-find +
+   threshold-follow; sociality track without mating; gives channel 4 a job.
+3. **Surprise/empowerment-gated selection** — unexploitable successors to
+   error-gated adoption.
+4. **Dream-model evaluation** — evaluate candidates in a learned forward
+   model (counterfactual configs, not replayed past).
+5. **Repertoire + selection adaptation (Cully)** — MAP-Elites behavior map
+   + online Bayesian selection instead of weight relearning.
+6. **MCC-style minimal mating gate** — replace the 6-condition gate with
+   one survival milestone (feeds the actuation line's Option B refinement).
