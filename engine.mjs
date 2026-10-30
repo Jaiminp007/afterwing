@@ -80,7 +80,7 @@ export function brainStep(g,s,inputs,reward,learning){
 }
 export class World {
   constructor(config={}){
-    this.config={seed:42,founders:36,capacity:240,learning:true,mutation:true,nutrient:3,seasonal:true,ecology:'baseline',signalMode:'normal',controller:'hebbian',reproduction:true,...config};
+    this.config={seed:42,founders:36,capacity:240,learning:true,mutation:true,nutrient:3,seasonal:true,ecology:'baseline',signalMode:'normal',controller:'hebbian',reproduction:true,matingActionRequired:true,...config};
     validateConfig(this.config);if(['trace-actor','episodic-actor'].includes(this.config.controller))this.config.actorParameters=actorParameters(this.config.actorParameters);if(this.config.controller==='episodic-actor')this.config.episodicParameters=episodicBodyParameters(this.config.episodicParameters);this.rng=new RNG(this.config.seed);this.width=1000;this.height=640;this.tick=0;this.nextId=1;this.nextNode=HSTART+8;
     this.flies=[];this.food=[];this.obstacles=[{x:400,y:210,r:42},{x:620,y:415,r:55},{x:760,y:190,r:26}];
     this.lineage=[];this.events=[];this.history=[];this.nextEventId=1;this.capacityReached=false;
@@ -170,9 +170,10 @@ export class World {
     for(const f of dead){this.totals.dissipated+=f.energy;this.totals.deaths++;this.lineage.find(l=>l.id===f.id).died=this.tick;const cause=f.energy<=0?'energy':'age';this.totals.deathCauses ||= {energy:0,age:0};this.totals.deathCauses[cause]++;this.record('death',`Fly ${f.id} · ${cause==='energy'?'energy depleted':'lifespan reached'}`,{agentId:f.id,cause});}
     this.flies=this.flies.filter(f=>!dead.includes(f));
     const candidates=new Spatial(this.flies);const children=[];
+    const needAct=this.config.matingActionRequired??true;
     for(const f of this.config.reproduction?order:[]){
-      if(!this.flies.includes(f)||f.sex!==0||f.cooldown>0||f.energy<65||f.age<f.genome.traits.maturity||actions.get(f.id)[3]<=0)continue;
-      const mate=candidates.nearby(f,26).find(m=>m.sex===1&&m.cooldown<=0&&m.energy>=65&&m.age>=m.genome.traits.maturity&&actions.get(m.id)[3]>0);
+      if(!this.flies.includes(f)||f.sex!==0||f.cooldown>0||f.energy<65||f.age<f.genome.traits.maturity||(needAct&&actions.get(f.id)[3]<=0))continue;
+      const mate=candidates.nearby(f,26).find(m=>m.sex===1&&m.cooldown<=0&&m.energy>=65&&m.age>=m.genome.traits.maturity&&(needAct?actions.get(m.id)[3]>0:true));
       if(!mate)continue;
       if(this.flies.length+children.length>=this.config.capacity){this.capacityReached=true;this.record('capacity','Resource ceiling reached. Run paused; no births silently discarded.');break;}
       const {genome,changes}=inherit(f.genome,mate.genome,this.rng,()=>this.nextNode++,this.config.mutation);
@@ -193,11 +194,12 @@ export class World {
   snapshot(){return {schema:1,model:this.modelId(),challenge:challengeAt(this.config,this.tick),challengeHistory:this.challengeHistory||[],config:clone(this.config),width:this.width,height:this.height,metrics:this.metrics(),food:this.food,resourceCenters:this.resourceCenters,obstacles:this.obstacles,flies:this.flies.map(f=>({id:f.id,x:f.x,y:f.y,heading:f.heading,energy:f.energy,sex:f.sex,generation:f.generation,nodes:f.genome.nodes.length,color:f.genome.traits.color,lastFood:f.lastFood,signal:f.signal,actions:f.lastActions,inputs:f.lastInputs,energyCost:f.lastEnergyCost})),history:this.history,events:this.events.slice(-100),lineage:this.lineage.slice(-500),interface:{inputs:INPUTS,outputs:OUTPUTS}};}
   inspect(id){const f=this.flies.find(f=>f.id===id);return f?clone(f):{archived:this.lineage.find(l=>l.id===id)||null};}
   checkpoint(){return {schema:1,model:this.modelId(),world:clone({...this,rng:{state:this.rng.state},ecologyRng:{state:this.ecologyRng.state}})};}
-  static restore(data){validateCheckpoint(data);const w=Object.create(World.prototype);Object.assign(w,clone(data.world));w.rng=new RNG(data.world.rng.state);w.config.reproduction ??= true;w.config.controller ||= 'hebbian';if(['trace-actor','episodic-actor'].includes(w.config.controller))w.config.actorParameters=actorParameters(w.config.actorParameters);if(w.config.controller==='episodic-actor')w.config.episodicParameters=episodicBodyParameters(w.config.episodicParameters);w.config.ecology ||= 'baseline';w.config.signalMode ||= 'normal';w.resourceCenters ||= [{x:180,y:180},{x:800,y:450},{x:470,y:500}];w.ecologyRng=new RNG(data.world.ecologyRng?.state || ((w.config.seed^0x9e3779b9)>>>0));if(w.config.ecology==='relocation')w.nextRelocationTick ||= w.tick+500;w.nextEventId ||= Math.max(0,...w.events.map(e=>e.seq||0))+1;w.totals.deathCauses ||= {energy:0,age:0};w.totals.signalCost ||= 0;w.totals.signalExposure ||= 0;for(const f of w.flies){f.lastInputs ||= Array(IN).fill(0);f.lastActions ||= Array(OUT).fill(0);f.lastEnergyCost ||= 0;}return w;}
+  static restore(data){validateCheckpoint(data);const w=Object.create(World.prototype);Object.assign(w,clone(data.world));w.rng=new RNG(data.world.rng.state);w.config.reproduction ??= true;w.config.matingActionRequired ??= true;w.config.controller ||= 'hebbian';if(['trace-actor','episodic-actor'].includes(w.config.controller))w.config.actorParameters=actorParameters(w.config.actorParameters);if(w.config.controller==='episodic-actor')w.config.episodicParameters=episodicBodyParameters(w.config.episodicParameters);w.config.ecology ||= 'baseline';w.config.signalMode ||= 'normal';w.resourceCenters ||= [{x:180,y:180},{x:800,y:450},{x:470,y:500}];w.ecologyRng=new RNG(data.world.ecologyRng?.state || ((w.config.seed^0x9e3779b9)>>>0));if(w.config.ecology==='relocation')w.nextRelocationTick ||= w.tick+500;w.nextEventId ||= Math.max(0,...w.events.map(e=>e.seq||0))+1;w.totals.deathCauses ||= {energy:0,age:0};w.totals.signalCost ||= 0;w.totals.signalExposure ||= 0;for(const f of w.flies){f.lastInputs ||= Array(IN).fill(0);f.lastActions ||= Array(OUT).fill(0);f.lastEnergyCost ||= 0;}return w;}
 }
 export function validateConfig(c){
   if(c.cueForaging!==undefined&&(typeof c.cueForaging!=='boolean'||c.cueForaging&&(c.controller!=='episodic-actor'||c.episodicParameters?.actuator!=='move')))throw Error('Invalid cue-foraging configuration');
   if(c.reproduction!==undefined&&typeof c.reproduction!=='boolean')throw Error('Invalid reproduction setting');
+  if(c.matingActionRequired!==undefined&&typeof c.matingActionRequired!=='boolean')throw Error('Invalid mating-action requirement');
   if(c.controller!==undefined&&!['hebbian','trace-actor','episodic-actor'].includes(c.controller))throw Error('Invalid controller');
   if(c.actorParameters!==undefined){if(!['trace-actor','episodic-actor'].includes(c.controller))throw Error('Actor parameters require trace actor');actorParameters(c.actorParameters);}
   if(c.episodicParameters!==undefined){if(c.controller!=='episodic-actor')throw Error('Episodic parameters require episodic actor');episodicBodyParameters(c.episodicParameters);}
