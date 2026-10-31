@@ -142,5 +142,17 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   tournament+bundle triples fail-closed; direction-aware BH/HB splits +
   subsetGap + agentWork/sumManipulation tested; null-hygiene INVALID
   override + bundle VOID-condition in runner; BH ceiling no-claim kept.
-  Bank test → post-build refusal + read-only checks. Next: single
-  authorized attempt.
+  Bank test → post-build refusal + read-only checks.
+- 2026-10-26: Phase-F EXECUTED → **GO, WEAK-POSITIVE (below band)**. G1
+  join 1.00 x15; G0 train 0.819/0.823/0.812 (6th replication); G2a
+  uniform mean 0.566 (5th replication); G2b unlearned flat; seg1
+  mechanism replicates (5th time). Manipulation PERFECT: null arms all-
+  zero (no INVALID), bundle fired 627 live + 497 replay boosts.
+  Directional gaps HB: tournament +0.032/+0.051/+0.043 (mean +0.042),
+  bundle +0.074/+0.043/+0.074 (mean +0.064) — 6/6 positive but below
+  +0.1 band; same-val intact (~0.95), BH ceiling respected. Reading:
+  mechanism ENGAGES (right process, silent nulls, intact retention) at
+  INSUFFICIENT dose (~half segment-equivalent) → V1g escalates dose or
+  changes mechanism (not abandonment); selection-vs-boost inconclusive.
+  15 mains, all caps, `redone: []`. Cumulative 7590 (+15). Next: V1g
+  dose-escalation under its own frozen plan — not started, no RSI claim.
