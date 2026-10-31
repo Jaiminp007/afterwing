@@ -57,8 +57,8 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
   work:{scalarOperations:0,liveUpdates:0,replayUpdates:0},charge:{operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0}});
 
 export class TasteExperiment{
-  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none'}){
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal');
+  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null}){
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
@@ -67,6 +67,7 @@ export class TasteExperiment{
     this.world=new World({seed:history.seed,founders:reference.founders,capacity:240,reproduction:reproduction,matingActionRequired:matingActionRequired,matingEnergyBar:matingEnergyBar,verticalTransmission:verticalTransmission,mutation:false,learning:false,controller:'episodic-actor',
       actorParameters:reference.actorParameters,episodicParameters:{...reference.parameters,actuator:'move',memoryLearning:false,neuralLearning:false},
       nutrient:.4,seasonal:false,challenges:'off',cueForaging:true});
+    this.nutrientOverride=nutrientOverride;
     this.codebook=makeCueCodebook(history.cueSeed);this.founderIds=this.world.flies.map(f=>f.id);this.learners={};
     for(const id of this.founderIds){
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
@@ -76,6 +77,8 @@ export class TasteExperiment{
     this.startingEnergy=this.world.flies.reduce((n,f)=>n+f.energy,0);this.startingDebt=0;this.startingOperations=0;
     this.phaseIndex=0;this.phaseEnd=512;this.phaseRows=[];this.savedModels={};this.atA=null;this.atB=null;this.atC=null;this.probe=false;this.transfer=false;this.finished=false;
     this.statistics={};this.resource=enterCuePhase(this.world,CONTINUAL_PHASES[0],history.resourceSeeds[0],this.codebook);
+    // Optional constant-nutrient override (null = legacy phase table; probe paths untouched).
+    if(this.nutrientOverride!=null)this.world.config.nutrient=this.nutrientOverride;
     Object.defineProperty(this,'emit',{value:emit,writable:true,enumerable:false});
   }
   record(event){if(this.emit)this.emit(canonical({arm:this.arm,...event}));}
@@ -86,6 +89,7 @@ export class TasteExperiment{
       const phase=CONTINUAL_PHASES[this.phaseIndex];
       if(['B','C'].includes(phase.id)&&['frozen','reset'].includes(this.arm))for(const f of this.world.flies)(this.arm==='frozen'?freezeTasteEnergyBody:resetTasteEnergyBody)(this.learners[f.id]);
       this.resource=enterCuePhase(this.world,phase,this.history.resourceSeeds[this.phaseIndex],this.codebook);this.phaseEnd+=phase.ticks;
+      if(this.nutrientOverride!=null)this.world.config.nutrient=this.nutrientOverride;
     }
     if(this.reproduction)syncNewbornLearners(this);
     if(this.arm==='frontload'||this.arm==='recent'){
