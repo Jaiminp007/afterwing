@@ -690,3 +690,68 @@ codebook shuffles; replay's computational meaning; aneural computation).
   consolidation (noise; PER/HER/CLS stand), herding/information cascades
   (noise; quorum/recruitment-cascade coverage stands), Kuramoto sync
   (deferred — our stampede is common-shock, not coupled oscillation).
+
+## Round 15 — meta-learning cores, body variation, group selection, finite populations, degeneracy
+
+Load-bearing adjacent (gradient meta-learners we must position against)
+plus far-field (assortment, punishment, finiteness, degeneracy). One
+candidate (1910.06933, MLS assortment) caught by the anti-duplication
+grep — already mapped, dropped. Rule working as intended.
+
+- **MAML (1703.03400).** Finn: parameters explicitly trained so a few
+  gradient steps generalize to new tasks. → Our V1c transfer IS few-shot
+  adaptation (1792 ticks on a held-out codebook) with NO gradients and NO
+  outer loop — zeroth-order in-agent meta-learning. The comparison that
+  matters (future line, not claim): sample-efficiency of carried-weights
+  vs MAML-style initializations on the same transfer task.
+- **RL² (1611.02779).** Duan: slow RL learns a fast RL algorithm encoded
+  in RNN weights. → Our architecture inverted: FIXED update rule
+  (taste/actor critics), LEARNED weights. The RSI endgame — learning the
+  update rule itself — is RL²'s setup with evolution as the slow loop.
+  Frame V1b–V1d as characterizing the fast loop before attempting to
+  learn it (slow/fast split made explicit).
+- **Morphological variation in ER (2208.02809).** Carvalho: expose
+  controllers to morphological/sensor variation for robustness and
+  reality-gap crossing; method for choosing variation ranges. →
+  Variation-exposure = our shuffle logic applied to bodies/sensors.
+  Licensed (read-only, zero worlds): apply their range analysis to our
+  flip-count vs transfer data across frozen V1b–V1d rows — is the tax
+  proportional to variation distance?
+- **Morpho-evolution with learning (2411.18423).** Le Goff: co-generate
+  robot designs + controllers via EAs with intrinsic motivation. →
+  Body+controller co-design on the Vision trajectory (milestone 4
+  substrate + qualifier). Direction noted, no plan.
+- **Altruistic punishment + cultural MLS (2405.18419).** Cooney: punishment
+  and group competition in CONCERT promote cooperation where neither
+  suffices alone (Boyd/Gintis/Bowles/Richerson formalized). → Costly
+  mechanisms that stabilize cooperation — design vocabulary for the
+  courtship/recruitment channel (currently mechanism-free). With the
+  mapped 1910.06933 (assortment×group selection): structure + incentives,
+  both formalized, both unbuilt.
+- **Cooperation on networks (1003.0088).** Konno: b/c > ⟨knn⟩ (not ⟨k⟩);
+  regular graphs favor cooperation most. → Our encounter problem is
+  STRUCTURAL (0.05–0.15/main, P(0)~60%): who meets whom, how often.
+  Density was tried (MATE-DENSE backfired via energy); STRUCTURE ≠
+  density — assortment/topology is the untried axis. Licensed: assortative
+  encounter structures as a future mating-line knob.
+- **Finite populations destroy waves (2006.00397).** Griffin: finite
+  spatial replicator qualitatively differs from infinite (traveling waves
+  destroyed); fluid limit justifies diffusion terms. → Formal sibling for
+  our drift-barrier note: N=24 finite-size effects aren't just noise,
+  they're REGIME changes. Caution on all population-line interpretations;
+  infinite-population intuitions do not transfer.
+- **Degeneracy (0907.0510).** Whitacre: degeneracy (many-to-one
+  genotype→phenotype) builds neutral networks that ENABLE evolvability;
+  design principles decide whether robustness leads there. → Our
+  12-cue→binary-turn mapping is degenerate; same-val retention (0.95)
+  may ride neutral ridges while flips fall off them. Hypothesis-only
+  (needs genotype sampling we lack).
+- **Instrumentation demand (4th occurrence).** Rounds 12–14 plus this one
+  converge: archive per-agent weights (and replay buffers) at phase
+  boundaries. IB capacity, SR diagnostics, neutral-ridge analysis, GS
+  hyperparameter tests ALL need them. Stated once, firmly: the next
+  instrument that doesn't archive weights must justify the omission.
+- **Scope-note misses.** Hamilton/inclusive-fitness, Zahavi/costly
+  signaling, Waddington/assimilation, Gigerenzer/ecological-rationality
+  (concept already ours via FEH), Still thermo-of-prediction, herd
+  behavior, bio-sleep, autopoiesis, echo-state — journal-side or noise.
