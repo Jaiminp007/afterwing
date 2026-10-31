@@ -21,3 +21,13 @@
   built 426001–426054 (54 unique; synthetic fixture seeds moved to
   900021+ after a 426xxx collision was caught pre-build).
   Single authorized attempt NEXT (not executed this turn).
+- 2026-10-26: Phase-A EXECUTED → **MATE-SOCIAL-NOGO-V1** (go:false).
+  G1/G2 pass; copybest gen-2 = 1, maternal gen-2 = 1 (same history
+  426001, same founder lineage [7] both arms). Selection has nothing
+  to select on: gen-2 happens in 1/6 histories regardless of what's
+  transmitted → bottleneck is ENCOUNTERS, not transmission content.
+  V1 exact-copy neutral + V1b mutated-copy unconfirmed + V1c NOGO +
+  V1d not licensed + MATE-SOCIAL NOGO = transmission-mechanism space
+  CLOSED. Future mating needs a new bottleneck (encounter rate:
+  quorum/aggregation/attraction/clumped-food), not a new copy rule.
+  No V2. Cumulative 7695 (+12).
