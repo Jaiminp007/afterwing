@@ -2927,3 +2927,30 @@ USE 2x sensing. This round asks what the learning literature knows about that fa
   attempt-01 artifacts (lazy-regime read). If weights moved but behavior didn't, the
   limitation is downstream (actuation/policy), not feature-learning — discriminates
   the two failure loci without spending a seed.
+
+## Round 65 — suppression-as-evidence and its pitfalls (for ATTRACT-V1b's exact null; 2026-11-01)
+
+Motivation: V1b returned an EXACT null (5v5/27v27/22v22) under a proven-engaged knob.
+Mech-interp has a name for this situation and a catalog of ways it misleads.
+
+- **Activation patching best practices (arXiv:2309.16042v2 metrics+methods;
+  2311.17030v2 subspace illusion; 2606.27510v1 curse of multiple mediators;
+  2504.02976v1 localized-vs-distributed).** Patching (interchange intervention) is
+  the field's suppression test — and the literature's warning label reads directly
+  onto V1b: (a) the subspace ILLUSION — an intervention can appear to isolate a
+  component while the behavior routes elsewhere (our 0.5x patched sensing while
+  mating routed via proximity); (b) multiple mediators — patching one path misses
+  compensatory/f parallel paths (food-driven locomotion compensates sensing loss);
+  (c) metric/method consensus absent — no single patching readout is canonical.
+  The prescription imported: a suppression null must be accompanied by a POSITIVE
+  control showing the intervention CAN move the outcome somewhere (our scripted
+  two-fly proof is exactly this — and it held, localizing the null to the policy
+  level, not the knob).
+- **Deprivation designs (arXiv:1903.11915v1 early-deafness connectivity reshaping).**
+  The one arXiv-verified deprivation entry: removing a modality RESHAPES the rest
+  (no silent nulls in plastic systems). Our 1792-tick window may be too short for
+  reshaping — a second reason (besides the structural bypass) the exact null is
+  unsurprising. Dark-rearing/cavefish/Weber-law conjunctions return nothing on
+  arXiv (journal literature; OpenAlex 429) — logged, not pursued.
+- **Scope-note.** Lottery-ticket/lesion-classification (2008.12141v1) is applied
+  pruning, no causal-evidence methodology; dropped after screening.
