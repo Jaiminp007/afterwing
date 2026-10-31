@@ -1,15 +1,21 @@
-# TURN-GATE status (cue-conditioned turning replication)
+# TURN-GATE status (cue-conditioned turning, now transfer)
 
-Child of CUE-DISCRIMINATE (NOGO on pause; turn found post-hoc, unclaimed).
-Question: does the turn-gating replicate on a fresh bank?
+V1 GO (replication, 0.81-0.83, unlearned flat). Adjudicated: V1 phases use
+DISJOINT cue sets (A:0-3, B:4-7, C:8-11) with per-history shuffled valences —
+so V1 already proved cross-context learning; untested is SAME-agent transfer
+to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
+~9 decisive shared per pair; optimal disjoint cover totals 19).
 
-- 2026-10-29: `docs/TURN_GATE_PLAN_V1.md` FROZEN (DESIGN ONLY). Verified
+- 2026-10-26: `docs/TURN_GATE_PLAN_V1.md` FROZEN (DESIGN ONLY). Verified
   read-only: 10 arena contexts; S-GATE symmetric billing precedent;
   transfer 0.0 zero-control. Instrument: same join collector as CUE
-  (cue+action+intake per tick, no new engine code). Grid: 2 arms
-  (candidate/unlearned) × 6 histories = 12 mains, zero probes, fresh bank
-  395019–395072. Bars: G1 join ≥0.99; G2a candidate turn|harm−turn|ben ≥0.5
-  on ≥4/6; G2b unlearned flat ≤0.1 on ≥4/6 (else INVALID/NOGO, no second
-  run). Fixtures green (5/5: collector/join/labels/turn/4 scorer branches).
-  Triage clean (6 shifted-pristine failures only). Bank pre-built + verified.
-- 2026-10-29: Phase-A EXECUTED → **GO**. G1 join 1.00 everywhere; G2a turn|harm−turn|ben 0.81–0.83 on 6/6 histories (bar ≥0.5); G2b unlearned flat ≈0.00. 12 mains, all caps, no crash, no resume. Licensed follow-up PROPOSED (not started): V1b cue-conditioned avoidance training, needs its own frozen plan + fresh goal. Full record: TURN_GATE_RESULTS_V1.md.
+  (cue+action+intake per tick, no new engine code).
+- 2026-10-29: Phase-A EXECUTED → **GO**. G1 join 1.00 everywhere; G2a
+  turn|harm−turn|ben 0.81–0.83 on 6/6 histories (bar ≥0.5); G2b unlearned
+  flat ≈0.00. 12 mains, all caps, no crash, no resume.
+- 2026-10-30: Phase-B FROZEN as `docs/TURN_GATE_PLAN_V1B.md` (cross-history
+  transfer via in-memory checkpoint-carryover: 3 pairs × (train + transferred
+  test + unlearned test) = 9 mains on fresh bank 407001–407054 verified
+  clean — 406xxx held in reserve for V1c; G1 transplant-integrity +
+  G0 training gate + G2a ≥0.3 transfer gap + G2b unlearned flat; pairing
+  rule deterministic on frozen rows). Next: implement, then single attempt.
