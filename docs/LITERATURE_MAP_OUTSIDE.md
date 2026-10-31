@@ -911,3 +911,60 @@ point). Rule working (5th catch).
   information, GARD compositional inheritance, Waddington assimilation,
   Stearns life history, Hamilton inclusive fitness, Zahavi signaling —
   journal-side or noise. Surprise search correctly excluded (mapped).
+
+## Round 19 — islands, drift in subdivisions, genotype-phenotype navigability, NK ruggedness
+
+No duplications (all IDs grepped clean, including substring variants).
+Rate-limit lesson institutionalized: verify HTTP status per batch, pipe
+instead of temp files (MSYS/Windows temp mismatch), back off on 429
+rather than retry-looping.
+
+- **Dynamic island model (1801.01620).** Meng: spectral-clustering
+  islands with migration policies to preserve diversity against
+  convergence. → Our 6 histories ARE islands with ZERO migration. The
+  paper supplies the missing piece as design space, not prescription:
+  what migration topology/rate would connect our lineages without
+  collapsing their divergence? Licensed: island-with-migration as a
+  future mating-line topology (unblocks lineage mixing without
+  panmixia).
+- **Neutral drift in subdivided populations (q-bio/0606037).** Blythe:
+  fixation probabilities/times under drift in subdivided populations;
+  general formula via forwards-backwards duality; language change obeys
+  the same math as biology. → Two gifts: (1) fixation-time SCALING with
+  subpopulation count — how long a lineage needs to be observed before
+  drift-vs-selection is adjudicable (our N=24, 6-island design sits
+  inside this formalism); (2) the language parallel licenses treating
+  our transmitted weights as utterances (cultural-evolution math
+  applies directly to maternal copying). Licensed: compute expected
+  fixation times for our bank geometry (read-only, zero worlds).
+- **Phenotype-size distributions (1702.00351).** Manrubia: navigability
+  requires astronomically large genotype networks (same phenotype,
+  drift-connected); exhaustive counts for RNA/protein. → Our policies
+  are 3-float + tiny actor/critic maps — is the neutral network around
+  a working policy large enough to drift on, or is every step lethal?
+  This decides whether mutation (V1b's σ=0.05) explores or breaks.
+  Licensed: neutral-neighborhood sampling of frozen V1 weights
+  (read-only perturbation analysis, zero worlds) — measure the fraction
+  of ±σ neighbors that preserve transfer performance.
+- **Muddling through NK landscapes (2006.08333).** Chanda: under high
+  complexity (pervasive interdependence), cluster-local moves beat
+  global search; more clusters → better. → Small mutations are
+  cluster-local moves; our σ=0.05 is muddling, not jumping. Predicts
+  V1b's outcome shape: gradual improvement where the landscape is
+  locally smooth, stalls where epistasis is dense. The floor-attribution
+  follow-up (which cues resist) can now be framed as epistatic-density
+  mapping.
+- **NK fitness landscape, K/N→α regime (2508.12464).** Chen: statistical
+  physics of the Kauffman model at proportional epistasis. → The formal
+  sibling: as K/N grows, the landscape undergoes phase change to
+  uncorrelated ruggedness (no gradient to follow). Our cue codebooks
+  (12 cues × 4 bits interacting through one policy) sit somewhere on
+  this axis — unknown where. Licensed: estimate effective K/N from
+  frozen cue-ablation rows (read-only); if high, expect V1b's
+  single-step mutations to stall (needs recombination, not point
+  mutation — back to the mating line's deepest question).
+- **Scope-note misses.** DeWitt costs-of-plasticity, Ay predictive
+  information, GARD compositional inheritance, Waddington assimilation,
+  Stearns life history, Hamilton inclusive fitness, Zahavi signaling,
+  Der homeokinesis — journal-side or noise. EES proper unmapped (no
+  arXiv presence under multiple queries).
