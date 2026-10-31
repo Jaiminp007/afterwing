@@ -99,15 +99,15 @@ test('scorer NOGO / INVALID / INCOMPLETE-UNTRAINED branches',()=>{
   assert.equal(iu.verdict,'INCOMPLETE-UNTRAINED');
 });
 
-test('bank builds 54-unique on 407001-407054 and registers spent+self exclusions',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'turn-gate-v1b-bank-'));
-  const p=turnGateDevV1bBank(join(dir,'protocol.json'));
+test('spent bank 407001-407054 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-spend maintenance (V1c): the V1b bank built cleanly pre-spend and
+  // is now spent (attempt-02, verdict PHASE-B-GO, commit b253899); the
+  // builder must refuse to rebuild it anywhere. The committed bank itself
+  // remains valid (read-only check, no rebuild). This guards the
+  // never-duplicate-runs rule mechanically.
+  const p=turnGateDevV1bBank('evidence/turn-gated-dev/fresh-02/protocol.json');
   assert.equal(p.experiment,'turn-gated-dev-v1b');
   assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  assert.equal(Math.min(...flat),407001);
-  assert.equal(Math.max(...flat),407054);
-  for(const s of [381001,395019,396001,407001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.deepEqual(turnGateDevV1bBank(join(dir,'protocol.json')),p);
+  const dir=mkdtempSync(join(tmpdir(),'turn-gate-v1b-bank-guard-'));
+  assert.throws(()=>turnGateDevV1bBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
