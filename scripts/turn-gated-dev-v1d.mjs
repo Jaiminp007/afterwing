@@ -333,6 +333,7 @@ export function runTurnGatedDevV1d({bankPath,output,resume=false}){
           run.advance(BT_TICKS);
           row.endpoint=run.endpoint();checkMainIntegrity(row.endpoint,`transferred/${hTe.seed}`);
           row.summary=collector.summarize();
+          row.weights=snapshotWeights(run.learners);
           note(1,0,BT_TICKS,row.endpoint.scalarOperations);
           rows.push(row);
           writeOver(join(outputAbs,'rows',`${hTe.seed}-transferred.json`),row);
