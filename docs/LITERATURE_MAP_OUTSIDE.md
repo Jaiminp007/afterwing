@@ -2974,3 +2974,29 @@ outside theory of rate-vs-radius.
   429) — the qualitative prediction (encounter rate rises with radius AND speed,
   saturating) is used without citation; the risk (untestable at 3 dose points) is
   noted, not hidden.
+
+## Round 67 — simulators as do-operators (our method, formalized outside; 2026-11-02)
+
+Motivation: V1b executed a breadth-held food contrast — a matched interventional
+design. The external literature now names what the program has been doing.
+
+- **arXiv:2605.07467v1.** Physical Simulators as Do-Operators (causal discovery
+  under latent confounders with expensive first-principles Sims). → Our frozen-plan /
+  single-attempt / fresh-bank discipline IS a do-operator protocol: the simulator is
+  the intervention device, banks are exchangeability units, the single attempt is the
+  pre-registered do(). The paper's problem (latent confounders + costly Sims) matches
+  ours exactly (bank variance + ~15min/runs). Import: their confounding-robust
+  estimators (flow matching over simulation data) as the future upgrade path for our
+  pooled cross-bank narratives — currently descriptive only, by discipline.
+- **Matching designs (arXiv:2205.02224v1 matched restricted-mean-survival;
+  2511.23208v1 staggered-adoption matching; 2609.40051v2 proximal balancing).**
+  Matched/stratified designs identify effects by holding confounders constant. →
+  The V1b split pair (hubR2/spreadR2, breadth held) is a matched design with matching
+  on the DOSE variable — the strongest causal form the program has run. Recorded as
+  precedent: future adjudications should match on the established driver (here
+  breadth), not merely control the background.
+- **Scope-note.** Factorial/blocked-design theory (1907.02373v1, 2207.02397v3) and
+  agricultural frameworks (2603.09041v1) are adjacent but add no new constraint beyond
+  what the frozen-gate discipline already enforces (pre-registration > optimal
+  blocking at our n). Ideal-despotic/resource-defense conjunctions return nothing on
+  arXiv (journal literature; Emlen-Oring stays canon-cited).
