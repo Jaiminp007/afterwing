@@ -223,7 +223,7 @@ export function runMateInformedDev({bankPath,output,resume=false}){
         else{srcSnap={[donorId]:snapshotWeights(run.learners)[donorId]};row.donorDigest=digestWeights(srcSnap);row.donorFile=null;row.donorAgentId=null;}
         copyWeights(srcSnap,{[donorId]:run.learners[donorId]});
         const chk=checkTransplantIntegrity(srcSnap,{[donorId]:run.learners[donorId]});
-        assert.deepEqual(chk,[],'Transplant integrity failed for '+arm+'/'+history.seed+': '+chk.join(';'));
+        assert.ok(chk.ok,'Transplant integrity failed for '+arm+'/'+history.seed+': '+chk.violations.join(';'));
         row.donorId=donorId;row.appliedDigest=digestWeights({[donorId]:snapshotWeights(run.learners)[donorId]});
         assert.equal(row.appliedDigest,row.donorDigest,'Transplant digest mismatch for '+arm+'/'+history.seed);
         run.advance(BT_TICKS);
