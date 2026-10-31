@@ -19,7 +19,10 @@
   behavior 0.49 (learner-side lag + behavior lead). Threshold-plasticity
   freeze LICENSED (not executed); associability-reset freeze separately
   licensed by HB lag. Ledger 9/0/16128/387072/1.43e9, redone [].
-  Cumulative 7647 (+9). Pre-attempt instrument fix: BT_PROBE_OP_CAP
+  Cumulative 7647 (+9). 2026-10-26 λ-battery (LOSS_AVERSION_LAMBDA.md,
+  0 worlds): λ=|BH|/|HB|=2.95 exact (ranges non-overlapping) → prospect
+  theory confirmed; YD dose UNTESTABLE frozen (no dose series) → clean
+  gain-sweep line specified. Pre-attempt instrument fix: BT_PROBE_OP_CAP
   import (crash, zero worlds, partial dir removed); fixture moved to
   post-bank form (guard verified working).
 - 2026-10-26 CORRECTION (same day, zero new worlds): scorer inverted
