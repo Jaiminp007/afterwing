@@ -18,7 +18,7 @@ import {fileURLToPath} from 'node:url';
 import {TasteExperiment} from '../learning/taste-experiment.mjs';
 import {probeCueValues} from '../learning/taste-energy.mjs';
 import {bodyTransferExclusions,BT_LEARNER_OPTIONS,BT_PRICING,BT_TICKS,BT_FOUNDERS,
-  BT_MAIN_OP_CAP,BT_ROW_WALL_SECONDS,BT_ROW_CPU_SECONDS} from './body-transfer.mjs';
+  BT_MAIN_OP_CAP,BT_PROBE_OP_CAP,BT_ROW_WALL_SECONDS,BT_ROW_CPU_SECONDS} from './body-transfer.mjs';
 
 export const VP_EXPERIMENT='value-probe-dev';
 export const VP_HISTORIES=6;
@@ -321,7 +321,8 @@ export function runValueProbeDev({bankPath,output,resume=false}){
       const sd=Math.sqrt(vals.reduce((a,b)=>a+(b-mean)*(b-mean),0)/vals.length);
       perCue[cue]={valueMean:+mean.toFixed(6),valueSd:+sd.toFixed(6),nAgents:vals.length,label:summary.cues[cue].label};
     }
-    assert.ok(ops/VP_PROBE_CAP<BT_PROBE_OP_CAP,'per-row probe budget sanity');
+    assert.ok(ops<BT_PROBE_OP_CAP,'per-row probe budget sanity');
+    assert.ok(cues.length<=VP_PROBE_CAP/24,'per-row probe count sanity');
     return {perCue,ops};
   };
   const runOne=(tag,history,options)=>{

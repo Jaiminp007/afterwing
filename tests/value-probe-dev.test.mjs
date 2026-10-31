@@ -141,14 +141,15 @@ test('scorer INVALID / INDETERMINATE / INCOMPLETE branches',()=>{
   assert.equal(scoreValueProbe(badValid).verdict,'INVALID');
 });
 
-test('bank builds 54-unique in tmp; rebuild refuses (post-build guard)',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'value-probe-bank-'));
-  const p=valueProbeDevBank(join(dir,'protocol.json'));
+test('live bank 421001-421054 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-bank form (V1i precedent): the committed bank's seeds are now in
+  // prior evidence, so any rebuild throws; the live path returns existing.
+  const p=valueProbeDevBank('evidence/value-probe-dev/fresh-01/protocol.json');
   assert.equal(p.experiment,'value-probe-dev');
   assert.equal(p.histories.length,6);
   const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
   assert.equal(new Set(flat).size,54);
   assert.ok(flat.includes(421001)&&flat.includes(421054));
-  const p2=valueProbeDevBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+  const dir=mkdtempSync(join(tmpdir(),'value-probe-bank-guard-'));
+  assert.throws(()=>valueProbeDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });

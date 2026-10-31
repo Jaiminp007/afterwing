@@ -12,3 +12,13 @@
   `evidence/value-probe-dev/fresh-01/` built 421001–421054 (54 unique,
   2 self-excluded literals = V1i-identical harmless pattern).
   Single authorized attempt NEXT (not this turn).
+- 2026-10-26: Phase-A EXECUTED → **VALUE-PROBE-ACTOR-SIDE** (go:true).
+  G1/G0 (train gaps 0.815-0.819)/G-validity (train value 1.0x3, unlearned
+  d'=0x3, nullClean) pass; BH value 1.0 vs late behavior 0.086 → gap
+  +0.914 (bar +0.2), uniform x3 pairs. HB mirror: value 0.22 vs
+  behavior 0.49 (learner-side lag + behavior lead). Threshold-plasticity
+  freeze LICENSED (not executed); associability-reset freeze separately
+  licensed by HB lag. Ledger 9/0/16128/387072/1.43e9, redone [].
+  Cumulative 7647 (+9). Pre-attempt instrument fix: BT_PROBE_OP_CAP
+  import (crash, zero worlds, partial dir removed); fixture moved to
+  post-bank form (guard verified working).
