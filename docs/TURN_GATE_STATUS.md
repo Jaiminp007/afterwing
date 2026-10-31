@@ -206,3 +206,14 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   rationale. Gain-seg2 void-with-seg1-fired noted as informative.
   Pair-2-zero heterogeneity re-examined (reported, not gated). Next:
   implement, then single attempt.
+- 2026-10-26: Phase-H IMPLEMENTED (`scripts/turn-gated-dev-v1h.mjs` +
+  `tests/turn-gated-dev-v1h.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/turn-gated-dev/fresh-08/` built 413001–413054
+  post-fixtures). Uniform train isolates extinction window; gain opts
+  HELD-identical (base+2 @1.0/3, V1g values, fixture-guarded) +
+  gain-seg2 chained transplant (sources gain, terminal self); scorer
+  requires gain + gain-seg2 triples fail-closed; BH/HB splits +
+  subsetGap + agentWork/sumManipulation tested; null-hygiene INVALID
+  override + per-gain-arm VOID-conditions in runner. Bank test →
+  post-build refusal + read-only checks. Next: single authorized
+  attempt.
