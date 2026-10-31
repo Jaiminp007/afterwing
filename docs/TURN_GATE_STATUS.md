@@ -98,4 +98,21 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   pre-registered reasoning (extrapolation predicts seg4 ~0.84 borderline;
   trajectory more informative than threshold; descriptive CONVERGED
   answers the question either way). Trajectory prediction recorded:
-  ~1/3 closure per doubling. Next: implement, then single attempt.
+  ~1/3 closure per doubling.
+- 2026-10-31: Phase-E IMPLEMENTED (`scripts/turn-gated-dev-v1e.mjs` +
+  `tests/turn-gated-dev-v1e.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/turn-gated-dev/fresh-05/` built 410001–410054
+  post-fixtures). Seg1/seg2/seg3 rows persist weights (chained sources);
+  scorer requires seg2/seg3/seg4 triples fail-closed; segSummary/
+  classifySeg generalized (link-to-link deltas) + tested.
+- 2026-10-31: Phase-E EXECUTED → **GO, SATURATING PARTIAL CONVERGENCE**.
+  G1 join 1.00 x18; G0 train 0.815/0.833/0.814 (5th replication); G2a seg1
+  mean 0.549 (4th replication); G2b unlearned flat; seg1 mechanism
+  replicates (4th time). Trajectory (flipped means): 0.59→0.71→0.81→
+  0.82 — all 9 links positive, seg3→seg4 increments collapse (+0.01–
+  0.02): pair floors 0.79/0.87/0.81 (1 CONVERGED, 2 INTERMEDIATE-
+  saturated). Prediction 0.84 vs actual 0.822 — gate-decline vindicated.
+  Same-val 0.95 throughout (no erosion). 18 mains, all caps, `redone:
+  []`. Tax = fast-shrinking then saturating residue; floor cue-set-
+  dependent. Next: cue-level floor attribution (read-only frozen rows)
+  before any structural line — not started, no RSI claim.
