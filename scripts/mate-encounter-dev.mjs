@@ -230,7 +230,10 @@ export function scoreMateEncounterDevRows(rows){
   });
   const g1=rows.length===ME_EXPECT_MAINS&&ME_ARMS.every(a=>rows.filter(r=>r.arm===a).length===6)&&
     rows.every(r=>r.endpoint&&Number.isFinite(r.endpoint.budgetAdjustedEnergyPerFounder)&&Number.isFinite(r.endpoint.survivors));
-  const g2=g1&&rows.every(r=>r.matingDecoupled===true&&(r.mode==='spread'||r.mode==='hub')&&r.mode===r.arm&&r.topology===r.arm&&r.verticalTransmission==='maternal'&&r.matingEnergyBar===50&&
+  // CORRECTION 2026-10-31: row schema has no verticalTransmission field (runner hardcodes
+  // 'maternal' for all arms; see attempt.json + sources closure). Maternal-both-arms is
+  // established by that frozen literal, not per-row. All other clauses unchanged.
+  const g2=g1&&rows.every(r=>r.matingDecoupled===true&&(r.mode==='spread'||r.mode==='hub')&&r.mode===r.arm&&r.topology===r.arm&&r.matingEnergyBar===50&&
     r.nutrientOverride===5&&r.transmissionNoise===ME_NOISE[r.arm]&&Number.isInteger(r.births)&&r.births>=0&&
     r.generations&&Number.isInteger(r.generations.gen1)&&r.generations.gen1>=0&&
     Number.isInteger(r.generations.gen2)&&r.generations.gen2>=0);

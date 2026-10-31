@@ -105,14 +105,10 @@ test('sources closure resolves inside repo (import-path regression guard)',()=>{
   assert.ok(s['scripts/mate-encounter-dev.mjs']&&s['learning/taste-energy.mjs']&&s['learning/taste-experiment.mjs']);
 });
 
-test('bank builds 54-unique in tmp; rebuild refuses (post-bank guard)',()=>{
+test('post-bank guard: 427001-427054 spent (rebuild refuses)',()=>{
+  // Bank fresh-01 is BUILT (evidence/mate-encounter-dev/fresh-01/); the spent-bank
+  // guard must now refuse any rebuild touching 427001-427054. Pre-bank this test
+  // built 54-unique in tmp and verified rebuild-refusal (9/9 green at freeze).
   const dir=mkdtempSync(join(tmpdir(),'mate-encounter-bank-'));
-  const p=mateEncounterDevBank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'mate-encounter-dev');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  assert.ok(flat.includes(427001)&&flat.includes(427054));
-  const p2=mateEncounterDevBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+  assert.throws(()=>mateEncounterDevBank(join(dir,'protocol.json')),/already used/);
 });
