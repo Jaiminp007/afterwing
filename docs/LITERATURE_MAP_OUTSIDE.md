@@ -3073,3 +3073,25 @@ transplant assumes cross-basin compatibility — the outside literature names th
 - **Scope-note.** LLM-merging surveys (2607.18026v1, 2501.09522v1, 2510.10977v2,
   2304.14933v2, 2506.11403v1, 2610.01037v1) are scale-specific (attention/merge
   arithmetic); the basin question transfers, the methods do not — logged, not pursued.
+
+## Round 71 — non-exact replication (for V1c executing now; 2026-11-02)
+
+Motivation: V1c (attempt-04 executing) is an EXACT-protocol replication on a FRESH
+bank — i.e., a non-exact replication in the formal sense (different seed draw =
+different data-generating-process realization). This round banks the framework that
+will interpret either verdict.
+
+- **arXiv:2604.26268v2.** Non-exact replications: binary replicated/not-replicated
+  tallies assume rarely-attainable exactness; formalized as shared-latent-rate
+  (benchmark: experiments exchangeable conditional on a latent rate) vs alternatives.
+  → The V1/V1c pair maps onto this directly: same protocol, different banks. Under
+  the shared-latent-rate benchmark, the questions are (a) direction preserved?
+  (b) shape preserved (monotone)? (c) level preserved? The frozen V1c bar gates on
+  (a)+(b) — deliberately NOT (c), since bank intercepts were already known-volatile
+  (V1b's spread 25→33). A GO-with-different-levels is still a successful non-exact
+  replication under this framework — pre-registered here so it reads as discipline,
+  not goalpost-moving, if that is what the data show.
+- **Scope-note.** Decline-effect/heterogeneity conjunctions return only noise on
+  arXiv (ZetaDial protein engineering is unrelated); the journal literature
+  (Many Labs, decline effect, hidden moderators) stays canon-deferred — the
+  non-exact framing above subsumes the actionable part.

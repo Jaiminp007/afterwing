@@ -21,3 +21,12 @@
 - Interaction (descriptive): breadth lifts spread 2→7, hub flat 5→5 (saturation); anchors hubR1 5 > spreadR1 2 (V1-direction 5/6 banks).
 - Arc-closing food thesis: food is a gate (MATE-FOOD UNLOCK), not a gradient (V1b irrelevance).
 - Results: `docs/MATE_PROXIMITY_RESULTS_V1B.md`. Cumulative program spend: 7821.
+
+## V1c (dose replication, GO 2026-11-02)
+
+- Plan: `docs/MATE_PROXIMITY_PLAN_V1C.md` (exact V1 replication, V1 bar frozen-identical).
+- Implement: copy-adapted instrument + 11/11 fixtures + fresh bank 435001–435054 (targeted triage, zero shared-file changes).
+- Attempt-04: 18 mains / 0 probes / 3.42e9 ops, clean pass.
+- Verdict: **MATE-PROXIMITY-GO-V1C** (dose replicates: 3 ≤ 8 ≤ 11 gen-2, 27<37<49 births; shape-stable across banks, intercept varies — non-exact replication per R71; rate saturates normal≈wide 0.22).
+- Arc-closing: first replicated mating structure; V1-direction 6/7 banks.
+- Results: `docs/MATE_PROXIMITY_RESULTS_V1C.md`. Cumulative program spend: 7839.
