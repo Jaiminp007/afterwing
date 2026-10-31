@@ -156,3 +156,16 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   changes mechanism (not abandonment); selection-vs-boost inconclusive.
   15 mains, all caps, `redone: []`. Cumulative 7590 (+15). Next: V1g
   dose-escalation under its own frozen plan — not started, no RSI claim.
+- 2026-10-26: Phase-G FROZEN as `docs/TURN_GATE_PLAN_V1G.md` (DESIGN ONLY).
+  Dose escalation + selection-vs-boost decomposition: 18 mains (train
+  uniform + uniform seg1 gated + tournament-T3 + gain-only + bundle-
+  strong + unlearned) on fresh bank 412001–412054 (verified clean
+  pre-freeze, 0 hits; re-verify at build; base re-verified null).
+  Full decomposition V1f could not resolve (gain-only = missing cell).
+  +0.1 band FIXED (yardstick, not tuning); overdose reading
+  pre-registered (< −0.05 + fired = destabilized, distinct from weak
+  and void); manipulation VOID-conditions + null-hygiene carried over.
+  Pre-registered STOP rule: sub-band with fired manipulation closes the
+  surprise-replay line as exhausted (pivot, no treadmill). Cross-bank
+  V1f numbers are context, not tests. Next: implement, then single
+  attempt.
