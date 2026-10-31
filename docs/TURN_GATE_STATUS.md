@@ -242,5 +242,14 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   (seg2-void-with-seg1-fired informative) + null-hygiene INVALID.
   Pre-registered outcomes: E1>+0.1 deploys boost at 2x; E1≈0 bounds it
   to 1x acceleration; E1<−0.1 cautions (late overdose); any VOID leaves
-  that comparison unanswered. No V1j licensed. Next: implement, then
-  single attempt.
+  that comparison unanswered. No V1j licensed.
+- 2026-10-26: Phase-I IMPLEMENTED (`scripts/turn-gated-dev-v1i.mjs` +
+  `tests/turn-gated-dev-v1i.test.mjs` 9/9 green (incl. triple-held gain
+  fixtures + scorer triple requirements + BH/HB + manipulation +
+  per-arm VOID plumbing); triage at 6-pristine baseline; bank
+  `evidence/turn-gated-dev/fresh-09/` built 414001–414054 post-fixtures.
+  Uniform + gain seg1 rows persist weights (chained sources); scorer
+  requires uniform-seg2 + gain + gain-seg2 triples fail-closed;
+  null-hygiene INVALID covers uniform-seg2 (null arm) + per-arm gain
+  VOID-conditions in runner. Bank test → post-build refusal +
+  read-only checks. Next: single authorized attempt (FINAL chartered).
