@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon; 429-limited rounds canon-sourced)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon + rounds 46-50 canon (429-limited throughout later rounds))
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -2256,3 +2256,225 @@ map entries, corrected here, originals retained above:
   negative), overshadowing null, gain results (HB metric), all bank
   registries, all verdicts except VALUE-PROBE V1 (corrected
   separately to INDETERMINATE).
+
+## Rounds 46-50 — foraging information, movement collectives, extended cooperation, spatial/neutral ecology, evo-devo roundup
+
+Method note: OpenAlex shared-IP budget still exhausted (429 on probe).
+All 30 entries [canon] with full biblio; verification deferred. Rounds
+target remaining VISION gaps: information-theoretic foraging (M1/M5
+ecology), collective movement (M5 futures), cooperation math (M5),
+spatial/neutral ecology (bank-as-patch thinking + neutral nulls),
+and evo-devo constraints on variation (mating-line design).
+
+## Round 46 — information and risk in foraging (Kelly, MaxEnt, bet-hedging, state-dependence)
+
+Foraging under uncertainty IS an information/betting problem; our
+agents bet energy on cues every tick. The canon that prices those bets.
+
+- **Shannon 1948 [canon].** "A mathematical theory of communication"
+  (Bell Syst Tech J 27:379-423, 623-656). Entropy, channel capacity,
+  coding. → Root of every information claim in the map (Adami,
+  Frank, Mattar-prioritization). The niche-fingerprint 1.0 deserves
+  Shannon units: report future transmitted-information in BITS
+  (archive the unit, not just the accuracy).
+- **Jaynes 1957 [canon].** "Information theory and statistical
+  mechanics" (Phys Rev 106:620-630). MaxEnt: the least-biased
+  distribution given constraints. → The null model for agent
+  behavior (what SHOULD a maximally non-committal forager do?) and
+  for weight priors (MaxEnt initialization instead of zeros?).
+  Specified: MaxEnt baseline policy vs greedy on frozen rows.
+- **Kelly 1956 [canon].** "A new interpretation of information rate"
+  (Bell Syst Tech J 35:917-926). Log-optimal betting; growth rate =
+  information. → Foraging as Kelly betting: bet fraction proportional
+  to edge; our all-or-nothing accept/reject is UN-Kelly (overbets).
+  Design: graded intake (partial acceptance proportional to predicted
+  value) — the continuous-action line, specified.
+- **Caraco 1980 [canon].** "On foraging time allocation in a
+  stochastic environment" (Ecology 61:119-128). Risk-sensitivity:
+  starving = risk-prone, sated = risk-averse (energy-budget rule).
+  → Our agents ignore reserves (threshold fixed at all energies);
+  Caraco says turn/accept MUST depend on reserves. The Damasio/
+  allostasis prescription, independently derived in ecology:
+  energy-gated policy is not optional, it is the textbook.
+- **Stephens & Krebs 1986 [canon].** Foraging Theory (Princeton).
+  THE textbook (optimal diet, patch, time allocation). → Course
+  text for the ecology track: every foraging line should state its
+  Stephens-Krebs model (currency? constraints? which classical model
+  is being tested?). Raises the bar from description to test.
+- **Seger & Brockmann 1987 [canon].** Bet-hedging (Oxford Surveys
+  Evol Biol 4:182-211). Variance reduction as adaptation. →
+  Maternal transmission as bet-hedging: exact-copy (no variance) vs
+  noisy-copy (variance) reframes V1/V1b as a bet-hedging comparison
+  — and predicts WHEN noisy wins (fluctuating test ecologies).
+  Design: fluctuating-bank test (stable vs variable test codebooks).
+
+## Round 47 — state, movement, collectives (Houston-McNamara, movement ecology, Vicsek, boids, Couzin, Deneubourg)
+
+How bodies move through worlds, alone and together — the motor +
+multi-agent library the cold tracks need.
+
+- **Houston & McNamara 1999 [canon].** Models of Adaptive Behaviour
+  (Cambridge). Dynamic programming for state-dependent decisions
+  (the whole textbook). → State-dependence formalized: every turn/
+  accept decision should condition on reserves (Caraco), time,
+  predator state. Our stateless policy is the null it beats.
+  Prescription: add ONE state variable at a time (reserves first).
+- **Nathan et al. 2008 [canon].** "A movement ecology paradigm"
+  (PNAS 105:19052-19059). Internal state x motion capacity x
+  navigation capacity x external factors. → The decomposition our
+  motor work lacks: turn failures localize to one of four slots
+  (is BH slowness navigation? motion? state? world?). Diagnostic
+  framework for the next motor line.
+- **Vicsek et al. 1995 [canon].** "Novel type of phase transition"
+  (Phys Rev Lett 75:1226). Self-propelled particles align (order
+  from noise + local rules). → Minimal collective model for future
+  multi-agent runs: alignment WITHOUT communication (positions
+  only). Our founders in shared worlds would Vicsek-align for
+  free — testable the day worlds are shared.
+- **Reynolds 1987 [canon].** "Flocks, herds, and schools"
+  (SIGGRAPH 21:25-34). Boids: separation/alignment/cohesion. →
+  The implementation recipe (three steering rules) for when
+  collectives arrive; plus the cautionary tale (beautiful motion,
+  zero task) — collectives need a FORAGING reason (Seeley had one).
+- **Couzin et al. 2002 [canon].** "Collective memory and spatial
+  sorting in animal groups" (J Theor Biol 218:1-11). Informed
+  minorities lead; group shape encodes information. → Leadership
+  without signals (a few informed agents steer the naive) — the
+  cheapest sociality (no communication channel needed, just
+  differential knowledge). Specified: informed-minority transplant
+  (seed one trained agent among naive — does the group follow?).
+- **Deneubourg et al. 1990 [canon].** Argentine-ant double bridge
+  (J Insect Behav 3:159-168). Stigmergic trail choice (pheromone
+  positive feedback picks the short path). → The CANONICAL stigmergy
+  experiment our depletion-gradient idea replays: lay two paths,
+  watch selection emerge. Design template (already specified in
+  round 29's language; this is the paper to copy).
+
+## Round 48 — cooperation extended (Trivers-71, Nowak-rules, Bourke, Grafen/kin math, punishment, consensus)
+
+The interaction canon, complete: why cooperate, how it is enforced,
+how groups decide — ready the day agents share a world.
+
+- **Trivers 1971 [canon].** "The evolution of reciprocal altruism"
+  (Q Rev Biol 46:35-57). Tit-for-tat before Axelrod (cheater
+  detection, friendship). → The ORIGINAL reciprocity paper (rounds
+  used 1972/1974; this is the missing root) — gratitude/sympathy
+  as implemented mechanisms, not just strategies.
+- **Nowak 2006 [canon].** Five rules (Science 314:1560-1563; carried
+  out of the scope-note misses as promised). b/c > 1/w, etc. → The
+  quantitative menu: network reciprocity needs viscosity (our
+  founders diffuse — add viscosity first).
+- **Bourke 2011 [canon].** Principles of Social Evolution (Oxford).
+  Hamilton's rule modernized (benefit/cost/relatedness estimation).
+  → The measurement manual: relatedness among founders (currently
+  zero BY CONSTRUCTION — random init) is a DESIGN VARIABLE (set
+  relatedness, watch sociality emerge or not).
+- **Gardner, West & Wild 2011 [canon].** Formal Darwinism review
+  (J Evol Biol 24:1020-1028; building on Gardner et al. 2007).
+  Kin selection = gene-frequency change, maximized properly. → The
+  math that dissolves the kin/group debate the program might
+  otherwise relitigate; read BEFORE designing any group line.
+- **Fehr & Gachter 2002 [canon].** Altruistic punishment (Nature
+  415:137-140). Enforcement sustains cooperation (public-goods
+  with punishment). → Social lines need ENFORCEMENT, not just
+  assortment (a lesson for mating: births without policing get
+  invaded — design policing with the mating mechanism).
+- **Conradt & Roper 2005 [canon].** Consensus decisions (Trends Ecol
+  Evol 20:449-456). Review: who decides for the group, and how costs
+  split. → Complements Seeley's mechanism with the COST analysis
+  (consensus costs time/accuracy — our future collectives face the
+  same speed-accuracy tradeoff as our individuals).
+
+## Round 49 — spatial and neutral ecology (Levins, MacArthur-Wilson, Hubbell, Jones, Holling, Henrich)
+
+Banks are patches. Worlds are islands. Some patterns need no
+selection at all — the neutral nulls for ecology to match Kimura's
+for genes.
+
+- **Levins 1969 [canon].** "Some demographic and genetic
+  consequences of environmental heterogeneity" (Bull Entomol Soc
+  Am 15:237-240). Metapopulations: patches + migration +
+  extinction. → Banks ARE a metapopulation (histories = patches,
+  transplant = migration, no recolonization yet). The formalism
+  turns our bank system into an experiment: vary migration
+  (transplant rate) and watch occupancy.
+- **MacArthur & Wilson 1967 [canon].** The Theory of Island
+  Biogeography (Princeton). Colonization-extinction equilibrium,
+  species-area law. → Gen-2 colonization (MATE-FOOD's single event)
+  IS island colonization; the S-A law predicts gen-2 richness vs
+  world size — a measurement waiting on bigger worlds (M4-gated).
+- **Hubbell 2001 [canon].** The Unified Neutral Theory (Princeton).
+  Biodiversity without selection (drift + speciation suffice). →
+  The ECOLOGICAL neutral null (pairing Kimura's genetic one):
+  cue-use diversity across runs might be pure drift. Specifies the
+  neutral test our diversity claims must beat (are 12-cue usage
+  patterns more structured than neutral sampling?).
+- **Jones, Lawton & Shachak 1994 [canon].** Ecosystem engineers
+  (Oikos 69:373-386). Organisms modulate resources for others.
+  → The ecological twin of niche construction: depletion IS
+  engineering — our eaten patches engineer the next forager's
+  world. Read depletion as engineering, not noise.
+- **Holling 1973 [canon].** Resilience vs stability (Annu Rev Ecol
+  Syst 4:1-23). Engineering resilience (return fast) vs ecological
+  resilience (absorb without flipping). → WHICH robustness do we
+  want? Our lines optimize engineering resilience (fast return to
+  baseline); HOT fragility suggests we need ECOLOGICAL resilience
+  (survive flips). Design criterion, stated precisely for once.
+- **Henrich 2004 [canon].** Demography and cultural loss (Am
+  Anthropol 106:197-215; Tasmania case). Population SIZE drives
+  cultural complexity (small loses). → Directly relevant to our
+  founder counts (24/72): small populations cannot sustain complex
+  traditions — predicts a population-size threshold for any
+  horizontal-transmission line. Specified: vary founder N, measure
+  transmitted-complexity retention.
+
+## Round 50 — evo-devo constraints, origins wrap-up, criticality (Kirschner-Gerhart, Ganti, Pross, Laland-math, May-stability, Beggs-criticality)
+
+What variation CAN do (biased, facilitated), what chemistry needs
+before genes, and whether systems poise at criticality.
+
+- **Kirschner & Gerhart 2005 [canon].** The Plausibility of Life
+  (Yale). Facilitated variation: conserved cores + weak linkage +
+  exploratory processes BIAS variation toward the functional. →
+  The anti-random-mutation canon (with Wagner): proposal
+  distributions should be facilitated (mutate switches/links, not
+  weights) — converges with Carroll (regulatory) and the
+  associability-reset line (reset IS exploratory re-wiring).
+- **Ganti 1971/2003 [canon].** The Principles of Life (Oxford 2003;
+  Hungarian 1971). Chemoton: membrane + metabolism + information
+  as the minimal living system. → Minimal-life checklist our
+  agents fail (no membrane/individuality boundary — they diffuse
+  into the world soup). Individuality is a missing subsystem,
+  named. (Rounds used Moreno/Rosen for closure; Ganti gives the
+  parts list.)
+- **Pross 2003+ [canon].** Dynamic kinetic stability (Pure Appl
+  Chem; J Theor Biol). Persistence = replicative stability,
+  not thermodynamic; selection before genes. → Complements GARD/RAF
+  (round 29): stability language for the pre-mating chemistry the
+  program skips (fine to skip — but name what selection acts on
+  before accurate replication exists: persistence).
+- **Laland, Odling-Smee & Feldman 1999 [canon].** Niche-construction
+  models (Am Nat 153:790-808; two-locus theory). → The MATH the
+  2003 book argues from (round 30): ecological inheritance changes
+  allele dynamics — carry-over worlds (specified round 30) have
+  quantitative predictions here. Read before building them.
+- **May 1972 [canon].** "Will a large complex system be stable?"
+  (Nature 236:413-414). Complexity-stability: random large
+  systems go unstable (diversity begets fragility past a bound).
+  → The counterweight to QD-diversity enthusiasm (round 20/25):
+  archive SIZE has a stability bound; more niches is not better
+  past some point. Design constraint on archive growth (cap plus
+  turnover).
+- **Beggs & Plenz 2003 [canon].** Neuronal avalanches (J Neurosci
+  23:11167-11177). Cortex poises at criticality (power-law
+  avalanches, maximal information). → The gain-dose line re-read:
+  is deployed gain 1.0 poising the learner at criticality (max
+  susceptibility = max learnability)? If so, the YD peak IS the
+  critical point — a testable identity (avalanche statistics on
+  update magnitudes; specified, frozen rows suffice for a first
+  look: are update sizes power-law distributed?).
+- **Scope-note misses (post-45).** Jaynes MaxEnt (still open);
+  Thorndike/Hull (superseded); quantum cognition (too far);
+  Lovelock Gaia (planetary, premature); Seager-style astrobiology
+  (no bodies off Earth yet); WBE network mechanisms (beyond
+  scaling).
