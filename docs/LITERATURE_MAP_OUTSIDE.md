@@ -2898,3 +2898,32 @@ the normative benchmark for what exploiting it would look like.
   unbuilt; a future line could test detection-sharing (signal-gated approach).
 - **Scope-note.** Ant locomotion modeling (2603.02665v1) is descriptive tracking, no
   actionable prediction for sensing use; logged, not pursued.
+
+## Round 64 — why learned policies ignore new sensors (for ATTRACT's flat contrast; 2026-11-01)
+
+Motivation: ATTRACT NOGO with a proven-engaged knob = the policy never learned to
+USE 2x sensing. This round asks what the learning literature knows about that failure.
+
+- **Lazy vs rich training (arXiv:1906.08034v4 disentangling; 1905.10917v5 TD lazy/mean-field;
+  2506.16884v2 continual-lazy scaling; 2209.09658v2 lazy-vs-hasty schedules).**
+  Networks in the lazy (kernel) regime barely move features — informative NEW inputs
+  get near-zero weight and stay there. → Our actor (small net, TD updates, 1792 ticks)
+  plausibly sits in the lazy regime for the mate channels: 2x detections arrive but
+  feature weights never grow enough to steer behavior. Testable prediction: mate-input
+  weights should be ~frozen from init in ATTRACT rows (weights are checkpointed —
+  read-only analytic on frozen artifacts, zero new worlds).
+- **Grokking as lazy→rich transition (arXiv:2310.06110v3; 2609.26679v1 spectral/weight-decay;
+  2605.09724v2 capacity; 2601.03162v2 preconditioning to rich).** Generalization emerges
+  at the transition, often LONG after memorization (capacity + weight decay control the
+  timescale). → Our 1792-tick window may simply END before the transition: the policy
+  memorizes approach-vectors (lazy) without ever grokking detection-use (rich). Two
+  licensed follow-ups: (a) longer-window replication (exposure extension, needs new
+  rationale — TURN-GATE V1e precedent for exposure-doubling design); (b) weight-decay/
+  capacity knob on the actor (unbuilt, needs rationale).
+- **Sensor substitution (arXiv:2502.09180v3 tactile→visual ML).** Thin (one applied paper);
+  biology canon (Bach-y-Rita) stays journal-deferred. Logged for completeness: the
+  applied field confirms new-sensor USE requires dedicated training, not just exposure.
+- **Actionable now (zero worlds):** mate-channel weight-frozen check on ATTRACT
+  attempt-01 artifacts (lazy-regime read). If weights moved but behavior didn't, the
+  limitation is downstream (actuation/policy), not feature-learning — discriminates
+  the two failure loci without spending a seed.
