@@ -21,4 +21,10 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   `docs/TURN_GATE_PLAN_V1B_AMENDMENT_A1.md` (pre-execution: pairing-rule
   fixture replaced by transplant-integrity-checker unit; experiment
   unchanged). Instrument + fixtures green, triage clean, bank built.
-  Next: single authorized attempt.
+- 2026-10-31: Phase-B EXECUTED → **GO**. G1 join 1.00 everywhere; G0 train
+  0.8128/0.8239/0.8170; G2a transferred mean 0.5779 (0.5178/0.5469/0.6689);
+  G2b unlearned ≈0.00. 9 mains, all caps, no crash on rows; 1-token
+  post-run bookkeeping NameError fixed separately + resume scored with
+  zero rows recomputed (dual provenance). See
+  `docs/TURN_GATE_RESULTS_V1B.md`. Next: V1c probe (406xxx) under its own
+  frozen plan — not started, no RSI claim.
