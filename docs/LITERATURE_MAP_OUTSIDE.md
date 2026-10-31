@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon + rounds 46-55 all-canon (429 throughout))
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-50 OpenAlex/canon; rounds 51-55 all-canon, 429 throughout)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -2479,7 +2479,6 @@ before genes, and whether systems poise at criticality.
   (no bodies off Earth yet); WBE network mechanisms (beyond
   scaling).
 
-## Rounds 51-55 — insect cognition, collective estimation, mushroom-body/olfaction canon, wildcards
 
 ## Rounds 51-55 — insect cognition, collective estimation, mushroom-body/olfaction canon, wildcards
 
