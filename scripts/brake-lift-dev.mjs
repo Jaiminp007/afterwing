@@ -56,7 +56,7 @@ export function brakeLiftDevSources(){
   const found={},visit=path=>{
     const name=relative(root,path).split(sep).join('/');assert.ok(!name.startsWith('../')&&!name.startsWith('/'));
     if(Object.hasOwn(found,name))return;const bytes=readFileSync(path);found[name]=digest(bytes);
-    if(/\.m?js$/.test(name))for(const m of bytes.toString().matchAll(/(?:from|import)\s+['"](\.[^'"]+)['"]/g))visit(resolve(pathDirname(m[1]),m[1]));
+    if(/\.m?js$/.test(name))for(const m of bytes.toString().matchAll(/(?:from|import)\s+['"](\.[^'"]+)['"]/g))visit(resolve(pathDirname(path),m[1]));
   };
   for(const name of ['scripts/brake-lift-dev.mjs','learning/taste-experiment.mjs','learning/taste-energy.mjs',
     'scripts/turn-gated-dev-v1i.mjs','tests/brake-lift-dev.test.mjs','docs/BRAKE_LIFT_PLAN_V1.md'])visit(resolve(root,name));
@@ -276,7 +276,7 @@ export function runBrakeLiftDev({bankPath,output,resume=false}){
       scope:'BRAKE-LIFT Phase-A single run (LI-brake formalization + release sweep nolift/slow/fast x 3 pairs = 18 mains; brake init from train contacts; manipulation gate (nolift<uniform) + lift gate (fast>uniform +0.1); LI-gradient descriptive; per-cue thirds + first-contact ticks).'});
   }
   const checkpointLedger=()=>writeOver(join(outputAbs,'ledger.json'),{ledger,runtimes,redone});
-  const note=(mains,probes,ticks,ops)=>{ledger.mains+=mains;ledger.probes+=probes;ledger.worldTicks+=(mains*BT_TICKS+probes*256)*BT_FOUNDERS;ledger.scalarOperations+=ops;
+  const note=(mains,probes,ticks,ops)=>{ledger.mains+=mains;ledger.probes+=probes;ledger.worldTicks+=(mains+probes)*ticks;ledger.founderSlots+=(mains*BT_TICKS+probes*256)*BT_FOUNDERS;ledger.scalarOperations+=ops;
     assert.ok(ledger.scalarOperations<=BL_OP_CAP,'Dev aggregate op cap breached');};
   const timed=(label,fn)=>{
     const began=performance.now(),cpu=process.cpuUsage();const out=fn();

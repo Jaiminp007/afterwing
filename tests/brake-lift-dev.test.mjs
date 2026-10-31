@@ -10,7 +10,7 @@ import {TasteExperiment} from '../learning/taste-experiment.mjs';
 import {BT_LEARNER_OPTIONS,BT_PRICING} from '../scripts/body-transfer.mjs';
 import {brakeDoseOpts,snapshotWeights,copyWeights,assertFreshTarget,
   checkTransplantIntegrity,collectBrakeLift,brakeInitFromTrain,liPartial,
-  scoreBrakeLift,brakeLiftDevBank,BL_FIXTURE_SEEDS,BL_DOSES,BL_C0} from '../scripts/brake-lift-dev.mjs';
+  scoreBrakeLift,brakeLiftDevBank,brakeLiftDevSources,BL_FIXTURE_SEEDS,BL_DOSES,BL_C0} from '../scripts/brake-lift-dev.mjs';
 
 const synthHistory=(s)=>({seed:s,cueSeed:s+1,resourceSeeds:[s+2,s+3,s+4,s+5],probeSeeds:{A:s+6,B:s+7,transfer:s+8}});
 
@@ -131,6 +131,12 @@ test('null-default bit-identity + exact billing on synthetic history (900003)',(
   const en=mk({...BT_LEARNER_OPTIONS,assocBrake:true,assocC0:2000,assocDecay:0.0035});
   assert.ok(Number.isFinite(en.run.endpoint().budgetAdjustedEnergyPerFounder));
   assert.ok(bw(en)>0);
+});
+
+test('sources closure resolves inside repo (import-path regression guard)',()=>{
+  const s=brakeLiftDevSources();
+  assert.ok(Object.keys(s).length>10);
+  assert.ok(s['scripts/brake-lift-dev.mjs']&&s['learning/taste-energy.mjs']);
 });
 
 test('live bank cannot be rebuilt (union-exclusion guard, post-bank form)',()=>{

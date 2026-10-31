@@ -20,3 +20,14 @@
   failures identical with/without the engine change — verified via
   stash A/B). Bank `evidence/brake-lift-dev/fresh-01/` built
   423001–423054 (54 unique). Single authorized attempt NEXT.
+- 2026-10-26: Phase-A EXECUTED → **INVALID (manipulation gate)**.
+  G1/G0/G2b/null-hygiene pass; brake fired (3101 updates); nolift
+  0.309 vs uniform 0.330 (gap 0.021 < 0.05) → INVALID, no license.
+  Autopsy: brake verified working in isolation (synthetic decay +
+  bit-identity) but live-only gating swamped by unbraked replay
+  (uniform↔brake cosine 0.98 vs train↔uniform 0.61; live:replay =
+  1:4). Hypothesis not refuted — wrong pathway. Specified next:
+  replay-gated (or both-path) brake (new rationale required, not an
+  automatic V2). LI descriptive flipped sign, uninterpretable here.
+  Ledger corrected post-run (note() formula swap; analytic rescore).
+  Cumulative 7665 (+18).
