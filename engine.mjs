@@ -106,7 +106,8 @@ export class World {
     const r=f.genome.traits.sense;const foods=fi.nearby(f,r).filter(p=>p.amount>.06);let best=null,score=0;
     for(const p of foods){const value=p.amount/(distance(f,p)+20);if(value>score){best=p;score=value;}}
     if(this.config.cueForaging){const contact=foods.filter(p=>distance(f,p)<=15).sort((a,b)=>distance(f,a)-distance(f,b))[0],source=contact||best;f.sensedCue=source?[...source.cue]:[0,0,0,0];f.sensedCueId=source?.cueId||0;f.sensedValence=source?.valence||0;}
-    const mates=ai.nearby(f,r).filter(m=>m.id!==f.id&&m.sex!==f.sex&&m.age>=m.genome.traits.maturity);
+    // Null-default: mateSenseMultiplier scales ONLY the mate-detection radius (food/scent/mating-range untouched).
+    const mates=ai.nearby(f,r*(this.config.mateSenseMultiplier??1)).filter(m=>m.id!==f.id&&m.sex!==f.sex&&m.age>=m.genome.traits.maturity);
     const mate=mates.sort((a,b)=>distance(f,a)-distance(f,b))[0];
     const bearing=p=>p?angle(Math.atan2(p.y-f.y,p.x-f.x)-f.heading):0;
     const foodA=bearing(best),mateA=bearing(mate);
@@ -210,6 +211,7 @@ export function validateConfig(c){
   if(c.ecology!==undefined&&!['baseline','relocation'].includes(c.ecology))throw Error('Invalid ecology profile');
   if(c.signalMode!==undefined&&!['normal','disabled','scrambled'].includes(c.signalMode))throw Error('Invalid signal mode');
   if(c.resourceTopology!==undefined&&!['spread','hub','duo'].includes(c.resourceTopology))throw Error('Invalid resource topology');
+  if(c.mateSenseMultiplier!==undefined&&(!Number.isFinite(c.mateSenseMultiplier)||c.mateSenseMultiplier<=0))throw Error('Invalid mate-sense multiplier');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');
