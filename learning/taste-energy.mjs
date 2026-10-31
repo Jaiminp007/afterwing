@@ -163,13 +163,15 @@ export function tasteUpdate(state,record,mode,emit,boost=1){
     state.surpriseEma=m.add(state.surpriseEma,m.mul(.05,m.sub(err2,state.surpriseEma)));}
   const mw=state.config.marginWidth??0,mb=state.config.marginBoost??0;
   if(mode==='live'&&mw>0&&mb>0){const dist=m.sub(prediction,.5);if(m.less(m.mul(dist,dist),m.mul(mw,mw))){rate=m.mul(rate,m.add(1,mb));state.work.marginBoosts++;}}
-  // Associability brake (BRAKE-LIFT V1, docs/BRAKE_LIFT_PLAN_V1.md).
-  // Symmetric billing: IDENTICAL ops on every arm (explicit +=3);
+  // Associability brake (BRAKE-LIFT V1+V2, docs/BRAKE_LIFT_PLAN_V1.md,
+  // docs/BRAKE_LIFT_PLAN_V2.md). V1 gated live updates only; V2 gates
+  // live AND replay (replay dominance 1:4 measured). Symmetric
+  // billing: IDENTICAL ops on every arm and mode (explicit +=3);
   // behavior changes only when assocBrake is on (plain-JS arithmetic,
   // no RNG draws, so null arms are bit-identical in behavior). Brake
   // state lives in state.brakes (pattern->b), set by the instrument
   // post-transplant from train contacts; absent cues read 0 (unbraked).
-  if(mode==='live'){
+  {
     const phi=record.phi;
     const cueKey=phi.length>=5?((phi[1]>0?1:phi[1]<0?-1:0)+','+(phi[2]>0?1:phi[2]<0?-1:0)+','+(phi[3]>0?1:phi[3]<0?-1:0)+','+(phi[4]>0?1:phi[4]<0?-1:0)):'0,0,0,0';
     const brakeOn=state.config.assocBrake===true;

@@ -31,3 +31,16 @@
   automatic V2). LI descriptive flipped sign, uninterpretable here.
   Ledger corrected post-run (note() formula swap; analytic rescore).
   Cumulative 7665 (+18).
+
+## V2 (replay-gated)
+- 2026-10-26: V1 INVALID → V2 FROZEN (`docs/BRAKE_LIFT_PLAN_V2.md`;
+  new rationale: replay dominance 1:4 measured + weight-identity proof).
+- 2026-10-26: IMPLEMENTED. Engine: brake block moved out of the
+  live-only gate (applies to live AND replay; same +=3 billing,
+  null-default preserved). Instrument `scripts/brake-lift-v2.mjs`
+  (full V1 copy + renames; same arms/caps/gates/scorer; bank
+  424001–424054). 11/11 fixtures (`tests/brake-lift-v2.test.mjs`:
+  V1 suite ported + sources-closure guard + state-robust bank guard +
+  replay bit-identity + replay brake unit). Triage at 6 pre-existing
+  baseline. Bank `evidence/brake-lift-dev/fresh-02/` built
+  424001–424054 (54 unique). Single authorized attempt NEXT.
