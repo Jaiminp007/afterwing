@@ -51,5 +51,15 @@ weights, no vertical transmission anywhere).
   effect directionally consistent (2x rate) but Poisson-dominated.
   No overdose (mutant ≥ exact), no vigor difference (~1300 ticks both),
   no gen-3 anywhere (max 2 both). Cumulative 7632 (+12 ledgered;
-  per-line authoritative). Next: V1c multi-generation selection under
-  its own frozen plan — not started, no RSI claim.
+  per-line authoritative). Next: V1c replication + lineage resolution
+  under its own frozen plan — not started, no RSI claim.
+- 2026-10-26: Phase-C FROZEN as `docs/MATE_INHERIT_PLAN_V1C.md` (DESIGN
+  ONLY; FINAL chartered mating line absent V1d license — closes either
+  way). Exact V1b replication (same arms/σ/bar/caps) + lineage-founder
+  resolution (maternal-line founders per gen-2+, defensive) on fresh bank
+  417001–417054 (verified clean pre-freeze, 0 hits; re-verify at build).
+  Pre-registered: GO bar UNCHANGED (replication fidelity, not tuning);
+  descriptive spread-vs-concentration reading decides V1d's form (robust
+  → mechanism/selection; concentrated → within-run competition to break
+  seed-confound) or closes the line (NOGO = unconfirmed). No V1d.
+  Next: implement, then single authorized attempt.
