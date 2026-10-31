@@ -3128,3 +3128,35 @@ cost). This round banks their formalisms for any future program use.
   actionable formalism on arXiv (Trivers/Haig/Odling-Smee stay canon-deferred).
   The 24/24 symmetric parental cost in our engine is thus an unmodeled arena —
   logged as an open mechanism, not pursued (needs the coupled-line decision first).
+
+## Round 73 — when transmission sustains evolution (for the whole mating arc; 2026-11-02)
+
+Motivation: the closed mating arc needs its one-sentence theoretical epitaph. This
+round found it, plus the fidelity limits that bound any future transmission work.
+
+- **arXiv:1112.2741v1 (Frank).** Selection VERSUS transmission: an evolutionary unit
+  is hereditary information for which selection bias DOMINATES transmission decay;
+  the selection-bias/transmission-bias ratio unifies mutation-selection balance,
+  Eigen's error threshold, and levels of selection. → THE arc epitaph: our
+  transmission is faithful (INHERIT exact-copy verified; decay ≈ 0) but selection
+  bias ≈ 0 (V1/social nulls, INFORMED no-establishment) — ratio ≈ 0 either way, so
+  nothing compounds. The program spent 15 lines discovering that BOTH terms of
+  Frank's ratio must be nonzero. Every future line should state which term it moves.
+- **Eigen cluster (arXiv:9807398v3 error threshold + mutational meltdown;
+  1506.00349v1 Gaussian-landscape thresholds; 1011.5098v3 variational ansatz;
+  1212.1488v2 diffusive stability; 1503.03343v3 two-valued landscapes).** Fidelity
+  has a CLIFF (error threshold), not a slope: below-critical fidelity, information
+  melts down entirely. → Our transmissionNoise knob (tested null/0.05) never mapped
+  the cliff: the mutation axis is unexplored between 0.05 and meltdown. Specified,
+  not executed: a noise-dose line (fidelity cliff search) needs fresh rationale +
+  frozen plan + fresh bank — and it is now the ONLY untested transmission-axis
+  degree of freedom (copy-rule and heterogeneity both closed).
+- **arXiv:2109.09357v1.** PDE protocell model: multilevel selection origin of
+  chromosomes (within- vs between-protocell selection). → The formal version of our
+  founder-vs-lineage tension (niche fingerprint: weights ARE niche models; selection
+  acts on founders, compounding needs lineages). Multilevel framing for any future
+  group-selection design — specified, not executed.
+- **Scope-note.** Wafer-scale agent evolution (2404.10861v3) is infrastructure, not
+  theory; political-order transitions (1512.03419v2) are out of scope; early
+  multicellularity geometry (1403.7556v1) and punctuated climate (2212.06239v2) are
+  adjacent, not actionable.
