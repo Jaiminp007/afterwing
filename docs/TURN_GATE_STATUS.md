@@ -28,3 +28,11 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   zero rows recomputed (dual provenance). See
   `docs/TURN_GATE_RESULTS_V1B.md`. Next: V1c probe (406xxx) under its own
   frozen plan — not started, no RSI claim.
+- 2026-10-31: Phase-C FROZEN as `docs/TURN_GATE_PLAN_V1C.md` (DESIGN ONLY).
+  Read-only post-hoc of frozen V1b rows: transfer tax = uncorrected-flip
+  residue (same-val 0.94–0.95, flipped 0.51–0.62, train-self 0.91).
+  V1c replicates V1b design on fresh bank 406001–406054 (re-verify at
+  build) with identical gates + pre-registered DESCRIPTIVE flip-split
+  (same-val ≥0.85 AND flipped in [0.4,0.7] confirms mechanism; full
+  relearning or pure replay falsifies it). Next: implement, then single
+  attempt.
