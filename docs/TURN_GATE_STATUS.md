@@ -280,3 +280,11 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   NOT licensed (wrong-signed); naive exposure-extension NOT licensed
   (confounded + saturated). No new line. Next: codebook-geometry vs
   correctness (read-only, specified not executed). Cumulative unchanged.
+- 2026-10-26: geometry INCONCLUSIVE (dConflict r=-0.20 wrong-signed;
+  dCarry +0.18 too weak; dense codebooks limit test) → perceptual line
+  NOT licensed. QD transfer map built (33 episodes, 7/25 cells): BH>0.4
+  region EMPTY (BH≈0.20 everywhere = binding constraint, worse than HB
+  floor); frontier trades off (best HB 0.65 ↔ worst BH 0.13); gain holds
+  HB frontier only; 7 elites archived (anti-herding substrate for future
+  selection lines). Specified (not executed): BH failure actor-side test
+  via per-cue values (needs new instrumentation). No line licensed.
