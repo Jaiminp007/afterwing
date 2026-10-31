@@ -40,4 +40,16 @@ weights, no vertical transmission anywhere).
   Fixtures: scorer GO/NOGO/INCOMPLETE-NOMUTANTS/INVALID incl. totals-
   null; generation summarizer + censored lifespan; V1-parity; options-
   contrast (single knob). Bank test → post-build refusal + read-only
-  checks. Next: single authorized attempt.
+  checks.
+- 2026-10-26: Phase-B EXECUTED → **MATE-INHERIT-GO-V1B (thin margin)**.
+  G1 12/12 exact ledger (12/0/21504/516096/2.36e9); G2 audit pass (null
+  vs 0.05 transmission, enriched both arms, lineage-verified).
+  Mutant gen-2 = 3 ≥ 2 AND > exact gen-2 = 2 → GO per pre-registered bar
+  (exact: 416028x1 + 416046x1; mutant: 416037x1 + 416046x2). No
+  INCOMPLETE (mutant gen-1 31 > 0). Reading: weak-positive, confirm
+  don't celebrate — margin is one birth, 2/3 mutant gen-2 on one seed;
+  effect directionally consistent (2x rate) but Poisson-dominated.
+  No overdose (mutant ≥ exact), no vigor difference (~1300 ticks both),
+  no gen-3 anywhere (max 2 both). Cumulative 7632 (+12 ledgered;
+  per-line authoritative). Next: V1c multi-generation selection under
+  its own frozen plan — not started, no RSI claim.
