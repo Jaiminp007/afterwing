@@ -44,3 +44,10 @@
   replay bit-identity + replay brake unit). Triage at 6 pre-existing
   baseline. Bank `evidence/brake-lift-dev/fresh-02/` built
   424001–424054 (54 unique). Single authorized attempt NEXT.
+- 2026-10-27: Phase-A EXECUTED → **BRAKE-NOGO** (manipulation passes:
+  nolift 0.179 < uniform 0.334 by 0.155; lift fails: fast 0.230 <
+  uniform, repWins 0/3). Monotonic dose-response holds (uniform >
+  fast > slow > nolift) but fast never reaches baseline — explicit
+  machinery can't beat implicit release. LI replicates on fresh bank
+  (uniform −0.271). Line CLOSED (no V3 without new rationale).
+  Cumulative 7683 (+18).
