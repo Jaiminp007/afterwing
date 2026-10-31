@@ -288,3 +288,9 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   HB frontier only; 7 elites archived (anti-herding substrate for future
   selection lines). Specified (not executed): BH failure actor-side test
   via per-cue values (needs new instrumentation). No line licensed.
+- 2026-10-26 prior-strength dissociation (TURN_GATE_PRIOR_STRENGTH.md,
+  0 worlds): overshadowing NULL (concentration +0.08, anchor +0.05) →
+  Kamin top-move fails; LI/PH split (HB partial −0.17 vs BH +0.54, LOO
+  0.48-0.58 robust) → negativity-bias unification; BH actor-side doubly
+  licensed; HB mixed; two-track program specified (value-side HB line vs
+  actor-side BH line). No line licensed by analysis alone.
