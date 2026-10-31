@@ -167,5 +167,13 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   and void); manipulation VOID-conditions + null-hygiene carried over.
   Pre-registered STOP rule: sub-band with fired manipulation closes the
   surprise-replay line as exhausted (pivot, no treadmill). Cross-bank
-  V1f numbers are context, not tests. Next: implement, then single
-  attempt.
+  V1f numbers are context, not tests.
+- 2026-10-26: Phase-G IMPLEMENTED (`scripts/turn-gated-dev-v1g.mjs` +
+  `tests/turn-gated-dev-v1g.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/turn-gated-dev/fresh-07/` built 412001–412054
+  post-fixtures). Tournament T3 + gain-only (1.0/3) + bundle (T3/1.0/3)
+  options + per-arm transplants (train-source isolation kept) +
+  scorer triple requirements incl. gain + BH/HB splits + subsetGap +
+  agentWork/sumManipulation tested; null-hygiene INVALID override +
+  bundle/gain VOID-conditions in runner. Bank test → post-build refusal
+  + read-only checks. Next: single authorized attempt.
