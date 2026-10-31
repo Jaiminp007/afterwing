@@ -39,15 +39,25 @@ the discipline working as specified. A retest would need a rationale
 addressing bank-baseline variance (e.g., adaptive per-pair
 normalization — a new frozen plan, not this one; no V2 licensed).
 
-## Timing secondary (piggybacked, inconclusive)
+## Timing secondary — RESOLVED 2026-10-26 (hypothesis not supported)
 
-First-contact ticks logged all arms (passive, as planned). Pair-dose
-pooled test (n=15): r(first-contact tick, BH correctness) = −0.26
-(earlier encounters → slightly better avoidance, right-signed) —
-but first contacts cluster tightly (~769, low variance), so the test
-is underpowered by construction. The encounter-timing hypothesis is
-neither confirmed nor killed; the instrumentation now exists in this
-line's rows for any future meta-analysis. Unlicensed, as planned.
+First-contact ticks logged all arms (passive, as planned). HB
+pair-dose test (n=15 dose rows; the BH version above used the wrong
+metric): raw r(firstTick, HBcorr) = +0.30; dose-controlled partial =
++0.49. Dose does not move first contacts (r=+0.02: gain changes
+learning, not exposure — clean). Direction is OPPOSITE the
+encounter-timing hypothesis (early encounters do NOT learn faster;
+LATER first contact predicts better correctness). First ticks span
+257-513 (adequate variance — the old underpowered worry was wrong).
+
+Live alternative (hypothesis, not claim): within-run cross-cue
+generalization — later-encountered flipped cues inherit corrections
+via shared linear bits (elemental architecture), arriving with better
+initial values. Testable only with per-update logs (absent frozen):
+correlate per-cue correctness with prior shared-bit update mass —
+specified for a future instrumented line. The timing chapter closes
+here (not supported); the generalization chapter opens there.
+Unlicensed, as planned.
 
 Cumulative 7647 + 21 = 7668 (+21 ledgered; per-line authoritative).
 No RSI claim.

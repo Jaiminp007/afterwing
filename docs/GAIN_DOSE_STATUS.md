@@ -22,5 +22,5 @@
   baselines elevated (0.36–0.46 vs ~0.33 historic) — bank-dependence
   ate the calibration gate. Timing secondary r=−0.26, low-variance,
   inconclusive (instrumentation banked for meta-analysis). Ledger
-  21/0/37632/903168/3.40e9, redone []. Cumulative 7668 (+21).
+  21/0/37632/903168/3.40e9, redone []. Cumulative 7668 (+21). 2026-10-26: timing secondary resolved (n=15 dose rows): partial(firstTick|dose)=+0.49 WRONG-SIGNED for encounter-timing (later contact predicts better); hypothesis not supported. Live alternative: within-run cross-cue generalization via shared bits (specified test needs update logs).
   No V2 licensed.
