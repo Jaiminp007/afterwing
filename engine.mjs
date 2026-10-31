@@ -86,7 +86,7 @@ export class World {
     this.lineage=[];this.events=[];this.history=[];this.nextEventId=1;this.capacityReached=false;
     this.totals={births:0,deaths:0,deathCauses:{energy:0,age:0},foodEaten:0,externalEnergy:0,dissipated:0,signalCost:0,signalExposure:0,structuralMutations:0};
     if(this.config.cueForaging)this.totals={...this.totals,beneficialEaten:0,harmfulEaten:0,toxinDamage:0};
-    const hubs=this.config.resourceTopology==='hub'?[{x:500,y:320}]:[{x:180,y:180},{x:800,y:450},{x:470,y:500}];
+    const hubs=this.config.resourceTopology==='hub'?[{x:500,y:320}]:this.config.resourceTopology==='duo'?[{x:250,y:450},{x:750,y:450}]:[{x:180,y:180},{x:800,y:450},{x:470,y:500}];
     for(let y=28;y<this.height;y+=32)for(let x=28;x<this.width;x+=32){const abundance=Math.max(...hubs.map(p=>Math.exp(-(distance({x,y},p)**2)/24000)));
       const amount=abundance*this.rng.range(.7,2);this.food.push({x,y,amount,capacity:abundance*4+.05,regrowth:abundance*.16+.001,...(this.config.cueForaging?{cueId:0,cue:[0,0,0,0],valence:1}:{})});}
     for(let i=0;i<this.config.founders;i++){let g=seedGenome(this.rng);if(['trace-actor','episodic-actor'].includes(this.config.controller))g=installActorGenome(g,{parameters:this.config.actorParameters});this.flies.push(this.makeFly(g,[],0,i%2,[],this.rng.range(50,950),this.rng.range(50,590),65));}
@@ -209,7 +209,7 @@ export function validateConfig(c){
   if(c.challenges!==undefined&&!['off','cycle'].includes(c.challenges))throw Error('Invalid challenge profile');
   if(c.ecology!==undefined&&!['baseline','relocation'].includes(c.ecology))throw Error('Invalid ecology profile');
   if(c.signalMode!==undefined&&!['normal','disabled','scrambled'].includes(c.signalMode))throw Error('Invalid signal mode');
-  if(c.resourceTopology!==undefined&&!['spread','hub'].includes(c.resourceTopology))throw Error('Invalid resource topology');
+  if(c.resourceTopology!==undefined&&!['spread','hub','duo'].includes(c.resourceTopology))throw Error('Invalid resource topology');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');

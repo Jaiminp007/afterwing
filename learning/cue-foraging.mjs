@@ -29,7 +29,7 @@ export function enterCuePhase(world, phase, seed, codebook, nullSeed=null) {
   assert.equal(pool.length,4); world.config.nutrient=phase.nutrient; world.config.ecology='baseline'; world.nextRelocationTick=null;
   // Null-default: hub keeps the single fixed hub center (phase-stable concentration);
   // any other value takes the legacy 3-random-centers path bit-identically.
-  world.resourceCenters=world.config.resourceTopology==='hub'?[{x:500,y:320}]:Array.from({length:3},()=>({x:rng.range(100,900),y:rng.range(80,560)}));
+  world.resourceCenters=world.config.resourceTopology==='hub'?[{x:500,y:320}]:world.config.resourceTopology==='duo'?[{x:250,y:450},{x:750,y:450}]:Array.from({length:3},()=>({x:rng.range(100,900),y:rng.range(80,560)}));
   const order=shuffle(world.food.map((_,i)=>i),rng), groups=Array.from({length:4},()=>[]);
   for(const [i,index] of order.entries()) {
     const patch=world.food[index], item=pool[i%4]; patch.cueId=item.id;patch.cue=[...item.bits];patch.valence=item.valence;groups[i%4].push(index);
@@ -43,7 +43,7 @@ export function enterCuePhase(world, phase, seed, codebook, nullSeed=null) {
 export function updateCueResources(world, resource) {
   if(resource.nextShift===null||world.tick<resource.nextShift)return;
   const before=world.energy(),rng=new RNG(resource.rngState);
-  world.resourceCenters=world.config.resourceTopology==='hub'?[{x:500,y:320}]:Array.from({length:3},()=>({x:rng.range(100,900),y:rng.range(80,560)}));
+  world.resourceCenters=world.config.resourceTopology==='hub'?[{x:500,y:320}]:world.config.resourceTopology==='duo'?[{x:250,y:450},{x:750,y:450}]:Array.from({length:3},()=>({x:rng.range(100,900),y:rng.range(80,560)}));
   for(const patch of world.food){const a=Math.max(...world.resourceCenters.map(c=>Math.exp(-((patch.x-c.x)**2+(patch.y-c.y)**2)/24000)));patch.regrowth=a*.16+.001;patch.capacity=Math.max(patch.amount,a*4+.05);}
   resource.rngState=rng.state;resource.nextShift+=resource.shiftEvery;resource.shifts++;assert.equal(world.energy(),before);
 }
