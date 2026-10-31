@@ -607,3 +607,86 @@ dynamics features from reward → transfer across goals. → Principled
   map for each candidate ID BEFORE fetching abstracts; fetch only
   unmapped IDs. This round followed it (3 fetched, 9 skipped as
   duplicates).
+
+## Round 14 — free-energy foundations, bottlenecks, randomization-transfer, reservoirs, niche memory, affordances, predictive maps, basal computation
+
+Outside-the-box round: the frameworks UNDERNEATH our existing pieces
+(FEP behind AIF-DDM/FEH; IB behind capacity talk; randomization behind
+codebook shuffles; replay's computational meaning; aneural computation).
+
+- **FEP core monograph (1906.10184).** Friston's "a free energy principle
+  for a particular physics": Markov blankets compose ensembles across
+  spatiotemporal scales; Bayesian mechanics for autonomous things. →
+  Our agents ARE particulars (sensorimotor blanket = the agent/ecology
+  cut VISION needs formalized). Positions FEH (greedy beats deliberation)
+  as an FEP agent with imprecise beliefs — the divergence point between
+  the two is now statable: which variational objective survives explicit
+  energy billing? Licensed: formulate greedy-0.5 AS an FEP agent and find
+  where predictions differ (design work, zero worlds).
+- **FEP technical underpinning (2002.04501).** Reply to Biehl et al:
+  solenoidal coupling in sparsely-coupled blanket systems; exact vs
+  approximate Bayesian inference. → Our replay does exact bookkeeping on
+  approximate states — this paper names that regime. The blanket
+  formalism gives language for founder-vs-ecology separation (substrate
+  language for VISION milestone 4).
+- **Information bottleneck, original (physics/0004057).** Tishby: relevant
+  information = what signal x carries about y; squeeze through a limited
+  code. → Our taste policy (3 floats!) is an extreme bottleneck; IB is the
+  principled measure of what those numbers must carry. Licensed: compute
+  I(weights; future intake) on FROZEN rows (read-only, zero worlds) as a
+  capacity diagnostic — are 3 floats sufficient or saturated?
+- **Deep IB (1503.02406).** Layer-wise input/output information; optimal
+  architecture/width from IB bifurcations; generalization bounds. →
+  Bifurcations predict PHASE CHANGES in optimal capacity. Hypothesis-only
+  lens on the V1d stampede (47/48 simultaneous adopts): over-capacity
+  collapse at a bifurcation, not just saturation.
+- **Domain randomization (1703.06907).** Tobin et al.: train on randomized
+  sim; the real world appears as just another variation; 1.5cm real-world
+  detection from sim only. → Our per-history codebook shuffle IS domain
+  randomization over valence assignments; V1b/V1c transfer = sim-to-real
+  where "real" = held-out randomization. Validates the shuffle design
+  from the transfer literature's standard trick; V1c tests whether
+  randomization-trained policies transfer.
+- **Reservoir forecasting + generalized synchronization (2102.08930).**
+  Pre-training GS test guides reservoir hyperparameters; Lyapunov-exponent
+  reproduction as "well trained" metric. → Fixed random reservoir +
+  trained readout rhymes with our tiny-weight + replay architecture.
+  Licensed: a GS-style pre-training test for BT_LEARNER_OPTIONS — a
+  principled alternative to frozen-by-convention hyperparameters.
+- **Outsourcing memory through niche construction (2209.00476).** Lee:
+  universal scaling law for optimal memory duration from memory precision
+  × environmental rate (remembering-vs-forgetting trade-off). → Our replay
+  window (recent/older buffers, 4 passes) is a memory-duration choice the
+  law can judge. Licensed: measure codebook volatility vs retention on
+  frozen rows (read-only) — are we over- or under-remembering?
+- **Niche-construction dynamics (2305.09369).** Nisioti: NC in adaptable
+  populations across diverse niches; evolution usually ignores the
+  reciprocal environment-modification loop. → Our MATE line is adaptable
+  populations + diverse histories WITHOUT the NC loop closed (food
+  depletes = modification, but is it inheritable change?). Licensed:
+  check whether depletion patterns constitute NC in our ecology
+  (read-only row analysis, zero worlds).
+- **SAVOR skill affordances (2506.02353).** Skill affordances from
+  visuo-haptic perception for FOOD ACQUISITION under temporal variability
+  (steak firms as it cools). → Our turn-gating IS a skill affordance
+  (turn-suitability of a cue-context) in our exact domain with the same
+  nonstationarity. Gives V1/V1b a name + literature; no new claim.
+- **Hippocampus as successor representation (2006.11975).** Predictive map
+  theory: TD value decomposes into reward × expected state occupancy;
+  CA1 firing = transition probability. → Names what our replayPasses=4
+  COMPUTE: multi-step backup ≈ SR construction. Instrumentation note
+  (third occurrence): we don't archive replay buffers/SR — needed for any
+  SR diagnostic (cf. rounds 12, 13).
+- **Bioelectric algorithms (1809.10046).** TCS applied to developmental
+  bioelectricity: computation in voltage patterns, aneural. → The
+  arXiv-available Levin-adjacent work; positions our aneural 3-float
+  controllers in the basal-cognition spectrum (Levin proper is
+  journal-side, noted not mapped).
+- **Scope note (honest misses).** Searched but unmapped (journal-side or
+  noise): Levin proper (no arXiv presence), Still thermodynamics-of-
+  prediction (no arXiv hit under multiple queries), somatic/neural-
+  Darwinism formalizations (noise), autopoiesis-artificial (noise),
+  echo-state-as-such (noise; reservoir covered instead), bio-sleep
+  consolidation (noise; PER/HER/CLS stand), herding/information cascades
+  (noise; quorum/recruitment-cascade coverage stands), Kuramoto sync
+  (deferred — our stampede is common-shock, not coupled oscillation).
