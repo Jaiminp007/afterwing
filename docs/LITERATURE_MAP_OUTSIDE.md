@@ -3095,3 +3095,36 @@ will interpret either verdict.
   arXiv (ZetaDial protein engineering is unrelated); the journal literature
   (Many Labs, decline effect, hidden moderators) stays canon-deferred — the
   non-exact framing above subsumes the actionable part.
+
+## Round 72 — mechanisms already in the engine, never formalized (2026-11-02)
+
+Motivation: the closed mating arc implemented (but never analyzed) three textbook
+mechanisms: ecological inheritance (founders deplete shared food), reproductive
+variance (per-seed gen-2 spreads), and symmetric parental investment (24/24 energy
+cost). This round banks their formalisms for any future program use.
+
+- **arXiv:1810.01142v1.** Bet-hedging in expanding populations (beyond well-mixed
+  theory: range expansions change the hedge calculus). → Our founders ARE a range
+  expansion (36 seeded, spread over 640k units); per-seed gen-2 variance
+  (V1c: [1,1,3,3,0,3]) is the raw material of a hedge. The paper's question maps
+  directly: is the observed lineage variance risk-spreading or noise? Untested
+  (needs a variance-partition design, specified not executed) — but the null
+  interpretation of every "outlier history" in the program is now named.
+- **arXiv:1807.01735v2.** Asymmetric evolutionary games with environmental feedback
+  (strategies modify the shared environment, which feeds back on payoffs).
+  → The formalism for our depletion loop: foraging depletes food → depleted food
+  changes mating payoffs → lineages evolve under self-modified selection. Our
+  program measured the loop's endpoints (hub starves −41.9; duo eats best −20.5)
+  without ever writing the feedback equation. Any carry-over/persistence design
+  must start here, not from statics.
+- **arXiv:1711.09424v1.** Collapse of ecosystem engineer populations (engineers
+  build the habitat they depend on; over-engineering collapses it). → The cautionary
+  twin: concentration (hub) engineers high-encounter habitat AND depletes it —
+  our hub-starvation finding IS engineer overshoot at small scale. Scales the
+  Emlen-Oring split: food-clumped ecologies carry intrinsic collapse risk that
+  spread ecologies don't (matches hub −41.9 vs spread −24.3 energies).
+- **Scope-note.** Niche-inheritance (1403.7413v1 cancer-only), parent-offspring
+  bioassay (1205.0931v1 feral dogs), intragenomic-conflict conjunctions: no
+  actionable formalism on arXiv (Trivers/Haig/Odling-Smee stay canon-deferred).
+  The 24/24 symmetric parental cost in our engine is thus an unmodeled arena —
+  logged as an open mechanism, not pursued (needs the coupled-line decision first).
