@@ -232,13 +232,17 @@ export function mechanismConfirmed(flip){
 // Seg2 interpretive class (descriptive, pre-registered bands from the plan):
 // CONVERGED = flipped reached same-val/train level (H-plastic); RIGID =
 // still in the 1x partial-correction band (H-rigid); DEGRADED = below band
-// (overtraining/interference failure); INDETERMINATE on null (never imputed).
+// (overtraining/interference failure); INTERMEDIATE = the plan-undefined
+// zone between the band top and convergence (movement without arrival);
+// INDETERMINATE on null (never imputed). The else-clause must NOT claim
+// DEGRADED for above-band values (production fix, attempt-04).
 export function classifySeg2(flip){
   const c=flip.flipped.correctness;
   if(c===null)return 'INDETERMINATE';
   if(c>=T4_CONVERGE_MIN)return 'CONVERGED';
   if(c>=T4_RIGID_LO&&c<=T4_RIGID_HI)return 'RIGID';
-  return 'DEGRADED';
+  if(c<T4_RIGID_LO)return 'DEGRADED';
+  return 'INTERMEDIATE';
 }
 // Seg2 summary (pure): seg2 split vs the same train row, seg2-seg1 flipped
 // delta (null-aware), and the interpretive class.

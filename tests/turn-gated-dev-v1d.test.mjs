@@ -155,6 +155,23 @@ test('seg2 classification: converged / rigid / degraded / indeterminate + delta'
   assert.equal(cN.class,'INDETERMINATE');
 });
 
+test('seg2 classification covers the plan-undefined intermediate zone (regression)',()=>{
+  // Production finding (attempt-04): flipped 0.730/0.741 land between the
+  // RIGID band top (0.7) and CONVERGED (0.85); the else-clause mislabeled
+  // them DEGRADED (reserved for <0.4). They are INTERMEDIATE. Pure-unit:
+  // seg2Summary/classifySeg2 only read .flipped.correctness.
+  assert.equal(classifySeg2({flipped:{correctness:0.73}}),'INTERMEDIATE');
+  assert.equal(classifySeg2({flipped:{correctness:0.84}}),'INTERMEDIATE');
+  assert.equal(classifySeg2({flipped:{correctness:0.85}}),'CONVERGED');
+  assert.equal(classifySeg2({flipped:{correctness:0.7}}),'RIGID');
+  assert.equal(classifySeg2({flipped:{correctness:0.4}}),'RIGID');
+  assert.equal(classifySeg2({flipped:{correctness:0.39}}),'DEGRADED');
+  assert.equal(classifySeg2({flipped:{correctness:null}}),'INDETERMINATE');
+  const s=seg2Summary({flipped:{correctness:0.543}},{flipped:{correctness:0.73}});
+  assert.equal(s.class,'INTERMEDIATE');
+  assert.ok(Math.abs(s.deltaFlipped-0.187)<1e-9);
+});
+
 test('live bank 409001-409054 cannot be rebuilt (union-exclusion guard)',()=>{
   // Post-build maintenance: the V1d bank built cleanly pre-build (8/8 green
   // incl. temp-dir 54-unique build) and is now live in evidence; the builder

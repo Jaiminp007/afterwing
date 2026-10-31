@@ -68,5 +68,16 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   post-fixtures). Seg1 rows persist weights (second-transplant source);
   scorer requires seg2 triple fail-closed; seg2Summary/classifySeg2 pure +
   tested (CONVERGED/RIGID/DEGRADED/INDETERMINATE + delta). Bank test →
-  post-build refusal + read-only bank checks. Next: single authorized
-  attempt.
+  post-build refusal + read-only bank checks.
+- 2026-10-31: Phase-D EXECUTED → **GO, PARTIAL CONVERGENCE**. G1 join
+  1.00 x12; G0 train 0.827/0.833/0.826 (4th replication); G2a seg1 mean
+  0.548; G2b unlearned flat. Seg1 mechanism replicates (3rd time). Seg2:
+  flipped +0.08/+0.12/+0.19 everywhere (mean 0.587→0.709), classes
+  INTERMEDIATE/RIGID/INTERMEDIATE — tax shrinks ~1/3 per doubling,
+  neither hypothesis fully supported. 12 mains, all caps, `redone: []`.
+  Two documented patches: (1) pre-run 1-line seg1-weights fix after
+  pair-0 crash, partial dir removed, restarted clean (single
+  provenance); (2) post-run classifier INTERMEDIATE branch + analytic
+  string-only relabel (numerics verified identical). Tax = slow-to-
+  correct residue. Next: V1e 4x/asymptote probe (may gate on
+  convergence) under its own frozen plan — not started, no RSI claim.
