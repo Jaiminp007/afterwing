@@ -273,3 +273,10 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   (moving targets); global surprise-gating stays the instrument; floor =
   hardest-cue residue. Last analytic step before any structural line:
   what makes the hardest HB cue hard.
+- 2026-10-26: practice adjudication (read-only, 0 worlds) → HB gradient
+  +0.5 robust BUT BH −0.75 proves exposure endogenous (totals can't
+  identify practice effects); gain lifts +0.13 with ZERO gradient change
+  (0.67→0.68) → manipulable floor is contact-orthogonal. Noisy replay
+  NOT licensed (wrong-signed); naive exposure-extension NOT licensed
+  (confounded + saturated). No new line. Next: codebook-geometry vs
+  correctness (read-only, specified not executed). Cumulative unchanged.
