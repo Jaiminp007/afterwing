@@ -2795,3 +2795,26 @@ the theory its diagnostic assumes.
 - **Scope-note misses (59).** Mating-cost/longevity trade-offs and sperm-raffle models
   return nothing on arXiv (journal literature; OpenAlex still 429). Noted, not pursued —
   no engine knob for mating cost exists, so the literature would be un-actionable.
+
+## Round 60 — criticality + quorum-gated motility (for V1c dose framing; 2026-11-01)
+
+Motivation: V1c (attempt-03 executing) is a 3-point dose curve over concentration.
+These two entries frame what a dose curve MEANS for collectives.
+
+- **arXiv:2211.03879v1.** Phase transitions and criticality in collective animal
+  behavior (review: schools/flocks/swarms as statistical-physics systems; the
+  criticality hypothesis — collectives poised near a (pseudo-)critical point for
+  maximal susceptibility/information flow). → Reframes V1c: if mating-compounding is
+  a collective phenomenon, the hub/spread contrast is a DETUNING from criticality,
+  and the dose curve should show threshold/susceptibility structure, not linearity.
+  A flat V1c dose curve would then read as off-critical-range (wrong dose window),
+  not necessarily no-effect — a pre-registered interpretive lens, not a gate change.
+- **arXiv:1909.12758v1.** Quorum-sensing active particles with discontinuous motility
+  (mean-field theory; particles switch motility when self-generated field exceeds
+  a threshold; density-polarization coupling solvable). → The mechanism analogue our
+  flies LACK: no density-gated behavioral switch exists in the agent policy (cruise
+  + mate-approach are density-blind). If V1c shows a threshold dose pattern, the next
+  mechanism hypothesis is a quorum-gated policy (slow near conspecifics / dwell at
+  high-contact patches) — engine + policy work, specified here, built nowhere.
+- **Scope-note.** Quorum-decision mapping (1703.01353, seen R59) and biofilm threshold
+  (2112.02683) are adjacent but add no new actionable prediction beyond the two above.
