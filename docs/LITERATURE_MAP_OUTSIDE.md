@@ -968,3 +968,54 @@ rather than retry-looping.
   Stearns life history, Hamilton inclusive fitness, Zahavi signaling,
   Der homeokinesis — journal-side or noise. EES proper unmapped (no
   arXiv presence under multiple queries).
+
+## Round 20 — continual learning canon, meta-learning first-order, population-based training, learned optimizers, QD via CMA-ES
+
+No new tools needed: `id_list` batch-verifies known papers in one call.
+Anti-duplication: full-ID greps (substring "04474" hit is the round-13
+canalization paper 1607.04474, not the LSTM optimizer 1606.04474).
+
+- **Dark Experience Replay (2004.07211).** Buzzega: rehearsal + knowledge
+  distillation on buffered logits, no task boundaries (general
+  continual learning). → Our replay is rehearsal WITHOUT distillation.
+  DER's prescription is precise: match old OUTPUTS on replayed inputs,
+  not just replay inputs. Licensed V1h-alternative: "dark" replay
+  (distill) vs implemented noisy replay (corrupt) — two distinct
+  anti-overfitting operators, testable head-to-head on a fresh bank.
+- **GEM (1706.08840).** Lopez-Paz: episodic memory with gradient
+  constraints + forward/backward TRANSFER metrics. → We have phases
+  (A/B/C) and no transfer metrics. Licensed: compute GEM-style
+  forward/backward transfer on frozen phase rows (read-only, zero
+  worlds) — are the V1 phases helping or hurting each other?
+- **Reptile (1803.02999).** Nichol: first-order meta-learning —
+  initializations that fine-tune fast. → Our transplanted weights ARE
+  initializations; the V1b–V1e transfer gaps ARE Reptile's objective
+  (post-adaptation performance). Reframes the whole transfer line as a
+  meta-learning evaluation, with Reptile's update as a candidate
+  improvement over checkpoint-carryover (move toward fast-adapting
+  weights, not just trained weights).
+- **PBT (1711.09846).** Jaderberg: population + hyperparameters jointly
+  optimized; exploit (copy better members' weights) + explore (mutate
+  hyperparameters). → This is our mating/inheritance line in ML form:
+  V1's exact copy = exploit WITHOUT explore; V1b's mutated copy = full
+  exploit+explore on WEIGHTS (ours) rather than hyperparameters
+  (theirs). Licensed reading of V1b as a 2-member PBT run — and the
+  obvious V1c+: periodic copying from the better arm (full PBT loop,
+  not just parallel arms).
+- **Learned optimizers (1606.04474).** Andrychowicz: LSTMs AS optimizers,
+  learned by gradient descent, beating hand-designed ones on-task and
+  generalizing. → The RSI endgame at optimizer level (RL² was
+  algorithm-level, round 15). Positions V1g's surprise-gating as one
+  hand-designed optimizer component; the learned-optimizer path would
+  discover the gating (or better) automatically. Thesis-level framing,
+  not a line.
+- **CMA-ME (1912.02400).** Fontaine: QD via CMA-ES emitters — rapid
+  illumination of continuous behavior spaces. → Direct upgrade path
+  for the licensed-but-undesigned QD archive: CMA-ME over
+  cue-response-profile space instead of MAP-Elites. Noted as the
+  implementation choice when the archive line freezes.
+- **Scope-note misses.** Population-genetics on arXiv is thin (island/
+  fixation/soft-sweep/assortment queries all noise); the field lives in
+  journals — future mapping there needs a different discipline (reviews
+  or textbooks, not live arXiv). Same for EES proper, Der homeokinesis,
+  GARD, Waddington, Stearns, Hamilton, Zahavi.
