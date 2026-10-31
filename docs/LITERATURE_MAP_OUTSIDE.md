@@ -3160,3 +3160,31 @@ round found it, plus the fidelity limits that bound any future transmission work
   theory; political-order transitions (1512.03419v2) are out of scope; early
   multicellularity geometry (1403.7556v1) and punctuated climate (2212.06239v2) are
   adjacent, not actionable.
+
+## Round 74 — establishment as nucleation/percolation (for INFORMED's void; 2026-11-02)
+
+Motivation: INFORMED's donor lineage never established (gen-2+ 0v0). Physics has two
+names for this failure mode, with quantitative thresholds attached.
+
+- **Classical nucleation theory (arXiv:2608.06220v1 geometric closure; 1704.03369v1
+  core-shell growth; 1807.09293v1 binary-solution kinetics; 2003.02749v1 seeding
+  approach; 2607.05194v1 time-reversal breaking).** Subcritical nuclei dissolve;
+  supercritical grow — separated by a critical radius where bulk gain beats surface
+  cost. → The donor lineage as a subcritical nucleus: 1 gen-1 cannot pay the
+  "surface cost" (mate-finding Allee effect at lineage size 1). The theory predicts
+  WHAT would establish: a critical lineage mass (multiple simultaneous donor-line
+  matings — i.e., seeding N donors, not 1). Specified, not executed: N-donor
+  seeding (critical-mass test) needs fresh rationale + frozen plan + fresh bank —
+  and it reframes INFORMED's NOGO (n=1 seeding is expected to fail under nucleation).
+- **Contact-process percolation (arXiv:1912.09825v3 spread-out threshold;
+  1810.04545v2 adaptations vs spreading; 0502373v2 two-pathogen thresholds).**
+  Spread/no-spread is a threshold in transmissibility × degree. → Our mating graph
+  (who meets whom within 26u) is a temporal contact network; lineage percolation
+  needs the product above threshold. Hub concentrates degree (helps); 1792 ticks
+  caps path length (hurts). The threshold lens predicts the observed pattern class:
+  thin margins near criticality, wild bank swings (critical fluctuations) — i.e.,
+  the program's entire +1/+2-margin phenomenology is what NEAR-CRITICAL mating
+  graphs look like. Recorded as interpretation, not a gate.
+- **Scope-note.** Bleb/membrane nucleation (1602.03646v1) and fluid-leakage
+  percolation (1512.00186v1) are mechanism-mismatched; digital contact tracing
+  (2103.12634v5) is applied-epi. Logged, not pursued.
