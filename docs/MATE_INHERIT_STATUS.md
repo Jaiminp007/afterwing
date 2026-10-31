@@ -14,5 +14,6 @@ weights, no vertical transmission anywhere).
   confirmed live (unit-tested copy path + audited plumbing), effect absent
   — likely one-generation window (founders do most mating; transmitted
   weights have no gen-2 to compound in). Line closed for exact-copy;
-  V1b needs mutation + lineage tracking. Full record:
+  V1b needs mutation + lineage tracking (UNLICENSED by the NOGO — needs
+  a new rationale; feasibility first). Full record:
   MATE_INHERIT_RESULTS_V1.md.
