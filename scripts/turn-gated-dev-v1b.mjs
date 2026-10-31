@@ -276,7 +276,7 @@ export function runTurnGatedDevV1b({bankPath,output,resume=false}){
   }
   runtimes.pairs=pairWall;checkpointLedger();
   assert.deepEqual(turnGateDevV1bSources(),sources,'Sources changed during dev run');
-  assert.ok((Date.now()-t0)/1000<=T_WALL_CAP_SECONDS,'Dev aggregate wall cap breached');
+  assert.ok((Date.now()-t0)/1000<=T2_WALL_CAP_SECONDS,'Dev aggregate wall cap breached');
   const decision=scoreTurnGateV1b(rows);
   assert.equal(ledger.mains,T2_EXPECT_MAINS,'Dev mains count mismatch');
   assert.equal(ledger.probes,T2_EXPECT_PROBES,'Dev probes count mismatch');
