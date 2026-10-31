@@ -2871,3 +2871,30 @@ pairings are random, the next lever is CHOICE. Economics formalizes exactly this
 - **Scope-note.** Handicap/costly-signaling canon (Zahavi/Grafen/Johnstone) stays
   journal-deferred; the market-design entries above subsume the actionable part
   (signal + directed search) without it.
+
+## Round 63 — using a larger sensorium (for ATTRACT's learned-use risk; 2026-11-01)
+
+Motivation: attempt-01 executing. The plan's stated honest risk: mate approach is
+LEARNED, so the policy may not exploit 2x sensing in 1792 ticks. This round banks
+the normative benchmark for what exploiting it would look like.
+
+- **Infotaxis line (arXiv:2112.10861v3 beating infotaxis in POMDP framing;
+  1010.2728v2 trajectories; 1408.1873v1 under model error; 2207.04277v2 optimal
+  Bayesian olfactory search).** Information-based search: move to maximize expected
+  information gain about source location. → The normative policy for a 2x sensorium:
+  distant detections should reshape the search prior (not just trigger approach).
+  Our actor does TD-style credit on approach outcomes — no information-gain term.
+  If spread2 fails while the sensing proof holds, the gap is normative-vs-learned
+  USE, and the licensed next diagnostic is an infotaxis-style probe (do 2x agents
+  alter search patterns on detection, or only approach vectors?).
+- **Collective sensing (arXiv:1506.06698v2 emergent chemotaxis without single-cell
+  sensing; 2110.10260v1 limited positional info; 2610.04415v1 emergent Bayesian
+  inference; 1711.06909v2 fish schools).** Groups sense what individuals cannot
+  (many-wrongs + emergent inference). → Inverted lens on our null: our flies all run
+  the SAME policy with PRIVATE sensing (scent channel exists but mate search doesn't
+  use social information). A group that pooled detections would beat any individual
+  sensorium extension — the R58 copying-gap restated quantitatively. Attraction-knob
+  work that only extends private range leaves the social-information channel
+  unbuilt; a future line could test detection-sharing (signal-gated approach).
+- **Scope-note.** Ant locomotion modeling (2603.02665v1) is descriptive tracking, no
+  actionable prediction for sensing use; logged, not pursued.
