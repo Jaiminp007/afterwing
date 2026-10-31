@@ -62,6 +62,15 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   run + transplant. Interpretive bands pre-registered (≥0.85 converged /
   [0.4,0.7] rigid / <0.4 degraded), non-gating by necessity (first 2×
   measurement). Next: implement, then single attempt.
+- 2026-10-31: Phase-E IMPLEMENTED (`scripts/turn-gated-dev-v1e.mjs` +
+  `tests/turn-gated-dev-v1e.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/turn-gated-dev/fresh-05/` built 410001–410054
+  post-fixtures). Seg1/seg2/seg3 rows persist weights (chained transplant
+  sources); scorer requires seg2/seg3/seg4 triples fail-closed;
+  segSummary/classifySeg generalized (link-to-link deltas) + tested
+  (chain + boundaries incl. INTERMEDIATE regression carried over). Bank
+  test → post-build refusal + read-only bank checks. Next: single
+  authorized attempt.
 - 2026-10-31: Phase-D IMPLEMENTED (`scripts/turn-gated-dev-v1d.mjs` +
   `tests/turn-gated-dev-v1d.test.mjs` 8/8 green; triage at 6-pristine
   baseline; bank `evidence/turn-gated-dev/fresh-04/` built 409001–409054
