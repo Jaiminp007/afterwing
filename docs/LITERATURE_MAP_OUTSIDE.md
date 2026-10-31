@@ -3026,3 +3026,28 @@ identifies what that number IS in the outside literature.
   Specified, not executed: IB-frontier probe on frozen rows needs its own plan.
 - **Scope-note.** Wireless-sensing rate-distortion (2303.11857v2) and moral-geometry
   (2501.08865v1) are adjacent, not actionable; logged, not pursued.
+
+## Round 69 — the binary policy's implicit cutoff (for IB's alphabet-2; 2026-11-02)
+
+Motivation: IB-V1 found k95=k99=2 — the policy IS a binary classifier on valence.
+A binary classifier has a cutoff, and cutoffs imply cost ratios. This round prices it.
+
+- **Optimal cutoff under asymmetric costs (arXiv:2605.07829v1 parametric ROC/cutoff
+  with skew-normal mixtures; 2512.23133v1 optimizing generalized binary metrics).**
+  Youden's J (symmetric) is suboptimal when misses cost more than false alarms;
+  optimal cutoffs fold in prevalence + cost asymmetry. → Read our turn rates
+  (0.87|harmful vs 0.05|beneficial) as a REVEALED cutoff: the policy acts as if
+  missing a harmful cue costs ~order-of-magnitude more than false-alarming a
+  beneficial one (exact ratio needs the score distributions, unlogged — specified
+  as a frozen-rows extension, not executed). The SDT d' from VALUE-PROBE and this
+  cutoff analysis are complementary halves of the same ROC: d' = discriminability,
+  cutoff = policy. Both now exist for this bank.
+- **Dichotomization costs (arXiv:1101.0788v2 valued ties: don't dichotomize network
+  edges).** Thresholding continuous values discards information — the price of our
+  alphabet-2. → Pairs with the 42%-unused finding (MAXENT-V1): part of the unused
+  information is dichotomization loss (continuous cue evidence collapsed to a bit
+  before acting). A graded-intake line (R46 Kelly prescription) would recover it;
+  the cost of binarity is now bounded above by 0.42 bits/contact on this bank.
+- **Scope-note.** Engineering-detection conjunctions (1407.4173v1, 1004.5479v1,
+  MIMO/phase-retrieval) are methods-adjacent, not actionable; categorical-perception
+  conjunctions return nothing on arXiv (Harnad stays canon-deferred).
