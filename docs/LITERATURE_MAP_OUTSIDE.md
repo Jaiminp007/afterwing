@@ -755,3 +755,63 @@ grep — already mapped, dropped. Rule working as intended.
   signaling, Waddington/assimilation, Gigerenzer/ecological-rationality
   (concept already ours via FEH), Still thermo-of-prediction, herd
   behavior, bio-sleep, autopoiesis, echo-state — journal-side or noise.
+
+## Round 16 — learnability of foraging, rational inattention, sparse collectives, choice redundancy, morphological computation
+
+Two more duplicates caught by the grep (2004.10671 normative patch
+foraging + 1802.10546 curiosity survey — both already mapped with entries
+covering the intended points). Dropped before fetching. Rule working.
+
+- **Patch foraging in deep RL (2210.08085).** Wispinski: patch foraging
+  has a KNOWN optimal solution yet is hard to discover with current deep
+  RL; first demonstration that ML agents CAN learn it. → The mapped
+  normative theory (2004.10671) says what optimal IS; this says learning
+  it is HARD. Our agents face the same task with 3-float policies and 4
+  replay passes — the learnability gap (optimal vs learnable) is now the
+  right frame for the foraging line, not optimality alone. Licensed:
+  compare our policies' residence times against MVT on frozen rows
+  (read-only, zero worlds) — are they optimal, satisficing, or stuck?
+- **Revealed RI + revealed preference (2106.14486).** Pattanayak:
+  equivalence map between rational-inattention tests and classical
+  revealed preference (payoff monotonicity unifies both). → Foundations:
+  information-acquisition rationality and utility maximization are the
+  SAME test under the map. Our FEH result (greedy beats deliberation)
+  can be stated in either language — pick the one that makes the
+  sharpest prediction for the next line.
+- **Robust RI games (2306.09964).** Denti: flexible information
+  acquisition REDUCES welfare vs predetermined information, yet the two
+  regimes are behaviorally INDISTINGUISHABLE in most environments. →
+  Direct formal sibling of FEH: deliberation costs welfare while matching
+  behavior — exactly our greedy-0.5 finding (simpler wins, same
+  outcomes). The welfare gap without a behavioral gap explains WHY
+  selection favors the cheaper rule. Cite as the mechanism behind the
+  theorem, not just an analogy.
+- **Sparse-neighborhood collective motion (2404.18675).** Haghsheno:
+  multiplicative-noise Vicsek variant with MORE individual movement in
+  sparsely populated neighborhoods; built for the low-velocity,
+  low-density regime. → Our encounter regime (0.05–0.15/main, P(0)~60%)
+  IS the sparse neighborhood. The model's density-dependent individuality
+  (lonely particles move differently) is a testable alternative to our
+  diffusion estimate: do our flies' encounter rates follow the sparse
+  correction? Licensed: refit the encounter estimate with the sparse
+  term (read-only, zero worlds).
+- **Female choice under conflict (1807.09131).** Li: choice depletes
+  variance and can go redundant; fit males sire unfit daughters under
+  GxE/sexual antagonism. → Echoes our exact-copy NOGO from the choice
+  side: transmission without variation leaves nothing to choose AND
+  nothing to gain — choice redundancy is the same null from the other
+  direction. Strengthens the case that the mating line needs inherited
+  VARIATION first (mutation+lineage), not better choice protocols.
+- **Quantifying morphological computation (1503.05113).** Ghazi-Zahedi:
+  information decomposition of the sensorimotor loop measuring how much
+  body+environment contribute to behavior. → The missing measure for
+  Vision milestone 4 / BODY_TRANSFER: transfer failure (V2 FAIL-body)
+  vs transfer success (TURN-GATE) can be stated as morphological
+  computation NOT vs DOES transfer. Licensed: compute the decomposition
+  on frozen body-transfer rows (read-only) — is the learned policy in
+  the weights or in the body-environment loop?
+- **Scope-note misses.** Charnov MVT original, Gigerenzer ecological
+  rationality, Stearns life-history, Trivers parental investment,
+  Der homeokinesis proper, Still thermo-of-prediction — journal-side or
+  noise. Bio-sleep, herd, autopoiesis, echo-state remain unmapped
+  (standing).
