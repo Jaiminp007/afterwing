@@ -217,3 +217,17 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   override + per-gain-arm VOID-conditions in runner. Bank test →
   post-build refusal + read-only checks. Next: single authorized
   attempt.
+- 2026-10-26: Phase-H EXECUTED → **GO, GAIN REPLICATES + COMPOUNDS**.
+  G1 join 1.00 x15; G0 train 0.812/0.813/0.819 (8th replication); G2a
+  uniform mean 0.644 (7th replication); G2b unlearned flat; seg1
+  mechanism replicates (7th time). Manipulation PERFECT both arms
+  (gain 628+308, seg2 424+428 fired; nulls silent; no voids).
+  D1 +0.187/+0.098/+0.116 (mean +0.134 ≥ +0.1, REPLICATED — pair-2
+  zero becomes positive, spread tightens); D2 +0.184/+0.324/+0.271
+  (mean +0.260, COMPOUNDS ~2x first-segment gain); D3 +0.371/+0.422/
+  +0.386 (closes ~55% of same-val gap). Same-val intact (|Δ| ≤ 0.011).
+  No overdose, no voids. STOP rule NOT triggered. Reading: surprise-
+  gating is a replicated compounding extinction lever (harder flips
+  this bank: 0.24 vs 0.41 — replication across difficulty). Next: V1i
+  gain-seg2 vs uniform-seg2 (clean interaction test), then CLOSE the
+  transfer arc as answered — not started, no RSI claim.
