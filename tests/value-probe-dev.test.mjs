@@ -115,8 +115,8 @@ const mkPair=(trSeed,teSeed,{bhValue,bhTurnLate,trainGapOk=true,joinOk=true})=>{
 
 test('scorer ACTOR-SIDE on values-right/behavior-wrong BH; LEARNER-SIDE on values-wrong',()=>{
   // Probe value LOW = predicts harm (correct for test-harmful BH cues).
-  // BH behavior late = 1-80/100 = 0.2; value 0.15 -> gap 0.8 ACTOR.
-  const rows=[...mkPair(1,10,{bhValue:0.15,bhTurnLate:80}),...mkPair(2,20,{bhValue:0.15,bhTurnLate:80}),...mkPair(3,30,{bhValue:0.15,bhTurnLate:80})];
+  // BH behavior late = turn 10/100 = 0.1; value 0.15 -> gap 0.9 ACTOR.
+  const rows=[...mkPair(1,10,{bhValue:0.15,bhTurnLate:10}),...mkPair(2,20,{bhValue:0.15,bhTurnLate:10}),...mkPair(3,30,{bhValue:0.15,bhTurnLate:10})];
   const a=scoreValueProbe(rows);
   assert.equal(a.verdict,'VALUE-PROBE-ACTOR-SIDE',JSON.stringify({gap:a.gap,BH:a.BH}));
   assert.ok(a.go);

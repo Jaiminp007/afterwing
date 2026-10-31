@@ -1,11 +1,49 @@
+# VALUE-PROBE Results V1 — CORRECTED to INDETERMINATE (scorer inversion; bank-dependence finding)
+
+> CORRECTION 2026-10-26 (same day, zero new worlds): the V1 scorer
+> inverted BH behavior (1−turn instead of turn). Fixed to the flip-split
+> convention and rescored on frozen rows (R-GAP analytic-rescore
+> precedent; rows untouched). Corrected gap 0.086 = 1 − 0.914 original
+> (sums to 1.0 — inversion confirmed arithmetically). Verdict:
+> **VALUE-PROBE-INDETERMINATE**. The published ACTOR-SIDE verdict below
+> is WRONG and retained only for the record. Threshold-plasticity
+> license WITHDRAWN (it was conditioned on ACTOR-SIDE). What stands:
+> validity gates, the HB mirror, and a bigger finding — the BH floor
+> did not reproduce in this bank (0.83 vs 0.20 line) for unknown
+> bank-side reasons (train exposure, intake rates, engine all ruled
+> out). The floor is partly ecological.
+
 # VALUE-PROBE Results V1 — ACTOR-SIDE (values know harm; behavior doesn't turn)
+
+> SUPERSEDED — see correction above. Original (wrong) verdict retained:
 
 Date: 2026-10-26. Plan: `docs/VALUE_PROBE_PLAN_V1.md` (no amendments).
 Bank: `evidence/value-probe-dev/fresh-01/` (6 histories, 421001–421054).
 Evidence: `evidence/value-probe-dev/attempt-01/`. Single attempt, 9/9
 mains, `redone: []`, ledger exact (9/0/16128/387072/1.43e9).
 
-## Verdict: VALUE-PROBE-ACTOR-SIDE (→ threshold-plasticity freeze licensed)
+## Corrected verdict: VALUE-PROBE-INDETERMINATE (rescored 2026-10-26)
+
+True BH behavior-correctness = turn rate ≈ {0.915, 0.944, 0.885}
+(flip-split on the same rows: 0.835/0.826/0.825 — same story). Gap =
+1.0 − 0.914 = 0.086: values perfect AND behavior near-perfect →
+beats the LEARNER bar (values wrong) and misses the ACTOR bar (gap
+>+0.2). Per frozen bars: INDETERMINATE, go:false. Nothing to localize
+in this bank — transfer SUCCEEDED on BH (unlearned turn|harm ≈ 0.05
+vs transferred ≈ 0.91: enormous learning, no floor).
+
+Bank-dependence (the finding that survives): identical options,
+transplant, ticks, train gaps (0.815–0.819 both lines) → BH 0.83 here
+vs 0.20 across 8 turn-gate banks. Ruled out: train pre-exposure
+(2202 vs 2146 contacts), intake/contact rates (0.0106 vs 0.0145),
+engine drift (no behavior-touching changes; probe export is pure
+addition). The BH floor is substantially BANK-DETERMINED
+(world/codebook luck), not a fixed architectural property. Next:
+what makes a bank easy/hard (specified, not executed). Threshold-
+plasticity license WITHDRAWN; associability-reset (HB value lag 0.22)
+stands as specified. Cumulative 7647 (+9).
+
+## Verdict (ORIGINAL, WRONG — retained for the record): VALUE-PROBE-ACTOR-SIDE (→ threshold-plasticity freeze licensed)
 
 - **G1 integrity ✓** — 9/9 complete, join ≥ 0.99 all rows, exact ledger.
 - **G0 train-learned ✓** — train behavior gaps 0.819/0.815/0.817

@@ -22,3 +22,10 @@
   Cumulative 7647 (+9). Pre-attempt instrument fix: BT_PROBE_OP_CAP
   import (crash, zero worlds, partial dir removed); fixture moved to
   post-bank form (guard verified working).
+- 2026-10-26 CORRECTION (same day, zero new worlds): scorer inverted
+  BH behavior (1-turn vs flip-split turn; gaps sum to 1.0). Fixed +
+  rescored frozen rows → BH value 1.0 vs behavior 0.914, gap 0.086 →
+  INDETERMINATE (go:false). Threshold license WITHDRAWN. Standing:
+  validity gates, HB mirror, + bank-dependence (BH 0.83 here vs 0.20
+  line; train/intake/engine ruled out → floor partly ecological).
+  Next: what makes a bank easy/hard (specified). Fixtures 9/9 fixed.

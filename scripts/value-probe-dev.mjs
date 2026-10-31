@@ -224,8 +224,12 @@ export function scoreValueProbe(rows){
   const unD=(byTag.unlearned||[]).map(r=>dPrime(r.probes||{}));
   const meanAbsUnD=unD.every(x=>x!==null)?unD.reduce((a,x)=>a+Math.abs(x.d),0)/unD.length:null;
   const gValid=meanTrainValue!==null&&meanTrainValue>=VP_VALID_TRAIN_VALUE&&meanAbsUnD!==null&&meanAbsUnD<=VP_VALID_UNLEARN_DPRIME;
-  // BH split (train-harmful -> test-benign is HB; train-benign ->
-  // test-harmful is BH). Late-third contact-weighted behavior.
+  // BH split (train-benign -> test-harmful; correctness = TURN rate =
+  // avoidance) vs HB split (train-harmful -> test-benign; correctness =
+  // 1 - turn rate = cruising). Late-third contact-weighted behavior.
+  // (CORRECTION 2026-10-26: BH behavior was 1-turn (inverted) in the V1
+  // instrument; fixed here to the flip-split convention:
+  // harmful->turn, benign->1-turn.)
   const splitOf=(trRow,teRow,dir)=>{
     const trC=trRow.summary.cues;let vOk=0,vN=0,bT=0,bN=0;
     for(const [cue,p] of Object.entries(teRow.probes||{})){
@@ -237,7 +241,8 @@ export function scoreValueProbe(rows){
       const th=teRow.summary.cues[cue]?.thirds?.[2];
       if(th&&th.contact){bN+=th.contact;bT+=th.turn;}
     }
-    return {value:vN?vOk/vN:null,behavior:bN?1-bT/bN:null};
+    const turnRate=bN?bT/bN:null;
+    return {value:vN?vOk/vN:null,behavior:turnRate===null?null:(dir==='BH'?turnRate:1-turnRate)};
   };
   // Pairing is positional: bank histories order defines pairs; rows carry
   // seeds so pair mates by seed-order within tag lists.
@@ -249,7 +254,7 @@ export function scoreValueProbe(rows){
   const pool=s=>{const vs=s.filter(x=>x.value!==null).map(x=>x.value),bs=s.filter(x=>x.behavior!==null).map(x=>x.behavior);
     return {value:vs.length?vs.reduce((a,b)=>a+b,0)/vs.length:null,behavior:bs.length?bs.reduce((a,b)=>a+b,0)/bs.length:null};};
   const BH=pool(bhSplits),HB=pool(hbSplits);
-  // NOTE: BH correctness here = 1 - turn|harmful (avoidance). HB = 1-turn|benign (cruising).
+  // NOTE: BH correctness = turn|harmful (avoidance). HB = 1-turn|benign (cruising).
   const gap=(BH.value!==null&&BH.behavior!==null)?BH.value-BH.behavior:null;
   let verdict,go=false;
   if(!g1)verdict='INVALID';

@@ -288,6 +288,11 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   HB frontier only; 7 elites archived (anti-herding substrate for future
   selection lines). Specified (not executed): BH failure actor-side test
   via per-cue values (needs new instrumentation). No line licensed.
+- 2026-10-26 CORRECTION: V1 scorer inverted BH behavior (1-turn vs
+  turn); fixed + rescored frozen rows (gap 0.914 -> 0.086, sums to 1.0)
+  → verdict INDETERMINATE (not actor/learner). Threshold license
+  WITHDRAWN. Bank-dependence finding: BH 0.83 here vs 0.20 line
+  (train/intake/engine ruled out) → floor partly ecological.
 - 2026-10-26 prior-strength dissociation (TURN_GATE_PRIOR_STRENGTH.md,
   0 worlds): overshadowing NULL (concentration +0.08, anchor +0.05) →
   Kamin top-move fails; LI/PH split (HB partial −0.17 vs BH +0.54, LOO
