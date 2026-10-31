@@ -44,4 +44,12 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   range + reserve-masking rule (never print literal future ranges) +
   bank-test lifecycle conversions (V1b test → post-spend refusal per RSI
   precedent; V1c test → post-build refusal + read-only bank checks).
-  Next: single authorized attempt.
+- 2026-10-31: Phase-C EXECUTED → **GO, mechanism CONFIRMED**. G1 join
+  1.00 everywhere; G0 train 0.813/0.830/0.809; G2a transferred mean 0.609
+  (0.519/0.739/0.567); G2b unlearned ≈0.00. Flip-split replicates V1b
+  structure on the fresh bank (same-val 0.941–0.952, flipped 0.527–0.682;
+  both falsifiers avoided; lens-consistency within pairs). 9 mains, all
+  caps, single clean run (`redone: []`). Mechanism PROMOTED to replicated
+  finding (V1b+V1c, n=6 pairs, two banks) — not an intervention, not RSI.
+  Next: extended-run / IB-capacity / GS-hyperparameter probes under their
+  own frozen plans — not started.
