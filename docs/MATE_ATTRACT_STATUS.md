@@ -11,3 +11,11 @@
 - Hub arms descriptive: hub/1× 6 + hub/2× 8 vs spread 4/4 (V1-direction third bank).
 - Line CLOSED. Births bank-volatile fourth time running.
 - Results: `docs/MATE_ATTRACT_RESULTS_V1.md`. Cumulative program spend: 7761.
+
+## Blocked diagnostic (2026-11-01, zero worlds spent)
+
+- R64 specified a weight-frozen check (mate-channel weights ~init => lazy regime) on
+  frozen attempt-01 artifacts. BLOCKED: mating rows never log weights (row keys verified
+  2026-11-01 — no learners/weights fields). No workaround without new worlds.
+- Requirement carried: next mating instrument must log per-channel weight norms
+  (or the lazy-vs-downstream question stays untestable). Not a verdict change.
