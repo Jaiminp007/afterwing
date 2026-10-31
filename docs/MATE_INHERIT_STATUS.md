@@ -17,3 +17,17 @@ weights, no vertical transmission anywhere).
   V1b needs mutation + lineage tracking (UNLICENSED by the NOGO — needs
   a new rationale; feasibility first). Full record:
   MATE_INHERIT_RESULTS_V1.md.
+- 2026-10-26: Phase-B FROZEN as `docs/MATE_INHERIT_PLAN_V1B.md` (DESIGN ONLY).
+  Mutated maternal transmission (additive N(0,0.05) post-copy, dedicated
+  per-newborn RNG stream, 1 op/element billed; null-default exact-copy
+  preserved) + lineage compounding: 12 mains (exact vs mutant, BOTH
+  enriched nutrient 5.0 — uniform enrichment isolates mutation) on fresh
+  bank 416001–416054 (verified clean pre-freeze, 0 hits; re-verify at
+  build). Rationale now exists: V1f gen-2 existence + MLS/ratchet
+  standing lit (variation is load-bearing). GO iff mutant gen-2 ≥ 2 AND
+  mutant > exact (replication-within-line + direction; feasibility-
+  grade, power ≈ 1-in-5 under 2x effect, stated); INCOMPLETE-NOMUTANTS
+  iff mutant gen-1 == 0 (void, not NOGO); else NOGO with stop-rule
+  analogue (no auto-escalation; deleterious direction reported).
+  Descriptive maxGeneration/gen-3+/gen-1-lifespan (censored) for V1c
+  design. No RSI claim (GO licenses V1c selection, not an advance).
