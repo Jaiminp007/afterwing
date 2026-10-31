@@ -265,3 +265,11 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   Retention intact (|Δ| ≤ 0.011). Cumulative 7626 (+18). TURN-GATE LINE
   CLOSED per frozen plan: 8 GO verdicts, replicated mechanism,
   attributed floor, deployed surprise-gated replay. No V1j.
+- 2026-10-26: Post-closure analytic (`docs/TURN_GATE_CONCENTRATION.md`,
+  read-only, zero worlds; line stays CLOSED): error mass concentrated in
+  ~3 HB cues (top-1 26–43%, top-3 69–81%, top always HB 6/6 pairs);
+  concentration persists under gain (no flattening); top identity shifts
+  in 2/3 pairs (whack-a-mole) → cue-targeted boosting NOT licensed
+  (moving targets); global surprise-gating stays the instrument; floor =
+  hardest-cue residue. Last analytic step before any structural line:
+  what makes the hardest HB cue hard.
