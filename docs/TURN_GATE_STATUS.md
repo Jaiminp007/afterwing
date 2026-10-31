@@ -292,7 +292,9 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   turn); fixed + rescored frozen rows (gap 0.914 -> 0.086, sums to 1.0)
   → verdict INDETERMINATE (not actor/learner). Threshold license
   WITHDRAWN. Bank-dependence finding: BH 0.83 here vs 0.20 line
-  (train/intake/engine ruled out) → floor partly ecological.
+  (priors/exposure/intake/engine ruled out; thirds 0.76→0.94 fast from
+  start; timing untestable frozen — first-contact logging specified)
+  → floor partly ecological.
 - 2026-10-26 prior-strength dissociation (TURN_GATE_PRIOR_STRENGTH.md,
   0 worlds): overshadowing NULL (concentration +0.08, anchor +0.05) →
   Kamin top-move fails; LI/PH split (HB partial −0.17 vs BH +0.54, LOO

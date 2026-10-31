@@ -34,14 +34,24 @@ vs transferred ≈ 0.91: enormous learning, no floor).
 
 Bank-dependence (the finding that survives): identical options,
 transplant, ticks, train gaps (0.815–0.819 both lines) → BH 0.83 here
-vs 0.20 across 8 turn-gate banks. Ruled out: train pre-exposure
-(2202 vs 2146 contacts), intake/contact rates (0.0106 vs 0.0145),
-engine drift (no behavior-touching changes; probe export is pure
-addition). The BH floor is substantially BANK-DETERMINED
-(world/codebook luck), not a fixed architectural property. Next:
-what makes a bank easy/hard (specified, not executed). Threshold-
-plasticity license WITHDRAWN; associability-reset (HB value lag 0.22)
-stands as specified. Cumulative 7647 (+9).
+vs 0.20 across 8 turn-gate banks. Ruled out, all read-only frozen rows:
+carried priors (agent-mean carried BH prediction 0.969 VP vs
+0.963–0.977 all 8 lines — saturated everywhere; agents' own train-end
+probes confirm 0.954–0.978, no pattern-luck); train exposure (2202 vs
+1833–2146 contacts); test exposure (1982 vs 1715–2040); intake rates
+(0.0106 vs 0.0145 harm/contact); engine drift (none behavior-touching;
+probe export pure addition). VP BH thirds trajectory 0.76→0.78→0.94:
+learning is fast FROM THE START (first 597 ticks) with matched errors
+— unlearned 0.05 vs transferred 0.91 means massive learning, no floor.
+Untestable frozen: encounter TIMING (VP rows have cue-thirds but no
+time blocks; turn-gate rows have blocks but no cue-thirds — no common
+time-resolved currency). Specified next: log first-contact ticks +
+cue-thirds in all arms (one-line instrument addition) so any future
+line can test whether early harmful encounters (world-layout luck)
+drive bank-ease. The BH floor is substantially BANK-DETERMINED
+(world/codebook luck), not a fixed architectural property.
+Threshold-plasticity license WITHDRAWN; associability-reset (HB value
+lag 0.22) stands as specified. Cumulative 7647 (+9).
 
 ## Verdict (ORIGINAL, WRONG — retained for the record): VALUE-PROBE-ACTOR-SIDE (→ threshold-plasticity freeze licensed)
 
