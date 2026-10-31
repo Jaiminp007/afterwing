@@ -134,4 +134,13 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   window. Descriptive direction-aware flip-split (HB extinction subset
   pre-registered; BH ceiling no-claim); +0.1 meaningful band grounded in
   V1d increment; bundle VOID-condition + null-arm hygiene fail-closed.
-  Next: implement, then single attempt.
+- 2026-10-26: Phase-F IMPLEMENTED (`scripts/turn-gated-dev-v1f.mjs` +
+  `tests/turn-gated-dev-v1f.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/turn-gated-dev/fresh-06/` built 411001–411054
+  post-fixtures). Train uniform isolates extinction; options contrast
+  fixture-guarded (tournament=base+1 key, bundle=base+3); scorer requires
+  tournament+bundle triples fail-closed; direction-aware BH/HB splits +
+  subsetGap + agentWork/sumManipulation tested; null-hygiene INVALID
+  override + bundle VOID-condition in runner; BH ceiling no-claim kept.
+  Bank test → post-build refusal + read-only checks. Next: single
+  authorized attempt.
