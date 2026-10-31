@@ -815,3 +815,58 @@ covering the intended points). Dropped before fetching. Rule working.
   Der homeokinesis proper, Still thermo-of-prediction — journal-side or
   noise. Bio-sleep, herd, autopoiesis, echo-state remain unmapped
   (standing).
+
+## Round 17 — information structure, delayed generalization, capacity minimality, dreams as regularization, macroscales
+
+One duplicate caught pre-fetch (1810.02274 episodic curiosity — mapped
+with a covering entry). Rule working.
+
+- **PID, original (1004.2515).** Williams & Beer: redundancy as minimum
+  information any source provides per outcome; lattice over source sets
+  (redundant/unique/synergistic). → The missing lens on our cue
+  codebooks: are the 12 cues redundant (same message 12 ways),
+  synergistic (meaning only in combination), or unique? Flip effects
+  should differ by PID component — a flipped redundant cue is backed up,
+  a flipped synergistic cue breaks the combination. Licensed: PID of the
+  codebook vs transfer correctness on frozen rows (read-only, zero
+  worlds) — predicts WHICH cues resist extinction before running a
+  world. Directly serves the floor-attribution follow-up.
+- **Grokking (2201.02177).** Power et al.: flat memorization then SUDDEN
+  perfect generalization, well past overfitting; smaller datasets need
+  more optimization. → The learning-dynamics contrast case for our
+  saturating curve (fast-then-flat vs flat-then-jump). Our agents never
+  grok flipped cues (no late jumps through seg4) — why not? Hypothesis:
+  grokking needs overparameterized memorization capacity first; our
+  3-float policies cannot memorize, so there is nothing to grok FROM.
+  Testable reading: capacity floor, not data floor. Note as lens, not
+  claim.
+- **Lottery ticket (1803.03635).** Frankle & Carbin: dense nets contain
+  sparse trainable subnetworks (winning tickets) findable by pruning. →
+  Capacity-minimality sibling for IB (Round 14) and degeneracy (Round
+  15): are our tiny policies minimal, or do they contain dead weight?
+  Licensed: magnitude-prune frozen policies (read-only, zero worlds) and
+  test whether transfer survives — if yes, the policy is redundant and
+  the floor may live in the redundant part.
+- **Overfitted brain (2007.09560).** Hoel: dreams evolved to assist
+  generalization (anti-overfitting via corrupted/noisy replay). →
+  Dream-thread upgrade (Rounds 11–12: Dreamer/WorldGym as evaluators):
+  dreams are not just simulators but REGULARIZERS. Our replay (4
+  passes/observe, exact replays) is the opposite of corrupted — it may
+  OVERFIT the train codebook, which would explain rigidity on flipped
+  cues. Licensed: noisy-replay variant as a V1h+ candidate (explicitly
+  behind surprise-gating in the queue, not a new line now).
+- **Macroscale search (1908.07565).** Griebenow: finding the most
+  informative macroscale of a network (spectral clustering over the
+  exponential scale space). → Operationalizes the Hoel program (causal
+  emergence) that the map cites but never uses: which level of our
+  system carries the transfer effect — weights, cue-behavior mappings,
+  or lineage statistics? The V1b–V1e verdicts live at the behavioral
+  level (gaps); the weights level is unarchived (instrumentation gap,
+  6th occurrence). Licensed: when weights ARE archived, the macroscale
+  test is which level predicts transfer — until then, stated as the
+  question, not answered.
+- **Scope-note misses.** Krakauer individuality, Ay predictive
+  information, Caraco risk-sensitive foraging, Hamilton inclusive
+  fitness, Zahavi signaling, Waddington assimilation, Stearns life
+  history — journal-side or noise. Hoel proper enters via the dreams
+  paper, not the monograph.
