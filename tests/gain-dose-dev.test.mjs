@@ -136,14 +136,14 @@ test('d=4 finiteness on synthetic history (short run, spends fixture seed 900001
   }
 });
 
-test('bank builds 54-unique in tmp; rebuild refuses (post-build guard)',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'gain-dose-bank-'));
-  const p=gainDoseDevBank(join(dir,'protocol.json'));
+test('live bank cannot be rebuilt (union-exclusion guard, post-bank form)',()=>{
+  const live='evidence/gain-dose-dev/fresh-01/protocol.json';
+  const p=gainDoseDevBank(live);
   assert.equal(p.experiment,'gain-dose-dev');
   assert.equal(p.histories.length,6);
   const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
   assert.equal(new Set(flat).size,54);
   assert.ok(flat.includes(422001)&&flat.includes(422054));
-  const p2=gainDoseDevBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+  const dir=mkdtempSync(join(tmpdir(),'bank-guard-'));
+  assert.throws(()=>gainDoseDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
