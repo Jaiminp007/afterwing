@@ -2818,3 +2818,30 @@ These two entries frame what a dose curve MEANS for collectives.
   high-contact patches) — engine + policy work, specified here, built nowhere.
 - **Scope-note.** Quorum-decision mapping (1703.01353, seen R59) and biofilm threshold
   (2112.02683) are adjacent but add no new actionable prediction beyond the two above.
+
+## Round 61 — attraction math for the Emlen-Oring split (2026-11-01)
+
+Motivation: V1c closed NOGO with a food-confounded hump (duo wins with most food).
+The mandated next rationale (Emlen-Oring food-vs-encounter split) needs a SOCIAL
+attraction mechanism independent of food. This round banks its math.
+
+- **Keller-Segel canon (arXiv:1304.1583v1 blowup; 2510.14297v1 DeepLagrangian
+  aggregation; 2304.10024v2 KS-FKPP waves).** Chemotaxis = attraction up a
+  self-generated gradient with finite-time blowup (aggregation singularity) unless
+  logistic damping checks it. → The PDE template for an attraction knob: agents emit
+  (signal already exists in the engine) + move up the emitted field. Blowup-vs-damping
+  is the design constraint (unbounded attraction collapses the ecology; damping sets a
+  finite aggregation scale). Our engine HAS a signal channel (scent) with its own
+  energetics — the KS template says how to wire it into motion.
+- **Swarmalators (arXiv:2208.14803v1 review; 1912.02758v1 forced; 2512.01345v1).**
+  O'Keeffe et al.: phase-sync COUPLED to spatial aggregation (sync attracts like-phase,
+  swarming moves toward synced neighbors). → The discrete-agent template our policy
+  could actually implement: attraction conditioned on a pairwise state (phase/sex/
+  mating-readiness), not a field. Sex-conditioned attraction (males approach females
+  beyond the current mate-sensor range) is the minimal Emlen-Oring knob: it separates
+  encounter structure from food geography with no field solver.
+- **Scope-note misses (61).** IFD-unequal-competitors, offspring-overdispersion,
+  state-dependent-mating, honeybee house-hunting, changepoint dose-response, Morse
+  swarms: all NO-RESULTS on arXiv (journal literature; OpenAlex 429). The overdispersion
+  lens for our outlier histories (V1c duo 429019: 4 gen-2) stays canon-deferred —
+  noted because Lloyd's mean-crowding / Taylor's power law would quantify it.
