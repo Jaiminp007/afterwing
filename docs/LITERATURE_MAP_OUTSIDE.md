@@ -548,3 +548,30 @@ dynamics features from reward → transfer across goals. → Principled
   behavior: V1d stampede = HIGH canalization (one attractor); CANA
   tooling exists for measuring it. New runs could map policy attractors
   per arm — a repurposing of the WHAT-RETAINS line with teeth.
+
+## Round 12 — scalable dreams, reachability-free exploration, in-silico transitions
+
+- **DreamerV2 (2010.02193) + DayDreamer (2206.14176) + Dreamer 4
+  (2509.24527).** Behaviors learned PURELY in imagination (discrete
+  latents); human-level Atari; real-robot learning without resets in 1
+  hour; Minecraft diamonds from offline data. → Dream-model evaluation is
+  sufficient for policy learning, not just ranking — and works from
+  offline data (our frozen archives ARE offline data). Concrete path:
+  train a latent world model on frozen trajectories, evaluate/shape
+  candidates inside it, zero new worlds for the model build.
+- **WorldGym (2506.00613).** Policies evaluated by Monte Carlo rollouts IN
+  the world model; rankings preserved vs real. → THE evaluation protocol
+  for our eval problem: keep the frozen one-at-a-time live eval for GO
+  verdicts, but use dream-rollouts for SEARCH (propose in the dream, prove
+  live). Directly answers V1b's eval bottleneck without live cost.
+- **RND (1810.12894) + anti-exploration (2301.13616).** Reachability-free
+  novelty bonus (prediction error vs fixed random target); SOTA hard
+  exploration. Anti-RND: penalize OOD for offline RL (novelty AVOIDANCE).
+  → Both directions now on the table: seek novelty where safe
+  (reachability-gated), avoid it where lethal. Our agents die exploring —
+  the anti-exploration half may matter more here than exploration.
+- **In-silico transitions (1403.3217).** Virtual cells/groups evolving
+  complex interactions beyond isolated entities; models as windows on the
+  possible AND the actual. → Methodological license: our whole program IS
+  this — but the paper reminds us to explore the POSSIBLE (counterfactual
+  ecologies/morphologies), not just replay the actual BT world.
