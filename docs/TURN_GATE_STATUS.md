@@ -176,4 +176,20 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   scorer triple requirements incl. gain + BH/HB splits + subsetGap +
   agentWork/sumManipulation tested; null-hygiene INVALID override +
   bundle/gain VOID-conditions in runner. Bank test → post-build refusal
-  + read-only checks. Next: single authorized attempt.
+  + read-only checks.
+- 2026-10-26: Phase-G EXECUTED → **GO, GAIN CLEARS BAR (borderline)**.
+  G1 join 1.00 x18; G0 train 0.829/0.830/0.813 (7th replication); G2a
+  uniform mean 0.612 (6th replication); G2b unlearned flat; seg1
+  mechanism replicates (6th time). Manipulation PERFECT: nulls silent,
+  gain fired 529+269, bundle fired 421+320, tournament structural.
+  Directional HB gaps: tournament +0.095/+0.034/+0.070 (mean +0.066,
+  below band — dose-responsive but insufficient); gain-only +0.149/
+  -0.004/+0.168 (mean +0.104, CLEARS +0.1 — heterogeneous: pair 2
+  zero); bundle +0.057/+0.009/+0.119 (mean +0.062, sub-additive:
+  boost adds nothing on T3, breadth×depth interaction). No overdose
+  (min -0.004), retention intact (|same| ≤0.007). STOP rule NOT
+  triggered. Reading: gain-boost WORKS at dose (deploy + confirm in
+  V1h, optionally with gain-seg2 compounding arm); selection alone
+  insufficient; bundle over-narrows. 18 mains, all caps, `redone: []`.
+  Cumulative 7608 (+18). Next: V1h gain deployment/confirmation under
+  its own frozen plan — not started, no RSI claim.
