@@ -124,3 +124,14 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   Intervention must target UNLEARNING (surprise-gated replay), not
   general plasticity. Next: extinction-targeted line under its own
   frozen plan — not started, no RSI claim.
+- 2026-10-26: Phase-F FROZEN as `docs/TURN_GATE_PLAN_V1F.md` (DESIGN ONLY).
+  Extinction-targeted surprise replay: 15 mains (train uniform + uniform
+  seg1 gated + tournament-only + bundle + unlearned) on fresh bank
+  411001–411054 (verified clean pre-freeze, 0 hits; re-verify at build).
+  Machinery exists null-default (tournament/select, gain/boost needs
+  EMA from surpriseGain>0, all metered); minimal-nonzero values (T2/G1/
+  0.5 ladder, RSI-V1b precedent). Train uniform isolates the extinction
+  window. Descriptive direction-aware flip-split (HB extinction subset
+  pre-registered; BH ceiling no-claim); +0.1 meaningful band grounded in
+  V1d increment; bundle VOID-condition + null-arm hygiene fail-closed.
+  Next: implement, then single attempt.
