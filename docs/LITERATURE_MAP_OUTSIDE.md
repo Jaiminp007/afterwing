@@ -3051,3 +3051,25 @@ A binary classifier has a cutoff, and cutoffs imply cost ratios. This round pric
 - **Scope-note.** Engineering-detection conjunctions (1407.4173v1, 1004.5479v1,
   MIMO/phase-retrieval) are methods-adjacent, not actionable; categorical-perception
   conjunctions return nothing on arXiv (Harnad stays canon-deferred).
+
+## Round 70 — transplanting knowledge across basins (for INFORMED's null; 2026-11-02)
+
+Motivation: V1b executing with a turn-gate donor in a fresh mating recipient. The
+transplant assumes cross-basin compatibility — the outside literature names the risk.
+
+- **arXiv:2209.04836v6.** Git Re-Basin (merging models modulo permutation symmetries;
+  single-basin-after-permutation thesis). → The assumption our donor transplant makes:
+  turn-gate-trained weights function in a fresh-seed recipient with different history,
+  ecology, and codebook. Re-Basin says different-seed nets live in permuted basins —
+  direct copies CAN work when architectures/optimizers align (turn-gate precedent:
+  same-architecture transplants succeeded), but functional transfer is NOT guaranteed
+  by shape match (our digest only checks shapes+values, not basin alignment). If V1b
+  returns null, basin mismatch joins policy-limitation as a licensed alternative —
+  pre-registered here, before the verdict.
+- **arXiv:2404.04002v2.** Continual learning with weight interpolation. → The
+  interpolation alternative to transplant: blend donor into recipient (alpha-mix)
+  rather than overwrite. If wholesale transplant fails, graded blending is the next
+  mechanism (needs its own rationale + frozen plan) — specified, not executed.
+- **Scope-note.** LLM-merging surveys (2607.18026v1, 2501.09522v1, 2510.10977v2,
+  2304.14933v2, 2506.11403v1, 2610.01037v1) are scale-specific (attention/merge
+  arithmetic); the basin question transfers, the methods do not — logged, not pursued.
