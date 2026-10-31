@@ -19,9 +19,16 @@ skill compound through mating lineages (skill-to-fitness transfer across lines)?
 
 Donor = the candidate train row with max turn|harmful among
 `evidence/turn-gated-dev/attempt-09/rows/*-train.json` (deployed line's final bank;
-best exemplar, frozen before implementation). Sham = same transplant procedure with
-FRESH weights (controls procedure artifacts). Donor slot: recipient founder id 1
-(first founder; audit-simple, placement-randomized by construction).
+best exemplar, frozen before implementation). PINNED 2026-11-02 (read-only scan):
+`414019-train.json`, turn|harmful 0.8683 (9486/10925), weights present.
+Sham = same transplant procedure with FRESH weights (controls procedure artifacts).
+Donor slot: recipient founder id 1 (first founder; audit-simple, placement-randomized
+by construction). CLARIFICATION 2026-11-02 (pre-implementation, frozen engine read):
+mating is initiated by sex-0 founders and `maternal` mode copies `parents[0]`
+(the initiator/father — engine.mjs:178-185, taste-experiment.mjs syncNewbornLearners).
+Founder id 1 is sex 0 (founders alternate from i=0), so id 1 IS the weight source
+position. Donor-line = individuals whose `parents[0]`-chain leads to founder id 1
+(weight ancestry, mechanically exact — NOT generic genetic ancestry).
 
 ## Arms, bank, caps
 
