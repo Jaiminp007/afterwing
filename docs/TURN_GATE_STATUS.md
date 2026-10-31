@@ -17,5 +17,8 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   transfer via in-memory checkpoint-carryover: 3 pairs × (train + transferred
   test + unlearned test) = 9 mains on fresh bank 407001–407054 verified
   clean — 406xxx held in reserve for V1c; G1 transplant-integrity +
-  G0 training gate + G2a ≥0.3 transfer gap + G2b unlearned flat; pairing
-  rule deterministic on frozen rows). Next: implement, then single attempt.
+  G0 training gate + G2a ≥0.3 transfer gap + G2b unlearned flat) +
+  `docs/TURN_GATE_PLAN_V1B_AMENDMENT_A1.md` (pre-execution: pairing-rule
+  fixture replaced by transplant-integrity-checker unit; experiment
+  unchanged). Instrument + fixtures green, triage clean, bank built.
+  Next: single authorized attempt.
