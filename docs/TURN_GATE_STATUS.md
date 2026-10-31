@@ -114,5 +114,13 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   saturated). Prediction 0.84 vs actual 0.822 — gate-decline vindicated.
   Same-val 0.95 throughout (no erosion). 18 mains, all caps, `redone:
   []`. Tax = fast-shrinking then saturating residue; floor cue-set-
-  dependent. Next: cue-level floor attribution (read-only frozen rows)
-  before any structural line — not started, no RSI claim.
+  dependent.
+- 2026-10-31: Floor ATTRIBUTED (`docs/TURN_GATE_FLOOR_ATTRIBUTION.md`,
+  read-only, zero worlds): the residue is EXTINCTION. Seg1 direction gap
+  0.51 replicates x3 lines (ben→harm 0.80 vs harm→ben 0.29, n=50);
+  ben→harm converges by seg2 (0.95), harm→ben stalls ~0.67 with seg3→4
+  regressions (effective-n note); pair floors = composition; contact-
+  dose counterexample rules out practice; within-seg1 ambiguity flagged.
+  Intervention must target UNLEARNING (surprise-gated replay), not
+  general plasticity. Next: extinction-targeted line under its own
+  frozen plan — not started, no RSI claim.
