@@ -301,3 +301,22 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   0.48-0.58 robust) → negativity-bias unification; BH actor-side doubly
   licensed; HB mixed; two-track program specified (value-side HB line vs
   actor-side BH line). No line licensed by analysis alone.
+- 2026-10-26 CORRECTION (same BH-inversion as VALUE-PROBE): BH numbers
+  above were 1-turn (inverted). TRUE: BH correctness 0.72-0.88 everywhere
+  (no BH floor — floor is HB-only 0.16-0.47); BH contact gradient +0.75
+  (anti-endogenous: practice evidence, not exposure-follows-behavior);
+  BH train-contact partial -0.54 (LI-like, stronger than HB -0.17) →
+  LI is direction-general, PH half retracted. BH actor-side WITHDRAWN
+  (no phenomenon); associability-reset now covers BOTH directions;
+  HB value-lead (behavior 0.49 ahead of values 0.22) is the open
+  value/behavior question. Frontier tradeoff WITHDRAWN (r(HB,BH)=+0.16).
+  (Docs rewritten: PRACTICE_ADJUDICATION, QD_MAP, PRIOR_STRENGTH,
+  LOSS_AVERSION caveat, map correction log 2026-10-26.)
+- 2026-10-26 niche fingerprint (NICHE_FINGERPRINT.md, 0 worlds):
+  1-NN niche-ID 1.000 pre-test (720/720; weights ARE niche models);
+  57% own-train retention post-test (one segment erases half; test-
+  niche 0/72 degenerate — no test-trained reference exists). V1 null
+  = selection missing, NOT fidelity loss (transplant starts at 100%).
+  Prescription: mating rows must snapshot weights (fingerprint-under-
+  mutation then measurable). Bank-distinguishability necessary but
+  insufficient for HB variance.
