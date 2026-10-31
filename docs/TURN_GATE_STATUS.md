@@ -53,3 +53,12 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   finding (V1b+V1c, n=6 pairs, two banks) — not an intervention, not RSI.
   Next: extended-run / IB-capacity / GS-hyperparameter probes under their
   own frozen plans — not started.
+- 2026-10-31: Phase-D FROZEN as `docs/TURN_GATE_PLAN_V1D.md` (DESIGN ONLY).
+  Plastic-vs-rigid adjudication: 12 mains (train + transferred-seg1 gated
+  V1c-replication + transferred-seg2 descriptive exposure-doubling via
+  second transplant of seg1-end weights + unlearned) on fresh bank
+  409001–409054 (verified clean pre-freeze, 0 hits; re-verify at build).
+  Continuation impossible (runs terminate at phase end) so seg2 = fresh
+  run + transplant. Interpretive bands pre-registered (≥0.85 converged /
+  [0.4,0.7] rigid / <0.4 degraded), non-gating by necessity (first 2×
+  measurement). Next: implement, then single attempt.
