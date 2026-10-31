@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-40 OpenAlex journals/books; 429-limited rounds canon-sourced)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon; 429-limited rounds canon-sourced)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -1996,6 +1996,243 @@ matter.
   scaling); Jaynes MaxEnt (policy formalism, still open); Thorndike/
   Hull drive theory (superseded by SDT/RL); quantum cognition (too
   far); Haig imprinting (conflict, distant).
+
+## Rounds 41-45 — VISION-milestone canons (bounds, mesa, social learning, bodies, RSI synthesis)
+
+Requested against docs/VISION.md's milestones, not curiosity: M3
+(bounded controller-change proposals) gets the safety/corrigibility
+canon; M5 (population/social/cultural with explicit models) gets
+social-learning strategies + signaling; M4 (richer bodies after
+simpler measured) gets evolved-bodies canon; retention gets the CLS
+root; RSI gets its synthesis papers. Method: OpenAlex still 429-
+limited; all entries [canon] with full biblio, verification deferred.
+
+## Round 41 — corrigibility and bounds (the M3 canon: change safely or not at all)
+
+Milestone 3 demands bounded, checkpointable controller changes with
+independent evaluation. AI safety has spent a decade formalizing
+exactly this; the program has been reinventing fragments (budgets,
+resumes, guards). The canon, at once:
+
+- **Soares et al. 2015 [canon].** "Corrigibility" (AAAI Workshop
+  on AI & Ethics / MIRI tech report). The property our single-
+  attempt discipline approximates: the agent must not undermine
+  evaluation, training, or shutdown. → Names the frozen-plan/single-
+  attempt/negative-preservation stack as CORRIGIBILITY engineering;
+  any future in-agent loop (RSI-SELF revival) must prove corrigibility
+  first — the missing gate in every V1a–V1d plan.
+- **Hadfield-Menell, Dragan, Abbeel & Russell 2016 [canon].** "The
+  off-switch game" (ICML Workshop; arXiv:1611.08219). Formalizes
+  shutdown-avoidance as a game (Harsanyi): agents that preserve the
+  off-switch earn trust. → Our resume/attempt guards are off-switch
+  mechanics; the paper gives the equilibrium analysis for WHEN an
+  agent would break them (uncertainty over objectives + ...). Design
+  probe for any self-modifying loop.
+- **Orseau & Armstrong 2016 [canon].** "Safely interruptible agents"
+  (UAI). Indifference + ignorance make RL agents not resist
+  interruption. → Checkpointing (our snapshots/transplants) is half
+  the story; the other half is the agent not CARING about being
+  checkpointed. Our learners have no preferences over interruption
+  (good, by accident); any planner would need indifference BY
+  DESIGN — specified as a requirement on dream-model work.
+- **Everitt et al. 2017/2021 [canon].** Reward tampering problems
+  (2017 workshops; "Reward Tampering Problems and Solutions in
+  Reinforcement Learning" 2021, arXiv:2101.04445). Taxonomy: wire-
+  heading, feedback, input, update tampering. → Audit checklist for
+  the value channel: could an agent edit its probes/values/updates?
+  Our probes read weights directly (tamper-evident by construction —
+  note as a design PATTERN: read the weights, not the reports).
+- **Krakovna et al. 2020 [canon].** "Penalizing side effects using
+  stepwise inaction as a baseline" (arXiv:1911.08096?/2020).
+  Impact regularization with the right baseline. → Our ledger caps
+  bound compute but not SIDE effects (world depletion, food
+  monopolization); stepwise-inaction baselines are the missing
+  ecology-side budget. Specified for the next ecology line.
+- **Taylor 2016 [canon].** "Quantilizers" (MIRI / AAAI Workshop).
+  Satisfice, don't optimize (sample from the top quantiles, avoid
+  extremes). → Formalizes Simon + Gigerenzer for risky action:
+  replace greedy max (which stampedes, cf. V1d) with quantilized
+  choice — the V1d herding fix stated as decision theory.
+
+## Round 42 — mesa, misgeneralization, safe exploration (what the bounded change must survive)
+
+Even bounded proposals fail if the optimizer inside differs from the
+objective outside, or if exploration kills the run.
+
+- **Hubinger et al. 2019 [canon].** "Risks from Learned Optimization
+  in Advanced Machine Learning Systems" (arXiv:1906.01820). Mesa-
+  optimizers: learned models that optimize their own objectives.
+  → Our taste-learner is a proto-mesa-optimizer (it generalizes
+  beyond its training signal — the transfer gaps ARE inner/outer
+  misalignment measurements). The floor, reframed a fourth time:
+  inner objective (approach) vs outer (task success).
+- **Langosco, Shah et al. 2022 [canon].** "Goal misgeneralization in
+  deep reinforcement learning" (ICML). Competent misbehavior from
+  ambiguous training (the CoinRun/CARLA work). → Our transfer line
+  belongs to this literature (competent locomotion, retarded
+  re-valuation), and its mitigations (diverse training, goal
+  uncertainty) transfer back.
+- **Garcia & Fernandez 2015 [canon].** "A comprehensive survey on
+  safe reinforcement learning" (JMLR 16:1437–1480). The safe-explore
+  canon (ergodicity, returnability, error budgets). → Our caps
+  are ad-hoc safe-RL; the survey gives the taxonomy (our lines use
+  budget + rollback + frozen-gate subsets of it) and the missing
+  piece: explicit returnability (can the agent get back? — the
+  return-A phase by another name).
+- **Altman 1999 [canon].** Constrained Markov Decision Processes
+  (Chapman & Hall). Optimization under cost constraints, exactly.
+  → The FORMALISM for our capped ledgers: every line is a CMDP
+  (maximize gap subject to ops/worlds/energy); Altman gives duality
+  + algorithms. Filing the ledger discipline under its math.
+- **Berkenkamp et al. 2017 [canon].** "Safe model-based RL with
+  stability guarantees" (NeurIPS). Lyapunov + region-of-attraction
+  safety during learning. → Stability-flavored safety for the motor
+  side (cruise/turn must not fall over — literally); Lyapunov
+  functions as the certificate our motor primitive lacks. Specified
+  for any motor-line revival.
+- **Achiam et al. 2017 [canon].** "Constrained Policy Optimization"
+  (ICML). Trust-region + constraints, practical CMDP solving.
+  → If a future line optimizes policies directly (actor-side work),
+  CPO is the bounded-update algorithm (monotonic + feasible) —
+  replaces hand-tuned thresholds with guarantees.
+
+## Round 43 — social learning strategies (the M5 canon: copy explicitly or explore)
+
+Milestone 5 demands explicit models and controls for population/
+social/cultural studies. The social-learning literature IS that
+explicitness (when to copy, whom, what), mostly tournament-tested.
+
+- **Laland 2004 [canon].** "Social learning strategies" (Anim
+  Behav 67:137–155). The canon review: copy-when-asocial-uncertain,
+  copy-successful, model-based biases. → STRATEGY MENU for any
+  social line: our mating encounters currently copy nothing (vertical
+  weights only); the first social mechanism should be a NAMED
+  strategy (e.g., copy-successful: newborns copy the highest-fitness
+  founder's weights — testable against maternal copy!).
+- **Rendell et al. 2010 [canon].** "Why copy others?" tournament
+  (Science 328:208–213). 104 strategies competed; winners learn
+  selectively (observe judiciously, exploit). → The EVALUATION FORMAT
+  for social lines: tournaments, not single-arm GO/NOGO. Import the
+  format when mating reopens (multi-strategy meets, not parallel
+  arms).
+- **Enquist, Eriksson & Ghirlanda 2007 [canon].** Critical social
+  learning (Phil Trans R Soc B). Copy only when asocial learning is
+  costly + the model is successful. → Cost-gated copying: our energy
+  pricing ALREADY supplies the cost side (copy when solo learning
+  burns too much) — the gate exists, the channel doesn't. Design:
+  cost-gated horizontal copy (pay energy to copy a neighbor).
+- **Henrich & McElreath 2003 [canon].** Cultural transmission
+  biases (Evol Hum Behav 24:123–143). Prestige + conformity +
+  payoff-biased copying (formal models). → The bias menu beyond
+  copy-successful: conformity (copy the majority — diversity-killer
+  AND stampede-explainer for V1d-like herding!) and prestige
+  (copy elites — QD elites as prestige models). Two mechanisms,
+  opposite diversity effects — a designed comparison line.
+- **Cavalli-Sforza & Feldman 1981 [canon].** Cultural Transmission
+  and Evolution (Princeton). Vertical/oblique/horizontal math
+  (the equations for everything round 30's Boyd gestures at). →
+  The TRANSMISSION FORMALISM our mating line lacks: write the
+  vertical-only model first (it predicts V1's null: no variation →
+  no response), then add channels and predict the difference.
+- **Kendal et al. 2018 [canon].** Social learning strategies review
+  update (Neurosci Biobehav Rev 95:70–84). A decade of Laland-2004
+  successors; strategies × development × brains. → Current map +
+  the developmental angle (age-structured copying — our founders/
+  newborns ARE age-structured; copy rules should be too).
+
+## Round 44 — bodies and retention roots (evolved morphologies, complementary systems)
+
+M4 needs the evolved-body canon (co-design, not attachment); the open
+retention item in VISION.md needs its root (complementary systems).
+
+- **Sims 1994 [canon].** "Evolving virtual creatures" (SIGGRAPH).
+  Co-evolved morphology + control (blocks + neurons, water/land).
+  → THE origin of evolved bodies: morphology and control co-evolve
+  or the body is a straitjacket. Our body-transfer line bolts new
+  codebooks onto a fixed plant — Sims says co-evolve the plant.
+  (Transfer V1/V2's FAIL-body reads as: fixed plant, new world.)
+- **Lipson & Pollack 2000 [canon].** "Automatic design and
+  manufacture of robotic lifeforms" (Nature 406:974–978). Evolved +
+  3D-PRINTED robots (sim-to-real, embodied). → The go-beyond-Sims
+  step (manufactured, not just simulated); the sim→real pipeline our
+  dream-model would need if bodies ever leave the grid.
+- **Cheney, MacCurdy, Clune & Lipson 2013 [canon].** Evolving soft
+  robots (GECCO best paper lineage; e.g., "Unshackling evolution"
+  2014). Morphological complexity itself evolves under the right
+  encodings. → Encoding matters (CPPNs > direct): our body
+  representation (if bodies ever vary) should be generative, not
+  parametric. Specified constraint on any future morph line.
+- **Pfeifer & Bongard 2006 [canon].** How the Body Shapes the Way
+  We Think (MIT). Morphological computation: the body does control
+  work (passive walkers need no controllers). → The transfer line's
+  missing half: offload turn/approach to morphology (sensor placement,
+  body shape) instead of learning it all in weights. Design axis
+  orthogonal to every replay/gain knob tried.
+- **McClelland, McNaughton & O'Reilly 1995 [canon].** "Why there
+  are complementary learning systems in the hippocampus and
+  neocortex" (Psych Rev 102:419–457). Fast hippocampal + slow
+  cortical learning (the CLS root). → THE retention architecture:
+  our single-learner system lacks the fast/slow split; catastrophic
+  interference (HB floor?) is PREDICTED without it. Specifies the
+  two-learner architecture (fast buffer + slow consolidation) that
+  BALDWIN approximated and the next retention line should build.
+- **Kumaran, Hassabis & McClelland 2016 [canon].** Complementary
+  systems update (Nat Rev Neurosci 17:550–563). Replay as the
+  hippocampal→cortical teacher; 20 years of CLS evidence. → Our
+  replay IS hippocampal (buffer replays to weights); the missing
+  piece is the SLOW cortical side (our weights update fast-only).
+  Consolidation-rate knobs (BALDWIN's consolidationRate) were the
+  right idea on the wrong timescale.
+
+## Round 45 — RSI synthesis (machines that improve, curricula that complexify, reward that suffices?)
+
+The endgame shelf: self-improvement theorems, complexity-from-
+curricula demos, and the maximalist claim to argue against.
+
+- **Schmidhuber 2007 [canon].** "Gödel Machines" (in Goertzel &
+  Pennachin (Eds.), Artificial General Intelligence, Springer).
+  Fully self-referential optimal universal self-improvers (proof-
+  search + utility). → THE RSI formalism (self-rewrite iff provably
+  better). Our RSI-SELF in-agent loop is a Gödel-machine SKETCH
+  without the proof searcher; V1d's stampede is what happens without
+  the proof gate. Specifies the missing component precisely.
+- **Clune 2019 [canon].** "AI-Generating Algorithms" (Artificial
+  Life 26, O'Reilly Radar essay 2019). Meta-architecture + meta-
+  learner + meta-environment = open-ended intelligence. → The
+  PROGRAM for VISION's aspirations (pillars, not a single line);
+  our QD archive + selection lines + banks map onto pillars 1–2;
+  pillar 3 (generative environments) is entirely missing — the
+  biggest gap in the whole program, named.
+- **Leibo et al. 2019 [canon].** "Autocurricula and the emergence
+  of innovation from social interaction" (arXiv:1903.00742).
+  Multi-agent social dynamics auto-generate curricula (hide-and-seek
+  arms races). → M5's engine: social interaction CREATES the
+  task distribution (no hand-designed phases). Our mating encounters
+  could be the seed of an autocurriculum — if agents interacted.
+- **Baker et al. 2019/2020 [canon].** Emergent Tool Use from
+  Multi-Agent Autocurricula (OpenAI; ICLR 2020). Hide-and-seek
+  agents invent tools (ramps, surfboards) through phased play. →
+  The DEMO that autocurricula work at scale; tool-use as the
+  existence proof that simple environments + interaction →
+  complexity. Sets the bar for any future multi-agent line.
+- **Sutton 2019 [canon].** "The Bitter Lesson" (blog essay).
+  Search + learning beat human knowledge, every decade, in every
+  domain. → The anti-hand-design thesis: our hand-tuned gains/
+  thresholds/doses LOSE to search in the long run — argues for
+  learned optimizers (round 20) and against further knob-freezing.
+  (Kept in productive tension with the frozen-plan discipline: freeze
+  the search, not the solution.)
+- **Silver et al. 2021 [canon].** "Reward is Enough" (Artificial
+  Intelligence 304:103535). Maximalist reward hypothesis: one
+  scalar (maximize reward) suffices for all intelligence. → The
+  claim to beat: is our taste-value enough (BH 0.80 says maybe!)
+  or does HB's slowness refute it (needs more than reward)? The
+  program's data now speaks to AI's biggest bet — frame the HB
+  floor as a Reward-Is-Enough test case.
+- **Scope-note misses (post-45).** Nowak 2006 cooperation rules —
+  COVERED round 39 (moved off the miss list). Remaining: WBE network
+  mechanisms; Jaynes MaxEnt; Thorndike/Hull (superseded);
+  quantum cognition; Haig (distant).
 
 ## Corrections to rounds 21-27 (2026-10-26; BH-inversion cascade)
 
