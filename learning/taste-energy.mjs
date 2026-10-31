@@ -96,6 +96,21 @@ export function tasteEnergyFeatures(state,raw,cue,contactPresent,odorPresent=cue
 export function tastePrediction(state,phi,weights){
   const w=weights??(state.config.phaseSlots>1?state.slot[state.activeSlot]:state.config.streams>1?state.weights[state.controller===0?'taste':'tasteB']:state.weights.taste);
   return sigmoid(state,math(state).add(state.priorLogit,dot(state,w,phi)));}
+// End-of-seg cue-value probe (VALUE-PROBE V1 instrument only). Builds taste
+// phi through the EXISTING tasteFeatures path and returns tastePrediction
+// under current weights — exact because taste phi is context-free (cue
+// only). Bills exactly like live predictions (math-op wrapper only, no
+// surcharge; symmetric on every arm so comparisons are unaffected).
+// Reads weights/RNG/buffers, mutates none.
+export function probeCueValues(state,cues){
+  assert.ok(Array.isArray(cues)&&cues.length>0,'probe needs a non-empty cue list');
+  const out=[];
+  for(const cue of cues){
+    assert.ok(Array.isArray(cue)&&cue.length===4&&cue.every(v=>v===1||v===-1||v===0),'bad cue pattern');
+    out.push(tastePrediction(state,tasteFeatures(state,cue)));
+  }
+  return out;
+}
 // Phase-indexed taste slots: endogenous online 2-means over the slow cue EMA.
 // No labels or phase boundaries; the active slot owns prediction and live
 // learning, records carry their slot, replay routes to the tagged slot.
