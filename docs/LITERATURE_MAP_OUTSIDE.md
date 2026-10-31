@@ -2689,3 +2689,54 @@ required?
   quantum cognition (too far); Jaynes MaxEnt (still open —
   specified twice, never executed: DO the MaxEnt baseline);
   Haig (distant); astrobiology (no bodies off Earth).
+
+## Rounds 56–57 — encounter-ecology + concentration (for MATE-ENCOUNTER GO follow-ups; 2026-10-31)
+
+Motivation: ENCOUNTER-GO-V1 shows spatial concentration lifts compounding (hub 5 vs
+spread 3). These rounds map what the outside literature knows about WHEN concentration
+helps mating — and what would discriminate our birth-bottleneck sketch. arXiv is thin on
+ethology (replicated finding: lek/IFD-mating/conspecific-attraction conjunctions return
+~nothing); the mating literature lives in journals. arXiv-verified entries first, then
+canon (verification deferred, established practice since R51).
+
+- **arXiv:2607.06732v1.** Selection mechanisms, stationary distributions, reversibility
+  in multiallelic Moran models. → The stationary law of the exact model class our mating
+  lines approximate (Moran with selection); reversibility conditions tell us when
+  lineage-founder frequencies carry information vs wash out — read before any V1b-style
+  lineage claim (our founders mate ~once: far from stationarity, so founder frequencies
+  are noise — consistent with V1c null).
+- **arXiv:2606.17125v1.** Allee thresholds, saddle-node bifurcations, optimal sterile-male
+  release. → Mate-limitation Allee effects FORMALIZED + the applied version of our problem
+  (SIT optimizes release spacing to SUPPRESS encounters; we want the inverse). Saddle-node
+  structure predicts threshold nonlinearity: concentration helps only above a critical
+  encounter rate — our +2 margin may sit near the threshold (test: dose spacing, not just
+  hub-vs-spread).
+- **arXiv:2607.09420v1.** PesTwin: modular agent-based pest/vector population control.
+  → A maintained ABM twin for encounter-rate interventions (release grids, trap spacing);
+  the closest existing in-silico lab for our encounter-topology questions — mine its
+  spacing-sensitivity analyses before designing any scaled-hub follow-up.
+- **arXiv:1605.06084v2.** Strong Allee effect in stochastic logistic model with mate
+  limitation + immigration. → The minimal model of our bottleneck (mate-finding Allee +
+  stochasticity): predicts high P(childless) at low density even with viable transmission
+  — our spread arm (3/6 childless at gen-2) matches qualitatively.
+- **Bradbury 1981 [canon].** The evolution of leks. hotspot vs hotshot vs female-preference
+  hypotheses (mate-choice copying aggregates females → males follow). → Lekking IS the
+  natural-hub experiment: concentration of mating WITHOUT concentration of food. Our hub
+  confounds food + encounters (single hub does both). Discriminating follow-up licensed by
+  this literature: hub-food WITHOUT hub-encounters vs hub-encounters WITHOUT hub-food
+  (requires separate attraction knob — currently unbuilt, needs new rationale).
+- **Emlen & Oring 1977 [canon].** Ecology, sexual selection, and mating systems (Q. Rev.
+  Biol.). → The environmental-potential-for-polygyny thesis: clumped resources → defensible
+  → polygyny. Our hub result is a micro-instance (clumped food → concentrated mating).
+  Predicts: uniform food + clumped MATES should concentrate mating WITHOUT the birth
+  boost — the cleanest test that our effect is encounter-rate, not energy.
+- **Stephens & Sutherland 1999 [canon].** Conspecific attraction / social information in
+  habitat selection (from Consequences of the Allee effect; Danchin & Wagner 1997
+  hetero-specific copying). → Animals use EACH OTHER as habitat cues (the mechanism our
+  attraction-knob would implement). Mate-choice copying (Gibson & Hoglund 1992 sage
+  grouse [canon]) is the mating-specific form — and MATE-SOCIAL's null (copybest 1 =
+  maternal 1) says our agents lack the copying machinery entirely: no social information
+  use, so no conspecific-attraction channel. Attraction-knob work must BUILD copying
+  first (mechanism gap, not parameter gap).
+- **Scope-note.** Sex-allocation theory (e.g. 1608.03102 sex-ratio detection) is out of
+  scope (fixed 50/50 founders, no allocation knob). OpenAlex 429 throughout (deferred again).
