@@ -31,7 +31,24 @@ export function schedWindowOpen(arm,tickInPhase,phaseLen){
 // (matches old-timers: learn in A, frozen from B on); candidate always on.
 // Fixed-program arms get fixed bodies. Unreachable unless reproduction is
 // enabled (default off = unchanged). Plain-JS bookkeeping (unbilled).
+// Copy-successful selection (MATE-SOCIAL V1): highest-fitness founder
+// (lifetime offspring count; ties -> lowest founder id). Returns the
+// founder's learner for weight copying, or null when no founder has a
+// usable learner (caller falls back to maternal, then to zeroed).
+export function bestFounderLearner(run){
+  let best=null,bestCount=-1;
+  const ids=[...(run.founderIds||[])].sort((a,b)=>a-b);
+  for(const id of ids){
+    const c=(run.founderOffspring&&Number.isInteger(run.founderOffspring[id]))?run.founderOffspring[id]:0;
+    if(c<0)continue;
+    const s=run.learners?run.learners[id]:undefined;
+    if(!s||!s.weights||!Array.isArray(s.weights.taste))continue;
+    if(c>bestCount){bestCount=c;best=s;}
+  }
+  return best;
+}
 export function syncNewbornLearners(run){
+  if(run.founderOffspring===undefined||run.founderOffspring===null||typeof run.founderOffspring!=="object")run.founderOffspring={};
   let created=0;
   const tNoise=run.transmissionNoise??null;
   const hseed=(run.history&&Number.isInteger(run.history.seed))?run.history.seed:1;
@@ -47,7 +64,10 @@ export function syncNewbornLearners(run){
     }
     s.lastObservedTick=run.world.tick;
     if(s.credit)s.credit.tick=s.lastObservedTick;
-    if(run.verticalTransmission==='maternal'){const src=run.learners[f.parents[0]];if(src&&src.weights&&Array.isArray(src.weights.taste)){s.weights.taste=src.weights.taste.slice();if(Array.isArray(src.weights.actor))s.weights.actor=src.weights.actor.slice();if(Array.isArray(src.weights.critic))s.weights.critic=src.weights.critic.slice();
+    if(Array.isArray(f.parents))for(const pid of f.parents){if(Number.isInteger(pid)){run.founderOffspring[pid]=(run.founderOffspring[pid]||0)+1;s.work.scalarOperations+=1;}}
+    if(run.verticalTransmission==='maternal'||run.verticalTransmission==='copybest'){let src=null;
+    if(run.verticalTransmission==='maternal')src=run.learners[f.parents[0]];else src=bestFounderLearner(run);
+    if(src&&src.weights&&Array.isArray(src.weights.taste)){s.weights.taste=src.weights.taste.slice();if(Array.isArray(src.weights.actor))s.weights.actor=src.weights.actor.slice();if(Array.isArray(src.weights.critic))s.weights.critic=src.weights.critic.slice();
       if(tNoise!==null&&tNoise>0){const mrng=new RNG((hseed^Math.imul(f.id,2654435761))>>>0||1);let n=0;for(const k of ['taste','actor','critic']){const w=s.weights[k];if(!Array.isArray(w))continue;for(let i=0;i<w.length;i++){w[i]+=tNoise*mrng.normal();n++;}}s.work.scalarOperations+=n;}}}
     run.learners[f.id]=s;created++;
   }
@@ -61,7 +81,7 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
 
 export class TasteExperiment{
   constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null}){
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
@@ -71,7 +91,7 @@ export class TasteExperiment{
       actorParameters:reference.actorParameters,episodicParameters:{...reference.parameters,actuator:'move',memoryLearning:false,neuralLearning:false},
       nutrient:.4,seasonal:false,challenges:'off',cueForaging:true});
     this.nutrientOverride=nutrientOverride;
-    this.codebook=makeCueCodebook(history.cueSeed);this.founderIds=this.world.flies.map(f=>f.id);this.learners={};
+    this.codebook=makeCueCodebook(history.cueSeed);this.founderIds=this.world.flies.map(f=>f.id);this.learners={};this.founderOffspring={};
     for(const id of this.founderIds){
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
       this.learners[id]=this.program==='fixed'?fixedBody(id,seed):createTasteEnergyBody(id,seed,{...learnerOptions,tasteLearning:arm!=='noTaste',normalizeMotor:arm!=='noNormalization',cueBlind:arm==='blind'});
