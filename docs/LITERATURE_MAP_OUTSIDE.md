@@ -2954,3 +2954,23 @@ Mech-interp has a name for this situation and a catalog of ways it misleads.
   arXiv (journal literature; OpenAlex 429) — logged, not pursued.
 - **Scope-note.** Lottery-ticket/lesion-classification (2008.12141v1) is applied
   pruning, no causal-evidence methodology; dropped after screening.
+
+## Round 66 — mating as a diffusion-limited reaction (for PROXIMITY dose scaling; 2026-11-01)
+
+Motivation: V1 executes a mating-range dose (13/26/52u). Reaction kinetics is the
+outside theory of rate-vs-radius.
+
+- **Diffusion-limited reactions (arXiv:1104.2414v5 Brown review — Smoluchowski
+  critique/generalization; 1605.01279v2 small-target asymptotics; 0905.4629v1 master
+  equation limit; 1301.0547v2/1411.0611v2/1503.07279v1 rate comparisons).**
+  Smoluchowski rate scales with reaction radius (k ~ R in 3D); the small-target
+  asymptotics (1605.01279v2) give the 2D correction our arena needs. → Pre-registered
+  lens for V1 births scaling: naive area scaling predicts 1:4:16 for radii 1:2:4;
+  Smoluchowski-linear predicts 1:2:4; 2D moving-agent kernels (speed-dependent,
+  saturating) predict sublinear. The observed 1:1.44:1.78 pattern will discriminate
+  these in the RESULTS doc — descriptively (no gate was built on scaling).
+- **Scope-note.** Zooplankton encounter kernels (Gerritsen-Strickler/Kiorboe) and
+  contact-rate foraging models return nothing on arXiv (journal literature; OpenAlex
+  429) — the qualitative prediction (encounter rate rises with radius AND speed,
+  saturating) is used without citation; the risk (untestable at 3 dose points) is
+  noted, not hidden.
