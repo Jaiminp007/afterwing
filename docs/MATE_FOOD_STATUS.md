@@ -29,4 +29,15 @@ feasibility gate (existence claim only; explicitly not promotion-worthy).
   scorer branches incl. totals-uncomputable INVALID + INCOMPLETE on
   enriched-gen-1==0; null-hygiene via V1-parity + override-survives-C-dip
   tests (1100-tick both arms). Bank test → post-build refusal +
-  read-only checks. Next: single authorized attempt.
+  read-only checks.
+- 2026-10-26: Phase-A EXECUTED → **MATE-FOOD-GO (gen-2 EXISTS)**.
+  G1 12/12 exact ledger (12/0/21504/516096/2.18e9); G2 audit pass;
+  enriched gen-2 = 1 ≥ 1 (seed 415019: 6 gen-1 + 1 gen-2, lineage-
+  verified parent IDs + max+1 generation rule); control 12 gen-1 +
+  0 gen-2 (replicates V1 null on fresh bank). Ecology worked:
+  enriched 27 births (26+1) vs control 12, survivors 22.8 vs 10.3,
+  energy −30.4 vs −60.4. No INCOMPLETE (enriched gen-1 26 > 0).
+  Reading: UNLOCK (not promotion) — V1b mutation + lineage-tracking now
+  licensed with rationale (energy result + MLS/ratchet standing lit).
+  Cumulative 7620 (+12). Next: V1b under its own frozen plan — no RSI
+  claim.
