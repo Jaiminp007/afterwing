@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-30 OpenAlex journals/books)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-35 OpenAlex journals/books)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -1546,3 +1546,223 @@ designed ecology experiment, not a tweak). Supporting: Lande 1980
   canon — cold); Cronin assembly theory (controversial, unqueried);
   Nowak cooperation rules (multi-agent futures); Haig imprinting
   (conflict theory, distant).
+
+## Rounds 31-35 — control, ethology, selection math, neutral theory, motor canon
+
+Method note: OpenAlex shared-IP budget ($0.10/day) exhausted mid-round
+(15/30 verified, HTTP 429 thereafter). Books and 429-blocked journals
+are cited [canon] with full biblio; verification of those records
+resumes next mapping round. Controversies preserved where found.
+
+## Round 31 — control and cybernetics canon (variety, regulators, reference, hierarchy)
+
+Our agents are regulators that never model, actors without references,
+thresholds without logic. The founders of the field say all three are
+required.
+
+- **Ashby 1956 [canon].** An Introduction to Cybernetics (Chapman &
+  Hall). Law of requisite variety: a controller needs at least as much
+  variety as the disturbance. → Audit specified (read-only): count
+effective degrees of freedom both sides (16-dim orthogonal learner vs
+12-entry codebook — is the floor a VARIETY deficit?). Supporting:
+  planner-variety (2006, 69 cites) + requisite-variety corollary note.
+- **Conant & Ashby 1970 [canon].** "Every good regulator of a system
+  must be a model of that system" (Int J Systems Sci). → UPGRADES the
+dream-model project from optional to NECESSARY: any RSI-grade
+regulator models. The thesis gets its theorem. Supporting: 2026
+dynamic-good-regulator reworking (the theorem is alive).
+- **Powers 1973 [canon].** Behavior: The Control of Perception
+  (Aldine). Behavior = tracking references, not maximizing rewards;
+  criterion = reference signal. → Actor-side formalized a THIRD way
+  (after SDT-criterion and Daw-arbitration): turn threshold AS a
+  reference level; BH failure = reference set wrong (expects benign).
+  Fix = move the reference, not the values. Supporting: 2025 PCT
+  review + 1998 continuation note.
+- **Simon 1969 [canon].** The Sciences of the Artificial (MIT Press).
+  Studying designed/adaptive systems; hierarchy and near-
+  decomposability. → That IS our program (artificial ecology, evolved
+  controllers); Simon prescribes modularity (decomposable engine +
+  learner + world, which we have — validation of the architecture
+  discipline). Record: 2019 reprint (2745 cites).
+- **Bateson 1972 [canon].** Steps to an Ecology of Mind (Ballantine).
+  Deutero-learning (learning to learn) + the difference that makes a
+  difference. → Meta-learning lineage alongside Tolman (round 23):
+  deutero-learning is transfer itself. Supporting: 2007 deutero-learning
+  review (168 cites).
+- **McCulloch & Pitts 1943 [canon].** "A logical calculus of the ideas
+  immanent in nervous activity" (Bull Math Biophys). Thresholded
+  binary units = computation. → Our greedy .5 threshold IS a
+  McCulloch–Pitts neuron; the actor is a logic circuit, which is why
+  it doesn't grade (thresholds don't). Want grading? Replace the gate,
+  don't tune it. Supporting: 1986 retrospective + 2004 first-theory
+  analysis (215 cites).
+
+## Round 32 — ethology canon (four questions, Umwelt, spandrels, tempo, form, imprinting)
+
+A century of watching whole animals, aimed at our blind spots: what
+questions we're asking, what worlds our agents live in, and whether
+the floor is a bug at all.
+
+- **Tinbergen 1963 [canon].** "On aims and methods of ethology"
+  (Z Tierpsychol). Four questions: causation, development, evolution,
+  function. → THESIS STRUCTURE: our floor work is causation +
+  development; mating is evolution + function. Every future line gets
+  filed under its question — stops category errors (e.g., demanding
+  functional answers from mechanistic probes). Supporting: 2013
+  appreciation (483 cites) + modern record.
+- **von Uexkull 1934 [canon].** Streifzuge durch die Umwelten von
+  Tieren und Menschen (Springer, German). Umwelt = the animal's
+  subjective world (carriers + meanings). → Our 4-bit cues ARE an
+  Umwelt (12 of 16 possible meanings); discrimination limits are
+  Umwelt limits, not brain limits. Design: enrich the Umwelt (more
+  bits/modalities) before blaming the learner. Supporting:
+  subjective-world + Umwelt-transition records.
+- **Gould & Lewontin 1979 [canon].** "The spandrels of San Marco"
+  (Proc Roy Soc B). Not everything is an adaptation; constraints
+  produce byproducts. → The floor as SPANDREL: extinction-slowness
+  may be a byproduct of elemental delta-rule architecture, not a
+  failure to fix — reframes "fix the floor" as "redesign the
+  architrave." Supporting: 2008 reprint record.
+- **Eldredge & Gould 1972 [verified] + Gould & Eldredge 1977 [canon].**
+  Punctuated pattern: stasis broken by rapid change (Models in
+  Paleobiology, 515 cites; 1977, Paleobiology). → Our history
+  matches: long plateaus (floors) then jumps (gain deployment). Expect
+  punctuated, not gradual, progress — and stop mistaking plateaus
+  for failures. Supporting: 2008 historiography.
+- **Thompson 1917 [canon].** On Growth and Form (Cambridge). Physical
+  forces constrain biological form (morphospace). → Body-transfer
+  morphologies as MORPHOSPACE (constrained forms, not arbitrary
+  bodies) — the transfer line's next design language. Supporting:
+  morphogenesis-century + limb-development records.
+- **Lorenz 1935/37 [canon + record].** Imprinting (Der Kumpan 1935;
+  "The Companion in the Bird's World" 1937, 622 cites). Rapid,
+  early, IRREVERSIBLE learning. → Our train phase walks like
+  imprinting (fast, early, hard to reverse = HB irreversibility!).
+  If train is imprinting, the prescription is imprinting's: get the
+  early window right (can't fix it later) — train-curriculum line,
+  specified. Supporting: 2019 imprinting-neuro review.
+
+## Round 33 — selection mathematics canon (theorem, equation, algorithm, landscape, strategy, kinship)
+
+The formalism shelf: what selection provably does, how to attribute
+it, and which strategies survive.
+
+- **Fisher 1930 [canon].** The Genetical Theory of Natural Selection
+  (Clarendon). Fundamental theorem: rate of increase in fitness =
+  genetic variance. → Root of Frank (round 30); our lines never
+  measure the variance they select on — specified: compute founder
+  fitness variance per line (frozen rows) as the selection speedometer.
+  Supporting: cultural-FTNS + Edwards-on-Fisher records.
+- **Price 1970 [canon].** "Selection and covariance" (Nature).
+  General selection equation: change = covariance + transmission
+  terms. → ATTRIBUTION MACHINERY for mating/inheritance lines:
+  Price-partition the V1 transmit results (how much change is
+  selection on founders vs imperfect transmission?) — read-only,
+  specified. Supporting: 1997 Price/Fisher/kin/causal review
+  (356 cites, verified).
+- **Holland 1975 [canon + record].** Adaptation in Natural and
+  Artificial Systems (Michigan). Schema theorem; building blocks.
+  → Our selection line IS a GA without the formalism: V1d's
+  47/48 herding = building-block collapse (no diversity → no
+  schemas). QD archive (round 20/25) is the schema-preservation
+  fix, now with its theorem. Record: 1992 reprint (47260 cites).
+- **Kauffman 1993 [canon].** The Origins of Order (Oxford). NK
+  landscapes (ruggedness from epistasis). → Sources round 19's NK
+  usage; the mating-line question (rugged vs neutral) is Kauffman's
+  question. No OpenAlex record hit (429) — full biblio given.
+- **Maynard Smith 1982 [canon].** Evolution and the Theory of Games
+  (Cambridge). ESS: strategies stable against invasion. → Turn/cruise
+  as STRATEGIES: is always-cruise an ESS? Invasion test specified
+  (introduce turn-mutants at frequencies — needs multi-agent or
+  sequential invasion runs; future line instrumentation). No record
+  hit (429) — full biblio given.
+- **Hamilton 1964 [canon].** Genetical evolution of social behaviour
+  I/II (J Theor Biol). Inclusive fitness; relatedness gates altruism.
+  → Our founders are unrelated → predicts null sociality (matches:
+  no helping, no signaling). Predicts WHEN sociality evolves: add
+  relatedness (kin-structured founders) — the mating track's social
+  extension, specified. No record hit (429) — full biblio given.
+
+## Round 34 — neutral theory, mutation, plasticity (the null and its refinements)
+
+Every adaptationist claim in the program now has a named null — and the
+mutation-rate literature says our σ lives orders of magnitude above
+biology.
+
+- **Kimura 1968 [canon].** "Evolutionary rate at the molecular
+  level" (Nature). Neutral theory: most change is drift, not
+  selection. → THE NULL for every drift/selection claim we make (our
+  INCOMPLETE discipline already practices it; now named). No record
+  hit (429) — full biblio given (Kimura, Nature 217:624–626).
+- **Ohta 1973 [canon].** Nearly-neutral theory (Nature/J Mol Evol).
+  Most mutations slightly deleterious; fate decided by |Ns|.
+  → Our σ=0.05 mutations likely sit in the slightly-deleterious
+  zone — explains V1b's weak effect SIZE (mutants neither neutral
+  enough to drift nor good enough to sweep). No record hit (429).
+- **Drake 1991 [canon].** Spontaneous mutation rates (PNAS: constant
+  ~1e-9/base microbial rate). → Our σ=0.05/weight/element is
+  astronomically high by biology; drift-barrier logic says rates
+  evolve DOWN to the drift limit. Prescription: anneal σ high→low
+  across generations (a schedule, not a constant) — V1d-variant,
+  specified (line closed; noted for any revival). No record hit.
+- **Simpson 1953 [canon].** "The Baldwin effect" (Evolution).
+  The canon statement (assimilation conditions). → Complements Hinton
+  (mechanism, round 28) with the formal conditions; our BALDWIN line
+  can now cite both halves. No record hit (429).
+- **West-Eberhard 2003 [canon].** Developmental Plasticity and
+  Evolution (Oxford). Genetic accommodation: plasticity first,
+  genes follow. → The assimilation path our consolidation work
+  never formalized (plasticity-led, not mutation-led) — alternative
+  revival mechanism to point-mutation inheritance. No record hit.
+- **Jablonka & Lamb 2005 [canon].** Evolution in Four Dimensions
+  (MIT). Genetic + epigenetic + behavioral + symbolic channels.
+  → Transmission design space ×4: our vertical-weights line is ONE
+  channel of four (methylation-like persistence, action-copying,
+  signal-meaning next). Each is a future line. No record hit (429).
+- **Scope-note misses.** Lynch drift-barrier proper (rates evolve to
+  drift limit — Drake covers the numbers, Lynch the theory, unqueried);
+  Haig imprinting (conflict theory, still distant).
+
+## Round 35 — motor canon, direct perception, assembly, distribution (the cold tracks' library)
+
+Perception without models, control without setpoints, complexity
+without selection, distribution without planning.
+
+- **Gibson 1979 [canon].** The Ecological Approach to Visual
+  Perception (Houghton Mifflin). Affordances: perceive action-
+  possibilities directly (climbable, eatable), not valences.
+  → Reframes the cue ontology: our cues are valences (+/-); Gibson
+  says make them AFFORDANCES (turn-toward-able, eatable) — the actor
+  reads possibilities, the critic reads outcomes. No record hit (429).
+- **Lee 1976 [canon].** "A theory of visual control of braking"
+  (Perception). Tau (time-to-contact from expansion) = direct law,
+  no model, no value. → Approach control WITHOUT the critic: tau
+  drives approach, values drive only rejection — splits the actor
+  cleanly (and explains why approach is fast/value-free while
+  avoidance is slow/value-bound). No record hit (429).
+- **Todorov & Jordan 2002 [canon].** Optimal feedback control
+  (Nat Neurosci). Minimal intervention: correct only task-relevant
+  deviations. → Our threshold corrects EVERYTHING (any crossing)
+  vs OFC (correct only what matters) — explains brittleness; the
+  actor should be a minimal-intervention controller, not a
+  hair-trigger. No record hit (429).
+- **Harris & Wolpert 1998 [canon].** Signal-dependent noise
+  (Nature). Noise scales with command; speed–accuracy tradeoff is
+  law. → Our deterministic greedy has NO noise: add signal-scaled
+  motor noise as EXPLORATION (not a bug — the movement system
+  expects it). Noisy-action line, specified. No record hit (429).
+- **Cronin et al. 2021/23 [canon + controversy].** Assembly theory
+  (Life; J R Soc Interface): selection before evolution, molecular
+  assembly index as complexity. → Metric candidate: assembly index
+  of weight/behavior trajectories (specified). Controversy preserved
+  by design (mainstream pushback is strong; use as metric, not
+  truth). No clean record hit (429) — full biblio in round note.
+- **Fretwell & Lucas 1969 [canon].** Ideal free distribution (Acta
+  Biotheoretica). Foragers match resources proportionally.
+  → TESTABLE ON FROZEN ROWS (read-only, specified): do agents
+  distribute per IFD across patches? Deviation diagnoses ( despotic /
+  perceptual limits). The ecology track's first frozen quantitative
+  test. No record hit (429).
+- **Scope-note misses.** Nowak 2006 cooperation rules (needs games =
+  interaction, which doesn't exist yet); WBE 1997 metabolic scaling
+  (body-size track cold); Jaynes MaxEnt (policy formalism, unqueried).
