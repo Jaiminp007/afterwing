@@ -2740,3 +2740,31 @@ canon (verification deferred, established practice since R51).
   first (mechanism gap, not parameter gap).
 - **Scope-note.** Sex-allocation theory (e.g. 1608.03102 sex-ratio detection) is out of
   scope (fixed 50/50 founders, no allocation knob). OpenAlex 429 throughout (deferred again).
+
+## Round 58 — encounter math from outside ecology (2026-10-31)
+
+Motivation: the mating literature is journal-bound, but encounter-rate MATH lives in
+arXiv-friendly fields. This round imports it.
+
+- **arXiv:2111.05958v1.** Social distancing / gathering / search games on networks
+  (lazy random walks, pairwise-distance objectives). → The FORMAL DUAL of our encounter
+  problem (dispersion games = rendezvous with sign flipped). Rendezvous/search-game values
+  scale with meeting-time distributions, not densities — predicts our spread arm's
+  childlessness is meeting-time variance, not mean density (test: measure time-to-first-
+  mating per history; variance should dominate).
+- **Gal 1980 / Alpern & Gal 2003 [canon].** Search Games / Theory of Search Games.
+  → Optimal rendezvous strategies (wait-for-mommy, asymmetric roles). Our flies all run
+  the SAME policy (cruise + mate-approach); search theory says asymmetric roles (one
+  waits, one searches) beat symmetric search. A sexes-differ search policy is a licensed
+  mechanism hypothesis for a future attraction/encounter line — needs engine support
+  (sex-conditioned policy does not exist).
+- **McCall 1970 [canon].** Job search with reservation wage (QJE). → Mate search as
+  optimal stopping: reservation-mate-quality + give-up time. Our flies never give up
+  searching (no reservation). If encounters are rare, optimal policy may be LOWER
+  selectivity (accept first mate) — predicts our bar-50 births come from unselective
+  matings; a selectivity knob would test it (unbuilt).
+- **Harris 1974 / contact-process canon.** Meeting as contagion on graphs. → Mating =
+  transmission with contact rate λ; our hub raises λ. Contact-process survival thresholds
+  give the same saddle-node prediction as the Allee round (R57): below critical λ the
+  lineage dies a.s. — our spread arm's 3/6 childless histories may BE subcritical
+  realizations, not bad luck. Discriminates via λ-dose (multiple hub sizes), not n.
