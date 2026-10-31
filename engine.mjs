@@ -176,7 +176,8 @@ export class World {
     const energyBar=this.config.matingEnergyBar??65;
     for(const f of this.config.reproduction?order:[]){
       if(!this.flies.includes(f)||f.sex!==0||f.cooldown>0||f.energy<energyBar||f.age<f.genome.traits.maturity||(needAct&&actions.get(f.id)[3]<=0))continue;
-      const mate=candidates.nearby(f,26).find(m=>m.sex===1&&m.cooldown<=0&&m.energy>=energyBar&&m.age>=m.genome.traits.maturity&&(needAct?actions.get(m.id)[3]>0:true));
+      // Null-default: matingRangeMultiplier scales ONLY the execution radius (sensing/display/cooldown/energy gates untouched).
+      const mate=candidates.nearby(f,26*(this.config.matingRangeMultiplier??1)).find(m=>m.sex===1&&m.cooldown<=0&&m.energy>=energyBar&&m.age>=m.genome.traits.maturity&&(needAct?actions.get(m.id)[3]>0:true));
       if(!mate)continue;
       if(this.flies.length+children.length>=this.config.capacity){this.capacityReached=true;this.record('capacity','Resource ceiling reached. Run paused; no births silently discarded.');break;}
       const {genome,changes}=inherit(f.genome,mate.genome,this.rng,()=>this.nextNode++,this.config.mutation);
@@ -212,6 +213,7 @@ export function validateConfig(c){
   if(c.signalMode!==undefined&&!['normal','disabled','scrambled'].includes(c.signalMode))throw Error('Invalid signal mode');
   if(c.resourceTopology!==undefined&&!['spread','hub','duo'].includes(c.resourceTopology))throw Error('Invalid resource topology');
   if(c.mateSenseMultiplier!==undefined&&(!Number.isFinite(c.mateSenseMultiplier)||c.mateSenseMultiplier<=0))throw Error('Invalid mate-sense multiplier');
+  if(c.matingRangeMultiplier!==undefined&&(!Number.isFinite(c.matingRangeMultiplier)||c.matingRangeMultiplier<=0))throw Error('Invalid mating-range multiplier');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');
