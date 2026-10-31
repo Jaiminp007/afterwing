@@ -575,3 +575,35 @@ dynamics features from reward → transfer across goals. → Principled
   possible AND the actual. → Methodological license: our whole program IS
   this — but the paper reminds us to explore the POSSIBLE (counterfactual
   ecologies/morphologies), not just replay the actual BT world.
+
+## Round 13 — canalization math that runs without simulation, death as group adaptation
+
+- **Canalization and robustness without simulation (1607.04474).**
+  c-sensitivity generalizes Derrida values to canalizing functions;
+  robustness computable WITHOUT running the network. → Upgrades the
+  Round-12 CANA lens from tooling to arithmetic: score frozen policies'
+  robustness analytically instead of sampling trajectories. (Still needs
+  archived weights — instrumentation gap stands, now precisely specified:
+  archive per-agent weights at phase boundaries.)
+- **Canalizing dynamics: fewer, bigger basins (1904.00056).** Higher
+  canalizing depth → fewer attractors, smaller attractors, LARGER basins
+  (explicit formulas). → Testable prediction for our lines: the more
+  canalized the policy (V1d stampede = extreme), the larger its basin
+  (harder to knock out of it — explains transfer stickiness AND rigidity).
+  Selection implication: canalize the robust core, keep the periphery
+  flexible. Design rule for future architectures: canalizing core +
+  plastic periphery, not uniform plasticity.
+- **Geometry of programmed death (1403.7556).** Programmed cell death
+  enables group reproduction via snowflake geometry; death is adaptive AT
+  THE GROUP LEVEL while costly individually. → Reframes our mortality:
+  what if deaths are load-bearing for collective dynamics (clearing
+  space? resetting patches)? Before assuming death = failure, check
+  whether survivor-only lineages outperform — a frozen-data question
+  (compare survivors' descendants... requires lineage tracking we lack).
+  Noted as instrumentation requirement, not a claim.
+- **Process note (anti-duplication rule).** Rounds 10–12 re-fetched
+  already-mapped papers (Dreamer set, RND, in-silico transitions now
+  appear in two rounds' worth of fetches). Rule going forward: grep the
+  map for each candidate ID BEFORE fetching abstracts; fetch only
+  unmapped IDs. This round followed it (3 fetched, 9 skipped as
+  duplicates).
