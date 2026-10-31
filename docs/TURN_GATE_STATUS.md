@@ -81,3 +81,12 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   string-only relabel (numerics verified identical). Tax = slow-to-
   correct residue. Next: V1e 4x/asymptote probe (may gate on
   convergence) under its own frozen plan — not started, no RSI claim.
+- 2026-10-31: Phase-E FROZEN as `docs/TURN_GATE_PLAN_V1E.md` (DESIGN ONLY).
+  Vanish-vs-floor adjudication: 18 mains (train + seg1 gated + seg2/seg3/
+  seg4 descriptive via 3rd/4th transplants + unlearned) on fresh bank
+  410001–410054 (verified clean pre-freeze, 0 hits; re-verify at build).
+  Seg1-gated verdict (comparability); convergence gate DECLINED with
+  pre-registered reasoning (extrapolation predicts seg4 ~0.84 borderline;
+  trajectory more informative than threshold; descriptive CONVERGED
+  answers the question either way). Trajectory prediction recorded:
+  ~1/3 closure per doubling. Next: implement, then single attempt.
