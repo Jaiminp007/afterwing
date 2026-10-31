@@ -252,4 +252,16 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   requires uniform-seg2 + gain + gain-seg2 triples fail-closed;
   null-hygiene INVALID covers uniform-seg2 (null arm) + per-arm gain
   VOID-conditions in runner. Bank test → post-build refusal +
-  read-only checks. Next: single authorized attempt (FINAL chartered).
+  read-only checks.
+- 2026-10-26: Phase-I EXECUTED → **GO, E1 CONFIRMS; LINE CLOSED AS
+  DEPLOYED**. G1 join 1.00 x18; G0 train 0.816/0.818/0.808 (9th
+  replication); G2a uniform mean 0.654 (7th transfer replication); G2b
+  unlearned flat; seg1 mechanism replicates (8th). D0
+  +0.317/+0.101/+0.054 (mean +0.158, clears band); E1 +0.224/+0.130/
+  +0.136 (mean +0.163, ALL clear band — headline CONFIRMED, no V1j);
+  E2 +0.053/+0.156/+0.243 (replicates V1d); E3 −0.040/+0.185/+0.271
+  (pair-1 saturates near its floor). Manipulation PERFECT (nulls
+  silent incl. uniform-seg2; both gain arms fired; zero voids).
+  Retention intact (|Δ| ≤ 0.011). Cumulative 7626 (+18). TURN-GATE LINE
+  CLOSED per frozen plan: 8 GO verdicts, replicated mechanism,
+  attributed floor, deployed surprise-gated replay. No V1j.
