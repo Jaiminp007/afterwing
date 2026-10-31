@@ -22,48 +22,62 @@ explanation. The test is weak (coarse predictor), so this is
 inconclusive rather than falsifying — but nothing here licenses a
 perceptual line. Geometry moves to the back of the queue.
 
-## 2. QD transfer map (retrospective archive of frozen rows)
+## 2. QD transfer map — CORRECTED (retrospective archive; BH axis was inverted)
+
+> CORRECTION 2026-10-26: BH correctness was 1−turn (inverted; same bug
+> as VALUE-PROBE V1). True BH = turn rate. Map recomputed; the
+> "BH binding constraint" and the "frontier tradeoff" below were
+> artifacts and are WITHDRAWN. What stands: 7 elites with provenance
+> (recomputed), gain pushes HB right, 18 empty cells.
 
 Descriptor: (HB-correctness, BH-correctness) per pair-episode, 5×5 grid;
 elite per cell = max (HB+BH)/2 with provenance. 33 episodes
 (24 uniform + 9 gain seg1).
 
 ```
-BH 0.8-1.0 |  .   .   .   .   .
-   0.6-0.8 |  .   .   .   .   .
+BH 0.8-1.0 | 48  62  67  76   .
+   0.6-0.8 | 46  58  62   .   .
    0.4-0.6 |  .   .   .   .   .
-   0.2-0.4 | 24  30  35   .   .
-   0.0-0.2 | 18  28  34  39   .
+   0.2-0.4 |  .   .   .   .   .
+   0.0-0.2 |  .   .   .   .   .
              ------------- HB→
              .0  .2  .4  .6  .8
 ```
 
-Elites: (0,0)=05uni .18 | (0,1)=08uni .24 | (1,0)=06uni .28 |
-(1,1)=09uni .30 | (2,0)=07gain .34 | (2,1)=03uni .35 |
-(3,0)=09gain .39 (HB=0.65, BH=0.13).
+Elites: (0,3)=08uni .46 (HB=0.20 BH=0.72) | (0,4)=05uni .48 |
+(1,3)=05uni .58 | (1,4)=07gain .62 | (2,3)=03uni .62 |
+(2,4)=07gain .67 | (3,4)=09gain .76 (HB=0.65 BH=0.87).
 
-Readings (descriptive, frozen data):
+Readings (descriptive, frozen data, CORRECTED):
 
-- **7/25 cells occupied; the entire BH>0.4 region is empty.** BH
-  acquisition (mean ≈0.20 everywhere) is the binding constraint —
-  worse than the HB floor the program has been forensically examining.
-  The floor is two-dimensional and we have been staring at the
-  better axis.
-- **Frontier trades off:** the best-HB episode (09gain, HB=0.65) has
-  the WORST BH (0.13). HB gains do not transfer to BH; they may
-  compete (turn circuitry shared? or exposure reallocation).
-- **Gain holds the HB frontier** (cells 2,0 and 3,0) but only along
-  the bottom row — it pushes extinction, not acquisition.
-- **Archive value:** the 7 elites (with line/seed provenance) are a
-  retrospective QD archive: future active search can mutate from
-  elites, target the 18 empty cells (novelty), and use cell-occupancy
-  as the diversity metric that V1d's herding failure lacked
-  (47/48 stampede → archiveQD as the standard antidote, now
-  initialized zero-world).
+- **7/25 cells, ALL in the top two rows.** BH acquisition sits at
+  0.72–0.88 in every occupied cell — acquisition works everywhere.
+  There is no BH floor and never was; the floor is HB-ONLY
+  (extinction, 0.16–0.65 across the HB axis). The program spent three
+  turns examining the wrong axis (an inversion artifact, not a
+  phenomenon).
+- **NO tradeoff.** The best cell (3,4: HB=0.65, BH=0.87, 09gain) is
+  best at BOTH. Pair-level r(HB,BH) = +0.16 (30 pairs): easy/hard
+  pairs don't trade off. The frontier runs along the HB axis only.
+- **Gain pushes HB right** (right column = gain arms; uniform holds
+  left). Same deployed story, no competition narrative.
+- **Archive value (stands):** 7 recomputed elites with provenance;
+  18 empty cells (all BH<0.6 — unreachable-in-practice, plus HB>0.8 —
+  unreached); cell-occupancy remains the diversity metric V1d lacked.
 
-## 3. Specified next hypothesis: BH failure is actor-side (not executed)
+## 3. WITHDRAWN: BH actor-side hypothesis (no phenomenon to localize)
 
-BH pattern (cruise into newly-harmful cues at ~80%, re-encounter
+> CORRECTION 2026-10-26: BH turns at 0.72–0.88 everywhere (this doc's
+> corrected map + 30-pair table). There is no BH failure — cruising
+> into harm at 80% never happened. The actor-side hypothesis below
+> loses its phenomenon and is WITHDRAWN as a live hypothesis (not
+> refuted — untestable where it matters, since VALUE-PROBE's
+> INDETERMINATE came from an easy bank). The per-cue-values
+> instrument stands as the method that settled it; a future use would
+> target HB (where behavior 0.49 runs AHEAD of values 0.22 — the live
+> value/behavior puzzle, inverted from the original actor-side story).
+
+Original (superseded) text retained: BH pattern (cruise into newly-harmful cues at ~80%, re-encounter
 without learning to turn, per the −0.75 endogeneity gradient) localizes
 the failure to TURNING, not to valuing: the critic may well learn harm
 (values drop) while the actor keeps cruising (policy inertia against

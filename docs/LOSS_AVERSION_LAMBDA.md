@@ -22,10 +22,12 @@ values 3× more per contact), not the settings.
 
 Caveats (honest): VP bank only (n=16 cues; turn-gate banks lack probes
 so no cross-bank replication yet — any future probed line replicates
-for free); descriptive (update-magnitude ratio, not a causal knob);
-the number explains HB slowness (0.28/move) but NOT turn-gate BH
-behavior lag (values moved 0.83 there too, presumably — behavior
-didn't follow; actor-side stands where floors reproduce).
+for free); descriptive (update-magnitude ratio, not a causal knob).
+CORRECTION 2026-10-26: there is no turn-gate BH behavior lag — BH turns
+0.72–0.88 everywhere (the 0.20 was the same inversion artifact). λ
+explains HB slowness (0.28/move) and BH value-swings; behaviorally,
+BOTH directions show LI-like retardation by train exposure (HB −0.17,
+BH −0.54 partials). Actor-side stands withdrawn (no phenomenon).
 
 Program uses (licensed, not executed): (1) negativity-bias unification
 gets its number; (2) associability-reset line gets a QUANTITATIVE

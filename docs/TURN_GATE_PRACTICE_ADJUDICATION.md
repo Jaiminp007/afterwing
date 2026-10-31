@@ -1,75 +1,74 @@
-# Turn-gate practice adjudication — contact gradients are endogenous; no exposure line licensed
+# Turn-gate practice adjudication — CORRECTED: both gradients positive; BH is anti-endogenous practice evidence
 
-Date: 2026-10-26. Read-only (zero new worlds, zero new seeds; frozen
-rows from turn-gated-dev attempts 02–09 + frozen banks untouched).
-Question: is the transfer floor (harm→ben stall ≈0.3–0.4 at 1×)
-practice-limited (rare cues under-exposed) or rigid (cues unlearnable)?
+Date: 2026-10-26 (corrected same day, zero new worlds). Read-only;
+frozen rows attempts 02–09 + frozen banks untouched.
 
-## 1. HB contact gradient: +0.5, robust — but not causal
+> CORRECTION: the V1 version coded BH correctness as 1−turn (inverted;
+> same bug as VALUE-PROBE V1). True BH correctness = turn rate
+> (avoidance). Corrected: BH r = **+0.752** (was −0.752), mean **0.798**
+> (was 0.202). The endogeneity proof below collapses and inverts: the
+> BH gradient now runs AGAINST endogeneity, making it the cleaner
+> practice evidence. HB numbers were correct throughout.
 
-Pooled HB (train-harmful → test-benign) cues, uniform-seg1 arms,
-8 lines × 3 pairs (n=60):
+Question: is the transfer floor (harm→benign stall ≈0.3–0.4 at 1×)
+practice-limited or rigid? (Note: the floor is HB-ONLY. BH acquisition
+succeeds at 0.72–0.84 on all 30 pairs — there is no BH floor. The
+"BH binding constraint" in TURN_GATE_QD_MAP.md was the same inversion
+artifact, corrected there.)
 
-- Pearson r(correctness, log-contact) = **+0.505**, Spearman +0.492.
-- Quintiles monotonic: 0.247 / 0.258 / 0.300 / 0.342 / 0.424
-  (contacts 759→2276).
-- Leave-one-line-out r = 0.450–0.568: no single line drives it.
+## 1. HB contact gradient: +0.5, robust (unchanged, correct)
 
-## 2. BH gradient is opposite-signed: −0.75 → exposure is endogenous
+Pooled HB cues, uniform-seg1, 8 lines × 3 pairs (n=60): r = +0.505,
+Spearman +0.492, monotonic quintiles 0.25→0.42, LOO 0.45–0.57.
 
-Same pooling for BH (train-benign → test-harmful, n=58):
-r = **−0.752**, mean correctness 0.202. Same-valence control
-(benign→benign): flat (r=−0.03, turn rate 0.051 = baseline).
+## 2. BH gradient: +0.75 — anti-endogenous (CORRECTED)
 
-The opposite signs are exactly what behavior→exposure endogeneity
-predicts and what practice-alone cannot explain:
+Same pooling for BH (n=58): r = **+0.752**, mean 0.798. Same-valence
+control (benign→benign, correctness = 1−turn): flat r=+0.03, mean 0.949.
 
-- HB (test-benign): correct = cruise (stay) → more contacts. ✓ positive.
-- BH (test-harmful): correct = turn (leave) → fewer contacts. ✓ negative.
-- Practice-alone predicts MORE contacts help BOTH directions. BH
-  rejects that (more contacts → much worse acquisition is absurd as
-  a practice effect, perfect as endogeneity: stuck agents re-encounter).
+Behavior→exposure endogeneity predicts OPPOSITE signs (HB correct =
+cruise = stay → more contacts; BH correct = turn = leave → fewer
+contacts). Observed: SAME sign, both strongly positive. Endogeneity
+would produce a NEGATIVE BH gradient; the observed +0.75 runs against
+it — so the BH gradient cannot be endogeneity-dominated and stands as
+the cleaner practice evidence of the two (HB's gradient remains
+endogeneity-compatible: cruise→stay confound unexcluded).
 
-Contact counts in frozen summaries are measured POST-behavior, so the
-totals cannot identify a practice effect. The HB gradient is consistent
-with "rare cues under-practiced" AND with "failed cues over-sampled by
-stuck behavior" — the data do not separate them.
+## 3. Gain tests: lifts without flattening, both directions
 
-## 3. Gain test: the manipulable floor component is contact-orthogonal
+If contacts were THE binding constraint, learning-per-contact gain
+should substitute for contacts and flatten gradients:
 
-If contacts were the binding constraint, an intervention that raises
-learning-per-contact should substitute for contacts and FLATTEN the
-gradient. Surprise-gain (attempts 07–09, n=19+19 HB cues) does not:
+- HB: uniform r=0.668 mean 0.283 → gain r=0.677 mean 0.409 (+0.126,
+  zero flattening).
+- BH: uniform r=0.853 mean 0.779 → gain r=0.756 mean 0.860 (+0.081,
+  minimal flattening).
 
-- Uniform seg1: r=0.668, mean 0.283.
-- Gain seg1: r=0.677, mean 0.409 (**+0.126 lift, zero flattening**).
+Both manipulable components are largely contact-orthogonal: gain lifts
+all contact levels ~equally. Practice matters (gradients) but the
+gain-responsive channel isn't exposure — consistent with an
+associability brake (LI: −0.17 HB / −0.54 BH partials): exposure helps,
+priors resist, gain shouts over both without removing either.
 
-Gain lifts every contact level equally — the working channel is
-independent of exposure. The residual floor keeps the same
-contact-dependence, so the residual is not contact-explained either.
-(Endogeneity-only predicted steepen-or-same + lift; observed same +
-lift: consistent.)
+## Verdicts (corrected; negative-preservation)
 
-## Verdicts (all negative-preservation; no new line)
+1. **Noisy replay NOT licensed (strengthened).** Practice now has
+   genuine support (BH +0.75 anti-endogenous) — corrupting the few
+   updates rare cues get is even less indicated than under V1's
+   reasoning.
+2. **Naive exposure-extension NOT licensed (reason changed).** Not
+   confounded anymore — but saturated (V1d/V1e: +0.26 then +0.01) with
+   an LI brake on top (more exposure fights stronger priors). The
+   returns are spent; the next move is brake-lifting (Bavelier), not
+   more ticks.
+3. **No new experimental line.** The residual HB floor (0.16–0.47 pair
+   range) is unexplained — remap ruled out (r=+0.23 wrong-signed),
+   timing untestable frozen. Specified next: first-contact logging on
+   any future line (already piggybacked on GAIN-DOSE V1).
 
-1. **Noisy replay NOT licensed.** It was queued as an anti-overfitting
-   probe, but the diagnosed problem is weak-signal/under-correction,
-   not overfitting-from-too-much-exact-replay; nothing in this analysis
-   suggests corrupting the few updates rare cues get would help.
-2. **Naive exposure-extension NOT licensed.** The gradient that seemed
-   to motivate it is endogenous (proof above), and V1d/V1e already show
-   segments help but saturate — no new evidence for a further extension.
-3. **No new experimental line this turn.** The practice-vs-rigidity
-   question is NOT answerable from frozen summaries (no time-resolved
-   per-cue data exists in any row; history = {seed} only).
+## Specified next analytic (unchanged, done since)
 
-## Specified next analytic (licensed, read-only, not executed)
-
-Codebook geometry vs per-cue correctness on frozen banks: for each
-transferred HB cue, correlate correctness with (a) distance to the
-nearest conflicting-valence entry, (b) distance to its train-valence
-prototype region. If hard cues are geometrically confusable, the
-residue is discriminability-limited (instrument: perceptual, not
-mnemonic). Codebooks reconstruct deterministically from frozen bank
-seeds (no new worlds). That analysis — not a new line — is the next
-step, preserving "last analytic step before any structural line."
+Codebook geometry was executed (TURN_GATE_QD_MAP §1): inconclusive
+(r≤0.2). The analytic queue behind this doc is complete; the open
+items are instrumented measurements (first-contact ticks), not further
+read-only forensics.
