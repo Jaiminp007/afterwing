@@ -2845,3 +2845,29 @@ attraction mechanism independent of food. This round banks its math.
   swarms: all NO-RESULTS on arXiv (journal literature; OpenAlex 429). The overdispersion
   lens for our outlier histories (V1c duo 429019: 4 gen-2) stays canon-deferred —
   noted because Lloyd's mean-crowding / Taylor's power law would quantify it.
+
+## Round 62 — mating as a two-sided search market (2026-11-01)
+
+Motivation: V1c duo histories have 4–10 births — encounters EXIST there, which
+re-opens what ENCOUNTER_ESTIMATE closed: courtship/assessment. If mates meet but
+pairings are random, the next lever is CHOICE. Economics formalizes exactly this.
+
+- **Directed search (arXiv:2501.11753v3 information design + search segmentation;
+  2102.09017v2 optimal search on matching platforms).** Two-sided markets with
+  search frictions: one side posts terms (signals), the other directs search toward
+  preferred terms. → The formal template for courtship + female choice: male display
+  (posted term) + female directed search (choice). Our mating is RANDOM conditional on
+  encounter (no assessment knob) — directed search predicts assortative gains from
+  even a coarse quality signal. A quality-signal + preference knob is now specifiable
+  (post-encounter assessment, unbuilt) with market-design math instead of hand-waving.
+- **Epidemic thresholds on heterogeneous networks (arXiv:1010.1646v2; 1305.4819v2
+  SIS threshold nature; 2102.11602v2 degree-dependent transmission).** Threshold =
+  f(degree heterogeneity): hub nodes (superspreaders) lower the invasion threshold.
+  → The network reading of our outlier histories (V1c duo 429019: 4 gen-2; V1b hub
+  428019: 3 gen-2): high-degree lineages drive compounding. Lineage founder-spread
+  data (already collected in dev-results) could test whether gen-2 concentrates in
+  few founders — a post-hoc analytic on FROZEN artifacts, zero new worlds, licensed
+  as measurement not claim.
+- **Scope-note.** Handicap/costly-signaling canon (Zahavi/Grafen/Johnstone) stays
+  journal-deferred; the market-design entries above subsume the actionable part
+  (signal + directed search) without it.
