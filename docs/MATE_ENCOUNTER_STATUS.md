@@ -20,3 +20,13 @@
   timing shift (medians 245 vs 247.5); hub pays energy cost (mean −36.7 vs −24.6).
 - V1 GO stands UNREPLICATED. Line closed; pooled hub gen-2 12 vs spread 5 recorded.
 - Results: `docs/MATE_ENCOUNTER_RESULTS_V1B.md`. Cumulative program spend: 7719.
+
+## V1c (CLOSED AS NOGO, 2026-11-01)
+
+- Plan: `docs/MATE_ENCOUNTER_PLAN_V1C.md` (dose-response; weak-monotonicity verdict; no births gate).
+- Bank fresh-03 (429001–429054); attempt-03: 18 mains / 0 probes / 3.60e9 ops, clean pass.
+- Verdict: **MATE-ENCOUNTER-NOGO-V1C** (hump: spread 2 / duo 10 / hub 2 — monotonicity fails via duo > hub).
+- G1+G2 true incl. geography audit (3/2/1 on all 18 rows). No timing ordering; hub starves again (−41.9); duo eats best (−20.5).
+- Descriptive regularity: winning arm has ~3× per-birth gen-2 rate (V1b hub 0.19, V1c duo 0.20 vs 0.06–0.07) — hypothesis-generating only.
+- Encounter line: GO-unreplicated + INVALID + NOGO → TOPOLOGY INSUFFICIENT pending Emlen-Oring split (attraction knob unbuilt).
+- Results: `docs/MATE_ENCOUNTER_RESULTS_V1C.md`. Cumulative program spend: 7737.
