@@ -62,4 +62,14 @@ weights, no vertical transmission anywhere).
   descriptive spread-vs-concentration reading decides V1d's form (robust
   → mechanism/selection; concentrated → within-run competition to break
   seed-confound) or closes the line (NOGO = unconfirmed). No V1d.
-  Next: implement, then single authorized attempt.
+- 2026-10-26: Phase-C IMPLEMENTED (`scripts/mate-inherit-v1c.mjs` +
+  `tests/mate-inherit-v1c.test.mjs` 9/9 green; triage at 6-pristine
+  baseline; bank `evidence/mate-inherit-dev/fresh-03/` built 417001–
+  417054 post-fixtures). Exact V1b replication + lineage-founder
+  tracking (founders per gen-2+/gen-3, orphans dropped, cycles break,
+  per-arm founder spread in dev-results) + censored gen-1 lifespan
+  retained; scorer V1C verdicts + founders-presence G2 check; fixture-
+  guarded single knob + V1-parity + C-dip-style null-hygiene.
+  Bank test → post-build refusal + read-only checks. Next: single
+  authorized attempt (FINAL chartered mating attempt — closes the line
+  either way).
