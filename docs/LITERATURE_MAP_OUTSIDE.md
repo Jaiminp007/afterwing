@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30, arXiv)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-25 OpenAlex journals/books)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -1019,3 +1019,290 @@ canalization paper 1607.04474, not the LSTM optimizer 1606.04474).
   journals — future mapping there needs a different discipline (reviews
   or textbooks, not live arXiv). Same for EES proper, Der homeokinesis,
   GARD, Waddington, Stearns, Hamilton, Zahavi.
+
+## Round 21 — associative learning canon I: prediction error, blocking, attention, comparison
+
+New discipline (answers round 20's scope-note): OpenAlex live API for
+journals/books/arXiv-alien classics. Two-pass: relevance-ranked search,
+then exact-title second pass; books/chapters with no OpenAlex record are
+cited [canon] with full biblio; critiques preserved where found. The
+classics reframe our floor in one move: our tasteUpdate IS a delta rule,
+our transfer IS a devaluation test, our gain IS Pearce-Hall.
+
+- **Rescorla & Wagner 1972 [canon].** "A theory of Pavlovian
+  conditioning." In Black & Prokasy (Eds.), Classical Conditioning II
+  (Appleton-Century-Crofts). The delta rule: associative change =
+  salience × (outcome − expectation). → Our tasteUpdate is Rescorla-
+  Wagner on 96-dim phi. Fifty years of RW boundary conditions now apply
+  to us wholesale — blocking and overshadowing below are not bugs but
+  PREDICTED phenomena of our architecture. Supporting records: "Equilibria
+  of the Rescorla-Wagner model" (2003, 200 cites, formal analysis) +
+  "The widespread influence of the Rescorla-Wagner model" (1996 review).
+- **Kamin 1967/69.** "Predictability, surprise, attention, and
+  conditioning" (symposium vol., 1485 cites). BLOCKING: prior training
+  of A blocks learning about redundant B in AB compounds. → TOP MOVE:
+  per-channel frozen-weights overshadowing test (zero worlds, NEW data
+  source — rows carry full taste/actor vectors per agent). Map phi dims
+  to cue bits; the prediction is sharp: error concentrates on cues whose
+  flipped bit sits in a low-|weight| channel (learning was blocked by a
+  more salient channel in train). Elemental interference, not rigidity.
+- **Mackintosh 1975 [canon].** "A theory of attention" (Psych Rev).
+  Associability tracks PREDICTIVENESS (good predictors gain attention,
+  poor ones lose it) — fixed by history, changes slowly. → The anti-gain
+  theory: flipped cues lost associability in train and cannot regain it
+  fast. Decides the next intervention: if Mackintosh holds, we need an
+  ASSOCIABILITY-RESET line; if Pearce-Hall holds, keep the gain.
+  Supporting: "Toward a Unified Model of Attention" (2001, 309 cites).
+- **Pearce & Hall 1980 [canon].** "A model for Pavlovian learning"
+  (Psych Rev). Associability tracks SURPRISE/novelty (uncertain outcomes
+  command processing). → We REDISCOVERED Pearce-Hall without knowing it:
+  surprise-gating (V1f–V1i) IS associability ∝ surprise. Frames the
+  deployed instrument as independent validation of a 45-year-old theory
+  and licenses PH's further predictions (e.g., associability should fall
+  as test becomes predictable — check gain-firing decay across segments,
+  read-only). Supporting: PALMS simulator (2026, executable RW/PH models
+  — could cross-check our learner against analytic RW, zero worlds).
+- **Miller & Matzel 1988 [canon].** "The comparator hypothesis"
+  (Psych Learn Motiv 22). Performance = comparison among associations,
+  not readout of one — the learning-vs-performance distinction,
+  formalized 1988. → This IS our critic-vs-actor split with 40 years of
+  precedent: values can be correct while behavior is wrong (comparator
+  output), exactly the BH actor-side hypothesis. Strengthens the
+  specified per-cue-values test. Supporting: "Overshadowing and latent
+  inhibition counteract each other" (1998, 83 cites, comparator
+  support) + "Local context and the comparator hypothesis" (1993).
+- **Pearce 1987 [canon].** "A model for stimulus generalization"
+  (Psych Rev). Configural theory: compounds act as wholes, generalization
+  by similarity. → Our linear learner is ELEMENTAL by construction
+  (sums phi features); Pearce gives the rival ontology. If the
+  overshadowing test (Kamin bullet) comes back positive, elemental wins
+  and the fix is channel reweighting; if negative, configural
+  (unique-cue) coding becomes the licensed architecture change.
+  Supporting: "Summation: assessment of a configural theory" (1997) +
+  "connectionist theory of configural" (2002, 228 cites).
+- **Scope-note misses.** Wagner SOP (1981) unqueried (standard operating
+  procedures — memory-prime theory, would refine the replay-timing
+  question); Couvillon/Bitterman insect-learning canon unmapped.
+
+## Round 22 — extinction canon: context, inhibition, reconsolidation, pre-exposure, spacing
+
+Extinction is not unlearning — a century of evidence the program has been
+rederiving. Every bullet converts a floor observation into a textbook
+phenomenon with a prescribed manipulation.
+
+- **Bouton 2004.** "Context and behavioral processes in extinction"
+  (Learn Mem, 1808 cites; record title has an OpenAlex ": Table 1"
+  artifact). Extinction is CONTEXT-GATED and fragile (renewal,
+  reinstatement, spontaneous recovery); the original memory is never
+  erased. → The transfer floor is EXPECTED under Bouton: test
+  performance = competition between train and test memories, and the
+  "tax" is retrieval failure, not learning failure. Prediction ready
+  to check read-only: return-to-train segments should RESTORE old
+  behavior (renewal) — V1d/V1e seg structures may already contain it.
+  Supporting: Bouton 2006 "Contextual and temporal modulation" (671).
+- **Craske et al. 2014.** "Maximizing exposure therapy: an inhibitory
+  learning approach" (Behav Res Ther, 2337 cites). Extinction = NEW
+  inhibitory learning that competes at retrieval; optimize it by
+  maximizing mismatch (expectancy violation), varying context, dropping
+  safety signals. → Our gain maximizes mismatch (expectancy violation
+  by construction) — Craske validates the instrument AND prescribes
+  the next knobs: context variation during seg1 and safety-signal
+  removal. Clinical-to-ecology translation precedent.
+- **Nader, Schafe & LeDoux 2000.** "Fear memories require protein
+  synthesis in the amygdala for reconsolidation after retrieval"
+  (Nature, 2706 cites). Retrieved memories go LABILE and must
+  reconsolidate; blockade in the window erases. → Our replay
+  REACTIVATES train associations continuously — reconsolidation theory
+  says each reactivation opens a plasticity window our live+replay mix
+  may already exploit, and a replay-SUPPRESSION window post-reactivation
+  is the control experiment that proves it (future line, cheap: gate
+  replay off for N ticks after large-error contacts).
+- **Lubow 1973/76.** Latent inhibition + conditioned attention theory
+  (book; "Latent inhibition and conditioned attention theory" 1976,
+  732 cites). Pre-exposure to a stimulus RETARDS subsequent conditioning
+  to it. → Novel read-only prediction: flip difficulty ∝ train-phase
+  contacts per cue (pre-exposure magnitude). Correlate train contacts
+  with seg1 correctness on frozen rows — if LI holds, the floor is
+  partly train-inflicted and train-duration becomes a knob.
+- **Quirk et al. 2000.** "The role of ventromedial prefrontal cortex
+  in the recovery of extinguished fear" (J Neurosci, 957 cites).
+  Extinction has its OWN circuit (infralimbic), dissociable from the
+  fear circuit. → Anatomical precedent for actor-side: separate
+  extinction machinery that can fail while values are intact. If our
+  per-cue-values test localizes actor-side, Quirk is the biological
+  twin (IL ≈ actor-side plasticity locus).
+- **Urcelay, Wheeler & Miller 2009.** "Spacing extinction trials
+  alleviates renewal and spontaneous recovery" (97 cites). Massed
+  extinction is fragile; spaced persists. → FREE manipulation for a
+  future line: redistribute the same seg1 ticks (spaced encounters)
+  instead of adding ticks — tests whether the floor is a scheduling
+  artifact at zero extra world-cost.
+- **Scope-note misses.** Bouton 1993/2002 ambiguity papers (context
+  canon statements, no clean record hit); Hermans evaluative-conditioning
+  renewal (2019 reinstatement record seen, marginal).
+
+## Round 23 — habit vs goal-directed, devaluation, arbitration, signal detection
+
+The round that renames our floor: a transfer test with flipped valences
+IS an outcome-devaluation test, and devaluation-insensitivity IS habit —
+by the field's own operational definition since 1981.
+
+- **Adams & Dickinson 1981 [canon].** "Instrumental responding
+  following reinforcer devaluation" (QJ Exp Psych 33B:109–121). The
+  paradigm: train action→outcome, DEVALUE the outcome, test in
+  extinction. Insensitivity = habit (S–R); sensitivity = goal-directed
+  (A–O). → Our BH condition (train-benign → test-harmful) is LITERALLY
+  devaluation, and 80% cruising is devaluation-INSENSITIVITY: the BH
+  floor is habitual control by definition. One sentence reframes three
+  turns of forensics — and the prescription is the field's: shift the
+  MB/MF balance (Daw bullet), don't just amplify errors.
+- **Dickinson & Balleine 1994.** "Motivational control of goal-directed
+  action" (Anim Learn Behav, 1005 cites). Canonical A–O vs S–R
+  statement (contingency + value knowledge). → Checklist for our agents:
+  contingency knowledge (do turn rates track cue validity? yes, 0.81) vs
+  value updating (BH: no). Failure localizes to the VALUE arm —
+  converges with the actor-side hypothesis from a second tradition.
+  Supporting: "goal-directed account of action slips" (2022 — "reliance
+  on old contingencies" = our carried policy, in humans).
+- **Daw, Niv & Dayan 2005.** "Uncertainty-based competition between
+  prefrontal and dorsolateral striatal systems" (Nat Neurosci, 2533
+  cites). Model-based/model-free ARBITRATION by uncertainty. → The
+  missing instrument in our architecture: we have no arbitrator (cruise
+  default + greedy threshold). A future line gets its design here —
+  uncertainty-gated switching between carried policy and live values,
+  with Daw's uncertainty signatures as the readout checklist.
+- **Tolman 1948 [canon].** "Cognitive maps in rats and men" (Psych
+  Rev 55:189–208). Latent learning: maps form without reinforcement.
+  → Model-based lineage head for the dream-model project (maps learned
+  off-line, used on-line) — ancestry, not a line. Supporting modern
+  commentary records exist ("Re-Charting," 2024) but the original has
+  no clean OpenAlex record.
+- **Green & Swets 1966 [canon].** Signal Detection Theory and
+  Psychophysics (Wiley). Sensitivity (d′) vs criterion (c) — the
+  FORMAL critic-vs-actor split, 60 years old. → This is the MEASUREMENT
+  framework for the specified actor-side test: report d′ and c per cue
+  separately. Criterion shifts with stable d′ = actor-side, proven in
+  one analysis. Supporting: 1969 operant-behavior review (145 cites) +
+  1967 Science review of the book.
+- **Tricomi, Balleine & O'Doherty 2009.** Dorsolateral striatum in
+  human habit learning (J Neurosci, 769 cites). Habit has a locus
+  (DLS); goal-directed has another (DMS/vmPFC). → Translation
+  precedent (rat→human) for our learner→actor mapping, and a reminder
+  that the dissociation is anatomical, not just computational.
+- **Scope-note misses.** Balleine & Dickinson 1998 (goal-directed
+  follow-up, no clean hit — the 1994 covers it); De Wit & Dickinson
+  2009 (human devaluation, unqueried).
+
+## Round 24 — hippocampal replay canon, sleep functions, prioritization
+
+Replay is not our invention: the hippocampus does it (forward AND
+reverse, awake AND asleep), and the normative theory of WHAT to replay
+was derived independently — converging with our surprise-gating.
+
+- **Wilson & McNaughton 1993 [canon].** "Dynamics of the hippocampal
+  ensemble code for space" (Science 261:1055–1058; record via 1994
+  erratum + "Mismatch correction" 1996, 445 cites). Ensemble
+  reactivation during sleep. → Biological precedent for the replay
+  buffer itself: offline reactivation of waking patterns is conserved
+  machinery, not an ML hack. Our uniform replay = the null biological
+  model (undifferentiated reactivation).
+- **Diba & Buzsaki 2007.** "Forward and reverse hippocampal
+  place-cell sequences during ripples" (Nat Neurosci, 1205 cites).
+  Reverse replay runs BACKWARD from outcome — credit assignment by
+  construction. → NEW OPERATOR (distinct from noisy/dark/downscale):
+  reverse-order replay ( worthy of a future head-to-head: uniform vs
+  reverse vs surprise-prioritized on one bank). Our replay is
+  direction-agnostic; biology isn't.
+- **Karlsson & Frank 2009 [canon].** "Awake replay of remote
+  experiences in the hippocampus" (Neuron). Replay happens DURING
+  behavior, biased to remote/needed experience. → Validates our ONLINE
+  replay (replay interleaved with acting, not just offline) and suggests
+  the remote-bias: replay what's NOT currently encountered (complements
+  live input — the theoretical parent of rarity-prioritization).
+  Supporting: "Task demands predict a dynamic switch in awake replay
+  content" (2017, 129 cites) + "content of hippocampal replay"
+  (2017, 178 cites).
+- **Mattar & Daw 2018.** "Prioritized memory access explains planning
+  and hippocampal replay" (Nat Neurosci, 393 cites). NORMATIVE:
+  replay what maximizes Bellman-error utility (gain + need). →
+  Independent derivation of surprise-gating from first principles: their
+  normative theory and our empirical instrument CONVERGE (prediction-
+  error prioritization). Strongest external validation the deployed
+  instrument has. Also prescribes the missing term: NEED (our gain has
+  surprise but no need — a need-weighted gain is the licensed upgrade).
+- **Diekelmann & Born 2010.** "The memory function of sleep"
+  (Nat Rev Neurosci, 3751 cites). Consolidation canon: sleep replays
+  stabilize declarative/skill memory; same-val retention is the
+  predicted outcome. → Our 0.95 same-val retention MATCHES the
+  consolidation signature — the transfer line preserves what sleep
+  preserves. Positions seg1-test as a (failed) reconsolidation probe.
+- **Tononi & Cirelli 2003/06 [canon].** Synaptic Homeostasis Hypothesis
+  (Soc Neurosci abstr 2003; Sleep Med Rev 2006): sleep = GLOBAL
+  DOWNSCALING preserving relative weights — anti-entrenchment by
+  design. → NEW OPERATOR (fourth): downscaling replay (multiply by
+  <1 per replay pass). Extinction-favoring, distinct from corrupt
+  (noisy), match-outputs (dark), reverse. Head-to-head candidate.
+  Controversy preserved: "Why I Am Not SHY" (Hobson, 34 cites) +
+  "Time to Be SHY?" (Heller, 113 cites) — the hypothesis is contested,
+  use it as an operator, not a truth.
+- **Scope-note misses.** Foster & Wilson 2006 (reverse replay, unqueried
+  — Diba covers it); Girardeau et al. 2009 (ripple disruption impairs
+  memory — causal proof, unqueried).
+
+## Round 25 — foraging/search theory, collective inhibition, honest signaling, grounded metrics
+
+Search, collectives, mating, measurement: one round of formalisms the
+program has been missing (patch-leaving rules, sparse search, quorum
+mechanics, signal honesty, behavioral distance).
+
+- **Charnov 1976 [canon].** "Optimal foraging, the marginal value
+  theorem" (Theor Pop Biol 9:129–136). Leave a patch when marginal
+  intake drops to the environmental average. → THE benchmark our
+  turn/cruise policy lacks: MVT-optimal leaving vs our greedy threshold.
+  The encounter problem (mates, food) is patch-encounter; GUD (giving-up
+  density) is the measurable our rows can approximate. Supporting:
+  hummingbird MVT test (1978, 239 cites) + "Optimal giving-up times"
+  (213 cites).
+- **Vergassola, Villermaux & Shraiman 2007.** "Infotaxis as a strategy
+  for searching without gradients" (Nature, 890 cites). Optimal search
+  for sparse nondirectional cues = maximize expected information gain.
+  → Formalizes the mate-encounter problem (rare, odor-free targets):
+  infotaxis is the optimal policy our random-walk foragers don't
+  implement — bounds how much encounters could improve. Supporting:
+  multi-agent collaborative infotaxis (2019 — the population-track
+  version, when mating reopens).
+- **Seeley et al. 2011.** "Stop signals provide cross inhibition in
+  collective decision-making by honeybee swarms" (Science, 327 cites).
+  Quorum + CROSS-INHIBITION (stop signals against rival sites) prevents
+  stampedes; decision without central control. → THE named herding
+  antidote for V1d's 47/48 stampede: cross-inhibition between options,
+  not just diversity maintenance. Design pattern for the next selection
+  line, with implementability proven in minimal agents: kilobot
+  translation (2024, 12 cites).
+- **Zahavi 1975 [canon].** "Mate selection — a selection for a
+  handicap" (J Theor Biol 53:205–214). Honest signals must be COSTLY
+  (waste is the guarantee). → Designs the channel-4 courtship gate:
+  cheap signals WILL be ignored (predicts Option-A failure mode + fix —
+  make courtship displays energetically costly to be credible). And the
+  round-20 scope-miss is closed (it was journal-side, as predicted).
+  Controversy preserved: "Handicap mechanism does not work" (1986,
+  128 cites) + "erroneous hypothesis" (2019, 111 cites) — contested,
+  use as design constraint, not truth.
+- **Ferns, Panangaden & Precup 2011.** "Bisimulation metrics for
+  continuous MDPs" (SIAM J Control Optim, 100 cites). Behavioral
+  distance: states are close if they imply the same futures. →
+  REPLACES Hamming for the geometry retry (round 21's honest
+  inconclusive): confusability = bisimulation distance under the
+  carried policy, not bit distance. The right metric was in the
+  literature all along.
+- **Andersson 1994 [canon] + Viswanathan et al. 1999 [canon].**
+  Sexual Selection (Princeton, the mate-choice canon) + "Optimizing
+  the success of random searches" (Nature, Lévy-flight optimum).
+  → Revival-rationale pieces for the cold tracks: choice (Andersson —
+  our mating has NO choice; add it) + search (Lévy/Humphries-2012-
+  in-situ 338 cites — our foragers' walk vs optimal sparse search).
+  Supporting: reviews-of-Andersson records + Humphries in-situ test.
+- **Scope-note misses.** Maynard Smith & Szathmáry transitions
+  (individuality canon for RSI definitions, unqueried); Boyd & Richerson
+  dual inheritance (horizontal-transmission line, unqueried); Todorov
+  optimal feedback control (motor track, cold).
