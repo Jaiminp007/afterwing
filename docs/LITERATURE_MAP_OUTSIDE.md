@@ -2768,3 +2768,30 @@ arXiv-friendly fields. This round imports it.
   give the same saddle-node prediction as the Allee round (R57): below critical λ the
   lineage dies a.s. — our spread arm's 3/6 childless histories may BE subcritical
   realizations, not bad luck. Discriminates via λ-dose (multiple hub sizes), not n.
+
+## Round 59 — rendezvous optimality + horizontal transfer (2026-10-31)
+
+Motivation: V1b (replication + time-to-first-mating) is executing; this round banks
+the theory its diagnostic assumes.
+
+- **arXiv:0906.5447v1 + 0912.0670v1.** Symmetric rendezvous search on Kn; Anderson-Weber
+  strategy NOT optimal on K4. → The arXiv anchor for the R58 asymmetric-roles claim:
+  optimal symmetric rendezvous REQUIRES role-breaking (one waits, one searches); the
+  classic AW strategy is optimal only on restricted graphs. Our flies run identical
+  policies (symmetric search) — the theory says this is provably suboptimal vs
+  role-differentiated search. Sex-conditioned policy (unbuilt engine work) is now
+  backed by named theorems, not just intuition.
+- **arXiv:1404.3265v1.** Optimal rendezvous strategies in cognitive radio networks
+  (different environments). → Environment-dependent rendezvous optima: the best meeting
+  strategy VARIES with the environment (topology-dependent). Direct license for the
+  encounter-topology program: spread-optimal and hub-optimal search policies may differ —
+  a future line could test whether hub-evolved searchers beat spread-evolved searchers
+  on the opposite topology (transfer-of-search-policy; distinct from body transfer).
+- **arXiv:1211.1146v1.** Discrete modelling of bacterial conjugation dynamics. →
+  Horizontal transfer as contact process (conjugation = mating without reproduction).
+  Our maternal/copybest modes are vertical-only; conjugation models give the math for a
+  HORIZONTAL transmission mode (peer-to-peer weight sharing on contact) — unbuilt, but
+  now a specified mechanism with a modelling reference if vertical lines exhaust.
+- **Scope-note misses (59).** Mating-cost/longevity trade-offs and sperm-raffle models
+  return nothing on arXiv (journal literature; OpenAlex still 429). Noted, not pursued —
+  no engine knob for mating cost exists, so the literature would be un-actionable.

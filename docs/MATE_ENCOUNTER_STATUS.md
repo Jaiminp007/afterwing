@@ -9,3 +9,14 @@
 - Line CLOSED. Margin +2 (thin, V1b-class — unreplicated). Follow-ups (carry-over, attraction)
   need fresh rationale + frozen plan + fresh bank.
 - Results: `docs/MATE_ENCOUNTER_RESULTS_V1.md`. Cumulative program spend: 7707.
+
+## V1b (CLOSED AS INVALID, 2026-10-31)
+
+- Plan: `docs/MATE_ENCOUNTER_PLAN_V1B.md` (exact replication + time-to-first-mating).
+- Bank fresh-02 (428001–428054); attempt-02: 12 mains / 0 probes / 2.37e9 ops, clean pass.
+- Verdict: **INVALID** (manipulation: hub births 36 vs spread 33, +9%/+3, both prongs fail).
+- G1+G2 true (schema-conformance fixture worked — no correction needed).
+- Descriptive only: gen-2 direction replicated (7 vs 2, larger margin); no first-mating
+  timing shift (medians 245 vs 247.5); hub pays energy cost (mean −36.7 vs −24.6).
+- V1 GO stands UNREPLICATED. Line closed; pooled hub gen-2 12 vs spread 5 recorded.
+- Results: `docs/MATE_ENCOUNTER_RESULTS_V1B.md`. Cumulative program spend: 7719.
