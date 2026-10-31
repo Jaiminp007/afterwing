@@ -193,3 +193,16 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   insufficient; bundle over-narrows. 18 mains, all caps, `redone: []`.
   Cumulative 7608 (+18). Next: V1h gain deployment/confirmation under
   its own frozen plan — not started, no RSI claim.
+- 2026-10-26: Phase-H FROZEN as `docs/TURN_GATE_PLAN_V1H.md` (DESIGN ONLY).
+  Gain deployment + confirmation with compounding: 15 mains (train +
+  uniform gated + gain-only (V1g-identical values, HELD not tuned) +
+  gain-seg2 cumulative-boosted + unlearned) on fresh bank 413001–413054
+  (verified clean pre-freeze, 0 hits; re-verify at build). D1-replication
+  HB(gain)-HB(uniform) >+0.1 expected (same fixed yardstick); D2-
+  compounding (no band, first measurement); D3-deployment reported.
+  Pre-registered stop rule BOTH ways: D1 < +0.1 with fired manipulation
+  CLOSES surprise-replay as non-robust (V1g borderline falsified) →
+  pivot to non-replay mechanisms, no further escalation without new
+  rationale. Gain-seg2 void-with-seg1-fired noted as informative.
+  Pair-2-zero heterogeneity re-examined (reported, not gated). Next:
+  implement, then single attempt.
