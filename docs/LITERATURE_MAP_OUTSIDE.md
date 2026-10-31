@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-25 OpenAlex journals/books)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-30 OpenAlex journals/books)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -1306,3 +1306,243 @@ mechanics, signal honesty, behavioral distance).
   (individuality canon for RSI definitions, unqueried); Boyd & Richerson
   dual inheritance (horizontal-transmission line, unqueried); Todorov
   optimal feedback control (motor track, cold).
+
+## Round 26 — action and body: the actor-side canon (active inference, somatic markers, allostasis)
+
+The VALUE-PROBE verdict (values 1.0, behavior 0.09) is a problem the
+field has owned for decades: how actions follow (or ignore) values.
+This round is the actor's library.
+
+- **Friston 2010.** "The free-energy principle: a unified brain
+  theory?" (Nat Rev Neurosci, 8087 cites). Action as inference:
+  policies minimize EXPECTED free energy (pragmatic + epistemic
+  value). → Our threshold implements a degenerate policy (fixed .5 +
+  cruise prior, no epistemics). Friston gives the FORMAL actor-side:
+  replace the greedy threshold with EFE policy selection; turn becomes
+  information-seeking where values are uncertain (BH cues!) and
+  pragmatic where certain. Future instrument, fully specified by the
+  theory.
+- **Parr, Pezzulo & Friston 2022.** "Active Inference" (MIT Press
+  tutorial papers, 246 cites). Implementable active inference (generative
+  model + EFE + pymdp-style updates). → The HOW for the Friston bullet:
+  a discrete-state active-inference agent on our 12-cue codebook is a
+  weekend build once the line freezes — no new math required.
+- **Damasio 1994 [canon].** Descartes' Error (Putnam). Somatic marker:
+  bodily states bias decisions before reason concludes. → Our actor
+  ignores the body (threshold fixed while energy swings −20 to −60).
+  Design: energy-gated threshold (somatic marker as a number — turn
+  criterion falls as reserves fall? or rises?). Supporting: origin-of-
+  markers record + German review of the book (proof of canon).
+- **Sterling & Eyer 1988 / McEwen tradition [canon + record].**
+  Allostasis (predictive regulation) vs homeostasis (reactive).
+  Supporting: "Allostasis, Homeostats, and the Nature of Stress"
+  (2002, 373 cites). → Frames BH failure as missing ALLOSTASIS: our
+  agents turn only AFTER harm (reactive); allostatic agents turn BEFORE
+  (predicted). Licensed read-only analytic (specified): turn timing vs
+  first-harm-contact per BH cue on frozen rows — anticipation test.
+- **Seth 2013.** "Interoceptive inference, emotion, and the embodied
+  self" (Trends Cogn Sci, 1816 cites) + 2014 homeostasis/decision
+  follow-up. Valuation OF the body (interoceptive prediction errors as
+  feelings that guide choice). → Our critic is taste-only; Seth says
+  add the interoceptive channel (energy-trajectory value). The actor
+  would then have TWO value streams — the BH block might be their
+  conflict (taste says harm, body says "still rich"), testable once
+  per-cue values log both.
+- **Clark 2013.** "Whatever next? Predictive brains, situated agents"
+  (Behav Brain Sci, 5925 cites). The predictive-processing manifesto.
+  → Positions our delta-rule learner inside the PP tradition (ancestor,
+  not rival) and imports its open problems (precision-weighting =
+  gain by another name — our surprise-gating is precision dynamics!).
+
+## Round 27 — modulation: cue-gated replay, arousal law, plasticity brakes, loss
+
+What turns learning up/down/off — and the number for our asymmetry.
+
+- **Rasch et al. 2007 [canon].** Odor cues during slow-wave sleep
+  prompt declarative consolidation (Science). Cue-triggered replay:
+  REPLAY WHAT'S CUED. → Alternative prioritization operator (fifth,
+  alongside uniform/noisy/dark/downscale/reverse): cue-gated replay —
+  present cue X, replay X-records. Our cues ARE odors; translation is
+direct. Supporting: odor-cueing-during-SWS review (2013) + 2017 odor-
+  cueing study (cueing works independently of sleep stage — gating by
+  cue, not state).
+- **Yerkes & Dodson 1908 [canon].** Rapidity of habit formation vs
+  stimulus strength (J Comp Neurol Psych). Inverted-U arousal:
+  performance rises then FALLS with drive. → Our gain is monotonic;
+  YD says fit the inverted-U to the gain-dose data (V1g already records
+  overdose readings — the program measures YD without naming it).
+  Read-only, specified: dose-response curve over frozen gain arms.
+- **Bavelier et al. 2010.** "Removing brakes on adult brain
+  plasticity" (J Neurosci, 589 cites). Brakes (inhibition, perineuronal
+  nets, epigenetic) accumulate and must be LIFTED — distinct from
+  excitation. → The floor as EXCESS BRAKING: train-phase inhibition
+  accumulates (LI-like!) and gain shouts over it instead of releasing
+  it. New intervention family: brake-lifting (disinhibition) vs gain
+  (excitation) — mechanistically different, head-to-head-able.
+- **Hensch 2005 [canon].** Critical-period plasticity in local cortical
+  circuits (Nat Rev Neurosci). Sensitive periods are GATED windows
+  (open/close by molecular brakes). → Our phases are arbitrary tick
+  counts (1792); Hensch asks whether train/test should align to
+  plasticity windows (open on novelty, close on consolidation) — phase
+  design becomes a variable, not a constant.
+- **Kahneman & Tversky 1979 [canon].** Prospect theory (Econometrica).
+  Losses loom larger than gains (λ≈2). → QUANTIFIES the negativity-bias
+  unification (prior-strength doc): measure λ on frozen rows as the
+  harm-update/benign-update magnitude ratio. The asymmetry gets a
+  number and a 45-year-old name. Supporting: neural prospect theory
+  (2005, 404 cites) + large-scale replication (2020, 327 — the effect
+  is real).
+- **Walker (and Stickgold) 2005.** Sleep-dependent consolidation review
+  (1854 cites) + system-consolidation follow-up. → Second-lab consensus
+  behind Diekelmann (round 24): sleep preserves what was learned (our
+  0.95 same-val retention, again). Consolidation is now triple-sourced.
+
+## Round 28 — evolvability: can weight-inheritance ever compound?
+
+The mating line's deepest question (round 19's flag: if the map is
+rugged, point mutations stall). This round answers when they don't.
+
+- **Hinton & Nowlan 1987 [canon].** "How learning can guide evolution"
+  (Complex Systems). Needle-in-haystack + learning smooths the fitness
+  landscape → evolution finds what search cannot. → THE computational
+  Baldwin demo — our BALDWIN line rederived it uncited. Compare now:
+  their smoothing result vs our return-A floor (0 ticks) — did we fail
+  where they succeeded, and is the difference the landscape (needle)
+  or the learner? Supporting: 2024 commentary + [Re] reproduction
+  records (proof + reproducibility).
+- **Crispo 2007 [canon].** Baldwin effect / genetic assimilation
+  conditions (Am Nat). Assimilation needs selection on the learned
+  trait + heritable variation. → Explains V1's exact-copy null from
+  theory: one-generation windows provide neither (no selection
+  differential on transmitted weights, no variation) — the null was
+  OVERDETERMINED. Assimilation bar for any revival: multi-generation
+  selection + standing variation, both absent to date. Supporting:
+  2017 assimilation review (64 cites) + canalization reassessment.
+- **Wagner / Ciliberti GRN canon [canon + records].** Vast neutral
+  networks in regulatory maps (robustness → drift → innovation).
+  Supporting: "Evolution of evolvability in GRNs" (2008, 256 cites).
+  → Answers round 19: point mutations stall on RUGGED maps but FLOW on
+  neutral-rich ones. Prescription for mating revival: measure the
+  NEUTRAL FRACTION of our weight→behavior map first (phenotypic
+  neighborhood sampling on frozen weights, read-only, specified) — if
+  high, drift works and V1b's σ was simply too small a step.
+- **Maynard Smith & Szathmáry 1995 [canon].** Major Transitions
+  (Oxford). New inheritance channels at each transition (genes →
+  epigenetics → language). → Thesis framing: our program adds channels
+  one at a time (vertical done; horizontal next per Boyd, round 30) —
+  that IS life's own sequence. Supporting: Revisited volume (2011,
+  221 cites) + contemporary book review (proof of 1995 canon).
+- **Via / plasticity-costs tradition.** Reaction-norm evolution under
+  costs and limits. Supporting: 1987 heterogeneity paper (252 cites)
+  + "Constraints on the evolution of phenotypic plasticity" (2015,
+  691 cites — the costs canon). → Transmission fidelity has COSTS we
+  never modeled (exact copy is free; noisy copy was free too). Design
+  axis for revival: costly fidelity (pay per bit?) — selection then
+  tunes the rate instead of us guessing σ=0.05.
+- **Scope-note misses.** Drake 1991 (mutation-rate evolution —
+  transmissionNoise's σ has a literature, unqueried); Simpson 1953
+  (Baldwin canon statement, unqueried — Hinton covers the mechanism).
+
+## Round 29 — collective search, origins, minimal agents (quorum, stigmergy, swarms, lipid worlds)
+
+How collectives coordinate without central control, what inheritance
+looked like before genomes, and proof minimal evolved agents surprise.
+
+- **Segrè, Ben-Eli & Lancet 2001.** "The Lipid World" (Orig Life
+  Evol Biosph, 618 cites). Compositional inheritance: noisy,
+  collective, genome-free — and SELECTABLE in simulation. → The
+  counterexample to "exact copy required": GARD systems evolve with
+  noisy compositional transmission. Direct attack on the mating null:
+  inherit a SET/distribution (composition), not a vector (exact
+  weights). Supporting: 20-year retrospective (2019 — the program is
+  alive).
+- **Hordijk (and Steel) 2004 [canon] + 2010 review.** Autocatalytic
+  (RAF) sets: formal detection algorithms for closure (J Theor Biol
+  2004; "Autocatalytic Sets and the Origin of Life" 2010, 166 cites).
+  → Closure detection as a MEASURE: run RAF detection on the frozen
+  agent+ecology interaction graph — is our system reflexively
+  autocatalytic? Outside-the-box autonomy metric for VISION (specified,
+  not executed).
+- **Kriegman et al. 2020 [canon].** Computer-designed Xenobots (PNAS).
+  Evolved morphology + emergent behavior in minimal agents (cilia-less
+  locomotion nobody designed). → Proof minimal evolved agents surprise
+  their designers — our founders are comparably minimal. The sim→real
+  pipeline is the dream-model analog in another substrate. Supporting:
+  ethics/applications review (the discussion exists, engage it before
+  any real-world step).
+- **Miller & Bassler 2001 [canon].** Quorum-sensing review (Annu Rev
+  Microbiol). Density-dependent gene regulation: bacteria SOLVE density
+  by coordinating (light, virulence, sporulation switch on quorum).
+  → MATE-DENSE backfired at 3× because our agents can't sense density.
+  Design: quorum switch (density-gated behavior — disperse/forage-shift
+  above threshold) for the next density line. Supporting: bench-to-
+  bedside + yeast QS reviews (mechanism breadth).
+- **Theraulaz & Bonabeau 1999 [canon].** Stigmergy review (Artificial
+  Life). Coordination via environment modification (termite pillars,
+  ant trails). → Food depletion IS a stigmergic channel our agents
+  already WRITE (eat) but never READ. Design: depletion-gradient
+  sensing (follow/avoid grazed patches) — new sensory channel, zero new
+  physics.
+- **Kennedy & Eberhart 1995 [canon].** Particle swarm optimization
+  (Proc IEEE ICNN). Velocity + personal/global bests; diversity via
+  topology. → Optimizer zoo for selection lines: PSO's diversity
+  mechanics (neighborhood topologies prevent stampedes!) vs V1d's 47/48
+  herding — GBest/LBest as the named alternative to archive-QD.
+  Supporting: highly-cited optimizer records (the zoo is real).
+- **Scope-note misses.** Dorigo ACO (1996 thesis — pheromone optimization,
+  unqueried; PSO covers the zoo); Kauffman 1993 Origins of Order
+  (canon, unqueried — RAF covers the formalism).
+
+## Round 30 — mating ecology, inheritance channels, thesis metrics (Trivers to Rosen)
+
+The revival-rationale shelf for the cold tracks, plus the number VISION
+is missing (selection's information gain) and the definition it needs
+(closure).
+
+- **Trivers 1972 [canon].** Parental investment and sexual selection
+  (in Campbell (Ed.), Sexual Selection and the Descent of Man).
+  Investment asymmetry → operational sex ratio → competition/choosiness.
+  → Our mating has ZERO asymmetry (all founders 65.0, courtship free)
+  → predicts NO selectivity (matches: random attempts). Design: costly
+  courtship (Zahavi, round 25) + differential allocation to CREATE the
+  asymmetry that creates choice. Supporting: modern Trivers-theory
+  records (the canon is taught, not buried).
+- **Emlen & Oring 1977 [canon].** Mating-systems ecology (Science).
+  Resource distribution → mating system (uniform → scramble; clumped →
+  harems/territories). → Our uniform food predicts scramble (matches).
+  Testable: clumped-food regime → territorial mating structure (a
+designed ecology experiment, not a tweak). Supporting: Lande 1980
+  polygenic dimorphism review (1887 cites — the G-matrix machinery for
+  the inheritance track: genetic covariances our weight-copying lacks).
+- **Odling-Smee, Laland & Feldman 2003 [canon].** Niche Construction
+  (Oxford). Ecological inheritance: modified environments persist
+  across generations. → Our worlds RESET per generation (no ecological
+  inheritance). Design: carry-over worlds (depleted/structured persists
+  → newborns inherit the niche + the weights — two channels, one
+  experiment). Supporting: Monographs in Population Biology review
+  record.
+- **Boyd & Richerson 1985 [canon].** Culture and the Evolutionary
+  Process (Chicago). Dual inheritance: genetic + cultural channels with
+  distinct dynamics (conformity, prestige, horizontal spread). → Our
+  transmission is vertical-only; the mate encounter could carry
+  BEHAVIOR (copy the living), not just weights (copy the dead) —
+  horizontal/oblique channel, faster than genetic, testable against
+  vertical in one design. Supporting: contemporary reviews (proof).
+- **Frank 2008/09.** "Natural selection maximizes Fisher information"
+  (J Evol Biol, 156 cites). Selection = information accumulation with
+  a rate. → THE thesis metric: bounded RSI = accelerating Fisher-
+  information gain per selection event. VISION's success criterion
+  stops being prose and starts being a number — measure it per line,
+  retrospectively first (frozen rows have the distributions).
+- **Rosen 1991 [canon].** Life Itself (Columbia). (M,R)-systems:
+  closure to efficient causation — an agent is CLOSED (every catalyst
+  made within). → FORMAL autonomy for VISION's "autonomous": test
+  our TasteExperiment+world for closure (with the RAF check, round 29 —
+  two independent formalisms, same question). Supporting: closure-
+  simulation + biosemiotics-defense records (the formalism is worked,
+  not poetry).
+- **Scope-note misses.** Gibson 1979 / Lee 1976 tau (direct perception —
+  motor track cold); Todorov OFC / Harris–Wolpert signal-noise (motor
+  canon — cold); Cronin assembly theory (controversial, unqueried);
+  Nowak cooperation rules (multi-agent futures); Haig imprinting
+  (conflict theory, distant).
