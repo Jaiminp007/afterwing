@@ -70,6 +70,13 @@ weights, no vertical transmission anywhere).
   per-arm founder spread in dev-results) + censored gen-1 lifespan
   retained; scorer V1C verdicts + founders-presence G2 check; fixture-
   guarded single knob + V1-parity + C-dip-style null-hygiene.
-  Bank test → post-build refusal + read-only checks. Next: single
-  authorized attempt (FINAL chartered mating attempt — closes the line
-  either way).
+  Bank test → post-build refusal + read-only checks.
+- 2026-10-26: Phase-C EXECUTED → **MATE-INHERIT-NOGO-V1C (edge does
+  not replicate; LINE CLOSED as unconfirmed)**. G1 12/12 exact ledger
+  (12/0/21504/516096/2.36e9); G2 audit pass (incl. founders-present
+  check); exact gen-2 = 3 vs mutant gen-2 = 1 → NOGO (bar needs mutant
+  ≥2 AND > exact). Per-seed: exact 428x1 + 046x2 (2 seeds spread +
+  first gen-3 [founder 17], max gen 3); mutant 028x1 only. Pooled
+  V1b+V1c: mutant 4 vs exact 5 on 24 mains — no effect; V1b excess
+  was one seed (416046). No V1d licensed. Cumulative 7638 (+12
+  ledgered; per-line authoritative). LINE CLOSED.
