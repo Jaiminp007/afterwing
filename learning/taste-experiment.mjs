@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {World} from '../engine.mjs';
+import {World,RNG} from '../engine.mjs';
 import {digest} from './intervention-study.mjs';
 import {CONTINUAL_PHASES,enterContinualPhase,updateContinualResources} from './continual-regimes.mjs';
 import {makeCueCodebook,enterCuePhase,updateCueResources} from './cue-foraging.mjs';
@@ -33,6 +33,8 @@ export function schedWindowOpen(arm,tickInPhase,phaseLen){
 // enabled (default off = unchanged). Plain-JS bookkeeping (unbilled).
 export function syncNewbornLearners(run){
   let created=0;
+  const tNoise=run.transmissionNoise??null;
+  const hseed=(run.history&&Number.isInteger(run.history.seed))?run.history.seed:1;
   for(const f of run.world.flies){
     if(run.learners[f.id]!==undefined)continue;
     let s;
@@ -45,7 +47,8 @@ export function syncNewbornLearners(run){
     }
     s.lastObservedTick=run.world.tick;
     if(s.credit)s.credit.tick=s.lastObservedTick;
-    if(run.verticalTransmission==='maternal'){const src=run.learners[f.parents[0]];if(src&&src.weights&&Array.isArray(src.weights.taste)){s.weights.taste=src.weights.taste.slice();if(Array.isArray(src.weights.actor))s.weights.actor=src.weights.actor.slice();if(Array.isArray(src.weights.critic))s.weights.critic=src.weights.critic.slice();}}
+    if(run.verticalTransmission==='maternal'){const src=run.learners[f.parents[0]];if(src&&src.weights&&Array.isArray(src.weights.taste)){s.weights.taste=src.weights.taste.slice();if(Array.isArray(src.weights.actor))s.weights.actor=src.weights.actor.slice();if(Array.isArray(src.weights.critic))s.weights.critic=src.weights.critic.slice();
+      if(tNoise!==null&&tNoise>0){const mrng=new RNG((hseed^Math.imul(f.id,2654435761))>>>0||1);let n=0;for(const k of ['taste','actor','critic']){const w=s.weights[k];if(!Array.isArray(w))continue;for(let i=0;i<w.length;i++){w[i]+=tNoise*mrng.normal();n++;}}s.work.scalarOperations+=n;}}}
     run.learners[f.id]=s;created++;
   }
   return created;
@@ -57,12 +60,12 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
   work:{scalarOperations:0,liveUpdates:0,replayUpdates:0},charge:{operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0}});
 
 export class TasteExperiment{
-  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null}){
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));
+  constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null}){
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
-    this.cruiseSpeed=cruiseSpeed;this.body=body;this.reproduction=reproduction;this.verticalTransmission=verticalTransmission;
+    this.cruiseSpeed=cruiseSpeed;this.body=body;this.reproduction=reproduction;this.verticalTransmission=verticalTransmission;this.transmissionNoise=transmissionNoise;
     this.history=structuredClone(history);this.arm=arm;this.program=fixed(arm)?'fixed':'taste';this.reference=structuredClone(reference);this.pricing={...pricing};this.learnerOptions={...learnerOptions};
     this.world=new World({seed:history.seed,founders:reference.founders,capacity:240,reproduction:reproduction,matingActionRequired:matingActionRequired,matingEnergyBar:matingEnergyBar,verticalTransmission:verticalTransmission,mutation:false,learning:false,controller:'episodic-actor',
       actorParameters:reference.actorParameters,episodicParameters:{...reference.parameters,actuator:'move',memoryLearning:false,neuralLearning:false},

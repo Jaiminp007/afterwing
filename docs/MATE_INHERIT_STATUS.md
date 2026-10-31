@@ -31,3 +31,13 @@ weights, no vertical transmission anywhere).
   analogue (no auto-escalation; deleterious direction reported).
   Descriptive maxGeneration/gen-3+/gen-1-lifespan (censored) for V1c
   design. No RSI claim (GO licenses V1c selection, not an advance).
+- 2026-10-26: Phase-B IMPLEMENTED (`scripts/mate-inherit-v1b.mjs` +
+  `tests/mate-inherit-v1b.test.mjs` 8/8 green; triage clean (engine
+  null-default verified behavior-identical); bank
+  `evidence/mate-inherit-dev/fresh-02/` built 416001–416054
+  post-fixtures). Engine: transmissionNoise plumbing (null default +
+  per-newborn seeded RNG + billed ops; V1's exact-copy path untouched).
+  Fixtures: scorer GO/NOGO/INCOMPLETE-NOMUTANTS/INVALID incl. totals-
+  null; generation summarizer + censored lifespan; V1-parity; options-
+  contrast (single knob). Bank test → post-build refusal + read-only
+  checks. Next: single authorized attempt.
