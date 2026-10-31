@@ -870,3 +870,44 @@ with a covering entry). Rule working.
   fitness, Zahavi signaling, Waddington assimilation, Stearns life
   history — journal-side or noise. Hoel proper enters via the dreams
   paper, not the monograph.
+
+## Round 18 — planning as inference, progressive retention, small-population genetics
+
+One duplicate caught pre-write (1706.02556 surprise search — already
+mapped with a covering entry that anticipates the surprise-machinery
+point). Rule working (5th catch).
+
+- **Control as inference (1805.00909).** Levine: RL/optimal control
+  reformulated as probabilistic inference (tutorial + review). → The
+  framework that states WHEN greedy is optimal: planning-as-inference
+  with exact posteriors vs approximations. Our FEH result (greedy 0.5
+  wins under uncertain precision) is an instance — the tutorial gives
+  the conditions to check rather than re-derive. Licensed: write our
+  turn policy as the inference it approximates and name the gap
+  (design note, zero worlds).
+- **Progressive networks (1606.04671).** Rusu et al.: freeze old columns,
+  add new ones with lateral connections — immune to forgetting, transfer
+  via reuse. → The architecture our transplant ALREADY resembles
+  (frozen train weights transplanted into a fresh agent that keeps
+  learning). The difference: progressive nets GROW columns; we OVERWRITE
+  one set. The design space between them (freeze + transplant + grow?)
+  is now statable. Licensed: a freeze-plus-grow variant as a future
+  retention architecture (not a line yet).
+- **Muller's ratchet rate (1206.6782).** Neher: the fittest class is lost
+  by rare fluctuations; quantitative rate of the clicks. → Small-population
+  genetics for our N=24 lines: asexual founders accumulate load by
+  fluctuation, not just selection. Formalizes WHY the mating track
+  matters beyond encounters — recombination is the ratchet escape.
+  Licensed: track fittest-class loss across generations in the mating
+  line once inherited variation exists (measurement spec, not started).
+- **Small-noise ratchet (2606.15842).** Heinzel: Fleming-Viot SDE
+  approximation with explicit fluctuation-size parameter. → The
+  quantitative regime complement to Neher: WHEN does the ratchet click
+  fast vs slow as a function of fluctuation size? Our founders are few
+  and noisy — this is the parameter regime that decides whether a
+  lineage degrades within our experimental horizons. Same license as
+  above (one measurement spec, two papers).
+- **Scope-note misses.** Der homeokinesis proper, Ay predictive
+  information, GARD compositional inheritance, Waddington assimilation,
+  Stearns life history, Hamilton inclusive fitness, Zahavi signaling —
+  journal-side or noise. Surprise search correctly excluded (mapped).
