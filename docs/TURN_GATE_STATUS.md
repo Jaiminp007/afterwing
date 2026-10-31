@@ -231,3 +231,16 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   this bank: 0.24 vs 0.41 — replication across difficulty). Next: V1i
   gain-seg2 vs uniform-seg2 (clean interaction test), then CLOSE the
   transfer arc as answered — not started, no RSI claim.
+- 2026-10-26: Phase-I FROZEN as `docs/TURN_GATE_PLAN_V1I.md` (DESIGN ONLY;
+  FINAL chartered transfer experiment — line CLOSES after V1i's verdict).
+  Boost×exposure interaction at matched 2x: 18 mains (train + uniform
+  seg1 gated + uniform seg2 + gain seg1 + gain-seg2 + unlearned) on fresh
+  bank 414001–414054 (verified clean pre-freeze, 0 hits; re-verify at
+  build; gain values HELD-identical to V1g/V1h). D0-replication (>+0.1,
+  3rd measurement) + E1-interaction (>+0.1, headline, exposure-matched)
+  + E2/E3 trajectory replications (no band, contextual) + per-arm VOID
+  (seg2-void-with-seg1-fired informative) + null-hygiene INVALID.
+  Pre-registered outcomes: E1>+0.1 deploys boost at 2x; E1≈0 bounds it
+  to 1x acceleration; E1<−0.1 cautions (late overdose); any VOID leaves
+  that comparison unanswered. No V1j licensed. Next: implement, then
+  single attempt.
