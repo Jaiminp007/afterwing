@@ -3000,3 +3000,29 @@ design. The external literature now names what the program has been doing.
   what the frozen-gate discipline already enforces (pre-registration > optimal
   blocking at our n). Ideal-despotic/resource-defense conjunctions return nothing on
   arXiv (journal literature; Emlen-Oring stays canon-cited).
+
+## Round 68 — the policy as a rate-distortion point (for MAXENT's 0.5753 bits; 2026-11-02)
+
+Motivation: MAXENT-V1 measured 0.5753 bits/contact (58% of ceiling). This round
+identifies what that number IS in the outside literature.
+
+- **Information-theoretic bounded rationality (arXiv:1511.01710v1 parametric priors;
+  2607.12412v1 bounded agent as information channel; 2606.09858v1 action-sufficient
+  compression).** Bounded rationality = rate-distortion: the policy is a channel with
+  capacity cost (relative entropy from the prior/marginal), and behavior sits on the
+  rate-utility frontier. → Our 0.5753 bits is a RATE-DISTORTION POINT: the learned
+  policy pays ~0.58 bits/contact of channel capacity for its 0.87/0.05 split; the
+  MaxEnt null pays 0 and gets the marginal. The 42% gap is DISTORTION the policy
+  accepts (or cannot afford to remove). Pre-registered lens (not a gate): future
+  policy changes (gain, brakes, capacity) should move this point ALONG the frontier
+  (more bits + more return) — a change that spends bits without return is pure
+  capacity waste; a change that gains return without bits is free distortion reduction.
+- **Information bottleneck (arXiv:2004.11935v1 variational bandwidth bottleneck;
+  2210.14861v1 bottleneck principle; 2507.04388v1/2310.19906v1/2001.00396v4
+  attribution bottlenecks).** IB = minimal sufficient compression of input for output.
+  → The normative counterpart to our measured rate: the MINIMAL bits a turn policy
+  needs for a given return. Our 0.58 bits is an upper bound on the necessary rate
+  (greedy may waste capacity); the IB frontier would say how much is sufficient.
+  Specified, not executed: IB-frontier probe on frozen rows needs its own plan.
+- **Scope-note.** Wireless-sensing rate-distortion (2303.11857v2) and moral-geometry
+  (2501.08865v1) are adjacent, not actionable; logged, not pursued.
