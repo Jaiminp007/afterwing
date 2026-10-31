@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon + rounds 46-50 canon (429-limited throughout later rounds))
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-45 OpenAlex/canon + rounds 46-55 all-canon (429 throughout))
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -2478,3 +2478,215 @@ before genes, and whether systems poise at criticality.
   Lovelock Gaia (planetary, premature); Seager-style astrobiology
   (no bodies off Earth yet); WBE network mechanisms (beyond
   scaling).
+
+## Rounds 51-55 — insect cognition, collective estimation, mushroom-body/olfaction canon, wildcards
+
+## Rounds 51-55 — insect cognition, collective estimation, mushroom-body/olfaction canon, wildcards
+
+Method note: OpenAlex shared-IP budget still exhausted (429 on probe).
+All 30 entries [canon] with full biblio; verification deferred. These
+rounds target the organism our agents imitate (insects), the collectives
+they may join, the brain they copy, the noses they use — and five
+genuinely outside-the-box picks.
+
+## Round 51 — insect cognition and teaching (mini-brains, navigation, social insects)
+
+Our agents are fly-scale; insect neuroscience is their operating manual.
+
+- **Chittka & Niven 2009 [canon].** "Are bigger brains better?"
+  (Curr Biol 19:R995–R1008). Mini-brains achieve sophisticated
+  cognition (numerosity, concepts, learning) with <1M neurons.
+  → Our 16-dim learner is not embarrassingly small — it is
+  insect-plausible. Design constraint in reverse: if insects do it
+  with this much, our failures are architectural, not size-driven.
+- **Menzel & Giurfa 2006 [canon].** "Cognitive architecture of a
+  mini-brain" (Curr Opin Neurobiol — the honeybee). Maps, concepts,
+  communication in an insect brain. → Functional checklist our agents
+  fail most of (no map, no communication, impoverished concepts) —
+  prioritizes WHAT to add next (map first: Tolman round 23 meets the
+  bee).
+- **Srinivasan and colleagues 1996-2000 [canon].** Honeybee visual
+  odometry (Science 1996; 2000). Optic-flow integration for distance;
+  waggle-dance calibration. → Path integration WITHOUT a map
+  (dead reckoning from flow) — the cruise controller our agents
+  lack (they integrate nothing; every tick is a fresh start).
+  Specified: integrate a path accumulator (even a leaky one).
+- **Leadbeater & Chittick 2007 [canon].** "Social learning: from
+  insects to humans" (Phil Trans R Soc B). Insects socially learn
+  (flower choice, routes). → Social learning does NOT require big
+  brains — removes the last excuse for asocial agents; even our
+  minimal agents should copy (copy-successful is insect-plausible).
+- **Thornton & Raihani 2008 [canon].** "The evolution of teaching"
+  (Anim Behav 75:1823–1836). Teaching defined operationally
+  (costly, feedback-sensitive, accelerates pupil learning).
+  → The maternal-transmission line, upgraded: mothers should TEACH
+  (costly, feedback-gated transfer), not just copy weights —
+  distinguishes V1 (dump) from a teaching design.
+- **Hoppitt & Laland 2013 [canon].** Social Learning: An
+  Introduction to Mechanisms, Methods, and Models (Princeton).
+  The methods book (diffusion analysis, option-bias, network-based
+  diffusion). → HOW to measure social learning when we add it —
+  adopt NBDA now, before the first social line runs, so claims are
+  pre-registered measurable.
+
+## Round 52 — collective estimation and emergence (crowds, quorums, sensing together)
+
+When groups know more than members — and when copying destroys the
+advantage (directly relevant to V1d's herding).
+
+- **Galton 1907 [canon].** "Vox populi" (Nature 75:450–451). The
+  ox-weight contest: median guess near-perfect. → The founding
+  demo that diversity + aggregation beats experts. Our QD archive
+  is a vox-populi machine (elites vote); V1d's stampede is vox
+  populi destroyed (no diversity left to aggregate).
+- **Surowiecki 2004 [canon].** The Wisdom of Crowds (Doubleday).
+  Diversity + independence + decentralization + aggregation. →
+  The four conditions as an ARCHITECTURE CHECKLIST: our lines have
+  aggregation (means) but kill independence (herding) — the book
+  diagnoses V1d in one paragraph (violate independence, lose the
+  wisdom).
+- **Lorenz et al. 2011 [canon].** "How social influence can
+  undermine the wisdom of crowds" (PNAS 108:9020–9025). Social
+  information shrinks diversity WITHOUT improving the mean (range
+  reduction + herding). → EMPIRICAL V1d: copying concentrates
+  estimates around a possibly-wrong point. Prescription with a
+  number: keep estimates independent until aggregation time
+  (parallel arms must not see each other mid-run — they currently
+  don't; keep it that way deliberately).
+- **Kao & Couzin 2014 [canon].** Collective decision accuracy
+  (Proc Roy Soc B). Accuracy from pooled noisy estimates in
+  complex environments. → The math for WHEN collectives help
+  (uncorrelated noise + enough members) — our founders' noise may
+  be correlated (same ecology) which kills the benefit; test
+  noise-correlation before assuming collectives help.
+- **Sumpter 2010 [canon].** Collective Animal Behaviour (Princeton).
+  Principles from ants to humans (self-organization, leadership,
+  unanimity vs majority). → The textbook to replace ad-hoc
+  collective intuitions; pairs with Seeley (mechanism) and Conradt
+  (costs) as the complete shelf.
+- **Berdahl et al. 2013 [canon].** "Emergent sensing of complex
+  environments by mobile animal groups" (Science 339:574–576).
+  Schools sense gradients no individual can (collective computation
+  via movement). → EMERGENT SENSING: a future collective could
+  perceive what no agent can — the strongest justification for
+  multi-agent runs (not redundancy: new senses).
+
+## Round 53 — mushroom-body and olfaction canon (the brain we copied, the nose we use)
+
+Our learner is literally named mushroom-body in code; our cues are
+odors. Time to read the source material.
+
+- **Heisenberg 2003 [canon].** "Mushroom body memoir" (Nat Rev
+  Neurosci 4:266–275). Fifty years of fly learning and the
+  structure that runs it. → The biological spec sheet: our 16-dim
+  linear learner vs the real sparse-coding + dopaminergic circuit —
+  the gap list IS the architecture roadmap (sparsity first).
+- **Aso et al. 2014 [canon].** Dopaminergic mushroom-body circuits
+  (eLife 3:e04580). 21 MBON types, compartment-specific valence.
+  → Real valence is COMPUTED per-compartment (not one scalar like
+  ours); the actor-critic split has an anatomical address
+  (MBONs ≈ actor, DANs ≈ critic-teacher). Validates the split and
+  complicates it (21 channels, not 2).
+- **Scheffer et al. 2020 [canon].** Hemibrain connectome (eLife 9:
+  e57443). 25,000 neurons traced. → The ground truth our
+  architecture gestures at; any claim of the form "agents can't"
+  is now checkable against what flies DO with known wiring.
+  (Use as existence proof, not blueprint.)
+- **Buck & Axel 1991 [canon].** Odorant receptors (Cell 65:175–187;
+  Nobel 2004). ~1000 receptor types, combinatorial coding.
+  → Our 4-bit cues are a 16th of a percent of real olfactory
+  dimensionality; the Umwelt point (round 32) quantified. Enrich
+  cues before blaming the learner — now with the receptor count
+  attached.
+- **Friedrich & Laurent 2001 [canon].** Dynamic odor
+  representations (Science 291:889–894). Decorrelation over time:
+  representations sharpen with exposure. → Temporal dimension our
+  frozen cues lack (patterns are static); real olfaction LEARNS
+  the representation itself (contrast with our fixed phi).
+  Representation-learning line, specified.
+- **Keene & Waddell 2007 [canon].** Drosophila olfactory memory
+  review (Nat Rev Neurosci 8:341–354). Short/middle/long-term phases
+  (ARM, LTM, CREB-dependent consolidation). → Our single-timescale
+  learner vs three biological phases; BALDWIN's consolidationRate
+  was reaching for LTM without ARM in between. Three timescales
+  specified (fast/middle/slow weights).
+
+## Round 54 — wildcards I (physics of purpose: Kauffman-adjacent, Deacon, Walker, England, Goldenfeld)
+
+Genuinely outside the box: what if adaptation, agency, and
+individuals fall out of physics and information, no selection
+required?
+
+- **Kauffman 2000 [canon].** Investigations (Oxford; distinct from
+  the 1993 Origins canon). Autonomous agents + the adjacent
+  possible (life expands into what is one step away). → The
+  program's search spaces are adjacent-possible walks whether we
+  admit it or not; design banks AS adjacent possibles of each
+  other (small codebook steps) instead of random remaps — the
+  transfer line, re-graded by reachability.
+- **Deacon 2011 [canon].** Incomplete Nature (Norton).
+  Teleodynamics: purpose emerges from constraint propagation
+  across orders (thermo/morpho/teleo). → The most serious
+  philosophical account of WHERE goals come from — our agents'
+  "goals" (approach/avoid) are morphodynamic, not teleodynamic;
+  the book says what would have to change (self-constraining
+  closure, cf. Rosen round 30).
+- **Walker & Davies 2013 [canon].** "The algorithmic origins of
+  life" (J R Soc Interface 10:20120869). Information + selection
+  before genes (causal efficacy of information). → Complements
+  GARD/RAF (round 29) with the physics: information must DO work
+  to matter — our weights DO work (they steer); the question is
+  whether they do ENOUGH work to count as information (Adami's
+  metric, round 38, decides).
+- **England 2013 [canon].** Statistical physics of self-replication
+  (J Chem Phys 139:121923). Dissipative adaptation: driven systems
+  develop lifelike organization spontaneously. → The wildest
+  legitimate claim on this map: adaptation WITHOUT selection
+  (thermodynamics does the work). If even partly true, our
+  selection lines compete with physics — test: do unselected
+  (random-drift) lines self-organize measurably? (Zero-world
+  analytic on frozen unlearned rows: structure vs initialization.)
+- **Goldenfeld & Woese 2011 [canon].** "Biology's next revolution"
+  (Nature 469:343–344). Collective evolution, HGT-dominated early
+  life; the web before the tree. → The mating track's horizontal
+  vision, from the top: before accurate vertical transmission
+  there was collective sharing. Our exact-copy fixation may be
+  historically backwards — transmit loosely first (like early
+  life), exactify later.
+- **Thompson 2007 [canon].** Mind in Life (Harvard). Autopoiesis +
+  phenomenology synthesis (the living body as the root of mind).
+  → With Varela (round 36) and Rosen (round 30), the enactive
+  trilogy completes; the program's embodied-learner bet gets its
+  fullest statement (and its hardest test: where is OUR agents'
+  experience? nowhere yet — honest).
+
+## Round 55 — wildcards II (collectives that sense, brains that count, teachers that cost)
+
+- **Couzin & Krause 2003 [canon].** Self-organization and collective decisions (Adv Study Behav 32:1-75). The mechanisms review (positive/negative feedback, response thresholds, direction). → Pairs with Sumpter (principles, round 52) and Seeley (implementation, round 25): mechanisms here, translation there.
+- **Dickinson et al. 2000 [canon].** "How animals move" (Science 288:100-106). Locomotion across scales (muscle to gait to control). → The movement bible our cruise/turn primitive ignores (no gait, no energetics of motion, no passive dynamics); smallest viable upgrade list for any motor revival.
+- **Seeley 2010 [canon].** Honeybee Democracy (Princeton; the book
+  behind the 2011/2012 papers). → The full decision pipeline
+  (scouts → dances → quorum → liftoff) as an implementable
+  protocol: our future collectives get a 200-page spec, free.
+- **Woolley et al. 2010 [canon].** Collective intelligence factor
+  (Science 330:686–688). A general c factor for human groups
+  (social sensitivity predicts performance, not IQ). →
+  Collectives have measurable intelligence DISTINCT from members
+  — the metric for any future multi-agent line (measure c, don't
+  just average rewards).
+- **Henrich 2015 [canon].** The Secret of Our Success (Princeton).
+  Cumulative culture made humans (not brains alone); Tasmania
+  expanded. → The strongest form of the round-43 argument:
+  culture IS the human adaptation; our agents have none. If the
+  program ever claims human-like anything, this is the bar
+  (cumulative, not just social, learning — ratchet required).
+- **Tomasello 2014 [canon].** A Natural History of Human Thinking
+  (Harvard; joint intentionality thesis). → Cooperation's cognitive
+  prerequisite (shared goals first, helping second). Orders the
+  social stack: joint attention → collaboration → culture. Our
+  agents lack step one (no shared attention mechanism) — the
+  honest starting point, not the end.
+- **Scope-note misses (post-55).** Thorndike/Hull (superseded);
+  quantum cognition (too far); Jaynes MaxEnt (still open —
+  specified twice, never executed: DO the MaxEnt baseline);
+  Haig (distant); astrobiology (no bodies off Earth).
