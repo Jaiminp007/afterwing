@@ -1,4 +1,4 @@
-# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-35 OpenAlex journals/books)
+# Outside literature map (researched 2026-10-30/31; rounds 1-20 arXiv, rounds 21-40 OpenAlex journals/books; 429-limited rounds canon-sourced)
 
 Twelve papers read at abstract level, selected for the program's three open
 problems: (P1) substrate saturation — nothing beats the base rule;
@@ -1763,6 +1763,259 @@ without selection, distribution without planning.
   distribute per IFD across patches? Deviation diagnoses ( despotic /
   perceptual limits). The ecology track's first frozen quantitative
   test. No record hit (429).
-- **Scope-note misses.** Nowak 2006 cooperation rules (needs games =
+- **Scope-note misses (pre-36).** Nowak 2006 cooperation rules (needs games =
   interaction, which doesn't exist yet); WBE 1997 metabolic scaling
   (body-size track cold); Jaynes MaxEnt (policy formalism, unqueried).
+  (Nowak + WBE move to rounds 39–40 below; Jaynes still open.)
+
+## Rounds 36-40 — intrinsic motivation, bounded rationality, digital evolution, cooperation, robustness/form
+
+Method note: OpenAlex shared-IP budget still exhausted (429 on first
+query of the round). All 30 entries below are [canon] with full biblio
+from established knowledge; live verification of these specific records
+is deferred to the next mapping round. No abstracts were fetched; moves
+are synthesized from the works' known contents. Flag anything that
+looks off and it gets verified first.
+
+## Round 36 — intrinsic motivation and autonomy (playgrounds, fun, sense-making, homeokinesis)
+
+What drives action when rewards are sparse or absent — our encounter
+problem (mates rare, food patchy) is an exploration problem, and
+exploration needs a drive.
+
+- **Oudeyer, Kaplan & Hafner 2007 [canon].** "Intrinsic motivation
+  systems for autonomous mental development" (IEEE TEC 11:265–286).
+  Playground Experiment: curiosity as learning-progress maximization
+  (do what reduces prediction error fastest). → The encounter/explore
+  drive our foragers lack (they random-walk): curiosity = seek
+  learnable novelty. Design: learning-progress bonus on cue encounters
+  (explore where surprise is HIGH but DECREASING — distinct from
+  surprise-gating, which exploits high surprise wherever it is).
+- **Schmidhuber 2010 [canon].** "Formal theory of creativity, fun,
+  and intrinsic motivation" (IEEE TAMD 2:230–247). Fun = compression
+  progress; the agent rewards itself for finding simpler encodings.
+  → Formalizes Oudeyer (progress = compression gain); our replay
+  buffer IS an encoding — a compression-progress replay priority
+  (third prioritization axis alongside surprise and need).
+- **Varela, Thompson & Rosch 1991 [canon].** The Embodied Mind (MIT).
+  Cognition = enactive sense-making by an autonomous body, not
+  representation. → Philosophical home for the whole program
+  (embodied learners, not disembodied optimizers); sense-making =
+  what our turn metric approximates (acting appropriately, not
+  representing accurately). Thesis framing.
+- **Di Paolo 2005 [canon].** "Autopoiesis, adaptivity, teleology,
+  agency" (Phenomenology Cogn Sci 4:429–452). Adaptivity layered on
+  autopoiesis = minimal agency with norms (good/bad for the agent).
+  → Formalizes what our energy budget implements crudely: viability
+  + graded norms. The value function gets a biological definition
+  (stay viable + improve conditions), constraining reward design.
+- **Der, Steinmetz & Pasemann 2001+ [canon].** Homeokinetic control
+  (series from ~2001; e.g., Int J Bifurcation Chaos). Behavior
+  self-organizes from minimizing prediction error of the agent's own
+  sensors — NO reward, NO task. → Reward-free control for our
+  actors: a homeokinetic turn/motor loop would explore and adapt
+  without any intake signal — the purest answer to "what moves the
+  agent when food is absent" (odor-free ecology!).
+- **Beni & Wang 1989 [canon].** "Cellular robotic systems" (NATO ASI
+  Series; origin of the term 'swarm'). → The swarm-optimization
+  lineage root (with Dorigo/ACO and Kennedy/PSO as its children):
+  minimal agents + local rules → collective function. Design language
+  for any future multi-agent line.
+
+## Round 37 — bounded rationality canon (satisficing, ant-on-beach, attention, heuristics)
+
+Our agents ARE boundedly rational; Simon wrote their user manual
+(and Gigerenzer their defense brief).
+
+- **Simon 1955 [canon].** "A behavioral model of rational choice"
+  (Q J Econ 69:99–118). Satisficing: decide when good enough, not
+  optimal. → Our greedy .5 threshold IS satisficing (accept when
+  prediction clears aspiration). Normative cover for the threshold
+  architecture — and the prescription: adapt the ASPIRATION level,
+  not the computation (aspiration-adaptation line, specified).
+- **Simon 1956 [canon].** "Rational choice and the structure of the
+  environment" (Psych Rev 63:129–138). The ant and the beach:
+  complexity lives in the ENVIRONMENT, not the mind. → Our agents
+  are ants; the 12-cue/4-bit world is their beach. Explains why
+  simple rules work (V1's 0.81 gaps!) and reframes the floor as
+  beach-complexity (remap structure) not ant-stupidity — converges
+  with the bank-dependence finding from the other side.
+- **Simon 1971 [canon].** "Designing organizations for an
+  information-rich world" (in Greenberger (Ed.), Computers,
+  Communications, and the Public Interest). "A wealth of information
+  creates a poverty of attention." → Attention economics: our 96-dim
+  phi floods the learner; attention (which dims/bits to process) is
+  the scarce resource. Mackintosh-associability IS attention — the
+  associability-reset line in economic dress.
+- **Gigerenzer, Todd & ABC 1999 [canon].** Simple Heuristics That
+  Make Us Smart (Oxford). Fast-and-frugal: ignore most information,
+  decide fast. → The normative defense of every threshold in our
+  engine (greedy .5, cruise prior, turn rule): heuristics, not
+  approximations. Design rule: add heuristics, don't complicate
+  inference.
+- **Gigerenzer & Brighton 2009 [canon].** "Homo heuristicus"
+  (Topics Cogn Sci 1:107–224). WHEN heuristics win: uncertainty +
+  redundancy (less-is-more). → Our world qualifies (noisy intake,
+  redundant phi) — predicts heuristics beat full-Bayesian here, i.e.,
+  DON'T build the Bayes-optimal agent (it would lose). Constrains
+  dream-model ambitions (dreams should serve heuristics, not replace
+  them).
+- **Payne, Bettman & Johnson 1993 [canon].** The Adaptive Decision
+  Maker (Cambridge). Effort–accuracy tradeoff: strategy follows
+  cost/benefit. → Our pricing (operationEnergy) IS the effort term;
+  agents should switch strategies with stakes (cheap cues → heuristics,
+  dear cues → deliberate). Adaptive-strategy line, specified (stakes-
+  gated inference depth).
+
+## Round 38 — digital evolution and novelty (Avida, information, abandon objectives)
+
+Our program is digital evolution; these are its canon results —
+including the one that says objectives (our gaps) can deceive.
+
+- **Lenski, Ofria, Pennock & Adami 2003 [canon].** "The evolutionary
+  origin of complex features" (Nature 423:139–144). Avida: complex
+  logic operations evolve from simple ones via exaptation. → Proof
+  digital organisms surprise designers (our founders might too);
+  complex behavior from simple parts WITHOUT design — the standing
+  reply to "but who designed the learner?".
+- **Adami 2002 [canon].** "What is complexity?" (BioEssays 24:
+  1085–1094). Physical complexity = information about the environment
+  (genome as predictive model). → Genomes (and weights) AS models:
+  model-quality = mutual information with the niche. Measurable on
+  frozen weights (specified: weight–niche mutual information as the
+  transmitted-knowledge metric for mating lines).
+- **Lehman & Stanley 2011 [canon].** "Abandoning objectives" (EvoStar).
+  Novelty search beats objective search (objectives deceive; mazes +
+  bipeds). → DIRECT CHALLENGE to our gap-gated lines: the HB gap may
+  be a DECEPTIVE objective (selection for it herds into dead ends —
+  V1d's 47/48 stampede as deception!). Prescription already banked
+  (QD archive, novelty cells) now with its canon.
+- **Stanley & Lehman 2015 [canon].** Why Greatness Cannot Be Planned
+  (Springer). Stepping-stone principle: objectives skip the stones
+  that lead somewhere. → Thesis-level: our frozen-plan discipline
+  (fixed gates) risks skipping stepping stones; the QD map (open-ended
+  illumination) is the hedge. Both, deliberately.
+- **Taylor et al. 2016 [canon].** Open-ended evolution hallmarks
+  (Artificial Life 22:408–437). What OEE requires (ongoing novelty,
+  complexity growth, no halting). → Checklist for whether Astra could
+  ever BE open-ended (currently: no — fixed ecologies, fixed phases;
+  the checklist names what would have to change).
+- **Wagner 2011 [canon].** Arrival of the Fittest (Dutton/Penguin).
+  Constrained variation channels innovation (variation is NOT random;
+  development proposes, selection disposes). → Pairs with neutral
+  theory (round 34): drift explores a BIASED proposal distribution.
+  Our σ=0.05 isotropic mutations ignore the bias — proposal-
+  distribution design (mutate along phenotypically productive axes)
+  as the mating-line upgrade.
+
+## Round 39 — cooperation and levels (TFT, five rules, cooperators, levels, signals, conflict)
+
+For the day agents meet: the interaction canon, from the first
+tournament to the social contract.
+
+- **Axelrod & Hamilton 1981 [canon].** "The evolution of
+  cooperation" (Science 211:1390–1396). Tit-for-tat wins the
+  tournament (nice, retaliatory, forgiving, clear). → If our agents
+  ever share worlds: TFT is the seed strategy for interaction
+  protocols; tournaments (not just lines) as the evaluation format
+  for social behavior.
+- **Nowak 2006 [canon].** "Five rules for the evolution of
+  cooperation" (Science 314:1560–1563). Kin/direct/indirect/network/
+  group reciprocity + the b/c > k thresholds. → The menu our null-
+  sociality is measured against; network reciprocity (b/c > k) is the
+  cheapest to implement (viscosity first — matches kin-relatedness
+  prescription, round 33).
+- **Queller 1997 [canon].** "Cooperators since life began" (Q Rev
+  Biol 72:184–188). Cooperation at EVERY transition (genes to
+  societies). → With Maynard Smith (transitions) and Hamilton (kin):
+  cooperation isn't advanced behavior, it's the DEFAULT that
+  conflict breaks. Reframes null-sociality as conflict-suppressed,
+  not cooperation-absent.
+- **Okasha 2006 [canon].** Evolution and the Levels of Selection
+  (Oxford). MLS formalization (collective fitness, covariance
+  across levels). → The formalism round 15's MLS-punishment lacked:
+  Price-across-levels for any future group-selection line (with
+  Okasha's book + Price's equation + Frank's information = full
+  stack).
+- **Skyrms 2010 [canon].** Signals (Oxford). Signaling games: how
+  cues get MEANING (sender–receiver co-evolution). → Our cues have
+  imposed meanings (codebook); Skyrms asks how meanings EMERGE —
+  the cue-ontology line beyond imposed valences (Lewis games with
+  our 4-bit channel, specified for a far-future line).
+- **Trivers 1974 [canon].** "Parent-offspring conflict" (Am Zool
+  14:249–264). Optima differ by relatedness (r=1 self vs r=.5 sib).
+  → Newborn-vs-founder interest divergence is PREDICTED (not a bug):
+  design transmission anticipating conflict (offspring discount
+  parental weights — the vertical-transmission line's next knob).
+
+## Round 40 — robustness, form, physics (HOT, regulation, scaling, Landauer, Bernstein, Pattee)
+
+Why fixing breaks things, where evolution acts, what computation
+costs, who coordinates the coordinators, and where symbols touch
+matter.
+
+- **Carlson & Doyle 2002 [canon].** "Complexity and robustness"
+  (PNAS 99:2538–2545; HOT). Robust-yet-fragile: optimized systems
+  are robust to designed-for insults, fragile to the rest; power
+  laws from design tradeoffs. → THE floor theory: our agents are
+  HOT systems (robust same-val 0.95, fragile flipped) — fixing the
+  fragile point moves fragility elsewhere (whack-a-mole, cf.
+  concentration doc!). Predicts intervention tradeoffs, not fixes.
+- **Carroll 2005 [canon].** Endless Forms Most Beautiful (Norton).
+  Evo-devo: evolution acts on REGULATION (cis), not coding —
+  toolkit conserved, switches evolve. → Our mutations hit weights
+  (coding); Carroll says hit the GATING (regulatory: thresholds,
+  rates, switches). Regulatory-mutation line specified (mutate
+  rates/gates, freeze weights — the exact inverse of V1b!).
+- **West, Brown & Enquist 1997 [canon].** Quarter-power scaling
+  (Science 276:122–126). Networks beget scaling laws. → Body-size
+  scaling for the transfer track (when bodies vary, metabolism must
+  scale as M^3/4 — the pricing law's missing exponent; currently
+  implicit/untested).
+- **Landauer 1961 [canon].** "Irreversibility and heat generation"
+  (IBM J Res Dev 5:183–191). Information is physical; erasure costs
+  kT ln 2. → Our operationEnergy has a physics twin: learning
+  (overwriting weights = erasure) MUST dissipate. Grounds the
+  billing in thermodynamics (and bounds how cheap learning can get
+  — Landauer limit as the efficiency asymptote for any RSI claim!).
+- **Bernstein 1967 [canon].** The Co-ordination and Regulation of
+  Movements (Pergamon). Degrees-of-freedom problem: how to control
+  redundant DOF (freeze, couple, exploit). → Our 5-dim motor with a
+  dead channel IS Bernstein's problem (channel 3 frozen by
+  evolution-unfriendly math, per MATING-DIAG). Solutions: freeze
+  (done, accidentally), couple (synergies — motor-synergy line,
+  specified), exploit (let the body do it — morph track).
+- **Pattee 2001+ [canon].** Symbol–matter problem (1995 "Artificial
+  Life Needs a Real Epistemology"; Biosemiotics founding work).
+  Where discrete symbols (our 4-bit cues) touch continuous physics
+  (movement, intake). → THE cue-ontology question formally: the cut
+  between rate-dependent dynamics and rate-independent symbols runs
+  through our collector. Design: make the cut explicit (symbols as
+  constraints on dynamics, not inputs to functions).
+- **Scope-note misses (post-40).** WBE network mechanisms (beyond
+  scaling); Jaynes MaxEnt (policy formalism, still open); Thorndike/
+  Hull drive theory (superseded by SDT/RL); quantum cognition (too
+  far); Haig imprinting (conflict, distant).
+
+## Corrections to rounds 21-27 (2026-10-26; BH-inversion cascade)
+
+A scorer bug (BH correctness coded as 1−turn instead of turn rate)
+inverted all BH behavioral numbers program-wide. True values: BH turn
+0.72–0.88 everywhere (no BH floor — the floor is HB-only). Affected
+map entries, corrected here, originals retained above:
+
+- **R23 devaluation bullet (line ~1147): WITHDRAWN as a habit claim.**
+  Our BH agents turn ~80% on devalued cues = devaluation-SENSITIVE =
+  goal-directed by Adams & Dickinson's own criterion. The transfer
+  test passes devaluation; the program's agents look model-based,
+  not habitual, on this axis. (The paradigm identification — transfer
+  IS a devaluation test — stands and is now a positive result.)
+- **R22 Quirk / R23 Daw-SDT / R24 Mattar as actor-side support:** the
+  frameworks stand; their program application (BH actor-side
+  localization) is withdrawn with the hypothesis (no phenomenon).
+  SDT d′/c remains the measurement for any future value/behavior
+  split (now aimed at HB, where behavior runs ahead of values).
+- Unaffected: λ=2.95 (probe-based), LI gradients (recomputed, both
+  negative), overshadowing null, gain results (HB metric), all bank
+  registries, all verdicts except VALUE-PROBE V1 (corrected
+  separately to INDETERMINATE).
