@@ -214,6 +214,7 @@ export function validateConfig(c){
   if(c.resourceTopology!==undefined&&!['spread','hub','duo'].includes(c.resourceTopology))throw Error('Invalid resource topology');
   if(c.mateSenseMultiplier!==undefined&&(!Number.isFinite(c.mateSenseMultiplier)||c.mateSenseMultiplier<=0))throw Error('Invalid mate-sense multiplier');
   if(c.matingRangeMultiplier!==undefined&&(!Number.isFinite(c.matingRangeMultiplier)||c.matingRangeMultiplier<=0))throw Error('Invalid mating-range multiplier');
+  if(c.mateAttractBias!==undefined&&(!Number.isFinite(c.mateAttractBias)||c.mateAttractBias<0))throw Error('Invalid mate-attraction bias');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');
