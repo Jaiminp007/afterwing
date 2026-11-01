@@ -28,3 +28,14 @@
 - First mechanism GO in the encounter→birth→survival chain; line CLOSED.
 - Results: `docs/MATE_LEAVE_RESULTS_V1.md`. Cumulative program spend:
   7911.
+
+## V2 (magnitude ladder + replication; FROZEN 2026-11-02, design only)
+
+- Plan: `docs/MATE_LEAVE_PLAN_V2.md` (k_L ∈ {1,2,4} sign ladder weaken→
+  cancel→reverse pre-registered 0.76/0/−0.96; no new engine work, verbatim
+  knob reuse; 5 arms × 6 histories = 30 mains; bank 440xxx; GO iff k_L=2
+  replicates ≥2 AND weak-monotone L4 > hub; closes line either way).
+- Rationale: answers ML1's disclosed one-seed concentration (replication)
+  + mechanism-vs-luck (scaling); V1c-dose precedent.
+- Implement: separate turn under the plan; single attempt next.
+  Cumulative unchanged (7911, design only, zero worlds).
