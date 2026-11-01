@@ -149,6 +149,7 @@ export class TasteExperiment{
   record(event){if(this.emit)this.emit(canonical({arm:this.arm,...event}));}
   step(){
     if(this.finished||!this.world.flies.length)return false;
+    this.lastDamage={};
     if(this.world.tick===this.phaseEnd){
       if(this.probe||++this.phaseIndex>=4){this.finished=true;return false;}
       const phase=CONTINUAL_PHASES[this.phaseIndex];
@@ -194,13 +195,14 @@ export class TasteExperiment{
       this.record({type:'decision',own,action,outputs,requestedExtra:bill.energyCost});
       return {...bill,afterController:native=>native.splice(0,5,...outputs),afterStep:receipt=>{
         stats.beneficialEaten+=receipt.beneficialEaten;stats.toxinDamage+=receipt.toxinDamage;stats.physicalCosts+=receipt.cost;
+        this.lastDamage[fly.id]=receipt.toxinDamage;
         this.record({type:'physical',...receipt});
       }};
     });
     for(const fly of before){
       const state=this.learners[fly.id],alive=this.world.flies.includes(fly),examples=state.tasteExamples??0;
       const own={agentId:fly.id,tick:this.world.tick,energy:(alive?fly.energy:0)-state.charge.outstandingEnergy,lastFood:fly.lastFood,terminal:!alive};
-      if(this.program==='taste')observeTasteEnergyBody(state,own,e=>this.record({type:'update',event:e}));else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
+      if(this.program==='taste')observeTasteEnergyBody(state,own,e=>this.record({type:'update',event:e}),{damage:this.lastDamage?.[fly.id]??0});else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
       stats.tasteExamples+=(state.tasteExamples??0)-examples;
       if(!alive)billSarsaWork(state,this.pricing);
       this.record({type:'observe',own});
