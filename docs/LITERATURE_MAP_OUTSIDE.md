@@ -5307,3 +5307,164 @@ virgin in the map until now.
   not topology, may be the missing coexistence ingredient. Both
   specified-not-executed (tags need identity channels; adaptivity needs
   a learning rule that survives transfer — V1i's replay, notably).
+
+## Round 117 — Engrams, tags & reconsolidation (retention machinery at the synapse; 2026-11-02)
+
+Motivation: the program has established THAT weights persist (niche-ID 1.000)
+and that shrinking them helps transfer (V1j), but never asked what fraction
+of the substrate holds the trace, what marks it, or what retrieval does to it.
+The engram literature answers all three, with a formalism now ported to AI.
+
+- **Engrams: sparse, allocated, erasable [canon: Semon (the engraving);
+  Josselyn/Frankland (allocation to excitable neurons); Tonegawa (engram
+  labeling, erasure, reactivation — necessity AND sufficiency);
+  journal-bound, verification deferred].** → Three ports, all specified-
+  analytic (zero new worlds): (1) Allocation is competitive (excitable
+  neurons win) — our uniform plasticity spreads every trace everywhere;
+  an excitability-weighted update rule is the unbuilt retention
+  instrument (protect the allocated, overwrite the rest — NBSP-adjacent,
+  R85). (2) Erasability: activating the engram is necessary AND
+  sufficient — our frozen probes are observational only; an activation
+  probe (drive the retained weights, measure behavior) is
+  specified-not-executed. (3) Sparsity: engrams are tiny fractions —
+  quantify the retained-weight fraction per history (analytic on frozen
+  final weights) as an engram-ness measure; V1j predicts lossy transfer
+  shrinks it further while preserving identity.
+- **AI Engrams formalize the criteria [arXiv:2606.14997v1 (AI Engram:
+  geometric framework formalizing neuroscience's four engram criteria —
+  persistence, latency, content, ecphory — as a constrained inverse
+  problem in weight space, solved closed-form) + arXiv:2506.01659v2
+  (neurocomputational review of engram encoding/retrieval: sparse
+  populations undergo lasting physical/chemical change) +
+  arXiv:2607.07388v1 + arXiv:2603.100 frankly: LLM engram-style memory
+  (train-free injection, sparse decoupled lookup; pointers only)].** →
+  2606.14997v1 makes the engram testable in silico (does a weight
+  subset satisfy the four criteria?) — directly applicable to our
+  transferred weights (do the 0.94 same-val weights satisfy persistence +
+  latency + content + ecphory, or only persistence?). Specified analytic,
+  zero worlds.
+- **Tag now, capture later [canon: Frey & Morris (synaptic tagging and
+  capture); Redondo (behavioral tagging); journal-bound, verification
+  deferred] + constraints [arXiv:1206.3697v3 (molecular constraints on
+  tagging/maintenance: PKMζ persistence, spatiotemporal rules for LTP/LTD
+  induction) + arXiv:1910.07414v1 (metabolic costs of synaptic learning:
+  spines are a small cortical fraction but the MAJOR energy consumers)].**
+  → The turn-gating arc reread as tagging: cue-contact TAGS synapses,
+  surprise-gated replay CAPTURES them (V1f–V1i IS tag-and-capture, and
+  the bundle arm's breadth×depth interaction is the classic tag+PRP
+  conjunction test — already run, now named). 1910.07414v1 prices our
+  op ledger biologically: retention is metabolically expensive BECAUSE
+  spines are; the ledger's operationEnergy has a wet counterpart, and
+  symmetric billing mirrors metabolic parity. No new instrument (the
+  mechanism is already deployed; this round names it).
+- **Retrieval rewrites [canon: Nader (reconsolidation: reactivation
+  returns memories to lability; blockade erases); R22/R98 covered the
+  biology — this entry is the artificial counterpart: arXiv:2609.16053v1
+  (retrieval-DRIVEN reconsolidation for LLM agents: retrieval as a driver
+  of memory evolution, not an endpoint of access)].** → 2609.16053v1
+  inverts our probe practice (we retrieve to READ; they retrieve to
+  REWRITE, continuously). Two consequences, both specified: (1)
+  measurement-validity threat stands (probes destabilize; post-probe
+  stability checks on frozen banks, analytic-only, zero new worlds);
+  (2) a retrieval-driven learner — one whose probes update, not just
+  observe — is the unbuilt RSI-adjacent instrument (learning from its
+  own measurements; needs frozen plan, separate line).
+
+## Round 118 — Forgetting as design + somatic evolution + epigenetic clocks (losing information well; 2026-11-02)
+
+Motivation: V1j proved that losing information (×0.5) can HELP transfer,
+and the transfer tax is, formally, a failure to forget the old codebook.
+This round collects the literatures where forgetting, loss, and lineage
+selection are the mechanism — not the malfunction.
+
+- **Forgetting is not a fix — unless it restructures [arXiv:2607.24805v1
+  (Forgetting Is Not a Fix: path dependence in sequential editing;
+  compositional-memory-states hypothesis: edited models live on a
+  commutative manifold; forgetting alone does not remove history
+  dependence)].** → The exact V1j moral, independently derived: naive
+  forgetting (decay, dropout) does NOT fix path dependence; STRUCTURAL
+  change (compositional states, lossy bottlenecks) does. Our 47/48
+  stampede and RIGID class are path-dependence exhibits; noisy replay
+  (unlicensed, twice) would have been naive forgetting. Prescription
+  unchanged: restructure, don't decay (lossy transplants, fold-change
+  gates) — now with external proof.
+- **Adaptive + active forgetting [canon: Richards & Frankland
+  (transience as optimization: forgetting improves decision-making by
+  discarding outdated value; Ebbinghaus re-read as feature);
+  Berry (Drosophila Rac1-gated active forgetting); Davis & McGuire
+  (forgetting mechanisms review: retrieval-induced, interference-based,
+  intrinsic); journal-bound, verification deferred; arXiv = thin,
+  searched-not-found].** → The extinction-gating literature our
+  harm→ben stall (~0.67, R84) lacks: forgetting is REGULATED (dopamine-
+  gated in flies, prefrontal in mammals), not passive decay. Our actor
+  has no forgetting gate — weights persist until overwritten by new
+  learning, which is why saturation plateaus instead of clearing. A
+  dopamine-analog gate (forget proportional to surprise-absence, not
+  presence) is specified-not-executed; it inverts V1f–V1i (which gated
+  consolidation ON) into its complement (gate erasure ON when nothing
+  surprising happens). Needs frozen plan.
+- **Somatic evolution: lineages within a lifetime [canon: Nowell (1976:
+  clonal evolution of tumor cell populations — selection WITHIN the
+  organism); Greaves & Maley (reviews, driver vs passenger mutations);
+  Cairns (stem-cell divisions as risk); journal-bound, verification
+  deferred; arXiv = clinical noise, searched-not-found].** → Our
+  generations ARE somatic lineages (founders → gen-1 → gen-2 within one
+  run), and gen-2 compounding is clonal expansion. Nowell's frame
+  imports wholesale: gen-2 excess = expansion beyond the founding clone;
+  hub starvation = resource-limited expansion; mutational load (MLR1's
+  missing ingredient) = passenger accumulation. The analytic payoff:
+  expansion metrics (clone-size distributions, expansion index) computed
+  on existing lineage data, zero new worlds — specified, not executed.
+- **Clocks that count information, not time [canon: Horvath (2013:
+  epigenetic clock — methylation age predicts mortality better than
+  chronological age); Hannum; Levine PhenoAge; Sinclair (Lifespan 2019:
+  aging = information loss, reprogrammable); journal-bound, verification
+  deferred; arXiv = thin, searched-not-found].** → The transfer tax
+  restated: a codebook switch is AGING (information loss per Horvath),
+  and V1j's lossy win is REPROGRAMMING (Sinclair) — discarding noise
+  restores function. Two specified analytics (zero new worlds): (1) a
+  horvath-analog "transfer clock" — fit retained-weight divergence vs
+  transfer gap across frozen banks (does information loss predict the
+  tax?); (2) R112's post-scarcity discriminator gains its measurement
+  (chronological vs biological age of lineages under bar-50 vs bar-65).
+  No new banks; the clocks read frozen rows.
+
+## Round 119 — Social arithmetic: skew, Bateman (pointer), LMC (pointer), memetics, UDw, individuality (bookkeeping for who counts; 2026-11-02)
+
+Motivation: every mating verdict counts gen-2, but nobody formalized WHO
+counts as a reproducer, WHAT counts as an individual, or HOW success
+transmits. This round closes the bookkeeping gap with the formalisms —
+and marks which are pointers to covered ground vs live instruments.
+
+- **Who reproduces: the skew formalism [canon: Vehrencamp (transactional
+  skew, concessions); Keller & Reeve (optimal skew); Reeve & Ratnieks
+  (tug-of-war: no concessions, pure competition); Johnstone (synthesis);
+  journal-bound, verification deferred; arXiv = tug-of-war math polysemy
+  — searched-not-found, logged].** → Our founderOffspring tallies ARE
+  skew data (descriptive per MATE-SOCIAL V1), but never fitted: does
+  hub skew match transactional (dominant concedes just enough to retain
+  subordinates) or tug-of-war (pure contest, no concessions)? The
+  diagnostic is the subordinate's share vs outside options — computable
+  on frozen rows (deserters = zero-offspring founders: present or absent?).
+  Specified analytic, zero new worlds. Prediction from the despotic
+  pattern (R88): hubs look transactional (subordinates stay because
+  everywhere is poor); spreads look tug-of-war-free (no contest).
+- **Individuality and replicators (brief, framing) [canon: Clarke
+  (Darwinian individuality — reproduction + bottleneck + germline);
+  Godfrey-Smith (Darwinian populations); Dawkins/Blackmore (memetics:
+  rows as replicators); Dennett (Universal Darwinism: substrate-neutral
+  selection); journal-bound/books, verification deferred; arXiv = zero —
+  searched-not-found, logged].** → Three one-line Einstellungen, flagged
+  as framing not findings: (1) Godfrey-Smith asks whether our FOUNDERS
+  or our LINEAGES are the Darwinian individuals (bottleneck says
+  lineage; reproduction says founder) — the lineage-founder tracking we
+  already do IS this question operationalized; (2) Universal Darwinism
+  licenses the whole program's premise (selection in silico is still
+  selection); (3) memetics would call a transmitted row a replicator —
+  recorded, not endorsed (the map's anti-meme stance from R103 stands).
+- **Pointers, not repeats (already mapped): Bateman gradient + Trivers
+  parental investment (R99); LMC (R86); Run01 sexy-son/Fisher (R86);
+  greenbeard (R116); prestige/reward (R113/R82); Rogers (R116);
+  Maynard Smith/Price (R31-35); Hamilton (R26-30).** → Listed so future
+  rounds do not re-map them; the live edges are above (skew fit,
+  individuality audit, substrate-neutrality license).
