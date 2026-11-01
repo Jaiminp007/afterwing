@@ -3376,3 +3376,29 @@ that optimum and its limits.
   logistics, not search strategy; CAR-T modeling 2609.39191v1 is clinical).**
   No usable T-cell Lévy entry found; logged as searched-not-found rather than
   canon-cited (discipline: do not cite what was not read).
+
+## Round 80 — state-dependent movement rules (for V4's energy gate; 2026-11-02)
+
+Motivation: V4 gates taxis on internal energy state. Movement ecology independently
+concluded that movement rules MUST be state-conditioned — and that ignoring it biases
+everything.
+
+- **arXiv:2304.12964v1.** Behavioural states in step-selection analysis (model
+  comparison: resting vs foraging states change both resource preferences AND
+  movement patterns; standard SSA/iSSA ignoring states is misspecified). → The
+  exact V4 gate, derived from field data: the same animal in different states
+  follows different movement rules. Our V1–V3 instruments assumed a stateless
+  taxis term (k always on); V4 makes it state-dependent for the first time.
+  Reverse reading (honest): if V4 nulls, EITHER energy is the wrong state variable
+  OR state-conditioning this policy cannot work at all — the round-80 paper
+  cannot separate those either (their states are latent/inferred).
+- **Houston & McNamara state-dependent foraging [canon: 1988/1999 books;
+  journal literature, verification deferred].** Energy reserves as the state
+  variable driving foraging decisions (the dynamic-programming tradition behind
+  R46's Caraco citation). → The bar-as-threshold choice (E* ≡ mating bar) is a
+  degenerate one-state version of their reserve-dependent policies; a full
+  reserve-graded rule (k scaling with reserves, not on/off) is the natural V5.
+  Specified-not-executed (needs frozen plan; V4's binary gate comes first).
+- **Scope-note.** GUD/quitting-harvest conjunctions return nothing on arXiv
+  (behavioral-ecology journals); the MVT/GUD canon from R75 stands. No OpenAlex
+  attempt this round (rate-limit cooldown observed).
