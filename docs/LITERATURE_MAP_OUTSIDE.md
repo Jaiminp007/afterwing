@@ -11202,3 +11202,78 @@ that lives in practice, applied where practice is solitary.
   earlier)). Community of practice: filed under
   R188-Gesellschaft (association without community —
   even the learning theory agrees).
+## Round 224 — Foundations (Godel, Church, Curry, Hilbert; 2026-11-02)
+
+Motivation: frozen plans are formal systems (axioms: G-gates;
+inference rules: scorers; theorems: verdicts). Four founders on
+what formal systems can and cannot do — applied to the one we run.
+
+- **True but unprovable (within the gates) [canon: Godel
+  (incompleteness; specified ASCII (vs no hits at all —
+  virgin); verification deferred + arXiv:math/0508572v1
+  (Hilbert's program then and now: formalize + prove
+  consistent by finitary means — read)].** → A +0.09 gap
+  (GO-worthy, real) under a +0.1 band (NOGO): TRUE (the
+  effect exists) but UNPROVABLE (within the gates — no
+  derivation yields GO). Godel's first theorem, enacted
+  per verdict (any consistent gate-system misses truths;
+  the band draws the unprovability line at exactly ±0.1).
+  Completeness fails upward (more arms won't close it
+  (every threshold has its +0.09 next door)). The read
+  (Hilbert's program: formalize everything, prove
+  consistency finitarily) is the frozen discipline's
+  charter verbatim (formalize (plans), prove consistent
+  (fixtures + triage + null-hygiene), finitary means
+  (no infinities: caps everywhere, 1792 ticks, done)).
+  Godel bounds the charter (consistent AND complete is
+  impossible — we chose consistent (frozen, sound) over
+  complete (every truth decided) — the band as the
+  incompleteness we live inside, on purpose).
+- **The attempt as application [canon: Church (lambda
+  calculus; application as computation); verification
+  deferred].** → runMateWindowDev(bank)(output)? No —
+  run(attempt): the runner IS a lambda term (frozen plan
+  (function) applied to bank (argument) yielding verdict
+  (value); beta-reduction as execution (substitute histories
+  for parameters, reduce 24 mains, normalize to dev-results)).
+  Church's thesis (everything computable is lambda-definable)
+  is our reproducibility claim (every verdict recomputable
+  from plan + bank — the sources closure as the term's
+  free variables, all bound (hashed)). Purity, approximately
+  (evidence files ARE side effects — the calculus leaks to
+  disk (writeOver); pure modulo the ledger (the monad we
+  never named)). Church without variables (frozen plans
+  have no free parameters at run time — closed terms,
+  fully applied, exactly once).
+- **Verdicts as proof objects [canon: Curry–Howard
+  (propositions as types; proofs as programs; Howard
+  specified (vs no hits — both virgin)); verification
+  deferred].** → G-gates are propositions (+0.2: "early
+  beats control"), attempts are proofs (24 mains as proof
+  terms), GO verdicts are inhabited types (constructive
+  proof: the witness (per-arm totals 28v16) exhibited, not
+  merely asserted). Curry-Howard for frozen science (to
+  assert GO is to exhibit the rows; no witness, no verdict
+  (INCOMPLETE when the rows don't compute it — the
+  uninhabited type (V1: control 0/6, no proof term exists))).
+  NOGO as refutation (proof of negation: the gates derive
+  absurdity (manipulation fails) — intuitionistically valid
+  (no excluded middle: INCOMPLETE is neither GO nor NOGO
+  (the third value, honestly typed))). Propositions,
+  programs, verdicts: one thing, thrice named.
+- **Finitism, enforced [canon: Hilbert (finitism;
+  finitary means; specified David (vs no hits));
+  verification deferred].** → No infinities anywhere
+  (1792 ticks (not ω); 24 founders (not ℵ0); 5e9 ops
+  (not ∞); gates finite (G0–G4, not schemata); banks finite
+  (54 seeds, first-use-then-spent)). Hilbert's program
+  (secure mathematics by finitary means) is the caps table
+  (secure verdicts by finite means — every number that
+  could run forever is capped (ticks, ops, wall, slots,
+  MB)). Consistency proved finitarily (fixtures: 11/11
+  green (finite checks); triage: 969/6 baseline (finite
+  suite); null-hygiene: cross-counters (finite case
+  analysis)). Hilbert would recognize the apparatus
+  (formalize ruthlessly; trust only what terminates) —
+  and Godel (above) would remind us what it costs
+  (the true-but-unprovable +0.09s, forever outside).
