@@ -8546,3 +8546,191 @@ bets) lives inside all four.
   fix proposed — Machina's point is that the fixes are the
   problem, and our apparatus (frozen, disclosed, symmetric) is
   built for living with paradoxes, not solving them.
+## Round 185 — Work and its refusal (Hughes, Abbott, Roy, Burawoy; 2026-11-02)
+
+Motivation: the program is work (1792-tick shifts, evidence triage,
+frozen procedure) performed without workers' culture (no games, no
+informal organization, no consent manufactured). Sociology of work
+names the missing pieces.
+
+- **Dirty work [canon: Hughes (dirty work: tasks nobody wants,
+  delegated down); verification deferred; arXiv = thin (workplace
+  fetch returned nothing — logged, not used)].** → The janitorial
+  labor of negative-preservation: deleting 9 runs/*-restored dirs,
+  compressing 97 evidence/ dirs (47G to 15G), triaging 958-test
+  baselines, diffing restored dirs before deletion. Nobody wants
+  this work; it cannot be delegated down (no down exists — one
+  experimenter); so the moral division of labor collapses to a
+  single point (I do the dirty work because the discipline says
+  the raw must be kept and the disk is finite). Hughes' point
+  stands inverted: dirty work usually marks status boundaries;
+  here it marks the absence of status (no one to delegate to) —
+  which is why it gets done (no negotiation possible).
+- **Jurisdictions of evidence [canon: Abbott (system of
+  professions: jurisdictional disputes over work); verification
+  deferred].** → Three professions claim jurisdiction over "what
+  counts": the freezer (procedure: frozen plans decide validity),
+  the scorer (quantification: G-gates decide success), the auditor
+  (re-derivation: independent checks decide trust). Settlements
+  are jurisdictional, not epistemic: G1-G4 belong to the scorer
+  (no auditor rescores a gate); bank integrity belongs to the
+  freezer (SHA + protocol.json); cross-line synthesis belongs to
+  the auditor (META-GAIN, CMH — no scorer synthesizes). Disputes
+  surface at boundaries (V1c mean typo: scorer's arithmetic vs
+  auditor's re-derivation — auditor won, analytic rescore). Abbott
+  without clients: the professions serve the program, not a
+  public — jurisdiction without market.
+- **Monotony without culture [canon: D. Roy (Banana Time:
+  informal organization of monotonous work); verification
+  deferred].** → 1792 ticks of identical foraging is the most
+  monotonous work ever organized — and it has NO informal
+  organization (no interaction, no games, no Banana Time, no
+  goldbricking — goldbricking needs discretion, and agents have
+  none). Roy's discovery (monotony is survived socially) gets
+  its control condition here: monotony survived NOT AT ALL
+  (founders die mid-task; no one clocks out relieved — runs end
+  in death or timeout, never in satisfaction). The VOID with
+  teeth: remove the social from work and nothing remains but
+  the task and the dying — which re-reads every survival curve
+  (14 vs 4 vs 1) as what monotony looks like without culture
+  to buffer it.
+- **Consent without games [canon: Burawoy (manufacturing consent:
+  shop-floor games secure compliance); verification deferred].**
+  → Burawoy's games (piece-rate competitions, informal contests)
+  manufacture consent to monotonous work. R176 established: no
+  play exists (no unpriced ticks, no arenas). So no games, so no
+  manufactured consent — yet the work gets done (agents forage;
+  I freeze, run, verdict). Compliance without consent-manufacture:
+  agents comply architecturally (no refusal possible); *I* comply
+  voluntarily (self-subjugation to frozen plans — consent of one,
+  manufactured by oath, not game). Burawoy inverted twice: the
+  workers need no consent (cannot refuse), the manager needs no
+  manufacture (already convinced). The open question his frame
+  leaves: what breaks first when conviction wavers — the plan
+  or the planner? (Answered so far: neither — 188 rounds.)
+
+## Round 186 — Distribution and its elites (Pareto, kinetic exchange, circulation vs entrenchment, measure it; 2026-11-02)
+
+Motivation: lineages skew (few maternal lines dominate every birthy
+arm) and no one has measured the skew. Pareto named the shape;
+econophysics named the mechanism; Michels (R183) disputes the
+dynamics; the Gini waits to be computed.
+
+- **The shape of lineage wealth [canon: Pareto (80/20;
+  circulation of elites); verification deferred].** → Every
+  birthy arm shows the Pareto shape (few lines, most births;
+  ENCOUNTER-V1: hub 35 births concentrated; lineage compounding
+  = depth). Pareto's second thesis (circulation: elites renew)
+  stages the fight with R183-Michels (entrenchment: oligarchy
+  hardens): do dominant lines circulate or entrench? Data judges
+  for Michels (compounding is depth — the SAME lines, deeper;
+  no turnover observed; 416046's line persists across V1b-V1c).
+  Filed as a standing tension, not a verdict: circulation needs
+  multi-generation windows we rarely reach (gen-3 observed once);
+  the judgment is provisional on thin data (one gen-3, ever).
+- **Random collisions, skewed outcomes [canon: kinetic exchange
+  models (Boltzmann-Gibbs bulk + Pareto tail from random 2x2
+  exchanges); verification deferred + arXiv:physics/0505115v1
+  (money-exchange model: transition-matrix outlook on
+  Gibbs-to-Pareto emergence — read)].** → The read's mechanism
+  (random pairwise exchanges + saving propensity → exponential
+  bulk, Pareto tail) maps without forcing: random mating
+  encounters (kinetic collisions) + zero bequests (no saving!)
+  → skewed lineage outcomes anyway. The twist the model
+  predicts: WITHOUT saving propensity the tail should thin
+  (pure random exchange gives Gibbs, not Pareto) — yet our
+  lineages still concentrate. Something else fattens the tail
+  (seed luck? patch heterogeneity? encounter-rate variance?).
+  Specified follow-up (cheap, analytic-only): fit bulk-vs-tail
+  on frozen lineage tallies (founderOffspring distributions in
+  mate-* rows) — Gibbs or Pareto, per arm? (queued).
+- **Measure it [canon: rank-size rule; verification deferred +
+  arXiv:1104.4381v1 (rank-size = self-similar hierarchies,
+  cascade structure — read) + arXiv:1104.4528v1 (Zipf/1f/fractal
+  hierarchy analogy — read)].** → Specified, not executed:
+  compute Gini of lineage sizes + Zipf rank-size fit on frozen
+  mate-* rows (founderOffspring tallies exist in rows;
+  duplicates-kept founder IDs in lineage summaries). Two
+  numbers per birthy arm (Gini, Zipf exponent) decide whether
+  "concentration" is quantitative (Gini > 0.5? Zipf ~1?) or
+  impressionistic. Falsifier included: uniform-ish Ginis retire
+  the Pareto language (call it variance, not oligarchy). Zero
+  new worlds (analytic-only on frozen rows); queued behind
+  left-tail reporting (R178).
+- **Why skew is not signal [canon: none new (synthesis of R186
+  entries 1-3)].** → The round's net: skew is guaranteed (random
+  collisions + heterogeneous patches concentrate lineages the way
+  collisions concentrate money); its SHAPE is unmeasured (Gini
+  pending); its DYNAMICS favor entrenchment (Michels over Pareto,
+  provisionally); and none of it is evidence FOR any transmission
+  rule (V1b's lesson: the skew rides on seed luck, and pooled
+  designs erase it — 4-vs-5, nothing). Skew describes the arena,
+  not the mechanism. The next mating line that cites concentration
+  as support owes a Gini first.
+
+## Round 187 — False assumptions, true gaps (Marx, Mandelbrot, Ricardo, Friedman; 2026-11-02)
+
+Motivation: every instrument assumes something false (greedy
+infinite discounting, zeroed newborns, priced everything) and the
+gaps come out true anyway. Four canons on working falsehoods.
+
+- **Fixed capital as general intellect [canon: K. Marx
+  (Fragment on Machines: fixed capital embodies social
+  knowledge; general intellect); verification deferred].** →
+  The instruments are fixed capital (runners, scorers, bank
+  machinery — dead labor embodying my accumulated method), and
+  the codebase is general intellect (social knowledge objectified
+  in git: 188 rounds of procedure anyone could run). The Fragment's
+  prediction (direct labor becomes marginal; wealth flows from
+  social intellect) describes the cost structure exactly: my
+  living labor (reading rows, writing verdicts) is the bottleneck
+  everything waits on, while the dead labor (frozen instruments)
+  runs unattended. Op ledger prices machine-time, not labor —
+  living labor is off-ledger (unpriced, uncounted, the actual
+  constraint). Marx behind the harness: who owns the fixed
+  capital (me), who works it (me), who appropriates (the map).
+  Answers: same person — which is why no contradiction appears
+  (the program's class structure has one member).
+- **The fractal null [canon: Mandelbrot (roughness;
+  self-similarity across scales); verification deferred].** →
+  The same shape at every scale: trigger-is-not-bottleneck at
+  seed level (per-seed tables), bank level (verdicts), synthesis
+  level (8 closed lines) — the null is SELF-SIMILAR (zoom anywhere,
+  same finding). Mandelbrot's roughness (coastlines: longer rulers,
+  same jaggedness) is our heterogeneity (more worlds, same I2 =
+  0.973 — 5128 worlds bought no smoothness). Licensed as the
+  anti-resolution principle: finer measurement will not resolve
+  the tax into mechanisms (concentration audit: pooled top-3
+  0.20 vs single-history 0.43 — finer pooling made it SMALLER,
+  not sharper). Zoom out for verdicts, zoom in for humility.
+- **Comparative advantage, VOID; rent, unlandlorded [canon:
+  D. Ricardo (comparative advantage; differential rent);
+  verification deferred].** → Comparative advantage needs trade
+  (arms/banks exchange nothing — no prices, no flows, no
+  specialization gains; autarky is total). VOID with structure:
+  the gains-from-trade are exactly what our topology forbids
+  (hub and spread never exchange migrants, food, or information —
+  DISPERSE proved forced exchange kills). Differential rent
+  fares better then worse: hub patches ARE more fertile (more
+  food/area), so rent EXISTS — but no landlord collects it
+  (no owner, no tenants, no leases; the surplus starves in place
+  or concentrates births that die). Rent without landlord,
+  fertility without tenant: Ricardo's categories with the
+  social relations removed — which shows what the relations
+  were doing (without owners, fertility is just weather).
+- **The methodology charter [canon: M. Friedman (Methodology of
+  Positive Economics, 1953: assumptions need not be realistic;
+  predictions license instruments); verification deferred].** →
+  Greedy infinite discounting (false — no animal discounts
+  infinitely), zeroed newborns (false — no birth is a blank),
+  priced everything (false — attention is unpriced), always-cruise
+  unlearned (false — no animal cruises everything). Friedman
+  1953 licenses all of it: judge instruments by predictions
+  (train 0.81-0.83, replicated 6/6; tax 0.15-0.31, 10 banks),
+  not realism. The charter has Friedman's own limit built in:
+  predictions must be FRESH (hence frozen banks — testing on
+  training assumptions is exactly what 1953 forbids). Every
+  frozen plan is a Friedmanite bet (unrealistic engine, checkable
+  gap); every NOGO is the methodology working (false assumptions,
+  false predictions, discarded). Realism arrives, if ever, by
+  accumulation (middle-range, R179) — not by assumption.
