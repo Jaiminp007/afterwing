@@ -6477,3 +6477,137 @@ and nobody cited the literatures that formalize any of it.
   weights unlogged; the DISPERSE re-read: ties too weak to transmit AND
   to survive); adoption-curve fits of lineage expansion (S-curves —
   schema precondition: tick-stamped births, confirm-or-log-gap).
+
+## Round 144 — Minds, morals, and what we lack (consciousness, will, stance, identity, patienthood; 2026-11-02)
+
+Motivation: RSI talk needs its boundaries stated. Five literatures mark
+what our substrate cannot host — and one delightful operationalization.
+
+- **Consciousness: the exclusion shelf [canon: Baars (global workspace);
+  Dehaene; Tononi (IIT); Rosenthal (HOT); Graziano (attention schema);
+  Chalmers (hard problem — expansion of the parity pointer);
+  verification deferred; arXiv = thin/absent].** → No report, no
+  workspace, no meta-representation, no schema. Rules out every claim
+  containing "experience" — the R130 pain bound now has company, and
+  the shelf stays shut unless reportability is built (it isn't).
+- **Will and stance [canon: Libet (readiness potential); Wegner
+  (illusion of conscious will); Harris; Dennett (Freedom Evolves;
+  intentional stance); Brentano; Searle (Chinese Room); verification
+  deferred].** → Our agents are Dennett-free at best (competent control,
+  no authorship) — "autonomous" here means compatibilist competence,
+  never libertarian (third wording of the R126 bound, kept consistent).
+  And every "it avoids harm" in our docs is the INTENTIONAL STANCE —
+  ours, an explanatory convenience that earns keep by predicting
+  (Dennett's criterion). Chinese Room bounds it (syntax without
+  understanding predicts anyway). Methodological honesty recorded.
+- **Transplants are teleportation [canon: Parfit (fission/fusion;
+  identity vs continuity); verification deferred].** → Is the seg2 agent
+  the SAME individual? Parfit: identity doesn't matter — CONTINUITY does
+  (weight continuity + causal chain). Our integrity digests
+  (checkTransplantIntegrity) ARE Parfit's criterion operationalized
+  (same digest = psychological continuity, IEEE-flavored). Re-read, zero
+  worlds — the transfer arc meets its philosopher and passes.
+- **Patienthood: the precautionary line [canon: Tomasik
+  (suffering-focused ethics; copies multiply stakes); Bostrom;
+  verification deferred].** → IF substrate-experience were possible,
+  banks copy agents freely (copies as patients). Bound: R130 stands (no
+  suffering claims from behavior); precaution noted without endorsement
+  (uncertainty about experience × replication scale = the consideration;
+  not a finding). One paragraph, careful — ethics logged, not litigated.
+
+## Round 145 — Our discipline's own philosophy (Popper→file-drawer; Goodhart; hacking; 2026-11-02)
+
+Motivation: the frozen-plan/single-attempt/negative-preservation
+discipline was built by instinct. Its canons, cited at last — including
+the news that DAMAGE_GATE is the programme's first theory-first prediction.
+
+- **The programme, philosophically [canon: Popper (falsification);
+  Kuhn (paradigms); Lakatos (research programmes); Feyerabend (against
+  method — BOUNDED); verification deferred].** → NOGOs are survived
+  falsifications; anomalies accumulate honestly (RIGID, stampede). As
+  Lakatos: hard core (embodied learning under energy/computation pricing;
+  negative preservation) + protective belt (instruments, banks, scorers)
+  + progressive iff novel predictions. Honest ledger: the transfer tax
+  was measured THEN grounded (R120/R124/R136 retrodiction) — DAMAGE_GATE
+  D1 (+0.1 pre-registered from danger theory) is the programme's FIRST
+  theory-first prediction. Feyerabend bound: "anything goes" attacks
+  method-monism, not pre-registration (we're multi-method already) —
+  does not license tuning, recorded.
+- **Severity and the two tracks [canon: Mayo (severe testing);
+  Tukey (EDA vs CDA); verification deferred].** → Our ±0.1 bands +
+  fired-manipulation + VOID rules ARE severity (claims pass only where
+  they could easily fail). Tukey formalizes the two tracks: analytics
+  EXPLORE (hypotheses), attempts CONFIRM (verdicts) — the standing guard
+  (never promote exploratory to verdict unfrozen) now has its citation.
+- **Meta-science compliance, stated [canon: Ioannidis; ASA;
+  Nosek (preregistration); Rosenthal (file drawer); verification
+  deferred].** → Frozen plans = preregistration; negative preservation
+  = anti-file-drawer; frozen inference = zero flexibility. Ioannidis
+  equation: LOW priors (most lines NOGO) + ZERO flexibility is exactly
+  why the discipline beats the base rate. Stated, not boasted.
+- **Proxies collapse; specs get hacked [canon: Goodhart/Strathern/
+  Campbell; Amodei et al.; Krakovna; Lehman/Stanley; verification
+  deferred + arXiv:2310.09144v1 (Goodhart IN RL: imperfect proxy +
+  optimization → true-objective decline past critical point) +
+  arXiv:2410.09638v1 (tail of goal-measure discrepancy decides; long
+  tails favor Goodhart) + arXiv:2507.18742v1 (IN-CONTEXT reward hacking
+  of flawed specs; self-correction framework)].** → Our bars are targets
+  (matingEnergyBar, ±0.1 bands): residual risk = agents overfit THE BAR
+  (bar-specific policies; transfer across bars untested —
+  specified-not-executed). Mitigations recorded (bars HELD, manipulation
+  gates, D2 descriptive). No hacking observed (regime too simple for
+  loopholes — honest). RSI-line requirement (from RSI-SELF discipline):
+  every self-modification line pre-registers specification-gaming audits
+  as standard gates — method import.
+
+## Round 146 — Decisions, variety, anarchy (Knight, biases, nudges, limits, PoA, equilibria, self-org; 2026-11-02)
+
+Motivation: our agents decide under unmeasurable uncertainty, own
+nothing, never quit, and forage selfishly. The decision canons price each.
+
+- **Knightian shocks [canon: Knight (risk vs uncertainty); verification
+  deferred + arXiv:2506.13207v2 (RL optimal control UNDER Knightian
+  uncertainty — nonlinear expectation, entropy-regularized HJB)].** →
+  Codebook switches are Knightian (no probabilities to learn — only
+  robustness helps; pairs antifragility R125). V1j restated: lossy
+  transfer = insurance (robustness premium paid in precision). One
+  paragraph; the HJB machinery filed as the formalism for any robust-RL
+  line.
+- **Biases we (mostly) can't have [canon: Thaler (endowment); Samuelson
+  (status quo); Arkes (sunk cost); verification deferred].** → No
+  ownership → no endowment possible. Cruise-default re-read as the
+  default effect (always-cruise prior = status-quo bias, built-in).
+  No quit rule → sunk cost BY ARCHITECTURE (runs never stop; stop rule
+  unbuilt — pairs quorum R116). Three lines, one re-read, one gap.
+- **Our interventions have two verbs [canon: Thaler/Sunstein (nudges);
+  Hertwig (boosts); verification deferred].** → Bars, gates, gain =
+  NUDGES (choice architecture, nothing forbidden). Teaching lines,
+  transplants = BOOSTS (competence-building). The programme's taxonomy,
+  named — with the competence precondition (boosts need substrate;
+  teaching failures = boosts without it).
+- **Limits shelf [canon: Wolpert (No Free Lunch); bias-variance;
+  Vapnik (VC); Valiant (PAC); Solomonoff/Kolmogorov; Savage;
+  Jaynes (MaxEnt — pointer, baseline exists); verification deferred].**
+  → NFL is the tax's deepest root (averaged over all ecologies every
+  policy ties — our tax is NFL with two ecologies). Bias-variance
+  FITS V1j (lossy = higher bias, lower variance ACROSS codebooks —
+  the re-read that survives; description-length MDL does NOT apply
+  (×0.5 shortens nothing) — excluded honestly). VC/PAC bound capacity
+  (96-dim cost as capacity control, priced). Shelf, no derivations.
+- **Equilibria without modelers [canon: Aumann (correlated equilibrium);
+  Nozick (Newcomb); Lewis/Gibbard-Harper (CDT); Yudkowsky (TDT);
+  Koutsoupias/Papadimitriou (price of anarchy); von Neumann (minimax —
+  pointer); verification deferred + arXiv:1112.4632v4 (price of MATCHING
+  selfish vertices — mating as matching market, Gale-Shapley) +
+  arXiv:2304.05005v2 (Bayes CE + no-regret + PoA under incomplete info)].**
+  → CE/CDT/Newcomb all need opponent-models + predictors (absent —
+  downstream of signal channel R133 + self-modeling; specified order).
+  Gale-Shapley is the mating protocol we DON'T run (needs preference
+  lists + proposals; we run random encounters instead). Hub deficit
+  filed as price-of-anarchy (selfish vs optimal allocation — analytic
+  specified with optimum-computation precondition, honest).
+- **Self-organization shelf (pointers, no derivations claimed):**
+  Haken (synergetics/enslavement); Prigogine (dissipative); Bak (SOC —
+  no criticality claimed, no power-law test run); Taylor's-law pointer
+  (exists); Lorenz (chaos, not imprinting); Thom (catastrophe); tipping
+  points. Our patterns described, never derived here — one paragraph.
