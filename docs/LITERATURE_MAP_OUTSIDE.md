@@ -5757,3 +5757,132 @@ marks the two unbuilt gates.
   specified-not-executed. (2) VDJ/RAG as codebook GENERATOR (segment
   shuffling → combinatorial codebook families) — pairs the phylogeny
   design (R111); specified-not-executed.
+
+## Round 126 — Why nothing ages (senescence theory, stages we skipped, teleonomy; 2026-11-02)
+
+Motivation: MORTALITY found 100% energetic / 0 age deaths and a decorative
+lifespan knob. Senescence theory says WHEN that is expected — and names
+every life-history stage our born-adult agents skip.
+
+- **Disposable soma explains the decorative knob [canon: Medawar
+  (mutation accumulation); Williams 1957 (antagonistic pleiotropy +
+  the menopause paper); Kirkwood (disposable soma); books/journals,
+  verification deferred + arXiv:cond-mat/0102378v1 + arXiv:q-bio/0406027v1
+  (Penna bit-string model: MA reproduces Gompertz mortality AND
+  Methuselah tails; AP self-organizes; altruism reading)].** → Kirkwood
+  predicts exactly our regime: 100% EXTRINSIC (energetic) mortality →
+  zero selection for somatic maintenance → NO aging program expected.
+  The decorative knob is not a bug; it is the DS equilibrium. Penna is
+  substrate-adjacent (bit-strings accumulating defects) and doubles as
+  the load GENERATOR the load-then-recombine line needs (R107/R112:
+  MA-line calibration specified-analytic-first — Penna-sourced loads
+  are the specified source). No worlds; design import recorded.
+- **Post-reproductive life: grandmother vs lingerer [canon: Hawkes
+  (grandmother hypothesis); Williams 1957 (menopause); thin-mapped
+  R112-aside — expanded here; verification deferred].** → Our founders
+  linger post-mating (survivors at end, MORTALITY). Grandmother asks
+  whether old non-reproducers HELP (provisioning, guarding) or merely
+  persist. Specified analytic on frozen rows (old-survivor presence vs
+  gen-2 success, arm-level): zero worlds, not executed here — recorded
+  so the question stops being asked without a protocol.
+- **Stages we skipped [canon: Steinberg (adolescent risk-taking, dual
+  systems); life-history theory (Stearns/Roff: stage structure);
+  verification deferred].** → Born-adult is a design choice, not a
+  default: juvenile (learn, don't breed) → adult (perform) →
+  post-reproductive (help or persist) stages are unbuilt. The use-case
+  arrives in R128 (age polyethism). No instrument; the gap is named.
+- **Teleonomy: purpose without representation [canon: Pittendrigh
+  (teleonomy); Mayr (teleonomy vs teleology); verification deferred;
+  arXiv = zero — searched-not-found, logged].** → Bookend for the
+  autonomy discourse: our agents — and the RSI loop that would rewrite
+  them — are TELEONOMIC (goal-directed by construction, no represented
+  goals). Claims about "autonomous" improvement in this program mean
+  teleonomic improvement (better pursuit of built-in ends), never
+  teleological (chosen ends). Recorded to bound the VISION language.
+
+## Round 127 — The inner ecosystem (microbiome, sickness behavior, interoception audit; 2026-11-02)
+
+Motivation: our agents have no gut, no microbes, no illness behavior —
+and damage they cannot feel. The inner-ecosystem literatures price all
+three absences.
+
+- **The second inheritance system we never built [canon: Cryan/Dinan
+  (gut-brain axis); germ-free mouse literature; verification deferred +
+  arXiv:2511.02766v4 (microbiota→sleep via GMBA: serotonin/GABA/SCFA —
+  pairs R24 sleep!) + arXiv:2412.19945v1 (SCFA-vagus molecular-
+  communication framework — the mechanism, formalized)].** → R85 mapped
+  inheritance-without-genes EXCEPT microbes. Vertical/horizontal
+  microbe transmission is the missing second channel (our INFORMED
+  design once mentioned horizontal microbiota transmission, never built
+  it). 2511.02766v4 closes a loop: microbes → sleep → consolidation →
+  retention (R117/R24) — the inner ecosystem feeds the outer memory.
+  Specified-not-executed (needs frozen plan; a microbe channel is a
+  behavior change).
+- **Illness behavior we don't have [canon: Hart (sickness behavior as
+  adaptation: anorexia, lethargy, social withdrawal); cytokines-to-brain;
+  verification deferred; arXiv = traffic/turkey noise —
+  searched-not-found, logged].** → Code audit: damage is logged
+  (toxinDamage → stats only), never sensed, never acted on. A damaged
+  agent forages exactly like a healthy one — no sickness anorexia
+  (stop eating when damaged), no lethargy (slow when damaged), no
+  withdrawal. All three are unbuilt interoceptive-behavioral responses;
+  sickness anorexia pairs the damage-gate (R125). Specified-not-executed.
+- **Interoception audit: still unbuilt [pointer to R26 (Seth:
+  energy-trajectory value) + R125 (damage-gating); status check].** →
+  Sensed today: scalar energy (mateLeaveGate), nothing else. Logged but
+  unsensed: toxinDamage, trajectory, reserves-rate. Prescribed but
+  unbuilt: energy-trajectory value (R26), damage-gated consolidation
+  (R125), sickness responses (this round). Three rounds converge on one
+  channel — the interoceptive gap is now the program's most-prescribed
+  unbuilt instrument. No new prescription; the audit consolidates.
+- **Estivation: pointer [summer dormancy; verification deferred].** →
+  Pairs torpor (R122); same arousal-price constraint applies. One line;
+  no separate mapping unless a heat-driven (not cold-driven) dormancy
+  instrument is proposed.
+
+## Round 128 — Practice, repair, rehearsal (play, regeneration, dreaming, eusocial task allocation; 2026-11-02)
+
+Motivation: transfer is failed practice (tax), damage is unrepaired
+(no heal), replay is unthreatened (surprise, not danger). Three
+literatures plus the social-insect manual address exactly these.
+
+- **Play is transfer training [canon: Burghardt (play criteria);
+  Pellis (rough-and-tumble); Spinka (play as TRAINING FOR THE
+  UNEXPECTED); verification deferred + arXiv:2610.07130v1 (embodied AI
+  plays: hills/towers/mandalas across 30-hour runs, 13 diverging agents
+  — classical play criteria applied to machines)].** → Spinka IS the
+  transfer-tax prescription (practice the unexpected → survive codebook
+  switches). 2610.07130v1 shows machines play when given surplus (no
+  task, embodied, time) — our agents never have surplus (starvation
+  regime). Play needs post-scarcity: the R112 post-scarcity line gains
+  its assay (do bar-50 survivors play? specified-not-executed). Direction
+  recorded: surplus → play → robustness, not training → robustness.
+- **Repair we don't have [canon: Morgan; Alvarado (planaria);
+  Brockes (salamander limb); verification deferred; arXiv off-target —
+  searched-not-found, logged].** → No-repair audit: toxinDamage
+  accumulates permanently (code: stats-only, no heal path, no sense
+  path). A heal-at-cost knob is specified-not-executed with the R122
+  arousal-price carried over (repair must cost more than the damage rate
+  it erases, else free lunch). Pairs regeneration with the same pricing
+  discipline as dormancy.
+- **Rehearse threats, not surprises [canon: Revonsuo (threat
+  simulation theory: dreams rehearse threats); Hobson
+  (activation-synthesis); verification deferred; dreaming thin-mapped
+  (line 112) — expanded here].** → Our replay twin replays SURPRISES
+  (V1f–V1i). TST prescribes replaying THREATS (damaging events) —
+  which is the fear-ecology port (R100-licensed). Threat-simulation
+  replay (prioritize damaging over merely surprising) is
+  specified-not-executed — the replay line's licensed successor
+  direction, needs frozen plan.
+- **The social-insect manual: task allocation by age [canon:
+  Wilson/Holldobler (eusociality); Hamilton (haplodiploidy); Seeley
+  (honeybee democracy — pairs R113!); verification deferred; thin
+  pointer (line 4163) expanded].** → One entry, three pairings: age
+  polyethism (division of labor BY AGE) is the USE-CASE for R126's
+  unbuilt stages; queen pheromone (broadcast control of worker ovaries)
+  pairs the gain knob / volume transmission (R121); worker policing
+  (enforcement against cheating) pairs punishing institutions (R101).
+  Eusociality is the existence proof that all three mechanisms scale —
+  recorded as comparative evidence, not an instrument (our N=24
+  founder groups lack the relatedness structure; sl-CSD negative,
+  R86/R100).
