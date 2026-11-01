@@ -6240,3 +6240,128 @@ canon, all absent, with two read-this-paper pointers.
   entry task (delayed maintenance — hold a cue across ticks) is
   specified-not-executed (needs frozen plan; it would be our first WM
   assay and the prerequisite for any buffer line).
+
+## Round 138 — The soma writes back (Weismann violated; CRISPR; noise + standing variation; breeder's equation; 2026-11-02)
+
+Motivation: every transmission verdict presupposes an inheritance rule
+nobody named. This round names it — Lamarckian by construction — with
+the quantitative-genetic reading of why perfect fidelity changed nothing.
+
+- **Weismann violated, by construction [canon: Weismann (germ-plasm);
+  verification deferred; arXiv = zero — searched-not-found, logged].**
+  → Code audit: `syncNewbornLearners` copies parental LEARNED weights
+  into newborns — acquired characteristics inherited, no sequestered
+  germline. Our transmission is soma-to-newborn, Weismann-violating,
+  Lamarckian BY CONSTRUCTION. V1's gap-0 (exact copy works, changes
+  nothing) is therefore the STRONGEST form of the moral: even perfect
+  Lamarckian fidelity changes nothing when encounters are the
+  bottleneck. Re-read, zero worlds — every transmission verdict now
+  carries its inheritance premise explicitly.
+- **Biology's own exception [canon: Barrangou (CRISPR as adaptive
+  immunity); Doudna/Charpentier; verification deferred; arXiv = zero].**
+  → Spacer acquisition (attacker sequence → heritable resistance) is
+  biology's Weismann violation, deployed as defense. Our transmission is
+  CRISPR-like (acquire-then-inherit) without attacker-specificity — the
+  comparison bounds what ours lacks (specificity), not what it shares.
+- **Noise atop standing variation [canon: Waddington (developmental
+  noise); twin-divergence literature; verification deferred +
+  arXiv:1010.0370v1 (robustness ACCUMULATES cryptic variation that
+  non-genetic perturbations RELEASE as new phenotypes)].** → Code audit
+  corrects the naive twin story: founders start with SEEDED standing
+  variation (brainSeed per founder — "standing variation = founder seeds
+  only," taste-experiment.mjs:28), not identical zeros. Founder
+  divergence = standing variation × experience; 1010.0370v1 supplies
+  the release mechanism (novel codebooks release cryptic weight
+  variation as new foraging phenotypes). Specified analytic (initial
+  variance vs final divergence, both terms) — zero worlds, not executed
+  here.
+- **h²=1, R≈0, because S≈0 [canon: Lush/Falconer (heritability);
+  breeder's equation R = h²S; verification deferred; arXiv = thin].**
+  → Exact copy gives heritability 1 — yet V1 response ≈ 0 (gap 0),
+  because the SELECTION DIFFERENTIAL ≈ 0 (encounter luck, not trait
+  value, decides who breeds). The breeder's reading: response needs
+  VARIANCE UNDER SELECTION, not fidelity. V1b's noise injection added
+  variance → tiny response (3v2). The equation balances on published
+  numbers — re-read, zero worlds.
+- **Compounding is replicator dynamics [canon: Taylor & Jonker;
+  verification deferred; arXiv = zero].** → Gen-2 shares are
+  replicator-equation outputs with fitness = encounter luck. Formal
+  pointer (not a model fit): hubs are low-fitness replicators in a
+  luck-fitness landscape. One line.
+- **Unbuilt conflict layers (one line each):** meiotic drive (Sandler;
+  drive exploits recombination — our MLR1 crossover is drive-free BY
+  CONSTRUCTION); indirect genetic effects (Moore/Wolf — heritable
+  social effects need social behaviors, absent). Logged, not mapped.
+
+## Round 139 — Learning without association; vehicles we are (habituation, Braitenberg, subsumption; 2026-11-02)
+
+Motivation: our agents never habituate (repetition costs full price
+forever) and are, architecturally, 1980s vehicles. Both literatures are
+canon; both ports are precise.
+
+- **The decrement we lack [canon: Thompson & Spencer (habituation);
+  Groves & Thompson (dual-process); Sokolov (orienting comparator);
+  Rankin et al.; verification deferred; arXiv = zero —
+  searched-not-found, logged; sensitization pointer (R130)].** →
+  Repeated innocuous cue → same response, forever (TD adjusts value,
+  never decrements the response to repetition per se). Unbuilt:
+  habituation proper (response decrement — would SAVE ops; billing
+  angle recorded) + dishabituation (novelty restores). Re-read: our
+  surprise-gate (V1f) IS a Sokolov comparator functionally
+  (mismatch → consolidate). The comparator exists; the decrement doesn't.
+  Specified-not-executed.
+- **We are vehicle 3c with value [canon: Braitenberg (Vehicles);
+  verification deferred + arXiv:1612.03979v1 (FORMAL Braitenberg
+  development: complex cognitive behaviors from reactive wiring) +
+  arXiv:2003.07689v3 (Braitenberg + DEVELOPMENT: the blank slate is
+  wrong — developmental embodied agents)].** → Classification:
+  direct sensor-motor wiring + value modulation ≈ fear/aggression
+  vehicles with memory. 1612.03979v1 licenses the architecture (reactive
+  suffices for plenty). 2003.07689v3's critique applies exactly (born
+  adult, no ontogeny — R126 stages). The developmental vehicle (wires
+  itself up) is specified as the ontogeny line — needs frozen plan.
+- **Control without representation, twice [canon: Brooks (subsumption);
+  Walter (tortoises); verification deferred; arXiv = zero].** → Our
+  stack (motor primitives + cruise default + gain modulation) IS
+  subsumption-ish (layers, overrides, no central model). Re-read, zero
+  worlds — the architecture meets its ancestors. Walter's "free will in
+  rich wiring" is filed against any future free-will-adjacent claim:
+  richness, not freedom.
+
+## Round 140 — Death and recycling (apoptosis, autophagy, CR, mTOR, shelves; 2026-11-02)
+
+Motivation: our agents die only by accident, recycle nothing, and live
+under chronic restriction without any of restriction's machinery. The
+death/recycling canons, with two re-reads and one unbuilt response.
+
+- **Death that never sculpts [canon: Horvitz (programmed death);
+  Raff; Ellis; verification deferred; arXiv = zero].** → 100%
+  energetic death is CULLING (starvation removes), never SCULPTING
+  (no pruning, no selection-by-design within runs). The distinction
+  matters for any "death as mechanism" proposal: ours removes without
+  shaping. One paragraph; pairs MORTALITY + R126 (no aging program, no
+  death program either).
+- **Self-eating under starvation [canon: Ohsumi (autophagy); Mizushima;
+  verification deferred; arXiv = zero — searched-not-found, logged].**
+  → The unbuilt starvation response: recycle own structure for energy,
+  repair via self-digestion. Carries R122's pricing discipline forward
+  (digest too much and die — autophagic death is the overdose mode) and
+  pairs R128's heal-at-cost (autophagy IS heal-at-cost, endogenous).
+  Specified-not-executed with price attached.
+- **Restriction without machinery [canon: Weindruch (caloric
+  restriction); Fontana; verification deferred].** → Honest re-read:
+  bar-50 vs bar-65 IS a restriction experiment, but the result
+  (bar50 unlocks births) is a THRESHOLD effect (gate opens), not a
+  CR-response (lifespan extension, delayed reproduction). No CR claim;
+  the threshold/throttle distinction recorded so the regime isn't
+  misread as dietary restriction. One paragraph.
+- **Shelves (mapped as existing, unneeded unless lines open):**
+  nutrient sensing (mTOR/Hall — the molecular form of the interoceptive
+  gap, one line); development patterning (Wolpert French flag; Turing
+  reaction-diffusion; Gierer-Meinhardt; Sperry chemoaffinity +
+  Tessier-Lavigne netrin; Schofield stem-cell niche — the wiring shelf);
+  aging detail (Blackburn telomeres; Harman; Franceschi inflammaging;
+  Conboy parabiosis; Hayflick; Yamanaka — the repair-longevity shelf);
+  transgenerational hologenome [arXiv:2502.07366v5 (RITHMS: holobiont
+  as selection unit) — pairs R127 second channel + R119 unit question;
+  moot here (no microbiota), live for any microbe line].
