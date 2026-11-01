@@ -9114,3 +9114,215 @@ Four canons on voice and its absence.
   topology with uniform food/area) and differences persist,
   THEN culturalize (learning histories as culture) — until
   then, structure explains, and Lewis says to stop there.
+## Round 194 — Reference, holism, and disorder (Fleck, Quine, Duhem, Dupre; 2026-11-02)
+
+Motivation: transferred weights refer to what, exactly? When an
+attempt fails, what failed? And must 193 rounds unify into one
+theory? Three philosophers of science and one disorderly
+metaphysician, all answering no.
+
+- **Thought-styles that freeze [canon: Fleck (thought
+  collectives; Denkstil/Denkzwang); verification deferred;
+  arXiv = thin].** → The frozen discipline is a Denkstil
+  (thought-style: what counts as evidence (fresh banks), what
+  counts as argument (G-gates), what is unthinkable (tuning)).
+  Fleck's points land in order: the collective (me + harness +
+  frozen docs + 193 rounds — a collective of one plus
+  instruments, admitted); the style's tenacity (negatives
+  preserved BECAUSE the style demands it, not despite cost);
+  Denkzwang (thought-constraint: I literally cannot run a
+  second attempt — the guard refuses). The map (193 rounds) is
+  the style's diary. Fleck's warning (styles see what they are
+  trained to see — R181-Veblen's trained incapacity, restated
+  sociologically): filed, not answered — the style has no
+  outside except the next outside view.
+- **Gavagai in the codebook [canon: Quine (indeterminacy of
+  translation; gavagai; inscrutability of reference);
+  verification deferred ("Quine" string collides with quines —
+  specified W.V.O.; arXiv = thin)].** → Point at a transferred
+  weight and say what it means: turn-on-cue-7? avoid-harm?
+  contact-more? The stimulus meaning underdetermines the
+  reference (same weights, different codebook — the transfer
+  tax IS inscrutability measured (0.15–0.31 of meaning lost
+  in radical translation)). Quine's gavagai (rabbit? rabbit-
+  stage? undetached-rabbit-part?) is our turn (turn-at-cue?
+  turn-at-contact? turn-when-surprised? — the flip-split
+  answers behaviorally, never referentially). Inscrutability
+  doesn't stop translation (we transfer anyway, tax disclosed)
+  — it stops PRETENDING the translation is exact (V1i deployed
+  with the tax, not without it). Ontological relativity, billed
+  per operation.
+- **What failed? Everything, jointly [canon: Duhem (holism;
+  underdetermination; no crucial experiments); verification
+  deferred].** → When DAMAGE-GATE NOGOs, what failed (the
+  damage knob? the seg-1 window? my understanding of surprise?)?
+  Duhem: everything jointly (the attempt tests the whole web —
+  knob + bank + scorer + theory together; no crucial experiment
+  isolates one thread). Our Duhem-Quine response is procedural,
+  not philosophical: manipulation checks (gain arms that bite
+  prove the rig CAN show effects), null-hygiene (cross-counters
+  prove the knob didn't leak), per-line ledgers (localize blame
+  by ruling out, never ruling in). Holism accepted (verdicts
+  are about webs, not threads); helplessness refused (the web
+  is instrumented — each strand has a meter). The honest
+  residue Duhem leaves: every NOGO means "not here, not this
+  way" — never "not anywhere" (hence: no second attempts (this
+  way is spent), always new lines (anywhere stays open)).
+- **The disorder of things, as method [canon: Dupre
+  (promiscuous realism; disorder of things); verification
+  deferred].** → Each line closes separately; no grand theory
+  unifies turn-gating with mating nulls with hub sinks (the
+  map has 193 rounds and zero TOEs). Dupre licenses the
+  refusal: the world is disorderly (I2 = 0.973 — heterogeneity
+  is the finding, not the noise), so promiscuous categories
+  (turn-gating: behavior? mechanism? tactic? — all three, no
+  essence) are MORE accurate than unified ones. The program's
+  metaphysics, stated at last: pluralism all the way down
+  (banks differ, arms differ, seeds differ — and the differences
+  are real, not error bars on one true effect). META-GAIN's
+  pooled +0.131 is reported WITH I2 = 0.973 (the disorder
+  travels with the estimate, never averaged away). Unity is
+  the user's horizon (VISION.md), not the map's claim.
+
+## Round 195 — How we see (Hutchins, Knorr, Traweek, Vertesi; 2026-11-02)
+
+Motivation: no one watches a run (rows only, always). So how is
+anything seen at all? Four canons on distributed, cultured,
+rationed, rover-like seeing.
+
+- **Professional vision, frozen [canon: Goodwin (Professional
+  Vision, 1994: coding schemes + highlighting + graphic
+  representations — specified, distinct from the substrates
+  pointer committed elsewhere); verification deferred; arXiv =
+  thin (distributed-cognition fetch returned nothing — logged,
+  not used)].** → I learned to see runs the way Goodwin's
+  archaeologists learn to see dirt (coding schemes: contact/
+  turn/intake (what counts is pre-decided); highlighting:
+  dev-results gaps (what matters is marked); graphic
+  representations: curves/means plots (the run made seeable)).
+  Professional vision is TRAINED (my 193 rounds are the
+  apprenticeship — early verdicts saw noise; late ones see
+  taxes) and MATERIAL (trowels → frozen row schemas; maps →
+  dev-results tables). Goodwin's warning (vision is theory:
+  coding schemes find what they code for) is the standing
+  audit of every summary I read (per-cue contact/turn finds
+  cue-effects because it cannot find trajectories —
+  R195-Vertesi's loss, restated as training).
+- **Our epistemic culture [canon: Knorr (epistemic cultures:
+  specific machines for making knowledge); verification
+  deferred].** → High-energy physics has detectors; molecular
+  biology has benches; we have frozen lines (banks + runners +
+  scorers + verdict templates — a machine for making NOGOs as
+  reliably as GOes). Knorr's point (cultures differ in what
+  counts as knowing: physics trusts numbers, biology trusts
+  images) locates ours (we trust PROCEDURES: was the bank fresh?
+  the plan frozen? the audit independent? — numbers follow).
+  The culture's signature (negative-preservation: failures kept
+  at full resolution) is as distinctive as a detector's
+  signature (and as arbitrary: another culture (move-fast ML)
+  would call it waste). Named at last (R180-AGIL described the
+  functions; Knorr names the culture): procedural empiricism —
+  trust the freeze, then the numbers.
+- **Attempts as beamtime [canon: Traweek (beamtimes: scarce
+  shared resource, proposal-gated); verification deferred;
+  arXiv = thin (beamtime fetch returned nothing — logged, not
+  used)].** → Each attempt is beamtime (scarce (op caps, wall
+  clocks), shared (one harness, many lines), proposal-gated
+  (frozen plan = beamtime proposal; Stage-0 = pilot beam;
+  single attempt = one shift, no overruns)). Traweek's
+  ethnography (physicists' time anxiety, proposal rituals,
+  the beam as the scarce god) reads as field notes from our
+  queue (attempt-11's 2.42e9 ops spent exactly once; the
+  resume protocol as beam-recovery procedure (dual provenance
+  = the logbook); spent banks as used beam (never rebooked)).
+  The beamtime moral (scarcity disciplines design: proposals
+  sharpen because beam is finite) is our discipline's origin
+  story (frozen plans exist because attempts are scarce —
+  abundance would need no freezing).
+- **Seeing like a fly, via telemetry [canon: Vertesi (seeing
+  like a rover: data as the spacecraft's senses); verification
+  deferred].** → I see runs the way rover teams see Mars (never
+  directly — always via telemetry (rows), with instrument
+  models (scorers) standing in for senses, and the constant
+  work of imagining the terrain from the numbers). Vertesi's
+  teams draw the rover (stuffed toys, cartoons — making the
+  distant present); I draw curves (means/counts plots — making
+  the run presentable). The difference that matters: rover
+  telemetry is lossy (bandwidth-limited) and everyone knows it;
+  my rows are ALSO lossy (summaries, not trajectories — 96-dim
+  ticks compressed to per-cue contact/turn counts) but the loss
+  is rarely felt (rows feel complete — R181-Veblen's warning:
+  the incapacity is not seeing the loss). Filed with the
+  charter (R181): the next outside view from the incapacities
+  list — starting with: no one has ever watched a trajectory.
+
+## Round 196 — The patch has many natures (Ingold, Tsing, Viveiros, Descola; 2026-11-02)
+
+Motivation: one equation, twelve codebooks, fifty-four histories —
+is there one world or many? Four anthropologists vote many, in
+four different ways. All four votes recorded; the world left
+plural.
+
+- **Lines, not points [canon: Ingold (meshwork vs network:
+  lines lived, not points connected); verification deferred].**
+  → Founder tallies are network-thinking (nodes (founders),
+  edges (descent), counts (offspring) — the pedigree graph).
+  Ingold says think meshwork (lines of life lived along,
+  entangling, knotting — not points + connectors). The meshwork
+  reading of a birthy arm: not "founder 7 had 3 offspring"
+  (network) but "a line was lived from tick 0 through mating
+  at 512 to birth at 900, entangling with the patch (food
+  taken), the schedule (phase boundary crossed), the bar
+  (survived)" — a lifeline, not a tally. The audit trail
+  (rows → verdicts) preserves networks and discards meshworks
+  (no trajectories watched — R195-Vertesi's loss, restated).
+  Filed as the standing correction to every tally I publish
+  (counts describe; lines explain; I keep only counts).
+- **Friction and the nonscalable [canon: Tsing (friction:
+  universals encounter particulars; nonscalability theory);
+  verification deferred].** → Universal gates (+0.1 band,
+  G1-G4) encounter particular banks (fresh codebooks, seed
+  luck) — the encounter produces FRICTION (I2 = 0.973:
+  the universal doesn't travel; each bank answers differently).
+  Tsing's nonscalability (plantations scale by erasing
+  particulars; forests don't scale) sorts our designs exactly:
+  frozen plans are plantation logic (same instrument, every
+  bank — scalability attempted) and banks are forests (each
+  particular, nonscalable — scalability refused). The program's
+  central result restated anthropologically: transfer doesn't
+  scale (tax 0.15–0.31, bank-dependent) because banks are
+  nonscalable by construction (fresh draws, never repeats).
+  Scalability attempted (frozen everything), nonscalability
+  found (heterogeneity everything) — Tsing called this
+  friction; I called it I2. Same phenomenon, two ledgers.
+- **One culture, many natures [canon: Viveiros (perspectivism;
+  multinaturalism: one culture, many natures); verification
+  deferred].** → Same weights (one culture — the policy
+  persists), different codebooks (many natures — twelve
+  valence assignments, mutually unintelligible). Transfer as
+  multinaturalism formalized: the agent keeps its humanity
+  (turn-on-harm) while the world changes its nature (what
+  counts as harm) — exactly the Amerindian arrangement
+  (all beings human; worlds differ). The tax (0.15–0.31) is
+  the perspectival gap measured (how much humanity survives
+  a change of nature: most (same-val 0.95), not all (gap)).
+  V1j lossy (x0.5 transplant beats exact: +0.1324) as
+  perspectival wisdom (travel light between natures —
+  exactness over-preserves the old world's shape).
+- **Which ontology am I in? [canon: Descola (four ontologies:
+  animism/totemism/naturalism/analogism); verification
+  deferred].** → Audit the program's ontology: naturalism
+  (one nature, many cultures)? — fails (agents have no culture:
+  no symbols, no institutions, no second generation to
+  enculturate). Animism (one culture, many natures)? — FITS
+  (one policy-culture (turn-on-harm) across many codebook-
+  natures (twelve valences); interiority shared (all founders
+  run the same 96-dim inference), physicality multiple (each
+  bank its own body-world)). Totemism/analogism? — no (no
+  classifications bridging, no fragmented correspondences).
+  So: animism by elimination — the program's implicit
+  ontology, never stated until now. The check Descola demands
+  (ontologies have consequences: animists negotiate with
+  nonhumans as persons) — filed open (do I negotiate with
+  banks (fresh draws as diplomacy?) or merely use them?
+  — use, currently; the question is the audit).
