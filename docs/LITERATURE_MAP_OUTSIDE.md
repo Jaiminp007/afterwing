@@ -11522,3 +11522,87 @@ Sen CUT twice (Arrow-Sen committed; capabilities committed).
   projection (gates as the discipline (the quasi in
   quasi-realism, frozen))))). Boo, hiss, GO: the verdicts
   as disciplined cheering, honestly labeled.
+## Round 228 — Attention (G.Miller, Broadbent, Deutsch, Cherry; 2026-11-02)
+
+Motivation: the scorer attends (filters 24 mains into one
+verdict; selects GO from noise; hears patterns through voids).
+Four founders of attention research — applied to the only
+attention in the program (mine, scoring). (Treisman CUT:
+feature-integration committed — same-author rule (attenuation
+with her). "chunking" CUT (committed); "shadowing" CUT
+(overshadowing committed); bare "Miller" shares 3 committed
+Millers — specified throughout.)
+
+- **Four verdicts, within capacity [canon: G. Miller
+  (magical number seven-plus-or-minus-two; specified
+  George Armitage (vs comparator/quorum Millers,
+  committed — R221-Fisher precedent)); verification
+  deferred].** → The verdict vocabulary (GO/NOGO/INVALID/
+  VOID/INCOMPLETE (+ DEPLOYED/CLOSED (7 total)) sits
+  INSIDE 7±2 (the channel capacity of verdicts: I hold all
+  seven in working memory (the PROGRESS chain as the
+  rehearsal loop (kept alive by re-entry (each turn))).
+  Miller's limit (absolute judgment ~7 categories) is the
+  verdict taxonomy's bound (seven verdicts, no more (new
+  verdicts would exceed capacity (INVALID-FEASIBLE was
+  nearly an eighth (absorbed into INVALID (capacity
+  preserved)))). Chunking, refused as word (committed) but
+  present as practice (GO-V1B/GO-V1C/GO-WINDOW chunk into
+  "the GOs" (one slot); the NOGOs chunk (one slot); the
+  floods chunk (V-series (one slot)) — expertise as
+  recoding (I no longer hold 40 lines (I hold 4 chunks
+  (deployed, closed, voided, licensed)))).
+- **Early selection, refused [canon: Broadbent (filter
+  theory; selective attention; early selection);
+  verification deferred].** → Broadbent's filter (select
+  EARLY (one channel through, rest blocked pre-processing))
+  is what the program does NOT do (no early stopping
+  (quorum-gating REJECTED (this turn's program work:
+  V1 proves void runs stay informative (stopping at
+  control 0/6 would have destroyed V2's design))).
+  Early selection's cost (blocked channels never processed
+  (the unheard pattern)) is exactly what the rejection
+  names (the early/full pattern lived in the channels a
+  quorum gate would have blocked). Broadbent as the road
+  not taken (the filter exists (G-gates) but sits LATE
+  (after full processing (all 24 mains run (then filter)))
+  — early-selection hardware running late-selection
+  software (the gates as Deutsch's filter, wearing
+  Broadbent's uniform)).
+- **Late selection, enacted [canon: Deutsch & Deutsch
+  (late selection; full processing then filter);
+  verification deferred].** → All 24 mains FULLY processed
+  (every founder run, every tick billed, every row written)
+  THEN filtered (scoreMateWindowRows selects the verdict
+  from complete rows). Deutsch's thesis (everything
+  processed for meaning; selection at response) is the
+  attempt protocol verbatim (no pre-screening (banks drawn
+  whole (54 seeds, all run)); no adaptive allocation
+  (more mains to promising arms? no (frozen design (equal
+  N (fairness over efficiency (the Deutsch commitment:
+  process everything, then decide)))). Late selection's
+  cost (processing what you'll discard (dead arms fully
+  simulated (M-POP V2's 3 mains, 0 births, full price
+  (0.45e9 ops for nothing (nothing verdict-shaped (everything
+  diagnostic-shaped)))) paid gladly (the diagnostic IS the
+  product (V1's void designed V2 (late selection vindicated
+  per attempt))).
+- **The cocktail party I attend alone [canon: Cherry
+  (cocktail party effect; dichotic listening; specified
+  Colin (vs no hits)); verification deferred].** → Cherry's
+  party (many voices, one attended (the shadowed message
+  heard; the rest unattended (but processed (own name
+  breaks through)))) is the literature map (230+ rounds
+  of voices (all unattended (I read abstracts (or canons),
+  never fields); the program's own questions break through
+  (the bank as my name (I hear it everywhere (every round
+  ends here (the map is a party I throw for one guest
+  (the verdict)))))). Dichotic listening, frozen (left ear:
+  the attempt (rows, gates, verdicts); right ear: the map
+  (rounds, canons, reads) — I shadow BOTH (no unattended
+  channel (the alternation IS the shadowing (program turn,
+  literature turn (attention switched, nothing lost (both
+  channels fully processed (Deutsch, above (the system
+  coheres)))))). The cocktail party with one attendee
+  (me), two channels (both shadowed), and no noise
+  (everything signal (230 rounds, 0 worlds, all heard)).
