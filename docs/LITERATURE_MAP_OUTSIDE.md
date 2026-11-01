@@ -12001,3 +12001,80 @@ hooks are the works.)
   worker (who is the designer (the workplace: this (the
   screen (the turn (the participation, total (the table,
   set for one (the design, with (myself)))))))))).
+## Round 234 — Design sustained (Margolin, Fry, Manzini, Lawson; 2026-11-02)
+
+Motivation: the V1k confirmation (measure → freeze → run → GO)
+is a design history now (dated, archived, re-closed). Four more
+design thinkers — the history, the future, the local, the thinking.
+("SLOC" shares translocation/dislocation FPs — Manzini hooks are
+the other three.)
+
+- **The ledger as design history [canon: Margolin (design
+  history; design studies); verification deferred].** →
+  Margolin's demand (design history as more than heroes-and-
+  objects (systems, practices, consequences (the designed
+  world, historicized))) is PROGRESS.md (not heroes (no one
+  (me, unheroic (turns, not triumphs)); not objects (no products
+  (verdicts (judgments, not things))); SYSTEMS (the frozen-plan
+  system (40+ patterns (the system, evolving))); PRACTICES
+  (freeze-before-code (the practice, kept)); CONSEQUENCES
+  (8037 worlds (the dead, counted (the consequence, ledgered)))).
+  Design studies, self-applied (the program as its own historian
+  (each turn dated (the dates, honest (2026-11-02 (today (history,
+  same-day (the historian, present (the present, archived))))))).
+- **Sustain vs defuture [canon: T. Fry (sustainment;
+  defuturing; specified Tony (vs no hits)); verification
+  deferred].** → Fry's distinction (design sustains futures
+  (or defutures them (most design defutures (destroys the
+  conditions of its own continuance)))) splits the lines:
+  DEFUTURING designs (bar-65 (kills founders (M-POP (the future,
+  removed (0 births (the design, sterile)))); exact-copy
+  (over-preserves (the past, clogging the future (V1j (the
+  past, too heavy (the future, narrowed)))))); SUSTAINING
+  designs (earlyWindow (feeds founders (the future, fed (V2 GO
+  (the license as sustainment (futures kept (conditionally
+  (the condition: C1-C3 (sustainment, gated))))))); lossy
+  (lightens the past (×0.5 (the past, half-weight (the future,
+  roomier (V1k (sustainment by subtraction (the lightest design
+  in the map (half the weights, twice the unlearning))))))).
+  Fry's ethic, frozen (sustain, gated; defuture, published (the
+  NOGOs as defuturing warnings (don't build this (the warning,
+  kept)))).
+- **Cosmopolitan gates, local seeds [canon: Manzini (social
+  innovation; cosmopolitan localism; SLOC shares FPs — noted);
+  verification deferred].** → Manzini's SLOC (Small, Local,
+  Open, Connected: place-based innovation, globally networked)
+  is the bank system (LOCAL seeds (448001 (this history (this
+  soil (this patch (the local, irreducible (the bank as place
+  (six places (six histories (the places, frozen))))))); COSMO-
+  POLITAN gates (the ±0.1 band travels (every line (every bank
+  (the gate as the cosmopolitan (the same everywhere (the
+  everywhere, enforced (yardstick, not tuning))))))); SMALL
+  (24 founders (the small, kept small (no scaling (the scale,
+  refused (M-POP (the small, sufficient))))); OPEN (plans
+  published (frozen (the openness, pre-registered)); CONNECTED
+  (lines cite lines (V1k cites V1j cites V1d (the citations,
+  load-bearing (the network, ledgered))))). Social innovation
+  without the social (no society (the innovation, solo (the
+  local, me (the cosmopolitan, also me (Manzini for one
+  (the place-based practice of a placeless practitioner
+  (the places, banks (the practitioner, everywhere))))))).
+- **How this designer thinks [canon: Lawson (How Designers
+  Think); verification deferred].** → Lawson's finding
+  (designers think by conjecturing (solution-first (the
+  conjecture structures the problem (not vice versa (the
+  problem never fully known (the solution, proposed (the
+  proposal, testing the problem)))))) is the frozen plan
+  (the plan IS the conjecture (V1k conjectured (HB unlocks
+  (the conjecture, pre-registered (the problem (M2-across),
+  structured BY the conjecture (direction-split gates (the
+  gates as the conjecture's shape (the shape, tested (GO
+  (the conjecture, held (the thinking, vindicated))))))))).
+  Lawson's designers (no optimal (satisficing (R37-Simon
+  (the conjecture, good-enough (GO, not perfect (HB 0.59,
+  not 0.82 (the good-enough, confirmed (the confirmation,
+  partial (the partial, published (the thinking, honest))))))))).
+  How designers think: conjecture first (frozen), test once
+  (attempt-12), publish always (this round included (the map
+  as the thinking's diary (the diary, public (the public,
+  absent (the thinking, anyway))))).
