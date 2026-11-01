@@ -1,6 +1,10 @@
 # TURN-GATE PLAN V1k — direction-gated lossy confirmation (FROZEN, DESIGN ONLY)
 
 Date: 2026-11-02. Status: FROZEN before code (freeze-before-code rule).
+CORRECTION 2026-11-02 (bookkeeping only, no design change): attempt-11 →
+attempt-12 and fresh-11 → fresh-12 — both names are taken by the DAMAGE line
+(turn-gate-damage-dev attempt-11 + its fresh-11 bank). Gates, bank range,
+caps, fixtures unchanged.
 License: `docs/LOSSY_DIRECTION_MEASUREMENT_V1.md` (post-hoc HB +0.2342
 vs BH +0.0099 on frozen V1j rows → pre-registered direction-gated test).
 Line V1b–V1j closed (GO + annex); V1j explicitly demands new rationale —
@@ -68,7 +72,7 @@ match hand computation, empty-direction → null fail-closed).
 
 ## Bank, caps, attempt discipline
 
-- Fresh-11 bank `evidence/turn-gated-dev/fresh-11/`: 6 histories × 9 =
+- Fresh-12 bank `evidence/turn-gated-dev/fresh-12/`: 6 histories × 9 =
   54 seeds, range **448001–448054**. VERIFIED clean 2026-11-02 (zero
   exact-seed/registry/test hits across docs/scripts/tests/learning/
   engine pre-freeze). Builder re-verifies at build; fixture-seeds file
@@ -76,7 +80,7 @@ match hand computation, empty-direction → null fail-closed).
   + own 448001–448054 appended). Spent = V1j's list + own range.
 - Caps: 12 mains / 0 probes / 21504 worldTicks / 516096 founderSlots /
   3.0e9 scalar ops (1.6× V1j actual 1.90e9) / 7200s wall. Fail-closed.
-- ONE authorized attempt (attempt-11). `redone: []` expected; repair
+- ONE authorized attempt (attempt-12). `redone: []` expected; repair
   only result-independent one-line cap form with dual provenance
   (V1-cap precedent); any other deviation → INVALID, line closes.
 - Triage: zero NEW failures vs pre-freeze baseline (record both;
