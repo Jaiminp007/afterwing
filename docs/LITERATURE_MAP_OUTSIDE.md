@@ -6125,3 +6125,118 @@ each gap — two as re-reads, two as builds.
   (absent channel, R133) — recorded as downstream of the signal
   channel, correctly sequenced (channel → shared valence → co-constructed
   categories).
+
+## Round 135 — The nose and mouth we borrowed (olfactory + gustatory canon; receptive fields; 2026-11-02)
+
+Motivation: our cues are odors, our modality is taste, our weights are
+receptive fields — none of the three canons was mapped. This round pays
+that debt with one unbuilt instrument.
+
+- **Receptor repertoires adapt continuously [canon: Buck & Axel
+  (odorant receptors); Laurent (antennal lobe); Wilson & Mainen;
+  piriform; verification deferred + arXiv:1801.09300v4 (receptor
+  ABUNDANCES adapt to odor statistics for efficient coding; mammalian
+  OSNs turn over continuously → the distribution IS the environment
+  model, perpetually retuned)].** → Our codebook = receptor repertoire;
+  our transplants = ABRUPT retuning. 1801.09300v4 says biology retunes
+  CONTINUOUSLY (turnover + exposure-driven abundance shifts) — the
+  transfer tax is the price of discontinuous retuning. Unbuilt
+  instrument: continuous-adaptation codebook (abundances track running
+  odor statistics; no transplant shocks) — specified-not-executed, needs
+  frozen plan. Pairs efficient coding (R96) + tax-as-theorem (R120).
+- **Taste is hedonic by construction [canon: labeled-line vs
+  across-fiber (Chen/Yarmolinsky); gustatory cortex; verification
+  deferred; arXiv = thin].** → Unlike vision, taste carries valence IN
+  the channel (good/bad is proximal, not inferred). Our intake channel
+  already does this (beneficial/harmful logged separately) — the affect
+  shortcut the visual brain must compute, we get free. Pairs R134
+  valence (the energy trajectory has a labeled-line precursor). No
+  instrument; the modality choice is vindicated, not built.
+- **Our weights are receptive fields [canon: Hubel & Wiesel
+  (receptive fields); Barlow pointer (R96); verification deferred].**
+  → The niche fingerprint (1-NN niche-ID 1.000) IS a receptive-field
+  mapping: weights identify foraging niches exactly as V1 RFs identify
+  oriented edges. Re-read, zero worlds — fingerprint meets its canon.
+
+## Round 136 — The little brain (cerebellum, rhythms, avoidance, occasion setters; 2026-11-02)
+
+Motivation: our motor learning is pure TD feedback — no forward model,
+no rhythm, no fear, and gates that don't know they're gates.
+
+- **Anticipation without feedback delay [canon: Marr-Albus-Ito;
+  Thompson (eyeblink); Wolpert (forward models); verification deferred
+  + arXiv:1901.01309v2 (cerebellum embodies internal models of
+  PERSISTENT exogenous disturbances — thesis) + arXiv:1701.07775v1
+  (Purkinje forward model → anticipatory control despite delays)].**
+  → Our turn-gating is REACTIVE (turn ON contact). Cerebellar-analog =
+  forward model of food/contact dynamics → turn BEFORE contact
+  (anticipatory turning — specified-not-executed). 1901.01309v2's thesis
+  is the formal version of "learn the codebook" (persistent disturbance
+  = codebook statistics) — recorded as the theory our gain line
+  approximates without implementing.
+- **Rhythms need a generator [canon: Marder (STG); Grillner;
+  verification deferred; arXiv = thin].** → No CPG, no gait, no stepping
+  — cruise is constant, not generated. Sequencing deepens (R121
+  downscope extended): CPGs → oscillations → delay plasticity. Each
+  presupposes the last; we have none of the three. Recorded as the
+  dependency chain, not three instruments.
+- **Avoidance without fear decays [canon: Mowrer (two-process:
+  Pavlovian fear motivates instrumental escape); verification deferred;
+  flagged SPECULATIVE].** → Our turn|harmful learned with no fear
+  process (pure TD; fear ecology licensed R100, unbuilt). Mowrer
+  predicts fearless avoidance extinguishes fast — candidate reading of
+  the harm→ben stall (~0.67: avoidance that never feared, decaying)?
+  Hypothesis only, no claim — needs the fear channel built first to
+  test (fear-then-avoid vs avoid-only, specified-not-executed).
+- **The cleanest associative account of the tax [canon: Holland;
+  Bouton (occasion setting: context HIERARCHICALLY gates CS→US, elicits
+  nothing itself); verification deferred; distinct from Bouton-2004
+  extinction coverage].** → The codebook is an OCCASION SETTER (gates
+  cue→action links, predicts nothing alone). Transfer tax = setter loss:
+  new setter, old gates don't transfer — exactly the occasion-setting
+  signature (context-specificity of modulation, not of association).
+  Re-read, zero worlds — joins SR-theorem (R120) and switch-costs (R124)
+  as the third independent grounding of the closed transfer arc.
+
+## Round 137 — The body sense (efference, proprioception, maps, buffers, control; 2026-11-02)
+
+Motivation: our agents don't know what they commanded, how they're
+posed, where they are, or what they're holding. The state-estimation
+canon, all absent, with two read-this-paper pointers.
+
+- **Efference: the free supervisory signal [canon: von Holst &
+  Mittelstaedt (reafference); Sperry; Crapse & Sommer; verification
+  deferred + arXiv:2210.09224v2 (SSL THROUGH efference copies: knowing
+  the command-view pairing IS the supervisory signal — biological
+  first-principles unification of SSL) + arXiv:2508.12027v1 (active
+  inference for ACTION-UNAWARE agents — our agents' exact condition:
+  the formalism for inference without action knowledge; pointer, not
+  adopted)].** → No efference copy → no self/other distinction → no
+  agency (pairs teleonomy, R126). 2210.09224v2 makes the copy the
+  unbuilt SSL channel (command → predicted sensation → mismatch-learn;
+  specified-not-executed). 2508.12027v1 is filed as the candidate
+  framework IF action-unawareness is kept as design (not a concession —
+  a thesis: unaware agents can still infer).
+- **Pose: unsensed [canon: Proske (proprioception); muscle spindles;
+  verification deferred].** → Speed commanded, never sensed; position
+  unknown to self. One-line inventory addition (no proprioceptive
+  channel). Pairs the pose half of navigation (R137-maps is the other).
+- **Replay should conform to the new layout [canon: O'Keefe (place);
+  Taube (head direction); Moser grid pointer (covered); verification
+  deferred + arXiv:2209.08572v1 (layout-CONFORMING replay: place replay
+  adapts trajectories to CHANGED mazes — our twin doesn't) +
+  arXiv:2601.03520v1 (multiscale place + replay-based reward accelerates
+  RL navigation)].** → No spatial buffer (position unknown). The replay
+  upgrade specified: conform-to-new-layout replay (replay the NEW
+  codebook's geometry, not the old trace) — pairs V1j (restructure,
+  don't decay) + R128 rehearsal. Specified-not-executed.
+- **Buffers and control [canon: Baddeley; Cowan (4±1); Funahashi (PFC
+  delay); Miller & Cohen (cognitive control); verification deferred +
+  arXiv:2409.10715v2 (attention LIMITS WM capacity — executive-attention
+  mechanism) + arXiv:2408.07637v2 (SYNAPTIC chunking: short-term
+  plasticity forms chunk representations)].** → No maintenance buffer
+  (slow anchors integrate; they don't hold). Chunking is the compression
+  twin (pairs V1j + RMAAT R121): hold 4±1 chunks, not 96 dims. The
+  entry task (delayed maintenance — hold a cue across ticks) is
+  specified-not-executed (needs frozen plan; it would be our first WM
+  assay and the prerequisite for any buffer line).
