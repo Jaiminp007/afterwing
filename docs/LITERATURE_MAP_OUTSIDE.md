@@ -10205,3 +10205,71 @@ rules, all posted.
   govern ME? — yes (I never go behind them; the picture is
   my whole world (R196-Ingold: lines discarded, tallies
   kept))).
+## Round 210 — The program's books (Ijiri, Mattessich, Chambers, Grigg; 2026-11-02)
+
+Motivation: every attempt balances (residual <1e-7), every world
+is priced (ops), every source hashed (SHA). The program keeps
+books — here are their theorists. Pacioli (double-entry) committed
+R166; cited, not re-covered.
+
+- **Momentum in the ledger [canon: Ijiri (triple-entry;
+  momentum accounting: wealth + momentum + force);
+  verification deferred + arXiv:2005.07802v5 (REA/TEA/
+  blockchain genealogy: shared ledgers as single source of
+  truth — read) + arXiv:2101.02632v3 (TEA terminology
+  standardization — read)].** → Double-entry records stocks
+  and flows (banks (wealth) + attempts (income)); Ijiri's third
+  entry records MOMENTUM (the rate of change of income).
+  Our books lack momentum accounting (no force account:
+  compounding (V1g→V1h→V1i +0.066→+0.134→+0.260) was
+  narrated, never booked — the acceleration unbilled).
+  Filed as the missing statement (balance sheet (banks: 8001
+  worlds) + income statement (verdicts: GO/NOGO) + NO momentum
+  statement (is compounding accelerating? — asked nowhere)).
+  The reads (shared ledgers, single truth) describe our
+  provenance stack exactly (protocol + attempt + rows + hashes
+  = one truth, four copies) — triple-entry avant la lettre,
+  minus Ijiri's third column.
+- **Purpose-built books [canon: Mattessich (accounting
+  theory: systems serve purposes); verification deferred].** →
+  Ledgers serve decisions (which line continues? (none —
+  all close); which knob deployed? (gain 1.0/3.0); what
+  spent? (8001 worlds)). Mattessich's conditional-normative
+  theory (no universal books; design for the decision) is
+  our chart of accounts verbatim (mains/probes/ticks/
+  founder-slots/ops/MB/seconds — seven measures because
+  seven scarcities, not because accounting says so).
+  Purpose stated on every ledger (caps per attempt (5e9 ops)
+  = budgets; redone[] = audit trail; verdict = closing
+  entry). Books that know what they're FOR (decisions under
+  scarcity) — Mattessich compliant by construction.
+- **Exit prices, no history [canon: Chambers (current cash
+  equivalents; exit prices over historical cost);
+  verification deferred].** → Rows carry CURRENT values
+  (this bank, this seed, this energy — priced now);
+  historical cost rejected (spent banks written OFF, not
+  depreciated (no carrying value for 446001–446054 (spent,
+  gone)); sunk worlds never amortized (8001 is a COUNT,
+  not an asset)). Chambers vs the program's one compromise
+  (negative-preservation KEEPS history (all rows, full
+  resolution) — historical cost smuggled back as archive
+  (tarballs: the cost principle in gzip)). Exit-price books
+  with a historical attic: trade current (verdicts), keep
+  everything (evidence) — Chambers for decisions, Pacioli
+  for the attic (committed, cited).
+- **The third entry, cryptographic [canon: Grigg (triple-entry
+  via signatures; Ricardo payment system); verification
+  deferred + arXiv:2411.15190v1 (TEA + ML for transparency —
+  read)].** → Every row's third entry: the hash (bank SHA,
+  source SHA, protocol hash — signatures witnessing that
+  THIS row came from THAT bank under THOSE sources).
+  Grigg's Ricardian triple (payer + payee + shared receipt)
+  is our provenance triple (attempt.json (payer: spent the
+  worlds) + rows (payee: received the verdicts?) + sources/
+  hashes (receipt: witnessed by SHA)). The read (ML for
+  transparency) inverted (our transparency is pre-ML
+  (hashes, not models — verification by re-derivation
+  (CMH/FAE audits), never by learning). Books that cannot
+  be cooked (finding a second preimage is harder than
+  finding a second GO) — Grigg's dream, incidentally
+  achieved by people who never read him.
