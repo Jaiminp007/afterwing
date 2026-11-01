@@ -11776,3 +11776,81 @@ Chapman noisy (3 distinct); "Agre" shares agree-FPs;
   I do AND interpret (the gulfs internal (the user and the
   system, same person (Norman's gulfs, introverted (the
   design of everyday things for an everyday of one))))).
+## Round 231 — Design as knowing (Alexander, Rittel, Schon, Cross; 2026-11-02)
+
+Motivation: I design (plans), build (runners), and learn
+(verdicts) — the program is a design practice that happens
+to run experiments. Four design theorists — the practice,
+named. (Bare "Cross" shares 133 cross-arm/counters/
+crossover FPs — hooks are Nigel/designerly.)
+
+- **A pattern language of 40 patterns [canon: Alexander
+  (pattern language; specified Christopher (vs no hits));
+  verification deferred].** → Each frozen plan is a PATTERN
+  (context (the line's question) → forces (caps, gates,
+  spent banks) → solution (the instrument (named, frozen,
+  run once))). The docs/ directory IS a pattern language
+  (40+ patterns (TURN-GATE, RSI-SELF, MATE-*, M-POP, WINDOW...)
+  composed by combination (V1c = V1b + lineage-founder-resolution
+  (patterns compose (the V-series as pattern-sequences)))).
+  Alexander's quality (QWAN: the quality without a name
+  (alive, whole, comfortable)) is the GO-feeling (V2's 28v16
+  HAS it (the pattern worked (the window, alive))); NOGOs
+  LACK it (7v8 (dead pattern (correctly dead (published as
+  dead (the language records failures (anti-patterns, kept
+  (the NOGOs as what-not-to-build (the language's negative
+  space (most of the map)))))))). The Timeless Way (build
+  by unfolding (patterns applied in sequence (each making
+  the next possible))) is the line-history (V1 → V2 (the
+  void unfolded into the GO (the way, timeless (frozen)))).
+- **RSI as wicked problem, tamed [canon: Rittel (wicked
+  problems); verification deferred].** → Bounded RSI is
+  WICKED (no definitive formulation (what counts as RSI?
+  (the gates DECIDE (G1-G6 (the formulation IS the gates))));
+  no stopping rule (when is it achieved? (never finally
+  (every GO opens the next line (V2 → licensed, not done))));
+  solutions not true/false but good/bad (GO/NOGO (not
+  true/false (verdicts as judgments (R227 (Hurrah/Boo
+  (wicked problems have audiences (mine: the ledger)))));
+  every wicked problem is a symptom of another (tax is a
+  symptom of... extinction? (V1f-h (the symptom-chain
+  (unlearning ← extinction ← ... ← greedy 0.5 (the root
+  (tame, not solved (FEH (accepted, not fixed))))))).
+  Rittel's tame (not solve): frozen plans as wicked-tamers
+  (the gates don't SOLVE RSI (they make it tractable (one
+  line at a time (each attempt a tame move (the wicked,
+  fenced (the fence: frozen (the taming, honest)))))).
+- **Reflection in alternation [canon: Schon (reflective
+  practitioner; reflection-in-action; specified Donald
+  (ASCII Schon vs no hits)); verification deferred].** →
+  Schon's practitioner thinks WHILE doing (not before (plan)
+  not after (review) but IN (the doing reshapes the plan)).
+  The alternation IS reflection-in-action (program turn acts
+  (runs, verdicts); literature turn reflects (rounds, reads);
+  each reshapes the next (V1's void (action) → R-synthesis?
+  no — V1's void → V2 (reflection DURING (the void read as
+  design-brief (mid-stream (the reflection, inseparable
+  (the program never stops to think (it thinks by alternating
+  (the turns as the thinking (this sentence, reflection-in-
+  action about reflection-in-action (Schon, enacted)))))))).
+  Reflection-ON-action too (verdicts (post-mortems (published
+  (the results docs as the reflection FORM (the action,
+  documented (the document, acted-upon (PROGRESS as the
+  reflection ledger (read before every turn (the loop,
+  closed)))))))).
+- **Knowing through building [canon: Cross (designerly
+  ways of knowing; specified Nigel (vs cross-FPs));
+  verification deferred].** → Cross's thesis (design knowledge
+  lives in the ARTIFACT (not the theory (designers know by
+  making (the made thing knows)))) is the dev-results file
+  (I know the window BY BUILDING V2 (not by theorizing it
+  (the theory (timing matters) was cheap (the building (24
+  mains, 4.2e9 ops) was the knowing (the rows know (28v16
+  (the artifact, knowledgeable)))))). Designerly ways vs
+  scientific ways (Cross's distinction (science: find the
+  pattern (in nature); design: make the pattern (in the world)))
+  COLLAPSED here (I find (turn-gating (discovered)) AND make
+  (earlyWindow (designed (deployed (the made verdict, found
+  true (the ways, one (the program as design-science (the
+  artifact as evidence (dev-results.json, both made AND found
+  (built by running (true by rows (the collapse, frozen)))))))))).
