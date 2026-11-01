@@ -24,3 +24,12 @@
 - Structural finding: decoupled mating is proximity-gated (engine.mjs:175-178 — mate-action channel bypassed); sensing acts only via locomotion; [0.5,2]× range-invariant. Sharpens V1's learned-use reading; R65 patching-illusion cross-link recorded.
 - Consequence: mating arc tested proximity-mediated mating throughout; Emlen-Oring needs proximity-rate manipulation (not sensing); weight-logging requirement now conditional on coupled designs.
 - Line CLOSED. Results: `docs/MATE_ATTRACT_RESULTS_V1B.md`. Cumulative program spend: 7779.
+
+## V2 (hardwired taxis, NOGO 2026-11-02)
+
+- Plan: `docs/MATE_ATTRACT_PLAN_V2.md` (action-level knob after sensing proved bypassed; k=2 food-parity pre-registered; sign verified by fixture; -0 analysis documented).
+- Implement: mateAttractBias null-default knob (motorPrimitive + tickMotor + 4 billing sites 6/9→9/12 + validation + TasteExperiment passthrough; 5 Python audit mirrors synced) + `scripts/mate-attract-v2.mjs` (attract/spread + hub anchor, per-arm bias maps, contrast verdict) + scripted steering proof (direction verified) + JSON-normalized bit-identity + absolute billing (9/12) + 11/11 fixtures; triage baseline restored (17 fallout items fixed as billing-sync, same-class as pursuit mirror); fresh bank 436001–436054.
+- Attempt-03 (single, authorized, 2026-11-02): 18 mains / 0 probes / 3.59e9 ops, clean pass.
+- Verdict: **MATE-ATTRACT-NOGO-V2** (attract gen-2 2 vs spread 3, births 31v33; firstMatingTick 4/6 identical — encounters on the same schedule; hub anchor 6).
+- Line + arc CLOSED: sensing bypassed + steering inert → bottleneck is downstream (encounter→birth conversion / birth→gen-2 survival), not encounter rate.
+- Results: `docs/MATE_ATTRACT_RESULTS_V2.md`. Cumulative program spend: 7857.
