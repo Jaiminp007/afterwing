@@ -8359,3 +8359,190 @@ blindness of the trained, and the labels only the powerful apply.
   speaks for the arms. The frozen plan is the only defense
   counsel — which is why freezing it before execution is
   load-bearing, not ritual.
+## Round 182 — Growth without inheritance (Schumpeter, Schultz/Mincer, Malthus, Keynes; 2026-11-02)
+
+Motivation: the program grows (182 rounds) without inheriting (every
+line starts zeroed). Economists named every half of this: the
+destruction, the capital that dies, the trap, the hoarding.
+
+- **Creative destruction without creation [canon: Schumpeter
+  (creative destruction; gales); verification deferred].** →
+  Closed lines die without replacement: V1 closes, nothing inherits
+  its codebook; M-ACTOR closes, no child line; DISPERSE closes,
+  no dispersal v2. Within lines there IS creation (V1g → V1h →
+  V1i compounds +0.066 → +0.134 → +0.260), but across lines only
+  the gale blows — each new line a fresh foundation, not a rebuilt
+  structure. Schumpeter's gale is supposed to clear ground FOR
+  successors; ours clears ground and salts it (spent banks never
+  regenerate). The honest gloss: our destruction is memorial
+  (negatives preserved in full), not productive. Licensed as the
+  standing question for every closure (what, if anything, inherits
+  this? — usually: nothing, by design).
+- **Human capital without bequests [canon: Schultz (human
+  capital; Transforming Traditional Agriculture); Mincer (earnings
+  function: schooling + experience); verification deferred +
+  arXiv:2302.14440v4 (Scandinavian mobility: transmission channels
+  are human/social capital, not genes — read)].** → Weights are
+  human capital: they pay within lifetimes (train 0.81-0.83 —
+  experience has Mincerian returns) and die with their holders
+  (syncNewbornLearners zeroes every newborn — no bequests, no
+  schools, no apprenticeships). The arXiv read's point (mobility
+  runs through transmitted capital, not talent) inverts cleanly:
+  our perfect-mobility society (R180) transmits NOTHING, so
+  nothing compounds across generations — which is why lineage
+  depth never becomes lineage advantage (hubs are sinks;
+  copybest changes nothing). Schultz's traditional agriculture
+  (low-productivity equilibrium, no investment) is the food
+  arms' condition stated 60 years early: surplus, when it
+  appears, is eaten or starves, never invested in transmitting
+  skill — because transmission is architecturally absent.
+- **Positive checks everywhere [canon: Malthus (population presses
+  on food; positive vs preventive checks); verification deferred;
+  arXiv = thin (Malthusian fetch returned nothing — logged, not
+  used)].** → No preventive checks exist (no fertility regulation
+  — births happen whenever the bar and the encounter allow);
+  positive checks operate continuously (starvation: mortality 100%
+  energetic, 21/21 arms; hubs starve 2-3x spread; dense arms -64
+  vs -57). M-POP V2 is the Malthusian experiment run clean:
+  cut the bar (more subsistence) and population still cannot
+  establish — the check is not the bar but the encounter rate
+  itself (founders die before mating). Malthus behind the bar:
+  subsistence is necessary and not sufficient, because the
+  positive check strikes before the preventive margin is ever
+  reached.
+- **The liquidity trap at the mating bar [canon: Keynes
+  (liquidity trap; animal spirits; beauty contest);
+  verification deferred].** → Bar-65 founders hoard (survive)
+  instead of investing (mate) — liquidity preference under
+  uncertainty. Cut the rate to bar-50 (M-POP V2) and investment
+  STILL doesn't flow: the trap is at the zero lower bound (the
+  blocker is upstream of the threshold — founders die before
+  mating, so no rate cut reaches the margin). Animal spirits
+  (confidence as an independent driver) are architecturally
+  absent — no expectations channel exists, so no spirits can
+  lift. And the beauty contest (guessing others' guesses) is
+  VOID twice over: no second-guessing (greedy inference) and no
+  others to guess about (no theory of mind — R169). Keynes
+  without agents who expect: the trap without the spirits,
+  the hoarding without the psychology.
+
+## Round 183 — City and strangers (Simmel, Burgess, Wirth, Michels; 2026-11-02)
+
+Motivation: hubs are cities (dense, zoned, anomic) and transferred
+agents are strangers (near and far at once). Urban sociology read
+the patch before we built it.
+
+- **Money and the Stranger [canon: Simmel (Philosophy of Money;
+  The Stranger); verification deferred].** → The op ledger is
+  Simmelian money: a universal equivalent pricing incommensurables
+  (ticks, contacts, births, boosts — all in ops), cold, exactly
+  calculative, leveling every quality into one quantity. And the
+  transferred agent IS the Stranger (comes today and stays tomorrow:
+  fixed in the new bank, free of its history — near (same weights)
+  and far (different world) at once). Simmel's stranger trades
+  (money!) because objectivity is his position; ours cannot trade
+  (no exchange — R182) and so remains stranger forever: never
+  naturalized, only measured (same-val 0.95 says the weights
+  persist; the gap says the city stays foreign).
+- **Zones without succession [canon: Burgess (concentric zones;
+  invasion-succession); verification deferred; arXiv = thin
+  (urban-scaling fetch returned one off-target allometry —
+  logged, not used)].** → Hub core, spread periphery, founder box
+  50-950 x 50-590 as the zoned city. But succession fails:
+  DISPERSE d=1 (forced invasion of the periphery) destroys
+  (1-vs-8, cliff at gen-2) — invaders do not succeed, they die.
+  Burgess's sequence (invasion → succession → new equilibrium)
+  arrests at step one: our ecology has zones without metabolism
+  between them (no migration in the wild type; forced migration
+  kills). The hub is a Loop that never gentrifies outward and a
+  slum that never filters down — static zones, no urban process.
+- **Density as anomie [canon: Wirth (urbanism as a way of life:
+  size, density, heterogeneity); verification deferred].** →
+  All three Wirthian conditions hold in the dense arms (72
+  founders; hub concentration; mixed codebooks) and all three
+  predict breakdown: crowded arms underperform (-64 vs -57 —
+  fixed food divided by more mouths), hubs are sinks (per-capita
+  B-D negative 8/8), heterogeneity never integrates (I2 = 0.973
+  — banks stay strange to each other). Wirthian anomie in silico:
+  not normlessness (norms are frozen and total) but the urban
+  pathologies of contact without community — encounters that
+  cost without binding (mating attempts that rarely convert:
+  0.05-0.15/main).
+- **The iron law of lineages [canon: Michels (iron law of
+  oligarchy: organization begets oligarchy); verification
+  deferred].** → Reproduction begets oligarchy: few maternal
+  lines dominate every birthy arm (lineage compounding = depth,
+  not growth — the same lines, deeper). Michels' mechanism
+  (organization needs leadership; leaders entrench) runs without
+  leaders: the entrenchment is arithmetic (early births compound
+  into founder effects; 416046 decides V1b). Democracy (equal
+  founders, 65.0 each) produces oligarchy (few lineages) by tick
+  1792 in every arm that reproduces at all. The law holds
+  without psychology — which is Michels' point sharpened:
+  oligarchy needs no oligarchs, only organization.
+
+## Round 184 — Risk, ambiguity, and the kink (Ellsberg, Allais, Bernoulli, Machina; 2026-11-02)
+
+Motivation: Knight is committed (R146); the paradoxes that broke
+his successors are not. Our apparatus (thresholds, caps, frozen
+bets) lives inside all four.
+
+- **Ambiguity aversion as design [canon: Ellsberg (ambiguity
+  aversion; the paradox); verification deferred +
+  arXiv:2607.09355v1 (revealed-preference test: EUT holds under
+  uncertainty as under risk, but non-EUT has more scope — read) +
+  arXiv:1211.5953v1 (ambiguity aversion both signs; subadditivity
+  fails for losses — read)].** → The frozen discipline IS
+  ambiguity aversion formalized: prefer the known 8-main risk
+  (specified bank, specified scorer) over unknown tuning-
+  uncertainty (unexplored knobs, unbuilt arms); the single
+  attempt as ambiguity-averse design (one draw from the known
+  urn, never a second from the unknown one). The arXiv reads
+  license the stance and bound it: EUT survives Ellsberg
+  behaviorally (2607: choices stay consistent), but its SCOPE
+  shrinks under uncertainty — exactly our position (expected
+  gaps computed, but never expected across banks — I2 reported
+  instead). Ambiguity sought nowhere, priced everywhere (caps
+  per attempt), resolved by fiat (fresh banks).
+- **The kink at the band [canon: Allais (certainty effect;
+  the paradox); verification deferred + arXiv:1301.0751v1
+  (quantum-structure take covering Ellsberg AND Allais —
+  read)].** → G-gates create certainty cliffs: a +0.09 gap is
+  NOGO and +0.11 is GO though the evidence differs by noise —
+  behavior flips discontinuously at the threshold while belief
+  stays continuous. That is the Allais kink transplanted from
+  prizes to verdicts (certainty of procedure substituted for
+  certainty of outcome). The program leans into the paradox
+  deliberately (pre-registered cliffs beat post-hoc slopes —
+  the dissonance audit's charter) and discloses it (R181-Becker:
+  the label is the kink). No resolution offered — Allais has
+  none that survives contact with practice either.
+- **Finite bankrolls [canon: Bernoulli (St. Petersburg paradox;
+  log utility); verification deferred].** → Attempts end because
+  compute is finite, not because questions are answered (caps:
+  96 worlds, 2.42e9 ops, 1800s — the bankroll, not the truth,
+  stops play). Bernoulli's resolution (diminishing marginal
+  utility of wealth) is our returns-to-worlds curve: the 5128th
+  world buys less than the 8th (I2 = 0.973 — more worlds, same
+  heterogeneity). Log utility as ledger policy: every attempt
+  spends as if worlds were worth less than the last, because
+  they are. The paradox (infinite EV, finite price) never bites
+  — no arm has infinite EV (ceilings bind everywhere: same-val
+  0.95, turn rates saturate) — but the bankroll logic governs
+  everything: bet small (bounded attempts), never borrow
+  (no reserve raids), leave the table (close lines).
+- **The paradox that breaks the fixes [canon: Machina (the
+  paradox that breaks non-EU models); verification deferred +
+  arXiv:1706.02168v1 (Machina 50/51 tested; quantum framework
+  fits Ellsberg AND Machina — read)].** → Our band is a non-EU
+  decision rule (threshold, not expectation) — exactly the class
+  of fix Machina breaks (his paradoxes defeat rank-dependent,
+  configural, and other patchwork models). The licensed caution:
+  our gates are paradox-different, not paradox-free — some
+  Machina-style construction (a pair of banks where the band
+  orders verdicts cyclically) may exist undiscovered. Filed as
+  the standing warning against threshold-smugness (the band is
+  a procedure that works, not a rationality that holds). No
+  fix proposed — Machina's point is that the fixes are the
+  problem, and our apparatus (frozen, disclosed, symmetric) is
+  built for living with paradoxes, not solving them.
