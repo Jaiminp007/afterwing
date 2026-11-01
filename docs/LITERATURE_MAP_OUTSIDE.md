@@ -3216,3 +3216,31 @@ and the joining-game alternative the knob does NOT implement.
   Recorded as the next mechanism gap if steering alone fails.
 - **Scope-note.** BEECLUST/cockroach-aggregation and directed-search conjunctions
   return nothing on arXiv (swarm-robotics venues, not indexed); OpenAlex 429.
+
+## Round 75 — saturation and leaving (for V3's uniform-low births; 2026-11-02)
+
+Motivation: V3's hubAttract arm shows UNIFORM-low births (3,4,3,3,3,3 — zero variance)
+with worst energy (−42.2) and unshifted timing. Two classic frameworks name this pattern.
+
+- **Holling functional response (arXiv-verified: 1712.10159v1 Holling-II/Bedlington-DeAngelis
+  reaction-diffusion; 2109.15027v1 density-dependent handling time, evolutionary view).**
+  Type-II saturates: intake rate rises with encounters then flattens at 1/handling-time.
+  → Our mating system behaves Holling-like in REVERSE across arms: hubAttract raises
+  local density (encounters) but births FALL (19 vs 28) — consistent with handling-time
+  dominance (cooldown 12 + energy 24 costs = long handling) PLUS interference (crowding
+  tax on top of handling). The 2109.15027v1 lens is sharpest: handling time itself is
+  density-dependent (crowds lengthen effective handling via depletion) — predicting
+  exactly V3's uniform suppression. Descriptive fit, not a fitted model (no new parameters
+  estimated — would need a frozen measurement plan).
+- **Patch departure / giving-up (Charnov MVT + Brown GUD: canon, journal-bound —
+  Brown 1988; Charnov 1976; NO arXiv conjunction hits despite three query phrasings).**
+  Optimal foragers leave patches at the marginal rate; taxis DISABLES leaving (agents
+  are pulled back into the depleted hub). → V3's −42.2 energy is the predicted cost of
+  attraction-without-departure: the knob removes the exit option that makes clumping
+  tolerable. This reframes the Emlen-Oring split outcome: food clumps are only viable
+  WITH free departure; forced concentration converts a hub into a trap. Specified, not
+  executed: departure-gated taxis (attraction that releases below an energy threshold)
+  needs its own frozen plan + fresh bank.
+- **Scope-note.** All three MVT/GUD conjunctions returned NO-RESULTS on arXiv
+  (foraging theory lives in journals); OpenAlex still 429. Canon-cited with full biblio,
+  verification deferred per standing practice.
