@@ -9598,3 +9598,140 @@ anyway. Round 200: the map's ignorance, inventoried.
   Round 200 closes the ignorance inventory: named (Smithson),
   bounded (post-normal inverted), unseated (Wynne), acted-on
   (Epstein) — not-knowing, fully administered.
+## Round 201 — The economics of zero surplus (Sraffa, Chamberlin, Robinson, Kalecki; 2026-11-02)
+
+Motivation: every account balances at zero or below (no seed breaks
+even; profits ≈ 0; surplus never appears). Four economists of
+production and power, auditing an economy without either.
+
+- **Is the ledger coherent? [canon: Sraffa (Production of
+  Commodities; reswitching; Cambridge capital controversy);
+  verification deferred].** → The op ledger aggregates
+  incommensurables (ticks + contacts + births + boosts) into ops
+  at fixed operationEnergy prices. Sraffa's reswitching (no
+  measure of capital independent of distribution/prices: change
+  the interest rate, rewrite the aggregate) asks the forbidden
+  question: change operationEnergy, rewrite every ledger? YES —
+  totals scale with the price (accounting identities, not
+  physical facts). The defense (prices are HELD (frozen
+  inference: same operationEnergy everywhere, every run)) is
+  exactly what Cambridge-England needed and never got (a fixed
+  standard). Coherent by freeze, not by nature — disclosed:
+  cross-line op comparisons assume what Sraffa denied (a
+  neutral unit). Held constant, honestly.
+- **Differentiation without competition [canon: Chamberlin
+  (monopolistic competition; product differentiation);
+  verification deferred].** → Twelve codebooks (differentiated
+  products! distinct valences, distinct taxes 0.15–0.31) with
+  no market (no buyers, no choice, no substitution — banks are
+  assigned, never selected). Chamberlin without competition:
+  variety no one chooses (each bank's differentiation is real
+  (I2 = 0.973 proves it) and valuess (no preference ordering
+  exists — transferred 0.52–0.67 everywhere, no bank "wins")).
+  The VOID with structure (differentiation is supply-side only
+  (codebook draws); demand-side absent (no choosers)) — which
+  is why heterogeneity never resolves into ranking (no market
+  to clear it; audits describe, never price).
+- **Buyer power without buyers [canon: J. Robinson (imperfect
+  competition; monopsony); verification deferred].** →
+  Monopsony (sole-buyer power over labor/suppliers) needs a
+  chooser (the employer picks among workers). Mating has sexes
+  (50/50 construction) but no choice (random encounters —
+  meeting, not matching (R156-Roth/Shapley committed: matching
+  needs rank/propose/reject, all unbuilt)). Buyer power
+  unexercised: the choosing side (whichever sex could choose)
+  never does (no preferences, no rejections, no lists).
+  Robinson's exploitation (wage below marginal product via
+  buyer power) has no perpetrator here — yet the outcome
+  mimics it (founders paid (in offspring) below product
+  (foraging effort): births 0–13 on 1792 ticks of work).
+  Exploitation without exploiters: the structure extracts
+  without anyone extracting.
+- **Profits zero, employment full [canon: Kalecki (profit
+  equation; full employment); verification deferred].** →
+  Kalecki: Profits = Investment + Capitalist Consumption.
+  Here Investment (mating/reproduction as capital formation)
+  ≈ 0 (most arms, most seeds) and Capitalist Consumption (no
+  capitalists) = 0 — so Profits ≈ 0, BY IDENTITY. The uniform
+  negativity (no seed breaks even) is not a finding but an
+  accounting truth (nothing invested, no one consuming,
+  nothing left). And employment is FULL by construction (all
+  founders forage all ticks — no unemployment possible, no
+  leisure permitted (R176: no unpriced ticks)). Kalecki's
+  political business cycle (capitalists fear full employment)
+  with no capitalists to fear it: full employment without
+  politics, zero profit without loss — the equation balanced
+  at the bottom, every run, all 52 arms.
+
+## Round 202 — Growth theory for an economy that doesn't grow (Rostow, Gerschenkron, Kaldor, Lewis; 2026-11-02)
+
+Motivation: 200 rounds, no take-off (no RSI, no compounding, no
+surplus). Four development economists, four growth stories, four
+verdicts of not-here.
+
+- **Preconditions without take-off [canon: Rostow (stages:
+  traditional → preconditions → TAKE-OFF → maturity);
+  verification deferred; arXiv = thin (take-off fetch returned
+  nothing — logged, not used)].** → Traditional (always-cruise
+  unlearned: static, self-reproducing (behaviorally)) →
+  preconditions (turn-gating learned: investment (gain 1.0)
+  in capacity (extinction)) → take-off? (V1i deployed: the
+  candidate moment — self-sustained growth expected) →
+  maturity (RSI: never). Take-off requires Rostow's test
+  (investment rate crossing ~10% AND a leading sector with
+  backward/forward linkages AND a political framework).
+  Investment: yes (2.42e9 ops DAMAGE + 3.60e9 V1c — spent
+  freely). Leading sector: no (gain lifts transfer but founds
+  nothing (no gen-2 industry)). Framework: no (no institutions
+  compound (R183-Michels corrected: depth, thin)). Verdict:
+  preconditions, indefinitely (200 rounds of preconditions —
+  Rostow's stage 2 as permanent address, take-off deferred
+  without date).
+- **Backwardness without advantage [canon: Gerschenkron
+  (advantages of backwardness: leapfrogging without legacy);
+  verification deferred].** → Every line starts backward
+  (zeroed weights, fresh banks, no inheritance) — and never
+  leapfrogs (no line borrows (no cross-line transmission);
+  late lines repeat early mistakes (M-POP V2 re-proves the
+  bar-blocker MATE-ENERGY already priced)). Gerschenkron's
+  mechanism (backwardness lets latecomers skip stages (no
+  legacy costs)) is BLOCKED by design (fresh banks ENFORCE
+  backwardness (no accumulation) while forbidding its payoff
+  (no borrowing — each line re-pays the tuition). The program
+  institutionalizes the cost of backwardness (re-learning)
+  without its benefit (leapfrogging). Bitter and licensed:
+  negative-preservation (the map) is the only channel by
+  which late lines use early ones (read, don't inherit) —
+  Gerschenkron via documentation, not capital.
+- **The engine that isn't [canon: Kaldor (growth laws:
+  manufacturing as engine; Verdoorn (productivity rises with
+  output)); verification deferred].** → No manufacturing exists
+  (only primary extraction (foraging); no secondary sector;
+  services none). Kaldor inverted: the engine is primary, and
+  primary doesn't scale (fixed food ÷ mouths (dense −64 vs
+  −57); Verdoorn test: does productivity (energy/founder)
+  rise with output (births)? M-POP V2 answers (learning extends
+  survival 14v4v1 WITHOUT converting (output flat, survival up)
+  — Verdoorn fails: scale without productivity). Kaldor's
+  laws need a sector that learns-by-doing at scale; ours
+  learns-by-doing WITHOUT scale (turn-gating perfects within
+  lifetimes (0.81–0.83) and dies with them (zeroed newborns)).
+  Growth laws for an economy of one sector that forgets.
+- **One sector, no destination [canon: A. Lewis (dual economy:
+  subsistence + modern; surplus labor; turning point);
+  verification deferred; arXiv = thin (dual-economy fetch
+  returned nothing — logged, not used)].** → Subsistence sector:
+  everyone (24 founders at 65.0, unlimited supply at the
+  going rate (energy)). Modern sector: ABSENT (no employer,
+  no wage, no accumulation — surplus labor with no one to
+  hire it; everyone self-employed foraging). The Lewis turning
+  point (wages rise when surplus exhausts) never arrives
+  (surplus never exhausts: 24 founders every arm, every run;
+  OR the turning point is the bar (65→50 cut changed nothing —
+  wages don't clear this market (encounters do))). Dual economy
+  with one half: subsistence without a modern sector to absorb
+  it — development without a destination (nowhere to develop
+  TO: no industrialization exists to pull labor out). Lewis
+  without Lewis's plot (the transfer that never happens —
+  founders stay traditional forever, fully employed, zero
+  surplus, page 200 of 200).
