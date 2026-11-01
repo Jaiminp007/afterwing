@@ -3346,3 +3346,33 @@ produced our lineages.
   which the program already owes itself — same conditional requirement as V1b).
 - **Scope-note.** Nanomagnetic verification (1411.6730v1) and radialene synthesis
   (2606.08111v1) are mechanism-mismatched (substrate-specific); logged, not pursued.
+
+## Round 79 — optimal search patterns and their collapse (for cruise/search baselines; 2026-11-02)
+
+Motivation: every line in this program compares learned behavior against cruise/random
+baselines — but never asks what the OPTIMAL search pattern would be. This round maps
+that optimum and its limits.
+
+- **Lévy flight foraging debate (arXiv:1804.03738v1 search-pattern identification;
+  arXiv:2103.12584v1 refutation: inverse-square Lévy optimal ONLY under precise
+  conditions, "generically unfounded").** The rise and fall of a movement prior:
+  heavy-tailed step lengths beat Brownian ONLY for sparse, non-revisitable targets
+  with blind search. → Our ecology (regrowing = REVISITABLE food, sensed cues) sits
+  OUTSIDE the Lévy-optimal regime by the refutation's own conditions — a useful
+  negative: do NOT graft Lévy steps onto the agent expecting gains. What the debate
+  leaves open (and our program never tested): the optimal pattern for REVISITABLE,
+  sensed, depleting patches is systematic coverage (parallel sweeps / site fidelity),
+  not heavier tails. Specified-not-executed: a movement-pattern control arm
+  (systematic vs cruise vs Lévy) needs its own frozen plan.
+- **Plant foraging (NO arXiv hits across two phrasings; canon: Trewavas 2003/2014,
+  Calvo plant neurobiology; journal-bound, verification deferred).** Roots forage
+  without locomotion (proliferation toward nutrients, abandonment of poor patches) —
+  the sessile version of our sit-vs-search tradeoff. → The outside-the-box reframe:
+  our flies' cruise phase is the only search they have, but plants show foraging can
+  be MORPHOLOGICAL (grow toward, retract from) rather than locomotor. Our genome
+  already has a morphological channel (nodes/edges growth) that no line ever pointed
+  at foraging — recorded as an unbuilt mechanism (morphological foraging), not a claim.
+- **Immune search (arXiv: thin — microtubule capture 1905.12415v1 is intracellular
+  logistics, not search strategy; CAR-T modeling 2609.39191v1 is clinical).**
+  No usable T-cell Lévy entry found; logged as searched-not-found rather than
+  canon-cited (discipline: do not cite what was not read).
