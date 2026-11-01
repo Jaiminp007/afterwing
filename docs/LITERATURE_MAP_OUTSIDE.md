@@ -11277,3 +11277,81 @@ what formal systems can and cannot do — applied to the one we run.
   (formalize ruthlessly; trust only what terminates) —
   and Godel (above) would remind us what it costs
   (the true-but-unprovable +0.09s, forever outside).
+## Round 225 — Meaning and reference (Frege, B.Russell, Dummett, Anscombe; 2026-11-02)
+
+Motivation: verdict-words (GO/NOGO/INVALID) get USED constantly;
+this round asks what they MEAN. Four analytic philosophers on
+sense, denoting, verification, and intention — applied to a
+discourse that never leaves the page. (Wittgenstein CUT:
+rule-following committed (line 6634) — same-author rule.
+P.F. Strawson CUT twice (reactive attitudes committed;
+Galen committed R217). Tarski/Gentzen already cut R224.)
+
+- **Sense without reference, rows without verdicts [canon:
+  Frege (sense/reference; specified Gottlob (vs no hits));
+  verification deferred].** → Per-arm totals (28, 16, 16, 37)
+  are SENSE (the mode of presentation: numbers on a page);
+  the verdict (GO-WINDOW) is REFERENCE (what the numbers are
+  ABOUT: the world would have been different (early window
+  matters)). Frege's distinction, enacted per attempt (sense
+  without reference (INCOMPLETE: numbers present (5+0+11),
+  nothing denoted (floor voids the aboutness)); reference
+  without sense (the plan, pre-run: GO-conditions specified
+  (the thought), no numbers yet (no sense presented))).
+  Morning star/evening star (early 28 vs late 16: same
+  enrichment (one referent: food), two senses (two timings)
+  — Frege's puzzle, solved by schedule (the modes differ,
+  so the verdicts differ (GO vs seed-identical-to-control))).
+- **The manipulation effect does not exist [canon:
+  B. Russell (definite descriptions; On Denoting; King of
+  France; Meinong's mountain denied; specified Bertrand
+  (vs Stuart (AI, committed) + James (circumflex,
+  committed))); verification deferred].** → "The effect of
+  hub-attraction" (V4): a definite description that FAILS
+  TO DENOTE (no effect exists (7v8 NOGO) — the phrase is
+  grammatical, meaningful-seeming, and empty (like the
+  present King of France (bald or not, there is none))).
+  Russell's theory (descriptions as quantified claims
+  (there exists an x such that...)) is the manipulation
+  gate (G2: there EXISTS an effect such that hub > spread
+  by ≥10% AND ≥5 — V1 passes (there is one); V1b/V1c fail
+  (there is not)). Meinong (nonexistent objects subsist)
+  REFUSED (no golden mountains, no unmeasured +0.1s
+  (the band as anti-Meinong device: below-threshold
+  goods neither exist nor subsist — they NOGO)).
+- **Meaning as verification conditions [canon: Dummett
+  (verificationism; anti-realism; meaning = what counts
+  as verifying); verification deferred].** → The meaning
+  of "GO" IS the G-gates (to assert GO is to claim the
+  rows verify G0–G4; no other meaning exists (no GO-in-itself
+  (realism about verdicts refused: no verification-transcendent
+  GO (a line cannot be GO without the rows))). Dummett's
+  manifestation challenge (understanding must show in use)
+  is the scorer (understanding "early beats control" =
+  running scoreMateWindowRows (use, not mental image)).
+  Anti-realism, frozen (bivalence fails (INCOMPLETE is
+  neither GO nor NOGO (third value)); excluded middle
+  refused (some lines are neither (yet? no — ever (void
+  is final (banks spent, no re-runs (tertium datur, and
+  it is VOID))))). Realists about physics, anti-realists
+  about verdicts: the gates constitute the facts (no
+  gate-independent GO-ness exists).
+- **Intentional action without intenders [canon: Anscombe
+  (intentional action; practical knowledge; brute facts;
+  "Intention" shares intention/intentional FPs — hooks are
+  the other three); verification deferred].** → Attempts
+  are intentional actions (done for reasons (the plan),
+  under descriptions (G-gates), with practical knowledge
+  (I know what I'm doing (running 24 mains) without
+  observing myself do it)). Anscombe's criterion (an action
+  is intentional under the descriptions the agent would
+  avow ("why?" → "to test the window")) locates the
+  intender OUTSIDE the substrate (no agent avows (no
+  avowals possible (no agents (I avow instead)))). Brute
+  facts vs institutional facts (rows are brute (28 births
+  happened); verdicts are institutional (GO-WINDOW exists
+  only inside the practice (X counts as Y in context C:
+  28v16 counts as GO in context G2 (+20%+2)) — Searle
+  R164, restated anscombian). Intentions all the way up
+  (mine), none of the way down (theirs): the avowal
+  gradient, steepest in the map.
