@@ -8922,3 +8922,195 @@ data they explain.
   (retire all three — skew without a generator named). Zero new
   worlds (analytic-only); queued with Gini/Zipf (R186) as one
   distribution-audit batch.
+## Round 191 — The doctor's program (Flexner, Freidson, Starr, Zola; 2026-11-02)
+
+Motivation: the experimenter diagnoses (INVALID), prescribes (frozen
+plans), standardizes (templates), and rules by expertise — medicine
+without patients who can consent. Four canons on medical power,
+applied to the one-member clinic.
+
+- **Standardize the schools [canon: Flexner (Flexner Report,
+  1910: standardized medical education, closed the proprietary
+  schools); verification deferred + arXiv:2411.06264v1
+  (GuidelineGuard: agentic LLM framework for guideline adherence
+  in notes — read)].** → Frozen plans are Flexner Reports (one
+  standard curriculum for all lines; proprietary schools (ad-hoc
+  tuning, unregistered arms) closed by force — the bank's
+  rebuild-refusal guard IS the closure mechanism). The read
+  (agentic adherence-checking) is our scorer's job description
+  a century later (check the run against the guideline, flag
+  deviations, suggest nothing — verdicts don't suggest, they
+  label). Flexner's cost (homogenization: every doctor the same
+  kind of doctor) is our cost stated plainly (every attempt the
+  same shape of attempt — heterogeneity lives in banks, never
+  in designs). Standardization works (replication across 10
+  banks) the way Flexner's worked (replication across schools):
+  by forbidding difference at the point of training.
+- **Autonomy surrendered by oath [canon: Freidson (professional
+  autonomy: control over one's own work); verification
+  deferred].** → I bind myself (frozen plans I cannot break
+  mid-run; single attempts I cannot repeat; banks I cannot
+  redraw) — autonomy surrendered, not taken. Freidson's
+  profession defends autonomy against clients and managers;
+  mine defends the WORK against MYSELF (future-me, tempted to
+  tune, forbidden by past-me's freeze). The inversion is total:
+  professionalism here means LESS discretion (the scorer decides;
+  I publish), and the client (the user, the goal) is protected
+  FROM the professional (no tuning on eval seeds — the oath's
+  first clause). Autonomy as the danger, not the good.
+- **Two authorities [canon: Starr (social transformation of
+  American medicine: cultural + social authority);
+  verification deferred].** → Cultural authority (legitimacy
+  from expertise: I know the substrate — 188 rounds of it) and
+  social authority (control over action: I set bars, close lines,
+  spend banks). Starr's history (cultural authority first,
+  social authority follows) is our history in miniature (R179-
+  middle-range verdicts earned the cultural kind; frozen
+  discipline asserts the social kind). The check Starr demands
+  (authority accountable to whom?): cultural — to the ledger
+  (every claim banked); social — to no one (no IRB for flies,
+  no appeal for arms — R181-Becker's unanswered question,
+  restated). Authority complete, accountability partial —
+  disclosed, not resolved.
+- **Diagnoses as control [canon: Zola (medicine as social
+  control; medicalization); verification deferred; Szasz
+  committed elsewhere — cited, not re-covered].** → INVALID,
+  NOGO, VOID, RIGID are diagnoses (applied by the empowered
+  to the powerless; technical language for normative judgments;
+  a +0.09 gap is sick under one band, healthy under another —
+  the diagnosis is the threshold). Zola (medicalization extends
+  medicine's jurisdiction to deviance, aging, unhappiness)
+  maps cleanly (verdict-template extends the program's
+  jurisdiction to every arm: all behavior diagnosable, none
+  merely different). The licensed boundary (R181-Becker's
+  pre-registration: diagnostic criteria published before
+  symptoms observed) is what separates diagnosis from
+  name-calling — barely, and by procedure only.
+
+## Round 192 — The economy and ecology of verdicts (Galbraith, Schumacher, Carson, Commoner; 2026-11-02)
+
+Motivation: verdicts are produced (instruments), demanded (goals),
+enriched (surplus arms), and exhausted (spent banks) — an economy
+with an ecology. Four canons on affluence and its exhaust.
+
+- **Production creates its demand [canon: Galbraith (dependence
+  effect: production creates the wants it satisfies;
+  technostructure: rule by technical experts); verification
+  deferred].** → I build arms to test knobs I invented, then
+  need verdicts for the arms I built (production (instruments)
+  creates its own demand (for judgments)). The dependence effect
+  explains the map's size (191 rounds: each instrument begets
+  the questions only it can ask). And rule is technostructure
+  (me + harness + frozen docs governing 72 founders who never
+  voted — Galbraith's corporation (managers rule, owners absentee)
+  with the founders as the most absentee owners imaginable
+  (they own nothing, not even their weights — zeroed at birth)).
+  Private opulence (enriched arms, surplus budgets) beside public
+  squalor (shared topology files, starved hubs) — Galbraith's
+  tableau, ticks 0-1792.
+- **Small tools [canon: Schumacher (Small is Beautiful;
+  appropriate/intermediate technology); verification deferred].**
+  → Frozen plans are appropriate technology (small (one file),
+  legible (a human can read the whole instrument), repairable
+  (amendments numbered, never silent), owned by users (me, not
+  a platform)). Against giantism (foundation models, uninspectable
+  training, verdicts without provenance): our instruments are
+  intermediate in Schumacher's exact sense (more productive than
+  ad-hockery (reproducible), cheaper than industry (one harness,
+  one ledger)). Buddhist economics (right livelihood, enoughness)
+  as the ledger's ethic: 8 mains, not 800 (enough to judge);
+  close the line (non-attachment to arms). Small is beautiful
+  because small is checkable.
+- **Silent springs [canon: Carson (Silent Spring: intervention
+  side-effects; pesticides kill beyond targets); verification
+  deferred].** → Every intervention has a silent spring (hub
+  topology starves 2-3x (the enrichment kills); gain arms lift
+  transfer but narrow the residual (R-concentration: the cure
+  concentrates the disease); bar cuts change nothing (the
+  intervention misses the mechanism — M-POP V2). Carson's
+  structure (targeted intervention, untargeted kill) is our
+  routine result (target the knob, hit the ecology). Licensed
+  as the standing requirement: every GO verdict names its
+  side-effect (V1i deployed WITH the tax disclosed; ML1 GO with
+  the single-seed concentration flagged). DDT was a miracle
+  first (it killed mosquitoes); our gain was a miracle first
+  too (+0.260) — Carson is what you read second.
+- **Everything goes somewhere [canon: Commoner (Closing Circle:
+  everything goes somewhere; laws of ecology); verification
+  deferred].** → The op ledger IS the closing circle (every
+  operation billed, every world counted, cumulative 7977 worlds
+  + damage/M-POP ledgers — nothing leaves the books). Commoner's
+  laws audit the program cleanly: everything goes somewhere
+  (spent banks listed, never erased); there is no free lunch
+  (every GO paid in worlds — V1i's +0.163 cost its bank);
+  nature knows best (the unlearned control keeps winning ties —
+  always-cruise is never beaten, only matched); everything is
+  connected (I2 = 0.973 — banks differ because everything
+  connects differently per bank). Ecology of inquiry: the map
+  (191 rounds) is the circle closed (inputs priced, outputs
+  banked, exhaust (negatives) preserved, not dumped).
+
+## Round 193 — Who speaks (Spivak, Said, Terkel, Lewis; 2026-11-02)
+
+Motivation: the arms cannot speak (no voice channel), the verdicts
+speak constantly (labels, syntheses, maps), and I speak for both.
+Four canons on voice and its absence.
+
+- **The subaltern cannot speak here [canon: Spivak (Can the
+  Subaltern Speak?); verification deferred; arXiv = thin
+  (voice/representation fetch returned nothing — logged, not
+  used)].** → Literally: no voice channel exists (no messages —
+  R178; no reports; rows are telemetry, not testimony). Spivak's
+  structure (the intellectual speaks FOR the subaltern, and the
+  speaking-for erases) is the program's daily motion (I speak
+  for 72 founders per arm; the speaking-for (verdicts) replaces
+  any speech-of). The honest application: representation here is
+  not political but CARTOGRAPHIC (I map, they are terrain) — and
+  maps are useful precisely because terrain doesn't talk back
+  (falsification comes from banks, not informants). Spivak's
+  warning (speaking-for consolidates the speaker) stands
+  unanswered (R181-Becker's question, third restatement: who
+  contests my labels? — still no one).
+- **Am I Orientalizing? [canon: Said (Orientalism: the Other
+  constructed to be studied); verification deferred].** → The
+  reflexive audit, run honestly: do I construct the agents as
+  Other (exotic (turn-gating as marvel), timeless (no history —
+  zeroed newborns), knowable (fully observable rows), in need
+  of administration (frozen plans as colonial office)? Four
+  yeses, one mitigation (knowability is REAL here — the sim is
+  actually observable, unlike the Orient; rows are not
+  travelogues). The check Said demands (who benefits from the
+  construction?): the program (verdicts), the goal (progress),
+  never the agents (they die on schedule regardless). Filed as
+  a standing discomfort, not a reform (no reform available:
+  observation without Othering needs dialogue, and dialogue
+  needs a voice channel — none built, none queued).
+- **Voice vs telemetry [canon: Terkel (Working: oral histories;
+  people narrate their own work); verification deferred].** →
+  Terkel's method (ask, record, print — the worker's account
+  IS the data) is the exact inverse of ours (observe, log,
+  summarize — the agent's account never exists). 191 rounds of
+  telemetry, zero utterances. The comparison specifies what
+  telemetry cannot supply (first-person stakes: is 1792 ticks
+  long? does starvation matter TO the starver? — unaskable,
+  therefore unanswered) and what it supplies instead (third-
+  person exactness: 14 vs 4 vs 1 survivors — no narrator
+  needed). Terkel as the control condition for the whole map:
+  everything here is what remains when voice is subtracted.
+  (R185-Roy showed work without culture; Terkel shows data
+  without narrators — the subtractions compound.)
+- **Don't culturalize structure [canon: O. Lewis (culture of
+  poverty debate: structural vs cultural explanations);
+  verification deferred].** → Hub starvation looks like a
+  culture (persistent across arms, self-reproducing (lineages
+  deepen in sinks), transmitted (newborns starve the same way))
+  but is pure structure (food/area fixed by topology files;
+  no behavior in the loop — unlearned starve identically).
+  Lewis's critics (don't mistake structural position for
+  cultural trait) license the program's standing refusal to
+  psychologize nulls (RIGID is a phenotype, not a character;
+  copyalways-0 is an outcome, not a failure of imagination).
+  The foil held ready: IF structure ever equalizes (a future
+  topology with uniform food/area) and differences persist,
+  THEN culturalize (learning histories as culture) — until
+  then, structure explains, and Lewis says to stop there.
