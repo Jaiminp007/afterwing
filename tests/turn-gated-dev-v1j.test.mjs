@@ -178,9 +178,12 @@ test('flip-split separates same-valence retention from flipped-cue residue',()=>
   assert.equal(mechanismConfirmed(fEmpty),false);
 });
 
-test('bank builds 54-unique in tmp; rebuild refuses (pre-bank form)',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'turn-gate-v1j-bank-'));
-  const p=turnGateDevV1jBank(join(dir,'protocol.json'));
+test('live bank 418001-418054 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-build maintenance: the V1j bank built cleanly pre-build (9/9 green
+  // incl. temp-dir 54-unique build) and is now live in evidence; the builder
+  // must refuse to rebuild it anywhere. Read-only checks verify the
+  // committed bank (no rebuild). This guards never-duplicate-runs.
+  const p=turnGateDevV1jBank('evidence/turn-gated-dev/fresh-10/protocol.json');
   assert.equal(p.experiment,'turn-gated-dev-v1j');
   assert.equal(p.histories.length,6);
   const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
@@ -188,6 +191,7 @@ test('bank builds 54-unique in tmp; rebuild refuses (pre-bank form)',()=>{
   assert.equal(Math.min(...flat),418001);
   assert.equal(Math.max(...flat),418054);
   for(const s of [381001,395019,396001,407001,414001,418001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  const p2=turnGateDevV1jBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+  const dir=mkdtempSync(join(tmpdir(),'turn-gated-dev-v1j-bank-guard-'));
+  assert.throws(()=>turnGateDevV1jBank(join(dir,'protocol.json')),/already used in prior evidence/);
+
 });
