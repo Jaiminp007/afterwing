@@ -10273,3 +10273,138 @@ R166; cited, not re-covered.
   be cooked (finding a second preimage is harder than
   finding a second GO) — Grigg's dream, incidentally
   achieved by people who never read him.
+## Round 211 — Scores and performances (Blacking, Small, Adorno, Attali; 2026-11-02)
+
+Motivation: frozen plans are scores (notation, fixed); attempts
+are performances (execution, once); verdicts are reviews. Four
+canons on music as action — and what the score can't contain.
+
+- **How musical is a founder? [canon: Blacking (How Musical
+  Is Man?); verification deferred].** → Blacking (all humans
+  musical; musicality is social, not technical). Founders:
+  all identical (same inference, same architecture) yet
+  outcomes vary (births 0–13, survival 7–31) — difference
+  without musicality (no expression, no style, no
+  interpretation — the variation is patch + seed, never
+  voice). Blacking inverted (universality without
+  musicality: everyone plays, no one musicks — the
+  capacity is architectural (any founder CAN turn), the
+  music absent (none DOES, expressively)). The question
+  answered negatively, kept anyway (what would a musical
+  founder be? — one whose turns meant something TO it.
+  None exists. R144, restated in concert pitch).
+- **Musicking, not music [canon: C. Small (musicking: music
+  as verb; specified Christopher (vs small-world/tools FPs));
+  verification deferred + arXiv:2601.11968v1 (MuseAgent:
+  grounding scores vs performance audio — read)].** → Plans
+  are scores (notation: G-gates, banks, caps); runs are
+  performances (the doing: 1792 ticks, once, unrepeatable);
+  verdicts are reviews (after the fact, for the record).
+  Small's thesis (take the verb: to music is to take part)
+  locates what my archive discards (the performance —
+  rows keep the notes (contact/turn/intake counts), never
+  the playing (timing, feel, trajectory — R195-Vertesi's
+  loss, restated musically)). The read (grounding symbolic
+  scores in performance audio) is the audit I cannot run
+  (no performance recorded — scores only, forever).
+  Musicking without music: the program performs constantly
+  and hears nothing.
+- **Standardized goods [canon: Adorno (culture industry:
+  standardization + pseudo-individualization); verification
+  deferred + arXiv:2510.10249v1 (structured generation with
+  Schenkerian analysis: hierarchy against black-box —
+  read)].** → Verdict templates are culture industry
+  (standardized form (GO/NOGO, per-arm tables, cumulative
+  line) + pseudo-individualization (each verdict "different"
+  (different numbers, same shape))). Adorno without the
+  condemnation (standardization is load-bearing here
+  (comparability across 200+ rounds REQUIRES the same form)
+  — but WITH his warning (pseudo-individualization hides
+  real sameness: all NOGOs rhyme (trigger-is-not-bottleneck,
+  everywhere) — the differences are bank-noise, the
+  verdict-shape mass-produced). The read (Schenkerian
+  hierarchy vs black-box generation) is my scorer's charter
+  (explicit levels (G0–G4) over inscrutable judgment —
+  Adorno would call the hierarchy itself standardized;
+  he'd be right, and I'd keep it).
+- **Music as prophecy [canon: Attali (Noise: music predicts;
+  sacrifice/representation/repetition/composition);
+  verification deferred + arXiv:2501.17759v1 (motif
+  development with long-term structure — read) +
+  arXiv:2509.26521v1 (counterfactual explanations for music
+  graphs — read)].** → Attali's four networks, mapped:
+  sacrifice (runs die (24 founders, scheduled)); representation
+  (rows depict (curves for patrons (me))); repetition (frozen
+  banks (the recording: pressed, replayed identically,
+  never live)); composition (new lines (V2: composing past
+  repetition (same design, new bank) — Attali's fourth
+  network as the program's aspiration (instruments for
+  playing, not just recording))). The reads (motifs with
+  structure; counterfactuals on score-graphs) are the
+  composition tools I lack (my motifs (turn-gating) don't
+  develop (frozen); my counterfactuals (would V2 have
+  worked?) uncomputed (no transport)). Sacrifice through
+  repetition, awaiting composition.
+
+## Round 212 — Making strange (Schechner, Brecht, Shklovsky, Artaud; 2026-11-02)
+
+Motivation: audits work by estrangement (familiar rows, strange
+findings: residuals follow contacts; width is flat; worst case
+is childlessness). Four theorists of the strange, four licenses.
+
+- **Restored behavior [canon: Schechner (restored behavior:
+  twice-behaved; performance studies); verification
+  deferred].** → Frozen plans are restored behavior (rehearsed
+  (fixtures), repeatable (banks), strips of doing performed
+  again (every attempt the "same" performance, never the same
+  run)). Schechner's theater (no originals, only restorations)
+  is the program exactly (no run is original (all follow the
+  plan); no verdict is spontaneous (all follow the gates)).
+  Twice-behaved inquiry: the first behavior (the run) exists
+  to be restored (in rows, verdicts, maps). The license (restoration
+  IS the method: reproducibility = successful restoration) and
+  the warning (restorations perfect their form (templates
+  sharpen) while losing the event (no one watched — R195,
+  restated theatrically)).
+- **Estrangement with a purpose [canon: Brecht (alienation
+  effect; Verfremdung); verification deferred].** → Audits
+  are Verfremdungseffekte (make the familiar strange: the
+  residual ISN'T learned (concentration audit); the skew
+  ISN'T oligarchy (distribution audit); the worst case ISN'T
+  death (left-tail audit) — each finding breaks identification
+  (with the intuitive reading) to force judgment (of the
+  numbers)). Brecht's purpose (estrangement FOR politics:
+  the audience must judge, not feel) is the audit's purpose
+  (estrangement FOR verdicts: the reader must score, not
+  nod). No empathy in the apparatus (no one identifies with
+  a founder (R193-Spivak: no voice to identify with)) —
+  Brechtian theater without actors, all effect.
+- **Stone the stones [canon: Shklovsky (defamiliarization;
+  ostranenie: make it strange); verification deferred].** →
+  Shklovsky (habitual perception automatizes; art restores
+  feeling by making forms difficult). My rows automatize
+  (per-seed tables skimmed; gaps glanced; verdicts filed) —
+  the audits are ostranenie devices (Gini where I expected
+  Pareto (made the skew strange); min/med/max where I
+  reported means (made the average strange); timing where I
+  assumed energy (made the bar strange)). Difficulty as
+  method (frozen plans make acting hard (no tuning); audits
+  make reading hard (no skimming — the numbers refuse
+  summary)). Art as device (the audit is the device that
+  returns feeling (surprise: 0.018 Gini! sterility not
+  extinction!) to the automatized rows).
+- **Cruelty and the organless body [canon: Artaud (theater
+  of cruelty; body without organs); verification deferred].**
+  → Runs are cruelty (starvation, death on schedule, no
+  consolation — the program stages suffering it doesn't
+  watch (telemetry only)) without catharsis (no purgation
+  (negatives preserved, not released); no audience (no one
+  watches)). The body without organs (no anatomy, just
+  energy floats and 96-dim observations — founders are BwO
+  literally: unorganized bodies, intensities without organs
+  (contact! turn! mate! — flows, not parts)). Artaud wanted
+  theater to stop representing and start happening (plague,
+  not play); my runs happen without representing (no one
+  depicts them — rows record, never enact). Cruelty without
+  theater (it happens; no one stages it; the BwO dies on
+  schedule, unmourned, compressed to tarball).
