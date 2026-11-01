@@ -4012,3 +4012,233 @@ pieces are emission (active sensing), correlation (shared forcing), and waiting
   amplitude 0 = current behavior). Unbuilt instrument ladder specified:
   ping→echo detection first (no behavior), then ping-gated approach. Needs frozen
   plan; no claim.
+
+## Round 91 — selectionist learning: immunity as the second learner (for retention + RSI-SELF; 2026-11-02)
+
+Motivation: every learner in this program is instructionist (weights updated by
+a rule). The immune system is the other great adaptive technology, and it is
+SELECTIONIST: generate diversity blindly, then select. Two of our open problems
+are selection-shaped (which variant persists; which proposal adopts), and the
+germinal center runs propose→evaluate→adopt inside one body — the RSI-SELF loop
+in flesh.
+
+- **Idiotypic networks steer robots [arXiv:0910.3115v1 (LTL genetic algorithm
+  seeds diverse behaviors into an STL idiotypic AIS for mobile-robot navigation;
+  beats STL-only and hand-designed) + arXiv:0803.2981v1 (Jerne network theory in
+  behavior-based robotics: inter-antibody stimulation/suppression + antigen match;
+  first direct idiotypic-vs-not comparison guidelines)].** → The architecture
+  mirrors our program: an OFFLINE diversity generator (LTL-GA ≈ our frozen banks
+  and transplant chains) seeding an ONLINE selection network (STL idiotypic ≈
+  our in-agent adopt step). The 0910.3115v1 result (seeded selection beats pure
+  online learning AND hand design) is the closest external validation of the
+  RSI-SELF shape: propose widely offline, select online. Difference that matters:
+  idiotypic selection is NETWORKED (antibodies stimulate/suppress each other),
+  ours is solitary (one agent, one loop) — the networked variant (proposals
+  competing within/across agents) is specified-not-executed.
+- **Naive metaphors limit AIS [arXiv:1001.2208v2 (most AIS uses naive adaptive-
+  immunity metaphors; should draw from innate/plant/invertebrate immunity +
+  systemic models) + arXiv:1006.1568v1 (conceptual meta-framework for innate
+  immunity models) + arXiv:0801.3539v3 (idiotypic recommender wins via different
+  neighborhoods + effect decomposition)].** → The critique ports to us: our
+  "learning" is one metaphor (gradient-ish weight updates); innate immunity
+  offers others (pattern-triggered fixed responses ≈ our fixed cruise; tolerance
+  ≈ our null-default arms; priming ≈ our transplants). 0801.3539v3's lesson
+  (wins come from different neighborhoods, not better scoring) ports directly:
+  our verdicts may hinge more on bank composition (neighborhood) than on
+  instruments (scoring) — bank-dependence, restated from immunology.
+- **Selectionist canon, searched-not-found on arXiv (logged).** Jerne (idiotypic
+  network); Burnet (clonal selection); Edelman (neural Darwinism — the brain
+  itself as selection over neuronal groups; the selectionist alternative to our
+  instructionist actor); Skinner (selection by consequences — operant conditioning
+  as the behavioral selectionism our turn-gating rediscovers); germinal-center
+  affinity maturation (somatic hypermutation + affinity selection = mutate,
+  test, keep — RSI-SELF V1a–V1d in a lymph node, with the NOTE that biology
+  keeps the loop because it works); prion (protein-only inheritance — a FIFTH
+  inheritance channel beside Jablonka's four (R83): conformation, not code;
+  our slow weights as conformational memory, second witness after R84's
+  cellular-Hebbian reading).
+
+## Round 92 — birdsong: the natural actor-critic + crystallization (for the substrate; 2026-11-02)
+
+Motivation: our agents learn sensorimotor mappings with an actor-critic and then
+stop changing (4x-means plateau). Songbirds do exactly this — learn a
+sensorimotor song with a basal-ganglia loop, then crystallize it — with a mapped
+circuit (Area X) and a learning theory (Doya). The whole substrate has a natural
+homolog; this round collects it.
+
+- **Song learning + Area X loop [canon: Nottebohm/Marler (sensorimotor phase,
+  tutoring, crystallization); Fee/Doya (Area X = basal-ganglia reinforcement
+  loop for vocal variability); Dave & Margoliash (sleep replay of song);
+  FoxP2 (conserved vocal-learning gene); all journal-bound, verification
+  deferred; arXiv "birdsong"/"Area X" = ML noise (MAML, emotion surveys) —
+  searched-not-found].** → Three ports: (1) Area X injects VARIABILITY for
+  trial-and-error and the BG evaluates — our actor has no dedicated variability
+  source (exploration is epsilon-ish cruise noise); a variability channel is the
+  unbuilt counterpart to our evaluation-heavy design. (2) Crystallization is the
+  natural homolog of our saturation plateaus AND of the RIGID class — song
+  stops changing on schedule, not from exhaustion; read our 4x-means collapse
+  (0.59→0.71→0.81→0.82, links all positive then stop) as possible
+  crystallization rather than capacity ceiling — distinguishable only by a
+  reopening manipulation (does the window re-open? unbuilt). (3) Tutoring is the
+  behavioral inheritance channel R83 named but never filled: juveniles learn
+  from tutors, not genomes — our transplant chains (weights carried segment to
+  segment) ARE tutoring with full-fidelity copying; the natural version is
+  LOSSY tutoring (pupil improvises), which predicts our exact-copy transplants
+  OVER-preserve (same-val 0.95 no erosion as an artifact of lossless tutoring).
+  Lossy-tutor transplant arm: specified-not-executed.
+
+## Round 93 — life history, senescence, scaling, seed banks (for lifespan + bar + ledger; 2026-11-02)
+
+Motivation: our founders have lifespans, ages, death causes (logged:
+energy vs age), a reproductive bar, and banks that sit dormant until drawn —
+a full life history plus a seed bank, never theorized. This round gives both a
+theory and a meta-reading.
+
+- **Metabolic cost IS selective disadvantage [arXiv:1806.11184v3 (mutation with
+  extra energetic cost suffers baseline disadvantage = fractional cost vs
+  resting metabolism; validates cost↔selection quantitatively) +
+  arXiv:1509.08912v1 (common origin of 3/4- and 2/3-power scaling) +
+  arXiv:1407.3659v4 (thermodynamic origin of metabolic scaling) +
+  arXiv:2604.10476v1 (Kleiber's law from pulsatile-wave physics, not fractal
+  geometry)].** → 1806.11184v3 prices our op ledger in fitness units: every
+  billed op is a fractional metabolic tax with a calculable selective
+  disadvantage — the ledger is not bookkeeping but a fitness component, and
+  symmetric billing (both arms pay) is the control that holds it constant.
+  The scaling papers set up the Vision question (planetary scaling needs
+  allometry: does per-capita cost scale sublinearly with size? unbuilt).
+- **Seed banks store information [arXiv:2012.00072v2 (dormancy banks store
+  information, impart memory, generate multi-scale structure from cells to
+  ecosystems) + arXiv:2007.06393v2 (branching active/dormant processes in
+  fluctuating environments) + arXiv:2406.11482v1 (AGENT-BASED bet-hedging
+  extinction models — individual-based, like ours!) + arXiv:1810.01142v1
+  (bet-hedging in EXPANDING populations — links R86 expansion load) +
+  arXiv:2012.00810v1 (population-genetic dormancy models) +
+  arXiv:1701.07910v2 (aster models for Darwinian-fitness variance —
+  METHODS pointer for our fitness ledgers)].** → The meta-reading: our frozen
+  banks ARE seed banks (dormant histories preserving variants across
+  "seasons"), and 2012.00072v2 says banks are not archives but memory —
+  information stored in the dormant state structures the active one. The
+  R83 threshold theme recurs (dormant↔active switching is thresholded).
+  2406.11482v1's agent-based extinction framing ports to our voids
+  (INFORMED void as failed germination, not failed mating).
+- **Life-history canon + brood-reduction triad, searched-not-found (logged).**
+  Cole's paradox (delay pays only with enormous fecundity gains — our bar-65
+  lock vs bar-50 unlock IS the delay decision); Fisher reproductive value +
+  Euler–Lotka + Leslie matrices (age-structured demography for our
+  age-logged founders — reproductive value by tick is computable analytic-only
+  on existing lineages); Charnov invariants (dimensionless life-history
+  numbers — test whether our ecologies obey any); semelparity/iteroparity +
+  r/K (thin prior) + Williams/Medawar/Kirkwood/Hamilton-decline-force
+  (senescence theories for our energy-vs-age death causes); menopause/
+  grandmother (post-reproductive survival — our founders linger post-mating);
+  Skulachev vs non-programmed aging + negligible senescence (is our lifespan
+  trait programmed? the trait is a knob — its setting is a program);
+  Lack/Mock brood reduction + siblicide + oosorption (when food is short,
+  REDUCE the brood: resorb oocytes, cull chicks — our matingEnergyBar is
+  brood reduction by another name; bar as oosorption threshold reframes V4's
+  gate as physiology, not policy); serial founder effects + priority effects
+  (transplant chains + spawn order — R86-adjacent demography).
+
+## Round 94 — sociality: brains, division, sharing (for actor capacity + unbuilt differentiation; 2026-11-02)
+
+Motivation: our founders share hubs, mate, and never differentiate, help, or
+share — no castes, no provisioning, no cognitive response to group size.
+Sociality literatures say all three scale with group living, and one of them
+(the social brain) sets the cognitive budget our actor never pays.
+
+- **Division of labor coevolves with sex [arXiv:1702.02141v5 (in-silico
+  evolution: reproductive division of labor + genetic complexity DRIVE the
+  evolution of sex — a network of forms, not parthenogenesis→sex) +
+  arXiv:nlin/0407054v1 (Markov labor-division emergence + period-adding
+  bifurcations under increasing returns)].** → 1702.02141v5 fuses our two
+  arcs: mating (R86) and differentiation (this round) coevolve — our lines
+  have mating WITHOUT any division of labor, which the model says is the
+  unstable combination (division is what sex pays for). The unbuilt program:
+  founders that differentiate (forager vs mater roles) before mating is
+  evaluated — differentiation-first, mating-second. Specified-not-executed.
+- **Sharing + helping, searched-not-found (logged).** Trophallaxis + crop/
+  social stomach (mouth-to-mouth nutrient flow; shared buffer — our
+  nutrientOverride is per-agent; a SHARED pool is the unbuilt instrument);
+  Emlen/Koenig–Dickinson alloparenting (helpers at the nest — our gen-1
+  could help, never does); eusociality origins (reproductive skew without
+  close kinship puzzles — our despotism-without-skew data point, R88-adjacent);
+  Oster/Wilson caste (differentiation without genetic difference — our
+  identical founders are caste-capable in principle). Each is a
+  specified-not-executed social instrument; the line they would open is
+  transmission-by-helping (behavioral channel, R83's empty slot).
+- **Social brain sets the budget [canon: Dunbar (neocortex ↔ group size);
+  Byrne & Whiten (Machiavellian intelligence); Herrmann (cultural
+  intelligence); all journal-bound, verification deferred; arXiv = zero].**
+  → The R64 actor-capacity rationale, sharpened: social life is a cognitive
+  load (track who, remember what) that our actor never pays (no identity
+  memory, no reputation — the MATE-SOCIAL copybest arm read success without
+  remembering who). If hubs demand tracking (who mated, who shared), a fixed-
+  capacity actor saturates — our RIGID class may be social-cognitive overload,
+  not plasticity exhaustion. Testable analytic-only first step (does RIGID
+  concentrate on hub histories?), zero new worlds.
+
+## Round 95 — sensing II: emission, direction, honesty, vigilance (for ELSEWHERE + pause; 2026-11-02)
+
+Motivation: R90 opened ELSEWHERE sensing (active electrolocation) and left the
+modality catalog, the honesty problem, and the pause question unfinished. Our
+pause was misread twice (idleness, then turn's shadow); vigilance offers a third
+reading (scanning), and honest-signaling theory constrains what any new ping
+channel can carry.
+
+- **Echolocation: thresholds, simulators, substitution [arXiv:1801.09900v1
+  (auditory models of human echolocation detection thresholds: distance,
+  pitch, loudness, timbre — THRESHOLDS for a ping design) + arXiv:2403.06847v1
+  (SonoTraceLab raytraced bat-echolocation simulator — METHODS for prototyping
+  a ping channel before building it) + arXiv:2302.08794v1 (installing bat
+  echolocation in humans via training — new channels are LEARNABLE, sensory
+  substitution witness) + arXiv:1408.5348v1 (bat algorithm beats intermittent
+  search — emission-gated search vs blind search, our ping rationale in
+  optimization form)].** → The ping instrument (R90) graduates from sketch to
+  spec: thresholds from 1801.09900v1, prototyping in 2403.06847v1-class
+  simulation, learnability from 2302.08794v1. Still needs a frozen plan.
+- **Heading + single-sensor navigation [arXiv:2109.10689v1 (biologically
+  inspired head-direction-cell network for robot navigation — heading
+  representation without maps; our heading IS the state, HD cells are the
+  mechanism) + arXiv:1310.1411v4, reused from the plume batch (moth finds a
+  pulsating source with a SINGLE thresholded sensor + puff-crossing-time —
+  minimal sensing + physics beats computation) + arXiv:2605.21329v2 (wind-
+  relative RL with ONE memory variable, elapsed-since-detection — our
+  firstMatingTick's analogue as policy input)].** → The minimal-sensing
+  manifesto for ELSEWHERE: one thresholded sensor + one timer outperforms our
+  17-dim passive array IF coupled to the right physics. Our instruments sense
+  richly and act bluntly; the literature says sense thinly and act on physics.
+- **Honest signals constrain the ping [arXiv:2002.12429v1 (deterministic
+  predator–prey model with honest signals AND cues — selection by predators
+  builds signaling) + arXiv:1509.08158v3 (handicap principle SUFFICES for
+  dimorphic mating displays — bimodal ornaments from costliness alone)].** →
+  Two constraints on any mate-ping: (1) without a cost of lying (no predators,
+  no fakery penalty), signals go cheap — an honest ping needs a price
+  (emission cost, R90's billing note, now with handicap logic); (2)
+  1509.08158v3 derives BIMODAL displays from handicap alone — read against our
+  HB/BH polymorphism and V1b's skew (is our bimodality handicap-structured?
+  analytic-only question on existing per-seed splits).
+- **Vigilance reframes pause, third reading [arXiv:1408.1906v1 (digital
+  evolving prey: many-eyes collective vigilance evolves; grouping benefit
+  quantified) + arXiv:2609.18609v1 (optimum foraging AREA in 3-trophic chains
+  — area as the tuned variable, our hub/spread radii by another name)].** →
+  Pause-as-scanning: stationary agents sample (predators, mates, food) while
+  cruisers sample by moving — the pause/turn decomposition (TURN-GATE line)
+  never priced the INFORMATION value of stillness. 1408.1906v1 licenses a
+  scanning instrument (pause that senses: stillness-gated detection bonus);
+  until then, pause remains triple-ambiguous (idle/turn-shadow/scan) and no
+  verdict may assume one reading.
+- **Signal canon, searched-not-found (logged).** Catania/Diamond active touch
+  (whiskers, star-nosed mole — touch as emission-like probing; our contact
+  sensing is passive); lateral line + pit organs (near-field/IR modalities —
+  the ELSEWHERE catalog); mantis-shrimp vision (12-channel umwelt — our 17
+  dims may be redundant, not rich); waggle dance + vervet alarms
+  (REFERENTIAL signals about food/danger — our agents cannot refer; the
+  unbuilt channel for any coordination line); eavesdropping + ritualization
+  (deepen the 2-hit prior: unintended receivers + intention-movement origins);
+  Batesian/Müllerian mimicry + aposematism (deception and honesty, R81's
+  receiver psychology extended to signals); crypsis (odor-free routing as
+  crypsis — hiding with no watchers, the SHH-without-predators parallel);
+  thanatosis (pause misread #3b: death-feigning); protean behavior
+  (stochasticity as anti-predictor strategy — our cruise noise, priced).
+  Path integration (Wehner, thin prior): homing without landmarks — hub
+  fidelity's mechanism candidate.
