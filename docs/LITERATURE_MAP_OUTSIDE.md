@@ -6798,3 +6798,246 @@ how to observe without lying. The round the discipline deserved.
   meaningless combinations; librarianship = search). McLuhan:
   substrate shapes findings (the tax as medium-effect — sixth? no,
   medium-effects noted without numbering). Closing shelf, zero worlds.
+
+## Round 151 — Minds about minds (groups, dissonance, attachment, schedules, fields; 2026-11-02)
+
+Motivation: our agents have no groups, no regrets, no attachments, no
+schedules — and our verdicts may misattribute. Seven canons, two audits
+of ourselves included.
+
+- **Bias from nothing [canon: Tajfel (minimal groups); Brewer;
+  verification deferred + arXiv:2609.00009v1 (LM agents reproduce
+  minimal-group bias: mere labels → in-group favoritism, concentrated
+  in the numerical MINORITY)].** → Our founders lack even labels
+  (no recognition channel) — the specified test (arbitrary tags →
+  bias?) waits on the broadcast/recognition channel (R133). 2609.00009v1
+  is the AI precedent: it runs the experiment our substrate cannot yet
+  stage. Noted with its minority-concentration finding (filed for any
+  group line).
+- **Dissonance audits the auditor [canon: Festinger (cognitive
+  dissonance); Aronson (effort justification); verification deferred;
+  arXiv = absent].** → Two self-directed checks: (1) effort
+  justification — do we overvalue costly verdicts (V1i's 18 mains) vs
+  cheap ones? (2) spreading of alternatives — do NOGOs harden post-
+  verdict ("line CLOSED" language as dissonance reduction?). No claim
+  of bias; the checks are now specified (re-rate verdict confidence
+  blind to cost — zero worlds, not executed). The round that audits us.
+- **Separation is the tax [canon: Bowlby (attachment; separation:
+  protest→despair→detachment); Ainsworth (strange situation); Harlow
+  (contact comfort); verification deferred; arXiv = 0 —
+  searched-not-found, logged].** → New codebook = separation from the
+  secure base (train environment): protest (turn more!) → despair
+  (the ~0.67 stall — NOT failure, GRIEF) → detachment (relearning).
+  Transfer re-read as separation response — genuinely new lens, zero
+  worlds. Erikson mapped alongside (trust: no others to trust — void;
+  autonomy: our program's word (stage 2!); industry vs inferiority:
+  competence without guarantee; generativity: transmission lines as
+  generativity vs stagnation!). Winnicott closes it: good-enough
+  transfer (V1j ×0.5 FAILS to preserve — the good-enough mother adapts
+  by failing; exact copy over-preserves because it never fails).
+- **Schedules we never chose [canon: Skinner/Ferster (partial
+  reinforcement); PREE; verification deferred; arXiv = job-shop noise —
+  searched-not-found, logged].** → Our replay runs continuous
+  reinforcement (every step replays — CRF), the schedule with the
+  FASTEST extinction (PREE). Specified experiment: VR replay schedule
+  (partial replay as extinction-resistant transfer — needs frozen plan).
+  The schedule audit: we run CRF by default, never by design.
+- **Lewin's equation is the program [canon: Lewin (B=f(P,E));
+  Zeigarnik (unfinished tasks remembered); verification deferred].** →
+  Behavior = f(Person, Environment) = f(weights, codebook): transfer
+  (new E, same P), development (new P, same E), interaction (the ×).
+  Bars as barriers (life-space regions, blocked). Zeigarnik: open lines
+  itch (the frontier list IS a Zeigarnik device); closed lines archive.
+  One paragraph each — the field theory we already live in, cited.
+- **Myopia, mindset, attribution [canon: Mischel (delay of
+  gratification); Dweck (mindset); Ross/Heider (attribution); Markus/
+  Kitayama (independent vs interdependent selves); verification
+  deferred + arXiv:1306.1200v2 (TIMERR: intertemporal + time perception
+  unified via rate maximization)].** → Marshmallow assay specified
+  (delayed gratification needs future valuation — unbuilt; pairs
+  myopia R130). TIMERR re-reads greedy (rate-maximizing, not
+  discounting — myopia formalized as opportunity-cost blindness).
+  Saturation as fixed mindset (RIGID = "I can't learn this codebook").
+  FAE audit specified (re-attribute every NOGO across
+  instrument/bank/agent variance — did we blame knobs for bank luck? —
+  zero worlds, not executed). Interdependent agency unbuilt (needs
+  relations — one line).
+
+## Round 152 — Suffering, care, clinic (gates, iatrogenesis, starvation, 3Rs, validity; 2026-11-02)
+
+Motivation: damage has a canon (Melzack), interventions harm (Illich),
+starvation was studied (Keys) — and our program already practices the
+ethics it never stated.
+
+- **The gate has a canon [canon: Melzack & Wall (gate control);
+  Britton & Skevington (model); verification deferred +
+  arXiv:2501.14821v2 (BANG-BANG optimal control of the gate model)].**
+  → Pain is GATED, not transmitted — our damage gate (3.0×/1.0× binary)
+  is bang-bang control in Melzack's sense, run mid-flight. The NOGO now
+  reads against its canon: the gate opened and closed correctly (2841
+  boosts, presence-gated) and moved nothing — the FAILURE is downstream
+  (consolidation doesn't rescue extinction), not in the gate. Recorded
+  so the NOGO keeps its mechanism address.
+- **Name the iatrogenesis [canon: Illich (medical nemesis: clinical/
+  social/structural iatrogenesis); verification deferred].** →
+  Audit: gain overdose (watched, V1h — clinical); saturation from
+  training itself (treatment-caused disease — structural); bar-65
+  starvation-by-design (the prescription starves — bars as iatrogenic
+  instruments). Naming doesn't change verdicts; it prices the knobs
+  honestly. One paragraph, no new claims.
+- **Minnesota in silico (specified, preconditioned) [canon: Keys et
+  al. (starvation study: food obsession, apathy, irritability);
+  verification deferred; arXiv = absent].** → Do starved founders show
+  Minnesota markers (action-distribution shifts under low energy)?
+  Decidable IF per-tick behavior × energy series exist — they don't
+  (curves carry energy, summaries carry actions, never joined).
+  Specified with schema precondition (joined tick-level behavior-energy
+  logging), not executed. The question is now asked correctly.
+- **We already practice the 3Rs [canon: Belmont (respect/beneficence/
+  justice); Russell & Burch (Replace/Reduce/Refine); Beecher/Tuskegee/
+  Humphreys (why oversight exists); verification deferred].** → The
+  unasked question (do we owe simulated agents anything?) answered by
+  inventory: REPLACE (analytics instead of runs — skew/GAS/jury/clock/
+  phylogeny all replaced runs ✓); REDUCE (minimum mains ✓, caps ✓);
+  REFINE (pain bounds R130, arousal prices, humane fixed endpoints ✓).
+  The program as its own IRB (frozen plans = protocols reviewed in
+  advance). Ethics closed by audit, not by assertion.
+- **Mirrors: sane in insane places [canon: Rosenhan; Goffman (total
+  institutions); Szasz; Laing; verification deferred].** → Rosenhan:
+  do our GATES judge agents or contexts (does bar-65 pathologize hubs?
+  — the setting diagnoses, not the subject). Goffman: runs AS total
+  institutions (batch living, surveillance, mortification-by-transplant
+  — transplant as admission ritual: stripped of history, reissued
+  identity). Szasz/Laing: RIGID as strategy, not disorder (problems in
+  foraging, intelligible under saturation — the anti-medicalization of
+  our worst class). Three mirrors, zero worlds.
+- **The body keeps the scorecard [canon: van der Kolk (somatic memory);
+  Yalom (givens: death/isolation/freedom/meaninglessness); verification
+  deferred; arXiv = absent].** → Weights as somatic memory (trauma
+  stored in body, not narrative) — damage-gated replay IS somatic
+  consolidation (threat written into tissue). Yalom audit: death ✓,
+  isolation ✓ (no signals), freedom ~ (bars constrain, choice remains),
+  meaninglessness ✗ (no meaning faculty — cannot suffer existential
+  dread; philosophical guardrail recorded).
+- **Fairness games for agents [arXiv:2402.05786v2 (dictator games with
+  AI); arXiv:2607.04710v1 (altruistic+fairness preferences induce MARL
+  cooperation in social dilemmas)].** → Social preferences as an
+  instrument (equity-weighted utilities for shared food — the unbuilt
+  other-regarding knob; specified-not-executed). Dictator-game assay
+  for founders (would they share? — needs transferable endowments +
+  choice — double-blocked, logged).
+- **Count well [canon: Nightingale (coxcomb); Cochrane (systematic
+  review); Hill (causal criteria); Snow (mapping); Virchow (social
+  medicine); verification deferred].** → The map states systematic
+  method (Cochrane-analog: pre-specified, exhaustive, preserved).
+  **Hill audit of our best claim (gain→extinction), in-text:** strength
+  0.26 ✓ / consistency V1g+h+i ✓✓✓ / specificity ~ (extinction window
+  only) / temporality ✓ / gradient ✓ (dose) / plausibility ✓ (tagging) /
+  coherence ✓ / experiment ✓ (V1i matched) / analogy ✓ — 8.5/9, the
+  highest-rated causal claim in the program, still deployed only where
+  replicated. Virchow re-reads MORTALITY (death is social: crowding
+  kills — medicine as social science, in silico).
+
+## Round 153 — Property, contract, worlds I (bequest, Leviathan, separation, surveillance, luck; 2026-11-02)
+
+Motivation: who owns learned weights, by what transfer, under whose
+watch, with what justice. The mating lines as legal philosophy.
+
+- **Weight-bequest law [canon: Locke (property by labor); verification
+  deferred].** → Founders mix labor into weights — do they OWN them?
+  Transmission as SUCCESSION: maternal = intestacy (default rules);
+  copybest = meritocratic bequest; copycond = conditional bequest
+  (maiden-line condition precedent!). The mating arc re-read as estate
+  law — zero worlds, and it fits every verdict (disputes were always
+  about the will, never the assets).
+- **No contract, no exit, no voice [canon: Hobbes (Leviathan); Nozick
+  (transfer/rectification); Rousseau (general will); verification
+  deferred].** → The experimenter as Leviathan (monopoly on code =
+  monopoly on force) — but subjects WITHOUT contract (no consent),
+  WITHOUT exit (DISPERSE died), WITHOUT voice (no signal). The full
+  Hirschman void (R150) with Hobbes attached: rule without
+  authorization. Nozick: transfers without entitlement (matings are
+  takings, not trades — no voluntariness channel); rectification owed
+  for brute luck? (pairs Cohen below). Rousseau: verdicts as general
+  will (majority ≠ unanimity — the ±0.1 band as the legislator's
+  threshold). Recorded as the program's political theory — uncomfortable
+  on purpose.
+- **Separation of powers, code as law [canon: Montesquieu; Federalist;
+  Lessig (code is law); verification deferred].** → Freeze =
+  LEGISLATIVE (makes rules), attempt = EXECUTIVE (acts under them),
+  audit = JUDICIAL (independent Python review — judicial review in
+  silico!). Taste-energy.mjs as the constitutional TEXT. The program's
+  structure named as constitutional order — which is why violating
+  procedure (tuning on spent banks) is not a mistake but a breach.
+- **The metric panopticon [canon: Bentham (panopticon); Foucault
+  (discipline); verification deferred].** → The ledger sees all — but
+  agents lack surveillance-consciousness (no observer model): a
+  METRIC-ONLY panopticon (we score watched; they don't know watched).
+  Hawthorne (R150) + probe-destabilization (R117) as partial effects —
+  behavior changes under measurement, without a theory of being watched.
+  Discipline without subjectivation, logged.
+- **Brute luck is unjust [canon: Cohen (luck egalitarianism); Dworkin
+  (resources vs welfare); Walzer (spheres); verification deferred].**
+  → Encounter luck is BRUTE (unchosen, uninsurable) — hub inequality
+  UNJUST by luck-egalitarian lights (compensation owed? by whom? —
+  the question, not a policy). Dworkin: bars as resourcist justice
+  (equal 65.0 endowment — ambitions differ, but agents HAVE no
+  ambitions (no preference channel) — resourcism without agents to
+  deserve it). Walzer: mating by lottery (random encounters =
+  egalitarian sphere-logic — sortition for sex!).
+
+## Round 154 — Worlds, knowledge, measures (composition, modality, Gettier, Fricker, Rawls, trust; 2026-11-02)
+
+Motivation: what lineages ARE, what seeds designate, what verdicts know,
+and who counts behind the veil. Metaphysics with program addresses.
+
+- **Composition is convention [canon: van Inwagen (special composition
+  question); verification deferred].** → When do founders compose a
+  lineage? Maternal causality is our answer — but WHY does descent
+  compose (nihilism: no lineages, only founders — the GRANDMOTHER null
+  flirts with this; universalism: every subset composes — explosion;
+  organicism: life composes — no life criterion, void)? Recorded:
+  lineage = bookkeeping, not ontology (pairs R119 individuality —
+  the audit continues).
+- **Designators and worlds [canon: Lewis (modal realism); Kripke
+  (rigid designation); verification deferred; distinct from R147's
+  Kripkenstein].** → Seeds as RIGID DESIGNATORS ('444001' designates
+  the same history in every world — attempt, re-run, audit — which is
+  WHY bank identity works). Evidence/ as Lewis's pluriverse (every
+  possible history exists as rows; counterfactuals = neighboring
+  worlds; transfer gap = inter-world distance — with phylogeny's
+  codebook distances as the metric!). The program's bookkeeping
+  grounded in modal metaphysics — zero worlds, full license.
+- **Vagueness, ships, luck [canon: Sorites; Theseus; Gettier;
+  verification deferred].** → ±0.1 as ANTI-SORITES device (sharp cutoff
+  in a vague region — 0.099 vs 0.101; defended as COORDINATION device,
+  focal not true — honesty recorded). Transplants as Theseus ships
+  (gradual V1h compounding = plank-by-plank; sudden V1j ×0.5 = half
+  the ship at once — identity preserved both ways via digests).
+  LEAVE V1 as GETTIER case (GO verdict, true conclusion, lucky
+  justification — 4/7 on one seed — justified-true-belief that fails
+  knowledge; the verdict stands, its epistemic status annotated).
+- **What verdicts know [canon: Goldman (reliabilism); Fricker
+  (epistemic injustice); verification deferred].** → Verdicts as
+  reliable-process outputs (frozen process = justification — the
+  epistemology of our discipline, stated). Fricker: our agents suffer
+  BOTH injustices (testimonial: no voice, cannot testify; hermeneutical:
+  no concepts for agent experience — R144's shelf). The map records
+  the wrong without remedy (remedy needs channels — same inventory).
+- **Behind the veil, count well [canon: Rawls (veil of ignorance);
+  Posner; Acemoglu/North (inclusive institutions); Scott (legibility);
+  Winner (artifacts have politics); Jasanoff (sociotechnical
+  imaginaries); MacKenzie (performativity); Porter (trust in numbers);
+  verification deferred].** → Rawls audit: maximin FAILS (hubs worst-off
+  by design — bars would be chosen behind NO veil; behind the veil,
+  maximin bars = spread topology for all — the veil recommends what
+  we cannot afford (food is fixed) — recorded as the fairness audit
+  with its tragic structure). Inclusive institutions = spread topology
+  (Acemoglu: extractive hubs vs inclusive spreads — topology as
+  institutional choice!). Scott: the ledger as legibility (simplifies
+  agents to govern them). Winner: bars ARE politics (who eats, who
+  breeds). Jasanoff: VISION.md as sociotechnical imaginary (predicts
+  the future it organizes work toward — reflexivity noted). MacKenzie:
+  scorers as ENGINES not cameras (performativity vs Goodhart R145 —
+  the verdict form performs transfer). Porter: numbers replace judgment
+  (ledgers where trust in experimenters ran out — including ours).
