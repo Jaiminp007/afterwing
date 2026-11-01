@@ -5627,3 +5627,133 @@ constraint a dormancy knob must carry (arousal is expensive).
   design information for tick-priced agents. No further mapping unless
   a Lux-analog instrument (diffusible signal with threshold response)
   is proposed — which would BE volume transmission (R121), already named.
+
+## Round 123 — Minds without borders (transactive memory, distributed cognition, extended mind; 2026-11-02)
+
+Motivation: every transmission verdict treats memory as INSIDE weights.
+Three literatures locate memory BETWEEN agents and in the world — and our
+substrate already has all three channels, unnamed.
+
+- **Transactive memory: the directory matters more than the store
+  [canon: Wegner (transactive memory: groups encode WHO-knows-what +
+  allocation/retrieval strategies); Hollingshead; Ren & Argote (review);
+  books/journals, verification deferred; arXiv = CS transactional-memory
+  polysemy, zero relevant — searched-not-found, logged].** → Our
+  transmission lines ARE transactive systems: maternal = directory (ask
+  mother), copybest/copycond = retrieval strategy (ask the successful).
+  Wegner predicts the DIRECTORY (who to ask) dominates the STORE (what
+  is stored) — and our nulls agree exactly: storage worked (gap 0,
+  V1/V1b), retrieval-strategy changes changed nothing (V1/V2/social
+  arc), because the directory pointed at empty encounters. Re-read,
+  zero worlds. Unbuilt corollary: a directory of the DEAD (query
+  frozen/ancestral weights, not live mothers) — specified-not-executed.
+- **Distributed cognition: the run is the thinker [canon: Hutchins
+  (Cognition in the Wild: ship navigation as computation across people
+  + instruments); Hollan/Hutchins/Kirsh; verification deferred].** →
+  The unit of adaptation in our mating lines is the RUN (founders +
+  food field + codebook + ledger), not the agent — Hutchins licenses
+  scoring runs-as-systems, which our gen-2 verdicts already do. Pairs
+  the multilevel-selection formalism (R31-35) and the individuality
+  audit (R119). No instrument; the verdict form is already correct.
+- **Extended mind: the food field as Otto's notebook [canon: Clark &
+  Chalmers (parity principle); Clark (Supersizing the Mind);
+  verification deferred; mechanism covered R29 stigmergy — this entry is
+  the philosophy twin + biosemiotics pointers (map lines 1542/1989)].**
+  → Parity asks: if an agent offloads encounter history to the depletion
+  field and reads it back, is the field PART of its memory? Our
+  depletion trails qualify behaviorally. Specified-but-blocked re-read:
+  depletion-field memory (trail-following as readout) needs per-tick
+  field states — not persisted (curves carry counts, not maps) — so this
+  waits on the same compact-table logging the MORTALITY round specified.
+  Logged, not executed.
+
+## Round 124 — Switching between worlds (bilingual switch costs, code-switching, critical-period brakes; 2026-11-02)
+
+Motivation: our transfer arc IS bilingualism (one substrate, two
+codebooks), and our plasticity never closes. Both literatures are
+mature, quantitative, and cautionary in opposite ways.
+
+- **Transfer tax = switch cost, with the asymmetry [canon: Meuter &
+  Allport (asymmetric switch costs: switching INTO the dominant language
+  costs more; inhibitory control model); Green (inhibitory control);
+  Bialystok (bilingual advantage — CONTESTED, do-not-import);
+  books/journals, verification deferred + arXiv:2610.06161v1
+  (code-switched pretraining SCAFFOLDS cross-linguistic mapping in
+  children/models — developmental parameters matter) +
+  arXiv:2410.18836v1 (tokenizer expansion for underrepresented languages
+  — codebook-enlargement precedent, pointer)].** → The mapping: trained
+  codebook = L1 (dominant); ben→harm converges (switching into weak L2,
+  cheap), harm→ben stalls ~0.67 (switching back into dominant L1,
+  expensive) — EXACTLY Meuter & Allport's asymmetry, measured in foraging
+  instead of naming. No new instrument (closed arc re-grounded); two
+  cautions recorded: (1) import COSTS (replicated everywhere) not
+  advantages (Bialystok contested — no bilingual-advantage claims for
+  our agents); (2) 2610.06161v1's scaffold moral: MIXED exposure during
+  acquisition beats sequential switching — our transplants are
+  sequential-only. Within-lifetime codebook switching (bilingual agents,
+  mixed ecology) is specified-not-executed (needs frozen plan).
+- **Brakes should be developmental, not reactive [canon companion to
+  R26's Hensch: Hensch/Bilimoria (molecular BRAKES — Lynx1, Nogo/NgR —
+  CLOSE critical-period plasticity on schedule); verification deferred;
+  R26 used Hensch for train/test alignment — this is the brake angle].**
+  → The BRAKE arc gated plasticity OFF on surprise (reactive). Biology
+  closes plasticity on SCHEDULE (developmental): acquire, then Lynx1-like
+  brakes stabilize. Our 47/48 stampede is a critical period that never
+  closes; BRAKE V1/V2 tried to close it with the wrong signal (surprise
+  instead of age). Scheduled-closure brake (plasticity budget that
+  expires with tick/age, not with news) is specified-not-executed —
+  the BRAKE line's licensed successor, needs frozen plan.
+
+## Round 125 — Stress, damage, and danger (Selye, hormesis, response-shapes, danger model, VDJ; 2026-11-02)
+
+Motivation: our agents are stressed (hubs starve), dosed (gain/ladder
+sweeps), damaged (toxinDamage logged), but the stress/damage/danger
+literatures were never mapped. This round imports their curve-shapes and
+marks the two unbuilt gates.
+
+- **Hubs run the General Adaptation Syndrome [canon: Selye (GAS:
+  alarm → resistance → exhaustion); McEwen (allostatic load) pointers
+  R26 — this entry is the trajectory mapping; verification deferred;
+  arXiv = thin, searched-not-found].** → Hub time-courses re-read as
+  GAS: alarm (early contact/concentration), resistance (despotic
+  plateau — holding but not converting), exhaustion (100% energetic
+  death, MORTALITY round). Specified analytic on frozen curves
+  (per-capita intake: alarm-spike then plateau?): zero worlds, not
+  executed here. The load concept pairs R82 (allostatic load as the
+  thing bars price).
+- **Dose curves need biphasic models [canon: Calabrese (hormesis:
+  low-dose benefit, high-dose harm); Calabrese & Baldwin; verification
+  deferred + arXiv:2308.08618v1 (Brain-Cousens + Cedergreen biphasic
+  fitting WITH code + data — method import) + arXiv:1707.04171v1
+  (non-monotonic copula for biphasic regimes) + arXiv:2402.07462v2
+  (HALO: hormetic ALIGNMENT via opponent processes — behavioral
+  hormesis as AI regulation; RSI-adjacent pointer, not endorsement)].**
+  → Our dose verdicts were scored monotone-or-null (gain-dose monotone
+  at d=1, leave-ladder hump dismissed as luck, duo-hump as confound).
+  2308.08618v1 says the FIELD's default for dose data is biphasic-first:
+  the successor to GAIN-DOSE-INVALID should pre-register Brain-Cousens
+  alongside monotone (method prescription for the next dose line, not a
+  rescore — closed verdicts stand).
+- **Our verdicts by response-shape (antifragility as taxonomy, not
+  slogan) [Taleb (fragile/concave vs robust vs antifragile/convex);
+  verification deferred; used for SHAPES only].** → fragile (concave to
+  volatility): hub collapse under density, DISPERSE shattering;
+  robust: gain-dose monotone, copy-rule nulls; ANTIFRAGILE
+  (convex — gains FROM disorder): V1j lossy win (noise improves
+  transfer), 47/48-stampede-as-information (saturation reveals the
+  RIGID class). One-paragraph taxonomy, zero worlds. Caution recorded:
+  shapes, not slogans — no Taleb citations in frozen plans.
+- **Gate learning on DAMAGE, not novelty + combinatorial codebooks
+  [canon: Matzinger (danger model: immune activation by DAMAGE signals,
+  not foreignness); Tonegawa (VDJ/RAG combinatorial receptor
+  generation); verification deferred + arXiv:0801.3549v3 (Danger Theory
+  for Artificial Immune Systems — review) + arXiv:0801.0849v1 (police
+  analogy: respond to damage AND to suspicious-foreign; low-zone
+  tolerance needs combination therapy)].** → Two unbuilt gates: (1)
+  our surprise-gate (V1f–V1i) gates consolidation on NOVELTY; danger
+  theory prescribes gating on DAMAGE (toxin/energy-loss events, already
+  logged as toxinDamage but NOT sensed — the R26 interoceptive channel,
+  status check: STILL UNBUILT). Damage-gated consolidation is
+  specified-not-executed. (2) VDJ/RAG as codebook GENERATOR (segment
+  shuffling → combinatorial codebook families) — pairs the phylogeny
+  design (R111); specified-not-executed.
