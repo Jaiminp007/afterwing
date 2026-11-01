@@ -10916,3 +10916,75 @@ wholes into parts — applied to frozen numbers, no new worlds.
   (Hicks, choiceless) — filed as the boundary of
   economic analogy (works where behavior varies;
   stops where choice would need to exist).
+## Round 220 — Uniform banks, catastrophic draws (Lyell, Cuvier, Richter, Poovey; 2026-11-02)
+
+Motivation: the same engine runs everywhere (uniform processes,
+frozen) while each bank arrives as a revolution (new codebook,
+new verdicts). Four canons on sameness and rupture — plus the
+scale on which either is measured.
+
+- **The present explains the past, forward and back [canon:
+  Lyell/Hutton (uniformitarianism: same causes, always);
+  verification deferred].** → Frozen inference IS
+  uniformitarianism (same rules every run (identical engine,
+  identical scorers, identical caps) — the present attempt
+  explained by the same causes as every past one). Hutton's
+  abyss (no vestige of a beginning: banks have no origin
+  (random draws, no history)) + Lyell's method (explain
+  strata by observable processes (explain verdicts by
+  frozen rows, never by speculation)). The discipline as
+  geology (the ledger is strata (8002+ worlds, layered);
+  audits are fossils (preserved negatives dating the
+  formation)). No vestige of a beginning, no prospect of
+  an end (banks keep coming; verdicts keep issuing) —
+  uniformitarian program, indefinite run.
+- **Revolutions that wipe the slate [canon: Cuvier
+  (catastrophism; revolutions; extinction boundaries);
+  verification deferred].** → Each fresh bank is a
+  catastrophe (new codebook kills the old regularities:
+  transfer gaps reset (0.37–0.83, bank-dependent); birthy
+  bases go sterile (V1 control 0/6 on 446xxx); no
+  gradual transition (discontinuity total — the new
+  world shares nothing with the old except the engine).
+  Cuvier vs Lyell, both true here (uniform engine
+  (Lyell, above) + catastrophic draws (Cuvier: each bank
+  a boundary event (extinction of prior regularities,
+  fauna replaced (new codebook, new gaps)))). The
+  program's tempo: uniformitarian within banks, catastrophic
+  between them — punctuated equilibrium of verdicts
+  (stasis per bank (replicated n/6), revolution per draw).
+- **Should gaps be logarithmic? [canon: Richter (magnitude
+  scale; logarithmic significance); verification deferred +
+  arXiv:cond-mat/9905313v1 (modified Gutenberg-Richter:
+  power-law earthquake sizes, cutoffs — read) +
+  arXiv:2608.18791v1 (scaling-law-informed forecasting:
+  magnitude + ETAS history — read)].** → All gaps reported
+  linear (+0.13 pooled; +0.26 V1h; thresholds at ±0.1):
+  is +0.3 three times +0.1 — or a thousand times (in
+  energy terms (log-scale: each +0.1 gap ≈ order(s) of
+  magnitude more budget-adjusted energy?))? The reads
+  (GR power law: small events many, large few; b-value
+  near 1 (each magnitude ~10x rarer AND ~32x more
+  energetic)) ask whether verdict bands should be
+  logarithmic (a +0.3 GO dwarfs three +0.1 GOs the way
+  M7 dwarfs M6+M5+M4). Filed as an open measurement
+  question (NOT a proposal to change gates: linear bands
+  are frozen conventions; log-magnitude is a re-reading
+  lens, queued as analytic (recompute past gaps in
+  log-energy and check rank-stability — zero worlds)).
+- **Facts that travel [canon: Poovey (modern fact:
+  numbers as technologies that travel); verification
+  deferred].** → Rows are modern facts (numbers produced
+  locally (one run) that travel globally (bank → verdict
+  → synthesis → map) while losing context (the run's
+  particulars (which seed stalled when) shed at each
+  border (per-row → per-arm → per-bank → pooled))).
+  Poovey's technologies (double-entry, statistics, the
+  social survey: formats that let numbers move) are our
+  formats (protocol.json (customs declaration); bank SHA
+  (passport); verdict template (visa — stamped GO/NOGO,
+  admitted to the synthesis)). Facts travel; runs don't
+  (no one re-watches; the row emigrates, the run stays).
+  The map (200+ rounds) as an emigration record (facts
+  that left home, never to return (no rescore = no
+  repatriation)).
