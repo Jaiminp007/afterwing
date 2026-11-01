@@ -4955,3 +4955,180 @@ design language (Daisyworld) — plus the eco-geographic rules Vision's
   sensing ranges shift with gravity/temperature/density). Logged as the
   M4-gating companion to R93's scaling: no body is optimal, only optimal-
   for-a-world. No instrument (gated behind M4 like everything bodily).
+
+## Round 111 — hybridization & incompatibility (transfer as hybridization; 2026-11-02)
+
+Motivation: every transfer in this program moves weights between codebooks
+— biologically, hybridization between diverged genomes. The hybrid-zone
+literature predicts exactly our pattern (F1 vigor or breakdown, asymmetric
+introgression, reinforcement), and phylogenetics gives the missing
+formalism (signal, conservatism, trees). All entries canon (journal-bound,
+verification deferred); arXiv throttled at fetch time (429 across two turns,
+IP-level) — no arXiv IDs claimed this round.
+
+- **Transfer tax as Dobzhansky–Muller incompatibility [canon: Dobzhansky,
+  Muller (incompatible alleles, harmless apart, lethal together); Orr
+  (snowball: incompatibilities grow faster than linearly); Welch
+  (reviews)].** → The transfer tax (0.2–0.3, asymmetric, codebook-pair-
+  specific) has the D-M signature: each codebook works (same-val 0.95),
+  the combination misfires (flipped 0.5–0.7), and severity varies by pair
+  (0.078–0.173 lift range in V1j). Orr's snowball predicts the asymmetry:
+  incompatibilities accumulate superlinearly with divergence — testable
+  analytic-only (transfer gap vs codebook distance on frozen pairs, zero
+  new worlds). Specified, not executed.
+- **Haldane's rule [canon: Haldane 1922 (the heterogametic sex suffers
+  hybrid problems first); Coyne (dominance theory); Presgraves (reviews)].**
+  → Our sexes: no sex-difference in transfer has ever been tested (rows
+  lack per-sex readouts — the R99 logging gap). IF the D-M reading is
+  right, Haldane's rule predicts the failure concentrates in one sex
+  (heterogametic = males here, sex==1). A sex-split re-analysis is
+  specified the moment lineage logging lands. Until then: named, not
+  claimed.
+- **Hybrid zones as natural laboratories [canon: Barton & Hewitt (tension
+  zones, clines, hybrid superiority bounded); Hewitt (postglacial
+  recolonization)].** → A transfer pair IS a tension zone (trained niche
+  vs test niche, width set by generalization). Barton–Hewitt cline theory
+  gives the unbuilt measurement: fit the correctness cline across a
+  codebook GRADIENT (interpolated codebooks A→B in k steps) instead of
+  two endpoints — cline width estimates the "linkage" of the transferred
+  trait. Specified-not-executed (needs interpolated-codebook instrument,
+  frozen plan + fresh bank).
+- **Reinforcement finishes what transfer starts [canon: Butlin
+  (reinforcement); Servedio & Noor (models); Coyne & Orr (speciation
+  chapters)].** → Where hybrids are costly, selection strengthens
+  pre-mating isolation (reproductive character displacement). Our lines
+  never experience selection ACROSS transfers (frozen banks, no lineage
+  of lines) — reinforcement is impossible by construction, which is why
+  the same incompatibilities recur every bank. The multi-bank selection
+  design (lines as replicators, transfer success as fitness) is the
+  unbuilt long-arc instrument. Specified-not-executed.
+- **Niche conservatism + phylogenetic signal + cultural trees [canon:
+  Wiens (niche conservatism — lineages keep ancestral niches);
+  Blomberg/Pagel (K and lambda — is a trait more conserved than
+  Brownian?); Gray & Atkinson (language phylogenies from cognates)].**
+  → Three ports: (1) same-val 0.95 IS niche conservatism — the retention
+  literature renamed; Wiens' tests (niche overlap vs null) port directly
+  analytic-only. (2) Blomberg's K on transfer success across a codebook
+  phylogeny — but our codebooks have NO phylogeny (random draws). The
+  design implication: future codebook banks should be PHYLOGENETIC
+  (designed families with known relatedness), which turns every transfer
+  into a phylogenetically-controlled comparison. Specified-not-executed
+  (bank-design rule, needs frozen plan). (3) Gray–Atkinson: lineage
+  founders as language families (cognate = shared parental weights) —
+  founder concentration re-read as radiation size. Descriptive lens only.
+
+## Round 112 — load, MA lines & Peto (for load-then-recombine design; 2026-11-02)
+
+Motivation: MLR1 closed with the honest caveat (no load existed to purge).
+The load-then-recombine line needs a calibrated load phase first — and the
+mutation-accumulation literature is the calibration manual. All entries
+canon (journal-bound, verification deferred); arXiv throttled (429),
+no IDs claimed.
+
+- **MA-line theory calibrates the load phase [canon: Bateman–Mukai
+  (MA lines: fitness decline per generation under minimized selection);
+  Lynch (drift–load balance; genomic mutation rates); Halligan & Keightley
+  (distribution of mutational effects)].** → The load-then-recombine
+  design needs three numbers before any bank is spent: (a) per-generation
+  fitness decline at a given noise level (Bateman–Mukai protocol, in-silico
+  version: replicate runs with selection relaxed, measure gen-2+ decay
+  across generations — analytic pilot on existing null-noise arms first:
+  is there ANY decline to amplify?); (b) the noise level that makes load
+  detectable within a fundable horizon (dose pilot, analytic first via
+  rescoring? No — rescoring is barred; fresh-bank pilot only if analytic
+  bounds justify it); (c) the purging signature to look for (rebound of
+  recombined vs control under matched load). Specified as an analytic
+  calibration sequence, zero worlds until the bounds close.
+- **Haldane's cost prices the ledger, again [canon: Haldane 1957
+  (substitution load: each fixed beneficialallele costs ~30 selective
+  deaths); Kimura–Ohta refinements].** → R107 named it; the program use
+  is concrete now: the op budget (30e9 aggregate) and the substitution
+  budget (how many weight-changes can selection afford per run?) are the
+  same currency Haldane priced. Any line proposing many accepted revisions
+  (RSI!) must show the load is payable — a cost-of-selection audit on the
+  RSI-SELF accept counts (28 accepts in V1c: what did each cost in
+  selective deaths?). Analytic-only on frozen attempt ledgers, zero worlds.
+- **Peto's paradox scales bodies [canon: Peto (no more cancer in big/long
+  animals than small/short ones); Caulin & Maley (review); Tollis et al.
+  (elephant TP53 copies — the mechanism: extra tumor suppressors);
+  Nunney (body-size vs cancer models)].** → M4-relevant: bigger bodies
+  need MORE suppression per cell, solved by duplication (TP53 ×20), not
+  better repair. Port: richer bodies need duplicated CONTROL circuitry,
+  not just scaled-up policy — a body with twice the sensors needs twice
+  the normalization, not the same gain. Design maxim for any M4 attempt.
+  (Also: transmissible cancers — Tasmanian devil DFTD, dog CTVT — are
+  natural allografts: foreign tissue that evades rejection. Our transplants
+  never face rejection (no self/non-self). Allorecognition is the unbuilt
+  gate — noted, not licensed.)
+- **Programmed vs non-programmed aging, briefly [canon: Skulachev
+  (programmed aging, phenoptosis); Austad, Gavrilov (non-programmed:
+  aging as unselected decay); journal-bound, verification deferred].** →
+  Decides what the lifespan trait IS: a program (tunable, V1-style knob)
+  or a constraint (wear, un-tunable). Our zero age-deaths (mortality doc)
+  cannot separate them — both predict no senescent deaths under
+  starvation-dominated regimes. Discriminator specified: run a
+  post-scarcity bank (food ad lib, bar low) and watch whether deaths go
+  energetic or age-like. Specified-not-executed (new bank, new rationale
+  needed — and it reframes the whole mortality finding conditionally).
+
+## Round 113 — social choice for verdicts (methodology turns on itself; 2026-11-02)
+
+Motivation: the program judges lines by committee rules (conjunctive
+gates, 6-history majorities, pooled means) without ever studying committee
+rules. Social-choice theory IS the study of turning individual judgments
+into collective verdicts — our daily procedure, unexamined. This round
+aims the outside at the inside. All entries canon (verification deferred);
+arXiv throttled (429), no IDs claimed.
+
+- **Condorcet justifies replication [canon: Condorcet 1785 (jury theorem:
+  majorities beat individuals iff each voter is better than random, given
+  independence); Grofman et al. (reviews); Ladha (correlated votes)].** →
+  Our 6-history replication IS a jury: each history votes (GO/NOGO-ish via
+  thresholds), the majority/aggregate rules. The theorem's conditions are
+  the audit: (1) better-than-random — our G-gates enforce this (unlearned
+  flat, train ≥ 0.5); (2) INDEPENDENCE — histories share a bank and a
+  builder (correlated votes, Ladha's caveat!). Bank-dependence IS vote
+  correlation — the jury theorem says our juries are weaker than 6
+  independent votes, which is exactly the direction the bank-dependence
+  battery pointed. Verdict reform specified-not-executed: report
+  effective-jury-size (6 discounted by measured inter-history correlation),
+  analytic-only on frozen banks, zero new worlds.
+- **Arrow bounds gate design [canon: Arrow 1951 (no rank-aggregation rule
+  satisfies unanimity + IIA + non-dictatorship); Amartya Sen (liberal
+  paradox, brief)].** → Our gates are conjunctive (veto-like), not rank
+  aggregations — Arrow does not directly apply (noted honestly, not
+  over-claimed). The live question it raises: our GO/NOGO verdicts collapse
+  multi-dimensional evidence (gen-2, timing, energy, skew) into one bit —
+  ANY such collapse sacrifices something (the theorem's shadow even outside
+  its premises). The standing mitigation is already practiced (publish the
+  full dev-results alongside the verdict); the round records WHY that
+  practice is load-bearing, not decorative.
+- **Judgment aggregation + consensus [canon: List & Pettit (judgment
+  aggregation; discursive dilemma — majority on premises can contradict
+  majority on conclusions); Conradt & Roper (group consensus decisions);
+  Seeley (house-hunting: quorum + comparison shopping in swarms)].** →
+  Three ports: (1) The discursive dilemma BITES our verdicts: per-arm
+  majorities (hub wins 4/6 seeds?) can contradict pooled totals (hub loses
+  on sums) — Simpson's-paradox-adjacent. Prescription already followed:
+  publish per-seed AND pooled (we do); the round names the logic.
+  (2) Conradt–Roper: GO/NOGO is a consensus decision under uncertainty —
+  their speed–accuracy tradeoffs map onto our single-attempt discipline
+  (one shot = speed extreme; the frozen plan + fixtures are the accuracy
+  compensation). (3) Seeley: our arm comparison IS nest-site choice
+  (compare options, quorum to decide) — except we never let agents choose
+  (experimenter assigns arms). Choice-based assignment (agents sort to
+  treatments) is the unbuilt design — noted, not licensed (breaks causal
+  identification; recorded as the reason we don't).
+- **Inequity, prestige, Rogers: formal pointers (already-covered concepts,
+  formal layer virgin) [canon: Fehr & Schmidt (inequity aversion);
+  Brosnan & de Waal (primate fairness); Henrich (prestige bias, formal
+  models); Boyd & Richerson (conformist transmission, formal); Rogers
+  (paradox: pure copying can LOWER population fitness)].** → Covered
+  conceptually (R82/R102/R103/R108); what is virgin is only the FORMAL
+  layer — and the program's needs from it are now precise: (a) Rogers'
+  paradox formalizes the SOCIAL null (already published — pointer, no
+  re-verdict); (b) inequity-aversion formalizes G2 gates as fairness norms
+  ONLY AS ANALOGY (flagged: do not present gate-checks as fairness
+  findings); (c) prestige/conformist formal models would license SOCIAL-V2
+  variants (gated copying rules with named parameters) — the formalism is
+  specified as pre-reading for any such freeze, not executed here.
