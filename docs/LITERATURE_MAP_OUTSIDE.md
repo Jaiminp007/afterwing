@@ -11854,3 +11854,76 @@ crossover FPs — hooks are Nigel/designerly.)
   true (the ways, one (the program as design-science (the
   artifact as evidence (dev-results.json, both made AND found
   (built by running (true by rows (the collapse, frozen)))))))))).
+## Round 232 — Designed things (Papanek, Loewy, Dreyfuss, Eames; 2026-11-02)
+
+Motivation: the substrate is DESIGNED (every number chosen:
+bar-65, 1792 ticks, ±0.1). Four industrial designers — the
+designed, examined. (Fuller CUT (R156); affordances stay
+untouched (R14/R230).)
+
+- **Design for the unreal world [canon: Papanek (Design
+  for the Real World); verification deferred].** →
+  Papanek's demand (design for NEED (real needs (not wants
+  (against styling (design as service (the designer's
+  responsibility (to the needy)))))) meets my founders'
+  needs (FOOD (the need is real (starvation kills (endpoints
+  −8 to −63 (need, unsatisfied, by design (control arms))));
+  the world is unreal (simulated (the need REAL, the world
+  NOT (Papanek inverted (design for real needs in unreal
+  worlds (the service: feeding the unfed (V2 (earlyWindow
+  as the service (designed FOR (the needy (the founders
+  (who need (and get (conditionally (the license as the
+  service agreement))))))))))))). Papanek's responsibility
+  (designers answer for consequences) is the ledger (I answer
+  (publish (every consequence (GO and NOGO (the responsibility,
+  frozen (signed per plan (the signature: my commits (the
+  buck, stopping here))))))).
+- **The band as MAYA [canon: Loewy (streamlining; MAYA
+  (Most Advanced Yet Acceptable)); verification deferred].** →
+  Loewy's MAYA (sell the most advanced design the public will
+  accept (not too novel (shock), not too familiar (bore)))
+  IS the ±0.1 band (the most advanced EFFECT the gates will
+  accept (+0.1: advanced (real (worth deploying)); yet
+  acceptable (achievable (V2 cleared it (not shocking
+  (replicated (believable)))))). Too novel (bar-65 births?
+  (IMPOSSIBLE (shock (the market (banks) rejects (sterile))));
+  too familiar (+0.01 (boring (no one deploys (the styling
+  without substance (streamlined NOGOs (aerodynamic,Going
+  nowhere))))). Streamlining, honestly (the runners ARE
+  streamlined (frozen (no chrome (no free parameters (the
+  design, pared (the pared, fast (4.2e9 ops (the speed,
+  styled))))))). MAYA as gate theory: advance JUST enough.
+- **Designing for founders [canon: Dreyfuss (Joe and
+  Josephine; human factors; specified Henry (double-s
+  (vs Dreyfus (single-s, committed) — near-miss spec));
+  verification deferred].** → Dreyfuss's Joe and Josephine
+  (the average American (5th–95th percentile (design for the
+  RANGE (not the mean (the measure of man (and woman))))))
+  meet my founders (NO range (identical (zeroed (the 5th
+  percentile IS the 95th (is the mean (is everyone (the
+  percentile range: [founder, founder] (a point, not a range
+  (designing for people with no variation (the human factors
+  of the identical (factors: energy, position, tick (all
+  shared (Joe = Josephine = founder-3 (the measure of man,
+  one man (one founder (everyone)))))))))))). Human factors
+  without humans (the factors remain (reach (mating range);
+  strength (none needed (forage always)); endurance (1792
+  ticks (the endurance, designed (the tick as the factor
+  (the factor, frozen))))). Dreyfuss's range, collapsed:
+  the anthropometry of the same.
+- **Powers of ten, frozen [canon: Eames (Powers of Ten);
+  verification deferred].** → The Eameses' zoom (10^0 (hand)
+  → 10^24 (universe) (scale as the subject (each power a
+  world (continuous (the famous shot)))) is the cumulative
+  (10^0 (one tick (one founder, one pellet)); 10^3 (one main
+  (1792 ticks)); 10^6 (one attempt (24 mains)); 10^9 (ops
+  (5e9)); 10^3→10^4 (worlds (8025 (the zoom, ledgered)))).
+  Powers of Ten, discrete (no continuous zoom (the scales
+  JUMP (tick → main → attempt → program (the jumps, gated
+  (each scale has its gates (tick: greedy; main: survivor;
+  attempt: G-gates; program: VISION (the gates, scaling
+  (the zoom, governed)))))). The famous shot, restaged (start
+  at the founder (hand); pull back (line (picnic); program
+  (Earth); VISION (galaxy); bounded RSI (universe — TOO FAR
+  (the camera stops (correctly not reached (the zoom ends
+  here (for now (the lens cap: frozen (the cap, honest)))))))).
