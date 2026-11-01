@@ -82,7 +82,7 @@ test('scorer NOGO-WINDOW + TIMING-REFUTED + INVALID + INCOMPLETE branches',()=>{
   v=scoreMateWindowRows([...six('control',0),...six('early',0),...six('late',0),...six('full',0)]);
   assert.equal(v.verdict,'INCOMPLETE-NOBIRTHS');
   const bad=[...six('control',5),...six('early',9),...six('late',4),...six('full',8)];
-  bad[0].matingEnergyBar=50;
+  bad[0].matingEnergyBar=65;
   v=scoreMateWindowRows(bad);
   assert.equal(v.verdict,'INVALID');
 });
@@ -93,15 +93,15 @@ test('bank builds in tmpdir (54-unique, idempotent, experiment-pinned)',()=>{
   assert.equal(p1.histories.length,6);
   const flat=p1.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
   assert.equal(new Set(flat).size,54);
-  assert.deepEqual(flat.slice(0,3),[446001,446002,446003]);
+  assert.deepEqual(flat.slice(0,3),[447001,447002,447003]);
   const p2=mateWindowDevBank(join(dir,'bank.json'));
   assert.deepEqual(p2,p1);
 });
 
 test('spent backstop covers prior banks, excludes own bank',()=>{
-  assert.ok(!MW_SPENT_SEEDS.includes(446001));
-  assert.ok(!MW_SPENT_SEEDS.includes(446054));
-  for(const s of [381001,444001,444054,445001,445054,415001,428001])assert.ok(MW_SPENT_SEEDS.includes(s),`missing ${s}`);
+  assert.ok(!MW_SPENT_SEEDS.includes(447001));
+  assert.ok(!MW_SPENT_SEEDS.includes(447054));
+  for(const s of [381001,444001,444054,445001,445054,446001,446054,415001,428001])assert.ok(MW_SPENT_SEEDS.includes(s),`missing ${s}`);
   assert.equal(new Set(MW_FIXTURE_SEEDS).size,54);
 });
 

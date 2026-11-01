@@ -22,12 +22,12 @@ export const MW_HISTORIES=6;
 export const MW_ARMS=Object.freeze(['control','early','late','full']);
 export const MW_ENRICHED=5;
 export const MW_SCHEDULE=Object.freeze({control:null,early:Object.freeze([5,null,null,null]),late:Object.freeze([null,null,5,null]),full:Object.freeze([5,5,5,5])});
-export const MW_BAR=65;
+export const MW_BAR=50;
 export const MW_TOPOLOGY='hub';
 export const MW_EXPECT_MAINS=24, MW_EXPECT_PROBES=0;
 export const MW_OP_CAP=5_000_000_000, MW_WALL_CAP_SECONDS=3600;
-export const MW_FIXTURE_SEEDS=Object.freeze(Array.from({length:54},(_,j)=>446001+j));
-const MW_SPENT_RANGES=[[379001,379009],[380001,380009],[380011,380019],[380021,380029],[382001,382036],[383001,383036],[384001,384054],[385001,385054],[386001,386054],[387001,387054],[388001,388054],[395001,395018],[395019,395072],[396001,396036],[397001,397036],[398001,398036],[400001,400072],[401001,401036],[402001,402036],[403001,403036],[404001,404036],[405001,405054],[407001,407054],[408001,408054],[409001,409054],[410001,410054],[411001,411054],[412001,412054],[413001,413054],[414001,414054],[415001,415054],[416001,416054],[417001,417054],[418001,418054],[421001,421054],[422001,422054],[423001,423054],[424001,424054],[426001,426054],[427001,427054],[428001,428054],[429001,429054],[437001,437054],[438001,438054],[439001,439054],[440001,440054],[441001,441054],[442001,442054],[443001,443054],[444001,444054],[445001,445054]];
+export const MW_FIXTURE_SEEDS=Object.freeze(Array.from({length:54},(_,j)=>447001+j));
+const MW_SPENT_RANGES=[[379001,379009],[380001,380009],[380011,380019],[380021,380029],[382001,382036],[383001,383036],[384001,384054],[385001,385054],[386001,386054],[387001,387054],[388001,388054],[395001,395018],[395019,395072],[396001,396036],[397001,397036],[398001,398036],[400001,400072],[401001,401036],[402001,402036],[403001,403036],[404001,404036],[405001,405054],[407001,407054],[408001,408054],[409001,409054],[410001,410054],[411001,411054],[412001,412054],[413001,413054],[414001,414054],[415001,415054],[416001,416054],[417001,417054],[418001,418054],[421001,421054],[422001,422054],[423001,423054],[424001,424054],[426001,426054],[427001,427054],[428001,428054],[429001,429054],[437001,437054],[438001,438054],[439001,439054],[440001,440054],[441001,441054],[442001,442054],[443001,443054],[444001,444054],[445001,445054],[446001,446054]];
 export const MW_SPENT_SEEDS=Object.freeze([381001,...MW_SPENT_RANGES.flatMap(([a,b])=>Array.from({length:b-a+1},(_,j)=>a+j))]);
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
@@ -80,7 +80,7 @@ export function mateWindowDevBank(path){
   assert.equal(new Set(flat).size,MW_HISTORIES*9,'Dev bank draws must be 54 unique seeds');
   const p={schema:1,experiment:MW_EXPERIMENT,createdAt:new Date().toISOString(),histories,
     excludedSeeds:[...excluded].sort((a,b)=>a-b),registries,engineering,handoffSources,
-    scope:'MATE-WINDOW dev bank (deterministic fresh 446001-446054, 9/history, 6 histories). Spend: 24 mains (4 arms x 6 main-seeds); other 30 slots reserved-excluded, never spendable elsewhere. First use is the single V1 run; any exposure spends it. Union-excluded from all future qual banks via evidence-protocol scan.'};
+    scope:'MATE-WINDOW dev bank (deterministic fresh 447001-447054, 9/history, 6 histories). Spend: 24 mains (4 arms x 6 main-seeds); other 30 slots reserved-excluded, never spendable elsewhere. First use is the single V2 run; any exposure spends it. Union-excluded from all future qual banks via evidence-protocol scan.'};
   write(path,p);return p;
 }
 // Curve collector: per-tick observe energy (raw means+n; no pre-binning).
@@ -119,11 +119,11 @@ export function runMateWindowDev({bankPath,output,resume=false}){
   }else{
     for(const name of Object.keys(sources)){const t=join(outputAbs,'sources',name);mkdirSync(pathDirname(t),{recursive:true});writeFileSync(t,readFileSync(join(root,name)),{flag:'wx'});}
     write(join(outputAbs,'protocol.json'),p);
-    write(join(outputAbs,'attempt.json'),{schema:1,kind:'mate-window-v1-attempt',createdAt:new Date().toISOString(),
+    write(join(outputAbs,'attempt.json'),{schema:1,kind:'mate-window-v2-attempt',createdAt:new Date().toISOString(),
       bankSha256:digest(readFileSync(bankPathAbs)),sourceSha256:sources,ticks:BT_TICKS,founders:BT_FOUNDERS,
       baseLearnerOptions:{...BT_LEARNER_OPTIONS},arms:[...MW_ARMS],nutrientSchedulePerArm:Object.fromEntries(Object.entries(MW_SCHEDULE).map(([k,v])=>[k,v==null?null:[...v]])),transmission:'maternal',matingActionRequired:false,matingEnergyBar:MW_BAR,resourceTopology:MW_TOPOLOGY,reproduction:true,
       caps:{executions:300,aggregateScalarOperations:MW_OP_CAP,wallSeconds:MW_WALL_CAP_SECONDS},
-      scope:'MATE-WINDOW V1 windowed-encounter timing: control legacy + early enriched-phase-0-only + late enriched-phase-2-only + full enriched-all, hub base, bar-65, maternal, decoupled, gain OFF. GO = early beats control >=20%+2 AND early>late (timing, not amount); late>=early with GO-level boost = TIMING-REFUTED; else NOGO/INVALID/INCOMPLETE per plan. No population/learning/RSI claim.'});
+      scope:'MATE-WINDOW V2 windowed-encounter timing (bar-50 birthy base per CONFIG_AUDIT_V1: V1 bar-65+legacy sterile 0/6, cause=bar not luck): control legacy + early enriched-phase-0-only + late enriched-phase-2-only + full enriched-all, hub base, bar-50, maternal, decoupled, gain OFF. GO = early beats control >=20%+2 AND early>late (timing, not amount); late>=early with GO-level boost = TIMING-REFUTED; sterile-control-again = INCOMPLETE (line closes). No population/learning/RSI claim.'});
   }
   const checkpointLedger=()=>writeOver(join(outputAbs,'ledger.json'),{ledger,runtimes,redone});
   const note=(mains,probes,ticks,ops)=>{ledger.mains+=mains;ledger.probes+=probes;ledger.worldTicks+=(mains+probes)*ticks;
