@@ -161,7 +161,7 @@ export function checkTransplantIntegrity(srcSnapshot,dstLearners){
 // turn|ben over a cue set, with per-cue labels from labelOf and optional
 // cue filter. Used by the scorer (no filter) and the flip-split (subset
 // filters on the transferred row).
-function pooledTurnGap(cues,labelOf,filter){
+export function pooledTurnGap(cues,labelOf,filter){
   let hT=0,hN=0,bT=0,bN=0;
   for(const cue of Object.keys(cues)){
     if(filter&&!filter(cue))continue;
@@ -172,7 +172,7 @@ function pooledTurnGap(cues,labelOf,filter){
   if(!hN||!bN)return null;
   return {h:hT/hN,b:bT/bN};
 }
-const gapOfStats=g=>g===null?null:+(g.h-g.b).toFixed(4);
+export const gapOfStats=g=>g===null?null:+(g.h-g.b).toFixed(4);
 // Pure scorer (exported for fixtures). rows: [{tag,history:{seed},summary}].
 // G1: every row (all 6 tags x 3) joinRate >= T9_JOIN_MIN, else INVALID.
 // G0: train gaps >=0.5 on all 3 train histories, else INCOMPLETE-UNTRAINED.
