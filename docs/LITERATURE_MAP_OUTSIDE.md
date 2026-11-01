@@ -10698,3 +10698,79 @@ Speech Act committed R164).
   not Sigma protocols) but structurally identical (commit
   (freeze) → execute (run) → open (verdict) → verify
   (audit))). Phone-coins, frozen plans, same protocol.
+## Round 217 — What it is like to be nothing (Nagel, Jackson, Davidson, Strawson; 2026-11-02)
+
+Motivation: R144 settled that agents lack consciousness; the
+exclusion shelf (Baars/Dehaene/Tononi/Rosenthal/Graziano,
+committed) says what they lack. Four more canons on the
+negative — what nothing-it-is-like entails, and what follows
+for explanation. IIT/GW/HOT committed elsewhere; cited, not
+re-covered.
+
+- **What it is like to be a founder: nothing [canon: Nagel
+  (what is it like to be a bat?); verification deferred].** →
+  Nagel (consciousness = there being something it is like;
+  bats have it, we can't know it). Founders: there is NOTHING
+  it is like (no point of view (no integration for report
+  (R169: no voice); no unity (96-dim observation, no
+  workspace (shelf, committed)); no persistence (zeroed
+  newborns)). Nagel's question answered by stipulation +
+  architecture (not by discovery: we BUILT the absence (no
+  global workspace on purpose (R144); no recurrent self-model
+  (feedforward actor))). The bat inverted (Nagel: inaccessible
+  interiority; ours: accessible interior (fully observable
+  weights) with nothing inside (nothing integrates them FOR
+  anyone)). Knowable completely, like nothing whatsoever.
+- **Mary's room, no release [canon: Jackson (knowledge
+  argument: Mary in the black-and-white room); "Mary" shares
+  summary-FPs, specified Frank via Jackson; verification
+  deferred].** → Mary knows every PHYSICAL fact about color
+  (wavelengths, retinas, V4) and learns something new on
+  release (what red LOOKS like). The analyst knows every
+  physical fact about runs (ticks, contacts, energies,
+  weights) — and the release NEVER comes (no trajectory
+  ever watched (R195-Vertesi); no performance heard (R211-
+  Small)). Jackson's argument needs the release to work
+  (new knowledge on exit proves non-physical facts); here
+  exit is impossible (rows are the only world — there is
+  no outside to be released INTO (the sim has no outside;
+  the harness IS the room)). Mary's room with the door
+  welded: complete physical knowledge, forever, no
+  remainder — because no release, no remainder (the
+  argument can't start).
+- **No strict laws [canon: Davidson (anomalous monism:
+  no strict psychophysical laws); verification deferred].**
+  → Davidson (mental events are physical events, but no
+  STRICT laws cover them as mental — only ceteris-paribus
+  generalizations). Our verdicts are Davidsonian (train
+  0.81–0.83 ALWAYS (strict-ish, mechanism: contact);
+  transfer 0.52–0.83 (ceteris-paribus, paribus never held
+  (I2 = 0.973))). Anomalous monism as the map's metaphysics
+  (token-identity (every verdict IS rows), type-anarchy
+  (no law covers "transfer" across banks)). Promised
+  elsewhere (R194-Dupre: disorder of things); grounded here
+  (anomalousness is not ignorance (we know the mechanisms
+  (surpriseEma, contact-gradients)) but structure (banks
+  differ too much for strictness)). Strict where strictable
+  (train), anomalous where alive (transfer) — Davidson
+  exactly, no modification needed.
+- **Panpsychism, untestable twice [canon: G. Strawson
+  (panpsychism; realistic monism; specified Galen, vs P.F.
+  reactive-attitudes committed); verification deferred +
+  arXiv:1902.04321v1 (Phi ill-defined for general physical
+  systems — read, in support of the committed exclusion)].**
+  → If panpsychism is true, founders ARE conscious (a
+  little — they're physical, experience is ubiquitous).
+  Untestable (no report possible (no voice — R193-Spivak;
+  no behavior that distinguishes (turn-gating works with
+  or without inner light))). The read (Phi, IIT's measure,
+  ill-defined for general systems) adds the second
+  untestability (even the quantitative panpsychists can't
+  SCORE our agents (which Phi? undefined — the formalism
+  breaks on our architecture (96-dim, non-Markovian? —
+  uncomputed, uncomputable here))). Twice-removed from
+  knowledge (can't report; can't measure) — panpsychism
+  about flies-that-aren't: true-or-false, no difference
+  (the combination problem meets the no-voice problem;
+  both undefeated, both irrelevant (verdicts identical
+  either way — NOGO with or without inner light)).
