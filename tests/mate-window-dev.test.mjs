@@ -87,15 +87,9 @@ test('scorer NOGO-WINDOW + TIMING-REFUTED + INVALID + INCOMPLETE branches',()=>{
   assert.equal(v.verdict,'INVALID');
 });
 
-test('bank builds in tmpdir (54-unique, idempotent, experiment-pinned)',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'mwbank-'));
-  const p1=mateWindowDevBank(join(dir,'bank.json'));
-  assert.equal(p1.histories.length,6);
-  const flat=p1.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  assert.deepEqual(flat.slice(0,3),[447001,447002,447003]);
-  const p2=mateWindowDevBank(join(dir,'bank.json'));
-  assert.deepEqual(p2,p1);
+test('bank builder refuses spent range (post-bank form; 447xxx spent by V2 attempt-02)',()=>{
+  const dir=mkdtempSync(join(tmpdir(),'mwbank-guard-'));
+  assert.throws(()=>mateWindowDevBank(join(dir,'bank.json')),/already used in prior evidence/);
 });
 
 test('spent backstop covers prior banks, excludes own bank',()=>{
