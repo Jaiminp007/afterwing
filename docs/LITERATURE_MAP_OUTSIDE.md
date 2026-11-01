@@ -5468,3 +5468,162 @@ and marks which are pointers to covered ground vs live instruments.
   Maynard Smith/Price (R31-35); Hamilton (R26-30).** → Listed so future
   rounds do not re-map them; the live edges are above (skew fit,
   individuality audit, substrate-neutrality license).
+
+## Round 120 — The TD family we didn't use (distributional critics, options, SR-as-tax-theorem; 2026-11-02)
+
+Motivation: our stack is the SMALLEST viable TD system (mean-value
+critic, flat motor primitives, greedy inference). The literatures that
+extend each of those three choices predict our two biggest phenomena —
+and name the unbuilt instruments precisely.
+
+- **The transfer tax is a theorem, not a bug [canon: Dayan (1993:
+  successor representation); Barreto et al. (successor features);
+  R98 mapped the pointer — this entry states the consequence:
+  SR/SF theory predicts transfer across REWARD-function change but
+  failure across TRANSITION-function change; journal-bound, verification
+  deferred].** → A codebook switch IS a transition-function change
+  (same rewards, new observation dynamics). SR theory therefore predicts
+  exactly what V1b–V1j measured: partial transfer with a persistent tax
+  (0.52–0.82, never 1.0), direction asymmetry (forward vs backward
+  successor occupancy differs), and the V1j result (compressed features
+  transfer better — SFs are COMPRESSIONS of occupancy by construction).
+  No new instrument: this re-grounds the closed transfer arc in theory.
+  The unbuilt corollary is successor FEATURES as transfer substrate
+  (learn occupancy-features once, rebind codebook-specific rewards per
+  ecology) — specified-not-executed, needs frozen plan.
+- **Critics should learn distributions, not means [canon: Bellemare et
+  al. (distributional RL: value DISTRIBUTION, not expectation;
+  journal-bound, verification deferred) + arXiv:2209.14513v2
+  (WHY distributions help optimization: distribution loss has smoothness
+  → stable gradients, within Neural FZI) + arXiv:2106.06317v1
+  (Automatic Risk Adaptation: STATIC risk levels are suboptimal; risk
+  must be state-dependent and dynamic)].** → Two ports: (1) our critic
+  learns E[value]; our bars (52/65) are risk thresholds on a TAIL
+  (starvation). A distributional critic represents the tail EXPLICITLY —
+  R112's post-scarcity discriminator (survive vs thrive) is a two-point
+  distribution, and full distributional critics are its generalization
+  (specified-not-executed). (2) 2106.06317v1's moral maps to our FIXED
+  energy bars: state-dependent bars (bar as function of reserves,
+  season, density) are the risk-adaptive form of matingEnergyBar —
+  specified-not-executed, needs frozen plan (bar change = behavior
+  change, never analytic).
+- **Options: hierarchy as transfer insulation [canon: Sutton/Precup/
+  Singh (1999: options — initiation set + policy + termination);
+  journal-bound, verification deferred) + arXiv:1604.08153v3 (option
+  heads LOWER sample complexity under NEGATIVE transfer without hurting
+  positive transfer — the closest external precedent for hierarchical
+  structure mitigating exactly our tax) + arXiv:2101.06521v3 (HIDIO:
+  task-AGNOSTIC options from intrinsic entropy minimization, no goal
+  pre-specification)].** → Two re-reads, zero worlds: (1) our
+  turn|harmful policy IS an option (initiation: harmful cue contact;
+  policy: turn; termination: contact over) — TURN-GATE as option
+  discovery, accidentally; (2) motorPrimitive index-3-unreachable means
+  our option SET is impoverished (3 usable primitives) — the structural
+  ceiling behind STRUCTURAL/MATE-ACT voids. 1604.08153v3 supports the
+  differentiation-first direction (R94): hierarchy first, transfer
+  second. HIDIO's task-agnostic discovery is the unbuilt developmental
+  instrument (discover primitives before the ecology scores them).
+
+## Round 121 — Below the synapse and beside it (dendrites, astrocytes, myelin, volume transmission; exclusion boundary; 2026-11-02)
+
+Motivation: every weight in our substrate is a point-neuron synapse.
+Biology computes in five other places. This round inventories them as a
+substrate-expansion menu — mostly specified-not-executed, with two
+already-deployed knobs recognized for what they functionally are.
+
+- **Dendrites: the unbuilt nonlinearity [canon: London & Hausser
+  (dendritic computation review); Mel (dendritic learning); journal-
+  bound, verification deferred) + arXiv:2009.01269v1 (single dendritic
+  neurons solve MNIST/CIFAR — nonlinear trees >> point units) +
+  arXiv:2205.05303v1 (dendritic predictive coding: errors computed
+  LOCALLY in apical compartments — no separate error units needed) +
+  arXiv:2304.00951v2 (dendrite preprocessing SHRINKS the network needed
+  for threshold performance)].** → Our actor pays 96-dim global cost for
+  what dendrites compute locally: 2304.00951v2 implies our network is
+  oversized BECAUSE it lacks dendrites (compression argument pairing
+  V1j from the substrate side). 2205.05303v1 pairs with VALUE-PROBE
+  (INDETERMINATE critic-vs-actor): if errors live in compartments, our
+  probe placement (soma-equivalent readouts) was anatomically wrong —
+  recorded as a hypothesis for any probe-line revival, not a rescore.
+- **Astrocytes: the slow global context [canon: Araque/Navarrete
+  (tripartite synapse); Nedergaard (gliotransmission); journal-bound,
+  verification deferred) + arXiv:2404.13345v1 (computational models at
+  glutamatergic tripartite synapses) + arXiv:2211.09906v1 (contextual-
+  guidance integrated theory: astrocytes as CONTEXTUAL gates on circuits
+  and behavior) + arXiv:2601.00426v2 (RMAAT: astrocyte-inspired memory
+  COMPRESSION + REPLAY for long-context Transformers — persistent memory
+  tokens, adaptive compression)].** → Recognition, not construction:
+  our slow anchors (slowTaste/slowMotor, M-ACTOR's motor anchor) ARE
+  astrocyte-analogs functionally (slow integrative modulation of fast
+  synapses). 2211.09906v1's contextual gating is the formalism our gain
+  knob lacks (gain is scalar; contextual gating is circuit-addressed).
+  2601.00426v2 pairs with V1j + the replay twin (compression + replay as
+  ONE glial principle — our retention stack implements half of it).
+- **Myelin: plasticity of delay [canon: Fields (myelin plasticity;
+  book/journal, verification deferred) + arXiv:1902.06272v1 (synaptic +
+  myelin co-plasticity interact in Kuramoto nets) + arXiv:2605.23520v1
+  (delay plasticity ALONE drives attractor formation + frequency
+  selection on brain connectivity data)].** → Honest downscope: our
+  ticks are uniform-delay; delay plasticity presupposes coherent rhythms
+  to select among — and the synchrony measurement found NONE (all arms
+  asynchronous). 2605.23520v1 is therefore downstream of an oscillation
+  finding, not a current instrument. Recorded so the menu is complete
+  and correctly sequenced (oscillations first, delays second).
+- **Volume transmission + gap junctions: the deployed knob, named
+  [canon: Fuxe/Agnati (volume transmission: broadcast neuromodulation);
+  Bennett (gap junctions/ephaptic coupling); journal-bound, verification
+  deferred; arXiv = zero — searched-not-found, logged].** → The gain
+  knob (1.0/3.0, deployed V1g–V1i) IS volume transmission functionally
+  (one global signal, all synapses, no wiring). Gap-junction-fast-sync
+  is absent — consistent with the synchrony null. No instrument; the
+  deployed line gains its mechanism name.
+- **Exclusion boundary: microtubule/quantum computation [Hameroff/
+  Penrose Orch-OR; verification deferred as EXCLUDED].** → The map stops
+  here, explicitly: no behavioral handle exists at our substrate level,
+  no falsifiable prediction distinguishes it from noise in 1792-tick
+  foraging runs. Logged so future rounds do not re-propose it without a
+  handle. (Intracellular-transport microtubules, R86-adjacent, are cell
+  biology, not computation — different claim, unaffected.)
+
+## Round 122 — Waiting out the bad times II: persister mechanisms + torpor physiology (dormancy strategy covered R101; this round = HOW; 2026-11-02)
+
+Motivation: R101 covered dormancy/seed-banks as STRATEGY. This round
+covers the MECHANISMS that implement waiting — and prices the one design
+constraint a dormancy knob must carry (arousal is expensive).
+
+- **Persisters: clonal heterogeneity without mutation [canon: Balaban
+  (Type I/II persisters, hipA, toxin–antitoxin modules); Lewis;
+  journal-bound, verification deferred) + arXiv:0909.5125v2 (resonant
+  activation: noise CONSTRUCTIVELY synchronizes dormant→growing
+  switching — a synchronized awakening protocol) + arXiv:q-bio/0610026v1
+  (senescence EXPLAINS persistence: age structure alone reproduces
+  growth-phase/dilution-rate persister fractions — no switch needed) +
+  arXiv:1310.8592v1 (slow protein fluctuations → weak ergodicity breaking
+  → distinct growth phenotypes in CLONES; biphasic kill curve from
+  fluctuation statistics)].** → Three ports: (1) 1310.8592v1 is a
+  founder-variance MECHANISM candidate (identical genomes-equivalent,
+  divergent fates via slow fluctuations — pairs with the niche
+  fingerprint: the niche writes back through slow variables;
+  specified-analytic, zero worlds). (2) q-bio/0610026v1 re-reads our
+  long-lived-childless arms (MORTALITY round): are they senescent
+  persisters (old, dormant, alive) rather than failures? — decidable on
+  frozen ages (gen1Lifespan per row), specified descriptive, zero new
+  worlds. (3) 0909.5125v2's resonant awakening pairs with R112's
+  post-scarcity resumption (synchronized restart after bar-50 survival).
+- **Torpor/hibernation: waiting with a rewarming bill [canon: Geiser
+  (torpor/arousal physiology); Heldmaier (hibernation energetics);
+  journal-bound, verification deferred; arXiv = thin —
+  searched-not-found, logged].** → The design constraint for the
+  R-specified dormancy knob (skip ticks cheaply, resume on cue):
+  arousal is EXPENSIVE (rewarming dominates hibernation budgets).
+  Any dormancy instrument must price arousal (wake-up cost >> sleep
+  cost per tick) or it is a free-lunch bug. Specified as a frozen-plan
+  requirement, not an objection — the knob stays unbuilt until a plan
+  carries the arousal price.
+- **Bacterial quorum-sensing mechanism: pointer (covered at concept
+  level; LuxR/LuxI 0 IDs — mechanism detail not needed).** → The map's
+  quorum coverage (density feedbacks, synthetic QS, quorum-as-decision-
+  rule) operates at the right level; autoinducer chemistry adds no
+  design information for tick-priced agents. No further mapping unless
+  a Lux-analog instrument (diffusible signal with threshold response)
+  is proposed — which would BE volume transmission (R121), already named.
