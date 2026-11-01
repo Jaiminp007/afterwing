@@ -8019,3 +8019,126 @@ for what our evidence can and cannot carry.
   Specified-not-executed: repertoire logging (which tactics exist
   per bank? — needs tactic inventory over frozen rows; analytic,
   queued behind higher-value work).
+## Round 176 — Play (Huizinga, Caillois, magic circles, post-scarcity assay; 2026-11-02)
+
+Motivation: our agents never play. Is that a finding about them, or an
+artifact of us? Both — and the distinction specifies an experiment.
+
+- **The magic circle, unentered [canon: Huizinga (Homo Ludens:
+  play as free, separate, uncertain, unproductive, rule-governed);
+  verification deferred; arXiv = thin].** → Every tick is priced
+  (op ledger), every run is consequential (verdicts), nothing is
+  separate (one world, no playground). Our agents cannot enter the
+  circle because we built no circle: no unpriced ticks, no
+  consequence-free arena, no surplus. Play's absence is architectural,
+  not behavioral — a VOID with an address, not a finding about flies.
+- **One of four [canon: Caillois (agon/alea/mimicry/ilinx);
+  verification deferred; arXiv = thin].** → Foraging is alea
+  (chance) with a shadow of agon (no true contests — no opponents,
+  only the patch). Mimicry: none (no pretense, no roles — mating
+  displays are signals, not masks). Ilinx: none (no vertigo-seeking;
+  risk is minimized, never savored). Score: 1 of 4, and that one
+  incidental.
+- **Paidia is forbidden; only ludus survives [canon: Caillois
+  (paidia vs ludus); verification deferred].** → Paidia (free
+  improvisation) cannot exist under per-tick billing; ludus
+  (rule-bound games) is all there is — the turn/pause/cruise
+  repertoire IS a ludus, played for survival stakes. The substrate
+  selects its play-form by pricing: bill everything, get only
+  ludus.
+- **Post-scarcity assay (specified, not executed) [canon: none
+  new; pairs MATE-ENERGY bar-50 (surplus regime)].** → IF enriched
+  arms ever show surplus budgets, THEN: measure non-required
+  behaviors (contacts without intake? turns without cues? —
+  Burghardt's play criteria operationalized: incomplete function,
+  voluntary, modified form, repeated, healthy conditions).
+  Falsifier included: if surplus is always converted to
+  reproduction, play stays VOID and the assay reports that.
+
+## Round 177 — Time discipline (Thompson, Zerubavel, interval clocks, 1792 ticks; 2026-11-02)
+
+Motivation: our agents live in 1792-tick runs and cannot tell time.
+Who imposed the clock, and what does it cost them?
+
+- **Task vs clock [canon: E.P. Thompson (time, work-discipline);
+  verification deferred; arXiv = thin].** → Pre-industrial work
+  follows the task (milk the cows, then stop); industrial work
+  follows the clock (shift ends at six). Our runs are pure clock:
+  1792 ticks regardless of task state — founders die mid-task,
+  births happen (or don't) on schedule. The agents are timed but
+  have no time-sense: a factory regime without clocks on the wall.
+- **Hidden rhythms [canon: Zerubavel (schedules, tempo, hidden
+  rhythms); verification deferred; arXiv = thin].** → Bank draws,
+  phase boundaries (512-tick), probe ticks: the program runs on
+  schedules the agents cannot see. Zerubavel's point stands: the
+  schedule IS the institution. Ours is unusual only in being
+  explicit (frozen plans publish the tempo in advance).
+- **Clocks we didn't build [canon: Gibbon (scalar expectancy);
+  verification deferred + arXiv:2106.07713v2 (break-run-break
+  drift-diffusion start/stop model — read, not used)].** → No
+  interval timer exists in the substrate: no anticipation, no
+  waiting as behavior (pauses are reactive, not prospective),
+  no temporal discounting curve (greedy = infinite discount rate,
+  myopia by construction). The read model is filed as the
+  specification IF waiting ever becomes load-bearing (it isn't:
+  nothing in the current lines requires representing duration).
+- **The 1792-tick shift [canon: none new].** → A run is a shift:
+  clock in at tick 0 (all founders alive, energy 65.0), clock out
+  at 1792 or death, whichever comes first. Overtime is impossible;
+  quitting is impossible (no giving-up rule — the DISSONANCE-adjacent
+  question of whether agents should be allowed to stop is noted and
+  declined: stopping rules are for experiments (quorum-gated
+  stopping, licensed), not for agents mid-run).
+
+## Round 178 — Ignorance, priced (lemons, screens, dispersed knowledge, dismal tails; 2026-11-02)
+
+Motivation: nobody in our world knows the quality of anything —
+mates, patches, or futures. Information economics names the price.
+
+- **Mates as lemons [canon: Akerlof (market for lemons);
+  verification deferred + arXiv:2312.10896v1 (lemons + regulator
+  signaling problem — read)].** → Founders choose mates blind:
+  quality (future lineage success) is unobservable at mating time,
+  exactly the used-car lot. Akerlof predicts unraveling (good
+  sellers exit); ours can't exit (no outside option — the market
+  CAN'T unravel, so it persists at low quality. This re-reads
+  the mating arc: persistent low conversion isn't a puzzle under
+  asymmetric information, it's the equilibrium. Newcomers welcome:
+  the next mating line should price information (what WOULD a
+  quality signal cost?), not assume it.
+- **Screening without signals [canon: Stiglitz (screening);
+  verification deferred + arXiv:2503.19089v4 (cursed job-market
+  signaling — read; + arXiv:2007.08762v4 (manipulable signals —
+  read) + arXiv:2302.01116v1 (costly monitoring — read)].** →
+  Spence (committed) is the sender's move; Stiglitz is the
+  receiver's: the uninformed side designs the menu (contracts
+  that induce self-revelation). Our experimenters screen
+  constantly (frozen gates ARE menus: pass G2 and we treat you
+  as persistent) — but agents never screen (no choice among
+  offers). Note the asymmetry: the program screens relentlessly;
+  its subjects cannot. Cursed-equilibrium corollary (from the
+  read): agents that neglect others' private information do
+  fine in thin message spaces — ours is the thinnest possible
+  (no messages at all), so naivety is optimal, not a bug.
+- **Dispersed knowledge, no prices [canon: Hayek (knowledge
+  problem; spontaneous order); verification deferred; arXiv =
+  thin].** → Hayek: knowledge is dispersed and tacit; prices
+  aggregate it. Our world has dispersed knowledge (every founder
+  learns locally) and NO aggregation mechanism (no prices, no
+  gossip, no copying of the successful — copybest was tried and
+  changed nothing, V1 NOGO). The knowledge stays dispersed —
+  that IS the finding, again: no invisible hand because no
+  hand-shaped channels exist. Spontaneous order is absent too
+  (hubs are imposed by topology files, not emergent).
+- **The dismal arithmetic [canon: Weitzman (dismal theorem);
+  verification deferred; arXiv = thin (fat-tail fetch returned
+  power-grid noise — logged, not used)].** → With fat tails,
+  expected-utility analysis is dominated by the worst case, and
+  standard cost-benefit breaks. Our ledgers report means
+  (budgetAdjustedEnergyPerFounder, mean gaps); the dismal
+  reading asks about the left tail instead (extinction runs,
+  zero-birth arms, stranded founders). Partially answered
+  already (per-seed tables, floor analysis, survival curves),
+  but never AS tails: specified follow-up (report left-tail
+  quantiles alongside means in the next verdict doc that
+  has them — cheap, no new worlds, queued).
