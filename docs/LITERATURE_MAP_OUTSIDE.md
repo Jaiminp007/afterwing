@@ -8734,3 +8734,191 @@ gaps come out true anyway. Four canons on working falsehoods.
   gap); every NOGO is the methodology working (false assumptions,
   false predictions, discarded). Realism arrives, if ever, by
   accumulation (middle-range, R179) — not by assumption.
+## Round 188 — Nations and traditions (Tonnies, Anderson, Hobsbawm, Billig; 2026-11-02)
+
+Motivation: the program has territory (banks), membership (lines),
+rituals (freezing), and flags (protocol.json) — nationhood without
+a nation. Four canons on imagined political community, applied to
+72 founders who never meet.
+
+- **Pure Gesellschaft [canon: Tonnies (Gemeinschaft vs
+  Gesellschaft: community vs association); verification
+  deferred].** → Every relation in the program is Gesellschaft:
+  founder-to-founder (none — no ties), me-to-run (contractual —
+  the frozen plan AS contract: specified performance, specified
+  acceptance criteria), line-to-line (none — no inheritance).
+  No Gemeinschaft anywhere (no shared life, no custom, no belonging;
+  newborns arrive zeroed — no enculturation). Tonnies' modernity
+  thesis (Gesellschaft displaces Gemeinschaft) reaches its limit
+  case: a society with ONLY association, zero community — which
+  turns out to be fully functional (verdicts issue, lines close,
+  the map grows). The finding: community is not load-bearing for
+  cumulative inquiry (contracts suffice) — but also not present
+  to buffer anything (R185-Roy: monotony kills unbuffered).
+- **Imagined banks [canon: B. Anderson (imagined communities:
+  members never meet yet share identity); verification
+  deferred].** → A bank (e.g., fresh-11: 54 draws, no contact,
+  one name) is an imagined community par excellence: its members
+  (histories) will never encounter each other, yet they share
+  an identity (same codebook family, same verdict). Anderson's
+  mechanisms (print capitalism, census, map, museum) all have
+  analogues: protocol.json (the census — every member counted
+  identically), the bank SHA (the map — one hash, one territory),
+  dev-results.json (the museum — curated past on display). The
+  nation (program) is imagined too (182 rounds, one experimenter,
+  no citizens). Anderson without nationalism: imagined community
+  with no sovereignty claim (banks claim nothing — they are
+  drawn, spent, and archived).
+- **Invented traditions [canon: Hobsbawm (invented traditions:
+  recent rituals claiming ancient continuity); verification
+  deferred].** → Single-attempt, fresh-bank, negative-preservation:
+  all invented in October 2026, all ritualized (checklists, guards,
+  refusal messages), all claiming continuity with Science (the
+  lab-coat past: controls, replication, honesty). Hobsbawm's test
+  (traditions are responses to novel situations, invariant by
+  design) fits exactly: the novelty (in-agent RSI claims nobody
+  can check) demanded invariance (frozen everything), and the
+  rituals legitimize the program to itself. Self-critical edge:
+  invented traditions HIDE their novelty (claiming age); ours
+  ADVERTISE it (every plan dated, every amendment numbered —
+  V1 through V1d, A1, A2). Tradition that documents its own
+  invention is Hobsbawm-compliant and Hobsbawm-inverted at once.
+- **Banal frozenness [canon: Billig (banal nationalism: the
+  flag hung unnoticed on the public building); verification
+  deferred].** → protocol.json in every directory, verdict
+  template in every doc, commit-message format in every commit
+  (subsystem + verdict + worlds + bank): the nation flagged
+  daily, unnoticed, by hands that no longer see the flag. Billig's
+  point (nationhood reproduced in routine, not ceremony) is the
+  mechanism by which 188 rounds stay mutually intelligible (any
+  round, any line, same format — the banality IS the
+  infrastructure). Warning attached (Billig's own): banal does
+  not mean benign — unnoticed flags still mobilize (the template
+  decides what counts as a result before the result exists).
+  Counterweight named (R181-Becker: pre-registration as defense
+  counsel — the flag's content is published before it flies).
+
+## Round 189 — Networks without networks (Burt, Lin, Watts, Milgram; 2026-11-02)
+
+Motivation: founders never form ties (no edges, no paths, no
+clusters). Four network theories, four VOIDs — and the VOIDs
+agree with each other, which is itself a finding about absence.
+
+- **Holes without brokers [canon: R. Burt (structural holes:
+  brokers profit spanning clusters); verification deferred +
+  arXiv:1211.0719v2 (cohesion-vs-holes: clustering and effective
+  size as two sides of one coin — read)].** → No clusters (no
+  ties to cluster), no holes (no structure to span), no brokers
+  (no positions), no profit. The read sharpens the VOID: its
+  result (cohesion and brokerage measures are duals) means our
+  world scores ZERO on both simultaneously — maximally un-closed
+  AND maximally un-brokered (72 isolates: clustering undefined,
+  effective size undefined). Burt vs Coleman (closure, committed
+  R166) debated which structure pays; our world abstains from
+  the debate by having no structure (the control condition both
+  theories need and neither runs: networks with zero edges).
+- **Capital without ties [canon: Nan Lin (social capital:
+  resources embedded in networks); verification deferred].** →
+  No networks, no embedded resources, no capital — founders hold
+  positions (patches) but no relations, so position confers
+  nothing relational (hub advantage is ecological (food/area),
+  not social (no ties to leverage)). Lin's distinction (accessed
+  vs mobilized capital) collapses usefully: nothing is accessed
+  (no ties to access through), nothing mobilized. The VOID with
+  an address: IF ties ever become load-bearing (a future line
+  with signaling? — none built, none queued), Lin specifies the
+  measurement (accessed resources per position) in advance.
+- **Maximally un-small [canon: Watts (small-world networks:
+  high clustering + short paths); Strogatz committed elsewhere;
+  verification deferred + arXiv:1109.5454v1 (ubiquity of
+  small-worlds: cliques + 5-6 steps everywhere — read) +
+  arXiv:1408.4461v2 (distance-dependent WS formulation — read)].**
+  → Small-worlds are ubiquitous (the read: social, neural,
+  infrastructural — everywhere EXCEPT here). Clustering
+  coefficient: undefined (no edges). Path length: infinite (no
+  paths). Our 72 founders are the anti-small-world (maximally
+  un-small: zero clustering, infinite distance) — the corner of
+  Watts' parameter space (rewiring p = 0 AND lattice empty) that
+  the literature never visits because nothing interesting lives
+  there. Filed as the boundary condition: any future claim that
+  our world "transmits" anything must first build the edges
+  (then re-read Watts; until then, transmission talk is metaphor).
+- **Six degrees of separation, infinite [canon: Milgram
+  (small-world experiment: letters, forwarding, targets);
+  verification deferred].** → The experiment cannot run: no
+  letters (no messages — R178), no forwarding (no ties to
+  forward along), no targets (no one to reach). Every founder is
+  infinite degrees from every other — Milgram's chain (median 6)
+  vs ours (undefined). The round's net (entries 1-4 agree): four
+  theories, four absences, one consistent picture — nothing
+  flows because nothing connects. Absence with an address (no
+  edges) beats absence as puzzle (why no transmission?): the
+  transmission literature's null (R189) joins the mating arc's
+  nulls (R133, SOCIAL-V2) as the same finding from two sides
+  (no channels + no returns = nothing moves, twice proven).
+
+## Round 190 — How skew is born (Yule, Barabasi, Gibrat, judge it; 2026-11-02)
+
+Motivation: R186 measured the shape (pending Gini); this round
+names the generators. Three rival birth-processes for skew, one
+specified judgment — all older than, or contemporary with, the
+data they explain.
+
+- **The 1925 original [canon: Yule (Yule process: genera +
+  species; mutation + growth); verification deferred].** →
+  Rich-get-richer before Simon, before Barabasi: new genera
+  appear (mutation), existing genera grow species (growth) —
+  power law out. The two-level structure maps twice: WITHIN arms
+  (new lineages appear (births); existing lineages grow (more
+  births) — Yule's process running in ticks) and ACROSS the
+  program (new lines appear (my plans); existing findings grow
+  (replications compound V1g→V1h→V1i: +0.066→+0.134→+0.260)).
+  Yule's continuum (same process, biology and words) extends one
+  step further (same process, flies and verdicts). Simon 1955
+  (committed: Sciences of the Artificial lineage) translated Yule
+  to organizations — cited, not re-covered (his entry stands).
+- **Growth plus preference, revived [canon: Barabasi (scale-free
+  networks: growth + preferential attachment, 1999); verification
+  deferred + arXiv:cond-mat/0303252v2 (BA correlations:
+  dissortative — hubs link leaves — read) +
+  arXiv:1403.5617v5 (rise and fall of networks: MySpace as
+  disease-model — read)].** → The revival that ate the world
+  (growth + preference → scale-free) running in our patches:
+  lineages grow (births) + encounters prefer (hubs attract
+  bodies, not ties — preference without attachment). The reads
+  give two edges: dissortative BA (hubs link leaves) is our
+  mating by construction (dominant lines' offspring meet random
+  founders — leaves); and networks DIE (1403: MySpace falls
+  like an epidemic — MATE-SOCIAL-V2's copyalways-0 as the
+  network nobody joined; R182-Schumpeter's salted ground with
+  equations). Barabasi with the topology files left in: growth
+  needs no preferences when the patch is pre-segregated (hubs
+  concentrate bodies before any choice — preference follows
+  geography, not vice versa).
+- **The rival: proportionate effect [canon: Gibrat (law of
+  proportionate effect: growth independent of size →
+  lognormal); verification deferred].** → The anti-Pareto:
+  skew WITHOUT power law (multiplicative noise → lognormal
+  bulk, thin tail). Gibrat vs Yule/Barabasi is the round's
+  load-bearing tension (lognormal or power law? — R186-Pareto
+  claims the tail; Gibrat claims the bulk). The mechanisms differ
+  testably: preferential attachment (rich get MORE than
+  proportionate) vs proportionate effect (rich get exactly
+  proportionate). Our candidate discriminator (founderOffspring
+  vs founder birth-order: do early lines grow FASTER than
+  proportionate (Yule/Barabasi) or merely proportionately
+  (Gibrat)?) is specified below — the theories disagree about
+  the already-frozen rows, which is the best kind of disagreement
+  (no new worlds needed to judge it).
+- **Judge it [canon: none new (synthesis + specified analytic;
+  pairs R186-Gini/Zipf)].** → Specified, not executed: on frozen
+  mate-* rows, fit (a) lognormal vs Pareto to lineage-size bulk,
+  (b) growth-rate vs size (proportionate? super-proportionate?).
+  Four outcomes, four verdicts: Pareto tail + super-proportionate
+  (Yule/Barabasi win; keep the Pareto language); lognormal bulk
+  + proportionate (Gibrat wins; retire Pareto to "variance");
+  mixed (bulk lognormal, tail Pareto — the econophysics consensus
+  (R186: Gibbs bulk + Pareto tail) reproduced in flies); neither
+  (retire all three — skew without a generator named). Zero new
+  worlds (analytic-only); queued with Gini/Zipf (R186) as one
+  distribution-audit batch.
