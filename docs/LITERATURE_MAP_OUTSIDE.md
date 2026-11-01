@@ -7374,3 +7374,125 @@ validity we can claim, and the selves we don't have. Closing inventory.
   (no-turn on harm = accountable absence!). Verdicts as Austinian
   verdictives (felicity: authority (frozen!) procedure (gates!)
   sincerity (VACUOUS — no beliefs!)).
+
+## Round 161 — Metapopulations and branching (Levins, rescue, dormancy, adaptive dynamics; 2026-11-02)
+
+Motivation: lineage compounding happens in runs; runs sit in banks; banks
+never exchange migrants. The spatial-ecology canon says what that
+closure costs — and what would open it.
+
+- **The balance sheet [canon: Levins (metapopulation: colonization vs
+  extinction); Hanski (core-satellite, rescue); Ovaskainen/Hanski
+  (capacity); Brown & Kodric-Brown (rescue effect); verification
+  deferred + arXiv:2504.20396v1 (time-VARYING Levins: colonization/
+  extinction rates vary deterministically — averaging approach)].**
+  → Our banks: colonization WITHOUT recolonization (fresh seeds, never
+  migrants), extinction WITHOUT rescue (closed lines archive, never
+  recolonized). The metapopulation audit: our "metapopulation" is an
+  archipelago with no boats — persistence testable only within islands,
+  never of the system. 2504.20396v1's varying rates pairs our bars
+  (bar-50 vs bar-65 as extinction-rate treatments!). Specified, not
+  built: inter-run migration (bank-crossing migrants — violates
+  union-exclusion by design; logged as the deliberately-REFUSED
+  instrument, with the reason (contamination control > openness
+  benefits for verdicts)).
+- **Branching needs what we lack [canon: Dieckmann/Law (adaptive
+  dynamics); Geritz (branching points); Metz; Kisdi; verification
+  deferred + arXiv:2209.01792v1 (dormancy enables branching (rare-
+  mutation + large-population limit; polymorphic sequence → canonical
+  equation → branching criterion)) + pointers (0812.1655v1 (PES);
+  1807.01457v1 (microscopic eco→evolutionary toy — our individual-
+  based runs, pointer))].** → 2209.01792v1 pairs dormancy (R122)
+  with DIVERSIFICATION (dormancy enables branching!): our lineages
+  never branch (no dimorphism — unbuilt; R132). The branching
+  audit: selection without branching = directional only (no
+  diversification — expected: M-POP tests persistence, not radiation;
+  stated scope, not a gap).
+
+## Round 162 — Group-structured selection (assortment, extinction, openness audits; 2026-11-02)
+
+Motivation: the program IS a breeder (selects among runs for
+interpretability). The multilevel canon asks whether breeding works
+without the mechanisms that make it work.
+
+- **Structure we don't have [canon: Price (multilevel decomposition);
+  Hamilton (kin — pointer); Wilson/Sober (group selection); Traulsen/
+  Nowak; Tarnita; Allen (graphs — pointer); verification deferred +
+  arXiv:1910.06933v4 (assortment + reciprocity mechanisms in MLS
+  (assorted interactions! — ours are WELL-MIXED (random encounters!)
+  — the assortment audit: mean-field justified (replicator R138 ✓)
+  but group-structured selection precluded (MLS NEEDS structure —
+  groups = ? (runs?! (histories as groups?! (bank as metapopulation
+  with runs as groups — selection among runs = ARTIFICIAL group
+  selection (the program IS a breeder! (but breeding for KNOWLEDGE
+  (closed lines!) not FITNESS (compounding!) — breeding for
+  interpretability, stated!))))) + arXiv:2104.00392v3 (PDE replicator
+  multilevel (individual-vs-group conflict formalized — the equation
+  our hub-spread arms instantiate informally!))].** → Recorded:
+  artificial selection on lineages exists (we close lines); natural
+  group selection doesn't (no group births/deaths — see next).
+- **Extinction is the mechanism [canon: group extinction (Nunney;
+  Soltis; Bowles); verification deferred + arXiv:1605.08553v1
+  (SELECTIVE group extinction (groups die ∝ 1/fitness — THE mechanism
+  that makes MLS work))].** → Our groups are IMMORTAL (closed lines
+  archive forever — CLOSED ≠ dead (docs persist! (code reused across
+  lines! (V1i imports V1i transplant code! (nothing ever dies
+  (immortal germline?!))))). The extinction audit: selection without
+  extinction is selection without consequence — EXCEPT ours culls
+  (closes lines) while preserving the germline (code) — culling
+  WITHOUT extinction (documents die as projects, live as precedents).
+  Named precisely: immortal-germline artificial selection.
+- **The closure audit (Spore.fun vs union-exclusion) [canon:
+  Ray (Tierra); Lenski (Avida — pointer, R148-positioned);
+  verification deferred + arXiv:2506.04236v2 (Spore.fun: closed
+  systems (Tierra/Avida) PLATEAU after novelty bursts; OEE needs OPEN
+  environments (exchange info/energy!))].** → Our banks are CLOSED
+  (fresh but closed — isolation by design (union-exclusion!)).
+  Deliberate tradeoff, stated: closed for rigor (verdicts),
+  open for novelty (discovery) — the program chose rigor (150+
+  rounds, no RSI — Spore.fun predicts plateaus for closed systems!
+  (our plateau, independently predicted!)). The openness question
+  stays open: what would opening mean (cross-bank migrants?
+  evolving banks?) — specified as REFUSED (contamination control),
+  not unconsidered.
+
+## Round 163 — Open-endedness and self-modification (novelty, swarms, digital multicellularity, RSI relatives; 2026-11-02)
+
+Motivation: Track C needs true RSI; OEE needs unbounded novelty. Both
+are the opposite of frozen discipline — the tension, mapped honestly.
+
+- **Novelty vs verdicts [canon: Taylor (open-endedness); Stanley
+  (novelty search); Lehman (abandon objectives); Soros (QD);
+  verification deferred + arXiv:2201.06858v2 (self-modifying CODE in
+  OEE (allagmatic method — our RSI-SELF propose-evaluate-adopt IS
+  self-modifying code! (but BOUNDED (frozen menu!) — OEE needs
+  UNBOUNDED modification (tension STATED: boundedness (safety!) vs
+  open-endedness (novelty!) — the program chose bounded (the bound
+  IS the point!))) + arXiv:1903.08228v1 (swarms open-ended via
+  communication × concurrency × complexity-size (ours: no
+  communication (VOID!) concurrency ✓ (24 founders, uniform ticks
+  (no timescale separation)) complexity-size (too small for
+  transitions?! (SIZE specified as lever? (MATE-DENSE 72 used for
+  density not complexity — re-read, post-hoc, not claimed!)))].**
+  → QD map exists (TURN_GATE_QD_MAP — heterogeneity unactioned,
+  IB-FRONTIER). Novelty search says DROP objectives; verdicts need
+  them — irreconcilable by design (stated, not solved).
+- **Digital multicellularity and swarms [canon: DISHTINY (Moreno);
+  verification deferred + arXiv:2405.07241v2 (novelty/complexity/
+  adaptation in DISHTINY (ten morphologies! — ours: NO morphologies
+  (no development (R126! — unbuilt!)))].** → Fraternal transitions
+  need staying together (our... dispersers leave! (MD1 scattered!
+  (staying together unbuilt as strategy?! (philopatry load-bearing
+  (DISPERSE!) — staying IS the load-bearing trait (selected against
+  by the experimenter?! (we SCATTERED them (d=0.5!) — anti-fraternal
+  intervention (retrospective irony noted, not rescored!)))).
+- **The closest relatives (positioned, not pursued) [canon: Avida
+  (Lenski — pointer, R148); verification deferred; arXiv: thin].**
+  → Our program vs ALife, final form: evolution WITH ledgers +
+  negative preservation + frozen discipline (measurement science)
+  vs evolution for novelty (open-ended ALife) — different
+  selection, different science (stated since R148; DISHTINY/Spore
+  now the concrete contrasts). Track C (true RSI) will need to
+  loosen SOMETHING (menu? banks? objectives?) — the loosening
+  agenda is specified as the Track-C design question, not answered
+  here.
