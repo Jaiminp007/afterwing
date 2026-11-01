@@ -349,3 +349,12 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   (complementary mechanisms). R101-amendment separator did its job.
 - Results: `docs/TURN_GATE_RESULTS_V1J.md`. Cumulative program spend:
   7971 (+12). No V1k without new rationale.
+- 2026-11-02: Phase-K FROZEN (`docs/TURN_GATE_PLAN_V1K.md`, new rationale:
+  measurement V1 HB +0.234 vs BH +0.01) + IMPLEMENTED (direction-gated scorer,
+  10/10 fixtures, triage 978/7 zero-new, fresh-12 bank 448001-448054 built;
+  bookkeeping CORRECTION attempt-12/fresh-12, damage owns 11) + EXECUTED →
+  **GO**. All gates true (G2a-HB +0.2155 ≥ +0.1, 3/3 pairs; BH 0.848 ≥ 0.7;
+  same 0.947; G0 0.815-0.827; G2a 0.525). HB 0.372→0.588 (treatment, not cure);
+  overall lossy tax 0.118 (M4 trigger 2 unfired). Prediction calibrated to
+  0.02. M2-across wound-has-treatment CONFIRMED; line re-CLOSED (no V1l
+  without new rationale). Cumulative 8037 (+12). No RSI claim.
