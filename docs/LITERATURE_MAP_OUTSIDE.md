@@ -10481,3 +10481,78 @@ corner case each: R0 undefined.
   design (paired, pre-registered-ish, handle removed) and
   pocket the lesson (remove handles where water flows
   (phase 0), not where pipes run dry (phase 2)).
+## Round 214 — Deterministic divergence (May, Feigenbaum, Poincare, Wegener; 2026-11-02)
+
+Motivation: same rules (frozen inference), divergent verdicts
+(I2 = 0.973, gaps 0.37–0.83, births 0–13). Deterministic system,
+unpredictable particulars — four canons on divergence without
+randomness. Lorenz chaos committed elsewhere; cited, not
+re-covered.
+
+- **Density-dependence, mapped [canon: R. May (logistic map;
+  chaos in ecology; specified Robert; verification deferred
+  + arXiv:2211.11748v1 (logistic map as normal form for
+  energy balance: gain/loss curves determine universal
+  behavior — read)].** → The logistic map (growth × (1 −
+  crowding)): my dense arms (−64 vs −57: fixed food ÷ mouths)
+  ARE the map (growth limited by density, deterministically).
+  May's discovery (simple deterministic rules → chaos past
+  a threshold) is the bank lottery formalized (same runner,
+  different codebook (initial condition) → divergent
+  outcomes (0 vs 13 births) — sensitive dependence, no
+  randomness (all seeds deterministic)). The read (gain/loss
+  curves as the universal normal form) is my gain/brake/
+  damage knobs restated (surprise-gain vs damage-loss curves
+  determine which dynamics live where — V1i deployed at
+  the gain value whose curve stabilizes transfer).
+  Deterministic substrate, chaotic verdicts — May 1976,
+  running in flies.
+- **Doubling until it breaks [canon: Feigenbaum
+  (universality; period-doubling route to chaos);
+  verification deferred + arXiv:cond-mat/0606164v2 (routes
+  to chaos: period-doubling, intermittency, quasiperiodicity
+  — read)].** → V1f→V1h→V1i (+0.063 → +0.134 → +0.260:
+  effects roughly doubling per line) then DAMAGE (+0.0147:
+  the cascade STOPS — doubling arrested). Feigenbaum's
+  route (period doubling accumulating geometrically until
+  the chaotic regime) is the gain arc's shape (each line
+  doubles the last, until the line that doesn't (damage
+  gate: same family (gating), no effect — the accumulation
+  point reached (further gating buys nothing))). Universality
+  claimed narrowly (the CONSTANT isn't here — only the
+  SHAPE (doubling-then-arrest)); disclosed as analogy, not
+  measurement (no Feigenbaum constant computed — the read
+  covers the routes; ours took doubling, then stopped).
+- **No return [canon: Poincare (three-body; recurrence;
+  specified Henri; recurrence = return, distinct from
+  recurrent-networks FP); verification deferred].** →
+  Poincare recurrence (closed systems return arbitrarily
+  close to initial conditions — given time). Our discipline
+  FORBIDS recurrence (spent banks never regenerate; no
+  second attempts; fresh draws always) — the anti-recurrence
+  principle as method (returns are forbidden because returns
+  would be tuning (re-rolling until GO)). Three-body
+  resonance (no closed-form future; only integration step
+  by step): verdicts likewise (no closed-form transfer law
+  (I2 kills it); only run-by-run integration (each bank
+  integrated separately)). Poincare both ways (dynamics
+  without formulas (three-body: integrate); discipline
+  without returns (no-recurrence: re-draw)) — the
+  mathematics of proceeding without knowing where
+  you'll land, then refusing to go back.
+- **Pattern without mechanism, vindicated [canon: Wegener
+  (continental drift: pattern first, mechanism later);
+  verification deferred].** → Wegener (coastline fit, fossil
+  bands, no motor — derided for decades, vindicated by
+  seafloor spreading). V1j lossy (x0.5 beats exact +0.1324,
+  mechanism undisclosed — effect without motor). The program
+  runs on Wegener-shaped claims (transfer tax (pattern,
+  mechanism partial); hubs-as-sinks (pattern: per-capita
+  negative 8/8; motor: starvation + philopatry, sketched);
+  late==control seed-identical (pattern: exact; motor:
+  pre-completion vs saturation, open)). Wegener's lesson
+  (publish the pattern, take the derision, wait for the
+  motor) is the VOID/null discipline verbatim (publish
+  NOGOs (patterns of failure); keep the mechanism open;
+  let V2s (seafloor) vindicate or sink). Drift without
+  a motor — until the floor spreads.
