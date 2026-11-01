@@ -9935,3 +9935,129 @@ started it.
   the clinic built because the literature couldn't be
   trusted — ours can't be distrusted (all procedures
   published, all nulls kept)).
+## Round 206 — Counting the quick and the dead (Graunt, Halley, Brass, Keyfitz; 2026-11-02)
+
+Motivation: every row is a parish register (births, deaths,
+survivors per seed) and no one reads it as demography. Four
+demographers, four centuries, one ageless population.
+
+- **Bills of Mortality [canon: Graunt (Natural and Political
+  Observations, 1662: first life table from London bills);
+  verification deferred].** → Per-row tallies (births, deaths,
+  survivors, energy) ARE bills of mortality (weekly counts,
+  causes assigned, christenings vs burials as births vs
+  deaths). Graunt's moves, repeated: regularity from noise
+  (stable sex ratios → stable birth ranges (4–9/arm
+  medians)); excess mortality tables (plague years → dead
+  arms (act/dense/bar-65: all-zero, every seed)); the
+  population estimated from flows (my cumulative 8001 =
+  Graunt's London, counted from runs not parishes).
+  Political arithmetic, 2026: the state is one experimenter,
+  the polity 24 founders per parish, the bills exact
+  (residual <1e-7 — Graunt dreamed of this precision).
+- **The Breslau table [canon: Halley (Breslau life table,
+  1693: pricing annuities from deaths); verification
+  deferred].** → Halley turned burials into PRICES (annuities
+  priced by survivorship). Our survival curves price nothing
+  (no annuities sold; survival unpriced — R176: only ticks
+  are billed, living isn't). The Breslau inversion stated:
+  Halley made deaths fungible (commensurable across ages);
+  our ledgers make deaths comparable but never fungible (no
+  exchange rate between a hub death and a spread death —
+  arms never trade). Life tables without a life office
+  (no one underwrites; the program self-insures by
+  negative-preservation (the dead rows kept at full
+  resolution — the reserve fund)).
+- **Estimating from defective data [canon: Brass (indirect
+  estimation: Brass logit, orphanhood methods for incomplete
+  vital registration); verification deferred].** → Frozen rows
+  are DEFECTIVE data by Brass's standards (summaries, not
+  trajectories (R195-Vertesi); no birth timing (TIMING audit:
+  first-mating only); tallies, not lifelines (R196-Ingold)).
+  Brass's question (what can be estimated when registration
+  is incomplete?) is our audit discipline verbatim (Gini from
+  tallies (DISTRIBUTION); tails from endpoints (LEFT-TAIL);
+  timing from first-matings (TIMING) — each audit states what
+  the defect forbids (growth-rate test: unanswerable (no
+  per-founder timing); bulk-shape: flat, not skewed)).
+  Indirect demography as method: say what the defect costs,
+  then estimate anyway — with the cost attached.
+- **Momentum without ages [canon: Keyfitz (population
+  momentum: growth continues after fertility falls);
+  specified Nathan (vs ML-momentum FPs); verification
+  deferred].** → Momentum needs age structure (young cohorts
+  carry growth forward). No ages here (all founders born adult
+  (65.0); newborns zeroed, ageless) — so no momentum possible
+  (births stop when founders die; no echo effects; gen-2
+  never begets gen-3 momentum (observed once, never twice)).
+  Keyfitz inverted: the momentum is ZERO by construction
+  (agelessness as contraception — populations that cannot
+  coast). The one momentum that exists runs backward
+  (lineage depth (gen-3 once) carries the PAST forward
+  (founder effects persist), never the future — momentum
+  with the arrow reversed: the old move the young, who
+  then die on schedule).
+
+## Round 207 — Averages and their discontents (Quetelet, Galton, Pearson, Robinson; 2026-11-02)
+
+Motivation: verdicts run on means (gaps, energies, births per
+arm) and the mean founder doesn't exist (no seed IS the mean).
+Four statisticians on the average and its enemies.
+
+- **The average founder [canon: Quetelet (l'homme moyen;
+  the average man as ideal); verification deferred].** →
+  Every verdict centers something (mean gap +0.13 (META-GAIN);
+  median births 5–9; mean energy −20 to −60) and no founder
+  instantiates it (per-seed tables spread ±0.2 gaps, 0–13
+  births, −8 to −63 energy — the average arm is a fiction
+  no seed inhabits). Quetelet made the average an IDEAL
+  (l'homme moyen as perfection); ours is an ACCOUNTING
+  device (the mean is reported because decisions need one
+  number, not because any run resembles it). Left-tail audit
+  as anti-Quetelet machinery (min/med/max alongside means —
+  the discontents filed with the average, every verdict).
+  The average founder: useful, nonexistent, disclosed.
+- **Regression, observed [canon: Galton (regression to the
+  mean, 1886 — specified, distinct from Vox populi 1907
+  committed elsewhere); verification deferred].** →
+  Seed 416046 (V1b mutant edge 3-vs-2) → V1c pooled 4-vs-5
+  (nothing): exceptional parents, mediocre children —
+  Galton's tall fathers, restated in founders (the mutant
+  line that towered once, then regressed). Regression as
+  the replication discipline's shape (first-accepts regress
+  (V1d −0.04 after V1c +0.21); gain lifts regress
+  (V1h +0.260 after V1g +0.134? — no, that GREW (not
+  regression — heterogeneity, not error: I2 says the
+  variance is real)). Galton's warning built into gates
+  (single attempts can't distinguish luck from effect on
+  first sight — hence pooled designs (V1c: 24 mains) and
+  the pooled verdict (nothing) over the single-seed story
+  (something)).
+- **The workhorse, leashed [canon: Pearson (correlation
+  coefficient r); verification deferred].** → r does the
+  program's associational work (trainTop3-gap −0.166
+  (concentration doesn't predict tax); d_revalue-tax +0.47
+  vs d_family −0.18 (CODEBOOK-PHYLOGENY: valence is the
+  live wire)). Pearson leashed: reported always, trusted
+  never (n=10 banks (underpowered); no causal reading
+  (correlation as description, mechanism separate —
+  R198-Cummins/Salmon do the causal work, r watches)).
+  The leash rules, stated (report n; report CI or admit
+  its absence; never "suggests" from r alone — the
+  dissonance audit's charter, numerically enforced).
+- **Wholes are not sums [canon: W. Robinson (ecological
+  fallacy, 1950 — specified W.S., distinct from Joan
+  (imperfect competition, committed R201)); verification
+  deferred].** → Per-bank gaps (0.37–0.83 transferred) vs
+  pooled means (+0.131 META-GAIN): the whole (pooled) is not
+  the sum (banks differ more than arms do (I2 = 0.973)).
+  Robinson's fallacy (inferring individuals from aggregates)
+  is our standing temptation (the pooled +0.131 "works" —
+  for WHOM? which bank? worst-seed 0.374 says: not that
+  one). Anti-ecological machinery, three pieces (per-seed
+  tables (individuals kept); I2 reported WITH every pool
+  (heterogeneity travels); deployment WITH the tax (the
+  aggregate prescribed with its discontents)). The map at
+  200+ rounds is an ecological-fallacy minefield navigated
+  by refusing to navigate (report both levels, infer
+  neither from the other).
