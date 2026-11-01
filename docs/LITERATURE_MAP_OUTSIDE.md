@@ -4242,3 +4242,269 @@ channel can carry.
   (stochasticity as anti-predictor strategy — our cruise noise, priced).
   Path integration (Wehner, thin prior): homing without landmarks — hub
   fidelity's mechanism candidate.
+
+## Round 96 — attention, gain, binding, efficiency (for turn-gating + gain + fingerprint; 2026-11-02)
+
+Motivation: our agent orients among cues (turn-gating), scales updates by
+surprise (gain), and pays per observation dimension (96-dim charged). Each has
+a neuroscience twin — biased competition, precision/attention, efficient
+coding — and the IB-FRONTIER gap (identity 0.5763 vs valence 0.5753 bits)
+looks like a binding failure. This round fuses them.
+
+- **Biased competition = turn-gating [canon: Desimone & Duncan (objects compete
+  for representation; top-down bias resolves); journal-bound, verification
+  deferred; arXiv = zero].** → Our flip-split (contact-weighted correctness,
+  same-val vs flipped) IS a biased-competition experiment: cues compete for
+  the turn, training biases the competition. The theory adds the missing
+  condition: competition is STRONGEST for nearby/similar items — predicting
+  our error concentration (~3 HB cues carry the floor, R-concentration) as
+  similarity-driven competition, not noise. Testable analytic-only (cue-
+  similarity vs error rate on frozen rows), zero new worlds.
+- **Attention as precision/gain [arXiv:2505.03856v1 (active-inference model of
+  covert+overt visual attention: dynamic precision optimization minimizes
+  free energy; precision set by beliefs AND input) + arXiv:1702.04292v1 (three
+  attention mechanisms integrated for ACTIVE visual search: viewpoint
+  selection + top-down object attention)].** → 2505.03856v1 is the formal
+  home our surprise-gain lacked: gain = precision, set by belief×input.
+  Our gain is input-only (surprise); the model says it should be
+  belief-conditioned too (attend where you expect information) — the V-next
+  gain rule, specified-not-executed. 1702.04292v1's lesson (attention pays
+  by REDUCING search cost) reframes our 96-dim charge: attention is the
+  mechanism that makes rich sensing affordable — our agents sense 17 dims
+  with no attentional gate, paying full price always.
+- **Normalization from dynamics [arXiv:1906.08246v6 (divisive normalization
+  DERIVED as the steady state of Wilson–Cowan dynamics — Carandini–Heeger
+  meets Wilson–Cowan analytically) + canon: Reynolds & Heeger (normalization
+  model of attention); Carandini & Heeger review; journal-bound].** → Two
+  ports: (1) normalization is not an extra mechanism but the EQUILIBRIUM of
+  recurrent dynamics — our actor's recurrence may already normalize (check
+  analytic-only: response ratios vs contrasts in logged activations); (2)
+  Reynolds–Heeger says attention IS gain-on-normalization — unifying our gain
+  line and a future attention line into one knob (gain with a normalization
+  pool, not global gain). Specified-not-executed.
+- **Binding failures + efficient codes [canon: Treisman (feature-integration:
+  binding needs attention; illusory conjunctions when it lapses);
+  Wolfe (guided search); Barlow (efficient coding); Olshausen & Field
+  (sparse coding); Brunswik (lens model: achievement = ecological validity ×
+  utilization); Easterbrook (cue utilization under arousal); all journal-bound,
+  verification deferred; arXiv = zero].** → Three ports: (1) IB-FRONTIER's
+  identity≈valence gap (0.0010) reads as a BINDING outcome — identity and
+  valence are represented but not bound (no conjunction advantage) — Treisman
+  predicts binding needs attention, which our probes never engage (passive
+  replay). Binding-specific probe: specified-not-executed. (2) Brunswik's lens
+  FORMALIZES our niche fingerprint: achievement (1-NN 1.000) = validity ×
+  utilization — fingerprint says utilization is perfect; the V1 null (selection
+  missing) says validity was unexploited. Cite defensively. (3) Barlow/
+  Olshausen ask whether 96 dims are EFFICIENT — our charge prices them, but no
+  line tests compression (sparse phi, unbuilt).
+
+## Round 97 — transfer psychology: aftereffects, opponents, helplessness (for the tax; 2026-11-02)
+
+Motivation: the transfer tax (0.2–0.3, asymmetric ben→harm vs harm→ben,
+saturating) behaves like textbook perceptual/behavioral aftereffects —
+contingent, directional, asymmetric — and the RIGID class behaves like giving
+up. Psychology named these decades ago.
+
+- **Contingent aftereffects = the tax [canon: McCollough effect (orientation-
+  contingent color aftereffect lasting MONTHS); waterfall/motion aftereffect;
+  tilt aftereffect; all journal/textbook, verification deferred;
+  arXiv:2503.11970v1 (MAE in depth: directional ASYMMETRY toward vs away +
+  vergence-gating of magnitude — adaptation with direction and state)].** →
+  The McCollough effect is the transfer tax in miniature: learning bound to
+  a CONTEXT (orientation/codebook) misfires when the context changes, and it
+  is notoriously hard to extinguish. Our harm→ben stall (~0.67) has the same
+  signature (context-bound, extinction-resistant). 2503.11970v1 adds two
+  licensed details: aftereffects are DIRECTIONALLY ASYMMETRIC (ben→harm
+  converges, harm→ben stalls — predicted, not puzzling) and STATE-GATED
+  (vergence modulates magnitude — cf. our energy-gated everything).
+- **Opponent processes = HB/BH [canon: Solomon (opponent-process theory of
+  motivation: every A-process summons a B-process; dynamics of affect);
+  journal-bound, verification deferred; arXiv = zero].** → Our HB/BH pair
+  (approach/avoid, 1−turn inversion, gaps summing to 1.0) has opponent
+  structure (R84's inversion proof). Solomon adds DYNAMICS: opponents grow
+  with use and decay slowly — predicting the asymmetry (dominant process
+  flips with history) and tolerance-like saturation (4x-means plateau as
+  opponent growth, not capacity). Analytic-only fit candidate (opponent
+  equations on existing curves), zero new worlds.
+- **Helplessness = RIGID [canon: Seligman & Maier (learned helplessness;
+  2016 update: passivity is the DEFAULT, control must be LEARNED);
+  journal-bound, verification deferred; arXiv "learned helplessness" =
+  control-theory polysemy + soft-robot RL — searched-not-found].** → The
+  Maier update inverts the question: our RIGID agents (47/48 stampede,
+  uniform-low births) may not have LEARNED to fail — they may never have
+  learned CONTROL (their actions never mattered: decoupled mating, fixed
+  cruise, bar-gated everything). Controllability is the unbuilt variable:
+  an arm where actions demonstrably matter (contingency degradation control)
+  separates helplessness from inability. Specified-not-executed.
+- **Boredom, mind-wandering, latent structure [canon: Danckert (boredom as
+  exploration-value signal); Raichle (default mode); Tulving (encoding
+  specificity); Morris (transfer-appropriate processing); Miller & Matzel
+  (comparator); Tolman (latent learning — thin prior, deepened);
+  Dayan/Momennejad (successor representation — 1-hit prior, pointer);
+  journal-bound, verification deferred; arXiv = zero].** → Four ports, all
+  analytic-or-unbuilt: (1) boredom REFRAMES cruise (R95's pause triple
+  becomes quadruple: idle/turn-shadow/scan/boredom-seeking-novelty) —
+  cruise-as-exploration-bonus, testable via novelty-contingent cruise rates
+  analytic-only. (2) DMN/mind-wandering is the replay-content theory R94's
+  dreams left open: rest replay consolidates (sleep canon) AND simulates
+  (Revonsuo) — our replay does neither verifiably; content-logging is the
+  unbuilt measurement. (3) TAP + comparator + encoding specificity jointly
+  say performance ≠ knowledge and mismatch predicts failure — the transfer
+  tax EXPECTED under mismatch (R84's TAP note, now with comparator teeth:
+  never infer learning from performance alone — our verdicts already obey
+  this by scoring behavior, honestly labeled). (4) Latent learning + successor
+  maps: our probes may reveal learning invisible in training (latent) and
+  our Q may be a predictive map (successor) — both re-reads of frozen data,
+  zero new worlds.
+- **Grid cells: path integration's mechanism [arXiv:0811.1826v3 (accurate path
+  integration in continuous-attractor grid-cell models)].** → R95's head-
+  direction cells get their companion: HD (direction) + grid (distance) =
+  full path integration. Our agents integrate (cruise/home) with neither
+  structure named — the attractor-network implementation is the unbuilt
+  upgrade over our dead-reckoning-by-ticks, and the model quantifies the
+  drift our homing would accumulate. Specified-not-executed.
+
+## Round 98 — CLS, neurogenesis, consolidation (for replay + retention; 2026-11-02)
+
+Motivation: V1f–V1i built surprise-gated replay and NBSP-style protection was
+specified (R85) — both have direct counterparts in continual-learning and
+hippocampal literatures with sharper prescriptions than ours.
+
+- **Synergy: consolidation + replay [arXiv:2206.04016v1 (SYNERgy: synaptic
+  consolidation × dual-memory experience replay for general continual
+  learning) + arXiv:2610.39790v1 (long-term AGENT memory: complementary
+  curation + consolidation, episodic + relational) + arXiv:2110.07276v3
+  (carousel: bounded episodic memory for on-device continual learning)].** →
+  2206.04016v1 is V1f–V1i's published twin (consolidation AND replay, not
+  either/or — our bundle arm prefigured this). 2110.07276v3's bounded carousel
+  is our founder-slot constraint formalized (small hardware, smart
+  replacement — our replay is uniform-random; carousel/MaximallyInterfered
+  retrieval is the unbuilt upgrade). 2610.39790v1's episodic+relational split
+  ports to our rows vs lineage-founders (episodes vs relations — currently
+  separate files, never jointly scored; joint scoring is analytic-only).
+- **Consolidation AND reconsolidation, modeled [arXiv:1703.01357v7
+  (computational systems-consolidation + reconsolidation model: reactivation
+  returns memories to hippocampus-dependence)].** → The probe-effect risk,
+  formalized: our probes REACTIVATE (runTasteProbe replays histories), and
+  reactivation makes memories labile. Every probe battery may be
+  reconsolidating (destabilizing) what it measures — the measurement-threat
+  R89 raised for retrieval-induced forgetting, now with a model. Prescription:
+  post-probe stability checks (re-run a probe unchanged; drift = lability),
+  analytic-only on existing probe pairs where available, else specified-not-
+  executed.
+- **Weights that matter, protected [arXiv:2004.14366v2 (elastic weight
+  consolidation for bias inoculation: fine-tune with EWC, forget less)].** →
+  EWC is NBSP's cheaper cousin (R85 specified protect-by-importance; EWC
+  implements it via Fisher information — and Fisher information is ALREADY in
+  our map (R26-30 thesis metric)). The chain closes: Fisher-metriced EWC on
+  slow weights = the retention instrument with all parts in-hand.
+  Specified-not-executed (needs frozen plan).
+- **Neurogenesis: separation, causality, structure [arXiv:1704.07526v1
+  (neurogenesis + multiple plasticities enhance CA3 retrieval in a SPIKING
+  model) + arXiv:1104.5674v2 (CAUSAL models separating neurogenesis-dependent
+  vs independent behavioral effects) + arXiv:0912.2108v1 (NETWORK STRUCTURE
+  determines reorganization under adult neurogenesis) + arXiv:q-bio/0412036v1
+  (computational models of adult neurogenesis) + arXiv:1202.2148v1
+  (neurogenesis DRIVES decorrelation in olfactory bulb — separation!)].** →
+  Three ports: (1) 1202.2148v1's decorrelation is pattern separation by
+  construction — our codebooks separate by design (niche-ID 1.000 needs no
+  neurogenesis; but TRANSFER needs separation-preserving mapping, unbuilt).
+  (2) 1104.5674v2's causal-separation methods port to every ablation we run
+  (dependent vs independent effects of a knob — our G2 audits assert but
+  never estimate). (3) 0912.2108v1: STRUCTURE governs reorganization outcome —
+  our weight-topology is never measured (QD mapped activity, not wiring);
+  wiring census is analytic-only on frozen final weights, zero new worlds.
+
+## Round 99 — sex, demography, selfish genes (for mating + lineage; 2026-11-02)
+
+Motivation: our mating ignores sex roles (Bateman), sex ratios (Fisher),
+age (terminal investment), kin structure (sl-CSD), genomic conflict (Haig),
+and mobile DNA (McClintock) — six literatures that jointly say our lineage
+data are under-theorized. Collected here, briefly, as analytic lenses.
+
+- **Sex-ratio dynamics, multilevel [arXiv:1304.5519v2 (sex-ratio evolution
+  gene→multilevel selection; males as passive carriers; coordinate change
+  reveals new aspects) + arXiv:1303.0401v2 (male-subpopulation equilibrium
+  nature/role) + arXiv:q-bio/0702038v2 (sex ratio + NUMBERS for translocation
+  in METAPOPULATION management — links R88!) + arXiv:1206.1311v2 (CULTURAL
+  effects on sex ratios — environment sets ratios)].** → Our founders have a
+  sex ratio (engine-assigned) nobody audits: q-bio/0702038v2 makes ratio +
+  numbers JOINT management variables (our bars set numbers; nothing sets
+  ratio). Analytic-only first step (audit sex ratio by arm/bank on frozen
+  rows — zero new worlds); if skewed, Fisher's principle predicts compensatory
+  dynamics our single-generation window cannot show (documented, not tested).
+- **Roles, effort, age [canon: Bateman (male variance ≫ female — our sex-blind
+  mating averages over the fundamental asymmetry; per-sex gen-2 variance is
+  computable analytic-only on existing lineageFounders); Fisher (1:1);
+  Pianka (residual reproductive value — the bar as RRV threshold, third
+  framing after oosorption and asset protection); Clutton-Brock (terminal
+  investment — old founders should mate MORE; testable analytic-only on
+  age-at-mating); Clark (asset protection — young protect future, bar as
+  protector); all journal-bound, verification deferred; arXiv = zero].** →
+  Four pre-registered analytic queries on frozen banks (per-sex variance;
+  age-at-first-mating distribution; RRV-form fit of the bar; terminal-
+  investment slope), zero new worlds — the demography our mating line never
+  did.
+- **Selfish DNA + intragenomic conflict [canon: McClintock (controlling
+  elements; genome shock); transposons (parasitic DNA; our static genomes
+  lack them — a missing variation source, documented); Haig (genomic
+  imprinting as parental conflict within the genome — R85's dog POC taken
+  molecular); sl-CSD bees (inbreeding → diploid-male sterility — a MECHANISM
+  for our gen-2 failures under kin mating: inbred diploid males fail);
+  Wolbachia (reproductive parasites; our sterile ecology lacks them —
+  Hamilton–Zuk adjacent, R86); Schmalhausen/Woltereck (reaction norms —
+  per-seed spreads ARE norms of reaction; the formalism our spreads lack);
+  Hsp90/Rutherford/cryptic variation (covered pointer); all journal-bound,
+  verification deferred; arXiv = zero].** → The sl-CSD note is the sharpest:
+  if our engine's sex determination punishes inbreeding analogously, kin-
+  concentrated hubs (R88) would show exactly the gen-2 deficit we see —
+  checkable in engine code (read-only) before any new bank.
+
+## Round 100 — extended phenotype, engineering, trophic control (for niche + stability; 2026-11-02)
+
+Motivation: round 100. Our agents modify food (deplete patches), sense scent,
+and live in metapopulations — phenotype extended into environment, niche
+constructed, food webs implied. The literatures that make these precise, plus
+the trophic control theory our stability questions need.
+
+- **Genes act through environments [canon: Dawkins (extended phenotype —
+  beaver dams, caddis houses: genes' effects outside bodies); Odling-Smee
+  (niche construction — reciprocal causation, neglected in our selection-only
+  instruments); Jones (ecosystem engineers); ecological inheritance;
+  Laland (cultural niche — Boyd/Richerson covered, cultural-niche specifically
+  brief); all book/journal-bound, verification deferred; arXiv niche models:
+  2305.09369v1 (NC dynamics in ADAPTABLE populations in diverse environments
+  — reciprocal causation modeled!), 2503.18961v1 (tracking niche EVOLUTION in
+  XCS learning-classifier systems — in-silico niche construction, methods
+  pointer for logging our agents' environmental modifications),
+  2309.02788v1 (stochastic niche-based species models); arXiv = thin but
+  real].** → The unbuilt measurement: environmental-modification ledger
+  (patches depleted/created per agent — food is already logged globally;
+  per-agent attribution is analytic-only on existing step data where
+  available). 2503.18961v1's niche-tracking ports to our banks (track niche
+  occupancy across attempts — are later banks' niches constructed by earlier
+  attempts' depletion? No — fresh banks reset; the QUESTION is whether they
+  should: constructed-bank designs, specified-not-executed).
+- **Trophic control without trophics [arXiv:1404.7728v3 (trophic COHERENCE
+  predicts food-web stability — the structural property May's models missed)
+  + arXiv:1212.5025v1 (persistence of complex food webs in METACOMMUNITIES —
+  links R88!) + arXiv:1403.2352v2 (trophic groups/modules) +
+  arXiv:2502.11220v1 (coarse-graining cascades) + arXiv:1006.4432v4 (social-
+  network consumption models)].** → 1404.7728v3's moral ports: stability comes
+  from an IGNORED structural property (coherence), not from tuned parameters —
+  our saturated substrate (RIGID) may likewise await a structural reading
+  (what is our coherence? candidate: contact-graph coherence across the
+  transfer — analytic-only on frozen weights). 1212.5025v1 fuses trophic
+  persistence with metacommunities (R88's banks-as-patches, now with feeding
+  links — our banks have no cross-patch feeding; metacommunity feeding is
+  specified-not-executed).
+- **Canon, searched-not-found (logged).** Grime CSR (competitors/stress-
+  tolerators/ruderals — hubLeave as ruderal strategy, third framing after
+  spacing and leaving); Chesson MCT (stabilizing vs equalizing — needs
+  species we lack; documented absence); Janzen–Connell (enemies maintain
+  diversity — no enemies; documented absence, Hamilton–Zuk adjacent);
+  Holt apparent competition (shared predators couple prey — no predators;
+  documented absence); Werner–Peacor TMII + Laundré fear + NCEs (risk
+  reshapes foraging without a single death — our ecology's missing force;
+  fear ecology stands as the largest unbuilt context: what would a predator
+  change? specified-not-executed as a design question, not a plan).
