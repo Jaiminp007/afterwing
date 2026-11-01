@@ -9326,3 +9326,144 @@ plural.
   nonhumans as persons) — filed open (do I negotiate with
   banks (fresh draws as diplomacy?) or merely use them?
   — use, currently; the question is the audit).
+## Round 197 — The more-than-human program (Kohn, Haraway, Barad, Stengers; 2026-11-02)
+
+Motivation: the program studies nonhumans (flies-that-aren't) with
+instruments built by a human for a goal about machine self-
+improvement. Four canons on thinking with others that aren't us.
+
+- **Do the flies think? No; does the ecology? [canon: Kohn
+  (How Forests Think: signs, selves, souls beyond the human);
+  verification deferred + arXiv:2507.16258v2 (animal interaction
+  with autonomous systems; more-than-human design — read)].**
+  → R144 settled the first question (agents don't think — no
+  selves, no souls, no signs taken AS signs). Kohn reopens the
+  second: the niche-fingerprint (1-NN niche-ID 1.000 — weights
+  ARE niche models) is a SEMIOTIC result (the world leaves
+  signs; policies embody them; transfer reads them elsewhere).
+  Peircean triad, silicon substrate: codebooks as objects,
+  weights as interpretants, turn-rates as... not quite signs
+  (no interpreter). The read (designing autonomous systems
+  FOR animals — asking how nonhumans perceive machines)
+  inverts our direction (we ask how machines perceive
+  codebooks) — same question, opposite arrow. Filed: semiosis
+  without selves (the ecology signifies; nobody reads).
+- **Situated verdicts, god-trick refused [canon: Haraway
+  (situated knowledges; cyborgs); verification deferred].** →
+  Every verdict is situated (in a bank (fresh-11), a date
+  (2026-10-28), a hash (df4a133), a harness) — and the program
+  refuses the god trick (no view from nowhere: no universal
+  transfer law (I2 = 0.973 forbids it); per-bank verdicts or
+  nothing). Haraway's cyborg (the compact that refuses
+  origin-stories: neither organism nor machine) is my agents
+  exactly (organic-inspired + computational — born in code,
+  dying on schedule, no Eden, no fall). And the cyborg myth's
+  politics (affinity over identity: coalitions by choice, not
+  blood) is my lines' sociology (no inheritance (zeroed
+  newborns) — every coalition (arm) is affinity (same frozen
+  plan), never kinship). Situated, cyborg, affinity-bound —
+  Haraway 1985 as the program's birth certificate, backdated.
+- **Gates as agential cuts [canon: Barad (agential realism:
+  phenomena enacted by apparatuses; agential cuts);
+  verification deferred].** → The +0.1 band does not MEASURE
+  improvement; it ENACTS it (a +0.09 gap and a +0.11 gap are
+  the same evidence; the cut makes one NOGO and one GO —
+  phenomena (deployable gain) enacted by apparatus (gate),
+  not discovered in nature). Barad's point (apparatuses are
+  material-discursive practices that make boundaries) is the
+  frozen plan's job description (banks + runners + scorers as
+  the apparatus enacting "transfer works here"). R180-Luhmann
+  said the system reproduces communication; Barad says the
+  cuts produce the world the communication is about (no
+  transfer-effect before the gate; the gate makes it so —
+  or unmakes it (NOGO as unmaking)). The licensed counterweight
+  stands (fresh banks: cuts re-enacted per bank, never assumed
+  to travel — I2 as the record of cuts that didn't take).
+- **Slow science, fast flies [canon: Stengers (slow science;
+  cosmopolitics); verification deferred; arXiv = thin (slow-
+  science fetch returned nothing — logged, not used)].** →
+  The frozen discipline IS slow science (deliberate (freeze
+  first), pre-registered (gates published), negative-preserving
+  (all nulls kept), 1792 ticks at a time) against move-fast ML
+  (tune freely, publish GOes, erase failures). Stengers'
+  cosmopolitics (assembling a common world with those who slow
+  you down) gets its limit case: the flies cannot assemble
+  (no voice — R193-Spivak; no slowing (they die on schedule
+  regardless)) — cosmopolitics with the voiceless is husbandry,
+  not politics (admitted, not decorated). Slow science kept
+  for its own reasons (verdicts that survive re-derivation),
+  not for inclusion (no one is included — the clinic has one
+  member (R191), the nation no citizens (R188)).
+
+## Round 198 — How to explain a mechanism (Cummins, Salmon, Bechtel, Craver; 2026-11-02)
+
+Motivation: every audit decomposes (flip-splits), levels (per-bank
+verdicts), functionalizes (what is gain FOR?), and traces (what
+transfers?). Four canons on mechanistic explanation — the audit's
+own philosophy, finally named. Glennan/MDC committed elsewhere;
+cited, not re-covered.
+
+- **What is gain FOR? [canon: Cummins (functional analysis:
+  explain X by its contribution to capacity C); verification
+  deferred + arXiv:2411.01332v5 (mechanistic XAI strategy:
+  functional organization of deep nets — read)].** → "How does
+  gain 3.0 contribute to transfer?" is Cummins' question
+  verbatim (not "what is gain made of" (a multiplier, trivially)
+  but "what does it do for the capacity" (compounds extinction:
+  +0.066 → +0.134 → +0.260 — the contribution, measured)).
+  Functional analysis without homunculi (no little turner inside
+  — the contribution is arithmetic (boosts on damage batches),
+  not agential). The read (mechanistic XAI as functional
+  organization) is our flip-split generalized (explain the net
+  by what each part contributes to the gap — contact-weighted
+  correctness per cue (R-concentration) IS Cummins applied).
+  Functions without purposes (no telos — the bar is a threshold,
+  not a goal anyone holds): Cummins naturalized, then
+  de-teleologized.
+- **Marks that don't transmit [canon: Salmon (causal-mechanical
+  explanation; mark transmission); verification deferred].** →
+  Salmon: causal processes transmit marks (chalk on the ball
+  moves with it); pseudo-processes don't (the spotlight's spot
+  carries no mark). V1j lossy (x0.5 transplant beats exact:
+  +0.1324) BREAKS the mark criterion (degrading the mark
+  improves the effect — the exact transplant preserves every
+  mark yet transfers worse). Either transfer is a pseudo-
+  process (no — it does work (gaps replicate)) or marks aren't
+  the currency (yes — exactness over-preserves (R196-Viveiros:
+  travel light); the relevant transmission is topological
+  (which cues, not how much)). Salmon kept as the test (ask of
+  every proposed mechanism: what mark does it transmit? —
+  surpriseEma transmits (deployed); copybest transmits nothing
+  (NOGO)) and bounded by V1j (transmission with degradation
+  beats transmission with fidelity — the mark criterion fails
+  exactly where retention succeeds).
+- **Decompose, then localize [canon: Bechtel (decomposition +
+  localization heuristics); verification deferred].** → Every
+  audit IS Bechtel: decompose the capacity (turn-gating →
+  contact vs turn vs label (flip-split); transfer tax → train
+  vs transferred vs gain (V1i arms)), then localize (attribute:
+  HB cues carry the residue (R-concentration, corrected);
+  damage batches carry the boost (2841 fired, nothing)).
+  Bechtel's heuristics (decompose by function, localize by
+  intervention) are the frozen-line template restated (arms =
+  interventions targeting functions; rows = localizations).
+  The heuristic's limit, disclosed (R194-Duhem's holism:
+  decomposition assumes near-decomposability; I2 = 0.973 says
+  banks are NOT decomposable from each other (interactions
+  dominate) — decompose WITHIN banks (works), never ACROSS
+  (the synthesis synthesizes verdicts, not mechanisms)).
+- **Levels without reduction [canon: Craver (mechanistic
+  levels); verification deferred].** → Weights → rows → banks →
+  verdicts → syntheses: five levels, none reduced (weights don't
+  explain verdicts (too many steps); syntheses don't replace rows
+  (I2 lives at bank level)). Craver's levels (constitutive:
+  lower constitutes upper, same mechanism) sort cleanly:
+  rows constitute banks (same runs, aggregated); banks do NOT
+  constitute syntheses the same way (syntheses compare verdicts
+  — a different mechanism (meta-analysis), not a bigger row).
+  The program's level rule, stated: aggregate WITHIN levels
+  (per-seed tables → bank verdicts: licensed), compare ACROSS
+  (bank verdicts → syntheses: licensed with I2 attached), never
+  reduce (no "the tax is really just weights" — the tax is at
+  bank level, weights at theirs; crossing needs a bridge law,
+  none built, none queued).
