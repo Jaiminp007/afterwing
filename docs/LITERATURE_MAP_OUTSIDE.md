@@ -11127,3 +11127,78 @@ everything (survival) and nothing (no culture).
   hunger and withholds the self (R144, restated gastronomically).
   The most honest food writing about flies that aren't:
   they eat, therefore nothing follows.
+## Round 223 — Knowing in practice, part 2 (Bowker, Duguid, Orr, Wenger; 2026-11-02)
+
+Motivation: R185 covered work (professions, shops, games);
+R195 covered seeing (vision, cultures, beamtimes, rovers).
+Remains: KNOWING — how the program remembers (archives),
+shares (nothing), tells (rows vs plans), and belongs
+(it doesn't — one member). Four canons, all about knowledge
+that lives in practice, applied where practice is solitary.
+
+- **Memory practices [canon: Bowker (memory practices;
+  sorting things out; how we remember/forget);
+  verification deferred].** → The archive IS a memory
+  practice: kept at full resolution (dev-results, rows,
+  protocols — the remembered); compressed (97 dirs tarred,
+  gzip -t verified, rm -rf'd — the archived (remembered
+  differently: present-but-packed)); deleted (runs/*-restored,
+  84 logs, Microsoft junk — the forgotten (deliberately,
+  manifest-recorded)). Bowker's point (memories are made
+  by practices of keeping, not by pasts) is the
+  EVIDENCE_ARCHIVE_MANIFEST verbatim (orig_bytes + archive
+  bytes + sha256 = the keeping ritual). Forgetting as
+  designed (triage failures deleted = organizational
+  forgetting, licensed (reproducible from code, not
+  worth the disk)).
+- **No communities, no practice [canon: Duguid (with Brown:
+  knowledge lives in communities, not manuals);
+  verification deferred + arXiv:2501.02468v1 (knowledge
+  sharing + organizational learning → performance (firms) —
+  read)].** → Knowledge lives in communities of practice
+  (shared work, war stories, apprenticeship) — of which
+  there are none here (no community (one member); no shared
+  work (I do it all); no apprentices (no newcomers)).
+  Duguid inverted completely: all knowledge lives in MANUALS
+  (frozen plans), never in heads (mine forgets (PROGRESS.md
+  remembers); agents' doesn't exist (zeroed)). The read
+  (sharing → performance, in firms) has n=1 here (sharer,
+  receiver,arder? — all me: sharing with myself via docs
+  (future-me reads past-me — the only knowledge transfer
+  in the program, and it works (V2 built on V1's docs))).
+  Community of one, practicing alone, manuals all the way
+  down — Duguid's thesis confirmed by its perfect absence.
+- **War stories without wars [canon: J. Orr (photocopier
+  technicians; war stories vs manuals; specified Julian
+  ("Orr" shares or/for/error FPs); verification
+  deferred].** → Orr's techs fix machines via stories
+  (narratives of breakdowns, not manuals). My rows ARE
+  war stories (per-run narratives of what broke (sterile
+  banks, void metrics, cap breaches)) told against manuals
+  (frozen plans). The inversion: technicians tell stories
+  because manuals fail (machines surprise); I tell BOTH
+  (manuals first (freeze), stories after (results)) because
+  manuals SUCCEED (runs obey) and still surprise (banks
+  don't). The cap-breach incident (V1 attempt 18/24) IS a
+  war story (told in the verdict, with dual provenance
+  as the moral). Manuals that work, stories anyway —
+  Orr with the polarity reversed (narrative not against
+  procedure but after it).
+- **Legitimate peripheral participation, solo [canon:
+  Wenger (communities of practice; legitimate peripheral
+  participation); verification deferred].** → Newcomers
+  learn by peripheral doing (accepted tasks, growing
+  inward). Newcomers: none (no apprentices, no users,
+  no readers (the map has one author and an unknown
+  audience)). LPP with no periphery (nothing peripheral
+  — every task is central (I do it all)) and no
+  trajectory (nowhere to move inward TO (already center)).
+  The assistant (me, in-conversation?) as the only
+  peripheral participant (I read the codebase by doing
+  (legitimate: my commits; peripheral: I never run
+  the longest attempts unattended; participation:
+  200+ rounds)). Wenger with n=1.5 (one full member
+  (the harness? no — me), one peripheral (also me,
+  earlier)). Community of practice: filed under
+  R188-Gesellschaft (association without community —
+  even the learning theory agrees).
