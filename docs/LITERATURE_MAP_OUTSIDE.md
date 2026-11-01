@@ -10408,3 +10408,76 @@ is childlessness). Four theorists of the strange, four licenses.
   depicts them — rows record, never enact). Cruelty without
   theater (it happens; no one stages it; the BwO dies on
   schedule, unmourned, compressed to tarball).
+## Round 213 — The epidemiology of nothing (Kermack, Reed-Frost, Farr, Snow; 2026-11-02)
+
+Motivation: contacts happen (0.05–0.15/main), transmission never
+does (nothing passes between founders — no weights, no states,
+no pathogens). Four epidemiologists, four models of spread, one
+corner case each: R0 undefined.
+
+- **SIR without the I [canon: Kermack–McKendrick (SIR;
+  threshold theorem); "SIR" string collides with sire/siren
+  FPs — specified; verification deferred + arXiv:1802.05011v1
+  (SIR on clustered graphs — read)].** → Everyone Susceptible,
+  forever (no Infected (nothing to catch), no Recovered
+  (nothing to recover from); R0 = transmissions per case =
+  0/0 (undefined — division by the absence of cases)).
+  Kermack's threshold (epidemics iff susceptibles exceed a
+  critical density) is satisfied trivially (72 founders, dense
+  hubs) with zero consequence (density without transmissibility
+  is just crowding (R-Wirth: −64 vs −57 — anomie, not
+  epidemic)). The read (SIR on clustered graphs) sharpens the
+  VOID (clustering matters FOR spread; our clusters (hubs)
+  spread nothing — network structure without network process).
+  Compartmental modeling with one compartment (S, permanently).
+- **The chain that never starts [canon: Reed–Frost (chain
+  binomial; Greenwood); verification deferred].** → Each tick,
+  each susceptible escapes with probability q^t (q = 1−p,
+  p = per-contact transmission). Here p = 0 EXACTLY (no
+  mechanism exists — contact transmits position, not state) —
+  so the chain binomial collapses (all escape, always; the
+  "epidemic" is 72 lifelong susceptibles meeting pointlessly).
+  Greenwood's statistics (epidemic curves from case counts)
+  has no cases to count (births are not cases (vertical, not
+  horizontal — newborns arrive infected with nothing (zeroed))).
+  The Reed-Frost household (the family as the unit of spread)
+  vs our founders (no households (no ties — R189); the
+  "household" is one (everyone alone together)). Chain
+  binomial, p = 0: the null model that fits perfectly (predicts
+  nothing ever spreads; nothing ever does — the only exact
+  model in the map).
+- **Rise and fall, both borrowed [canon: Farr (Farr's law:
+  epidemics rise and fall symmetrically); verification
+  deferred].** → GAS_TRAJECTORY_V1 (alarm −2.1 → plateau
+  −10.2: rise then level) HAS Farr's shape (rapid ascent,
+  slower resolution) with none of Farr's mechanism (no
+  susceptibility depletion (no susceptibles — everyone S,
+  permanently); no pathogen evolution; the "resolution" is
+  learning (surpriseEma), not immunity). Farr's law as
+  curve-fitting without commitment (the shape appears where
+  the mechanism can't — a warning filed both ways: epidemic
+  curves don't prove epidemics (ours proves learning), and
+  learning curves can wear epidemic drag (ours does)).
+  The one entry in this round with a positive shape-match —
+  and the match is explicitly content-free (same curve,
+  disjoint causes).
+- **The pump with no handle [canon: Snow (Broad Street pump;
+  natural experiment); specified John (vs snowflake FPs);
+  verification deferred].** → Snow compared drinkers (two
+  water companies, one intake moved (Lambeth), one not
+  (Southwark & Vauxhall) — nature's paired arms) and removed
+  a handle (intervention!). Our paired arms (same bank,
+  different schedules) ARE Snow's companies (shared supply
+  (codebook), different handling (window)) — and the late
+  arm (phase-2 enriched, births == control seed-identical)
+  is the pump handle removed to no effect (the water was
+  never poisoned in phase 2 (reproduction already done) —
+  Snow in reverse: intervene where nothing flows, change
+  nothing, learn the timing). Natural experiments need
+  nature to vary the right thing (water source, not cup
+  size); ours varied the right thing (timing, not amount —
+  MATE-WINDOW GO) after varying the wrong things for 190
+  rounds (amounts everywhere). Snow would approve the
+  design (paired, pre-registered-ish, handle removed) and
+  pocket the lesson (remove handles where water flows
+  (phase 0), not where pipes run dry (phase 2)).
