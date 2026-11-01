@@ -320,3 +320,17 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   Prescription: mating rows must snapshot weights (fingerprint-under-
   mutation then measurable). Bank-distinguishability necessary but
   insufficient for HB variance.
+
+## V1j (lossy-tutoring transplant; FROZEN 2026-11-02, design only)
+
+- Plan: `docs/TURN_GATE_PLAN_V1J.md` (reopens CLOSED-AS-DEPLOYED line on
+  new rationale: artifact-control, not boost — exact-copy transplants may
+  over-preserve; Kirby/R92/R101 lossy-tutoring prediction; α=0.5 single
+  constant; train/exact/lossy/unlearned × 3 pairs = 12 mains; GO iff
+  flipped lift ≥ +0.1 with same-val floor ≥ 0.5; bank 418xxx; re-closes
+  either way as artifact-control annex).
+- Pair family + verdict shape mirror V1d (yardstick bars frozen-identical);
+  spent = MLR1 full-union list + own 418 appended.
+- Implement: separate turn under the plan (transplant-shrinkage + 12-ish
+  fixtures + triage + fresh-10 bank 418001–418054); single attempt next.
+  Cumulative unchanged (7959, design only, zero worlds).
