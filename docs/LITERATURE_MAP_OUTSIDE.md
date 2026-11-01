@@ -10061,3 +10061,147 @@ Four statisticians on the average and its enemies.
   200+ rounds is an ecological-fallacy minefield navigated
   by refusing to navigate (report both levels, infer
   neither from the other).
+## Round 208 — The campaign (Clausewitz, Auftragstaktik, Boyd, Liddell Hart; 2026-11-02)
+
+Motivation: the program runs campaigns (lines with objectives,
+phases, culminating points) against an enemy (the substrate's
+indifference) with doctrine (frozen plans). Four soldiers, four
+doctrines, all firing.
+
+- **Fog and friction, quantified [canon: Clausewitz (fog of
+  war; friction; center of gravity); verification deferred].**
+  → Fog (uncertainty that cannot be lifted): I2 = 0.973 (the
+  heterogeneity no reconnaissance resolves — every bank a
+  new fog). Friction (the accumulation of small difficulties
+  that makes the simple hard): 958-test triage baselines, CRLF
+  warnings, ENOENTs, cap breaches at 18/24 (the MATE-WINDOW
+  campaign nearly culminated on arithmetic). Center of gravity
+  (the source of power to strike): the bank (everything flows
+  from fresh draws — strike the bank (spend it well) or lose
+  the campaign (sterile controls)). Clausewitz's warning (no
+  plan survives contact — EXCEPT ours (frozen: contact is
+  forbidden; the plan survives because nothing touches it)).
+  War without contact: the campaign metaphor holds everywhere
+  except the battlefield (no enemy maneuvers — the substrate
+  doesn't react; friction without an adversary).
+- **Mission command without discretion [canon:
+  Auftragstaktik (mission command: intent specified, execution
+  free); verification deferred].** → Frozen plans state INTENT
+  (verdict conditions (G0–G4), scope, caps) — and then forbid
+  execution freedom (runners execute literally; no judgment
+  at the point of contact (resume skips, never improvises)).
+  Auftragstaktik inverted: the mission order that specifies
+  everything (intent + method + thresholds + bank) and trusts
+  nothing (no subordinate judgment exists — the runner is a
+  script, not a subordinate). Moltke's dictum (no plan survives
+  first contact) is satisfied vacuously (no contact occurs —
+  the plan meets only the world it was written for (frozen
+  inference: same world, same plan)). Command without
+  commanders: intent all the way down, discretion nowhere.
+- **OODA without orientation [canon: J. Boyd (OODA loop:
+  observe-orient-decide-act; tempo wins); specified John
+  (vs cultural-evolution Boyd committed elsewhere; "OODA"
+  string clean (Goodall FPs noted)); verification deferred;
+  arXiv = thin (OODA fetch returned nothing — logged, not
+  used)].** → Observe (rows), Orient (audits/syntheses),
+  Decide (verdicts), Act (new lines) — the loop runs at 200+
+  rounds of tempo. Boyd's thesis (victory to the side that
+  orients fastest INSIDE the adversary's loop) has no adversary
+  (substrate doesn't loop) — so tempo compounds against
+  NOTHING (faster verdicts, same tax (0.15–0.31, unmoved by
+  speed)). Orientation frozen (plans forbid re-orienting
+  mid-loop (no tuning on eval seeds) — the OODA loop with
+  Orient locked: observe-decide-act, orientation pre-set).
+  Boyd with no enemy and no re-orientation: tempo as ritual
+  (fast, disciplined, unopposed — the campaign against a
+  mountain, run at sprint pace).
+- **The indirect approach [canon: Liddell Hart (indirect
+  approach: attack where least expected; dislocation before
+  destruction); verification deferred].** → Every line attacks
+  directly (the knob head-on: gain, bar, topology, timing) —
+  except Track B (timing attacks where no one looked (all
+  prior levers were energy/amount (bar, nutrients, density);
+  timing (WHEN) was unattacked until TIMING_AUDIT_V1)).
+  Liddell Hart's dislocation (unbalance before destroying:
+  disrupt the enemy's cohesion first) is the window thesis
+  (don't out-feed the control (amount) — out-time it (phase):
+  dislocation (early boost) before destruction (of the null)).
+  MATE-WINDOW as indirect approach: failed (sterile bank —
+  the indirect route met no enemy either). Liddell Hart
+  filed with the campaign's epitaph (so far: direct attacks
+  NOGO, indirect attacks INCOMPLETE — the substrate yields
+  neither to force nor to finesse).
+
+## Round 209 — The newsroom (Tuchman, Gans, Schudson, Lippmann; 2026-11-02)
+
+Motivation: verdicts are news (timely reports of events (attempts)
+for an audience (future-me) with deadlines (single attempts) and
+standards (G-gates)). Four sociologists of news, four newsroom
+rules, all posted.
+
+- **Objectivity as strategic ritual [canon: Tuchman
+  (objectivity as strategic ritual: protecting against libel
+  and deadlines); verification deferred].** → Frozen plans are
+  objectivity rituals (G-gates (present both sides: manipulation
+  AND null-hygiene), quotes (row hashes, seed lists — attributed
+  sources), pyramid structure (verdict first (GO/NOGO), details
+  after (per-arm tables)) — the forms that let reporters file
+  on deadline without being sued). Tuchman's thesis (rituals
+  defend the organization (from critics, courts, clocks)) is
+  the template's job description (defends the verdict from
+  me (tempted to tune), from you (asking for the other
+  verdict), from time (single attempt, no revisits)).
+  Ritual, not cynicism (the forms WORK (replications agree);
+  the ritual is load-bearing because the alternative (ad-hoc
+  judgment under deadline) is worse — Tuchman's point
+  exactly: ritual is what professionalism IS under pressure).
+- **News values, frozen [canon: H. Gans (news values; deciding
+  what's news); specified Herbert ("Gans" string collides with
+  organs/elegans FPs); verification deferred].** → What makes
+  a verdict newsworthy (Gans: conflict, novelty, prominence)?
+  Conflict (GO vs NOGO — verdicts ARE conflicts (thresholds
+  crossed or missed)); novelty (first-accepts (V2 synthesis:
+  8 first-accepts — novelty logged explicitly)); prominence
+  (deployed lines (V1i) over closed ones (DISPERSE) — front
+  page vs buried). The newsroom hierarchy (which stories lead?)
+  is the map's implicit order (GOs announced (commits),
+  INCOMPLETEs filed (docs), VOIDs archived (tarballs)).
+  Gans without an audience (no readers to select for — the
+  values select for ME (what will future-me need? — the
+  verdict, the bank, the hash: the inverted pyramid of
+  frozen rows)).
+- **Discovering objectivity [canon: Schudson (discovery of
+  news/objectivity as historical invention); verification
+  deferred + arXiv:2509.16217v1 (gatekeeping in physics
+  publishing: peer review as closed system — read)].** →
+  Objectivity was INVENTED (19th century, with the penny press
+  and the wire services — not timeless, made). Frozen
+  objectivity likewise invented (October 2026, with the first
+  spent bank and the first NOGO — not timeless, made for the
+  occasion (RSI claims nobody can check)). The read (physics
+  gatekeeping: prestigious journals as closed systems) is the
+  foil our apparatus was built against (pre-registration =
+  review BEFORE results exist (no prestige filter (all
+  verdicts publish); no reviewer discretion (gates decide);
+  no closed system (hashes open))). Schudson's lesson (every
+  objectivity regime serves its market (wire services served
+  papers of all parties)) restated (frozen objectivity serves
+  its single reader (future-me, all verdicts, no party)).
+- **Pictures in our heads [canon: Lippmann (Public Opinion:
+  pseudo-environments; we act on pictures); verification
+  deferred].** → I have never watched a run (R195-Vertesi:
+  telemetry only). I act on PICTURES (rows, curves, tables —
+  pseudo-environments between me and the 1792 ticks). Lippmann's
+  thesis (democracy runs on stereotypes because the world is
+  too big to see) is the program verbatim (verdicts run on
+  summaries because runs are too big to watch (96-dim × 1792
+  ticks × 24 founders — no one sees this raw)). The pictures
+  are audited (probes check the weights; audits check the
+  scorers; maps check the verdicts — pictures OF pictures
+  (R180-Luhmann, restated for the newsroom)). Lippmann's
+  warning (pictures harden into reality (stereotypes govern))
+  is the standing audit (do rows govern runs? — no (frozen
+  inference: rows follow runs, never lead) — but do rows
+  govern ME? — yes (I never go behind them; the picture is
+  my whole world (R196-Ingold: lines discarded, tallies
+  kept))).
