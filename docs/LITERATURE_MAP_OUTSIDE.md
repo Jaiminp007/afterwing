@@ -7768,3 +7768,108 @@ about gen-2 anyway.
   value!)))). Repugnant conclusion: BLOCKED empirically (SWF audit:
   no c flips any verdict (small-N + same-direction totals/averages!
   (the audit already answered Parfit (cited, not repeated!)))).
+
+## Round 170 — The practice turn (mangle refused; mobiles; enrollment; multiple transfer; 2026-11-02)
+
+Motivation: our instruments meet resistance, our banks travel, our
+experiments enroll agents, our transfers multiply. The practice canon,
+with one deliberate refusal.
+
+- **The mangle, refused [canon: Pickering (mangle: resistance +
+  accommodation); verification deferred; arXiv = absent].** → Frozen
+  plans MEET resistance (DAMAGE-GATE didn't fire the world right) but
+  FORBID accommodation (no tuning — EVER). The mangle without its
+  dance: resistance recorded (NOGO!), never accommodated. Anti-mangle
+  is the discipline, stated — not an oversight (accommodation would
+  BE tuning).
+- **Banks that travel [canon: Latour (immutable mobiles);
+  verification deferred].** → protocol.json travels (fresh-09 →
+  attempt-10 → verdict!): immutable (sha256-pinned!) + mobile
+  (copied into attempt/sources!) + combinable (union-excluded with
+  others!). The bank IS an immutable mobile — Latour's
+  infrastructure, built by accident, recognized now.
+- **Enrollment without consent [canon: Callon (4 moments);
+  verification deferred].** → problematization (frozen plan!)
+  → interessement (bar-50 attracts? (trials enroll!) → enrolment
+  (runs!) → mobilization (verdicts SPEAK FOR agents!
+  spokespersons! (WE speak for founders — ventriloquism stated,
+  no consent possible (no voice R153/R169!))). The 4 moments,
+  mapped without flinching.
+- **Multiple transfer [canon: Mol (body multiple; ontological
+  politics); verification deferred].** → V1b vs V1c vs V1j are not
+  perspectives on ONE transfer — they're DIFFERENT TRANSFERS
+  enacted (different banks, knobs, windows!). Deployment as
+  ontological politics (V1i wins — the transfer that gets
+  deployed!). Enacted, not observed — zero worlds.
+
+## Round 171 — Evidence and reason (witnessing, regress, symmetry, objectivity + reproducibility batch; 2026-11-02)
+
+Motivation: why our evidence is believable, with the arXiv batch that
+audits the auditors.
+
+- **Virtual witnessing [canon: Shapin (air-pump; virtual witnessing);
+  verification deferred].** → Docs + rows let readers witness runs
+  they didn't run (PROTOCOLS AS VIRTUAL-WITNESSING TECHNOLOGY).
+  The attempt is the air-pump; the repo is the printed report.
+- **The regress, broken [canon: Collins (experimenter's regress);
+  verification deferred].** → No independent criterion → replication
+  decides → infinite regress UNLESS: frozen banks (pre-registration
+  breaks it — no tuning = no regress!) + crucial experiments (V1i
+  E1 decided boost-vs-plain!). Closure mechanisms, named.
+- **Symmetry, practiced [canon: Bloor (strong programme);
+  verification deferred].** → NOGOs AND GOs explained alike
+  (mechanism language for both — no asymmetric sociology where
+  winners write methods and losers write excuses). Negative
+  preservation = symmetry, stated once.
+- **Objectivity, mechanical [canon: Daston (mechanical objectivity);
+  verification deferred].** → Rules replace judgment (frozen plans!)
+  + judgment where rules end (interpretation mappings!). Division
+  of labor: mechanical gates, judicious verdicts. Both, explicitly.
+- **The reproducibility audit (arXiv: read, applied) [arXiv:2207.07048v1
+  (LEAKAGE → irreproducibility across 17 fields) + arXiv:2010.10513v1
+  (does preregistration help? — critical review!) + arXiv:1710.01771v1
+  (CET: NHST then equivalence — publishable nulls!) + arXiv:2607.11022v1
+  (preregistered contrast, LEAKY vs hardened verifier — frozen BEFORE
+  data!) + arXiv:2609.24101v1 (publication-bias DRIFT + principled
+  stopping)].** → (1) Leakage: union-exclusion IS anti-leakage
+  (token-scan guards = leakage detection — 396xxx/414xxx/444xxx
+  refusals!). (2) Preregistration contrarian: IF it doesn't help
+  generally, ours works because it's ENFORCED (executable plans +
+  scored artifacts — credibility via executability, not
+  timestamping — the defense, stated). (3) CET gap (honest):
+  our NOGOs are "not proven better," NOT "proven null" — EXCEPT
+  floors (0/6 = detection-limited equivalence!). (4) Hardened
+  always (we run union-excluded banks only — leaky never).
+  (5) Drift defeated (symmetric retrieval — our file drawer is
+  public!). (6) Stopping specified (quorum/stop-rule lineage
+  R113/R124!).
+
+## Round 172 — Life exposed, counted, judged (biopolitics; anomie; who counts; goodness; 2026-11-02)
+
+Motivation: who lives, who dies of what structure, who counts, and
+whether any of it is good. The round the program owed itself.
+
+- **Thanatopolitics, stated [canon: Foucault (biopolitics);
+  Agamben (bare life); Esposito (immunity); verification deferred;
+  arXiv = absent].** → Bar-65 LETS DIE (laissez-mourir!);
+  bar-50 FOSTERS (make live!). Founders are bare life (killable
+  (starve!) but not sacrificeable (to what?! (verdicts?!)) —
+  zoe without bios (no political life!). No immunity anywhere
+  (nothing protects founders — exposure total). The mating
+  arc as thanatopolitics: named, not flinched from.
+- **Death by social structure [canon: Durkheim (egoistic/anomic
+  suicide); verification deferred; beside R156's sacred/profane].**
+  → MORTALITY re-read: egoistic (isolation! (asocial founders!))
+  + anomic (hub deregulation! (normlessness!)). 100% energetic
+  deaths, socially patterned — Virchow-adjacent (R152), Durkheim
+  proper (here). Re-read, zero worlds, no rescore.
+- **Who counts [canon: Rancière (distribution of the sensible);
+  verification deferred].** → Dead founders COUNTED (totals!)
+  but not HEARD (no voice — the part without part!). Arm
+  assignment = police order (places assigned!); no dissensus
+  possible (no speech — VOID). The count/hear split, stated.
+- **Good, but good for what [canon: Moore (open question);
+  verification deferred].** → Gen-2 is high — is it GOOD?
+  Indefinable (no supervision: charter (VISION!) not world
+  (teleonomy R126! (direction without value!)). The question
+  stays open BY DESIGN (we maximize; Vision justifies).
