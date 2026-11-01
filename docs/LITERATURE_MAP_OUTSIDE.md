@@ -3314,3 +3314,35 @@ can brainless substrates do without any learning at all?
   piece). Physarum proves both are implementable without cognition.
 - **Scope-note.** Path-integral (1801.03721v3) and entropy-production (2311.02735v4)
   formalisms are methods-adjacent, not actionable; logged, not pursued.
+
+## Round 78 — the physics of the ledger (for the op economy itself; 2026-11-02)
+
+Motivation: every verdict in this program is denominated in billed scalar operations
+converted to energy at operationEnergy=5e-6/17. This round asks what that currency MEANS
+physically — and how an outside observer would detect that selection (not just drift)
+produced our lineages.
+
+- **Landauer cluster (arXiv:2506.10876v2 principle + bound review; 0702094v3 Norton
+  generalisation/critique; 2007.11748v1 fluctuation proof; 1411.6730v1 nanomagnetic
+  verification; 1901.10327v1 physical foundations; 0210005v2 reversible-computing notes).**
+  Logically irreversible operations (erasure) dissipate ≥ kT ln 2; practical processes
+  dissipate orders of magnitude more. → Our pricing (5e-6/17 energy units per op) is an
+  ACCOUNTING rate, not a physical one — but Landauer sets its floor: any claim that
+  "computation cost constrains evolution here" must survive comparison to the bound.
+  Concrete upshot: our forget/re-initialize operations (reset/freeze, weight overwrites
+  in transplants) are the logically irreversible ones — the ledger already prices them
+  (storageBytes, paidEnergy), so a Landauer audit of one attempt-ledger is computable
+  from frozen artifacts (specified-not-executed: needs its own frozen measurement plan).
+- **Assembly theory cluster (arXiv:2409.05993v1 natural-product evolution beyond genes;
+  2403.12452v3 critique exchange; 2507.08852v1 reproducible assembly-index code;
+  2509.04547v1 spatial patterning + selection; 2603.11086v2 life-detection application).**
+  Selection detected via assembly index (copy number of complex objects), no genes
+  required. → The formal version of our gen-2+ counting: a lineage that transmits
+  high-assembly objects (learned weight vectors, copied exactly) IS the assembly-theory
+  signature of selection — and our INCONCLUSIVE lines (transmission without compounding)
+  are exactly "high copy number, low assembly depth." The 2507.08852v1 reproducible
+  code makes this implementable: assembly index of transmitted weight snapshots from
+  frozen rows (specified-not-executed: needs frozen measurement plan + weight-logging,
+  which the program already owes itself — same conditional requirement as V1b).
+- **Scope-note.** Nanomagnetic verification (1411.6730v1) and radialene synthesis
+  (2606.08111v1) are mechanism-mismatched (substrate-specific); logged, not pursued.
