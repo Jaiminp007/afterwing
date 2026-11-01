@@ -9735,3 +9735,62 @@ verdicts of not-here.
   without Lewis's plot (the transfer that never happens —
   founders stay traditional forever, fully employed, zero
   surplus, page 200 of 200).
+## Round 203 — The program's national accounts (Kuznets, Leontief, Tinbergen, Haavelmo; 2026-11-02)
+
+Motivation: 7977 worlds is a GDP (gross domestic product of
+inquiry). Four economists of measurement, auditing the accounts.
+
+- **Income and its curve, missing [canon: Kuznets (national
+  income; Kuznets curve (inequality inverted-U));
+  verification deferred].** → GDP of the program: 7977 worlds
+  (+3 M-POP V2; per-line ledgers authoritative). Kuznets curve
+  (inequality rises then falls with development): tested via
+  distribution audit (Ginis 0.018–0.191 — FLAT, pre-curve:
+  no development, no inverted-U, inequality never rises
+  because surplus never appears (R201-Kalecki: profits ≈ 0)).
+  National income accounting without growth (the accounts
+  balance every run (residual <1e-7) and sum to nothing
+  distributable (all energy spent, none saved)). Kuznets
+  without Kuznets's plot (income measured, curve absent —
+  the accounts are honest and empty).
+- **Fixed coefficients [canon: Leontief (input-output; fixed
+  coefficients, no substitution); verification deferred].** →
+  An attempt is a Leontief technology (1 bank + 1 frozen plan
+  → 1 verdict; coefficients FIXED (8 mains, 36/54 draws —
+  no input substitution permitted (tuning = substituting
+  inputs, refused by guard))). Leontief's rigidity (no factor
+  substitution when prices change) is our discipline exactly
+  (no arm substitution when results disappoint (single
+  attempt); no bank substitution (spent is spent)). The
+  input-output table of the program (worlds in, verdicts out,
+  ops priced) balances by construction — Leontief would
+  approve the table and ask about the coefficients (are 8
+  mains the right recipe? — never tested (frozen); the
+  recipe is convention (band at 0.1), not estimate).
+- **Over-identified by design [canon: J. Tinbergen (targets
+  and instruments; one instrument per target — specified Jan,
+  distinct from Niko (ethology, committed R32));
+  verification deferred].** → Tinbergen rule (n independent
+  targets need n independent instruments). Our verdicts invert
+  it (1 target (GO?) served by 4+ conjunctive instruments
+  (G1–G4, all must pass) — OVER-identified: more instruments
+  than targets, deliberately (any single gate could pass by
+  luck (seed 416046); conjunction is the anti-luck device)).
+  Policy without trade-offs (Tinbergen's world forces choices
+  (one instrument, one target); ours forces agreement (all
+  instruments, one verdict — dissent (any gate fails) kills
+  the verdict (NOGO))). Targets-instruments with the counting
+  reversed: identification by redundancy, not parsimony.
+- **Exact small-n [canon: Haavelmo (probability approach:
+  state the DGP, estimate, test); verification deferred].** →
+  Left-tail audit as Haavelmo (the DGP stated (per-seed draws
+  from a bank); estimated exactly (min/med/max, no asymptotics
+  — n = 5–18, reported raw, never smoothed); tested (worst-seed
+  transfer 0.374–0.572 vs band — the test IS the tail)).
+  Haavelmo's revolution (econometrics as probability, not
+  curve-fitting) is our analytic discipline (distributions
+  stated (Gini/Zipf/tails), never assumed (no normal no
+  CLT no p-values anywhere in 200 rounds)). Probability
+  without inference theater: the samples are the population
+  (spent banks enumerated fully — no sampling error because
+  no sampling (exhaustion, not estimation)).
