@@ -4508,3 +4508,196 @@ the trophic control theory our stability questions need.
   reshapes foraging without a single death — our ecology's missing force;
   fear ecology stands as the largest unbuilt context: what would a predator
   change? specified-not-executed as a design question, not a plan).
+
+## Round 101 — teaching + iterated learning + compositionality (for M5 transmission; 2026-11-02)
+
+Motivation: the SOCIAL line copied outcomes unconditionally and changed nothing
+(R82: copy-when-uncertain untested). Two literatures say the missing pieces are
+WHICH examples get transmitted (teaching) and WHAT bottlenecks do to signals
+(iterated learning). Both now have in-silico results.
+
+- **Machine teaching formalizes teaching [arXiv:2105.13809v1 (distribution
+  matching for machine teaching: teacher steers student to target hypothesis,
+  balancing risk vs cost, WITHOUT knowing the student's parameters)].** →
+  Teaching as bi-level optimization: choose examples given (an estimate of)
+  the learner. Our copybest transmitted OUTCOMES (maternal success); teaching
+  transmits well-chosen INPUTS (which encounters to copy). The R82 conditional
+  rule (copy when uncertain) plus 2105.13809v1 (teach the informative cases)
+  jointly specify the unbuilt SOCIAL-V2: uncertainty-gated copying OF
+  teacher-selected encounters. Specified-not-executed (needs frozen plan).
+- **Bottlenecks create structure [arXiv:2404.02145v2 (iterated learning
+  IMPROVES compositionality in large vision-language models — SOTA VLMs fail
+  "girl in white facing man in black" vs swapped; iterated bottleneck fixes
+  it) + arXiv:2403.11958v1 (language evolution with deep learning — review
+  chapter: agent-based, Bayesian, GA, rule-based + deep) + arXiv:2503.21676v2
+  (LLM fact-learning: plateau → attention-circuit formation → precise recall;
+  training ORDER matters — curricula)].** → 2404.02145v2 is the Kirby
+  bottleneck in-silico: transmission bottlenecks don't degrade signals, they
+  STRUCTURE them. Our transplant chains (turn-gate V1d–V1i carried weights
+  segment to segment) ARE iterated learning with a lossless bottleneck
+  (exact-copy transplants) — predicting NO structure gain (same-val 0.95 no
+  erosion, exactly observed). The testable flip: LOSSY bottlenecks should
+  regularize (R92's lossy-tutoring prediction, second witness).
+  2503.21676v2's plateau→circuit→recall phases mirror our 4x-means
+  (0.59→0.71→0.81→0.82: gains then stall) — plateaus precede circuit
+  formation, not capacity ceilings; distinguishing needs the reopening
+  manipulation (R92, unbuilt).
+- **Canon, searched-not-found on arXiv (logged).** Caro & Hauser (functional
+  teaching: meerkats provision scorpions by pup age — teaching tuned to
+  pupil state, the R82 conditional in the wild); Franks & Richardson
+  (tandem-running ants TEACH routes — bidirectional feedback, leader slows
+  for follower; our transplants are unidirectional dumps); Csibra &
+  Gergely (natural pedagogy — ostensive cues mark teachable moments; our
+  probes carry no ostension flag); Lyons (overimitation — copy causally
+  irrelevant steps; our copybest copied the outcome, never the steps);
+  Tomasello 2014 (pointer, already mapped); Kirby (iterated-learning theory
+  behind 2404.02145v2 — bottleneck-size predictions for codebook structure,
+  testable analytic-only on transferred vs trained codebook compressibility,
+  zero new worlds).
+
+## Round 102 — commons + punishment + institutions (for M5 cooperation; 2026-11-02)
+
+Motivation: our hubs are a commons (shared, depleting, overcrowded) with no
+governance — no monitoring, no sanctions, no exit but starvation. The
+commons literature ran this experiment with punishment and institutions;
+this round collects the treatments we never applied.
+
+- **The tragedy, experimentally + demographically [arXiv:1705.07214v1
+  (tragedy of the commons IN THE CHEMOSTAT: cooperator pays public-good cost
+  to digest food, cheater free-rides — proof of principle) +
+  arXiv:1112.3370v1 (demography + tragedy: individual success = LOCAL
+  advantage × GROUP productivity share; selfishness degrades the group)].**
+  → 1112.3370v1's equation IS our hub: per-capita intake (local) times
+  establishment (group). The despotic deficit (hub eats 25–35% less, starves
+  2–3×) is the tragedy's signature with the mechanism named (selfish
+  intake degrades patch productivity). 1705.07214v1's chemostat maps onto
+  our hub (well-mixed, shared inflow, public-good = patch regrowth nobody
+  pays for). Our data re-read as a commons experiment: no treatment arms
+  exist (all arms are open-access).
+- **Punishment + institutions as treatments [arXiv:2405.18419v3 (altruistic
+  punishment × CULTURAL MULTILEVEL SELECTION, PDE model in the Boyd/Gintis/
+  Bowles/Richerson lineage) + arXiv:2011.01786v1 (evolution of PUNISHING
+  INSTITUTIONS — solves the second-order problem punishment alone cannot) +
+  arXiv:2508.08302v1 (non-participant externalities reshape punishment) +
+  arXiv:1101.1702v4 (institutional sanctioning + SKEPTICAL punishers) +
+  arXiv:1006.2903v1 (punishment in public goods) + arXiv:2301.04849v2 (EXIT
+  OPTIONS sustain punishment, cut second-order free-riding) +
+  arXiv:1212.3807v1 (prevent tragedy by punishing OVER-consumers +
+  encouraging UNDER-consumers) + arXiv:1208.0482v1 (population STRUCTURE
+  itself evolves — group-size preference coevolves!)].** → Three unbuilt
+  treatments, each with a frozen-plan-ready shape: (1) over-consumer
+  punishment (1212.3807v1: tax intake above a rate — the leaving rule's
+  institutional twin); (2) exit options (2301.04849v2: dispersal sustains
+  punishment — fuses R88 dispersal with governance); (3) evolvable structure
+  (1208.0482v1: group-size preference as a trait — our hub/spread topologies
+  as evolvable, not fixed). All specified-not-executed. 2011.01786v1's
+  moral: peer punishment needs institutions — our founders punish nobody
+  and belong to nothing; cooperation without either is the null we keep
+  re-measuring.
+- **Canon, searched-not-found (logged).** Hardin (the tragedy); Ostrom
+  (8 design principles — monitoring, graduated sanctions, collective choice;
+  our ecology violates all 8 by construction — the principles double as a
+  checklist for what an institution arm would need); Fehr (altruistic
+  punishment experiments); Noe & Hammerstein (biological markets — partner
+  CHOICE disciplines cooperators; our mating is indiscriminate AND our
+  foraging is solitary: no market on either side).
+
+## Round 103 — culture as computation + conformist transmission (for M5; 2026-11-02)
+
+Motivation: MATE-SOCIAL's copybest was unbiased, individual, memoryless
+copying — the thinnest possible culture. The cultural-evolution literature
+says the interesting regimes are biased, collective, and computational;
+this round maps them onto our null.
+
+- **Culture evolves computationally [arXiv:1310.6342v1 (cultural evolution
+  as DISTRIBUTED COMPUTATION) + arXiv:2601.00433v1 (modelling cultural
+  evolution) + arXiv:2203.00715v1 (real-time cultural transmission without
+  human data) + arXiv:1204.2043v2 (UNBIASED transmission in archaeological
+  assemblages — the null model!) + arXiv:1812.00143v4 (Extended Evolutionary
+  Synthesis facilitates culture models)].** → 1204.2043v2 names what SOCIAL
+  V1 ran: unbiased transmission — the archaeological NULL, which predicts
+  drift, not adaptation. Our 1=1 exact-neutral is the null behaving
+  correctly, not a failure. Anything beyond null needs bias (success,
+  prestige, conformist) or structure (teaching, R101) — all unbuilt.
+  1310.6342v1's distributed-computation frame ports to banks-as-computation
+  (R83's seed-bank memory, second witness: dormant variants compute across
+  seasons).
+- **Canon, searched-not-found (logged).** Henrich (prestige bias — copy the
+  successful, not the random; our copybest copied the maternal line
+  regardless of success; prestige-gating is the R82-conditional with a
+  who, not a when); Boyd & Richerson (conformist transmission — copy the
+  majority; our founders never meet a majority — group-size precondition
+  unmet, links R88 dispersal); Mesoudi & O'Brien (hierarchical-structure bias
+  — R82's semantic-Axelrod pointer, restated for the culture file).
+
+## Round 104 — planetary + filters + biosignatures (for Vision's "other planets"; 2026-11-02)
+
+Motivation: Vision opens with two agents on Earth expanding to other planets
+over long periods; the program has no off-world, no deep time, no filter
+thinking. Astrobiology supplies all three — and the Great Filter paper
+below contains an uncomfortable parallel to our energy bar.
+
+- **A new filter: depopulation [arXiv:2602.08188v1 (new Great Filter
+  candidate: species at the top of the food chain evolve FEWER offspring
+  under relaxed predation — Darwinian selection for low fertility with
+  intelligence)].** → Read against our mating arc: our founders face an
+  energy bar (mate only if ≥50) that functions as a fertility filter —
+  populations that cannot clear it do not compound (INFORMED void,
+  MATE-DENSE null). The paper's filter (selection against breeding under
+  safety) and ours (selection against breeding under scarcity) are mirror
+  images with the same signature: compounding failure WITHOUT mortality
+  crisis. The filter framing ports to banks (each fresh bank = a filter
+  test: which lines pass?) and to Vision (interplanetary expansion multiplies
+  filters — establishment, not transport, is the hard step, matching R74's
+  nucleation/INFORMED reading).
+- **Biosignatures as evidence theory [arXiv:1806.04592v1 (atmospheric
+  SEASONALITY as biosignature — time-varying, not static, gases) +
+  arXiv:2505.22808v1 (QUANTITATIVE habitability framework, NExSS) +
+  arXiv:2503.22990v1 (habitability + biosignatures beyond Earth-like)]** →
+  1806.04592v1's move (static → time-series evidence) is our curves'
+  license: endpoint energies are static biosignatures; trajectories are
+  seasonal ones — the measurement doc's trajectory analysis (hub diverges by
+  tick 256) already practices this. The NExSS framework ports to the
+  observatory (measured senses/actions/energy/history = a habitability-style
+  evidence standard for "is there compounding here?").
+- **Canon + honest logs.** Seager (biosignature assessment — the canon behind
+  the arXiv cluster); Hanson (filter steps — the canon 2602.08188v1 extends);
+  Fermi paradox (the question Vision's expansion answers to); panspermia /
+  lithopanspermia / terraforming (searched-not-found on arXiv — logged, not
+  cited); Gaia (pointer, already mapped); multi-planet insurance
+  (unbuilt rationale: fresh banks as planetary backups — diversification
+  against single-bank catastrophes; our spent-bank discipline already
+  implements the insurance logic without the name).
+
+## Round 105 — richer bodies (for M4's gating milestone; 2026-11-02)
+
+Motivation: Vision gates richer bodies on measured, explained simpler models.
+Transfer is CLOSED AS DEPLOYED (not explained — tax attributed, floor
+attributed, mechanism deployed, but no unlearning mechanism identified);
+bodies stay gated. This round stages the mechanisms waiting at the gate.
+
+- **Morphology varies, robustness follows [arXiv:2208.02809v2 (morphological
+  variation in evolutionary robotics: variable conditions select robust,
+  reality-crossing controllers — variation as METHOD)].** → The M4 license
+  condition, operationalized: vary the body (speed, sensing radius, size —
+  all traits our genomes ALREADY carry) and select across conditions.
+  Our traits vary only by mutation, never by experimental design — the
+  morphology ladder (slow/fast, narrow/wide sensing) is specified-not-
+  executed, gated behind the transfer-tax explanation per Vision's ordering.
+- **Patterning without blueprints [arXiv:1402.0760v2 (topology-driven
+  instabilities: pattern formation on directed networks)].** → Reaction-
+  diffusion/Turing patterning as the body-plan generator (no Hox needed for
+  spots/stripes/compartments). Our spatial structure (patches, centers,
+  walls) is hand-placed; self-organized patterning is the unbuilt
+  alternative — brief, M4-gated.
+- **Canon + honest logs (all searched-not-found on arXiv).** Sims
+  (evolved virtual creatures — pointer, already mapped); Xenobots (pointer,
+  already mapped); Hox genes (body-plan patterning genetics — the knob our
+  genomes lack entirely; a Hox-like positional axis is the deepest unbuilt
+  body change); octopus (2/3 of neurons in the arms — distributed control
+  taken furthest; our 96-dim centralized billing is the opposite pole);
+  morphological computation (pointer, already mapped); morphological
+  foraging (R79's unbuilt mechanism — grow toward, retract from); slime-mold
+  decision-making (pointer, already mapped); active matter (pointer, already
+  mapped). M4 stays gated: none licensed until the transfer tax has a
+  mechanism, not just an attribution.
