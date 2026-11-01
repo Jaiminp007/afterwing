@@ -334,3 +334,18 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
 - Implement: separate turn under the plan (transplant-shrinkage + 12-ish
   fixtures + triage + fresh-10 bank 418001–418054); single attempt next.
   Cumulative unchanged (7959, design only, zero worlds).
+
+## V1j (lossy-tutoring transplant; EXECUTED 2026-11-02 → GO, line re-CLOSED)
+
+- Attempt-10 (single, authorized): 12 mains / 0 probes / 1.90e9 ops, clean
+  pass (ledger exact, `redone: []`, G1 join 1.00, G0 train 0.82, G2a exact
+  mean 0.51, G2b unlearned flat, gLift/gFloor true).
+- Verdict: **PHASE-J-GO** (mean flipped lift +0.1324 ≥ +0.1 on all 3 pairs;
+  same-val lossy 0.9447 ≈ exact 0.94–0.95 — retention real, exact-copy
+  adds inert fidelity; shrinkage regularizes transfer).
+- Re-prices V1b–V1i: same-val/niche-ID confirmed real BUT exact-copy
+  over-preserves (future retention claims must use lossy/noisy transplants;
+  exact-copy is the upper-bound control). V1i deployment stands
+  (complementary mechanisms). R101-amendment separator did its job.
+- Results: `docs/TURN_GATE_RESULTS_V1J.md`. Cumulative program spend:
+  7971 (+12). No V1k without new rationale.
