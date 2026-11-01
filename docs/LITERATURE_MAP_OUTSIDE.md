@@ -9467,3 +9467,134 @@ cited, not re-covered.
   reduce (no "the tax is really just weights" — the tax is at
   bank level, weights at theirs; crossing needs a bridge law,
   none built, none queued).
+## Round 199 — How the program knows (Mitchell, Wimsatt, Thagard, MDC; 2026-11-02)
+
+Motivation: the program runs three methods at once (frozen attempts,
+analytic audits, literature maps) and trusts all three. Four canons
+on multi-method inquiry — the methods' method, finally named.
+
+- **No method rules [canon: Mitchell (integrative pluralism:
+  no single method; models as mediators); verification
+  deferred].** → Attempts (intervene), audits (derive), maps
+  (situate): three methods, none sovereign (attempts can't
+  interpret (verdicts need auditors); audits can't intervene
+  (zero new worlds); maps can't decide (canon never overrules
+  a gate). Mitchell's pluralism (keep multiple models; let
+  them constrain each other) is the turn discipline itself
+  (program turn ↔ literature turn, alternating by design).
+  The integration rule, stated: methods check each other
+  (audit corrects map (distribution audit retires Pareto);
+  map tasks audit (R186 specifies Gini); attempt bounds both
+  (fresh banks or silence)) — never merge (no unified
+  method, no master verdict).
+- **Reductive heuristics, licensed [canon: Wimsatt
+  (heuristics for reduction: decomposition, localization,
+  re-duction); verification deferred].** → Every audit uses all
+  three heuristics: decomposition (flip-splits: turn-gating →
+  contact/turn/label), localization (attribution: HB residue,
+  damage batches), re-duction (re-describe the higher in lower
+  terms: "transfer tax" → "per-cue contact-weighted misses").
+  Wimsatt's point (heuristics fail systematically — and the
+  failures teach) is our audit history (concentration: single-
+  history heuristic failed on pooling (corrected); Pareto:
+  skew heuristic failed on tallies (retired)). Reductive
+  work with the failure mode priced in: every reduction
+  carries its scope note (pooled, descriptive, small-n).
+- **Coherence as constraint satisfaction [canon: Thagard
+  (explanatory coherence: ECHO; principles over rules);
+  verification deferred].** → Syntheses maximize coherence
+  (V2 synthesis: 8 first-accepts + 7 lines + 5128 worlds, held
+  together by symmetry (all nulls published), data priority
+  (banks over priors), competition (transferred vs unlearned
+  vs gain, compared not assumed)). Thagard's principles
+  (symmetry, explanation, analogy, data priority, competition)
+  read as the synthesis checklist — followed informally for
+  190 rounds, named now. The limit disclosed (coherence is not
+  truth: a maximally coherent map can cohere around nothing
+  (consistency without contact — R180-Luhmann's warning,
+  restated for method)). Fresh banks as the coherence breaker
+  (new data that doesn't fit is admitted, not accommodated —
+  DAMAGE-GATE stays NOGO inside a GO arc).
+- **Discovering mechanisms, frozenly [canon: MDC (Machamer,
+  Darden, Craver 2000: mechanism discovery via schemas +
+  sketches); Glennan/Craver committed elsewhere — cited, not
+  re-covered; verification deferred].** → Flip-splits are
+  mechanism sketches (entities (cues) + activities (turning) +
+  organization (contact-weighted) — MDC's schema, filled per
+  bank). Discovery proceeds MDC-style (sketch → constrain →
+  revise: V1 sketch (turn|harm), V1b-V1i constraints (direction,
+  dose, transplant, gain), V1j revision (lossy beats exact —
+  the sketch redrawn)). The frozen twist MDC never considered:
+  sketches are pre-registered (the schema is published before
+  the run fills it — discovery with the answer sheet locked).
+  Works anyway (V1i's +0.163 at matched 2x: a sketch confirmed
+  under lock). Discovery without freedom of revision — yet
+  revision happens (between lines, never within).
+
+## Round 200 — Ignorance and action (Smithson, Ravetz/Funtowicz, Wynne, Epstein; 2026-11-02)
+
+Motivation: the program acts constantly (attempts, verdicts,
+deployments) under ignorance it barely names (which bank? which
+seed? what mechanism?). Four canons on not-knowing — and doing
+anyway. Round 200: the map's ignorance, inventoried.
+
+- **A taxonomy of not-knowing [canon: Smithson (ignorance:
+  taxonomy; meta-ignorance); verification deferred].** →
+  Sort the program's ignorances: known unknowns (bank effects —
+  measured as I2 = 0.973, priced into verdicts); unknown knowns
+  (tacit skill — I read rows fluently, can't state the rules);
+  unknown unknowns (what the incapacities hide — R181's list);
+  meta-ignorance (not knowing the taxonomy is incomplete —
+  this round may miss a kind). Smithson's use (manage ignorance,
+  don't just lament it): the program manages four kinds four
+  ways (I2 for known-unknowns; apprenticeship (193 rounds) for
+  unknown-knowns; the incapacities charter (R181) for unknown-
+  unknowns; audits (dissonance, FAE) for meta-ignorance —
+  checking whether the checking works). Ignorance with an
+  org chart.
+- **Post-normal flies [canon: Ravetz/Funtowicz (post-normal
+  science: facts uncertain, stakes high, extended peers);
+  verification deferred].** → Inverted here (facts uncertain
+  (I2 = 0.973), stakes LOW (flies! — no patients, no planet,
+  no policy)). Post-normal says high-stakes + uncertainty needs
+  extended peer communities (no credential monopoly on the
+  verdict); our low-stakes + uncertainty needs... nothing
+  (no peers — one-member program; no extension — nothing to
+  extend to). The inversion is the finding: post-normal's
+  machinery (peer review of the review, values made explicit)
+  is ABSENT precisely where stakes can't justify it — and its
+  absence is honest (no fake stakeholders convened, no
+  participation theater). Filed as the boundary of the
+  doctrine (post-normal for high stakes; frozen discipline for
+  low — different scarcities, different designs).
+- **Ignorance with nowhere to sit [canon: B. Wynne (Cumbrian
+  sheep: lay ignorance/knowledge vs experts; uncertainty);
+  specified Brian (vs Gwynne FP); verification deferred].** →
+  Wynne's farmers knew things scientists didn't (local cesium
+  behavior; valid lay knowledge against expert models). Our
+  program has no farmers (no laypeople — one member; no locals
+  — banks are drawn, not dwelt). Lay ignorance/knowledge has
+  nowhere to sit: there is no outside-knowing to set against
+  inside-knowing (R193-Spivak's voicelessness, restated for
+  knowledge: not only can the arms not speak, no one else
+  speaks for them either). The VOID with an address (extended
+  peers: none; lay experts: none; challengers: none (R181-
+  Becker x5 now)). Uncertainty WITHOUT ignorance-politics
+  (I2 measured, no one disputes it — agreement by absence).
+- **Acting under ignorance [canon: Epstein (impure science:
+  ACT UP forcing parallel trials; expertise under pressure);
+  verification deferred].** → ACT UP acted under ignorance
+  (demanded parallel-track trials before efficacy was known —
+  dying people can't wait for clean designs). Every single
+  attempt is parallel-track (run once, decide now, no clean
+  replication first — V1i deployed WITH the tax, not after
+  it). Epstein's lesson (pressure improves science when it
+  forces new designs (parallel track was BETTER science, not
+  worse)) licenses the program's impatience (single attempts
+  are not impatience but design (fresh banks need spending,
+  not saving)). Impure science, proudly (values explicit
+  (negatives preserved BY VALUE, not by rule alone); pressure
+  real (the goal wants RSI, the ledger says not yet)).
+  Round 200 closes the ignorance inventory: named (Smithson),
+  bounded (post-normal inverted), unseated (Wynne), acted-on
+  (Epstein) — not-knowing, fully administered.
