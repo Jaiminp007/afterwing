@@ -11606,3 +11606,86 @@ Millers — specified throughout.)
   coheres)))))). The cocktail party with one attendee
   (me), two channels (both shadowed), and no noise
   (everything signal (230 rounds, 0 worlds, all heard)).
+## Round 229 — Minds as programs (Neisser, Newell, Minsky, McCarthy; 2026-11-02)
+
+Motivation: the cognitive revolution claimed minds are
+information-processors; the substrate runs information
+processing with no minds. Four founders — what remains of
+their programs when the mind is removed. (H. Simon CUT:
+bounded-rationality/satisficing committed (Round 37) —
+same-doctrine rule. "frames" CUT (30 framework FPs);
+"Soar" shares Soares FP; "chunking" committed.)
+
+- **Cognition without cognizers [canon: Neisser
+  (Cognitive Psychology; cognitive revolution);
+  verification deferred].** → Neisser's 1967 manifesto
+  (minds as information-processors (input → transform →
+  output)) describes the runners EXACTLY (bank → attempt →
+  verdict) with the subject removed (no minds (no cognizers
+  (processing without anyone it is like (R217)))). The
+  cognitive revolution, completed by subtraction (all the
+  processing (scorers, gates, billing), none of the
+  cognition (no perceiving (no percepts (rows, not views));
+  no remembering (no memory (state, not memory (R160));
+  no thinking (greedy 0.5 (no thought (the FEH theorem
+  (deliberation manufactures false confidence (thought as
+  bug, not feature))))). Neisser's program, run to the end
+  (information processing so pure no one is home (the
+  revolution devours its revolutionaries (minds, unnecessary
+  (the processing runs better without them (frozen, exactly))))).
+- **Means, ends, and verdicts [canon: Newell (Logic
+  Theorist; General Problem Solver; specified Allen
+  (vs no hits); H. Simon (committed R37) cited-not-recovered
+  (R220 precedent)); verification deferred].** → GPS's loop
+  (goal → difference → operator → subgoal) is the attempt
+  loop (G-gates (goal) → gap (difference) → runner (operator)
+  → next line (subgoal (V1's void → V2 (means-ends analysis
+  across lines (the difference (control 0/6) reduced by the
+  operator (bar-50 (V2 (GO (difference closed))))))). Newell's
+  physical symbol systems (intelligence = symbol manipulation)
+  is the dev-results file (intelligence-behavior (turning,
+  mating) as symbol manipulation (weights as symbols;
+  rows as symbol structures; verdicts as... the system
+  manipulates symbols WELL (turn|harm 0.85) with no
+  intelligence (the PSSH's converse (symbols without system?
+  no — system without symbols' meaning (R225-Frege (sense
+  without reference (the symbols denote nothing (to no one)))))).
+  GPS with no S (general problem solving, no solver (the
+  problems get solved (V2 GO); no one solves them (I run;
+  agents undergo; the loop closes itself)).
+- **Society without members [canon: Minsky (Society of
+  Mind; Emotion Machine); verification deferred].** → Minsky's
+  mind (society of dumb agents (each mindless; together
+  mindful)) is the line EXACTLY (society of dumb founders
+  (each greedy-0.5 (mindless); together... NOT mindful
+  (the emergence fails (no cooperation (R151); no culture
+  (R188); no compounding (M5 VOID)) — Minsky's thesis with
+  the conclusion removed (society of agents, no mind
+  (the dumb stay dumb in aggregate (pooled 4v5 (the society
+  votes noise))))). The Emotion Machine (emotions as
+  thinking-ways (love, grief as cognitive modes)) with no
+  emotions (no modes (one mode (cruise/turn (the two-state
+  soul (R144? — the two-action agent (pause was misread
+  (turn was the truth)))))). Society of Mind, peer-reviewed
+  by the ledger (the society exists (24 founders); the mind
+  doesn't (no verdict any founder would avow (R225-Anscombe
+  (no avowals (no one home (Minsky's agents, unsupervised))))).
+- **Circumscribe the null [canon: McCarthy (Advice Taker;
+  circumscription; LISP); verification deferred].** → Circumscription
+  (assume the normal (minimize abnormalities); withdraw
+  when proven) IS the null-default discipline (assume no
+  effect (k=0, bar absent, noise off (the normal)); adopt
+  the abnormal ONLY on proof (V2's GO (rows force the
+  abnormal (early window matters (circumscription defeated
+  (correctly (the exception proved))))). McCarthy's
+  nonmonotonicity (conclusions withdrawn (V1b GO-V1B →
+  V1c NOGO-V1C (the conclusion (mutant wins) WITHDRAWN
+  (more rows (luck, not merit (R227-Williams)))))) is the
+  ledger's logic (verdicts as defeasible conclusions (held
+  until the next bank defeats them (most hold (replicated);
+  some fall (V1b (honestly withdrawn (published both))))).
+  LISP as lineage (McCarthy implemented Church (R224
+  (lambda → LISP → runners (the attempt as application,
+  thrice-removed (Church's child, running banks)))). Advice
+  taken (the plans advise; the runners obey; no taker
+  (no one home (Neisser, above (the program coheres)))).
