@@ -6611,3 +6611,190 @@ nothing, never quit, and forage selfishly. The decision canons price each.
   no criticality claimed, no power-law test run); Taylor's-law pointer
   (exists); Lorenz (chaos, not imprinting); Thom (catastrophe); tipping
   points. Our patterns described, never derived here — one paragraph.
+
+## Round 147 — Induction, rules, development (Hume, grue, Kripke, Vygotsky, Piaget, Ericsson, Brailsford, Moneyball; 2026-11-02)
+
+Motivation: transfer IS the problem of induction, stated nowhere. This
+round states it — with grue as its formal portrait.
+
+- **The program is Hume's problem [canon: Hume (problem of induction);
+  verification deferred; arXiv = absent].** → Will trained policies work
+  on new codebooks? No deductive reason says yes (uniformity of nature
+  unassumed across codebooks); the tax (0.2–0.3) MEASURES the gap.
+  Every transfer verdict is an induction report. Stated, zero worlds.
+- **Grue is the transfer tax [canon: Goodman (grue/bleen); verification
+  deferred; arXiv = absent].** → "All emeralds observed green → project
+  green" fails at time-t; "all trained cues harmful → project harmful"
+  fails at codebook-switch. Gruebleen: is the new-codebook cue harmful
+  or harmless-until-observed? Undecidable from the old vocabulary —
+  FORMALIZES why transfer is philosophically hard (projectable vs
+  non-projectable predicates = within- vs across-codebook regularities).
+  Fifth grounding of the closed arc (with SR, switch-costs, occasion-
+  setting, NFL). Zero worlds.
+- **Accord without following [canon: Wittgenstein (rule-following);
+  Kripke (Kripkenstein); verification deferred].** → Our agents ACT IN
+  ACCORDANCE with rules (turn on harm) without FOLLOWING any (no
+  represented rule). Kripke's community standard: our PROBES are the
+  linguistic community (checking accord, certifying practice). Re-read,
+  zero worlds — probes meet their philosopher too.
+- **Development as method [canon: Vygotsky (ZPD/scaffolding); Piaget
+  (stages; conservation); verification deferred].** → Mixed-exposure =
+  scaffolding; lossy transplant = ZPD-sized task (×0.5 makes it
+  proximal!). Teaching-line form: scaffold INTO the ZPD, then remove.
+  Conservation tasks (invariance under transformation) = the assay
+  template for transfer lines (pour the water: does value conserve
+  across codebook transformation?). Specified, not an instrument.
+- **Practice, marginal, counted [canon: Ericsson (deliberate practice);
+  Brailsford (marginal gains); Lewis (Moneyball); verification
+  deferred].** → Training lacks all three deliberate ingredients (edge
+  of ability, immediate feedback, representations) — the inefficiency
+  explained + structured-practice curricula specified (frozen plan;
+  contrasts with PLAY, which is deliberately non-deliberate). Brailsford:
+  our ±0.1 bands ARE marginal-gains doctrine (verified edges compound —
+  V1h). Moneyball: the map-and-ledger over intuition — stated once.
+
+## Round 148 — Information, causation, life (capacity, do-calculus, ALife, Hopfield/ART, modern RL, tacit knowledge; 2026-11-02)
+
+Motivation: the broadcast channel needs a capacity, transplants need a
+calculus, and our memory needs its theory. All three exist.
+
+- **The channel, quantified [pointer: Shannon (covered); √k bound
+  (R142)].** → One bit × uses per run: capacity stated, value open
+  (WHICH bit? best-patch location? mating success? — highest-value-bit
+  as open question, not a claim). No new math; the spec assembled.
+- **Transplants are do() [canon: Pearl (do-calculus); Rubin (potential
+  outcomes); verification deferred + arXiv:2511.10776v1 (PoR/PoB
+  counterfactual decision metrics — pointer)].** → Paired same-seed
+  design IS potential outcomes (Y(transfer) vs Y(control) per history;
+  SUTVA holds BY CONSTRUCTION — separate worlds, no interference).
+  Rubin vocabulary adopted for future designs; Pearl's backdoor
+  criterion named for bank-effect confounding. Existing practice
+  formalized — zero worlds.
+- **Life, artificial and positioned [canon: Ray (Tierra); Langton (edge
+  of chaos); Wolfram (NKS); Sims (creatures); Holland GA (pointer,
+  covered); Koza (GP); verification deferred + arXiv:2605.28353v1
+  (recombination-based CGP long avoided for no-gain — pairs MLR1:
+  recombination avoided in GP too, same reason!)].** → Positioned: open-
+  ended ALife selects for novelty; we select for VERIFIED retention
+  (ledgers + negative preservation). Different selection, different
+  science — stated so the program isn't mistaken for ALife.
+- **Memory with a theory [canon: Hopfield (associative memory);
+  Grossberg/Carpenter (ART: stability-plasticity + vigilance);
+  verification deferred + arXiv:2008.02217v3 (modern Hopfield =
+  attention; exponential storage, one-update retrieval, three minima
+  types) + arXiv:2311.06518v1 (MDL-Hopfield: memorization capacity
+  UNDERMINES generalization; MDL selects what to store)].** →
+  Buffers-as-Hopfield (rows as attractors; fingerprint as attractor
+  basins — re-read); ART vigilance = the unbuilt knob (match criterion
+  for consolidation — surprise-gating IS implicit vigilance; make it
+  explicit — specified-not-executed). MDL-Hopfield: store less,
+  generalize more — V1j's moral, third substrate (with lossy transfer
+  and RMAAT compression).
+- **The modern shelf (ancestors acknowledged; trust declined)
+  [canon: Watkins (Q); Silver (AlphaGo); Schulman (PPO/TRPO); RLHF;
+  Kaplan/Chinchilla (scaling); verification deferred +
+  arXiv:2302.07985v1 (trust-region-FREE optimization — our greedy is
+  trust-free; the price: NO monotonic-improvement guarantee — TRPO's
+  guarantee is what stampede violates) + arXiv:2402.04177v3 (scaling
+  for DOWNSTREAM/transfer performance) + arXiv:2412.07942v1 (scaling
+  from data distribution via PERCOLATION — R74 again!)].** →
+  Transfer-scale sweep specified (does the tax shrink with scale? —
+  frozen plan + compute, expensive, noted-not-scheduled). Percolation-
+  scaling pair logged. No adoption; the shelf is inventory.
+- **Tacit knowledge and its machines [canon: Moravec (paradox);
+  Dreyfus (tacit limits); Polanyi (we know more than we can tell);
+  Papert (constructionism); Engelbart (augmentation); Licklider
+  (symbiosis); Weizenbaum (ELIZA/judgment); verification deferred].**
+  → Foraging is Moravec-hard (sensorimotor, tacit) while 96-dim
+  "cognition" is easy — explains the failure pattern (fails where it
+  "should" succeed). Fingerprint knowledge is TACIT (weights know more
+  than rows tell — Polanyi). Instruments augment the EXPERIMENT, not
+  the agent (augmentation target: efference, R137 — sequenced). Scorers
+  automate verdicts; responsibility stays human (Weizenbaum — sign-off
+  named). Five one-paragraphs, no instruments.
+
+## Round 149 — Organized learning (March, Goldratt, Deming, Lean, Meadows, Weick, Senge, Forrester, Pasteur; 2026-11-02)
+
+Motivation: the program is an organization that learns. Management
+science has its manuals — most of which describe us already.
+
+- **Traps and ambidexterity [canon: March (explore/exploit; success vs
+  failure traps); Tushman (ambidexterity); verification deferred].**
+  → Saturation = SUCCESS TRAP (exploiting the learned policy crowds out
+  exploration — stampede as competency trap). The licensed mixed
+  explore/exploit frontier gets its canon; structural ambidexterity
+  (separate explore/exploit arms) specified as the design form.
+- **The constraint and the cycle [canon: Goldratt (TOC + five focusing
+  steps); Deming/Shewhart (PDCA + control limits); verification
+  deferred].** → Encounter bottleneck = THE constraint; our method IS
+  the five steps (identify K≈10 → exploit topology → subordinate
+  allocation knobs (proven inert!) → elevate (new channels) → repeat;
+  "line closes" = step 5 (don't let inertia become the constraint)).
+  PDCA = freeze-implement-attempt-publish (Check gates Act; Act
+  standardizes or kills). Control limits = our ±0.1 bands (Shewhart
+  named). Method named twice, zero worlds.
+- **Minimum viable instruments [canon: Blank (lean startup: MVP,
+  build-measure-learn, pivot/persevere); verification deferred].** →
+  Single-knob = MVP; attempt cycle = build-measure-learn; GO/NOGO =
+  persevere/pivot (pivot = new-rationale line; persevere = replicate
+  like V1b→V1c). Innovation accounting = our ledgers. Analogy stated,
+  not identity (no customers; truth is the market).
+- **Where the leverage is [canon: Meadows (12 leverage points);
+  verification deferred].** → Ranked: parameters (bars/gains, weak)
+  < structure (topology) < rules (single-attempt) < paradigm/mindset
+  (negative preservation, frozen discipline — HIGHEST leverage). The
+  audit humbles instrument-building and vindicates the discipline:
+  most leverage was never in the knobs. One paragraph, kept.
+- **Enactment and organization [canon: Weick (sensemaking/enactment);
+  Senge (learning organization); Forrester/Sterman (feedback/delays);
+  Stokes (Pasteur's quadrant); verification deferred].** → Agents
+  ENACT their environment (depletion trails = enacted world; analytics
+  retrospect, attempts prospect — Tukey again, organizational).
+  Program-as-learning-org mapped (mastery = instrument craft; mental
+  models = canons; shared vision = VISION.md; team learning =
+  PROGRESS; systems thinking = the map). Bars act through behavior
+  with DELAY (policy resistance — Sterman; stock-flow re-expression of
+  MORTALITY specified analytic, zero worlds, not executed). Pasteur's
+  quadrant: use-inspired basic research — stated.
+
+## Round 150 — Commitment and observation (Elster, Hirschman, Myrdal, Sen, RCTs, Hawthorne, Tufte, Borges, McLuhan; 2026-11-02)
+
+Motivation: why we bind ourselves, what exit without voice means, and
+how to observe without lying. The round the discipline deserved.
+
+- **Bind to the mast [canon: Elster (Ulysses); verification deferred].**
+  → FROZEN PLANS ARE ULYSSES CONTRACTS (present self binds future self
+  against tuning sirens; the mast = the published freeze). The
+  discipline's deepest justification, named at last. One paragraph —
+  the metaphor earned over 146 rounds.
+- **Exit without voice [canon: Hirschman (exit/voice/loyalty);
+  verification deferred].** → Leave knob = EXIT; voice ABSENT (no
+  signal channel, R133); loyalty = philopatry (load-bearing!). The
+  exit-voice audit: systems need both; we built half. Dispersers exited
+  without loyalty and died — Hirschman predicts exactly the silence
+  that followed (no voice to report it). Pairs broadcast channel.
+- **Vicious circles, capability sets [canon: Myrdal (cumulative
+  causation); Sen (capabilities); verification deferred].** → Poverty-
+  trap GAS, formalized (circular cumulative causation; backwash vs
+  spread mapped descriptively, zero worlds). Verdicts measure
+  FUNCTIONINGS (achieved gen-2); the frontier asks about CAPABILITIES
+  (achievable under better topology — the capability set our bars
+  constrain). Development = capability expansion (transfer!
+  transmission!). Framing, not findings.
+- **Trials and observers [canon: Banerjee/Duflo (field RCTs +
+  pre-analysis plans); Hawthorne/Mayo (observer effects); verification
+  deferred].** → Attempts AS field RCTs (randomized histories,
+  pre-registered outcomes, single analysis — frozen scorer = the
+  pre-analysis plan). Stated carefully (digital poor, real discipline —
+  not flippant). Hawthorne = probe-validity (R117) in organizational
+  dress: observed agents differ; our probes observe (destabilize?) —
+  same threat, third wording.
+- **Maps and territories [canon: Tufte (visual display); Monmonier
+  (how to lie with maps); Korzybski (map≠territory); Borges (Babel);
+  McLuhan (medium is message); verification deferred].** →
+  Chart discipline for verdict docs (data-ink, lie factor — standing
+  form). Korzybski: the LITERATURE MAP is not the territory (a map OF
+  maps — recursion noted). Borges: codebook space as Babel (mostly
+  meaningless combinations; librarianship = search). McLuhan:
+  substrate shapes findings (the tax as medium-effect — sixth? no,
+  medium-effects noted without numbering). Closing shelf, zero worlds.
