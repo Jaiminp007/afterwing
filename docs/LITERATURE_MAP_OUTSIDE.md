@@ -7651,3 +7651,120 @@ whose risk it is, how the books balance — and who says so.
   frozen norm — closure enables enforcement!). Bourdieu: program
   as field of one (no competition for stakes — hermit science;
   stakes = ? (none! (knowledge for no one (intrinsic!)))).
+
+## Round 167 — Time and identity (McTaggart/Prior, semantic arrow, vague identity, fission, narrative; 2026-11-02)
+
+Motivation: our code is presentist, our verdicts are tensed, our archive
+only grows, our transplants branch — and nobody had named any of it.
+
+- **Presentist code, tensed verdicts [canon: McTaggart (A/B series);
+  Prior (tense logic); verification deferred; arXiv = absent].** →
+  State holds only present (buffers = retained past; no future:
+  presentist ontology!). A-series NOW = lastDecisionTick; B-series =
+  tick order (A-language for B-facts!). Verdicts FORMALIZED tensed:
+  G0 present (train IS ≥0.5) / D1 future-in-past (will-have-converted!)
+  — Prior operators for frozen claims (informal, named).
+- **The arrow is design [canon: Eddington; verification deferred +
+  arXiv:2603.01440v1 (SEMANTIC arrow: computing's direction is
+  DESIGN (FITO protocols!), not thermodynamics!) + arXiv:2202.04619v1
+  (irreversibility review — pointer)].** → Ours is BOTH: thermodynamic
+  (ops burned, energy dissipated!) AND semantic (append-only +
+  no-rescoring + frozen-before-run = FITO by discipline!). The archive
+  only grows; verdicts never unhappen — by COMMITMENT, not physics
+  (negative preservation as semantic arrow!). Paired arrows, stated.
+- **Identity, exact or absent [canon: Evans (vague identity);
+  verification deferred].** → Digest defeats it: restored weights ARE
+  the same (bitwise!) or NOT (integrity fails, fail-closed). No de re
+  vagueness possible — IEEE 754 leaves nowhere for vagueness to hide.
+  One line: Evans defeated by construction.
+- **Fission, every pair [canon: Shoemaker (branching/psychological
+  continuity); verification deferred; Parfit-adjacent R144].** → Train
+  → uniform + damage + gain: ONE source, THREE continuants. Who IS the
+  train? ALL (shared ancestry! shared digest at transplant! then
+  diverge!). Branching + integrity digests: fission formalized — we
+  perform it every pair, now named.
+- **Selves we lack; stories we tell [canon: Olson (animalism —
+  VOID: no organisms! M4 boundary); Schechtman (narrative self);
+  verification deferred].** → No animal selves (substrate: code).
+  But PROGRESS is program autobiography (self-constitution through
+  narrative — of the PROGRAM, not agents (agents have no narrator;
+  docs narrate; we're the tellers!). Narrative identity, correctly
+  assigned.
+
+## Round 168 — Knowing (AAA audit, E=K, adequacy, phenomena, capacities, crowds; 2026-11-02)
+
+Motivation: what warrants our best verdict, what our evidence IS, and
+whether the crowd of histories is wise. Epistemology, finally stocked.
+
+- **AAA for V1i [canon: Sosa (apt belief: accurate BECAUSE adroit);
+  verification deferred].** → Accurate ✓ (D1 +0.158, E1 all clear!)
+  adroit ✓ (frozen process!) apt ✓ (accurate BECAUSE adroit —
+  competence explains success (bank variance checked! (V1h/V1g
+  replication!))). AAA PASSES — converges with Hill 8.5/9 (R152):
+  two audits, same verdict, different canons. Strongest-warranted
+  claim, now doubly.
+- **Evidence IS knowledge [canon: Williamson (E=K);
+  verification deferred].** → No analysis needed; reliability warrants
+  (Goldman R154!). LEAVE-V1 Gettier: luck, not false evidence
+  (4/7 true! incomplete, not false — E=K survives (evidence can't be
+  false; Gettier via luck!). Our evidence-first stance, grounded.
+- **Deploy without truth [canon: van Fraassen (constructive
+  empiricism); verification deferred].** → Adequacy suffices: V1i
+  deployed WITHOUT full mechanism understanding (predictive success
+  on fresh banks!). Our instrumentalism, named (not sheepish).
+- **We create phenomena [canon: Hacking (represent/intervene);
+  verification deferred].** → Two-track form IS the distinction:
+  analytics REPRESENT, attempts INTERVENE. Attempts surprise us
+  (V1d mislabel! stampede!): experiment has a life of its own —
+  constrained by frozen plans, not eliminated (surprise WITHIN
+  discipline! — the stampede WASN'T predicted (phenomenon created,
+  not found!)).
+- **Capacities, dappled [canon: Cartwright (dappled world);
+  verification deferred].** → Surprise-gating as CAPACITY (stable
+  tendency: works V1g/h/i when fired!); damage-gating a DIFFERENT
+  capacity (failed here!). No universal consolidator — dappled,
+  honestly.
+- **The crowd is wise (conditionally) [canon: Surowiecki (covered);
+  verdict: jury conditions SATISFIED].** → Diversity ✓ (seeds!)
+  independence ~ ✓ (κ≈0.11!) decentralization ✓ (separate runs!)
+  aggregation ✓ (votes/means!) — all four Surowiecki conditions
+  met. The N=6 jury reads as wisdom-of-histories (re-read of JURY
+  AUDIT, zero new worlds).
+
+## Round 169 — Selves and agency (hierarchy, zombies, situatedness, goodness, population; 2026-11-02)
+
+Motivation: what agents lack (orders, others, experience, situatedness),
+what the program lacks (moral patients with standing), and what's good
+about gen-2 anyway.
+
+- **Flat, alone, determined [canon: Frankfurt (hierarchy);
+  Strawson (reactive attitudes); Pereboom (illusion); verification
+  deferred].** → No second-order volitions (flat Frankfurt!). No
+  reactive attitudes (no social! VOID). Illusion + ASYMMETRY: free
+  experimenters (choose!) vs unfree agents (determined!) — the
+  freedom gradient! Responsibility tracks it (ALL OURS —
+  experimenters'! (sign-off = taking responsibility (Weizenbaum
+  R148-adjacent!))).
+- **Skill without experience [canon: Block (no-twin moot);
+  O'Regan/Noë (sensorimotor mastery); Dennett (drafts);
+  verification deferred].** → No twin, no argument (Block moot:
+  functional duplicate of NOTHING). Turning mastered (0.81-0.83!)
+  withOUT experience: SMC-minus-experience = zombie skill
+  (behavior without what-it's-like — BY DESIGN (no experience
+  channel! (Chalmers-adjacent R144!))). Single content stream
+  (no drafts — VOID). Zombie-by-construction, stated thrice now.
+- **Plans as programs (anti-Suchman) [canon: Suchman (situated
+  action); Agre (deictic representation); verification deferred].**
+  → Deictic foraging ("the-food-here-now" — no object permanence
+  needed!). Suchman INVERTED: plans as RESOURCES for situated action
+  (hers) vs our frozen plans as PROGRAMS (executed literally —
+  explicitly anti-situated! (no improvisation! (the inversion
+  STATED (this is what frozen MEANS!))). No epistemic actions
+  (all pragmatic — acting to EARN, never to learn).
+- **Goodness and numbers [canon: Moore (open question); Parfit
+  (population ethics); verification deferred].** → Gen-2 is high —
+  but GOOD? (Moore: indefinable! (goodness GIVEN (Vision!) not
+  found! (charter, not world! (teleonomy R126! (direction without
+  value!)))). Repugnant conclusion: BLOCKED empirically (SWF audit:
+  no c flips any verdict (small-N + same-direction totals/averages!
+  (the audit already answered Parfit (cited, not repeated!)))).
