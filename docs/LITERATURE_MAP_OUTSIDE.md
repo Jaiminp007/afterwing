@@ -3244,3 +3244,42 @@ with worst energy (−42.2) and unshifted timing. Two classic frameworks name th
 - **Scope-note.** All three MVT/GUD conjunctions returned NO-RESULTS on arXiv
   (foraging theory lives in journals); OpenAlex still 429. Canon-cited with full biblio,
   verification deferred per standing practice.
+
+## Round 76 — clustering without attraction (for V3's uniform-low births; 2026-11-02)
+
+Motivation: V3 forced attraction and got uniform-low births (3,4,3,3,3,3) with zero
+variance — the signature of a JAMMED cluster, not a foraging aggregation. Active-matter
+physics says attraction is not even necessary for clustering — and that diversity
+destroys it. Both halves reframe V3.
+
+- **MIPS reviews (arXiv:2112.03979v3 + 2112.05024v1 introductions; 1502.02229v2
+  coarsening; 2408.09763v3 background flow; 2308.05088v1 deformable cells;
+  2201.07623v1 interparticle interactions; 2208.05937v2 no-1D-transition).**
+  Self-propelled particles phase-separate from motility ALONE (persistence +
+  crowding); no attraction knob needed. → Our founders already self-cluster by
+  motility wherever density is high (hub). V3's k=2 did not CREATE aggregation —
+  it overrode an existing motility-driven pattern with uniform taxis, plausibly
+  converting a loose foraging cluster into a jam (uniform births, worst energy).
+  Specified-not-executed diagnostic: cluster-size distribution (CSD) from frozen
+  rows — exponential CSD = MIPS regime; bimodal = attraction-dominated. Needs its
+  own frozen measurement plan (positions are logged? verify before specifying).
+- **arXiv:2107.04049v2.** Speed diversity suppresses MIPS clustering (mixtures do
+  not macroscopically coalesce; exponential CSD). → Founder speed traits vary
+  22–34 (engine.mjs:38, ~±20% diversity) — built-in anti-jam heterogeneity. This
+  may be WHY baseline encounters never compounded: diversity keeps clusters loose
+  and transient, so proximity never persists long enough to matter AND never jams
+  badly enough to starve. Two-sided prediction, both testable in principle: (a)
+  clonal-speed populations should cluster harder (more compounding AND more
+  starvation); (b) forced uniform taxis (V3) destroys the diversity protection,
+  jamming the cluster — exactly the observed uniform-low births.
+- **arXiv:1612.03987v2.** Attractive active spheres: attraction/propulsion ratio
+  controls assembly (too much attraction → non-foraging aggregates). → k=2 parity
+  with food was arbitrary against this lens: the food coefficient evolved with the
+  whole foraging economy, while mate-k=2 was copied without its economy. A ratio
+  ladder (not a single k) is the honest follow-up — but magnitude tuning without a
+  pre-registered selection rule is shopping (V2 plan); specified-not-executed with
+  that warning attached.
+- **Scope-note.** Chiral-interruption (2104.11657v5), rods/filaments reviews
+  (1907.00360v2, 1802.07480v1), micellization experiments (2305.16659v3), inertial
+  wetting (2406.01038v1) are mechanism-mismatched (chirality/shape/hydrodynamics
+  absent from our substrate); logged, not pursued.
