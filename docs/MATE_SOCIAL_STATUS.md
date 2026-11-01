@@ -31,3 +31,19 @@
   CLOSED. Future mating needs a new bottleneck (encounter rate:
   quorum/aggregation/attraction/clumped-food), not a new copy rule.
   No V2. Cumulative 7695 (+12).
+
+## V2 (conditional + recency-weighted copying; FROZEN 2026-11-02, design only)
+
+- Plan: `docs/MATE_SOCIAL_PLAN_V2.md` (new `copyconditional` mode: maiden-line
+  gate mOff ≤ 1 incl. current birth + most-recent-success donor (more-successful
+  parent, lower-id tiebreak) + frozen fallback chain; per-tick billing unchanged
+  (zero new billed ops); checkpoint round-trip required; copycond vs copyalways
+  (V1-exact) vs maternal; GO iff copycond gen-2 ≥ 2 AND > maternal; bank 443xxx
+  fresh-02; closes line either way).
+- Rationale: Rogers (unconditional copying neutral-to-harmful) + R82 copy-when-
+  uncertain + R82/R116 recency (lifetime success is a lagging indicator) —
+  mechanism fix for V1's identified failure mode, not a retest.
+- Implement: separate turn under the plan (enum + gate + donor rule + per-row
+  transmission field + 12 fixtures incl. gate/recency/fallback/determinism/
+  billing + triage + bank 443001–443054); single attempt next.
+- Cumulative unchanged (7959, design only, zero worlds).
