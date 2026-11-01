@@ -3402,3 +3402,316 @@ everything.
 - **Scope-note.** GUD/quitting-harvest conjunctions return nothing on arXiv
   (behavioral-ecology journals); the MVT/GUD canon from R75 stands. No OpenAlex
   attempt this round (rate-limit cooldown observed).
+
+## Round 81 — receiver psychology: preferences as side-effects (for the ATTRACT knob; 2026-11-02)
+
+Motivation: the ATTRACT arc asks what attraction knob to build, and keeps assuming a
+mate-dedicated channel. Receiver psychology says preferences usually PRE-EXIST as
+side-effects of sensory systems tuned for something else (food, predators), and signals
+evolve to exploit them. Our agents have exactly this structure: food-tuned channels plus
+a turn circuit. The outside-the-box flip: do not sense mates — let mate cues stimulate
+the FOOD channel (a sensory trap), and modulate susceptibility by state.
+
+- **Sensory bias / sensory drive [canon: Ryan 1990 (swordtail bias pre-exists the
+  sword); Basolo 1990; Endler 1992; Ryan & Keddy-Hector 1992; journal-bound,
+  verification deferred].** Female preference for a trait exists before the trait;
+  selection acts on receivers first, signals second. → Our k=2 taxis term is built as
+  if the receiver (turn circuit) evolved FOR mates. The bias-first reading: the turn
+  circuit evolved for food gradients; a mate cue that stimulates it is a trap, not a
+  signal — which predicts exactly V3's failure mode (foraging hijacked → starvation),
+  and reframes V4's gate as state-modulated SUSCEPTIBILITY rather than state-gated
+  navigation. arXiv exact-phrase searches ("sensory bias", "sensory exploitation",
+  "mate copying") return zero behavioral-ecology hits (searched-not-found; the field
+  lives in journals) — logged so nobody re-searches these strings.
+- **Supernormal stimuli [canon: Tinbergen; journal/ethology texts, verification
+  deferred].** Exaggerated stimuli outcompete the real object for the same receiver
+  channel. → The knob-design corollary: a working attraction cue should be a
+  SUPERSTIMULUS on the food channel (stronger-than-food gradient pull), not a
+  parallel channel with its own arbitrary gain. V3's k=2 was tuned as if parallel;
+  the supernormal reading says calibrate k against the FOOD gradient scale, with the
+  starvation cost as the priced constraint. Specified-not-executed.
+- **Neural reuse / massive redeployment [canon: Anderson 2010 After Phrenology;
+  book/journal, verification deferred; arXiv "neural reuse" returns only ML noise
+  (MATE autoencoders, music cognition) — searched-not-found].** Brain areas are
+  reused for new functions without dedicated circuitry. → Mechanistic license for the
+  trap design: reuse of the food-gradient turn path for mate approach is the NORM in
+  nervous systems, not a hack. Our engine already implements reuse (one motorPrimitive
+  for food+walls+mates); the literature says that is the right architecture and the
+  failure is in the gating, not the sharing.
+- **arXiv:2504.10401v1.** Selectivity gain in olfactory receptor neurons peaks at an
+  OPTIMAL odor concentration (leaky integrate-and-fire + ligand-gated-channel model).
+  → Receiver channels have dose optima: below it noise, above it saturation. Our
+  gain-dose line (INVALID, baselines elevated) never modeled the receiver's own
+  optimum. If attraction rides the food channel, the mate cue has a concentration
+  window where it is discriminable — outside it, invisible or saturating. A
+  dose-series on the trap (not on surprise-gain) is the unbuilt experiment; needs its
+  own frozen plan.
+- **arXiv:2109.12434v2.** RL-trained RNN agents tracking turbulent plumes: foraging
+  AND mating pursuit solved by the SAME emergent sensorimotor integration (no
+  task-specific modules; intermittent odors, shifting wind). → In-silico proof that
+  one embodied policy covers food-seeking and mate-seeking without separate channels
+  — the strongest external support for the trap-over-channel design, and a methods
+  pointer (their emergent-behavior analysis) for reading our own agents' policies.
+
+## Round 82 — copy only when uncertain (for SOCIAL's unconditional-copy null; 2026-11-02)
+
+Motivation: MATE-SOCIAL's copybest copied unconditionally at every mating and changed
+nothing (1 = 1, same lineage). The social-learning literature's central result is that
+UNCONDITIONAL copying is dominated — the winners copy CONDITIONALLY.
+
+- **Copy-when-uncertain [canon: Boyd & Richerson 1985; Rendell et al. 2010 Science
+  (strategy tournament: "copy when uncertain" wins); Enquist, Eriksson & Ghirlanda;
+  Laland 2004; journal-bound, verification deferred].** Social learning beats
+  individual learning exactly when personal information is poor, costly, or the
+  environment changed. → Our copybest arm copied regardless of recipient state —
+  including founders with good personal information (high intake, fed). The null is
+  PREDICTED by this literature, not surprising under it: unconditional copying adds
+  nothing where personal information suffices, and our one-generation window never
+  created an uncertain class. SOCIAL-V2 rationale (specified-not-executed, needs
+  frozen plan): gate copying on recipient uncertainty (young/low-intake founders copy;
+  successful ones use personal info) — the losing strategy (copy-always) is already
+  run; only the conditional form is untested.
+- **Mate-choice copying [canon: Dugatkin; Galef & White 1998 (quail); Witte;
+  journal-bound, verification deferred; arXiv "mate copying" exact = zero hits].**
+  Females copy other females' mate choices — but copying is itself state- and
+  context-dependent (copying by YOUNG/inexperienced females strongest). → Same
+  conditional structure inside the mating domain: copying matters for first-time
+  choosers. Our founders mate at most once and mostly in generation 1 — nearly ALL
+  are first-time choosers, which should have MAXIMIZED any copying effect, yet the
+  effect was exactly zero. That sharpens V1's null: not "copiers were too
+  experienced" but "nothing worth copying was visible" (encounters, not evaluation,
+  bottleneck — consistent with the whole arc).
+- **arXiv:2504.17370v1.** Doubly adaptive social learning: belief-update plus
+  neighbor-pooling that tracks BOTH drifting hypotheses and drifting likelihood
+  models in a fully online setting. → Our ecology drifts within a run (depletion,
+  crowding) while the copied quantity (maternal success) is a LAGGING indicator of a
+  moved world. Doubly-adaptive logic says copy recent success under drift, discount
+  stale success — copybest pooled lifetime success with no recency weight. A
+  recency-weighted copy rule is an unbuilt instrument variant (specified-not-executed).
+- **arXiv:2311.02365v1.** Evolution of reciprocity under LIMITED payoff memory:
+  conditional cooperation survives when agents learn from recent (not averaged)
+  payoffs; the standard average-payoff assumption is unrealistic. → The memory-
+  pressure angle: our founders decide on lifetime-aggregated states; the paper says
+  recency-bounded memory suffices for social strategies. Supports a bounded-memory
+  social instrument (copy on recent encounters only) over our lifetime-aggregated
+  one — if the line ever reopens.
+- **arXiv:1404.5704v3.** Semantic Axelrod: cultural transmission with PREREQUISITE
+  structure (complex traits transmit only when prerequisites are in place). →
+  Hypothesis for the exact-neutral: mating success may have prerequisite structure
+  (fed → encounter → mate) that a single copied bit (maternal success) cannot carry.
+  Copying the OUTCOME without the prerequisites predicts exactly zero transfer —
+  the V1 result read as a transmission-content problem, not a transmission-channel
+  one (channel already proven working by the maternal-copy verification).
+
+## Round 83 — inheritance without genes (for the persistence/carry-over frontier; 2026-11-02)
+
+Motivation: INHERIT tested exactly one channel (exact weight copy, the genetic
+channel) plus noise (mutation) and closed with a pooled null. Biology transmits
+across generations through at least four channels; we built one.
+
+- **Four dimensions [canon: Jablonka & Lamb 2005 Evolution in Four Dimensions
+  (genetic, epigenetic, behavioral, symbolic); book, verification deferred; 1 prior
+  mention only].** → Map our instruments onto the four: maternal exact-copy =
+  genetic; transmissionNoise = mutational; NOTHING = epigenetic (starter bias that
+  is neither exact nor random) or behavioral (parental priming/teaching). The pooled
+  V1b+V1c null (4 vs 5) is a genetic-channel-only null — the other channels are
+  unbuilt. Cheapest unbuilt variant: epigenetic-as-prior (offspring initialized to a
+  SHRUNK parental vector; shrinkage = the epigenetic "reset"), sitting strictly
+  between our exact-copy and zero-weights arms. Specified-not-executed.
+- **Learned-avoidance inheritance [canon: Moore et al. 2019 Cell (C. elegans learns
+  pathogen avoidance; inherits it ~4 generations via neuronal small RNAs); Rechavi
+  lab follow-ups; journal-bound, verification deferred].** The closest existence
+  proof to our question: INHERITANCE OF LEARNED BEHAVIOR with a molecular channel
+  (neurons → germline small-RNA transport). → Two readings: (1) our weights-copy
+  attempted the right thing through the wrong channel (bulk copy vs small
+  instructive signal); (2) the inherited unit is a bias/prior (avoid X), not a
+  policy — consistent with the shrinkage-prior variant above and with our finding
+  that full policies do not transfer but directional biases do (turn-gating
+  transfers as a DIRECTION, 0.81 → 0.52–0.67, never as a full policy).
+- **arXiv:2005.06539v1.** Information-theoretic model of histone-mark inheritance:
+  with only half the parental nucleosomes transferred, ideal enzymes implement a
+  k-THRESHOLD filling rule. → Thresholded reconstruction is information-
+  theoretically optimal for half-erased inheritance — our transmissionNoise knob
+  (per-element Gaussian perturbation) is the WRONG noise model; biology uses
+  thresholded completion, not jitter. Unbuilt variant: thresholded parental seeding
+  (keep parental sign where |w| exceeds k, zero-fill the rest). Specified-not-executed.
+- **arXiv:2412.15394v2.** Self-organised liquid droplet as a reaction chamber that
+  RESTORES diluted epigenetic marks post-division (polymer-assisted condensation
+  plus particle simulation through an in-silico cell cycle). → Memory without
+  neurons, without weights: a compartment that reconstructs what dilution erased.
+  Retention-mechanism-adjacent (R1 closed SUPPORT-H1-motor): our retention study
+  looked for WHERE weights persist; this paper says persistence can be a PROCESS
+  (active reconstruction each cycle), not a place. Outside-the-box instrument: a
+  per-cycle consolidation step (re-heb toward the founder policy) rather than a
+  protected store. Specified-not-executed.
+- **arXiv:1606.08585v1.** Transgenerational signal DIRECTION flips between G1 and
+  G2 (reanalysis: overlap significant regardless of direction; direction itself is
+  unstable). → Caution for any persistence claim: even real transgenerational
+  signals change SIGN across generations. Read against our own inversion saga (BH
+  1−turn correction; HB/BH summation to 1.0): directional readouts are fragile
+  across transfers. Any V2 persistence instrument must pre-register DIRECTIONAL
+  hypotheses (which sign, which cue), not just magnitudes.
+- **arXiv:2502.07366v5 + arXiv:2604.18809v2.** RITHMS hologenome simulator (vertical
+  AND horizontal transmission of microbiota across generations) plus a persister-cell
+  model with a SHARP persistence/extinction threshold via epigenetic inheritance.
+  → (1) Our transmission is vertical-only; hologenome logic adds a horizontal
+  channel (founder-to-founder transfer within a generation — unbuilt, and distinct
+  from our maternal arm); (2) persistence-vs-extinction thresholds are SHARP in the
+  persister model — establishment (our INFORMED void, gen-2 ≥ 2 bars) may be a
+  threshold phenomenon where near-threshold data look like noise. Both support
+  threshold-framed analyses of existing banks (analytic-only, zero new worlds).
+
+## Round 84 — perfect adaptation and fold-change detection (for extinction gates; 2026-11-02)
+
+Motivation: the turn-gating transfer tax IS an adaptation problem (the old codebook
+must stop driving behavior in a new niche), and our actor has no dedicated adaptation
+machinery — extinction means overwriting weights. Sensory biology solved exact
+adaptation with identified circuits; this round maps them.
+
+- **Robust perfect adaptation [canon: Barkai & Leibler 1997 Nature (integral
+  feedback); Yi, Huang, Simon & Doyle 2000 PNAS (conditions); journal-bound].**
+  Bacterial chemotaxis returns EXACTLY to pre-stimulus activity across wide parameter
+  variation, via integral feedback. → Our transferred agents do the opposite: they
+  carry the old niche's response into the new one (tax 0.2–0.3) and unlearn slowly.
+  An integral-feedback path (accumulate prediction error; subtract its integral from
+  drive) adapts without touching the learned weights — the architectural piece our
+  actor lacks and V1f–V1i surprise-gating only approximates (gain modulates, never
+  subtracts). Unbuilt mechanism: error-integral brake. Specified-not-executed.
+- **arXiv:physics/0211094v2.** Full analytic condition set for perfect AND
+  near-perfect adaptation in a chemotaxis-pathway model (phosphorylation-block
+  conditions derived; each condition's sensitivity perturbed). → Two usable items:
+  (1) near-perfect adaptation is the realistic target (exact needs all conditions) —
+  our E1/D0 +0.1 band already thinks this way; (2) condition-by-condition
+  sensitivity analysis is the template for ablating any future adaptation circuit
+  (knock out one condition at a time — the ablation discipline our brake work
+  approximated with nolift/uniform/fast arms).
+- **arXiv:0812.0622v2.** Feedforward adaptation circuits: global convergence for
+  STEP signals, but PULSE memory — feedforward adapters do NOT adapt to pulses
+  (they remember them). → Direct analog of our transfer finding: a held-constant
+  new codebook eventually converges, but the old codebook's PULSES (cue encounters)
+  keep re-evoking the old response — "memory phenomenon" in circuits, "same-val
+  0.95 no erosion" in our agents. Predicts extinction needs pulse-rate-dependent
+  unlearning, not just exposure time.
+- **Fold-change detection [canon: Shoval, Lazova & Alon 2010; arXiv:1212.5712v4
+  (FCD via protein–protein interactions, NO energy cost, fast/precise);
+  arXiv:1012.2782v1 (symmetry-invariance theory: transients invariant under input
+  scaling)].** Relative-change sensing is cheap (no transcription, no energy) and
+  scale-invariant. → Our V4 gate compares ABSOLUTE energy to an ABSOLUTE bar; FCD
+  says the natural gate is relative (energy fold-change). A fold-change departure
+  gate is the V5 if V4's absolute gate fails — and 1212.5712v4's no-energy-cost
+  construction answers the billing objection in advance (relative sensing need not
+  cost more ops than absolute comparison).
+- **arXiv:1410.8087v1.** Reverse-engineering the environment FROM the sensor:
+  dose-response curves plus Weber-Fechner/FCD generalizations predict the chemical-
+  gradient statistics E. coli actually encounters. → The reverse of our niche
+  fingerprint (weights identify the niche, 1-NN 1.000): a sensor adapted to a niche
+  inverts to reveal the niche. Cite when the fingerprint is challenged.
+- **arXiv:2312.16875v2.** Cellular forgetting/desensitisation review: overload (too
+  frequent/large/complex) leads to DECOUPLING, receptor internalization — "cells
+  refuse to learn more"; includes non-neuronal Hebbian (conformational, miRNA,
+  chromatin memory). → Mechanistic twin of our RIGID class (saturated substrate,
+  4x-means plateau) and of the 47/48 stampede (overload → indiscriminate adoption).
+  Also hands us the cellular-Hebbian reading of slow weights (conformational memory
+  is approximately slow taste-direction). Classification support; no instrument.
+- **arXiv:1910.03208v3 + arXiv:2101.11885v3.** Absolute concentration robustness
+  controllers (control mean AND variance, stochastic-correct) plus graphical/causal
+  tests for perfect adaptation from equilibrium data. → (1) ACR is the control
+  theory behind "hold the bar exactly" (matingEnergyBar as a robust setpoint —
+  currently a hard gate, could be a regulated variable); (2) the graphical test is
+  a METHOD for detecting adaptation in logged data — applicable analytic-only to
+  existing banks (detect perfect-adaptation signatures in per-tick energy traces,
+  zero new worlds).
+
+## Round 85 — variation that won't die: lek, personalities, diminishing returns (2026-11-02)
+
+Motivation: three program facts need a theory home — (a) V1b's thin mutant edge
+(3 vs 2, one-birth margin) that V1c erased; (b) per-seed spreads that never collapse
+(retained distinct skills); (c) saturation curves everywhere (4x-means plateau).
+This round collects the literatures where variation PERSISTS under selection.
+
+- **Lek paradox + genic capture [canon: Kirkpatrick & Ryan 1991; Rowe & Houle 1996;
+  Tomkins; Radwan; journal-bound, verification deferred; arXiv "lek paradox" and
+  "greenbeard" exact = zero hits — searched-not-found].** Strong choice should eat
+  the variance it feeds on; genic capture (condition-dependence, whole-genome
+  mutational target) resolves it. → Our V1b-to-V1c pattern (edge appears, edge
+  vanishes) is the lek paradox in miniature: IF mutant superiority were real genetic
+  variance, mating choice should fix it, not erase it — erasure says the V1b edge
+  was sampling noise on a flat landscape, exactly the paradox's null. Genic capture
+  adds the positive program: make fitness condition-dependent (condition = energy
+  state) so variance has somewhere to live — which the matingEnergyBar plus enriched
+  arms already do structurally. Interpretive closure; no new instrument.
+- **Behavioral syndromes / animal personalities [canon: Sih et al. 2004; Reale et
+  al. 2007; Wolf & Weissing (state–behavior feedbacks maintain personalities);
+  journal-bound, verification deferred; arXiv exact-phrase = zero hits].**
+  Consistent individual differences persist via state–behavior feedbacks (boldness
+  feeds back through size to boldness). → Our "retained distinct skills"
+  (per-history policies that stay distinct under transfer, niche-ID 1.000) ARE
+  personalities in the ethological sense, and Wolf–Weissing feedbacks are the
+  maintenance mechanism our H2/state lines gesture at: state (reserves) versus
+  behavior (cruise/pause/turn) loops that amplify initial differences instead of
+  erasing them. Reframes retention from "where are skills stored" to "which
+  feedbacks keep histories apart."
+- **arXiv:2607.16542v1.** From optimal policies to individual differences:
+  rethinking RL for biology — RL reports the best individual or the mean; biology
+  IS the distribution; paths to biologically-plausible behavioral diversity. →
+  The exact methodological license for our per-seed reporting (spreads, pair
+  floors, flipped splits): the field's best-practice critique says means hide the
+  phenomenon. Cite defensively whenever a mean-only reading is proposed; our
+  reporting already complies with what the paper demands.
+- **arXiv:1806.01778v3.** Individual differences STABLE under 3960-trial extended
+  Pavlovian conditioning (oscillatory post-acquisition model; first peak/trough
+  detected). → Existence proof that long training does not erase individual
+  differences — differences ride THROUGH extended conditioning. Direct support for
+  the retention program's premise (skills survive functional pressure), plus a curve-
+  shape caution (post-peak damped oscillation, not monotone saturation — our
+  saturation plateaus may be under-sampled oscillation troughs; analytic-only
+  re-read of existing curves, zero new worlds).
+- **arXiv:1807.09131v1.** Intralocus sexual conflict plus GxE can WEAKEN or REVERSE
+  female preference (even preference for LOW-condition males). → Preference
+  reversal under conflict is adaptive, not error — read against our inversion saga
+  (BH sign, ben-to-harm versus harm-to-ben asymmetry): when the selecting
+  environment flips (new codebook), the learned preference SHOULD reverse, and
+  failure to reverse (harm-to-ben stall near 0.67) is the conflict signature. Gives
+  the asymmetry a name: transfer into conflict, not transfer into noise.
+- **arXiv:2102.11667v1.** Sexual selection via NKCS coevolution models; includes a
+  rudimentary Baldwin-effect smoothing mechanism. → Double link: (1) mate choice as
+  compensation for coevolutionary dynamics (choice stabilizes, not just selects —
+  our mating arms add choice to a foraging ecology; expect stabilization signatures
+  in variance, not just mean shifts); (2) an explicit Baldwin-smoothing in a
+  published model — cite for the BALDWIN closed line (learning smooths the landscape
+  selection sees; our V1a–V1d ended in proof, this ends in mechanism).
+- **Selectable mutation rates + diminishing returns [arXiv:1501.03632v2 (nonmutator
+  fixation in mutator populations; selection acts on mutation rates themselves) +
+  arXiv:1505.01751v4 (individual-based Lenski model: sublinear fitness from
+  fixed-effect mutations plus interday epistasis) + arXiv:1402.3065v2 (Rough Mount
+  Fuji tunable ruggedness)].** → Three analytic lenses for existing data, zero new
+  worlds: (1) our transmissionNoise is a FIXED knob, but selection on mutation rates
+  is real — an evolvable-noise arm (noise scaled by parental success) is
+  specified-not-executed; (2) Lenski deceleration is the canonical diminishing-
+  returns curve — fit our 4x saturation means against sublinear (power-law) form
+  analytic-only; (3) RMF tunable ruggedness is the landscape model our QD Hamming
+  map approximated empirically — compare observed local-maxima density against RMF
+  predictions analytic-only.
+- **arXiv:2504.08000v1.** Neuron-level stability–plasticity (NBSP): identify
+  task-critical "skill neurons," protect them with gradient control; network-level
+  balancing is too coarse. → The mechanism our retention study never tested: SLOW
+  weights are skill neurons and NOTHING protects them (uniform plasticity).
+  NBSP-style protection (freeze-by-importance) is the unbuilt retention instrument —
+  and its predicted signature (protected skills plus plastic margins) matches our R1
+  SUPPORT-H1-motor (motor anchor retained, rest plastic). Specified-not-executed;
+  needs frozen plan.
+- **arXiv:2005.13237v1.** Insect-swarm pair formation from adaptive long-range
+  (acoustic-gravity plus fold-change adaptivity) interactions — pairs as BYPRODUCT,
+  no pair-specific behavior introduced. → The byproduct hypothesis for our encounter
+  results: V1's hub pairs (and V1c's duo excess) may be byproducts of shared taxis
+  plus food geometry, not mating-specific attraction — consistent with "topology
+  insufficient" and with the pooled-births view. Strengthens the Emlen–Oring split
+  requirement: only a cue adding pairs BEYOND the taxis-byproduct baseline counts.
+- **Greenbeard + parent–offspring conflict, searched-not-found with canon pointers.**
+  arXiv "greenbeard" = 0 hits; canon: Hamilton 1964, Gardner & West (formalism),
+  Keller & Ross (fire-ant Gp-9), Smukalla et al. (yeast FLO1 adhesion). →
+  Recognition-without-genealogy is the unbuilt alternative to our lineage-founder
+  post-hoc resolution (tags, not trees). arXiv:1205.0931v1 (feral-dog
+  parent–offspring conflict bioassay: conflict rises over weeks, independent of
+  hunger/litter — STRUCTURAL) supports our decoupled-mating design reading:
+  conflict/cooperation structure is architectural, not motivational.
