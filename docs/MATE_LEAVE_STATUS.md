@@ -11,5 +11,20 @@
   MEASUREMENT_V1.md`) + MVT/GUD/selfish-herd triple witness; first test of
   the leaving margin (sensing/suppression/steering/interaction/gating closed).
 - Implement: separate turn under the plan (engine knob + instrument +
-  12–13 fixtures + triage + fresh-01 bank 439001–439054); single attempt
+  12–13 fixtures + triage + fresh-01 bank 439001-439054); single attempt
   next. Cumulative unchanged (7893, design only, zero worlds).
+
+## V1 (GO 2026-11-02)
+
+- Attempt-01 (single, authorized): 18 mains / 0 probes / 3.48e9 ops,
+  clean pass (ledger exact, `redone: []`, G1+G2 true).
+- Verdict: **MATE-LEAVE-GO-V1** (hubLeave gen-2 7 vs hub 4 — cancellation
+  lifts compounding; births identical 31v31, gen-1 lower 22v27, gen-2
+  higher: 32% vs 15% conversion — spacing relieves the crowding tax on
+  birth→gen-2 survival; timing identical per-seed sixth bank running; no
+  energy rescue).
+- Concentration disclosed (V1b lesson): 4/7 gen-2 on seed 439001; bar met
+  on totals so GO stands as scored, no replication claim licensed.
+- First mechanism GO in the encounter→birth→survival chain; line CLOSED.
+- Results: `docs/MATE_LEAVE_RESULTS_V1.md`. Cumulative program spend:
+  7911.
