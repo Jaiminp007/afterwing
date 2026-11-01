@@ -4538,6 +4538,12 @@ WHICH examples get transmitted (teaching) and WHAT bottlenecks do to signals
   (exact-copy transplants) — predicting NO structure gain (same-val 0.95 no
   erosion, exactly observed). The testable flip: LOSSY bottlenecks should
   regularize (R92's lossy-tutoring prediction, second witness).
+  [Amendment 2026-11-02: arXiv:2404.04286 (counterpart result — iterated learning AMPLIFIES
+  bias; errors compound across generations) bounds the claim: bottlenecks structure AND
+  distort. V1j's lossy arm therefore tests structure-vs-amplification jointly — lift with
+  preserved same-val = structuring; lift with collapsed same-val = bias amplification.
+  The GO bar's fidelity floor (>= 0.5) is the pre-registered separator. Via literature-map
+  anti-duplication audit (R13-adjacent NIL entry).]
   2503.21676v2's plateau→circuit→recall phases mirror our 4x-means
   (0.59→0.71→0.81→0.82: gains then stall) — plateaus precede circuit
   formation, not capacity ceilings; distinguishing needs the reopening
@@ -4701,3 +4707,251 @@ bodies stay gated. This round stages the mechanisms waiting at the gate.
   decision-making (pointer, already mapped); active matter (pointer, already
   mapped). M4 stays gated: none licensed until the transfer tax has a
   mechanism, not just an attribution.
+
+## Round 106 — spatial ecology II: SLOSS, corridors, sources, sinks, traps (for the encounter line reread; 2026-11-02)
+
+Motivation: R49 mapped islands, neutral theory, and engineers — but the
+encounter line (hub vs spread vs duo) unknowingly ran the SLOSS experiment
+(single large vs several small), built corridors (duo), and managed a
+metapopulation without source-sink diagnosis. This round names what was run.
+
+- **SLOSS, literally [canon: Simberloff & Abele (SLOSS debate); Diamond
+  (assembly rules); journal-bound, verification deferred; arXiv = noise].**
+  → Our encounter topologies ARE the SLOSS treatments: hub (single large),
+  spread (several small), duo (few large + matrix). The V1c verdict (duo
+  wins everything: 10 vs 2/2) reads as a SLOSS result (few-large beats
+  single-large and several-small under clumped food) — but SLOSS theory says
+  the answer depends on the currency (species richness vs single-species
+  compounding): we measured compounding, not richness, so the debate's
+  resolution does not transfer cleanly. Specified: re-score frozen rows for
+  richness-like metrics (distinct lineages mating, analytic-only) before
+  citing SLOSS either way.
+- **Corridors [canon: Haddad (corridor experiments); Beier & Noss;
+  journal-bound, verification deferred; arXiv = noise].** → Duo's two
+  centers function as connected patches — a corridor design. The corridor
+  literature predicts connectivity raises colonization WITHOUT raising
+  per-patch productivity — matching V1c exactly (duo births 49 vs 29/35,
+  energies best-in-class −20.5: more movement, better condition). The duo
+  arm may be a movement effect misread as a topology effect; the
+  discrimination (track inter-center movement, analytic-only on positions
+  — blocked, no per-tick positions logged; specified for future instruments).
+- **Source-sink diagnosis, analytic-ready [arXiv:1210.4641v1 + arXiv:1111.2535v1
+  (source-sink metapopulations as graphs; past/growth/persistence) +
+  arXiv:1011.1109v1 (dispersal ASYMMETRY effects) + arXiv:1305.2769v2
+  (dispersal vs stability) + arXiv:1709.07515v1 (collective dispersal,
+  eco-evolutionary) + arXiv:2405.04505v1 (density-dependent metapopulation)
+  + arXiv:2412.18448v2 (finite-size survival scaling)].** → Pulliam's test,
+  computable NOW on frozen rows (zero new worlds): per-capita births minus
+  per-capita deaths by topology — sources (positive) vs sinks (negative,
+  sustained by immigration). Pre-registered reading: hubs are SUSPECTED
+  sinks (high births 35–39/row, higher deaths, poorest energies) propped by
+  within-hub movement; spread are suspected sources. If confirmed, the
+  despotic story sharpens (sinks attract: see next bullet).
+- **Attractive sinks = our hub, formalized [canon: Battin (ecological traps);
+  Kokko & Sutherland (attractive sinks); Robertson & Hutto (review);
+  journal-bound, verification deferred; arXiv = zero].** → V3 called the hub
+  a "trap" informally; trap theory makes it quantitative (preference decoupled
+  from fitness: cues say food, outcomes say starvation). Our agents cannot
+  evolve avoidance within a run (no selection across runs on preference) —
+  which is WHY the trap persists across all five banks. The unbuilt
+  instrument: multi-RUN selection on taxis strength (does the trap dissolve
+  when avoidance can evolve?). Specified-not-executed (needs frozen plan;
+  this is the long-arc version of ML1).
+- **Rescue effects [canon: Brown & Kodric-Brown (rescue effect);
+  journal-bound, verification deferred; arXiv = zero].** → Transplants
+  (turn-gate) and maternal carryover (mating) ARE demographic/genetic rescue:
+  small/declining populations revived by immigrants. V1d-seg2's second
+  transplant is literally a rescue treatment. Reframe the transplant lines
+  as rescue experiments: effect size = rescue magnitude. No new instrument;
+  a lens for existing verdicts.
+- **Hypervolume + rules + succession [canon: Hutchinson (n-dimensional
+  hypervolume — the niche FUNDAMENTAL, not the fingerprint proxy);
+  Foster (island rule), Bergmann/Allen (eco-geographic rules — different
+  planets, different rules; Vision-expansion relevance); Tilman/Hastings
+  (competition–colonization tradeoff — hub = competitors, spread =
+  colonizers?!); Clements/Gleason (succession — 1792-tick runs as
+  succession: pioneer → climax? endpoints as climax states); journal-bound,
+  verification deferred; arXiv:2212.06308v1 (dynamic area-of-distribution
+  theory — movement × tolerance × ...), math/0306113v1 (succession phase
+  transitions, interacting particles)].** → Three ports: (1) Hutchinson
+  FORMALIZES the fingerprint (weights → hypervolume, not just 1-NN labels);
+  (2) competition–colonization rereads hub (win locally) vs spread (find
+  globally) as the tradeoff axes — untested, needs movement data (blocked,
+  same logging gap as corridors); (3) Tilman + succession jointly predict
+  that LONGER runs change the winner (climax favors competitors) — our
+  fixed 1792 horizon may truncate succession; horizon-extension is
+  specified-not-executed (R64-adjacent exposure question, new rationale).
+
+## Round 107 — selection regimes & load (for bars, banks, mutation; 2026-11-02)
+
+Motivation: our verdict bars are HARD thresholds (gen-2 ≥ 2), our gating is
+SOFT (continuous modulation), our banks accumulate no load by design
+(noise null), and our op ledger prices selection without naming its regime.
+Population genetics named all four situations; this round ports them.
+
+- **Hard vs soft [canon: Wallace (hard vs soft selection); Christiansen
+  (density/frequency dependence); journal-bound, verification deferred;
+  arXiv "soft/hard selection" = ML model-selection polysemy —
+  searched-not-found].** → Name the instruments: mating bar = HARD selection
+  (absolute threshold, density-independent); surprise-gain and turn-gating =
+  SOFT (relative, competitive). The distinction predicts their failure
+  modes: hard bars go void under scarcity (INFORMED void, DENSE null —
+  observed); soft modulators saturate under abundance (V1f–V1i plateau —
+  observed). Verdict design should match regime to question (hard bars for
+  establishment, soft bands for tuning) — currently done by instinct;
+  now by name.
+- **Levene niches [canon: Levene (multiple-niche polymorphism); Dempster;
+  journal-bound, verification deferred; arXiv = Levene's-test polysemy —
+  searched-not-found].** → Our fresh banks ARE Levene niches (spatial
+  variation maintaining polymorphism across the program, if not within a
+  run). The Levene conditions (soft selection + dispersal among niches)
+  map to: soft gating (have it) + transplant/carryover between banks
+  (have it, V1d–V1i). Prediction: polymorphism persists ACROSS banks
+  while eroding WITHIN — testable analytic-only (variance within vs
+  between banks on frozen rows), zero new worlds.
+- **Load theory for load-then-recombine [canon: Bateman–Mukai (MA lines);
+  Haldane (cost of selection / substitution load); journal-bound,
+  verification deferred; arXiv:0709.2646v1 (Markov waiting-time models for
+  accumulating mutations — the load clock!); q-bio/0609046v3 (pointer,
+  R86); drift-barrier/Ohta/Eigen pointers (R49–50)].** → The MLR1 follow-up
+  needs MA-line theory: how much load accumulates per generation at given
+  noise, and how many generations to a detectable purge signal. 0709.2646v1
+  is the waiting-time formalism; Haldane's cost prices the selection the
+  ledger bills. Specified: calibrate the load phase analytically (zero
+  worlds) before freezing any load-then-recombine plan — no bank until the
+  clock says the load is detectable.
+- **Error threshold, restated [canon: Eigen (error threshold); hypercycle
+  (pointer, R50)].** → Transmission noise 0.05 sits somewhere below the
+  threshold (policies survive); the threshold ITSELF is unmapped (at what
+  noise does inheritance collapse?). A noise-dose instrument would map it —
+  specified-not-executed (needs frozen plan; the dose ladder ML2 used for
+  k_L is the template).
+
+## Round 108 — behavior II: variance, norms, monitoring, novelty (for spreads & SOCIAL; 2026-11-02)
+
+Motivation: R85 mapped personalities; the program's actual variance
+(per-seed spreads that never collapse) still lacks analytic treatment, and
+R82's conditional copying lacks its prerequisite (uncertainty monitoring).
+This round collects the individual-differences and social-cognition tools.
+
+- **Variance has structure [canon: Stamps (predictability as a trait;
+  intra-individual variability = IIV); Dingemanse (behavioral reaction
+  norms — individual × environment slopes); Koolhaas (coping styles:
+  proactive vs reactive); journal-bound, verification deferred; arXiv =
+  STARFLAG/collective noise — searched-not-found].** → Three analytic-only
+  lenses for frozen transfer/mating rows, zero new worlds: (1) partition
+  spread variance into among- vs within-history (IIV) — is "retained
+  distinct skills" among-history signal or within-history noise?
+  (2) per-history slopes across codebooks = behavioral reaction norms —
+  do histories differ in INTERCEPT (skill) or SLOPE (plasticity)?
+  (3) Koolhaas coping: proactive leavers (ML1 hubLeave-like: leave when
+  poor) vs reactive stayers — classify frozen agents by leave-behavior,
+  test whether style predicts transfer. All specified, none executed.
+- **Monitoring precedes conditional copying [canon: Hampton (uncertainty
+  monitoring/metacognition); Smith (uncertainty responses); journal-bound,
+  verification deferred; arXiv = zero].** → R82's SOCIAL-V2 (copy when
+  uncertain) silently requires METACOGNITION — the agent must estimate its
+  own uncertainty. Our agents have no uncertainty readout (no confidence
+  channel, no variance estimate). The honest dependency: conditional social
+  learning is unbuildable until an uncertainty signal exists — which
+  specifies the prerequisite instrument (confidence readout, e.g. value
+  spread or contact-rate proxy), not the copying rule. Specified-not-executed.
+- **Novelty: the RSI ingredient [canon: Reader & Laland (animal innovation);
+  Goodall/Beck (tool use); Blaisdell (causal vs associative); Rogers
+  (social-learning paradox — copying can LOWER population fitness!);
+  journal-bound, verification deferred; arXiv = zero].** → (1) Innovation
+  is what RSI needs and no line measures (all improvement is parametric) —
+  the novelty metric is the missing dependent variable (new behaviors,
+  not better curves; specified-not-executed). (2) Rogers' paradox reframes
+  SOCIAL V1 exactly: unconditional copying need not help populations —
+  the null is predicted, second witness after R82. (3) Tool use (Goodall)
+  = extended phenotype with a learning loop (R100-adjacent) — unbuilt.
+  (4) Causal cognition (Blaisdell) bounds our agents as associative
+  (R21–25 canon) — causal unbuilt, documented.
+
+## Round 109 — development & eco-evo II (for bodies & timescales; 2026-11-02)
+
+Motivation: R50 fenced evo-devo constraints; the developmental and
+eco-evolutionary literatures proper still hold the program's two timescale
+questions (bodies; simultaneous eco+evo) plus the lab-adaptation confound.
+
+- **Transfer as exaptation [canon: Shubin (deep homology; fin-to-limb);
+  journal-bound, verification deferred; arXiv = zero].** → Deep homology
+  says: same genes, new uses. Our transfer IS exaptation (food-turn circuit
+  reused for mate approach, R81's trap) — Shubin gives the pattern a name
+  and a prediction (exapted structures carry historical constraint:
+  mate-taxis should show food-gradient quirks — checkable analytic-only
+  in steering data, zero new worlds).
+- **Developmental systems, briefly [canon: Oyama (DST — parity thesis:
+  genes no privilege over other developmental resources); journal-bound,
+  verification deferred; arXiv = zero].** → The parity thesis supports the
+  R83/R100 transmission program philosophically (maternal copy is one
+  resource among many) but adds no instrument. Logged for the thesis, not
+  the bench.
+- **Eco-evo is the program [arXiv:1806.07633v1 (eco-evolutionary feedbacks
+  review: models + perspectives, notes missing crosstalk) + arXiv:1912.09505v1
+  (animal BEHAVIOR facilitates eco-evo dynamics — behavior as the
+  mechanism!) + arXiv:2008.07671v1 (environmental-feedback game dynamics) +
+  arXiv:1902.03016v2 (spatial eco-evo feedbacks mediate coexistence) +
+  arXiv:2501.07379v3 (trait-structured predator-prey eco-evo, incl. cancer)
+  + arXiv:2511.23209v1 (stochastic fluctuations in eco-evo games)].** →
+  Our ticks run ecology AND evolution simultaneously — the program IS an
+  eco-evolutionary system that never cites the field. 1912.09505v1 is the
+  keystone (behavior as eco-evo mechanism — our policies are the feedback
+  channel). 1902.03016v2 (spatial feedbacks → coexistence) rereads
+  hub/spread as eco-evo treatments. The field's complaint (missing
+  crosstalk, 1806.07633v1) is our opportunity: banked, instrumented
+  eco-evo with both timescales logged.
+- **Domestication as confound [canon: Larson (domestication genomics);
+  Diamond (guns/germs/steel proximate review); Johnson & Munshi-South
+  (urban evolution — contemporary, fast, in novel habitats); journal-bound,
+  verification deferred; arXiv = urban-planning noise — searched-not-found].**
+  → The bank-dependence finding (elevated baselines) may BE domestication:
+  lines selected, inadvertently, for lab/bank conditions (frozen inference,
+  fixed densities, 1792-tick horizons). Testable analytic-only: wild-vs-lab
+  divergence needs a wild reference (absent) — so the weaker specified test
+  is bank-age effects (do later banks behave more "lab-like"? trend on
+  frozen endpoints, zero new worlds). Urban evolution (Johnson) is the
+  natural-population twin: our banks as urban islands, rapid adaptation to
+  novel regimes in tens of generations — exactly our timescale.
+
+## Round 110 — energy, stoichiometry, planetary regulation (for the ledger; 2026-11-02)
+
+Motivation: R78 priced the ledger (Landauer); R93 scaled it (Kleiber);
+the ecological-energetics canon still holds the flow language (Lindeman),
+the ratio language (Redfield/Sterner/Elser), and the regulation-without-
+design language (Daisyworld) — plus the eco-geographic rules Vision's
+"other planets" will need.
+
+- **Ledger as Lindeman flow [canon: Lindeman (trophic-dynamic aspect;
+  energy flow through levels, 10% law); journal-bound (1942 Ecology),
+  verification deferred; arXiv = zero].** → Restate the op ledger in
+  Lindeman units: founders (producers of work?) → learners (consumers) →
+  dissipated heat. The 10% law asks the efficiency question our pricing
+  assumes away (what fraction of billed ops becomes behavior?). Unbuilt
+  measurement (work-to-behavior efficiency audit), specified-not-executed.
+- **Ratios, not amounts [canon: Redfield (C:N:P constancy); Sterner & Elser
+  (ecological stoichiometry — imbalance constrains growth); journal-bound,
+  verification deferred; arXiv = biochemical-network noise —
+  searched-not-found].** → Our nutrient knob sets AMOUNTS (0.4 vs 5.0);
+  stoichiometry says RATIOS constrain (C:N:P imbalance limits compounding
+  regardless of total food). The hub starvation signature could be
+  stoichiometric (wrong ratio), not quantitative (too little) — a
+  reformulation needing a two-nutrient instrument (unbuilt; needs frozen
+  plan). Noted as the leading alternative reading of the despotic deficit.
+- **Regulation without a regulator [canon: Watson & Lovelock (Daisyworld —
+  thermostat from coupled growth, no setpoint); journal-bound, verification
+  deferred; arXiv:2410.00043v2 (rate-induced biosphere collapse IN A
+  DAISYWORLD MODEL — the stability boundary, quantified!)].** → The mating
+  bar IS daisyworld-like (population-level setpoint from individual rules,
+  no controller) — and 2410.00043v2 supplies what our bar lacks: the
+  collapse boundary under RATE forcing (how fast can conditions change
+  before regulation breaks?). Our instant bank switches are rate shocks;
+  graded forcing is the unbuilt experiment. Specified-not-executed.
+- **Eco-geographic rules for other planets [canon: Bergmann/Allen/Foster
+  (body-size rules vs temperature/islands); journal-bound, verification
+  deferred; arXiv = zero].** → Vision's expansion needs these the way M4
+  needs allometry: different planets, different optima (size, limbs,
+  sensing ranges shift with gravity/temperature/density). Logged as the
+  M4-gating companion to R93's scaling: no body is optimal, only optimal-
+  for-a-world. No instrument (gated behind M4 like everything bodily).
