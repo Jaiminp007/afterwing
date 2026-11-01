@@ -3283,3 +3283,34 @@ destroys it. Both halves reframe V3.
   (1907.00360v2, 1802.07480v1), micellization experiments (2305.16659v3), inertial
   wetting (2406.01038v1) are mechanism-mismatched (chirality/shape/hydrodynamics
   absent from our substrate); logged, not pursued.
+
+## Round 77 — taxis without brains, learned or otherwise (for V2/V3's hardwiring; 2026-11-02)
+
+Motivation: ATTRACT hardwired taxis because learning never discovered it (V1/V1b).
+The outside literature asks both halves: when does learning discover taxis, and what
+can brainless substrates do without any learning at all?
+
+- **Run-and-tumble chemotaxis family (arXiv:2507.23519v1 learning to tune switching;
+  1709.04375v1 tumbling-frequency/persistence optima; 1908.05050v1 migration +
+  accumulation with chemokinesis; 1103.5355v2 memory drift-vs-diffusion;
+  2311.02735v4 entropy production; 1801.03721v3 path-integral E. coli).** The minimal
+  taxis decomposes into exactly two knobs — run persistence and tumble rate — and
+  2507.23519v1 shows ML agents CAN learn to tune switching probability from scratch.
+  → Our agents' failure to learn mate-approach is therefore NOT a general
+  learnability fact (bacteria-scale learners discover it); it is specific to our
+  substrate (decoupled mating bypasses the action channel, so there is no gradient
+  to discover — the structural finding, independently derived here). The two-knob
+  decomposition also offers a finer instrument than our monolithic k: persistence
+  vs tumble-rate knobs separately (specified-not-executed; needs its own frozen plan).
+- **Physarum decision-making (arXiv:1905.06534v1 motivational-state tuning +
+  self-trail use; 2506.12803v2 mechanical decision processes; 0901.4466v1 sailing;
+  0912.3967v1 motorway routing; 2506.20572v2 network design).** Brainless plasmodia
+  tune foraging to motivational state AND exploit their own chemical trails
+  (stigmergy + state-dependence with zero neurons). → Two gaps in one entry: our
+  agents lack (a) motivational gating of movement (energy only gates mating, not
+  steering — the R75 departure-gating gap restated in a brainless system that HAS it),
+  and (b) any trail/stigmergic channel (our scent channel exists but is unused for
+  navigation — the R63 detection-sharing gap, independently confirmed as the missing
+  piece). Physarum proves both are implementable without cognition.
+- **Scope-note.** Path-integral (1801.03721v3) and entropy-production (2311.02735v4)
+  formalisms are methods-adjacent, not actionable; logged, not pursued.
