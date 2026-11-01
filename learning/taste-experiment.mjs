@@ -65,8 +65,29 @@ export function syncNewbornLearners(run){
     s.lastObservedTick=run.world.tick;
     if(s.credit)s.credit.tick=s.lastObservedTick;
     if(Array.isArray(f.parents))for(const pid of f.parents){if(Number.isInteger(pid)){run.founderOffspring[pid]=(run.founderOffspring[pid]||0)+1;s.work.scalarOperations+=1;}}
-    if(run.verticalTransmission==='maternal'||run.verticalTransmission==='copybest'){let src=null;
-    if(run.verticalTransmission==='maternal')src=run.learners[f.parents[0]];else src=bestFounderLearner(run);
+    if(run.verticalTransmission==='maternal'||run.verticalTransmission==='copybest'||run.verticalTransmission==='biparental'){let src=null;
+    if(run.verticalTransmission==='maternal')src=run.learners[f.parents[0]];
+    else if(run.verticalTransmission==='copybest')src=bestFounderLearner(run);
+    else{src=null;
+      // MLR1: uniform per-element crossover (p=0.5, single per-newborn RNG stream).
+      // Fallback chain: parents[1] unusable -> maternal (parents[0]); neither -> as-created.
+      const p0=run.learners[f.parents[0]],p1=run.learners[f.parents[1]];
+      const okW=w=>w&&w.weights&&Array.isArray(w.weights.taste);
+      if(okW(p0)&&okW(p1)){
+        const mrng=new RNG((hseed^Math.imul(f.id,2654435761))>>>0||1);let n=0;
+        for(const k of ['taste','actor','critic']){
+          const a=p0.weights[k],b=p1.weights[k],w=s.weights[k];
+          if(!Array.isArray(a)||!Array.isArray(b)||!Array.isArray(w)||a.length!==w.length||b.length!==w.length){
+            if(Array.isArray(a)&&a.length===w.length){for(let i=0;i<w.length;i++)w[i]=a[i];}
+            continue;
+          }
+          for(let i=0;i<w.length;i++){w[i]=mrng.next()<.5?a[i]:b[i];n++;}
+        }
+        s.work.scalarOperations+=n;
+        if(tNoise!==null&&tNoise>0){let m=0;for(const k of ['taste','actor','critic']){const w=s.weights[k];if(!Array.isArray(w))continue;for(let i=0;i<w.length;i++){w[i]+=tNoise*mrng.normal();m++;}}s.work.scalarOperations+=m;}
+        run.learners[f.id]=s;created++;continue;
+      }else if(okW(p0))src=p0;
+    }
     if(src&&src.weights&&Array.isArray(src.weights.taste)){s.weights.taste=src.weights.taste.slice();if(Array.isArray(src.weights.actor))s.weights.actor=src.weights.actor.slice();if(Array.isArray(src.weights.critic))s.weights.critic=src.weights.critic.slice();
       if(tNoise!==null&&tNoise>0){const mrng=new RNG((hseed^Math.imul(f.id,2654435761))>>>0||1);let n=0;for(const k of ['taste','actor','critic']){const w=s.weights[k];if(!Array.isArray(w))continue;for(let i=0;i<w.length;i++){w[i]+=tNoise*mrng.normal();n++;}}s.work.scalarOperations+=n;}}}
     run.learners[f.id]=s;created++;
@@ -81,7 +102,7 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
 
 export class TasteExperiment{
   constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null,resourceTopology=null,mateSenseMultiplier=null,matingRangeMultiplier=null,mateAttractBias=null,mateAttractEnergyGate=null,mateLeaveBias=null,mateLeaveGate=null}) {
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
