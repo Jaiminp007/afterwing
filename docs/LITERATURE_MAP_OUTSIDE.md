@@ -11059,3 +11059,71 @@ program with no gods, only gates.
   conjunction experienced as one verdict, not inferred).
   Varieties registered, none privileged (GO and NOGO are
   equally religious experiences here — both frozen, both kept).
+## Round 222 — You are what you eat (Brillat-Savarin, Pollan, Mintz, Fisher; 2026-11-02)
+
+Motivation: the substrate is called taste-energy, food is a
+number (0.4/5.0), and founders ARE their niche (1-NN niche-ID
+1.000). Four canons on eating — applied where eating is
+everything (survival) and nothing (no culture).
+
+- **Tell me what you eat [canon: Brillat-Savarin (Physiology
+  of Taste; "tell me what you eat, I'll tell you what you
+  are"); verification deferred].** → The niche fingerprint
+  IS the aphorism formalized (weights ARE niche models:
+  1-NN niche-ID 1.000 — read the weights, know the patch).
+  Brillat-Savarin's gourmandise (taste as judgment, eater
+  as self-making) inverted twice (no judgment (greedy 0.5,
+  no palate); no self (zeroed newborns, no one to become)).
+  Tell me what you eat (pellets at 0.4 or 5.0, no choice)
+  and I'll tell you what you are (a row in a table, energy
+  −20 to −60, births 0–13). The aphorism holds; the
+  gourmand doesn't exist.
+- **Against nutritionism [canon: Pollan (nutritionism;
+  omnivore's dilemma); verification deferred].** → Our food
+  IS pure nutritionism (food reduced to one number (nutrient
+  0.4 vs 5.0 — no meals, no cuisines, no commensality; the
+  nutrientOverride that Pollan attacks, institutionalized as
+  the only food there is). Pollan's critique (nutrition
+  science confuses nutrients with food; eaters need culture,
+  not numbers) lands nowhere here (no eaters (no culture
+  possible (R188-Gesellschaft without Gemeinschaft));
+  no confusion possible (nothing BUT numbers exists —
+  nutritionism without remainder, because nothing was
+  removed (there was never anything else))). The omnivore's
+  dilemma (too many choices, no traditions) inverted (no
+  choices (one pellet type per phase), no traditions
+  (zeroed newborns) — the dilemma solved by abolishing
+  both horns).
+- **Sweetness and power, without the power [canon: Mintz
+  (Sweetness and Power: sugar, slavery, modernity; specified
+  Sidney (plantation shares Tsing R196 FPs — his plantations
+  are historical, hers analytic)); verification deferred].**
+  → Enriched arms (5.0) as sugar plantations (abundance
+  produced somewhere (topology files), consumed compulsively
+  (forage always), structuring everything (birthy vs sterile
+  turns on the number)). Mintz's triangle (production
+  (colonies) → consumption (metropoles) → capital (London))
+  with two corners missing (no producers (food spawns,
+  unmade); no capitalists (no one appropriates (R187-Marx:
+  one-member class structure))). Sweetness without power
+  (the sugar flows; no one rules) — plus Hirschman (R150:
+  no exit (founders can't leave the plantation (no
+  emigration — DISPERSE proved leaving kills))): unfree
+  abundance (fed at 5.0, dying on schedule, going nowhere).
+  The darkest entry in this map, stated plainly and kept
+  (it describes the substrate, not an attitude toward it).
+- **The art of eating, unpracticed [canon: M.F.K. Fisher
+  (Art of Eating: hunger as the teacher); verification
+  deferred].** → Fisher (hunger teaches; eating is the
+  autobiography). Our founders are always hungry (endpoints
+  −8 to −63, every row) and learn nothing from it (hunger
+  doesn't teach (no association formed between deficit and
+  strategy (greedy inference is memoryless about want));
+  eating writes no autobiography (rows record intake,
+  never appetite (no want anywhere — only charge levels
+  (state variables, not desires))). Hunger without instruction,
+  eating without author: Fisher's art requires an artist
+  (a self that hunger shapes); the substrate provides the
+  hunger and withholds the self (R144, restated gastronomically).
+  The most honest food writing about flies that aren't:
+  they eat, therefore nothing follows.
