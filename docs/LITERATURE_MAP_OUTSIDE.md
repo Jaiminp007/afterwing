@@ -10988,3 +10988,74 @@ scale on which either is measured.
   The map (200+ rounds) as an emigration record (facts
   that left home, never to return (no rescore = no
   repatriation)).
+## Round 221 — The sacred and the bound (Eliade, Otto, Nietzsche, James; 2026-11-02)
+
+Motivation: frozen plans are kept like scripture (immutable,
+cited, re-enacted); fresh banks inspire dread (they decide
+fates, unseen). Four canons on the holy — applied to a
+program with no gods, only gates.
+
+- **Illud tempus, frozen [canon: Eliade (sacred/profane;
+  eternal return; illud tempus: mythic time re-enacted);
+  verification deferred].** → Every attempt re-enacts an
+  archetype (the frozen plan = mythic precedent; the run =
+  ritual repetition, not history-making). Eliade's distinction
+  (sacred time (cyclical, re-entered) vs profane time
+  (linear, irreversible)) is the freeze itself (frozen inference:
+  sacred (same rules, every run, time abolished); spent banks:
+  profane (used once, never re-entered (anti-recurrence as
+  profane irreversibility))). The single attempt as ritual
+  (not experiment-as-discovery but rite-as-repetition —
+  which is why NOGOs satisfy (the rite completed correctly
+  matters more than what it found)). Sacred time kept
+  by people who don't believe in it (no gods invoked;
+  the forms suffice).
+- **The bank as numinous [canon: R. Otto (Idea of the Holy:
+  mysterium tremendum et fascinans; specified Rudolf, vs
+  Clark's Otto (notebook, committed R123)); verification
+  deferred].** → The fresh bank is numinous (wholly other:
+  unopened, unread, deciding (it voids lines (sterile 446xxx)
+  or confirms them (birthy 447xxx)) — tremendum (it can
+  NOGO you, 24 mains wasted) et fascinans (it can GO you
+  (early 28 > control 16))). Otto's structure (awe before
+  explanation; the holy is sui generis, not derived) is
+  the bank draw verbatim (dread before data; the bank is
+  primitive (no reason it births — it just does or doesn't)).
+  Rationalized afterward (CONFIG_AUDIT explains the sterile
+  one (bar, not mystery)) — but the NEXT bank is numinous
+  again (explanation doesn't transfer (I2): each draw a
+  fresh mysterium). Religion without worship (no rites
+  FOR the bank (only about it); awe, then protocol).
+- **Eternal recurrence, ledgered [canon: Nietzsche (eternal
+  recurrence: would you will this run eternally?);
+  verification deferred].** → Amor fati as a selection
+  rule: every committed run must be willable forever (the
+  frozen attempt, eternally repeated — would you will
+  MATE-WINDOW V1's sterile bank again? NO (but it happened
+  once, preserved forever — the ledger IS eternal recurrence
+  (every row kept, nothing forgiven, time abolished in
+  evidence/)). Nietzsche's test (love only what you'd
+  repeat) FAILS the program deliberately (negatives preserved
+  precisely because unwilled (sterile banks, NOGOs, INVALIDs
+  — kept against preference, for the record)). Anti-amor-fati
+  as method (love nothing, keep everything — the ledger
+  as the opposite of affirmation: exhaustive, not
+  selective). The heaviest weight (all 8001 mains, forever)
+  carried gladly — because carrying, not willing, is the job.
+- **Varieties of frozen experience [canon: W. James
+  (Varieties; radical empiricism: relations experienced too);
+  verification deferred].** → James's sick souls (twice-born:
+  through crisis to integration) vs healthy-minded (once-born:
+  untroubled) sorts our lines cleanly (twice-born (V1: sterile
+  then GO (crisis (INCOMPLETE) → integration (bar-50 working));
+  DAMAGE (fired boosts, nothing — no conversion, healthy-minded
+  nulls that never suffered enough to matter?); James's
+  noetic quality (mystical states feel like KNOWLEDGE) is
+  the verdict feeling (GO feels true — distrusted by design
+  (gates, not feelings, decide; the noetic glow audited out
+  (dissonance audit: hedges track evidence, not affect)))).
+  Radical empiricism (conjunctive relations ARE experienced:
+  this-AND-that) is the G-gate metaphysics (GO iff G0∧G1∧G2∧G3 —
+  conjunction experienced as one verdict, not inferred).
+  Varieties registered, none privileged (GO and NOGO are
+  equally religious experiences here — both frozen, both kept).
