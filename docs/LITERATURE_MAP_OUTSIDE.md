@@ -10843,3 +10843,76 @@ the doctors.
   (no outcome changes if ties appeared? — untestable
   (no-tie substrate); noted, not built (copying lines
   tried quasi-ties (maternal) and changed nothing)).
+## Round 219 — Decomposition without residue (Frisch, Koopmans, Slutsky, Hicks; 2026-11-02)
+
+Motivation: V2 totals decompose exactly (full−control = 21 =
+12 timing + 9 amount + 0 late). Four economists of splitting
+wholes into parts — applied to frozen numbers, no new worlds.
+
+- **Impulse without propagation [canon: Frisch (impulse +
+  propagation: shocks need mechanisms to persist);
+  verification deferred; arXiv = thin (Slutsky fetch
+  returned nothing — logged, not used)].** → Frisch (rocking-
+  horse: impulses (hits) + propagation (mechanism that
+  sustains them into cycles)). Our banks are impulses (fresh
+  draws hit the substrate; V2 control 16 vs V1 control 0 —
+  same design, different impulse, different outcome) with
+  NO propagation (nothing carries across banks (fresh draws);
+  nothing compounds within (sinks); shocks die where they
+  land (I2 = 0.973: bank effects don't travel)). Impulse
+  without propagation: the rocking-horse never built (no
+  mechanism sustains anything past the run). Frisch's
+  question (what turns hits into cycles?) answered negatively
+  (nothing here does — the program measures impulses,
+  never propagations).
+- **Eat everything [canon: Koopmans (optimal growth;
+  Ramsey–Koopmans–Cass; bequests); verification deferred].**
+  → Optimal growth with zero bequest motive: consume it all
+  (no reason to save for heirs who start zeroed). Corner
+  solution, always (every founder spends to ~−20 or worse;
+  no bequests (weights zeroed); no capital transmitted
+  (copying inert)). Koopmans with the bequest motive REMOVED
+  (Ramsey savers leave estates; ours leave tarballs (rows,
+  not wealth — preserved for auditors, not heirs)). The
+  program as the optimal-growth model with a zero terminal
+  condition (eat everything, die on schedule, transmit
+  nothing) — solved exactly, every run: consume 65.0 → −20.
+  Optimality without a future (the plan IS the Ramsey plan:
+  maximize within the run (turn when cued), bequeath nothing).
+- **Twenty-one equals twelve plus nine plus zero [canon:
+  Slutsky (Slutsky equation: total = substitution +
+  income); verification deferred].** → V2 frozen totals
+  decompose exactly: full − control = 37 − 16 = 21 (total);
+  early − control = 28 − 16 = 12 (timing/substitution:
+  same enrichment, moved window); full − early = 37 − 28
+  = 9 (amount/income: same window-open, more enrichment);
+  late − control = 16 − 16 = 0 (closed window contributes
+  nothing). Slutsky's decomposition (price change =
+  compensated-substitution + income) with timing as the
+  compensated move (hold enrichment constant (phase-0),
+  shift the margin (open vs closed)) and amount as the
+  income (hold timing constant (open), add enrichment
+  (all phases)). Descriptive, not causal (the gates
+  established significance; Slutsky allocates shares:
+  12/21 timing, 9/21 amount, 0/21 closed-window).
+  Published numbers, new arithmetic — no rescoring
+  (totals unchanged; shares derived).
+- **Compensation without demand [canon: Hicks (Hicksian
+  decomposition; "Hicks" shares chicks-FP, specified John);
+  verification deferred].** → Hicks splits Slutsky's way
+  (compensated demand: hold UTILITY constant, vary price).
+  No utility here (no preferences (agents don't choose);
+  no indifference curves (no trade-offs (greedy 0.5:
+  threshold, not margin))). Compensation without demand:
+  the thought experiment (what WOULD the founder do at
+  compensated... ) has no subject (founders do, don't
+  choose — behavior is mechanism (turn if cue), not
+  choice (turn if preferred)). Hicks vs Slutsky on frozen
+  rows: Slutsky works (decomposition of OBSERVED totals
+  (21 = 12 + 9)); Hicks doesn't apply (no compensation
+  variation exists (nothing held constant in utility
+  space — there is no utility space)). The decomposition
+  that fits (Slutsky, behavioral) vs the one that can't
+  (Hicks, choiceless) — filed as the boundary of
+  economic analogy (works where behavior varies;
+  stops where choice would need to exist).
