@@ -182,7 +182,18 @@ export class World {
       if(this.flies.length+children.length>=this.config.capacity){this.capacityReached=true;this.record('capacity','Resource ceiling reached. Run paused; no births silently discarded.');break;}
       const {genome,changes}=inherit(f.genome,mate.genome,this.rng,()=>this.nextNode++,this.config.mutation);
       f.energy-=24;mate.energy-=24;f.cooldown=12;mate.cooldown=12;f.offspring++;mate.offspring++;
-      const child=this.makeFly(genome,[f.id,mate.id],Math.max(f.generation,mate.generation)+1,this.rng.next()<.5?0:1,changes,(f.x+mate.x)/2,(f.y+mate.y)/2,48);children.push(child);
+      // MD1 natal dispersal: with probability d the newborn is placed uniform-random in the
+      // founder spawn box instead of at the parents' midpoint. Dedicated per-mating seeded RNG
+      // (never the world stream: main-stream bit-identical when d=0, i.e. current behavior).
+      // Unbilled per mating-block precedent (mate search, sex draw, cooldown all engine-side
+      // and unbilled); the treatment is pure geometry (teleport, no movement cost).
+      const dTop=this.config.natalDispersal??0;
+      let cx=(f.x+mate.x)/2, cy=(f.y+mate.y)/2;
+      if(dTop>0){
+        const dRng=new RNG(((this.config.seed^Math.imul(f.id,2654435761))^mate.id)>>>0||1);
+        if(dRng.next()<dTop){cx=50+dRng.next()*900;cy=50+dRng.next()*540;}
+      }
+      const child=this.makeFly(genome,[f.id,mate.id],Math.max(f.generation,mate.generation)+1,this.rng.next()<.5?0:1,changes,cx,cy,48);children.push(child);
       this.totals.births++;this.totals.structuralMutations+=changes.filter(c=>c!=='weight').length;this.record('birth',`Fly ${child.id} ← ${f.id} + ${mate.id} · lineage ${child.generation}`,{agentId:child.id,parentIds:[f.id,mate.id],generation:child.generation,mutations:changes});
     }
     this.flies.push(...children);
@@ -218,6 +229,7 @@ export function validateConfig(c){
   if(c.mateAttractEnergyGate!==undefined&&(!Number.isFinite(c.mateAttractEnergyGate)||c.mateAttractEnergyGate<0))throw Error('Invalid mate-attraction energy gate');
   if(c.mateLeaveBias!==undefined&&(!Number.isFinite(c.mateLeaveBias)||c.mateLeaveBias<0))throw Error('Invalid mate-leave bias');
   if(c.mateLeaveGate!==undefined&&(!Number.isFinite(c.mateLeaveGate)||c.mateLeaveGate<0))throw Error('Invalid mate-leave energy gate');
+  if(c.natalDispersal!==undefined&&(!Number.isFinite(c.natalDispersal)||c.natalDispersal<0||c.natalDispersal>1))throw Error('Invalid natal dispersal');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');
