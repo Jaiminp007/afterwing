@@ -7496,3 +7496,158 @@ are the opposite of frozen discipline — the tension, mapped honestly.
   loosen SOMETHING (menu? banks? objectives?) — the loosening
   agenda is specified as the Track-C design question, not answered
   here.
+
+## Round 164 — Language as action (Grice, Austin, Searle, relevance, defaults, common knowledge; 2026-11-02)
+
+Motivation: verdicts are speech acts, plans are commitments, probes cost
+effect against effort — and a broadcast would create common knowledge.
+Pragmatics, finally stocked.
+
+- **Implicature, computed + embodied [canon: Grice (maxims);
+  verification deferred + arXiv:2509.22354v1 (RSA: Bayesian
+  probabilistic pragmatics — implicature computed) + arXiv:2008.10522v2
+  (Machine Semiotics: machine meaning = its OWN scope of actions; no
+  conventional meaning needed; implicatures from neo-Gricean
+  pragmatics)].** → Verdict docs audited against maxims (quantity ✓
+  (evidence!) quality ✓ (frozen!) relation ✓ (gates!) manner ✓
+  (hedges!) — frozen discipline IS Gricean (never false, never
+  irrelevant, orderly, informative). 2008.10522v2: cue-meanings ARE
+  action-scopes (harmful = to-be-turned-from — no conventional meaning
+  needed! (niche fingerprint = meaning-as-action-scope, re-read!).
+  RSA: the framework for WHEN signals exist (unbuilt channel + RSA
+  inference = full pragmatics stack, sequenced).
+- **Performatives we already utter [canon: Austin (performatives;
+  verdictives covered R160); verification deferred].** → Mapped:
+  verdicts = verdictives ✓; frozen plans = COMMISSIVES (binding future
+  self — Ulysses R150 in Austin's terms!) + EXERCITIVES (ordering
+  attempts!); attempt.json = DECLARATION? (no — declaratives need
+  institutions (below)); docs = expositives (fitting results into
+  arguments). UPTAKE (Austin's requirement!): performatives MISFIRE
+  without it (attempt RUNS = uptake; unexecuted plans = misfires
+  (M-POP V2 awaits uptake (fresh goal!) — the performative reading
+  of "design only").
+- **Institutions we already have [canon: Searle (taxonomy; status
+  functions; constitutive rules); verification deferred].** →
+  "gap>0.1 counts as GO in V1i" IS a constitutive rule (X counts as Y
+  in C!); GO-ness is a STATUS FUNCTION (imposed, not intrinsic —
+  teleonomy R126 + Searle converge: function without purpose,
+  institution without... subjects? (collective intentionality
+  presupposes a collective (hermit science: collective of... future
+  readers?! (imposed function awaiting its collective! (stated!)))).
+  Doc-type mapping: dev-results = assertives; frozen plans =
+  directives; bank protocols = declarations?! (need institutions —
+  the protocol DECLARES the bank into existence (this IS 444001–444054!
+  (declaration performed by... the builder (authority? (code?! (Lessig
+  R154-adjacent!)))) — dense, zero worlds.
+- **Relevance, defaults, common knowledge [canon: Sperber/Wilson
+  (relevance: effect/effort); Levinson (GCI); Horn (Q/R); Aumann
+  (common knowledge); Baltag/van Ditmarsch (DEL/public announcements);
+  verification deferred + arXiv:2202.02156v4 (generalising Aumann) +
+  arXiv:2311.04374v2 (common knowledge REGAINED (timing frictions
+  kill it — Halpern-Moses!))].** → Relevance: probe economics
+  formalized (expected information gain vs worlds/op cost — caps ARE
+  relevance thresholds (stop probing below relevance! (never
+  formalized as such — NOW)); pairs Stigler (optimal ignorance
+  R156!). Levinson: greedy 0.5 + always-cruise = TWO GCIs (presumed
+  inference + presumed action — the presumptive substrate). Horn:
+  PROGRESS = Q (say enough!) vs fixtures = R (say no more!) — the
+  doc economy, stated. Common knowledge: broadcast WOULD create it
+  (public announcement! (synchronous ticks = frictionless
+  (Halpern-Moses satisfied BY CONSTRUCTION (timing can't kill what
+  ticks synchronize!) — specified conditional (IF built, CK follows
+  (DEL-formalized!))).
+
+## Round 165 — Causes, chances, types (INUS, intervention, ravens, lotteries, bets, types, twins; 2026-11-02)
+
+Motivation: what caused it, what would confirm it, what we'd bet, what
+codebook we're in, and what the weights mean elsewhere. Causation through
+Twin Earth.
+
+- **Causes in context [canon: Mackie (INUS + causal field);
+  Woodward (interventionism); Glennan (mechanisms); verification
+  deferred].** → Bank-dependence = FIELD-RELATIVITY (causes don't
+  travel across fields: V1c +0.22 vs V1d +0.04 = different fields,
+  different causes (Mackie explains GAIN-DOSE!). Woodward: transplants
+  ARE interventions (X causes Y iff wiggling X changes Y) — Pearl
+  R148 (calculus) + Woodward (semantics) = both halves, neither
+  redundant. Glennan: gain mechanism sketched (entities (buffer) +
+  activities (boost) + organization (tournament) — the new-mechanical
+  reading of every instrument).
+- **Confirmation and acceptance [canon: Hempel (ravens); Kyburg
+  (lottery); verification deferred].** → NOGOs are genuine
+  disconfirmations (of frozen sentences D1>+0.1 — black ravens, NOT
+  white shoes: Hempel audit passes (we test universals, fail them
+  sometimes ✓ (Popper-adjacent R145))). Kyburg: jury votes as lottery
+  logic (accept each-ticket-loses (histories may fail) AND
+  some-ticket-wins (majority converts) — acceptance rules for
+  uncertain conjunctions (the logic our majorities instantiate!).
+- **Bets without bookmakers [canon: Ramsey (betting quotients);
+  de Finetti (coherence); Savage (sure-thing); verification deferred].**
+  → Frozen bars as posted odds (we bet lines on ±0.1 — credences
+  revealable BUT no takers (no counterparties! (coherence VACUOUS
+  without bets (de Finetti bound: beliefs without bets = cheap talk
+  — Kent WEP kept (calibration!) but Dutch-book discipline
+  impossible (stated honestly!))). Savage P2: V1b→V1c IS sure-thing
+  reasoning (works here + works there → works (replication principle
+  formalized (dominance!))).
+- **Types and twins [canon: Harsanyi (types/Bayesian games);
+  Putnam (Twin Earth); Gibbard-Satterthwaite (strategy-proofness);
+  verification deferred].** → Codebook as UNOBSERVED TYPE (nature
+  draws, agent doesn't observe — transfer = game of incomplete info!
+  (beliefs over codebooks?! (flat prior?! (no priors at all
+  (triple Bayesian void: no beliefs/priors/types (named whole, third
+  time!)))). Twin Earth: SAME weights, different valence across
+  codebooks = meaning AIN'T in the weights (transfer failure PROVES
+  externalism (internal duplicates, different meanings! — our
+  strongest philosophical result (empirical externalism!))). GS:
+  strategy-proofness impossible (audit > proof — null-hygiene as
+  strategy-proofness AUDIT (impossibility accepted!)).
+
+## Round 166 — Division, matching, capital, order (fairness formalisms; matching; real options/CAPM/ledger; Dworkin/Raz/Waltz/Coleman/fields; 2026-11-02)
+
+Motivation: who gets the food, who mates whom, what waiting is worth,
+whose risk it is, how the books balance — and who says so.
+
+- **Division without agreement [canon: Moulin/Thomson (fair division);
+  verification deferred + arXiv:2104.07387v3 (TRUTHFUL fair cake-cutting
+  mechanisms (strategy-proofness AND fairness — open problem!)) +
+  arXiv:1103.2648v2 (trust-game coevolution + reputation (records must
+  be READ (ours aren't! (R133 again!)) + vulnerability needs agency
+  (VOID — no agency to trust with!)))].** → I-cut-you-choose needs
+  division + choice (unbuilt — same inventory); truthful+fair may not
+  exist (impossibility noted). Trust needs vulnerability (void).
+  Recorded as the complete unbuildable set (for now).
+- **Matching and credit [canon: Roth (market design); Shapley (value);
+  verification deferred + arXiv:2005.08584v1 (TWO-SIDED RANDOM matching
+  markets: DA procedures ex-ante EQUIVALENT (random matching + DA!
+  (ours = DA with EMPTY preference lists (vacuous? (needs preference
+  distributions (ours: none (yet! (conditional: IF preferences built,
+  DA-equivalence governs!)))))))].** → Deferred acceptance needs 3
+  channels (rank/propose/reject — SEQUENCED, unbuilt). Shapley:
+  LINEAGE-RESTRICTED version queued as program analytic (ancestor-only
+  credit; 2^24 intractable → parent-chain approximation on frozen
+  rows; zero worlds; status: queued, not started — deprioritized
+  post-SKEW, axioms retained).
+- **Capital and its price [canon: Black-Scholes/Merton (real options);
+  Sharpe/Lintner (CAPM); Pacioli (double-entry); verification deferred
+  + arXiv:1803.05831v3 (technical uncertainty + LEARNING in real
+  options (learn reserves while deciding! — dormancy as holding an
+  AMERICAN option (exercisable anytime! (exercise = arouse! (optimal
+  exercise boundary! (option overlay on R122, specified form!))))].**
+  → CAPM decomposition: bank variance = SYSTEMATIC (can't diversify —
+  it's the ecology!) vs per-history = idiosyncratic (diversifiable
+  via MORE histories (the n=6 justification — CAPM rationale for bank
+  sizes!)). Pacioli: ledger IS double-entry (accountingResidual <1e-7
+  = the trial balance (fail-closed! (Pacioli with teeth!))).
+- **Order without contract [canon: Dworkin (chain novel); Raz
+  (authority); Waltz (three images); Coleman (closure); Bourdieu
+  (fields); verification deferred].** → Chain-novel integrity
+  (fit the evidence + justify the line — verdicts as fit+justified
+  chapters (negative preservation = integrity!)). Raz: authority
+  in a void (frozen plans claim authority over WHOM? (no subjects!
+  (stated!))). Waltz: FAE audit IS three images
+  (agent/bank/ecology = individual/state/system! — re-read
+  complete!). Coleman: banks as CLOSURE (dense ties enabling the
+  frozen norm — closure enables enforcement!). Bourdieu: program
+  as field of one (no competition for stakes — hermit science;
+  stakes = ? (none! (knowledge for no one (intrinsic!)))).
