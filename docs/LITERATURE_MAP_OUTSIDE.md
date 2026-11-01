@@ -7041,3 +7041,154 @@ and who counts behind the veil. Metaphysics with program addresses.
   scorers as ENGINES not cameras (performativity vs Goodhart R145 —
   the verdict form performs transfer). Porter: numbers replace judgment
   (ledgers where trust in experimenters ran out — including ours).
+
+## Round 155 — Law, ritual, method (Fuller/Hart/Calabresi/Holmes; Rappaport/Turner/van Gennep; Kent/Heuer/Jervis; Garfinkel/Giddens; 2026-11-02)
+
+Motivation: are our plans lawful, our attempts liturgical, our estimates
+calibrated, our structures self-made? Four canons answer.
+
+- **Are frozen plans lawful? Yes [canon: Fuller (inner morality of law:
+  8 desiderata); Hart (secondary rules); Calabresi (cheapest cost
+  avoider); Holmes (bad-man prediction); verification deferred; arXiv =
+  absent — searched-not-found, logged].** → Fuller audit (pass):
+  generality ✓ / promulgation ✓ (frozen before run) / prospectivity ✓
+  (no retroactive tuning — THE core discipline) / clarity ✓ (HELD
+  values) / non-contradiction ✓ / constancy ✓ / congruence ✓
+  (attempt matches plan — sources hash!) / no-impossible-demands ✓
+  (caps checked pre-run). Hart: frozen plans are SECONDARY rules
+  (rules about making/applying/adjudicating primary rules (bars/gates
+  are primary!); rule of recognition = scorer + gates). Calabresi: the
+  damage gate as cheapest-cost-avoider analysis (learn where it hurts).
+  Holmes: agents as bad men (predict from incentives (bars/gains),
+  never intentions — converges with Dennett R144, now with precedent).
+- **Attempts are liturgy; transfers are rites [canon: Rappaport (ritual
+  form: encoding/formality/invariance/performance); Turner (liminality/
+  communitas); van Gennep (rites of passage); verification deferred].**
+  → The attempt meets ALL FOUR ritual features (encoded by
+  other-than-performer (frozen by other-than-runner!) + formality +
+  invariance + performance). Transfer as RITE (separation (train ends)
+  → LIMEN (transplant — between codebooks, neither here nor there!) →
+  reaggregation (transferred life)); V1j ×0.5 as liminal ordeal
+  (suffering to be reborn capable). Zero worlds, maximum ceremony —
+  and a real constraint (liturgies must not innovate mid-performance:
+  the no-edit-during-attempt rule, now grounded).
+- **Calibrate the estimators [canon: Kent (WEP); Heuer (ACH); Jervis
+  (perception/mis-perception); verification deferred; arXiv = thin].**
+  → Kent: attach estimative probabilities to verdict classes (GO = ?
+  NOGO = ? weak-GO = ? INVALID = ? — specified FORM, not executed;
+  ends WEP-vagueness ("high confidence") forever). Heuer: ACH matrix
+  for the next NOGO (hypotheses × evidence, disconfirm-first — the FAE
+  audit was proto-ACH; matrix form specified). Jervis self-watch:
+  mirrors (bank-dependence anxiety — are we fighting the last war
+  (tuning) past its need?) vs images (banks as they are) — recorded
+  as vigilance, not a finding.
+- **Breach and build [canon: Garfinkel (breaching); Giddens
+  (structuration: duality of structure); verification deferred].** →
+  VOID arms as breaching experiments (violate the expected (uniform
+  learns!) to reveal the norm (what MUST hold)). Structuration:
+  agents make trails that constrain them (depletion trails as structure
+  — made by foraging, constraining foraging!) — the food field re-read,
+  zero worlds.
+
+## Round 156 — Gifts, debts, kin (Weiner/Sahlins/Polanyi; Graeber/Zelizer; Carsten/Kopytoff/Strathern; Roth/Shapley/Stigler; 2026-11-02)
+
+Motivation: our economy has no gifts, no debts, earmarked energy, relatedness
+by weights, and matches without markets. The economic anthropology fits
+like a glove because the glove is empty in the same places.
+
+- **Keeping while giving; affluence; householding [canon: Weiner
+  (inalienable possessions); Sahlins (original affluent society);
+  Polanyi, Karl (substantivist integration forms — distinct from
+  Michael Polanyi R148); verification deferred].** → Transmission
+  COPIES, never moves — source retains (maternal keeps AND gives):
+  inalienability BY ARCHITECTURE. Bar-50 as Zen affluence (few wants,
+  easily met — Sahlins: affluence = needs met (bar-50!) vs desires
+  infinite (bar-65 strivers!) — the two bars as two affluences).
+  Integration audit (reciprocity? VOID (no sharing); redistribution?
+  VOID (bars gate, don't redistribute); market? VOID (no prices);
+  householding? ✓ ONLY (autarkic founders + spawned food as nature)) —
+  3/4 voids, householding only.
+- **Debtless; earmarked [canon: Graeber (debt); Zelizer (earmarking);
+  verification deferred].** → startingDebt = 0: DEBTLESS BY
+  CONSTRUCTION — no favors (can't help), no revenge (can't punish), no
+  debt: the triple-negative moral economy (same missing channels,
+  named together). matingEnergyBar EARMARKS (energy FOR mating —
+  sacred (above bar: reproduction) vs profane (below: survival) —
+  the bar as sacred/profane boundary (Durkheim-adjacent one-liner)).
+- **Kin by weights; lives of rows; partible persons [canon: Carsten
+  (relatedness); Kopytoff (biography of things); Strathern (dividuals;
+  same author as audit-culture Strathern R145 — different work);
+  verification deferred].** → Relatedness = shared parameters (code
+  as blood — consubstantiality via copy!). ROW BIOGRAPHIES (commodity
+  phase (bank seed, fungible!) → singularization (attempt row, unique
+  history!) → obituary (dev-results GO/NOGO epitaph!) — the biography
+  form NAMED for rows; fresh-11 protocol = birth certificate).
+  Transplants as dividual composition (seg2 agents = partible persons;
+  personhood as composition — pairs Theseus R154).
+- **Match, credit, stop [canon: Roth (matching/market design);
+  Shapley (value); Stigler (optimal ignorance); verification deferred;
+  arXiv = game-theoretic, thin].** → Deferred acceptance needs THREE
+  unbuilt channels (rank mates! propose! reject!) — sequenced, not
+  built. Shapley: credit assignment for gen-2 (founder vs newborn vs
+  luck shares — specified analytic on frozen lineage data, zero worlds,
+  not executed). Stigler: stop searching when marginal cost =
+  marginal benefit (no stopping rule exists — cruise-default
+  approximates it blindly; the rule specified, pairs quorum R116).
+
+## Round 157 — Selves, sleep, construction (unfinished futures; agency; sleep/meaning; constructed worlds; 2026-11-02)
+
+Motivation: what agents plan, what sleep is for, what meaning does, and
+of what our world is made. With the strongest arXiv batch in twenty rounds.
+
+- **Unfinished futures [canon: Zeigarnik (remembered-unfinished);
+  Gollwitzer (implementation intentions); Dweck (mindset — expanded
+  from R151 mention); Kelley (covariation cube); verification deferred
+  + arXiv:2102.10448v1 (VR prospective memory — pointer)].** →
+  Gollwitzer: frozen plans ARE implementation intentions (pre-loaded
+  if-then — the psychology of our discipline, named). Dweck expanded:
+  saturation as FIXED mindset (RIGID = "I can't learn this codebook")
+  vs plasticity as growth (gain-gated = "yet"). Kelley cube for NOGOs
+  (consensus/distinctiveness/consistency — the attribution ANOVA; FAE
+  audit was proto-Kelley, cube form specified). Zeigarnik: the frontier
+  list as memory device (open lines itch — expanded from R151 one-liner).
+- **Agency, split locus [canon: Bandura (self-efficacy); Rotter
+  (locus of control); verification deferred].** → Efficacy without
+  believers (closest thing to "belief in capability": the step size
+  (tasteRate as self-efficacy parameter — one honest FUN line, flagged
+  as metaphor). Locus audit: SPLIT (energy by world (external!) +
+  action by policy (internal!)) — the honest answer, both true.
+- **Sleep, dreams, meaning [canon: Crick/Mitchison (unlearning);
+  Walker; Benedetti/Moerman (meaning response); Gross (process model);
+  verification deferred + READ batch: arXiv:2603.14517v1 (SleepGate:
+  PROACTIVE INTERFERENCE — stale associations block retrieval EXACTLY
+  like our saturation (47/48 stampede as PI!); downscaling + selective
+  replay + targeted forgetting = lossy + twin + brake, the SLEEP
+  ARCHITECTURE FOR ASTRA — specified system, needs frozen plan) +
+  arXiv:2606.03979v2 (LLM sleep for SELF-MODIFICATION + consolidation —
+  RSI-adjacent sleep (agents that sleep to self-modify — pairs
+  RSI-SELF!) + arXiv:2602.04095v1 (computational dreaming — pointer) +
+  arXiv:2104.04132v2 (replay's MISSING BIOLOGY — key finding: ours is
+  AWAKE replay (online interleaved); biology's is OFFLINE (sleep!) —
+  the distinction we never made — specified: SLEEP TICKS (no foraging,
+  only replay — pairs dormancy R122))].** → Crick-Mitchison: V1j as
+  waking dream (unlearning to generalize — the dream theory of lossy
+  transfer!). Placebo audit: impossible here (no expectation channel —
+  with Barrett R134 + Seth R26, triple lock on no-belief). Gross:
+  we regulate RESPONSE only (brakes suppress output) — antecedent
+  regulation (situation selection: choose spread!) unbuilt (no habitat
+  choice — topology assigned — the regulation audit).
+- **The constructed world [canon: Schutz (lifeworld); Berger/Luckmann
+  (construction); Habermas (colonization); Bourdieu (habitus); Goffman
+  (frames); Sosis/Henrich (costly signaling); Allport (contact);
+  verification deferred + arXiv:2407.02030v1 (contact hypothesis IN LLMs
+  — bias mitigation via simulated contact) + arXiv:1811.10981v1
+  (social-practice agents (SoPrA) — practice theory COMPUTED)].** →
+  Habitus = weights (durable/transposable/structured/structuring —
+  fits EXACTLY; fingerprint = habitus detection, re-read). Frames:
+  natural-only (toxin physics; no social frames — no others).
+  Costly-signaling set COMPLETE (kin/direct/indirect/strong/punishment/
+  costly — ALL audited; present: NONE (no display channel)). Allport:
+  our encounters MEET all four contact conditions (equal status ✓
+  common goals ✓ cooperation (mating IS cooperative) ✓ authority
+  sanction ✓ — accidentally!) — structural mapping only (different
+  dependent variable), honestly bounded.
