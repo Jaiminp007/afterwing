@@ -10627,3 +10627,74 @@ cited, not re-covered.
   and Tuan says that's exactly what space IS (place
   minus dwelling): the map (191+ rounds and counting)
   is pure space, honestly uninhabited.
+## Round 216 — Public commitments binding futures (Diffie-Hellman, Rivest, Merkle, Blum; 2026-11-02)
+
+Motivation: bank SHAs are published, spent lists are public, yet no
+future can un-spend them. Four canons on binding the future with
+public means — cryptography without secrets (everything here is
+published; the binding is the point). Nakamoto/consensus committed
+(R166 ledger); Grigg receipts committed (R210); both cited, not
+re-covered. RSA-the-cipher specified via Rivest (vs Rational
+Speech Act committed R164).
+
+- **Shared secrets from public channels [canon: Diffie-Hellman
+  (key exchange over public channels); verification deferred].**
+  → Bank hashes are published (protocol.json, attempt.json,
+  commit messages) — and thereby BINDING (once 446001–446054
+  is hashed as spent, no future me can un-spend it without
+  breaking the hash (detectably)). Diffie-Hellman (two parties
+  agree on a secret no eavesdropper learns, over a channel
+  everyone reads) is the spent-bank mechanism verbatim (past-me
+  publishes hashes; future-me reads them; the "secret" (which
+  banks are fresh) is agreed without a trusted third party
+  (no bank authority exists — the registry scan IS the
+  agreement protocol)). Public channel, binding outcome —
+  exactly what key exchange achieves, with hashes instead
+  of discrete logs.
+- **Trapdoors, one-way [canon: Rivest (RSA: trapdoor
+  one-way functions; specified Ron, vs RSA-pragmatics
+  committed R164); verification deferred].** → Frozen plans
+  are trapdoors (easy forward (plan → attempt: follow the
+  steps), hard backward (attempt → plan: which of 200
+  decisions mattered? — inversion requires the audit
+  (the private key))). The one-way function at the program's
+  core: execution (cheap, ~4e9 ops, deterministic). Reversal
+  (from rows, recover WHY this verdict and not another —
+  expensive, sometimes impossible (INCOMPLETE voids leave
+  no why)). Asymmetry disclosed (forward is engineering;
+  backward is science — the program runs the easy direction
+  constantly and the hard direction rarely (audits), priced
+  accordingly (attempts: hours; audits: minutes)).
+- **Trees of hashes [canon: Merkle (hash trees; authenticated
+  data structures); verification deferred +
+  arXiv:2608.25206v1 (Huffman-Merkle trees for dynamic
+  workloads — read)].** → The sources closure IS a Merkle
+  tree (attempt.json hashes the bank; bank lists histories;
+  histories hash seeds; sources hash files; dev-results
+  hashes the verdict — each level commits to the one below;
+  verify the root (verdict + bank SHA) and the whole tree
+  stands). The read (authenticated structures for changing
+  data) names what ours ISN'T (dynamic: our trees are
+  frozen at attempt time (sources pinned; resume re-checks
+  (assert.deepEqual(sources) — membership proof re-run))).
+  Static Merkle trees (committed once, verified forever) —
+  Grigg's receipts were the leaves (R210, cited); Merkle
+  is the structure (the receipt-book bound as a tree).
+- **Coin-flipping by phone [canon: Blum (commitment schemes;
+  coin-flipping over the phone); verification deferred +
+  arXiv:2202.13730v1 (commit-and-open Sigma protocols,
+  hash-based — read) + arXiv:1710.02951v1 (hash-signed
+  certificates on shared ledgers — read)].** → Frozen plans
+  are commitments (published BEFORE the attempt (sealed
+  envelope); opened AFTER (dev-results: the reveal); binding
+  both ways (can't change the plan post-hoc (seal); can't
+  fake the outcome (hash (reveal checked)))). Blum's
+  distrustful parties (who moves first without being cheated?)
+  are me-before-the-attempt vs me-after (the committer can't
+  trust the revealer — same person, different incentives
+  (hope vs evidence)). The reads (commit-and-open
+  constructions; hash-signed certificates) are the machinery
+  specified formally (our version: informal (git hashes,
+  not Sigma protocols) but structurally identical (commit
+  (freeze) → execute (run) → open (verdict) → verify
+  (audit))). Phone-coins, frozen plans, same protocol.
