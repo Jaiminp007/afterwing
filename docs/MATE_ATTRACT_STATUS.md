@@ -42,3 +42,12 @@
 - Verdict: **MATE-ATTRACT-NOGO-V3** (hubAttract gen-2 0 vs hub 4; births uniform-low 19 vs variable 28; worst energy −42.2; timing unshifted).
 - Line + arc CLOSED: encounters exonerated across sensing (bypassed), steering (inert), and interaction (harmful) levels. Bottleneck is downstream energy→survival conversion.
 - Results: `docs/MATE_ATTRACT_RESULTS_V3.md`. Cumulative program spend: 7875.
+
+## V4 (departure-gated taxis, NOGO 2026-11-02)
+
+- Plan: `docs/MATE_ATTRACT_PLAN_V4.md` (energy gate at bar, +1 op billing 10/13, null-default preserved; hub-gated vs hub + spread anchor; closes arc either way).
+- Implement: gate knob (`mateAttractEnergyGate` + `mateAttractGateThr`, JSON-safe checkpoint-restore recompute + regression fixture) + V4 instrument (gate maps/asserts/G2, NO births gate, INCOMPLETE-NOBIRTHS) + 13/13 fixtures; triage at 6 pre-existing baseline; fresh bank 438001–438054.
+- Attempt-05 (single, authorized, 2026-11-02): 18 mains / 0 probes / 3.50e9 ops, clean pass (ledger exact, `redone: []`, G1+G2 true).
+- Verdict: **MATE-ATTRACT-NOGO-V4** (hubAttract gen-2 7 vs hub 8 — gated taxis restores births to control level 33v37 but does not lift compounding; timing unshifted per-seed; no energy rescue; starvation was the harm mechanism, removing it reveals no latent advantage).
+- Line + arc CLOSED: sensing bypassed + steering inert + interaction harmful + gating neutral → encounter-rate knob does not compound; conversion/interference-queueing are the licensed frontiers.
+- Results: `docs/MATE_ATTRACT_RESULTS_V4.md`. Cumulative program spend: 7893.
