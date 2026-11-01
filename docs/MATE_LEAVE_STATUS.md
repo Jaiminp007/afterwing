@@ -39,3 +39,16 @@
   + mechanism-vs-luck (scaling); V1c-dose precedent.
 - Implement: separate turn under the plan; single attempt next.
   Cumulative unchanged (7911, design only, zero worlds).
+
+## V2 (NOGO 2026-11-02)
+
+- Attempt-02 (single, authorized): 30 mains / 0 probes / 5.86e9 ops,
+  clean pass (ledger exact, `redone: []`, G1+G2 true).
+- Verdict: **MATE-LEAVE-NOGO-V2** (hubLeave2 4 vs L1 6 vs L4 7 vs hub 4 —
+  replication half-passes (≥2) but monotonicity fails at L1 > L2; luck/
+  saturation, magnitude thesis dead; ML1 concentration retired as luck).
+- Timing identical per-seed seventh bank; births/gen-1 above hub on all
+  leave arms (ML1's identical-births not replicated); despotic deficit +
+  unshifted timing remain the only stable cross-bank facts.
+- Line CLOSED 1–1. Results: `docs/MATE_LEAVE_RESULTS_V2.md`. Cumulative
+  program spend: 7941.
