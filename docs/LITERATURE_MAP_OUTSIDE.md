@@ -6365,3 +6365,115 @@ death/recycling canons, with two re-reads and one unbuilt response.
   transgenerational hologenome [arXiv:2502.07366v5 (RITHMS: holobiont
   as selection unit) — pairs R127 second channel + R119 unit question;
   moot here (no microbiota), live for any microbe line].
+
+## Round 141 — Physics of learning (dissipation prices precision; geometry beats greed; 2026-11-02)
+
+Motivation: our ledger prices energy but never asks what precision COSTS,
+and our updates walk Euclidean while the information lives curved. The
+physics says both are the same question.
+
+- **Precision has a thermodynamic price [canon: Seifert (stochastic
+  thermodynamics); Barato/Seifert (TUR: precision² ≤ dissipation);
+  Jarzynski/Crooks (fluctuation theorems); verification deferred +
+  arXiv:1904.04913v2 (fluctuation relations IMPLY uncertainty relations;
+  extended to MEASUREMENT + FEEDBACK — feedback breaks time-reversal;
+  learning IS measurement+feedback)].** → Our ledger records dissipation
+  (operationEnergy) and our probes record precision (turn|harmful 0.85
+  from 0.05) — but never divides one by the other. The specified
+  analytic: precision-gain per dissipated joule vs a TUR-style bound
+  (is our learning thermodynamically EFFICIENT or wasteful?) — zero
+  worlds, not executed here (needs the bound derived for our update
+  class first). Pairs R78/R93 ledger scaling with a price theory.
+- **Walk the Fisher, not the Euclidean [canon: Amari (information
+  geometry; natural gradient); verification deferred +
+  arXiv:2005.10791v1 (LOCALITY simplifies natural gradient in deep nets
+  — Fisher locality makes it affordable) + arXiv:2405.12807v11
+  (Adam ≈ diagonal-Fisher natural gradient — pointer)].** → Our updates
+  are Euclidean-greedy; the information geometry (Fisher) is the update
+  rule we lack. 2005.10791v1's locality moral is why biology affords it
+  (local Fisher, not 96² global — dendrites AGAIN, R121) and why we
+  don't (global natural gradient at 96 dims = 9216 Fisher entries per
+  update — price it before wanting it). Specified-not-executed
+  (natural-gradient actor; needs frozen plan; changes everything about
+  the update — single biggest algorithmic instrument on the shelf).
+
+## Round 142 — Search, queues, exploration (Lévy, intermittence, myopic bandits, Little's law; 2026-11-02)
+
+Motivation: our agents search, queue for mates, and explore myopically —
+three formalisms that turn description into derivation.
+
+- **Move like the targets [canon: Viswanathan (Lévy flight hypothesis);
+  Bartumeus; verification deferred + arXiv:1804.03738v1 (Lévy as optimal
+  under conditions — the famous paradigm, with its conditions attached)
+  + arXiv:1401.7124v1 (communication at INTERMEDIATE ranges minimizes
+  search time INDEPENDENTLY of movement type — topology beats gait)].**
+  → Our movement mode (Lévy vs Brownian) is unmeasured — blocked on
+  track logging (same gap as home range, R131); analytic specified with
+  schema precondition. 1401.7124v1 independently derives our topology
+  result (intermediate communication wins whatever the gait) — the
+  encounter program re-grounded, zero worlds.
+- **Pause/move alternation IS the theory [canon: Bénichou (intermittent
+  search); verification deferred + arXiv:cond-mat/0606292v1 (for
+  NON-revisitable targets — our depleting food — intermittent
+  strategies BEAT Lévy; pause = detection, move = relocation))].** →
+  The re-read with teeth: our cruise/pause alternation is intermittent
+  search by construction, and Bénichou gives OPTIMAL alternation ratios
+  — tune the pause knob by derivation, not fixtures. Specified-not-
+  executed (pause knob exists from cue-world routing; needs frozen plan
+  with the Bénichou ratio pre-registered as the value, not tuned).
+- **Myopia formalized; broadcast priced [canon: Auer (UCB); Thompson
+  sampling; verification deferred + arXiv:2302.07425v5 (MYOPIC bandits —
+  greedy exploitation-only → STARK learning failures; our exact regime)
+  + arXiv:1311.0800v1 (DISTRIBUTED exploration: k players + ONE
+  communication → √k faster; the exploration/communication tradeoff
+  quantified)].** → 2302.07425v5 is our stampede/saturation as THEOREM
+  (myopic-greedy pathologies, predicted not just observed). 1311.0800v1
+  prices the R133 broadcast channel (√k speedup from one bit —
+  the value bound for building it). Specified lens (myopia audit on
+  frozen behavior, zero worlds, not executed) + bound recorded.
+- **Mating is a queue [canon: Little (L=λW); Kendall; verification
+  deferred + arXiv:1007.1928v1 (Little's law applied to GENE EXPRESSION
+  — cross-domain precedent for queueing→biology))].** → Encounters
+  arrive (λ), wait (W), mate (L); K≈10 is throughput. Little's law binds
+  the program's core lever: raise λ (topology/attraction) or cut W
+  (receptivity/range). The bottleneck gets its mathematics; the
+  arrival/wait/service decomposition is specified with a schema
+  precondition (per-mating timestamps — confirm-or-log-gap, honest).
+
+## Round 143 — Commons, contracts, mechanisms (Ostrom, Coase, Hurwicz, Mauss, Granovetter, Rogers; 2026-11-02)
+
+Motivation: our food is a commons, our billing is transaction costs, our
+instruments are mechanisms, our plan discipline is a commitment device —
+and nobody cited the literatures that formalize any of it.
+
+- **The unmanaged commons, with a checklist [canon: Ostrom (8 design
+  principles for commons); Hardin (tragedy — pointer, covered);
+  verification deferred + arXiv:2208.01694v2 (Ostrom principles APPLIED
+  to digital commons — the application template) + arXiv:2605.29062v1
+  (commons under POWER ASYMMETRY in LLM societies — our hubs, in
+  silico, with AI agents!)].** → Shared food + starvation = unmanaged
+  common-pool resource; 2605.29062v1 is the parallel program (asymmetric
+  synthetic commons). Import: Ostrom's principles as an INSTRUMENT-DESIGN
+  CHECKLIST for any food-sharing line (boundaries, proportional
+  costs/benefits, monitoring...) — form, not instrument.
+- **Billing is transaction costs; plans are commitment [canon: Coase
+  (transaction costs); Williamson; Hurwicz/Myerson/Maskin (mechanism
+  design); von Stackelberg; Holmstrom (principal-agent); verification
+  deferred + arXiv:1206.2957v1 (mechanisms for RISK-AVERSE agents —
+  standard mechanisms assume risk-neutrality; ours aren't)].** →
+  Three re-reads: encounter manipulations lower TRANSACTION costs
+  (mate iff surplus > cost — Coase at the food patch); bar design IS
+  mechanism design (which rules make selfish foraging maximize gen-2? —
+  1206.2957v1 flags the risk-aversion gap in off-the-shelf mechanisms);
+  the frozen-plan discipline IS a Stackelberg commitment device
+  (leader commits, followers optimize — the discipline formalized as
+  game theory). Zero worlds; the program meets its formalisms.
+- **Gifts, weak ties, adoptions [canon: Mauss (The Gift); Granovetter
+  (weak ties); Rogers/Bass (diffusion of innovations); verification
+  deferred; arXiv = absent — searched-not-found, logged].** → Three
+  specified-not-executed with prerequisites attached: gift exchange
+  (one-way provisioning — needs care channel, same inventory);
+  weak-tie information carriage (dispersers as carriers — unmeasured,
+  weights unlogged; the DISPERSE re-read: ties too weak to transmit AND
+  to survive); adoption-curve fits of lineage expansion (S-curves —
+  schema precondition: tick-stamped births, confirm-or-log-gap).
