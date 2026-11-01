@@ -47,3 +47,17 @@
   transmission field + 12 fixtures incl. gate/recency/fallback/determinism/
   billing + triage + bank 443001–443054); single attempt next.
 - Cumulative unchanged (7959, design only, zero worlds).
+
+## V2 (conditional + recency-weighted copying; NOGO 2026-11-02, line CLOSED)
+
+- Attempt-02 (single, authorized): 18 mains / 0 probes / 3.55e9 ops,
+  clean pass (ledger exact, `redone: []`, G1+G2 true).
+- Verdict: **MATE-SOCIAL-NOGO-V2** (copycond gen-2 3 vs maternal 5;
+  bar met, direction failed; copy-rule exonerated).
+- copyalways 0 (V1 directionally replicated — unconditional copying adds
+  nothing, twice over). Maternal 5 concentrated on one seed (bank
+  variance, familiar pattern). Per-seed compounding absent everywhere
+  (best spread 3×1). firstMatingTick unshifted 7th bank running.
+- Line CLOSED (V1 exact-neutral + V2 conditional-null = transmission-
+  mechanism space closed twice). Results:
+  `docs/MATE_SOCIAL_RESULTS_V2.md`. Cumulative program spend: 7959 (+18).
