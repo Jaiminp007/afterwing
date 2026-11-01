@@ -84,6 +84,7 @@ export class World {
     validateConfig(this.config);if(['trace-actor','episodic-actor'].includes(this.config.controller))this.config.actorParameters=actorParameters(this.config.actorParameters);if(this.config.controller==='episodic-actor')this.config.episodicParameters=episodicBodyParameters(this.config.episodicParameters);this.rng=new RNG(this.config.seed);this.width=1000;this.height=640;this.tick=0;this.nextId=1;this.nextNode=HSTART+8;
     this.flies=[];this.food=[];this.obstacles=[{x:400,y:210,r:42},{x:620,y:415,r:55},{x:760,y:190,r:26}];
     this.lineage=[];this.events=[];this.history=[];this.nextEventId=1;this.capacityReached=false;
+    this.lastSuccessBirth=null;
     this.totals={births:0,deaths:0,deathCauses:{energy:0,age:0},foodEaten:0,externalEnergy:0,dissipated:0,signalCost:0,signalExposure:0,structuralMutations:0};
     if(this.config.cueForaging)this.totals={...this.totals,beneficialEaten:0,harmfulEaten:0,toxinDamage:0};
     const hubs=this.config.resourceTopology==='hub'?[{x:500,y:320}]:this.config.resourceTopology==='duo'?[{x:250,y:450},{x:750,y:450}]:[{x:180,y:180},{x:800,y:450},{x:470,y:500}];
@@ -194,6 +195,10 @@ export class World {
         if(dRng.next()<dTop){cx=50+dRng.next()*900;cy=50+dRng.next()*540;}
       }
       const child=this.makeFly(genome,[f.id,mate.id],Math.max(f.generation,mate.generation)+1,this.rng.next()<.5?0:1,changes,cx,cy,48);children.push(child);
+      // SOCIAL-V2 recency record (shared birth path, ALL runs — symmetric). Plain JSON
+      // ({tick:int,parentIds:[int,int]}), rides the existing whole-object checkpoint.
+      // Unbilled per mating-block precedent. Read only by 'copyconditional' sync.
+      this.lastSuccessBirth={tick:this.tick,parentIds:[f.id,mate.id]};
       this.totals.births++;this.totals.structuralMutations+=changes.filter(c=>c!=='weight').length;this.record('birth',`Fly ${child.id} ← ${f.id} + ${mate.id} · lineage ${child.generation}`,{agentId:child.id,parentIds:[f.id,mate.id],generation:child.generation,mutations:changes});
     }
     this.flies.push(...children);

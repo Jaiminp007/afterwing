@@ -65,9 +65,30 @@ export function syncNewbornLearners(run){
     s.lastObservedTick=run.world.tick;
     if(s.credit)s.credit.tick=s.lastObservedTick;
     if(Array.isArray(f.parents))for(const pid of f.parents){if(Number.isInteger(pid)){run.founderOffspring[pid]=(run.founderOffspring[pid]||0)+1;s.work.scalarOperations+=1;}}
-    if(run.verticalTransmission==='maternal'||run.verticalTransmission==='copybest'||run.verticalTransmission==='biparental'){let src=null;
+    if(run.verticalTransmission==='maternal'||run.verticalTransmission==='copybest'||run.verticalTransmission==='biparental'||run.verticalTransmission==='copyconditional'){let src=null;
     if(run.verticalTransmission==='maternal')src=run.learners[f.parents[0]];
     else if(run.verticalTransmission==='copybest')src=bestFounderLearner(run);
+    else if(run.verticalTransmission==='copyconditional'){
+      // SOCIAL-V2: copy iff the maternal line is maiden/unsuccessful; donor = most-recent success.
+      // Gate uses founderOffspring[motherId] INCLUDING the current birth (counting line runs first),
+      // so maiden-line newborns see mOff<=1. Deterministic, no new RNG, no new billed ops.
+      const mOff=Number.isInteger(run.founderOffspring[f.parents[0]])?run.founderOffspring[f.parents[0]]:0;
+      if(mOff<=1){
+        const last=(run.world&&run.world.lastSuccessBirth)||null;
+        const okD=w=>w&&w.weights&&Array.isArray(w.weights.taste);
+        let donor=null;
+        if(last&&Array.isArray(last.parentIds)&&last.parentIds.length===2){
+          const da=last.parentIds[0],db=last.parentIds[1];
+          const ca=Number.isInteger(run.founderOffspring[da])?run.founderOffspring[da]:0;
+          const cb=Number.isInteger(run.founderOffspring[db])?run.founderOffspring[db]:0;
+          const first=(cb>ca)?db:((ca>cb)?da:Math.min(da,db));
+          const second=(first===da)?db:da;
+          if(okD(run.learners[first]))donor=run.learners[first];
+          else if(okD(run.learners[second]))donor=run.learners[second];
+        }
+        src=donor||run.learners[f.parents[0]];
+      }else src=run.learners[f.parents[0]];
+    }
     else{src=null;
       // MLR1: uniform per-element crossover (p=0.5, single per-newborn RNG stream).
       // Fallback chain: parents[1] unusable -> maternal (parents[0]); neither -> as-created.
@@ -102,7 +123,7 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
 
 export class TasteExperiment{
   constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null,resourceTopology=null,mateSenseMultiplier=null,matingRangeMultiplier=null,mateAttractBias=null,mateAttractEnergyGate=null,mateLeaveBias=null,mateLeaveGate=null,natalDispersal=null}) {
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));assert.ok(natalDispersal===null||(Number.isFinite(natalDispersal)&&natalDispersal>=0&&natalDispersal<=1));
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental'||verticalTransmission==='copyconditional');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));assert.ok(natalDispersal===null||(Number.isFinite(natalDispersal)&&natalDispersal>=0&&natalDispersal<=1));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
