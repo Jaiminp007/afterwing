@@ -10774,3 +10774,72 @@ re-covered.
   (the combination problem meets the no-voice problem;
   both undefeated, both irrelevant (verdicts identical
   either way — NOGO with or without inner light)).
+## Round 218 — Health without doctors (Dubos, McKeown, Antonovsky, Cassel; 2026-11-02)
+
+Motivation: founders live longer when they learn (14v4v1) without
+any medicine (no treatment exists) or nutrition change (bar held).
+Four canons on health's other causes — all present here except
+the doctors.
+
+- **Adaptation as health [canon: Dubos (Mirage of Health;
+  adaptation; health as creative adaptation); verification
+  deferred; arXiv = thin (salutogenesis fetch returned
+  nothing — logged, not used)].** → Dubos (health is not
+  the absence of disease but successful adaptation; mirages
+  (conquered diseases return (resistance); utopias recede)).
+  M-POP V2 (learning extends survival 14v4v1 without
+  converting to lineage) IS Dubosian adaptation (creative
+  response to the environment (learn the patch, live longer)
+  that solves nothing final (still 0 births — the mirage:
+  survival gained, lineage not)). The program's healthiest
+  arms (survivors 28–31, spread/proximity) are the best
+  ADAPTED (to hub topology? to enriched phases? — adaptation
+  without a doctor (no intervention treats; the substrate
+  selects)). Mirage acknowledged (every survival gain so
+  far stopped at birth — health without heirs).
+- **Neither nutrition nor medicine [canon: McKeown (McKeown
+  thesis: mortality decline from living standards, not
+  medicine); verification deferred].** → McKeown's ledger
+  (nutrition/hygiene >> doctors/drugs for historical
+  mortality decline) tested twice here, failing both ways:
+  nutrition (bar 65→50: changes nothing (M-POP V2 0 births
+  both — living standards don't move lineage)); medicine
+  (no medicine exists (nothing treats; gain modulates
+  transfer, not survival)). The thesis needs a third term
+  (BEHAVIOR: learning extends survival (Dubos, above) —
+  neither nutrition (bar) nor medicine (nonexistent) but
+  conduct (forage better, live longer)). McKeown complicated
+  honestly (his two causes exhausted; the residual (learning)
+  is his unconsidered third).
+- **What moves toward health [canon: Antonovsky
+  (salutogenesis; sense of coherence: comprehensible/
+  manageable/meaningful); verification deferred].** →
+  Pathogenesis asks what causes disease (answered: starvation
+  (100% energetic mortality)); salutogenesis asks what
+  creates health (learning (extends survival); enrichment
+  (lifts births 0→11 in V2 full); early windows (timing
+  that converts)). Sense of coherence, founder edition:
+  comprehensible? (cues predict intake (turn-gating works));
+  manageable? (patches yield to foraging (energy flows));
+  meaningful? (VOID — nothing matters to them (R144); the
+  coherence is the EXPERIMENTER's (I find it comprehensible
+  (models fit), manageable (caps hold), meaningful (verdicts
+  publish))). Salutogenesis split across the glass (factors
+  theirs (learning, food, timing); coherence mine).
+- **Support without society [canon: Cassel (social
+  environment and host resistance); verification deferred].**
+  → Cassel (social support protects health: the isolated
+  sicken). Founders are maximally isolated (no ties (R189);
+  no groups (R188-Gesellschaft without Gemeinschaft)) yet
+  survival varies 7–31 (support explains nothing here —
+  nothing to support WITH (no grooming, no sharing (food
+  is contested (density backfires), never gifted))).
+  Host resistance without hosts relating (each founder its
+  own host, environment, and society of one — resistance
+  as a solo property (energy management, cue use)).
+  Cassel inverted cleanly (sociality zero, health variance
+  high — the variance is ecological (patch/seed), never
+  social). Support that cannot exist, missed by no one
+  (no outcome changes if ties appeared? — untestable
+  (no-tie substrate); noted, not built (copying lines
+  tried quasi-ties (maternal) and changed nothing)).
