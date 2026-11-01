@@ -14,3 +14,16 @@
   dedicated RNG + instrument + 12 fixtures incl. placement/determinism/
   bit-identity + triage + fresh-01 bank 442001–442054); single attempt
   next. Cumulative unchanged (7971, design only, zero worlds).
+
+## V1 (NOGO 2026-11-02)
+
+- Attempt-01 (single, authorized): 18 mains / 0 probes / 3.52e9 ops,
+  clean pass (ledger exact, `redone: []`, G1+G2 true).
+- Verdict: **MATE-DISPERSE-NOGO-V1** (hubDisperse gen-2 1 vs hub 8 —
+  dispersal deepens the sink; the deficit is patch-intrinsic).
+- Births/gen-1 identical (34-36/32-33); cliff exactly at gen-2.
+  Philopatry is load-bearing for compounding (network topology, not
+  density); spacing-within helps, scattering-out destroys.
+- Timing identical 9th bank. Line CLOSED. Results:
+  `docs/MATE_DISPERSE_RESULTS_V1.md`. Cumulative program spend:
+  7959 (+18).
