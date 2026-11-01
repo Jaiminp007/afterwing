@@ -7873,3 +7873,149 @@ whether any of it is good. The round the program owed itself.
   Indefinable (no supervision: charter (VISION!) not world
   (teleonomy R126! (direction without value!)). The question
   stays open BY DESIGN (we maximize; Vision justifies).
+## Round 173 — Hands and tools (Leroi-Gourhan, Stiegler, Simondon, Canguilhem; 2026-11-02)
+
+Motivation: our agents have no hands, our substrate never evolves, our
+norms come from outside — yet tools, memory, and concretion are everywhere
+in the program. Four philosophers of technics, audited against the rig.
+
+- **Technical evolution, refused [canon: Leroi-Gourhan (technical
+  tendency vs technical fact; exteriorization of memory); verification
+  deferred; arXiv = thin].** → The tendency (all hominins exteriorize)
+  is universal; the fact (this tool, here) is cultural. Our program
+  ARRESTS the tendency at the substrate (null-default, no mutation —
+  technical stasis BY DESIGN) while practicing exteriorization
+  everywhere else (frozen plans as exteriorized operational memory:
+  no single run remembers the protocol; the DOCS remember it).
+  Entry, not endorsement: the arrest is load-bearing (evolvable
+  substrate would void every control).
+- **Banks as tertiary retention [canon: Stiegler (tertiary retention;
+  epiphylogenesis; proletarianization); verification deferred;
+  arXiv = thin].** → Primary (perception) and secondary (memory)
+  retentions live in the run; TERTIARY retention is the frozen bank
+  (exteriorized, transmissible, cumulative-across-lines). Epiphylogenesis
+  (evolution by transmission of acquired artifices) is EXACTLY our
+  instrument lineage (V1g→V1h→V1i gain values; transplant machinery
+  imported V1i→damage). Proletarianization check: who lost know-how?
+  NOBODY — the knowledge stays explicit and inspectable (plans +
+  fixtures + sources/ dirs), i.e. Stiegler INVERTED: exteriorize in
+  order to REMEMBER, not to forget. Documented as design, not luck.
+- **Concretion, observed [canon: Simondon (individuation;
+  concretization; associated milieu); verification deferred;
+  arXiv = thin].** → Instruments concretize across lines: the
+  turn-gate transplant (abstract copy in V1b → integrity-checked,
+  digest-verified, fixture-guarded organ by V1i/DAMAGE). The
+  associated milieu co-individuates (bank + scorer + ledger ensemble
+  grows WITH the knob it measures). Lines closing ("either way") is
+  NOT anti-Simondon: finished individuations archive as components
+  for the next concretion (sources/ imports). The program read as a
+  concretion sequence — published so future lines can cite the
+  mechanism instead of re-deriving it.
+- **Norms without normativity [canon: Canguilhem (normal/pathological;
+  health as norm-establishing); verification deferred; arXiv = thin].**
+  → Our bars are norms imposed from OUTSIDE (heteronomy: matingEnergyBar
+  65/50, ±0.1 bands); Canguilhem's healthy organism ESTABLISHES its own
+  norms. Our agents cannot — no normativity, only compliance. Two
+  consequences, both recorded: (1) there is no "pathological" agent here,
+  only out-of-band rows (the normal/pathological distinction is VOID
+  without self-legislation); (2) any future norm-setting instrument
+  (adaptive bars? endogenous thresholds?) must cite this entry as the
+  gap it closes.
+
+## Round 174 — Others, together, apart (Malinowski, Evans-Pritchard, Bratman, Asch; 2026-11-02)
+
+Motivation: our agents live together, never meet as persons, mate without
+joint action, and conform to nothing. Four entries on what sociality we
+actually have.
+
+- **Functionalism, inverted [canon: Malinowski (kula; functionalism;
+  participant observation); verification deferred; arXiv = thin].**
+  → Kula (inter-island exchange rings) is coordination WITHOUT
+  centralization — our closest natural analogue is... nothing (no
+  exchange at all: no gifts, no trade, no messages). The audit cuts
+  the other way: apply functionalism to OUR instruments (Malinowski's
+  question — what need does this satisfy?): banks satisfy the need
+  for FRESHNESS (unspent seeds), gates satisfy the need for
+  DECISIVENESS (GO/NOGO, never maybe), archives satisfy the need
+  for IRREVERSIBILITY (negatives preserved). Method note: we observe
+  WITHOUT participating (the runner never forages) — non-participant
+  observation as discipline, not distance.
+- **Segmentary lineages that never segment [canon: Evans-Pritchard
+  (Nuer segmentary opposition; Azande rationality); verification
+  deferred; arXiv = thin].** → Nuer lineages fission and fuse by
+  scale of conflict; ours do NEITHER (no fission — no branching;
+  no fusion — no outcrossing; M-POP lineages compound or die).
+  Specified, not mourned: segmentation would require fission
+  machinery (unbuilt, unneeded — our question is persistence, not
+  politics). Azande in one clause: apparent irrationality (RIGID
+  stalling) is rationality under a different premise set —
+  pairs the R152 Laing re-read, not repeated.
+- **Mating is not joint action [canon: Bratman (shared cooperative
+  activity: mutual responsiveness + commitment to joint activity +
+  mutual support); verification deferred; arXiv joint-action batch
+  = ERROR (fetcher quirk, logged; canon stands)].** → Our mating
+  fails ALL THREE conditions: no responsiveness (proximity-triggered,
+  not partner-tracked), no joint commitment (no future), no mutual
+  support. What we call "mating behavior" is co-located parallel
+  foraging that sometimes emits newborns. This is the VOID with
+  teeth: it bounds every social reading of the mating arc (no
+  cooperation, no coordination, no communication — ENCOUNTER is
+  density, not diplomacy). Stated once, citable forever.
+- **Conformity without peers [canon: Asch (conformity);
+  verification deferred + arXiv:2601.05384v1 (AI agents DO conform —
+  systematic conformity bias under group pressure) + arXiv:1401.0839v2
+  (conformity in opinion dynamics: majority-rule updating)].** →
+  The arXiv counterparts prove what conformity REQUIRES: social
+  perception of others' judgments — exactly what our agents lack
+  (no observation of conspecifics' actions, let alone opinions).
+  Asch in silico would need: a visible group + a judgment task +
+  a dissenting subject — two of three unbuilt (group visibility,
+  subjecthood). Specified-not-executed (needs signal channel +
+  recognition first; R133 dependency noted, not repeated).
+
+## Round 175 — Deep time and far places (Braudel, Diamond, Crosby, Tilly; 2026-11-02)
+
+Motivation: our program runs 1792 ticks at a time and archives forever.
+History's deep thinkers on time, place, exchange, and action — audited
+for what our evidence can and cannot carry.
+
+- **The longue durée is the archive [canon: Braudel (event/
+  conjoncture/longue durée); verification deferred; arXiv = thin].**
+  → A single run is an EVENT (1792 ticks, noise-dominated); a line
+  is a CONJONCTURE (bank-scale regularity: transfer tax 0.2–0.3);
+  the program is the LONGUE DURÉE (structures that outlive lines:
+  frozen inference, symmetric billing, negative preservation).
+  Negative preservation IS longue-durée thinking (the archive as
+  structure, not store). Published so future synthesis can cite the
+  temporal form instead of re-arguing it: events pass, conjonctures
+  replicate-or-die, structures persist.
+- **Continental luck, in miniature [canon: Diamond (Guns, Germs,
+  and Steel: continental axes shape fates); verification deferred;
+  arXiv = thin; prior one-line cite (line 4906) expanded, not
+  repeated].** → Each bank is a continent (fixed codebook-ecology,
+  isolated by union-exclusion). Hub-vs-spread is east-west-axis
+  luck: the SAME founders starve or compound depending on which
+  patch-geometry they drew — geography, not virtue (pairs
+  EOP-decomposition 64% circumstance, zero worlds, published).
+  The mapping is structural, not moral (no guns, no germs —
+  topology only). Recorded as the licensed form of the "luck"
+  talk that litters verdicts.
+- **Transplants as Columbian exchange [canon: Crosby (ecological
+  imperialism); verification deferred; arXiv = thin].** → Moving
+  weights to a new codebook is ecological transfer: most transplants
+  underperform natives (transfer tax ≈ exchange asymmetry — Old
+  World crops thrived, New World populations collapsed; direction
+  MATTERS). V1j's lossy win re-read: successful introductions are
+  transformed, not transplanted (no exact copies survive contact).
+  One-line caution attached: the analogy is formal (novelty meets
+  incumbency), not causal (no disease, no conquest — VOID stated).
+- **A repertoire, not a reflex [canon: Tilly (repertoires of
+  contention); verification deferred; arXiv = thin].** → TURN vs
+  PAUSE vs CRUISE is a tactical repertoire (learned, limited,
+  shared across histories — V1b–V1j converge on turn|harmful).
+  Repertoires differ from reflexes: bounded in form, chosen by
+  cue, cumulative across lines (each line inherits the prior
+  repertoire — INHERITED TACTICS (V1i deploys V1g's gain!)).
+  Specified-not-executed: repertoire logging (which tactics exist
+  per bank? — needs tactic inventory over frozen rows; analytic,
+  queued behind higher-value work).
