@@ -225,7 +225,7 @@ def audit_record(record,root):
             attraction,wall=2*(raw[2]-raw[1]),1.8*(raw[10]-raw[11])
             matePull=0.0*(raw[8]-raw[7])  # k=0 for all replayed records (null-default)
             outputs=[math.tanh((attraction+matePull if accept else -(attraction+matePull)+.8*raw[0])+wall),-1 if action>=2 else 0,1 if accept else -1,-1,0]
-            state['work']['scalarOperations']+=10 if accept else 13  # V4: +1 gate mul
+            state['work']['scalarOperations']+=12 if accept else 15  # ML1: +2 leave muls (was V4 +1 gate mul)
             take('motor',raw=raw,action=action,outputs=outputs)
             CORE['bill'](state,record['pricing'])
             state['charge']['storageBytes']=CORE['encoded_bytes'](state)

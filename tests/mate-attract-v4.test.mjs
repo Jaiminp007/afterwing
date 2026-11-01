@@ -1,7 +1,7 @@
 // MATE-ATTRACT V4 fixtures (12/12 green required before bank build; zero bank worlds).
 // Synthetic rows mirror the frozen runner schema EXACTLY (V1 lesson)
 // + interaction contrast verdicts + scripted steering proof + gated-taxis proof
-// + bit-identity (JSON-normalized) + absolute billing (10/13, incl. gate states)
+// + bit-identity (JSON-normalized) + absolute billing (12/15, incl. gate states)
 // + temp-dir bank. Union-excluded via tests/*.mjs.
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -121,12 +121,12 @@ test('scripted steering proof: k=2 turns toward a lateral mate, k=0 ignores (sig
   // Avoidance branch: negated mate pull (turn away).
   const t2a=motorPrimitive(rawRight,-1,false,2);
   assert.ok(t2a[0]<0,'avoidance must turn away from the mate side');
-  // Absolute billing: approach 10, avoidance 13 (V2 +3 mate ops, V4 +1 gate mul, unconditional).
+  // Absolute billing: approach 12, avoidance 15 (V2 +3 mate ops, V4 +1 gate mul, ML1 +2 leave muls, unconditional).
   // tickMotor bills exactly these counts on a minimal state (runner call-shape mirror).
   const s1={work:{scalarOperations:0}};tickMotor(s1,[0,0,0,0,0.5,0,0,0,1,0,0,0,0,0,0,0,0],0);
-  assert.equal(s1.work.scalarOperations,10);
+  assert.equal(s1.work.scalarOperations,12);
   const s2={work:{scalarOperations:0}};tickMotor(s2,[0,0,0,0,0.5,0,0,1,0,0,0,0,0,0,0,0,0],1);
-  assert.equal(s2.work.scalarOperations,13);
+  assert.equal(s2.work.scalarOperations,15);
 });
 
 test('scripted gate proof: low energy cruises, high energy orients (gate opens at bar)',()=>{
@@ -144,8 +144,8 @@ test('scripted gate proof: low energy cruises, high energy orients (gate opens a
   // Billing identical whether gate opens or not (symmetric billing).
   const g1={work:{scalarOperations:0}};tickMotor(g1,rawLow,0,2,50/120);
   const g2={work:{scalarOperations:0}};tickMotor(g2,rawHigh,0,2,50/120);
-  assert.equal(g1.work.scalarOperations,10);
-  assert.equal(g2.work.scalarOperations,10);
+  assert.equal(g1.work.scalarOperations,12);
+  assert.equal(g2.work.scalarOperations,12);
 });
 
 test('JSON-normalized bit-identity: no-flag run == explicit k=0 run (k=2 differs only via behavior)',()=>{
@@ -169,16 +169,12 @@ test('sources closure resolves inside repo (import-path regression guard)',()=>{
   assert.ok(s['scripts/mate-attract-v4.mjs']&&s['learning/taste-energy.mjs']&&s['learning/taste-experiment.mjs']);
 });
 
-test('bank builds 54-unique in tmp; rebuild refuses (pre-bank form)',()=>{
+test('post-bank guard: 438001-438054 spent (rebuild refuses)',()=>{
+  // Bank fresh-05 is BUILT (evidence/mate-attract-dev/fresh-05/); the spent-bank
+  // guard must now refuse any rebuild touching 438001-438054. Pre-bank this test
+  // built 54-unique in tmp and verified rebuild-refusal (13/13 green at freeze).
   const dir=mkdtempSync(join(tmpdir(),'mate-attract-v4-bank-'));
-  const p=mateAttractV4Bank(join(dir,'protocol.json'));
-  assert.equal(p.experiment,'mate-attract-v4');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  assert.ok(flat.includes(438001)&&flat.includes(438054));
-  const p2=mateAttractV4Bank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p);
+  assert.throws(()=>mateAttractV4Bank(join(dir,'protocol.json')),/already used/);
 });
 
 test('checkpoint/restore preserves gated taxis (JSON-unsafe -Infinity recomputed)',()=>{

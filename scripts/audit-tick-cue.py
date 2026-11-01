@@ -182,7 +182,7 @@ class AuditWorld:
         outputs = [math.tanh((attraction+matePull if accept else -(attraction+matePull)+.8*raw[0])+wall),
                    -1 if action >= 2 else 0, 1 if accept else -1, -1, 0]
         same(event['outputs'], outputs, 'motor output')
-        state['work']['scalarOperations'] += 10 if accept else 13  # V4: +1 gate mul
+        state['work']['scalarOperations'] += 12 if accept else 15  # ML1: +2 leave muls (was V4 +1 gate mul)
         CORE['bill'](state, self.pricing)
         charge = state['charge']
         charge['storageBytes'] = CORE['encoded_bytes'](state)

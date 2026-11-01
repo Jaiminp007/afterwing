@@ -216,6 +216,8 @@ export function validateConfig(c){
   if(c.matingRangeMultiplier!==undefined&&(!Number.isFinite(c.matingRangeMultiplier)||c.matingRangeMultiplier<=0))throw Error('Invalid mating-range multiplier');
   if(c.mateAttractBias!==undefined&&(!Number.isFinite(c.mateAttractBias)||c.mateAttractBias<0))throw Error('Invalid mate-attraction bias');
   if(c.mateAttractEnergyGate!==undefined&&(!Number.isFinite(c.mateAttractEnergyGate)||c.mateAttractEnergyGate<0))throw Error('Invalid mate-attraction energy gate');
+  if(c.mateLeaveBias!==undefined&&(!Number.isFinite(c.mateLeaveBias)||c.mateLeaveBias<0))throw Error('Invalid mate-leave bias');
+  if(c.mateLeaveGate!==undefined&&(!Number.isFinite(c.mateLeaveGate)||c.mateLeaveGate<0))throw Error('Invalid mate-leave energy gate');
   if(c.challengeStartTick!==undefined&&(!Number.isInteger(c.challengeStartTick)||c.challengeStartTick<0))throw Error('Invalid challenge start');
   for(const [k,min,max] of [['seed',1,4294967295],['founders',2,500],['capacity',2,2000]])if(!Number.isInteger(c[k])||c[k]<min||c[k]>max)throw new Error(`Invalid ${k}`);
   if(c.capacity<c.founders)throw new Error('Capacity must cover founders');

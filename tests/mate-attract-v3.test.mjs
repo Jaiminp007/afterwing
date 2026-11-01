@@ -118,12 +118,12 @@ test('scripted steering proof: k=2 turns toward a lateral mate, k=0 ignores (sig
   // Avoidance branch: negated mate pull (turn away).
   const t2a=motorPrimitive(rawRight,-1,false,2);
   assert.ok(t2a[0]<0,'avoidance must turn away from the mate side');
-  // Absolute billing: approach 10, avoidance 13 (V2 +3 mate ops, V4 +1 gate mul, unconditional).
+  // Absolute billing: approach 12, avoidance 15 (V2 +3 mate ops, V4 +1 gate mul, ML1 +2 leave muls, unconditional).
   // tickMotor bills exactly these counts on a minimal state (runner call-shape mirror).
   const s1={work:{scalarOperations:0}};tickMotor(s1,[0,0,0,0,0.5,0,0,0,1,0,0,0,0,0,0,0,0],0);
-  assert.equal(s1.work.scalarOperations,10);
+  assert.equal(s1.work.scalarOperations,12);
   const s2={work:{scalarOperations:0}};tickMotor(s2,[0,0,0,0,0.5,0,0,1,0,0,0,0,0,0,0,0,0],1);
-  assert.equal(s2.work.scalarOperations,13);
+  assert.equal(s2.work.scalarOperations,15);
 });
 
 test('JSON-normalized bit-identity: no-flag run == explicit k=0 run (k=2 differs only via behavior)',()=>{

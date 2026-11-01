@@ -51,18 +51,28 @@ export function cueObservation(raw, cue) {
   const obs=[...raw];obs[0]=cue[0];obs[1]=(cue[1]+1)/2;obs[2]=(cue[2]+1)/2;obs[3]=(cue[3]+1)/2;
   obs[12]=raw[3];return obs;
 }
-export function motorPrimitive(raw, action, slow=false, mateBias=0, gateThr=-Infinity) {
-  assert.ok([-1,1].includes(action));assert.ok(Number.isFinite(mateBias));assert.ok(typeof gateThr==='number');
+export function motorPrimitive(raw, action, slow=false, mateBias=0, gateThr=-Infinity, leaveBias=0, leaveThr=-Infinity) {
+  assert.ok([-1,1].includes(action));assert.ok(Number.isFinite(mateBias));assert.ok(typeof gateThr==='number');assert.ok(Number.isFinite(leaveBias));assert.ok(typeof leaveThr==='number');
   const attraction=2*(raw[2]-raw[1]), wall=1.8*(raw[10]-raw[11]);
   // Null-default: mateBias scales ONLY the mate-steering term (food/wall/cruise untouched).
   // V4 departure gate: taxis disengages when raw[4] (energy) < gateThr; -Infinity default = always open (V2 behavior exactly: k*1===k).
   // Computed unconditionally: identical code path and op counts for all arms (symmetric billing).
   // Gate adds EXACTLY one unconditional mul (k×gate) vs V2: approach 9→10, avoidance 12→13.
   // The gate comparison itself is unbilled (precedent: branch conditions unpriced).
+  // ML1 leave rule: cancel the food turn while losing AND poor (stateless rule on
+  // existing dims raw[13]=lastFood, raw[4]=energy; lastFood thr frozen at 0, energy
+  // ref leaveThr=bar/120; defaults (k_L=0, thr=-Inf) preserve behavior exactly.
+  // Computed unconditionally: identical code path and op counts for all arms.
+  // Leave adds EXACTLY two unconditional muls (k_L×gate, ×diff; diff sub shared
+  // with attraction) vs V4: approach 10→12, avoidance 13→15.
+  // Gate comparisons unbilled (precedent: branch conditions unpriced).
   const gate=raw[4]>=gateThr?1:0;
   const kEff=mateBias*gate;
   const matePull=kEff*(raw[8]-raw[7]);
-  const turn=Math.tanh((action>0?attraction+matePull:-(attraction+matePull)+.8*raw[0])+wall);
+  const leaveGate=(raw[13]<0&&raw[4]<leaveThr)?1:0;
+  const kEffL=leaveBias*leaveGate;
+  const leavePull=-kEffL*(raw[2]-raw[1]);
+  const turn=Math.tanh((action>0?attraction+matePull+leavePull:-(attraction+matePull+leavePull)+.8*raw[0])+wall);
   return [turn,slow?-.7:0,action>0?1:-1,-1,0];
 }
 function fixedState(id,seed,knowledge=null){return {agentId:id,config:{fixed:true},weights:[],eligibility:[],history:[],pending:null,recent:[],older:[],olderSeen:0,
@@ -125,9 +135,9 @@ export class CueExperiment {
       s.actuator.decisions++;
         if(learned(this.arm))this.emit({program:'observation-receipt',type:'own',arm:this.arm,agentId:fly.id,tick,observation,physicalEnergy:fly.energy,observedEnergy:own.energy,outstandingEnergy:own.energy===fly.energy?0:fly.energy-own.energy});
       }
-      // Arithmetic/transcendental operations in motorPrimitive: ten for
-      // approach, thirteen for avoidance (+3 mate-steering +1 gate mul, unconditional). Constants/assignments are unpriced.
-      if(this.arm!=='incumbent'){const work=s.actuator.heldAction>0?10:13;s.actuator.ticks++;s.actuator.scalarOperations+=work;s.work.scalarOperations+=work;}
+      // Arithmetic/transcendental operations in motorPrimitive: twelve for
+      // approach, fifteen for avoidance (+3 mate-steering +1 gate mul +2 leave muls, unconditional). Constants/assignments are unpriced.
+      if(this.arm!=='incumbent'){const work=s.actuator.heldAction>0?12:15;s.actuator.ticks++;s.actuator.scalarOperations+=work;s.work.scalarOperations+=work;}
       const bill=this.arm==='incumbent'?{energyCost:0}:chargeForStep(s,this.pricing);
       return {...bill,afterController:outputs=>{if(this.arm!=='incumbent'){const action=motorPrimitive(raw,s.actuator.heldAction,this.arm==='slowAccept');for(let j=0;j<5;j++)outputs[j]=action[j];}},
         afterStep:r=>{const old=this.receipts[fly.id];if(old){old.finalEnergy=r.finalEnergy;old.cost+=r.cost;old.paidExtra+=r.paidExtra;old.beneficialEaten+=r.beneficialEaten;old.harmfulEaten+=r.harmfulEaten;old.toxinDamage+=r.toxinDamage;old.steps++;old.storageByteSeconds+=s.charge.storageBytes*.1;}
