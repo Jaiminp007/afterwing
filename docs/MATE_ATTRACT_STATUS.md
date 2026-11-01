@@ -33,3 +33,12 @@
 - Verdict: **MATE-ATTRACT-NOGO-V2** (attract gen-2 2 vs spread 3, births 31v33; firstMatingTick 4/6 identical — encounters on the same schedule; hub anchor 6).
 - Line + arc CLOSED: sensing bypassed + steering inert → bottleneck is downstream (encounter→birth conversion / birth→gen-2 survival), not encounter rate.
 - Results: `docs/MATE_ATTRACT_RESULTS_V2.md`. Cumulative program spend: 7857.
+
+## V3 (hub taxis interaction, NOGO 2026-11-02)
+
+- Plan: `docs/MATE_ATTRACT_PLAN_V3.md` (Emlen-Oring interaction cell; no new engine work — k=2 knob reused verbatim).
+- Implement: per-arm topo/bias maps + dose-shaped contrast verdict + 11/11 fixtures incl. scripted steering + JSON-normalized bit-identity + absolute billing mirror; targeted triage green (zero shared-file changes); fresh bank 437001–437054.
+- Attempt-04 (single, authorized, 2026-11-02): 18 mains / 0 probes / 3.37e9 ops, clean pass.
+- Verdict: **MATE-ATTRACT-NOGO-V3** (hubAttract gen-2 0 vs hub 4; births uniform-low 19 vs variable 28; worst energy −42.2; timing unshifted).
+- Line + arc CLOSED: encounters exonerated across sensing (bypassed), steering (inert), and interaction (harmful) levels. Bottleneck is downstream energy→survival conversion.
+- Results: `docs/MATE_ATTRACT_RESULTS_V3.md`. Cumulative program spend: 7875.
