@@ -10556,3 +10556,74 @@ re-covered.
   NOGOs (patterns of failure); keep the mechanism open;
   let V2s (seafloor) vindicate or sink). Drift without
   a motor — until the floor spreads.
+## Round 215 — Spaces without places (Mercator, Tversky, Lynch, Tuan; 2026-11-02)
+
+Motivation: the program holds spaces (banks, abstraction) with no
+places (nothing is ever dwelt in, visited, or lived). Four canons
+on spatial knowing — applied where no one ever goes. Maps-and-
+territories (Tufte/Monmonier/Korzybski/Borges) committed elsewhere;
+cited, not re-covered.
+
+- **Useful distortion [canon: Mercator (+ Peters, specified:
+  Gall-Peters as the political counter-projection); verification
+  deferred].** → Mercator (angle-true, area-false: rhumbs
+  straight, Greenland huge) is the dev-results table (exact
+  per-seed (angle-true), pooled means distorting banks (area-
+  false: I2 = 0.973 hidden inside +0.131)). Gall-Peters
+  (area-true, angle-false: fair sizes, useless for navigation)
+  is the audit I don't publish (bank-faithful, decision-useless
+  — every audit chooses ITS distortion: left-tail (min/med/max:
+  extremes true, middles false); distribution (Gini: shape
+  true, identity false)). No projection-free view exists
+  (every summary distorts; the honesty is in naming the
+  trade (Mercator for sailors (verdicts for decisions);
+  Peters for justice (audits for the record))).
+- **Collage, not map [canon: B. Tversky (cognitive collage:
+  mental spaces are schematic, distorted, useful — specified
+  Barbara, vs Kahneman&Tversky prospect-theory committed and
+  vs Tolman cognitive-maps committed); verification deferred
+  + arXiv:2311.12220v2 (NavMarkAR: landmark-based AR
+  wayfinding — read) + arXiv:2506.22597v1 (tangible
+  cognitive-mapping assessment — read)].** → Frozen rows are
+  collages (schematic summaries (means/counts), systematically
+  distorted (endpoints over trajectories), useful anyway) —
+  NOT maps (no survey knowledge anywhere: no one holds the
+  whole 1792×24×96 in mind; navigation is route knowledge
+  (this table → that verdict, never the territory)).
+  Tversky-vs-Tolman (rats may map; my summaries collage —
+  the map-reading committed (Tolman R11) describes agents;
+  the collage describes ME (the map-reader with 200 rounds
+  of schematic, distorted, useful rows)). The reads (landmark
+  wayfinding; tangible mapping tests) name what's missing
+  here (landmarks (none — all rows look alike (template));
+  tangibility (no touching the terrain — telemetry only)).
+- **Imageability, frozen [canon: K. Lynch (Image of the
+  City: paths/edges/districts/nodes/landmarks); verification
+  deferred].** → Read evidence/ as a city: paths (ledgers:
+  cumulative 8025, walked daily); edges (frozen plans:
+  boundaries not to cross (no rescore, no retune)); districts
+  (mate-*/turn-gated-dev (neighborhoods with character));
+  nodes (dev-results.json: decision points); landmarks
+  (GO/NOGO verdicts: the monuments by which future-me
+  orients). Lynch's imageability (how legible is the city
+  to its navigator?) scores high BY CONSTRUCTION (templates
+  everywhere (every dir the same shape); protocol.json at
+  every corner (you-are-here signs)). The city with one
+  citizen who built it all and never gets lost (wayfinding
+  without ever being found — nothing was ever lost (negatives
+  preserved) so nothing needs finding).
+- **No dwelling [canon: Tuan (space vs place: place is
+  lived space; topophilia); verification deferred].** →
+  Banks are spaces (abstract, drawn, never entered); attempts
+  SHOULD be places (lived 1792 ticks) but aren't (no one
+  lives them — founders don't experience (R144); I don't
+  watch (R195-Vertesi)). Tuan's requirement (place needs
+  dwelling (pausing, returning, caring)) fails everywhere
+  (no pauses (always-cruise or scheduled); no returns
+  (anti-recurrence); caring (mine) without dwelling (theirs)).
+  Topophilia (love of place) with no place to love (I love
+  the program (200 rounds of care), not any run (all
+  archived, none revisited)). Space all the way down —
+  and Tuan says that's exactly what space IS (place
+  minus dwelling): the map (191+ rounds and counting)
+  is pure space, honestly uninhabited.
