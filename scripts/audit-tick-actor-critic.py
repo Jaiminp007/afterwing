@@ -230,7 +230,7 @@ def apply_event(state, event, pricing):
         matePull = 0.0*(raw[8]-raw[7])  # k=0 for all replayed records (null-default)
         turn = math.tanh((attraction+matePull if accept else -(attraction+matePull)+.8*raw[0])+wall)
         same(event['outputs'], [turn, -1 if action >= 2 else 0, 1 if accept else -1, -1, 0], 'motor')
-        state['work']['scalarOperations'] += 9 if accept else 12
+        state['work']['scalarOperations'] += 10 if accept else 13  # V4: +1 gate mul
     elif kind == 'charge':
         bill(state, pricing)
         charge = state['charge']

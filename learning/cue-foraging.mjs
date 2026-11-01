@@ -51,13 +51,17 @@ export function cueObservation(raw, cue) {
   const obs=[...raw];obs[0]=cue[0];obs[1]=(cue[1]+1)/2;obs[2]=(cue[2]+1)/2;obs[3]=(cue[3]+1)/2;
   obs[12]=raw[3];return obs;
 }
-export function motorPrimitive(raw, action, slow=false, mateBias=0) {
-  assert.ok([-1,1].includes(action));assert.ok(Number.isFinite(mateBias));
+export function motorPrimitive(raw, action, slow=false, mateBias=0, gateThr=-Infinity) {
+  assert.ok([-1,1].includes(action));assert.ok(Number.isFinite(mateBias));assert.ok(typeof gateThr==='number');
   const attraction=2*(raw[2]-raw[1]), wall=1.8*(raw[10]-raw[11]);
   // Null-default: mateBias scales ONLY the mate-steering term (food/wall/cruise untouched).
+  // V4 departure gate: taxis disengages when raw[4] (energy) < gateThr; -Infinity default = always open (V2 behavior exactly: k*1===k).
   // Computed unconditionally: identical code path and op counts for all arms (symmetric billing).
-  // matePull costs sub+mul (2) + 1 inclusion add per branch = +3 both branches.
-  const matePull=mateBias*(raw[8]-raw[7]);
+  // Gate adds EXACTLY one unconditional mul (k×gate) vs V2: approach 9→10, avoidance 12→13.
+  // The gate comparison itself is unbilled (precedent: branch conditions unpriced).
+  const gate=raw[4]>=gateThr?1:0;
+  const kEff=mateBias*gate;
+  const matePull=kEff*(raw[8]-raw[7]);
   const turn=Math.tanh((action>0?attraction+matePull:-(attraction+matePull)+.8*raw[0])+wall);
   return [turn,slow?-.7:0,action>0?1:-1,-1,0];
 }
@@ -121,9 +125,9 @@ export class CueExperiment {
       s.actuator.decisions++;
         if(learned(this.arm))this.emit({program:'observation-receipt',type:'own',arm:this.arm,agentId:fly.id,tick,observation,physicalEnergy:fly.energy,observedEnergy:own.energy,outstandingEnergy:own.energy===fly.energy?0:fly.energy-own.energy});
       }
-      // Arithmetic/transcendental operations in motorPrimitive: nine for
-      // approach, twelve for avoidance (+3 mate-steering ops, unconditional). Constants/assignments are unpriced.
-      if(this.arm!=='incumbent'){const work=s.actuator.heldAction>0?9:12;s.actuator.ticks++;s.actuator.scalarOperations+=work;s.work.scalarOperations+=work;}
+      // Arithmetic/transcendental operations in motorPrimitive: ten for
+      // approach, thirteen for avoidance (+3 mate-steering +1 gate mul, unconditional). Constants/assignments are unpriced.
+      if(this.arm!=='incumbent'){const work=s.actuator.heldAction>0?10:13;s.actuator.ticks++;s.actuator.scalarOperations+=work;s.work.scalarOperations+=work;}
       const bill=this.arm==='incumbent'?{energyCost:0}:chargeForStep(s,this.pricing);
       return {...bill,afterController:outputs=>{if(this.arm!=='incumbent'){const action=motorPrimitive(raw,s.actuator.heldAction,this.arm==='slowAccept');for(let j=0;j<5;j++)outputs[j]=action[j];}},
         afterStep:r=>{const old=this.receipts[fly.id];if(old){old.finalEnergy=r.finalEnergy;old.cost+=r.cost;old.paidExtra+=r.paidExtra;old.beneficialEaten+=r.beneficialEaten;old.harmfulEaten+=r.harmfulEaten;old.toxinDamage+=r.toxinDamage;old.steps++;old.storageByteSeconds+=s.charge.storageBytes*.1;}
