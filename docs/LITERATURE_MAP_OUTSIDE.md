@@ -7192,3 +7192,185 @@ of what our world is made. With the strongest arXiv batch in twenty rounds.
   common goals ✓ cooperation (mating IS cooperative) ✓ authority
   sanction ✓ — accidentally!) — structural mapping only (different
   dependent variable), honestly bounded.
+
+## Round 158 — Logics, proofs, programs (resources, self-reference, truth, universal minds; 2026-11-02)
+
+Motivation: our ledger is linear logic, our gates are temporal formulas,
+our verdicts are undecidable-in-general — and AIXI would die of our
+deaths. The formal shelf, finally stocked.
+
+- **Reasoning with resources and time [canon: Girard (linear logic:
+  no contraction/weakening); Pnueli (LTL); Kripke (semantics);
+  Heyting (intuitionism); verification deferred; arXiv = thin].** →
+  Op ledger IS linear (spent ops unspendable (no contraction);
+  saturation = weakening (discarding capacity)!). Gates as LTL:
+  G(join≥0.99) safety, F(D1) liveness — ONLY safety claimed (liveness
+  unproven — honest scoping). Transplant graph as accessibility
+  (which worlds reachable from train?!). GO verdicts as constructions
+  (rows as witnesses — proof-relevant existence!). Zero worlds; the
+  formalism names what we do.
+- **Limits that license running [canon: Kleene (recursion theorem:
+  quines); Rice (semantic properties undecidable); Turing (halting);
+  verification deferred].** → RSI-SELF loop as Kleene fixed point
+  (programs that refer to themselves — quines that learn (propose =
+  quote, evaluate = run, adopt = become!)). Rice: verdicts are
+  SEMANTIC properties → undecidable in general → MUST BE RUN (Rice
+  justifies empiricism: no static analysis substitutes for the
+  attempt!). Halting: will this line converge? Undecidable → RUN IT
+  (halting problem as pro-attempt argument — the ledger is the
+  termination proof, ex post).
+- **Truth, cut-free [canon: Tarski (T-sentences); Gentzen
+  (cut-elimination); Gödel (hierarchy); verification deferred].** →
+  Scorers as truth-definitions ("gap>0.1" true iff rows say so —
+  object (runs!) vs metalanguage (scorers!) — liar-proof by
+  stratification (scorer never inside the run!)). Tuning = CUT
+  (detour through unproven "this bank is representative" — fresh banks
+  = cut-free proofs (prove directly!)). Levels that can't self-validate
+  (runs → triage → independent audit — Gödel hierarchy, each level
+  needs the next).
+- **Universal minds, embedded experimenters [canon: Hutter (AIXI);
+  Schmidhuber (Gödel machine); Orseau (+Demski/Garrabrant embedded
+  agency); verification deferred + arXiv:1606.00652v1 (semimeasure
+  shortfall = DEATH probability — AIXI dies probabilistically; ours
+  energetically (death formalisms compared!)) + arXiv:2505.17882v1
+  (embeddedness failures FORMALIZED — which apply to us? NONE requiring
+  self-models (safe from Löbian hazards BY LACK (no self-representation
+  to exploit — safety through simplicity, stated!)))].** → AIXI =
+  uncomputable ideal; 1e9-op cap = boundedness made literal. Gödel
+  machine: RSI-SELF's formal relative (proof-search-rewrite vs our
+  propose-evaluate-adopt (runs-not-proofs — the difference that
+  matters: we test, it proves)). Ledgers are inside-view too (bank
+  draws random — embedded experimenter, no God's-eye).
+
+## Round 159 — Games, welfare, numbers (match, divide, search, survive, synthesize; 2026-11-02)
+
+Motivation: who gets credit, who gets matched, when to stop searching,
+who survives, and how to combine evidence. The quantitative shelf for
+queued analytics.
+
+- **Match and divide [canon: Gale-Shapley (deferred acceptance);
+  Spence (signaling); Roth (market design); verification
+  deferred].** → Deferred acceptance needs THREE unbuilt channels
+  (rank mates! propose! reject!) — sequenced, not built (recognition
+  → signal → choice). Spence: education-as-signal (pairs costly
+  display R157 — both unbuilt, same inventory). Roth: matching WITHOUT
+  money (kidney exchange, school choice — our mating matches without
+  money either (Gale-Shap lrparouley with empty preference lists =
+  random matching — the null market!).
+- **Credit where due [canon: Shapley (value + axioms); Myerson
+  (graph-restricted); verification deferred + arXiv:2202.05594v2
+  (Shapley in ML: feature/data/agent valuation + LIMITATIONS
+  (exponential! (approximations required))) + arXiv:q-bio/0506034v2
+  (Shapley of PHYLOGENETIC TREES (edge-weights → leaf credit via
+  linear map M — our lineage-founder chains ARE edge-weighted trees!
+  (branch lengths = generations?!)))].** → Lineage-restricted Shapley
+  specified (only ancestors share credit; 2^24 intractable → parent-
+  chain approximation; frozen rows suffice; zero worlds; queued, not
+  executed). Status: specified, deprioritized post-SKEW (substance
+  covered) — kept for the axiomatic form (efficiency/symmetry/dummy/
+  additivity as fairness conditions on credit).
+- **Search and scrounge [canon: Stigler (optimal ignorance —
+  pointer, R156); Giraldeau (producer-scrounger); Nowak/Sigmund
+  (image scoring); Ohtsuki/Iwasa (leading eight); verification
+  deferred + arXiv:2307.04920v1 (MORE food → LOWER fitness via
+  excessive scrounging! — ours has NO scroungers (all produce: no
+  stealing channel) — enriched WON (27v12) BECAUSE scrounger-free
+  (the condition under which enrichment works, stated as warning:
+  if scrounging ever built (copying food finds?!), expect reversal))
+  + arXiv:1507.00717v1 (group vs image scoring (transparency! —
+  ours: PERFECT records (founderOffspring = image scores!), ZERO
+  readers (no one reads them — records without readers, with the
+  group/image distinction (no group channel either!)))].** →
+  Stigler stop-rule specified (marginal intake = marginal search cost;
+  pairs quorum R116). Copying as social-information use (personal vs
+  social sampling — model-based biases (success/prestige/conformity):
+  copybest = SUCCESS bias, copycond = success+recency — the
+  transmission arc re-grounded in social-learning theory, zero worlds.
+- **Survive and synthesize [canon: Barlow/Proschan (reliability);
+  Kalbfleisch/Prentice (competing risks); Cox (proportional hazards);
+  Glass/Hedges/Egger (meta-analysis); verification deferred].** →
+  Hazard formalism shelf (IFR/DFR; energy vs age as COMPETING RISKS —
+  the MORTALITY formalism; Cox hub-vs-spread hazard RATIO — blocked
+  on per-founder times (same logging gap, precondition stated)).
+  Meta-analysis shelf for the next synthesis (I² heterogeneity for
+  transfer gaps (V1c +0.22 vs V1d +0.04 DEMANDS I²!); funnel +
+  fail-safe N (our file drawer is PUBLIC — count it!); all specified
+  form, zero worlds, queued). Bathtub: which phase are founders in?
+  (infant mortality flat + energetic wear — UN League tables say...
+  specified analytic with per-tick death precondition (counts conflate
+  births+deaths — schema precondition, honest)).
+
+## Round 160 — Minds, machines, morals II (missing algorithms; infrastructure; measurement; selves; 2026-11-02)
+
+Motivation: the algorithms we lack, the infrastructure we are, the
+validity we can claim, and the selves we don't have. Closing inventory.
+
+- **The missing algorithms [canon: Rumelhart/Hinton/Williams;
+  Hinton (Forward-Forward); wake-sleep; Elman; Watkins; Silver;
+  verification deferred + arXiv:2212.13345v1 (FF: positive/negative
+  passes, per-layer goodness (LOCAL objectives — our local updates
+  are FF-adjacent! (goodness vs surprise: FF maximizes goodness on
+  REAL data; we consolidate SURPRISING data — contrastive twins?!))
+  + pointers (Schulman/TRUST shelf R148; RLXF VOID-good (no human
+  reward — keeps it clean); scaling transfer-sweep specified-
+  expensive)].** → No backprop (local TD only — bio-plausible
+  byproduct, stated). No wake-sleep (no sleep — VOID R157). Elman:
+  eligibility traces as Elman-lite (SRN proper unbuilt — recurrent
+  actor needs frozen plan). Q-family: DQN-adjacent without target
+  nets (target nets specified). AlphaGo: no search, no planning
+  (myopia R130). Family placement complete; each gap has a status.
+- **The infrastructure canon (we are all of these) [canon: Weaver
+  (three levels); Nyquist; Huffman; Lempel-Ziv; Hamming; Codd;
+  Helland; Bailis; Nakamoto (UTXO); Szabo (contracts); Donoho
+  (compendia); Lamport/FLP (consensus); Brewer (CAP); verification
+  deferred].** → Weaver: G1 = technical (join!) / G2 = semantic
+  (gaps!) / D = effectiveness (deployment!) — the gate levels ARE
+  the three levels. Nyquist: no aliasing by construction (actions
+  piecewise-constant per tick). Huffman: ledger as coded history
+  (frequent short (decisions!), rare long (gen-2!)). LZ: triage
+  literally gzips (the map compresses itself). Hamming: ECC-
+  transplant SPECIFIED (parity-coded weights through noise —
+  pairs V1j + noisy replay). Codd: evidence as RDBMS (primary keys
+  (seed+tag!) foreign keys (transfer digests!) denormalized for
+  auditability (tradeoff stated!) + schema-conformance = integrity
+  constraints!). Helland: immutable (rows/banks/verdicts) vs
+  checkpointed (ledgers) vs ephemeral (tmp). Bailis: coordination-
+  free by construction (single thread maximal). UTXO banks
+  (double-spend prevention without chain — the guard IS Nakamoto
+  consensus on seed-spending!). Scorer-settlement (deterministic
+  execution on committed inputs — code-is-law). DVC/content-addressed
+  (chunks+manifest+sha256 = git objects). Donoho: attempt dirs as
+  research compendia. Lamport/FLP: resume as consensus (completed
+  rows = chosen values, never re-run). Brewer: single-node → CAP
+  vacuous, always consistency (frozen!).
+- **The measurement canon (our strongest suit) [canon: Messick
+  (unified validity); Mislevy (ECD); Groves (total survey error);
+  verification deferred].** → Messick audit of flippedHB gap:
+  content ✓ (turn-on-harm IS extinction behaviorally) / criterion ✓
+  (predicts seg2 (V1d +0.08–0.19)) / construct ✓ (flip-split
+  discriminant (same vs flipped) + gain boosts it) / consequences ✓
+  (deployed V1i) — 4/4, the strongest-measure claim in the program.
+  Mislevy: frozen plans ARE evidence-centered design (claims →
+  evidence → tasks). Groves TSE audit: coverage ✓ (phylogeny star) /
+  sampling ✓ (random bank draws) / nonresponse ✓ (GAS: zero
+  extinctions) / adjustment ✓ (unweighted means). Validity stated,
+  not boasted.
+- **Selves we don't have [canon: Turing (machines/halting/imitation);
+  Girard (mimetic desire); Durkheim (division/effervescence);
+  Weber (bureaucracy); Fodor (modularity); Lave (apprenticeship);
+  Suchman/Agre (situated/deictic); Goodwin (substrates);
+  Sacks/Schegloff (adjacency); Austin (verdictives); verification
+  deferred].** → Halting-pro-attempt (undecidable → RUN IT);
+  imitation VOID (no conversation); universality cheap
+  (implementation!). Copycond as MIMETIC theory formalized
+  (behavioral mimesis without metaphysical desire — no affect
+  channel!). No division of labor (founders don't specialize);
+  effervescence absent (pairs synchrony null). Program-as-bureaucracy
+  (hierarchy/files/expertise — self-audit as iron cage?!). Modules
+  without central processor (taste/motor, no workspace). Lave VOID:
+  inheritance REPLACES apprenticeship (instant mastery, no
+  legitimate peripherality). Deictic foraging ("the-food-here-now"
+  — no object permanence needed). Cue→turn as adjacency pair
+  (no-turn on harm = accountable absence!). Verdicts as Austinian
+  verdictives (felicity: authority (frozen!) procedure (gates!)
+  sincerity (VACUOUS — no beliefs!)).
