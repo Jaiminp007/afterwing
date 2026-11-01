@@ -5994,3 +5994,134 @@ names the distribution.
   (despotic outcome, metabolic mechanism, no behavior). Re-read of GAS +
   SKEW, zero worlds; the distribution formalizes what the measurements
   already proved.
+
+## Round 132 — Care, conflict, help (parental care, sexual conflict, cooperative breeding, assortment; 2026-11-02)
+
+Motivation: our reproduction has mating without dimorphism, birth
+without care, and helpers that don't help. The care/conflict literatures
+say which absences are load-bearing.
+
+- **Care needs a channel first [canon: Trivers (parental investment);
+  Clutton-Brock; Gross & Sargent; verification deferred].** → Care
+  evolves past cost/benefit thresholds — but the BEHAVIORS (feed, guard,
+  carry) need an interaction channel that doesn't exist (same inventory:
+  no courtship, no aggression, no provisioning). Specified sequence:
+  channel → care → conflict. Building care before channels is putting
+  the conflict before the contact. No instrument; the sequence is the
+  prescription for any care line.
+- **Conflict needs dimorphism [canon: Parker; Arnqvist & Rowe
+  (antagonistic coevolution); Chapman; Holland & Rice; verification
+  deferred + pointer 1807.09131v1 (already mapped) + arXiv:1906.12047v1
+  (grandmothering resolves sexual-conflict equilibria on longevity +
+  last-birth: two stable equilibria, transition enabled by helpers —
+  pairs R126)].** → Our sexes are code-identical (i%2, no dimorphism,
+  symmetric tallies) — sexual conflict has no substrate BY CONSTRUCTION.
+  The sexes-differ line needs dimorphism first (size, role, or cost
+  asymmetry — specified-not-executed). 1906.12047v1's transition moral
+  (helpers enable regime shifts) is recorded for any dimorphism line.
+- **Sex for AI, our lines as data [arXiv:2609.18560v1 (evolution of
+  sex FOR AI: model populations as sexual/asexual reproduction —
+  specialization, retraining on peers, weight-averaging as generations;
+  tested in exact-inheritance models + RNNs/VAEs/LLMs)].** → The direct
+  import: our mating arc IS a multigenerational model population (exact
+  maternal copy = asexual; MLR1 uniform crossover = sexual). MLR1's
+  neutral crossover (4v5, neither rescue nor catastrophe) is a DATA POINT
+  for their framework (when sex helps in model populations). Pair
+  recorded both ways (their theory bounds our next recombination line;
+  our null constrains their conditions).
+- **Helpers that don't help, expected [canon: Emlen; Koenig &
+  Dickinson; Komdeur; Hatchwell & Komdeur (helpers-at-nest ecology);
+  verification deferred; pointer (line 4162) expanded].** → The
+  GRANDMOTHER null (survivors predict nothing) is EXPECTED under zero
+  care: alloparenting needs the provisioning channel (absent). No
+  paradox, no revision — the null confirms the architecture.
+- **Assortment: specified, schema-blocked [canon: Jiang et al.
+  (assortative mating); verification deferred; our-context pointer
+  (line 3766)].** → Do mates resemble each other? Parents arrays are
+  logged per newborn — but founder phenotypes (weights) are not persisted
+  in mating rows (turn-gate rows kept weights; mating rows don't, to
+  confirm). Test specified with schema precondition (persist founder
+  weights or a phenotype digest); blocked until then. One line.
+
+## Round 133 — Cooperation without kin (indirect/strong reciprocity, gossip, shared intent; 2026-11-02)
+
+Motivation: our agents meet repeatedly, remember nobody, signal nothing,
+and punish never. The cooperation literatures run entirely on the
+channels we lack — which makes this round a structural inventory with
+one re-read.
+
+- **Records without readers [canon: Nowak & Sigmund (image scoring);
+  Ohtsuki & Iwasa (leading eight); verification deferred +
+  arXiv:1910.03918v1 (SIMPLE RECORDS: own-behavior-only tallies support
+  ROBUST indirect reciprocity where image-scoring fails — informationally
+  robust under coordination motives) + arXiv:2303.04467v1
+  (upstream+downstream reciprocity INTEGRATED) + arXiv:2404.10121v1
+  (fast reputational dynamics under the slow strategy dynamics)].** →
+  The re-read: our ROWS are 1910.03918v1 records (own-behavior tallies,
+  no partner-tracking — exactly the robust form). But no cooperation
+  dilemma exists to solve (no reciprocity channel: no recognition, no
+  memory of others, no returned favors). Records without readers. The
+  unbuilt pair: partner-recognition + record-reading (who-mated-whom
+  directory — pairs transactive memory, R123). Specified-not-executed.
+- **Punishment and proposals: inventory [canon: Gintis (strong
+  reciprocity); Fehr & Gachter (altruistic punishment); Guth (ultimatum
+  game); verification deferred].** → Punishment exists in our MAP (R101
+  institutions) but not our SUBSTRATE (no punishment channel — no way to
+  harm a cheat at a cost). Ultimatum needs proposal/response roles
+  (unbuilt). Structural absences recorded; the R101 prescription (build
+  institutions) inherits this channel prerequisite.
+- **The communication stack: entirely absent [canon: Dunbar (gossip);
+  Tomasello 2014 expansion → shared intentionality; Premack & Woodruff
+  / Baron-Cohen (theory of mind); verification deferred].** → No
+  agent-to-agent signal channel exists (mating is proximity-triggered,
+  never signaled; agents sense food/cues, never each other). Gossip,
+  shared intentionality, and ToM ALL presuppose a signal channel —
+  one absence rules out three literatures at once. The inventory's
+  cheapest high-value addition (a single-bit broadcast channel) is
+  specified-not-executed — it would unlock gossip-grade (Dunbar),
+  record-sharing (R133-reciprocity), and signal-gated mating lines.
+
+## Round 134 — Alarm and affect (disgust, smoke detector, fever, constructed emotion; 2026-11-02)
+
+Motivation: our agents eat poison without disgust, defend without a
+detector theory, run no fever, and feel nothing. Four literatures cover
+each gap — two as re-reads, two as builds.
+
+- **Protodisgust, already learned [canon: Rozin (disgust as pathogen
+  avoidance); Curtis; Tybur (three-domain); verification deferred;
+  arXiv = 0 — searched-not-found, logged].** → Disgust is PRE-ingestive
+  rejection (smell → refuse); our agents do POST-ingestive damage (eat →
+  suffer). The turn|harmful policy (TURN-GATE: avoid on harmful cue) IS
+  protodisgust — our best-learned behavior re-read, zero worlds. The
+  unbuilt half: pre-ingestive REFUSAL (reject food before eating —
+  needs the interoceptive anticipatory channel, R130). Pair recorded.
+- **Turn-gating is a smoke detector [canon: Nesse (smoke detector
+  principle: cheap false alarms beat rare catastrophes); Bateson/Nettle
+  (anxiety); verification deferred; arXiv = 0 — searched-not-found,
+  logged].** → Re-read with prescription: turn-on-possible-harm pays
+  false-turn costs to avoid toxin costs — the G2 turn|ben vs turn|harm
+  asymmetry CALIBRATES the detector (receiver-operating curve, in
+  effect). Method import for future gating lines: pre-register
+  false-positive/false-negative costs explicitly (turn-gating lines
+  already live this; make it form).
+- **Fever: the regulated variable we lack [canon: Kluger (behavioral
+  fever); Blatteis; verification deferred; arXiv = 0 —
+  searched-not-found, logged].** → Fever RAISES the defended set-point
+  and PAYS for it (metabolic price — same pricing discipline as
+  arousal, R122). Our agents have NO defended set-point to raise (bars
+  are thresholds, not regulated variables). Specified-not-executed
+  generalization: regulated-variable framework (defended set-points
+  with prices) — bars become the special case (defend with zero
+  tolerance). Pairs sickness (R127) + arousal-price (R122).
+- **Valence without feelings [canon: Barrett (constructed emotion);
+  Russell (circumplex); Panksepp (SEEKING); Ekman (basic); verification
+  deferred + arXiv:2605.09522v1 (CO-CONSTRUCTED emotion between
+  embodied agents via collective predictive coding + naming game) +
+  arXiv:2310.19995v2 (emotional ToM fast/slow — pointer)].** →
+  Barrett constructs emotions from interoceptive predictions; our
+  closest construct is energy trajectory (R26). Energy-trajectory-as-
+  valence restated with Barrett license (specified, unbuilt — needs
+  the R26 channel). 2605.09522v1's co-construction needs communication
+  (absent channel, R133) — recorded as downstream of the signal
+  channel, correctly sequenced (channel → shared valence → co-constructed
+  categories).
