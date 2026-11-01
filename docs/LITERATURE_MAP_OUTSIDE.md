@@ -3715,3 +3715,300 @@ This round collects the literatures where variation PERSISTS under selection.
   parent–offspring conflict bioassay: conflict rises over weeks, independent of
   hunger/litter — STRUCTURAL) supports our decoupled-mating design reading:
   conflict/cooperation structure is architectural, not motivational.
+
+## Round 86 — why mate at all: the recombination-less critique (for the mating arc; 2026-11-02)
+
+Motivation: the mating arc (V1 through V1c, SOCIAL, encounter, proximity, attract,
+informed — dozens of mains) never states the canonical evolutionary reason mating
+exists. The ratchet literature does: sex/recombination halts the accumulation of
+deleterious mutations. Our transmission is maternal exact-copy plus injected noise —
+ASEXUAL with mutation — and our mating performs NO recombination. The outside-the-box
+verdict, before any new instrument: the whole null arc may be predicted, because the
+mating we built cannot do the one job mating is for.
+
+- **Muller's ratchet, traveling-wave theory [arXiv:0707.3469v2 (traveling-wave
+  expressions for ratchet rate and adaptation speed; stochastic edge of fittest
+  class) + arXiv:1303.2037v1 (ratchet clicks a.s. in finite time for ANY mutation
+  rate, toxicity, or population size) + arXiv:2007.14715v3 (quasi-stationary
+  metastability BETWEEN clicks) + arXiv:1110.2939v1 (rare beneficials can halt it;
+  static-environment stability = dynamic balance) + arXiv:1108.4059v3
+  (compensatory mutations; infinite-population limit)].** → Read our lineage data
+  against the ratchet: maternal transmission with per-element noise, no
+  recombination, small founder numbers — the exact ratchet regime, with clicks in
+  finite time GUARANTEED (1303.2037v1). Pooled V1b+V1c (mutant 4 vs exact 5): the
+  "mutant" arm injects MORE mutations without recombination to sort them — under
+  ratchet theory it should do WORSE or equal, never better. The V1c erasure is the
+  prediction, not the puzzle. Any future transmission design must either recombine
+  (crossover between parental vectors — unbuilt) or stop injecting noise it cannot
+  purge. Specified-not-executed.
+- **Recombination alleviates, conditionally [arXiv:1308.0962v4 (drift + selection
+  + recombination: for small and very large populations load depends weakly on
+  recombination; for MODERATELY LARGE populations recombination alleviates) +
+  arXiv:1810.07984v1 (interference of linked beneficial/deleterious mutations in
+  large asexuals) + arXiv:q-bio/0609046v3 (mutation-selection with general
+  recombination, infinite loci)].** → The population-size window matters: our
+  founder counts (tens) sit in the small-population regime where recombination
+  helps LEAST (drift dominates) — a second reason mating cannot rescue our lines
+  even if recombination were added. The 1308.0962v4 window says: recombination pays
+  at moderate N; our ecology would need bigger mating pools first (density works
+  against energy — the MATE-DENSE bind restated in population-genetic terms).
+- **Expansion load on the wave front [arXiv:1306.1652v1 (deleterious mutations
+  accumulate on range-expansion fronts; reduced fitness = expansion load, not
+  restricted to the edge) + arXiv:2607.12864v1 (can deleterious mutations surf
+  deterministic waves? reaction-diffusion spatial ratchet)].** → Our transplant
+  chains (TURN-GATE V1d–V1i carried weights segment to segment) ARE serial range
+  expansions: each transplant is a founder event at a wave front. Expansion load
+  predicts fitness erosion along the chain INDEPENDENT of the niche — read against
+  4x-means 0.59→0.71→0.81→0.82 (gains attributed to exposure could be net of a
+  hidden load). Analytic-only lens on existing seg rows (fit front-position decay),
+  zero new worlds.
+- **Encounter-network topology of mating [arXiv:1612.03729v1 (social-encounter
+  network: mean degree + choosiness raise assortative mating AND total matings;
+  exclusion-mediated selection raises mean attractiveness but is balanced by
+  offspring skew of attractive pairs)].** → The only arXiv model that fuses our
+  two variables (encounter topology + mate choice): degree (who you meet) and
+  choosiness (how you select) JOINTLY set assortative strength and mating count —
+  and attractive-pair offspring SKEW caps the response. Our encounter arms varied
+  degree (hub/duo/spread topologies) with choosiness fixed at zero (decoupled,
+  indiscriminate); the model predicts exactly our pattern (matings track degree,
+  no compounding from choice) and names the missing interaction (choosiness ×
+  degree, unbuilt — the Emlen–Oring split needs a choice knob, not just a rate
+  knob). Also: offspring skew as the V1b-thin-margin suspect (2/3 births on one
+  seed = skew, already flagged; the model makes skew structural).
+- **Courtship as non-payoff-monotonic game [arXiv:1508.03529v2 (evolutionary game
+  of courtship with non-payoff-monotonic dynamics)].** → Mating dynamics need not
+  follow payoff gradients — courtship games admit non-monotonic trajectories. Read
+  against our monotonic expectations (dose-response, GO bars): non-monotonicity is
+  licensed (V1c's duo hump is a legal shape, not a pathology). Supports the
+  weak-monotonicity verdict rule over strict ordering.
+- **Canon, searched-not-found on arXiv (logged).** Kondrashov (deterministic
+  mutation hypothesis for sex); Williams/Ghiselin tangled bank and lottery (sex
+  for uncertain environments — our static banks = no tangled-bank benefit, third
+  reason mating cannot pay here); Hamilton–Zuk (parasite-mediated good genes — our
+  ecology has no parasites, fourth reason); Fisher/Lande/Kirkpatrick runaway
+  (arXiv "runaway"/"good genes" return only noise); Hamilton 1967 LMC (local mate
+  competition in structured patches — our hub IS a fig-wasp patch without the
+  sex-ratio response). Four independent canonical benefits of mating, ALL absent
+  from our ecology by construction. The mating arc's nulls are overdetermined.
+
+## Round 87 — odor-gated reproduction (for ELSEWHERE sensing + Emlen–Oring; 2026-11-02)
+
+Motivation: our odor channels and mating channels are separate instruments that
+never interact (odor routes food; mating is proximity-gated, decoupled). Mammalian
+biology fuses them: male odor DIRECTLY drives female reproductive physiology
+(pubertal acceleration, estrus synchronization, pregnancy block, density
+suppression). The outside-the-box knob for the Emlen–Oring split is not a new
+proximity radius — it is odor-gated reproduction.
+
+- **Odor → reproductive physiology [canon: Whitten effect (male odor synchronizes
+  estrus); Vandenbergh effect (male odor accelerates puberty); Bruce effect
+  (strange-male odor blocks pregnancy); Lee–Boot effect (female-assembly odor
+  SUPPRESSES cycles at density); Wedekind (MHC-disassortative odor choice);
+  MUPs/scent marks (individual identity); all journal-bound, verification deferred;
+  arXiv "MHC mate"/exact-phrase = zero hits — searched-not-found].** → Four
+  distinct causal arrows from SMELL to births/timing, all missing from our engine:
+  (1) synchrony (Whitten — shared odor aligns windows; Moran-effect adjacent,
+  see R90); (2) acceleration (Vandenbergh — odor shortens time-to-first-mating,
+  our firstMatingTick descriptives never move); (3) block (Bruce — foreign odor
+  vetoes establishment; our INFORMED void has no veto channel); (4) suppression
+  (Lee–Boot — DENSITY suppresses reproduction via odor; our MATE-DENSE null
+  (−64 vs −59, zero births) is currently read as energy competition, but
+  density-suppression is the competing mechanism, distinguishable only by an odor
+  manipulation). Each arrow is a specified-not-executed instrument (odor-gated
+  bar/odor-gated mating probability, needs frozen plan).
+- **Optimal outbreeding as metastable equilibrium [arXiv:1011.0825v4 (species rest
+  on a metastable inbreeding↔outbreeding equilibrium) + arXiv:1511.03559v1
+  (environmental unpredictability + inbreeding depression jointly select for MIXED
+  dispersal syndromes) + arXiv:1801.07086v5 (sex-biased dispersal review)].** →
+  Our lineage-founder resolution (mating among co-located kin) is inbreeding by
+  another name; the literature says the answer is not panmixia but STRUCTURED
+  dispersal (mixed syndromes: some stay, some leave; often sex-biased). Our
+  verticalTransmission has no dispersal knob and no sex — the minimal unbuilt
+  variant is natal dispersal probability (newborn relocates with probability d),
+  with the 1511.03559v1 prediction (unpredictability favors mixed, not pure,
+  strategies — d strictly interior). Specified-not-executed.
+- **Sensing fused with communication, trained [arXiv:2511.08436v2 (MARL-trained
+  weakly electric fish collectives with biophysical electrosensing: sensing AND
+  communication in one channel; trained agents reproduce homing/pursuit)].** →
+  Existence proof that fused sense–communicate channels TRAIN under MARL (not
+  handwired) and produce collective foraging. Our mateAttractBias is handwired
+  taxis; the MARL result says the fused channel (odor-that-is-also-signal) is
+  learnable in-silico — the training-based alternative to our knob ladder, and a
+  methods pointer (their emergence analysis) if a learning-based mating line ever
+  opens. No instrument implied under current frozen discipline.
+
+## Round 88 — aggregation economics without predators (for hubs + dispersal; 2026-11-02)
+
+Motivation: our agents aggregate (hubs concentrate founders) in a world with no
+predators, no dilution benefit, and only costs (competition, interference,
+starvation). The canonical aggregation theory (selfish herd) is PREDATION-driven —
+which predicts our clumps should dissolve. This round collects what holds groups
+together (or dissolves them) when safety is not the currency.
+
+- **Selfish herd, modeled with a target [arXiv:2410.13167v1 (selfish-herd model
+  that aggregates AND produces milling/aligned motion; domain-of-danger
+  minimization)].** → The SHH mechanism (minimize own danger domain by moving
+  toward neighbors) has no trigger in our ecology (no predator, no danger domain).
+  The model still matters negatively: it shows aggregation needs a PER-CAPITA
+  gradient to climb; our hub's gradient is food (shared, depleting) plus mates
+  (rare). Once food depletes, the residual gradient is mates-only — predicting the
+  hub trap (agents held by mating gradient on exhausted food = V3's signature).
+  The rescue the model implies is a LEAVING rule (depart when per-capita intake <
+  threshold — the MVT/GUD leaving rule from R75, now with SHH as second witness).
+- **IFD in evolved neural agents [arXiv:1112.3574v1 (agents with evolved neural
+  architectures distribute themselves ideal-free) + arXiv:2610.24865v3
+  (percolating recruitment cascades + MaxEnt foraging mechanism) +
+  arXiv:2408.01350v4 (human foragers adapt to distribution + time constraints) +
+  arXiv:q-bio/0601024v2 (primate scale-free foraging emerges from complex
+  environment, not from Lévy priors — second witness for R79's refutation)].** →
+  1112.3574v1 is our paradigm with the dependent variable we never measured:
+  evolved agents distributing across patches. The testable question for our banks
+  (analytic-only, zero new worlds): are our hub/spread births IFD-consistent
+  (per-capita intake equalized) or despotic (hub monopolized despite lower
+  per-capita)? V1c's duo-best energies (−20.5 > −24.3 > −41.9) already smell
+  despotic (hub overcrowded past IFD). Fit per-capita intake by topology on
+  existing rows; if despotic, the leaving rule (above) is licensed as V-next
+  rationale.
+- **Metapopulation: persistence is colonization minus extinction
+  [arXiv:2504.20396v1 (Levins with time-varying rates) + arXiv:2104.01611v2
+  (GRADUAL vs CATASTROPHIC extinction + synchrony in metapopulation formation) +
+  arXiv:1112.1679v3 (individual-based brink dynamics, small patches, no
+  timescale separation) + arXiv:2412.02952v1 (competition + habitat destruction,
+  almost-periodic rates)].** → Our fresh banks ARE metapopulations (6 histories =
+  patches; spent = extinct-unusable; establishment = colonization). The
+  2104.01611v2 distinction (gradual vs catastrophic extinction) reframes our voids:
+  INFORMED's void (donor gen-1 1v2, no gen-2) reads gradual (failure to establish);
+  a catastrophic void would be founder death with food present. Different voids
+  need different instruments — currently all voids share one INCOMPLETE label.
+  Specified-not-executed (void taxonomy, needs frozen plan). 1112.1679v3's
+  small-patch methods fit our patch sizes exactly (tens of founders).
+- **Canon, searched-not-found (logged).** Hamilton & May 1977 (disperse despite
+  mortality to escape kin competition — arXiv "hammay" returns only astronomers
+  named Hamilton; the paper is the dispersal-knob license: our hubs are kin
+  neighborhoods, dispersal is the predicted response); Brown 1964 economic
+  defendability + Fretwell despotic distribution (territory/despotism when benefits
+  exceed costs — the hub-monopoly reading of V1c duo>hub); Huffaker mites
+  (spatial heterogeneity stabilizes predator–prey; our topology line is the
+  heterogeneity manipulation with the same stabilizing logic, minus the predator).
+
+## Round 89 — prepared learning, drift, momentum, metaplasticity (for the tax; 2026-11-02)
+
+Motivation: the transfer tax (0.2–0.3, asymmetric, saturating) is currently
+described geometrically (contact-weighted correctness, gaps). Learning theory has
+older, sharper names for each feature: drift (learned behavior reverting to
+instinct), preparedness (some associations learn fast, others never), momentum
+(resistance ∝ reinforcement history), and metaplasticity (the plasticity knob
+itself adapting).
+
+- **Instinctive drift + preparedness [canon: Breland & Breland (learned behavior
+  drifts toward instinct); Garcia (taste-aversion: one-trial, long-delay,
+  modality-prepared); Seligman preparedness continuum; journal-bound, verification
+  deferred; arXiv "garcia"/exact-phrase = food-AI noise ("Tasteful Agent") —
+  searched-not-found].** → Two renamings with teeth: (1) our harm→ben stall
+  (~0.67, rigid) may be INSTINCTIVE DRIFT — conditioned turning reverting to the
+  cruise instinct under the new codebook — which predicts drift is cue-specific
+  (drift where instinct conflicts) rather than uniform decay; testable on existing
+  per-cue splits analytic-only. (2) Our cue–turn association may be UNPREPARED
+  (arbitrary codebooks, no biological privilege) while cue–intake (taste) is
+  PREPARED (Garcia) — predicting exactly the observed ordering (taste learns,
+  turning transfers poorly). If true, the tax is a preparedness ceiling, not a
+  plasticity shortage, and no gain/brake knob can lift it — only prepared
+  channels (taste-direction, R1's motor anchor) transfer.
+- **Sign-trackers vs goal-trackers [canon: Brown & Jenkins autoshaping; Flagel
+  (sign-tracking as addiction-vulnerable phenotype; stable individual difference);
+  journal-bound, verification deferred; arXiv "sign-tracking" = ML shapelet noise
+  — searched-not-found].** → The polymorphism hypothesis for HB/BH: sign-trackers
+  approach the CUE, goal-trackers approach the FOOD SITE — two stable turning
+  styles that LOOK like noise in pooled means but separate in per-seed splits
+  (our pair floors 0.79/0.87/0.81?!). Testable analytic-only on existing banks:
+  classify histories by cue-approach vs site-approach in training, check the
+  classes predict transfer direction (ben→harm vs harm→ben asymmetry).
+  Specified analysis, zero new worlds.
+- **Momentum, matching, melioration [canon: Nevin behavioral momentum (resistance
+  ∝ reinforcement rate); Herrnstein matching law (allocation ∝ reinforcement);
+  Herrnstein & Vaughan melioration (local optimization); all journal-bound,
+  verification deferred; arXiv = zero hits].** → (1) Momentum quantifies RIGID:
+  resistance-to-extinction should scale with training contacts — our train-contact
+  partials (HB −0.17, BH −0.535, "LI both directions") already gesture here; fit
+  the momentum equation analytic-only. (2) Melioration is the FORMAL NAME for our
+  greedy 0.5 gate (local hill-climbing that can trap) — the FEH proof re-derived
+  from behavior analysis; cites both ways.
+- **Metaplasticity without precision [arXiv:2403.08718v5 (probabilistic
+  metaplasticity for continual learning on memristors: consolidation WITHOUT
+  precise weight modulation; low-precision hardware + stochastic consolidation)].**
+  → The retention mechanism cheaper than NBSP (R85): protect-by-probability, not
+  protect-by-importance. Our slow weights are low-precision accumulators already;
+  metaplastic consolidation (consolidate with probability ∝ surprise, no gradient
+  bookkeeping) is billable at ~1 op and unbuilt. Specified-not-executed.
+  Companion: BCM sliding threshold (Bienenstock–Cooper–Munro; book/journal,
+  verification deferred; arXiv = physics noise) — our fixed 0.5 greedy threshold
+  vs a sliding postsynaptic threshold; the V-next readout rule if the floor is
+  threshold-misplacement rather than satiation.
+- **State-dependent utility formalizes λ [arXiv:2410.19030v3 (expected utility
+  with state-dependent linear utilities + loss aversion; FOSD/MPS/risk-aversion
+  results)].** → Our λ=2.95 (loss aversion, prospect-theory reading) currently
+  floats as a behavioral number; 2410.19030v3 gives it a utility-theoretic home
+  (state-dependent linear utility). The license: λ need not be a fixed trait —
+  state-dependence predicts λ varies with reserves (hungry = more loss-averse?),
+  testable analytic-only on existing per-tick energy × choice data.
+
+## Round 90 — synchrony, waiting, active sensing (for ELSEWHERE + timing; 2026-11-02)
+
+Motivation: the margin-readback adjudication left (a) ELSEWHERE sensing open; the
+encounter line left timing (firstMatingTick medians never separate) unexplained;
+and every instrument assumes agents only LISTEN. Three literatures say the missing
+pieces are emission (active sensing), correlation (shared forcing), and waiting
+(dormancy as strategy).
+
+- **Firefly physics + pulse-coupled sync [arXiv:2411.17751v2 (what models for
+  what physics — synchrony as collective physics, Mirollo–Strogatz lineage) +
+  arXiv:1903.01651v3 (GLOBAL PCO sync conditions on chains/directed trees, from
+  arbitrary phases)].** → 1903.01651v3's topology conditions are directly
+  applicable: our hub is a STAR (all sense all), our spread is SPARSE — sync is
+  topologically licensed on hub, not spread. If mating needs co-presence windows,
+  hub should synchronize mating ticks and spread should not — testable
+  analytic-only (mating-tick dispersion by topology on existing banks). The
+  encounter line measured firstMatingTick MEDIANS (never separate); the sync
+  hypothesis says the statistic is DISPERSION, and we scored the wrong moment.
+- **Moran effect: synchrony without interaction [arXiv:2610.17497v1 (geographic
+  Moran effect: shared environmental forcing synchronizes populations; theory +
+  methods + interpretation)].** → Our 6 histories per bank share the SAME bank
+  protocol and overlapping seeds — Moran-correlated environments. Mating-window
+  synchrony across histories needs NO communication channel, only shared forcing
+  (same food schedule, same bar). Competing explanation for any future synchrony
+  finding (Moran vs communication) — pre-register the dissociation (desynchronized
+  forcing control) before claiming interaction. Methods import: their synchrony
+  metrics for our mating-tick dispersion analysis.
+- **Waiting as strategy: diapause + dormancy [arXiv:1809.04027v3 (rare diapause
+  invades fixed life histories — waiting is evolvable against fixed schedules) +
+  arXiv:1410.4802v1 (tumor dormancy proliferative switch — dormant↔active as a
+  bistable switch)].** → Our agents tick every tick (always-on, always-billed);
+  diapause is the unbuilt state (skip ticks at low cost, resume on cue). The
+  fail-closed reading of V4-if-null: if gated taxis fails, the next rescue is not
+  smarter chasing but WAITING (sit on clumped food, mate whoever arrives —
+  the sit-and-wait predator strategy, and the plant foraging of R79, sessile
+  version). 1809.04027v3 says even RARE waiting invades — a low-frequency wait
+  allele/arm is the minimal test. Specified-not-executed.
+- **Clocks degrade [arXiv:2212.13579v1 (minimal peripheral-clock model:
+  differential circadian re-entrainment in AGING — old clocks re-entrain worse) +
+  arXiv:2107.10677v1 (radical pairs explain magnetic + lithium effects on the
+  circadian clock — QUANTUM BIOLOGY mechanism for magnetoreception)].** →
+  (1) Re-entrainment degrades with age: our transferred agents (long-trained) may
+  re-entrain WORSE to new codebooks than young ones — age-at-transfer as an
+  analytic-only covariate on the tax (older histories = bigger tax?). (2) The
+  radical-pair mechanism is a concrete ELSEWHERE modality (magnetic sensing via
+  cryptochrome chemistry — no new anatomy, just chemistry), answering adjudication
+  (a) with a physical candidate. Both kept as specified-not-executed; (1) has an
+  analytic-only component on existing banks.
+- **Active sensing: emit, then listen [arXiv:1203.0938v2 (mathematical model of
+  active electrolocation: dipole approximation + multi-frequency location search) +
+  arXiv:2603.16384v1 (RL virtual fish steer real schools) +
+  arXiv:2208.11079v2 (robot active neural sensing/planning in clutter)].** →
+  Our agents are passive (odor arrives; they turn). Active sensing (emit a probe
+  signal, read the return) is the ELSEWHERE answer with the shortest path to
+  mechanism: a mate-ping (1-op emission, echo read as extra input dim) converts
+  the encounter problem from search to detection. The billing is honest (emission
+  costs; V2's +3-op precedent covers it) and the null-default is clean (ping
+  amplitude 0 = current behavior). Unbuilt instrument ladder specified:
+  ping→echo detection first (no behavior), then ping-gated approach. Needs frozen
+  plan; no claim.
