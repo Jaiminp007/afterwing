@@ -3188,3 +3188,31 @@ names for this failure mode, with quantitative thresholds attached.
 - **Scope-note.** Bleb/membrane nucleation (1602.03646v1) and fluid-leakage
   percolation (1512.00186v1) are mechanism-mismatched; digital contact tracing
   (2103.12634v5) is applied-epi. Logged, not pursued.
+
+## Round 72 — superposed steering forces (for ATTRACT-V2's knob; 2026-11-02)
+
+Motivation: V2 executes a hardwired mate-attraction term superposed on food/wall
+steering — exactly the Social Force Model's structure. This round banks that literature
+and the joining-game alternative the knob does NOT implement.
+
+- **Social Force Model (arXiv:0810.4587v1 evolutionary calibration to tracking data;
+  0803.1319v1 repulsive force; 1705.03569v1 dynamic navigation field; 2109.12597v1
+  crowd review; canon Helbing & Molnar 1995/1998 via arXiv:cond-mat/9805244 [listed,
+  abstract fetch 400s]).** Pedestrian motion = superposition of destination attraction
+  + neighbor repulsion + wall forces, each a vector term in one equation. → Our
+  motorPrimitive has the same architecture (food + wall + now mate terms inside one
+  tanh). The calibration papers' lesson: force weights are FIT to trajectories, not
+  derived — our k=2 parity choice is the honest prior; fitting k would be tuning
+  (pre-registered as NOT done). If V2 nulls, the SFM lens says the mate term may be
+  structurally present-but-weak vs food/energy terms — a weight-magnitude question,
+  specified-not-executed (needs its own frozen design; magnitude sweep is tuning
+  without a pre-registered selection rule).
+- **Joining / producer-scrounger (conjunctions return nothing on arXiv; Giraldo,
+  Barnard-Sibly canon-deferred).** Animals attracted to OTHERS' discoveries (joining
+  successful foragers) — the social-information use our agents lack entirely (no
+  observation of others' intake). Our taxis steers toward mates as BODIES, not toward
+  successful FORAGERS as information. The distinction matters: conspecific attraction
+  (implemented) vs intraspecific information use (not implemented, no channel).
+  Recorded as the next mechanism gap if steering alone fails.
+- **Scope-note.** BEECLUST/cockroach-aggregation and directed-search conjunctions
+  return nothing on arXiv (swarm-robotics venues, not indexed); OpenAlex 429.
