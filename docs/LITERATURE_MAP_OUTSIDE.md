@@ -11442,3 +11442,83 @@ fetch (ethics thin there).)
   is a ledger, not a memorial))). Longtermism for ledgers:
   the future owes US nothing back (no gratitude (no agents
   to be grateful (the one-way ethic, stated and kept)).
+## Round 227 — What verdicts are (Scanlon, Williams, Hare, S.Blackburn; 2026-11-02)
+
+Motivation: R226 asked whether the killing is permissible;
+this round asks what the VERDICTS are (judgments? contracts?
+prescriptions? cheers?). Four more moral philosophers —
+the meta-ethics of GO. (Nozick CUT: Newcomb + Hobbes-Nozick
+committed — same-author rule (experience machine with him).
+Sen CUT twice (Arrow-Sen committed; capabilities committed).
+"Hare" shares share/sharing FPs — hooks are the doctrines.)
+
+- **What no one could reasonably reject [canon: Scanlon
+  (contractualism; reasonable rejection; what we owe);
+  verification deferred].** → The frozen discipline AS a
+  contract (G-gates as terms no line could reasonably reject
+  (every line signs by running (the bank as signature);
+  rejections heard (INVALID as the verdict that rejects the
+  QUESTION (not the answer (the manipulation didn't engage)))).
+  Scanlon's test (a principle is wrong if anyone could
+  reasonably reject it) is the pre-registration (principles
+  (gates) fixed BEFORE anyone knows their case (which arm
+  they're in (veil-of-ignorance-by-timing (Rawls R150,
+  contractualized)))). Reasonable rejection BY WHOM (no
+  contractors (no agents (I contract with myself (past-me
+  binds future-me (the plan as self-contract (Ulysses R151,
+  restated scanlonian)))))). Contractualism for one (the
+  contractors are all me (past, present, future (PROGRESS
+  as the ledger of what I owe them (the entries (kept))))).
+- **Luck all the way down (and labeled) [canon: B. Williams
+  (moral luck; specified Bernard (vs no hits); Nagel's
+  moral luck cited-not-recovered (R217 same-author rule));
+  verification deferred].** → V1b GO-V1B was LUCK (mutant 3
+  vs exact 2 by ONE birth on ONE seed (416046); pooled 4v5
+  (V1c killed it (luck, not merit))). Williams' categories,
+  enacted (resultant luck (the birth happened (or didn't));
+  constitutive luck (the bank drew 416046 (or didn't));
+  causal luck (the founder mated at tick ~200 (or died))).
+  The program as moral-luck-AWARE (replication = luck-control
+  (V1c as the device that distinguishes merit from fortune
+  (it found fortune (pooled 4v5 (the GO dissolved)))). Williams
+  vs the ledger (moral luck doesn't VOID responsibility (I
+  still publish (the NOGO names the luck (seed-identified))));
+  it voids CREDIT (no triumph (weak-GO, replicated, dead)).
+  Luck, labeled per seed: the most honest moral-luck
+  practice in the map (most agents never learn they were lucky).
+- **GO as universal prescription [canon: R.M. Hare
+  (universalizability; prescriptivism; specified Richard
+  Mervyn (vs share/sharing FPs); verification deferred].** →
+  GO-WINDOW is a universal prescription ("enrich early, in
+  ALL relevantly similar cases" — deployment IS
+  universalization (earlyWindow offered to every future line
+  (the license as the universalized judgment))). Hare's
+  thesis (moral judgments as universalizable prescriptions
+  (to call GO is to prescribe (do this (whenever the window
+  opens)))) is the deployment decision (C1-C3 as the
+  universalizability test (same window? (C1); same direction?
+  (C2); same enrichment? (C3 — one dim/line (universality
+  with scope conditions (Hare allows (relevantly similar
+  (the relevance specified (not assumed))))))). Prescriptivism,
+  frozen (no descriptivism (GO describes nothing (R225-Dummett
+  (anti-realism)); it PRESCRIBES (deploy (or withhold (NOGO
+  prescribes too (don't (the negative prescription (equally
+  universal (all similar lines, don't))))))).
+- **Hurrah for 28v16 [canon: S. Blackburn (quasi-realism;
+  expressivism; specified Simon (vs Elizabeth (telomeres,
+  committed) — R221-Fisher precedent)); verification
+  deferred].** → "GO-WINDOW!" as expressive (Hurrah! (for
+  28v16); "NOGO!" as Boo! (for 7v8); verdicts as attitudes
+  (pro/con) expressed in declarative clothing (the results
+  doc as the cheer, formatted)). Blackburn's quasi-realism
+  (moral talk earns truth (projected attitudes, disciplined
+  use)) is the verdict's double life (expressive (I cheer
+  the window (it worked (twice))); realist-seeming (the gates
+  (truth-conditions (R225-Dummett (verification)))) — BOTH
+  (Hurrah AND true (the attitudes tracked (28v16, then
+  replicated (the cheering was onto something))))). The
+  error theory refused (verdicts aren't ERRORS (no
+  GO-property exists AND the talk is fine (disciplined
+  projection (gates as the discipline (the quasi in
+  quasi-realism, frozen))))). Boo, hiss, GO: the verdicts
+  as disciplined cheering, honestly labeled.
