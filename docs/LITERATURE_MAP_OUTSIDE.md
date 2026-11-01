@@ -9794,3 +9794,144 @@ inquiry). Four economists of measurement, auditing the accounts.
   without inference theater: the samples are the population
   (spent banks enumerated fully — no sampling error because
   no sampling (exhaustion, not estimation)).
+## Round 204 — Gradients without status (Marmot, Rose, Krieger, Link/Phelan; 2026-11-02)
+
+Motivation: founders share identical status (65.0 each, zeroed
+newborns) yet stratify brutally (survival 7–31, births 0–13,
+energy −8 to −63). Four social epidemiologists, four gradients,
+all running without the hierarchy they were found in.
+
+- **The gradient without the hierarchy [canon: Marmot
+  (Whitehall: status gradient in health); verification
+  deferred].** → Whitehall (civil servants: lower grade, worse
+  health — stepwise, no threshold). Our founders: NO grades
+  (identical endowment, identical architecture) yet stepwise
+  outcomes (hub vs spread: −38 vs −25; seed luck: 416046
+  decides V1b). Marmot's mechanism (control/autonomy at work →
+  biology) has nothing to grip (no control differences — no
+  one controls anything; no autonomy (R191-Freidson inverted)).
+  The gradient persists WITHOUT its cause: stratification by
+  luck + patch (which seed, which topology) reproducing the
+  SHAPE of Whitehall with none of its sociology. Marmot
+  without Marmot's mechanism — the curve without the cause,
+  filed as the standing puzzle (what stratifies equals? —
+  encounters, answered; why encounters differ? — patches,
+  answered; why patches differ? — topology files, asserted).
+- **Sick populations, healthy verdicts [canon: G. Rose (sick
+  individuals vs sick populations; prevention paradox);
+  verification deferred].** → Rose: treat populations (shift
+  the distribution), not just high-risk individuals (the
+  prevention paradox: measures that help populations help
+  individuals little). Our deployment (V1i gain EVERYWHERE:
+  population strategy — all banks get 1.0/3.0) vs the
+  alternative (high-risk strategy: gain only where tax small).
+  The paradox holds exactly (pooled +0.131 helps the program;
+  per-bank effects −0.004 to +0.317 help banks unevenly —
+  some banks treated needlessly, some insufficiently).
+  Rose's prescription (population strategy DESPITE the paradox
+  — shifting means saves more lives) is our deployment logic
+  (deploy WITHHELD until replicated, then everywhere despite
+  I2 — the mean treated, the tails disclosed). Prevention
+  without patients (no one is sick; the distribution is).
+- **Incorporation without bodies [canon: Krieger (ecosocial;
+  embodiment: social gets under skin); specified ecosocial
+  (distinct from R11 robotics-embodiment); verification
+  deferred].** → Krieger: inequality incorporates (structure
+  becomes biology via pathways: material, psychosocial,
+  behavioral). Our agents have no skin to get under (no bodies
+  — 96-dim observations, no physiology; nothing incorporates
+  because nothing persists (zeroed newborns erase embodiment
+  every generation)). Embodiment without bodies: the patch
+  writes on... weights (niche-fingerprint: 1-NN ID 1.000 —
+  the world IS in the weights, reversibly (lossy transplant
+  shrinks the tax — incorporation that un-incorporates for
+  0.5x)). Krieger inverted twice (no bodies to embody through;
+  no generations to embody across) — yet the signature move
+  (structure → organism, reversibly) is the transfer result
+  restated. Incorporation that a scalar multiplication halves.
+- **Upstream, always [canon: Link & Phelan (fundamental causes:
+  intervene upstream; SES as persistent cause); verification
+  deferred].** → Fundamental-cause thinking (don't treat the
+  mechanism (proximate), treat the cause (distal); mechanisms
+  change, causes persist). Our program's whole arc IS the
+  upstream walk: bar (M-POP V2: not it — blocker upstream) →
+  encounters (ENCOUNTER: topology helps, sinks remain) →
+  timing (TIMING audit: window is early, levers are late) →
+  Track B specified (early-encounter maximization: the most
+  upstream lever named so far). Link/Phelan's persistence
+  thesis (SES reasserts through new mechanisms when old ones
+  are blocked — the cause outlives every intervention) is the
+  honest forecast for Track B (early encounters may join the
+  bar, the topology, and the gain as the fourth mechanism that
+  wasn't the cause). Upstream forever, cause never (yet).
+
+## Round 205 — The program as evidence-based medicine (Sackett, Guyatt, Hill, Feinstein; 2026-11-02)
+
+Motivation: frozen plans are protocols, verdicts are guidelines,
+syntheses are systematic reviews. Four founders of EBM, four
+confirmations — and Ioannidis (committed R145) as the foil that
+started it.
+
+- **Protocols, not eminence [canon: Sackett (evidence-based
+  medicine: evidence over eminence); verification deferred].**
+  → No eminence exists here (one experimenter, no reputation
+  at stake (anonymous flies, unsigned verdicts — authority
+  from procedure (R191-Starr), never person). Sackett's
+  revolution (deposed eminence, installed evidence) is our
+  founding condition (nothing to depose — built post-
+  revolution). The EBM hierarchy (RCTs > cohorts > case
+  series > eminence) maps cleanly (single attempts = RCTs
+  (randomized? — bank draws random, arms assigned: yes, with
+  frozen protocols); audits = cohorts (followed-up rows);
+  maps = case series (191 rounds of N=1 readings); eminence
+  = absent (no guru, no school, no lineage (R182: no
+  inheritance anywhere))). Built EBM, never converted to it.
+- **Users' guides to the frozen literature [canon: Guyatt
+  (EBM working group; Users' Guides); verification
+  deferred].** → Every frozen plan is a Users' Guide (how to
+  read this attempt: G1–G4 (validity), gap (results),
+  verdict (applicability) — Guyatt's three questions (are
+  the results valid? what are the results? will they help
+  here?) answered in order, before the attempt runs).
+  Applicability (Guyatt's third: will it help MY patient?)
+  is our transfer problem verbatim (will V1i's +0.163 help
+  THIS bank? — I2 = 0.973 says: unevenly (the guide
+  discloses, the user (future-me) decides)). Guidelines with
+  applicability attached (deployed WITH the tax — R144's
+  NOGO-that-became-GO, correctly hedged).
+- **Nine viewpoints, all held [canon: B. Hill (Bradford Hill
+  criteria: strength/consistency/specificity/temporality/
+  gradient/plausibility/coherence/experiment/analogy);
+  verification deferred].** → Score the program against all
+  nine: strength (gaps 0.13–0.31, large); consistency
+  (replicated 6/6, 10 banks); specificity (flip-splits
+  attribute (HB residue)); temporality (freeze BEFORE attempt
+  — the criterion the whole discipline is built on);
+  gradient (dose-response where it exists (LEAVE ladder
+  FAILED → correctly NOGO'd — absence of gradient as
+  evidence, Hill-approved)); plausibility (mechanisms named
+  (surpriseEma, contact-gradients)); coherence (syntheses
+  cohere (V2: 8/7/5128)); experiment (single attempts ARE
+  experiments); analogy ( flies:worms :: banks:? — weak,
+  admitted). Nine for nine (eight strong, one weak) — the
+  frozen line as Hill-compliant inquiry by construction.
+- **Bedsides without beds [canon: Feinstein (clinical
+  epidemiology: the bedside as laboratory); verification
+  deferred].** → Feinstein moved the lab to the bedside
+  (observe patients carefully, count what matters). Our
+  bedside is the row (observed carefully (per-cue dumps);
+  counted what matters (contact/turn/intake, billed)).
+  Clinical epidemiology without clinic (no patients (flies
+  aren't patients — R191: one-member clinic); no bedsides
+  (rows, not rounds, are visited — no one watches a run
+  (R195-Vertesi))). Feinstein's complaint (labs ignore the
+  phenomena clinicians see) inverted (our lab ignores
+  nothing — it sees ONLY phenomena (rows), never mechanisms
+  directly (weights unreadable except via probes)). The
+  bedside is all there is (phenomena banked, mechanisms
+  inferred, causes upstream forever (R204-Link/Phelan)).
+  Ioannidis (committed R145) as the foil that justifies the
+  furniture (most findings false → freeze everything:
+  the clinic built because the literature couldn't be
+  trusted — ours can't be distrusted (all procedures
+  published, all nulls kept)).
