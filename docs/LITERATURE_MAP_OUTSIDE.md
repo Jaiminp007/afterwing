@@ -8142,3 +8142,220 @@ mates, patches, or futures. Information economics names the price.
   but never AS tails: specified follow-up (report left-tail
   quantiles alongside means in the next verdict doc that
   has them — cheap, no new worlds, queued).
+## Round 179 — Merton (Matthew, middle-range, self-fulfilling, unanticipated; 2026-11-02)
+
+Motivation: our hubs accumulate advantage, our method sits between grand
+theory and raw ledger, our predictions never touch our runs, and our
+most systematic product is unintended nulls. Merton named all four.
+
+- **The Matthew effect, refused once and confirmed twice [canon:
+  Merton (cumulative advantage; Matthew 25:29); verification deferred
+  + arXiv:1408.5124v1 (Perc review: preferential attachment across
+  collaboration, citation, biological networks — read) +
+  arXiv:0908.3177v1 (impact-factor natural experiment: identical
+  duplicate papers in high-impact journals get ~2x citations — read)
+  + arXiv:2609.13443v1 (Matthew effect in RL for LLMs: easy problems
+  improve, hard ones don't — read)].** → Advantage begets advantage
+  in three of our findings: hubs accumulate births (ENCOUNTER-V1 35
+  vs 25) while spreads starve; lineage compounding is depth, not
+  growth (hubs are sinks); and the pooled META-GAIN (+0.131) hides
+  bank-level heterogeneity (I2 = 0.973) — the rich banks get richer
+  readings. But the discipline also REFUSED a Matthew reading once:
+  MATE-INHERIT V1b's mutant 3-vs-2 edge was fully accounted for by
+  seed 416046 (V1c pooled 4-vs-5: nothing) — one birth of luck, not
+  cumulative advantage. The duplicate-paper parallel is exact: our
+  paired designs (same bank, different arms) ARE the control for
+  intrinsic quality that bibliometrics had to construct — and when
+  we ran it (V1c pooled, DAMAGE-GATE), the journal (arm) added
+  nothing. Matthew holds for hubs-as-places, fails for mutants-as-
+  papers. Both results stand.
+- **Middle-range theory as the method [canon: Merton (middle-range:
+  between grand theory and raw empiricism); verification deferred;
+  arXiv = thin (mobility fetch returned nothing — logged, not
+  used)].** → The program IS middle-range by construction: frozen
+  lines test delimited mechanisms (gain values, bars, topologies),
+  never the Vision (grand) nor bare row-dumps (raw). VISION_GAP is
+  the middle-range stance stated positively: milestones 1-3 as
+  gated substrate, no claim beyond. The prescription Merton gave
+  sociology in 1949 — theories intermediate to minor working
+  hypotheses and all-inclusive speculations — is what a frozen
+  plan literally is. Grand theory stays in VISION.md where it
+  belongs (unfalsified because untested); middle-range verdicts
+  do the falsifying.
+- **The self-fulfilling check, passed [canon: Merton
+  (self-fulfilling prophecy); verification deferred].** → A
+  prophecy fulfills itself through a feedback channel (bank run:
+  belief -> withdrawal -> insolvency). Our apparatus has no such
+  channel by design: frozen banks are immutable (spent banks never
+  regenerate), verdicts are published after execution, and no agent
+  ever observes a prediction. The DISSONANCE audit is the empirical
+  check (hedges track evidence, not cost: +0.37 raw rejected) —
+  our beliefs about arms do not move the arms. The one live
+  feedback channel (deployed gain V1i shapes future lines'
+  priors) is licensed explicitly (deployment WITHHELD pending
+  replication, then deployed with the tax disclosed). Prophecy
+  without fulfillment: the loop is cut, on purpose.
+- **Unanticipated consequences as the product [canon: Merton
+  (unanticipated consequences of purposive action, 1936);
+  verification deferred].** → Purposive action (frozen plans with
+  explicit G-gates) systematically produces consequences nobody
+  purposed: DAMAGE-GATE's 2841 fired boosts that changed nothing;
+  DISPERSE's 1-vs-8 cliff at exactly gen-2; SOCIAL-V2's copyalways
+  scoring 0 (the theorists' conjunction, inert); M-POP V2's bar
+  refutation (the blocker is upstream of the threshold). Merton
+  1936 says this is the NORMAL condition of action, not a failure
+  mode — which is why the program publishes VOIDs at full length
+  instead of filing them. The ledger of unintended nulls (now
+  8 closed lines) is not waste beside the product; it IS a
+  product: the map of where purposive intervention does not reach.
+
+## Round 180 — Systems and allocation (Parsons AGIL, Luhmann, Blau/Duncan, Mills; 2026-11-02)
+
+Motivation: the program persists without reaching its goal. What
+functions keep it alive, what allocates its scarcest good
+(reproduction), and whose troubles are whose issues?
+
+- **AGIL audit: functionally complete [canon: Parsons (AGIL:
+  Adaptation, Goal-attainment, Integration, Latency);
+  verification deferred; arXiv = thin].** → Score the program
+  against the four functional imperatives. Adaptation: the op
+  ledger (finite compute priced per operation; caps per attempt)
+  — the program adapts to scarcity by billing it. Goal-attainment:
+  frozen G-gates (explicit thresholds, published before execution)
+  — goals are set outside the action, then pursued. Integration:
+  PROGRESS.md + STATUS docs + per-line ledgers — the parts are
+  bound by a common accounting language (worlds, ops, verdicts).
+  Latency (pattern-maintenance): the frozen discipline itself
+  (negative-preservation, no rescoring, no tuning) — the pattern
+  is maintained across 182 rounds. All four present and
+  separately maintained: the Parsons reading says the program is
+  a going concern, which explains the observation better than any
+  single finding does (it persists because it is functionally
+  complete, with or without RSI).
+- **Autopoiesis of the evidence system [canon: Luhmann
+  (autopoiesis; trust as complexity reduction; second-order
+  observation); verification deferred; arXiv = thin].** → The
+  evidence system reproduces its own elements: rows produce
+  verdicts, verdicts produce plans, plans produce rows — each
+  communication refers to previous communications, never to the
+  world directly (no one re-watches a run; the frozen row IS the
+  run, for all program purposes). Trust is the complexity
+  reduction that makes this possible: frozen-bank immutability
+  lets future-me trust past-me without re-running (the bank SHA
+  + protocol.json as trust machinery). And the audits are
+  second-order observation — observing observers (scorers watch
+  runs; FAE/SWF/CMH watch scorers). Luhmann's warning applies:
+  an autopoietic system can continue perfectly while losing
+  contact with its environment. The licensed counterweight is
+  named in the discipline (fresh banks for new claims; never
+  rescore) — contact is re-established by fiat, one bank at a time.
+- **Who gets to reproduce [canon: Blau & Duncan (status
+  attainment: allocation by origins vs achievement);
+  verification deferred; arXiv = thin (status-attainment fetch
+  returned nothing — logged, not used)].** → Founders are born
+  into a perfect-mobility society: newborns start zeroed (no
+  bequests — weights are NOT inherited; syncNewbornLearners
+  zeroes them), status is unattainable by birth. Yet outcomes
+  stratify brutally: hub vs spread (sinks vs neutral),
+  seed luck (416046 decides V1b), bar position (65 vs 50 changes
+  nothing — the allocator is upstream). Blau/Duncan's question
+  (how much do origins matter?) gets a sharper answer here than
+  in most human data: origins (which patch, which seed) explain
+  nearly everything; achievement (learning within a lifetime)
+  extends survival without converting it (M-POP V2: 14 vs 4 vs 1
+  survivors, 0 births everywhere). Perfect mobility without
+  equalized outcomes — because the lottery is drawn after birth,
+  not before.
+- **Private troubles, public issues [canon: Mills (sociological
+  imagination: personal trouble vs public issue); verification
+  deferred].** → A single failed arm (DAMAGE D1 +0.0147) is a
+  private trouble; eight closed lines with the same shape
+  (trigger-is-not-bottleneck) is a public issue — the structure
+  of the substrate, not the biography of the run. The verdict
+  docs ARE the imagination in action: per-seed tables (troubles)
+  aggregated to bank verdicts (issues) aggregated to syntheses
+  (V2 synthesis: 8 first-accepts, 7 lines, 5128 worlds). Mills'
+  test for the imagination — ranging from impersonal
+  transformation to intimate feature — is the program's daily
+  motion (seed 416046 to I2 = 0.973 in one audit). The map
+  itself (182 rounds) is the imagination's record: troubles
+  filed until they became issues.
+
+## Round 181 — The institutional unconscious (Gouldner, Selznick, Veblen, Becker; 2026-11-02)
+
+Motivation: the program runs on norms it never states. Name four:
+the return that never comes, the values inside the procedure, the
+blindness of the trained, and the labels only the powerful apply.
+
+- **The norm that never binds [canon: Gouldner (norm of
+  reciprocity, 1960: help those who help you — a moral rule,
+  distinct from the network-reciprocity b/c > k mechanism already
+  committed); verification deferred + arXiv:1205.2825v2 (ingroup
+  favoritism under indirect reciprocity: group reputation
+  substitutes for personal — read) + arXiv:2509.09181v1
+  (incomplete reputation info breaks cooperation; fading hurts
+  more than sparse observation — read)].** → Every transmission
+  mode in the mating arc is unilateral take: maternal (copy the
+  mother), copybest (copy the successful), copyconditional (copy
+  the recent) — no return is possible, no future interaction is
+  structured for it, no reputation exists to condition on.
+  Gouldner's norm predicts cooperation where returns flow; here
+  nothing flows back, and the SOCIAL nulls (V1 1=1, V2 copyalways
+  0) are what the norm predicts for a world without reciprocity:
+  taking without return changes nothing. The arXiv reads sharpen
+  the boundary: our agents sit at the zero-information limit (no
+  observation, no reputation, fading complete) — the corner where
+  every model says cooperation cannot stabilize. It doesn't.
+  The norm's absence is the finding.
+- **Institutions as infused values [canon: Selznick (institution-
+  alization: values infuse structure beyond task requirements);
+  verification deferred].** → A frozen plan begins as procedure
+  (run these mains, score these gaps) and becomes an institution
+  the moment values outlive any single line: negative-preservation
+  (never erase failures), single-attempt (no second chances),
+  fresh-bank (no reuse). No line requires these for its own
+  verdict — they are maintained for the program, at cost to the
+  line (slower, more expensive, more nulls published). That is
+  Selznick's transformation exactly (organization becomes
+  institution via value-infusion). Cooptation check (Selznick's
+  warning: the TVA absorbed its critics): do the audits coopt
+  criticism to protect the program? Partly — and licensed as
+  accountability, not capture: audits can close lines
+  (DISSONANCE rejected a hedge; CMH homogenized the hub
+  advantage) but never unilaterally (independent re-derivation
+  required; scorer code frozen first).
+- **Trained incapacity [canon: Veblen (trained incapacity: habits
+  of thought that blind; engineers vs price system);
+  verification deferred].** → The frozen discipline is a habit
+  of thought, and habits blind. What can't the program see?
+  Developmental explanations (no ontogeny tracked — founders
+  appear at 65.0 energy, fully formed); qualitative data (no
+  trajectory ever watched — rows only); within-run dynamics
+  (verdicts compare endpoints, never paths — GAS trajectories
+  excepted); the agents' own categories (all labels are ours:
+  harmful/beneficial/tied are codebook assignments, never
+  discovered). Veblen's engineers (who see only efficiency) are
+  us with ledgers: the op count prices everything except what it
+  cannot count. Licensed as a standing charter: the next outside
+  view should come from the incapacities list, not the findings
+  list. (The play assay (R176) and left-tail reporting (R178)
+  are the first two entries on that charter — both specified
+  from admitted blindness.)
+- **Labels and who applies them [canon: H. Becker (Outsiders:
+  deviance is what gets labeled; moral entrepreneurs);
+  verification deferred].** → INVALID, NOGO, VOID, CLOSED are
+  labels applied by an empowered audience (the scorer, then me)
+  to arms that cannot answer. Becker's thesis (no act is deviant
+  in itself; the label makes it so) holds uncomfortably well:
+  a +0.09 gap is GO under a +0.1 band and NOGO under a stricter
+  one — the same behavior, different label, decided by a
+  threshold set before seeing the data. Two checks keep this
+  honest rather than damning: the band is pre-registered
+  (labeling rules published before the act — no ex-post-facto
+  deviance), and the labels are symmetric (GO and NOGO use the
+  same machinery; negatives published at full length — the
+  labeled are not hidden). But Becker's second question stands
+  unanswered: who contests my labels? No moral entrepreneur
+  speaks for the arms. The frozen plan is the only defense
+  counsel — which is why freezing it before execution is
+  load-bearing, not ritual.
