@@ -5886,3 +5886,111 @@ literatures plus the social-insect manual address exactly these.
   recorded as comparative evidence, not an instrument (our N=24
   founder groups lack the relatedness structure; sl-CSD negative,
   R86/R100).
+
+## Round 129 — Conflict at home (sibling rivalry, cainism, mating systems; 2026-11-02)
+
+Motivation: our newborns share food, never fight, and mate promiscuously
+without bonds. The conflict literatures say what that rules out — and
+the skew floor says why it matters.
+
+- **Cainism: skew's extreme, structurally impossible here [canon: Mock
+  & Parker (sibling rivalry); Drummond (obligate vs facultative cainism:
+  boobies, eagles); Anderson; verification deferred; arXiv = 0 —
+  searched-not-found, logged].** → Siblicide is reproductive skew driven
+  to B→1 by murder. Our B≈0 floor + zero aggression code means cainism
+  is STRUCTURALLY impossible (no interaction channel), not behaviorally
+  absent. The channel inventory grows: no courtship channel (MATING-DIAG),
+  no sib-aggression channel (here), no adult-emigration channel (SKEW).
+  Each missing channel is a design absence, each design absence bounds
+  which theories can ever apply. Recorded as architecture, not verdict.
+- **Parent-offspring conflict: pointer (covered: Trivers; weaning;
+  Haig imprinting R100).** → One line: our maternal transmission carries
+  no care, so POC has no arena (no provisioning to fight over). If care
+  is ever built, Trivers is the first lens. No mapping needed now.
+- **Mating systems: scramble promiscuity, classified [canon: Emlen &
+  Oring (mating-systems ecology); monogamy/polyandry/polygyny;
+  verification deferred; arXiv = thin].** → Ours: scramble-competition
+  promiscuity, no pair bonds, no biparental care (maternal = transmission
+  label). Monogamy/polyandry/policing all need bond + recognition
+  channels — structurally absent (same inventory). Classification
+  recorded so future mating lines inherit the correct null (promiscuity,
+  not failed monogamy).
+
+## Round 130 — Time, hunger, pain (interval timing, hunger hormones, nociception; 2026-11-02)
+
+Motivation: our agents count ticks exactly, hunger as a scalar, and feel
+nothing. Three mechanism literatures price each simplification — with a
+302-neuron precedent showing escape-readouts work at our scale.
+
+- **Time without timing [canon: Gibbon (scalar expectancy: timing noise
+  scales with interval); Buhusi & Meck; time cells (Kraus/MacDonald);
+  verification deferred; arXiv = interval-math noise —
+  searched-not-found, logged].** → Our time is free, exact, discrete
+  (tick counts); biology's is noisy, scalar, costly. Consequences: no
+  WAITING behavior (patience unbuilt), no temporal discounting (myopia
+  structural — greedy inference is discounting at rate ∞), no
+  anticipation windows. The allostasis prescription (R26) needs a clock
+  that can be wrong; ours cannot be. Specified gap, not an instrument.
+- **Hunger without hormones [canon: Woods; ghrelin/leptin; Banks;
+  verification deferred; arXiv = 0 — searched-not-found, logged].**
+  → Our hunger is bang-bang (energy vs bar). Hormonal hunger is GRADED
+  (ghrelin rises with fasting) and ANTICIPATORY (cephalic-phase responses
+  eat before need). Cephalic feeding (eat-when-rich-anticipating-poor)
+  is the allostatic eating rule — specified-not-executed, pairs R26/R124
+  mixed-exposure moral. One mechanism, three round-pairings.
+- **Pain we could implement but don't feel [canon: Sneddon; Walters
+  (nociceptive sensitization); verification deferred + arXiv:1601.04685v1
+  (C. elegans: stereotyped escape in 302 neurons QUANTIFIES nociception
+  — the scale precedent: escape-as-readout works at OUR size) +
+  arXiv:2502.16088v1 (insect pain thresholds, ECG/EEG — physiology
+  precedent) + arXiv:2607.26297v2 (three epistemic failures of pain
+  LOCATION — caution: non-identifiable inverse problems, don't claim
+  what behavior can't identify)].** → Nociceptive escape (turn/shadow
+  on damage) is implementable at our scale TODAY (302-neuron proof) and
+  is exactly the behavior the damage channel lacks (R125/R127). 2607.26297v2
+  bounds the claim: implement ESCAPE (behavior), never suffering (felt
+  state) — the map's standing rule against mentalistic overclaim,
+  now with a citation. Specified-not-executed (behavior change, needs
+  frozen plan).
+
+## Round 131 — Space and rank (territoriality, home range, dominance, metabolic IDD; 2026-11-02)
+
+Motivation: we call hubs "despotic" — but nothing is defended, nobody
+ranks, and payoffs never equalize. This round corrects the language and
+names the distribution.
+
+- **Despotism without defense: a language correction [canon: Brown
+  (territoriality: defense of exclusive area); Maher & Lott;
+  verification deferred].** → Hubs are CONCENTRATIONS, not territories:
+  no aggression, no exclusion, no advertisement. Our "despotism" is an
+  energetic OUTCOME (some starve, some don't), never a contested PROCESS.
+  Pairs SKEW exactly (no reproductive monopoly AND no territorial
+  monopoly — both absences from the same missing interaction channel).
+  From here: "despotic pattern" means metabolic outcome only; contest
+  language is retired unless an interaction channel is built.
+- **Home range: blocked on tracks [canon: Burt; Powell; verification
+  deferred].** → Site fidelity / trapline stability would distinguish
+  residents from wanderers (pairs R119 individuality) — but trajectories
+  are not persisted (curves carry counts, not maps). Same field-logging
+  gap as the depletion-notebook (R123). Logged, not executed.
+- **Sapolsky in silico: the hierarchy-health gradient without hierarchy
+  [canon: Chase (hierarchy formation); de Waal; Sapolsky (baboon
+  glucocorticoids: low rank → chronic stress physiology → poor health);
+  verification deferred; arXiv off-target — searched-not-found].** →
+  The hub–spread health gap (starves 2–3×, −10.2 energy gap, 100%
+  energetic death) IS Sapolsky's gradient with rank replaced by patch:
+  chronic low energy as chronic stress physiology. Re-read, zero worlds.
+  The prescription (rank-aware logging) needs the interaction channel —
+  same structural inventory. Glucocorticoid-analog state (accumulated
+  stress load pricing future behavior) is specified-not-executed; it
+  would BE allostatic load made explicit (R82/R125).
+- **Metabolic IDD: the distribution, named [canon: Fretwell & Lucas
+  (IFD vs IDD); pointer (line 3889) expanded; verification deferred].**
+  → IFD predicts payoff equalization across patches (move until equal);
+  IDD predicts persistent inequality via despot exclusion. Our pattern —
+  persistent, compounding hub deficit (−2.1 → −10.2) with FREE movement
+  and NO exclusion — is neither: inequality maintained by DEPLETION
+  dynamics, not contest. Named: metabolic ideal despotic distribution
+  (despotic outcome, metabolic mechanism, no behavior). Re-read of GAS +
+  SKEW, zero worlds; the distribution formalizes what the measurements
+  already proved.
