@@ -5132,3 +5132,178 @@ arXiv throttled (429), no IDs claimed.
   findings); (c) prestige/conformist formal models would license SOCIAL-V2
   variants (gated copying rules with named parameters) — the formalism is
   specified as pre-reading for any such freeze, not executed here.
+
+## Round 114 — collective decisions: quorum without a leader (for M5 + our own verdicts; 2026-11-02)
+
+Motivation: no program agent ever votes, yet every verdict is a collective
+decision (6 histories, conjunctive gates, pooled means). Honeybees choose
+homes without a leader; juries outvote experts without deliberation; our G-gates
+decide without a global composite. This round maps the mechanisms — and turns
+R113's jury reading from analogy into theorems.
+
+- **House-hunting: the best-studied leaderless choice [canon: Seeley
+  (Honeybee Democracy; nest-site debates, waggle-dance campaigns, quorum
+  sensing at ~20 scouts, cross-inhibition via stop signals); Visscher
+  (quorum thresholds); journal-bound, verification deferred;
+  arXiv:1611.07575v2 (best-of-N nest-site model beyond binary choice) +
+  arXiv:2310.15592v2 (kilobot swarm REPLICATES honeybee nest-site choice
+  in-silico — emergence survives embodiment change) + arXiv:0909.1582v1
+  (List–Elsholtz–Seeley agent model: BOTH independence (explore options)
+  AND interdependence (recruit to options) are needed for consensus) +
+  arXiv:1711.11578v2 (value-sensitive distributed effort: near-equal
+  options still decided efficiently)].** → Four ports, all new: (1) The
+  0909.1582v1 independence/interdependence result is the exploration–
+  exploitation dilemma solved socially — our lines explore (mutants,
+  k_L ladder) OR exploit (exact-copy transplants) per-line, never both
+  within a run; a mixed arm (some founders explore, some exploit) is
+  specified-not-executed. (2) Quorum sensing as a DECISION RULE (stop
+  deliberating at threshold N) vs our fixed-horizon runs (always 1792
+  ticks): quorum-gated stopping is an unbuilt runner feature — stop a
+  world early when its verdict is mathematically settled (saves worlds;
+  needs frozen plan). (3) Cross-inhibition (stop signals) is the NOGO
+  mechanism we never built: arms that actively suppress each other, not
+  just fail to lift — specified-not-executed. (4) Kilobot replication
+  (2310.15592v2) licenses in-silico collective decision as a real
+  phenomenon class, not a biology-only one.
+- **Condorcet, with teeth (R113 continued — the theorems check out)
+  [arXiv:2108.00733v4 (PRIOR probability the Jury Thesis holds: competence
+  is not free — the thesis needs its premises) + arXiv:2408.00317v1 +
+  arXiv:2510.18062v1 (Jury Theorem WITH ABSTENTION, asymmetric races) +
+  arXiv:1604.07711v2 (Jury Theorem for CONSENSUS CLUSTERING — ensembles of
+  clusterers beat singles) + arXiv:2002.03153v2 (majority voting ↔ ML
+  majority vote link, 300-year-old theorem meets ensembles)].** → R113
+  read our 6-history juries through Condorcet; the new batch sharpens it:
+  (a) competence must be EARNED (2108.00733v4) — our G0/G2 gates are
+  exactly the competence preconditions, now with a theorem attached;
+  (b) abstention formalized (2408.00317v1/2510.18062v1): INCOMPLETE-NOBIRTHS
+  and VOID arms are abstentions, not NOGOs — our verdict taxonomy already
+  implements what the extended theorem requires; (c) consensus clustering
+  (1604.07711v2) is our flip-split's cousin (ensemble of per-cue votes);
+  (d) the ML link (2002.03153v2) makes "6 histories = a 6-model ensemble"
+  literal — bank-dependence is ENSEMBLE CORRELATION (correlated voters),
+  which is why 6 correlated histories underperform 6 independent ones.
+  Analytic-only follow-up, zero worlds: effective-jury-size from the
+  existing inter-history correlation matrix (specified, not executed).
+- **MacLorg? No — macroscopes [arXiv:1204.3860v1 (macroscopes for collective
+  decision: decide WITHOUT first building a global composite of local
+  views; parties keep partial info)].** → This is what our G-gates ARE:
+  no row ever sees the whole bank, yet the verdict decides. The paper gives
+  the design pattern a name and conditions (when partial-info decisions
+  are safe) — a license check on our own procedure, passed descriptively.
+  Specified-not-executed: a macrocondition audit (do our gates satisfy the
+  paper's safety conditions? analytic-only on frozen rows).
+
+## Round 115 — mating systems II: allocation, tactics, post-copulatory choice (for the mating arc; 2026-11-02)
+
+Motivation: every program mating is indiscriminate (mate whoever is near),
+monomorphic (one tactic), and pre-copulatory (binary birth/no-birth). Three
+literatures say each fixed choice hides the phenomenon — and all three are
+virgin territory in the map.
+
+- **Sex allocation is conditional [canon: Charnov (sex allocation theory);
+  Bull (TSD models); Warner (sequential hermaphroditism, bluehead wrasse);
+  Trivers–Willard (condition-dependent allocation); journal-bound,
+  verification deferred; arXiv:1608.03102v1 (detecting NON-BINOMIAL sex
+  allocation under developmental mortality — the statistical test!)].** →
+  Our founders are 1:1 by construction and newborns 1:1 by RNG — allocation
+  is the one mating parameter we never vary. The unbuilt knob is
+  condition-dependent allocation (sex ratio as a function of bar/energy —
+  Trivers–Willard for flies), with 1608.03102v1 supplying the detection
+  machinery for the resulting non-binomial broods. Specified-not-executed
+  (needs frozen plan; engine already carries sex per fly, so the knob is
+  small — the rationale is the missing piece, now banked).
+- **Tactics are conditional too [canon: Gross (sunfish sneakers vs
+  territorials — size-dependent alternative tactics, ESS-maintained);
+  Taborsky (bourgeois vs parasitic); Oliveira (hormonal mechanisms);
+  journal-bound, verification deferred; arXiv = math-mating polysemy
+  (Thurston algorithm) — searched-not-found, logged].** → Our agents have
+  ONE tactic (cruise-and-mate); Gross says tactic POLYMORPHISM is the
+  norm where mating is competitive (sneakers steal fertilizations the
+  bourgeois court for). The unbuilt arm: conditional tactic (small/low-
+  energy males sneak = mate without courtship range; large males display)
+  — a within-run polymorphism that could rescue hub compounding where
+  uniform k=2 taxis could not (V2/V3 nulls). Specified-not-executed.
+- **After mating comes choice [canon: Parker (sperm competition, raffles);
+  Eberhard (cryptic female choice); Birkhead (post-copulatory selection);
+  Simmons; journal-bound, verification deferred; arXiv = generic game
+  theory — searched-not-found, logged].** → Our births are binary (mated
+  or not); post-copulatory processes are absent by construction. The
+  honest scope note this round must carry: NO program result can speak to
+  post-copulatory selection, and any future "mating success" metric that
+  counts copulations instead of gen-2 compounds that blind spot. The
+  gen-2 bar (not births, not matings) is already the right guardrail —
+  this round supplies its theoretical backing. No instrument (out of
+  scope by design, not by oversight).
+- **Nuptial gifts + Coolidge, briefly (virgin, logged)
+  [canon: Thornhill (nuptial gifts as paternal investment/foraging);
+  Gwynne; Vahed; Beatty (Coolidge effect — novel-partner renewal of
+  mating drive); journal-bound, verification deferred; arXiv = zero].** →
+  Two one-line mechanisms for the file: (1) gifts couple food to mating
+  (fed males mate more) — our nutrientOverride and mating bar are
+  DECOUPLED by design, so gift-effects are unmeasurable here; a coupled
+  arm (mating success scales with donor intake) is specified-not-executed;
+  (2) Coolidge novelty-renewal predicts our k=2 taxis should habituate
+  (it does not appear to — V3's uniform-low births are flat, not decaying;
+  noted as evidence consistent with novelty-blindness, descriptive only).
+
+## Round 116 — Rogers' paradox + assortment + fairness: why sociality fails (for MATE-SOCIAL's null; 2026-11-02)
+
+Motivation: MATE-SOCIAL's copybest arm (1 = 1, exact-neutral) closed the
+transmission-mechanism space with "bottleneck is encounters." These three
+literatures say the null was overdetermined — copying can HURT, assortment
+needs recognition, and fairness gates cooperation — and all three were
+virgin in the map until now.
+
+- **Rogers' paradox: copying can lower population fitness [canon: Rogers
+  1988 (paradox: if copying is cheaper and as good, cheaters invade until
+  population fitness FALLS to asocial levels); Boyd & Richerson (culture
+  keeps the paradox honest — guided variation rescues it); Enquist
+  (critical social learning — copy only when uncertain); Perreault
+  (reviews); journal-bound, verification deferred; arXiv = social-media
+  noise — searched-not-found, logged].** → The exact-neutral (1 = 1) reread:
+  copybest copied UNCONDITIONALLY in a one-generation window with no
+  personal-information deficit to exploit — precisely the regime where
+  Rogers predicts null-to-negative population effects. R82's "copy when
+  uncertain" was the right instinct with half the license; Rogers supplies
+  the other half (WHEN copying pays at all). SOCIAL-V2 remains specified-
+  not-executed, now with both halves banked.
+- **Fairness gates cooperation without recognition [arXiv:1402.4946v1
+  (inequity aversion sustains cooperation WITHOUT partner recognition —
+  agents need not remember who did what) + arXiv:1803.08884v3 (MARL:
+  inequity aversion rescues cooperation in intertemporal social
+  dilemmas — temporally extended, like our 1792-tick runs) +
+  arXiv:1003.0088v5 (cooperation condition on complex networks, death–birth,
+  weak selection — TOPOLOGY enters the condition!) + canon: Fehr & Schmidt
+  (inequity-aversion model), Brosnan & de Waal (primate fairness);
+  journal-bound for canon, verification deferred].** → The MATE-SOCIAL
+  design flaw, named precisely: copybest needed partner RECOGNITION
+  (whose success to copy?) in a system with no identity memory — while
+  1402.4946v1 shows fairness needs NO recognition (aversion to BEING
+  behind suffices). An inequity-averse agent (pause giving when intake
+  lags the local mean) cooperates without any lineage tracking —
+  implementable on existing channels (scent = local mean proxy? intake
+  vs neighbors' intake via... note: requires neighbor-intake sensing we
+  lack; the knob needs a sensor first). Specified-not-executed with its
+  prerequisite flagged (sensor before norm).
+- **Assortment without genealogy + the wood-wide-web [canon: Gardner &
+  West (greenbeard formalism); Keller & Ross (fire-ant Gp-9);
+  Smukalla et al. (yeast FLO1 adhesion); journal-bound, verification
+  deferred; arXiv = zero — searched-not-found, logged] + [canon: Simard
+  (mycorrhizal networks move carbon/nutrients between trees; "wood wide
+  web"); Beiler (network mapping); Gorzelak (review); journal-bound,
+  verification deferred; arXiv:2406.11174v1 (plant communication networks
+  for energy harvesting — applied framing, read cautiously) +
+  arXiv:1712.06846v1 (trait-mediated facilitation + competition in
+  pollinator networks) + arXiv:1602.02569v3 (adaptive foraging →
+  coexistence; FIXED preferences fail)].** → Two closers: (1) Greenbeard
+  recognition (tags, not trees) remains the unbuilt alternative to our
+  post-hoc lineage founders — recognition tags would let cooperators find
+  each other WITHOUT genealogy, which is what our hub crowds lack
+  (everyone co-located, nobody identifiable). (2) Mycorrhizal networks are
+  R100's extended phenotype WITH a mechanism and R82's bandwidth problem
+  SOLVED (fungal networks move real resources between strangers) — plus
+  1602.02569v3's punchline (adaptive foragers coexist; fixed-preference
+  ones do not) reads directly on our fixed-preference agents: adaptivity,
+  not topology, may be the missing coexistence ingredient. Both
+  specified-not-executed (tags need identity channels; adaptivity needs
+  a learning rule that survives transfer — V1i's replay, notably).
