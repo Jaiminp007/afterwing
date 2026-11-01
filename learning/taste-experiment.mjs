@@ -35,6 +35,15 @@ export function schedWindowOpen(arm,tickInPhase,phaseLen){
 // (lifetime offspring count; ties -> lowest founder id). Returns the
 // founder's learner for weight copying, or null when no founder has a
 // usable learner (caller falls back to maternal, then to zeroed).
+// Phase-windowed nutrient override resolver (MATE-WINDOW).
+// null = legacy phase table (assign nothing); scalar = every phase;
+// 4-array = per-phase value, null entry = legacy that phase.
+// Returns the value to assign, or null to leave the legacy table.
+export function resolveNutrientOverride(ov,phaseIndex){
+  if(ov==null)return null;
+  if(Array.isArray(ov)){const v=ov[phaseIndex];return v==null?null:v;}
+  return ov;
+}
 export function bestFounderLearner(run){
   let best=null,bestCount=-1;
   const ids=[...(run.founderIds||[])].sort((a,b)=>a-b);
@@ -123,7 +132,7 @@ const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDe
 
 export class TasteExperiment{
   constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null,resourceTopology=null,mateSenseMultiplier=null,matingRangeMultiplier=null,mateAttractBias=null,mateAttractEnergyGate=null,mateLeaveBias=null,mateLeaveGate=null,natalDispersal=null}) {
-    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental'||verticalTransmission==='copyconditional');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));assert.ok(natalDispersal===null||(Number.isFinite(natalDispersal)&&natalDispersal>=0&&natalDispersal<=1));
+    assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental'||verticalTransmission==='copyconditional');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5)||(Array.isArray(nutrientOverride)&&nutrientOverride.length===4&&nutrientOverride.every(v=>v===null||(Number.isFinite(v)&&v>=0&&v<=5))));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));assert.ok(natalDispersal===null||(Number.isFinite(natalDispersal)&&natalDispersal>=0&&natalDispersal<=1));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
@@ -142,8 +151,10 @@ export class TasteExperiment{
     this.startingEnergy=this.world.flies.reduce((n,f)=>n+f.energy,0);this.startingDebt=0;this.startingOperations=0;
     this.phaseIndex=0;this.phaseEnd=512;this.phaseRows=[];this.savedModels={};this.atA=null;this.atB=null;this.atC=null;this.probe=false;this.transfer=false;this.finished=false;
     this.statistics={};this.resource=enterCuePhase(this.world,CONTINUAL_PHASES[0],history.resourceSeeds[0],this.codebook);
-    // Optional constant-nutrient override (null = legacy phase table; probe paths untouched).
-    if(this.nutrientOverride!=null)this.world.config.nutrient=this.nutrientOverride;
+    // Optional nutrient override: null = legacy phase table; scalar = all
+    // phases; 4-array = per-phase (null entry = legacy that phase). Probe
+    // paths untouched. Null path assigns nothing (bit-identical to before).
+    {const v=resolveNutrientOverride(this.nutrientOverride,0);if(v!=null)this.world.config.nutrient=v;}
     Object.defineProperty(this,'emit',{value:emit,writable:true,enumerable:false});
   }
   record(event){if(this.emit)this.emit(canonical({arm:this.arm,...event}));}
@@ -155,7 +166,7 @@ export class TasteExperiment{
       const phase=CONTINUAL_PHASES[this.phaseIndex];
       if(['B','C'].includes(phase.id)&&['frozen','reset'].includes(this.arm))for(const f of this.world.flies)(this.arm==='frozen'?freezeTasteEnergyBody:resetTasteEnergyBody)(this.learners[f.id]);
       this.resource=enterCuePhase(this.world,phase,this.history.resourceSeeds[this.phaseIndex],this.codebook);this.phaseEnd+=phase.ticks;
-      if(this.nutrientOverride!=null)this.world.config.nutrient=this.nutrientOverride;
+      {const v=resolveNutrientOverride(this.nutrientOverride,this.phaseIndex);if(v!=null)this.world.config.nutrient=v;}
     }
     if(this.reproduction)syncNewbornLearners(this);
     if(this.arm==='frontload'||this.arm==='recent'){
