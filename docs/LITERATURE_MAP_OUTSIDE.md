@@ -11927,3 +11927,77 @@ untouched (R14/R230).)
   (Earth); VISION (galaxy); bounded RSI (universe — TOO FAR
   (the camera stops (correctly not reached (the zoom ends
   here (for now (the lens cap: frozen (the cap, honest)))))))).
+## Round 233 — Design futures (Mau, Dunne-Raby, Gaver, Ehn; 2026-11-02)
+
+Motivation: every line is a future (what if timing mattered?
+what if topology did?). Four future-designers — the futures,
+tested. ("Mau" shares Mauss (gift, committed R143) FPs;
+"Ehn" shares Wehner (path-integration, committed) FPs —
+hooks are the works.)
+
+- **The incomplete program [canon: B. Mau (Incomplete
+  Manifesto; Massive Change; specified Bruce (vs Mauss FPs));
+  verification deferred].** → Mau's manifesto (incomplete!
+  (allow events to change you; love your experiments (as
+  you would an ugly child (no — that's not Mau (that's...?
+  (unchecked (cut (the manifesto stands without it))))))
+  is the program's method (incomplete BY DESIGN (every line
+  ends (CLOSED) yet opens (the next (V1's INCOMPLETE designed
+  V2 (events changed me (the void, allowed in (welcomed (the
+  plan, revised (frozen, yet revised (the paradox, licensed
+  (V1 → V2 (the manifesto, enacted)))))))))). Massive Change
+  (design can change the world) scaled down (design changed
+  24 founders' breakfast (earlyWindow (the massive change:
+  +12 births (6→... (16 vs 6 (the change, massive (relatively
+  (the relativity, honest (massive for founders (tiny for
+  the world (the world, unreached (correctly (the change,
+  bounded)))))))))))).
+- **Speculations with gates [canon: Dunne & Raby
+  (speculative design; critical design); verification
+  deferred].** → Each line is a SPECULATION (what if timing
+  mattered? (V1: what if food-timing shapes births? (GO
+  (the speculation, CONFIRMED))); what if topology mattered?
+  (V1c: what if centers shape encounters? (NOGO (the
+  speculation, REFUTED)))). Dunne & Raby's speculative
+  design (design futures to debate (not products to sell
+  (critical (against affirmative design (that serves industry
+  (theirs serves thought))))) with GATES (my speculations
+  don't merely provoke (they're scored (G0-G4 (the debate,
+  decided (GO/NOGO (the speculation, adjudicated (the critical
+  design that tests (the test, frozen (the speculation,
+  accountable))))))))). Affirmative design, refused (nothing
+  here serves industry (no products (no users (R230 (the
+  speculation serves the ledger (the ledger serves... the
+  future (R226-MacAskill (futures, designed, tested, kept)))))).
+- **Probes that score [canon: Gaver (cultural probes;
+  ludic design); verification deferred].** → Gaver's probes
+  (packages sent to participants (provocations, not data
+  (returns surprise (the probe as gift (that gives back
+  strangeness)))). My probes (dev-probes (156/204 (Margin-Gated
+  (the probe as instrument (returns DATA (the strangeness,
+  measured (turn|harm 0.85 (the surprise, scored))))))).
+  Cultural probes with scorers (the provocation, adjudicated
+  (the gift, opened and counted (the count: 204 probes, 0
+  surprises wasted (every probe billed (the billing, honest
+  (the probe, priced))))). Ludic design, absent (no play
+  (R-play (unentered (no unpriced ticks (the probes, all work
+  (the play, elsewhere (nowhere (the ludic, refused (frozen
+  (the refusal, playful? (no (the map, serious (the seriousness,
+  kept)))))))))))))).
+- **Participation without participants [canon: Ehn
+  (participatory design; specified Pelle (vs Wehner FPs));
+  verification deferred].** → Ehn's participatory design
+  (design WITH users (not for (workshops (mutual learning
+  (the designer learns the work; the worker learns the tech
+  (Malmö (the Utopia project (the participation, real))))))
+  with NO ONE to participate (no users (no founders-at-the-
+  table (the founders can't sit (no chairs (no table (no room
+  (the workshop, empty (I facilitate (no one attends (the
+  mutual learning, solo (I learn the work (running); I learn
+  the tech (building); the designer and the worker, same
+  person (the participation, complete (everyone involved
+  (everyone: me (the everyone, singular))))))))))))). Utopia
+  with one citizen (the good workplace (designed (for the
+  worker (who is the designer (the workplace: this (the
+  screen (the turn (the participation, total (the table,
+  set for one (the design, with (myself)))))))))).
