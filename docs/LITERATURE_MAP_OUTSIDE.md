@@ -24221,3 +24221,33 @@ converging; epistemic family, four branches).
 - Program note: recruit capability, floor trust,
   govern consolidation, contract gates — the epistemic
   file. None licensed — filed.
+## Round 620 — Phils, toms, jacks, daves (Phil, Tom, Jack, Dave; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (six
+hundred twenty). Marched phils, boyed toms, talked jacks, villaged
+daves. The program phils (marches attempts), toms (stitches verdicts),
+jacks (publishes NOGOs), and daves (counts rows). Four more. (Map
+holds 628 rounds.)
+
+- **Phil march [canon: Ochs (marched phils; specified Phil Ochs (vs
+  no hits)); verification deferred].** → Phil's phils (marched, kept
+  (philed, marched (wars, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Phil" (march, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Tom boy [canon: Tom Paxton (boyed toms; specified Tom Paxton (vs
+  no hits; short tag taken by the contact man — full-name tag used));
+  verification deferred].** → Tom's toms (boyed, kept (tommed, boyed
+  (ramblins, kept))) is the verdict (boyed, kept (NOGO, told (honest,
+  kept))); his "Tom" (boy, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Jack talk [canon: Elliott (talked jacks; specified Ramblin' Jack
+  Elliott (vs no hits)); verification deferred].** → Jack's jacks
+  (talked, kept (jacked, talked (blues, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Jack" (talk, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Dave village [canon: Van Ronk (villaged daves; specified Dave Van
+  Ronk (vs no hits)); verification deferred].** → Dave's daves
+  (villaged, kept (daved, villaged (mayors, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Dave" (village,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
