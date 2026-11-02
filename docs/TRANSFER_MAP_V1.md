@@ -152,6 +152,9 @@ the map stays open, not empty.
   machinery (Danda input-side adapter + quantile matching);
   distilled-not-replayed staleness twin; decoupled prototype
   loss; cache-budget warning. Route to unmap, needs freezing.
+- R439 mechanism postures: Hess co-observation = the tax's third
+  name (legs never co-observe); Masana carry-sufficiency twin
+  (preserve-first is right-shaped); Zhu rank-not-means diagnostic.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
