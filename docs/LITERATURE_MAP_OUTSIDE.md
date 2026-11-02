@@ -19674,3 +19674,29 @@ and mounds (counts rows). Four more. (Map holds 472 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Voyeur" (pictured, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 467 — Mixed, purified, axiomed, decoupled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: multi-teacher distillation —
+agreement across sources (already-cited consensus lead not
+repeated; ensemble family, four branches).
+
+- **Mixture priors [arXiv:2605.27967 (Fang / MT-BKD; vs no
+  hits)].** Bayesian multi-teacher (teacher-informed mixture
+  priors; uncertainty evaluated). → Weight teachers by
+  uncertainty, not equally. Unlicensed.
+- **Purification [arXiv:2602.01064 (Jin; vs no hits)].**
+  KNOWLEDGE PURIFICATION (many rationales → ONE; conflicts
+  mitigated). → Our majority-vote carryover, LLM-side
+  (many legs → one carry). Filed as the purification twin.
+- **Axiomatic weighting [arXiv:2601.17910 (Flouro; vs no
+  hits)].** AXIOMATIC adaptive weighting (token/task/context
+  scales; hierarchically composable). → Weighting with
+  axioms, not heuristics (our copier-vs-looper weights,
+  formalized). Filed.
+- **Geometry decoupled [arXiv:2606.24557 (Yang / SPOFA; vs no
+  hits)].** Feature+gradient DUAL decoupling (norm gaps +
+  conflicts, stabilized). → Decouple features from
+  gradients (our store-vs-weights, external twin). Filed.
+- Program note: the family weights, purifies, and decouples
+  — consensus with structure. None licensed — filed.
