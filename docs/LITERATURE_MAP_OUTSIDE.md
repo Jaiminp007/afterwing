@@ -21620,3 +21620,30 @@ rounds.)
   (blueses, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Smile" (someday, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 531 — Confidenced, pivoted, tempo-benched, comprehended (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: competence gap — saying isn't
+doing (already-cited executability lead converging; doing
+family, four branches).
+
+- **Confidence gap [arXiv:2510.24772 (Sanyal; vs no hits)].**
+  CONFIDENCE ≠ COMPETENCE (geometry; solvability-belief
+  axis generalizes). → Belief ≠ doing (our votes≠legs,
+  geometry-side). Filed as the belief twin.
+- **Plan-execute bridge [arXiv:2605.11225 (Zhang / PIVOT; vs
+  no hits)].** PLAN-INSPECT-EVOLVE (trajectories as
+  optimizable objects). → Refine the trajectory (our
+  loop, agent-side). Filed.
+- **Simulation fallback [arXiv:2510.27544 (Holzer /
+  TempoBench; vs no hits)].** Execution WITHOUT causal
+  attribution = SIMULATION (brute-force fallback).
+  → Attribution or simulation (our flip-split IS
+  attribution). Filed as the simulation twin.
+- **Comprehension gap [arXiv:2507.10624 (Zhang; vs no hits)].**
+  COMPREHENSION WITHOUT COMPETENCE (articulate but
+  can't apply; structural). → Saying ≠ doing (our C2
+  adopted-gains-don't-transfer, structural-side). Filed.
+- Program note: belief≠doing, refine trajectories,
+  attribute or simulate, say≠do — the doing file. None
+  licensed — filed.
