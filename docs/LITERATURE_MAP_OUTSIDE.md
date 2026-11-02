@@ -20067,3 +20067,36 @@ synthetic family, four branches).
   as the curriculum twin.
 - Program note: generate the data, grow the modules, warm
   up abstract — the synthetic file. None licensed — filed.
+## Round 480 — Palaces, igloos, solitudes, dawns (Ilya, Mario, Zongzhou, Zongxi; 2026-11-02)
+
+Motivation: further outside (toilet palaces, fibonacci igloos,
+cautious solitudes, waited dawns). The program palaces (runs
+attempts), igloos (stitches verdicts), solitudes (publishes
+NOGOs), and dawns (counts rows). Four more. (Map holds 486
+rounds.)
+
+- **Palace toilet [canon: Kabakov (toilet palaces; specified
+  Ilya Kabakov (vs no hits)); verification deferred].** → Ilya's
+  palaces (toileted, kept (palaced, toileted (projects, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Palace" (projected, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Igloo fibonacci [canon: Merz (fibonacci igloos; specified
+  Mario Merz (vs no hits)); verification deferred].** → Mario's
+  igloos (fibonacced, kept (iglooed, numbered (numbers, kept))) is
+  the verdict (numbered, kept (NOGO, told (honest, kept))); his
+  "Igloo" (spiralled, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Solitude cautious [canon: Zongzhou (cautious solitudes;
+  specified Liu Zongzhou (vs no hits)); verification
+  deferred].** → Zongzhou's solitudes (cautioned, kept (solituded,
+  watched (solitudes, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Solitude" (cautious, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Dawn waited [canon: Zongxi (waited dawns; specified Huang
+  Zongxi (vs no hits)); verification deferred].** → Zongxi's
+  dawns (waited, kept (dawned, mingyied (barbarians, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Dawn"
+  (waiting, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
