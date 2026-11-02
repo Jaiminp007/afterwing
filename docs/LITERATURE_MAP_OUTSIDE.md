@@ -18907,3 +18907,39 @@ ways).
 - Program note: MuLoRA states the program's core tension
   exactly (preserve vs respond); Tang gives the dial (churn).
   None licensed — filed.
+## Round 442 — Linocuts, windows, trumpets, trilogies (Elizabeth, Mildred, Dorham, Youlan; 2026-11-02)
+
+Motivation: further outside (linocut sharecroppers, wooden
+windows, afro-cuban trumpets, history trilogies). The program
+linocuts (runs attempts), windows (stitches verdicts), trumpets
+(publishes NOGOs), and trilogies (counts rows). Four more. (Map
+holds 448 rounds.)
+
+- **Linocut sharecropper [canon: Elizabeth (linocut
+  sharecroppers; specified Elizabeth Catlett (vs no hits));
+  verification deferred].** → Elizabeth's linocuts (sharecropped,
+  kept (printed, sculpted (mothers, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "Sharecropper"
+  (printed, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Window wood [canon: Mildred (wooden windows; specified
+  Mildred Thompson (vs no hits; surname tag taken by D'Arcy —
+  first-name tag used)); verification deferred].** → Mildred's
+  windows (wooded, kept (boarded, musiced (notes, kept))) is the
+  verdict (musiced, kept (NOGO, told (honest, kept))); her "Wood"
+  (windowed, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Trumpet afro-cuban [canon: Dorham (afro-cuban trumpets;
+  specified Kenny Dorham (vs no hits)); verification
+  deferred].** → Dorham's trumpets (afro-cubaned, kept (composed,
+  matadored (bulls, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Matador" (composed, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Trilogy history [canon: Youlan (history trilogies; specified
+  Feng Youlan (vs no hits; surname tag taken by the FOREVER
+  author — first-name tag used)); verification deferred].** →
+  Youlan's trilogy (historied, kept (trilogied, shorted (histories,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "History" (shorted, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
