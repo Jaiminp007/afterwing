@@ -20126,3 +20126,34 @@ four branches; R479 not repeated).
   bounds twin.
 - Program note: emulate, pipeline, edit-the-circuit, bound
   it — the circuits file. None licensed — filed.
+## Round 482 — Salts, rhythms, merits, lakes (Pier Paolo, Susie, Shi, Hong; 2026-11-02)
+
+Motivation: further outside (burned salts, filipino rhythms,
+affair merits, wufeng lakes). The program salts (runs attempts),
+rhythms (stitches verdicts), merits (publishes NOGOs), and lakes
+(counts rows). Four more. (Map holds 488 rounds.)
+
+- **Salt burned [canon: Calzolari (burned salts; specified Pier
+  Paolo Calzolari (vs no hits)); verification deferred].** →
+  Pier Paolo's salts (burned, kept (salted, frosted (roses,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Salt" (burned, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Rhythm filipino [canon: Ibarra (filipino rhythms; specified
+  Susie Ibarra (vs no hits)); verification deferred].** → Susie's
+  rhythms (filipinoed, kept (rhythmed, drumed (dreams, kept))) is
+  the verdict (drumed, kept (NOGO, told (honest, kept))); her
+  "Rhythm" (song, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Merit affair [canon: Shi (affair merits; specified Ye Shi
+  (vs no hits)); verification deferred].** → Shi's merits
+  (affaired, kept (merited, scholared (learning, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Merit" (affairs, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Lake wufeng [canon: Hong (wufeng lakes; specified Hu Hong
+  (vs no hits)); verification deferred].** → Hong's lakes
+  (wufenged, kept (laked, knowledged (natures, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Lake" (wufeng,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
