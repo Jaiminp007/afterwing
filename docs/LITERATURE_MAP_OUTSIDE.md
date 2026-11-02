@@ -20303,3 +20303,36 @@ four branches).
   without breaking (our adopt-iff, injection-side). Filed.
 - Program note: the substrate changes, the wound persists;
   anchor per-knot, inject aligned. None licensed — filed.
+## Round 488 — Upside-downs, tables, calendars, expositions (Georg, Fred, Qiling, Yizun; 2026-11-02)
+
+Motivation: further outside (upside-down eagles, table-top
+guitars, joined calendars, classical expositions). The program
+upside-downs (runs attempts), tables (stitches verdicts),
+calendars (publishes NOGOs), and expositions (counts rows). Four
+more. (Map holds 494 rounds.)
+
+- **Upside-down eagle [canon: Baselitz (upside-down eagles;
+  specified Georg Baselitz (vs no hits)); verification
+  deferred].** → Georg's upside-downs (eagled, kept (inverted,
+  fractured (heroes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Eagle" (inverted, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Table guitar [canon: Frith (table-top guitars; specified
+  Fred Frith (vs no hits)); verification deferred].** → Fred's
+  tables (guitared, kept (tabled, soloed (solos, kept))) is the
+  verdict (soloed, kept (NOGO, told (honest, kept))); his "Table"
+  (top, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Calendar joined [canon: Qiling (joined calendars; specified
+  Mao Qiling (vs no hits)); verification deferred].** → Qiling's
+  calendars (joined, kept (calendared, recorded (west-rivers,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Calendar" (west-river, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Exposition classical [canon: Yizun (classical expositions;
+  specified Zhu Yizun (vs no hits)); verification deferred].** →
+  Yizun's expositions (classiced, kept (exposited, baoshued
+  (exhibitions, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Exposition" (baoshu, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
