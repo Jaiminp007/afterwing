@@ -408,6 +408,9 @@ the map stays open, not empty.
 - R597 anchoring file: anchor-relatively;
   compare-relatively; ground-steps;
   repair-reasoning.
+- R599 unified file: unify-skills;
+  standardize-memory; unify-models;
+  disentangle-latents.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
