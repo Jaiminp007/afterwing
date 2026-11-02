@@ -52,6 +52,26 @@ Velez (modularity-by-locality in simple nets) joins TFGN as the
 architectural existence-proof bucket (both unlicensed, both need
 the trunk work first).
 
+## Candidate 6 (added 2026-11-02): per-parameter modulation — PARKED
+
+R326 (Gupta/La-MAML: online per-parameter LR modulation, small memory;
+Kuo: per-parameter PER-TASK rates). The La-MAML version is executable
+without representation — but it interpolates two closed channels
+(C12 global rate × SU binary selection = soft masking), both null at
+the endpoints. Same-channel-as-C12 grain variation → NOT licensed
+(rule-(b) logic). The live part is Kuo's composition (rate × selection
+× TASK-INDEXING) — parked-conditional on representation (sharpest lead
+held). Per-parameter modulation becomes viable only indexed by task.
+
+## Directions recorded (not candidates — no substrate path)
+
+- R326 Irie/ACL: self-referential nets metalearning their own in-context
+  CL algorithms. The RSI SHAPE (system revises its algorithm). No line
+  follows (needs self-reference; our loop revises configs, not code).
+- R326 Sun fast/meta split: proposer-vs-judge separation (fast=transfer,
+  meta=integration). Design principle banked for any future loop
+  architecture (with the tick/errors instrumentation standard).
+
 ## Candidate 4 (added 2026-11-02): mask-per-task architecture — PARKED (strong)
 
 R321 (Yadav/SupSup-critique): per-task supermasks over frozen weights
