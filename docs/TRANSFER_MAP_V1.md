@@ -95,6 +95,12 @@ the map stays open, not empty.
   gate avoidance by cause. Genuinely new family (not gain, not
   selection, not scaling). Needs a frozen plan + fresh bank to run;
   direction-first and falsifiable-both-ways must be IN the freeze.
+- V1O addendum (2026-11-02): family #2's simplest form ran INCOMPLETE-
+  UNTRAINED (multi-train G0: 0.667/0.365/0.508; mid-training codebook
+  switches act as interference, not enrichment, within 1792 ticks).
+  Question UNANSWERED (not NOGO): future multi-codebook lines must
+  solve multi-train learning first. Descriptive lift +0.0404 (3/3
+  non-degraded, misses +0.10) recorded, ungated.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,

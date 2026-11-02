@@ -384,3 +384,11 @@ plateau: HB 0.950/0.953/0.951/0.951/0.934 across 0.05-0.25 (all +0.11-0.13
 over train 0.824); argmax 0.1 descriptive. 0.25 replicates V1m to 0.02.
 Dose-response complete 0.05-0.75 (plateau then step down). No second attempt.
 Cumulative 8103 (+21). No RSI claim.
+
+## V1o (multi-codebook training, 2026-11-02): PHASE-O-INCOMPLETE-UNTRAINED, line CLOSED
+Fresh-15 (470001-470054) spent, attempt-15 15/0/2.49e9 redone[]. G0 fail:
+train-multi 0.667/0.365/0.508 (pair 2 at 0.365) vs train-single
+0.820/0.814/0.815 — mid-training codebook switches interfere, not enrich.
+Descriptive lift +0.0404 (3/3 non-degraded, misses +0.10) ungated. Family
+#2 simplest form UNTESTED (not NOGO). No second attempt.
+Cumulative 8118 (+15). No RSI claim.
