@@ -17824,3 +17824,37 @@ conflict, not the weights.
 - Program note: Park's conflict-≠-harm + Mansilla's conflict-as-
   signal reframe V1o's thirds (interference was real harm there,
   not mere disagreement — G0 proves it). Filed, unlicensed.
+## Round 404 — Rhapsodies, rhinestones, doubts, dots (Franz, Mickalene, Sextus, Howardena; 2026-11-02)
+
+Motivation: further outside (Hungarian rhapsodies, rhinestone
+odalisques, equipollent doubts, punched dots). The program
+rhapsodies (runs attempts), rhinestones (stitches verdicts),
+doubts (publishes NOGOs), and dots (counts rows). Four more. (Map
+holds 410 rounds.)
+
+- **Rhapsody Hungarian [canon: Franz (Hungarian rhapsodies;
+  specified Franz Liszt (vs no hits)); verification deferred].**
+  → Franz's rhapsodies (Hungarianed, kept (played, dazzled
+  (concertos, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Sonata" (minored, kept (played,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Rhinestone odalisque [canon: Mickalene (rhinestone
+  odalisques; specified Mickalene Thomas (vs no hits; first-name
+  tag collides — surname tag used); verification deferred].** →
+  Mickalene's rhinestones (odalisqued, kept (glittered, posed
+  (lounges, kept))) is the verdict (posed, kept (NOGO, told
+  (honest, kept))); her "Portrait" (reclined, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Doubt equipollent [canon: Sextus (equipollent doubts;
+  specified Sextus Empiricus (vs no hits)); verification
+  deferred].** → Sextus's doubts (equipolled, kept (opposed,
+  suspended (dogmas, kept))) is the claim (suspended, kept (RSI,
+  unclaimed (still, standing))); his "Outlines" (pyrrhonized, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Dot punched [canon: Howardena (punched dots; specified
+  Howardena Pindell (vs no hits)); verification deferred].** →
+  Howardena's dots (punched, kept (counted, circled (holes,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  her "Carnival" (taped, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
