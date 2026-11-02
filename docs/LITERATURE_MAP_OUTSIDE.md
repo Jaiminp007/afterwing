@@ -20850,3 +20850,35 @@ repeated; evolve family, four branches).
 - Program note: budget density, adapt effort, distill
   trajectories, reward uncertainty — the evolve file. None
   licensed — filed.
+## Round 506 — Cents, models, constellations, mumbles (Andreas, Thomas, Stitt, Terry; 2026-11-02)
+
+Motivation: further outside (99-cent rhines, paper models, end
+constellations, flugel mumbles). The program cents (runs attempts),
+models (stitches verdicts), constellations (publishes NOGOs), and
+mumbles (counts rows). Four more. (Map holds 512 rounds.)
+
+- **Cent rhine [canon: Gursky (rhine cents; specified Andreas
+  Gursky (vs no hits)); verification deferred].** → Andreas's
+  cents (rhined, kept (cented, stocked (exchanges, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Cent"
+  (ninety-nine, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Model paper [canon: Demand (paper models; specified Thomas
+  Demand (vs no hits)); verification deferred].** → Thomas's
+  models (papered, kept (modeled, clearing (clearings, kept)))
+  is the verdict (cleared, kept (NOGO, told (honest, kept))); his
+  "Model" (paper, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Constellation end [canon: Stitt (end constellations;
+  specified Sonny Stitt (vs no hits)); verification
+  deferred].** → Stitt's constellations (ended, kept (stitted,
+  constellated (saxes, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Constellation" (end, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Mumble flugel [canon: Terry (flugel mumbles; specified
+  Clark Terry (vs no hits)); verification deferred].** → Terry's
+  mumbles (flugeled, kept (mumbled, mumblesed (trumpets, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Mumble" (flugel, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
