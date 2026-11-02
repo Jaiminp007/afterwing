@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R407 addendum: localize-FIRST-then-forget (Rahimi-Kalahroudi:
+  local forgetting for local change — the surgical ideal C16
+  missed; LOCAL = HB-only wound shape); Yang caveat (deletion
+  costly if dynamics return — recurrence) attached to the CAWM
+  note; manifold replay banked unlicensed.
 - R405 addendum: CAWM (CUSUM abrupt-only changepoint + forget-stale
   + keep-representation, DreamerV3 embodied) filed as the CLOSEST
   RUNNABLE C16-fixed loop; RIFAR (embodied reliability-informed) +
