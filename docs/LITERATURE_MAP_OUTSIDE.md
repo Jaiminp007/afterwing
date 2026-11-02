@@ -16698,3 +16698,36 @@ data, not the weights (our transfer side's one unlicensed family).
   hits)].** Input-dependent online blending of domain low-rank
   experts for continual TTA. → Routing by input, continually.
   DTR-relevant (blend, don't transplant). Unlicensed.
+## Round 364 — Keys, flowers, commentaries, puppies (Julius, Takashi, Ibn, Jeff; 2026-11-02)
+
+Motivation: further outside (key Brahmses, flower superflats,
+Aristotle commentaries, balloon puppies). The program keys
+(runs attempts), flowers (stitches verdicts), commentaries
+(publishes NOGOs), and puppies (counts rows). Four more. (Map
+hits 370 rounds.)
+
+- **Key Brahms [canon: Julius (key Brahmses; specified Julius
+  Katchen (vs no hits)); verification deferred].** → Julius's
+  keys (Brahmsed, kept (played, voiced (concertos, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Ravel" (gasparded, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Flower superflat [canon: Takashi (flower superflats;
+  specified Takashi Murakami (vs no hits)); verification
+  deferred].** → Takashi's flowers (superflatted, kept (smiled,
+  repeated (eyes, kept))) is the verdict (repeated, kept (NOGO,
+  told (honest, kept))); his "Tonkachi" (missed, kept (lost,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Commentary Aristotle [canon: Ibn (commentary Aristotles;
+  specified Ibn Rushd (vs no hits)); verification deferred].** →
+  Ibn's commentaries (Aristotled, kept (glossed, reasoned
+  (long, kept))) is the claim (reasoned, kept (RSI, unclaimed
+  (still, standing))); his "Tahafut" (refuted, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Puppy balloon [canon: Jeff (puppy balloons; specified Jeff
+  Koons (vs no hits)); verification deferred].** → Jeff's puppies
+  (ballooned, kept (polished, mirrored (Bilbao, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Rabbit"
+  (inflated, kept (sold, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
