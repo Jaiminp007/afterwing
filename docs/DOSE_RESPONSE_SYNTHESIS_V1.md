@@ -22,16 +22,14 @@ BH: 0.83–0.86 all doses. Same-val: 0.92–0.95 all doses.
    (drop 0.40), declines further to 0.36 at 0.75. The cliff lies
    strictly inside (0.25, 0.5); its exact location is unmapped
    (no interpolation licensed — stated, not estimated).
-2. **Negative tax throughout the plateau (CORRECTED magnitude).**
-   Lossy transfer exceeds train on both banks (direction holds), but
-   the headline +0.11 MIXED METRICS (train pool-gap h−b vs transfer HB
-   correctness). In comparable correctness units (c ≈ (1+g)/2):
-   V1n train 0.824 → c≈0.912 vs HB 0.953 → tax −0.041; V1m −0.009;
-   T1-direct (same-metric) −0.039. So the negative tax is ~−0.01–0.04,
-   ~3× smaller than stated. Unlearning still beats learning (transfer
-   exceeds train), but barely — and the train-scale line shows train
-   itself plateaus structurally at ~0.91 (time adds zero). The dose
-   curve (all-HB) is unaffected by this correction.
+2. **Transfer tax: SUPERSEDED (see `docs/TAX_DECOMPOSITION_V1.md`).**
+   The negative-tax claim (v1: +0.11; v2 corrected: −0.01–0.04) was
+   doubly metric-mixed (gap-vs-correctness AND best-component-vs-
+   aggregate). Same-metric pooled correctness: train 0.9156 vs lossy
+   0.905–0.911 → tax +0.005–0.011 (essentially zero, slightly
+   positive). Transfer is near-lossless (~99%), not super-training;
+   no negative tax. The dose curve (all-HB) is unaffected (one metric
+   throughout). Train level 0.915 ± 0.001 replicated across three banks.
 3. **Manipulation purity at every dose.** BH (acquire avoidance) and
    same-val (retain) are invariant 0.05–0.75. Even failed doses
    (0.5/0.75) damage nothing — they attenuate the lift, never the
