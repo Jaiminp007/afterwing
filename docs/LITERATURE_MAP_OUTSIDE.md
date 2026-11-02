@@ -23604,3 +23604,33 @@ moonglows (counts rows). Four more. (Map holds 606 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Moonglow"
   (sincere, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 599 — United, interoperated, motused, disentangled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: unified — one system not
+fragments (already-cited fragmentation/composition leads
+converging; unified family, four branches).
+
+- **Beyond isolation [arXiv:2605.09441 (Sun; vs no
+  hits)].** Cross-skill + CROSS-embodiment
+  (compositional complexity; orchestrate diverse).
+  → Unify the skills (our program arc,
+  navigation-side). Filed.
+- **Interoperable memory [arXiv:2607.21404 (Zhao /
+  MemTools; vs no hits)].** DECOUPLE lifecycle
+  (standardize; heterogeneous types managed). →
+  Standardize the memory (our per-row archives,
+  framework-side). Filed.
+- **Unified latent action [arXiv:2512.13030 (Bi /
+  Motus; vs no hits)].** Isolated models FRAGMENT
+  (mixture-of-transformer; sharable motion). →
+  Unify the model (our single loop, action-side).
+  Filed.
+- **Disentangled latent [arXiv:2605.15725 (Zhang /
+  DiLA; vs no hits)].** Abstraction vs FIDELITY
+  (content-style split; unlabeled video). →
+  Disentangle the latent (our flip-split,
+  disentangle-side). Filed.
+- Program note: unify skills, standardize memory,
+  unify models, disentangle latents — the unified
+  file. None licensed — filed.
