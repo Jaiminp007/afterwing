@@ -23899,3 +23899,33 @@ temptations (stitches verdicts), tops (publishes NOGOs), and miracles
   (joined, kept (carried, won (crowd, kept))); his "Miracle" (tear, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 609 — Magnetized, unboxed, timed, momentoed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: cross-session — the attack
+spans sessions (already-cited session/threat leads converging;
+session family, four branches).
+
+- **Capability magnet [arXiv:2608.02518 (Isak / Magnet;
+  vs no hits)].** Decompose harmful into INNOCUOUS
+  (capability accumulation; single-session blind).
+  → Watch the accumulation (our outcome-selected
+  audits, magnet-side). Filed.
+- **Learned governance [arXiv:2604.11839 (Sidik; vs no
+  hits)].** 15x OVERPROVISION (every tool every
+  session; static sandbox insufficient). → Govern
+  capabilities (our frozen caps, learned-side).
+  Filed.
+- **Temporal memory [arXiv:2512.20092 (Du / Memory-T1;
+  vs no hits)].** Time-aware SELECTION via RL (noise
+  accumulates; pertinent buried). → Select
+  temporally (our per-leg deltas, time-side).
+  Filed.
+- **Persistent momento [arXiv:2606.00832 (Merin; vs no
+  hits)].** Single-session IGNORES past (consequential
+  tool actions; resolve temporal). → Persist the
+  memory (our negative-preservation, momento-side).
+  Filed.
+- Program note: watch accumulation, govern
+  capabilities, select temporally, persist memory —
+  the cross-session file. None licensed — filed.
