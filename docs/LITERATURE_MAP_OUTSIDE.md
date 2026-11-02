@@ -17972,3 +17972,26 @@ and batons (counts rows). Four more. (Map holds 414 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Mahler"
   (nined, kept (played, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 409 — Uncertain, adaptive, open, guided (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: uncertainty meets prototypes —
+replay what you're unsure of, with summaries that stay fresh.
+
+- **Uncertainty-driven [arXiv:2608.29860 (Rajakrishnan / UDRM; vs
+  no hits)].** Update stored memories BY uncertainty (known vs
+  unknown). → Replay the unsure, not the routine. Unlicensed.
+- **Adaptive prototypes [arXiv:2412.12669 (Zhu; vs no hits)].**
+  Prototypes must UPDATE with representations — fixed prototypes
+  go STALE. → Prototype staleness named (our codebook-shift in
+  miniature: the summary rots when the world moves).
+- **Open-world uncertainty [arXiv:2609.17866 (Aida; vs no hits)].**
+  β-VAE latent + posterior uncertainty as reliability signal +
+  DP-GMM, evolving label space. → Reliability + nonparametrics +
+  open world in one. Unlicensed.
+- **Guided few [arXiv:2108.12641 (Ho; vs no hits)].**
+  Prototype-guided memory-efficient replay (few samples, dynamic
+  prototypes). → Summaries, not archives. Unlicensed.
+- Program note: Zhu's staleness (fixed summaries rot under shift)
+  is the prototype-version of our wound — and the argument for
+  adaptive (not fixed) cause representations. Filed, unlicensed.
