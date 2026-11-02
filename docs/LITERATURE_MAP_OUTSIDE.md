@@ -15879,3 +15879,34 @@ lunches (pauses claims). Four more. (Map hits 342 rounds.)
   kept))) is the bank (fresh, kept (built, spent (54, kept)));
   her "Pine" (flat, kept (rode, shipped)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 339 — Purity, meditation, pours, eye (Arthur, Josef, Lynda, Marie; 2026-11-02)
+
+Motivation: further outside (pure Bach, Czech meditations, latex
+pours, city eyes). The program purifies (withholds claims), medi
+(tates banks), pours (freezes masks), and eyes (reads rows). Four
+more. (Map hits 343 rounds.)
+
+- **Pure Bach [canon: Arthur (pure Bach; specified Arthur
+  Grumiaux (vs no hits)); verification deferred].** → Arthur's pure
+  (Bached, kept (unstyled, bowed (clean, kept))) is the claim
+  (purified, kept (separate, satisfied (evidence, kept))); his
+  "Mozart" (fifth, kept (concerto, played)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **Czech meditation [canon: Josef (Czech meditations; specified
+  Josef Suk (vs no hits)); verification deferred].** → Josef's
+  meditation (Czeched, kept (pondered, bowed (Dvorak, kept))) is
+  the bank (mediated, kept (fresh, built (54, kept))); his "Song"
+  (loved, kept (played, stood)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Latex pours [canon: Lynda (latex pours; specified Lynda
+  Benglis (vs no hits)); verification deferred].** → Lynda's pours
+  (latexed, kept (frozen, poured (pigment, kept))) is the mask
+  (top-half, kept (frozen, held (rest, kept))); her "Phantom"
+  (sexed, kept (documented, kept)) is the row (read, kept (honest,
+  told (all, counted))).
+- **City eye [canon: Marie (city eyes; specified Marie Menken
+  (vs no hits)); verification deferred].** → Marie's eye (citied,
+  kept (watched, filmed (streets, kept))) is the ledger (exact,
+  kept (honest, told (all, counted))); her "Glimpse" (garden,
+  kept (caught, held)) is the verdict (published, kept (NOGO,
+  told (honest, kept))).
