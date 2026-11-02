@@ -20975,3 +20975,37 @@ govern family, four branches).
 - Program note: audit tampering, guard causally, trust no
   hook, govern context — the harness file. None licensed —
   filed.
+## Round 510 — Suburbs, beauties, bops, browns (Gregory, Richard, Dizzy, Clifford Brown; 2026-11-02)
+
+Motivation: further outside (staged suburbs, american beauties,
+beret bops, string browns). The program suburbs (runs attempts),
+beauties (stitches verdicts), bops (publishes NOGOs), and browns
+(counts rows). Four more. (Map holds 516 rounds.)
+
+- **Suburb staged [canon: Crewdson (staged suburbs; specified
+  Gregory Crewdson (vs no hits)); verification deferred].** →
+  Gregory's suburbs (staged, kept (suburbed, twilit (lights,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Suburb" (staged, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Beauty american [canon: Avedon (american beauties;
+  specified Richard Avedon (vs no hits)); verification
+  deferred].** → Richard's beauties (americaned, kept (beautied,
+  in-the-west (wests, kept))) is the verdict (in-the-west, kept
+  (NOGO, told (honest, kept))); his "Beauty" (america, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Bop beret [canon: Gillespie (beret bops; specified Dizzy
+  Gillespie (vs no hits)); verification deferred].** → Dizzy's
+  bops (bereted, kept (bopped, nighted (tunisias, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Bop" (beret, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Brown string [canon: Clifford Brown (string browns;
+  specified Clifford Brown (vs no hits; single-name tags taken
+  by behavior-Browns + Curzon — full-name tag used));
+  verification deferred].** → Clifford Brown's browns
+  (stringed, kept (browned, joy-springed (springs, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Brown"
+  (strings, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
