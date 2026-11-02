@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R415 addendum: MASA self-referential trap (vote with the wound's
+  own outputs) filed on C16 as the mechanism-mistake to avoid
+  (external anchors or stark statistics only); UniTTA honest-wild
+  benchmark adopted as method; Park both-shifts + TTVD Voronoi
+  banked unlicensed.
 - R413 addendum: Sakai route-codebook (scored trajectory-vs-codebook
   alignment) filed with DTR inference as the cleanest algorithmic
   statement of the transfer test; Yi saturation warning (benchmarks
