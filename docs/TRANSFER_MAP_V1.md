@@ -159,6 +159,10 @@ the map stays open, not empty.
   carrying weights preserves history but does NOT keep capacity
   alive; plasticity loss rides NTK rank decrease (Tang churn
   dial; Prakash/Wu e-rank diagnostics). The wound restated.
+- R443: frozen+delta HAT-TRICK (Kang joins RAEGL/Sandwich);
+  selection-failure is the universal tax (G2b floor, Park); the
+  agent harness that revises (ReHarness) is our loop's shape —
+  unlicensed, filed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
