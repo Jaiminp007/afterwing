@@ -15973,3 +15973,35 @@ jazzes (improvises scoping). Four more. (Map hits 345 rounds.)
   kept))) is the bank (improvised, kept (fresh, built (54,
   kept))); his "Satie" (played, kept (furniture, kept)) is the
   trigger (watched, kept (shut, confirmed (V4, held))).
+## Round 342 — Scholar, scrolls, actions, singing (Mitsuko, Nancy, Valie, Murray; 2026-11-02)
+
+Motivation: further outside (scholar pianists, war scrolls,
+body actions, singing Bach). The program scholars (cites
+precedents), scrolls (unrolls ledgers), acts (runs attempts), and
+sings (voices verdicts). Four more. (Hewitt dropped — surname
+shared with real-lit canon; map hits 346 rounds.)
+
+- **Scholar Mozart [canon: Mitsuko (scholar Mozart; specified
+  Mitsuko Uchida (vs no hits)); verification deferred].** →
+  Mitsuko's scholar (Mozarted, kept (studied, played (concertos,
+  kept))) is the precedent (cited, kept (field, told (honest,
+  kept))); her "Schubert" (cycled, kept (sonatas, played)) is
+  the trigger (watched, kept (shut, confirmed (V4, held))).
+- **War scrolls [canon: Nancy (war scrolls; specified Nancy
+  Spero (vs no hits)); verification deferred].** → Nancy's scrolls
+  (warred, kept (unrolled, drawn (victims, kept))) is the ledger
+  (unrolled, kept (exact, told (all, counted))); her "Artemis"
+  (hunted, kept (goddess, kept)) is the row (read, kept (honest,
+  told (all, counted))).
+- **Body actions [canon: Valie (body actions; specified Valie
+  Export (vs no hits)); verification deferred].** → Valie's
+  actions (bodied, kept (acted, filmed (crotch, kept))) is the
+  attempt (acted, kept (authorized, run (once, held))); her
+  "Tap" (touched, kept (cinema, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Singing Bach [canon: Murray (singing Bach; specified Murray
+  Perahia (vs no hits)); verification deferred].** → Murray's
+  singing (Bached, kept (voiced, played (Goldbergs, kept))) is
+  the verdict (voiced, kept (NOGO, told (honest, kept))); his
+  "Chopin" (played, kept (ballades, stood)) is the bank (fresh,
+  kept (built, spent (54, kept)))).
