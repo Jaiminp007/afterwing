@@ -49,6 +49,21 @@ converts". Both valid; the record now states which is which.
 4. Nothing here reopens any closed verdict (all NOGO/INVALID
    stand; this audit only describes their insides).
 
+## Addendum 2026-11-02 (C14 links; appended, not rewritten)
+
+C14 link-to-link HB (n=2 per cell, descriptive): copied 0.254→0.408
+(+0.154); sparse 0.312→0.342 (+0.030); static 0.353→0.312 (−0.041).
+
+Pattern: both config-carrying arms (sparse evaluated, copied blind)
+recover on link 2; the no-config arm (static) decays — on the same
+bank, opposite leg directions by arm. Recovery does NOT track
+evaluation (blind recovers MOST, +0.154 ≈ C13-double's +0.158).
+This further deflates any "evaluation drives transfer" story
+(consistent with G2b's chronic smallness): what little link-2
+recovery exists rides the carried CONFIG, evaluated or not.
+Reinforces finding 1 (no universal leg; arm×bank specificity) and
+finding 3 (substrate sets the sign). No verdict moves.
+
 ## Licensed follow-ups (none executed)
 
 - A "warm-up transfer" line is NOT licensed: no universal leg
