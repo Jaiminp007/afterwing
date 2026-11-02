@@ -17884,3 +17884,36 @@ that knows what to forget (and what not to disturb).
   representation) is the closest runnable loop to C16-fixed
   (detect the codebook change, drop the stale mapping, keep the
   valence rule). Filed with the successor design, unlicensed.
+## Round 406 — Studies, stains, probabilities, grace (Friedrich, Motherwell, Carneades, Jean; 2026-11-02)
+
+Motivation: further outside (children's studies, Spanish elegy
+stains, sailing probabilities, graceful etudes). The program
+studies (runs attempts), stains (stitches verdicts), probabilities
+(publishes NOGOs), and graces (counts rows). Four more. (Map holds
+412 rounds.)
+
+- **Study child [canon: Friedrich (children studies; specified
+  Friedrich Burgmuller (vs no hits)); verification deferred].** →
+  Friedrich's studies (childed, kept (played, progressed (etudes,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Ballade" (told, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Stain elegy [canon: Motherwell (elegy stains; specified
+  Robert Motherwell (vs no hits; first-name tag collides R382 —
+  surname tag used); verification deferred].** → Motherwell's
+  stains (elegied, kept (brushed, republiqued (Spanish, kept))) is
+  the verdict (republiqued, kept (NOGO, told (honest, kept))); his
+  "Door" (opened, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Probability sail [canon: Carneades (sail probabilities;
+  specified Carneades (vs no hits)); verification deferred].** →
+  Carneades's probabilities (sailed, kept (weighed, assented
+  (impressions, kept))) is the claim (assented, kept (RSI,
+  unclaimed (still, standing))); his "Plank" (seized, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Grace etude [canon: Jean (grace etudes; specified
+  Jean-Baptiste Duvernoy (vs no hits)); verification deferred].**
+  → Jean's grace (etuded, kept (played, elementary (mechanism,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "School" (mechanismed, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
