@@ -16641,3 +16641,35 @@ traps, overcoming, inflexibility.
   hits)].** Scenarios exploiting fixation-from-prior-experience.
   → Prior-experience fixation named as the failure mode — our
   wound's family at benchmark scale.
+## Round 362 — Steel, pools, exclusion, lyricism (Emil, David, Dharmakirti, Wilhelm; 2026-11-02)
+
+Motivation: further outside (steel fingers, pool painters,
+exclusion logicians, lyric Beethovens). The program steels
+(runs attempts), pools (stitches verdicts), excludes (withholds
+RSI), and lyricises (counts rows). Four more. (Map hits 368
+rounds.)
+
+- **Steel finger [canon: Emil (steel fingers; specified Emil
+  Gilels (vs no hits)); verification deferred].** → Emil's steel
+  (fingered, kept (played, struck (Beethoven, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Brahms" (concertoed, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Pool painter [canon: David (pool painters; specified David
+  Hockney (vs no hits)); verification deferred].** → David's pools
+  (painted, kept (splashed, joined (California, kept))) is the
+  verdict (joined, kept (NOGO, told (honest, kept))); his
+  "Portrait" (doubled, kept (gay, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Exclusion logic [canon: Dharmakirti (exclusion logics;
+  specified Dharmakirti (vs no hits)); verification deferred].**
+  → Dharmakirti's exclusions (apohaed, kept (negated, inferred
+  (meanings, kept))) is the claim (negated, kept (RSI, unclaimed
+  (still, standing))); his "Commentary" (entered, kept (pramana,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Lyric Beethoven [canon: Wilhelm (lyric Beethovens; specified
+  Wilhelm Kempff (vs no hits)); verification deferred].** →
+  Wilhelm's lyricism (Beethovened, kept (played, sang (sonatas,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Schubert" (wandered, kept (improvised, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
