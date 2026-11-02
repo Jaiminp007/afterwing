@@ -12859,3 +12859,49 @@ shares 3 finer-dose FPs — Longplayer only, no surname.)
   (bit-identical (the identical, triaged))). Noether says: tell me
   your symmetries (I tell you what's conserved (the rows (the rows,
   kept (the kept, published)))).
+## Round 247 — Environmental design (McHarg, Halprin, Gehl, Appleyard; 2026-11-02)
+
+Motivation: the program builds habitats (ecologies with food maps;
+banks with excluded ranges; streets agents move on). Four who designed
+with the site, not against it. (K. Lynch already mapped (R-imageability);
+bare Lynch/McHarg-suitability/overlay FPs avoided throughout.)
+
+- **Design with the site [canon: McHarg (layered inventory;
+  specified Ian (vs no hits)); verification deferred].** → Ian's
+  layered inventory (map every factor (soils, water, habitat (stack
+  the layers (the stack, decisive)))) is the bank builder (map every
+  spent range (protocols, fixtures, registries (stack the exclusions
+  (the stack, enforced)))) and the ecology (food, cues, phases
+  (stacked (the stacking, lawful))). McHarg's "design with nature"
+  (the site decides (the designer, obeys)) is the frozen plan (the
+  substrate decides (the line, obeys (G0 fails (the line, stops)))).
+- **Scores that perform [canon: Halprin (RSVP cycle; specified
+  Lawrence (vs no hits)); verification deferred].** → Lawrence's
+  RSVP (Resources, Scores, Valuaction, Performance (the score, open
+  (the performance, scored but free))) is the attempt (bank
+  (Resources); runner (Score); scorer (Valuaction); verdict
+  (Performance (single, unrepeatable)))); the openness (scores
+  invite participation (the dance, unscripted)) is the frozen
+  instrument (fixed code (free outcomes (the outcomes, read, not
+  steered))). Halprin's fountains (water you can enter (the civic,
+  wet)) are the cue ecologies (entered by all arms (the entry,
+  matched)).
+- **Life between the runs [canon: Gehl (street life; specified
+  Jan (vs no hits)); verification deferred].** → Jan's life between
+  buildings (the benches, the edges, the lingering (where the city
+  happens)) is the contact (between agents (the lingering, joined
+  (decisions with physicals (the joining, 1.00)))); his "first life,
+  then spaces, then buildings" (use first (form follows)) is the
+  program order (behavior first (turn-gating (then mechanism (then
+  theory (the theory, last))))). Gehl counts (pedestrians, hours,
+  benches (the counting, patient)) as the ledger counts (worlds,
+  ticks, ops (the counting, exact)).
+- **What traffic does [canon: Appleyard (livable streets;
+  specified Donald (vs no hits);
+  verification deferred].** → Donald's livable streets (heavy traffic
+  kills neighboring (light traffic befriends (the finding, measured
+  (the measurement, door-to-door)))) is the cap discipline (heavy
+  runs kill budgets (capped runs befriend them (caps 4.0e9/10800s
+  (the friendship, enforced)))); his street as habitat (not pipe
+  (the street, lived)) is the ecology as habitat (not assay (the
+  world, lived (1792 ticks (the ticks, inhabited)))).
