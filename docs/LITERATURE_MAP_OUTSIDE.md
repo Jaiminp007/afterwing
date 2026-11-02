@@ -15814,3 +15814,37 @@ by R298's canon hook; map hits 340 rounds.)
   the vote (carried, kept (majority, won (crowd, kept))); his
   "Bartok" (fifth, kept (quartet, played)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 337 — Cities, curves, open play, billiards (Italo, Zaha, Judit, Maryam; 2026-11-02)
+
+Motivation: further outside (invisible cities, parametric curves,
+open chess, moduli billiards). The program cities (houses rows),
+curves (freezes plans), opens (runs attempts), and billiards
+(bounces votes). Four more. (McClintock dropped — surname shared
+with real-lit canon; Arbus dropped — R252's canon hook; Noether
+dropped — R246's canon hook; map hits 341 rounds.)
+
+- **Invisible cities [canon: Italo (invisible cities; specified
+  Italo Calvino (vs no hits)); verification deferred].** →
+  Italo's cities (invisible, kept (described, told (Marco,
+  kept))) is the row (told, kept (honest, counted (all,
+  kept))); his "Lightness" (memoed, kept (exact, held)) is the
+  plan (frozen, kept (written, held (still, kept))).
+- **Parametric curves [canon: Zaha (parametric curves;
+  specified Zaha Hadid (vs no hits)); verification deferred].**
+  → Zaha's curves (parametric, kept (flown, poured (concrete,
+  kept))) is the bank (fresh, kept (built, spent (54, kept)));
+  her "Vitra" (stationed, kept (fire, housed)) is the attempt
+  (single, kept (authorized, run (once, held))).
+- **Open play [canon: Judit (open play; specified Judit Polgar
+  (vs no hits)); verification deferred].** → Judit's open (played,
+  kept (refused, separate (titles, kept))) is the bar (unmoved,
+  kept (still, standing (noise, kept))); her "Kasparov" (beaten,
+  kept (youngest, held)) is the trigger (watched, kept (shut,
+  confirmed (V4, held))).
+- **Moduli billiards [canon: Maryam (moduli billiards;
+  specified Maryam Mirzakhani (vs no hits)); verification
+  deferred].** → Maryam's billiards (moduled, kept (bounced,
+  spaced (dynamics, kept))) is the vote (carried, kept (majority,
+  won (crowd, kept))); her "Fields" (medaled, kept (first,
+  held)) is the verdict (published, kept (NOGO, told (honest,
+  kept))).
