@@ -17356,3 +17356,27 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Rach"
   (rhapsodied, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 387 — Consolidated, congruenced, cranialed, leveled (live arXiv; 2026-11-02)
+
+Three fresh abstracts (fetched 2026-11-02) + one banked
+(2206.04016 SYNERgy already on record — cited, not repeated).
+Abstracts only, 0 worlds. Three virgin pre-append. Themed:
+memory consolidation — where experience lives and what earns
+keeping.
+
+- **Error-driven consolidation [arXiv:2006.12616 (Schillaci; vs
+  no hits)].** Memories retained by CONGRUENCY with prior
+  knowledge (prediction error from a generative model);
+  episodic + consolidation; EMBODIED greenhouse transfer. →
+  Keep what fits, consolidate the rest; transfer demonstrated.
+- **Gated bounded memory [arXiv:2603.15642 (Mody / CraniMem; vs
+  no hits)].** Goal-conditioned gating + utility tagging; bounded
+  episodic buffer + structured long-term. → Bounded memory done
+  right (gates + tags + bounds). Unlicensed.
+- **Three-level memory [arXiv:2609.00358 (Mujawar; vs no hits)].**
+  Working + routed episodic + semantic; learned controller for
+  routing/plasticity/retention/consolidation; read-before-write.
+  → The controller decides everything. Unlicensed.
+- Program note: Schillaci's congruency (generative-model
+  prediction error) is the consolidation-side twin of Mouchon's
+  surprise-gate. Filed with the C16-successor design, unlicensed.
