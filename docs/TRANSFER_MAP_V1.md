@@ -342,6 +342,9 @@ the map stays open, not empty.
 - R553 history-trust file: remove-misleaders;
   compress-when-safe; distrust-plausible;
   select-past.
+- R555 attribution file: test-mechanisms;
+  blame-sources; cite-contexts;
+  trace-payloads.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
