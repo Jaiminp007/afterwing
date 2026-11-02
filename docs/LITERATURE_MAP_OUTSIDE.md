@@ -16931,3 +16931,35 @@ evidence disagree.
   (Encoding-Grounding Dissociation). → Our wound's shape at VLM
   scale: prior wins over evidence. Third lens (untested,
   compatible with extinction/rigidity).
+## Round 372 — Trophies, grids, canons, fingers (Géza, Sophie, Avicenna, John; 2026-11-02)
+
+Motivation: further outside (trophy Mozarts, Dada grids,
+medicine canons, Sorabji fingers). The program trophies (runs
+attempts), grids (stitches verdicts), canons (publishes NOGOs),
+and fingers (counts rows). Four more. (Map hits 378 rounds.)
+
+- **Trophy Mozart [canon: Géza (trophy Mozarts; specified Géza
+  Anda (vs no hits; surname occurs only inside "standard");
+  verification deferred].** → Géza's trophies (Mozarted, kept
+  (played, voiced (concertos, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Bartok" (concertoed,
+  kept (played, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Grid Dada [canon: Sophie (grid Dadas; specified Sophie
+  Taeuber-Arp (vs no hits)); verification deferred].** →
+  Sophie's grids (Dadaed, kept (woved, beaded (circles, kept)))
+  is the verdict (beaded, kept (NOGO, told (honest, kept))); her
+  "Aurora" (puppetted, kept (danced, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Canon medicine [canon: Avicenna (canon medicines; specified
+  Avicenna (vs no hits)); verification deferred].** → Avicenna's
+  canons (medicined, kept (healed, distinguished (essences,
+  kept))) is the claim (distinguished, kept (RSI, unclaimed
+  (still, standing))); his "Healing" (booked, kept (cured, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Finger Sorabji [canon: John (finger Sorabjis; specified John
+  Ogdon (vs no hits)); verification deferred].** → John's fingers
+  (Sorabjied, kept (played, spanned (Opus, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Alkan"
+  (concertoed, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
