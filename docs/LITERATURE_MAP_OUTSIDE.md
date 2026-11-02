@@ -16847,3 +16847,29 @@ rounds.)
   won (crowd, kept))); his "Waltz" (minuted, kept (played,
   kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 369 — Overlapped, interfered, replayed, conflicted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: gradient interference — the theory
+of V1o's disruption.
+
+- **Overlap theory [arXiv:2010.04003 (Doan; vs no hits)].** NTK
+  overlap matrix: forgetting GROWS with task alignment. → V1o
+  post-hoc: A/A2/A3 (same rule, permuted cues) are maximally
+  aligned → maximal interference → multi-train G0 fails. The
+  pseudos were too similar. Explains; does not rescore.
+- **Interference causes [arXiv:2205.12186 (Bai; vs no hits)].**
+  Gradient interference from representation correlations; global
+  alignment fix. → Correlations (shared rule) ARE the interference
+  source; alignment machinery is the fix. Unlicensed.
+- **Replay+alignment [arXiv:2508.01908 (Abbes; vs no hits)].**
+  Replay + gradient alignment for continual pre-training at LLM
+  scale. → The combined fix, at scale. Unlicensed.
+- **Conflict term [arXiv:2311.00235 (Dherin; vs no hits)].**
+  Implicit conflict term in multitask/continual modified losses;
+  detrimental to convergence + regularization. → Interference
+  formalized as implicit loss. Lens only.
+- Program note: a future multi-codebook line wants DISSIMILAR
+  pseudos (low overlap) or alignment machinery — not the maximally-
+  aligned permutes V1o used. Filed as post-hoc lens on a closed
+  line (verdict stands).
