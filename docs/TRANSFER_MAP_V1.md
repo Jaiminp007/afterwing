@@ -33,6 +33,24 @@ verdicts — never run, never claimed); what would license new work.
   transfer already fixed — predicted null (wrong side of the
   wound).
 
+## Addendum 2026-11-02 (R348: input-side locus + TTA taxonomy)
+
+- New LOCUS (Guo/diffusion-TTA): adapt INPUTS (transform target
+  toward source) instead of weights. Every mechanism in the map
+  above is weight-side (gains/scales/masks/transplants all rewrite
+  weights or their updates). Input-side is outside that locus —
+  the first such idea on record. UNLICENSED (needs a generative
+  model of the train world = substrate work) but it re-partitions
+  the hunt: weight-side (mapped, largely closed) vs input-side
+  (unmapped, one candidate).
+- TTA taxonomy (Liang survey) adopted as the hunt's map: update
+  weights/statistics (tried) vs adapt inputs (untried) vs adapt
+  prototypes (ProtoTTA — closest analog to niche-model weights;
+  needs a prototype-update rule, unlicensed).
+- sTTT (Su) names our transfer setting (sequential inference +
+  adaptation) but does not change the C14-bar ruling on test-time
+  firing (protocol framing; same channel).
+
 ## What would license transfer-side work
 
 A mechanism aimed at HB-extinction with a rationale NEITHER gain-
