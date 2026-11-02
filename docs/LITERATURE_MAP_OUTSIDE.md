@@ -19004,3 +19004,30 @@ holds 450 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Documenta"
   (elevens, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 445 — Confident, mixed, distanced, tested (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: calibration — know what you know
+(the program's bar problem, formalized four ways).
+
+- **CL calibration [arXiv:2404.07817 (Li; vs no hits)].**
+  FIRST calibration study in CL: models that reliably tell
+  their confidence. → Calibrate the vote, not just the
+  weights. Unlicensed.
+- **Collapse mixup [arXiv:2510.15751 (Dang / SAMix; vs no
+  hits)].** Sphere-adaptive mixup + neural collapse →
+  calibration AND accuracy (reduces overconfidence). → Mix
+  without overconfiding. Unlicensed.
+- **Calibration distance [arXiv:2402.07458 (Qiao; vs no hits)].**
+  L1 distance to perfectly-calibrated-in-hindsight for
+  SEQUENTIAL prediction (Lipschitz). → Our bars restated:
+  how far is the vote from calibrated? Filed as the
+  distance-from-calibration lens.
+- **Real-or-noise [arXiv:2203.01850 (Lee / T-Cal; vs no hits)].**
+  OPTIMAL TEST: know when calibration gains are REAL vs
+  finite-sample noise artifacts. → C6 (+0.004) and C13
+  (+0.001) through this test: noise-at-bar CONFIRMED by
+  construction. Filed as the near-miss adjudicator.
+- Program note: T-Cal adjudicates our near-misses honestly;
+  Qiao gives the distance; Li/Dang give the fix. None
+  licensed — filed.
