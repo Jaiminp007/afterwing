@@ -378,6 +378,9 @@ the map stays open, not empty.
 - R577 composition file: probe-boundaries;
   audit-writes; test-assembly;
   build-strategies.
+- R579 experience-opt file: freeze-successors;
+  generate-entries; distill-reusable;
+  reuse-selectively.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
