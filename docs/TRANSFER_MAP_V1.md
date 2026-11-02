@@ -411,6 +411,9 @@ the map stays open, not empty.
 - R599 unified file: unify-skills;
   standardize-memory; unify-models;
   disentangle-latents.
+- R601 governed file: govern-memory;
+  factory-pipelines; replay-longitudinally;
+  meter-cross-layer.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
