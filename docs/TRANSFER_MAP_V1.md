@@ -393,6 +393,9 @@ the map stays open, not empty.
 - R587 skill-budget file: format-specs;
   virtualize-state; allocate-by-skill;
   modularize-knowledge.
+- R589 incomplete file: rank-signals;
+  specify-sources; fuse-debates;
+  evaluate-holes.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
