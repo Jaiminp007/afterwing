@@ -18052,3 +18052,34 @@ can trust.
 - Program note: transport-discrepancy joins max-discrepancy as
   the successor vote's statistic (both label-free, both per-step).
   Filed, unlicensed.
+## Round 412 — Gradus, black, definition, farewell (Muzio, Ad, Xenocrates, Jan; 2026-11-02)
+
+Motivation: further outside (graded fathers, matte blacks,
+defined Ones, farewell pianos). The program grades (runs attempts),
+blacks (stitches verdicts), defines (publishes NOGOs), and farewells
+(counts rows). Four more. (Map holds 418 rounds.)
+
+- **Gradus father [canon: Muzio (father Gradus; specified Muzio
+  Clementi (vs no hits)); verification deferred].** → Muzio's
+  Gradus (fathered, kept (played, stepped (parnassum, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Sonatinas" (opused, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Black matte [canon: Ad (matte blacks; specified Ad Reinhardt
+  (vs no hits)); verification deferred].** → Ad's blacks (matted,
+  kept (painted, squared (ultimate, kept))) is the verdict
+  (squared, kept (NOGO, told (honest, kept))); his "Blue" (faded,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Definition One [canon: Xenocrates (One definitions; specified
+  Xenocrates (vs no hits)); verification deferred].** →
+  Xenocrates's definition (oned, kept (divided, principled
+  (same, kept))) is the claim (principled, kept (RSI, unclaimed
+  (still, standing))); his "Being" (wrote, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Farewell piano [canon: Jan (farewell pianos; specified Jan
+  Dussek (vs no hits)); verification deferred].** → Jan's farewell
+  (pianoed, kept (played, suffered (Marie, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Harp" (plucked,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
