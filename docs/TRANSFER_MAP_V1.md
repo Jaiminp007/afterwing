@@ -201,6 +201,10 @@ the map stays open, not empty.
   in moments); transfer-is-a-MATRIX (heterogeneity,
   formalized); mid-chain tracking (watch legs mid-chain);
   compatible-heads (compatibility twin).
+- R465 control the unseen: direction-drift (steer direction
+  not data); attribution-fails (honest negative); channel-
+  LOCATION (wound's address: HB); consensus (majority-vote
+  twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
