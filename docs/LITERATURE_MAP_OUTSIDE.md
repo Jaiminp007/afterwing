@@ -15050,3 +15050,40 @@ Chapel music hook; map hits 316 rounds.)
   the plan (frozen, kept (written, held (still, kept))); his
   "Voice" (fire, kept (stations, stood)) is the bank (fresh, kept
   (built, spent (54, kept)))).
+## Round 313 — Selective, saliency, coreset, adiabatic (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: selection in replay — direct fuel
+for the SU scoping (mask-rule choice).
+
+- **Selective replay [arXiv:2103.03987 (Hayes; vs no hits)].**
+  First CL study on analogical-reasoning nets (Raven matrices);
+  SELECTIVE replay enhances online continual learning of abstract
+  reasoning. → Selection beats blind replay even for abstract
+  tasks. Our loop replays everything that passes the sandbox (no
+  selection within the update) — selective replay is the missing
+  selectivity one level down (which records) from SU's (which
+  weights).
+- **Saliency-guided replay [arXiv:2610.17998 (Panetta; vs no
+  hits)].** Deep spiking nets + Experience Packing and Replay;
+  Spike Activation Maps give forward-only explanations from spike
+  activity, temporally aggregated into spatial attention that
+  GUIDES replay. → Forward-only, activity-conditioned selection at
+  substrate level — the closest existing analog to SU mask-rule
+  (a) (activation-magnitude). Cited in SU scoping at freeze.
+- **Gradient coreset [arXiv:2111.11210 (Tiwari/GCR; vs no hits)].**
+  Replay buffer selection/update via gradient coresets (careful
+  subset choice across tasks). → Direct precedent for SU
+  mask-rule (b) (gradient-magnitude): keep the highest-|delta|
+  weights, freeze the rest. Cited in SU scoping at freeze. The
+  (a)-vs-(b) choice now has a paper on each side (Panetta vs
+  Tiwari) — the freeze picks with reasons, not taste.
+- **Adiabatic replay [arXiv:2303.13157 (Krawczyk; vs no hits)].**
+  New phases are adiabatic (small changes); conventional replay
+  wastes growing time re-learning the known; AR exploits the
+  small-change assumption. → Reframes our dose/tax picture: if
+  codebook shifts are adiabatic, full-replay each link is
+  overkill — and our lossy-dose curve (smaller updates transfer
+  better, V1m) is the same signature from the other side.
+  (Supports SU's mechanism story: freeze-most-weights ≈ assume
+  adiabaticity.)
