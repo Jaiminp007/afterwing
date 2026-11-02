@@ -16372,3 +16372,34 @@ images (publishes NOGOs). Four more. (Map hits 357 rounds.)
   the verdict (compared, kept (NOGO, told (honest, kept))); his
   "Interface" (counted, kept (recognized, kept)) is the claim
   (counted, kept (separate, satisfied (evidence, kept))).
+## Round 353 — Prototype-augmented, variational, steered, shortcut (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: prototypes — the interpretable
+middle layer between weights and tasks.
+
+- **Prototype-augmented hypernetwork [arXiv:2505.07450 (De La
+  Fuente / PAH; vs no hits)].** Single hypernetwork conditioned
+  on learnable TASK PROTOTYPES generates task heads on demand;
+  dual distillation (logits + prototypes) stabilizes features.
+  → The most complete DTR part-(i) template yet: trunk +
+  prototype-index + generated heads + distillation. Filed as the
+  design to beat (with von Oswald/TAME).
+- **Variational prototypes [arXiv:1905.09447 (Zhang; vs no
+  hits)].** Prototypes as distributions (means + variances),
+  few-shot CL, consolidate + recall. → Prototypes with
+  uncertainty; recallable. Compatible with PAH (distributional
+  indices).
+- **Steered prototypes [arXiv:2303.09447 (Li / CPP; vs no hits)].**
+  Task-specific prompt-tuning steers prototypes (contrastive);
+  fixes semantic DRIFT + INTERFERENCE, rehearsal-free, +4–6%.
+  → Names our wound's cousins (drift, interference) with a
+  steering solution that needs no replay. Unlicensed (needs
+  prototype space we don't have).
+- **Shortcut limit [arXiv:2308.00301 (Wei; vs no hits)].**
+  SHORTCUT learning is the key limiter of online CL (features
+  that don't generalize). → New lens on OUR wound: avoidance may
+  key on spurious cue correlations that flip across codebooks
+  (not extinction failure but shortcut failure). Lens only —
+  possible future measurement (per-cue turn dominance exists in
+  CONTACT_GRADIENT work); not a line, not a claim.
