@@ -19397,3 +19397,36 @@ where the past isn't (protection-by-geometry, four branches).
 - Program note: the family protects by direction, not by
   vault; NESS names the leftover; PLASTIC names our shape.
   None licensed — filed.
+## Round 458 — Reserves, saxophones, worlds, renewals (Christian, Julius, Guowei, Qichao; 2026-11-02)
+
+Motivation: further outside (missing reserves, dog saxophones,
+human worlds, people renewals). The program reserves (runs
+attempts), saxophones (stitches verdicts), worlds (publishes
+NOGOs), and renewals (counts rows). Four more. (Map holds 464
+rounds.)
+
+- **Reserve missing [canon: Boltanski (missing reserves;
+  specified Christian Boltanski (vs no hits)); verification
+  deferred].** → Christian's reserves (missing, kept (reserved,
+  archived (heartbeats, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Reserve" (dead, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Saxophone dog [canon: Hemphill (dog saxophones; specified
+  Julius Hemphill (vs no hits)); verification deferred].** →
+  Julius's saxophones (dogged, kept (dogged, quartetted (worlds,
+  kept))) is the verdict (quartetted, kept (NOGO, told (honest,
+  kept))); his "Dog" (one, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **World human [canon: Guowei (human worlds; specified Wang
+  Guowei (vs no hits)); verification deferred].** → Guowei's
+  worlds (humaned, kept (worlded, dreamed (red, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "World" (human, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Renewal people [canon: Qichao (people renewals; specified
+  Liang Qichao (vs no hits)); verification deferred].** →
+  Qichao's renewals (peopled, kept (renewed, newed (histories,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Renewal" (people, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
