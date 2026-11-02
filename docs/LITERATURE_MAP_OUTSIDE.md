@@ -17917,3 +17917,27 @@ studies (runs attempts), stains (stitches verdicts), probabilities
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "School" (mechanismed, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 407 — Localized, retained, slept, manifolded (live arXiv; 2026-11-02)
+
+Three fresh abstracts (fetched 2026-11-02) + one banked
+(2603.14517 SleepGate already on record — cited, not repeated).
+Abstracts only, 0 worlds. Three virgin pre-append. Themed: forget
+surgically — local, stale, manifold-shaped.
+
+- **Local forgetting [arXiv:2303.08690 (Rahimi-Kalahroudi; vs no
+  hits)].** MBRL adapts POORLY to LOCAL environment changes
+  (the neuroscience adaptivity test); local forgetting for local
+  changes. → LOCAL = our HB-only wound shape; forget locally,
+  keep globally. Unlicensed.
+- **Retention characterized [arXiv:2609.18167 (Yang; vs no hits)].**
+  When recent beats full history: change-magnitude + age-
+  staleness AUC; deleting replay is costly IF earlier dynamics
+  RETURN. → Recurrence makes deletion expensive (CAWM author's
+  own caveat). Filed.
+- **Manifold replay [arXiv:2606.17455 (Song; vs no hits)].**
+  Manifold-aware replay for exoskeleton personalization
+  (embodied, clinical). → Replay on the manifold. Unlicensed.
+- Program note: local-forgetting-for-local-change is the
+  surgical ideal C16 missed (global vote, global flip). Filed
+  with the successor design: localize first, then forget.
+  Unlicensed.
