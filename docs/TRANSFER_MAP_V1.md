@@ -148,6 +148,10 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R411 addendum: transport-discrepancy joins max-discrepancy as the
+  successor vote's statistic (both label-free, both per-step);
+  behavioral rehearsal (hard-first) + BP-TTA (imbalance+shift) +
+  DLEPEM (match-then-route, rehearsal-free) banked unlicensed.
 - R409 addendum: Zhu staleness (fixed summaries rot under shift —
   prototype-version of the wound) argues ADAPTIVE cause
   representations; UDRM (replay-the-unsure) + open-world
