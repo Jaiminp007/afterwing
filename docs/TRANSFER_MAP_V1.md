@@ -148,6 +148,10 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R419 addendum: NOTE (robust-vs-temporal-correlation) filed WITH
+  Tomar's warning as the warning+fix method pair (read together);
+  SITA single-instance extreme + neighbor-discovery + class-split
+  banked unlicensed.
 - R417 addendum: un-mixing shelf (Su separate-first + UnMix-TNS
   per-instance + MoETTA one-path-per-domain + Meta-TTT align-
   auxiliary); Tomar's temporal-correlation warning adopted as
