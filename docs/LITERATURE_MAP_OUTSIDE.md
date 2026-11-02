@@ -15754,3 +15754,29 @@ nostalgias (preserves rows). Four more. (Map hits 338 rounds.)
   ledger (exact, kept (honest, told (all, counted))); his
   "False" (married, kept (debutantes, kept)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 335 — Task-conditioned, masked, partial, dependency-aware (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: hypernetworks — the trunk design
+DTR part (i) needs, in the literature's own words.
+
+- **Canonical trunk [arXiv:1906.00695 (von Oswald; vs no hits)].**
+  Task-conditioned hypernetwork GENERATES target weights; rehearse
+  weight realizations (regularized), not data. → THE reference
+  design for part (i): trunk = hypernetwork, task index in,
+  weights out. Banked as the design to beat/adapt.
+- **Generated masks [arXiv:2310.00113 (HyperMask; vs no hits)].**
+  Hypernetwork generates MASKS (lottery tickets), fixing the
+  "completely different architectures per task" failure. → Merges
+  the SU thread with the trunk thread: our per-tick mask could one
+  day be trunk-generated per-task. Conditional on the trunk.
+- **How much task-specific [arXiv:2306.10724 (Partial; vs no
+  hits)].** Generate ONLY final layers, freeze initial; answers
+  how many layers can stay frozen. → Sizing principle for part
+  (i): shared chemotaxis trunk + small task heads (don't generate
+  everything). Directly applicable at design time.
+- **Structure matters [arXiv:2209.07712 (Dependency-preserving; vs
+  no hits)].** Weights aren't independent across layers;
+  dependency-aware generation. → Our weights are niche models
+  (structured, 1-NN 1.000) — generation must respect that
+  structure, not emit flat vectors. Constraint banked.
