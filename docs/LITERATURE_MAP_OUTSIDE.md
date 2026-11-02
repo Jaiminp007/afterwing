@@ -18524,3 +18524,26 @@ and trios (counts rows). Four more. (Map holds 434 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Highway" (rode,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 429 — Disentangled, anticipated, limited, frequented (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: compositional generalization, with
+its honest limits.
+
+- **Recurrent disentangling [arXiv:2305.01239 (Lu / DRPT; vs no
+  hits)].** Disentangle state-vs-object + recurrent prompt tuning;
+  entanglement drags prompts to local optima. → Separate, then
+  recur. Unlicensed.
+- **Anticipation [arXiv:2407.10723 (Zahran; vs no hits)].**
+  ANTICIPATE future compositions without forgetting (+70%).
+  → Predict the unseen combos, keep the seen. Unlicensed.
+- **Honest limits [arXiv:2412.18743 (Montero; vs no hits)].**
+  Disentangled models DON'T compose robustly; object-centric
+  promising but untested beyond scenes. → The limits, stated.
+  Method-caution (claims about parts need scene-beyond tests).
+- **Frequency predicts [arXiv:2502.18326 (Wiedemer; vs no hits)].**
+  Pretraining frequency predicts compositionality (rare maps to
+  common via components). → Compose from the frequent. Filed.
+- Program note: Montero's limits + Wiedemer's frequency rule
+  constrain part-based claims; Zahran's anticipation is the
+  forward direction (predict, don't just transfer). Filed.
