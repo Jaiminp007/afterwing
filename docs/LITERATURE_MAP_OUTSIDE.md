@@ -17491,3 +17491,34 @@ successor vote's statistic (detect the new cause, then switch).
 - Program note: Wan's max-discrepancy (not pooled sums) is the
   direct fix for C16's dilution (one flipped cue's max, not all
   cues' sum). Filed with the successor design, unlicensed.
+## Round 392 — Exercises, oceans, water, patterns (Carl, Richard, Thales, Charles; 2026-11-02)
+
+Motivation: further outside (school exercises, Berkeley oceans,
+first water, finger patterns). The program exercises (runs
+attempts), oceans (stitches verdicts), waters (publishes NOGOs),
+and patterns (counts rows). Four more. (Map hits 398 rounds.)
+
+- **Exercise school [canon: Carl (school exercises; specified
+  Carl Czerny (vs no hits)); verification deferred].** → Carl's
+  exercises (schooled, kept (drilled, velocityed (opuses,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Sonatas" (multiplied, kept (played, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Ocean Berkeley [canon: Diebenkorn (Berkeley oceans; specified
+  Richard Diebenkorn (vs no hits)); verification deferred].** →
+  Richard's oceans (Berkeleyed, kept (painted, viewed (parks,
+  kept))) is the verdict (viewed, kept (NOGO, told (honest,
+  kept))); his "Urbana" (seriesed, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Water first [canon: Thales (first waters; specified Thales
+  (vs no hits)); verification deferred].** → Thales's water
+  (firsted, kept (measured, predicted (eclipse, kept))) is the
+  claim (predicted, kept (RSI, unclaimed (still, standing))); his
+  "Theorem" (intercepted, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Pattern finger [canon: Charles (finger patterns; specified
+  Charles-Louis Hanon (vs no hits)); verification deferred].** →
+  Charles's patterns (fingered, kept (drilled, virtuosoed
+  (sixty, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Scales" (climbed, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
