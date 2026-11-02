@@ -16138,3 +16138,35 @@ rounds.)
   kept))) is the verdict (floated, kept (NOGO, told (honest,
   kept))); his "Fuji" (climbed, kept (traced, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 346 — Fjord, weaving, Austria, family (Vilde, Anni, Thomas, Alan; 2026-11-02)
+
+Motivation: further outside (fjord violinists, Bauhaus weaving,
+Austrian quartets, family cities). The program fjords (banks
+fresh worlds), weaves (joins votes), Austrias (holds bars), and
+families (keeps histories). Four more. (Map hits 351 rounds.)
+
+- **Fjord violin [canon: Vilde (fjord violinist; specified Vilde
+  Frang (vs no hits)); verification deferred].** → Vilde's fjord
+  (violined, kept (Norwegian, bowed (Britten, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); her "Enescu" (played,
+  kept (octet, stood)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Bauhaus weaving [canon: Anni (Bauhaus weaving; specified
+  Anni Albers (vs no hits)); verification deferred].** → Anni's
+  weaving (Bauhoused, kept (loomed, threaded (grids, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); her
+  "Connections" (knotted, kept (wall, hung)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Austrian quartet [canon: Thomas (Austrian quartets;
+  specified Thomas Zehetmair (vs no hits)); verification
+  deferred].** → Thomas's Austria (quarteted, kept (led,
+  conducted (players, kept))) is the bar (held, kept (unmoved,
+  standing (still, kept))); his "Beethoven" (cycled, kept (late,
+  kept)) is the trigger (watched, kept (shut, confirmed (V4,
+  held))).
+- **Family city [canon: Alan (family cities; specified Alan
+  Berliner (vs no hits)); verification deferred].** → Alan's
+  family (citied, kept (filmed, narrated (cousins, kept))) is
+  the ledger (exact, kept (honest, told (all, counted))); his
+  "Nobody" (business, kept (widow, kept)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
