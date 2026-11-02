@@ -17129,3 +17129,29 @@ TVs (stitches verdicts), wheels (publishes NOGOs), and kings
   (nursed, queened (beach, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Nurse" (drawn, kept (bled,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 379 — Composed, routed, lifelong, masked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (three fetched 2026-11-02 + one banked-check;
+abstracts only, 0 worlds). Three virgin pre-append; 2111.07736
+(LMC) already noted adjacent in R377 — cited, not repeated.
+Themed: module composition — reuse by recombining.
+
+- **Compose+prune [arXiv:2406.18708 (Wang / MoCL-P; vs no hits)].**
+  Compose modules AND prune; forgetting + transfer + parameter
+  efficiency jointly. → Composition with a budget. Unlicensed.
+- **Route-to-compose [arXiv:2408.09053 (Araujo / L2R; vs no
+  hits)].** Isolate new-module training (task specialization),
+  then LEARN to compose; names interference during module
+  training + suboptimal routing as the two failure modes. →
+  Both failure modes filed. Unlicensed.
+- **Lifelong composition [arXiv:2207.00429 (Mendez; vs no hits)].**
+  Decompose into reusable components; new RL tasks from
+  accumulated compositional structures. → Reuse-by-recombination
+  for RL. Unlicensed (needs modules).
+- **Modulating masks [arXiv:2212.11110 (Ben-Iwhiwhu; vs no hits)].**
+  Fixed backbone + modulating masks for lifelong RL (state,
+  transition, AND reward variations). → SU-thread's cousin at
+  lifelong scale; fixed backbone = our frozen weights. Unlicensed.
+- Program note: L2R's two failure modes (training interference,
+  routing suboptimality) map onto V1o (interference seen) +
+  routing shelf (suboptimality untested). Filed, not a line.
