@@ -432,6 +432,9 @@ the map stays open, not empty.
 - R613 fusion-memory file: fuse-signals;
   loop-evidence; consolidate-by-usage;
   mosaic-memory.
+- R615 symbolic-memory file: lean-context;
+  ground-temporally; step-symbolically;
+  solve-logically.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
