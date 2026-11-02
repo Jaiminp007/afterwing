@@ -26,6 +26,13 @@ Date: 2026-11-02. Standing note (not a verdict; revisit only on change).
   attempt → verdict). Full-triage redness is recorded as environmental
   until the drive is freed (user/system action, outside program scope).
 
+## Amendment D (2026-11-02, R355 check)
+
+C: 476G, 94% used, 31G free (was 93%/35G at R318 — 4G exogenous
+consumption since; evidence 15G stable, .git 5.5G, working tree clean).
+No attempt has ever been blocked; attempts/audits/literature proceed
+normally. Escalate-if-blocks stands.
+
 ## Rule
 
 No evidence deleted for disk space, ever (preservation discipline stands
