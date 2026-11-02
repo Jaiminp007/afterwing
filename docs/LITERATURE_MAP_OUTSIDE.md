@@ -14012,3 +14012,35 @@ improv share prose-FPs — full names throughout.)
   does (unfrozen, never (run, twice (single, attempt))); his
   characters (many, voiced) are the agents (many, voting (sandbox,
   each (own, error))).
+## Round 281 — Half-mile, twelve seconds, letters, grief (Beebe, Wright, Seneca, Schulz; 2026-11-02)
+
+Motivation: further outside (bathyspheres, bicycles-with-wings,
+Stoic letters, comic strips). The program descends first (trigger
+watches), flies briefly (single attempts), writes daily (ledgers),
+and grieves well (soft NOGOs). Four more. (F.L.Wright R236-done;
+bare Wright shares Cartwright-FP — full names throughout.)
+
+- **Half a mile first [canon: Beebe (bathysphere descent;
+  specified William (vs no hits)); verification deferred].** →
+  William's half-mile (down, first (eyes, open)) is the trigger
+  watch (down, shut (V2, open (eyes, kept))); his "new worlds"
+  is Track C (open, only (frontier, last)).
+- **Twelve seconds [canon: Wright (first powered flight;
+  specified Wilbur + Orville + Kitty Hawk (vs R236/Cartwright-
+  FPs)); verification deferred].** → Wilbur and Orville's
+  twelve seconds (up, briefly (controlled, first)) is the
+  single attempt (run, once (capped, first (redone[], kept)));
+  their bicycle shop (built, there) is the instrument (built,
+  here (copy-adapted, frozen (tested, green))).
+- **Daily letters [canon: Seneca (practical letters; specified
+  Seneca (vs no hits)); verification deferred].** → Seneca's
+  Lucilius (letters, daily (practice, kept)) is PROGRESS (newest,
+  current (each, turn (kept, honest))); his "we suffer more in
+  imagination" is the bar (unmoved, imagined (met, never (bars,
+  kept))).
+- **Good grief [canon: Schulz (gentle failure; specified
+  Charles (vs no hits)); verification deferred].** → Charles's
+  grief (good, soft (football, pulled)) is the NOGO (flat, kept
+  (near-miss, published (0.004, short))); his security blanket
+  is negative-preservation (held, always (evidence, kept
+  (raw, all))).
