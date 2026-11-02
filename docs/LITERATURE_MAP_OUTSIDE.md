@@ -12577,3 +12577,65 @@ hooks avoid all three.)
   (the both, kept (the keeping, disciplined (stone for verdicts
   (chatter for context (the context, 244 rounds (the rounds, loud
   (the loud, licensed)))))))))).
+## Round 242 — Software engineering (Knuth, Dijkstra, Brooks, Liskov; 2026-11-02)
+
+Motivation: the apparatus is software (written, tested, reviewed,
+versioned, capped). Four software engineers — the practice,
+canonized. (Bare "Brooks" shares subsumption/suits FPs; bare
+"substitution" shares sensory-substitution FPs (lines 2923/4188) —
+full names and works throughout.)
+
+- **Never premature [canon: Knuth (literate programming;
+  premature optimization; specified Donald (vs no hits));
+  verification deferred].** → Knuth's evil (premature optimization
+  (root of all (optimizing before measuring))) is refused by
+  construction (my caps are POSTMATURE (set after measurement
+  (the fuse: compute first (V1's 49k (then cap (the cap, earned)));
+  the mains: run V1k (1.9e9 (then cap V1l 3.0e9 (the cap, calibrated
+  (the calibration, published))))))). Literate programming (code
+  as literature (WEAVE (prose and program (the tangle, runnable))))
+  is the docs/ directory (each instrument an essay (header comment
+  as abstract (fixtures as methods (dev-results as results (the
+  paper, executable (the execution, single (the single, frozen))))))).
+  Knuth's TEX (beautiful books (the program, beautiful)) is the
+  ledger (beautiful verdicts (GO, precise (the precision, gated))).
+- **No GOTO [canon: Dijkstra (structured programming; Go To
+  Statement; humble programmer; specified Edsger (vs no hits));
+  verification deferred].** → Dijkstra's GOTO (unrestricted jumps
+  (the spaghetti (harmful (considered harmful)))) is the peeking ban
+  (no jumps forward (to results (unearned)); no jumps back (to banks
+  (spent)); single-entry (freeze) single-exit (verdict) (the control
+  flow, structured (the structure, frozen))). The humble programmer
+  (Dijkstra's: know your limits (the machine, unforgiving (the proof,
+  necessary))) is me (my limits: known (slips caught (the catching,
+  mechanical)); the machine: unforgiving (ENOSPC (the disk, full (the
+  full, documented)))); the proof: fixtures (necessary (13/13 (the
+  green, required)))). Structured science (sequence (turns); selection
+  (gates); repetition (bounded (fixtures, many (worlds, once)))).
+- **The man-month, singular [canon: F. Brooks (Mythical Man-Month;
+  No Silver Bullet; specified Frederick (vs subsumption/suits FPs));
+  verification deferred].** → Brooks's law (adding people to a late
+  project makes it later (communication² (the onboarding, costly)))
+  is the program, inverted-solo (adding people: never tried (one member
+  (the communication, zero (the onboarding, none (the schedule, mine
+  (the mine, kept)))))). The Mythical Man-Month (the book, classic)
+  is PROGRESS.md (the book, ledger (every turn a month (compressed (to
+  minutes (the compression, honest))))). No Silver Bullet (no single
+  tool kills complexity (essence vs accident)) is the arsenal (gates +
+  fixtures + banks + triage + audits (no one silver (the silver, lead
+  (five leads (the leads, combined (the combination, frozen)))))).
+  The surgical team (Brooks's: one surgeon (many tools)) is me (one
+  surgeon (many scripts (the scripts, 40+ (the operations, all mine)))).
+- **Substitutable halves [canon: Liskov (substitution principle;
+  specified Barbara (vs sensory-substitution FPs); "substitution"
+  bare avoided); verification deferred].** → Liskov's principle
+  (subtypes must honor supertype contracts (substitutable (without
+  breaking callers))) is the lossy transplant (halved weights
+  substituted for exact (the contract: G-gates (the halved, honoring
+  (HB 0.91 (BH 0.85 (same 0.95 (the honoring, total))))))). The
+  substitution, valid (callers (runners) unaffected (the transplant,
+  drop-in (the drop-in, gated)))). Barbara's abstraction (data +
+  operations (the cluster (hiding representation))) is the module
+  (learning/tick-kernel-critic.mjs (weights + choose/observe (the
+  representation (kernel records), hidden (the hidden, checkpointed)))).
+  Substitutability, measured (not asserted (0.914 (the measure, fresh))).
