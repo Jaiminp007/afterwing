@@ -19250,3 +19250,29 @@ holds 458 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Eastern" (rebellioned, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 453 — Covered, topologized, densified, mistaked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: smart memory — what to keep and
+how (the selection file, four branches; already-cited GCR not
+repeated).
+
+- **Coverage geometry [arXiv:2610.32799 (Shanbhag / CARES; vs
+  no hits)].** Model-optimization-FREE buffer via FROZEN
+  pretrained geometry + density-weighted coverage. → FROZEN
+  geometry again (4th confirmation alongside RAEGL/Sandwich/
+  Kang). Filed as the coverage twin.
+- **Topology memory [arXiv:2401.13200 (Zhang / TEM; vs no
+  hits)].** Parameter-DECOUPLED memory (topology-aware
+  embeddings); memory explosion named. → Decouple the store
+  from the weights. Unlicensed.
+- **Beyond discrete [arXiv:2508.01587 (Wang; vs no hits)].**
+  Discrete selection RESTRICTS coverage; replay by information
+  DENSITY. → Keep densities, not samples. Unlicensed.
+- **Learn from mistakes [arXiv:2511.15597 (Wang / KDF+; vs no
+  hits)].** Loss-aware sampling by difficulty (hard samples
+  kept). → Keep the wounds (our HB legs, external twin).
+  Filed.
+- Program note: frozen geometry now 4×-confirmed; the memory
+  file says coverage+density+difficulty, not recency. None
+  licensed — filed.
