@@ -14361,3 +14361,35 @@ bare Laver/Pele share slavery/unknown-FPs — full names.)
   (moonstruck, white (danced, kept)) is Track C (unmet, kept
   (open, last (frontier, only))); his myth (danced, told) is
   the synthesis (told, kept (anatomy, whole (C-series, closed))).
+## Round 292 — Balcony, blink, television, emanation (Genet, Tombaugh, Ashley, Plotinus; 2026-11-02)
+
+Motivation: further outside (thief theater, blink comparators,
+TV operas, emanation metaphysics). The program performs (evaluated),
+blinks (flips), televises (publishes), and emanates (transplants).
+Four more. (Peary dropped — R289 used him (surname-rule catch);
+Scott/Coleman avoided (legibility/closure surname-shares);
+genetic-FPs avoided — full names + contexts.)
+
+- **Power performed [canon: Genet (brothel judgment; specified
+  Jean (vs genetic-FPs)); verification deferred].** → Jean's
+  Balcony (power, performed (judged, all)) is the attempt (agents,
+  performing (evaluated, all (1024, each))); his thieves (saints,
+  named) are the votes (carried, many (majority, named (best,
+  kept))).
+- **Blink comparator [canon: Tombaugh (plate flipping; specified
+  Clyde (vs no hits)); verification deferred].** → Clyde's
+  blinker (plates, flipped (Pluto, found)) is flip-eval (test,
+  flipped (adopted, none (barren, kept))); his Kansas farm
+  (ground, kept) is the ledger (counts, kept (exact, told
+  (honest, all))).
+- **Perfect lives [canon: Ashley (television opera; specified
+  Robert (vs no hits)); verification deferred].** → Robert's
+  Perfect Lives (watched, home (opera, told)) is the verdict
+  (published, kept (read, all (rows, raw))); his improvement
+  trilogy (learning, staged) is the C-series (asked, nine
+  (lines, closed (products, none))).
+- **Flowing down [canon: Plotinus (emanation levels; specified
+  Plotinus (vs no hits)); verification deferred].** → Plotinus's
+  One (overflowing, down (levels, kept)) is the transplant (exact,
+  carried (weights, down (links, kept))); his return (soul, up)
+  is the vote (carried, up (majority, kept (crowd, won))).
