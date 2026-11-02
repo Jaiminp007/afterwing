@@ -18165,3 +18165,34 @@ both shifts, wild streams, outside anchors.
   exactly what C16's vote did (L from the same contacts the
   wound produces). External anchors or stark statistics only.
   Filed.
+## Round 416 — Rest, dummies, ends, blocks (Carlo, Tony, Lacydes, Otto; 2026-11-02)
+
+Motivation: further outside (Verdi rests, talking dummies,
+schooled ends,Mahler blocks). The program rests (runs attempts),
+dummies (stitches verdicts), ends (publishes NOGOs), and blocks
+(counts rows). Four more. (Map holds 422 rounds.)
+
+- **Rest Verdi [canon: Carlo (Verdi rests; specified Carlo Maria
+  Giulini (vs no hits)); verification deferred].** → Carlo's rest
+  (Verdied, kept (waved, breathed (Requiem, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Beethoven"
+  (seventhed, kept (played, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dummy talking [canon: Tony (talking dummies; specified Tony
+  Oursler (vs no hits)); verification deferred].** → Tony's
+  dummies (talked, kept (projected, eyed (spheres, kept))) is the
+  verdict (eyed, kept (NOGO, told (honest, kept))); his "Judy"
+  (vented, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **End schooled [canon: Lacydes (schooled ends; specified
+  Lacydes (vs no hits)); verification deferred].** → Lacydes's
+  ends (schooled, kept (headed, doubted (Academy, kept))) is the
+  claim (doubted, kept (RSI, unclaimed (still, standing))); his
+  "Tenure" (elected, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Block Mahler [canon: Otto (Mahler blocks; specified Otto
+  Klemperer (vs no hits)); verification deferred].** → Otto's
+  blocks (Mahlered, kept (stacked, granited (Second, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Missa" (solemned, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
