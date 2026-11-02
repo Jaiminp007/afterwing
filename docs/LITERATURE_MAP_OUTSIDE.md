@@ -13129,3 +13129,41 @@ throughout.)
   (upward (379xxx→455xxx (the upward, enforced)))); his Bird in
   Space (the essence (not the feathers)) is the scorer (the verdict
   (not the rows (the essence, gated))).
+## Round 254 — Bricolage and loss (Rowe, Stein, Moore, Bishop; 2026-11-02)
+
+Motivation: the program collages (frozen instruments, free outcomes) and
+loses well (every NOGO published). Four bricoleurs of loss. (Bare "Rowe"
+shares 7 genic-capture FPs; bare "Stein" shares 21 homeokinetic/name FPs
+— full names/titles throughout.)
+
+- **The collaged plan [canon: Rowe (collage; specified Colin
+  (vs genic-capture FPs)); verification deferred].** → Colin's
+  Collage City (existing fabric plus Utopian fragments (the city,
+  both (neither tabula rasa nor museum))) is the instrument (frozen
+  machinery plus free outcomes (the run, both (neither scripted nor
+  random))); his bricolage (use what's there (the architect,
+  making-do)) is the import discipline (use frozen V1m (the new
+  line, making-do (no duplication))).
+- **Insistence, not sameness [canon: Stein (repetition;
+  specified Gertrude (vs homeokinetic FPs)); verification
+  deferred].** → Gertrude's "a rose is a rose is a rose"
+  (repetition with insistence (each rose, different (the difference,
+  the point))) is the 1792-tick loop (repetition with insistence
+  (each tick, different (records accumulating (the difference,
+  billed)))); her continuous present (no memory (no prophecy (the
+  now, only))) is the live update (no replay in kernel arms (the
+  now, only (T1's asymmetry, disclosed))).
+- **Real rows [canon: Moore (imaginary gardens; specified
+  Marianne (vs no hits)); verification deferred].** → Marianne's
+  "imaginary gardens with real toads" (the imagined, holding the
+  real) is the frozen plan (imaginary futures (real rows (the
+  rows, held))); her syllabics (counted lines (the form, exact))
+  are the caps (counted ops (the form, enforced (6.0e9/10800s))).
+- **The art of the NOGO [canon: Bishop (losing; specified
+  Elizabeth (vs no hits)); verification deferred].** → Elizabeth's
+  One Art (the art of losing (isn't hard to master (lose something
+  every day (the losing, practiced)))) is the program (the art of
+  NOGO (isn't hard to publish (lose a line every week (lines
+  closed, negatives kept)))); her "Write it!" (the imperative,
+  Margaret's) is the RESULTS doc (write it (the verdict,
+  published)).
