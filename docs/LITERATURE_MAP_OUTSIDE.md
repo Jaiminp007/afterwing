@@ -22560,3 +22560,31 @@ guess-whos (counts rows). Four more. (Map holds 570 rounds.)
   (guessed, whoed (todays, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); her "Guess-who" (who, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 563 — Bounded, gapped, thought, coded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: governance limits — know
+where the guardrails end (already-cited assurance leads
+converging; limits family, four branches).
+
+- **Two boundaries [arXiv:2604.27292 (McCann; vs no
+  hits)].** Expressiveness vs GOVERNANCE (ungoverned =
+  risk; theater policies). → Bound both sides (our
+  frozen-scope discipline, boundary-side). Filed.
+- **Safety gap [arXiv:2602.16943 (Cartagena / GAP; vs no
+  hits)].** Text safety ≠ TOOL safety (divergence
+  benchmark). → Mind the transfer gap (our transfer
+  guard ±0.1, gap-side). Filed.
+- **Think-first governance [arXiv:2604.25684 (Bandara;
+  vs no hits)].** INTERNALIZED principle (not external
+  constraint; deliberate before acting). → Freeze
+  before executing (our freeze-before-code,
+  internal-side). Filed.
+- **Codebooks-not-enough [arXiv:2606.06781 (He; vs no
+  hits)].** Accuracy ≠ FAITHFUL coding (examples +
+  boundary rules beat labels). → Enrich the codebook
+  (our fixed codebooks + rules, codebook-side).
+  Filed.
+- Program note: bound expressiveness, mind gaps, think
+  first, enrich codebooks — the governance-limits file.
+  None licensed — filed.
