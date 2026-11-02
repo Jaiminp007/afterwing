@@ -399,6 +399,9 @@ the map stays open, not empty.
 - R591 beyond file: assume-behaviorally;
   reward-self; specify-patterns;
   deploy-focused.
+- R593 self-knowledge file: verify-intrinsically;
+  invary-policy; catch-strain;
+  stop-early.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
