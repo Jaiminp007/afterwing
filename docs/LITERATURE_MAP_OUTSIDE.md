@@ -14198,3 +14198,35 @@ solitudes (single attempts), houses (banks), and needs little
   fee (small, billed (816, kept (of 3.3e9))); his "stand out
   of my sun" is the verdict (read, kept (steered, never
   (published, plain))).
+## Round 287 — Web, parish, sweep, catalogue (Humboldt, White, Herschel, Messier; 2026-11-02)
+
+Motivation: further outside (biogeographers, parish naturalists,
+comet sweepers, cataloguers). The program webs (connects lines),
+parishes (keeps local), sweeps (searches banks), and catalogues
+(spent ranges). Four more. (Halley R206-done; bare White shares
+FPs — full names throughout.)
+
+- **Nature's web [canon: Humboldt (connected nature; specified
+  Alexander von (vs no hits)); verification deferred].** →
+  Alexander's web (all, connected (measuring, together)) is the
+  synthesis (lines, connected (C-synthesis, together (anatomy,
+  one))); his Cosmos (all, described) is PROGRESS (newest, told
+  (honest, kept)).
+- **The parish [canon: White (parish watching; specified
+  Gilbert (vs surname-FPs)); verification deferred].** → Gilbert's
+  Selborne (one parish, watched (years, kept)) is the frozen line
+  (one design, run (singly, kept (bank, spent))); his tortoise
+  (Timothy, kept) is the checkpoint (bytes, kept (identical,
+  held)).
+- **Sweeping [canon: Herschel (comet sweeping; specified
+  Caroline (vs no hits)); verification deferred].** → Caroline's
+  sweeps (nights, searching (comets, found)) is the sandbox (fit,
+  searching (operators, found (best, adopted))); her eight
+  comets are the first-accepts (eight, kept (V2, seven (lines,
+  closed))).
+- **Not comets [canon: Messier (non-comet catalogue; specified
+  Charles (vs no hits)); verification deferred].** → Charles's
+  catalogue (fuzzies, listed (not, comets)) is the spent list
+  (ranges, listed (refused, after (post-bank, form))); his M1
+  (Crab, kept) is the NOGO (kept, first (product, withheld
+  (seven, lines))).
