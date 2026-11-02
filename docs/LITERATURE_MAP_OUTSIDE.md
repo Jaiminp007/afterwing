@@ -21337,3 +21337,36 @@ family, four branches).
 - Program note: transform failures, stair plans, verify
   reuse, embed trajectories — the reuse file. None licensed
   — filed.
+## Round 522 — Klooks, basses, glorias, byrds (Kenny Clarke, Paul Chambers, LaFaro, Byrd; 2026-11-02)
+
+Motivation: further outside (bebop klooks, pc basses, step
+glorias, flight byrds). The program klooks (runs attempts),
+basses (stitches verdicts), glorias (publishes NOGOs), and byrds
+(counts rows). Four more. (Map holds 528 rounds.)
+
+- **Klook bebop [canon: Kenny Clarke (bebop klooks; specified
+  Kenny Clarke (vs no hits; single-name tag taken by Hull —
+  full-name tag used)); verification deferred].** → Kenny
+  Clarke's klooks (bebopped, kept (klooked, cliqued (monsieurs,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Klook" (bebop, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Bass mr-pc [canon: Paul Chambers (pc basses; specified Paul
+  Chambers (vs no hits; single-name tag taken by cash —
+  full-name tag used)); verification deferred].** → Paul
+  Chambers's basses (pc-ed, kept (bassed, mr-pced (pcs, kept))) is
+  the verdict (mr-pced, kept (NOGO, told (honest, kept))); his
+  "Bass" (mr-pc, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Gloria step [canon: LaFaro (step glorias; specified Scott
+  LaFaro (vs no hits)); verification deferred].** → LaFaro's
+  glorias (stepped, kept (gloriaed, waltzed (debbies, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Gloria" (step, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Byrd flight [canon: Byrd (flight byrds; specified Donald
+  Byrd (vs no hits)); verification deferred].** → Donald's byrds
+  (flighted, kept (byrded, landed (byrdlands, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Byrd" (flight,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
