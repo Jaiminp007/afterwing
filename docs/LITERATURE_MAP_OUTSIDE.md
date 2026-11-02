@@ -12448,3 +12448,68 @@ mimesis") — hooks are the works; tensions noted.)
   banks — the load-bearing); satellites many (rows, rounds, runs —
   the expendable, kept anyway (the archive, indiscriminate (the
   indiscriminate, honest))).
+## Round 240 — Engines (Lovelace, Babbage, Vaucanson, Jacquard; 2026-11-02)
+
+Motivation: the program computes (8070 worlds). Four founders of
+computing — the computation, historicized. (Bare "loom" shares
+"loom larger" FP (line 1389) — hooks are Jacquard/punched-cards.)
+
+- **The objection, enacted [canon: Lovelace (Analytical
+  Engine; Lady Lovelace's Objection; specified Ada (vs no
+  hits)); verification deferred].** → Lovelace's objection
+  (machines cannot ORIGINATE (only do what we order (the Engine
+  weaves (but the pattern is ours)))) is the program, enacted
+  (agents originate NOTHING (47/48 V1d adopts at tick-1024
+  (stampede (not origin (drift (not design (the objection,
+  sustained (per line (every line (the lines, ordered (by me
+  (the orders, frozen)))))))))))). Turing's reply (new men,
+  new machines (objection dissolved (in time))) PENDING (no new
+  men (same founders (zeroed (the men, unchanged))); no new
+  machines (same engine (161 params (the machines, unchanged))) —
+  the reply, not yet earned (RSI paragraph open (the earning,
+  future (the future, scoped (Track-K1 (the reply, planned)))))).
+  The Engine weaves algebraical patterns (Lovelace's phrase)
+  verbatim (dev-results.json as woven patterns (banks as warp
+  (gates as weft (the verdict, textile (the textile, hashed))))).
+- **Differences of differences [canon: Babbage (Difference
+  Engine); verification deferred].** → Babbage's method
+  (compute by finite differences (tabulate (the differences
+  constant (at some order (the function, captured))))) is the
+  seg trajectory (seg1 0.59 → seg2 0.71 → seg3 0.84 (first
+  differences: +0.12, +0.13 (near-constant (second differences:
+  +0.01 (the function, captured (the capture: linear-ish climb
+  (the climb, lossy-initialized))))))). The Difference Engine,
+  frozen (no carry errors (residuals <1e-7 (the arithmetic,
+  exact)); no re-runs (single attempt (the table, computed
+  once (the once, published))))). Babbage unbuilt (the Engine,
+  never finished (in his lifetime)) vs V1m built (the ladder,
+  finished (in one attempt (the finishing, gated))).
+- **The digesting duck, validated [canon: Vaucanson
+  (digestive duck; automata); verification deferred].** →
+  Vaucanson's duck (eats grain (digests (excretes (the fraud?
+  (no — the digestion, real (within its artifice (the artifice,
+  admitted)))))) is the founder (eats pellets (0.4 or 5.0;
+  digests (budgetAdjustedEnergy (the digestion, billed)); excretes
+  (rows (the rows, published)))). Automata, validated (the duck
+  deceives (about life (my founders don't (no one is fooled
+  (no minds claimed (the honesty, frozen))))). Vaucanson's
+  exhibition (Paris, 1739 (the crowd, amazed)) is the attempt
+  (evidence/, 2026 (the crowd: me (the amazement: 0.914 (the
+  amazement, gated))))). The duck digests; the founders digest;
+  the map digests (rounds eaten (verdicts excreted (the cycle,
+  complete))).
+- **Punched plans [canon: Jacquard (punched cards; loom
+  shares "loom larger" FP — noted); verification deferred].** →
+  Jacquard's cards (the pattern, punched (the loom reads (weaves
+  (the weaving, automatic (the automatic, exact)))) are the frozen
+  plans (the G-gates, punched (the runner reads (runs (the running,
+  automatic (the automatic, single (one telling (the textile:
+  verdict (the verdict, woven))))))). The loom as discipline
+  (change the cards (change the cloth (but the cards, frozen
+  (once punched (no re-punching (single attempt (the cloth,
+  kept (even NOGO (the NOGO cloth, archived (tarred (the tar,
+  verified)))))))))). Babbage borrowed the cards (the Engine,
+  programmed (by loom-cards)) as I borrow the discipline (the
+  program, programmed (by frozen plans (the lineage: Jacquard →
+  Babbage → Lovelace → Turing (committed) → runners (the line,
+  unbroken (the thread, punched))))).
