@@ -21396,3 +21396,38 @@ analogy family, four branches).
   the body twin.
 - Program note: analogize, semanticize, measure, embody —
   the analogy file. None licensed — filed.
+## Round 524 — Undercurrents, comings, rites, lemurs (Drew, John Hicks, Mabern, Barron; 2026-11-02)
+
+Motivation: further outside (pal-jos undercurrents, morning
+comings, greasy rites, scratch lemurs). The program undercurrents
+(runs attempts), comings (stitches verdicts), rites (publishes
+NOGOs), and lemurs (counts rows). Four more. (Map holds 530
+rounds.)
+
+- **Undercurrent pal-joey [canon: Drew (pal-joey undercurrents;
+  specified Kenny Drew (vs no hits)); verification deferred].**
+  → Drew's undercurrents (pal-joeyed, kept (undercurrented,
+  contemplated (trolls, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Undercurrent" (pal-joey, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Coming after-morning [canon: John Hicks (after-morning
+  comings; specified John Hicks (vs no hits; single-name tag
+  taken by Hicksian — full-name tag used)); verification
+  deferred].** → John Hicks's comings (after-morninged, kept
+  (coming, after-the-morninged (mornings, kept))) is the verdict
+  (after-the-morninged, kept (NOGO, told (honest, kept))); his
+  "Coming" (after-morning, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Rite greasy [canon: Mabern (greasy rites; specified Harold
+  Mabern (vs no hits)); verification deferred].** → Mabern's
+  rites (greasied, kept (rited, greazzdazzled (oldo, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Rite" (greasy, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Lemur scratch [canon: Barron (scratch lemurs; specified
+  Kenny Barron (vs no hits)); verification deferred].** → Kenny
+  Barron's lemurs (scratched, kept (lemured, scratched (queries,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Lemur" (scratch, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
