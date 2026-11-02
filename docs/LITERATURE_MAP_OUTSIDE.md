@@ -16498,3 +16498,31 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Verses" (rooted, kept (wisdom, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 357 — Debiased, neuro-symbolic, rigid, impaired (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: shortcut-mitigation + rigidity —
+the literature's name for our wound.
+
+- **Adaptive debiasing [arXiv:2312.08677 (Kim / DropTop; vs no
+  hits)].** Suppresses shortcut bias in ONLINE CL adaptively
+  (high-attention features as debias candidates; adaptive
+  intensity; no prior knowledge needed). → An intervention, but
+  needs feature-maps/attention we don't have. Unlicensed.
+- **Concept rehearsal [arXiv:2302.01242 (Marconato; vs no
+  hits)].** Neuro-symbolic CL: shared stable concepts across
+  tasks; rehearse CONCEPTS not data; knowledge + reasoning.
+  → Part-(ii) flavor (rehearse the rule, not the rows).
+  Unlicensed.
+- **Rigidity index [arXiv:2510.00475 (Gu / ERI; vs no hits)].**
+  Names it: inherited weights bias reuse toward prior-satisfying
+  features = cognitive EINSTELLUNG (past habits block optimal
+  solutions); rigidity DISTINCT from forgetting; shortcut
+  features lack causal meaning. → Our wound, named at literature
+  scale. Compatible with the audit (the RULE is the
+  prior-satisfying feature; rigidity = keeping it). Framing, not
+  mechanism.
+- **Impaired composition [arXiv:2605.05495 (Redman; vs no
+  hits)].** Shortcut solutions impair continual compositional
+  reasoning in transformers. → Transfer-impairment documented at
+  scale; our HB gap is one instance of the class.
