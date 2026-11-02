@@ -13,7 +13,9 @@ acquiring B? Arms (sketch): sequential vs single-task-A vs
 single-task-B vs reset. Gates (sketch): A-retention (re-test A ≥
 train A − tol) AND B-acquisition (B ≥ unlearned + bar), conjunctive.
 Distinct tasks in-substrate: taste turn-gating vs odor-routed
-foraging vs mating/encounter.
+foraging vs mating/encounter. Scenario (R327/van de Ven): task-IL
+FIRST (identities known, sequential A→B) — the sketch above.
+Domain-IL / class-IL (identity inferred) only after task-IL works.
 
 ## Central blocker: no shared representation across tasks
 
@@ -42,6 +44,19 @@ definition + integrity; (iii) backward scorer (re-test-A
 machinery); (iv) second qualified task; (v) then a DTR frozen plan
 + fresh bank. Each part is its own line. This scoping converts the
 open sentence into a work list — advancement, not closure.
+
+## R327 implications recorded (unlicensed)
+
+- Part (i) precedent: TAME (task-agnostic experts + shift detection) —
+  trunk + task-indexed experts with routing triggered by detected shift.
+  The design to beat/adapt at freeze time.
+- Inference-head OPTION (Hafez ×2): self-supervised task inference
+  (action/intention embeddings, no predefined representations) beside the
+  labeled task-IL route. Two routes specified; both need building — the
+  option does NOT unblock (blockers stand), it de-risks the freeze.
+- Embodied note: Hafez is robot control — inference emerging from
+  behavior connects to Track-K1 scale, if DTR ever reaches an embodied
+  task pair.
 
 ## R311 implications recorded (unlicensed)
 
