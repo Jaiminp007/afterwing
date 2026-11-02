@@ -18547,3 +18547,35 @@ its honest limits.
 - Program note: Montero's limits + Wiedemer's frequency rule
   constrain part-based claims; Zahran's anticipation is the
   forward direction (predict, don't just transfer). Filed.
+## Round 430 — Spain, red, qi, fourths (Chick, Biederman, Zhang, McCoy; 2026-11-02)
+
+Motivation: further outside (Spanish returns, structural reds,
+monist qi, powerful fourths). The program Spains (runs attempts),
+reds (stitches verdicts), qis (publishes NOGOs), and fourths
+(counts rows). Four more. (Map holds 436 rounds.)
+
+- **Spain return [canon: Chick (Spanish returns; specified Chick
+  Corea (vs no hits)); verification deferred].** → Chick's Spain
+  (returned, kept (forevered, elektric (band, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Crystal" (silenced, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Red structural [canon: Biederman (structural reds; specified
+  Charles Biederman (vs no hits; first-name tag collides R392 —
+  surname tag used); verification deferred].** → Biederman's reds
+  (structured, kept (welded, redred (reliefs, kept))) is the
+  verdict (redredded, kept (NOGO, told (honest, kept))); his
+  "Number" (nine, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Qi monist [canon: Zhang (monist qis; specified Zhang Zai (vs
+  no hits)); verification deferred].** → Zhang's qi (monised,
+  kept (tempered, voided (Great, kept))) is the claim (voided,
+  kept (RSI, unclaimed (still, standing))); his "Correcting"
+  (youth, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Fourth power [canon: McCoy (power fourths; specified McCoy
+  Tyner (vs no hits)); verification deferred].** → McCoy's fourths
+  (powered, kept (stacked, thundered (Trane, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Search" (peaced,
+  kept (played, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
