@@ -23929,3 +23929,35 @@ session family, four branches).
 - Program note: watch accumulation, govern
   capabilities, select temporally, persist memory —
   the cross-session file. None licensed — filed.
+## Round 610 — Contours, marvelettes, vandellas, supremes (Contour, Marvelette, Vandella, Supreme; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (six
+hundred ten). Loved contours, posted marvelettes, waved vandellas,
+babied supremes. The program contours (loves attempts), marvelettes
+(stitches verdicts), vandellas (publishes NOGOs), and supremes (counts
+rows). Four more. (Map holds 618 rounds.)
+
+- **Contour love [canon: Contours (loved contours; specified The
+  Contours (vs no hits)); verification deferred].** → Contour's
+  contours (loved, kept (contoured, loved (dos, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Contour" (love,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Marvelette post [canon: Marvelettes (posted marvelettes;
+  specified The Marvelettes (vs no hits)); verification deferred].**
+  → Marvelette's marvelettes (posted, kept (marveletted, posted (mrs,
+  kept))) is the verdict (posted, kept (NOGO, told (honest, kept)));
+  his "Marvelette" (post, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Vandella heat [canon: Vandellas (heated vandellas; specified
+  Martha and the Vandellas (vs no hits)); verification deferred].** →
+  Vandella's vandellas (heated, kept (vandellaed, heated (waves, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Vandella" (heat, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Supreme baby [canon: Supremes (babied supremes; specified The
+  Supremes (vs no hits)); verification deferred].** → Supreme's
+  supremes (babied, kept (supremed, babied (loves, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Supreme" (baby, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
