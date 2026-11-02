@@ -29,9 +29,11 @@ unless a mechanism story improves.
 ## 3. Vote-error persistence (instrumentation, no line)
 
 BARREN_BANK_AUTOPSY_V1 requires votes to carry {incErr, candErr}.
-No line needed: the change lands in the NEXT frozen instrument
-(collectVotes copies evalRec fields; fixtures assert). Recorded
-here so the next freeze includes it by default.
+ADOPTABILITY_AUDIT_V2 adds tick-per-vote (first/second fire cannot
+be split in C13 rows — votes lack tick). No line needed: the
+changes land in the NEXT frozen instrument (collectVotes copies
+evalRec fields + fire tick; fixtures assert). Recorded here so the
+next freeze includes both by default.
 
 ## 4. Adoptability-bar mechanism (blocked on record-level work)
 
