@@ -19552,3 +19552,33 @@ holds 468 rounds.)
   (diagrams, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Supreme" (polarity, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 463 — Transported, crossed, mitigated, noised (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: subliminal transfer — what
+travels unseen (already-cited SLICE not repeated; hidden-
+channel family, four branches).
+
+- **Transport valuation [arXiv:2608.20442 (Xu; vs no hits)].**
+  Parameters + optimizer moments as ONE trainer state;
+  transport-valuation identity (propagation vs assigned
+  value); state surgery. → Hidden channels live in the
+  moments, not the weights. Filed as the hidden-channel
+  twin.
+- **Cross-trait matrix [arXiv:2610.04260 (Zhao; vs no hits)].**
+  Directed trait-transfer MATRIX (log-prob gains; one trait's
+  data shifts OTHER traits). → Transfer is a matrix, not a
+  scalar (our per-leg heterogeneity, formalized). Filed.
+- **Mitigation dynamics [arXiv:2609.22215 (Yanagisawa; vs no
+  hits)].** Track trait-probabilities THROUGH training (not
+  just final); mitigation underexplored. → Watch the legs
+  mid-chain, not just at verdict. Filed as the mid-chain
+  twin.
+- **Noise conditions [arXiv:2605.23645 (Brockers; vs no hits)].**
+  Compatible output HEADS govern (not matched init);
+  works-vs-fails conditions. → Compatibility, not
+  similarity (our compatibility audit, external twin).
+  Filed.
+- Program note: the family says transfer travels unseen
+  through weak patterns + compatible heads; watch mid-chain.
+  None licensed — filed.
