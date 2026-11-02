@@ -266,6 +266,9 @@ the map stays open, not empty.
 - R503 verify file: naming≠computing (audit twin);
   carry-the-proof (proof twin); cover-don't-target
   (density twin); locate-reliability (separation twin).
+- R505 evolve file: density-budget (budget twin);
+  adapt-effort (spend-where-wound seconded); distill-
+  trajectory; negatives-teach (uncertainty twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
