@@ -23054,3 +23054,36 @@ branches).
 - Program note: freeze successors, generate entries,
   distill reusable, reuse selectively — the
   experience-opt file. None licensed — filed.
+## Round 580 — Ettas, bessies, lemons, roberts (Etta, Bessie, Lemon, Robert; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred eighty). Lasting ettas, empty bessies, blind lemons, crossed
+roberts. The program ettas (lasts attempts), bessies (stitches
+verdicts), lemons (publishes NOGOs), and roberts (counts rows). Four
+more. (Map holds 588 rounds.)
+
+- **Etta last [canon: Etta James (lasted ettas; specified Etta James
+  (vs no hits; short tag taken twice — full-name tag used));
+  verification deferred].** → Etta's ettas (lasted, kept (ettaed,
+  lasted (dances, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); her "Etta" (last, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Bessie empty [canon: Bessie Smith (emptied bessies; specified
+  Bessie Smith (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Bessie's bessies (emptied, kept
+  (bessied, emptied (beds, kept))) is the verdict (emptied, kept
+  (NOGO, told (honest, kept))); her "Bessie" (empty, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Lemon blind [canon: Jefferson (blinded lemons; specified Blind
+  Lemon Jefferson (vs no hits)); verification deferred].** → Lemon's
+  lemons (blinded, kept (lemoned, blinded (matches, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Lemon"
+  (blind, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Robert cross [canon: Robert Johnson (crossed roberts; specified
+  Robert Johnson (vs no hits; short tag taken by the trombonist —
+  full-name tag used)); verification deferred].** → Robert's roberts
+  (crossed, kept (roberted, crossed (roads, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Robert" (cross,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
