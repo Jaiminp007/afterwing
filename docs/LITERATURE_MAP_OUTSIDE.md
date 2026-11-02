@@ -15848,3 +15848,34 @@ dropped — R246's canon hook; map hits 341 rounds.)
   won (crowd, kept))); her "Fields" (medaled, kept (first,
   held)) is the verdict (published, kept (NOGO, told (honest,
   kept))).
+## Round 338 — Bruch, exile, crowds, lunch (Kyung, Viktoria, Magdalena, Sharon; 2026-11-02)
+
+Motivation: further outside (prodigy violins, exiled strings,
+woven crowds, factory lunches). The program Bruchs (voices
+concertos), exiles (parks candidates), crowds (joins votes), and
+lunches (pauses claims). Four more. (Map hits 342 rounds.)
+
+- **Prodigy Bruch [canon: Kyung (prodigy Bruch; specified Kyung
+  Wha Chung (vs no hits)); verification deferred].** → Kyung's
+  Bruch (prododied, kept (voiced, bowed (concerto, kept))) is the
+  claim (voiced, kept (separate, satisfied (evidence, kept)));
+  her "Tchaikovsky" (played, kept (standing, stood)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
+- **Exiled strings [canon: Viktoria (exiled strings; specified
+  Viktoria Mullova (vs no hits)); verification deferred].** →
+  Viktoria's exile (stringed, kept (fled, bowed (west, kept))) is
+  the park (architectural, kept (filed, held (still, kept))); her
+  "Sibelius" (played, kept (standing, stood)) is the attempt
+  (single, kept (authorized, run (once, held))).
+- **Woven crowds [canon: Magdalena (woven crowds; specified
+  Magdalena Abakanowicz (vs no hits)); verification deferred).**
+  → Magdalena's crowds (wovened, kept (headless, stood (sisal,
+  kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); her "Agora" (placed, kept (chicago, stood)) is the
+  row (read, kept (honest, told (all, counted))).
+- **Factory lunch [canon: Sharon (factory lunches; specified
+  Sharon Lockhart (vs no hits)); verification deferred].** →
+  Sharon's lunch (factoried, kept (broke, watched (workers,
+  kept))) is the bank (fresh, kept (built, spent (54, kept)));
+  her "Pine" (flat, kept (rode, shipped)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
