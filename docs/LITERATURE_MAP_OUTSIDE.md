@@ -21128,3 +21128,31 @@ and moanins (counts rows). Four more. (Map holds 520 rounds.)
   moaned (souls, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Moanin" (soul, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 515 — Invarianted, recovered, rewritten, programmed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: invariants — program-level
+self-improvement (already-cited invariant lead converging;
+program family, four branches).
+
+- **Safety invariants [arXiv:2608.00783 (Yin; vs no hits)].**
+  Four-dimensional FORMALISM for irreversible transitions
+  (funds/storage/hardware). → Formalize the irreversible
+  (our single-attempt banks, formalism-side). Filed as the
+  formalism twin.
+- **Recoverable flow [arXiv:2607.24625 (Kravchenko / APPA;
+  vs no hits)].** RECOVERABLE information-flow (monotone
+  taint strands; permissions algebra). → Recover, don't
+  strand (our resume-with-provenance, flow-side). Filed.
+- **Source rewriting [arXiv:2605.22794 (Cai / MOSS; vs no
+  hits)].** Evolution at SOURCE-LEVEL (harness in CODE,
+  not text artifacts). → The harness is code (our
+  instruments live in scripts, source-side). Filed as the
+  source twin.
+- **Program RSI [arXiv:2610.14495 (Lin / Reels-RSI; vs no
+  hits)].** Program-level SELF-IMPROVEMENT (read/diff/
+  test/AUDIT programs; pixels only watched). → Improve
+  the program, audit the diff (our discipline, RSI-
+  named). Filed as the program twin.
+- Program note: formalize, recover, rewrite-source, audit-
+  programs — the program file. None licensed — filed.
