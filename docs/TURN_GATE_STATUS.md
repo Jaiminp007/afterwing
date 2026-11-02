@@ -368,3 +368,12 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   Execution incident preserved (exact-arm slip + mains-constant slip, both
   fail-closed, void run removed, regressions fixture-guarded). Line re-CLOSED
   (no V1m without new rationale). Cumulative 8052 (+15). No RSI claim.
+- 2026-11-02: Phase-M FROZEN (shrinkage dose ladder {0.25,0.5,0.75};
+  MET-bar shot) + IMPLEMENTED (dose loop, MET-gated scorer, 13/13
+  fixtures, fresh-14 bank adopted-verified) + EXECUTED → **GO**.
+  HB(α): 0.25→0.914 / 0.5→0.532 / 0.75→0.360 (monotone; exact 0.288,
+  4th wound replication); bestHb 0.914 EXCEEDS train 0.81 (bar 0.71,
+  cleared by 0.20); BH ~0.82 unharmed; same ~0.94 retained. 18/0/2.91e9
+  redone[]. M2 flips to MET (addendum V2, bar applied verbatim).
+  Line re-CLOSED (no V1n without new rationale). Cumulative 8070 (+18).
+  M4 trigger 2 explicitly unfired (wrong measurement class). No RSI claim.
