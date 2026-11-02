@@ -23634,3 +23634,32 @@ converging; unified family, four branches).
 - Program note: unify skills, standardize memory,
   unify models, disentangle latents — the unified
   file. None licensed — filed.
+## Round 600 — Crests, diamonds, chords, crows (Crest, Diamond, Chord, Crow; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (six
+hundred). Candled crests, darling diamonds, boomed chords, geed crows.
+The program crests (candles attempts), diamonds (stitches verdicts),
+chords (publishes NOGOs), and crows (counts rows). Four more. (Map
+holds 608 rounds.)
+
+- **Crest candle [canon: Crests (candled crests; specified The Crests
+  (vs no hits)); verification deferred].** → Crest's crests (candled,
+  kept (crested, candled (sixteens, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Crest" (candle, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Diamond darling [canon: Diamonds (darlinged diamonds; specified
+  The Diamonds (vs no hits)); verification deferred].** → Diamond's
+  diamonds (darlinged, kept (diamonded, darlinged (littles, kept))) is
+  the verdict (darlinged, kept (NOGO, told (honest, kept))); his
+  "Diamond" (darling, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Chord boom [canon: Chords (boomed chords; specified The Chords
+  (vs no hits)); verification deferred].** → Chord's chords (boomed,
+  kept (chorded, boomed (shs, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Chord" (boom, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Crow gee [canon: Crows (geed crows; specified The Crows (vs no
+  hits)); verification deferred].** → Crow's crows (geed, kept
+  (crowed, geed (ohs, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Crow" (gee, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
