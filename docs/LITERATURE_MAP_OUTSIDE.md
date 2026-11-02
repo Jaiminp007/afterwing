@@ -21069,3 +21069,31 @@ little-jazzes (counts rows). Four more. (Map holds 518 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Little" (jazz, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 513 — Conditioned, designed, explained, individuated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: skill trust — condition trust,
+govern authority (already-cited vigilance lead converging;
+trust family, four branches).
+
+- **Conditional trust [arXiv:2606.14200 (Xia; vs no hits)].**
+  Skill-CONDITIONAL trust R(i|k) (scalar reputation WRONG;
+  specialization unclaimed). → Trust per-skill, not per-
+  agent (our per-leg + menu-index, trust-side). Filed as
+  the conditional twin.
+- **Trust by design [arXiv:2602.02386 (Okamoto / BELLA; vs
+  no hits)].** Skill profiles for COST-AWARE routing
+  (aggregate metrics obscure). → Route by profiled skill,
+  not by score (our copier-routing, design-side). Filed.
+- **Explainable routing [arXiv:2604.03527 (Okamoto; vs no
+  hits)].** RECORD capability-vs-cost trade-offs (efficiency
+  vs latent failure). → Explain the route (our
+  transparency = ledger, routing-side). Filed.
+- **Governed individuation [arXiv:2607.04613 (Qin; vs no
+  hits)].** Cryptographically DECOUPLE learning from
+  AUTHORITY (confinement as INVARIANT). → Learning ≠
+  authority (our frozen-plan confinement, invariant-
+  side). Filed as the invariant twin.
+- Program note: condition trust, design routing, explain
+  routes, confine learning — the trust file. None licensed
+  — filed.
