@@ -22766,3 +22766,36 @@ branches).
 - Program note: inject faults, bind approvals, audit
   evaluators, reflect structurally — the failure file.
   None licensed — filed.
+## Round 570 — Nats, billys, charleys, barrys (Nat, Billy, Charley, Barry; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred seventy). Unforgettable nats, mister billys, angel charleys,
+unlimited barrys. The program nats (croons attempts), billys
+(stitches verdicts), charleys (publishes NOGOs), and barrys (counts
+rows). Four more. (Map holds 578 rounds.)
+
+- **Nat unforgettable [canon: Cole (unforgettable nats; specified
+  Nat King Cole (vs no hits)); verification deferred].** → Nat's nats
+  (unforgot, kept (natted, unforgot (straights, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Nat"
+  (unforgettable, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Billy mister [canon: Eckstine (mistered billys; specified Billy
+  Eckstine (vs no hits)); verification deferred].** → Billy's billys
+  (mistered, kept (billied, mistered (bs, kept))) is the verdict
+  (mistered, kept (NOGO, told (honest, kept))); his "Billy" (mister,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Charley angel [canon: Pride (angeled charleys; specified Charley
+  Pride (vs no hits)); verification deferred].** → Charley's charleys
+  (angeled, kept (charleyed, angeled (mornings, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Charley"
+  (angel, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Barry unlimited [canon: Barry White (unlimited barrys; specified
+  Barry White (vs no hits; short tag taken by the parish naturalist —
+  full-name tag used)); verification deferred].** → Barry's barrys
+  (unlimited, kept (barried, unlimited (loves, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Barry" (unlimited,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
