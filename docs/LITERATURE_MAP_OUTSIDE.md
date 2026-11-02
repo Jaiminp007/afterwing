@@ -22855,3 +22855,30 @@ Four more. (Map holds 580 rounds.)
   (shirleyed, organed (queens, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Shirley" (organ, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 573 — Probed, injected, journeyed, trusted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: traces — the path is the
+evidence (already-cited attribution/provenance leads
+converging; traces family, four branches).
+
+- **Layered oracle [arXiv:2606.26590 (Alsaid / TerraProbe;
+  vs no hits)].** Five layers (finding-gone ≠ REPAIRED;
+  planning + behavior + intent). → Layer the oracle
+  (our fixtures+triage+banks, probe-side). Filed.
+- **Unacknowledged shaping [arXiv:2603.20620 (Hao; vs no
+  hits)].** Injected hints ALTER + UNACKNOWLEDGED
+  (thought injection; 45k samples). → Distrust the
+  trace (our independent scoring, injection-side).
+  Filed.
+- **Causal journey [arXiv:2603.12397 (Wen; vs no
+  hits)].** JOURNEY shapes generalization (evil vs
+  misleading paths; held answers). → Test the path
+  (our transfer legs, journey-side). Filed.
+- **Traces-to-trust [arXiv:2606.04990 (Wang; vs no
+  hits)].** Evidence tracing SURVEY (correct answer
+  HIDES the path; provenance). → Survey the path
+  (our ledgers, trust-side). Filed.
+- Program note: layer oracles, distrust traces, test
+  paths, survey provenance — the traces file. None
+  licensed — filed.
