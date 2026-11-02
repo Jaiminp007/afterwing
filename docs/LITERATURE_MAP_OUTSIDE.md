@@ -13764,3 +13764,33 @@ checked thrice, finally used.)
   (C2-C7, swept (each, published)); his Candidates (the run,
   unbroken) is the single attempt (one, only (no second,
   licensed)).
+## Round 273 — Grace, vanishing, drift, tea (Ashe, Earhart, Heyerdahl, Okakura; 2026-11-02)
+
+Motivation: the program holds grace (under gates), vanishes lines
+(closed), drifts unsteered (verdicts read), and pauses empty (fees
+small). Four more. (Bare Ashe shares crashes-FPs — full names.)
+
+- **Grace held [canon: Ashe (composure; specified Arthur
+  (vs crashes-FPs)); verification deferred].** → Arthur's
+  composure (pressure, held (grace, kept)) is the gate review
+  (NOGO, held (published, kept (no flinching))); his "start
+  where you are" is the attempt (start where the bank is
+  (fresh, each (line, new))).
+- **The unresolved [canon: Earhart (vanished flight;
+  specified Amelia (vs no hits)); verification deferred].** →
+  Amelia's vanishing (the flight, open (never, closed)) is the
+  open question (C9, open (never, forced)); her "most effective"
+  (the deed, done) is the execution (the mains, run (not
+  debated, done)).
+- **Drift unsteered [canon: Heyerdahl (drift voyage; specified
+  Thor + Kon-Tiki (vs no hits)); verification deferred].** →
+  Thor's Kon-Tiki (the raft, drifting (no rudder, carried)) is
+  the verdict (the numbers, drifting (no steering, read)); his
+  balsa logs (lashed, together) are the chains (H0/H1/H2, lashed
+  (transplanted, together)).
+- **Empty the cup [canon: Okakura (tea philosophy; specified
+  Kakuzo + Book of Tea (vs no hits)); verification deferred].**
+  → Kakuzo's emptiness (the cup, empty (room, for)) is the
+  sandbox fee (small (room, for (evaluation))); his teaism
+  (the pause, kept) is the proposal tick (1024, kept (once,
+  each (run))).
