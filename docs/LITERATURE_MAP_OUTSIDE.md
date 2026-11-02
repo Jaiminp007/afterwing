@@ -17072,3 +17072,29 @@ mirrors (stitches verdicts), guides (publishes NOGOs), and fats
   kept (smeared, stacked (chair, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Coyote" (roomed, kept (held,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 377 — Routed, retrieved, latent, unknown (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: adapter routing — the implementation
+shelf for DTR's inference wing (route by input, no task ID).
+
+- **Non-parametric routing [arXiv:2610.36994 (Celik / CaLLM; vs
+  no hits)].** Task-agnostic embedding → nearest prototype →
+  specialized adapter; zero-shot task-to-expert. → Prototype +
+  routing combined (PAH's index, run-time). Unlicensed (needs
+  adapters + embedding).
+- **Retrieval routing [arXiv:2605.31229 (Dobrzeniecka; vs no
+  hits)].** Dynamic adapter routing for continual multimodal
+  retrieval + principled evaluation. → Routing beyond
+  classification; evaluation precedent. Unlicensed.
+- **Gradient-free routing [arXiv:2607.23837 (Azghan / Latent-LoRA;
+  vs no hits)].** Route WITHOUT trainable gates (gates need
+  forgetting-protection themselves — the recursion named).
+  → Most constraint-compatible router. Unlicensed.
+- **Task-unknown routing [arXiv:2602.15811 (Kavitha / CARL-CXR;
+  vs no hits)].** Fixed backbone + lightweight task adapters,
+  task identity unavailable at deployment. → Our setting exactly
+  (frozen trunk + task modules, unknown codebook). Unlicensed.
+- Program note: routing shelf (CaLLM + latent-LoRA lead) filed
+  for DTR inference implementation. 2111.07736 (local module
+  composition) noted as adjacent, unbought.
