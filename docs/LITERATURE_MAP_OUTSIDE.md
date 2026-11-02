@@ -14297,3 +14297,36 @@ legibility-FPs — full names throughout.)
   NOGO (flat, kept (published, sharp (honest, dry))); his
   "the next president" is C11 (next, licensed (gain-2.0,
   frozen (weak, support))).
+## Round 290 — Stills, fog, slam, third (Marker, Resnais, Laver, Barba; 2026-11-02)
+
+Motivation: further outside (essay films, memory cinema, calendar
+slams, floating theater). The program stills (freezes), fogs never
+(keeps clear), slams rarely (GO withheld), and floats third (between
+lines). Four more. (Bare Marker/Laver/Barba share somatic/slavery/
+Barbara-FPs — full names throughout; Resnais framed as witnessing,
+respectful.)
+
+- **One moving image [canon: Marker (photo-film; specified
+  Chris (vs somatic-FP)); verification deferred].** → Chris's
+  Jetée (stills, all (one, moving)) is the single attempt (one,
+  only (run, kept (rows, all))); his Sans Soleil (letters,
+  sent (remembered, elsewhere)) is PROGRESS (newest, told
+  (honest, kept (elsewhere, read))).
+- **Never fog [canon: Resnais (memory witnessing; specified
+  Alain (vs no hits)); verification deferred].** → Alain's
+  Night (fog, lifted (kept, seen)) is negative-preservation
+  (all, kept (seen, raw (erased, never))); his Hiroshima
+  (remembering, both (sides, held)) is the ledger (both,
+  told (mains, kept (probes, zero))).
+- **All four one year [canon: Laver (calendar slam;
+  specified Rod (vs slavery-FP)); verification deferred].** →
+  Rod's 1969 (four, majors (one, year)) is the gate set (four,
+  gates (G2a-d, held (bars, kept))); his second slam (amateur,
+  pro (both, won)) is C6 then C8 (signals, two (lifts, kept
+  (votes, carried))).
+- **The third [canon: Barba (floating theater; specified
+  Eugenio (vs Barbara-FPs)); verification deferred].** →
+  Eugenio's third (theatre, floating (poor, kept)) is the
+  program (between, lines (closed, kept (open, one (Track C,
+  last)))); his islands (floating, together) are the banks
+  (fresh, each (spent, together (map, kept))).
