@@ -18943,3 +18943,30 @@ holds 448 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "History" (shorted, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 443 — Selected, freed, frozen-prompted, harnessed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: prompt-carry — preservation
+without weight surgery (Hassani's lead, four branches; R439 not
+repeated).
+
+- **Selection fails [arXiv:2604.04420 (Park; vs no hits)].**
+  Prompt selection OFTEN FAILS to pick appropriate prompts
+  despite extra key training. → Selection is the hard part
+  everywhere (mirrors our G2b floor). Filed as the
+  selection-failure twin.
+- **Rehearsal-free [arXiv:2507.12305 (Ma'sum / PROL; vs no
+  hits)].** Prompt online learning WITHOUT replay (privacy-
+  constrained streams). → Carry without the past. Unlicensed.
+- **Replay-independent [arXiv:2503.00677 (Kang; vs no hits)].**
+  FROZEN backbone + prompt tuning for blurry-boundary GCL.
+  → Frozen-big + small-delta AGAIN (3rd confirmation alongside
+  RAEGL/Sandwich). Filed as the pattern's hat-trick.
+- **Backward revision [arXiv:2610.12668 (Xiao / ReHarness; vs
+  no hits)].** Recurrent agent harness: forward read/write +
+  BACKWARD revision, strictly online. → The agent harness that
+  revises (our loop's shape: propose → evaluate → revise).
+  Unlicensed.
+- Program note: frozen+delta now thrice-confirmed (RAEGL,
+  Sandwich, Kang); selection-failure is the universal tax.
+  None licensed — filed.
