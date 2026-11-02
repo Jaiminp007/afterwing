@@ -13672,3 +13672,35 @@ Four more. (AlphaGo shares RL-canon hits — komi instead.)
   negative-preservation (the NOGO, kept (the map, honored));
   his "the tree speaks" (listening, first) is the sandbox
   (evaluating, first (adopting, after)).
+## Round 270 — Average, ropes, lessons, brigade (Bradman, Ali, Child, Escoffier; 2026-11-02)
+
+Motivation: the program holds averages (bars unmoved), absorbs ropes
+(wounds), teaches lessons (fixtures), and runs brigades (chains).
+Four more. (Bare Child/average share lineage/statistics FPs — full
+names throughout.)
+
+- **Never a hundred [canon: Bradman (batting average; specified
+  Donald + 99.94 (vs no hits)); verification deferred].** →
+  Donald's 99.94 (four short (of a hundred (forever))) is the
+  gate bar (+0.1 (unmoved (0.0964, short))); his average (the
+  mean, towering) is the pooled ledger (the counts, standing
+  (8251 (the worlds, told))).
+- **Absorb on the ropes [canon: Ali (rope strategy; specified
+  Muhammad + rope-a-dope (vs no hits)); verification deferred].**
+  → Muhammad's rope-a-dope (leaning back (absorbing (the blows,
+  waiting))) is the wound (leaning in (absorbing (the transfer,
+  waiting (exact (0.29, held))))); his "float, sting" (the plan,
+  spoken) is the frozen design (the question, asked (the answer,
+  awaited)).
+- **Taught on television [canon: Child (cooking lessons;
+  specified Julia (vs lineage-FPs)); verification deferred].**
+  → Julia's French Chef (the lesson, televised (anyone, can))
+  is the fixture (the test, readable (anyone, can (run (green,
+  required)))); her "never apologize" is the INVALID (published
+  (never hidden (the error, mine))).
+- **Stations of the kitchen [canon: Escoffier (kitchen brigade;
+  specified Auguste (vs no hits)); verification deferred].** →
+  Auguste's brigade (stations (each, its task (sauce, pastry)))
+  is the chain (roles (each, its run (train, T1 (T2, validation))));
+  his mother sauces (five, base (all, from)) are the five menus
+  (gains, skips (shrink, surprise (all, proposed))).
