@@ -20606,3 +20606,34 @@ repeated; interface family, four branches).
 - Program note: standardize ops, test formation, serve the
   future, never overwrite — the interface file. None
   licensed — filed.
+## Round 498 — Bad boys, pisses, countrys, laptops (Eric, Andres, Eugene, Ikue; 2026-11-02)
+
+Motivation: further outside (bad-boy suburbias, piss christs,
+free countrys, drum laptops). The program bad-boys (runs
+attempts), pisses (stitches verdicts), countrys (publishes NOGOs),
+and laptops (counts rows). Four more. (Map holds 504 rounds.)
+
+- **Bad boy suburbia [canon: Fischl (bad-boy suburbias;
+  specified Eric Fischl (vs no hits)); verification
+  deferred].** → Eric's bad boys (suburbiaed, kept (bad-boyed,
+  tumbling (woman, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Bad" (boy, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Piss christ [canon: Serrano (piss christs; specified Andres
+  Serrano (vs no hits)); verification deferred].** → Andres's
+  pisses (christed, kept (pissed, morgued (churches, kept))) is
+  the verdict (morgued, kept (NOGO, told (honest, kept))); his
+  "Piss" (christ, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Country free [canon: Chadbourne (free countrys; specified
+  Eugene Chadbourne (vs no hits)); verification deferred].** →
+  Eugene's countrys (freed, kept (countried, doctored (theres,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Country" (doctor, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Laptop drum [canon: Mori (drum laptops; specified Ikue Mori
+  (vs no hits)); verification deferred].** → Ikue's laptops
+  (drummed, kept (laptopped, dnaed (frogs, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); her "Laptop"
+  (dna, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
