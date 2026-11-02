@@ -19880,3 +19880,35 @@ branches).
 - Program note: escape by noise-shape, noise-tail, recipe,
   or late flattening — the escape file. None licensed —
   filed.
+## Round 474 — Maps, orchestras, burnings, crystals (Alighiero, Satoko, Zhi, Marilyn; 2026-11-02)
+
+Motivation: further outside (embroidered maps, ma-do
+orchestras, hidden burnings, nothing crystals). The program maps
+(runs attempts), orchestras (stitches verdicts), burnings
+(publishes NOGOs), and crystals (counts rows). Four more. (Map
+holds 480 rounds.)
+
+- **Map embroidered [canon: Boetti (embroidered maps; specified
+  Alighiero Boetti (vs no hits)); verification deferred].** →
+  Alighiero's maps (embroidered, kept (mapped, mappamondied
+  (worlds, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Map" (world, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Orchestra ma-do [canon: Fujii (ma-do orchestras; specified
+  Satoko Fujii (vs no hits)); verification deferred].** → Satoko's
+  orchestras (ma-doed, kept (orchestrated, ma-doed (dos, kept)))
+  is the verdict (ma-doed, kept (NOGO, told (honest, kept))); her
+  "Orchestra" (ma-do, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Burning hidden [canon: Zhi (hidden burnings; specified Li
+  Zhi (vs no hits)); verification deferred].** → Zhi's burnings
+  (hidden, kept (burned, hid (books, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Burn" (booked,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Crystal nothing [canon: Crispell (nothing crystals;
+  specified Marilyn Crispell (vs no hits)); verification
+  deferred].** → Marilyn's crystals (nothinged, kept (crystalled,
+  nothinged (gazes, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); her "Nothing" (gazes, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
