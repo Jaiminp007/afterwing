@@ -236,6 +236,10 @@ the map stays open, not empty.
 - R485 module-carry file: dedicated residual (module twin);
   compress-carry + probe-contract (digest twin); edit-
   survival (survival twin); subspace alignment unlicensed.
+- R487 new substrates: KAN wound-unclear (substrate
+  twin); structure-resists-overwrite (structural twin);
+  per-knot anchoring (granularity twin); aligned injection
+  (adopt-iff twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
