@@ -22443,3 +22443,31 @@ rows). Four more. (Map holds 566 rounds.)
   (bookered, onioned (greens, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Booker" (onion, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 559 — Flown, regexed, astra'd, pre-ticketed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: operations — run the ticket
+queue (already-cited forensic/operations leads converging;
+operations family, four branches; includes our namesake).
+
+- **Troubleshooting automation [arXiv:2510.10074 (Mao /
+  StepFly; vs no hits)].** Automate GUIDES (quality +
+  control-flow + parallelism). → Automate the guide
+  (our frozen plans, guide-side). Filed.
+- **Indicator operationalization [arXiv:2604.12228 (Tseng;
+  vs no hits)].** IOCs to REGEX (manual to automated;
+  syntactically valid + precise). → Operationalize
+  the indicator (our per-leg deltas, rule-side).
+  Filed.
+- **Namesake ASTRA [arXiv:2608.28790 (Javaji / ASTRA; vs
+  no hits)].** Fragmented evidence + PROVENANCE
+  (explicit evidence modeling; specialist gatherers).
+  → Model the evidence (our ledgers, namesake-side).
+  Filed.
+- **Before-the-ticket [arXiv:2610.31703 (Barezi; vs no
+  hits)].** Ground in DOCS + RESOLVED (answer already
+  exists; guides hard to search). → Search the
+  resolved (our closed verdicts, doc-side). Filed.
+- Program note: automate guides, operationalize
+  indicators, model evidence, search resolved — the
+  operations file. None licensed — filed.
