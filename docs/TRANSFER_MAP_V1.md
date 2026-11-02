@@ -360,6 +360,9 @@ the map stays open, not empty.
 - R565 reliability file: measure-four-ways;
   test-preconditions; anticipate-needs;
   rank-specialization.
+- R567 stress file: score-stability;
+  climb-ladders; bench-three-ways;
+  anchor-then-probe.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
