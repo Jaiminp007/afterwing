@@ -20824,3 +20824,29 @@ and flyings (counts rows). Four more. (Map holds 510 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Flying" (home, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 505 — Densified, effort-adapted, distilled, uncertained (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-evolving agents, wave 2 —
+efficiency inside evolution (already-cited wave-1 leads not
+repeated; evolve family, four branches).
+
+- **Density budget [arXiv:2604.17091 (Liang / GenericAgent; vs
+  no hits)].** Finite CONTEXT BUDGET (decision-relevant
+  density; experience lost across episodes). → Budget the
+  relevant, not the long (our op-caps, context-side). Filed
+  as the budget twin.
+- **Adaptive effort [arXiv:2610.33684 (Shi / MORE; vs no
+  hits)].** Self-ADAPTIVE EFFORT (reasoning form + compute
+  per task). → Spend where the wound is (Wan twin,
+  seconded). Filed.
+- **On-policy seed [arXiv:2607.14777 (Wu / SEED; vs no hits)].**
+  On-policy DISTILLATION (episode→token supervision gap).
+  → Distill the trajectory, not just the outcome. Filed.
+- **Uncertainty rewards [arXiv:2602.21158 (Zhang / SELAUR;
+  vs no hits)].** UNCERTAINTY-aware (failed trajectories
+  still teach). → Learn from the NOGOs (our negatives
+  teach). Filed as the negatives-teach twin.
+- Program note: budget density, adapt effort, distill
+  trajectories, reward uncertainty — the evolve file. None
+  licensed — filed.
