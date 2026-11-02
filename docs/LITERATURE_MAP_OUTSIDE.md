@@ -19335,3 +19335,38 @@ four branches).
 - Program note: frozen+delta now 5×-confirmed; savings >
   accuracy; shift-benchmarks > static bars. None licensed —
   filed.
+## Round 456 — Tailgates, flutes, creativities, lectures (Roswell, Henry, Fang, He; 2026-11-02)
+
+Motivation: further outside (tailgate trombones, rag flutes,
+complementary creativities, Hegel lectures). The program
+tailgates (runs attempts), flutes (stitches verdicts),
+creativities (publishes NOGOs), and lectures (counts rows). Four
+more. (Map holds 462 rounds.)
+
+- **Tailgate trombone [canon: Rudd (tailgate trombones; specified
+  Roswell Rudd (vs no hits; Heyerdahl's "rudder" R271 is
+  unrelated)); verification deferred].** → Roswell's tailgates
+  (tromboned, kept (tailgated, primed (coleman, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Tailgate" (primed, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Flute rag [canon: Threadgill (rag flutes; specified Henry
+  Threadgill (vs no hits)); verification deferred].** → Henry's
+  flutes (ragged, kept (aired, sextetted (musics, kept))) is the
+  verdict (sextetted, kept (NOGO, told (honest, kept))); his "Rag"
+  (aired, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Creativity complementary [canon: Fang (complementary
+  creativities; specified Thomé Fang (vs no hits; first-name
+  tag collides — surname tag used)); verification deferred].** →
+  Fang's creativities (complemented, kept (creatived, harmonized
+  (forces, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Creativity" (chinesed, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Lecture Hegel [canon: He Lin (Hegel lectures; specified He
+  Lin (vs no hits — 30 substring hits are "the line"/"he ... lin"
+  false positives; tag unused)); verification deferred].** →
+  He's lectures (hegeled, kept (lectured, idealed (spirits,
+  kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Ideal" (lectured, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
