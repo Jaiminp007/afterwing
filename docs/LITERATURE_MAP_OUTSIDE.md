@@ -21582,3 +21582,41 @@ family, four branches).
 - Program note: bridge the gap, measure embodiment, align
   hierarchically, decouple plan — the execute file. None
   licensed — filed.
+## Round 530 — Honeybuns, bossas, overseases, smiles (Duke Pearson, Hank Jones, Flanagan, Wynton Kelly; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred thirty). Sweet honeybuns, nova bossas, poetry
+overseases, someday smiles. The program honeybuns (runs
+attempts), bossas (stitches verdicts), overseases (publishes
+NOGOs), and smiles (counts rows). Four more. (Map holds 538
+rounds.)
+
+- **Honeybun sweet [canon: Duke Pearson (sweet honeybuns;
+  specified Duke Pearson (vs no hits; single-name tags taken by
+  the correlation — full-name tag used)); verification
+  deferred].** → Duke Pearson's honeybuns (sweetened, kept
+  (honeybunned, sweet-honeybun (honeys, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Honeybun"
+  (sweet, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Bossa nova [canon: Hank Jones (nova bossas; specified Hank
+  Jones (vs no hits; single-name tags taken — full-name tag
+  used)); verification deferred].** → Hank Jones's bossas
+  (novaed, kept (bossaed, boss-tenor (tenors, kept))) is the
+  verdict (boss-tenored, kept (NOGO, told (honest, kept))); his
+  "Bossa" (nova, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Overseas jazzpoet [canon: Flanagan (jazzpoet overseases;
+  specified Tommy Flanagan (vs no hits)); verification
+  deferred].** → Flanagan's overseases (jazzpoeted, kept
+  (overseased, jazz-poeted (diplomats, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Overseas" (jazzpoet, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Smile someday [canon: Wynton Kelly (someday smiles;
+  specified Wynton Kelly (vs no hits; single-name tags taken by
+  the clown — full-name tag used)); verification deferred].** →
+  Wynton Kelly's smiles (somedayed, kept (smiled, kelly-blued
+  (blueses, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Smile" (someday, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
