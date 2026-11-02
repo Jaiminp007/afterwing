@@ -14230,3 +14230,37 @@ FPs — full names throughout.)
   (ranges, listed (refused, after (post-bank, form))); his M1
   (Crab, kept) is the NOGO (kept, first (product, withheld
   (seven, lines))).
+## Round 288 — Peaks, marathons, asylum, listening (Didrikson, Fiennes, Weiss, Nono; 2026-11-02)
+
+Motivation: further outside (multi-sport pioneers, polar runners,
+asylum theater, Venetian listening). The program peaks twice
+(signals found), runs continents (banks spent), performs watched
+(agents evaluated), and listens tragically (sandboxes blind).
+Four more. (Bare Weiss/Laver share Weissing/slavery-FPs — full
+names throughout.)
+
+- **Two peaks [canon: Didrikson (two-sport best; specified
+  Babe (vs no hits)); verification deferred].** → Babe's track
+  then golf (peaks, two (best, both)) is the positive signals
+  (C6 then C8 (lifts, kept (surprise, voted))); her "golf is
+  played between the ears" is the sandbox (played, inside
+  (experience, only (transfer, unseen))).
+- **Seven continents running [canon: Fiennes (endurance
+  extremes; specified Ranulph (vs no hits)); verification
+  deferred].** → Ranulph's seven marathons (continents, seven
+  (run, all)) is the menu (indices, seven (0-6, closed (never,
+  added (after, six)))); his frostbite (fingers, left (kept,
+  going)) is negative-preservation (NOGOs, left (kept, going
+  (program, continuing))).
+- **Inmates performing [canon: Weiss (asylum theater;
+  specified Peter (vs Weissing-FP)); verification deferred].**
+  → Peter's Marat/Sade (inmates, performing (watched, always))
+  is the attempt (agents, proposing (evaluated, always (sandbox,
+  each))); his "the revolution must be televised" is the
+  verdict (published, kept (read, all (rows, raw))).
+- **Tragedy of listening [canon: Nono (Venetian listening;
+  specified Luigi (vs no hits)); verification deferred].** →
+  Luigi's Prometeo (listening, tragedy (boats, Venice)) is the
+  sandbox (listening, blind (train, only (transfer, silent)));
+  his "ascolta" is the vote (carried, many (majority, kept
+  (crowd, won))).
