@@ -22384,3 +22384,32 @@ dogs (stitches verdicts), formulas (publishes NOGOs), and prays
   (joined, kept (carried, won (crowd, kept))); his "Pray" (wrong, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 557 — Tagged, guarded, sleuthed, verdict-ed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: forensics — read the wreckage,
+write the verdict (already-cited poisoning/audit leads
+converging; forensics family, four branches).
+
+- **Evidence-guided tagger [arXiv:2510.17848 (Lin /
+  RISKTAGGER; vs no hits)].** Path-level evidence +
+  VERIFIABLE explanations (fragmented evidence
+  traced). → Tag the path (our per-leg audit,
+  evidence-side). Filed.
+- **Omnibus guard [arXiv:2605.16962 (Shen / OmniVL-Guard;
+  vs no hits)].** Tool-AUGMENTED forensics (closed-world
+  ceiling; external clues + fine scrutiny). → Augment
+  the tools (our fixtures+auditors, tool-side). Filed.
+- **Blue-team sleuth [arXiv:2508.20643 (Fumero /
+  CyberSleuth; vs no hits)].** Post-mortem automated
+  (long-term reasoning + evidence correlation). →
+  Sleuth the wreckage (our post-verdict audits,
+  blue-side). Filed.
+- **Evidence-to-verdict [arXiv:2511.00181 (Liang; vs no
+  hits)].** MULTI-stage multi-agent (single-source
+  limits; training-free framework). → Stage the
+  verdict (our freeze-execute-publish, verdict-side).
+  Filed.
+- Program note: tag paths, augment tools, sleuth
+  wreckage, stage verdicts — the forensics file. None
+  licensed — filed.
