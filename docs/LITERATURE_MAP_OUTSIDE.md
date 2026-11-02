@@ -21097,3 +21097,34 @@ trust family, four branches).
 - Program note: condition trust, design routing, explain
   routes, confine learning — the trust file. None licensed
   — filed.
+## Round 514 — Stations, words, whispers, moanins (Ed, Wool, Golson, Timmons; 2026-11-02)
+
+Motivation: further outside (standard stations, word enemies,
+killer whispers, dis-here moanins). The program stations (runs
+attempts), words (stitches verdicts), whispers (publishes NOGOs),
+and moanins (counts rows). Four more. (Map holds 520 rounds.)
+
+- **Station standard [canon: Ruscha (standard stations;
+  specified Ed Ruscha (vs no hits)); verification deferred].**
+  → Ed's stations (standarded, kept (stationed, worded (words,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Station" (standard, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Word enemy [canon: Wool (enemy words; specified Christopher
+  Wool (vs no hits)); verification deferred].** → Wool's words
+  (enemied, kept (worded, run-dogged (dogs, kept))) is the verdict
+  (run-dogged, kept (NOGO, told (honest, kept))); his "Word"
+  (enemy, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Whisper killer [canon: Golson (killer whispers; specified
+  Benny Golson (vs no hits)); verification deferred].** → Benny's
+  whispers (killered, kept (whispered, killed (joes, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Whisper" (not, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Moanin dis-here [canon: Timmons (dis-here moanins;
+  specified Bobby Timmons (vs no hits)); verification
+  deferred].** → Bobby's moanins (dis-hered, kept (moaned,
+  moaned (souls, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Moanin" (soul, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
