@@ -148,6 +148,10 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R437 first-form: input-side adaptation HAS its first concrete
+  machinery (Danda input-side adapter + quantile matching);
+  distilled-not-replayed staleness twin; decoupled prototype
+  loss; cache-budget warning. Route to unmap, needs freezing.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
