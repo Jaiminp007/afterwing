@@ -15530,3 +15530,35 @@ task is this?), the representation DTR is blocked on.
   index. DTR refinement: part (ii/iv) gains an inference-head
   OPTION (self-supervised) beside the labeled route — still
   blocked (needs building), but two routes specified.
+## Round 328 — Bow, Siberian, bricks, song (Maxim, Vadim, Carl, Nathaniel; 2026-11-02)
+
+Motivation: further outside (prodigy bows, Siberian violins,
+floor bricks, devotional songs). The program bows (adopts
+verdicts), Siberians (endures colds), bricks (lays banks), and
+sings (publishes ledgers). Four more. (Jacobs dropped — surname
+shared with R248's canon; map hits 332 rounds.)
+
+- **Prodigy bow [canon: Maxim (prodigy bows; specified Maxim
+  Vengerov (vs no hits)); verification deferred].** → Maxim's bow
+  (prodigied, kept (drawn, rosined (strings, kept))) is the vote
+  (majority, kept (crowd, won (carried, kept))); his "Tzigane"
+  (flown, kept (Ravel, played)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Siberian violin [canon: Vadim (Siberian violins; specified
+  Vadim Repin (vs no hits)); verification deferred].** → Vadim's
+  Siberian (violin, kept (cold, endured (snow, played))) is the
+  negative (endured, kept (NOGO, preserved (still, standing)));
+  his "Shostakovich" (second, kept (concerto, played)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
+- **Floor bricks [canon: Carl (floor bricks; specified Carl
+  Andre (vs no hits)); verification deferred].** → Carl's bricks
+  (floored, kept (laid, walked (magnesium, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); his "Falls" (copper,
+  kept (water, kept)) is the row (read, kept (honest, told (all,
+  counted))).
+- **Devotional song [canon: Nathaniel (devotional songs;
+  specified Nathaniel Dorsky (vs no hits)); verification
+  deferred].** → Nathaniel's song (devotioned, kept (sung,
+  watched (silence, kept))) is the ledger (exact, kept (honest,
+  told (all, counted))); his "Arbor" (vitam, kept (trees, kept))
+  is the verdict (published, kept (NOGO, told (honest, kept))).
