@@ -13,7 +13,7 @@ test('C11 menu background (shared indices for reference; C11 uses 2)',()=>{
   assert.equal(OL_MENU[1].kind,'replayGain');
   assert.equal(OL_MENU[4].kind,'replaySkip');
   assert.equal(OL_MENU[6].kind,'replaySurprise');
-  assert.equal(OL_MENU.length,8); // indices 0-6 untouched (C12 appended index 7; pinned kinds unchanged)
+  assert.equal(OL_MENU.length,9); // indices 0-7 untouched (C12 index 7, C14 index 8; pinned kinds unchanged)
 });
 test('C11 surprise sandbox runs live-fit path (fee billed, boolean verdict)',()=>{
   const s=mkS(21);

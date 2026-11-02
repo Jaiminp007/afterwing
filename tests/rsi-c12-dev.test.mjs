@@ -13,7 +13,7 @@ test('C12 menu background (shared indices for reference; C11 uses 2)',()=>{
   assert.equal(OL_MENU[1].kind,'replayGain');
   assert.equal(OL_MENU[4].kind,'replaySkip');
   assert.equal(OL_MENU[6].kind,'replaySurprise');
-  assert.equal(OL_MENU.length,8); // indices 0-6 untouched
+  assert.equal(OL_MENU.length,9); // indices 0-7 untouched (C12 index 7, C14 index 8; pinned kinds unchanged)
 });
 test('C12 surprise sandbox runs live-fit path (fee billed, boolean verdict)',()=>{
   const s=mkS(21);
@@ -43,7 +43,7 @@ test('C12 menu indices are tasteRate 2.0 (7/7 asserted; update rule itself)',()=
   assert.equal(C12_MENU_T1,7);
   assert.equal(OL_MENU[7].kind,'tasteRate');
   assert.equal(OL_MENU[7].rate,2.0);
-  assert.equal(OL_MENU.length,8); // indices 0-6 untouched
+  assert.equal(OL_MENU.length,9); // indices 0-7 untouched (C12 index 7, C14 index 8; pinned kinds unchanged)
 });
 test('C12 rate sandbox learns at 2.0 and adoption is config-only (bills 0 extra)',()=>{
   const s=mkS(61);

@@ -130,13 +130,13 @@ export function syncNewbornLearners(run){
 // looper: single-index sandbox proposal OR multi-index sandbox choice (flip iff looperFlipEval); copier: blind auto-adopt (no sandbox); standard: looper-equivalent standard-choice (flip-eval off).
 export function fireTickProposal(exp,state,own){
   if((exp.arm==='looper'||exp.arm==='standard')&&own.tick===OL_PROPOSAL_TICK&&state.rsiLoop){
-    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
-    else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
+    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices,own.tick);else fireLooperChoice(state,exp.looperMenuIndices,own.tick);}
+    else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex,own.tick);
   }
   /* C13: double fires at BOTH ticks (second-order revision: adopt, learn, re-fire) */
   if(exp.arm==='double'&&(own.tick===OL_PROPOSAL_TICK||own.tick===OL_PROPOSAL_TICK_EARLY)&&state.rsiLoop){
-    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
-    else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
+    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices,own.tick);else fireLooperChoice(state,exp.looperMenuIndices,own.tick);}
+    else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex,own.tick);
   }
   /* C7: blind adoption, same tick, no sandbox/fee (dose matched) */
   if(exp.arm==='copier'&&own.tick===OL_PROPOSAL_TICK&&exp.copierMenuIndex!=null)adoptOperatorLive(state,OL_MENU[exp.copierMenuIndex]);
