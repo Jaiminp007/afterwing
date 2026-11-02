@@ -18250,3 +18250,24 @@ scribbles (stitches verdicts), doubts (publishes NOGOs), and hats
   vote (joined, kept (carried, won (crowd, kept))); his "Brilliant"
   (corners, kept (played, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 419 — Singled, decorrelated, neighbored, sourced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: no-batch adaptation — one instance,
+correlated streams, neighbor structure.
+
+- **Single image [arXiv:2112.02355 (Khurana / SITA; vs no hits)].**
+  Adapt on ONE test instance (no batches, no source data). →
+  The per-instance extreme. Unlicensed.
+- **Against correlation [arXiv:2208.05117 (Gong / NOTE; vs no
+  hits)].** Most TTA FAILS dramatically under temporal
+  correlation; robust continual adaptation answers. → Tomar's
+  warning, answered (our rows' regime). Filed as method.
+- **Neighbor discovery [arXiv:2506.06782 (Jiang; vs no hits)].**
+  Domains cluster distinctly; global normalization DISTORTS.
+  → Find neighbors, don't average. Unlicensed.
+- **Class split [arXiv:2406.05413 (Jiang; vs no hits)].**
+  Class-related vs class-irrelevant features; source+test BN
+  mix characterizes targets. → Split what matters. Unlicensed.
+- Program note: NOTE (Gong) is the direct answer to the Tomar
+  method-note — read both together (warning + fix). Filed.
