@@ -17688,3 +17688,28 @@ hoods (stitches verdicts), atoms (publishes NOGOs), and fingers
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Stravinsky" (rited, kept (played, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 399 — Skilled, decoupled, forgotten (live arXiv; 2026-11-02)
+
+Three fresh abstracts (fetched 2026-11-02) + one banked
+(2504.10561 self-controlled expansion already on record —
+cited, not repeated). Abstracts only, 0 worlds. Three virgin
+pre-append. Themed: grow-and-forget — expand for the new,
+erase what conflicts.
+
+- **Atomic skills [arXiv:2606.21307 (Wang / TASER; vs no hits)].**
+  How many atomic skills to add per task + which to activate;
+  HETEROGENEOUS tasks. → DTR's distinct-tasks, with skill
+  accounting. Unlicensed (needs skill modules + router).
+- **Decoupled tuning [arXiv:2510.10071 (Zhang / ADEPT; vs no
+  hits)].** Adaptive expansion + DECOUPLED general-vs-domain
+  tuning (functional specialization). → Separate the shared from
+  the specific at expansion time. Unlicensed.
+- **Forget negative transfer [arXiv:2110.12187 (Wang / AFEC; vs
+  no hits)].** ACTIVELY forget old knowledge that conflicts with
+  the new task (negative transfer). → Our wound's mirror: the
+  preserved mapping IS negative transfer — forget it on purpose.
+  Unlicensed (needs conflict detection + erasure).
+- Program note: AFEC is the closest normative statement of what
+  C16 tried (erase the conflicting mapping, keep the rule) —
+  with conflict-detection as the missing piece. Filed with
+  family #1, unlicensed.
