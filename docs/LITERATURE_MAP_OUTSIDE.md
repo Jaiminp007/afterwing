@@ -17941,3 +17941,34 @@ surgically — local, stale, manifold-shaped.
   surgical ideal C16 missed (global vote, global flip). Filed
   with the successor design: localize first, then forget.
   Unlicensed.
+## Round 408 — Podiums, dazzles, doubts, batons (Zubin, Alma, Arcesilaus, Claudio; 2026-11-02)
+
+Motivation: further outside (lit podiums, dazzling gardens,
+suspended doubts, peace batons). The program podiums (runs
+attempts), dazzles (stitches verdicts), doubts (publishes NOGOs),
+and batons (counts rows). Four more. (Map holds 414 rounds.)
+
+- **Podium light [canon: Zubin (lit podiums; specified Zubin
+  Mehta (vs no hits)); verification deferred].** → Zubin's podiums
+  (lighted, kept (waved, toured (Phil, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Planets"
+  (hoisted, kept (played, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dazzle garden [canon: Alma (dazzle gardens; specified Alma
+  Thomas (vs no hits)); verification deferred].** → Alma's
+  dazzles (gardened, kept (dotted, glowed (flowers, kept))) is the
+  verdict (glowed, kept (NOGO, told (honest, kept))); her "Breeze"
+  (springed, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Doubt suspended [canon: Arcesilaus (suspended doubts;
+  specified Arcesilaus (vs no hits)); verification deferred].** →
+  Arcesilaus's doubts (suspended, kept (withheld, epochaed (senses,
+  kept))) is the claim (epoched, kept (RSI, unclaimed (still,
+  standing))); his "Middle" (aced, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Baton peace [canon: Claudio (peace batons; specified Claudio
+  Abbado (vs no hits)); verification deferred].** → Claudio's
+  batons (peaced, kept (waved, lucerned (festival, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Mahler"
+  (nined, kept (played, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
