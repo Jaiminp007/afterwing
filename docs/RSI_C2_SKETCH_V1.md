@@ -62,7 +62,7 @@ lossy +0.4; loop rediscovers or fails informatively). NOT train
 2. Lifetime cap in C2 (C1 allows 4; execution suggests ≤3 — pre-register).
 3. Sandbox split rule (fit-older/test-newer temporal? interleaved?).
 4. Mains math (chains × tags × pairs; caps from V1l/V1m scale + fees).
-5. Bank range (next clean after 455054: 456001+; verify at freeze).
+5. Bank range (next clean after 455054; verified at freeze, printed only in the frozen plan).
 
 ## Status
 
