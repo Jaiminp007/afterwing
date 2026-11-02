@@ -152,6 +152,9 @@ the map stays open, not empty.
   (self-probe-then-dampen, gentlest response) + SLICE
   (conflict-aware init) filed as the conflict-handling shelf;
   all unlicensed.
+- R403 addendum: surgery shelf (PCGrad classic + domain-signal +
+  EMA-care + reliability-aware conflict-≠-harm); V1o note: thirds
+  were REAL HARM (G0 0.36 proves), not mere disagreement.
 - R399 addendum: AFEC (active-forgetting of NEGATIVE transfer) filed
   as family #1's normative statement (erase the conflicting mapping,
   keep the rule; conflict-detection is the missing piece);
