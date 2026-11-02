@@ -246,6 +246,9 @@ the map stays open, not empty.
 - R491 prior file: preserve-then-adapt (session twin);
   measure-the-infusion (benchmark twin); init-from-prior
   (init twin); partition-then-mix (mixture twin).
+- R493 store-apart file: flexibility-integration trade-off;
+  decouple-store-from-path (TEM seconded); retaining-is-
+  risking (risk twin); selective-share (federated twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
