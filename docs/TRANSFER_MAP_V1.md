@@ -291,6 +291,9 @@ the map stays open, not empty.
 - R519 history file: missing-has-kinds (provenance twin);
   entangled→reusable (repair twin); failures-are-causal
   (causal twin); one-task-per-commit (atomic twin).
+- R521 reuse file: transform-failures (signals twin);
+  stair-plans (stair twin); verify-reuse (adopt-iff
+  twin); compare-hierarchically (leg twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
