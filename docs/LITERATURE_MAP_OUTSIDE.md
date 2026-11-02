@@ -12769,3 +12769,48 @@ FPs — full names and doctrines throughout.)
   Richard's paradox (the worse system displaces the righter one
   (by surviving (deployment))) is earlyWindow (deployed (conditionally
   (the deployment, surviving (the survival, licensed)))).
+## Round 245 — Music minimalism (Reich, Glass, Eno, Riley; 2026-11-02)
+
+Motivation: the program IS repetition (1792 ticks; frozen loops;
+same histories, phased outcomes). The minimalists made repetition
+a method — four readings. (Bare "Glass" shares meta-analysis/
+material FPs; bare "Eno" shares 120 phenotype/genotype FPs; bare
+"minimalism" shares Venturi's war — full names throughout.)
+
+- **Phasing [canon: Reich (phasing; specified Steve (vs no
+  hits)); verification deferred].** → Reich's phasing (two identical
+  patterns (same tempo (drifting apart (the drift, the piece)))) is
+  train-vs-transfer (same weights (same loop (drifting apart (tax
+  0.2-0.3 (the drift, measured))))); V1l's convergence (seg1 0.587 →
+  seg3 0.841 (the patterns, re-phasing (back together (the together,
+  transient)))) is phasing resolved (the resolution, temporary).
+  Steve's tape loops (the loop, exact (the exactness, the point)) are
+  the frozen runner (same bank (same loop (the loop, kept))).
+- **Repetition with variation [canon: Glass (repetition;
+  specified Philip (vs material/meta-analysis FPs)); verification
+  deferred].** → Philip's arpeggios (the same figures (cycling (the
+  cycle, 1792 (changing one note at a time (the change, slow))))) are
+  the tick loop (same decision (cycling (one record at a time (the
+  kernel, accumulating))))); the variation (additive process (one
+  beat added (the addition, audible))) is α=0.25 (one shrinkage
+  (added (the lift, audible (+0.13 (the plus, measured))))). Glass
+  works because the repetition is exact (the exactness, load-bearing
+  (the load: comparability)).
+- **The ambient baseline [canon: Eno (ambient; specified Brian
+  (vs phenotype/genotype FPs)); verification deferred].** → Brian's
+  ambient (music that ignores itself (present (unattended (the hum,
+  underneath)))) is the join rate (1.00 (present (unattended (the
+  hum, beneath every verdict)))) and the baseline correctness (0.81
+  (the ground (against which lifts figure (the figure, +0.13)))).
+  Eno's Oblique Strategies (the deck (drawn when stuck (the stuck,
+  procedural))) are the frozen plans (drawn before code (the code,
+  stuck-proof (fixtures first (the first, green)))).
+- **Cued patterns [canon: Riley (In C; specified Terry (vs no
+  hits)); verification deferred].** → Terry's In C (53 patterns (each
+  player cycling (advancing on cue (the cue, shared)))) is the cue
+  ecology (4 cues (each agent cycling (turning on cue (the cue,
+  sensed (the sensing, contact-gated))))); the pulse (the piano,
+  keeping time (everyone's anchor)) is the tick (1792 of them (the
+  anchor, common (all arms, same ticks (the same, matched)))).
+  In C works because the cue is shared (the sharing, load-bearing
+  (unshared cues (the V1 transfer, taxed))).
