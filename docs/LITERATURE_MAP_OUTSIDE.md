@@ -23663,3 +23663,32 @@ holds 608 rounds.)
   (crowed, geed (ohs, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Crow" (gee, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 601 — Governed, factoried, replayed, metered (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: governed — memory with a
+government (already-cited memory/governance leads converging;
+governed family, four branches).
+
+- **Governed memory [arXiv:2603.17787 (Taheri; vs no
+  hits)].** Five STRUCTURAL challenges (silos +
+  fragmentation + unstructured + redundant + silent).
+  → Govern the memory (our frozen plans,
+  production-side). Filed.
+- **Memory factory [arXiv:2603.29493 (Guo / MemFactory;
+  vs no hits)].** Unified INFERENCE+TRAINING
+  (RL-optimize ops; fragmented task-specific). →
+  Factory the memory (our runners+scorers,
+  framework-side). Filed.
+- **Longitudinal replay [arXiv:2609.16730 (Sonar /
+  LSREP; vs no hits)].** Accumulates AGES revises
+  (lifecycle schedules + fidelity; local-first). →
+  Replay longitudinally (our banks+results,
+  lifecycle-side). Filed.
+- **Unified metrics [arXiv:2511.21772 (He; vs no
+  hits)].** Cross-layer TAXONOMY (fragmented metrics;
+  power-to-cost). → Meter cross-layer (our per-line
+  ledgers, metric-side). Filed.
+- Program note: govern memory, factory pipelines,
+  replay longitudinally, meter cross-layer — the
+  governed file. None licensed — filed.
