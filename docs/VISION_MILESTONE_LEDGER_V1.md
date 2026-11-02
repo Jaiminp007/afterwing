@@ -39,8 +39,8 @@ exact open items. Nothing here changes any verdict.
   learning; unlicensed here);
   (c) embodied controller benefit; (d) learning-algorithm redesign
   evidence. Current: capability without product (14/282/0).
-  Next: genuinely-new-rationale C16 (none known; C15 closed the
-  revision-adds-value hypothesis twice) or DTR path.
+  Next: C16 FROZEN 2026-11-02 (cause-gated transfer, family #1;
+  R366/R371-licensed; 16 mains, fresh-32) or DTR path.
 
 ## What "done" looks like (so stopping is checkable)
 
