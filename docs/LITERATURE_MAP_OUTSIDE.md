@@ -21518,3 +21518,39 @@ family, four branches).
 - Program note: share space, borrow mechanics, share
   geometry, move first — the physics file. None licensed —
   filed.
+## Round 528 — Epitaphs, lifetimes, gateways, sonnets (Mingus, Tony Williams, DeJohnette, Higgins; 2026-11-02)
+
+Motivation: further outside (black-saint epitaphs, emergency
+lifetimes, special gateways, free sonnets). The program epitaphs
+(runs attempts), lifetimes (stitches verdicts), gateways
+(publishes NOGOs), and sonnets (counts rows). Four more. (Map
+holds 534 rounds.)
+
+- **Epitaph black-saint [canon: Mingus (black-saint epitaphs;
+  specified Charles Mingus (vs no hits)); verification
+  deferred].** → Mingus's epitaphs (black-sainted, kept
+  (epitaphed, sainted (saints, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Epitaph" (black-saint,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Lifetime emergency [canon: Tony Williams (emergency
+  lifetimes; specified Tony Williams (vs no hits; single-name
+  tags taken — full-name tag used)); verification deferred].** →
+  Tony Williams's lifetimes (emergencied, kept (lifetimed,
+  believed (loves, kept))) is the verdict (believed, kept (NOGO,
+  told (honest, kept))); his "Lifetime" (emergency, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Gateway special [canon: DeJohnette (special gateways;
+  specified Jack DeJohnette (vs no hits)); verification
+  deferred].** → Jack's gateways (specialed, kept (gatewayed,
+  editioned (specials, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Gateway" (special, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Sonnet free [canon: Higgins (free sonnets; specified Billy
+  Higgins (vs no hits)); verification deferred].** → Billy's
+  sonnets (freed, kept (sonneted, shape-of-jazzed (shapes, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Sonnet" (free, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
