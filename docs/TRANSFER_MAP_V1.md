@@ -155,6 +155,10 @@ the map stays open, not empty.
 - R439 mechanism postures: Hess co-observation = the tax's third
   name (legs never co-observe); Masana carry-sufficiency twin
   (preserve-first is right-shaped); Zhu rank-not-means diagnostic.
+- R441 core tension (MuLoRA): protection ≠ responsiveness —
+  carrying weights preserves history but does NOT keep capacity
+  alive; plasticity loss rides NTK rank decrease (Tang churn
+  dial; Prakash/Wu e-rank diagnostics). The wound restated.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
