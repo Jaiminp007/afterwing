@@ -17433,3 +17433,37 @@ hypotheses, surprise, novelty.
   antidote in miniature: familiar confirming contacts discounted,
   novel flipped surprises counted. EXACTLY the flipped-conditional
   direction. Filed with the C16-successor design, unlicensed.
+## Round 390 — Butterflies, projections, boundless, dances (Zoltan, Krzysztof, Anaximander, Andras; 2026-11-02)
+
+Motivation: further outside (butterfly Bartoks, guest
+projections, boundless apeirons, lecturing dances). The program
+butterflies (runs attempts), projections (stitches verdicts),
+boundlesses (publishes NOGOs), and dances (counts rows). Four
+more. (Map hits 396 rounds.)
+
+- **Butterfly Bartok [canon: Zoltan (butterfly Bartoks; specified
+  Zoltan Kocsis (vs no hits)); verification deferred].** →
+  Zoltan's butterflies (Bartoked, kept (played, fluttered
+  (mikrokosmos, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Rachmaninoff" (transcribed,
+  kept (played, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Projection guest [canon: Krzysztof (guest projections;
+  specified Krzysztof Wodiczko (vs no hits)); verification
+  deferred].** → Krzysztof's projections (guested, kept (beamed,
+  housed (homeless, kept))) is the verdict (housed, kept (NOGO,
+  told (honest, kept))); his "Tijuana" (projected, kept (beamed,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Boundless apeiron [canon: Anaximander (boundless apeirons;
+  specified Anaximander (vs no hits)); verification deferred].**
+  → Anaximander's boundless (apeironed, kept (charted, evolved
+  (worlds, kept))) is the claim (evolved, kept (RSI, unclaimed
+  (still, standing))); his "Map" (pinned, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Dance lecture [canon: Andras (lecture dances; specified
+  Andras Schiff (vs no hits)); verification deferred].** →
+  Andras's dances (lectured, kept (played, explained (Goldbergs,
+  kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Schubert" (wandered, kept (played, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
