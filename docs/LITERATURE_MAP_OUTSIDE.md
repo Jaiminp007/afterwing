@@ -20637,3 +20637,29 @@ and laptops (counts rows). Four more. (Map holds 504 rounds.)
   (joined, kept (carried, won (crowd, kept))); her "Laptop"
   (dna, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 499 — Revoked, audited, maintained, meta-memoried (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: memory governance — validity as
+state (already-cited append-only lead not repeated; govern
+family, four branches).
+
+- **Revocable validity [arXiv:2608.07429 (Zhou / TEPA; vs no
+  hits)].** Validity as EXPLICIT STATE (revocable evidence-
+  memory; memory POLLUTION named). → Append-only needs
+  revocation (our spent-bank guards, validity-side). Filed
+  as the revocation twin.
+- **Mechanical audit [arXiv:2610.12793 (Liu / Gamma; vs no
+  hits)].** MECHANICAL audit (grounded-symbolic subgoals;
+  memory-to-action mapping). → Audit the memory mechanically
+  (our triage + audit, agent-side). Filed as the audit twin.
+- **Failure-aware [arXiv:2608.11248 (Qian / EvoGraph-Mem; vs
+  no hits)].** INSIGHT-level maintenance (outdated/over-
+  generalized/harmful on reuse). → Maintain insights, not
+  just rows (our per-leg deltas, maintenance-side). Filed.
+- **Meta-memory [arXiv:2609.25054 (Qin / MoM; vs no hits)].**
+  What CURRENTLY HOLDS (commit at write-time; no overwrite
+  loss). → The missing middle (append + current-value).
+  Filed as the meta twin.
+- Program note: revoke, audit, maintain, meta-remember —
+  the governance file. None licensed — filed.
