@@ -13479,3 +13479,33 @@ and dives wrecks (crash debris, dual provenance). Four more. (Bare
   (not the summary of the rows)); her "the wreck and not the
   story of the wreck" is negative-preservation (evidence kept
   (not verdicts about evidence (the rows, raw))).
+## Round 264 — Habit, voices, trial, shadows (Tharp, Berio, Dreyer, Parajanov; 2026-11-02)
+
+Motivation: the program runs on habit (attempts daily), many voices
+(sandbox votes), trials (gates), and shadows (lineage depth, void).
+Four more. (All hooks verified virgin pre-append.)
+
+- **The daily attempt [canon: Tharp (creative habit; specified
+  Twyla (vs no hits)); verification deferred].** → Twyla's
+  Creative Habit (showing up daily (the ritual, kept)) is the
+  attempt series (runs daily (the discipline, kept)); her
+  "before you can think out of the box" (the box first (then
+  out)) is the frozen plan (the box first (then the verdict)).
+- **The chorus votes [canon: Berio (many voices; specified
+  Luciano (vs no hits)); verification deferred].** → Luciano's
+  Sinfonia (eight voices (speaking, together (texts, many))) is
+  the majority vote (agents many (adopting, together (menus, few)));
+  his Mahler collage (the past, quoted) is the transplant (weights,
+  carried (the past, exact)).
+- **Trial by gate [canon: Dreyer (trial film; specified Carl
+  (vs no hits)); verification deferred].** → Carl's Passion
+  (the trial (questions, close-up (the face, answering))) is the
+  gate review (the trial (fixtures, close-up (the instrument,
+  answering))); his Joan (conviction (held (burning))) is the
+  verdict (published (kept (INVALID (burning, disclosed)))).
+- **Shadows of lineage [canon: Parajanov (ancestor shadows;
+  specified Sergei (vs no hits)); verification deferred].** →
+  Sergei's Shadows (ancestors (present (the past, alive))) is the
+  lineage audit (gen-2 (present (the depth, thin))); his tableaux
+  (static (the image, held)) are the static controls (exact
+  (the transplant, held (baselines, blind))).
