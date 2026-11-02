@@ -116,6 +116,11 @@ the map stays open, not empty.
   Question UNANSWERED (not NOGO): future multi-codebook lines must
   solve multi-train learning first. Descriptive lift +0.0404 (3/3
   non-degraded, misses +0.10) recorded, ungated.
+- C16 addendum (2026-11-02): family #1's simplest form ran NOGO —
+  the vote never fired (L +4402..+10646 vs K=8; same-val confirming
+  drowns flipped surprise 8:1). CLOSED with reason (vote dilution);
+  a flipped-conditional vote would be a NEW variation needing its
+  own freeze. Lossy HB 0.91–0.95 replicates the working baseline.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,

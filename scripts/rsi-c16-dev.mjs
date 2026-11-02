@@ -270,13 +270,14 @@ export function runRsiC16Dev({bankPath,output,resume=false}){
       copyWeights(seg1Weights,run.learners);
       const chk=checkTransplantIntegrity(seg1Weights,run.learners);
       assert.ok(chk.ok,'inter-segment transplant failed: '+chk.violations.join(';'));
+      const appliedPre=digestWeights(snapshotWeights(run.learners));
+      assert.equal(digestWeights(seg1Weights),appliedPre,'inter-segment digest mismatch');
       run.advance(C16_SEGS[1]);
       const endpoint=run.endpoint();checkMainIntegrity(endpoint,`${tag}/${hTe.seed}/seg1`);
       totalOps+=endpoint.scalarOperations;
       row={history:{seed:hTe.seed},tag,endpoint,summary:collector.summarize(),
         transfer:{transplant,gate,switched,voteL:vote.L,voteConfirming:vote.confirming,voteSurprising:vote.surprising,
-          sourceDigest:digestWeights(trainRow.weights),carriedDigest:digestWeights(seg1Weights),appliedDigest:digestWeights(snapshotWeights(run.learners))}};
-      assert.equal(row.transfer.carriedDigest,row.transfer.appliedDigest,'inter-segment digest mismatch');
+          sourceDigest:digestWeights(trainRow.weights),carriedDigest:digestWeights(seg1Weights),appliedDigest:appliedPre}};
       note(1,0,BT_TICKS,totalOps);
       rows.push(row);
       writeOver(join(outputAbs,'rows',`${hTe.seed}-${tag}.json`),row);
