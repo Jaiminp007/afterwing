@@ -13379,3 +13379,36 @@ more. (All hooks verified virgin pre-append.)
   in (never redrawn (the never, enforced))); her "I took a deep
   breath and listened" is the triage (the suite run (listened to
   (green (the green, required)))).
+## Round 261 — Time, gaps, contact, emptiness (Messiaen, Takemitsu, Paxton, Brook; 2026-11-02)
+
+Motivation: the program runs out of time (caps), holds gaps (0.01
+unjoined), joins on contact, and starts from empty banks. Four more.
+(Bare "Brook" shares 12 Easterbrook/subsumption FPs — full names.)
+
+- **The end of the cap [canon: Messiaen (end of time; specified
+  Olivier (vs no hits)); verification deferred].** → Olivier's
+  Quartet for the End of Time (written in a camp (time abolished
+  (the apocalypse, scored))) is the wall cap (written in the plan
+  (time abolished (the attempt, bounded (10800s (the bound,
+  kept))))); his modes (limited transpositions (the infinite,
+  finite)) are the menu (six operators (the search, bounded)).
+- **The held gap [canon: Takemitsu (negative space; specified
+  Toru (vs no hits)); verification deferred].** → Toru's ma
+  (the meaningful void (between sounds (the between, composed)))
+  is the unjoined 0.01 (decisions without physicals (the between,
+  held)); his garden (water, stone (nothing extra)) is the row
+  (endpoint, summary (nothing extra)).
+- **Joining on touch [canon: Paxton (contact improvisation;
+  specified Steve (vs no hits)); verification deferred].** →
+  Steve's contact improvisation (weight shared (falling, caught
+  (the dance, found))) is the collector join (tick with agent
+  (decision with physical (the join, 1.00))); his small dance
+  (standing still (the balance, kept)) is the hold (cruise or
+  pause (the choice, billed)).
+- **The fresh bank [canon: Brook (empty space; specified Peter
+  (vs Easterbrook/subsumption FPs)); verification deferred].** →
+  Peter's empty space (a bare stage (anything can happen (the
+  emptiness, the condition))) is the fresh bank (unspent seeds
+  (anything can be drawn (the drawing, once))); his "theatre
+  is the art of the present" is the live update (learning in
+  the present (not the replay (the now, only))).
