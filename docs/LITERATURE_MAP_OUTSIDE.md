@@ -21768,3 +21768,36 @@ operations family, four branches).
 - Program note: stratify freshness, evolve proactively,
   correct directly, remember after — the operations file.
   None licensed — filed.
+## Round 536 — Sermons, blues, talks, lettuces (Jimmy Smith, McGriff, McDuff, Patton; 2026-11-02)
+
+Motivation: further outside (chicken-shack sermons, apostle
+blues, prelude talks, soul lettuces). The program sermons (runs
+attempts), blues (stitches verdicts), talks (publishes NOGOs),
+and lettuces (counts rows). Four more. (Map holds 544 rounds.)
+
+- **Sermon chicken-shack [canon: Jimmy Smith (chicken-shack
+  sermons; specified Jimmy Smith (vs no hits; single-name tag
+  collides with Smithson — full-name tag used)); verification
+  deferred].** → Jimmy Smith's sermons (chicken-shacked, kept
+  (sermoned, back-at-the-shacked (shacks, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Sermon"
+  (chicken-shack, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Blues apostle [canon: McGriff (apostle blues; specified
+  Jimmy McGriff (vs no hits)); verification deferred].** → Jimmy
+  McGriff's blues (apostled, kept (bluesed, electric-funkued
+  (funks, kept))) is the verdict (electric-funkued, kept (NOGO,
+  told (honest, kept))); his "Blues" (apostle, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Talk prelude [canon: McDuff (prelude talks; specified Jack
+  McDuff (vs no hits)); verification deferred].** → McDuff's
+  talks (preluded, kept (talked, tought (toughs, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Talk" (prelude, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Lettuce soul [canon: Patton (soul lettuces; specified Big
+  John Patton (vs no hits)); verification deferred].** → Patton's
+  lettuces (souled, kept (lettuced, boogalooed (boogaloos,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Lettuce" (soul, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
