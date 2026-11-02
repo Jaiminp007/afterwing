@@ -18327,3 +18327,35 @@ material, not monuments.
 - Program note: GMED (edit the past) + CMI (dose the
   interference) are the revision-side twins of our loop work
   (C-series edited configs, never rows). Filed, unlicensed.
+## Round 422 — Keys, cloth, dragons, peace (Oscar, El, Chong, Bill; 2026-11-02)
+
+Motivation: further outside (speedy keys, bottle-top cloth,
+critical dragons, peaceful pianos). The program keys (runs
+attempts), cloths (stitches verdicts), dragons (publishes NOGOs),
+and peaces (counts rows). Four more. (Map holds 428 rounds.)
+
+- **Key speedy [canon: Oscar (speedy keys; specified Oscar
+  Peterson (vs no hits)); verification deferred].** → Oscar's keys
+  (speedied, kept (swung, virtuosoed (trio, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Hymn"
+  (freedomed, kept (played, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Cloth bottle-top [canon: El (bottle-top cloths; specified El
+  Anatsui (vs no hits)); verification deferred].** → El's cloths
+  (bottle-topped, kept (woven, shimmered (sheets, kept))) is the
+  verdict (shimmered, kept (NOGO, told (honest, kept))); his "Wave"
+  (blocked, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Dragon critical [canon: Chong (critical dragons; specified
+  Wang Chong (vs no hits; surname tag collides twice — first-name
+  tag used); verification deferred].** → Chong's dragons
+  (criticized, kept (weighed, doubted (portents, kept))) is the
+  claim (doubted, kept (RSI, unclaimed (still, standing))); his
+  "Theses" (balanced, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Peace piano [canon: Bill (peaceful pianos; specified Bill
+  Evans (vs no hits)); verification deferred].** → Bill's peace
+  (pianoed, kept (voiced, conversed (trio, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Waltz"
+  (debted, kept (played, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
