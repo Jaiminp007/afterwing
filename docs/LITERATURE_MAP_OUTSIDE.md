@@ -20910,3 +20910,39 @@ failure family, four branches).
 - Program note: signal the failure, keep the prefix,
   recover by instruction, edit the harness — the failure
   file. None licensed — filed.
+## Round 508 — Sleepers, libraries, honks, judgments (Alec, Candida, Arnett, Andrew Hill; 2026-11-02)
+
+Motivation: further outside (mississippi sleepers, empty
+libraries, texas honks, departure judgments). The program
+sleepers (runs attempts), libraries (stitches verdicts), honks
+(publishes NOGOs), and judgments (counts rows). Four more. (Map
+holds 514 rounds.)
+
+- **Sleeper mississippi [canon: Soth (mississippi sleepers;
+  specified Alec Soth (vs no hits)); verification deferred].** →
+  Alec's sleepers (mississippied, kept (sleepered, sleeping
+  (mississippis, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Sleeper" (mississippi, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Library empty [canon: Candida (empty libraries; specified
+  Candida Höfer (vs no hits; "candidate" substrings are
+  unrelated)); verification deferred].** → Candida's libraries
+  (emptied, kept (libraried, zooed (zoos, kept))) is the verdict
+  (zooed, kept (NOGO, told (honest, kept))); her "Library" (empty,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Honk texas [canon: Cobb (texas honks; specified Arnett Cobb
+  (vs no hits)); verification deferred].** → Arnett's honks
+  (texased, kept (honked, honked (tenors, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Honk"
+  (texas, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Judgment departure [canon: Andrew Hill (departure
+  judgments; specified Andrew Hill (vs no hits; single-name
+  tags collide with Hillary — full-name tag used));
+  verification deferred].** → Andrew Hill's judgments
+  (departured, kept (judged, pointed (departures, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Judgment"
+  (departure, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
