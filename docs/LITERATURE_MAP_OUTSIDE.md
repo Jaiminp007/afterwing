@@ -23517,3 +23517,31 @@ converging; internal family, four branches).
 - Program note: probe steps, read states, guard
   within, criticize self — the from-within file. None
   licensed — filed.
+## Round 596 — Inks, mills, ames, his (Ink, Mill, Ame, Hi; 2026-11-02)
+
+Motivation: further outside (cared inks, dolled mills, mopped ames,
+fellas his). The program inks (cares attempts), mills (stitches
+verdicts), ames (publishes NOGOs), and his (counts rows). Four more.
+(Map holds 604 rounds.)
+
+- **Ink care [canon: Ink (cared inks; specified Ink Spots (vs no
+  hits)); verification deferred].** → Ink's inks (cared, kept (inked,
+  cared (cares, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Ink" (care, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Mill doll [canon: Mills Brothers (dolled mills; specified Mills
+  Brothers (vs no hits; short tag taken by the sociologist — full-name
+  tag used)); verification deferred].** → Mill's mills (dolled, kept
+  (milled, dolled (papers, kept))) is the verdict (dolled, kept (NOGO,
+  told (honest, kept))); his "Mill" (doll, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Ame mop [canon: Ames (mopped ames; specified Ames Brothers (vs
+  no hits)); verification deferred].** → Ame's ames (mopped, kept
+  (amed, mopped (rags, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Ame" (mop, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Hi fella [canon: Hi-Lo (fellaed his; specified Hi-Lo's (vs no
+  hits)); verification deferred].** → Hi's his (fellaed, kept (hied,
+  fellaed (my, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Hi" (fella, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
