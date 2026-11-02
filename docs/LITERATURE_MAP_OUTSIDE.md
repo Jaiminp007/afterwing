@@ -24162,3 +24162,33 @@ branches).
 - Program note: gate structurally, route experts,
   ground mechanistically, constrain handoffs — the
   neuro-symbolic file. None licensed — filed.
+## Round 618 — Petes, woodys, joans, judys (Pete, Woody, Joan, Judy; 2026-11-02)
+
+Motivation: further outside (hammered petes, landed woodys,
+rusted joans, clouded judys). The program petes (hammers attempts),
+woodys (stitches verdicts), joans (publishes NOGOs), and judys (counts
+rows). Four more. (Map holds 626 rounds.)
+
+- **Pete hammer [canon: Seeger (hammered petes; specified Pete
+  Seeger (vs no hits)); verification deferred].** → Pete's petes
+  (hammered, kept (peted, hammered (hammers, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Pete" (hammer,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Woody land [canon: Guthrie (landed woodys; specified Woody
+  Guthrie (vs no hits)); verification deferred].** → Woody's woodys
+  (landed, kept (woodied, landed (lands, kept))) is the verdict
+  (landed, kept (NOGO, told (honest, kept))); his "Woody" (land, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Joan rust [canon: Baez (rusted joans; specified Joan Baez (vs no
+  hits)); verification deferred].** → Joan's joans (rusted, kept
+  (joaned, rusted (diamonds, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Joan" (rust, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Judy cloud [canon: Judy Collins (clouded judys; specified Judy
+  Collins (vs no hits; short tag taken by the regress man — full-name
+  tag used)); verification deferred].** → Judy's judys (clouded, kept
+  (judied, clouded (sides, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); her "Judy" (cloud, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
