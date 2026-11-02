@@ -167,6 +167,10 @@ the map stays open, not empty.
   (C6/C13 noise-at-bar BY CONSTRUCTION — optimal test for
   real-vs-noise); Qiao distance-from-calibration lens; Li/Dang
   fixes unlicensed.
+- R447 carry-without-past family (rehearsal-free): composition
+  is the transfer mechanism not the vault (MoCL-P instance);
+  efficiency is the other budget (REP); contrastive task-free
+  unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
