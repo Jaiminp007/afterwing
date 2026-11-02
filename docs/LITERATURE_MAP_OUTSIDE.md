@@ -18303,3 +18303,27 @@ rounds.)
   kept (muted, fused (Bitches, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Kind" (blued, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 421 — Interfered, edited, compressed, improved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: rewrite the past — memories are
+material, not monuments.
+
+- **Controlled interference [arXiv:2608.07622 (Ding / CMI; vs no
+  hits)].** New experiences REINFORCE, REVISE, or INTERFERE;
+  memories differ in state/validity/authority. → Interference as
+  a controlled operation (V1o's thirds, dosed). Unlicensed.
+- **Edited past [arXiv:2006.15294 (Jin / GMED; vs no hits)].**
+  Gradient-edit stored examples (task-free) to make them
+  challenging. → Rewrite the past, don't just replay it.
+  Unlicensed.
+- **Compressed memory [arXiv:2412.07393 (Li / CMT; vs no hits)].**
+  Compress + extract continually (human-inspired). → Keep the
+  gist, drop the tape. Unlicensed.
+- **Self-improvement [arXiv:2606.17803 (Dorovatas; vs no hits)].**
+  Convert transient reasoning traces to persistent knowledge
+  (token-reuse fails; latent memories work). → Experience to
+  knowledge, online. Unlicensed.
+- Program note: GMED (edit the past) + CMI (dose the
+  interference) are the revision-side twins of our loop work
+  (C-series edited configs, never rows). Filed, unlicensed.
