@@ -285,6 +285,9 @@ the map stays open, not empty.
 - R515 program file: formalize-irreversible (formalism
   twin); recoverable-flow; harness-in-code (source twin);
   audit-programs (program twin).
+- R517 instrument file: hold-fixed-vary-axes (control
+  twin); preserve-observable; untangle-runaway
+  (discipline twin); atomic-history (history twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
