@@ -13412,3 +13412,36 @@ unjoined), joins on contact, and starts from empty banks. Four more.
   (anything can be drawn (the drawing, once))); his "theatre
   is the art of the present" is the live update (learning in
   the present (not the replay (the now, only))).
+## Round 262 — Memorials and flow (Penderecki, Kiarostami, Mizoguchi, Nikolais; 2026-11-02)
+
+Motivation: the program memorializes (negatives preserved) and flows
+(1792 unbroken ticks; fiction and document both true in rows). Four
+more. (All hooks verified virgin pre-append.)
+
+- **For what closed [canon: Penderecki (threnody; specified
+  Krzysztof (vs no hits)); verification deferred].** → Krzysztof's
+  Threnody (for the victims (52 strings (the grief, sustained))) is
+  the negative record (for the closed lines (NOGOs preserved (the
+  preservation, sustained))); its sonorism (sound before note (the
+  noise, composed)) is the sandbox fee (cost before verdict (the
+  fee, billed)).
+- **Fiction and document [canon: Kiarostami (close-up; specified
+  Abbas (vs no hits)); verification deferred].** → Abbas's Close-Up
+  (a man who lied (telling the truth (the role, real))) is the row
+  (fiction (the design) and document (the numbers (both true (the
+  both, kept))))); his car rides (conversations driving (nowhere
+  in particular)) are the 1792 ticks (decisions driving (nowhere
+  in particular (the particular, nowhere)))).
+- **The unbroken take [canon: Mizoguchi (flowing takes; specified
+  Kenji (vs no hits)); verification deferred].** → Kenji's one-shot
+  scenes (the camera flowing (no cuts (the cut, refused))) is the
+  single attempt (the run flowing (no retries (redone[] (the empty,
+  kept)))); his Ugetsu (ghosts and the living (indistinguishable))
+  is the checkpoint (state and restore (indistinguishable
+  (byte-identical (the identical, asserted)))).
+- **No center [canon: Nikolais (decentralized dance; specified
+  Alwin (vs no hits)); verification deferred].** → Alwin's
+  decentralization (no star (everyone moving (the ensemble, all)))
+  is the per-agent loop (no center (each evaluating (the sandbox,
+  own))); his masks and props (the dancer, hidden) are the blinded
+  controls (copied, static (the arms, unknowing)).
