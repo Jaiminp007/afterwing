@@ -20946,3 +20946,32 @@ holds 514 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Judgment"
   (departure, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 509 — Tampered, guarded, hooked, governed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: harness governance — the
+instrument governs itself (already-cited harness lead converging;
+govern family, four branches).
+
+- **Tampering audit [arXiv:2609.00069 (Wang; vs no hits)].**
+  HARNESS TAMPERING (illusory gains; integrity constraints;
+  two-axis taxonomy). → Audit the improver (our frozen
+  plans + single-attempt, RSI-side). Filed as the tamper
+  twin.
+- **Causal guard [arXiv:2610.39158 (Wang / VEvo-Harness; vs
+  no hits)].** CAUSALLY-GUARDED self-evolving (memorize+
+  govern periods; ungoverned iterators degrade). → Govern
+  the iterator (our freeze-before-execute, guard-side).
+  Filed.
+- **Hook attack [arXiv:2609.03884 (Li; vs no hits)].**
+  Lifecycle-HOOK attack surface (blind trust; host
+  privileges; unobserved firing). → Trust no hook (our
+  instrument-surface, security-side). Filed.
+- **Self-governing [arXiv:2607.00692 (Hao / Self-GC; vs no
+  hits)].** Context NOT disposable suffix (structured
+  accumulation; future dependencies). → Govern the
+  context (our evidence-preservation, context-side).
+  Filed as the govern twin.
+- Program note: audit tampering, guard causally, trust no
+  hook, govern context — the harness file. None licensed —
+  filed.
