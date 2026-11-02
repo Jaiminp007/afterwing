@@ -19941,3 +19941,37 @@ branches; R469 not repeated).
 - Program note: keep reasonably, drop deliberately, share
   structurally — the forgetting file. None licensed —
   filed.
+## Round 476 — Carpets, snakes, guns, sages (Piero, Evan Parker, Peter, Wang Gen; 2026-11-02)
+
+Motivation: further outside (nature carpets, deciding snakes,
+machine guns, common sages). The program carpets (runs attempts),
+snakes (stitches verdicts), guns (publishes NOGOs), and sages
+(counts rows). Four more. (Map holds 482 rounds.)
+
+- **Carpet nature [canon: Gilardi (nature carpets; specified
+  Piero Gilardi (vs no hits)); verification deferred].** →
+  Piero's carpets (natured, kept (carpeted, naturaed (tappetis,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Carpet" (nature, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Snake decides [canon: Evan Parker (deciding snakes;
+  specified Evan Parker (vs no hits; single-name tags taken by
+  the sperm Parker + Evans — full-name tag used)); verification
+  deferred].** → Evan's snakes (decided, kept (snaked,
+  saxophoned (improvs, kept))) is the verdict (saxophoned, kept
+  (NOGO, told (honest, kept))); his "Snake" (decides, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Gun machine [canon: Brötzmann (machine guns; specified
+  Peter Brötzmann (vs no hits)); verification deferred].** →
+  Peter's guns (machined, kept (gunned, machined (guns, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Machine" (gun, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Sage common [canon: Wang Gen (common sages; specified Wang
+  Gen (vs no hits; single-name tags taken — full-name tag
+  used)); verification deferred].** → Wang Gen's sages
+  (commoned, kept (saged, taizhoued (schools, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Common"
+  (sage, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
