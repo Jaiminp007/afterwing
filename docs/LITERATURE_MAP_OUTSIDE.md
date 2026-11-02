@@ -20577,3 +20577,32 @@ cities (stitches verdicts), altos (publishes NOGOs), and dips
   (carried, won (crowd, kept))); his "Dip" (ntu, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 497 — Wired, gymmed, timed, appended (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: memory interfaces — standardize,
+test, time, never-overwrite (already-cited formation lead not
+repeated; interface family, four branches).
+
+- **Wire format [arXiv:2606.01138 (Munirathinam / memorywire;
+  vs no hits)].** Vendor-NEUTRAL wire format (remember/recall/
+  forget/merge/expire + governance surface for human review).
+  → Standardize the operations; review writes (our frozen
+  plans + provenance, interface-side). Filed as the
+  interface twin.
+- **Memory gym [arXiv:2605.20833 (Xu / MemGym; vs no hits)].**
+  DYNAMIC formation during execution (chat benchmarks miss
+  it; unify the gyms). → Test formation, not just recall
+  (our formation-twin, seconded). Filed.
+- **Test-time robotics [arXiv:2609.36720 (Liu / T²Mem; vs no
+  hits)].** History alone INSUFFICIENT (preserve what
+  supports FUTURE actions). → Memory serves the future
+  (our carry-forward, robotics-side). Filed.
+- **Append-only [arXiv:2610.07118 (Savadikar / AMBER; vs no
+  hits)].** APPEND-ONLY memory (never overwrite; track
+  errors + feedback + progress). → Our negative-
+  preservation, memory-side (never erase, only append).
+  Filed as the discipline twin.
+- Program note: standardize ops, test formation, serve the
+  future, never overwrite — the interface file. None
+  licensed — filed.
