@@ -13509,3 +13509,34 @@ Four more. (All hooks verified virgin pre-append.)
   lineage audit (gen-2 (present (the depth, thin))); his tableaux
   (static (the image, held)) are the static controls (exact
   (the transplant, held (baselines, blind))).
+## Round 265 — Blows, one note, angels, concrete (Ustvolskaya, Scelsi, Wenders, Ando; 2026-11-02)
+
+Motivation: the program strikes blows (verdicts), holds one note
+(menu 0/1, asserted), watches like angels (observer-neutral), and
+seals concrete (spent banks). Four more. ("Ando" shares 64
+random-FPs; "hammer" one Hammerstein-FP — full names only.)
+
+- **The blows fall [canon: Ustvolskaya (oak blows; specified
+  Galina (vs no hits)); verification deferred].** → Galina's
+  piano (clusters struck (oak and iron (the blows, final))) is
+  the verdict (published (kept and final (the NOGO, struck)));
+  her "play, don't interpret" (the score, literal) is the frozen
+  plan (the design, literal (no interpretation, admitted)).
+- **One note suffices [canon: Scelsi (single pitch; specified
+  Giacinto (vs no hits)); verification deferred].** → Giacinto's
+  single note (one pitch (the whole piece (depth, within))) is
+  menu 0/1 (one index (the whole question (transfer, within)));
+  his microtones (shades (around the one)) are the two chains
+  (replicates (around the one (the index, same))).
+- **Angels observe [canon: Wenders (watching angels; specified
+  Wim + Wings of Desire (vs no hits)); verification deferred].**
+  → Wim's angels (watching (never intervening (Berlin, above)))
+  are the replay (observing (never steering (the run, above)));
+  his desire to become mortal (weight (chosen (the fall, into)))
+  is the adoption (weight (carried (the transplant, into))).
+- **Sealed concrete [canon: Ando (concrete silence; specified
+  Tadao (vs random-FPs)); verification deferred].** → Tadao's
+  concrete (smooth and sealed (silence, poured)) is the spent
+  bank (sealed and smooth (refusal, poured (post-bank, form)));
+  his light wells (one opening (the cut, precise)) are the
+  single attempt (one opening (once, precise (redone[]))).
