@@ -16616,3 +16616,28 @@ RSI), and consciousnesses (counts rows). Four more. (Map hits
   (joined, kept (carried, won (crowd, kept))); his "Verses"
   (twenty, kept (thirty, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 361 — Fixated, trapped, overcome, inflexible (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: the Einstellung family — fixation,
+traps, overcoming, inflexibility.
+
+- **Fixated LLMs [arXiv:2306.11167 (Naeini; vs no hits)].** LLMs
+  fixated by red herrings (Only Connect Wall); creative problem
+  solving as the probe. → Fixation at frontier scale; our HB gap
+  is the same shape in miniature.
+- **Trap benchmark [arXiv:2601.06636 (Chen / MedEinst; vs no
+  hits)].** Control + TRAP cases with FLIPPED discriminative
+  evidence; Bias Trap Rate = misdiagnosing traps despite correct
+  controls. → Convergent precedent for OUR flip-split (train vs
+  flipped + HB gap). Filed as measurement kin, not a line.
+- **Overcoming mental set [arXiv:2307.06673 (Sergeyuk; vs no
+  hits)].** Two mechanisms tested against Einstellung in code;
+  first intervention = change of context. → Tension on record:
+  context-change overcomes mental set in programming, but our
+  codebook-change does NOT overcome our wound. Modality/scale
+  difference filed; not a mechanism.
+- **Inflexible reasoning [arXiv:2502.04381 (Kim / M-ARC; vs no
+  hits)].** Scenarios exploiting fixation-from-prior-experience.
+  → Prior-experience fixation named as the failure mode — our
+  wound's family at benchmark scale.
