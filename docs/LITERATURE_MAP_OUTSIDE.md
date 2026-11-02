@@ -20456,3 +20456,30 @@ NOGOs), and sharpnesses (counts rows). Four more. (Map holds
   (carried, won (crowd, kept))); his "Carbon" (fiber, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 493 — Decoupled, localized, traded, selected (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: decoupled memory — store apart,
+route wisely (already-cited decoupled leads none new; store-
+apart family, four branches).
+
+- **Decoupled MoE [arXiv:2606.14243 (Yue; vs no hits)].**
+  Flexibility-vs-integration TRADE-OFF (retrieval outside
+  vs encode-inside-forgetting). → Store apart, route in
+  (our weights-vs-carry, architecture-side). Filed as the
+  trade-off twin.
+- **Locality memory [arXiv:2608.12419 (Chen / LoKiFormer; vs
+  no hits)].** MoE COUPLES storage with compute (decouple
+  them; locality bias). → Decouple the store from the
+  path (our TEM twin, seconded). Filed.
+- **Utility-risk [arXiv:2608.30177 (Zang / MemGauge; vs no
+  hits)].** Stage-wise UTILITY-RISK trade-offs (retain more
+  = poison more). → Retaining is risking (our negative-
+  preservation, risk-side). Filed as the risk twin.
+- **Selective decoupled [arXiv:2601.11219 (Shen / SDFLoRA;
+  vs no hits)].** SELECTIVE decoupled LoRA (rank/data
+  heterogeneity; biased aggregation). → Select what to
+  share (our copier-weights, federated-side). Filed.
+- Program note: decouple store from compute, price the
+  risk, select the share — the store-apart file. None
+  licensed — filed.
