@@ -37,6 +37,16 @@ Verdict: forced-first-fire is C13-with-forced-start, not a new
 causal question. NOT licensed. Killed before scoping (no scoping
 doc will be written for it).
 
+## Candidate 4 (added 2026-11-02): mask-per-task architecture — PARKED (strong)
+
+R321 (Yadav/SupSup-critique): per-task supermasks over frozen weights
+retain WITHOUT transferring (no accumulation/transfer inside masks).
+A mask-per-task line would test retention-by-construction against gates
+that measure transfer lift — predicted NOGO by field evidence (not just
+mechanism prior). Same shopping logic as threat-in-transfer, stronger
+basis. PARKED unless a mask scheme with a transfer mechanism appears
+(WSN/SoftNet's weight-reuse is noted but still retention-first).
+
 ## Candidate 3 (added 2026-11-02): test-time revision (fire on transfers) — KILLED
 
 R311's Zhou/ID-WM suggests revising DURING transfer (fire on H1/H2

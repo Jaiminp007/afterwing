@@ -20,7 +20,10 @@ foraging vs mating/encounter.
 1. Controllers are task-specific (taste 96-dim chemotaxis weights;
    odor/mating dims differ). Transplant machinery REQUIRES weight-
    shape identity (checkTransplantIntegrity) — cross-task transplant
-   is currently ill-defined, not just untested.
+   is currently ill-defined, not just untested. Now field-consensus:
+   R321 (Liu) — multi-task RL adaptation LEVERS shared
+   representations; without them there is nothing to adapt with.
+   Blocker #1 is the field's premise, not our idiosyncrasy.
 2. Weights ARE niche models (1-NN 1.000) — the very property that
    makes them transferable within-task makes them non-portable
    across tasks. Retention across distinct tasks needs a shared
