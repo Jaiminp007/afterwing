@@ -438,6 +438,9 @@ the map stays open, not empty.
 - R617 neuro-symbolic file: gate-structurally;
   route-experts; ground-mechanistically;
   constrain-handoffs.
+- R619 epistemic file: recruit-capability;
+  floor-trust; govern-consolidation;
+  contract-gates.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
