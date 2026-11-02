@@ -13950,3 +13950,34 @@ FPs — full names throughout.)
   (alone, once (redone[], kept)); his "the storm" (weathered,
   through) is the triage (13 pre-existing, weathered (through,
   green (zero-new))).
+## Round 279 — Coins, abyss, barrier, garden (Goshman, Piccard, Yeager, Epicurus; 2026-11-02)
+
+Motivation: further outside (coin magic, bathyscaphes, test pilots,
+Hellenistic philosophy). The program counts exactly (ledgers), dives
+deep (trigger watches), breaks barriers (closed lines), and gardens
+fresh (banks). Four more. (Bare coins/garden share R254-FPs —
+full names throughout.)
+
+- **Exact change [canon: Goshman (coin magic; specified
+  Albert (vs phone-coin FP)); verification deferred].** →
+  Albert's coins (palmed, shown (exact, always)) is the ledger
+  (20/0/35840/860160 (exact, kept)); his "watch the hands" is
+  the fixture (green, watched (mechanism, open)).
+- **Seven miles down [canon: Piccard (abyssal descent;
+  specified Jacques + Trieste (vs no hits)); verification
+  deferred].** → Jacques's Trieste (down, seven miles (up,
+  again)) is the trigger watch (M4, shut (checked, again
+  (V2, kept))); his porthole (small, round) is the gate (+0.1,
+  round (missed, by (0.004))).
+- **Faster than sound [canon: Yeager (barrier flight;
+  specified Chuck (vs no hits)); verification deferred].** →
+  Chuck's X-1 (faster, than (sound, broken)) is the C-series
+  (question, each (asked, closed (nine, lines))); his "the
+  best pilots fly the test" is the frozen plan (flown, once
+  (single, attempt (tested, closed))).
+- **Tend the garden [canon: Epicurus (garden philosophy;
+  specified Epicurus (vs Moore-garden FP)); verification
+  deferred].** → Epicurus's Garden (tend, yours (friends,
+  kept)) is the bank (fresh, each (line, its own)); his
+  tetrapharmakos (four, cures) is the NOGO set (gain, skip
+  (surprise, chosen (vote, carried))).
