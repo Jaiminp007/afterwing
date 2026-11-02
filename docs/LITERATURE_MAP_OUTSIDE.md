@@ -18412,3 +18412,29 @@ and altos (counts rows). Four more. (Map holds 430 rounds.)
   kept (took, floated (Brubeck, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Rondo" (turked, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 425 — Cascaded, coupled, gated, switched (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: timescales — fast and slow in one
+system (our tick-vs-lifetime, formalized).
+
+- **Cascade replay [arXiv:2004.07530 (Kaplanis / MTR; vs no hits)].**
+  Sub-buffers at different timescales (unknown env timescales);
+  + invariant risk minimization ACROSS timescales (learn what's
+  robust across them). → The classic; robustness = invariance
+  across timescales. Unlicensed.
+- **Coupled edges [arXiv:2605.05097 (Pattichis / Memini; vs no
+  hits)].** Fast+slow coupled variables per edge (usable now,
+  strengthen-by-repetition, fade-the-rest); associative graph.
+  → Immediately-usable + confirmed-kept + rest-fades. Unlicensed.
+- **Local gates [arXiv:2510.12843 (Deep / LT-Gate; vs no hits)].**
+  Per-neuron fast+slow tracking with adaptive gating (preserve
+  slow context, respond fast). → Gate by timescale, LOCALLY.
+  Unlicensed.
+- **Switching dynamics [arXiv:2610.01786 (Gong; vs no hits)].**
+  Switching linear dynamical systems infer multi-timescale neural
+  dynamics (behavior-dependent). → Switch the dynamics, don't
+  average them. Unlicensed.
+- Program note: Kaplanis's invariance-across-timescales is the
+  robustness criterion our transfer test approximates (train vs
+  transfer = two timescales of the same rule). Filed as method.
