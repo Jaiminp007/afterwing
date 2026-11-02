@@ -21741,3 +21741,30 @@ rabbits (stitches verdicts), bows (publishes NOGOs), and freedoms
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Freedom" (ornette, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 535 — Stratatified, primed, corrected, foresighted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: operational memory — knowledge
+without training (already-cited memory leads converging;
+operations family, four branches).
+
+- **Velocity strata [arXiv:2609.01616 (Agrawal; vs no hits)].**
+  Velocity-STRATIFIED retrieval (age facts at different
+  rates; order/freshness/provenance intact). → Freshness
+  has rates (our recency-vs-retention, operations-side).
+  Filed.
+- **Proactive evolution [arXiv:2604.07645 (Wang / PRIME; vs
+  no hits)].** Training-free PROACTIVE reasoning (ITERATIVE
+  memory evolution). → Evolve without retraining (our
+  loop, operations-side). Filed.
+- **Bank correction [arXiv:2608.17775 (Abbas; vs no hits)].**
+  HUMAN-in-the-LOOP via BANK CORRECTION (direct editing;
+  no retraining/gradients/data). → Correct the bank
+  directly (our manifest discipline, human-side). Filed.
+- **Hindsight-foresight [arXiv:2609.08217 (Chen; vs no
+  hits)].** HINDSIGHT + FORESIGHT over hierarchical memory
+  (accumulate AFTER answering). → Remember after (our
+  post-verdict ledgers, driving-side). Filed.
+- Program note: stratify freshness, evolve proactively,
+  correct directly, remember after — the operations file.
+  None licensed — filed.
