@@ -67,6 +67,11 @@ verdicts — never run, never claimed); what would license new work.
   features (Einstellung), rigidity DISTINCT from forgetting. Our HB
   gap is one instance of the class. Framing only (no measure
   computed here, no mechanism follows).
+- Convergent precedent + tension (R361): MedEinst's control+trap
+  with flipped evidence ≅ our train/flip-split + HB gap (kin, not
+  a line); but context-change OVERCOMES mental set in code
+  (Sergeyuk) while our codebook-change does NOT overcome our wound
+  — filed as tension, modality/scale difference, not a mechanism.
 
 ## What would license transfer-side work
 
