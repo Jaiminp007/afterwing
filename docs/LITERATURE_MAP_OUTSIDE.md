@@ -22679,3 +22679,31 @@ Four more. (Map holds 574 rounds.)
   kept (ernied, loved (balls, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Ernie" (love, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 567 — Consistent, stressed, benched, anchored (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: stress — shake it, measure
+what survives (already-cited reliability leads converging;
+stress family, four branches).
+
+- **Perturbation consistency [arXiv:2610.36640 (Kalitaa;
+  vs no hits)].** Beyond CONFIDENCE (label stability +
+  deviation; consistency-accuracy gap). → Score
+  stability (our retention deltas, consistency-side).
+  Filed.
+- **Stability-failure ladder [arXiv:2608.22138 (Golsefid;
+  vs no hits)].** SEVERITY ladder (six
+  answer-preserving + knowledge-boundary). → Climb
+  the ladder (our G0-to-G2b, ladder-side). Filed.
+- **Reliability bench [arXiv:2601.06112 (Gupta /
+  ReliabilityBench; vs no hits)].** pass^k +
+  robustness-ε + tolerance-λ (three dimensions). →
+  Bench three ways (our acquisition/retention/transfer,
+  bench-side). Filed.
+- **Anchor-and-perturb [arXiv:2609.27365 (Zhong; vs no
+  hits)].** Lazy remediation (decouple variance from
+  stability; asymmetric pulse). → Anchor then probe
+  (our frozen-then-measure, anchor-side). Filed.
+- Program note: score stability, climb ladders, bench
+  three ways, anchor then probe — the stress file. None
+  licensed — filed.
