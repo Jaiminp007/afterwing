@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R409 addendum: Zhu staleness (fixed summaries rot under shift —
+  prototype-version of the wound) argues ADAPTIVE cause
+  representations; UDRM (replay-the-unsure) + open-world
+  uncertainty (reliability + DP-GMM) + guided few-sample replay
+  banked unlicensed.
 - R407 addendum: localize-FIRST-then-forget (Rahimi-Kalahroudi:
   local forgetting for local change — the surgical ideal C16
   missed; LOCAL = HB-only wound shape); Yang caveat (deletion
