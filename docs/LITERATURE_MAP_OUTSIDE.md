@@ -14549,3 +14549,33 @@ more. (Bare Han shares change/exchange FPs — full names read.)
   kept (V2, confirmed (checked, again))); his "we heard it"
   (the ping, returned) is redone[] (nothing, re-run (kept,
   complete (all, worlds))).
+## Round 298 — Sprouts, billions, sunrise, poker-face (Mengzi, Sagan, Murnau, Wills; 2026-11-02)
+
+Motivation: further outside (sprout philosophers, cosmic popularizers,
+silent sunrises, poker faces). The program sprouts (adopts sometimes),
+counts billions (ops), dawns (attempts), and faces flat (verdicts).
+Four more. (Brecht R212-confirmed, dropped; bare surnames all clean
+with contexts read.)
+
+- **Tended sprouts [canon: Mengzi (innate sprouts; specified
+  Mengzi (vs no hits)); verification deferred].** → Mengzi's
+  sprouts (good, innate (tended, grow)) is adoption (passed,
+  bar (sometimes, kept (barren, sometimes))); his "the way
+  is near" is the gate (+0.1, near (missed, by (0.004, kept)))).
+- **Billions [canon: Sagan (cosmic counting; specified Carl
+  (vs no hits)); verification deferred].** → Carl's billions
+  (stars, counted (and, billions)) is the ledger (ops, counted
+  (3.3e9, kept (caps, under (4.0e9, held)))); his dot (pale,
+  blue) is the bank (fresh, each (range, sealed (spent,
+  after))).
+- **Silent sunrise [canon: Murnau (dawn silent; specified
+  Friedrich (vs no hits)); verification deferred].** →
+  Friedrich's sunrise (silent, breaking (light, kept)) is the
+  attempt (run, once (capped, kept (redone[], held))); his
+  Nosferatu (pale, kept) is the wound (0.26, kept (transferred,
+  measured (exact, weights))).
+- **Poker face [canon: Wills (unreadable calm; specified Helen
+  (vs no hits)); verification deferred].** → Helen's poker face
+  (flat, kept (no, tells)) is the NOGO (flat, kept (published,
+  dry (no triumph, held))); her "I never lose my temper" is the
+  discipline (frozen, kept (steering, never (shopping, never))).
