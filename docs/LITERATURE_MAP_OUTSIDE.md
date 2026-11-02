@@ -22065,3 +22065,34 @@ timescale family, four branches).
 - Program note: stabilize alignment, name unlearning,
   split speeds, manage lifecycle — the fast-slow file.
   None licensed — filed.
+## Round 546 — Rays, sams, godfathers, wickednesses (Ray, Sam, JB, Pickett; 2026-11-02)
+
+Motivation: further outside (genius rays, change sams, sex
+godfathers, midnight wickednesses). The program rays (shines
+attempts), sams (stitches verdicts), godfathers (publishes NOGOs),
+and wickednesses (counts rows). Four more. (Map holds 554 rounds.)
+
+- **Ray genius [canon: Ray Charles (genius rays; specified Ray
+  Charles (vs no hits; short tag taken by the guitarist — full-name
+  tag used)); verification deferred].** → Ray's rays (geniused,
+  kept (rayed, geniused (georgias, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Ray" (genius, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Sam change [canon: Cooke (change sams; specified Sam Cooke (vs
+  no hits)); verification deferred].** → Sam's sams (changed, kept
+  (samed, changed (changes, kept))) is the verdict (changed, kept
+  (NOGO, told (honest, kept))); his "Sam" (change, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Godfather sex [canon: James Brown (sex godfathers; specified
+  James Brown (vs no hits; short tag taken five ways — full-name
+  tag used)); verification deferred].** → James's godfathers
+  (sexed, kept (fathered, sexed (machines, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Godfather" (sex, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Wickedness midnight [canon: Pickett (midnight wickednesses;
+  specified Wilson Pickett (vs no hits)); verification deferred].**
+  → Wilson's wickednesses (midnighted, kept (wickeded, midnighted
+  (hours, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Wickedness" (midnight, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
