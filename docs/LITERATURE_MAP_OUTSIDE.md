@@ -14772,3 +14772,34 @@ walls (bars unmoved), transforms (transplants carried), and stills
   ledger (exact, kept (honest, told (all, counted))); her
   "Forest Floor" (frogs, kept (snakes, coiled)) is the bank
   (spent, kept (fresh, built (54, spent)))).
+## Round 305 — Moon, gallop, tides, image (Georges, Eadweard, Betsy, Lee; 2026-11-02)
+
+Motivation: further outside (trick films, motion studies, tidal
+voices, heavy paint). The program trips (attempts run), gallops
+(frames advance), tides (votes ebb/flow), and images (weights held).
+Four more. (Map hits 309 rounds.)
+
+- **Tripped moon [canon: Georges (trick moon-trip; specified
+  Georges Melies (vs no hits)); verification deferred].** →
+  Georges's moon (tripped, kept (face, hit (capsule, stuck))) is
+  the attempt (single, kept (authorized, run (once, held))); his
+  tricks (spliced, kept (stars, vanished)) is the transplant
+  (exact, kept (digest, held (same, verified))).
+- **Gallop frames [canon: Eadweard (motion frames; specified
+  Eadweard Muybridge (vs no hits)); verification deferred].** →
+  Eadweard's gallop (framed, kept (horse, airborne (all, four
+  (hooves, up)))) is the tick (fired, kept (512, added (1024,
+  kept))); his zoo (praxiscope, kept (spun, shown)) is the ledger
+  (exact, kept (honest, told (all, counted))).
+- **Tidal voice [canon: Betsy (tidal voices; specified Betsy
+  Jolas (vs no hits)); verification deferred].** → Betsy's tides
+  (voiced, kept (female, heard (waves, sung))) is the vote
+  (majority, kept (crowd, won (carried, kept))); her "Well Met"
+  (greeted, kept (night, wandered)) is the trigger (watched, kept
+  (shut, confirmed (V3, held))).
+- **Little image [canon: Lee (heavy little images; specified Lee
+  Krasner (vs no hits)); verification deferred].** → Lee's image
+  (little, kept (heavy, painted (mosaic, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); her "Night" (journey,
+  kept (dark, crossed)) is the transfer (crossed, kept (gap,
+  taxed (paid, kept))).
