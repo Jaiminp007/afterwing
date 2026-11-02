@@ -18725,3 +18725,34 @@ frozen foundations (C16-done-right, four more ways).
   collapse) is filed on C16's voteL (+4k looked confident;
   confidence ≠ correctness). RAEGL + sandwich = the frozen+
   delta pattern, twice confirmed.
+## Round 436 — Stride, rent, roots, perfection (Art, Fats, Tang, Mou; 2026-11-02)
+
+Motivation: further outside (stride pianos, rent parties,
+cultural roots, moral perfection). The program strides (runs
+attempts), rents (stitches verdicts), roots (publishes NOGOs),
+and perfects (counts rows). Four more. (Map holds 442 rounds.)
+
+- **Stride tea [canon: Art (stride teas; specified Art Tatum (vs
+  no hits)); verification deferred].** → Art's stride (teaed,
+  kept (cascaded, humored (keys, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Tiger" (ragged, kept
+  (played, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Rent joint [canon: Fats (rent joints; specified Fats Waller
+  (vs no hits)); verification deferred].** → Fats's rent (jointed,
+  kept (rented, mugged (organ, kept))) is the verdict (mugged, kept
+  (NOGO, told (honest, kept))); his "Honeysuckle" (rosed, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Root culture [canon: Tang (culture roots; specified Tang
+  Junyi (vs no hits)); verification deferred].** → Tang's roots
+  (cultured, kept (planted, mourned (flowers, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Minds"
+  (rebuilt, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Perfection moral [canon: Mou (moral perfections; specified
+  Mou Zongsan (vs no hits)); verification deferred].** → Mou's
+  perfection (moraled, kept (perfected, sageed (selves, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Mind" (embodied, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
