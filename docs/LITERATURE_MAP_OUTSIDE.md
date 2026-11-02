@@ -21189,3 +21189,29 @@ regent watkinses). The program basses (runs attempts), rays
   (souls, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Watkins" (regent, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 517 — Platformed, frontiered, untangled, committed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: refactor harnesses — evaluate
+the instrument (already-cited harness leads converging;
+instrument family, four branches).
+
+- **Controlled platform [arXiv:2609.04898 (Ben Amor /
+  RefactorPlatform; vs no hits)].** Hold environment FIXED,
+  vary design axes (single change, many files, behavior
+  preserved). → Control the evaluation (our frozen caps +
+  fixtures, harness-side). Filed as the control twin.
+- **Multi-scale frontier [arXiv:2610.25834 (Wang /
+  FrontierRefactor; vs no hits)].** Preserve OBSERVABLE
+  behavior; scale = scope of observation. → Scale the
+  observation (our expose audit, scale-side). Filed.
+- **Runaway untangled [arXiv:2605.22526 (Tian; vs no hits)].**
+  REFACTORING RUNAWAY (tangled; inherited from data).
+  → Untangle or inherit the tangle (our one-thing-per-
+  change, discipline-side). Filed as the untangle twin.
+- **Atomic commits [arXiv:2607.03332 (Lin / AtomicCommitBench;
+  vs no hits)].** Reconstruct HISTORIES from squashed
+  patches (review/revert/maintain). → Keep history
+  atomic (our per-line commits, history-side). Filed.
+- Program note: control, scale-observation, untangle,
+  atomize — the instrument file. None licensed — filed.
