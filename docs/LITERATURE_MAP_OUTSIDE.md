@@ -13887,3 +13887,34 @@ Four more. (All hooks verified virgin pre-append.)
   (indexed, closed (0-6, proposed))); his stripped medals
   (restored, late) are the corrections (published, late
   (C7, revised (standing, restored))).
+## Round 277 — Insult, count, deepness, stopwatch (Rickles, Elmsley, Earle, Nurmi; 2026-11-02)
+
+Motivation: further outside (insult comedy, card magic, ocean science,
+distance running). The program insults directly (NOGOs blunt), counts
+exactly (ledgers), goes deep (lineage thin), and times walls (caps).
+Four more. (Bare Earle shares fearless/Searle-FPs; insult is prose —
+full names throughout.)
+
+- **Direct to the verdict [canon: Rickles (insult comedy;
+  specified Don (vs no hits)); verification deferred].** →
+  Don's insult (the hockey puck (you (direct))) is the NOGO
+  (blunt, direct (no triumph, kept)); his "you're a nice guy"
+  (the setup, kind) is the GO-that-never-came (withheld,
+  honest (bars, unmoved)).
+- **Count exactly [canon: Elmsley (card counting; specified
+  Alex + Elmsley count (vs no hits)); verification deferred].**
+  → Alex's count (four, as (showing, four)) is the ledger
+  (20/0/35840/860160 (exact, kept)); his ghost count (showing
+  more (than there, is)) is the headline (recomputed, honest
+  (per-line, authoritative)).
+- **Her deepness [canon: Earle (ocean depth; specified Sylvia
+  (vs fearless/Searle-FPs)); verification deferred].** →
+  Sylvia's deep (the ocean, below (blue, going)) is the lineage
+  (gen-2, thin (33, max (depth, attempted))); her "no blue, no
+  green" is negative-preservation (no NOGO, no program (kept,
+  all (closed))).
+- **Timed miles [canon: Nurmi (stopwatch running; specified
+  Paavo (vs no hits)); verification deferred].** → Paavo's
+  stopwatch (the hand, holding (pace, exact)) is the wall cap
+  (10800s, holding (attempts, within)); his nine golds (1920s,
+  many) are the mains (20, each (run, counted (sealed))).
