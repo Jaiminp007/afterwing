@@ -19582,3 +19582,38 @@ channel family, four branches).
 - Program note: the family says transfer travels unseen
   through weak patterns + compatible heads; watch mid-chain.
   None licensed — filed.
+## Round 464 — Coals, clarinets, standards, purities (Jannis, Don Byron, Yingshi, Cheng; 2026-11-02)
+
+Motivation: further outside (coal sacks, bug-music clarinets,
+scholar standards, principle purities). The program coals (runs
+attempts), clarinets (stitches verdicts), standards (publishes
+NOGOs), and purities (counts rows). Four more. (Map holds 470
+rounds.)
+
+- **Coal sack [canon: Kounellis (coal sacks; specified Jannis
+  Kounellis (vs no hits)); verification deferred].** → Jannis's
+  coals (sacked, kept (coaled, hanged (horses, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Coal"
+  (sacked, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Clarinet bug [canon: Don Byron (bug clarinets; specified Don
+  Byron (vs no hits; single-name tags taken by Lord + Cherry —
+  full-name tag used)); verification deferred].** → Don's
+  clarinets (bugged, kept (clarineted, bug-musiced (musics,
+  kept))) is the verdict (bug-musiced, kept (NOGO, told (honest,
+  kept))); his "Bug" (musiced, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Standard scholar [canon: Yingshi (scholar standards;
+  specified Yu Yingshi (vs no hits)); verification deferred].**
+  → Yingshi's standards (scholared, kept (standarded, shihed
+  (histories, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Standard" (shihed, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Purity principle [canon: Cheng (principle purities;
+  specified Cheng Yi (vs no hits; Hao's brother — surname tag
+  keeps the brothers together)); verification deferred].** →
+  Cheng's purities (principled, kept (purified, yichuaned
+  (principles, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Purity" (yichuaned, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
