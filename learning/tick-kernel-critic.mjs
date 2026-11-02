@@ -10,7 +10,7 @@ import {tickFeatures,tickNetwork,TICK_AC_DEFAULTS,TICK_AC_PARAMETERS,TICK_AC_ACT
 import {createKernelLearner,updateKernel,predictKernel} from './kernel-learner.mjs';
 
 export const KC_PROGRAM = Object.freeze({kernel: 'rbf', update: 'gradient'});
-export const KC_CAPACITY = 256;
+export const KC_CAPACITY = 64;
 export const KC_DIMS = 20;
 export const KC_TICK_INPUTS = 33;
 export const KC_PROJECTION_SEED = 0x4b435249;
@@ -55,15 +55,15 @@ export function projectKernelInputs(inputs) {
 // bootstrap-predict + choice-predict + update ~= 192R + 90.
 // Conservative (pow counted as 1 op; exp as 1 op).
 export function kernelPredictBill(records) {
-  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY);
+  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY,'kernel records out of capacity bounds');
   return 64 * records + 5;
 }
 export function kernelUpdateBill(records) {
-  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY);
+  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY,'kernel records out of capacity bounds');
   return 64 * records + 80;
 }
 export function kernelBill(records) {
-  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY);
+  assert.ok(Number.isInteger(records) && records >= 0 && records <= KC_CAPACITY,'kernel records out of capacity bounds');
   return 2 * kernelPredictBill(records) + kernelUpdateBill(records);
 }
 export const KC_TICK_ALLOWANCE = 2000;
@@ -182,6 +182,13 @@ export function resetKernelCriticBody(state, seed) {
   for (const trace of state.eligibility) trace.fill(0);
 }
 
+// Chain transplant helper (V1b precedent): coefficients carried (model),
+// records cleared (experience, refill from the test world).
+export function carryKernelState(srcKernel) {
+  assert.ok(srcKernel && Array.isArray(srcKernel.records) && Array.isArray(srcKernel.coefficients));
+  assert.equal(srcKernel.records.length,srcKernel.coefficients.length);
+  return {records: [],coefficients: [...srcKernel.coefficients]};
+}
 export function restoreKernelCriticBody(value) {
   assert.equal(value?.schema,1); assert.equal(value.kind,'tick-kernel-critic-v1');
   assert.deepEqual(value.config,{...TICK_AC_DEFAULTS,critic: 'kernel-rbf-gradient'});

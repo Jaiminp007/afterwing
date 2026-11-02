@@ -5,7 +5,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {KC_PROGRAM,KC_CAPACITY,KC_DIMS,KC_TICK_INPUTS,KC_PROJECTION,
   projectKernelInputs,kernelPredictBill,kernelUpdateBill,kernelBill,
-  kernelFitsBudget,KC_TICK_ALLOWANCE,createKernelCriticBody,
+  kernelFitsBudget,KC_TICK_ALLOWANCE,createKernelCriticBody,carryKernelState,
   restoreKernelCriticBody,resetKernelCriticBody} from '../learning/tick-kernel-critic.mjs';
 
 test('projection is frozen-deterministic, shaped, bounded',()=>{
@@ -18,18 +18,18 @@ test('projection is frozen-deterministic, shaped, bounded',()=>{
   assert.ok(a.every(v=>v>-1&&v<1));
 });
 
-test('billing decomposition is exact (hand-computed)',()=>{
+test('billing decomposition is exact (hand-computed; V1A capacity 64)',()=>{
   assert.equal(kernelPredictBill(0),5);
   assert.equal(kernelPredictBill(1),69);
-  assert.equal(kernelPredictBill(256),16389);
+  assert.equal(kernelPredictBill(64),4101);
   assert.equal(kernelUpdateBill(0),80);
   assert.equal(kernelUpdateBill(1),144);
-  assert.equal(kernelUpdateBill(256),16464);
-  for(const r of [0,1,2,32,256])
+  assert.equal(kernelUpdateBill(64),4176);
+  for(const r of [0,1,2,32,64])
     assert.equal(kernelBill(r),2*kernelPredictBill(r)+kernelUpdateBill(r));
   assert.equal(kernelBill(0),90);
   assert.equal(kernelBill(1),282);
-  assert.equal(kernelBill(256),49242);
+  assert.equal(kernelBill(64),12378);
 });
 
 test('construction carries the accepted program at accepted capacity',()=>{
@@ -50,12 +50,22 @@ test('restore round-trips a fresh body; reset renews weights and kernel',()=>{
   assert.equal(s.kernel.coefficients.length,0);
 });
 
-test('BUDGET FUSE: frozen capacity cannot fit the tick budget (plan INVALID, no bank)',()=>{
+test('BUDGET FUSE re-run at V1A capacity (fits; 256 would fire — V1-ledgered)',()=>{
   const perTickPerFounder=Math.floor(8000000000/12/1792/24);
   assert.equal(perTickPerFounder,15500);
-  assert.equal(kernelFitsBudget(KC_CAPACITY,perTickPerFounder),false);
-  assert.ok(kernelBill(KC_CAPACITY)+KC_TICK_ALLOWANCE>perTickPerFounder);
+  assert.equal(KC_CAPACITY,64);
+  assert.equal(kernelBill(64),12378);
   assert.equal(kernelFitsBudget(64,perTickPerFounder),true);
-  assert.equal(kernelFitsBudget(69,perTickPerFounder),true);
-  assert.equal(kernelFitsBudget(70,perTickPerFounder),false);
+  assert.ok(kernelBill(64)+KC_TICK_ALLOWANCE<=perTickPerFounder);
+  assert.throws(()=>kernelBill(70),/capacity bounds/);
+  assert.throws(()=>kernelBill(256),/capacity bounds/);
+});
+
+test('carryKernelState carries coefficients and clears records (transplant rule)',()=>{
+  const carried=carryKernelState({records: [{input: [1],target: 0.5},{input: [2],target: -0.5}],coefficients: [0.3,-0.2]});
+  assert.deepEqual(carried.records,[]);
+  assert.deepEqual(carried.coefficients,[0.3,-0.2]);
+  const empty=carryKernelState({records: [],coefficients: []});
+  assert.deepEqual(empty,{records: [],coefficients: []});
+  assert.throws(()=>carryKernelState({records: [{input: [1],target: 0}],coefficients: []}),/agentId|assert|mismatch|Error/);
 });
