@@ -339,6 +339,9 @@ the map stays open, not empty.
 - R551 credit file: credit-retrieval;
   separate-skill; cite-turns;
   decompose-trajectories.
+- R553 history-trust file: remove-misleaders;
+  compress-when-safe; distrust-plausible;
+  select-past.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
