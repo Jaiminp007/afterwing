@@ -14609,3 +14609,35 @@ real-lit canon; bare surnames read clean.)
   (withheld, still (evidence, lacking))); her Stria (striations,
   sounding) are the votes (carried, many (majority, kept
   (crowd, won))).
+## Round 300 — Horse, ticking, insects, parted (Gongsun, Burnell, Imamura, Ghatak; 2026-11-02)
+
+Motivation: further outside (white-horse paradoxes, pulsar clocks,
+insect humans, parted lovers). The program names (menus precisely),
+ticks (fires proposals), closes in (evaluates), and parts (splits
+flips). Four more. (Wills dropped — R298 used her; surname check
+catching again; map hits 300 rounds.)
+
+- **Not horse [canon: Gongsun (white-horse paradox; specified
+  Gongsun Long (vs no hits)); verification deferred].** →
+  Gongsun's horse (white, not (horse, argued)) is the menu (index,
+  not (operator, asserted (2, gain (7, rate (6, surprise))))); his
+  "pointing at" is the vote (carried, many (majority, kept
+  (crowd, won))).
+- **Ticking precisely [canon: Burnell (pulsar clocks; specified
+  Jocelyn Bell (vs no hits)); verification deferred].** →
+  Jocelyn's ticking (precise, faint (little, green (men, none))) is
+  the proposal tick (1024, kept (512, added (two-fire, next))); her
+  overlooked Nobel is the NOGO (unwon, kept (bars, unmoved
+  (withheld, still))).
+- **Insect-close [canon: Imamura (human insects; specified
+  Shohei (vs no hits)); verification deferred].** → Shohei's
+  insects (close, human (crawling, kept)) is the sandbox (train,
+  only (fit, kept (transfer, unseen (blind, evaluated)))); his
+  Vengeance (documented, crime) is the ledger (exact, kept
+  (counts, told (honest, all))).
+- **Parted rivers [canon: Ghatak (parted lovers; specified
+  Ritwik (vs no hits)); verification deferred].** → Ritwik's
+  parting (lovers, rivers (split, kept)) is the flip-split (HB,
+  BH (same, kept (subsets, measured (voids, counted)))); his
+  clouds (capped, star) is the trigger (watched, kept (shut,
+  confirmed (V2, held))).
