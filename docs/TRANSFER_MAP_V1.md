@@ -312,6 +312,9 @@ the map stays open, not empty.
 - R533 refine file: closed-loop (control twin);
   round-detection (triage twin); reshape-mass;
   detection-to-fix (pipeline twin).
+- R535 operations file: stratify-freshness;
+  evolve-proactively; correct-directly (human twin);
+  remember-after (ledger twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
