@@ -8,10 +8,11 @@ import {tickMotor} from './tick-actor-critic.mjs';
 import {pursuitMotor} from './pursuit-authority.mjs';
 import {chargeForStep,billSarsaWork,encodedStateBytes} from './sarsa-experiment.mjs';
 import {createTasteEnergyBody,chooseTasteEnergyAction,observeTasteEnergyBody,freezeTasteEnergyBody,resetTasteEnergyBody,compactTasteEnergyBody,restoreTasteEnergyBody} from './taste-energy.mjs';
+import {attachOperatorLoop,fireLooperProposal,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
 import {createTasteKernelBody,chooseTasteKernelAction,observeTasteKernelBody} from './taste-kernel.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
-export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel']);
+export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper']);
 
 // R-GAP S2 schedule gate (plan docs/R_GAP_PLAN_V1A.md): per-tick acquisition
 // windows within each continual phase. frontload learns the first half of every
@@ -148,6 +149,7 @@ export class TasteExperiment{
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
       this.learners[id]=this.program==='fixed'?fixedBody(id,seed):arm==='tasteKernel'?createTasteKernelBody(id,seed,{...learnerOptions,tasteLearning:false}):createTasteEnergyBody(id,seed,{...learnerOptions,tasteLearning:arm!=='noTaste',normalizeMotor:arm!=='noNormalization',cueBlind:arm==='blind'});
       if(arm==='unlearned')freezeTasteEnergyBody(this.learners[id]);
+      if(arm==='looper')attachOperatorLoop(this.learners[id]);
     }
     this.startingEnergy=this.world.flies.reduce((n,f)=>n+f.energy,0);this.startingDebt=0;this.startingOperations=0;
     this.phaseIndex=0;this.phaseEnd=512;this.phaseRows=[];this.savedModels={};this.atA=null;this.atB=null;this.atC=null;this.probe=false;this.transfer=false;this.finished=false;
@@ -214,7 +216,7 @@ export class TasteExperiment{
     for(const fly of before){
       const state=this.learners[fly.id],alive=this.world.flies.includes(fly),examples=state.tasteExamples??0;
       const own={agentId:fly.id,tick:this.world.tick,energy:(alive?fly.energy:0)-state.charge.outstandingEnergy,lastFood:fly.lastFood,terminal:!alive};
-      if(this.program==='taste')(this.arm==='tasteKernel'?observeTasteKernelBody:observeTasteEnergyBody)(state,own,e=>this.record({type:'update',event:e}),{damage:this.lastDamage?.[fly.id]??0});else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
+      if(this.program==='taste'){(this.arm==='tasteKernel'?observeTasteKernelBody:observeTasteEnergyBody)(state,own,e=>this.record({type:'update',event:e}),{damage:this.lastDamage?.[fly.id]??0});if(this.arm==='looper'&&own.tick===OL_PROPOSAL_TICK&&this.looperMenuIndex!=null&&state.rsiLoop)fireLooperProposal(state,this.looperMenuIndex);}else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
       stats.tasteExamples+=(state.tasteExamples??0)-examples;
       if(!alive)billSarsaWork(state,this.pricing);
       this.record({type:'observe',own});

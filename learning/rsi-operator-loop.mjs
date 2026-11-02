@@ -15,6 +15,8 @@ export const OL_MENU=Object.freeze([
   {kind:'shrinkOnce',alpha:0.25},
 ]);
 export const OL_LIFETIME_MAX=4;
+export const OL_PROPOSAL_TICK=1024;
+export const OL_MIN_RECORDS=4;
 export const OL_ADOPT_FACTOR=0.95; // candErr < incErr x 0.95 (5% bar)
 export function attachOperatorLoop(tasteState){
   assert.ok(tasteState&&typeof tasteState==='object'&&!tasteState.rsiLoop);
@@ -76,7 +78,8 @@ export function sandboxEvaluate(tasteState,operator,fitIds,testIds){
     for(const k of Object.keys(clone.weights))clone.weights[k]=clone.weights[k].map(v=>v*operator.alpha);
   }else if(operator.kind==='replayGain'){
     assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'replay gain must be non-negative');
-    for(const r of fitRecs)tasteUpdate(clone,r,'replay',noop,1+operator.gain);
+    clone.config.replayGain=operator.gain; // same path live adoption takes (config, not boost)
+    for(const r of fitRecs)tasteUpdate(clone,r,'replay',noop,1);
   }else if(operator.kind==='replaySkip'){
     assert.ok(Number.isFinite(operator.skip)&&operator.skip>=0,'replay skip must be non-negative');
     for(const r of fitRecs){
@@ -110,6 +113,32 @@ function digestSnapshot(t){
   return JSON.stringify({weights:c.weights,recent:c.recent,older:c.older,
     feedRngState:c.feedRngState,motorRngState:c.motorRngState,retentionRngState:c.retentionRngState,replayRngState:c.replayRngState,
     tasteExamples:c.tasteExamples,decisions:c.decisions,lastDecisionTick:c.lastDecisionTick,lastObservedTick:c.lastObservedTick});
+}
+export function adoptOperatorLive(t,operator){
+  assert.ok(t&&typeof t==='object','live adoption needs a taste state');
+  if(operator.kind==='replayGain'){assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'bad gain');t.config.replayGain=operator.gain;}
+  else if(operator.kind==='replaySkip'){assert.ok(Number.isFinite(operator.skip)&&operator.skip>=0,'bad skip');t.config.replaySkip=operator.skip;}
+  else if(operator.kind==='shrinkOnce'){assert.ok(Number.isFinite(operator.alpha)&&operator.alpha>0&&operator.alpha<1,'bad alpha');
+    let n=0;for(const k of Object.keys(t.weights)){t.weights[k]=t.weights[k].map(v=>v*operator.alpha);n+=t.weights[k].length;}
+    t.work.scalarOperations+=n;
+  }
+  else throw Error('menu-closed: unknown operator kind');
+  return {kind:operator.kind};
+}
+// Fire-once proposal at the pre-registered tick (experiment wire calls this
+// per agent after observation). Temporal fit/test split (older/newer halves).
+// Skips (no-op record) when retained experience is insufficient — fail-closed
+// safety net, not a verdict path (G2a fails if no adoption).
+export function fireLooperProposal(t,menuIndex){
+  assert.ok(t&&t.rsiLoop,'operator loop not attached');
+  const records=[...t.recent,...t.older].sort((a,b)=>a.experience-b.experience);
+  if(records.length<OL_MIN_RECORDS||t.rsiLoop.proposals.length>=OL_LIFETIME_MAX)return {skipped:true};
+  const op=proposeOperator(t,menuIndex);
+  const half=Math.floor(records.length/2);
+  const fitIds=records.slice(0,half).map(r=>r.experience),testIds=records.slice(half).map(r=>r.experience);
+  const ev=sandboxEvaluate(t,op,fitIds,testIds);
+  if(ev.adopted)adoptOperatorLive(t,op);
+  return {skipped:false,eval:ev};
 }
 export function loopDigest(tasteState){
   assert.ok(tasteState&&tasteState.rsiLoop,'operator loop not attached');
