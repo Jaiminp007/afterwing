@@ -23961,3 +23961,30 @@ rows). Four more. (Map holds 618 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Supreme" (baby, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 611 — Drawn, governed, woven, lightened (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: woven memory — store the
+scene not just the fact (already-cited memory/governance
+leads converging; weave family, four branches).
+
+- **Dual-trace encoding [arXiv:2604.12948 (Stern; vs no
+  hits)].** Fact + SCENE trace (forced commitment;
+  richer distinctive; drawing effect). → Pair the
+  scene (our per-row archives, trace-side). Filed.
+- **Heterogeneous governance [arXiv:2605.14802 (Yang /
+  ARPM; vs no hits)].** Static vs DYNAMIC (vector +
+  BM25 + RRF; persona consistency). → Separate the
+  stores (our banks+results, hetero-side). Filed.
+- **Hybrid weaving [arXiv:2601.18204 (Ye / MemWeaver;
+  vs no hits)].** Temporally GROUNDED (multi-hop +
+  evidence-grounded reuse; traceable). → Weave the
+  hybrid (our transfer map, weave-side). Filed.
+- **Lightweight cognition [arXiv:2511.01448 (Huang /
+  LiCoMemory; vs no hits)].** Flat entangled →
+  STRUCTURED (redundant to efficient; graph-based).
+  → Lighten the structure (our tar-in-place,
+  light-side). Filed.
+- Program note: pair scenes, separate stores, weave
+  hybrids, lighten structures — the woven-memory file.
+  None licensed — filed.
