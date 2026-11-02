@@ -306,6 +306,9 @@ the map stays open, not empty.
 - R529 execute file: competence≠execution (gap twin);
   measure-embodied; align-hierarchically; decouple-plan
   (plan twin).
+- R531 doing file: belief≠doing (belief twin);
+  refine-trajectory; attribution-or-simulation
+  (simulation twin); say≠do (structural twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
