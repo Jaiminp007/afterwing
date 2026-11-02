@@ -18756,3 +18756,29 @@ and perfects (counts rows). Four more. (Map holds 442 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Mind" (embodied, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 437 — Distilled, decoupled, quantile-matched, cached (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: prototype-guided TTA (6th TTA
+family; upgrading the already-cited ProtoTTA/BP-TTA/TTVD line —
+those are NOT repeated, only the new branches are banked).
+
+- **Distilled prototypes [arXiv:2609.09737 (Wang; vs no hits)].**
+  Static prototype replay MISALIGNS as the model adapts; distill
+  instead of replaying. → Our frozen prototypes rot; refresh or
+  freeze-deliberately. Filed as the prototype-staleness twin.
+- **Decoupled learning [arXiv:2401.08703 (Wang; vs no hits)].**
+  Prototype-centric loss RESISTS noisy pseudo-labels (per-sample
+  CE is the vulnerable part). → Score the prototype, not the
+  sample. Unlicensed.
+- **Quantile matching [arXiv:2601.11022 (Danda; vs no hits)].**
+  Architecture-AGNOSTIC adapter: preprocess the INPUT, match
+  geometric quantiles. → INPUT-SIDE adaptation, licensed-shaped!
+  First along Guo's unmapped axis. Banked as the input-side
+  route's first concrete form.
+- **Cache limits [arXiv:2604.21360 (Huang; vs no hits)].**
+  Backprop-free prototype TTA; cache grows with classes (latency)
+  and rots with bad samples. → The cache-budget warning. Filed.
+- Program note: Danda's input-side adapter is the first INPUT-
+  SIDE machinery on the map (untouched axis per R348). Filed
+  as the route to unmap — needs freezing, not shopping.
