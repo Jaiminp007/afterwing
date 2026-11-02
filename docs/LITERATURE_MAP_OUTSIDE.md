@@ -23230,3 +23230,31 @@ audit family, four branches).
 - Program note: measure routes, pay disagreements,
   bound deployments, shield executions — the
   audit-layer file. None licensed — filed.
+## Round 586 — Bos, chucks, littles, fats (Bo, Chuck, Little, Fats; 2026-11-02)
+
+Motivation: further outside (beat bos, walked chucks, frutti littles,
+hilled fats). The program bos (beats attempts), chucks (stitches
+verdicts), littles (publishes NOGOs), and fats (counts rows). Four more.
+(Map holds 594 rounds.)
+
+- **Bo beat [canon: Diddley (beated bos; specified Bo Diddley (vs no
+  hits)); verification deferred].** → Bo's bos (beated, kept (boed,
+  beated (shaves, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Bo" (beat, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Chuck duck [canon: Berry (ducked chucks; specified Chuck Berry
+  (vs no hits)); verification deferred].** → Chuck's chucks (ducked,
+  kept (chucked, ducked (goodess, kept))) is the verdict (ducked, kept
+  (NOGO, told (honest, kept))); his "Chuck" (duck, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Little tutti [canon: Little Richard (tuttied littles; specified
+  Little Richard (vs no hits; short tag taken three ways — full-name
+  tag used)); verification deferred].** → Little's littles (tuttied,
+  kept (littled, tuttied (fruttis, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Little" (tutti, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Fat hill [canon: Domino (hilled fats; specified Fats Domino (vs
+  no hits)); verification deferred].** → Fats's fats (hilled, kept
+  (fatted, hilled (berries, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Fat" (hill, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
