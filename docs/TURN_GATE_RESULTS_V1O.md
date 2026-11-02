@@ -38,3 +38,11 @@ UNTESTED (not NOGO — the question never completed): a future
 multi-codebook line must first solve multi-train learning itself
 (G0) before any transfer lift can be gated. Inference-gating
 (family #1) unaffected. No rescoring, no second attempt, bars unmoved.
+
+## Post-hoc lens (R369; explains, does not rescore — verdict stands)
+
+Doan/NTK-overlap: forgetting grows with task alignment. A/A2/A3
+(same rule, permuted cues) are maximally aligned → maximal
+interference → multi-train G0 fails. The pseudos were too similar.
+A future multi-codebook line wants DISSIMILAR pseudos (low overlap)
+or gradient-alignment machinery (Bai/Abbes/Dherin — all unlicensed).
