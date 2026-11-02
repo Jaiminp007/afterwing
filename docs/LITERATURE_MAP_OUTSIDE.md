@@ -17858,3 +17858,29 @@ holds 410 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   her "Carnival" (taped, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 405 — Informed, curved, shifted, idempotent (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: forgetting-aware replay — replay
+that knows what to forget (and what not to disturb).
+
+- **Reliability-informed [arXiv:2610.03079 (Lin / RIFAR; vs no
+  hits)].** Reliability-informed + forgetting-aware replay for
+  continual ROBOT learning (world-action models; genuine embodied
+  agency → transferable skills). → Embodied + reliable +
+  forgetting-aware. Unlicensed.
+- **Forgetting-curved [arXiv:2601.03938 (Feng / FOREVER; vs no
+  hits)].** Ebbinghaus forgetting-curve replay scheduling (not
+  fixed steps). → Replay by the forgetting curve. Unlicensed.
+- **Changepoint-aware [arXiv:2609.18950 (Yang / CAWM; vs no hits)].**
+  CUSUM changepoint on prediction error (fires on ABRUPT change,
+  not drift) → forget STALE replay, keep representation.
+  DreamerV3 embodied. → C16-successor's sibling: detect, forget
+  stale, keep rule. Unlicensed.
+- **Idempotent [arXiv:2603.00624 (Liu / IDER; vs no hits)].**
+  Replay that does NOT disturb learned knowledge + uncertainty
+  calibration. → Do-no-harm replay. Unlicensed.
+- Program note: CAWM (abrupt-only CUSUM + forget-stale + keep-
+  representation) is the closest runnable loop to C16-fixed
+  (detect the codebook change, drop the stale mapping, keep the
+  valence rule). Filed with the successor design, unlicensed.
