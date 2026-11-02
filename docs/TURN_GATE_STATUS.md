@@ -358,3 +358,13 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   overall lossy tax 0.118 (M4 trigger 2 unfired). Prediction calibrated to
   0.02. M2-across wound-has-treatment CONFIRMED; line re-CLOSED (no V1l
   without new rationale). Cumulative 8037 (+12). No RSI claim.
+- 2026-11-02: Phase-L FROZEN (lossy-once seg-chain: cure-vs-palliative) +
+  IMPLEMENTED (5-arm chain, 13/13 fixtures incl. structural-order guard +
+  mains-cap check, triage 988/8 zero-new, fresh-13 bank 449001-449054) +
+  EXECUTED → **GO**. HB-seg3−seg1 +0.254 (3/3; seg1 0.587 = V1k replica,
+  seg3 0.841 ≈ train 0.825); BH 0.950, same 0.951; G0 0.82-0.84; 15/0/2.44e9
+  redone[]. Cure direction (transient, not structural). M2-across upgraded
+  treatment→CLOSING (verdict-doc revision flagged, not silently edited).
+  Execution incident preserved (exact-arm slip + mains-constant slip, both
+  fail-closed, void run removed, regressions fixture-guarded). Line re-CLOSED
+  (no V1m without new rationale). Cumulative 8052 (+15). No RSI claim.
