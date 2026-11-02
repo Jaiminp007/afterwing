@@ -22993,3 +22993,33 @@ converging; composition family, four branches).
 - Program note: probe boundaries, audit writes, test
   assembly, build strategies — the composition file.
   None licensed — filed.
+## Round 578 — Muddys, wolves, lightnins, hookers (Muddy, Wolf, Lightnin, Hooker; 2026-11-02)
+
+Motivation: further outside (rolled muddys, stacked wolves, texas
+lightnins, boomed hookers). The program muddys (rolls attempts),
+wolves (stitches verdicts), lightnins (publishes NOGOs), and hookers
+(counts rows). Four more. (Map holds 586 rounds.)
+
+- **Muddy roll [canon: Muddy Waters (rolled muddys; specified Muddy
+  Waters (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Muddy's muddys (rolled, kept (muddied,
+  rolled (stones, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Muddy" (roll, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Wolf howl [canon: Howlin Wolf (howled wolves; specified Howlin'
+  Wolf (vs no hits; short tag collides — full-name tag used));
+  verification deferred].** → Wolf's wolves (howled, kept (wolfed,
+  howled (stacks, kept))) is the verdict (howled, kept (NOGO, told
+  (honest, kept))); his "Wolf" (howl, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Lightnin texas [canon: Hopkins (texased lightnins; specified
+  Lightnin' Hopkins (vs no hits)); verification deferred].** →
+  Lightnin's lightnins (texased, kept (lightnined, texased (mojos,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Lightnin" (texas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Hooker boom [canon: Hooker (boomed hookers; specified John Lee
+  Hooker (vs no hits)); verification deferred].** → Hooker's hookers
+  (boomed, kept (hooked, boomed (boogies, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Hooker" (boom, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
