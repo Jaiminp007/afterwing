@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R405 addendum: CAWM (CUSUM abrupt-only changepoint + forget-stale
+  + keep-representation, DreamerV3 embodied) filed as the CLOSEST
+  RUNNABLE C16-fixed loop; RIFAR (embodied reliability-informed) +
+  FOREVER (Ebbinghaus scheduling) + IDER (do-no-harm replay)
+  banked unlicensed.
 - R401 addendum: DIRAD (complexify-past-conflicts) + CPLUS
   (self-probe-then-dampen, gentlest response) + SLICE
   (conflict-aware init) filed as the conflict-handling shelf;
