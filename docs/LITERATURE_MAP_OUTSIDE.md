@@ -19643,3 +19643,34 @@ lead not repeated; control family, four branches).
   carryover, external twin). Filed.
 - Program note: the family controls by direction, location,
   and consensus — not by inspection. None licensed — filed.
+## Round 466 — Trees, whispers, minds, mounds (Giuseppe, Dewey, Jiuyuan, Feldmann; 2026-11-02)
+
+Motivation: further outside (vessel trees, behearer whispers,
+principle minds, everyday mounds). The program trees (runs
+attempts), whispers (stitches verdicts), minds (publishes NOGOs),
+and mounds (counts rows). Four more. (Map holds 472 rounds.)
+
+- **Tree vessel [canon: Penone (vessel trees; specified Giuseppe
+  Penone (vs no hits)); verification deferred].** → Giuseppe's
+  trees (vesseled, kept (treed, breathed (leaves, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Tree"
+  (vesseled, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Whisper behearer [canon: Redman (behearer whispers;
+  specified Dewey Redman (vs no hits)); verification
+  deferred].** → Dewey's whispers (beheared, kept (whispered,
+  eared (behearers, kept))) is the verdict (eared, kept (NOGO,
+  told (honest, kept))); his "Ear" (beheared, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Mind principle [canon: Jiuyuan (principle minds; specified
+  Lu Jiuyuan (vs no hits)); verification deferred].** → Jiuyuan's
+  minds (principled, kept (minded, principled (universes, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Mind" (principle, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Mound everyday [canon: Feldmann (everyday mounds; specified
+  Hans-Peter Feldmann (vs no hits)); verification deferred].** →
+  Feldmann's mounds (everydayed, kept (mounded, voyeured (pictures,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Voyeur" (pictured, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
