@@ -14138,3 +14138,33 @@ throughout; Spiegelman framed as witnessing, respectful.)
   Pompidou (pipes, outside (guts, shown)) is the instrument
   (code, open (runners, shown (modules, read))); his Shard
   (up, glass) is the ledger (told, plain (numbers, kept)).
+## Round 285 — Essays, mountains, ethics, creeks (Montaigne, Muir, Leopold, Dillard; 2026-11-02)
+
+Motivation: further outside (essayists, naturalists). The program
+essays (tries), mountains (climbs milestones), ethics (keeps), and
+creeks (watches small). Four more. (All hooks verified virgin
+pre-append.)
+
+- **Trying [canon: Montaigne (essay as attempt; specified
+  Michel (vs no hits)); verification deferred].** → Michel's
+  essais (tryings, written (self, studied)) is the attempt (run,
+  once (line, studied (verdict, published))); his "what do I
+  know" is the NOGO (flat, kept (known, this (not that))).
+- **Wild mountains [canon: Muir (wilderness keeping;
+  specified John (vs no hits)); verification deferred].** →
+  John's Sierra (wild, kept (parks, made)) is negative-
+  preservation (closed, kept (lines, held (raw, all))); his
+  "going to the mountains is going home" is the bank (fresh,
+  each (returning, always (range, new))).
+- **Thinking like [canon: Leopold (land ethic; specified
+  Aldo (vs no hits)); verification deferred].** → Aldo's
+  mountain (thinking, like (land, kept)) is the sandbox
+  (evaluating, like (train, kept (transfer, unseen))); his
+  land ethic (enlarged, community) is the vote (many, carried
+  (majority, kept (crowd, won))).
+- **Tinker Creek [canon: Dillard (close attention; specified
+  Annie (vs no hits)); verification deferred].** → Annie's
+  creek (watched, closely (muskrat, seen)) is the autopsy
+  (rows, read (adopted, counted (barren, seen))); her
+  "the present is the case" is the ledger (now, kept (counts,
+  exact (20/0, told))).
