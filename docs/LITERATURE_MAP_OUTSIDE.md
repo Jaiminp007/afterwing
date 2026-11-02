@@ -13540,3 +13540,36 @@ random-FPs; "hammer" one Hammerstein-FP — full names only.)
   bank (sealed and smooth (refusal, poured (post-bank, form)));
   his light wells (one opening (the cut, precise)) are the
   single attempt (one opening (once, precise (redone[]))).
+## Round 266 — Scratch, ecstasy, reenactment, opening (Cardew, Herzog, Morris, Duncan; 2026-11-02)
+
+Motivation: the program plays scratch (amateur proposers), seeks
+ecstatic truth (useful fictions), reenacts (replay), and opens fields
+(fresh banks). Four more. (M.Feldman/E.Brown/open-form all R249 —
+dropped; bare Brown/Morris/Duncan share real-lit FPs — full names.)
+
+- **The amateur orchestra [canon: Cardew (scratch music;
+  specified Cornelius + Scratch Orchestra (vs no hits));
+  verification deferred].** → Cornelius's Scratch (amateurs
+  playing (together (the orchestra, scratch))) is the per-agent
+  loop (agents proposing (together (the vote, scratch))); his
+  "no score, just rules" is the menu (no script, just indices
+  (the operators, six)).
+- **Useful fabrication [canon: Herzog (ecstatic truth;
+  specified Werner (vs no hits)); verification deferred].** →
+  Werner's ecstatic truth (facts insufficient (the fabrication,
+  useful)) is the sandbox (train insufficient (the model, useful
+  (live, decisive))); his Fitzcarraldo (the ship, over (the
+  mountain, dragged)) is the transplant (weights, over (the
+  histories, carried)).
+- **Staged replay [canon: Morris (reenactment; specified
+  Errol + Thin Blue Line (vs real-lit FPs)); verification
+  deferred].** → Errol's reenactments (the past, staged (the
+  camera, returning)) is the replay (experience, staged (the
+  learner, returning)); his Interrotron (the subject, facing
+  (itself)) is the gate (the line, facing (its numbers)).
+- **The field opens [canon: Duncan (opening the field;
+  specified Robert (vs Desimone-Duncan FP)); verification
+  deferred].** → Robert's Opening (the field, open (the poem,
+  beginning)) is the fresh bank (the range, open (the attempt,
+  beginning)); his "often I am permitted" (the given, received)
+  is the verdict (the numbers, received (not steered)).
