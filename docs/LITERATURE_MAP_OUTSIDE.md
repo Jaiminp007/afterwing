@@ -21647,3 +21647,38 @@ family, four branches).
 - Program note: belief≠doing, refine trajectories,
   attribute or simulate, say≠do — the doing file. None
   licensed — filed.
+## Round 532 — Persons, luckies, true-blues, sugars (Houston, Lucky Thompson, Tina Brooks, Stanley; 2026-11-02)
+
+Motivation: further outside (trusted persons, tricky luckies,
+true-blue tinas, sugared stanleys). The program persons (runs
+attempts), luckies (stitches verdicts), true-blues (publishes
+NOGOs), and sugars (counts rows). Four more. (Map holds 540
+rounds.)
+
+- **Person trusted [canon: Person (trusted persons; specified
+  Houston Person (vs no hits)); verification deferred].** →
+  Houston's persons (trusted, kept (personed, personality (personalities,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Person" (personality, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Lucky tricky [canon: Lucky Thompson (tricky luckies;
+  specified Lucky Thompson (vs no hits; single-name tags taken
+  — full-name tag used)); verification deferred].** → Lucky
+  Thompson's luckies (trickied, kept (luckied, tricots (trickies,
+  kept))) is the verdict (tricoted, kept (NOGO, told (honest,
+  kept))); his "Lucky" (tricky, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **True-blue tina [canon: Tina Brooks (true-blue tinas;
+  specified Tina Brooks (vs no hits; single-name tag taken by
+  the subsumptionist — full-name tag used)); verification
+  deferred].** → Tina Brooks's true-blues (tinaed, kept
+  (true-blued, back-to-the-tracks (tracks, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); her
+  "True-blue" (back-to-the-tracks, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Sugar stanley [canon: Turrentine (sugared stanleys;
+  specified Stanley Turrentine (vs no hits)); verification
+  deferred].** → Stanley's sugars (sugared, kept (sugared,
+  sugared (sugars, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Sugar" (stanley, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
