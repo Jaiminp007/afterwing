@@ -17242,3 +17242,28 @@ and fingers (counts rows). Four more. (Map hits 388 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Mozart"
   (concertoed, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 383 — Disentangled, embedded, sourced, mixed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: task similarity — when likeness
+helps vs kills.
+
+- **Similarity disentangled [arXiv:2405.20236 (Hiratani; vs no
+  hits)].** High INPUT similarity + LOW readout similarity =
+  catastrophic (analytic, teacher-student). → V1o's exact
+  condition (same world, remapped readouts). Third post-hoc lens;
+  verdict stands.
+- **Similarity embedded [arXiv:2208.11726 (Liu; vs no hits)].**
+  Wasserstein task embeddings: model-agnostic, training-free,
+  disjoint label sets OK. → AMSC's mechanism, bought. Unlicensed
+  (needs embedding computation).
+- **Similarity sourced [arXiv:2507.20433 (Capurso / FAST; vs no
+  hits)].** Select SOLID source policies by similarity (negative
+  transfer avoided). → Source selection for policy learning.
+  Unlicensed.
+- **Mixed sequences [arXiv:2112.10017 (Ke; vs no hits)].**
+  Similar AND dissimilar tasks in one sequence; forward +
+  backward transfer. → The mixed protocol (our A/A2/A3/B is one).
+  Unlicensed.
+- Program note: Hiratani → V1o third lens (same-world/remapped-
+  readout = the catastrophic cell). Next integration files it.
