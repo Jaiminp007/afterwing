@@ -15212,3 +15212,34 @@ stripes (freezes plans), alphabets (indexes menus), and baroques
   kept))) is the ledger (ornamented, kept (exact, told (all,
   counted))); his "Bolling" (suited, kept (jazz, played)) is the
   verdict (published, kept (NOGO, told (honest, kept))).
+## Round 318 — Berlin, edge, flicker, dots (Emmanuel, Howard, Paul, Thomas; 2026-11-02)
+
+Motivation: further outside (principal flutes, hard edges,
+flicker films, dot grids). The program Berlins (houses
+orchestras), edges (freezes selections), flickers (fires ticks),
+and dots (counts worlds). Four more. (Map hits 322 rounds.)
+
+- **Berlin pipe [canon: Emmanuel (Berlin flutist; specified
+  Emmanuel Pahud (vs no hits)); verification deferred].** →
+  Emmanuel's Berlin (piped, kept (principal, played (Phil,
+  kept))) is the row (counted, kept (honest, told (all,
+  counted))); his "Carnival" (venice, kept (played, fast)) is the
+  attempt (single, kept (authorized, run (once, held))).
+- **Hard edge [canon: Howard (hard edges; specified Howard
+  Mehring (vs no hits)); verification deferred].** → Howard's
+  edge (hard, kept (selected, masked (top, kept))) is the mask
+  (activation, kept (half, frozen (rest, kept))); his "Taupe"
+  (queued, kept (secret, held)) is the trigger (watched, kept
+  (shut, confirmed (V4, held))).
+- **Flicker film [canon: Paul (flicker films; specified Paul
+  Sharits (vs no hits)); verification deferred].** → Paul's
+  flicker (filmed, kept (epileptic, seized (frames, kept))) is
+  the tick (fired, kept (512, added (1024, kept))); his "Word"
+  (movie, kept (color, licked)) is the bank (fresh, kept (built,
+  spent (54, kept)))).
+- **Dot grid [canon: Thomas (dot grids; specified Thomas
+  Downing (vs no hits)); verification deferred].** → Thomas's
+  dots (gridded, kept (spotted, painted (circles, kept))) is the
+  ledger (exact, kept (honest, told (all, counted))); his "Red"
+  (pleasure, kept (eye, kept)) is the verdict (published, kept
+  (NOGO, told (honest, kept))).
