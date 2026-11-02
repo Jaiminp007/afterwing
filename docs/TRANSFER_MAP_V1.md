@@ -282,6 +282,9 @@ the map stays open, not empty.
 - R513 trust file: conditional-trust (conditional twin);
   trust-by-design (design twin); explain-routes (ledger
   twin); decouple-learning-authority (invariant twin).
+- R515 program file: formalize-irreversible (formalism
+  twin); recoverable-flow; harness-in-code (source twin);
+  audit-programs (program twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
