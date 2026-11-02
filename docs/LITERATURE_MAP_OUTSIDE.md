@@ -23143,3 +23143,32 @@ rows). Four more. (Map holds 590 rounds.)
   kept (roberted, gunned (smokes, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Robert" (gun, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 583 — Reset, looped, grounded, rectified (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: closed loop — offline
+scores lie, the loop tells (already-cited assurance/validity
+leads converging; loop family, four branches).
+
+- **Paired reset [arXiv:2608.14650 (de Pastor; vs no
+  hits)].** Same-state EXECUTION (audit protocol not
+  routing rule; decision-loss justification). → Audit
+  from same state (our fresh banks, reset-side).
+  Filed.
+- **Open-vs-closed [arXiv:2605.00066 (Wang; vs no
+  hits)].** Open metrics DON'T predict closed (ADE/FDE
+  no correlation; safety-aware bridge). → Close the
+  loop (our transfer test, loop-side). Filed.
+- **Achievement memory [arXiv:2608.29537 (Gao / AGM; vs
+  no hits)].** Attempted ≠ COMPLETED (transient
+  becomes persistent; worse than none). → Ground
+  achievements (our completed-rows-only,
+  grounding-side). Filed.
+- **Rectify training [arXiv:2603.23393 (Yadav; vs no
+  hits)].** ON-policy closed-loop (covariate shift +
+  compounding; supervise own execution). → Rectify
+  on-policy (our diagnose-fix-retry, rectify-side).
+  Filed.
+- Program note: reset pairs, close loops, ground
+  achievements, rectify on-policy — the closed-loop
+  file. None licensed — filed.
