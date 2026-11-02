@@ -18,14 +18,14 @@ const seedRecords=(s,n=8,target=1)=>{for(let i=0;i<n;i++)s.recent.push(mkRec(PHI
 // --- module (6) ---
 test('C1 menu-closedness (index bounds + unknown kind rejected)',()=>{
   const s=mkState();
-  assert.throws(()=>proposeOperator(s,6),/menu-closed/);
+  assert.throws(()=>proposeOperator(s,7),/menu-closed/); // bound tracks menu length (C6 appended index 6; intent unchanged)
   assert.throws(()=>proposeOperator(s,-1),/menu-closed/);
   assert.throws(()=>proposeOperator(s,1.5),/menu-closed/);
   seedRecords(s);
   assert.throws(()=>sandboxEvaluate(s,{kind:'nope'},[1,2],[3,4]),/menu-closed/);
   const op=proposeOperator(s,0);
   assert.deepEqual(op,OL_MENU[0]);
-  assert.equal(OL_MENU.length,6);
+  assert.equal(OL_MENU.length,7); // C6 appended index 6 (append-only; intent unchanged)
 });
 test('C1 fit/test disjointness enforced (anti-sandbagging)',()=>{
   const s=mkState();seedRecords(s);
