@@ -17633,3 +17633,27 @@ and steels (counts rows). Four more. (Map hits 402 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Chopin"
   (waltzed, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 397 — Mixed, drifted, assumed, segmented (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: task-free — no boundaries, no
+identities, just the stream (our setting, formalized).
+
+- **Infinite mixture [arXiv:2001.00689 (Lee; vs no hits)].**
+  Neural Dirichlet process mixture for task-free CL (expansion-
+  based, infinite causes). → Bayesian nonparametric cause-
+  inference. The LCNet/Lu theory, run task-free. Unlicensed.
+- **Continuous benchmark [arXiv:2605.12998 (Sun / DRIFT; vs no
+  hits)].** Task-free benchmark with CONTINUOUS shifts (no
+  partitions, no identities). → Our setting, benchmarked.
+- **Three levels [arXiv:2610.41792 (Korte; vs no hits)].**
+  Similarity/rate/order live at three levels (data, partition,
+  learner) that need NOT coincide. → Our bank-vs-learner
+  distinction, formalized. Filed as method.
+- **Segmented single-net [arXiv:1905.11550 (Du / PST; vs no
+  hits)].** Progressive segmented training within ONE net
+  (redundant capacity separated per task). → Segments without
+  expansion. Unlicensed (needs capacity partitioning).
+- Program note: Lee's DPM is the task-free cause-inference
+  (infinite latent causes); Korte's three levels constrain how
+  we describe banks vs learners. Filed, unlicensed.
