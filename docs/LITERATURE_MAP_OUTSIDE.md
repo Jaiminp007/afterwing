@@ -22270,3 +22270,30 @@ peoples (stitches verdicts), shafts (publishes NOGOs), and cries
   (joined, kept (carried, won (crowd, kept))); his "Cry" (everybody,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 553 — Misled, compressed, lied-to, helped-and-hurt (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: history trust — history is
+a servant not a master (already-cited poisoning/lifecycle
+leads converging; history family, four branches).
+
+- **Misleading history [arXiv:2610.02600 (Yin; vs no
+  hits)].** Influential ≠ SUPPORTING (removing a
+  misleading event matters). → Remove the misleader
+  (our per-leg audit, misleading-side). Filed.
+- **Compress-when-safe [arXiv:2609.27298 (Wang /
+  StateComp; vs no hits)].** WHEN safe to replace
+  (premature loses, conservative bloats). → Compress
+  when safe (our tar-in-place, safety-side). Filed.
+- **Lying history [arXiv:2608.06057 (Wu; vs no hits)].**
+  Plausible-but-unauthoritative HIJACKS (flips 32.1%
+  of correct decisions). → Distrust the plausible
+  (our independent auditors, hijack-side). Filed.
+- **Helps-and-hurts [arXiv:2610.11948 (Sun; vs no
+  hits)].** SELECTIVE use (earlier question relevant,
+  old answer outdated; ReTurn benchmark). → Select the
+  past (our carry-what-matters, selective-side).
+  Filed.
+- Program note: remove misleaders, compress when safe,
+  distrust plausible, select past — the history-trust
+  file. None licensed — filed.
