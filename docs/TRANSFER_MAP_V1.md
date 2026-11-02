@@ -275,6 +275,10 @@ the map stays open, not empty.
 - R509 harness file: tamper-audit (tamper twin);
   causal-guard (guard twin); trust-no-hook (security);
   govern-context (govern twin).
+- R511 govern file: metacognition-framework (framework
+  twin); generated-vs-governed (state twin); monitor-
+  control (control twin); delayed-appraisal (vigilance
+  twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
