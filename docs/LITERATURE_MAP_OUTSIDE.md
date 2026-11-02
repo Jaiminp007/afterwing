@@ -14393,3 +14393,34 @@ genetic-FPs avoided — full names + contexts.)
   One (overflowing, down (levels, kept)) is the transplant (exact,
   carried (weights, down (links, kept))); his return (soul, up)
   is the vote (carried, up (majority, kept (crowd, won))).
+## Round 293 — Meshes, paint, candles, redshift (Deren, Brakhage, Leavitt, Hubble; 2026-11-02)
+
+Motivation: further outside (avant-garde film, hand-painted frames,
+standard candles, expanding space). The program dreams (loops),
+paints direct (runs once), candles (holds bars), and recedes (withholds
+claims). Four more. (Plotinus dropped — R292 used him; bare surnames
+all clean with contexts read.)
+
+- **Doubled dream [canon: Deren (dream loops; specified Maya
+  (vs no hits)); verification deferred].** → Maya's Meshes (dream,
+  looped (doubled, selves)) is the loop (proposing, carried (voted,
+  best (kept, held))); her choreocinema (danced, filmed) is the
+  attempt (run, once (measured, kept (rows, all))).
+- **Painted frames [canon: Brakhage (direct film; specified
+  Stan (vs no hits)); verification deferred].** → Stan's paint
+  (frames, directly (no camera, used)) is the single attempt (run,
+  directly (no retry, used (redone[], kept))); his "imagine an
+  eye unruled" is the sandbox (evaluating, blind (train, only
+  (transfer, unseen))).
+- **Standard candles [canon: Leavitt (period brightness;
+  specified Henrietta (vs no hits)); verification deferred].** →
+  Henrietta's periods (brighter, longer (pulsing, kept)) are the
+  bars (+0.1, held (unmoved, kept (missed, by (0.004, kept)))));
+  her Harvard computers (women, counting (plates, measured))
+  are the fixtures (green, required (suites, run (triage, kept))).
+- **Receding [canon: Hubble (expanding distance; specified
+  Edwin (vs no hits)); verification deferred].** → Edwin's
+  redshift (farther, faster (receding, kept)) is the withheld
+  claim (bars, unmoved (evidence, lacking (RSI, open))); his
+  tune (the fork, sounding) is the vote (carried, many
+  (majority, kept (crowd, won))).
