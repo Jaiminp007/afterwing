@@ -23374,3 +23374,33 @@ holds 598 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Ricky" (travel,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 591 — Assumed, self-rewarded, specified, deployed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: beyond — the score is the
+start not the end (already-cited validity/reliability leads
+converging; beyond family, four branches).
+
+- **Behavioral assumptions [arXiv:2609.05289 (Mahbub; vs
+  no hits)].** Correctness-preserving vs ALTERING
+  (controlled conditions; meta-evaluation). → Assume
+  behaviorally (our bars as assumptions,
+  assumption-side). Filed.
+- **Self-rewarding [arXiv:2610.12598 (Wu / BSR; vs no
+  hits)].** Binary FAILS debugging quality (policy
+  judges OWN trajectories; no separate model). →
+  Judge your own (our adoption liveness, self-side).
+  Filed.
+- **Behavioral specification [arXiv:2605.28969 (Gulaya;
+  vs no hits)].** Representational ACCURACY (compress
+  person into patterns; held-out predictions). →
+  Specify behaviorally (our per-leg deltas,
+  specification-side). Filed.
+- **Deployment protocol [arXiv:2610.01682
+  (Wojcikiewicz; vs no hits)].** Isolate TRACKER
+  (shared detections; when-and-how failures; embedded
+  budget). → Deploy focused (our frozen caps,
+  deployment-side). Filed.
+- Program note: assume behaviorally, reward self,
+  specify patterns, deploy focused — the beyond file.
+  None licensed — filed.
