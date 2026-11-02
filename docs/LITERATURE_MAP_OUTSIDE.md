@@ -13167,3 +13167,40 @@ shares 7 genic-capture FPs; bare "Stein" shares 21 homeokinetic/name FPs
   closed, negatives kept)))); her "Write it!" (the imperative,
   Margaret's) is the RESULTS doc (write it (the verdict,
   published)).
+## Round 255 — Things and roads (Williams, Hughes, Frost, O'Hara; 2026-11-02)
+
+Motivation: the program trusts things (rows) over ideas (theories) and
+takes one road (single attempts). Four American poets of the concrete.
+(Bare "Hughes" shares 3 dirty-work FPs; bare "Frost" shares 3
+Reed–Frost FPs; PhilSci set already mapped (Kuhn/Lakatos/Feyerabend
+round exists) — full names/titles throughout.)
+
+- **No ideas but in things [canon: Williams (concrete contact;
+  specified William Carlos (vs PID/tangled-bank FPs)); verification
+  deferred].** → William's dictum (no ideas but in things (the poem,
+  local (the local, contacted))) is the program (no theories but in
+  rows (the verdict, local (contact-weighted (the weighting,
+  exact)))); his wheelbarrow (so much depends (upon it (the red
+  (glazed)))) is the bank (so much depends (upon it (fresh (the
+  fresh, spent)))).
+- **Dreams deferred, watched [canon: Hughes (deferral; specified
+  Langston (vs dirty-work FPs)); verification deferred].** →
+  Langston's dream deferred (does it dry up (like a raisin (or
+  explode)) is the standing trigger (does it fire (like tax < 0.1
+  (or gen-3 (the firing, watched)))); his "does it stink like rotten
+  meat" is the NOGO (does it stink (like flat +0.004 (the stink,
+  published))).
+- **The road taken once [canon: Frost (one road; specified Robert
+  (vs Reed–Frost FPs)); verification deferred].** → Robert's road
+  not taken (two roads (I took the one (the one, single))) is the
+  single attempt (two designs (we run the one (frozen (the frozen,
+  kept)))); his "and that has made all the difference" is the
+  negative-preservation rule (and that has kept all the negatives
+  (the keeping, everything)).
+- **Between runs [canon: O'Hara (lunch poems; specified Frank
+  (vs no hits)); verification deferred].** → Frank's Lunch Poems
+  (written at lunch (between work (the between, quick))) are the
+  literature rounds (written between attempts (the alternation,
+  quick (program, lit, program (the rhythm, kept)))); his "I do
+  this, I do that" is the ledger (12 mains, 18 mains (the counting,
+  exact)).
