@@ -49,6 +49,12 @@ still drowned by same-val confirming contacts.
    variation needing its own freeze — not a repair, not a rescore.
 3. No contradiction with any closed line (lossy cure replicates;
    exact wound unmeasured here but present in counts).
+4. Reading caution (R435/AERA): evidence can STRENGTHEN before
+   collapse (non-monotonic) — L (+4402..+10646) must NOT be read
+   as confidence in the OLD cause; pooled confirming counts are
+   not belief. Frozen+small-delta (Sandwich-Residuals + RAEGL,
+   twice-confirmed) is the licensed-shaped pattern going forward:
+   freeze the big, gate the small delta.
 
 ## Line status
 
