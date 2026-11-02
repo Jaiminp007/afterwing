@@ -95,3 +95,9 @@ the map stays open, not empty.
   gate avoidance by cause. Genuinely new family (not gain, not
   selection, not scaling). Needs a frozen plan + fresh bank to run;
   direction-first and falsifiable-both-ways must be IN the freeze.
+- R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
+  multi-codebook training (train A + pseudo-codebooks synthesized
+  from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
+  Lee canonical-projection, Wang domain-vs-content as unlicensed
+  variants). Changes the train protocol — G2b baseline implications
+  must be IN any freeze. Candidates, not lines.
