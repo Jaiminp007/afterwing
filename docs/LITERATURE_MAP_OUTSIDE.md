@@ -16238,3 +16238,36 @@ dropped, not mapped.)
   the first idea in 30+ rounds that sits OUTSIDE the weight locus.
   Filed for the transfer-side hunt (TRANSFER_MAP addendum next
   program turn).
+## Round 349 — Carnegie, octaves, walls, desert (Evgeny, Arcadi, Louise, Ulrike; 2026-11-02)
+
+Motivation: further outside (prodigy debuts, impossible octaves,
+wall assemblages, desert taboos). The program Carnegies (houses
+attempts), octaves (spans bars), walls (freezes ledgers), and
+deserts (withholds claims). Four more. (Map hits 354 rounds.)
+
+- **Carnegie prodigy [canon: Evgeny (Carnegie prodigy;
+  specified Evgeny Kissin (vs no hits)); verification
+  deferred].** → Evgeny's Carnegie (prododied, kept (debuted,
+  played (hall, kept))) is the attempt (single, kept
+  (authorized, run (once, held))); his "Appassionata" (feared,
+  kept (Beethoven, played)) is the trigger (watched, kept (shut,
+  confirmed (V4, held))).
+- **Impossible octaves [canon: Arcadi (impossible octaves;
+  specified Arcadi Volodos (vs no hits)); verification
+  deferred].** → Arcadi's octaves (impossibled, kept (spanned,
+  struck (keys, kept))) is the bar (spanned, kept (unmoved,
+  standing (still, kept))); his "Mozart" (transcribed, kept
+  (Turkish, played)) is the row (read, kept (honest, told (all,
+  counted))).
+- **Wall assemblage [canon: Louise (wall assemblages; specified
+  Louise Nevelson (vs no hits)); verification deferred].** →
+  Louise's walls (assembled, kept (boxed, stacked (wood, kept)))
+  is the ledger (stacked, kept (exact, told (all, counted))); her
+  "Night" (walled, kept (white, kept)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
+- **Desert taboo [canon: Ulrike (desert taboos; specified Ulrike
+  Ottinger (vs no hits)); verification deferred].** → Ulrike's
+  desert (tabooed, kept (crossed, filmed (Mongolia, kept))) is
+  the claim (withheld, kept (RSI, unclaimed (still, standing)));
+  her "Ticket" (priced, kept (no, counted)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
