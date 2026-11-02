@@ -20276,3 +20276,30 @@ holds 492 rounds.)
   won (crowd, kept))); his "Practical" (learning, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 487 — Splined, expanded, knotted, distilled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: new substrates — same wound,
+different body (already-cited substrate leads none; KAN family,
+four branches).
+
+- **KAN wound [arXiv:2511.12828 (Rahman; vs no hits)].**
+  KANs' intrinsic resistance CLAIMED, behavior UNCLEAR
+  (localized splines vs forgetting). → New body, same
+  question (our body-transfer, architecture-side). Filed
+  as the substrate twin.
+- **KAN expansion [arXiv:2507.04020 (Ullah; vs no hits)].**
+  Replace ViT MLPs with KANs (overwrite problem addressed
+  structurally). → Structure resists overwrite (our exact-
+  wound, structural twin). Unlicensed.
+- **Per-knot anchoring [arXiv:2605.12306 (Cheon / KAN-CL; vs
+  no hits)].** Importance at PER-KNOT granularity (uniform
+  penalties blind to input region). → Anchor where the
+  parameter serves (our HB-address, granularity-side).
+  Filed as the granularity twin.
+- **Self-distillation [arXiv:2605.16865 (Liu / MixSD; vs no
+  hits)].** Teacher-FREE distribution-aligned injection
+  (don't imitate low-probability sequences). → Inject
+  without breaking (our adopt-iff, injection-side). Filed.
+- Program note: the substrate changes, the wound persists;
+  anchor per-knot, inject aligned. None licensed — filed.
