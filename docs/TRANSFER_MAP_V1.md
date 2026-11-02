@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R417 addendum: un-mixing shelf (Su separate-first + UnMix-TNS
+  per-instance + MoETTA one-path-per-domain + Meta-TTT align-
+  auxiliary); Tomar's temporal-correlation warning adopted as
+  method-note (our rows are temporally correlated by construction);
+  all unlicensed.
 - R415 addendum: MASA self-referential trap (vote with the wound's
   own outputs) filed on C16 as the mechanism-mistake to avoid
   (external anchors or stark statistics only); UniTTA honest-wild
