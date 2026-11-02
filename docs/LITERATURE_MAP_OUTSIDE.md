@@ -12949,3 +12949,41 @@ encounters bottleneck everything). Four who watched people in places.
   townscape (here vs there (the contrast, composed)) is the flip-
   split (train vs transfer (the contrast, contact-weighted (same/
   flipped (the split, labeled)))).
+## Round 249 — Open form (Feldman, Brown, Cunningham, Graham; 2026-11-02)
+
+Motivation: the program runs frozen instruments with free outcomes
+(Halprin's lesson, R247). Four who composed the frame and freed the
+contents. (Bare "Feldman" shares 3 niche-construction FPs; bare
+"contraction" shares 2 structural FPs — full names/phrases throughout.)
+
+- **The quiet chapel [canon: Feldman (soft sounds; specified
+  Morton (vs niche-construction FPs)); verification deferred].** →
+  Morton's Rothko Chapel (so quiet (the audience leans in (the
+  leaning, the piece))) is the row file (so plain (the reader leans
+  in (dev-results.json (the leaning, exact)))); his durations (the
+  piece lasts (as long as it lasts (no development (the time,
+  scale-free)))) are the 1792 ticks (lasting as long as they last
+  (no development within (the within, frozen))).
+- **Available arms [canon: Brown (open form; specified Earle
+  (vs no hits)); verification deferred].** → Earle's Available Forms
+  (the conductor chooses (the order, live (the players, ready))) is
+  the alpha panel (the scorer chooses (the best, post hoc (the arms,
+  ready (0.05–0.25 (all ready, all ~0.95))))); his open form (fixed
+  materials (free sequence (the freedom, bounded))) is the frozen
+  plan (fixed code (free outcomes (the outcomes, single attempt))).
+- **Chance, seeded [canon: Cunningham (chance operations;
+  specified Merce (vs no hits)); verification deferred].** → Merce's
+  chance operations (coin tosses (the order, found (not made))) are
+  the bank draws (seeded RNG (the order, found (deterministic
+  (the determinism, exact)))); his "chance" (that isn't chance
+  (the method, fixed (the dice, loaded by design))) is the frozen
+  inference (greedy .5 (the dice, loaded (the loading, disclosed))).
+- **Contract and release [canon: Graham (contraction and release;
+  specified Martha (vs structural FPs)); verification deferred].** →
+  Martha's contraction and release (the body gathers (then lets go
+  (the technique, everything))) is the shrinkage (weights gather
+  (×0.25 (then let go (the letting-go, measured (+0.13 (the plus,
+  plateaued)))))); her contraction (the floor (the pelvis, the
+  center)) is the BH floor (0.7 (the center, held (all doses (the
+  holding, exact)))) and her release (the extension (the line,
+  long)) is the HB lift (0.95 (the line, long (the plateau, flat))).
