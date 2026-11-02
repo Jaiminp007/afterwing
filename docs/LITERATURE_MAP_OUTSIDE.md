@@ -24078,3 +24078,30 @@ Four more. (Map holds 622 rounds.)
   landed (graces, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Paul" (graceland, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 615 — Leaned, grounded, stepped, solved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: symbolic memory — less
+context more proof (already-cited verification/memory leads
+converging; symbolic family, four branches).
+
+- **Lean context [arXiv:2606.09900 (Wang / Engram; vs no
+  hits)].** Lean BEATS full (dual-process; distractors
+  accumulate; inconsistent harnesses). → Lean the
+  context (our tar-in-place, lean-side). Filed.
+- **Bi-temporal graph [arXiv:2608.24921 (Rajah; vs no
+  hits)].** Three COSTS (infra + quality + time;
+  refuse bad edges; superseded vs current). →
+  Ground temporally (our per-line ledgers,
+  graph-side). Filed.
+- **Symbolic steps [arXiv:2607.23055 (Usmanova /
+  SymStep; vs no hits)].** Atomic claims + PROPAGATOR
+  (reject contradictions; cascade implied). → Step
+  symbolically (our tick math, step-side). Filed.
+- **Logical solvers [arXiv:2608.26836 (Fan / SymbolLKG;
+  vs no hits)].** CoT lacks RIGOR (logical KG +
+  symbolic solver; structure missed). → Solve
+  logically (our scorers, solver-side). Filed.
+- Program note: lean context, ground temporally, step
+  symbolically, solve logically — the symbolic-memory
+  file. None licensed — filed.
