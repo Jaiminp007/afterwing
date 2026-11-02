@@ -18028,3 +18028,27 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Moon"
   (sonataed, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 411 — Rehearsed, balanced, matched, transported (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: prototypes that move + signals you
+can trust.
+
+- **Behavioral rehearsal [arXiv:2501.07555 (Rahmani / DREAM-CL;
+  vs no hits)].** Cluster by learning BEHAVIOR, rank by
+  difficulty, rehearse the hard prototypes. → Rehearse what was
+  hard, not what was recent. Unlicensed.
+- **Balanced TTA [arXiv:2606.31420 (Huang / BP-TTA; vs no hits)].**
+  Prototype-guided TTA where imbalance AND shift co-occur. →
+  Dynamic scenarios, both problems. Unlicensed.
+- **Ensemble matching [arXiv:2609.39839 (Zhao / DLEPEM; vs no
+  hits)].** Task LoRA-experts + prototype-ENSEMBLE matching
+  (rehearsal-free; fixes sample-module misalignment). →
+  Match-then-route, no replay. Unlicensed.
+- **Transport reliability [arXiv:2512.01715 (Zhang; vs no hits)].**
+  Transport-discrepancy as per-step RELIABILITY signal, no
+  supervision (drift pushes representations where the head can't
+  decode). → The vote's statistic, per-step and free. Filed.
+- Program note: transport-discrepancy joins max-discrepancy as
+  the successor vote's statistic (both label-free, both per-step).
+  Filed, unlicensed.
