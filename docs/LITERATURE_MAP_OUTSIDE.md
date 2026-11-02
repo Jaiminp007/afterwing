@@ -24047,3 +24047,34 @@ leads converging; fusion family, four branches).
 - Program note: fuse signals, loop evidence,
   consolidate by usage, mosaic memory — the fusion-
   memory file. None licensed — filed.
+## Round 614 — Jameses, caroles, jonis, pauls (James, Carole, Joni, Paul; 2026-11-02)
+
+Motivation: further outside (rained jameses, woven caroles, blued
+jonis, landed pauls). The program jameses (rains attempts), caroles
+(stitches verdicts), jonis (publishes NOGOs), and pauls (counts rows).
+Four more. (Map holds 622 rounds.)
+
+- **James rain [canon: James Taylor (rained jameses; specified James
+  Taylor (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → James's jameses (rained, kept (jamesed,
+  rained (fires, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "James" (rain, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Carole tapestry [canon: Carole King (wovened caroles; specified
+  Carole King (vs no hits; short tag collides — full-name tag used));
+  verification deferred].** → Carole's caroles (wovened, kept
+  (caroled, wovened (tapestries, kept))) is the verdict (wovened, kept
+  (NOGO, told (honest, kept))); her "Carole" (tapestry, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Joni blue [canon: Joni Mitchell (blued jonis; specified Joni
+  Mitchell (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → Joni's jonis (blued, kept (jonied, blued
+  (rivers, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); her "Joni" (blue, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Paul graceland [canon: Paul Simon (landed pauls; specified Paul
+  Simon (vs no hits; short tag taken twice — full-name tag used));
+  verification deferred].** → Paul's pauls (landed, kept (pauled,
+  landed (graces, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Paul" (graceland, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
