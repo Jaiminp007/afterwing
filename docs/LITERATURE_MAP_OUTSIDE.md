@@ -17467,3 +17467,27 @@ more. (Map hits 396 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Schubert" (wandered, kept (played, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 391 — Discrepant, prototyped, meta-detected, hypothesized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: concept-drift detection — the
+successor vote's statistic (detect the new cause, then switch).
+
+- **Max discrepancy [arXiv:2407.05375 (Wan; vs no hits)].**
+  Online drift detection via MAXIMUM concept discrepancy
+  (label-free). → The vote's statistic: max discrepancy, not
+  pooled L. Unlicensed.
+- **Drift prototypes [arXiv:2404.02572 (Malialis; vs no hits)].**
+  Drift detection + prototype embeddings, incremental. →
+  Prototypes detect the drift. Unlicensed.
+- **Learned detector [arXiv:2105.01419 (Yu / Meta-ADD; vs no
+  hits)].** LEARN to detect (and TYPE) drift from error-rate
+  patterns. → The detector itself learned; drift typed.
+  Unlicensed.
+- **Hypothesis testing [arXiv:1707.07821 (Yu / HHT; vs no hits)].**
+  Hierarchical hypotheses: detect AND adapt to drift types
+  (recurrent/irregular/gradual/abrupt). → Type the drift, then
+  adapt accordingly. Unlicensed.
+- Program note: Wan's max-discrepancy (not pooled sums) is the
+  direct fix for C16's dilution (one flipped cue's max, not all
+  cues' sum). Filed with the successor design, unlicensed.
