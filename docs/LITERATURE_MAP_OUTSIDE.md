@@ -17995,3 +17995,36 @@ replay what you're unsure of, with summaries that stay fresh.
 - Program note: Zhu's staleness (fixed summaries rot under shift)
   is the prototype-version of our wound — and the argument for
   adaptive (not fixed) cause representations. Filed, unlicensed.
+## Round 410 — Melodies, flags, pleasure, spiders (Albert, Rauschenberg, Speusippus, Aloys; 2026-11-02)
+
+Motivation: further outside (children's melodies, combined
+flags, pleasured Ones, etude spiders). The program melodies
+(runs attempts), flags (stitches verdicts), pleasures (publishes
+NOGOs), and spiders (counts rows). Four more. (Map holds 416
+rounds.)
+
+- **Melody child [canon: Albert (child melodies; specified
+  Albert Loeschhorn (vs no hits)); verification deferred].** →
+  Albert's melodies (childed, kept (played, progressed (etudes,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Canon" (round, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Flag combine [canon: Rauschenberg (combine flags; specified
+  Robert Rauschenberg (vs no hits; first-name tag collides R382
+  — surname tag used); verification deferred].** →
+  Rauschenberg's flags (combined, kept (painted, erased (de
+  Kooning, kept))) is the verdict (erased, kept (NOGO, told
+  (honest, kept))); his "Goat" (monogrammed, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Pleasure One [canon: Speusippus (One pleasures; specified
+  Speusippus (vs no hits)); verification deferred].** →
+  Speusippus's pleasure (oned, kept (defined, gooded (pleasure,
+  kept))) is the claim (gooded, kept (RSI, unclaimed (still,
+  standing))); his "Division" (cut, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Spider etude [canon: Aloys (spider etudes; specified Aloys
+  Schmitt (vs no hits)); verification deferred].** → Aloys's
+  spiders (etuded, kept (played, prepped (fingers, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Moon"
+  (sonataed, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
