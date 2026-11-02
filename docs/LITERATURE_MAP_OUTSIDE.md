@@ -20700,3 +20700,32 @@ holds 506 rounds.)
   (carried, won (crowd, kept))); his "Delay" (nashville, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 501 — Proposed, worlddb-ed, anticipated, disposed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: commit verbs — propose, verify,
+commit (already-cited loop-shape leads converging; verbs
+family, four branches).
+
+- **Propose-verify-commit [arXiv:2609.23465 (Lu / EGMEMORY; vs
+  no hits)].** Evidence chains (training-free; distributed
+  evidence; revision allowed). → Our loop's verbs, memory-
+  side. Filed as the verbs twin.
+- **Graph-of-worlds [arXiv:2604.18478 (Ganesan / WorldDB; vs
+  no hits)].** Write-time RECONCILIATION (supersession/
+  contradiction first-class; recursive composition). → Our
+  bank-reconciliation (supersession = adoption), engine-
+  side. Filed as the reconciliation twin.
+- **Anticipate-not-archive [arXiv:2606.15405 (Guo / T-Mem; vs
+  no hits)].** Memory that ANTICIPATES (reachability ≠
+  similarity; descriptive misses). → Memory serves the
+  future (T²Mem seconded). Filed.
+- **Propose-dispose instrument [arXiv:2608.04066 (Arjmandi;
+  vs no hits)].** LLM proposes, EXECUTIVE disposes
+  (verification STRUCTURAL; pre-registered predictions
+  matched by code). → Our freeze-before-evidence +
+  scorer-verifies (the discipline, instrument-side). Filed
+  as the instrument twin.
+- Program note: propose, verify, commit; reconcile at write;
+  anticipate; verify structurally — the verbs file. None
+  licensed — filed.
