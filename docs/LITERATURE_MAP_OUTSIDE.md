@@ -15659,3 +15659,36 @@ substrings, disclosed per Fini precedent; map hits 335 rounds.)
   standing (still, kept))); her "Mozart" (fifth, kept (concerto,
   played)) is the verdict (published, kept (NOGO, told (honest,
   kept))).
+## Round 332 — Skill policies, curricula, stepping stones, rethinking (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: order/curriculum — does SEQUENCE
+shape transfer? (Our chains fix H0→H1→H2; never varied.)
+
+- **Skill parameters [arXiv:2110.10255 (Zentner; vs no hits)].**
+  Store knowledge ONLY as learned skill policies (+ careful
+  pre-training). → Transplant analog: our weights ARE the carried
+  policies; our train leg IS the pre-training. Precedent that the
+  carrier (not the schedule) is the design object.
+- **Curriculum composition [arXiv:2605.23067 (He; vs no hits)].**
+  Fixed architecture/algo/hyperparams; ONLY the training
+  curriculum varies (in/mixed/out-of-domain) — composition shapes
+  memory-agent skills. → Order/composition matters for memory.
+  Our fixed order is an unexamined choice — but testing orders
+  spends banks mapping the wound (6th axis; diminishing returns
+  ruled). NOTED, not licensed, not parked.
+- **Stepping stones [arXiv:2402.16681 (Liu / W-MPOT; vs no
+  hits)].** Transfer curriculum over source+intermediate domains
+  (Wasserstein-ordered); domain ordering + error accumulation
+  rigorously addressed. → Our T1→T2 chains ARE intermediates;
+  distance-ordered curricula untested. Same ruling: mapping, not
+  licensed, not parked.
+- **Rethinking [arXiv:1907.01929 (Parisi; vs no hits)].**
+  CL for autonomous agents/robots: rich learning capabilities for
+  uncertain streams; interference framing. → Framing affinity
+  (agents, interference); no mechanism to lift.
+
+Ruling (program): order/curriculum studies characterize the wound;
+characterization is closed (5 axes + diminishing returns). These
+papers are precedents for the record, not candidates — nothing
+here clears the C15 bar (same task/gap/channel, would-be mapping).
