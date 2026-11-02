@@ -20763,3 +20763,31 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Still" (go, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 503 — Audited, carried, covered, located (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: structural verification — audit
+the mechanism, not the name (already-cited instrument lead
+converging; verify family, four branches).
+
+- **Mechanism audit [arXiv:2610.41604 (Chen; vs no hits)].**
+  PRE-REGISTERED audit (NAMING ≠ COMPUTING; claim-
+  implementation gap; line-numbered). → Audit what the
+  mechanism DOES (our scorer-verifies, audit-side). Filed
+  as the audit twin.
+- **Proof-carrying [arXiv:2609.09776 (Reddy; vs no hits)].**
+  Verification gap = BINDING CONSTRAINT (reality-settled
+  reward; unsound verifier pays). → Carry the proof with
+  the cognition (our digest-per-row, proof-side). Filed.
+- **Coverage-not-targeting [arXiv:2609.02417 (Zhou; vs no
+  hits)].** Verifier INFORMATION DENSITY (terminal verifiers
+  = low-density; targeting wrong axis). → Cover, don't
+  target (our flip-split coverage, density-side). Filed.
+- **Reliability location [arXiv:2609.03192 (Marsden; vs no
+  hits)].** Append-only LEDGER adjudicates; mind/
+  institution/world SEPARATED. → Location is experimental
+  (our separation of agent/scorer/bank, separation twin).
+  Filed.
+- Program note: audit the doing, carry the proof, cover
+  don't target, locate reliability — the verify file. None
+  licensed — filed.
