@@ -62,6 +62,11 @@ verdicts — never run, never claimed); what would license new work.
   cues. Agents learn the rule; the wound is pure failure-to-unlearn
   (see SHORTCUT_AUDIT_V1). Subtler cue-threshold variant untested.
   Extinction lens stands alone.
+- Rigidity framing (R357/Gu ERI): the literature's name for the same
+  wound — inherited weights biasing reuse toward prior-satisfying
+  features (Einstellung), rigidity DISTINCT from forgetting. Our HB
+  gap is one instance of the class. Framing only (no measure
+  computed here, no mechanism follows).
 
 ## What would license transfer-side work
 
