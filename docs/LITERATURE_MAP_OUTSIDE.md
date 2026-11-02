@@ -16673,3 +16673,28 @@ rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Schubert" (wandered, kept (improvised, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 363 — Transformed, sourced, dark, blended (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: input-side adaptation — move the
+data, not the weights (our transfer side's one unlicensed family).
+
+- **Input transformation [arXiv:2106.14999 (Mummadi; vs no
+  hits)].** Fully test-time adaptation via confidence
+  maximization + INPUT transformation; arbitrary pretrained nets.
+  → The original input-side TTA. Unlicensed (needs transform
+  machinery at transfer time).
+- **Back to the source [arXiv:2207.03442 (Gao / DDA; vs no
+  hits)].** Project test inputs toward the SOURCE domain with a
+  generative diffusion model (don't retrain — re-project). →
+  Our transfer restated: project new-codebook inputs toward the
+  train codebook. Unlicensed (needs train-world generator).
+- **Dark adaptation [arXiv:2604.15609 (Zhang / BETA; vs no
+  hits)].** Black-box TTA: no weight access, input-space
+  adaptation via a steering model + prediction harmonization. →
+  Matches OUR constraint shape (frozen weights, input-side
+  only). Unlicensed (needs steering model).
+- **Blended experts [arXiv:2402.08712 (Lee / BECoTTA; vs no
+  hits)].** Input-dependent online blending of domain low-rank
+  experts for continual TTA. → Routing by input, continually.
+  DTR-relevant (blend, don't transplant). Unlicensed.
