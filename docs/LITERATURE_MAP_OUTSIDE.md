@@ -13640,3 +13640,35 @@ real-lit FPs — full names throughout.)
   (no triumph (the verdict, flat (published (kept)))); his
   losers persisting (drunks, employed (kindness, found)) are
   the closed lines (NOGOs, kept (the program, continuing)).
+## Round 269 — Lap, dish, komi, knots (Senna, Adria, Go, Nakashima; 2026-11-02)
+
+Motivation: outside the previous boxes (sports, cuisine, games,
+craft). The program qualifies (fixtures green), deconstructs (flaws
+disclosed), compensates (dose-matched), and keeps knots (negatives).
+Four more. (AlphaGo shares RL-canon hits — komi instead.)
+
+- **The qualifying lap [canon: Senna (pole laps; specified
+  Ayrton (vs no hits)); verification deferred].** → Ayrton's
+  qualifying (one lap (all or nothing (pole, taken))) is the
+  fixture gate (all green (all or nothing (bank, taken))); his
+  rain driving (the limit, felt) is the op cap (4.0e9, felt
+  (3.3e9, under)).
+- **Taken apart [canon: Adria (deconstruction; specified
+  Ferran + elBulli (vs no hits)); verification deferred].** →
+  Ferran's deconstruction (the dish, apart (flavors, same)) is
+  the flaw disclosure (the line, apart (verdicts, kept (the
+  data, same))); his tasting menu (thirty courses (small,
+  each)) is the mains series (twenty runs (small, each
+  (the dose, matched))).
+- **Compensation points [canon: Go (komi; specified komi (vs
+  no hits)); verification deferred].** → komi (points given
+  (first-move, balanced)) is the dose match (application
+  timed (adoption, balanced (1024, both))); its half-point
+  (no draws (the verdict, forced)) is G2b (no ties (the
+  gate, forced (pass or fail (no rounding)))).
+- **Knots kept [canon: Nakashima (live-edge wood; specified
+  George (vs no hits)); verification deferred].** →
+  George's knots (the flaw, kept (the board, honored)) is
+  negative-preservation (the NOGO, kept (the map, honored));
+  his "the tree speaks" (listening, first) is the sandbox
+  (evaluating, first (adopting, after)).
