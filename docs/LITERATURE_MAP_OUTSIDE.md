@@ -17745,3 +17745,27 @@ rounds: R179–R400, 225 rounds, ~169 arXiv IDs, 0 worlds.)
   (carried, won (crowd, kept))); her "Grater" (divided, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 401 — Complexified, decoupled, probed, sliced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: conflict handling — what to do when
+old and new pull apart.
+
+- **Structural adaptation [arXiv:2412.04190 (Erden / DIRAD+PREVAL;
+  vs no hits)].** Complexify past statistical conflicts; prevent
+  forgetting by detection. → Grow around the conflict; detect
+  first. Unlicensed.
+- **Decoupled routing [arXiv:2604.22407 (Hu; vs no hits)].**
+  Shared-routing projections collapse to vanilla forgetting;
+  only ADAPTIVE DECOUPLED routing survives. → V1o-adjacent
+  caution (shared thirds collapse; decouple or die). Unlicensed.
+- **Self-probe gradients [arXiv:2609.32771 (Cho / CPLUS; vs no
+  hits)].** Frozen model self-generates probes; dampen updates
+  that conflict with prior gradients. → Probe-then-dampen, no
+  replay. Unlicensed (needs probe generation).
+- **Surgery init [arXiv:2605.12752 (Pasquali / SLICE; vs no hits)].**
+  Conflict-aware adapter INIT channels updates away from learned
+  directions. → Start where you won't overwrite. Unlicensed.
+- Program note: Hu's collapse (shared → vanilla forgetting) is
+  V1o's thirds in miniature; CPLUS probe-then-dampen is the
+  gentlest conflict response on record. Filed, unlicensed.
