@@ -23720,3 +23720,32 @@ dells (stitches verdicts), impalas (publishes NOGOs), and fiestas
   (fined, kept (fiestaed, fined (sos, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Fiesta" (fine, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 603 — Compressed, conditioned, validated, gated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: measurement — measure
+the instrument then the thing (already-cited validity/audit
+leads converging; measurement family, four branches).
+
+- **Endpoint replay [arXiv:2607.25123 (Panahi; vs no
+  hits)].** Store LESS (chain experience; value
+  propagation; compress recency). → Compress the
+  buffer (our tar-in-place, replay-side). Filed.
+- **Conditioned evaluation [arXiv:2609.03900 (Choi; vs
+  no hits)].** Winner CHANGES across region
+  (time-and-capacity-conditioned; one checkpoint
+  insufficient). → Condition the eval (our per-leg,
+  condition-side). Filed.
+- **Unstable measurement [arXiv:2609.04198 (Zhu; vs no
+  hits)].** Same request DIFFERS tomorrow
+  (preregistered failure; 0.400 vs 0.90). → Validate
+  the instrument (our fixtures, validation-side).
+  Filed.
+- **Commit gates [arXiv:2609.10969 (Zheng / VP-CONTROL;
+  vs no hits)].** Verifiers INHERIT fault (shared
+  evidence 62.9% unsafe vs 22%; cost-aware). →
+  Diversify the gate (our independent auditors,
+  gate-side). Filed.
+- Program note: compress buffers, condition evals,
+  validate instruments, diversify gates — the
+  measurement file. None licensed — filed.
