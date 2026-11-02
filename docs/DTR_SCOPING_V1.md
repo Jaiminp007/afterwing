@@ -65,6 +65,10 @@ open sentence into a work list — advancement, not closure.
   chemotaxis trunk + small task heads, don't generate everything);
   HyperMask merges the SU thread (trunk-GENERATED masks — our per-tick
   mask could one day be per-task generated, conditional on the trunk);
+- R350 addendum: DaCoRL (incremental context-clustering + expandable
+  multihead policy for continual RL) joins TAME/HyperMask as the third
+  part-(i) reference — clustering + expansion in one system (routing
+  and growth together).
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)

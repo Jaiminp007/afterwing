@@ -80,6 +80,13 @@ channel — nothing in 14 lines ever grows (all dims fixed). But it needs
 dynamic capacity = substrate work (bigger than DTR part (i); the trunk
 must be growable before any line uses growth). PARKED-architectural with
 mask-per-task (candidate 4): distinct mechanisms, same parking lot.
+R350 upgrade (2026-11-02): Kong (growing/elastic nets preserve plasticity;
+online CL like animals) reframes the rationale — grow for PLASTICITY (live
+substrate), not capacity (bigger substrate). Stronger rationale, same
+parking (needs dynamic capacity). P&C (active column → knowledge base;
+ACCELERATES subsequent learning) is the productivity analog on record —
+the closest architectural precedent for VISION requirement (b); banked
+with the candidate, not a line.
 
 ## Screened out pre-candidacy (R332, 2026-11-02): order/curriculum studies
 

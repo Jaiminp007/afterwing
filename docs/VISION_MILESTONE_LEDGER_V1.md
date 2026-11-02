@@ -34,10 +34,13 @@ exact open items. Nothing here changes any verdict.
 - RSI proper — bounded recursive self-improvement: OPEN.
   Requires ALL of: (a) ≥2 successive persistent revisions lifting
   transfer vs copied-improvement + matched-budget controls;
-  (b) improved subsequent search (search-productivity);
+  (b) improved subsequent search (search-productivity — closest precedent
+  on record: P&C active-column→knowledge base accelerates subsequent
+  learning; unlicensed here);
   (c) embodied controller benefit; (d) learning-algorithm redesign
-  evidence. Current: capability without product (13/260/0).
-  Next: genuinely-new-rationale C15 (none known) or DTR path.
+  evidence. Current: capability without product (14/282/0).
+  Next: genuinely-new-rationale C16 (none known; C15 closed the
+  revision-adds-value hypothesis twice) or DTR path.
 
 ## What "done" looks like (so stopping is checkable)
 
