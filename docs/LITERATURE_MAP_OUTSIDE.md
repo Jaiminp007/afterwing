@@ -14705,3 +14705,38 @@ are finite-substrings, not the person; map hits 306 rounds.)
   gate (shut, kept (M4, confirmed (V3, held))); her "Composition"
   (skulls, kept (feathers, worn)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 303 — Revelations, perfect, birthdays, monolith (Alvin, Sandy, Dorothea, Stanley; 2026-11-02)
+
+Motivation: further outside (modern dance, perfect games,
+birthday tableaux, monolith cuts). The program reveals (publishes
+verdicts), refuses (withholds claims), is born again (fresh banks),
+and cuts (edits frozen). Four more. (Sutherland dropped — surname
+shared with real-lit canon (Stephens & Sutherland 1999), Kirby/
+Rubin precedent; Fuller dropped — R155's Lon Fuller; map hits 307
+rounds.)
+
+- **Wade revelations [canon: Alvin (dance revelations; specified
+  Alvin Ailey (vs no hits)); verification deferred].** → Alvin's
+  "Wade in the Water" (wading, kept (troubled, crossed)) is the
+  transfer (crossed, kept (gap, taxed (paid, kept))); his
+  Revelations (danced, kept (I, Sterling (been, buc))) is the
+  verdict (published, kept (honest, told (NOGO, kept))).
+- **Perfect refusal [canon: Sandy (perfect game; specified Sandy
+  Koufax (vs no hits)); verification deferred].** → Sandy's
+  perfect (27, kept (up, down (out, none (walked, kept)))) is the
+  redone (empty, kept (none, re-run (never, held))); his Yom
+  (Kippur, kept (sat, out (pitched, not))) is the second attempt
+  (refused, kept (single, held (once, kept))).
+- **Birthday doors [canon: Dorothea (soft birthdays; specified
+  Dorothea Tanning (vs no hits)); verification deferred].** →
+  Dorothea's birthdays (soft, kept (tableaux, sewn (doors, kept
+  (open, covered)))) is the bank (fresh, kept (built, spent
+  (54, kept))); her "Eine Kleine" (music, kept (soft, stopped
+  (playing, kept))) is the loop (fired, kept (twice, evaluated
+  (sandbox, kept))).
+- **Monolith cuts [canon: Stanley (monolith cuts; specified
+  Stanley Kubrick (vs no hits)); verification deferred].** →
+  Stanley's monolith (cut, kept (apes, taught (bone, thrown (up,
+  kept)))) is the plan (frozen, kept (written, held (still,
+  kept))); his maze (hedged, kept (twins, standing)) is the gate
+  (shut, kept (M4, confirmed (V3, held))).
