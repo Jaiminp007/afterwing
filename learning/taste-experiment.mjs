@@ -8,11 +8,11 @@ import {tickMotor} from './tick-actor-critic.mjs';
 import {pursuitMotor} from './pursuit-authority.mjs';
 import {chargeForStep,billSarsaWork,encodedStateBytes} from './sarsa-experiment.mjs';
 import {createTasteEnergyBody,chooseTasteEnergyAction,observeTasteEnergyBody,freezeTasteEnergyBody,resetTasteEnergyBody,compactTasteEnergyBody,restoreTasteEnergyBody} from './taste-energy.mjs';
-import {attachOperatorLoop,fireLooperProposal,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
+import {attachOperatorLoop,fireLooperProposal,adoptOperatorLive,OL_MENU,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
 import {createTasteKernelBody,chooseTasteKernelAction,observeTasteKernelBody} from './taste-kernel.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
-export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper']);
+export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper','copier']); // C7: copier auto-adopts blind at the proposal tick (dose-matched control)
 
 // R-GAP S2 schedule gate (plan docs/R_GAP_PLAN_V1A.md): per-tick acquisition
 // windows within each continual phase. frontload learns the first half of every
@@ -216,7 +216,7 @@ export class TasteExperiment{
     for(const fly of before){
       const state=this.learners[fly.id],alive=this.world.flies.includes(fly),examples=state.tasteExamples??0;
       const own={agentId:fly.id,tick:this.world.tick,energy:(alive?fly.energy:0)-state.charge.outstandingEnergy,lastFood:fly.lastFood,terminal:!alive};
-      if(this.program==='taste'){(this.arm==='tasteKernel'?observeTasteKernelBody:observeTasteEnergyBody)(state,own,e=>this.record({type:'update',event:e}),{damage:this.lastDamage?.[fly.id]??0});if(this.arm==='looper'&&own.tick===OL_PROPOSAL_TICK&&this.looperMenuIndex!=null&&state.rsiLoop)fireLooperProposal(state,this.looperMenuIndex);}else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
+      if(this.program==='taste'){(this.arm==='tasteKernel'?observeTasteKernelBody:observeTasteEnergyBody)(state,own,e=>this.record({type:'update',event:e}),{damage:this.lastDamage?.[fly.id]??0});if(this.arm==='looper'&&own.tick===OL_PROPOSAL_TICK&&this.looperMenuIndex!=null&&state.rsiLoop)fireLooperProposal(state,this.looperMenuIndex);/* C7: blind adoption, same tick, no sandbox/fee (dose matched) */if(this.arm==='copier'&&own.tick===OL_PROPOSAL_TICK&&this.copierMenuIndex!=null)adoptOperatorLive(state,OL_MENU[this.copierMenuIndex]);}else{state.lastObservedTick=this.world.tick;state.dead=!alive;}
       stats.tasteExamples+=(state.tasteExamples??0)-examples;
       if(!alive)billSarsaWork(state,this.pricing);
       this.record({type:'observe',own});
