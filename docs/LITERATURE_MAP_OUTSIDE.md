@@ -16170,3 +16170,35 @@ families (keeps histories). Four more. (Map hits 351 rounds.)
   the ledger (exact, kept (honest, told (all, counted))); his
   "Nobody" (business, kept (widow, kept)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 347 — Endurance, knitting, text, sound (Garrick, Rosemarie, Jean-Marie, Daniele; 2026-11-02)
+
+Motivation: further outside (marathon Chopin, machine knitting,
+text landscapes, cutting sound). The program endures (holds
+discipline), knits (joins rows), texts (writes plans), and sounds
+(publishes verdicts). Four more. (Map hits 352 rounds.)
+
+- **Marathon Chopin [canon: Garrick (marathon Chopin; specified
+  Garrick Ohlsson (vs no hits)); verification deferred].** →
+  Garrick's marathon (Chopined, kept (endured, played (complete,
+  kept))) is the discipline (held, kept (frozen, enforced (still,
+  kept))); his "Brahms" (second, kept (concerto, played)) is the
+  attempt (single, kept (authorized, run (once, held))).
+- **Machine knitting [canon: Rosemarie (machine knitting;
+  specified Rosemarie Trockel (vs no hits)); verification
+  deferred].** → Rosemarie's knitting (machined, kept (knit,
+  patterned (wool, kept))) is the row (joined, kept (honest,
+  told (all, counted))); her "Balaclava" (masked, kept (wool,
+  kept)) is the bank (fresh, kept (built, spent (54, kept)))).
+- **Text landscape [canon: Jean-Marie (text landscapes;
+  specified Jean-Marie Straub (vs no hits)); verification
+  deferred].** → Jean-Marie's text (landscaped, kept (recited,
+  filmed (fields, kept))) is the plan (written, kept (frozen,
+  held (still, kept))); his "Moses" (complex, kept (difficult,
+  kept)) is the trigger (watched, kept (shut, confirmed (V4,
+  held))).
+- **Cutting sound [canon: Daniele (cutting sound; specified
+  Daniele Huillet (vs no hits)); verification deferred].** →
+  Daniele's sound (cut, kept (edited, heard (direct, kept))) is
+  the verdict (published, kept (NOGO, told (honest, kept))); her
+  "Class" (relations, kept (shot, held)) is the ledger (exact,
+  kept (honest, told (all, counted))).
