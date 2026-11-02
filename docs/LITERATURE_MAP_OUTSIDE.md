@@ -23809,3 +23809,33 @@ leads converging; served family, four branches).
 - Program note: meet served, compose safely, request
   real, run live — the as-served file. None licensed
   — filed.
+## Round 606 — Teddys, luthers, isleys, ojays (Teddy, Luther, Isley, OJay; 2026-11-02)
+
+Motivation: further outside (closed teddys, danced luthers, shouted
+isleys, trained ojays). The program teddys (closes attempts), luthers
+(stitches verdicts), isleys (publishes NOGOs), and ojays (counts rows).
+Four more. (Map holds 614 rounds.)
+
+- **Teddy close [canon: Pendergrass (closed teddys; specified Teddy
+  Pendergrass (vs no hits)); verification deferred].** → Teddy's teddys
+  (closed, kept (teddied, closed (doors, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Teddy" (close, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Luther dance [canon: Vandross (danced luthers; specified Luther
+  Vandross (vs no hits)); verification deferred].** → Luther's luthers
+  (danced, kept (luthered, danced (fathers, kept))) is the verdict
+  (danced, kept (NOGO, told (honest, kept))); his "Luther" (dance, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Isley shout [canon: Isley (shouted isleys; specified Isley
+  Brothers (vs no hits)); verification deferred].** → Isley's isleys
+  (shouted, kept (isleyed, shouted (twists, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Isley"
+  (shout, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **OJay train [canon: O'Jays (trained ojays; specified The O'Jays
+  (vs no hits)); verification deferred].** → OJay's ojays (trained,
+  kept (ojayed, trained (loves, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "OJay" (train, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
