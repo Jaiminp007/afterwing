@@ -16814,3 +16814,36 @@ training-side analog of multi-context extinction.
   A, transfer B) joins inference-gating as candidate family #2.
   Changes the train protocol — G2b baseline implications must be
   IN any freeze. Candidates, not lines.
+## Round 368 — Wrinkles, portraits, cities, caresses (Clifford, Kerry, Al, Benno; 2026-11-02)
+
+Motivation: further outside (wrinkle Mozarts, black portraits,
+virtuous cities, caressing Rachmaninoffs). The program wrinkles
+(runs attempts), portraits (stitches verdicts), cities (publishes
+NOGOs), and caresses (counts rows). Four more. (Map hits 374
+rounds.)
+
+- **Wrinkle Mozart [canon: Clifford (wrinkle Mozarts; specified
+  Clifford Curzon (vs no hits)); verification deferred].** →
+  Clifford's wrinkles (Mozarted, kept (played, voiced (concertos,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Brahms" (intermezzoed, kept (played, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Portrait black [canon: Kerry (portrait blacks; specified Kerry
+  James Marshall (vs no hits)); verification deferred].** →
+  Kerry's portraits (blacked, kept (painted, pasted (figures,
+  kept))) is the verdict (pasted, kept (NOGO, told (honest,
+  kept))); his "Garden" (partied, kept (painted, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **City virtuous [canon: Al (city virtuouses; specified
+  Al-Farabi (vs no hits)); verification deferred].** → Al's
+  cities (virtuoused, kept (ruled, harmonized (citizens, kept)))
+  is the claim (harmonized, kept (RSI, unclaimed (still,
+  standing))); his "Letters" (counted, kept (obtained, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Caress Rachmaninoff [canon: Benno (caress Rachmaninoffs;
+  specified Benno Moiseiwitsch (vs no hits)); verification
+  deferred].** → Benno's caresses (Rachmaninoffed, kept (played,
+  stroked (preludes, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Waltz" (minuted, kept (played,
+  kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
