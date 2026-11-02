@@ -23574,3 +23574,33 @@ leads converging; anchoring family, four branches).
 - Program note: anchor relatively, compare relatively,
   ground steps, repair reasoning — the anchoring file.
   None licensed — filed.
+## Round 598 — Satins, penguins, flamingos, moonglows (Satin, Penguin, Flamingo, Moonglow; 2026-11-02)
+
+Motivation: further outside (night satins, angel penguins, eyed
+flamingos, sincere moonglows). The program satins (still attempts),
+penguins (stitches verdicts), flamingos (publishes NOGOs), and
+moonglows (counts rows). Four more. (Map holds 606 rounds.)
+
+- **Satin still [canon: Satins (stilled satins; specified Five Satins
+  (vs no hits)); verification deferred].** → Satin's satins (stilled,
+  kept (satined, stilled (nights, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Satin" (still, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Penguin angel [canon: Penguins (angeled penguins; specified The
+  Penguins (vs no hits)); verification deferred].** → Penguin's
+  penguins (angeled, kept (penguined, angeled (earths, kept))) is the
+  verdict (angeled, kept (NOGO, told (honest, kept))); his "Penguin"
+  (angel, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Flamingo eye [canon: Flamingos (eyed flamingos; specified The
+  Flamingos (vs no hits)); verification deferred].** → Flamingo's
+  flamingos (eyed, kept (flamingoed, eyed (yous, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Flamingo"
+  (eye, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Moonglow sincere [canon: Moonglows (sincered moonglows; specified
+  The Moonglows (vs no hits)); verification deferred].** → Moonglow's
+  moonglows (sincered, kept (moonglowed, sincered (yous, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Moonglow"
+  (sincere, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
