@@ -12706,3 +12706,66 @@ specification).)
   (fail-closed (INVALID over wrong (the wrong, refused))).
   Butler's meta-hint (all quotes... no (the hints, plain)) —
   the plainest hint (keep the ledger (the keeping, total)).
+## Round 244 — Software culture, part 2 (Pike, Crockford, Ousterhout, Gabriel; 2026-11-02)
+
+Motivation: the apparatus is software all the way down (and the map
+is its ethnography). Four more builders — the culture, continued.
+(Bare "Pike" shares alarm-spike FP; bare "JSON" shares 19 .json-path
+FPs — full names and doctrines throughout.)
+
+- **Data dominates [canon: Pike (data dominates; specified Rob
+  (vs spike FP)); verification deferred].** → Pike's rule (fancy
+  algorithms are insignificant next to data (show me your flowcharts
+  (conceal your tables (I remain mystified); show me your tables
+  (I won't need your flowcharts)))) is the program (the algorithms:
+  trivial (greedy 0.5 (sigmoid (halve (the fancy, none))); the TABLES:
+  everything (dev-results (the tables, published (the verdicts, read
+  off tables (not flowcharts (the flowcharts, absent (the control flow:
+  frozen (the flow, single))))))))). Rob's UTF-8 (the design that won
+  (by being simple (backwards-compatible (good enough)))) is the row
+  schema (JSON (not named (FP noted)); plain objects (backwards-
+  compatible (old rows still read (the reading, forever))))). Data
+  dominates: 8070 worlds of it (the domination, ledgered).
+- **The good parts, frozen [canon: Crockford (good parts;
+  JSLint; specified Douglas (vs .json FPs)); verification
+  deferred].** → Crockford's good parts (the subset that works
+  (use this (avoid that (the language, subsetted)))) are the frozen
+  instruments (the subset that runs (deterministic (no Date.now in
+  scoring (no Math.random unseeded (the subset, enforced (fixtures
+  as JSLint (the linting, green (13/13 (the good parts, proven)))))))).
+  JSLint (the tool that refuses (bad parts (with prejudice))) is the
+  scorer's asserts (join ≥ 0.99 (refused below); caps (refused above);
+  the refusal, loud (fail-closed (the closed, safe)))). Douglas's
+  JSON (the good parts of data interchange) is every dev-results file
+  (numbers, strings, arrays (no functions (no prototypes (no dates
+  (the dates, ISO strings in attempt.json only (the only exception,
+  documented)))))). The good parts, versioned (schema: 1 (the version,
+  frozen)).
+- **Deep modules, tiny gates [canon: Ousterhout (deep modules;
+  Philosophy of Software Design; specified John (vs no hits));
+  verification deferred].** → Ousterhout's depth (small interface,
+  large implementation (the best modules (hiding complexity (behind
+  simplicity)))) is the scorer (scoreTurnGateV1m(rows, pairs) → verdict
+  (the interface: two args (the implementation: 450 lines (the depth,
+  honest)))); the runner (runTurnGatedDevV1m({bankPath, output}) → verdict
+  (the interface: two paths (the implementation: worlds (the worlds,
+  hidden (behind the call))))). John's complexity (define it out
+  (tactical tornadoes vs strategic (the tornado, frozen (out)))) is
+  the slip history (tactical errors (exact-arm remnant (fixed fast));
+  strategic simplicity (frozen plans (the strategy, kept))). Deep
+  modules, shallow gates (G0–G2d (the gates, tiny (the tiny, binding))).
+- **Worse is better, measured [canon: Gabriel (Worse is Better;
+  specified Richard (vs no hits)); verification deferred].** →
+  Gabriel's worse (the RIGHT thing (correct, consistent, complete)
+  vs worse-is-better (simple (correct-ish (shipped (winning))))) is
+  V1 (the RIGHT kernel-critic (capacity 256 (correct (accepted);
+  consistent (gradient); complete (full records)) — LOSES (budget
+  (3.3× over (the right, unshippable)))); the WORSE kernel-taste
+  (capacity 64 (correct-ish (FITS (shipped (the shipped, frozen))));
+  V1m's α=0.25 (worse weights (BETTER transfer (0.914 (the worse,
+  measured (the measure, fresh))))))). Worse-is-better, enacted
+  per line (simple runs (exact fails (the lesson, repeated (V1,
+  V1A, V1k (the repetition, licensed (the license: gates)))))).
+  Richard's paradox (the worse system displaces the righter one
+  (by surviving (deployment))) is earlyWindow (deployed (conditionally
+  (the deployment, surviving (the survival, licensed)))).
