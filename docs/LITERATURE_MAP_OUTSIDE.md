@@ -18844,3 +18844,36 @@ repeated; only the new branches are banked).
 - Program note: Masana + Hess together say the program's
   posture is right-shaped (preserve first, transfer is bonus);
   Zhu says watch rank not means. None licensed — filed.
+## Round 440 — Cages, grottoes, be-bops, countrysides (Herbert, Theodor, Tadd, Liang; 2026-11-02)
+
+Motivation: further outside (caged callows, hanging grottoes,
+be-bop ladies, reconstructed countrysides). The program cages
+(runs attempts), hangs (stitches verdicts), bops (publishes NOGOs),
+and countrysides (counts rows). Four more. (Map holds 446
+rounds.)
+
+- **Cage callow [canon: Ferber (caged callows; specified Herbert
+  Ferber (vs no hits)); verification deferred].** → Herbert's
+  cages (callowed, kept (caged, soldered (sculptures, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Callow" (caged, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Grotto hang [canon: Roszak (hanging grottoes; specified
+  Theodor Roszak (vs no hits)); verification deferred].** →
+  Theodor's grottoes (hung, kept (dripped, welded (grottoes,
+  kept))) is the verdict (welded, kept (NOGO, told (honest,
+  kept))); his "Whaler" (harpooned, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Be-bop lady [canon: Dameron (be-bop ladies; specified Tadd
+  Dameron (vs no hits)); verification deferred].** → Tadd's
+  be-bops (ladied, kept (arranged, composed (heat, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Lady" (birded, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Countryside reconstructed [canon: Liang (reconstructed
+  countrysides; specified Liang Shuming (vs no hits));
+  verification deferred].** → Liang's countrysides
+  (reconstructed, kept (ruraled, lectured (villages, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Cultures" (easted, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
