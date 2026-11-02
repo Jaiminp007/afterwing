@@ -12814,3 +12814,48 @@ material FPs; bare "Eno" shares 120 phenotype/genotype FPs; bare
   anchor, common (all arms, same ticks (the same, matched)))).
   In C works because the cue is shared (the sharing, load-bearing
   (unshared cues (the V1 transfer, taxed))).
+## Round 246 — Sustained tones (Young, Oliveros, Longplayer, Noether; 2026-11-02)
+
+Motivation: the program holds notes for years (frozen plans; 1792-tick
+loops; ledgers that never resolve). Four sustainers. (Bare "Finer"
+shares 3 finer-dose FPs — Longplayer only, no surname.)
+
+- **The held tone [canon: Young (drone; specified La Monte (vs no
+  hits)); verification deferred].** → La Monte's Dream House (a chord
+  held for decades (the room, tuned (listeners come and go (the chord,
+  stays)))) is the frozen plan (V1N held (the implementations come and
+  go (the plan, stays))); the drone (one frequency (forever (the
+  forever, the piece))) is the +0.1 band (one threshold (forever (the
+  forever, binding))). Young's just intonation (ratios exact (no
+  tempering (the tuning, pure))) is the integer ledger (counts exact
+  (no rounding (the rounding, refused))).
+- **Listening as method [canon: Oliveros (Deep Listening;
+  specified Pauline (vs no hits)); verification deferred].** →
+  Pauline's Deep Listening (listening below the threshold (the quiet,
+  attended (the attention, the instrument))) is the probe program
+  (probeCueValues (below behavior (the quiet, read (the reading,
+  exact)))); the Sonic Meditations (scores as instructions (the
+  instruction, the piece)) are the fixtures (green before bank (the
+  green, the permission)). Oliveros listens (the program records
+  (every tick (every agent (the every, joined)))).
+- **The millennial composition [canon: Longplayer (1000-year
+  performance; no surname claimed); verification deferred].** →
+  Longplayer (a piece that outlives its composers (started 2000 (ends
+  2999 (the ending, delegated)))) is the frozen-plan lineage (V1 →
+  V1N (the plans outlive their sessions (the sessions, compacted (the
+  compaction, summarized (this log, kept))))); its Tibetan-bowl
+  algorithm (deterministic (no repetition for a millennium (the
+  non-repetition, composed))) is the bank discipline (fresh seeds
+  (no repetition ever (the never, enforced (union-excluded)))). The
+  millennium (the horizon, kept) is the negative-preservation rule
+  (nothing erased (the nothing, forever)).
+- **What conservation proves [canon: Noether (symmetry–
+  conservation; specified Emmy (vs no hits)); verification
+  deferred].** → Emmy's theorem (every symmetry (a conservation law
+  (the law, exact))) is the accounting gate (frozen inference
+  symmetric (every op billed (energy conserved (<1e-7 (the residual,
+  the proof)))))); the symmetry (running the same code (all arms
+  (the same, exactly))) is the null-default (untouched branches
+  (bit-identical (the identical, triaged))). Noether says: tell me
+  your symmetries (I tell you what's conserved (the rows (the rows,
+  kept (the kept, published)))).
