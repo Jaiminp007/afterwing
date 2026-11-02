@@ -17522,3 +17522,27 @@ and patterns (counts rows). Four more. (Map hits 398 rounds.)
   (sixty, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Scales" (climbed, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 393 — Tested, surveyed, fingerprinted, prototyped (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: drift statistics — how to know the
+world changed (and whether you've seen it before).
+
+- **GoF testing [arXiv:2505.04318 (Ayers; vs no hits)].**
+  Chi-squared goodness-of-fit for drift in NNs at inference
+  (adaptable across scenarios). → A vote statistic with
+  distributions, not thresholds. Unlicensed.
+- **Unified survey [arXiv:2505.17902 (Cabrera Martin; vs no hits)].**
+  Drift + forgetting + adaptation surveyed TOGETHER. → Our two
+  phenomena in one frame; the map's reading list.
+- **Fingerprinting [arXiv:2603.11094 (Halstead; vs no hits)].**
+  Represent stationary concepts; test similarity to detect drift
+  to NEW or RECURRING concepts. → Fingerprint the codebook;
+  recurring = flip-back detected. Unlicensed.
+- **Cross-domain prototypes [arXiv:2601.14336 (Sharma; vs no
+  hits)].** Meta-learning + prototypical nets for cross-domain
+  anomaly (one domain's model fails in another — our transfer).
+  → Prototypes bridge domains. Unlicensed.
+- Program note: Halstead's recurring-concept detection is the
+  flip-back alarm (A→B→A). Filed with the successor design,
+  unlicensed.
