@@ -21370,3 +21370,29 @@ basses (stitches verdicts), glorias (publishes NOGOs), and byrds
   (joined, kept (carried, won (crowd, kept))); his "Byrd" (flight,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 523 — Analogized, semanticized, surveyed, embodied (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: analogy transfer — translate to
+the analogous place (already-cited similarity lead converging;
+analogy family, four branches).
+
+- **Analogical transfer [arXiv:2605.14393 (Kim; vs no hits)].**
+  Translate to SEMANTICALLY ANALOGOUS location (naive
+  matching collides/distorts). → Analogy, not identity
+  (our transfer-is-matrix, analogy-side). Filed.
+- **Movement semantics [arXiv:2511.12061 (Lai / MovSemCL; vs
+  no hits)].** Movement-SEMANTICS contrastive (multi-scale
+  structure; plausible augmentations). → Compare movement,
+  not points (our leg-compare, semantics-side). Filed.
+- **Similarity survey [arXiv:2303.05012 (Hu; vs no hits)].**
+  Comprehensive DISTANCE catalog (quantitative study).
+  → Measure the distance (our gap metrics, catalog-
+  side). Filed as reference.
+- **Cross-embodiment [arXiv:2603.06450 (Yang; vs no hits)].**
+  Analogies enable CROSS-EMBODIMENT transfer (organize
+  heterogeneous data for TARGET). → Body transfer by
+  analogy (our V1/V2 arc, embodiment-side). Filed as
+  the body twin.
+- Program note: analogize, semanticize, measure, embody —
+  the analogy file. None licensed — filed.
