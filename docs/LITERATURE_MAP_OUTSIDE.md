@@ -14979,3 +14979,42 @@ virgin pre-append. These have teeth, not just analogies.
   different revision channel (revise DURING transfer). Recorded as
   a candidate channel for a future rationale (not specified, not
   frozen, not licensed).
+## Round 311 — When transfer, backward, world-model, replay-free (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Chosen for the distinct-tasks milestone
+(VISION: "continual retention across distinct tasks remains open").
+
+- **When should transfer exist [arXiv:2607.15587 (Meng; vs no
+  hits)].** CL targets not-forgetting; forward transfer pursued
+  only via parameter reuse, with no account of WHEN to expect it;
+  they start one step earlier (conditions for transfer). → Same
+  question our tax arc answers negatively (dose/leg/compatibility
+  all fail as predictors; only direction matters). Their "one step
+  earlier" is where PRE_TRANSFER_COMPATIBILITY_V1 now sits (r =
+  +0.106, closed). Independent convergence on the question; opposite
+  verdicts (they build conditions, we report absence).
+- **Backward transfer [arXiv:2211.00789 (Lin; vs no hits)].**
+  Minimizing modification for old tasks LIMITS backward transfer
+  (new→old improvement); they enable it. → Our C-lines test only
+  FORWARD (train→new codebook). Backward (does learning H1 help or
+  hurt H0?) is untested anywhere in the program. Feeds the DTR
+  scoping (same turn): re-test-After-B is the missing direction.
+- **Replay to a world model [arXiv:2401.16650 (Yang/WMAR; vs no
+  hits)].** Continual RL via replay TO a world model (model-based),
+  not model-free replay buffers; leverages environment knowledge
+  independent of policy. → Our replay is model-free (gain modulates
+  live updates; surprise gates extinction). World-model replay is
+  an untested channel — recorded, unlicensed (no world-model
+  substrate exists; building one is a program, not a line).
+- **Replay-free retention [arXiv:2605.15053 (Ganguli/TFGN; vs no
+  hits)].** Input-conditioned parameter-efficient updates, rest of
+  transformer unchanged; six heterogeneous domains at 1B tokens
+  per phase, no replay, no task labels, no forgetting. →
+  Existence proof that retention ≠ replay, at scale, across
+  DISTINCT domains. Challenges our replay-centric loop assumption
+  at the architectural level: our 12-line arc varies replay and
+  finds nothing; TFGN varies architecture and keeps everything.
+  Recorded (unlicensed — no transformer substrate here), but it
+  reframes the C-series null: maybe the loop's channel (replay
+  gains), not its settings, is the wrong place to look.

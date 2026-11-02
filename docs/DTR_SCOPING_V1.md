@@ -1,0 +1,50 @@
+# DISTINCT-TASKS RETENTION (DTR) SCOPING V1 — BLOCKED-substrate
+
+Date: 2026-11-02. Status: DESIGN ONLY (no license, no bank, no code).
+Motivation: VISION names it open ("continual retention across distinct
+tasks remains open") despite M2 MET within-task; R311 fuel (Lin
+backward transfer; Yang world-model replay; Ganguli replay-free).
+
+## What DTR would test (sketch, not frozen)
+
+Sequential A→B with the SAME agents, then re-test A (backward) and
+test B (forward): does learning B preserve-or-improve A while
+acquiring B? Arms (sketch): sequential vs single-task-A vs
+single-task-B vs reset. Gates (sketch): A-retention (re-test A ≥
+train A − tol) AND B-acquisition (B ≥ unlearned + bar), conjunctive.
+Distinct tasks in-substrate: taste turn-gating vs odor-routed
+foraging vs mating/encounter.
+
+## Central blocker: no shared representation across tasks
+
+1. Controllers are task-specific (taste 96-dim chemotaxis weights;
+   odor/mating dims differ). Transplant machinery REQUIRES weight-
+   shape identity (checkTransplantIntegrity) — cross-task transplant
+   is currently ill-defined, not just untested.
+2. Weights ARE niche models (1-NN 1.000) — the very property that
+   makes them transferable within-task makes them non-portable
+   across tasks. Retention across distinct tasks needs a shared
+   trunk (doesn't exist) or task-indexed heads (don't exist).
+3. No backward-transfer scorer exists (all scorers are forward:
+   train→transfer). The T1/T2 chain machinery measures forward legs
+   only.
+4. The odor task itself is exploratory (ODOR_ROUTED dev only, never
+   qualified) — DTR would need TWO qualified tasks first.
+
+## Verdict: BLOCKED-substrate (specified parts list, no freeze)
+
+DTR is not freezable now. Parts, in order: (i) shared-trunk (or
+head-indexed) instrument + fixtures; (ii) cross-task transplant
+definition + integrity; (iii) backward scorer (re-test-A
+machinery); (iv) second qualified task; (v) then a DTR frozen plan
++ fresh bank. Each part is its own line. This scoping converts the
+open sentence into a work list — advancement, not closure.
+
+## R311 implications recorded (unlicensed)
+
+- Backward (Lin) is the missing DIRECTION, but direction alone
+  doesn't unblock (blockers 1–4 stand regardless of direction).
+- Replay-free retention (Ganguli) suggests the eventual answer may
+  be architectural (trunk/heads), not replay-scheduling —
+  consistent with blockers 1–2 being substrate, not schedule.
+- World-model replay (Yang) stays a channel without a substrate.
