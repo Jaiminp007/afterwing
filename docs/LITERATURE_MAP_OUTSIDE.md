@@ -12987,3 +12987,40 @@ contents. (Bare "Feldman" shares 3 niche-construction FPs; bare
   center)) is the BH floor (0.7 (the center, held (all doses (the
   holding, exact)))) and her release (the extension (the line,
   long)) is the HB lift (0.95 (the line, long (the plateau, flat))).
+## Round 250 — Refusal and duration (Rainer, Brown, Tarkovsky, Bresson; 2026-11-02)
+
+Motivation: the program is a century of no (no rescoring, no second
+attempts, no erased failures) and hours of uncut time (1792-tick takes).
+Four refusers. (Bare "accumulation" shares 13 evidence-accumulation FPs;
+bare "models" unclaimable — full names/methods throughout.)
+
+- **The No manifesto [canon: Rainer (No Manifesto; specified
+  Yvonne (vs no hits)); verification deferred].** → Yvonne's No
+  Manifesto (no to spectacle, no to virtuosity, no to transformations
+  (no no no (the dance, ordinary))) is the frozen plan (no to
+  rescoring, no to second attempts, no to tuning (no no no (the
+  verdict, audited))); her ordinary movement (walking, running
+  (the pedestrian, enough)) is the collector (joining ticks (the
+  ordinary, exact)).
+- **Adding one gesture [canon: Brown (additive dance; specified
+  Trisha (vs evidence-accumulation FPs)); verification deferred].** →
+  Trisha's method (one gesture, then two, then three (adding (the
+  addition, visible))) is the kernel record stream (one record, then
+  two (adding to 64 (the addition, billed))); her equipment pieces
+  (harnesses, walls (dance where it can't happen)) are the caps
+  (10.0e9, 10800s (dance where it can't overspend)).
+- **The uncut take [canon: Tarkovsky (duration pressure;
+  specified Andrei (vs no hits)); verification deferred].** →
+  Andrei's long take (time pressing inside the shot (the pressure,
+  unedited)) is the 1792-tick main (selection pressing inside the
+  run (the pressure, uncapped within caps)); his Sculpting in Time
+  (the image, carved (not assembled)) is the attempt (single,
+  carved (not assembled from retries (redone[] (the empty, kept)))).
+- **Agents, not actors [canon: Bresson (non-actors; specified
+  Robert (vs unclaimable "models"))); verification deferred].** →
+  Robert's non-actors (he called them models (people emptied of
+  acting (the emptiness, the point))) are the flies (agents emptied
+  of intent (the emptiness, load-bearing (no identity, no valence,
+  no future rewards))); his automatism (the hand, doing (before the
+  head, deciding)) is the greedy rule (0.5 (doing before deliberating
+  (the doing, proven)))).
