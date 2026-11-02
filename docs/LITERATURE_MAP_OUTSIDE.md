@@ -22966,3 +22966,30 @@ rows). Four more. (Map holds 584 rounds.)
   (damned, kept (buddied, damned (rights, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Buddy" (damn, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 577 — Bounded, atomized, collapsed, built (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: composition — parts don't
+make wholes (already-cited compositional/reasoning leads
+converging; composition family, four branches).
+
+- **Boundary probing [arXiv:2605.31478 (Wu; vs no
+  hits)].** API-knowledge BOUNDARY (hallucinated
+  functions; frozen benchmark + deployment workflow).
+  → Probe the boundary (our transfer guard,
+  boundary-side). Filed.
+- **Atoms-not-knowledge [arXiv:2610.25317 (Gao; vs no
+  hits)].** Write-content VERDICT (bounded-feasibility
+  audit; sufficiently-trained prior). → Audit the
+  write (our digest-per-link, atom-side). Filed.
+- **Composition collapse [arXiv:2605.26789 (Yu; vs no
+  hits)].** Stable facts ≠ ASSEMBLY (40-point
+  separation; invisible to aggregates). → Assemble or
+  fail (our G2a transfer, collapse-side). Filed.
+- **RL-builds [arXiv:2607.07646 (Abdulsalam; vs no
+  hits)].** Amplify vs COMPOSE (auditable grammar;
+  held-out solves). → Build the strategy (our
+  looper menu, build-side). Filed.
+- Program note: probe boundaries, audit writes, test
+  assembly, build strategies — the composition file.
+  None licensed — filed.
