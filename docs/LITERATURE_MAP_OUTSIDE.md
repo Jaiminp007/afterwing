@@ -22911,3 +22911,30 @@ rows). Four more. (Map holds 582 rounds.)
   hopped (skips, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Roy" (hop, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 575 — Hidden, audited, sought, traced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: hidden failures — the score
+hides the state (already-cited shortcut/audit leads
+converging; hidden family, four branches).
+
+- **Hidden failure states [arXiv:2607.24268 (Yang; vs no
+  hits)].** Execution evidence vs CORRECTNESS (two
+  layers; matched budgets). → Separate layers (our
+  G0-vs-G2a, layer-side). Filed.
+- **Artifact-vs-shortcut [arXiv:2610.00202 (Xin; vs no
+  hits)].** CAUSAL auditing (correctness-vs-provenance
+  entangled; surface classifier). → Audit the corpus
+  (our shortcut audit, artifact-side). Filed.
+- **Hide-and-seek signals [arXiv:2605.30834 (Park; vs no
+  hits)].** Failure SIGNALS in trajectories (don't
+  propagate labels uniformly; runtime monitoring). →
+  Seek the signal (our per-leg deltas, signal-side).
+  Filed.
+- **MemTrace [arXiv:2606.17328 (Long; vs no hits)].**
+  KNOWLEDGE-point unit (probe each fact across
+  conditions; rows miss behavior). → Trace the fact
+  (our digest-per-link, point-side). Filed.
+- Program note: separate layers, audit corpora, seek
+  signals, trace facts — the hidden-failures file. None
+  licensed — filed.
