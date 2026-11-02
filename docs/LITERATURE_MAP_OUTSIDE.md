@@ -21554,3 +21554,31 @@ holds 534 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Sonnet" (free, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 529 — Bridged, measured, aligned, translated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: executability — semantic vs
+embodied (already-cited move-first lead converging; execute
+family, four branches).
+
+- **Executability gap [arXiv:2610.25687 (He; vs no hits)].**
+  SEMANTIC competence vs EMBODIED realization (permissive
+  simulators mask infeasibility). → Competence isn't
+  execution (our G0-vs-G2a, VLN-side). Filed as the gap
+  twin.
+- **Measure embodiment [arXiv:2512.18028 (Sohn / Embodied4C;
+  vs no hits)].** Turing test for EMBODIED reasoning
+  (embodiment influences all). → Measure the embodied
+  (our transfer test, benchmark-side). Filed.
+- **Physical hierarchy [arXiv:2610.02197 (Kazimi / HiPhy; vs
+  no hits)].** HIERARCHICAL alignment (multi-principle
+  coherence; buoyancy + fluids). → Align hierarchically
+  (our seg-chain, video-side). Filed.
+- **Abstract-executable [arXiv:2210.07658 (Tao; vs no hits)].**
+  DECOUPLE plan from execution (abstract env; one-shot
+  generalization). → Plan abstract, execute concrete
+  (our abstract-train→transfer, plan-side). Filed as the
+  plan twin.
+- Program note: bridge the gap, measure embodiment, align
+  hierarchically, decouple plan — the execute file. None
+  licensed — filed.
