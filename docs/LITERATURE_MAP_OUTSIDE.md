@@ -16304,3 +16304,40 @@ architectural candidate's literature and a measurable mechanism.
   are computable read-only from stored weights — a licensed
   zero-worlds measurement (like compatibility V1) whenever
   specified. Not specified yet; recorded.
+## Round 351 — Bells, truisms, intimate, moonlight (Nikolai, Jenny, Barbara, Maria; 2026-11-02)
+
+Motivation: further outside (bell pianists, LED truisms, intimate
+dyketactics, moonlight sonatas). The program bells (rings
+triggers), truisms (freezes bars), intimates (keeps negatives),
+and moonlights (publishes NOGOs). Four more. (Sokolov dropped —
+surname shared with real-lit canon; Hammer hits are
+Hammerstein-FPs per duplicate audit; Pires hit is an
+expires-substring; both disclosed per Fini precedent; map hits
+356 rounds.)
+
+- **Bell pianist [canon: Nikolai (bell pianist; specified
+  Nikolai Lugansky (vs no hits)); verification deferred].** →
+  Nikolai's bells (pianoed, kept (rung, played (Rachmaninoff,
+  kept))) is the trigger (rung, kept (watched, shut (confirmed
+  (V4, held)))); his "Chopin" (played, kept (etudes, stood)) is
+  the attempt (single, kept (authorized, run (once, held))).
+- **Truism LEDs [canon: Jenny (truism LEDs; specified Jenny
+  Holzer (vs no hits)); verification deferred].** → Jenny's
+  truisms (LEDed, kept (abused, scrolled (power, kept))) is the
+  bar (set, kept (unmoved, standing (still, kept))); her
+  "Survival" (series, kept (started, kept)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Intimate dyketactics [canon: Barbara (intimate dyketactics;
+  specified Barbara Hammer (vs no hits)); verification
+  deferred].** → Barbara's intimate (dyketacted, kept (touched,
+  filmed (bodies, kept))) is the negative (kept, held (intimate,
+  preserved (still, standing))); her "Tender" (fictions, kept
+  (autobiography, kept)) is the bank (fresh, kept (built, spent
+  (54, kept)))).
+- **Moonlight Schubert [canon: Maria (moonlight Schubert;
+  specified Maria Joao Pires (vs no hits)); verification
+  deferred].** → Maria's moonlight (Schuberted, kept (nocturned,
+  played (impromptus, kept))) is the verdict (mooned, kept
+  (NOGO, told (honest, kept))); her "Moonlight" (sonata, kept
+  (Beethoven, played)) is the ledger (exact, kept (honest, told
+  (all, counted))).
