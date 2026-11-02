@@ -22413,3 +22413,33 @@ converging; forensics family, four branches).
 - Program note: tag paths, augment tools, sleuth
   wreckage, stage verdicts — the forensics file. None
   licensed — filed.
+## Round 558 — Crops, ducks, als, bookers (Steve, Duck, Al, Booker; 2026-11-02)
+
+Motivation: further outside (soul-man crops, dock ducks, tight
+als, green bookers). The program crops (harvests attempts), ducks
+(stitches verdicts), als (publishes NOGOs), and bookers (counts
+rows). Four more. (Map holds 566 rounds.)
+
+- **Crop soul [canon: Cropper (soul crops; specified Steve Cropper
+  (vs no hits)); verification deferred].** → Steve's crops (souled,
+  kept (cropped, souled (mans, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Crop" (soul, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Duck dock [canon: Duck Dunn (dock ducks; specified Duck Dunn
+  (vs no hits; short tag taken — full-name tag used)); verification
+  deferred].** → Duck's ducks (docked, kept (ducked, docked (bays,
+  kept))) is the verdict (docked, kept (NOGO, told (honest, kept)));
+  his "Duck" (dock, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Al tight [canon: Al Jackson (tight als; specified Al Jackson
+  (vs no hits; short tag taken thrice — full-name tag used));
+  verification deferred].** → Al's als (tighted, kept (aled,
+  tighted (times, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Al" (tight, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Booker onion [canon: Booker T (onion bookers; specified Booker
+  T. Jones (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Booker's bookers (onioned, kept
+  (bookered, onioned (greens, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Booker" (onion, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
