@@ -181,6 +181,10 @@ the map stays open, not empty.
   decoupled store (TEM); density-not-samples; keep-the-wounds
   (KDF+ HB-legs twin). Memory file: coverage+density+
   difficulty, not recency.
+- R455 minimal mechanisms: frozen+delta 5×-CONFIRMED (PACE);
+  savings > accuracy (Zhou lost-vs-inaccessible twin); smallest
+  delta (norms-only); shift-benchmarks > static bars
+  (SkillShift three-shifts twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
