@@ -14168,3 +14168,33 @@ pre-append.)
   (rows, read (adopted, counted (barren, seen))); her
   "the present is the case" is the ledger (now, kept (counts,
   exact (20/0, told))).
+## Round 286 — Pond, desert, house, tub (Thoreau, Abbey, Beston, Diogenes; 2026-11-02)
+
+Motivation: further outside (pond philosophers, desert rats, beach
+writers, tub philosophers). The program simplifies (freezes),
+solitudes (single attempts), houses (banks), and needs little
+(null-defaults). Four more. (Carson R192-done, dropped.)
+
+- **Deliberate [canon: Thoreau (deliberate living; specified
+  Henry David + Walden (vs no hits)); verification deferred].**
+  → Henry's deliberate (fronting, essentials (lives, counted))
+  is the frozen plan (fronting, essentials (design, kept (no
+  tuning, on eval))); his "simplify" is null-default (unset,
+  off (bit-identical, kept)).
+- **Solitaire [canon: Abbey (desert solitude; specified Edward
+  + Desert Solitaire (vs no hits)); verification deferred].** →
+  Edward's solitude (alone, desert (keeping, watch)) is the
+  single attempt (alone, once (redone[], kept)); his "the
+  desert will never be subdued" is the bar (never, moved
+  (+0.1, kept (unmoved, always))).
+- **Outermost [canon: Beston (beach watching; specified Henry
+  + Outermost House (vs no hits)); verification deferred].** →
+  Henry's house (outermost, kept (watching, year)) is the bank
+  (fresh, kept (seeds, sealed (range, spent))); his surf (coming,
+  always) is the triage (sweeping, all (green, kept (zero-new))).
+- **The tub [canon: Diogenes (needing little; specified
+  Diogenes of Sinope (vs no hits)); verification deferred].** →
+  Diogenes's tub (little, needing (lamp, day)) is the sandbox
+  fee (small, billed (816, kept (of 3.3e9))); his "stand out
+  of my sun" is the verdict (read, kept (steered, never
+  (published, plain))).
