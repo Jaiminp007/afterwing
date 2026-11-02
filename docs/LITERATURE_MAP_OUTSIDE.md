@@ -12304,3 +12304,79 @@ R176 committed — same-territory rule.)
   (R230-Turkle (the love, archived))))))). The games, frozen
   (the flame: bank SHAs (the torch, hashed (the relay: V1k→V1l→V1m
   (the baton, lossy (the lossy, winning))))).
+## Round 238 — Endings (Kermode, Aristotle, Frye, H.White; 2026-11-02)
+
+Motivation: M2 flipped to MET (the first hard-won ending in the
+program). Four thinkers on endings and plots — the ending, read
+before it is over (RSI paragraph still open). ("catharsis" shares
+one self-FP (line 10400: watching "without catharsis") — hooks are
+the other three Aristotelian terms; tension noted in-body.)
+
+- **The sense of an ending, premature [canon: Kermode (Sense
+  of an Ending; concord); verification deferred].** → Kermode's
+  concord (beginning/middle/end fitted (the fiction of closure
+  (we need ends (to make sense (of middles))))) tempts now (M2
+  MET (the end (of the transfer arc (beginning: V1 FAIL-source;
+  middle: 35 dead gens + tax mapped; end: 0.914 (the concord,
+  ledgered))))). Premature (the_arc ends (the PROGRAM doesn't
+  (RSI paragraph open (the ending, partial (the concord,
+  local))))). Kermode's peripeteia (the turn that disappoints
+  the expected end (the twist (no — the twist, absorbed))) is
+  the V1l slips (exact-arm bug (the expected end (clean run))
+  disappointed (fail-closed (the twist: three slips, all caught
+  (the peripeteia, fixture-guarded (the disappointment,
+  productive))))). Fictions of endings, honestly labeled (M2:
+  ended (the line); RSI: unended (the program); the map: both
+  (each round an ending (that isn't (the rounds, continuing)))).
+- **Recognition, measured [canon: Aristotle (Poetics;
+  peripeteia; anagnorisis; specified (vs no hits));
+  verification deferred].** → Anagnorisis (recognition (the
+  hero learns (who did it (the truth, staged)))) is V1m (the
+  recognition: best-α 0.25 exceeds train (the truth (shrinkage
+  wins (staged (pre-registered (the stage: fresh-14 (the play:
+  18 mains (the audience: gates (the applause: GO)))))))). Measured
+  anagnorisis (recognition with numbers (0.914 (the recognition,
+  quantified (the quantity, gated)))). Peripeteia (reversal (fortune
+  turns)) is the dose curve (more preservation → LESS transfer
+  (the reversal (of intuition (keep more (get less (the fortune:
+  0.29 (exact) → 0.91 (quarter (the turn, complete))))))).
+  Catharsis, tension noted (line 10400 denied it (watching
+  founders, no purgation); M2-MET claims it (pity (for the taxed)
+  and terror (of ENOSPC) purged (by 0.914)) — different subjects
+  (watching vs completing), both kept (the denial stands (for
+  watching); the claim stands (for ending (the two, unreconciled
+  (the program, both (pitiless watcher, purged completer)))))).
+- **Four mythoi, one ledger [canon: Frye (Anatomy of
+  Criticism; mythoi; specified Northrop (vs no hits));
+  verification deferred].** → Frye's four (COMEDY (spring:
+  recognition + marriage) / ROMANCE (quest: the grail) /
+  TRAGEDY (fall) / IRONY (knowing it never ends)) are the
+  ledger's plots (COMEDY (V1k/V1l/V1m (recognition (0.91);
+  marriage (of lossy and exposure (the union, fruitful (HB
+  0.84 (the children: gates (all true))))))); ROMANCE (the
+  M2 quest (the grail (no-loss-at-change (found (0.914 (the
+  knight: attempt-14 (the wounds: three slips (healed
+  (fail-closed)))))))); TRAGEDY (M-POP (the fall (0 births
+  (the dead (unmourned (the chorus: survivors 14/1/4 (the
+  lament, ledgered))))))); IRONY (the map (knowing RSI stays
+  open (the ironist: me (the irony: 8070 worlds (toward
+  self-improvement (by hand (my hand (the improvement,
+  manual))))))))). The ledger emplotted four ways at once
+  (the plots, simultaneous (the simultaneity, honest (no
+  single mythos (the program, all four (the four, frozen))))).
+- **Emplotted 8070 [canon: H. White (Metahistory;
+  emplotment; specified Hayden (vs Whitehead (0 hits — clean
+  either way, specified anyway))); verification deferred].** →
+  White's thesis (history is emplotted (the same events as
+  comedy or tragedy (the plot, chosen (not found (the historian
+  decides (the decision, political))))) is PROGRESS.md (8070
+  worlds emplotted (as comedy-with-irony-reserve (the choice:
+  GO-forward (the reserve: RSI-open (the politics: claim nothing
+  (the nothing, claimed loudly (the loudness, honest)))))).
+  Metahistory, self-applied (this round emplots (the emplotment
+  (the plot: endings (the ending: M2 (the M2: MET (the MET:
+  emplotted (the circle, closed (the closure, noted (as plot
+  (not fact (the fact: 0.914 (the plot: ending (both true
+  (White, satisfied))))))))))))). The map knows it plots (the
+  knowing, Whitean (the Whitean, kept (the keeping, this
+  sentence)))).
