@@ -19430,3 +19430,30 @@ rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Renewal" (people, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 459 — Firsted, safed, dualed, slowed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: fast-and-slow — two timescales,
+one system (PLASTIC's chain-shape, four branches; already-cited
+PLASTIC not repeated).
+
+- **First-session baseline [arXiv:2303.13199 (Panos / FSA; vs
+  no hits)].** Adapt body ONLY first session, FIX after
+  (STRONG baseline; head-vs-body contributions). → Our chain
+  shape as a baseline that embarrasses fancier methods. Filed
+  as the baseline twin.
+- **Slow-fast tuning [arXiv:2411.02175 (Zhao / SAFE; vs no
+  hits)].** Slow + fast parameter-efficient tuning (first-
+  session PET, then freeze). → Two timescales, one freeze.
+  Unlicensed.
+- **Dual systems [arXiv:2110.00175 (Pham / DualNet; vs no
+  hits)].** CLS theory: fast hippocampus (episodes) + slow
+  neocortex (structure). → Our loop (fast votes, slow
+  carries) has a neuroscience name. Filed as the CLS twin.
+- **Fast-slow LLMs [arXiv:2605.12484 (Tiwari; vs no hits)].**
+  Parameter updates absorb task info (forgetting) vs in-
+  context fixed-param adaptation (cheap, capped). → The
+  update-vs-carry dilemma, LLM-side (MoLEM's twin). Filed.
+- Program note: fast-slow is the two-timescale family (fast
+  votes, slow carries); FSA is our shape as a baseline. None
+  licensed — filed.
