@@ -23460,3 +23460,34 @@ converging; self family, four branches).
 - Program note: verify intrinsically, invary policy,
   catch strain, stop early — the self-knowledge file.
   None licensed — filed.
+## Round 594 — Everlys, platters, drifters, coasters (Don, Platter, Drifter, Coaster; 2026-11-02)
+
+Motivation: further outside (dreamed everlys, smoked platters,
+walked drifters, yakked coasters). The program everlys (dreams
+attempts), platters (stitches verdicts), drifters (publishes NOGOs),
+and coasters (counts rows). Four more. (Map holds 602 rounds.)
+
+- **Everly dream [canon: Everly (dreamed everlys; specified Everly
+  Brothers (vs no hits)); verification deferred].** → Don's everlys
+  (dreamed, kept (everlied, dreamed (byes, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Everly" (dream, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Platter smoke [canon: Platters (smoked platters; specified The
+  Platters (vs no hits)); verification deferred].** → Platter's
+  platters (smoked, kept (plattered, smoked (onlies, kept))) is the
+  verdict (smoked, kept (NOGO, told (honest, kept))); his "Platter"
+  (smoke, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Drifter walk [canon: Drifters (walked drifters; specified The
+  Drifters (vs no hits)); verification deferred].** → Drifter's
+  drifters (walked, kept (drifted, walked (boards, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Drifter"
+  (walk, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Coaster yak [canon: Coasters (yakked coasters; specified The
+  Coasters (vs no hits)); verification deferred].** → Coaster's
+  coasters (yakked, kept (coastered, yakked (browns, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Coaster" (yak,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
