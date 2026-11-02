@@ -13918,3 +13918,35 @@ full names throughout.)
   stopwatch (the hand, holding (pace, exact)) is the wall cap
   (10800s, holding (attempts, within)); his nine golds (1920s,
   many) are the mains (20, each (run, counted (sealed))).
+## Round 278 — Trial, palace, wreck, solo (Bruce, Lorayne, Ballard, Lindbergh; 2026-11-02)
+
+Motivation: further outside (obscenity trials, memory athletes,
+wreck hunters, solo pilots). The program stands trial (gates),
+palaces memory (banks), finds wrecks (debris), and flies solo
+(single attempts). Four more. (Bare Bruce/Ballard share real-lit
+FPs — full names throughout.)
+
+- **Tried for words [canon: Bruce (obscenity trial; specified
+  Lenny (vs Bruce-effect FP)); verification deferred].** →
+  Lenny's trial (the words, tried (banned, spoken)) is the gate
+  review (the line, tried (INVALID, spoken (published)));
+  his "the trial is the show" is the attempt (the run, the
+  show (20 mains, watched (rows, kept))).
+- **Palace of loci [canon: Lorayne (memory systems; specified
+  Harry (vs no hits)); verification deferred].** → Harry's
+  palace (places, holding (things, kept)) is the bank (ranges,
+  holding (seeds, kept (refused, after))); his "pay attention"
+  is the fixture (green, required (attention, paid (before,
+  bank))).
+- **Finding wrecks [canon: Ballard (wreck hunting; specified
+  Robert (vs Rao-Ballard FP)); verification deferred].** →
+  Robert's Titanic (down, found (kept, visited)) is the debris
+  archive (rows, found (kept, dual (provenance, both))));
+  his "the wreck is a museum" is negative-preservation (kept,
+  all (visited, never (erased))).
+- **Solo across [canon: Lindbergh (solo flight; specified
+  Charles (vs no hits)); verification deferred].** → Charles's
+  Spirit (alone, across (33 hours, kept)) is the single attempt
+  (alone, once (redone[], kept)); his "the storm" (weathered,
+  through) is the triage (13 pre-existing, weathered (through,
+  green (zero-new))).
