@@ -13704,3 +13704,32 @@ names throughout.)
   is the chain (roles (each, its run (train, T1 (T2, validation))));
   his mother sauces (five, base (all, from)) are the five menus
   (gains, skips (shrink, surprise (all, proposed))).
+## Round 271 — Puck, golds, local, shavings (Gretzky, Owens, Waters, Krenov; 2026-11-02)
+
+Motivation: the program skates ahead (fresh plans), wins by running
+(evidence over narrative), eats local (fresh banks), and bills small
+(fees flat). Four more. (All hooks verified virgin pre-append.)
+
+- **Where it's going [canon: Gretzky (anticipation hockey;
+  specified Wayne (vs no hits)); verification deferred].** →
+  Wayne's "skate to where the puck is going" is the frozen plan
+  (design where the question is going (C8, next)); his assists
+  (the pass, before) are the transplants (weights, before (the
+  run, after)).
+- **Running answers [canon: Owens (performance over narrative;
+  specified Jesse (vs no hits)); verification deferred].** →
+  Jesse's four golds (running (the ideology, answered)) is the
+  attempt (running (the question, answered (not argued)));
+  his Berlin (the stage, hostile) is the bank (the histories,
+  hard (H2, harder)).
+- **Local and seasonal [canon: Waters (local food; specified
+  Alice + Chez Panisse (vs no hits)); verification deferred].**
+  → Alice's local (the menu, seasonal (fresh, each (day))) is
+  the bank (the range, fresh (fresh, each (line))); her
+  "taste this" (the peach, now) is the verdict (the numbers,
+  now (read, kept)).
+- **Quiet shavings [canon: Krenov (hand craft; specified
+  James (vs no hits)); verification deferred].** → James's
+  shavings (quiet (the work, small)) is the sandbox fee (flat
+  (the cost, small (816 (of 3.3e9)))); his "listen to the
+  wood" is the vote (listening (the agents, many (carried))).
