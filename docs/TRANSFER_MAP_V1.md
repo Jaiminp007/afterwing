@@ -90,3 +90,8 @@ HB specifically), falsifiable both ways, fresh bank, PLUS the R359/Shi caution (
 unlearning-based line must check the Nth unlearning still works —
 continual unlearning can collapse forget-ability itself). None known —
 the map stays open, not empty.
+- R366 addendum: FIRST CANDIDATE RATIONALE (not a line): latent-cause
+  inference-gating (Song/Lu) — infer the new codebook as a new cause,
+  gate avoidance by cause. Genuinely new family (not gain, not
+  selection, not scaling). Needs a frozen plan + fresh bank to run;
+  direction-first and falsifiable-both-ways must be IN the freeze.

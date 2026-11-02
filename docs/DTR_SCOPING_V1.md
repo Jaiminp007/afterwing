@@ -80,6 +80,12 @@ open sentence into a work list — advancement, not closure.
   codebook-shift), Bendale (original open-world detect+add+update
   loop), Xu (OpenIncrement detect-then-learn). All unlicensed;
   the wing now leads inference-head design with 7 references.
+- R366 addendum: LCNet (shared-in-weights + context-in-module) is
+  the trunk/head theory ANCHOR (strongest on record); Song
+  (extinction = new-cause inference) is the wound's computational
+  theory; ConFER (renewal modeled — our flip-split is a renewal
+  test already); HOLMES (nested online). Theory shelf complete;
+  substrate still the blocker.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
