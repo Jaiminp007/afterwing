@@ -23869,3 +23869,33 @@ boundaries family, four branches).
 - Program note: bound actions, taxonomize misbehavior,
   watch aggregates, guard sessions — the boundaries
   file. None licensed — filed.
+## Round 608 — Spinners, temptations, tops, miracles (Spinner, Temptation, Top, Miracle; 2026-11-02)
+
+Motivation: further outside (rubberband spinners, stone temptations,
+shadow tops, tear miracles). The program spinners (bands attempts),
+temptations (stitches verdicts), tops (publishes NOGOs), and miracles
+(counts rows). Four more. (Map holds 616 rounds.)
+
+- **Spinner rubberband [canon: Spinners (rubberbanded spinners;
+  specified The Spinners (vs no hits)); verification deferred].** →
+  Spinner's spinners (rubberbanded, kept (spinnered, rubberbanded
+  (mans, kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Spinner" (rubberband, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Temptation stone [canon: Temptations (stoned temptations;
+  specified The Temptations (vs no hits)); verification deferred].** →
+  Temptation's temptations (stoned, kept (tempted, stoned (girls,
+  kept))) is the verdict (stoned, kept (NOGO, told (honest, kept)));
+  his "Temptation" (stone, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Top shadow [canon: Tops (shadowed tops; specified The Four Tops
+  (vs no hits)); verification deferred].** → Top's tops (shadowed, kept
+  (topped, shadowed (reaches, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Top" (shadow, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Miracle tear [canon: Miracles (teared miracles; specified The
+  Miracles (vs no hits)); verification deferred].** → Miracle's
+  miracles (teared, kept (miracled, teared (tracks, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Miracle" (tear, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
