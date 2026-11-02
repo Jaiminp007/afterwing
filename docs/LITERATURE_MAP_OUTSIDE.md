@@ -17577,3 +17577,27 @@ types (counts rows). Four more. (Map hits 400 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Grieg"
   (concertoed, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 395 — Recalled, relevanced, pooled, reused (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: recurring concepts — when the past
+returns (our flip-back, generalized).
+
+- **Recall or relearn [arXiv:2610.36585 (Wu / MICE; vs no hits)].**
+  Training-free mixture of in-context experts; cut at detected
+  changes; merge-or-store by estimated error. → OUR question
+  asked and answered structurally (recall vs relearn by error).
+- **Relevance [arXiv:2408.09324 (Halstead; vs no hits)].**
+  Probabilistic adapting to changing AND recurring; only similar-
+  condition experience is relevant (irrelevant experience
+  degrades). → Relevance-gated reuse (fingerprinting lab).
+- **Evolution pool [arXiv:2506.14790 (Zhan; vs no hits)].**
+  Pool regimes for recurring drift; NO raw-sample storage. →
+  Recurring regimes without replay. Unlicensed.
+- **Reuse cost [arXiv:1905.08848 (Anderson; vs no hits)].**
+  Retain+reuse classifiers for recurring concepts; SELECTION is
+  the bottleneck. → Reuse is cheap, choosing is hard.
+- Program note: MICE's cut-at-change + merge-or-store is the
+  transfer-chain operator (segment the stream, keep or relearn
+  each piece). Filed with the successor/recurring shelf,
+  unlicensed.
