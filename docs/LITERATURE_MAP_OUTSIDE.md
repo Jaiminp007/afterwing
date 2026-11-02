@@ -18140,3 +18140,28 @@ and thousands (counts rows). Four more. (Map holds 420 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Three" (tenored, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 415 — Shifted, unified, geometrized, anchored (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: realistic test-time adaptation —
+both shifts, wild streams, outside anchors.
+
+- **Label shift [arXiv:2308.08810 (Park; vs no hits)].** Adapter
+  for covariate AND label shifts (most TTA assumes balance).
+  → Both shifts, adapted. Unlicensed.
+- **Unified benchmark [arXiv:2407.20080 (Du / UniTTA; vs no hits)].**
+  Realistic TTA: continual shifts, mixed domains, correlated +
+  imbalanced streams. → The honest benchmark (Sakai + Yi agree:
+  evaluate wild, not clean). Method.
+- **Geometric TTA [arXiv:2412.07980 (Lei / TTVD; vs no hits)].**
+  Voronoi regions for neighbor-prototype adaptation. → Geometry
+  for the neighbor vote. Unlicensed.
+- **Outside anchors [arXiv:2609.17040 (Wang / MASA; vs no hits)].**
+  Break the SELF-REFERENTIAL loop with frozen external anchors
+  (adapting on own unreliable signals reinforces own errors).
+  → C16's pooled-L in miniature: voting with the wound's own
+  outputs. Filed as the mechanism-mistake to avoid.
+- Program note: MASA's trap (self-referential adaptation) is
+  exactly what C16's vote did (L from the same contacts the
+  wound produces). External anchors or stark statistics only.
+  Filed.
