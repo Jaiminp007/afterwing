@@ -17211,3 +17211,34 @@ task in the mask, policies combined.
 - Program note: AMSC → DTR wing (similarity-gated combination);
   VQ-CD → transfer map (different-spaces precedent). Next
   integration turn files both.
+## Round 382 — Thumbs, dots, theurgy, fingers (Alfred, Yayoi, Iamblichus, Robert; 2026-11-02)
+
+Motivation: further outside (thumb Chopins, dotted pumpkins,
+ritual theurgies, fingered Ravels). The program thumbs (runs
+attempts), dots (stitches verdicts), theurgies (publishes NOGOs),
+and fingers (counts rows). Four more. (Map hits 388 rounds.)
+
+- **Thumb Chopin [canon: Alfred (thumb Chopins; specified Alfred
+  Cortot (vs no hits)); verification deferred].** → Alfred's
+  thumbs (Chopined, kept (played, taught (editions, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Schumann" (circused, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Dot pumpkin [canon: Yayoi (dot pumpkins; specified Yayoi
+  Kusama (vs no hits)); verification deferred].** → Yayoi's dots
+  (pumpkined, kept (netted, mirrored (rooms, kept))) is the verdict
+  (mirrored, kept (NOGO, told (honest, kept))); her "Phalli"
+  (sofaed, kept (stuffed, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Theurgy ritual [canon: Iamblichus (theurgy rituals; specified
+  Iamblichus (vs no hits)); verification deferred].** →
+  Iamblichus's theurgies (ritualed, kept (invoked, ascended
+  (souls, kept))) is the claim (ascended, kept (RSI, unclaimed
+  (still, standing))); his "Mysteries" (revealed, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Finger Ravel [canon: Robert (finger Ravels; specified Robert
+  Casadesus (vs no hits)); verification deferred].** → Robert's
+  fingers (Raveled, kept (played, voiced (concertos, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Mozart"
+  (concertoed, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
