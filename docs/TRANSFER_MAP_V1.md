@@ -148,6 +148,10 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R401 addendum: DIRAD (complexify-past-conflicts) + CPLUS
+  (self-probe-then-dampen, gentlest response) + SLICE
+  (conflict-aware init) filed as the conflict-handling shelf;
+  all unlicensed.
 - R399 addendum: AFEC (active-forgetting of NEGATIVE transfer) filed
   as family #1's normative statement (erase the conflicting mapping,
   keep the rule; conflict-detection is the missing piece);
