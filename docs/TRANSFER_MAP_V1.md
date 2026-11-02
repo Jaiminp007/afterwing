@@ -148,6 +148,12 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R399 addendum: AFEC (active-forgetting of NEGATIVE transfer) filed
+  as family #1's normative statement (erase the conflicting mapping,
+  keep the rule; conflict-detection is the missing piece);
+  TASER (atomic-skill expansion+routing for HETEROGENEOUS tasks)
+  filed with DTR's distinct-tasks setting; ADEPT (decoupled
+  general-vs-domain tuning) banked unlicensed.
 - R397 addendum: Lee DPM (neural Dirichlet-process mixture, task-free
   infinite causes) filed as the nonparametric cause-inference;
   DRIFT (continuous-shift benchmark) + PST (single-net segments)
