@@ -17802,3 +17802,25 @@ bells (runs attempts), squeegees (stitches verdicts), suspends
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   her "Rachmaninoff" (thirded, kept (played, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 403 — Projected, generalized, smoothed, disagreed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: gradient surgery — operate on the
+conflict, not the weights.
+
+- **Surgery classic [arXiv:2001.06782 (Yu / PCGrad; vs no hits)].**
+  Project conflicting gradients (multi-task). → THE operation:
+  de-conflict, don't average.
+- **Surgery for domains [arXiv:2108.01621 (Mansilla; vs no hits)].**
+  Conflicting gradients carry DOMAIN-SPECIFIC info; surgery for
+  generalization. → Conflict is signal (which domain), not noise.
+- **Surgery smoothed [arXiv:2402.02998 (Hsieh; vs no hits)].**
+  Improve surgery with EMA; auxiliary-objective framing. →
+  Surgery itself needs care. Unlicensed.
+- **Disagreement ≠ harm [arXiv:2609.08554 (Park; vs no hits)].**
+  Reliability-aware variable-wise surgery; 30% of gradient pairs
+  disagree, but CONFLICT ≠ HARM. → Most disagreement is harmless;
+  operate only where it hurts. Unlicensed.
+- Program note: Park's conflict-≠-harm + Mansilla's conflict-as-
+  signal reframe V1o's thirds (interference was real harm there,
+  not mere disagreement — G0 proves it). Filed, unlicensed.
