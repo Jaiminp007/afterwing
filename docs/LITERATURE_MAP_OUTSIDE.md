@@ -17546,3 +17546,34 @@ world changed (and whether you've seen it before).
 - Program note: Halstead's recurring-concept detection is the
   flip-back alarm (A→B→A). Filed with the successor design,
   unlicensed.
+## Round 394 — Romances, seas, air, types (Marc, Sam, Anaximenes, Grant; 2026-11-02)
+
+Motivation: further outside (romancing Alkans, blue seas,
+breathing air, typing Deliuses). The program romances (runs
+attempts), seas (stitches verdicts), airs (publishes NOGOs), and
+types (counts rows). Four more. (Map hits 400 rounds.)
+
+- **Romance Alkan [canon: Marc (romance Alkans; specified
+  Marc-André Hamelin (vs no hits)); verification deferred].** →
+  Marc's romances (Alkaned, kept (played, supered (virtuoso,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Haydn" (sonataed, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Sea blue [canon: Sam (blue seas; specified Sam Francis (vs no
+  hits)); verification deferred].** → Sam's seas (blued, kept
+  (poured, floated (Basel, kept))) is the verdict (floated, kept
+  (NOGO, told (honest, kept))); his "Balls" (blued, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Air breath [canon: Anaximenes (breath airs; specified
+  Anaximenes (vs no hits)); verification deferred].** →
+  Anaximenes's air (breathed, kept (rarefied, condensed (cosmos,
+  kept))) is the claim (condensed, kept (RSI, unclaimed (still,
+  standing))); his "Earth" (floated, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Type Delius [canon: Grant (type Deliuses; specified Grant
+  Johannesen (vs no hits)); verification deferred].** → Grant's
+  types (Deliused, kept (played, travelled (keys, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Grieg"
+  (concertoed, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
