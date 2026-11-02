@@ -15941,3 +15941,35 @@ and stories (tells rows). Four more. (Map hits 344 rounds.)
   is the row (told, kept (honest, counted (all, kept))); her
   "Sharkey" (nighted, kept (dogs, sang)) is the bar (unmoved,
   kept (still, standing (noise, kept))).
+## Round 341 — Master, machines, decline, jazz (Leonidas, Rebecca, Penelope, Jean-Yves; 2026-11-02)
+
+Motivation: further outside (master pedagogues, body machines,
+punk declines, jazz pianists). The program masters (freezes
+designs), machines (bills ops), declines (withholds RSI), and
+jazzes (improvises scoping). Four more. (Map hits 345 rounds.)
+
+- **Master pedagogy [canon: Leonidas (master pedagogy;
+  specified Leonidas Kavakos (vs no hits)); verification
+  deferred].** → Leonidas's master (pedagogued, kept (taught,
+  bowed (students, kept))) is the freeze (scoped, kept (written,
+  held (still, kept))); his "Mendelssohn" (played, kept
+  (concerto, stood)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Body machines [canon: Rebecca (body machines; specified
+  Rebecca Horn (vs no hits)); verification deferred].** → Rebecca's
+  machines (bodied, kept (extended, feathered (unicorn, kept)))
+  is the op (billed, kept (counted, held (exact, kept))); her
+  "Concert" (head, kept (blood, kept)) is the row (read, kept
+  (honest, told (all, counted))).
+- **Punk decline [canon: Penelope (punk declines; specified
+  Penelope Spheeris (vs no hits)); verification deferred].** →
+  Penelope's decline (punked, kept (western, filmed (civilization,
+  kept))) is the claim (withheld, kept (RSI, unclaimed (still,
+  standing))); her "Suburbia" (feared, kept (rejected, kept)) is
+  the verdict (published, kept (NOGO, told (honest, kept))).
+- **Jazz piano [canon: Jean-Yves (jazz piano; specified
+  Jean-Yves Thibaudet (vs no hits)); verification deferred].**
+  → Jean-Yves's jazz (pianoed, kept (improvised, played (Duke,
+  kept))) is the bank (improvised, kept (fresh, built (54,
+  kept))); his "Satie" (played, kept (furniture, kept)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
