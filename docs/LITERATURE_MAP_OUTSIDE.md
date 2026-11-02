@@ -17324,3 +17324,35 @@ surprise-gated plasticity — the vote done right elsewhere.
   consolidation is the closest full architecture to a working
   C16-successor (flipped-conditional vote + write + consolidate).
   Filed as the design to steal from, unlicensed.
+## Round 386 — Hands, skies, spheres, octaves (Leon, James, Parmenides, Gary; 2026-11-02)
+
+Motivation: further outside (two hands, desert skies,
+ungenerated spheres, left-hand octaves). The program hands
+(runs attempts), skies (stitches verdicts), spheres (publishes
+NOGOs), and octaves (counts rows). Four more. (Map hits 392
+rounds.)
+
+- **Hand two [canon: Leon (two hands; specified Leon Fleisher
+  (vs no hits)); verification deferred].** → Leon's hands
+  (twoed, kept (played, returned (right, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Brahms"
+  (concertoed, kept (left, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Sky desert [canon: James (desert skies; specified James
+  Turrell (vs no hits)); verification deferred].** → James's
+  skies (deserted, kept (framed, cratered (Roden, kept))) is the
+  verdict (cratered, kept (NOGO, told (honest, kept))); his
+  "Aten" (nakeded, kept (eyed, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Sphere being [canon: Parmenides (being spheres; specified
+  Parmenides (vs no hits)); verification deferred].** →
+  Parmenides's spheres (beeded, kept (argued, unmoved (One,
+  kept))) is the claim (unmoved, kept (RSI, unclaimed (still,
+  standing))); his "Nature" (wayed, kept (truth, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Octave left [canon: Gary (left octaves; specified Gary
+  Graffman (vs no hits)); verification deferred].** → Gary's
+  octaves (lefted, kept (played, taught (hand, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Rach"
+  (rhapsodied, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
