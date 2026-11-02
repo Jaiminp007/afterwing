@@ -23781,3 +23781,31 @@ verdines (counts rows). Four more. (Map holds 612 rounds.)
   (verdined, boogied (wonderlands, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Verdine" (boogie, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 605 — Served, composed, requested, trafficked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: as-served — benchmarks rank
+weights, users meet servers (already-cited validity/route
+leads converging; served family, four branches).
+
+- **As-served Tetris [arXiv:2603.02348 (Wang; vs no
+  hits)].** Same pieces DIFFERENT servers (price +
+  size; endpoint + cache + tenants). → Meet as served
+  (our full-stack rows, served-side). Filed.
+- **Safe composition [arXiv:2608.11658 (Zhao; vs no
+  hits)].** Recombine library NEVER-worse (successor
+  features; dynamic objectives). → Compose safely
+  (our frozen loops, composition-side). Filed.
+- **Realistic requests [arXiv:2608.27831 (Kim /
+  RealSWE; vs no hits)].** Short UNSTRUCTURED vs
+  curated rich (taxonomy + style; compositional).
+  → Request realistically (our G2b floor,
+  request-side). Filed.
+- **Live traffic [arXiv:2608.21601 (Brueckner /
+  K-Bench; vs no hits)].** Underspecified + NO ground
+  truth (attachments; identical sandboxes). → Run
+  live traffic (our fresh banks, traffic-side).
+  Filed.
+- Program note: meet served, compose safely, request
+  real, run live — the as-served file. None licensed
+  — filed.
