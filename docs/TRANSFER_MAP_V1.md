@@ -423,6 +423,9 @@ the map stays open, not empty.
 - R607 boundaries file: bound-actions;
   taxonomize-misbehavior; watch-aggregates;
   guard-sessions.
+- R609 cross-session file: watch-accumulation;
+  govern-capabilities; select-temporally;
+  persist-memory.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
