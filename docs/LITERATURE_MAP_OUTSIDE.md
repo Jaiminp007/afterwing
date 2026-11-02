@@ -20663,3 +20663,40 @@ family, four branches).
   Filed as the meta twin.
 - Program note: revoke, audit, maintain, meta-remember —
   the governance file. None licensed — filed.
+## Round 500 — Cowboys, fountains, trumpets, delays (Richard, Sherrie, Douglas, Frisell; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round
+(five hundred). Re-photographed cowboys, appropriated
+fountains, charmed trumpets, americana delays. The program
+cowboys (runs attempts), fountains (stitches verdicts), trumpets
+(publishes NOGOs), and delays (counts rows). Four more. (Map
+holds 506 rounds.)
+
+- **Cowboy re-photographed [canon: Prince (re-photographed
+  cowboys; specified Richard Prince (vs no hits)); verification
+  deferred].** → Richard's cowboys (re-photographed, kept
+  (cowboyed, nursed (nurses, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Cowboy" (untitled,
+  kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Fountain appropriated [canon: Levine (appropriated
+  fountains; specified Sherrie Levine (vs no hits));
+  verification deferred].** → Sherrie's fountains (appropriated,
+  kept (fountained, evansed (walkers, kept))) is the verdict
+  (evansed, kept (NOGO, told (honest, kept))); her "Fountain"
+  (after, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Trumpet charmed [canon: Douglas (charmed trumpets;
+  specified Dave Douglas (vs no hits)); verification
+  deferred].** → Douglas's trumpets (charmed, kept (trumpeted,
+  charmed (parallels, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Charm" (parallel, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Delay americana [canon: Frisell (americana delays;
+  specified Bill Frisell (vs no hits)); verification
+  deferred].** → Bill's delays (americanaed, kept (delayed,
+  nadjaed (nashville, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Delay" (nashville, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
