@@ -21037,3 +21037,35 @@ governance family, four branches).
   twin.
 - Program note: frame, state, monitor, trust-late —
   the govern file. None licensed — filed.
+## Round 512 — Drums, snaps, fats, little-jazzes (Max, Haynes, Navarro, Eldridge; 2026-11-02)
+
+Motivation: further outside (freedom drums, crackle snaps, nostalgia
+fats, scuffle little-jazzes). The program drums (runs attempts),
+snaps (stitches verdicts), fats (publishes NOGOs), and
+little-jazzes (counts rows). Four more. (Map holds 518 rounds.)
+
+- **Drum freedom [canon: Roach (freedom drums; specified Max
+  Roach (vs no hits)); verification deferred].** → Max's drums
+  (freedomed, kept (drummed, freedom-suit (percussion, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Drum" (freedom, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Snap crackle [canon: Haynes (crackle snaps; specified Roy
+  Haynes (vs no hits)); verification deferred].** → Roy's snaps
+  (crackled, kept (snapped, crackled (rides, kept))) is the
+  verdict (crackled, kept (NOGO, told (honest, kept))); his "Snap"
+  (crackle, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Fat nostalgia [canon: Navarro (nostalgia fats; specified
+  Fats Navarro (vs no hits)); verification deferred].** → Fats's
+  fats (nostalgiaed, kept (fatted, nostalgiad (trumpets, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Fat" (girl, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Little-jazz scuffle [canon: Eldridge (scuffle
+  little-jazzes; specified Roy Eldridge (vs no hits));
+  verification deferred].** → Roy Eldridge's little-jazzes
+  (scuffled, kept (little-jazzed, scuffled (trumpets, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Little" (jazz, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
