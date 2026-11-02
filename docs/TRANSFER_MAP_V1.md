@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R425 addendum: Kaplanis invariance-across-timescales adopted as
+  the robustness criterion our transfer test approximates (train
+  vs transfer = two timescales of one rule); MTR cascade +
+  Memini coupled edges + LT-Gate + switching dynamics banked
+  unlicensed.
 - R423 addendum: Caccia encoder/decoder compatibility (old rows,
   new code) filed as version-awareness method (read old rows with
   the code that wrote them; scorer re-derives, never rewrites);
