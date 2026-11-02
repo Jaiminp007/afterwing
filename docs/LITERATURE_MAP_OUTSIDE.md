@@ -19734,3 +19734,29 @@ and numbers (counts rows). Four more. (Map holds 474 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Plum"
   (flowered, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 469 — Nulled, attended, smoothed, detected (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: purification — remove the bad,
+keep the good (already-cited purification lead not repeated;
+removal family, four branches).
+
+- **Null-space cleanse [arXiv:2610.00685 (Li; vs no hits)].**
+  Purify LoRA via NULL-SPACE projection (no triggers, no
+  clean refs, no retraining). → Null-space, third use
+  (orthogonal-projection + prompts + cleanse). Filed.
+- **Test-time cleanse [arXiv:2603.12989 (Zhang; vs no hits)].**
+  TEST-TIME attention purification (mechanistic; no
+  expensive retraining). → Purify at test-time, not train-
+  time. Unlicensed.
+- **Smooth minima [arXiv:2409.00863 (Karim; vs no hits)].**
+  Backdoors = SHARPER minima; re-optimize to smoother.
+  → Sharpness as the wound's signature (our HB legs =
+  sharp minima?). Filed as the sharpness twin.
+- **Detect-then-unlearn [arXiv:2508.01647 (Hu / DUP; vs no
+  hits)].** UNIFIED detect + unlearn (feature anomalies →
+  guided unlearning). → Detect the wound, then unlearn it
+  (our flip-split + lossy, external twin). Filed.
+- Program note: the family removes by direction, timing,
+  geometry, and detection — purification with structure.
+  None licensed — filed.
