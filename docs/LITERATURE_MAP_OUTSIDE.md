@@ -16905,3 +16905,29 @@ hits 376 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Rachmaninoff" (concertoed, kept (played, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 371 — Arbitrated, circuited, meta-controlled, failed (live arXiv; 2026-11-02)
+
+Four abstracts (three fresh fetches 2026-11-02 + one banked;
+abstracts only, 0 worlds). Three virgin pre-append; 2508.04435
+(AIF-DDM) already on record (line 275) — screened, not repeated.
+Themed: habit vs plan arbitration — who wins when prior and
+evidence disagree.
+
+- **VoI arbitration [arXiv:1912.05453 (Bera; vs no hits)].**
+  Value-of-information arbitration between model-based (flexible,
+  costly) and model-free (quick, inflexible) control. → The
+  arbitration formalized; our agents are all habit, no planner.
+- **Habit circuit [arXiv:1412.2818 (Chersi; vs no hits)].**
+  Hippocampal-striatal circuit for goal-directed vs habitual
+  choice, biologically inspired. → The biology of our wound's
+  side (striatal habit persists). Lens only.
+- **Reliability arbitration [arXiv:2004.08830 (Hafez; vs no
+  hits)].** Meta-controller arbitrates by LOCAL RELIABILITY of
+  the learned model (robotic dual-system). → Candidate arbitration
+  mechanism: trust the mapping where reliable, infer where not.
+  Unlicensed (needs model + reliability estimate).
+- **Arbitration failure [arXiv:2604.09364 (Nooralahzadeh; vs no
+  hits)].** Models ENCODE the evidence yet ANSWER from the prior
+  (Encoding-Grounding Dissociation). → Our wound's shape at VLM
+  scale: prior wins over evidence. Third lens (untested,
+  compatible with extinction/rigidity).
