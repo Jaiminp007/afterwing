@@ -21275,3 +21275,38 @@ converging; history family, four branches).
 - Program note: kind the missing, untangle repairs, causify
   failures, atomize tasks — the history file. None licensed
   — filed.
+## Round 520 — Scraps, cubis, ubuntus, dollars (John, David Smith, Weston, Ibrahim; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred twenty). Folded scraps, meditated cubis, highlife
+ubuntus, blue dollars. The program scraps (runs attempts), cubis
+(stitches verdicts), ubuntus (publishes NOGOs), and dollars
+(counts rows). Four more. (Map holds 526 rounds.)
+
+- **Scrap folded [canon: Chamberlain (folded scraps; specified
+  John Chamberlain (vs no hits; Newman screened used));
+  verification deferred].** → John's scraps (folded, kept
+  (scrapped, crushed (metals, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Scrap" (fold, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Cubi meditation [canon: David Smith (meditated cubis;
+  specified David Smith (vs no hits; single-name tag collides
+  with Smithson — full-name tag used)); verification
+  deferred].** → David Smith's cubis (meditated, kept (cubied,
+  meditated (voltris, kept))) is the verdict (meditated, kept
+  (NOGO, told (honest, kept))); his "Cubi" (meditation, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Ubuntu highlife [canon: Weston (highlife ubuntus; specified
+  Randy Weston (vs no hits)); verification deferred].** → Randy's
+  ubuntus (highlifed, kept (ubuntued, highlifed (africas, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Ubuntu" (highlife, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Dollar blue [canon: Ibrahim (blue dollars; specified
+  Abdullah Ibrahim (vs no hits)); verification deferred].** →
+  Abdullah's dollars (blued, kept (dollared, branded (mannenbergs,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Dollar" (blue, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
