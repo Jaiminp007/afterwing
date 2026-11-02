@@ -249,6 +249,10 @@ the map stays open, not empty.
 - R493 store-apart file: flexibility-integration trade-off;
   decouple-store-from-path (TEM seconded); retaining-is-
   risking (risk twin); selective-share (federated twin).
+- R495 poison file: origin-bound (provenance twin);
+  guard-formation (bank-build twin); environment-writes-
+  memory (interface twin); sleepers-wake-late (sleeper
+  twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
