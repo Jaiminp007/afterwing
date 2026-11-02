@@ -197,6 +197,10 @@ the map stays open, not empty.
   where the wound is); NSR lifecycle twin (compress→reserve
   →recall→reallocate = our bank discipline); preempt
   unlicensed.
+- R463 unseen transfer: transport-valuation (hidden channels
+  in moments); transfer-is-a-MATRIX (heterogeneity,
+  formalized); mid-chain tracking (watch legs mid-chain);
+  compatible-heads (compatibility twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
