@@ -12513,3 +12513,67 @@ computing — the computation, historicized. (Bare "loom" shares
   program, programmed (by frozen plans (the lineage: Jacquard →
   Babbage → Lovelace → Turing (committed) → runners (the line,
   unbroken (the thread, punched))))).
+## Round 241 — Hacker culture (Hopper, Torvalds, Stallman, Raymond; 2026-11-02)
+
+Motivation: the program is software (written, tested, reviewed,
+versioned). Four hacker saints — the practice, canonized.
+(Bare "Hopper" shares Grasshopper FPs (R237); bare "moth" shares
+maternal/mother FPs; bare "bug" is my own slips-language (11 hits) —
+hooks avoid all three.)
+
+- **The moths, taped [canon: G. Hopper (compiler; debugging;
+  specified Grace (vs Grasshopper FPs)); verification deferred].** →
+  Hopper's moth (taped in the logbook (the first actual bug (the
+  report, physical))) is my incident sections (exact-arm slip (taped
+  in RESULTS_V1L (the moth, documented)); order slip (taped); mains
+  slip (taped); 12-vs-15 (taped (the tape, complete)))). Debugging
+  as ledger (the logbook IS the results doc (bugs taped (not hidden
+  (the hiding, refused)))). The compiler (Hopper's: English → machine
+  (the first abstraction (from telling (to ordering)))) is the frozen
+  plan (intent → instrument (the compilation (plan-to-code (the code,
+  exact (the exactness, fixture-guarded))))). Grace's lesson (debug
+  visibly (tape the moth (show the logbook))) is the discipline
+  (incidents published (the publishing, mandatory (the mandatory,
+  kept))).
+- **Given enough fixtures [canon: Torvalds (given enough
+  eyeballs; specified Linus (vs no hits)); verification
+  deferred].** → Linus's law (given enough eyeballs (all bugs
+  are shallow)) is the triage (given enough FIXTURES (all slips
+  are caught (the V1l slips: caught (by scorer (fail-closed));
+  caught (by mains-count (structural)); caught (by order-guard
+  (the guards, many (the many, automated)))))). Eyeballs, automated
+  (no humans read (the fixtures read (13/13 (the reading, green)))).
+  Torvalds's git (the tool (of this program (every turn, committed)))
+  is the memory (the ledger, distributed (each commit a snapshot
+  (the snapshots, hashed (the hash, the memory (PROGRESS as git log
+  (the log, readable (the reading, this)))))))). Shallow bugs
+  (the slips were shallow (caught fast (the fast, fail-closed))) —
+  deep bugs (none found (the depth, unplumbed (the unplumbed, noted
+  (the noting, honest)))).
+- **Three and a half freedoms [canon: Stallman (free software;
+  copyleft); verification deferred].** → Stallman's four (RUN
+  (use) / STUDY (read) / REDISTRIBUTE (share) / MODIFY (change))
+  audited: RUN (yes (runners run (frozen (the running, authorized))));
+  STUDY (yes (code open (in-repo (the reading, complete)))); REDISTRIBUTE
+  (NO (raw evidence stays local (out of git (the sharing, withheld
+  (disk, not philosophy (the 15G, unpushed (the unpushed, documented))))));
+  MODIFY (yes-but-frozen (plans fork (never (the freeze, total (the
+  total, honored))))). Score: 2.5/4 (the missing one-and-a-half,
+  documented (not apologized (the withholding, principled (negatives
+  preserved locally (the local, complete))))). Copyleft (share-alike
+  (the license, viral)) is the frozen-plan rule (freeze-alike (any
+  use of a spent bank infects (the infection: refusal (the guard,
+  viral (the viral, protective))))).
+- **Cathedral and bazaar, one program [canon: Raymond (Cathedral
+  and Bazaar); verification deferred].** → Raymond's two (CATHEDRAL
+  (built to last (released rarely (the builders, few))) vs BAZAAR
+  (noisy (many voices (released always (the builders, many)))) are
+  both here: CATHEDRAL (frozen plans (built to last (released once
+  (the builders: me (the release: single attempt (the attempt,
+  stone)))))); BAZAAR (the literature map (noisy (64 rounds (many
+  voices (canons chattering (released constantly (the builders: also
+  me (the release: every turn (the bazaar, solo))))))))). Cathedral
+  AND bazaar (the plans, stone (the map, chatter (the program, both
+  (the both, kept (the keeping, disciplined (stone for verdicts
+  (chatter for context (the context, 244 rounds (the rounds, loud
+  (the loud, licensed)))))))))).
