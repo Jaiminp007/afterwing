@@ -148,6 +148,12 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R423 addendum: Caccia encoder/decoder compatibility (old rows,
+  new code) filed as version-awareness method (read old rows with
+  the code that wrote them; scorer re-derives, never rewrites);
+  MRDC density + bank-compression + CMM banked unlicensed
+  (evidence stays raw — compression is for future stores, and
+  only with a frozen codec + dual provenance).
 - R419 addendum: NOTE (robust-vs-temporal-correlation) filed WITH
   Tomar's warning as the warning+fix method pair (read together);
   SITA single-instance extreme + neighbor-discovery + class-split
