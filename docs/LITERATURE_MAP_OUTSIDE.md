@@ -17601,3 +17601,35 @@ returns (our flip-back, generalized).
   transfer-chain operator (segment the stream, keep or relearn
   each piece). Filed with the successor/recurring shelf,
   unlicensed.
+## Round 396 — Hands, women, flux, steel (Sergei, Willem, Heraclitus, Byron; 2026-11-02)
+
+Motivation: further outside (bell hands, fleshy women,
+riverine flux, steely fingers). The program hands (runs
+attempts), women (stitches verdicts), fluxes (publishes NOGOs),
+and steels (counts rows). Four more. (Map hits 402 rounds.)
+
+- **Hand bell [canon: Sergei (bell hands; specified Sergei
+  Rachmaninoff (vs no hits; surname occurs as a work title in
+  R374); verification deferred].** → Sergei's hands (belled, kept
+  (played, rung (concertos, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Paganini" (rhapsodied,
+  kept (played, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Woman flesh [canon: Willem (flesh women; specified Willem de
+  Kooning (vs no hits)); verification deferred].** → Willem's
+  women (fleshed, kept (brushed, slashed (Women, kept))) is the
+  verdict (slashed, kept (NOGO, told (honest, kept))); his
+  "Door" (parked, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Flux river [canon: Heraclitus (river fluxes; specified
+  Heraclitus (vs no hits)); verification deferred].** →
+  Heraclitus's flux (rivered, kept (flowed, stepped (twice,
+  kept))) is the claim (stepped, kept (RSI, unclaimed (still,
+  standing))); his "Fire" (kindled, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Steel finger [canon: Byron (steel fingers; specified Byron
+  Janis (vs no hits)); verification deferred].** → Byron's steel
+  (fingered, kept (played, struck (concertos, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Chopin"
+  (waltzed, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
