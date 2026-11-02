@@ -121,6 +121,12 @@ the map stays open, not empty.
   drowns flipped surprise 8:1). CLOSED with reason (vote dilution);
   a flipped-conditional vote would be a NEW variation needing its
   own freeze. Lossy HB 0.91–0.95 replicates the working baseline.
+- R385 addendum: C16-successor design filed (Mouchon: frozen-
+  encoder + surprise-gate + consolidation — flipped-conditional
+  vote + write + consolidate; closest working architecture,
+  unlicensed). DISRC (surprise-scaled updates) + dynamic-gain
+  neuromodulation (stability gap = seg tax, gain thread made
+  dynamic) banked as unlicensed variants.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
