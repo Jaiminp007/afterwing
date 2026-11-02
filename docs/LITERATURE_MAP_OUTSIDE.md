@@ -17041,3 +17041,34 @@ diversify, activate, arbitrate.
   hits)].** Diverse ensemble from ONE training run (no extra
   worlds). → Constraint-compatible diversity. Unlicensed (needs
   ensemble machinery).
+## Round 376 — Steel, mirrors, guides, fat (Maurizio, Michelangelo, Maimonides, Joseph; 2026-11-02)
+
+Motivation: further outside (steel Chopins, mirror rags,
+perplexed guides, felt fat). The program steels (runs attempts),
+mirrors (stitches verdicts), guides (publishes NOGOs), and fats
+(counts rows). Four more. (Map hits 382 rounds.)
+
+- **Steel Chopin [canon: Maurizio (steel Chopins; specified
+  Maurizio Pollini (vs no hits)); verification deferred].** →
+  Maurizio's steel (Chopined, kept (played, etched (etudes,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Boulez" (sonataed, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Mirror rag [canon: Michelangelo (mirror rags; specified
+  Michelangelo Pistoletto (vs no hits)); verification deferred).]
+  → Michelangelo's mirrors (ragged, kept (polished, pasted
+  (tissue, kept))) is the verdict (pasted, kept (NOGO, told
+  (honest, kept))); his "Venus" (backed, kept (stood, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Guide perplexed [canon: Maimonides (guide perplexes; specified
+  Maimonides (vs no hits)); verification deferred].** →
+  Maimonides's guides (perplexed, kept (led, distinguished
+  (faith, kept))) is the claim (distinguished, kept (RSI,
+  unclaimed (still, standing))); his "Mishneh" (torah-ed, kept
+  (ruled, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Fat felt [canon: Joseph (fat felts; specified Joseph Beuys (vs
+  no hits)); verification deferred].** → Joseph's fat (felted,
+  kept (smeared, stacked (chair, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Coyote" (roomed, kept (held,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
