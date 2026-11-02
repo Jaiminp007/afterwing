@@ -14518,3 +14518,34 @@ hook-name problem; bare surnames all clean with contexts read.)
   Track C (sought, open (evidence, lacking (RSI, withheld)));
   his "we are all thieves" is the shopping temptation (taking,
   refused (screening, forbidden (banks, fresh (each, new)))).
+## Round 297 — Law, ocean, collective, descent (Han, Behrman, Mnouchkine, Walsh; 2026-11-02)
+
+Motivation: further outside (Legalist philosophy, drifting ensembles,
+collective theater, deep descents). The program laws (freezes), drifts
+(transplants), devises (attempts), and descends (surveils deep). Four
+more. (Bare Han shares change/exchange FPs — full names read.)
+
+- **Written strict [canon: Han (Legalist law; specified Han
+  Feizi (vs word-FPs)); verification deferred].** → Han Feizi's
+  law (written, strict (kept, all)) is the frozen plan (frozen,
+  kept (single, attempt (verified, clean))); his "the law does
+  not favor the noble" is G2a (flat, kept (+0.1, bound (missed,
+  by (0.004, kept)))).
+- **Drifting together [canon: Behrman (ensemble drift;
+  specified David (vs no hits)); verification deferred].** →
+  David's ocean (drifting, together (apart, playing)) is the
+  chain (weights, carried (histories, apart (transplanted,
+  exact))); his pitch tracking (listening, found) is the vote
+  (carried, many (majority, found (best, kept))).
+- **Devising all [canon: Mnouchkine (collective creation;
+  specified Ariane (vs no hits)); verification deferred].** →
+  Ariane's 1789 (devised, all (rehearsed, together)) is the
+  attempt series (run, each (mains, counted (20, kept))); her
+  Cartoucherie (outside, Paris (kept, working)) is evidence/
+  (compressed, kept (in place, never (deleted, raw))).
+- **Deepest together [canon: Walsh (shared descent; specified
+  Don (vs no hits)); verification deferred].** → Don's Trieste
+  (down, deepest (together, kept)) is the trigger watch (shut,
+  kept (V2, confirmed (checked, again))); his "we heard it"
+  (the ping, returned) is redone[] (nothing, re-run (kept,
+  complete (all, worlds))).
