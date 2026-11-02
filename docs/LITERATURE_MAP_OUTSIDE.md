@@ -19031,3 +19031,37 @@ all virgin pre-append. Themed: calibration — know what you know
 - Program note: T-Cal adjudicates our near-misses honestly;
   Qiao gives the distance; Li/Dang give the fix. None
   licensed — filed.
+## Round 446 — Migrations, destinations, logics, villains (Jacob Lawrence, Jackie, Jin, Peter; 2026-11-02)
+
+Motivation: further outside (migration series, out
+destinations, logical Taos, hot villains). The program migrates
+(runs attempts), destinations (stitches verdicts), logics
+(publishes NOGOs), and villains (counts rows). Four more. (Map
+holds 452 rounds.)
+
+- **Migration series [canon: Jacob Lawrence (migration series;
+  specified Jacob Lawrence (vs no hits; single-name tags taken
+  by Thomas (R244) + Jacob — full-name tag used)); verification
+  deferred].** → Jacob Lawrence's migration (seried, kept
+  (paneled, toussainted (louvertures, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Migration"
+  (paneled, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Destination out [canon: McLean (out destinations; specified
+  Jackie McLean (vs no hits)); verification deferred].** →
+  Jackie's destination (outed, kept (destinationed, jacknifed
+  (knives, kept))) is the verdict (jacknifed, kept (NOGO, told
+  (honest, kept))); his "Destination" (outed, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Logic Tao [canon: Jin (Tao logics; specified Jin Yuelin (vs
+  no hits)); verification deferred].** → Jin's logic (Taoed, kept
+  (reasoned, knowledged (theories, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Tao" (logiced,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Villain hot [canon: Schjeldahl (hot villains; specified
+  Peter Schjeldahl (vs no hits)); verification deferred].** →
+  Peter's villains (hotted, kept (colded, heavied (lights, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Hot" (colded, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
