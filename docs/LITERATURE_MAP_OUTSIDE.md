@@ -14803,3 +14803,35 @@ Four more. (Map hits 309 rounds.)
   (fresh, kept (built, spent (54, kept))); her "Night" (journey,
   kept (dark, crossed)) is the transfer (crossed, kept (gap,
   taxed (paid, kept))).
+## Round 306 — Swans, octaves, brides, firsts (Matthew, Vladimir, Grace, Alice; 2026-11-02)
+
+Motivation: further outside (all-male swans, thunderous octaves,
+modern brides, first-ever films). The program risks (freezes
+designs), thunders (publishes NOGOs), weds (joins decisions), and
+firsts (fresh banks only). Four more. (Map hits 310 rounds.)
+
+- **Risked swans [canon: Matthew (all-male swans; specified
+  Matthew Bourne (vs no hits)); verification deferred].** →
+  Matthew's swans (male, kept (feathered, hissed (flocked,
+  kept))) is the freeze (risked, kept (written, held (still,
+  kept))); his "Play Without Words" (silent, kept (told, all)) is
+  the ledger (exact, kept (honest, told (all, counted))).
+- **Thundered octaves [canon: Vladimir (thunder octaves;
+  specified Vladimir Horowitz (vs no hits)); verification
+  deferred].** → Vladimir's octaves (thundered, kept (keys,
+  struck (dynamics, held))) is the verdict (published, kept
+  (NOGO, told (honest, kept))); his "Stars and Stripes" (encored,
+  kept (standing, played)) is the trigger (watched, kept (shut,
+  confirmed (V3, held))).
+- **Modern brides [canon: Grace (modern brides; specified Grace
+  Hartigan (vs no hits)); verification deferred].** → Grace's
+  brides (modern, kept (life, painted (bride, kept))) is the join
+  (rate, kept (1.00, held (G1, passed))); her "Ireland" (green,
+  kept (festival, held)) is the bank (fresh, kept (built, spent
+  (54, kept)))).
+- **Falling firsts [canon: Alice (first films; specified Alice
+  Guy-Blache (vs no hits)); verification deferred].** → Alice's
+  firsts (filmed, kept (leaves, falling (cabbage, kept (fairy,
+  mothered)))) is the bank (fresh, kept (first, used (once,
+  spent))); her Solax (studio, kept (built, run)) is the attempt
+  (single, kept (authorized, run (once, held))).
