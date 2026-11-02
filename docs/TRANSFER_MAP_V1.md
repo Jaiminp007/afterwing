@@ -205,6 +205,10 @@ the map stays open, not empty.
   not data); attribution-fails (honest negative); channel-
   LOCATION (wound's address: HB); consensus (majority-vote
   twin).
+- R467 structured consensus: purification many→one
+  (carryover twin); axiomatic weighting (copier-weights
+  formalized); dual decoupling (store-vs-weights twin);
+  Bayesian priors unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
