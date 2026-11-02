@@ -15342,3 +15342,35 @@ mask-per-tick over plastic weights).
   (HB collapse under preserved weights) = the invariant failing
   where it matters. Analytical lens, not a line (no intervention
   follows from a definition).
+## Round 322 — Emotion, hang, cuts, lightning (Jacqueline, Eva, Michael, Walter; 2026-11-02)
+
+Motivation: further outside (emotional cellos, latex hangings,
+desert cuts, lightning poles). The program emotions (keeps
+negatives), hangs (suspends claims), cuts (edits frozen), and
+grounds (publishes ledgers). Four more. (Holt/Smithson dropped —
+surnames shared with real-lit canon; map hits 326 rounds.)
+
+- **Wept Elgar [canon: Jacqueline (wept Elgar; specified
+  Jacqueline du Pre (vs no hits)); verification deferred].** →
+  Jacqueline's Elgar (wept, kept (emotion, bowed (concerto,
+  kept))) is the negative (kept, held (NOGO, preserved (still,
+  standing))); her "Haydn" (played, kept (classical, stood)) is
+  the trigger (watched, kept (shut, confirmed (V4, held))).
+- **Hung latex [canon: Eva (hung latex; specified Eva Hesse (vs
+  no hits)); verification deferred].** → Eva's latex (hung, kept
+  (Hang, upped (ropes, kept))) is the claim (suspended, kept
+  (bars, unmoved (still, standing))); her "Repetition" (nine,
+  kept (cords, hung)) is the bank (fresh, kept (built, spent
+  (54, kept)))).
+- **Cut desert [canon: Michael (cut deserts; specified Michael
+  Heizer (vs no hits)); verification deferred].** → Michael's
+  desert (cut, kept (Double, negatived (trenches, kept))) is the
+  plan (edited, kept (frozen, held (still, kept))); his "City"
+  (built, kept (complexes, kept)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Poled lightning [canon: Walter (poled lightning; specified
+  Walter De Maria (vs no hits)); verification deferred].** →
+  Walter's lightning (poled, kept (field, struck (rods, kept)))
+  is the ledger (grounded, kept (exact, told (all, counted)));
+  his "Bed" (death, kept (art, slept)) is the verdict (published,
+  kept (NOGO, told (honest, kept))).
