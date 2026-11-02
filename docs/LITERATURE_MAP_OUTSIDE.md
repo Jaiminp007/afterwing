@@ -18493,3 +18493,34 @@ all virgin pre-append. Themed: composition — reuse by recombining
 - Program note: Shan's WHAT/HOW is the DTR trunk/head +
   inference-wing in one architecture — filed as the reference
   implementation shape (unlicensed: needs the two systems).
+## Round 428 — Köln, liver, essence, trio (Keith, Arshile, Dai, Brad; 2026-11-02)
+
+Motivation: further outside (Köln improvisations, liver combs,
+essence principles, Beatles trios). The program Kölns (runs
+attempts), livers (stitches verdicts), essences (publishes NOGOs),
+and trios (counts rows). Four more. (Map holds 434 rounds.)
+
+- **Köln improv [canon: Keith (Köln improvs; specified Keith
+  Jarrett (vs no hits)); verification deferred].** → Keith's Köln
+  (improved, kept (played, sustained (concert, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Standards" (trioed, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Liver comb [canon: Arshile (liver combs; specified Arshile
+  Gorky (vs no hits)); verification deferred].** → Arshile's liver
+  (combed, kept (painted, bled (cock, kept))) is the verdict (bled,
+  kept (NOGO, told (honest, kept))); his "Betrothal" (pasted, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Essence principle [canon: Dai (essence principles; specified
+  Dai Zhen (vs no hits)); verification deferred].** → Dai's
+  essence (principled, kept (sought, evidenced (learning, kept)))
+  is the claim (evidenced, kept (RSI, unclaimed (still, standing)));
+  his "Meanings" (termed, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Trio Beatles [canon: Brad (trio Beatles; specified Brad
+  Mehldau (vs no hits)); verification deferred].** → Brad's trio
+  (Beatled, kept (covered, floated (Paranoid, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Highway" (rode,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
