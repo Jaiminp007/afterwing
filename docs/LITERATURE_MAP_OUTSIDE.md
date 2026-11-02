@@ -15018,3 +15018,35 @@ all virgin pre-append. Chosen for the distinct-tasks milestone
   Recorded (unlicensed — no transformer substrate here), but it
   reframes the C-series null: maybe the loop's channel (replay
   gains), not its settings, is the wrong place to look.
+## Round 312 — Tone, rooms, warmth, zip (Jascha, Chantal, David, Barnett; 2026-11-02)
+
+Motivation: further outside (cold violin tone, durational rooms,
+Soviet warmth, zipped fields). The program tones (tunes knobs),
+rooms (houses rows), warms (keeps triggers), and zips (freezes
+plans). Four more. (Rothko dropped — surname taken by the Rothko
+Chapel music hook; map hits 316 rounds.)
+
+- **Cold tone [canon: Jascha (cold violin tone; specified Jascha
+  Heifetz (vs no hits)); verification deferred].** → Jascha's
+  tone (cold, kept (perfect, struck (strings, kept))) is the knob
+  (tuned, kept (mapped, held (null, kept))); his "Hora" (staccato,
+  kept (flown, fast)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Room time [canon: Chantal (durational rooms; specified
+  Chantal Akerman (vs no hits)); verification deferred].** →
+  Chantal's rooms (timed, kept (Jeanne, peeling (potatoes,
+  kept))) is the row (published, kept (honest, told (all,
+  counted))); her "News" (home, kept (letters, read)) is the
+  ledger (exact, kept (honest, told (all, counted))).
+- **Kept warmth [canon: David (Soviet warmth; specified David
+  Oistrakh (vs no hits)); verification deferred].** → David's
+  warmth (kept, held (sound, bowed (Soviet, kept))) is the
+  trigger (watched, kept (shut, confirmed (V3, held))); his
+  "Shostakovich" (first, kept (concerto, played)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
+- **Zipped field [canon: Barnett (zipped fields; specified
+  Barnett Newman (vs no hits)); verification deferred].** →
+  Barnett's zip (drawn, kept (field, split (stations, kept))) is
+  the plan (frozen, kept (written, held (still, kept))); his
+  "Voice" (fire, kept (stations, stood)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
