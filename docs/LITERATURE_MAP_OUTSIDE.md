@@ -18470,3 +18470,26 @@ and footprints (counts rows). Four more. (Map holds 432 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "JuJu" (chanted, kept (played, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 427 — Gated, separated, parted, incremented (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: composition — reuse by recombining
+(our trunk/head + inference, formalized).
+
+- **Two-loop gating [arXiv:2610.04649 (Njupoun / GaTaP; vs no
+  hits)].** Fast closed-form inner gating (suppress/enhance
+  modules) + slow outer parameter loop. → Two timescales, gating
+  inside, learning outside. Unlicensed.
+- **What+how [arXiv:2510.20709 (Shan; vs no hits)].** WHAT system
+  infers the computation + HOW system implements it (RNN, two-
+  system). → Our inference + trunk, as architecture. Unlicensed.
+- **Part conflict [arXiv:2605.11710 (Nguyen-Lam; vs no hits)].**
+  Global-collapse vs part-overfit: the structural conflict;
+  object parts matched across concepts. → Parts, not wholes.
+  Unlicensed.
+- **Composition-incremental [arXiv:2511.09082 (Li / CompIL; vs no
+  hits)].** Infinite, long-tailed, partially-visible compositions
+  learned incrementally. → Our codebook space, named. Unlicensed.
+- Program note: Shan's WHAT/HOW is the DTR trunk/head +
+  inference-wing in one architecture — filed as the reference
+  implementation shape (unlicensed: needs the two systems).
