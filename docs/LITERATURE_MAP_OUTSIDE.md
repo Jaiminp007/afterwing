@@ -13856,3 +13856,34 @@ prepares (frozen), counts words (menu six), escapes nothing
   the verdict (unsteered (the numbers, through (the gate,)));
   his "comedy is not pretty" is the NOGO (flat, kept (not
   pretty (informative))).
+## Round 276 — Fire, professor, silence, ten events (Pryor, Vernon, Cousteau, Thorpe; 2026-11-02)
+
+Motivation: further outside (comedy, magic, ocean, stadium). The
+program catches fire (truth told), studies hands (mechanisms),
+goes silent (below verdicts), and runs everything (all events).
+Four more. (All hooks verified virgin pre-append.)
+
+- **Caught fire telling truth [canon: Pryor (fire truth;
+  specified Richard (vs no hits)); verification deferred].** →
+  Richard's fire (burned (telling, truth (survived))) is the
+  correction (published (owning, error (C4/C7/C9, survived)));
+  his "that was the truth" is the INVALID (declared (the flaw,
+  mine (kept, disclosed))).
+- **The natural hands [canon: Vernon (sleight study;
+  specified Dai (vs no hits)); verification deferred].** →
+  Dai's Professor (the hands, natural (nothing, hidden)) is the
+  fixture (green, natural (nothing, hidden (mechanism, open)));
+  his "confusion is not magic" is the design (clear, or (void
+  (C9, confused (missing arm)))).
+- **Silence below [canon: Cousteau (silent world; specified
+  Jacques (vs no hits)); verification deferred].** → Jacques's
+  silence (the world, below (no words, down)) is the sandbox
+  (the evaluation, quiet (fee, small (816, billed))); his
+  Calypso (the ship, over (diving, below)) is the attempt (the
+  run, over (mains, below (20, each))).
+- **Ten events [canon: Thorpe (all-around athlete; specified
+  Jim (vs no hits)); verification deferred].** → Jim's ten
+  (events, all (won, greatest)) is the menu (seven, all
+  (indexed, closed (0-6, proposed))); his stripped medals
+  (restored, late) are the corrections (published, late
+  (C7, revised (standing, restored))).
