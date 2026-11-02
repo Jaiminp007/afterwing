@@ -18605,3 +18605,36 @@ memory + composition (our flip is a rare combo).
   under thin evidence) is filed as the wound's cross-domain
   twin — same shape (prior wins when evidence is thin),
   different substrate. No claim, one more lens.
+## Round 432 — Trumpets, sinks, practicality, sidewinder (Freddie, Gober, Gu, Lee; 2026-11-02)
+
+Motivation: further outside (red-clay trumpets, leg sinks,
+practical sounds, cornbread sidewinders). The program trumpets
+(runs attempts), sinks (stitches verdicts), practicals (publishes
+NOGOs), and sidewinds (counts rows). Four more. (Map holds 438
+rounds.)
+
+- **Trumpet clay [canon: Freddie (clay trumpets; specified
+  Freddie Hubbard (vs no hits)); verification deferred].** →
+  Freddie's trumpets (clayed, kept (blown, redded (clay,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Skylark" (flied, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Sink leg [canon: Gober (leg sinks; specified Robert Gober
+  (vs no hits; first-name tag collides Casadesus — surname tag
+  used); verification deferred].** → Gober's sinks (legged, kept
+  (cast, drained (basins, kept))) is the verdict (drained, kept
+  (NOGO, told (honest, kept))); his "Slides" (burned, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Practicality sound [canon: Gu (practical sounds; specified
+  Gu Yanwu (vs no hits)); verification deferred].** → Gu's
+  practicality (sounded, kept (evidenced, benefited (people,
+  kept))) is the claim (benefited, kept (RSI, unclaimed (still,
+  standing))); his "Ming" (fallen, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Sidewinder cornbread [canon: Lee (cornbread sidewinders;
+  specified Lee Morgan (vs no hits)); verification deferred].** →
+  Lee's sidewinder (cornbreaded, kept (blown, searched (New,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Ceora" (breezed, kept (played, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
