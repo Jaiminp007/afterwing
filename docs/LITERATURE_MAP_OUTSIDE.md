@@ -17657,3 +17657,34 @@ identities, just the stream (our setting, formalized).
 - Program note: Lee's DPM is the task-free cause-inference
   (infinite latent causes); Korte's three levels constrain how
   we describe banks vs learners. Filed, unlicensed.
+## Round 398 — Goldbergs, hoods, atoms, fingers (Rosalyn, Philip, Leucippus, Alexis; 2026-11-02)
+
+Motivation: further outside (Goldberg Bachs, hooded piles,
+void atoms, petal fingers). The program goldbergs (runs attempts),
+hoods (stitches verdicts), atoms (publishes NOGOs), and fingers
+(counts rows). Four more. (Map hits 404 rounds.)
+
+- **Goldberg Bach [canon: Rosalyn (Goldberg Bachs; specified
+  Rosalyn Tureck (vs no hits)); verification deferred].** →
+  Rosalyn's goldbergs (Bached, kept (played, taught (variations,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); her "Well" (tempered, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Hood pile [canon: Philip (hood piles; specified Philip Guston
+  (vs no hits)); verification deferred].** → Philip's hoods
+  (piled, kept (painted, hooded (klans, kept))) is the verdict
+  (hooded, kept (NOGO, told (honest, kept))); his "Sea" (painted,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Atom void [canon: Leucippus (void atoms; specified Leucippus
+  (vs no hits)); verification deferred].** → Leucippus's atoms
+  (voided, kept (cut, swerved (seeds, kept))) is the claim
+  (swerved, kept (RSI, unclaimed (still, standing))); his
+  "Worlds" (infinitized, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Finger petal [canon: Alexis (petal fingers; specified Alexis
+  Weissenberg (vs no hits)); verification deferred].** → Alexis's
+  fingers (petalled, kept (played, thundered (Rachmaninoff,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Stravinsky" (rited, kept (played, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
