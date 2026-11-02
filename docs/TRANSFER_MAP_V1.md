@@ -74,6 +74,9 @@ verdicts — never run, never claimed); what would license new work.
   features (Einstellung), rigidity DISTINCT from forgetting. Our HB
   gap is one instance of the class. Framing only (no measure
   computed here, no mechanism follows).
+- Different spaces (R381/Hu VQ-CD): continual RL across DIFFERENT
+  observation/action spaces — names our setting (codebook = different
+  space). Precedent, not a line (needs diffuser machinery).
 - Arbitration failure (R371/Nooralahzadeh: NEW lens, untested):
   encodes the evidence yet answers from the prior. Compatible with
   extinction/rigidity (the prior IS the preserved mapping); adds

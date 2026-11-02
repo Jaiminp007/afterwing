@@ -103,6 +103,10 @@ open sentence into a work list — advancement, not closure.
   L2R's failure modes map: training-interference SEEN (V1o),
   routing-suboptimality UNTESTED (routing shelf's open question).
   All unlicensed.
+- R381 addendum: AMSC (similarity-gated policy combination from
+  ONLINE experience — closest transfer-operator on record) joins
+  the wing; cross-agent mask sharing (population-adjacent) +
+  PEMN (task-in-mask) noted. All unlicensed.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
