@@ -429,6 +429,9 @@ the map stays open, not empty.
 - R611 woven-memory file: pair-scenes;
   separate-stores; weave-hybrids;
   lighten-structures.
+- R613 fusion-memory file: fuse-signals;
+  loop-evidence; consolidate-by-usage;
+  mosaic-memory.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
