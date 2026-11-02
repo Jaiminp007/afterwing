@@ -163,6 +163,10 @@ the map stays open, not empty.
   selection-failure is the universal tax (G2b floor, Park); the
   agent harness that revises (ReHarness) is our loop's shape —
   unlicensed, filed.
+- R445 calibration family: T-Cal adjudicates the near-misses
+  (C6/C13 noise-at-bar BY CONSTRUCTION — optimal test for
+  real-vs-noise); Qiao distance-from-calibration lens; Li/Dang
+  fixes unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
