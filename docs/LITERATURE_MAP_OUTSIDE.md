@@ -16202,3 +16202,39 @@ discipline), knits (joins rows), texts (writes plans), and sounds
   the verdict (published, kept (NOGO, told (honest, kept))); her
   "Class" (relations, kept (shot, held)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 348 — Sequential, prototypes, taxonomy, inputs (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: test-time adaptation — adapting
+DURING transfer, not before it. (A memorized ID for the original
+TTT paper fetched wrong — verifying before claiming, per discipline;
+dropped, not mapped.)
+
+- **Sequential TTT [arXiv:2303.10856 (Su; vs no hits)].**
+  Realistic sequential test-time training: instant inference on
+  the target WHILE adapting, no source data. → Names our transfer
+  setting exactly (T1/T2 ARE sequential inference+adaptation).
+  Our loop never fires there (C13 fired twice on H0; test-time
+  firing was killed as schedule — this reframes it as PROTOCOL,
+  not schedule, but the bar ruling stands: same channel).
+- **Prototype adaptation [arXiv:2604.15494 (ProtoTTA; vs no
+  hits)].** Interpretable prototype representations adapted at
+  test time (not just weights/statistics). → Our weights ARE niche
+  models (prototype-like, 1-NN 1.000) — prototype-TTA maps onto
+  them: adapt the niche models at test time. Unlicensed (needs a
+  prototype-update rule we don't have), but the closest TTA analog
+  to our substrate on record.
+- **TTA taxonomy [arXiv:2303.15361 (Liang survey; vs no hits)].**
+  Adapt pre-trained models to unlabeled test data before inference;
+  weight/statistics vs input adaptation. → Taxonomy for the
+  transfer-side search (TRANSFER_MAP's "third mechanism" hunt
+  gains a map: weight-side (tried: gains/masks/scales) vs
+  input-side (untried)).
+- **Input-side adaptation [arXiv:2406.04295 (Guo; vs no hits)].**
+  Diffusion-driven TTA adapts INPUTS (transform target toward
+  source) instead of weights. → New LOCUS: neither replay nor
+  transplant touches inputs — all our mechanisms are weight-side.
+  Unlicensed (needs a generative model of the train world), but
+  the first idea in 30+ rounds that sits OUTSIDE the weight locus.
+  Filed for the transfer-side hunt (TRANSFER_MAP addendum next
+  program turn).
