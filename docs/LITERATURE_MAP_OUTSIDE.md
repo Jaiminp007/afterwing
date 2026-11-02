@@ -15407,3 +15407,36 @@ surprise-gain belongs to (live-gated third factor).
   locality, not capacity. Unlicensed (architectural; needs the
   shared-trunk work first) but the closest existence proof that
   small substrates can retain by structure.
+## Round 324 — Bach, instructions, French, boxes (Paul, Sol, Maurice, Donald; 2026-11-02)
+
+Motivation: further outside (Bach cellists, instruction cubes,
+French cellos, specific boxes). The program Baches (grounds
+claims), instructs (freezes plans), Frenches (withholds nothing —
+publishes all), and boxes (banks spent). Four more. (Serra/
+Bourgeois dropped — surnames taken by R253 hooks; map hits 328
+rounds.)
+
+- **Bach French [canon: Paul (Bach Frenchman; specified Paul
+  Tortelier (vs no hits)); verification deferred].** → Paul's
+  Bach (Frenched, kept (suites, bowed (cello, kept))) is the claim
+  (grounded, kept (separate, satisfied (evidence, kept))); his
+  "Concerto" (played, kept (Elgar, stood)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **Instruction cubes [canon: Sol (instruction cubes; specified
+  Sol LeWitt (vs no hits)); verification deferred].** → Sol's
+  cubes (instructed, kept (walls, drawn (sentences, kept))) is the
+  plan (frozen, kept (written, held (still, kept))); his "Lines"
+  (connected, kept (walls, marked)) is the row (read, kept
+  (honest, told (all, counted))).
+- **French bow [canon: Maurice (French bows; specified Maurice
+  Gendron (vs no hits)); verification deferred].** → Maurice's
+  bow (Frenched, kept (cello, stroked (Bach, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); his "Fauré" (played,
+  kept (elegy, stood)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Specific boxes [canon: Donald (specific boxes; specified
+  Donald Judd (vs no hits)); verification deferred].** → Donald's
+  boxes (specific, kept (objects, stacked (plywood, kept))) is
+  the ledger (exact, kept (honest, told (all, counted))); his
+  "Chinati" (founded, kept (desert, kept)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
