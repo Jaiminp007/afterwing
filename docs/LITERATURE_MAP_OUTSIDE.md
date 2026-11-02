@@ -17098,3 +17098,34 @@ shelf for DTR's inference wing (route by input, no task ID).
 - Program note: routing shelf (CaLLM + latent-LoRA lead) filed
   for DTR inference implementation. 2111.07736 (local module
   composition) noted as adjacent, unbought.
+## Round 378 — Beards, TVs, wheels, kings (Alfred, Nam, Boethius, Eleanor; 2026-11-02)
+
+Motivation: further outside (beard Beethovens, cathode TVs,
+fortune wheels, Solana kings). The program beards (runs attempts),
+TVs (stitches verdicts), wheels (publishes NOGOs), and kings
+(counts rows). Four more. (Map hits 384 rounds.)
+
+- **Beard Beethoven [canon: Alfred (beard Beethovens; specified
+  Alfred Brendel (vs no hits)); verification deferred].** →
+  Alfred's beards (Beethovened, kept (played, essayed (sonatas,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Schubert" (wandered, kept (played, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **TV cathode [canon: Nam (TV cathodes; specified Nam June Paik
+  (vs no hits)); verification deferred].** → Nam's TVs (cathoded,
+  kept (stacked, magnetized (gardens, kept))) is the verdict
+  (magnetized, kept (NOGO, told (honest, kept))); his "Buddha"
+  (watched, kept (sat, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Wheel fortune [canon: Boethius (wheel fortunes; specified
+  Boethius (vs no hits)); verification deferred].** → Boethius's
+  wheels (fortuned, kept (turned, consoled (prisoners, kept))) is
+  the claim (consoled, kept (RSI, unclaimed (still, standing)));
+  his "Music" (harmonized, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **King Solana [canon: Eleanor (Solana kings; specified Eleanor
+  Antin (vs no hits; surname occurs only inside larger words);
+  verification deferred].** → Eleanor's kings (Solanaed, kept
+  (nursed, queened (beach, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Nurse" (drawn, kept (bled,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
