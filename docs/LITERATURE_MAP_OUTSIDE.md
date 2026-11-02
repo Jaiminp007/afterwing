@@ -21920,3 +21920,30 @@ Four more. (Map holds 548 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Kai" (eminen,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 541 — Reused, internalized, rolled-back, anchored (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-evolution governance — reuse
+with guardrails (already-cited evolution leads converging;
+governance family, four branches).
+
+- **Reusable robot RSI [arXiv:2610.12424 (Wen / RoboRSI; vs
+  no hits)].** Robot self-evolution (turn experience into
+  REUSABLE capabilities; attribute + evidence + validate
+  before reuse). → Reuse the evidence (our NOGOs reuse;
+  robot-side twin). Filed.
+- **Internalization collapse [arXiv:2606.04703 (Chen; vs no
+  hits)].** Multi-iteration COLLAPSE (not compounding;
+  three dimensions of experience). → Collapse the excuse
+  (our adoption declines; capability-twin). Filed.
+- **Rollback + keep [arXiv:2609.18304 (Yu; vs no hits)].**
+  ROLLBACK world KEEP reflection (repair state; don't
+  discard experience). → Roll back, keep looking (our
+  `--resume` dual provenance; recovery-side). Filed.
+- **External anchor [arXiv:2606.06114 (Shi / ANCHOR; vs no
+  hits)].** EXTERNAL supervision (healthy evolution;
+  phase-level feedback). → Anchor the loop (our frozen
+  plan + auditors, governor-side). Filed.
+- Program note: reuse with evidence, expect collapse,
+  roll back but keep, anchor externally — the governance
+  file. None licensed — filed.
