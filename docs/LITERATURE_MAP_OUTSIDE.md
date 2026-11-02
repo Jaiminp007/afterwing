@@ -18877,3 +18877,33 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Cultures" (easted, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 441 — Spectrally collapsed, decayed, churned, balanced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: plasticity loss — the mechanism
+behind the wound (R439's Zhu diagnostic, operationalized four
+ways).
+
+- **Spectral collapse [arXiv:2509.22335 (Prakash; vs no hits)].**
+  Hessian spectral collapse PRECEDES plasticity loss (curvature
+  directions vanish; ε-rank conditions). → Collapse is the
+  early warning, not the aftermath. Filed as the ε-rank
+  diagnostic.
+- **Two culprits [arXiv:2604.01913 (Wu; vs no hits)].**
+  Non-stationarity + non-… dissolve rank AND gradient;
+  sample weight decay mitigates. → Name both culprits, not
+  one. Filed.
+- **Churn lens [arXiv:2506.00592 (Tang; vs no hits)].**
+  Plasticity loss rides NTK rank DECREASE; REDUCING churn
+  prevents collapse + adapts step size. → Churn is the
+  actionable dial. Filed as the churn twin.
+- **Spectral balance [arXiv:2610.02283 (Liu / MuLoRA; vs no
+  hits)].** Update energy concentrates in few singular modes;
+  PROTECTION ≠ RESPONSIVENESS (shielding history doesn't keep
+  capacity alive). → The program's preservation posture FACES
+  this: carrying weights forward is protection; the wound is
+  responsiveness. Filed as the protection-vs-responsiveness
+  twin.
+- Program note: MuLoRA states the program's core tension
+  exactly (preserve vs respond); Tang gives the dial (churn).
+  None licensed — filed.
