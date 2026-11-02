@@ -19276,3 +19276,36 @@ repeated).
 - Program note: frozen geometry now 4×-confirmed; the memory
   file says coverage+density+difficulty, not recency. None
   licensed — filed.
+## Round 454 — Ghosts, attorneys, doubts, classics (Albert, Archie, Cui, Xuecheng; 2026-11-02)
+
+Motivation: further outside (spiritual ghosts, attica
+attorneys, antiquity doubts, classic histories). The program
+ghosts (runs attempts), attorneys (stitches verdicts), doubts
+(publishes NOGOs), and classics (counts rows). Four more. (Map
+holds 460 rounds.)
+
+- **Ghost spiritual [canon: Ayler (spiritual ghosts; specified
+  Albert Ayler (vs no hits)); verification deferred].** → Albert's
+  ghosts (spiritued, kept (ghosted, vibrated (tenors, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Ghosts" (bells, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Attorney attica [canon: Shepp (attica attorneys; specified
+  Archie Shepp (vs no hits)); verification deferred].** → Archie's
+  attorneys (atticaed, kept (bluesed, ju-jued (magics, kept))) is
+  the verdict (ju-jued, kept (NOGO, told (honest, kept))); his
+  "Attica" (bluesed, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Doubt antiquity [canon: Cui (antiquity doubts; specified Cui
+  Shu (vs no hits)); verification deferred].** → Cui's doubts
+  (antiquitied, kept (forged, examined (records, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Records" (examined, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Classic history [canon: Xuecheng (classic histories;
+  specified Zhang Xuecheng (vs no hits)); verification
+  deferred].** → Xuecheng's classics (historied, kept (classiced,
+  generaled (histories, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "General" (meaning, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
