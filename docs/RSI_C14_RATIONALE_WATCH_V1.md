@@ -37,6 +37,21 @@ Verdict: forced-first-fire is C13-with-forced-start, not a new
 causal question. NOT licensed. Killed before scoping (no scoping
 doc will be written for it).
 
+## Candidate 5 (added 2026-11-02): richer modulatory signal — PARKED-conditional
+
+R323 (Lee/NeuMoSync/Ben-Iwhiwhu/Velez): the missing thing may be the
+SIGNAL (what the modulator tracks), not the gate. Our modulators:
+surprise-gated gain (live, deployed), threat/damage-gained (null).
+A context-conditioned modulator (which task/codebook is present)
+is untested — but context needs task representation (DTR blocker #1),
+so this candidate is NOT independently executable: PARKED-conditional
+on DTR parts (i–ii). NeuMoSync's joint framing (plasticity-loss +
+poor-transfer as one problem) is recorded as the lens for any future
+substrate work: our saturation and wound stories may share a cause.
+Velez (modularity-by-locality in simple nets) joins TFGN as the
+architectural existence-proof bucket (both unlicensed, both need
+the trunk work first).
+
 ## Candidate 4 (added 2026-11-02): mask-per-task architecture — PARKED (strong)
 
 R321 (Yadav/SupSup-critique): per-task supermasks over frozen weights

@@ -51,3 +51,13 @@ open sentence into a work list — advancement, not closure.
   be architectural (trunk/heads), not replay-scheduling —
   consistent with blockers 1–2 being substrate, not schedule.
 - World-model replay (Yang) stays a channel without a substrate.
+
+## R323 implications recorded (unlicensed)
+
+- Trunk design principles (part i): modularity-by-locality (Velez:
+  diffusion neuromodulation eliminates forgetting in simple nets)
+  joins input-conditioning (TFGN) — two outside-box principles.
+- The trunk owes representation AND modulation (Ben-Iwhiwhu:
+  context modulates a standard policy net); shape alone won't do.
+- NeuMoSync's joint framing adopted as diagnostic lens (saturation
+  and wound may share a cause; the trunk fixes or explains both).
