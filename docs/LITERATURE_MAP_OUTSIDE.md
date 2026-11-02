@@ -19856,3 +19856,27 @@ students (counts rows). Four more. (Map holds 478 rounds.)
   revived (learnings, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Revival" (learned, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 473 — Anisotropied, heavy-tailed, perturbed, flattened-late (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: escaping sharpness — the recipes
+(already-cited escape lead not repeated; escape family, four
+branches).
+
+- **Anisotropic escape [arXiv:1803.00195 (Zhu; vs no hits)].**
+  ANISOTROPIC noise escapes sharp (unified SGD+Langevin;
+  escape-efficiency indicator). → Direction of noise
+  matters, not just amount. Unlicensed.
+- **Heavy-tailed elimination [arXiv:2102.04297 (Wang; vs no
+  hits)].** Truncated heavy-tailed noise ELIMINATES sharp
+  minima. → Fat tails leave sharp behind. Unlicensed.
+- **Perturbation recipe [arXiv:2305.15659 (Ahn; vs no hits)].**
+  HOW to escape (Hessian-trace flatness; complexity of
+  finding). → The recipe book. Filed as the recipe twin.
+- **SAM late [arXiv:2410.10373 (Zhou; vs no hits)].** SAM
+  selects flatter minima LATE (even a few late epochs).
+  → Flatness is a late decision (our lossy transplant =
+  late flattening?). Filed as the late-flattening twin.
+- Program note: escape by noise-shape, noise-tail, recipe,
+  or late flattening — the escape file. None licensed —
+  filed.
