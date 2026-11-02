@@ -13733,3 +13733,34 @@ Motivation: the program skates ahead (fresh plans), wins by running
   shavings (quiet (the work, small)) is the sandbox fee (flat
   (the cost, small (816 (of 3.3e9)))); his "listen to the
   wood" is the vote (listening (the agents, many (carried))).
+## Round 272 — Ten, recipes, return, shutout (Comaneci, Apicius, Shackleton, Fischer; 2026-11-02)
+
+Motivation: the program scores tens (gates cleared), keeps recipes
+(frozen plans), returns all (redone[]), and plays shutouts (NOGOs
+clean). Four more. (All hooks verified virgin pre-append; Fischer
+checked thrice, finally used.)
+
+- **The unshowable score [canon: Comaneci (perfect ten;
+  specified Nadia + perfect 10 (vs no hits)); verification
+  deferred].** → Nadia's 10 (the board, broke (1.00, shown))
+  is the lift (+0.104 (the bar, cleared (T1, once))); her
+  Montreal (fourteen, perfect) is the fixture suite (all,
+  green (19/19, kept)).
+- **Cook from the ancient [canon: Apicius (kept recipes;
+  specified Apicius (vs no hits)); verification deferred].** →
+  Apicius's cookbook (Rome, kept (the recipe, followed)) is the
+  frozen plan (V1, kept (the design, followed (no tuning, on
+  eval))); his dormice (the dish, strange) is the copier arm
+  (the control, strange (blind, adopted)).
+- **All hands home [canon: Shackleton (safe return; specified
+  Ernest (vs no hits)); verification deferred].** → Ernest's
+  Endurance (lost (the ship, all (the crew, home))) is the
+  attempt (spent (the bank, all (the rows, kept))); his
+  "all safe, all well" is redone[] (nothing, re-run (all,
+  complete)).
+- **Six love [canon: Fischer (shutout mastery; specified
+  Bobby (vs no hits)); verification deferred].** → Bobby's
+  6-0s (Larsen, swept (Petrosian, swept)) are the NOGOs
+  (C2-C7, swept (each, published)); his Candidates (the run,
+  unbroken) is the single attempt (one, only (no second,
+  licensed)).
