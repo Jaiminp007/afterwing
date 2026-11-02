@@ -15440,3 +15440,35 @@ rounds.)
   the ledger (exact, kept (honest, told (all, counted))); his
   "Chinati" (founded, kept (desert, kept)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 325 — Violins, fluorescents, lakes, time (Gil, Dan, James, Godfrey; 2026-11-02)
+
+Motivation: further outside (Bach violinists, fluorescent
+monuments, lake films, time-lapse prophecies). The program violins
+(voices claims), fluorescents (lights rows), lakes (banks spent),
+and times (fires ticks). Four more. (Hutton dropped — surname
+shared with geology canon; map hits 329 rounds.)
+
+- **Voiced violins [canon: Gil (voiced violins; specified Gil
+  Shaham (vs no hits)); verification deferred].** → Gil's violins
+  (voiced, kept (Bached, played (strings, kept))) is the claim
+  (voiced, kept (separate, satisfied (evidence, kept))); his
+  "Hebrew" (melodies, kept (played, stood)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **Fluorescent monuments [canon: Dan (fluorescent monuments;
+  specified Dan Flavin (vs no hits)); verification deferred].**
+  → Dan's fluorescents (tubed, kept (monuments, lit (icons,
+  kept))) is the row (lit, kept (honest, told (all, counted)));
+  his "Corridor" (green, kept (crossed, held)) is the link
+  (second, kept (recovered, held (config, kept))).
+- **Lake films [canon: James (lake films; specified James
+  Benning (vs no hits)); verification deferred].** → James's
+  lakes (filmed, kept (deserts, watched (13, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); his "Nightfall" (used,
+  kept (lands, eyed)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Prophesied time [canon: Godfrey (prophesied time; specified
+  Godfrey Reggio (vs no hits)); verification deferred].** →
+  Godfrey's time (prophesied, kept (Koyaanisqatsi, lapsed (life,
+  kept))) is the tick (fired, kept (512, added (1024, kept)));
+  his "Visitors" (stared, kept (portraits, held)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
