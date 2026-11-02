@@ -17,6 +17,11 @@ export const OL_MENU=Object.freeze([
   // surprise-gated gain = V1h's deployed operator (live surpriseGain + replay
   // replaySurpriseGain), proposable internally. Fired only when proposed+adopted.
   {kind:'replaySurprise',gain:3.0,live:1.0},
+  // C12 addition (append-only; indices 0-6 untouched, prior lines bit-identical):
+  // learning-rate revision = the update rule itself (VISION hook). Fired only
+  // when proposed+adopted. No state init (rate is read per-update); adoption
+  // is config-only like gain/skip (no extra billing beyond the flat eval fee).
+  {kind:'tasteRate',rate:2.0},
 ]);
 export const OL_LIFETIME_MAX=4;
 export const OL_PROPOSAL_TICK=1024;
@@ -98,6 +103,10 @@ export function sandboxEvaluate(tasteState,operator,fitIds,testIds){
     clone.surpriseEma=0;clone.surpriseTimer=0; // adoption-time init (construction creates these when surpriseGain>0)
     // Live-mode fit: emulates acquisition under the operator (the gate needs live surprise history).
     for(const r of fitRecs)tasteUpdate(clone,r,'live',noop,1);
+  }else if(operator.kind==='tasteRate'){
+    assert.ok(Number.isFinite(operator.rate)&&operator.rate>0,'taste rate must be positive');
+    clone.config.tasteRate=operator.rate; // the update rule itself (read per-update in both modes)
+    for(const r of fitRecs)tasteUpdate(clone,r,'replay',noop,1);
   }else throw Error('menu-closed: unknown operator kind');
   const incErr=heldOutError(tasteState.weights.taste,tasteState.tasteScale,tasteState.priorLogit,testRecs);
   const candErr=heldOutError(clone.weights.taste,clone.tasteScale,clone.priorLogit,testRecs);
@@ -129,6 +138,7 @@ export function adoptOperatorLive(t,operator){
   assert.ok(t&&typeof t==='object','live adoption needs a taste state');
   if(operator.kind==='replayGain'){assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'bad gain');t.config.replayGain=operator.gain;}
   else if(operator.kind==='replaySkip'){assert.ok(Number.isFinite(operator.skip)&&operator.skip>=0,'bad skip');t.config.replaySkip=operator.skip;}
+  else if(operator.kind==='tasteRate'){assert.ok(Number.isFinite(operator.rate)&&operator.rate>0,'bad rate');t.config.tasteRate=operator.rate;}
   else if(operator.kind==='replaySurprise'){assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'bad surprise gain');assert.ok(Number.isFinite(operator.live)&&operator.live>=0,'bad surprise live gain');
     t.config.surpriseGain=operator.live;t.config.replaySurpriseGain=operator.gain;
     t.surpriseEma=0;t.surpriseTimer=0; // adoption-time init (see sandbox branch)
@@ -224,6 +234,10 @@ function sandboxEvaluateFlipped(tasteState,operator,fitIds,testIds,flippedTarget
     clone.config.surpriseGain=operator.live;clone.config.replaySurpriseGain=operator.gain;
     clone.surpriseEma=0;clone.surpriseTimer=0;
     for(const r of fitRecs)tasteUpdate(clone,r,'live',noop,1);
+  }else if(operator.kind==='tasteRate'){
+    assert.ok(Number.isFinite(operator.rate)&&operator.rate>0,'taste rate must be positive');
+    clone.config.tasteRate=operator.rate;
+    for(const r of fitRecs)tasteUpdate(clone,r,'replay',noop,1);
   }else throw Error('menu-closed: unknown operator kind');
   const incErr=heldOutError(tasteState.weights.taste,tasteState.tasteScale,tasteState.priorLogit,testRecs);
   const candErr=heldOutError(clone.weights.taste,clone.tasteScale,clone.priorLogit,testRecs);

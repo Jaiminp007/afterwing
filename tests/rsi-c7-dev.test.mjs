@@ -15,7 +15,7 @@ test('C7 menu indices are surprise-gated gain (6/6 asserted; append-only)',()=>{
   assert.equal(OL_MENU[6].kind,'replaySurprise');
   assert.equal(OL_MENU[6].gain,3.0);
   assert.equal(OL_MENU[6].live,1.0);
-  assert.equal(OL_MENU.length,7); // indices 0-5 untouched
+  assert.equal(OL_MENU.length,8); // indices 0-6 untouched (C12 appended index 7; pinned kinds unchanged)
   assert.equal(OL_MENU[0].kind,'replayGain');
   assert.equal(OL_MENU[5].kind,'shrinkOnce');
 });

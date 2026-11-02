@@ -14,7 +14,7 @@ test('C8 choice set is {gain 1.0, skip 0.1, surprise} (1/4/6 asserted)',()=>{
   assert.equal(OL_MENU[1].kind,'replayGain');
   assert.equal(OL_MENU[4].kind,'replaySkip');
   assert.equal(OL_MENU[6].kind,'replaySurprise');
-  assert.equal(OL_MENU.length,7); // indices 0-5 untouched
+  assert.equal(OL_MENU.length,8); // indices 0-6 untouched (C12 appended index 7; pinned kinds unchanged)
 });
 test('C8 surprise sandbox runs live-fit path (fee billed, boolean verdict)',()=>{
   const s=mkS(21);
