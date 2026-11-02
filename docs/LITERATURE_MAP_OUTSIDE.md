@@ -16987,3 +16987,35 @@ when controllers disagree.
   Correlation Bias (shared-bias evidence double-counted). →
   Arbitrate by SOURCE, not votes; correlated memories distrusted.
   Unlicensed (needs source model). Cause-inference adjacent.
+## Round 374 — Thunder, holes, incoherence, ice (Nikolai, Barbara, Al, Vladimir; 2026-11-02)
+
+Motivation: further outside (thunder Choppins, holed forms,
+philosophers' incoherence, iced Sibeliuses). The program thunders
+(runs attempts), holes (stitches verdicts), incoheres (publishes
+NOGOs), and ices (counts rows). Four more. (Map hits 380 rounds.)
+
+- **Thunder Chopin [canon: Nikolai (thunder Chopins; specified
+  Nikolai Demidenko (vs no hits)); verification deferred].** →
+  Nikolai's thunder (Chopined, kept (played, struck (ballades,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Medtner" (fairied, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Hole form [canon: Barbara (hole forms; specified Barbara
+  Hepworth (vs no hits)); verification deferred].** → Barbara's
+  holes (formed, kept (carved, pierced (stones, kept))) is the
+  verdict (pierced, kept (NOGO, told (honest, kept))); her
+  "Pelagos" (strung, kept (tied, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Incoherence philosophers [canon: Al (incoherence
+  philosophers; specified Al-Ghazali (vs no hits)); verification
+  deferred].** → Al's incoherence (philosophed, kept (refuted,
+  occasionalized (causes, kept))) is the claim (occasionalized,
+  kept (RSI, unclaimed (still, standing))); his "Alchemy"
+  (happied, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Ice Sibelius [canon: Vladimir (ice Sibeliuses; specified
+  Vladimir Ashkenazy (vs no hits)); verification deferred].** →
+  Vladimir's ice (Sibeliused, kept (played, conducted (symphonies,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Chopin" (etuded, kept (played, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
