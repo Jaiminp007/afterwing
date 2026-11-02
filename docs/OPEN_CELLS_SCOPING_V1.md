@@ -30,10 +30,10 @@ unless a mechanism story improves.
 
 BARREN_BANK_AUTOPSY_V1 requires votes to carry {incErr, candErr}.
 ADOPTABILITY_AUDIT_V2 adds tick-per-vote (first/second fire cannot
-be split in C13 rows — votes lack tick). No line needed: the
-changes land in the NEXT frozen instrument (collectVotes copies
-evalRec fields + fire tick; fixtures assert). Recorded here so the
-next freeze includes both by default.
+be split in C13 rows — votes lack tick). PAID IN C14 (2026-11-02):
+collectVotes carries tick/incErr/candErr/fee; fixtures assert;
+adoptability V3's leg trend exists only because of it. Carried
+forward as STANDARD in all future freezes (not a debt anymore).
 
 ## 4. Adoptability-bar mechanism (blocked on record-level work)
 

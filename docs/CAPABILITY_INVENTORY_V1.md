@@ -74,3 +74,9 @@ counts). No new claims; every entry names its line.
   The standing sentence is refined, not reversed: successive
   FIRING is demonstrated; successive self-modification THAT
   LIFTS TRANSFER is not. All prior lines' absence-claims stand.
+- 2026-11-02 (C14 amendment, appended not rewritten):
+  target-selection (menu-8 sparse update) TESTED: trains fine (NOT
+destructive), transfer null (−0.04/−0.02), adoption 20% declining
+train→T2. The update-channel family is now closed (gain-modulation
++ target-selection both null). Tick-per-vote + error fields are
+standard instrument from here on.
