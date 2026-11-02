@@ -243,6 +243,9 @@ the map stays open, not empty.
 - R489 infusion file: keep-general dilemma; freeze-
   original adapters (adapter twin); survey reference;
   retention-aware (adopt-iff twin).
+- R491 prior file: preserve-then-adapt (session twin);
+  measure-the-infusion (benchmark twin); init-from-prior
+  (init twin); partition-then-mix (mixture twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
