@@ -13204,3 +13204,41 @@ round exists) — full names/titles throughout.)
   quick (program, lit, program (the rhythm, kept)))); his "I do
   this, I do that" is the ledger (12 mains, 18 mains (the counting,
   exact)).
+## Round 256 — Field and number (Olson, Xenakis, Satie, Part; 2026-11-02)
+
+Motivation: the program composes by field (bank draws) and number
+(seeded RNG). Four composers of fields. (Bare "Olson" shares 2
+Dolson/animalism FPs; bare "Part" shares 130 common-word FPs —
+full names/forms throughout.)
+
+- **Composition by field [canon: Olson (breath-field; specified
+  Charles (vs Dolson/animalism FPs)); verification deferred].** →
+  Charles's projective verse (composition by field (the breath,
+  the ear (not the foot, the meter))) is the bank draw (composition
+  by field (seed, cueSeed, resourceSeeds (not the plan, the meter)));
+  his "one perception must immediately and directly lead to a
+  further perception" is the tick loop (one decision must
+  immediately lead to a further decision (the chain, exact)).
+- **Stochastic, exact [canon: Xenakis (probability composed;
+  specified Iannis (vs no hits)); verification deferred].** →
+  Iannis's stochastic music (probability distributions (composed
+  (the clouds, calculated))) is the seeded bank (probability
+  distributions (drawn (the seeds, exact))); his UPIC (draw the
+  music (the machine, plays it)) is the runner (draw the worlds
+  (the code, runs them)). Xenakis proves chance can be exact
+  (the proof, nightly (dev-results, JSON)).
+- **Furniture hum [canon: Satie (music as furniture; specified
+  Erik (vs no hits)); verification deferred].** → Erik's furniture
+  music (to be ignored (present (the room, furnished))) is the
+  join rate (to be ignored (present (every verdict, underwritten
+  (the hum, 1.00)))); his Vexations (repeat 840 times (the bore,
+  the piece)) is the 1792-tick main (repeat the decision (the
+  bore, the line)).
+- **Bell and voice [canon: Part (tintinnabuli; specified Arvo
+  (vs common-word FPs)); verification deferred].** → Arvo's
+  tintinnabuli (two voices (one melodic, one the bell (the pair,
+  inseparable))) is the pair design (train and transfer (one
+  learned, one the transplant (the pair, matched))); his
+  Spiegel im Spiegel (the mirror (held up (endlessly))) is the
+  restore check (state in, state out (exact (the exactness,
+  asserted))).
