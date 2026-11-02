@@ -18359,3 +18359,26 @@ and peaces (counts rows). Four more. (Map holds 428 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Waltz"
   (debted, kept (played, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 423 — Compressed, banked, quantized, matrixted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: compress the past — store more by
+storing less (and keep it usable).
+
+- **Compressed replay [arXiv:2202.06592 (Wang / MRDC; vs no hits)].**
+  Compress old samples → store MORE of them (rate-distortion
+  tradeoff named). → Density beats selection. Unlicensed.
+- **Compressed banks [arXiv:2601.00756 (Katraouras; vs no hits)].**
+  Compress the memory BANK for continual LLM adaptation. →
+  Our banks, compressed (evidence stays raw; the idea is for
+  future stores). Filed as hygiene-adjacent.
+- **Online compression [arXiv:1911.08019 (Caccia; vs no hits)].**
+  Learn + compress from a stream in ONE pass; early-encoder vs
+  late-decoder compatibility named + solved (AQM). → The
+  compatibility problem, stated. Unlicensed.
+- **Matrix memory [arXiv:2610.07907 (Regan / CMM; vs no hits)].**
+  Matrix-valued short+long states, distinct roles (biology-like).
+  → Separate the timescales structurally. Unlicensed.
+- Program note: Caccia's encoder/decoder compatibility is the
+  version problem every banked row faces (old rows, new code).
+  Filed as method-awareness, not a change.
