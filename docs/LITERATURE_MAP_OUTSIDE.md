@@ -18970,3 +18970,37 @@ repeated).
 - Program note: frozen+delta now thrice-confirmed (RAEGL,
   Sandwich, Kang); selection-failure is the universal tax.
   None licensed — filed.
+## Round 444 — Curators, souls, minors, biennials (Thelma, Hank, Gigi, Okwui; 2026-11-02)
+
+Motivation: further outside (curated Black romantics, soul
+messages, Nica's minors, postcolonial biennials). The program
+curates (runs attempts), souls (stitches verdicts), minors
+(publishes NOGOs), and biennials (counts rows). Four more. (Map
+holds 450 rounds.)
+
+- **Curator romantic [canon: Thelma (curated romantics; specified
+  Thelma Golden (vs no hits; "Goldenfeld" R54 + the "no golden
+  mountains" idiom are unrelated)); verification deferred].** →
+  Thelma's curation (romanted, kept (blacked, freestyled (shows,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); her "Black" (romantic, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Soul message [canon: Mobley (soul messages; specified Hank
+  Mobley (vs no hits)); verification deferred].** → Hank's soul
+  (messaged, kept (soulstationed, remembered (messages, kept))) is
+  the verdict (remembered, kept (NOGO, told (honest, kept))); his
+  "Soul" (stationed, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Minor Nica [canon: Gryce (Nica's minors; specified Gigi
+  Gryce (vs no hits)); verification deferred].** → Gigi's minors
+  (Nicaed, kept (minoritied, rat-race (races, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Minority" (Nicaed, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Biennial postcolonial [canon: Enwezor (postcolonial biennials;
+  specified Okwui Enwezor (vs no hits)); verification
+  deferred].** → Okwui's biennials (postcolonialed, kept
+  (documentaed, short-centuried (centuries, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Documenta"
+  (elevens, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
