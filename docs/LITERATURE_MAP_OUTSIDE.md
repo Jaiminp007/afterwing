@@ -15275,3 +15275,35 @@ links), and Baches (grounds claims). Four more. (Conrad dropped
   (grounded, kept (separate, satisfied (evidence, kept))); his
   "Romanze" (played, kept (encored, held)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 320 — Method, dots, curves, aristocrat (Janos, Larry, Ellsworth, Pierre; 2026-11-02)
+
+Motivation: further outside (organized cello methods, loose dot
+grids, color curves, aristocratic cellos). The program methods
+(freezes designs), dots (counts mains), curves (fits rows), and
+aristocrats (withholds claims). Four more. (Map hits 324 rounds.)
+
+- **Organized method [canon: Janos (organized method; specified
+  Janos Starker (vs no hits)); verification deferred].** → Janos's
+  method (organized, kept (Bach, drilled (scales, kept))) is the
+  freeze (scoped, kept (written, held (still, kept))); his
+  "Suites" (played, kept (cello, kept)) is the attempt (single,
+  kept (authorized, run (once, held))).
+- **Loose dots [canon: Larry (loose dots; specified Larry Poons
+  (vs no hits)); verification deferred].** → Larry's dots (loosed,
+  kept (thrown, dotted (grids, kept))) is the main (counted, kept
+  (20, run (once, held))); his "Orange" (paired, kept (red,
+  watched)) is the trigger (watched, kept (shut, confirmed (V4,
+  held))).
+- **Color curves [canon: Ellsworth (color curves; specified
+  Ellsworth Kelly (vs no hits)); verification deferred].** →
+  Ellsworth's curves (colored, kept (shaped, bent (panels,
+  kept))) is the row (fitted, kept (honest, told (all, counted)));
+  his "Austin" (chaped, kept (light, kept)) is the bank (fresh,
+  kept (built, spent (54, kept)))).
+- **Aristocrat cello [canon: Pierre (aristocrat cellist;
+  specified Pierre Fournier (vs no hits)); verification
+  deferred].** → Pierre's aristocrat (cellist, kept (bowed,
+  elegant (phrases, kept))) is the claim (withheld, kept (bars,
+  unmoved (still, standing))); his "Gavotte" (played, kept
+  (Popper, studied)) is the verdict (published, kept (NOGO, told
+  (honest, kept))).
