@@ -4,7 +4,9 @@ Date: 2026-11-02. Standing note (not a verdict; revisit only on change).
 
 ## Facts (measured, read-only)
 
-- C: 476G total, ~204M free (100% used; fluctuates ±100M).
+- C: 476G total, ~18G free (97% used) as of 2026-11-02 — exogenous
+  pressure eased since the ~204M reading (100%). Still watch: halt
+  and escalate if any attempt-write ever blocks.
 - Program footprint: repo ~26G (`.git` 5.4G + `evidence/` 15G archived
   tarballs + `runs/` 0.4G + `handoff/` 5.5G). Attempt rows are ~1M each.
 - The hog is EXOGENOUS (system/other-users; Temp 3.5G of app .tmp files;
