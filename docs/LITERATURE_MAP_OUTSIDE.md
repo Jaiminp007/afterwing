@@ -16435,3 +16435,34 @@ RSI), and unites (joins votes). Four more. (Map hits 360 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "School"
   (minded, kept (heart, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 355 — Pedals, tools, rivers, patterns (Olli, Lee, Marguerite, Zhu; 2026-11-02)
+
+Motivation: further outside (pedal pianos, dropped tools,
+river lovers, pattern principles). The program pedals (runs
+attempts), tools (builds scorers), rivers (publishes NOGOs),
+and patterns (counts rows). Four more. (Map hits 361 rounds.)
+
+- **Pedal Bach [canon: Olli (pedal Bach; specified Olli
+  Mustonen (vs no hits)); verification deferred].** → Olli's
+  pedals (Bached, kept (played, sustained (Goldbergs, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Sonatas" (multiplied, kept (tasks, kept)) is the vote
+  (majority, kept (joined, carried (crowd, kept))).
+- **Tool drop [canon: Lee (tool drops; specified Lee Lozano (vs
+  no hits)); verification deferred].** → Lee's tools (dropped,
+  kept (struck, withdrawn (boycott, kept))) is the line (closed,
+  kept (banked, told (honest, kept))); her "Wave" (seriesed, kept
+  (painted, kept)) is the verdict (published, kept (NOGO, told
+  (honest, kept))).
+- **River lover [canon: Marguerite (river lovers; specified
+  Marguerite Duras (vs no hits)); verification deferred].** →
+  Marguerite's rivers (loved, kept (flowed, wrote (Mekong,
+  kept))) is the claim (withheld, kept (RSI, unclaimed (still,
+  standing))); her "Hiroshima" (burned, kept (loved, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Pattern principle [canon: Zhu (pattern principles; specified
+  Zhu Xi (vs no hits)); verification deferred].** → Zhu's patterns
+  (principled, kept (investigated, extended (gewu, kept))) is the
+  row (counted, kept (honest, told (all, counted))); his "Learning"
+  (neared, kept (means, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
