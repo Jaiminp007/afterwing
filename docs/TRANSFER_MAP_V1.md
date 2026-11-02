@@ -297,6 +297,9 @@ the map stays open, not empty.
 - R523 analogy file: analogy-not-identity (analogy twin);
   compare-movement (semantics twin); distance-catalog
   (reference); body-by-analogy (body twin).
+- R525 embodiment file: share-physics-specify-body;
+  motif-transfer (motif twin); zero-shot-physics;
+  learn-suboptimal (universal priors).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
