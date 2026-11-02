@@ -74,5 +74,7 @@ A mechanism aimed at HB-extinction with a rationale NEITHER gain-
 modulation NOR target-selection NOR transplant-scaling — i.e., a
 third unlearning mechanism (surprise and lossy are two; threat was
 the third candidate and failed). The bar: direction-first (targets
-HB specifically), falsifiable both ways, fresh bank. None known —
+HB specifically), falsifiable both ways, fresh bank, PLUS the R359/Shi caution (any
+unlearning-based line must check the Nth unlearning still works —
+continual unlearning can collapse forget-ability itself). None known —
 the map stays open, not empty.
