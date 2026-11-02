@@ -294,6 +294,9 @@ the map stays open, not empty.
 - R521 reuse file: transform-failures (signals twin);
   stair-plans (stair twin); verify-reuse (adopt-iff
   twin); compare-hierarchically (leg twin).
+- R523 analogy file: analogy-not-identity (analogy twin);
+  compare-movement (semantics twin); distance-catalog
+  (reference); body-by-analogy (body twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
