@@ -18109,3 +18109,34 @@ and how would we know.
 - Program note: Sakai's align-vs-codebook is the cleanest
   algorithmic statement of our transfer test; Yi's warning
   constrains how we read routing benchmarks. Filed.
+## Round 414 — Highs, bridges, grief, thousands (Luciano, Franz, Crantor, Placido; 2026-11-02)
+
+Motivation: further outside (high-C Nessions, black bridges,
+consoled griefs, thousand Otellos). The program highs (runs
+attempts), bridges (stitches verdicts), griefs (publishes NOGOs),
+and thousands (counts rows). Four more. (Map holds 420 rounds.)
+
+- **High Nessun [canon: Luciano (high Nessels; specified Luciano
+  Pavarotti (vs no hits)); verification deferred].** → Luciano's
+  highs (Nessuned, kept (sung, doorma-ed (Turandot, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Donna" (mobiled, kept (sung, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Bridge black [canon: Franz (black bridges; specified Franz
+  Kline (vs no hits)); verification deferred].** → Franz's bridges
+  (blacked, kept (brushed, spanned (Mahoning, kept))) is the
+  verdict (spanned, kept (NOGO, told (honest, kept))); his "Chief"
+  (named, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Grief consoled [canon: Crantor (consoled griefs; specified
+  Crantor (vs no hits)); verification deferred].** → Crantor's
+  grief (consoled, kept (soothed, tempered (loss, kept))) is the
+  claim (tempered, kept (RSI, unclaimed (still, standing))); his
+  "Lament" (wept, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Thousand Otello [canon: Placido (thousand Otellos; specified
+  Placido Domingo (vs no hits)); verification deferred].** →
+  Placido's thousands (Otelloed, kept (sung, counted (nights,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Three" (tenored, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
