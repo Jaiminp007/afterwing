@@ -127,6 +127,11 @@ the map stays open, not empty.
   unlicensed). DISRC (surprise-scaled updates) + dynamic-gain
   neuromodulation (stability gap = seg tax, gain thread made
   dynamic) banked as unlicensed variants.
+- R387 addendum: Schillaci congruency (keep-what-fits via
+  generative prediction error; embodied transfer shown) joins
+  as the consolidation-side twin of the surprise-gate;
+  CraniMem (gated-bounded) + 3-level Hebbian controller banked
+  unlicensed.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
