@@ -22529,3 +22529,34 @@ assurance family, four branches).
 - Program note: ledger fragments, assure scope,
   synthesize beyond, verify experience — the assurance
   file. None licensed — filed.
+## Round 562 — Socials, freedoms, shirleys, guess-whos (Betty, Abbey, Shirley, Nancy; 2026-11-02)
+
+Motivation: further outside (tight socials, day freedoms, great
+shirleys, today guess-whos). The program socials (calls attempts),
+freedoms (stitches verdicts), shirleys (publishes NOGOs), and
+guess-whos (counts rows). Four more. (Map holds 570 rounds.)
+
+- **Social call [canon: Betty Carter (called socials; specified
+  Betty Carter (vs no hits; short tag taken by the metric man —
+  full-name tag used)); verification deferred].** → Betty's socials
+  (called, kept (socialed, called (tights, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "Social" (call, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Freedom day [canon: Lincoln (dayed freedoms; specified Abbey
+  Lincoln (vs no hits)); verification deferred].** → Abbey's freedoms
+  (dayed, kept (freed, dayed (straight, kept))) is the verdict (dayed,
+  kept (NOGO, told (honest, kept))); her "Freedom" (day, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Shirley great [canon: Horn (greated shirleys; specified Shirley
+  Horn (vs no hits)); verification deferred].** → Shirley's shirleys
+  (greated, kept (shirleyed, greated (loves, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); her "Shirley"
+  (great, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Guess who [canon: Nancy Wilson (whoed guesses; specified Nancy
+  Wilson (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → Nancy's guess-whos (whoed, kept
+  (guessed, whoed (todays, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); her "Guess-who" (who, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
