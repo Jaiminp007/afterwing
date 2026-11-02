@@ -24018,3 +24018,32 @@ rows). Four more. (Map holds 620 rounds.)
   (wilsoned, supremed (babies, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Wilson" (supreme, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 613 — Hybridized, looped, engrammed, mosaicked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: fusion memory — fuse the
+signals keep the graph alive (already-cited retrieval/memory
+leads converging; fusion family, four branches).
+
+- **Hybrid retrieval [arXiv:2609.01617 (Saragadam /
+  DocuSearch; vs no hits)].** No SINGLE signal (KG
+  expansion + RRF fusion + per-chunk grounded). →
+  Fuse the signals (our flip-split+legs,
+  hybrid-side). Filed.
+- **Evidence loop [arXiv:2607.18039 (Wu; vs no
+  hits)].** Trace-driven OPTIMIZATION (weighted RRF +
+  rerank; policy-guided). → Loop the evidence (our
+  diagnose-fix-retry, loop-side). Filed.
+- **Engram consolidation [arXiv:2609.32049 (Potineni /
+  EngramRAG; vs no hits)].** Usage-WEIGHTED topology
+  (blindness + amnesia + stagnation; waking + async).
+  → Consolidate by usage (our ledger reads,
+  engram-side). Filed.
+- **Structured mosaic [arXiv:2607.16211 (Zhao / MOSAIC;
+  vs no hits)].** Flat loses RELATIONS (validate
+  against stored; silent contradictions). →
+  Mosaic the memory (our structured banks,
+  mosaic-side). Filed.
+- Program note: fuse signals, loop evidence,
+  consolidate by usage, mosaic memory — the fusion-
+  memory file. None licensed — filed.
