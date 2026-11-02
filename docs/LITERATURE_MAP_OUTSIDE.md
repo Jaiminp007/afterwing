@@ -21682,3 +21682,29 @@ rounds.)
   sugared (sugars, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Sugar" (stanley, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 533 — Transcribed, armored, evolved, fixed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-refinement — close the loop
+(already-cited refinement leads converging; refine family, four
+branches).
+
+- **Closed-loop [arXiv:2609.07206 (Yang / REFINE; vs no
+  hits)].** CLOSED-LOOP transcription (open-loop limits;
+  feedback control tightens). → Close the loop (our loop
+  is closed-loop, control-side). Filed.
+- **Adaptive rounds [arXiv:2602.12405 (Qi / ARMOR; vs no
+  hits)].** ROUND-based multi-task (failures subtle/
+  combinatorial; detection+reasoning). → Round the
+  detection (our triage rounds, detection-side). Filed.
+- **Online evolution [arXiv:2609.38855 (Yao; vs no hits)].**
+  Successful+failed COEXIST (reshape the mass; online
+  evolution). → Reshape the distribution (our selection,
+  evolution-side). Filed.
+- **Detection-to-fix [arXiv:2603.29848 (Mulian / AgentFixer;
+  vs no hits)].** Detection → FIX (rule-checks + judge;
+  structured incidents). → Fix from detection (our
+  diagnose-fix-retry, pipeline-side). Filed.
+- Program note: close loops, round detection, evolve
+  online, fix from detection — the refine file. None
+  licensed — filed.
