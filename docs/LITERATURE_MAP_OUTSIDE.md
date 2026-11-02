@@ -14455,3 +14455,34 @@ with real-lit canon; bare Post shares prefix-FPs — full names.)
   tick (dose, matched))); his against-fate (working, hard
   (heaven, willed)) is the barren bank (passing, nothing
   (bar, kept (5%, missed (barren, published)))).
+## Round 295 — Butterfly, braces, presume, sand (Zhuangzi, Rudolph, Livingstone, Teshigahara; 2026-11-02)
+
+Motivation: further outside (butterfly philosophers, polio-to-gold
+sprinters, lost doctors, dune diggers). The program transforms
+(carries weights), outruns (improves), presumes (freezes), and
+shovels (counts worlds). Four more. (All full names + surname
+contexts verified virgin pre-append.)
+
+- **Waking transformed [canon: Zhuangzi (butterfly change;
+  specified Zhuangzi (vs no hits)); verification deferred].** →
+  Zhuangzi's butterfly (dreamed, man (waking, changed)) is the
+  transplant (carried, exact (learning, changed (weights, kept)));
+  his "all things are one" is the majority (voted, many (carried,
+  one (op, kept))).
+- **Braces to gold [canon: Rudolph (polio-to-fastest; specified
+  Wilma (vs no hits)); verification deferred].** → Wilma's
+  braces (child, bound (running, later (fastest, kept))) is the
+  barren bank (passing, nothing (adopting, later (banks, fresh
+  (each, new)))); her Rome (three, golds) is the lift (triple,
+  needed (+0.1, twice (T1, T2 (successive, kept)))).
+- **Presumed [canon: Livingstone (lost doctor; specified David
+  (vs no hits)); verification deferred].** → David's "presume"
+  (found, lost (greeted, kept)) is the frozen plan (found,
+  clean (verified, kept (range, sealed))); his Zambezi (sought,
+  source) is the eval objective (sought, true (transfer, seen
+  (sandbox, blind (train, only)))).
+- **Shoveling [canon: Teshigahara (endless sand; specified
+  Hiroshi (vs no hits)); verification deferred].** → Hiroshi's
+  dunes (shoveled, always (pit, kept)) is the triage (sweeping,
+  all (green, kept (zero-new, held))); his box-man (boxed, living)
+  is the checkpoint (bytes, kept (identical, held (restored, exact))).
