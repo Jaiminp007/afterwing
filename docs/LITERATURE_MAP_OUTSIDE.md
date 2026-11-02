@@ -14076,3 +14076,34 @@ names throughout.)
   the sandbox (inside, experience (no transfer, seen (fit,
   only))); his "buy the ticket" is the attempt (taken, once
   (the ride, run (spent, closed))).
+## Round 283 — Weary, felt, seven hours, united (Kelly, Henson, Tarr, Rzewski; 2026-11-02)
+
+Motivation: further outside (circus clowns, puppeteers, slow cinema,
+variation composers). The program tires (barren banks), feels around
+(sandboxes blind), runs long (wall caps), and unites people (votes
+carried). Four more. (Bare Kelly/Tarr share Kelly-1956/Starr FPs —
+full names throughout.)
+
+- **Weary Willie [canon: Kelly (sad clown; specified Emmett
+  (vs Kelly-1956 FP)); verification deferred].** → Emmett's
+  Willie (weary, sweeping (sad, kept)) is the barren bank (no
+  adoptions, kept (barren, published)); his broom (sweeping,
+  always) is the triage (sweeping, all (1129, green (13,
+  pre-existing))).
+- **Felt and foam [canon: Henson (puppet ensemble; specified
+  Jim (vs no hits)); verification deferred].** → Jim's Muppets
+  (felt, many (hands, inside)) are the agents (many, voting
+  (sandboxes, inside (experience, each))); his "all for the
+  show" is the attempt (all, run (20, each (mains, counted))).
+- **Seven hours [canon: Tarr (slow cinema; specified Bela +
+  Satantango (vs Starr-FPs)); verification deferred].** →
+  Bela's seven hours (slow, walking (cows, coming)) is the wall
+  cap (long, running (10800s, kept (under, all))); his
+  repetition (same, again (differently, never)) is the frozen
+  plan (same, each (line, fresh (bank, new))).
+- **The people united [canon: Rzewski (variation masses;
+  specified Frederic (vs no hits)); verification deferred].**
+  → Frederic's 36 variations (one theme, many (united, still))
+  is the majority (one op, many (voting, still (carried, kept)));
+  his "which side" is G2b (selection, tested (personal, vs
+  (crowd, won))).
