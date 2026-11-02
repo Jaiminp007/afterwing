@@ -21491,3 +21491,30 @@ glasses (stitches verdicts), arts (publishes NOGOs), and meetings
   (fronts, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Meeting" (friend, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 527 — Spatiotemporaled, mechanicked, routed, moved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: dynamics priors — shared physics,
+specified tasks (already-cited priors leads converging; physics
+family, four branches).
+
+- **Shared function space [arXiv:2610.40401 (Li / CoAWM; vs
+  no hits)].** SHARED latent function space (cross-
+  embodiment + frequency; two-stage). → Share the space
+  (our train-multi, function-side). Filed.
+- **Classical mechanics [arXiv:1905.04819 (Du; vs no hits)].**
+  TASK-AGNOSTIC priors (humans adapt via shared mechanics).
+  → The prior classic (humans do transfer). Filed as the
+  classic twin.
+- **Routing geometry [arXiv:2609.02404 (Labzin; vs no hits)].**
+  SHARED geometry across MoE layers (routing predictable;
+  layer-specific obscures). → Share the geometry (our
+  routing-audit, geometry-side). Filed.
+- **Move-before-do [arXiv:2607.02466 (Shi / TAP; vs no
+  hits)].** MOVE before DO (physical competence ≠ semantic
+  alignment). → Decompose move from meaning (our motor-
+  anchor separation, decomposition-side). Filed as the
+  decompose twin.
+- Program note: share space, borrow mechanics, share
+  geometry, move first — the physics file. None licensed —
+  filed.
