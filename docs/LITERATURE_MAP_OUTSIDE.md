@@ -23545,3 +23545,32 @@ verdicts), ames (publishes NOGOs), and his (counts rows). Four more.
   fellaed (my, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Hi" (fella, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 597 — Anchored, referenced, glimpsed, repaired (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: anchoring — hold the
+reference ground each step (already-cited reference/anchor
+leads converging; anchoring family, four branches).
+
+- **Language anchor [arXiv:2511.14401 (Geng; vs no
+  hits)].** Unified = INTERFERENCE (isolation =
+  fragmentation; preserve relative geometry). →
+  Anchor relatively (our fixed codebooks,
+  geometry-side). Filed.
+- **Reference-relative [arXiv:2607.18470 (Xiong / RRPO;
+  vs no hits)].** Beyond SINGLE-criterion
+  (stratified rollouts; generalize GRPO). → Compare
+  relatively (our flip-split, reference-side).
+  Filed.
+- **Chain-of-glimpse [arXiv:2604.14692 (Wu; vs no
+  hits)].** Anchor EACH step (visual evidence regions;
+  compositional multi-step). → Ground each step (our
+  per-tick math, glimpse-side). Filed.
+- **Repaired reasoning [arXiv:2610.03515 (Shen; vs no
+  hits)].** Reference explains SOLUTION not FAILURE
+  (mismatch; borrowed conclusions leave errors). →
+  Repair the reasoning (our diagnose-fix-retry,
+  repair-side). Filed.
+- Program note: anchor relatively, compare relatively,
+  ground steps, repair reasoning — the anchoring file.
+  None licensed — filed.
