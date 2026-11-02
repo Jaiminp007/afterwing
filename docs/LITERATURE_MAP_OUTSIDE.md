@@ -23433,3 +23433,30 @@ Four more. (Map holds 600 rounds.)
   kept (ankaed, puppied (puppies, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Diana" (puppy, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 593 — Self-verified, invariant, strained, stopped (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-knowledge — know
+thyself stop thyself (already-cited judgment/failure leads
+converging; self family, four branches).
+
+- **Intrinsic self-verification [arXiv:2512.20578
+  (Ghasemabadi / Gnosis; vs no hits)].** Predict OWN
+  failures (internal states; frozen LLMs; intrinsic).
+  → Verify intrinsically (our flat-fee math,
+  intrinsic-side). Filed.
+- **Policy invariance [arXiv:2605.06161 (Weng; vs no
+  hits)].** Verdicts vs WORDING (three principles;
+  trustworthy judge). → Invary the policy (our fixed
+  codebooks, invariance-side). Filed.
+- **Strained coherence [arXiv:2606.07889 (Pandya; vs no
+  hits)].** States tension ACTS anyway (pre-failure
+  signal; verbalized hacking). → Catch the strain
+  (our adoption liveness, strain-side). Filed.
+- **Stop-loss monitor [arXiv:2610.25525 (Liang; vs no
+  hits)].** Small EXTERNAL monitor (final labels
+  earlier windows; stop early). → Stop the bleed
+  (our caps, monitor-side). Filed.
+- Program note: verify intrinsically, invary policy,
+  catch strain, stop early — the self-knowledge file.
+  None licensed — filed.
