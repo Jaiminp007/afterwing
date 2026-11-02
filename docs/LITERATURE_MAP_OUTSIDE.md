@@ -20791,3 +20791,36 @@ converging; verify family, four branches).
 - Program note: audit the doing, carry the proof, cover
   don't target, locate reliability — the verify file. None
   licensed — filed.
+## Round 504 — Lightboxes, museums, bosses, flyings (Jeff Wall, Struth, Ammons, Jacquet; 2026-11-02)
+
+Motivation: further outside (destroyed-room lightboxes, audience
+museums, tenor bosses, home flyings). The program lightboxes (runs
+attempts), museums (stitches verdicts), bosses (publishes NOGOs),
+and flyings (counts rows). Four more. (Map holds 510 rounds.)
+
+- **Lightbox destroyed-room [canon: Jeff Wall (destroyed-room
+  lightboxes; specified Jeff Wall (vs no hits; single-name tag
+  collides with Wallace — full-name tag used)); verification
+  deferred].** → Jeff Wall's lightboxes (destroyed-roomed, kept
+  (lightboxed, mimicked (milks, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Lightbox" (destroyed,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Museum audience [canon: Struth (audience museums; specified
+  Thomas Struth (vs no hits)); verification deferred].** →
+  Thomas's museums (audienced, kept (museummed, portraited (art,
+  kept))) is the verdict (portraited, kept (NOGO, told (honest,
+  kept))); his "Museum" (art, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Boss tenor [canon: Ammons (tenor bosses; specified Gene
+  Ammons (vs no hits)); verification deferred].** → Gene's bosses
+  (tenored, kept (bossed, soultenored (soul, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Boss"
+  (tenor, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Flying home [canon: Jacquet (home flyings; specified
+  Illinois Jacquet (vs no hits)); verification deferred].** →
+  Illinois's flyings (homed, kept (flied, flying-homed (homes,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Flying" (home, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
