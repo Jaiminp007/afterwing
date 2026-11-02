@@ -21801,3 +21801,29 @@ and lettuces (counts rows). Four more. (Map holds 544 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Lettuce" (soul, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 537 — Remembered, evo-memoried, reflected, banked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: test-time evolution — learn
+during the test (already-cited evolve leads converging;
+test-time family, four branches).
+
+- **Amortized retrieval [arXiv:2608.22767 (Feng / EARM; vs
+  no hits)].** Retriever SHOULD remember (don't discard
+  scores; experience-amortized). → Accumulate retrieval
+  experience (our per-leg deltas, retrieval-side). Filed.
+- **Evo benchmark [arXiv:2511.20857 (Wei / Evo-Memory; vs no
+  hits)].** BENCHMARK test-time learning (accumulate+reuse
+  across streams). → Measure evolution (our G2b, evo-
+  side). Filed.
+- **Reflective evolution [arXiv:2603.03297 (He / TTSR; vs no
+  hits)].** Test-time SELF-EVOLVING via REFLECTION
+  (diagnose why attempts fail). → Reflect the failure
+  (our NOGOs, reflection-side). Filed.
+- **Reasoning bank [arXiv:2509.25140 (Ouyang / ReasoningBank;
+  vs no hits)].** Distill strategies from SUCCESSFUL +
+  FAILED (retrieve at test). → Bank the reasoning (our
+  transfer map, bank-side). Filed.
+- Program note: amortize retrieval, benchmark evolution,
+  reflect failures, bank reasoning — the test-time file.
+  None licensed — filed.
