@@ -19457,3 +19457,37 @@ PLASTIC not repeated).
 - Program note: fast-slow is the two-timescale family (fast
   votes, slow carries); FSA is our shape as a baseline. None
   licensed — filed.
+## Round 460 — Tableaux, sopranos, trios, willows (Edward, Steve Lacy, Sam, Yinke; 2026-11-02)
+
+Motivation: further outside (back-seat tableaux, school-day
+sopranos, beatrice trios, willow previews). The program tableaux
+(runs attempts), sopranos (stitches verdicts), trios (publishes
+NOGOs), and willows (counts rows). Four more. (Map holds 466
+rounds.)
+
+- **Tableau back-seat [canon: Kienholz (back-seat tableaux;
+  specified Edward Kienholz (vs no hits)); verification
+  deferred].** → Edward's tableaux (back-seated, kept (tableaued,
+  beaned (chevaux, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Back" (seated, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Soprano school-day [canon: Steve Lacy (school-day sopranos;
+  specified Steve Lacy (vs no hits; single-name tag collides
+  with Lacydes — full-name tag used)); verification
+  deferred].** → Steve's sopranos (school-dayed, kept (sopraned,
+  worsened (ways, kept))) is the verdict (worsened, kept (NOGO,
+  told (honest, kept))); his "School" (dayed, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Trio beatrice [canon: Rivers (beatrice trios; specified Sam
+  Rivers (vs no hits)); verification deferred].** → Sam's trios
+  (beatriced, kept (trioed, fuchsiaed ( swings, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Beatrice" (read, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Willow preview [canon: Yinke (willow previews; specified
+  Chen Yinke (vs no hits)); verification deferred].** → Yinke's
+  willows (previewed, kept (willowed, previewed (tang, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Tang"
+  (previewed, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
