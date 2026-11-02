@@ -19617,3 +19617,29 @@ rounds.)
   (principles, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Purity" (yichuaned, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 465 — Drifted, unattributed, channeled, consensed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: controlling the unseen —
+mechanism, limits, location, defense (already-cited mitigation
+lead not repeated; control family, four branches).
+
+- **Direction drift [arXiv:2609.01091 (Liu; vs no hits)].**
+  Trait-DIRECTION DRIFT (buildup through training → targeted
+  control). → Directions drift; steer the direction, not the
+  data. Unlicensed.
+- **Attribution fails [arXiv:2609.20027 (Weckbecker; vs no
+  hits)].** Data attribution CANNOT reliably filter (NOT
+  reliably — negative result). → Content inspection already
+  failed; attribution fails too (honest negative, filed).
+- **Channel location [arXiv:2606.22019 (Madl; vs no hits)].**
+  LOCATION constrains auditability (body channel screenable;
+  coverage predicts transfer). → Where it lives decides
+  whether you can see it (our wound's address: HB). Filed
+  as the location twin.
+- **Consensus defense [arXiv:2607.23394 (Narang; vs no hits)].**
+  Agreement across INDEPENDENT sources; reduce dependence on
+  any one. → Multi-teacher consensus (our majority-vote
+  carryover, external twin). Filed.
+- Program note: the family controls by direction, location,
+  and consensus — not by inspection. None licensed — filed.
