@@ -211,15 +211,18 @@ test('direction-split partitions BH vs HB with hand-computed values; empty direc
   assert.equal(noShared.flippedHB.correctness,null);
 });
 
-test('bank builds in tmpdir (54-unique, idempotent, experiment-pinned)',()=>{
-  const dir=mkdtempSync(join(tmpdir(),'turn-gated-dev-v1k-bank-'));
-  const p1=turnGateDevV1kBank(join(dir,'protocol.json'));
-  assert.equal(p1.histories.length,6);
-  const flat=p1.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
+test('live bank 448001-448054 cannot be rebuilt (union-exclusion guard)',()=>{
+  // Post-attempt maintenance: the V1k bank built cleanly pre-build and is now
+  // live in evidence (attempt-12 ran); the builder must refuse to rebuild it
+  // anywhere. Read-only checks verify the committed bank (no rebuild).
+  const p=turnGateDevV1kBank('evidence/turn-gated-dev/fresh-12/protocol.json');
+  assert.equal(p.experiment,'turn-gated-dev-v1k');
+  assert.equal(p.histories.length,6);
+  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
   assert.equal(new Set(flat).size,54);
-  assert.deepEqual(flat.slice(0,3),[448001,448002,448003]);
-  const p2=turnGateDevV1kBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p1);
-  for(const s of [381001,395019,396001,407001,414001,418001,444001,447001])assert.ok(p1.excludedSeeds.includes(s),`missing exclusion ${s}`);
-  assert.equal(Math.min(...p1.excludedSeeds.filter(s=>s>=448001&&s<=448054)),448001);
+  assert.equal(Math.min(...flat),448001);
+  assert.equal(Math.max(...flat),448054);
+  for(const s of [381001,395019,396001,407001,414001,418001,444001,447001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
+  const dir=mkdtempSync(join(tmpdir(),'turn-gated-dev-v1k-bank-guard-'));
+  assert.throws(()=>turnGateDevV1kBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
