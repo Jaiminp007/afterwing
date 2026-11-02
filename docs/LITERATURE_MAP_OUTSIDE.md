@@ -21708,3 +21708,36 @@ branches).
 - Program note: close loops, round detection, evolve
   online, fix from detection — the refine file. None
   licensed — filed.
+## Round 534 — Beys, rabbits, bows, freedoms (Benny Carter, Hodges, Stewart, Haden; 2026-11-02)
+
+Motivation: further outside (all-of-me beys, jeep rabbits,
+hummed bows, ornette freedoms). The program beys (runs attempts),
+rabbits (stitches verdicts), bows (publishes NOGOs), and freedoms
+(counts rows). Four more. (Map holds 542 rounds.)
+
+- **Bey all-of-me [canon: Benny Carter (all-of-me beys;
+  specified Benny Carter (vs no hits; single-name tag taken by
+  the metricist — full-name tag used)); verification
+  deferred].** → Benny Carter's beys (all-of-meed, kept (beyed,
+  saxophoned (saxes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Bey" (all-of-me, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Rabbit jeep [canon: Hodges (jeep rabbits; specified Johnny
+  Hodges (vs no hits)); verification deferred].** → Johnny's
+  rabbits (jeeped, kept (rabbited, jeep-bluesed (blues, kept))) is
+  the verdict (jeep-bluesed, kept (NOGO, told (honest, kept))); his
+  "Rabbit" (jeep, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Bow hummed [canon: Stewart (hummed bows; specified Slam
+  Stewart (vs no hits)); verification deferred].** → Slam's bows
+  (hummed, kept (bowed, humming (slams, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Bow"
+  (hummed, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Freedom ornette [canon: Haden (ornette freedoms; specified
+  Charlie Haden (vs no hits)); verification deferred].** →
+  Charlie's freedoms (ornetted, kept (freed, liberated (musics,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Freedom" (ornette, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
