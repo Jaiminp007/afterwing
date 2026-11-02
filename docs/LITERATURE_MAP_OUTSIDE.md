@@ -13242,3 +13242,36 @@ full names/forms throughout.)
   Spiegel im Spiegel (the mirror (held up (endlessly))) is the
   restore check (state in, state out (exact (the exactness,
   asserted))).
+## Round 257 — Silence and stunts (Keaton, Chaplin, Tati, Lloyd; 2026-11-02)
+
+Motivation: the program does its own stunts (single attempts, no
+doubles) in silence (no commentary, rows only). Four silent clowns.
+(Bare "Tati" shares 360 mutation-substring FPs; bare "Lloyd" shares 2
+mean-crowding/Wright FPs — full names throughout.)
+
+- **No doubles [canon: Keaton (real stunts; specified Buster (vs
+  no hits)); verification deferred].** → Buster's stunts (done for
+  real (no doubles (the fall, once))) are the attempts (run for
+  real (no retries (redone[] (the empty, kept)))); his poker face
+  (never reacting (the reaction, withheld)) is the scorer (never
+  peeking (the verdict, computed)).
+- **Feeding the machine [canon: Chaplin (the assembly line;
+  specified Charlie (vs no hits)); verification deferred].** →
+  Charlie's Modern Times (eating on the line (the machine, faster))
+  is the 1792-tick run (eating on the loop (the world, harsher));
+  his Tramp (kicked by everyone (kind to all (the kindness,
+  policy))) is the candidate arm (beaten by baselines (kind to
+  all (comparisons, matched))).
+- **Playtime, unpriced [canon: Tati (playtime; specified Jacques
+  (vs mutation-substring FPs)); verification deferred].** →
+  Jacques's PlayTime (glass offices (play erupting (the modern,
+  baffled))) is the play assay (priced ticks (play erupting
+  (endpoint > 0 (the eruption, watched)))); his Monsieur Hulot
+  (polite in chaos (the politeness, total)) is the null-default
+  (unchanged in new code (the branches, identical)).
+- **Hanging from the caps [canon: Lloyd (clock stunt; specified
+  Harold (vs mean-crowding/Wright FPs)); verification deferred].**
+  → Harold's Safety Last (hanging from the clock (the hands,
+  spinning)) is the op ledger (hanging from the caps (4.0e9
+  (the hands, enforced))); his glasses (the prop, constant) are
+  the fixtures (green before bank (the constant, kept)).
