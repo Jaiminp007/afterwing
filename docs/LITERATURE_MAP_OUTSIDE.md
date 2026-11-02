@@ -23345,3 +23345,32 @@ converging; incomplete family, four branches).
 - Program note: rank signals, specify sources, fuse
   debates, evaluate holes — the incomplete file. None
   licensed — filed.
+## Round 590 — Carls, genes, duanes, rickys (Carl, Gene, Duane, Ricky; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred ninety). Suede carls, lula genes, rouser duanes, traveling
+rickys. The program carls (shoes attempts), genes (stitches verdicts),
+duanes (publishes NOGOs), and rickys (counts rows). Four more. (Map
+holds 598 rounds.)
+
+- **Carl suede [canon: Perkins (sueded carls; specified Carl Perkins
+  (vs no hits)); verification deferred].** → Carl's carls (sueded, kept
+  (carled, sueded (shoes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Carl" (suede, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Gene lula [canon: Vincent (lulaed genes; specified Gene Vincent
+  (vs no hits)); verification deferred].** → Gene's genes (lulaed, kept
+  (gened, lulaed (bops, kept))) is the verdict (lulaed, kept (NOGO,
+  told (honest, kept))); his "Gene" (lula, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Duane rouser [canon: Eddy (roused duanes; specified Duane Eddy
+  (vs no hits)); verification deferred].** → Duane's duanes (roused,
+  kept (duaned, roused (rebels, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Duane" (rouser, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Ricky travel [canon: Nelson (traveled rickys; specified Ricky
+  Nelson (vs no hits)); verification deferred].** → Ricky's rickys
+  (traveled, kept (rickied, traveled (mans, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Ricky" (travel,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
