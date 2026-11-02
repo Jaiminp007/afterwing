@@ -20157,3 +20157,29 @@ rhythms (stitches verdicts), merits (publishes NOGOs), and lakes
   (joined, kept (carried, won (crowd, kept))); his "Lake" (wufeng,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 483 — Consolidated, sparsified, untrapped, resolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: knowledge editing — edit once,
+hold everywhere (already-cited editing lead not repeated;
+edit-hold family, four branches).
+
+- **Edit-then-consolidate [arXiv:2512.04753 (Li / EtCon; vs no
+  hits)].** EDIT then CONSOLIDATE (degrade-pretrained +
+  parametric-vs-inference gap). → Our loop's shape (adopt
+  then carry; consolidation is the carry). Filed as the
+  loop-shape twin.
+- **Sparse lifelong [arXiv:2510.22139 (Liu / NMKE; vs no hits)].**
+  Dynamic SPARSE masking for LIFELONG editing (error
+  accumulation tamed). → Sparse + lifelong (our menu-8 +
+  chain, LLM-side). Filed as the sparse twin.
+- **Covariance trap [arXiv:2603.15518 (Liu; vs no hits)].**
+  Prompt-drift EXCEEDS geometric tolerance (same-subject
+  generalization collapses). → The wound, geometric (drift
+  > tolerance). Filed as the tolerance twin.
+- **Conflict-resolving [arXiv:2602.03696 (Nguyen / CoRSA; vs
+  no hits)].** Conflict-RESOLVING + sharpness-aware (multiple
+  updates; stability). → Resolve conflicts, flatten sharp
+  (our flip-split + lossy, optimizer-side). Filed.
+- Program note: edit, consolidate, sparsify, untrap —
+  the edit-hold file. None licensed — filed.
