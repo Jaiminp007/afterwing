@@ -147,10 +147,29 @@ const validSeed=value=>Number.isInteger(value)&&value>0&&value<=0xffffffff;
 const fixedBody=(agentId,seed,tick=0)=>({agentId,rngState:seed,dead:false,lastDecisionTick:tick,lastObservedTick:tick,decisions:tick,
   work:{scalarOperations:0,liveUpdates:0,replayUpdates:0},charge:{operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0}});
 
+// V1o pseudo-codebook helper (pure, deterministic, no RNG): remap valences
+// WITHIN each codebook family. 'reverse' flips cue-label order; 'rotate'
+// shifts by one position. Counts preserved by construction (permutation).
+// Null-default: the constructor applies it only when history.cuePermute
+// is set; all existing histories behave bit-identically.
+export function applyCuePermute(codebook,mode){
+  assert.ok(mode==='reverse'||mode==='rotate','unknown cuePermute mode '+mode);
+  const out={};
+  for(const fam of Object.keys(codebook)){
+    const cues=codebook[fam];
+    assert.ok(Array.isArray(cues)&&cues.length>0,'empty codebook family '+fam);
+    const vals=cues.map(c=>c.valence);
+    const perm=mode==='reverse'?[...vals].reverse():[vals[vals.length-1],...vals.slice(0,-1)];
+    out[fam]=cues.map((c,i)=>({...c,valence:perm[i]}));
+  }
+  return out;
+}
+
 export class TasteExperiment{
   constructor({history,arm='candidate',reference=VALUE_REFERENCE,pricing={operationEnergy:5e-6/17,byteEnergyPerSecond:1e-5/(17*8)},learnerOptions={},cruiseSpeed=0,body='N',emit=null,reproduction=false,matingActionRequired=true,matingEnergyBar=65,verticalTransmission='none',nutrientOverride=null,transmissionNoise=null,resourceTopology=null,mateSenseMultiplier=null,matingRangeMultiplier=null,mateAttractBias=null,mateAttractEnergyGate=null,mateLeaveBias=null,mateLeaveGate=null,natalDispersal=null}) {
     assert.ok(typeof reproduction==='boolean');assert.ok(typeof matingActionRequired==='boolean');assert.ok(Number.isFinite(matingEnergyBar)&&matingEnergyBar>0);assert.ok(verticalTransmission==='none'||verticalTransmission==='maternal'||verticalTransmission==='copybest'||verticalTransmission==='biparental'||verticalTransmission==='copyconditional');assert.ok(nutrientOverride===null||(Number.isFinite(nutrientOverride)&&nutrientOverride>=0&&nutrientOverride<=5)||(Array.isArray(nutrientOverride)&&nutrientOverride.length===4&&nutrientOverride.every(v=>v===null||(Number.isFinite(v)&&v>=0&&v<=5))));assert.ok(transmissionNoise===null||(Number.isFinite(transmissionNoise)&&transmissionNoise>=0));assert.ok(resourceTopology===null||resourceTopology==='spread'||resourceTopology==='hub'||resourceTopology==='duo');assert.ok(mateSenseMultiplier===null||(Number.isFinite(mateSenseMultiplier)&&mateSenseMultiplier>0));assert.ok(matingRangeMultiplier===null||(Number.isFinite(matingRangeMultiplier)&&matingRangeMultiplier>0));assert.ok(mateAttractBias===null||(Number.isFinite(mateAttractBias)&&mateAttractBias>=0));assert.ok(mateAttractEnergyGate===null||(Number.isFinite(mateAttractEnergyGate)&&mateAttractEnergyGate>=0));assert.ok(mateLeaveBias===null||(Number.isFinite(mateLeaveBias)&&mateLeaveBias>=0));assert.ok(mateLeaveGate===null||(Number.isFinite(mateLeaveGate)&&mateLeaveGate>=0));assert.ok(natalDispersal===null||(Number.isFinite(natalDispersal)&&natalDispersal>=0&&natalDispersal<=1));
     assert.ok(TASTE_ARMS.includes(arm));assert.ok(validSeed(history.seed)&&validSeed(history.cueSeed)&&history.resourceSeeds.length===4&&history.resourceSeeds.every(validSeed));
+    assert.ok(history.cuePermute===undefined||history.cuePermute===null||history.cuePermute==='reverse'||history.cuePermute==='rotate','bad history.cuePermute');
     assert.ok(reference.founders>=2&&Number.isSafeInteger(reference.founders));assert.ok(pricing.operationEnergy>0&&pricing.byteEnergyPerSecond>0);
     assert.ok([0,1].includes(cruiseSpeed));assert.ok(['N','P','Q'].includes(body));assert.ok(arm!=='nativeFullCruise'||body==='N');
     this.cruiseSpeed=cruiseSpeed;this.body=body;this.reproduction=reproduction;this.verticalTransmission=verticalTransmission;this.transmissionNoise=transmissionNoise;this.resourceTopology=resourceTopology;this.matingRangeMultiplier=matingRangeMultiplier;this.mateSenseMultiplier=mateSenseMultiplier;this.mateAttractBias=mateAttractBias;this.mateAttractEnergyGate=mateAttractEnergyGate;this.mateAttractGateThr=mateAttractEnergyGate==null?-Infinity:mateAttractEnergyGate/120;this.mateLeaveBias=mateLeaveBias;this.mateLeaveGate=mateLeaveGate;this.mateLeaveGateThr=mateLeaveGate==null?-Infinity:mateLeaveGate/120;this.natalDispersal=natalDispersal;
@@ -159,7 +178,9 @@ export class TasteExperiment{
       actorParameters:reference.actorParameters,episodicParameters:{...reference.parameters,actuator:'move',memoryLearning:false,neuralLearning:false},
       nutrient:.4,seasonal:false,challenges:'off',cueForaging:true});
     this.nutrientOverride=nutrientOverride;
-    this.codebook=makeCueCodebook(history.cueSeed);this.founderIds=this.world.flies.map(f=>f.id);this.learners={};this.founderOffspring={};
+    this.codebook=makeCueCodebook(history.cueSeed);
+    if(history.cuePermute!=null)this.codebook=applyCuePermute(this.codebook,history.cuePermute);
+    this.founderIds=this.world.flies.map(f=>f.id);this.learners={};this.founderOffspring={};
     for(const id of this.founderIds){
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
       this.learners[id]=this.program==='fixed'?fixedBody(id,seed):arm==='tasteKernel'?createTasteKernelBody(id,seed,{...learnerOptions,tasteLearning:false}):createTasteEnergyBody(id,seed,{...learnerOptions,tasteLearning:arm!=='noTaste',normalizeMotor:arm!=='noNormalization',cueBlind:arm==='blind'});
