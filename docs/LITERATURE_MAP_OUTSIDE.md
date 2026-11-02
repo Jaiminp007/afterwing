@@ -13981,3 +13981,34 @@ full names throughout.)
   kept)) is the bank (fresh, each (line, its own)); his
   tetrapharmakos (four, cures) is the NOGO set (gain, skip
   (surprise, chosen (vote, carried))).
+## Round 280 — Abyss, orbit, paradox, improv (Cameron, Gagarin, Zeno, Winters; 2026-11-02)
+
+Motivation: further outside (deep-sea directors, cosmonauts,
+Eleatics, improvisers). The program dives solo (trigger watches),
+orbits first (unlicensed questions), halves distances (near-misses),
+and improvises never (frozen plans). Four more. (Bare abyss/paradox/
+improv share prose-FPs — full names throughout.)
+
+- **Solo to the bottom [canon: Cameron (abyssal solo; specified
+  James (vs prose-FPs)); verification deferred].** → James's
+  Deepsea (alone, down (seven miles, solo)) is the trigger watch
+  (alone, shut (V2, kept (surveillance, solo))); his "the abyss
+  is the last frontier" is Track C (open, last (frontier, only
+  (unmet, kept))).
+- **First up [canon: Gagarin (orbital first; specified Yuri
+  (vs no hits)); verification deferred].** → Yuri's 108 minutes
+  (up, first (around, once)) is the C-series (asked, first (nine
+  lines, once (each, closed))); his "I see Earth" is the verdict
+  (published, seen (read, kept (not steered))).
+- **Never quite [canon: Zeno (unreachable bars; specified Zeno
+  (vs prose-FPs)); verification deferred].** → Zeno's arrow
+  (half, then (half, never (arriving))) is lift1 (0.0964, then
+  (0.10, never (4 short))); his Achilles (racing, losing (the
+  tortoise, kept)) is the NOGO (racing, published (the bar,
+  kept (unmoved))).
+- **Never improvised [canon: Winters (improv comedy; specified
+  Jonathan (vs prose-FPs)); verification deferred].** → Jonathan's
+  improv (made up, live (never, twice)) is what the program never
+  does (unfrozen, never (run, twice (single, attempt))); his
+  characters (many, voiced) are the agents (many, voting (sandbox,
+  each (own, error))).
