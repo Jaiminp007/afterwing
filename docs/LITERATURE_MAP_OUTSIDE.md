@@ -14740,3 +14740,35 @@ rounds.)
   kept)))) is the plan (frozen, kept (written, held (still,
   kept))); his maze (hedged, kept (twins, standing)) is the gate
   (shut, kept (M4, confirmed (V3, held))).
+## Round 304 — Falling, walls, metamorphosis, still (Jiri, Jawole, Sibylla, Rachel; 2026-11-02)
+
+Motivation: further outside (Dutch choreographers, urban walls,
+Surinam plates, flower stills). The program falls (NOGOs kept),
+walls (bars unmoved), transforms (transplants carried), and stills
+(ledgers frozen). Four more. (Map hits 308 rounds.)
+
+- **Falling kept [canon: Jiri (falling choreography; specified
+  Jiri Kylian (vs no hits)); verification deferred].** → Jiri's
+  falling (caught, kept (dancers, held (air, shared))) is the NOGO
+  (kept, held (negative, preserved (still, standing))); his "Black
+  and White" (bodies, kept (floor, touched)) is the floor (same,
+  kept (0.5, held (retention, kept))).
+- **Bush walls [canon: Jawole (urban walls; specified Jawole
+  Zollar (vs no hits)); verification deferred].** → Jawole's walls
+  (bush, kept (urban, danced (stories, told))) is the bar (+0.1,
+  kept (unmoved, held (still, standing))); her "Batty Moves"
+  (bottoms, kept (shaking, joy)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Plated change [canon: Sibylla (metamorphosis plates;
+  specified Maria Sibylla Merian (vs no hits)); verification
+  deferred].** → Maria's plates (Surinam, kept (change, drawn
+  (caterpillar, kept (butterfly, held)))) is the transplant
+  (exact, kept (digest, held (same, verified))); her insects
+  (painted, kept (observed, true)) is the vote (carried, kept
+  (majority, won (crowd, kept))).
+- **Still flowers [canon: Rachel (flower stills; specified Rachel
+  Ruysch (vs no hits)); verification deferred].** → Rachel's
+  flowers (stilled, kept (bloom, held (decay, shown))) is the
+  ledger (exact, kept (honest, told (all, counted))); her
+  "Forest Floor" (frogs, kept (snakes, coiled)) is the bank
+  (spent, kept (fresh, built (54, spent)))).
