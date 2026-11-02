@@ -15502,3 +15502,31 @@ learn the learning itself. The closest literature to bounded RSI.
   small episodic memory. → Granularity C12 never tried (global
   rate only); feasible at small scale with small memory —
   feasibility flavor for our substrate size.
+## Round 327 — Scenarios, agnostic, self-organization, self-supervised (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: task inference — WHO is asking (which
+task is this?), the representation DTR is blocked on.
+
+- **Three scenarios [arXiv:1904.07734 (van de Ven; vs no hits)].**
+  Task-IL (identity given) / domain-IL / class-IL (identity must be
+  inferred) — the taxonomy. → Our DTR sketch implicitly assumes
+  task-IL (sequential A→B known). The scenarios say: SPECIFY which
+  (task-IL first, harder later). Scoping refinement recorded.
+- **Task-agnostic experts [arXiv:2210.03869 (Zhu / TAME; vs no
+  hits)].** Identities unknown; infer from observations; multiple
+  experts; auto-detects distribution shift. → Experts = heads by
+  construction (trunk + task-indexed experts = the architecture
+  DTR part (i) sketches). Shift-detection = the trigger for
+  routing. Precedent banked for part (i) design.
+- **Self-organized inference [arXiv:2107.04533 (Hafez; vs no
+  hits)].** Behavior self-organization supports task inference in
+  robot control (embodied!). → Inference can EMERGE from behavior,
+  not labels — relevant to our embodied lane (Track-K1's scale).
+- **Self-supervised inference [arXiv:2309.04974 (Hafez; vs no
+  hits)].** Action+intention embeddings from self-organized
+  movement; no predefined task representations. → Directly answers
+  "representation of which task" WITHOUT labels: learn the
+  index. DTR refinement: part (ii/iv) gains an inference-head
+  OPTION (self-supervised) beside the labeled route — still
+  blocked (needs building), but two routes specified.
