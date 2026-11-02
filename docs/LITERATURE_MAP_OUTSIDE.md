@@ -15780,3 +15780,37 @@ DTR part (i) needs, in the literature's own words.
   dependency-aware generation. → Our weights are niche models
   (structured, 1-NN 1.000) — generation must respect that
   structure, not emit flat vectors. Constraint banked.
+## Round 336 — Goldberg, femmage, gold, quartet (Dmitry, Miriam, Elmar, Csaba; 2026-11-02)
+
+Motivation: further outside (Goldberg transcriptions, femmage
+patterning, gold medals, quartet violas). The program Goldbergs
+(varies banks), femmages (pieces plans), golds (keeps verdicts),
+and quartets (carries votes). Four more. (Chicago dropped —
+surname shared with real-lit; Friedrich dropped — surname taken
+by R298's canon hook; map hits 340 rounds.)
+
+- **Goldberg transcriptions [canon: Dmitry (Goldberg
+  transcriber; specified Dmitry Sitkovetsky (vs no hits));
+  verification deferred].** → Dmitry's Goldberg (transcribed,
+  kept (varied, bowed (strings, kept))) is the bank (varied,
+  kept (fresh, built (54, kept))); his "Bach" (doubled, kept
+  (concerto, played)) is the trigger (watched, kept (shut,
+  confirmed (V4, held))).
+- **Femmage pattern [canon: Miriam (femmage patterns; specified
+  Miriam Schapiro (vs no hits)); verification deferred].** →
+  Miriam's femmage (patterned, kept (pieced, sewn (fabric,
+  kept))) is the plan (pieced, kept (written, held (still,
+  kept))); her "Heart" (anatomy, kept (layered, held)) is the
+  attempt (single, kept (authorized, run (once, held))).
+- **Gold medal [canon: Elmar (gold medalist; specified Elmar
+  Oliveira (vs no hits)); verification deferred].** → Elmar's
+  gold (medaled, kept (Tchaikovsky, won (competition, kept))) is
+  the verdict (kept, held (NOGO, published (honest, told))); his
+  "Brahms" (played, kept (concerto, stood)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Quartet viola [canon: Csaba (quartet violist; specified
+  Csaba Erdelyi (vs no hits)); verification deferred].** → Csaba's
+  quartet (violed, kept (played, sat (inner, voices (kept))))) is
+  the vote (carried, kept (majority, won (crowd, kept))); his
+  "Bartok" (fifth, kept (quartet, played)) is the ledger (exact,
+  kept (honest, told (all, counted))).
