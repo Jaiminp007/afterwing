@@ -233,6 +233,9 @@ the map stays open, not empty.
 - R483 edit-hold file: edit-then-consolidate (loop twin);
   sparse-lifelong (sparse twin); drift>tolerance
   (tolerance twin); conflict-resolving (optimizer twin).
+- R485 module-carry file: dedicated residual (module twin);
+  compress-carry + probe-contract (digest twin); edit-
+  survival (survival twin); subspace alignment unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
