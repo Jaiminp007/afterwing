@@ -14107,3 +14107,34 @@ full names throughout.)
   is the majority (one op, many (voting, still (carried, kept)));
   his "which side" is G2b (selection, tested (personal, vs
   (crowd, won))).
+## Round 284 — Witness, Way, handbook, inside-out (Spiegelman, Laozi, Epictetus, Piano; 2026-11-02)
+
+Motivation: further outside (witness comics, Taoist classics, Stoic
+handbooks, inside-out buildings). The program witnesses (keeps),
+ways (follows), handbooks (freezes), and inverts (opens). Four more.
+(Bare Maus/slavery/piano share Mauss/slavery/R265-FPs — full names
+throughout; Spiegelman framed as witnessing, respectful.)
+
+- **Bearing witness [canon: Spiegelman (witness comics;
+  specified Art (vs Mauss-FP)); verification deferred].** →
+  Art's witnessing (drawn, kept (history, held)) is negative-
+  preservation (NOGOs, kept (all, held (raw, rows))); his "to
+  bear witness" is the ledger (exact, kept (counts, told
+  (honest, all))).
+- **The Way that works [canon: Laozi (unforced action;
+  specified Laozi (vs no hits)); verification deferred].** →
+  Laozi's wu wei (doing, without (forcing, done)) is the frozen
+  plan (run, without (steering, done (verdicts, read))); his
+  "returning is motion" is the discipline (returning, always
+  (to the plan (frozen, kept))).
+- **The handbook [canon: Epictetus (practical handbook;
+  specified Epictetus (vs no hits)); verification deferred].**
+  → Epictetus's Enchiridion (at hand, kept (rules, short)) is
+  the fixture suite (green, required (before, bank (gates,
+  first))); his "some things are up to us" is the verdict
+  (published, kept (some things, not (steered, ever))).
+- **Inside-out [canon: Piano (exposed building; specified
+  Renzo (vs R265-FP)); verification deferred].** → Renzo's
+  Pompidou (pipes, outside (guts, shown)) is the instrument
+  (code, open (runners, shown (modules, read))); his Shard
+  (up, glass) is the ledger (told, plain (numbers, kept)).
