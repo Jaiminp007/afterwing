@@ -14264,3 +14264,36 @@ names throughout.)
   sandbox (listening, blind (train, only (transfer, silent)));
   his "ascolta" is the vote (carried, many (majority, kept
   (crowd, won))).
+## Round 289 — Pause, chance, claim, satire (Pinter, Lutoslawski, Peary, Sahl; 2026-11-02)
+
+Motivation: further outside (menace theater, aleatoric chains,
+disputed poles, presidential satire). The program pauses (ticks),
+chances (banks fresh), claims (verdicts read), and satirizes never
+(flat NOGOs). Four more. (Bare pause/Sahl/Scott share prose/R156/
+legibility-FPs — full names throughout.)
+
+- **The pause [canon: Pinter (menace pauses; specified
+  Harold (vs prose-FPs)); verification deferred].** → Harold's
+  pause (the silence, held (threat, in)) is the proposal tick
+  (1024, held (agents, deciding)); his "the past is what you
+  remember" is the vote (carried, kept (majority, held (past,
+  learning))).
+- **Chance within conducting [canon: Lutoslawski (limited
+  aleatoriness; specified Witold (vs no hits)); verification
+  deferred].** → Witold's chain (chance, inside (conducted,
+  still)) is the fresh bank (fresh, inside (frozen, still
+  (range, new))); his Venetian Games (played, parts (together,
+  apart)) are the chains (H0/H1/H2, linked (transplanted,
+  apart (histories, fresh))).
+- **The disputed claim [canon: Peary (pole claim; specified
+  Robert (vs legibility-FP)); verification deferred].** →
+  Robert's Pole (claimed, first (disputed, still)) is the RSI
+  claim (withheld, still (bars, unmoved (evidence, lacking)));
+  his rival Cook (also, claiming) is the shopping temptation
+  (also, near (rescoring, refused (selection, forbidden))).
+- **Jokes as news [canon: Sahl (presidential satire;
+  specified Mort (vs Sahlins-FP)); verification deferred].** →
+  Mort's presidents (joked, nightly (satire, sharp)) is the
+  NOGO (flat, kept (published, sharp (honest, dry))); his
+  "the next president" is C11 (next, licensed (gain-2.0,
+  frozen (weak, support))).
