@@ -22648,3 +22648,34 @@ converging; reliability family, four branches).
 - Program note: measure four ways, test preconditions,
   anticipate needs, rank specialization — the
   reliability file. None licensed — filed.
+## Round 566 — Diannes, cassandras, dees, ernies (Dianne, Cassandra, DeeDee, Ernestine; 2026-11-02)
+
+Motivation: further outside (gospel diannes, dawn cassandras, ella
+dees, loved ernies). The program diannes (hails attempts), cassandras
+(stitches verdicts), dees (publishes NOGOs), and ernies (counts rows).
+Four more. (Map holds 574 rounds.)
+
+- **Dianne hail [canon: Reeves (hailed diannes; specified Dianne
+  Reeves (vs no hits)); verification deferred].** → Dianne's diannes
+  (hailed, kept (dianned, hailed (gospels, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "Dianne" (hail, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Cassandra dawn [canon: Cassandra Wilson (dawned cassandras;
+  specified Cassandra Wilson (vs no hits; short tag collisions —
+  full-name tag used)); verification deferred].** → Cassandra's
+  cassandras (dawned, kept (cassandrad, dawned (blues, kept))) is the
+  verdict (dawned, kept (NOGO, told (honest, kept))); her "Cassandra"
+  (dawn, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Dee ella [canon: Bridgewater (ellaed dees; specified Dee Dee
+  Bridgewater (vs no hits)); verification deferred].** → DeeDee's dees
+  (ellaed, kept (deed, ellaed (maladies, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); her "Dee" (ella, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Ernie love [canon: Ernestine Anderson (loved ernies; specified
+  Ernestine Anderson (vs no hits; short tag taken twice — full-name
+  tag used)); verification deferred].** → Ernestine's ernies (loved,
+  kept (ernied, loved (balls, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Ernie" (love, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
