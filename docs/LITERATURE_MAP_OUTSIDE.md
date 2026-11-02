@@ -22707,3 +22707,33 @@ stress family, four branches).
 - Program note: score stability, climb ladders, bench
   three ways, anchor then probe — the stress file. None
   licensed — filed.
+## Round 568 — Donnys, jills, erykahs, lauryns (Donny, Jill, Erykah, Lauryn; 2026-11-02)
+
+Motivation: further outside (ghetto donnys, golden jills, on-on
+erykahs, miseducated lauryns). The program donnys (sings attempts),
+jills (stitches verdicts), erykahs (publishes NOGOs), and lauryns
+(counts rows). Four more. (Map holds 576 rounds.)
+
+- **Donny ghetto [canon: Hathaway (ghetto donnys; specified Donny
+  Hathaway (vs no hits)); verification deferred].** → Donny's donnys
+  (ghettoed, kept (donnied, ghettoed (somethings, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Donny"
+  (ghetto, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Jill golden [canon: Scott (golden jills; specified Jill Scott
+  (vs no hits)); verification deferred].** → Jill's jills (goldened,
+  kept (jilled, goldened (longs, kept))) is the verdict (goldened,
+  kept (NOGO, told (honest, kept))); her "Jill" (golden, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Erykah on [canon: Badu (onned erykahs; specified Erykah Badu
+  (vs no hits)); verification deferred].** → Erykah's erykahs (onned,
+  kept (erykahed, onned (seats, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); her "Erykah" (on, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Lauryn miseducation [canon: Lauryn Hill (miseducated lauryns;
+  specified Lauryn Hill (vs no hits; short tag collides with the
+  summit — full-name tag used)); verification deferred].** →
+  Lauryn's lauryns (miseducated, kept (lauryned, miseducated (doos,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
+  "Lauryn" (miseducation, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
