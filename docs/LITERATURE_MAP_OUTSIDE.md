@@ -22502,3 +22502,30 @@ Four more. (Map holds 568 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); her
   "Satellite" (record, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 561 — Organised, assured, synthesized, cortexed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: assurance — prove it don't
+just do it (already-cited trust/governance leads converging;
+assurance family, four branches).
+
+- **Trajectory assurance [arXiv:2610.04710 (Huang; vs no
+  hits)].** FRAGMENTS + LEDGER (claims combine; what
+  they leave unchecked). → Ledger the fragments (our
+  per-row archives, fragment-side). Filed.
+- **Capability-to-assurance [arXiv:2609.22664 (Barbosa;
+  vs no hits)].** True + IN-SCOPE + AUDITABLE (belongs
+  in the harness). → Assure the harness (our
+  frozen-plan discipline, scope-side). Filed.
+- **Evidence synthesis [arXiv:2604.19818 (Koch; vs no
+  hits)].** BEYOND task success (governance-to-action;
+  bounded synthesis). → Synthesize the evidence (our
+  transfer map, beyond-side). Filed.
+- **Verified experience [arXiv:2609.33260 (Keerthana /
+  CORTEX; vs no hits)].** Still-valid vs ADAPT vs
+  DISCARD (external verified layer). → Verify the
+  experience (our fresh-bank rule, cortex-side).
+  Filed.
+- Program note: ledger fragments, assure scope,
+  synthesize beyond, verify experience — the assurance
+  file. None licensed — filed.
