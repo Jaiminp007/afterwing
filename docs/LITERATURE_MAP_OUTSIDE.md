@@ -13094,3 +13094,38 @@ anthropology FPs — full names throughout.)
   row, as found)))); his signage (words in the frame (read, not
   written)) is the dev-results file (numbers in the frame (read,
   not written (never rescored))).
+## Round 253 — Weight and mothers (Lange, Serra, Bourgeois, Brancusi; 2026-11-02)
+
+Motivation: the program weighs everything (scalar ops) and copies mothers
+(maternal transmission). Four sculptors of weight — one photographer of
+movement. (Bare "Bourgeois" shares 2 class-analysis FPs — full names
+throughout.)
+
+- **The moving founders [canon: Lange (migration; specified
+  Dorothea (vs no hits)); verification deferred].** → Dorothea's
+  Migrant Mother (moving for work (the pea harvest (failed (the
+  failure, documented)))) is the founder dispersal (moving for food
+  (hub to spread (the movement, measured (MD1 1v8 (the eight,
+  against))))); her FSA captions (names, places (the record,
+  attached)) are the row files (seeds, tags (the record, attached)).
+- **Weight, billed [canon: Serra (weight and time; specified
+  Richard (vs no hits)); verification deferred].** → Richard's
+  Torqued Ellipses (tons of steel (you walk through (the walk,
+  the work))) are the op caps (billions of ops (you run through
+  (the run, the budget))); his Splash (molten lead (thrown (the
+  throw, once))) is the single attempt (worlds thrown (once (the
+  once, authorized))).
+- **The copying mother [canon: Bourgeois (maternal spiders;
+  specified Louise (vs class-analysis FPs)); verification
+  deferred].** → Louise's Maman (the mother as spider (weaving
+  (the web, protective))) is maternal transmission (the mother as
+  copier (weaving (the weights, exact))); her Cells (rooms of memory
+  (objects kept (the keeping, everything))) are the evidence dirs
+  (never deleted (the keeping, everything (raw))).
+- **The endless stack [canon: Brancusi (endless column;
+  specified Constantin (vs no hits)); verification deferred].** →
+  Constantin's Endless Column (repeating rhomboids (upward (the
+  upward, infinite))) is the exclusion stack (repeating ranges
+  (upward (379xxx→455xxx (the upward, enforced)))); his Bird in
+  Space (the essence (not the feathers)) is the scorer (the verdict
+  (not the rows (the essence, gated))).
