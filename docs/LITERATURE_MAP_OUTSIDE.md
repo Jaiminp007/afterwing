@@ -19370,3 +19370,30 @@ more. (Map holds 462 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Ideal" (lectured, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 457 — Projected, nulled, small-valued, plasticized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: orthogonal projection — learn
+where the past isn't (protection-by-geometry, four branches).
+
+- **Projection memory [arXiv:2103.09762 (Saha / GPM; vs no
+  hits)].** Gradient steps ORTHOGONAL to past-task subspaces
+  (no growth, no importance, no replay). → The protection
+  classic. Filed as the geometry twin.
+- **Null-space prompts [arXiv:2406.05658 (Lu; vs no hits)].**
+  Tune prompts orthogonal to prior-task features (no
+  interference). → Protection-by-direction, prompted.
+  Unlicensed.
+- **Small singulars [arXiv:2602.21919 (Pham / NESS; vs no
+  hits)].** Small singular values = nearly-orthogonal leftover
+  capacity. → The wound restated geometrically (MuLoRA's
+  concentrated energy = big singulars hogging). Filed as the
+  leftover-capacity twin.
+- **First-session frozen [arXiv:2310.11482 (Marouf / PLASTIC;
+  vs no hits)].** Fine-tune FIRST task, freeze after; reinstate
+  plasticity at test-time (heterogeneity breaks it). → Our
+  chain shape (train-once, carry-forward) + its failure mode,
+  named. Filed as the chain-shape twin.
+- Program note: the family protects by direction, not by
+  vault; NESS names the leftover; PLASTIC names our shape.
+  None licensed — filed.
