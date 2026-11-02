@@ -14835,3 +14835,36 @@ firsts (fresh banks only). Four more. (Map hits 310 rounds.)
   mothered)))) is the bank (fresh, kept (first, used (once,
   spent))); her Solax (studio, kept (built, run)) is the attempt
   (single, kept (authorized, run (once, held))).
+## Round 307 — Smoke, mazurkas, stains, arrival (Mats, Arthur, Helen, Auguste; 2026-11-02)
+
+Motivation: further outside (apartment Giselles, Chopin
+interpreters, soaked canvases, arriving trains). The program
+smokes (tests signals), dances (fires schedules), stains (banks
+spent), and arrives (verdicts published). Four more. (Map hits 311
+rounds.)
+
+- **Apartment smoke [canon: Mats (apartment Giselle; specified
+  Mats Ek (vs no hits)); verification deferred].** → Mats's
+  smoke (apartment, kept (Giselle, mad (kitchen, danced))) is the
+  signal (tested, kept (gain, gated (surprise, kept))); his
+  "Juliet" (slab, kept (concrete, laid)) is the bar (+0.1, kept
+  (unmoved, held (still, standing))).
+- **Played mazurkas [canon: Arthur (Chopin voice; specified
+  Arthur Rubinstein (vs no hits)); verification deferred].** →
+  Arthur's mazurkas (played, kept (Chopin, voiced (piano, kept)))
+  is the operator (menu, kept (6, indexed (gain, gated))); his
+  "Polonaise" (majestic, kept (encored, held)) is the vote
+  (majority, kept (crowd, won (carried, kept))).
+- **Soaked stains [canon: Helen (soaked stains; specified Helen
+  Frankenthaler (vs no hits)); verification deferred].** → Helen's
+  stains (soaked, kept (canvas, poured (color, held))) is the bank
+  (fresh, kept (built, spent (54, kept))); her "Mountains" (sea,
+  kept (named, first)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Arriving train [canon: Auguste (arriving train; specified
+  Lumiere (vs no hits)); verification deferred].** → Auguste's
+  train (arriving, kept (platform, steamed (workers, leaving
+  (kept, held)))) is the transfer (crossed, kept (gap, taxed
+  (paid, kept))); his "Waterer" (watered, kept (boy, stepped
+  (hose, kept))) is the ledger (exact, kept (honest, told (all,
+  counted))).
