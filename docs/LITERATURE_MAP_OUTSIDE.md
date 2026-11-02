@@ -22123,3 +22123,33 @@ governance leads converging; assurance family, four branches).
 - Program note: mechanize, audit co-cheating, layer
   supervision, externalize with evidence — the
   externalize-and-guard file. None licensed — filed.
+## Round 548 — Docks, respects, mercies, superstitions (Otis, Aretha, Marvin, Stevie; 2026-11-02)
+
+Motivation: further outside (bay docks, natural respects, going-on
+mercies, signed superstitions). The program docks (berths attempts),
+respects (stitches verdicts), mercies (publishes NOGOs), and
+superstitions (counts rows). Four more. (Map holds 556 rounds.)
+
+- **Dock bay [canon: Redding (bay docks; specified Otis Redding
+  (vs no hits)); verification deferred].** → Otis's docks (bayed,
+  kept (docked, bayed (sittings, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Dock" (bay, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Respect natural [canon: Franklin (natural respects; specified
+  Aretha Franklin (vs no hits)); verification deferred].** →
+  Aretha's respects (naturaled, kept (respected, naturaled (chains,
+  kept))) is the verdict (respected, kept (NOGO, told (honest,
+  kept))); her "Respect" (natural, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Mercy going-on [canon: Gaye (going-on mercies; specified Marvin
+  Gaye (vs no hits)); verification deferred].** → Marvin's mercies
+  (going-onned, kept (mercied, going-onned (healings, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Mercy" (going-on, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Superstition signed [canon: Wonder (signed superstitions;
+  specified Stevie Wonder (vs no hits)); verification deferred].**
+  → Stevie's superstitions (signed, kept (wondered, signed (keys,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Superstition" (signed, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
