@@ -16963,3 +16963,27 @@ and fingers (counts rows). Four more. (Map hits 378 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Alkan"
   (concertoed, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 373 — Habitual, ensembled, Pavlovian, sourced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: arbitration mechanisms — who decides
+when controllers disagree.
+
+- **Classic arbitration [arXiv:1712.02441 (Fard; vs no hits)].**
+  Habitual = automate previously-rewarded actions (efficient,
+  INFLEXIBLE in changing environments); planning = flexible, costly.
+  → Our wound stated at the source: previously-rewarded turns,
+  inflexible when codebooks change.
+- **Ensemble arbitration [arXiv:2509.04815 (Jang; vs no hits)].**
+  Arbitration over an ENSEMBLE of diversified agents in continual
+  RL (prefrontal-aligned). → Diversify + arbitrate, continually.
+  Unlicensed (needs ensemble + arbitrator).
+- **Pavlovian hybrid [arXiv:2603.22170 (Shan; vs no hits)].**
+  Pavlovian + instrumental-MF + instrumental-MB with contextual
+  cues as CS, for navigation. → Our cue-turning WITH a Pavlovian
+  component named; contextual cues gate the hybrid. Unlicensed.
+- **Source reasoning [arXiv:2608.19701 (Lin; vs no hits)].**
+  Latent-source reasoning for memory arbitration; Memory
+  Correlation Bias (shared-bias evidence double-counted). →
+  Arbitrate by SOURCE, not votes; correlated memories distrusted.
+  Unlicensed (needs source model). Cause-inference adjacent.
