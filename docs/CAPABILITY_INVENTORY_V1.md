@@ -67,3 +67,10 @@ counts). No new claims; every entry names its line.
 - No RSI-relevant capability demonstrated (no successive
   self-modification, no improved search, no transfer that
   compounds). The inventory is the evidence for that sentence.
+- 2026-11-02 (C13 amendment, appended not rewritten):
+  second-order loop structure TESTED — double arm fired twice
+  (adopt, learn, re-fire), second-fire value +0.030 (G2b passes
+  descriptively), successive transfer lift ABSENT (G2a fails).
+  The standing sentence is refined, not reversed: successive
+  FIRING is demonstrated; successive self-modification THAT
+  LIFTS TRANSFER is not. All prior lines' absence-claims stand.

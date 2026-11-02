@@ -35,6 +35,20 @@ Verdict: forced-first-fire is C13-with-forced-start, not a new
 causal question. NOT licensed. Killed before scoping (no scoping
 doc will be written for it).
 
+## Candidate 2 (added 2026-11-02): majority-carry successive — KILLED
+
+OPEN CELLS SCOPING V1 ranked it strongest (C8 copier beat static
+descriptively; gate successive carry T1+T2 vs static). Against the
+sharpened bar (new task/gap/channel only): same task (turn-gate
+HB), same gap, same channel (blind config carry) — an aggregation
+variation, not a new cell. Strikes: (1) same-cell variation;
+(2) RSI-caveat stands (tests the vote's product, not revision);
+(3) re-voting per link reintroduces selection-at-link (the
+forced-first collapse #1 again); (4) the "support" is one
+descriptive split against the pooled LOOPER-VS-BLIND tally
+(−0.019, blind wins on average). KILLED. OPEN CELLS §1 is
+superseded by this kill (retained for the record, not licensed).
+
 ## What WOULD license a C14 (unchanged + sharpened)
 
 - New task (not turn-gating), new transfer gap (not HB codebook
