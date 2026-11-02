@@ -19912,3 +19912,32 @@ holds 480 rounds.)
   nothinged (gazes, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); her "Nothing" (gazes, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 475 — Schematized, un-corresponded, stratified, shared (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: reasonable forgetting — what to
+keep, what to drop, what to share (purification family, four
+branches; R469 not repeated).
+
+- **Schematic memory [arXiv:2105.02085 (Gao; vs no hits)].**
+  Forgetting INEVITABLE (bounded memory, unbounded tasks);
+  HOW to reasonably forget (persistence AND transience).
+  → Reasonable forgetting > no forgetting (our lossy
+  transplant = reasonable forgetting). Filed as the
+  forgetting-twin.
+- **Noisy correspondence [arXiv:2507.03434 (Han; vs no hits)].**
+  UNLEARN the noisy alignments (don't refine them; remove
+  them). → Remove bad correspondences (our exact-wound =
+  noisy correspondence?). Filed as the removal twin.
+- **Stratified retention [arXiv:2610.03713 (Anand; vs no
+  hits)].** Discarding outdated knowledge is REQUIRED
+  behavior, not defect (non-stationary ground truth);
+  STRATIFIED retention. → Retain by strata (some layers
+  carry, some drop). Unlicensed.
+- **Shared reasoning [arXiv:2608.18574 (Luo; vs no hits)].**
+  BEYOND forgetting: harness SHARED reasoning (continual
+  vs joint parity). → Share the reasoning, not the rows
+  (our copier-pattern?). Filed as the sharing twin.
+- Program note: keep reasonably, drop deliberately, share
+  structurally — the forgetting file. None licensed —
+  filed.
