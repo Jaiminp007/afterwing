@@ -272,6 +272,9 @@ the map stays open, not empty.
 - R507 failure file: failed→signals (signals twin);
   failed-prefix (leg-carry twin); recover-by-instruction
   (recovery twin); edit-the-harness (harness twin).
+- R509 harness file: tamper-audit (tamper twin);
+  causal-guard (guard twin); trust-no-hook (security);
+  govern-context (govern twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
