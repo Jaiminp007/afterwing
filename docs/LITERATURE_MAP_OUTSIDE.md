@@ -19975,3 +19975,32 @@ snakes (stitches verdicts), guns (publishes NOGOs), and sages
   (joined, kept (carried, won (crowd, kept))); his "Common"
   (sage, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 477 — Ported, gymmed, patched, bridged (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: portability — reusable behavior
+across tasks (already-cited sharing lead not repeated;
+carry-across family, four branches).
+
+- **Reasoning portability [arXiv:2605.18903 (Hong; vs no
+  hits)].** PORTABILITY (sample-level reusability of prior
+  behavior on NEW tasks; reasoning-level constraints guide
+  CL). → Reusability measured per-sample (our per-leg
+  heterogeneity, metric-side). Filed as the metric twin.
+- **Reasoning gym [arXiv:2505.24760 (Stojanovski; vs no hits)].**
+  100+ generators + verifiers (procedural infinite data;
+  adjustable complexity). → Generate, don't collect (our
+  fresh-bank discipline, generator-side). Filed as the
+  generator twin.
+- **Portable patches [arXiv:2410.10870 (Khan / PortLLM; vs no
+  hits)].** TRAINING-FREE portable patches (evolving models;
+  downstream keeps up). → Carry without retraining (our
+  transplant, patch-side). Unlicensed.
+- **Latent communication [arXiv:2608.13317 (Peng / StateBridge;
+  vs no hits)].** Training-free hidden-state ALIGNMENT
+  (discrete tokens discard; transmit latents). → Carry the
+  latents, not the labels (our weights-carry, channel-side).
+  Filed as the channel twin.
+- Program note: portable behavior, generated banks, patch
+  carries, latent channels — the portability file. None
+  licensed — filed.
