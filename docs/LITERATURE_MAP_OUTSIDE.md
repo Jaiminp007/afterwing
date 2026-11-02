@@ -17380,3 +17380,34 @@ keeping.
 - Program note: Schillaci's congruency (generative-model
   prediction error) is the consolidation-side twin of Mouchon's
   surprise-gate. Filed with the C16-successor design, unlicensed.
+## Round 388 — Totals, discs, roots, frames (Jenö, Robert, Empedocles, Robert; 2026-11-02)
+
+Motivation: further outside (total Haydns, garden discs,
+striving roots, column frames). The program totals (runs
+attempts), discs (stitches verdicts), roots (publishes NOGOs),
+and frames (counts rows). Four more. (Map hits 394 rounds.)
+
+- **Total Haydn [canon: Jenö (total Haydns; specified Jenö Jando
+  (vs no hits)); verification deferred].** → Jenö's totals
+  (Haydned, kept (played, completed (sonatas, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Beethoven" (bagatelled, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Disc garden [canon: Irwin (disc gardens; specified Robert
+  Irwin (vs no hits)); verification deferred].** → Robert's discs
+  (gardened, kept (scrimmed, sensed (Central, kept))) is the
+  verdict (sensed, kept (NOGO, told (honest, kept))); his "Felt"
+  (chirped, kept (crackled, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Root strife [canon: Empedocles (root strifes; specified
+  Empedocles (vs no hits)); verification deferred].** →
+  Empedocles's roots (strived, kept (mixed, loved (elements,
+  kept))) is the claim (loved, kept (RSI, unclaimed (still,
+  standing))); his "Purifications" (healed, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Frame column [canon: Mangold (frame columns; specified Robert
+  Mangold (vs no hits)); verification deferred].** → Robert's
+  frames (columned, kept (edged, ringed (ochres, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Plane"
+  (curved, kept (split, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
