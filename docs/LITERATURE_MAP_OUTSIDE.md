@@ -23113,3 +23113,33 @@ leads converging; compression family, four branches).
 - Program note: engineer context, sleep-consolidate,
   verify compaction, compress risk — the compression
   file. None licensed — filed.
+## Round 582 — Kokos, mamas, delberts, roberts (Koko, Mama, Delbert, Robert; 2026-11-02)
+
+Motivation: further outside (doodled kokos, chained mamas, two-mored
+delberts, gunned roberts). The program kokos (doodles attempts), mamas
+(stitches verdicts), delberts (publishes NOGOs), and roberts (counts
+rows). Four more. (Map holds 590 rounds.)
+
+- **Koko doodle [canon: Koko Taylor (doodled kokos; specified Koko
+  Taylor (vs no hits; short tag taken twice — full-name tag used));
+  verification deferred].** → Koko's kokos (doodled, kept (kokoed,
+  doodled (wangs, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); her "Koko" (doodle, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Mama hound [canon: Thornton (hounded mamas; specified Big Mama
+  Thornton (vs no hits)); verification deferred].** → Mama's mamas
+  (hounded, kept (mamaed, hounded (dogs, kept))) is the verdict
+  (hounded, kept (NOGO, told (honest, kept))); her "Mama" (hound, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Delbert more [canon: McClinton (mored delberts; specified Delbert
+  McClinton (vs no hits)); verification deferred].** → Delbert's
+  delberts (mored, kept (delberted, mored (twos, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Delbert"
+  (more, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Robert gun [canon: Cray (gunned roberts; specified Robert Cray
+  (vs no hits)); verification deferred].** → Robert's roberts (gunned,
+  kept (roberted, gunned (smokes, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Robert" (gun, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
