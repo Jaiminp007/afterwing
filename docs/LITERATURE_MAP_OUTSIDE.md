@@ -19190,3 +19190,29 @@ more. (Map holds 456 rounds.)
   payned (saxes, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Shaw" (nued, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 451 — Certified, condensed, uncompressible, cored (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: compression/coresets — keep less,
+prove more (already-cited GCR not repeated; only the new
+branches are banked).
+
+- **Self-certified [arXiv:2503.10503 (Comeau / CoP2L; vs no
+  hits)].** Sample compression → NON-VACUOUS computable bounds
+  after each task. → Guarantees, not heuristics. Filed as the
+  certification twin.
+- **Condensed [arXiv:2206.11849 (Sangermano / OLCGM; vs no
+  hits)].** Memory quality DETERIORATES; condense instead of
+  storing. → Our frozen banks rot the same way; condensation
+  is the antidote shape. Unlicensed.
+- **Uncompressible [arXiv:2409.02529 (Birodkar; vs no hits)].**
+  Sample what you CAN'T compress (diffusion-crisp vs blurry).
+  → Keep the surprising, drop the redundant (C16's surprise
+  rule, representation-side). Filed as the selection twin.
+- **Unequal points [arXiv:2106.01085 (Yoon; vs no hits)].**
+  Data points have UNEQUAL potential; coreset quality decides
+  effectiveness. → Not all rows are equal (our per-leg
+  heterogeneity, external twin). Filed.
+- Program note: the family says keep-less-prove-more; GCR's
+  gradient selection + Yoon's unequal points = the selection
+  mechanism file. None licensed — filed.
