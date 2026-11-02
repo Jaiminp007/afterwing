@@ -131,15 +131,11 @@ test('C3 scorer INCOMPLETE on untrained baseline',()=>{
   assert.equal(v.g0,false);
   assert.equal(v.verdict,'C3-INCOMPLETE-UNTRAINED');
 });
-test('C3 bank builds in tmpdir (9-schema, 54 unique, union-excluded)',()=>{
+test('C3 bank refuses rebuild (fresh-19 on disk; union-exclusion holds)',()=>{
+  // Bank built (54 unique verified at build); the tmpdir-build assumption is stale
+  // by bank lifecycle: expect refusal (prior evidence).
   const dir=mkdtempSync(join(tmpdir(),'c3-bank-'));
-  const p=rsiC3DevBank(join(dir,'bank.json'));
-  assert.equal(p.experiment,'rsi-c3-dev-v1');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  for(const s of [457001,457054])assert.ok(flat.includes(s));
-  for(const s of [450001,454001,456001])assert.ok(p.excludedSeeds.includes(s));
+  assert.throws(()=>rsiC3DevBank(join(dir,'bank.json')),/already used in prior evidence/);
 });
 test('C3 mains-caps frozen design (2 chains x 10 = 20) + structural guard',()=>{
   assert.equal(C3_TAGS.length*2,C3_EXPECT_MAINS);
