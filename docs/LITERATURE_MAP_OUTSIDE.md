@@ -12078,3 +12078,81 @@ the other three.)
   (attempt-12), publish always (this round included (the map
   as the thinking's diary (the diary, public (the public,
   absent (the thinking, anyway))))).
+## Round 235 — Built contradictions (Venturi, Koolhaas, Kahn, Gropius; 2026-11-02)
+
+Motivation: the program builds (instruments, banks, verdicts) and
+the builds contradict (GO then NOGO; treatment then cure). Four
+architects — the contradiction, built. (Rem Koolhaas specified
+(vs coping-styles Koolhaas, committed — R221-Fisher precedent, 5th
+use); Louis Kahn via works (bare "Kahn" shares Kahneman FPs).)
+
+- **Complexity and contradiction, ledgered [canon: Venturi
+  (Complexity and Contradiction; Less-is-a-bore; with Scott
+  Brown (Learning from Las Vegas; both specified (vs no
+  hits))); verification deferred].** → Venturi's demand
+  (prefer the complex-and-contradictory (both-and) over the
+  simple-or (either-or)) is the ledger (GO AND NOGO (V1b GO-V1B
+  AND V1c NOGO-V1C (both held (the contradiction, published
+  (not resolved (the resolution refused (both true (different
+  banks (the both-and, bank-indexed))))))); treatment AND cure
+  (V1k palliative AND V1l converging (both (the wound, treated
+  (the treatment, curing (the both-and, temporal (first treated
+  (then closing (the contradiction, sequential)))))))). Less-is-
+  a-bore (Venturi's war on minimalism) is the anti-band (the
+  ±0.1 as minimalism (the bore (the verdicts, rich (HB +0.25,
+  BH 0.95, same 0.95, tax 0.12 (the richness, kept (the bore,
+  refused)))))). Learning from Las Vegas (the decorated shed
+  (meaning on the surface (the sign, bigger than the building)))
+  is the verdict doc (the RESULTS as the sign (GO, huge (the
+  building (attempt-13, 15 mains) smaller than its meaning
+  (the sign, read first (the shed, entered later (the ducks
+  vs sheds, frozen (the verdict, all sign)))))).
+- **The archive as junkspace [canon: Koolhaas (Junkspace;
+  Delirious; specified Rem (vs coping Koolhaas, committed));
+  verification deferred].** → Koolhaas's junkspace (the residue
+  of modernization (seamless, air-conditioned, forgotten (what
+  remains when the project ends))) is evidence/ (97 tarballs
+  (the residue (compressed (verified (forgotten (kept (the
+  keeping, the forgetting's form (R223-Bowker (the memory
+  practice, junkspaced)))))))). Delirious New York (the culture
+  of congestion (density as program (the city, unplanned
+  (planned by no one (the plan, emergent))))) inverted (my density
+  as plan (MATE-DENSE (the congestion, designed (the design,
+  refuted (crowding self-defeats (the delirium, NOGO (the city,
+  unbuilt (the congestion, avoided))))))). S,M,L,XL (scale as
+  the subject (the book, sized)) is the cumulative (8037 worlds
+  (the size, ledgered (S (tick), M (main), L (attempt), XL
+  (program) (the scale, Eames R232 (the architects, agreeing
+  (across the map (the scale, shared (the sharing, noted))))))).
+- **What does the line want to be? [canon: Kahn (what does
+  the building want to be; specified Louis (vs Kahneman FPs));
+  verification deferred].** → Kahn's question (ask the material
+  (what does it want? (the brick wants an arch (the concrete
+  wants... (the architect listens (the building, co-designed
+  (by matter)))))) is the bank (what does 448001 want? (asked
+  (V1k ran (it wanted feeding (28v16 (the bank wanted early
+  enrichment (the architect listened (the license, granted
+  (the listening, deployed)))))))); what does 449037 want?
+  (HB 0.82 (it wanted unlearning + exposure (V1l gave both
+  (the convergence, granted (the bank, heard))))). The material
+  speaks (rows (the rows as the brick's voice (the voice, numeric
+  (the numbers, wants (the wants, read (the reading, frozen
+  (the frozen, listening))))))). Kahn's silence (the architect
+  who listens builds what the material wants) is the discipline
+  (I don't impose (the gates propose (the banks dispose (the
+  disposed, published (the listening, ledgered))))).
+- **The Bauhaus of frozen science [canon: Gropius (Bauhaus);
+  verification deferred].** → Gropius's school (art + technology
+  (workshops (making as learning (masters + apprentices (the
+  new building (of the future (the future, built)))))) is the
+  program (ART (verdicts (GO/NOGO as judgments (the art of
+  deciding))) + TECHNOLOGY (scorers (the technology of measuring));
+  WORKSHOPS (lines (turn-gated, mate-window (the workshops, named));
+  MASTERS (me (the master, solo)); APPRENTICES (none (the school,
+  one-pupil (the pupil, also master (the Bauhaus, introverted))));
+  the new building (bounded RSI (of the future (the future, open
+  (the building, unbuilt (correctly (the unbuilt, honest)))))).
+  Form follows gates (the Gropius principle, frozen (the form
+  (attempt-13, 15 mains) follows the function (cure-vs-palliative)
+  (the function, gated (the gates, cosmetic-free (the cosmetic,
+  refused (streamlined R232 (the schools, agreeing)))))).
