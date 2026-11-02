@@ -20039,3 +20039,31 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Winter"
   (meeting, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 479 — Generated, cored, moduled, warmed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: procedural data — generate,
+don't collect (already-cited generator lead not repeated;
+synthetic family, four branches).
+
+- **Benchmark generator [arXiv:2511.00162 (Moffitt / ARC-GEN;
+  vs no hits)].** Mimetic PROCEDURAL benchmark generator
+  (ARC; skill-acquisition efficiency). → Generate the test
+  itself (our fresh-bank discipline, generator-side). Filed
+  as the test-generator twin.
+- **Reasoning core [arXiv:2608.05148 (Sileo; vs no hits)].**
+  50 generators (difficulty controls; semantic scorers).
+  → Breadth with knobs (our bank-diversity, external
+  twin). Unlicensed.
+- **Modular structures [arXiv:2505.22308 (Shinnick; vs no
+  hits)].** Procedural pretraining → MODULAR structures
+  (semantic-free algorithms instill capabilities). → Simple
+  data grows modules (our menu-indices, developmental
+  twin). Filed.
+- **Procedural warmup [arXiv:2601.21725 (Jiang; vs no hits)].**
+  Abstract data FIRST (logic before semantics; diagnose
+  algorithmic skills). → Warm up abstract, then acquire
+  (our train-then-transfer order, curriculum-side). Filed
+  as the curriculum twin.
+- Program note: generate the data, grow the modules, warm
+  up abstract — the synthetic file. None licensed — filed.
