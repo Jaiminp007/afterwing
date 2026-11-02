@@ -15472,3 +15472,33 @@ shared with geology canon; map hits 329 rounds.)
   kept))) is the tick (fired, kept (512, added (1024, kept)));
   his "Visitors" (stared, kept (portraits, held)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 326 — Self-referential, fast-meta, per-parameter, look-ahead (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: meta-continual — outer loops that
+learn the learning itself. The closest literature to bounded RSI.
+
+- **Self-referential metalearning [arXiv:2312.00276 (Irie / ACL;
+  vs no hits)].** Self-referential nets metalearn their OWN
+  in-context continual-learning algorithms; CL desiderata (old +
+  new performance) encoded in the meta-objective. → The RSI SHAPE
+  itself: revision of the algorithm by the system, not an operator
+  menu. Our C12 dialed one global rate; ACL metalearns the update.
+  Different league (self-reference), recorded as the DIRECTION.
+- **Fast/meta split [arXiv:2603.00903 (Sun; vs no hits)].**
+  Hippocampus/cortex-inspired dual learner: fast learner =
+  TRANSFER, meta learner = INTEGRATION (incremental, not average
+  return). → Separation our loop lacks (one eval does selection +
+  judgment). Design principle for any future loop: split proposer
+  from judge. Unlicensed (architectural).
+- **Per-parameter per-task rates [arXiv:2103.04066 (Kuo; vs no
+  hits)].** Meta-learner learns a learning rate PER PARAMETER PER
+  PAST TASK; replay + meta beats replay with thin memory. → The
+  sharpest technical lead yet: C12's global rate × SU's selection,
+  plus task-indexing. Composes our two closed lines' ideas —
+  parked-conditional (needs task representation, DTR blocker).
+- **Online per-parameter modulation [arXiv:2007.13904 (Gupta /
+  La-MAML; vs no hits)].** Per-parameter LR modulation, online,
+  small episodic memory. → Granularity C12 never tried (global
+  rate only); feasible at small scale with small memory —
+  feasibility flavor for our substrate size.
