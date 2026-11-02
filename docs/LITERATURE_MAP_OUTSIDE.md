@@ -20100,3 +20100,29 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Dawn"
   (waiting, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 481 — Emulated, disposed, edited, bounded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: circuits and limits — what
+networks can do, and where editing lands (synthetic family,
+four branches; R479 not repeated).
+
+- **Circuit limits [arXiv:2508.18526 (Kratsios; vs no hits)].**
+  Reasoning as CIRCUIT emulation (meta-algorithm; gates
+  define the reasoning type). → What perfectly-trained nets
+  CAN do (upper bounds, not vibes). Unlicensed.
+- **Propose-dispose [arXiv:2602.14409 (Zhu; vs no hits)].**
+  Learning PROPOSES, geometry DISPOSES (modules inside
+  pipelines, not replacements). → Our loop proposes,
+  transfer disposes (propose-evaluate-adopt, geometry-
+  side). Filed as the pipeline twin.
+- **Circuit editing [arXiv:2503.16356 (Yao / CaKE; vs no
+  hits)].** Layer-local edits FAIL multi-hop (reasoning
+  circuits need integration). → Edit the circuit, not the
+  layer (our menu-8 sparse vs full, external twin). Filed.
+- **Capability bounds [arXiv:2501.06444 (Li; vs no hits)].**
+  Capability via circuit-COMPLEXITY bounds (beyond WL tests).
+  → Bound the capability, don't demo it. Filed as the
+  bounds twin.
+- Program note: emulate, pipeline, edit-the-circuit, bound
+  it — the circuits file. None licensed — filed.
