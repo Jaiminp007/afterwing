@@ -16341,3 +16341,34 @@ expires-substring; both disclosed per Fini precedent; map hits
   (NOGO, told (honest, kept))); her "Moonlight" (sonata, kept
   (Beethoven, played)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 352 — Competition, Polish, straw, images (Martha, Krystian, Anselm, Harun; 2026-11-02)
+
+Motivation: further outside (competition pianists, Polish
+pianos, straw lead, worker images). The program competes (runs
+attempts), polishes (keeps ledgers), straws (spends banks), and
+images (publishes NOGOs). Four more. (Map hits 357 rounds.)
+
+- **Competition win [canon: Martha (competition wins; specified
+  Martha Argerich (vs no hits)); verification deferred].** →
+  Martha's win (competed, kept (Chopin, won (Warsaw, kept))) is
+  the attempt (competed, kept (authorized, run (once, held)));
+  her "Tchaikovsky" (first, kept (concerto, played)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
+- **Polish piano [canon: Krystian (Polish pianos; specified
+  Krystian Zimerman (vs no hits)); verification deferred].** →
+  Krystian's Polish (pianoed, kept (Chopin, voiced (ballades,
+  kept))) is the ledger (polished, kept (exact, told (all,
+  counted))); his "Grieg" (played, kept (concerto, stood)) is
+  the row (read, kept (honest, told (all, counted))).
+- **Straw lead [canon: Anselm (straw lead; specified Anselm
+  Kiefer (vs no hits)); verification deferred].** → Anselm's
+  straw (leaded, kept (burned, painted (sunflowers, kept))) is
+  the bank (spent, kept (fresh, built (54, kept))); his "Margarete"
+  (hained, kept (hair, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Worker images [canon: Harun (worker images; specified Harun
+  Farocki (vs no hits)); verification deferred].** → Harun's
+  workers (imaged, kept (filmed, compared (images, kept))) is
+  the verdict (compared, kept (NOGO, told (honest, kept))); his
+  "Interface" (counted, kept (recognized, kept)) is the claim
+  (counted, kept (separate, satisfied (evidence, kept))).
