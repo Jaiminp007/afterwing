@@ -14673,3 +14673,35 @@ Four more. (Map hits 305 rounds.)
   threads))) is the bank (spent, kept (fresh, built (54, spent))));
   her loom (threaded, kept) is the transplant (exact, kept
   (digest, held (same, verified))).
+## Round 302 — Hands, voice, dreams, sphinxes (Bob, Maria, Toyen, Leonor; 2026-11-02)
+
+Motivation: further outside (jazz choreography, operatic voices,
+Czech dreamscapes, sphinx guardians). The program choreographs
+(fires on schedule), voices (proposes operators), dreams (sandboxes
+counterfactuals), and guards (gates shut). Four more. ("Fini" hits
+are finite-substrings, not the person; map hits 306 rounds.)
+
+- **Jazz hands [canon: Bob (choreographed firing; specified Bob
+  Fosse (vs no hits)); verification deferred].** → Bob's hands
+  (jazz, splayed (fingers, kept (turned, out))) is the schedule
+  (512, kept (1024, fired (twice, kept (double, armed)))); his
+  "Razzle Dazzle" (trial, kept (verdict, sung)) is the attempt
+  (single, kept (authorized, run (once, held))).
+- **Voice kept [canon: Maria (diva timbre; specified Maria
+  Callas (vs no hits)); verification deferred].** → Maria's voice
+  (kept, tempered (timbre, held (aria, sung))) is the operator
+  (surprise, kept (6, indexed (gain, gated))); her Norma (Casta,
+  kept (Diva, sung)) is the vote (majority, kept (crowd, won
+  (carried, kept))).
+- **Dreamed objects [canon: Toyen (Czech dreamscapes; specified
+  Toyen (vs no hits)); verification deferred].** → Toyen's objects
+  (dreamed, placed (foxes, kept (ghosts, held))) is the sandbox
+  (train, kept (fit, split (test, kept (blind, evaluated)))); her
+  "Sove spici" (sleepers, kept (dreaming, owls)) is the redone
+  (empty, kept (none, re-run (never, held))).
+- **Sphinx guardians [canon: Leonor (sphinx women; specified
+  Leonor Fini (vs no hits)); verification deferred].** → Leonor's
+  sphinxes (guarding, women (cats, kept (staring, held))) is the
+  gate (shut, kept (M4, confirmed (V3, held))); her "Composition"
+  (skulls, kept (feathers, worn)) is the ledger (exact, kept
+  (honest, told (all, counted))).
