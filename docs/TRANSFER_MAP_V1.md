@@ -303,6 +303,9 @@ the map stays open, not empty.
 - R527 physics file: share-space; borrow-mechanics
   (classic twin); share-geometry; move-first (decompose
   twin).
+- R529 execute file: competence≠execution (gap twin);
+  measure-embodied; align-hierarchically; decouple-plan
+  (plan twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
