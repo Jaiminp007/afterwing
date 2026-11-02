@@ -51,6 +51,17 @@ verdicts — never run, never claimed); what would license new work.
   adaptation) but does not change the C14-bar ruling on test-time
   firing (protocol framing; same channel).
 
+## Wound lenses (recorded, not mechanisms — no line follows from a lens alone)
+
+- Extinction failure (CONFIRMED working lens): lossy + surprise-gated
+  both work by unlearning preserved avoidance; direction exclusivity
+  (HB-only) supports it; adoption-decline tracks it.
+- Shortcut failure (R353/Wei: NEW lens, untested): avoidance keys on
+  spurious cue correlations that flip across codebooks. Distinguishing
+  test exists in principle (per-cue turn dominance — CONTACT_GRADIENT
+  work touches it) but is not run or specified; filed as a future
+  measurement, not a claim, not a license.
+
 ## What would license transfer-side work
 
 A mechanism aimed at HB-extinction with a rationale NEITHER gain-

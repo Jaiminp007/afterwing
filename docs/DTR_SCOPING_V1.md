@@ -69,6 +69,11 @@ open sentence into a work list — advancement, not closure.
   multihead policy for continual RL) joins TAME/HyperMask as the third
   part-(i) reference — clustering + expansion in one system (routing
   and growth together).
+- R353 addendum: PAH (single hypernetwork + learnable task prototypes +
+  dual distillation, logits + prototypes) takes the LEAD as the reference
+  design (most complete: index + generation + stabilization in one);
+  CPP steering (contrastive prompt-tuning against drift/interference,
+  rehearsal-free) is the drift-handling to steal at design time.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
