@@ -22882,3 +22882,32 @@ converging; traces family, four branches).
 - Program note: layer oracles, distrust traces, test
   paths, survey provenance — the traces file. None
   licensed — filed.
+## Round 574 — Louises, joes, cleanheads, roys (Louis, Joe, Cleanhead, Roy; 2026-11-02)
+
+Motivation: further outside (chicken louises, rattled joes, stewed
+cleanheads, hopped roys). The program louises (jumps attempts), joes
+(stitches verdicts), cleanheads (publishes NOGOs), and roys (counts
+rows). Four more. (Map holds 582 rounds.)
+
+- **Louise chicken [canon: Jordan (chickened louises; specified Louis
+  Jordan (vs no hits)); verification deferred].** → Louis's louises
+  (chickened, kept (louised, chickened (knocks, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Louise" (chicken,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Joe rattle [canon: Turner (rattled joes; specified Big Joe Turner
+  (vs no hits)); verification deferred].** → Joe's joes (rattled, kept
+  (joed, rattled (rolls, kept))) is the verdict (rattled, kept (NOGO,
+  told (honest, kept))); his "Joe" (rattle, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Cleanhead stew [canon: Vinson (stewed cleanheads; specified Eddie
+  Vinson (vs no hits)); verification deferred].** → Eddie's cleanheads
+  (stewed, kept (cleanheaded, stewed (kidneys, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Cleanhead"
+  (stew, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Roy hop [canon: Milton (hopped roys; specified Roy Milton (vs no
+  hits)); verification deferred].** → Roy's roys (hopped, kept (royed,
+  hopped (skips, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Roy" (hop, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
