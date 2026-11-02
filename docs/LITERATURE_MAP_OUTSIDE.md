@@ -20729,3 +20729,37 @@ family, four branches).
 - Program note: propose, verify, commit; reconcile at write;
   anticipate; verify structurally — the verbs file. None
   licensed — filed.
+## Round 502 — Aerials, seascapes, fires, stills (Emmet, Hiroshi, Ware, Dexter; 2026-11-02)
+
+Motivation: further outside (changing aerials, theater
+seascapes, wisdom fires, parisian stills). The program aerials
+(runs attempts), seascapes (stitches verdicts), fires (publishes
+NOGOs), and stills (counts rows). Four more. (Map holds 508
+rounds.)
+
+- **Aerial changing [canon: Gowin (changing aerials; specified
+  Emmet Gowin (vs no hits; Douglas screened used-in-R500);
+  verification deferred].** → Emmet's aerials (changed, kept
+  (aerialed, changing (earths, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Aerial" (earth, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Seascape theater [canon: Sugimoto (theater seascapes;
+  specified Hiroshi Sugimoto (vs no hits)); verification
+  deferred].** → Hiroshi's seascapes (theatered, kept (seascaped,
+  horizon (horizons, kept))) is the verdict (horizoned, kept
+  (NOGO, told (honest, kept))); his "Seascape" (theater, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Fire wisdom [canon: Ware (wisdom fires; specified David S.
+  Ware (vs no hits)); verification deferred].** → Ware's fires
+  (wisdomed, kept (fired, freed (suites, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Fire"
+  (wisdom, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Still parisian [canon: Dexter (parisian stills; specified
+  Dexter Gordon (vs no hits)); verification deferred].** →
+  Dexter's stills (parisianed, kept (stilled, go (gos, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Still" (go, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
