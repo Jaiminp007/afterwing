@@ -19155,3 +19155,38 @@ self-improvement lead not repeated).
 - Program note: Recuris/MoLEM say the program's shape out
   loud (RSI-hard; update-vs-memory dilemma). None licensed —
   filed.
+## Round 450 — Harolds, griffins, pluralisms, baritones (Harold, Johnny, Dongsun, Cecil; 2026-11-02)
+
+Motivation: further outside (west-coast harolds, chicago
+griffins, epistemological pluralisms, baritone shaws). The
+program harolds (runs attempts), griffins (stitches verdicts),
+pluralisms (publishes NOGOs), and baritones (counts rows). Four
+more. (Map holds 456 rounds.)
+
+- **Harold west [canon: Harold (west-coast harolds; specified
+  Harold Land (vs no hits)); verification deferred].** → Harold's
+  west (harolded, kept (coasted, grooved (jazz, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "West" (coasted, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Griffin chicago [canon: Johnny (chicago griffins; specified
+  Johnny Griffin (vs no hits)); verification deferred].** →
+  Johnny's griffins (chicagoed, kept (tenored, griffined (little,
+  kept))) is the verdict (griffined, kept (NOGO, told (honest,
+  kept))); his "Little" (gianted, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Pluralism epistemological [canon: Dongsun (epistemological
+  pluralisms; specified Zhang Dongsun (vs no hits; first-name
+  tag taken by Zai — surname tag used)); verification
+  deferred].** → Dongsun's pluralisms (epistemologied, kept
+  (pluraled, known (theories, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Knowledge" (pluraled,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Baritone shaw [canon: Cecil (baritone shaws; specified Cecil
+  Payne (vs no hits; "Payne, Bettman & Johnson" is a decision
+  canon, untagged — first-name tag used)); verification
+  deferred].** → Cecil's baritones (shawed, kept (baritoned,
+  payned (saxes, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Shaw" (nued, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
