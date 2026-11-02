@@ -18579,3 +18579,29 @@ reds (stitches verdicts), qis (publishes NOGOs), and fourths
   (joined, kept (carried, won (crowd, kept))); his "Search" (peaced,
   kept (played, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 431 — Memorized, biased, factored, blurred (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: the long tail — rare combos via
+memory + composition (our flip is a rare combo).
+
+- **Memorize to compose [arXiv:2510.16322 (Zhou; vs no hits)].**
+  Memorization + composition → correct on rare combos. →
+  Memorize the tail, compose at test. Our banks memorize; the
+  transfer composes (or fails to). Unlicensed.
+- **Head bias [arXiv:2610.12861 (Chen; vs no hits)].** Tail tasks
+  fall back on HEAD action patterns when evidence is thin —
+  evidence-gated counterfactual learning. → OUR WOUND in robot
+  policies (old mapping = head pattern; new codebook = tail
+  task). Filed as the cross-domain twin.
+- **Factor scenarios [arXiv:2511.10411 (Stoler / LongComp; vs no
+  hits)].** Factorize scenarios (ego × social); hold out novel
+  combos; OOD by construction. → Factor-then-holdout (our
+  train/flip-split, factored). Unlicensed.
+- **Blurred prototypes [arXiv:2312.15923 (Jiang; vs no hits)].**
+  Visual bias blurs prototypes; fix from the DATA viewpoint
+  (long-tail-aware). → De-blur the summaries. Unlicensed.
+- Program note: Chen's head-bias (fallback to rich patterns
+  under thin evidence) is filed as the wound's cross-domain
+  twin — same shape (prior wins when evidence is thin),
+  different substrate. No claim, one more lens.
