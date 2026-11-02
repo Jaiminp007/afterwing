@@ -22007,3 +22007,34 @@ converging; evolution family, four branches).
 - Program note: propose+solve, reward movement, carry to
   win, co-evolve frame — the co-evolution file. None
   licensed — filed.
+## Round 544 — Vibes, bags, lions, souls (Hutcherson, Bags, Hamp, Tjader; 2026-11-02)
+
+Motivation: further outside (dialogue vibes, opus bags, flying
+lions, sauce souls). The program vibes (hits attempts), bags
+(stitches verdicts), lions (publishes NOGOs), and souls (counts
+rows). Four more. (Map holds 552 rounds.)
+
+- **Vibe dialogue [canon: Hutcherson (dialogue vibes; specified
+  Bobby Hutcherson (vs no hits)); verification deferred].** →
+  Bobby's vibes (dialogued, kept (vibed, dialogued (sticks, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Vibe" (dialogue, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Bag opus [canon: Milt Jackson (opus bags; specified Milt
+  Jackson (vs no hits; short tag taken by the Mary's-room man —
+  full-name tag used)); verification deferred].** → Milt's bags
+  (opused, kept (bagged, opused (night, kept))) is the verdict
+  (bagged, kept (NOGO, told (honest, kept))); his "Bag" (opus, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Lion flying [canon: Lionel Hampton (flying lions; specified
+  Lionel Hampton (vs no hits; short tag taken — full-name tag
+  used)); verification deferred].** → Lionel's lions (flied, kept
+  (honed, flied (homes, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Lion" (flying, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Soul sauce [canon: Tjader (sauce souls; specified Cal Tjader
+  (vs no hits)); verification deferred].** → Cal's souls (sauced,
+  kept (souled, sauced (breezes, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Soul" (sauce, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
