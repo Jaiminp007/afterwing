@@ -16271,3 +16271,36 @@ deserts (withholds claims). Four more. (Map hits 354 rounds.)
   the claim (withheld, kept (RSI, unclaimed (still, standing)));
   her "Ticket" (priced, kept (no, counted)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 350 — Growing, compressing, contextualizing, isometry (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: growth + plasticity geometry — the
+architectural candidate's literature and a measurable mechanism.
+
+- **Growing preserves plasticity [arXiv:2608.01475 (Kong; vs no
+  hits)].** Growing AND elastic nets in ONLINE CL (like animals);
+  incremental random units preserve plasticity (beyond just
+  beating forgetting). → Candidate 7's closest literature: grow
+  for plasticity, not only capacity. Growth = plasticity
+  mechanism, which reframes it from "bigger substrate" to "live
+  substrate" — stronger rationale, still parked (needs dynamic
+  capacity).
+- **Progress & Compress [arXiv:1805.06370 (Schwarz; vs no hits)].**
+  Active column learns the task, distills into knowledge base;
+  constant params; ACCELERATES subsequent learning. → Forward
+  transfer BY CONSTRUCTION (later tasks learn faster) = the
+  productivity analog (VISION requirement b) in architectural
+  form. Design precedent for any DTR trunk (active/trunk split).
+- **Progressive contextualization [arXiv:2209.00347 (Zhang /
+  DaCoRL; vs no hits)].** Cluster stationary tasks into contexts
+  incrementally; expandable multihead policy; continual RL. →
+  Context-clustering + expansion together (TAME's shift-detection
+  + Wu's growth in one system). Precedent stack for part (i).
+- **Dynamical isometry [arXiv:2606.09762 (Rosseau; vs no hits)].**
+  Plasticity ↔ empirical NTK; dynamical isometry (Jacobian
+  singular values ≈ 1) preserves plasticity; compatible with
+  expressivity. → Geometry mechanism for our LoP story (with
+  Grieco's σ). FLAGGED AS MEASURABLE: readout Jacobian spectra
+  are computable read-only from stored weights — a licensed
+  zero-worlds measurement (like compatibility V1) whenever
+  specified. Not specified yet; recorded.
