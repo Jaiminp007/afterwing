@@ -22618,3 +22618,33 @@ rows). Four more. (Map holds 572 rounds.)
   (riverred, cried (mes, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); her "River" (cry, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 565 — Scienced, preferenced, grounded, deployed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: reliability — single metrics
+lie, variance tells (already-cited assurance/validity leads
+converging; reliability family, four branches).
+
+- **Reliability science [arXiv:2602.16666 (Rabanser; vs
+  no hits)].** Single metric OBSCURES (consistency +
+  perturbations + predictable-failure + bounded-severity).
+  → Measure four ways (our G0/G2a/G2b/retention,
+  science-side). Filed.
+- **Preference-behavior [arXiv:2602.18971 (Slama; vs no
+  hits)].** Preferences PREDICT behavior
+  (instruction-following vs underlying; misalignment
+  precondition). → Test the precondition (our wound
+  as preference, behavior-side). Filed.
+- **Grounded prediction [arXiv:2610.32193 (Adeseye; vs
+  no hits)].** Behavior changes BEFORE seeking
+  (anticipate assistance; evidence-grounded). →
+  Anticipate the need (our early-warning audits,
+  prediction-side). Filed.
+- **Deployment reliability [arXiv:2608.11323 (Srinivasan;
+  vs no hits)].** Agent <3% variance (agent-by-task
+  7-23%; leaderboards rank SPECIALIZATION). → Rank
+  specialization (our niche fingerprint, deployment-
+  side). Filed.
+- Program note: measure four ways, test preconditions,
+  anticipate needs, rank specialization — the
+  reliability file. None licensed — filed.
