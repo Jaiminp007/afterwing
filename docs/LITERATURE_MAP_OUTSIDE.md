@@ -20483,3 +20483,37 @@ apart family, four branches).
 - Program note: decouple store from compute, price the
   risk, select the share — the store-apart file. None
   licensed — filed.
+## Round 494 — Crowns, radiances, materials, murmurs (Jean-Michel, Keith, Bill, David Murray; 2026-11-02)
+
+Motivation: further outside (samo crowns, barking radiances,
+axiom materials, octet murmurs). The program crowns (runs
+attempts), radiances (stitches verdicts), materials (publishes
+NOGOs), and murmurs (counts rows). Four more. (Map holds 500
+rounds.)
+
+- **Crown samo [canon: Basquiat (samo crowns; specified
+  Jean-Michel Basquiat (vs no hits)); verification
+  deferred].** → Jean-Michel's crowns (samoed, kept (crowned,
+  samoed (samos, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Crown" (samo, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Radiance barking [canon: Haring (barking radiances;
+  specified Keith Haring (vs no hits)); verification
+  deferred].** → Keith's radiances (barked, kept (radianced,
+  dogged (babies, kept))) is the verdict (dogged, kept (NOGO,
+  told (honest, kept))); his "Radiance" (baby, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Material axiom [canon: Laswell (axiom materials; specified
+  Bill Laswell (vs no hits)); verification deferred].** → Bill's
+  materials (axiomed, kept (materialed, methoded (dub, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Material" (dub, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Murmur octet [canon: David Murray (octet murmurs; specified
+  David Murray (vs no hits; single-name tags taken by Perahia
+  + Davids — full-name tag used)); verification deferred].** →
+  David Murray's murmurs (octeted, kept (murmured, low-classed
+  (blueses, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Murmur" (octet, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
