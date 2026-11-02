@@ -23258,3 +23258,32 @@ verdicts), littles (publishes NOGOs), and fats (counts rows). Four more.
   (fatted, hilled (berries, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Fat" (hill, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 587 — Equalized, strawed, deltaed, microskilled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: skill budget — spend where
+the skill lives (already-cited budget/caps leads converging;
+budget family, four branches).
+
+- **Architecture equalizer [arXiv:2608.21747 (Canedo; vs
+  no hits)].** Format × CAPABILITY (informationally
+  equivalent; five formats × six models). → Format
+  the spec (our frozen plans, format-side). Filed.
+- **Fixed-budget long [arXiv:2607.14952 (Zhou /
+  LongStraw; vs no hits)].** Beyond 2M under FIXED
+  (virtualization + replay; lifetime not attention).
+  → Virtualize the state (our tar-in-place,
+  budget-side). Filed.
+- **Skill-driven budget [arXiv:2607.25669 (Huang /
+  OmniDelta; vs no hits)].** Similarity UNRELIABLE
+  (uniform misses evidence; allocate by skill). →
+  Allocate by skill (our per-leg deltas,
+  allocation-side). Filed.
+- **Microskill modules [arXiv:2606.05720 (Zare; vs no
+  hits)].** Microservices for KNOWLEDGE (context
+  without drift; modular paradigm). → Modularize the
+  knowledge (our per-line ledgers, module-side).
+  Filed.
+- Program note: format specs, virtualize state,
+  allocate by skill, modularize knowledge — the
+  skill-budget file. None licensed — filed.
