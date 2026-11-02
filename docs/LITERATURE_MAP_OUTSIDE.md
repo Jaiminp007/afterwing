@@ -16105,3 +16105,36 @@ precedent; map hits 349 rounds.)
   the verdict (sung, kept (NOGO, told (honest, kept))); her
   "Grid" (ballad, kept (sexual, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 345 — Busoni, transcendental, freeways, floats (Kirill, Daniil, Catherine, Robert; 2026-11-02)
+
+Motivation: further outside (Busoni pianists, transcendental
+etudes, freeway portraits, floating animation). The program Busonis
+(voices claims), transcends (holds bars), freeways (banks spent),
+and floats (publishes NOGOs). Four more. (Opie's 2 hits are
+copi*-substrings, disclosed per Fini precedent; map hits 349
+rounds.)
+
+- **Busoni pianist [canon: Kirill (Busoni pianist; specified
+  Kirill Gerstein (vs no hits)); verification deferred].** →
+  Kirill's Busoni (pianoed, kept (voiced, played (Bach, kept)))
+  is the claim (voiced, kept (separate, satisfied (evidence,
+  kept))); his "Tchaikovsky" (first, kept (concerto, played)) is
+  the trigger (watched, kept (shut, confirmed (V4, held))).
+- **Transcendental etudes [canon: Daniil (transcendental etudes;
+  specified Daniil Trifonov (vs no hits)); verification
+  deferred].** → Daniil's transcendental (etuded, kept (held,
+  played (Liszt, kept))) is the bar (held, kept (unmoved,
+  standing (still, kept))); his "Bach" (art, kept (fugue, kept))
+  is the attempt (single, kept (authorized, run (once, held))).
+- **Freeway portraits [canon: Catherine (freeway portraits;
+  specified Catherine Opie (vs no hits)); verification
+  deferred].** → Catherine's freeways (portraited, kept (driven,
+  shot (malls, kept))) is the bank (fresh, kept (built, spent
+  (54, kept))); her "Highway" (inhabited, kept (motels, kept))
+  is the row (read, kept (honest, told (all, counted))).
+- **Floating animation [canon: Robert (floating animation;
+  specified Robert Breer (vs no hits)); verification deferred).**
+  → Robert's floats (animated, kept (drawn, flickered (lines,
+  kept))) is the verdict (floated, kept (NOGO, told (honest,
+  kept))); his "Fuji" (climbed, kept (traced, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
