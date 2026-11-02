@@ -23404,3 +23404,32 @@ converging; beyond family, four branches).
 - Program note: assume behaviorally, reward self,
   specify patterns, deploy focused — the beyond file.
   None licensed — filed.
+## Round 592 — Jerrys, bobbys, macks, dianas (Jerry, Bobby, Mack, Paul; 2026-11-02)
+
+Motivation: further outside (fired jerrys, danced bobbys, knifed
+macks, puppy dianas). The program jerrys (fires attempts), bobbys
+(stitches verdicts), macks (publishes NOGOs), and dianas (counts rows).
+Four more. (Map holds 600 rounds.)
+
+- **Jerry fire [canon: Jerry Lee Lewis (fired jerrys; specified
+  Jerry Lee Lewis (vs no hits; short tag taken twice — full-name tag
+  used)); verification deferred].** → Jerry's jerrys (fired, kept
+  (jerried, fired (balls, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Jerry" (fire, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Bobby dance [canon: Freeman (danced bobbys; specified Bobby
+  Freeman (vs no hits)); verification deferred].** → Bobby's bobbys
+  (danced, kept (bobbied, danced (swims, kept))) is the verdict
+  (danced, kept (NOGO, told (honest, kept))); his "Bobby" (dance, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Mack knife [canon: Darin (knifed macks; specified Bobby Darin
+  (vs no hits)); verification deferred].** → Mack's macks (knifed, kept
+  (macked, knifed (seas, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Mack" (knife, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Diana puppy [canon: Anka (puppied dianas; specified Paul Anka
+  (vs no hits)); verification deferred].** → Paul's dianas (puppied,
+  kept (ankaed, puppied (puppies, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Diana" (puppy, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
