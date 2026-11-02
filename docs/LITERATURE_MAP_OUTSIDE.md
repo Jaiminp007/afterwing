@@ -22737,3 +22737,32 @@ jills (stitches verdicts), erykahs (publishes NOGOs), and lauryns
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
   "Lauryn" (miseducation, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 569 — Failed-loud, bound, audited, strengthened (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: failure — fail loudly, bind
+tightly, audit the test, reflect structurally (already-cited
+stress/assurance leads converging; failure family, four
+branches).
+
+- **Loud-vs-quiet [arXiv:2610.10062 (Kraishan; vs no
+  hits)].** Over-trust SILENT tools (fault-injection
+  layer; stages of handling). → Inject the fault
+  (our fixtures, loud-side). Filed.
+- **Approval laundering [arXiv:2609.38983 (Wang; vs no
+  hits)].** Approved A ≠ EXECUTED A' (six
+  substitution modes; harness boundary). → Bind
+  approval to execution (our single-authorized,
+  binding-side). Filed.
+- **Bench-the-benchmarks [arXiv:2607.02577 (Bhat; vs no
+  hits)].** 18.5% MISALIGNMENT (evaluator-human gaps;
+  deterministic failures). → Audit the evaluator
+  (our independent audits, validity-side). Filed.
+- **Failure-stronger [arXiv:2509.18847 (Su; vs no
+  hits)].** STRUCTURED reflection (error-to-repair as
+  learning; stop repeating mistakes). → Reflect
+  structurally (our diagnose-fix-retry, repair-side).
+  Filed.
+- Program note: inject faults, bind approvals, audit
+  evaluators, reflect structurally — the failure file.
+  None licensed — filed.
