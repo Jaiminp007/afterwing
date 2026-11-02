@@ -91,6 +91,12 @@ open sentence into a work list — advancement, not closure.
   reference; SEERL (diverse ensemble from one run) is the
   constraint-compatible diversity note; Garcia (online-weighted)
   is performance-arbitration precedent. All unlicensed.
+- R377 addendum: ROUTING IMPLEMENTATION shelf — CaLLM (prototype
+  routing, PAH's index at run-time) + Latent-LoRA (gradient-free
+  routing, most constraint-compatible; gate-recursion named) lead;
+  Dobrzeniecka (retrieval routing + eval) + CARL-CXR (task-unknown,
+  our setting exactly) support. Route-by-input is now specified
+  three ways (prototype, gradient-free, adapter); all unlicensed.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
