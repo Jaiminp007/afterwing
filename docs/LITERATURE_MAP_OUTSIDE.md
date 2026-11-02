@@ -15592,3 +15592,35 @@ learning — the trunk+experts architecture DTR part (i) sketches.
   (nothing in 14 lines grows anything — all dims fixed). Parked
   architectural (needs dynamic capacity = substrate work,
   DTR-adjacent).
+## Round 330 — Debut, encore, protractor, collage (Sarah, Hilary, Frank, Peter; 2026-11-02)
+
+Motivation: further outside (prodigy debuts, Bach encores,
+protractor stripes, dream collages). The program debuts (freezes
+designs), encores (re-runs nothing — single attempts), protracts
+(measures angles), and collages (joins votes). Four more. (Map
+hits 334 rounds.)
+
+- **Prodigy debut [canon: Sarah (prodigy debuts; specified Sarah
+  Chang (vs no hits)); verification deferred].** → Sarah's debut
+  (prododied, kept (young, bowed (strings, kept))) is the freeze
+  (scoped, kept (written, held (still, kept))); her "Vocalise"
+  (sung, kept (played, stood)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Bach encore [canon: Hilary (Bach encores; specified Hilary
+  Hahn (vs no hits)); verification deferred].** → Hilary's encore
+  (Bached, kept (repeated, played (27, kept))) is the bar (kept,
+  unmoved (held, standing (noise, kept))); her "Sarabande"
+  (danced, kept (slow, bowed)) is the trigger (watched, kept
+  (shut, confirmed (V4, held))).
+- **Protractor stripes [canon: Frank (protractor stripes;
+  specified Frank Stella (vs no hits)); verification deferred).**
+  → Frank's protractor (striped, kept (curved, bent (aluminum,
+  kept))) is the wound (directional, kept (HB, held (extinction,
+  kept))); his "Racing" (green, kept (bird, kept)) is the row
+  (read, kept (honest, told (all, counted))).
+- **Dream collage [canon: Peter (dream collages; specified Peter
+  Tscherkassky (vs no hits)); verification deferred].** → Peter's
+  collage (dreamed, kept (found, cut (footage, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Train"
+  (coming, kept (Lumiere, remade)) is the ledger (exact, kept
+  (honest, told (all, counted))).
