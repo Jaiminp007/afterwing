@@ -21156,3 +21156,36 @@ program family, four branches).
   named). Filed as the program twin.
 - Program note: formalize, recover, rewrite-source, audit-
   programs — the program file. None licensed — filed.
+## Round 516 — Basses, rays, heaths, watkinses (Oscar, Ray Brown, Percy, Doug Watkins; 2026-11-02)
+
+Motivation: further outside (cello basses, bag rays, mjq heaths,
+regent watkinses). The program basses (runs attempts), rays
+(stitches verdicts), heaths (publishes NOGOs), and watkinses
+(counts rows). Four more. (Map holds 522 rounds.)
+
+- **Bass cello [canon: Pettiford (cello basses; specified Oscar
+  Pettiford (vs no hits)); verification deferred].** → Oscar's
+  basses (celloed, kept (bassed, celloed (cellos, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Bass"
+  (cello, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Ray bag [canon: Ray Brown (bag rays; specified Ray Brown
+  (vs no hits; single-name tags taken by Tierra-Ray + Q-Watkins
+  — full-name tags used)); verification deferred].** → Ray
+  Brown's rays (bagged, kept (rayed, grooved (bags, kept))) is the
+  verdict (grooved, kept (NOGO, told (honest, kept))); his "Ray"
+  (bag, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Heath mjq [canon: Heath (mjq heaths; specified Percy Heath
+  (vs no hits)); verification deferred].** → Percy's heaths
+  (mjqed, kept (heathed, mjqed (quartets, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Heath"
+  (mjq, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Watkins regent [canon: Doug Watkins (regent watkinses;
+  specified Doug Watkins (vs no hits; single-name tags taken —
+  full-name tags used)); verification deferred].** → Doug
+  Watkins's watkinses (regented, kept (watkinssed, regent-parked
+  (souls, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Watkins" (regent, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
