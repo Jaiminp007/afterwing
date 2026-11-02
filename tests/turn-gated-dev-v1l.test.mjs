@@ -2,11 +2,12 @@
 // Synthetic learners/rows only (no bank worlds). Union-excluded via tests/*.mjs scan.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtempSync} from 'node:fs';
+import {mkdtempSync,readFileSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {copyWeights,checkTransplantIntegrity,checkScaledIntegrity,digestWeights,scaleSnapshot,snapshotWeights,assertFreshTarget,scoreTurnGateV1l,
-  scoreFlipSplit,scoreFlipSplitV1l,mechanismConfirmed,turnGateDevV1lBank,turnGateDevV1lSources} from '../scripts/turn-gated-dev-v1l.mjs';
+  scoreFlipSplit,scoreFlipSplitV1l,mechanismConfirmed,turnGateDevV1lBank,turnGateDevV1lSources,
+  TL_EXPECT_MAINS,TL_EXPECT_PROBES,TL_ARMS,TL_PAIRS} from '../scripts/turn-gated-dev-v1l.mjs';
 
 const mkW=(t,a,c)=>({taste:[...t],actor:[...a],critic:[...c]});
 const mkAgent=(w,extra={})=>({agentId:1,weights:mkW(...w),lastObservedTick:0,lastDecisionTick:0,
@@ -232,6 +233,14 @@ test('seg-chain trajectory unit: per-link HB climbs; empty-seg direction fails t
   assert.equal(v.verdict,'PHASE-L-NOGO');
 });
 
+test('mains/probes caps match the frozen 5-arm x 3-pair design (regression: the 12-vs-15 slip)',()=>{
+  assert.equal(TL_ARMS.length,5);
+  assert.equal(TL_PAIRS.length,3);
+  assert.equal(TL_EXPECT_MAINS,15);
+  assert.equal(TL_EXPECT_MAINS,TL_ARMS.length*TL_PAIRS.length);
+  assert.equal(TL_EXPECT_PROBES,0);
+});
+
 test('live bank 449001-449054 cannot be rebuilt (union-exclusion guard)',()=>{
   // Post-build maintenance: the V1l bank built cleanly pre-build (tmpdir
   // 54-unique verified at build) and is now live in evidence; the builder
@@ -247,4 +256,21 @@ test('live bank 449001-449054 cannot be rebuilt (union-exclusion guard)',()=>{
   for(const s of [381001,395019,396001,407001,414001,418001,444001,447001,448001])assert.ok(p.excludedSeeds.includes(s),`missing exclusion ${s}`);
   const dir=mkdtempSync(join(tmpdir(),'turn-gated-dev-v1l-bank-guard-'));
   assert.throws(()=>turnGateDevV1lBank(join(dir,'protocol.json')),/already used in prior evidence/);
+});
+
+test('runner implements the frozen chain (structural source guard; regression for the exact-arm slip)',()=>{
+  // The scorer+fixtures are pure; this guards the runner body itself: the
+  // 2026-11-02 slip ran an exact arm (tag 'transferred') instead of the
+  // seg2/seg3 chain and crashed fail-closed at scoring. Zero worlds (reads
+  // the committed instrument file, never runs it).
+  const src=readFileSync(new URL('../scripts/turn-gated-dev-v1l.mjs',import.meta.url),'utf8');
+  assert.ok(src.includes("tag:'transferred-seg2'"),'missing seg2 chain block');
+  assert.ok(src.includes("tag:'transferred-seg3'"),'missing seg3 chain block');
+  assert.ok(src.includes('chainSource'), 'missing chain provenance');
+  const bareExact=(src.match(/tag:'transferred'/g)||[]).length;
+  assert.equal(bareExact,0,'exact-arm tag survived (chain required)');
+  assert.ok(src.includes('row.weights=snapshotWeights(run.learners);'),'chain rows must persist weights');
+  assert.ok(src.indexOf('// 2. lossy-seg1')<src.indexOf('// 3. seg2'),'chain order: seg1 before seg2');
+  assert.ok(src.indexOf('// 3. seg2')<src.indexOf('// 4. seg3'),'chain order: seg2 before seg3');
+  assert.ok(src.indexOf('// 4. seg3')<src.indexOf('// 5. unlearned'),'chain order: seg3 before control');
 });

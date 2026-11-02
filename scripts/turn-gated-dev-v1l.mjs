@@ -27,7 +27,7 @@ export const TL_ARMS=Object.freeze(['train','transferred-lossy','transferred-seg
 export const TL_FIXTURE_SEEDS=Object.freeze(Array.from({length:54},(_,j)=>449001+j));
 const TL_SPENT_RANGES=[[379001,379009],[380001,380009],[380011,380019],[380021,380029],[382001,382036],[383001,383036],[384001,384054],[385001,385054],[386001,386054],[387001,387054],[388001,388054],[395001,395018],[395019,395072],[396001,396036],[397001,397036],[398001,398036],[400001,400072],[401001,401036],[402001,402036],[403001,403036],[404001,404036],[405001,405054],[407001,407054],[408001,408054],[409001,409054],[410001,410054],[411001,411054],[412001,412054],[413001,413054],[414001,414054],[415001,415054],[416001,416054],[417001,417054],[421001,421054],[422001,422054],[423001,423054],[424001,424054],[426001,426054],[427001,427054],[428001,428054],[429001,429054],[430001,430054],[431001,431054],[432001,432054],[433001,433054],[434001,434054],[435001,435054],[436001,436054],[437001,437054],[438001,438054],[439001,439054],[440001,440054],[441001,441054],[418001,418054],[442001,442054],[443001,443054],[444001,444054],[445001,445054],[446001,446054],[447001,447054],[448001,448054],[449001,449054]];
 export const TL_SPENT_SEEDS=Object.freeze([381001,...TL_SPENT_RANGES.flatMap(([a,b])=>Array.from({length:b-a+1},(_,j)=>a+j))]);
-export const TL_EXPECT_MAINS=12, TL_EXPECT_PROBES=0;
+export const TL_EXPECT_MAINS=15, TL_EXPECT_PROBES=0;
 export const TL_HB_CONV_MIN=0.1, TL_BH_FLOOR=0.7, TL_SAME_FLOOR=0.5, TL_LOSSY_ALPHA=0.5;
 export const TL_OP_CAP=4_000_000_000, TL_WALL_CAP_SECONDS=9000;
 export const TL_JOIN_MIN=0.99, TL_TRAIN_GAP=0.5, TL_TRANSFER_GAP=0.3, TL_FLAT_TOL=0.1;
@@ -367,36 +367,7 @@ export function runTurnGatedDevV1l({bankPath,output,resume=false}){
     const t0r=runOne('train',hTr);wall+=t0r.wall;cpuS+=t0r.cpuS;
     const trainRow=rows.find(r=>r.history.seed===hTr.seed&&r.tag==='train');
     assert.ok(trainRow&&trainRow.summary&&trainRow.weights,'train row missing weights for transplant');
-    // 2. transferred test on H_te: fresh run + transplant, then advance
-    {
-      const found=rows.find(r=>r.history.seed===hTe.seed&&r.tag==='transferred'&&r.summary);
-      if(found)console.log(JSON.stringify({stage:'skip',tag:'transferred',seed:hTe.seed,reason:'complete on disk'}));
-      else{
-        if(resume)redone.push(`${hTe.seed}:transferred`);
-        const collector=collectTurnChoice();
-        const {wall:w2,cpuS:c2}=timed(`transferred/${hTe.seed}`,()=>{
-          const run=new TasteExperiment({history:hTe,arm:'candidate',learnerOptions:{...BT_LEARNER_OPTIONS},cruiseSpeed:0,body:'N',pricing:{...BT_PRICING},emit:collector.emit});
-          for(const id of Object.keys(trainRow.weights))assertFreshTarget(run.learners[id],id);
-          const cp=copyWeights(trainRow.weights,run.learners);
-          const chk=checkTransplantIntegrity(trainRow.weights,run.learners);
-          assert.ok(chk.ok,'transplant integrity failed: '+chk.violations.join(';'));
-          const row={history:{seed:hTe.seed},tag:'transferred',endpoint:null,summary:null,
-            transfer:{transferred:cp.transferred,total:Object.keys(trainRow.weights).length,
-              sourceDigest:digestWeights(trainRow.weights),appliedDigest:digestWeights(snapshotWeights(run.learners))}};
-          assert.equal(row.transfer.sourceDigest,row.transfer.appliedDigest,'transplant digest mismatch');
-          run.advance(BT_TICKS);
-          row.endpoint=run.endpoint();checkMainIntegrity(row.endpoint,`transferred/${hTe.seed}`);
-          row.summary=collector.summarize();
-          note(1,0,BT_TICKS,row.endpoint.scalarOperations);
-          rows.push(row);
-          writeOver(join(outputAbs,'rows',`${hTe.seed}-transferred.json`),row);
-          checkpointLedger();
-          console.log(JSON.stringify({stage:'world',arm:'transferred',seed:hTe.seed,energy:row.endpoint.budgetAdjustedEnergyPerFounder}));
-        });
-        wall+=w2;cpuS+=c2;
-      }
-    }
-    // 2b. transferred-lossy test on H_te: fresh run + transplant of
+    // 2. lossy-seg1 test on H_te: fresh run + transplant of
     // train-end weights x TL_LOSSY_ALPHA, then advance. Same machinery as
     // the exact arm; integrity is scaled (applied == src x alpha); the
     // scale bills +1 mul/element (treatment asymmetry, noise precedent).
@@ -421,6 +392,7 @@ export function runTurnGatedDevV1l({bankPath,output,resume=false}){
           run.advance(BT_TICKS);
           row.endpoint=run.endpoint();checkMainIntegrity(row.endpoint,`transferred-lossy/${hTe.seed}`);
           row.summary=collector.summarize();
+          row.weights=snapshotWeights(run.learners);
           note(1,0,BT_TICKS,row.endpoint.scalarOperations+scaleOps);
           rows.push(row);
           writeOver(join(outputAbs,'rows',`${hTe.seed}-transferred-lossy.json`),row);
@@ -430,7 +402,74 @@ export function runTurnGatedDevV1l({bankPath,output,resume=false}){
         wall+=w2;cpuS+=c2;
       }
     }
-    // 4. unlearned control on H_te
+    // 3. seg2 test on H_te: fresh run + EXACT transplant of seg1-end weights,
+    // then advance. Chain link (V1d machinery): tests whether the lossy start
+    // propagates. End weights persist on the row (chain source for seg3).
+    {
+      const found=rows.find(r=>r.history.seed===hTe.seed&&r.tag==='transferred-seg2'&&r.summary);
+      if(found)console.log(JSON.stringify({stage:'skip',tag:'transferred-seg2',seed:hTe.seed,reason:'complete on disk'}));
+      else{
+        if(resume)redone.push(`${hTe.seed}:transferred-seg2`);
+        const seg1Row=rows.find(r=>r.history.seed===hTe.seed&&r.tag==='transferred-lossy');
+        assert.ok(seg1Row&&seg1Row.summary&&seg1Row.weights,'seg1 row missing weights for chain transplant');
+        const collector=collectTurnChoice();
+        const {wall:w2,cpuS:c2}=timed(`transferred-seg2/${hTe.seed}`,()=>{
+          const run=new TasteExperiment({history:hTe,arm:'candidate',learnerOptions:{...BT_LEARNER_OPTIONS},cruiseSpeed:0,body:'N',pricing:{...BT_PRICING},emit:collector.emit});
+          for(const id of Object.keys(seg1Row.weights))assertFreshTarget(run.learners[id],id);
+          const cp=copyWeights(seg1Row.weights,run.learners);
+          const chk=checkTransplantIntegrity(seg1Row.weights,run.learners);
+          assert.ok(chk.ok,'seg2 transplant integrity failed: '+chk.violations.join(';'));
+          const row={history:{seed:hTe.seed},tag:'transferred-seg2',endpoint:null,summary:null,
+            transfer:{transferred:cp.transferred,total:Object.keys(seg1Row.weights).length,chainSource:'transferred-lossy',
+              sourceDigest:digestWeights(seg1Row.weights),appliedDigest:digestWeights(snapshotWeights(run.learners))}};
+          assert.equal(row.transfer.sourceDigest,row.transfer.appliedDigest,'seg2 transplant digest mismatch');
+          run.advance(BT_TICKS);
+          row.endpoint=run.endpoint();checkMainIntegrity(row.endpoint,`transferred-seg2/${hTe.seed}`);
+          row.summary=collector.summarize();
+          row.weights=snapshotWeights(run.learners);
+          note(1,0,BT_TICKS,row.endpoint.scalarOperations);
+          rows.push(row);
+          writeOver(join(outputAbs,'rows',`${hTe.seed}-transferred-seg2.json`),row);
+          checkpointLedger();
+          console.log(JSON.stringify({stage:'world',arm:'transferred-seg2',seed:hTe.seed,energy:row.endpoint.budgetAdjustedEnergyPerFounder}));
+        });
+        wall+=w2;cpuS+=c2;
+      }
+    }
+    // 4. seg3 test on H_te: fresh run + EXACT transplant of seg2-end weights,
+    // then advance. The asymptote probe. End weights persist (descriptive).
+    {
+      const found=rows.find(r=>r.history.seed===hTe.seed&&r.tag==='transferred-seg3'&&r.summary);
+      if(found)console.log(JSON.stringify({stage:'skip',tag:'transferred-seg3',seed:hTe.seed,reason:'complete on disk'}));
+      else{
+        if(resume)redone.push(`${hTe.seed}:transferred-seg3`);
+        const seg2Row=rows.find(r=>r.history.seed===hTe.seed&&r.tag==='transferred-seg2');
+        assert.ok(seg2Row&&seg2Row.summary&&seg2Row.weights,'seg2 row missing weights for chain transplant');
+        const collector=collectTurnChoice();
+        const {wall:w2,cpuS:c2}=timed(`transferred-seg3/${hTe.seed}`,()=>{
+          const run=new TasteExperiment({history:hTe,arm:'candidate',learnerOptions:{...BT_LEARNER_OPTIONS},cruiseSpeed:0,body:'N',pricing:{...BT_PRICING},emit:collector.emit});
+          for(const id of Object.keys(seg2Row.weights))assertFreshTarget(run.learners[id],id);
+          const cp=copyWeights(seg2Row.weights,run.learners);
+          const chk=checkTransplantIntegrity(seg2Row.weights,run.learners);
+          assert.ok(chk.ok,'seg3 transplant integrity failed: '+chk.violations.join(';'));
+          const row={history:{seed:hTe.seed},tag:'transferred-seg3',endpoint:null,summary:null,
+            transfer:{transferred:cp.transferred,total:Object.keys(seg2Row.weights).length,chainSource:'transferred-seg2',
+              sourceDigest:digestWeights(seg2Row.weights),appliedDigest:digestWeights(snapshotWeights(run.learners))}};
+          assert.equal(row.transfer.sourceDigest,row.transfer.appliedDigest,'seg3 transplant digest mismatch');
+          run.advance(BT_TICKS);
+          row.endpoint=run.endpoint();checkMainIntegrity(row.endpoint,`transferred-seg3/${hTe.seed}`);
+          row.summary=collector.summarize();
+          row.weights=snapshotWeights(run.learners);
+          note(1,0,BT_TICKS,row.endpoint.scalarOperations);
+          rows.push(row);
+          writeOver(join(outputAbs,'rows',`${hTe.seed}-transferred-seg3.json`),row);
+          checkpointLedger();
+          console.log(JSON.stringify({stage:'world',arm:'transferred-seg3',seed:hTe.seed,energy:row.endpoint.budgetAdjustedEnergyPerFounder}));
+        });
+        wall+=w2;cpuS+=c2;
+      }
+    }
+    // 5. unlearned control on H_te
     const uRes=runOne('unlearned',hTe);wall+=uRes.wall;cpuS+=uRes.cpuS;
     pairWall[`pair${pi}`]={wall,cpuS};
   }
@@ -441,16 +480,6 @@ export function runTurnGatedDevV1l({bankPath,output,resume=false}){
   const decision=scoreTurnGateV1l(rows,seedPairs);
   assert.equal(ledger.mains,TL_EXPECT_MAINS,'Dev mains count mismatch');
   assert.equal(ledger.probes,TL_EXPECT_PROBES,'Dev probes count mismatch');
-  const flipExact=TL_PAIRS.map(([hiTr,hiTe])=>{
-    const tr=rows.find(r=>r.history.seed===p.histories[hiTr].seed&&r.tag==='train');
-    const te=rows.find(r=>r.history.seed===p.histories[hiTe].seed&&r.tag==='transferred');
-    return scoreFlipSplit(tr,te);
-  });
-  const flipLossy=TL_PAIRS.map(([hiTr,hiTe])=>{
-    const tr=rows.find(r=>r.history.seed===p.histories[hiTr].seed&&r.tag==='train');
-    const te=rows.find(r=>r.history.seed===p.histories[hiTe].seed&&r.tag==='transferred-lossy');
-    return scoreFlipSplit(tr,te);
-  });
   const flipSeg=TL_PAIRS.map(([hiTr,hiTe])=>{
     const tr=rows.find(r=>r.history.seed===p.histories[hiTr].seed&&r.tag==='train');
     const ss=[1,2,3].map(s=>rows.find(r=>r.history.seed===p.histories[hiTe].seed&&r.tag===(s===1?'transferred-lossy':`transferred-seg${s}`)));
