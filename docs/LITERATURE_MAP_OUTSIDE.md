@@ -19309,3 +19309,29 @@ holds 460 rounds.)
   (carried, won (crowd, kept))); his "General" (meaning, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 455 — Paced, saved, normed, shifted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: minimal mechanisms + skill
+measurement — do less, measure what matters (relearning thread,
+four branches).
+
+- **Backprop-free subspace [arXiv:2603.28678 (Sójka / PACE; vs
+  no hits)].** CMA-ES + Fastfood subspace on norm affines (no
+  gradients). → Optimize the small, freeze the rest (frozen+
+  delta, 5th confirmation). Filed.
+- **Relearning savings [arXiv:2610.22381 (Zhou; vs no hits)].**
+  Lost vs INACCESSIBLE (binding-specific savings; matched
+  LEARNED vs CONTROL histories). → Our savings measure,
+  LLM-side (retention ≠ accuracy). Filed as the savings twin.
+- **Norms only [arXiv:2308.09610 (De Min; vs no hits)].**
+  Task-specific LayerNorm scale+bias (rehearsal-free, minimal).
+  → The smallest sufficient delta. Unlicensed.
+- **Skill shifts [arXiv:2610.33528 (Chen / SkillShift-Bench; vs
+  no hits)].** Benchmark skills under ENVIRONMENT EVOLUTION
+  (contextual/perceptual/execution shifts). → Our transfer
+  test, agent-side (three shifts = three codebooks). Filed
+  as the benchmark twin.
+- Program note: frozen+delta now 5×-confirmed; savings >
+  accuracy; shift-benchmarks > static bars. None licensed —
+  filed.
