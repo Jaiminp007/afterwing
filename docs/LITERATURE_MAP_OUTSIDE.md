@@ -13445,3 +13445,37 @@ more. (All hooks verified virgin pre-append.)
   is the per-agent loop (no center (each evaluating (the sandbox,
   own))); his masks and props (the dancer, hidden) are the blinded
   controls (copied, static (the arms, unknowing)).
+## Round 263 — Theater of evidence (Bausch, Carter, Olsen, Rich; 2026-11-02)
+
+Motivation: the program stages evidence (attempts as performances),
+modulates time (1792 ticks, capped), honors silences (unbuilt lines),
+and dives wrecks (crash debris, dual provenance). Four more. (Bare
+"Rich" shares 78 adjective FPs — full names throughout.)
+
+- **Theater of the attempt [canon: Bausch (dance theater;
+  specified Pina (vs no hits)); verification deferred].** →
+  Pina's Tanztheater (repetition with difference (gestures,
+  again (changed))) is the attempt series (runs with difference
+  (mains, again (banks, fresh))); her questions (asked, not
+  answered (the answer, danced)) are the gates (asked, not
+  steered (the verdict, read)).
+- **Changing tempo without stopping [canon: Carter (metric
+  modulation; specified Elliott (vs no hits)); verification
+  deferred].** → Elliott's metric modulation (the pulse shifts
+  (the music, unbroken)) is the proposal tick (behavior shifts
+  (the run, unbroken (1024 (the tick, pre-registered)))); his
+  independence of parts (each line (its own time)) is the
+  per-agent loop (each sandbox (its own error)).
+- **The unbuilt [canon: Olsen (silences; specified Tillie (vs
+  no hits)); verification deferred].** → Tillie's Silences
+  (books unwritten (the work, prevented)) are the unbuilt lines
+  (C4 unimplemented (the code, pending); C5 unfrozen (the plan,
+  open))); her motherhood-and-authorship (the double day) is the
+  alternation (program and literature (the turn, shared)).
+- **Diving the debris [canon: Rich (wreck diving; specified
+  Adrienne (vs adjective FPs)); verification deferred].** →
+  Adrienne's diving into the wreck (the thing itself (not the
+  story of the thing)) is the debris archive (rows themselves
+  (not the summary of the rows)); her "the wreck and not the
+  story of the wreck" is negative-preservation (evidence kept
+  (not verdicts about evidence (the rows, raw))).
