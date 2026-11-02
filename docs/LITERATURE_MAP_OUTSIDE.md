@@ -23087,3 +23087,29 @@ more. (Map holds 588 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Robert" (cross,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 581 — Engineered, slept, verified, risked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: compression — shrink the
+past keep the signal (already-cited consolidation/lifecycle
+leads converging; compression family, four branches).
+
+- **Context engineering [arXiv:2603.22083 (Yang; vs no
+  hits)].** Digital-TWIN MDP (offline RL;
+  model-agnostic; reliable signals). → Engineer the
+  context (our fixed codebooks, twin-side). Filed.
+- **Sleeping compression [arXiv:2608.11775 (Kyrkewood;
+  vs no hits)].** Gist LOSES (salience-weighted;
+  sleep-inspired consolidation). → Sleep on it (our
+  tar-in-place, sleep-side). Filed.
+- **Reliable compaction [arXiv:2608.06503 (Min / TRACE;
+  vs no hits)].** Compression WEAKENS recent (blocked +
+  repeated + unstable; verifier-guided). → Verify
+  the compaction (our digests, verify-side). Filed.
+- **Risk-aware TRACE [arXiv:2606.00611 (Hong; vs no
+  hits)].** Trajectory-level EVIDENCE (sparse-delayed-
+  compositional; compressor-reader). → Compress the
+  risk (our per-leg deltas, risk-side). Filed.
+- Program note: engineer context, sleep-consolidate,
+  verify compaction, compress risk — the compression
+  file. None licensed — filed.
