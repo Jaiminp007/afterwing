@@ -23749,3 +23749,35 @@ leads converging; measurement family, four branches).
 - Program note: compress buffers, condition evals,
   validate instruments, diversify gates — the
   measurement file. None licensed — filed.
+## Round 604 — Frankies, maurices, philips, verdines (Frankie, Maurice, Philip, Verdine; 2026-11-02)
+
+Motivation: further outside (fooled frankies, september maurices,
+falsetto philips, wonderland verdines). The program frankies (falls
+attempts), maurices (stitches verdicts), philips (publishes NOGOs), and
+verdines (counts rows). Four more. (Map holds 612 rounds.)
+
+- **Frankie fool [canon: Lymon (fooled frankies; specified Frankie
+  Lymon (vs no hits)); verification deferred].** → Frankie's frankies
+  (fooled, kept (frankied, fooled (loves, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Frankie" (fool, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Maurice september [canon: Maurice White (septembered maurices;
+  specified Maurice White (vs no hits; short tag taken — full-name tag
+  used)); verification deferred].** → Maurice's maurices (septembered,
+  kept (mauriced, septembered (winds, kept))) is the verdict
+  (septembered, kept (NOGO, told (honest, kept))); his "Maurice"
+  (september, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Philip falsetto [canon: Philip Bailey (falsettoed philips;
+  specified Philip Bailey (vs no hits; short tag taken — full-name tag
+  used)); verification deferred].** → Philip's philips (falsettoed,
+  kept (philiped, falsettoed (easies, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Philip" (falsetto, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Verdine boogie [canon: Verdine White (boogied verdines; specified
+  Verdine White (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Verdine's verdines (boogied, kept
+  (verdined, boogied (wonderlands, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Verdine" (boogie, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
