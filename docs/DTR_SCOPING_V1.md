@@ -54,6 +54,15 @@ open sentence into a work list — advancement, not closure.
   (action/intention embeddings, no predefined representations) beside the
   labeled task-IL route. Two routes specified; both need building — the
   option does NOT unblock (blockers stand), it de-risks the freeze.
+- R329 addendum: THREE votes now favor infer-not-given (TAME shift-
+  detection + Hafez self-organization + Lei librarian routing without
+  task-ID). Freeze should LEAD with the inference-head, labeled route
+  as fallback (reversal of the original sketch's assumption).
+- R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
+  design constraint (isolate experts = no transfer; share updates =
+  forgetting); CP-MoE's transient expert is the middle path to steal at
+  design time. MoE gating theory (Li: gating sparsifies/distributes
+  tasks) is the when/why guidance for the same design.
 - Embodied note: Hafez is robot control — inference emerging from
   behavior connects to Track-K1 scale, if DTR ever reaches an embodied
   task pair.

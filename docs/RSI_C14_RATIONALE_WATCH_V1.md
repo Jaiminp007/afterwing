@@ -72,6 +72,15 @@ held). Per-parameter modulation becomes viable only indexed by task.
   meta=integration). Design principle banked for any future loop
   architecture (with the tick/errors instrumentation standard).
 
+## Candidate 7 (added 2026-11-02): self-controlled expansion — PARKED-architectural
+
+R329 (Wu: static backbones fail diverse domains; self-controlled dynamic
+expansion grows the model). Growth (capacity) is a genuinely new revision
+channel — nothing in 14 lines ever grows (all dims fixed). But it needs
+dynamic capacity = substrate work (bigger than DTR part (i); the trunk
+must be growable before any line uses growth). PARKED-architectural with
+mask-per-task (candidate 4): distinct mechanisms, same parking lot.
+
 ## Candidate 4 (added 2026-11-02): mask-per-task architecture — PARKED (strong)
 
 R321 (Yadav/SupSup-critique): per-task supermasks over frozen weights
