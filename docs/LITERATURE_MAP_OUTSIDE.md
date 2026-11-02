@@ -18638,3 +18638,30 @@ rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Ceora" (breezed, kept (played, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 433 — Defaulted, lied, adopted, disentangled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: evidence-gating — never switch on
+surprise alone (C16's epitaph, formalized four ways).
+
+- **Default-global [arXiv:2609.33340 (Guo / RAEGL; vs no hits)].**
+  Validated global predictor BY DEFAULT; contextual residual ONLY
+  when evidence supports; selection SEPARATE from calibration.
+  → C16-done-right: default static, gate the switch, separate
+  the vote from the threshold. Unlicensed.
+- **Lies lesson [arXiv:2610.39840 (Metales; vs no hits)].**
+  SURPRISE ALONE LEARNS LIES (surprise-driven learners absorb
+  planted falsehoods). → Gate by evidence, not surprise. The
+  title is the program's lesson.
+- **Adoption layer [arXiv:2610.01751 (Guo / EGR; vs no hits)].**
+  Freeze challenger, anytime-valid evidence, persistent e-value,
+  pass/fail adoption (path-dependent search). → Our adopt-iff
+  gate, formalized (Guo again). Unlicensed.
+- **Modality disentangling [arXiv:2609.03142 (Yang; vs no hits)].**
+  Spurious inter-sensor correlations (modality entanglement);
+  evidence-gated regularization, zero inference overhead. →
+  Our spurious cue correlations, gated. Unlicensed.
+- Program note: RAEGL's default-global + separate-selection-
+  from-calibration is filed as the C16-successor vote design
+  (default = static lossy; switch ONLY on calibrated evidence;
+  never pool). The bar stands.
