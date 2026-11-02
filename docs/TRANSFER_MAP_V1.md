@@ -230,6 +230,9 @@ the map stays open, not empty.
 - R481 circuits file: upper-bounds-not-vibes; propose-
   dispose pipeline (loop twin); edit-the-circuit (sparse
   twin); bound-the-capability (bounds twin).
+- R483 edit-hold file: edit-then-consolidate (loop twin);
+  sparse-lifelong (sparse twin); drift>tolerance
+  (tolerance twin); conflict-resolving (optimizer twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
