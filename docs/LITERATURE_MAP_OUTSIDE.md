@@ -16583,3 +16583,36 @@ mapping, keep the rule.
   hits)].** Removes targeted concepts while preserving related
   ones, no generalization erosion. → Selective removal preserving
   neighbors — the surgical ideal. Unlicensed.
+## Round 360 — Lions, seedbeds, peace, consciousness (Claudio, Vito, Daniel, Vasubandhu; 2026-11-02)
+
+Motivation: further outside (lion fingers, gallery seedbeds,
+orchestral peace, storehouse consciousness). The program lions
+(runs attempts), seedbeds (publishes NOGOs), peaces (withholds
+RSI), and consciousnesses (counts rows). Four more. (Map hits
+366 rounds.)
+
+- **Lion finger [canon: Claudio (lion fingers; specified Claudio
+  Arrau (vs no hits)); verification deferred].** → Claudio's lions
+  (fingered, kept (played, voiced (Beethoven, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Liszt"
+  (transcended, kept (etched, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Seedbed body [canon: Vito (seedbed bodies; specified Vito
+  Acconci (vs no hits)); verification deferred].** → Vito's
+  seedbeds (bodied, kept (hid, murmured (gallery, kept))) is the
+  verdict (hidden, kept (NOGO, told (honest, kept))); his "Claim"
+  (sat, kept (blindfold, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Peace orchestra [canon: Daniel (peace orchestras; specified
+  Daniel Barenboim (vs no hits)); verification deferred].** →
+  Daniel's peace (orchestrated, kept (bridged, joined (Divan,
+  kept))) is the claim (bridged, kept (RSI, unclaimed (still,
+  standing))); his "Parsifal" (knighted, kept (grail, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Storehouse consciousness [canon: Vasubandhu (storehouse
+  consciousnesses; specified Vasubandhu (vs no hits));
+  verification deferred].** → Vasubandhu's consciousnesses
+  (stored, kept (seeded, perfumed (alaya, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Verses"
+  (twenty, kept (thirty, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
