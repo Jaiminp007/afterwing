@@ -74,6 +74,12 @@ open sentence into a work list — advancement, not closure.
   design (most complete: index + generation + stabilization in one);
   CPP steering (contrastive prompt-tuning against drift/interference,
   rehearsal-free) is the drift-handling to steal at design time.
+- R365 addendum: detect-new/infer-latent shelf extends the
+  infer-not-given wing — Mundt (replay+open-set unified), Perez
+  (latent world-properties via online Bayes, closest spirit to
+  codebook-shift), Bendale (original open-world detect+add+update
+  loop), Xu (OpenIncrement detect-then-learn). All unlicensed;
+  the wing now leads inference-head design with 7 references.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
