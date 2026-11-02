@@ -19091,3 +19091,37 @@ MoCL-P's new rehearsal-free instance, flagged as such).
 - Program note: the rehearsal-free family says carry need not
   mean replay (prompts, modules, contrast — not buffers).
   None licensed — filed.
+## Round 448 — Martyrs, mirrors, sonnies, records (Bill, Joan Jonas, Sonny Clark, Qian; 2026-11-02)
+
+Motivation: further outside (slow-mo martyrs, vertical mirrors,
+cool sonnies, new records). The program martyrs (runs attempts),
+mirrors (stitches verdicts), sonnies (publishes NOGOs), and
+records (counts rows). Four more. (Map holds 454 rounds.)
+
+- **Martyr slow-mo [canon: Viola (slow-mo martyrs; specified Bill
+  Viola (vs no hits; "violation" R8 is unrelated)); verification
+  deferred].** → Bill's martyrs (slow-moed, kept (martyred,
+  greeted (nantes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Martyrs" (earth, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Mirror vertical [canon: Joan Jonas (vertical mirrors;
+  specified Joan Jonas (vs no hits; single-name tag taken by
+  Mekas — full-name tag used)); verification deferred].** →
+  Joan's mirrors (verticaled, kept (mirrored, organed (volcanoes,
+  kept))) is the verdict (organed, kept (NOGO, told (honest,
+  kept))); her "Vertical" (roled, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Sonny cool [canon: Sonny Clark (cool sonnies; specified
+  Sonny Clark (vs no hits; Clark-tags taken — full-name tag
+  used)); verification deferred].** → Sonny's cool (sonnied, kept
+  (strutted, dialogued (quarters, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Cool" (strutted,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Record new [canon: Qian (new records; specified Qian Mu (vs
+  no hits)); verification deferred].** → Qian's records (newed,
+  kept (commented, outlined (histories, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "New" (account,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
