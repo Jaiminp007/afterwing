@@ -19065,3 +19065,29 @@ holds 452 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Hot" (colded, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 447 — Looked, resourced, composed, contrasted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: rehearsal-free CL — carry without
+the past (PROL's family, four branches; R443 not repeated except
+MoCL-P's new rehearsal-free instance, flagged as such).
+
+- **Closer look [arXiv:2203.17269 (Smith; vs no hits)].**
+  Rehearsal costs memory; the audit of going without. → The
+  cost ledger for carry-without-past. Filed.
+- **Resource-efficient [arXiv:2406.04772 (Jeon / REP; vs no
+  hits)].** Swift prompt selection + adaptive token merging +
+  layer dropping (accuracy cheap). → Efficiency is the other
+  budget (matches our op-cap discipline). Filed.
+- **Modular compositional [arXiv:2404.00790 (Wang; MoCL-P
+  already cited — new rehearsal-free instance flagged)].**
+  Composition WITHOUT replay; isolation hinders transfer.
+  → Composition is the transfer mechanism, not the vault.
+  Filed as the compositional twin.
+- **Contrastive task-free [arXiv:2510.00467 (Wang; vs no
+  hits)].** Rehearsal-free AND task-free via contrastive
+  prompts (one-pass OCL). → The hardest setting, prompted.
+  Unlicensed.
+- Program note: the rehearsal-free family says carry need not
+  mean replay (prompts, modules, contrast — not buffers).
+  None licensed — filed.
