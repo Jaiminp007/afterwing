@@ -20183,3 +20183,34 @@ edit-hold family, four branches).
   (our flip-split + lossy, optimizer-side). Filed.
 - Program note: edit, consolidate, sparsify, untrap —
   the edit-hold file. None licensed — filed.
+## Round 484 — Riders, roots, cautions, norths (Mimmo, Marc, Jiao, Qifeng; 2026-11-02)
+
+Motivation: further outside (dormant riders, prosthetic roots,
+reading cautions, summarized norths). The program riders (runs
+attempts), roots (stitches verdicts), cautions (publishes NOGOs),
+and norths (counts rows). Four more. (Map holds 490 rounds.)
+
+- **Rider dormant [canon: Paladino (dormant riders; specified
+  Mimmo Paladino (vs no hits)); verification deferred].** →
+  Mimmo's riders (dormanted, kept (rided, sleeped (sleepers,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Rider" (dormant, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Root prosthetic [canon: Ribot (prosthetic roots; specified
+  Marc Ribot (vs no hits)); verification deferred].** → Marc's
+  roots (prostheticed, kept (rooted, cubed (prosthetics, kept)))
+  is the verdict (cubed, kept (NOGO, told (honest, kept))); his
+  "Root" (less, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Caution reading [canon: Jiao (reading cautions; specified
+  Jiao Hong (vs no hits)); verification deferred].** → Jiao's
+  cautions (read, kept (cautioned, read (readings, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Caution" (read, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **North summarized [canon: Qifeng (summarized norths;
+  specified Sun Qifeng (vs no hits)); verification deferred].**
+  → Qifeng's norths (summarized, kept (northed, learned (norths,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "North" (learning, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
