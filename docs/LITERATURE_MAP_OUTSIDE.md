@@ -16785,3 +16785,32 @@ computational theory of OUR wound and our trunk.
   rationale family for the third-mechanism hunt (not gain, not
   selection, not scaling — inference). CANDIDATE (needs frozen
   plan + fresh bank), not a line, not a claim.
+## Round 367 — Pseudo, attributed, standardized, disentangled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: multi-source generalization — the
+training-side analog of multi-context extinction.
+
+- **Pseudo-multi-source [arXiv:2505.23173 (Enomoto / PMDG; vs no
+  hits)].** Multi-source generalization from a SINGLE source via
+  synthesized pseudo-domains. → THE mechanism for multi-codebook
+  training under our constraint (one train codebook per chain →
+  pseudo-codebooks from it). Second candidate family (training-
+  side; R366's was inference-side).
+- **Attributes as sources [arXiv:1605.00743 (Gan; vs no hits)].**
+  Attribute detectors that generalize to unseen categories =
+  multi-source generalization. → Valence-as-attribute: learn the
+  attribute, not the codebook. Unlicensed.
+- **Input standardization [arXiv:2507.19858 (Lee; vs no hits)].**
+  Map disparate inputs to a canonical space (local
+  discriminability vs cross-source generalization traded
+  explicitly). → Canonical-codebook projection; the tradeoff
+  named. Unlicensed.
+- **Disentanglement [arXiv:2207.05070 (Wang; vs no hits)].**
+  Disentangle domain from content; partial overlap + novel
+  categories allowed. → Codebook-vs-valence split, formalized.
+  Unlicensed.
+- Program note: multi-codebook training (train A + pseudos from
+  A, transfer B) joins inference-gating as candidate family #2.
+  Changes the train protocol — G2b baseline implications must be
+  IN any freeze. Candidates, not lines.
