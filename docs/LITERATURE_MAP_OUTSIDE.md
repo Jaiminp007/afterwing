@@ -18083,3 +18083,29 @@ blacks (stitches verdicts), defines (publishes NOGOs), and farewells
   (joined, kept (carried, won (crowd, kept))); his "Harp" (plucked,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 413 — Routed, saturated, balanced, matched (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: routing — who handles this input,
+and how would we know.
+
+- **Routed paradigm [arXiv:2610.38796 (Philip; vs no hits)].**
+  Routed continual learning: no single retention works; no one
+  knows in advance what helps whom. → The honest premise (route,
+  don't retain-or-hope).
+- **Saturation warning [arXiv:2608.01437 (Yi; vs no hits)].**
+  Routing nearly saturated on benchmarks — task-ID leaks + short
+  sequences HIDE the long-horizon problem. → Benchmarks lie
+  about routing; the hard part is unmeasured. Method caution.
+- **Balanced routing [arXiv:2609.13742 (Xu / Hyper-LLaVA; vs no
+  hits)].** Hyperbolic uncertainty-aware modality-balanced
+  routing (intra-task diversity + varying reliability). →
+  Reliability-weighted routing, geometrically. Unlicensed.
+- **Route codebook [arXiv:2607.22543 (Sakai; vs no hits)].**
+  Map-matching as SCORED ALIGNMENT of probe trajectory vs
+  codebook members. → Our transfer loop as an algorithm: align
+  the trajectory against candidate codebooks, pick best. Filed
+  with DTR inference, unlicensed.
+- Program note: Sakai's align-vs-codebook is the cleanest
+  algorithmic statement of our transfer test; Yi's warning
+  constrains how we read routing benchmarks. Filed.
