@@ -81,6 +81,15 @@ dynamic capacity = substrate work (bigger than DTR part (i); the trunk
 must be growable before any line uses growth). PARKED-architectural with
 mask-per-task (candidate 4): distinct mechanisms, same parking lot.
 
+## Screened out pre-candidacy (R332, 2026-11-02): order/curriculum studies
+
+Zentner (skill policies), He (curriculum composition), Liu (distance-
+ordered stepping stones), Parisi (agents framing) — all characterize
+how SEQUENCE shapes transfer. Filed as precedents, not candidates:
+testing orders spends banks mapping the wound's 6th axis, and wound-
+mapping is closed by diminishing returns (synthesis V3). No watch
+entry, no parking — just this note so the idea isn't re-examined.
+
 ## Candidate 4 (added 2026-11-02): mask-per-task architecture — PARKED (strong)
 
 R321 (Yadav/SupSup-critique): per-task supermasks over frozen weights
