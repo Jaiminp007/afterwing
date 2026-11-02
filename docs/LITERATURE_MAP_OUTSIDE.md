@@ -14932,3 +14932,50 @@ rows), humors (keeps negatives), shells (spends banks), and grids
   (frozen, kept (written, held (still, kept))); her "With"
   (flowers, kept (my, love)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 310 — Plasticity, succession, burden, reachability (live arXiv, throttle lifted; 2026-11-02)
+
+First live-ID round since the throttle (R261 era). Four fresh
+abstracts (fetched 2026-11-02, abstracts only, 0 worlds), all
+virgin pre-append. These have teeth, not just analogies.
+
+- **Loss of plasticity [arXiv:2610.36309 (Grieco; vs no hits)].**
+  PPO with isotropic Gaussian policies loses adaptivity (LoP);
+  policy σ causally conditions it (theory + LoP benchmarks).
+  → Our substrate's saturation (drift-dominated N=24, supercritical
+  stampede) is LoP's cousin: learning that destroys its own future
+  learnability. The σ finding suggests a knob we never turned
+  (policy stochasticity preserved through training) — recorded as
+  a candidate mechanism, NOT a licensed line (no substrate knob
+  maps to σ today).
+- **Pre-invasion compatibility [arXiv:2609.36375 (Dipu; vs no
+  hits)].** Successional Learning Theory: resident community vs
+  invader task; directional pre-invasion compatibility (measured
+  BEFORE learning the incoming task) ORDERS later forgetting
+  (8 experiments, Split-CIFAR-10). → This is the predictor our
+  tax work lacks: we measure transfer AFTER (0.28 wound, dose
+  curves) but never predict it from the resident BEFORE. A
+  pre-transfer compatibility metric (train-codebook vs incoming-
+  codebook, computed on frozen weights) is the most concrete new
+  measurement idea in months — zero-worlds computable on EXISTING
+  rows whenever specified (no new bank: it re-reads spent rows).
+  Licensed as measurement, not as a line.
+- **Update rule must cumulatively adapt [arXiv:2609.35897 (Luo;
+  vs no hits)].** RSI rests on the optimization engine; Disco103
+  beats PPO but its update machinery is an uninspected black box;
+  first causal analysis offered. → Direct echo of C12 (tasteRate
+  dial ≠ redesign; VISION's learning-algorithm sentence still
+  unshown) and of our pooled -0.019 (sandbox optimizes train).
+  Independent convergence: the field also finds the update rule
+  is the uninspected bottleneck. No new rationale (confirms the
+  C14 bar, doesn't clear it).
+- **Reachability over behavior [arXiv:2610.42146 (Zhou; vs no
+  hits)].** ID-WM: high-level samples feasible transitions across
+  the state manifold, low-level grounds them; test-time adaptation
+  for embodied agents, prioritizing local physical feasibility.
+  → Echoes Track-K1's lesson (tick bodies don't turn-gate; the
+  substrate is the bottleneck) from the other side: adaptation at
+  TEST time, not training time. Our loop revises at train time and
+  transfers frozen — the field's test-time framing is a genuinely
+  different revision channel (revise DURING transfer). Recorded as
+  a candidate channel for a future rationale (not specified, not
+  frozen, not licensed).
