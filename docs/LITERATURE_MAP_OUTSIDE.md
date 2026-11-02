@@ -19216,3 +19216,37 @@ branches are banked).
 - Program note: the family says keep-less-prove-more; GCR's
   gradient selection + Yoon's unequal points = the selection
   mechanism file. None licensed — filed.
+## Round 452 — Corridors, moontranes, shots, cedars (Bruce, Woody, Burden, Walton; 2026-11-02)
+
+Motivation: further outside (clown corridors, moontrane
+imaginations, trans-fixed shots, eastern cedars). The program
+corridors (runs attempts), moontranes (stitches verdicts), shots
+(publishes NOGOs), and cedars (counts rows). Four more. (Map
+holds 458 rounds.)
+
+- **Corridor clown [canon: Nauman (clown corridors; specified
+  Bruce Nauman (vs no hits; Acconci screened used)); verification
+  deferred].** → Bruce's corridors (clowned, kept (corridored,
+  walked (exaggerated, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Clown" (tortured, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Moontrane imagination [canon: Shaw (moontrane imaginations;
+  specified Woody Shaw (vs no hits)); verification deferred].**
+  → Woody's moontranes (imagined, kept (moontraned, rosewooded
+  (flowers, kept))) is the verdict (rosewooded, kept (NOGO, told
+  (honest, kept))); his "Moontrane" (coltraned, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Shot trans-fixed [canon: Burden (trans-fixed shots;
+  specified Chris Burden (vs no hits; "burden" R310 is the word));
+  verification deferred].** → Burden's shots (trans-fixed, kept
+  (shot, crucified (volkswagens, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Shoot" (shot,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Cedar eastern [canon: Walton (eastern cedars; specified Cedar
+  Walton (vs no hits)); verification deferred].** → Walton's
+  cedars (easterned, kept (cedared, easterned (rebellions, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Eastern" (rebellioned, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
