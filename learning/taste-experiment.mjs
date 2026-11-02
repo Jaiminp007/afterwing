@@ -12,7 +12,7 @@ import {attachOperatorLoop,fireLooperProposal,fireLooperChoice,fireLooperFlipCho
 import {createTasteKernelBody,chooseTasteKernelAction,observeTasteKernelBody} from './taste-kernel.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
-export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper','copier']); // C7: copier auto-adopts blind at the proposal tick (dose-matched control)
+export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper','copier','standard']); // C10: standard = looper-equivalent standard-choice arm (flip-eval off)
 
 // R-GAP S2 schedule gate (plan docs/R_GAP_PLAN_V1A.md): per-tick acquisition
 // windows within each continual phase. frontload learns the first half of every
@@ -127,9 +127,9 @@ export function syncNewbornLearners(run){
   return created;
 }
 // Tick-1024 proposal fire paths (extracted for fixture-testing; semantics identical to the former inline code).
-// looper: single-index sandbox proposal OR multi-index sandbox choice; copier: blind auto-adopt (no sandbox).
+// looper: single-index sandbox proposal OR multi-index sandbox choice (flip iff looperFlipEval); copier: blind auto-adopt (no sandbox); standard: looper-equivalent standard-choice (flip-eval off).
 export function fireTickProposal(exp,state,own){
-  if(exp.arm==='looper'&&own.tick===OL_PROPOSAL_TICK&&state.rsiLoop){
+  if((exp.arm==='looper'||exp.arm==='standard')&&own.tick===OL_PROPOSAL_TICK&&state.rsiLoop){
     if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
     else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
   }
@@ -159,7 +159,7 @@ export class TasteExperiment{
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
       this.learners[id]=this.program==='fixed'?fixedBody(id,seed):arm==='tasteKernel'?createTasteKernelBody(id,seed,{...learnerOptions,tasteLearning:false}):createTasteEnergyBody(id,seed,{...learnerOptions,tasteLearning:arm!=='noTaste',normalizeMotor:arm!=='noNormalization',cueBlind:arm==='blind'});
       if(arm==='unlearned')freezeTasteEnergyBody(this.learners[id]);
-      if(arm==='looper')attachOperatorLoop(this.learners[id]);
+      if(arm==='looper'||arm==='standard')attachOperatorLoop(this.learners[id]); // C10: standard evaluates like looper (flip-eval off)
     }
     this.startingEnergy=this.world.flies.reduce((n,f)=>n+f.energy,0);this.startingDebt=0;this.startingOperations=0;
     this.phaseIndex=0;this.phaseEnd=512;this.phaseRows=[];this.savedModels={};this.atA=null;this.atB=null;this.atC=null;this.probe=false;this.transfer=false;this.finished=false;
