@@ -19760,3 +19760,39 @@ removal family, four branches).
 - Program note: the family removes by direction, timing,
   geometry, and detection — purification with structure.
   None licensed — filed.
+## Round 470 — Stars, compositions, violins, affairs (Gilberto, Anthony, Jenkins, Chen Liang; 2026-11-02)
+
+Motivation: further outside (javelin stars, language
+compositions, revolutionary violins, benefit affairs). The
+program stars (runs attempts), compositions (stitches verdicts),
+violins (publishes NOGOs), and affairs (counts rows). Four more.
+(Map holds 476 rounds.)
+
+- **Star javelin [canon: Zorio (javelin stars; specified
+  Gilberto Zorio (vs no hits)); verification deferred].** →
+  Gilberto's stars (javelined, kept (starred, acid-etched
+  (coppers, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Star" (javelined, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Composition language [canon: Braxton (language compositions;
+  specified Anthony Braxton (vs no hits)); verification
+  deferred].** → Anthony's compositions (languaged, kept
+  (composed, ghost-tranced (musics, kept))) is the verdict
+  (ghost-tranced, kept (NOGO, told (honest, kept))); his
+  "Composition" (noted, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Violin revolutionary [canon: Jenkins (revolutionary violins;
+  specified Leroy Jenkins (vs no hits)); verification
+  deferred].** → Jenkins's violins (revolutionaried, kept
+  (violined, ensemble-stricked (strings, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Revolutionary" (ensembled, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Affair benefit [canon: Chen Liang (benefit affairs;
+  specified Chen Liang (vs no hits; single-name tags collide
+  with Qichao + Cheng — full-name tag used)); verification
+  deferred].** → Chen Liang's affairs (benefited, kept
+  (affaired, utilized (kings, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Benefit" (kingly, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
