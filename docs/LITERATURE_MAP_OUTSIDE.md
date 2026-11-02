@@ -13794,3 +13794,34 @@ small). Four more. (Bare Ashe shares crashes-FPs — full names.)
   sandbox fee (small (room, for (evaluation))); his teaism
   (the pause, kept) is the proposal tick (1024, kept (once,
   each (run))).
+## Round 274 — Barrier, summit, varnish (Robinson, Hillary, Norgay, Stradivari; 2026-11-02)
+
+Motivation: the program breaks barriers (closed lines), summits
+together (chains linked), and keeps secrets (lost varnish). Four
+more. (B-Savarin R222-done; J.Robinson R201-done; bare Robinson/42
+share FPs — full names throughout.)
+
+- **Breaking in [canon: Robinson (barrier breaking; specified
+  Jackie (vs Joan-Robinson FP)); verification deferred].** →
+  Jackie's 42 (the number, retired (the barrier, broken)) is the
+  spent bank (the range, retired (refusal, posted)); his
+  "a life is not important" (except its impact) is the negative
+  (kept, except its impact (teaching, kept)).
+- **Because it's there [canon: Hillary (summit patience;
+  specified Edmund (vs no hits)); verification deferred].** →
+  Edmund's Everest (the mountain, there (climbed, because)) is
+  the milestone (VISION, there (pursued, because)); his
+  "we knocked the bastard off" (the understatement, dry) is
+  the NOGO (published, dry (no triumph, kept)).
+- **The other summiteer [canon: Norgay (shared summit;
+  specified Tenzing (vs no hits)); verification deferred].** →
+  Tenzing's step (the Hillary Step, shared (who, first
+  (unasked))) is the copier (the control, shared (blind,
+  carried (unasked))); his tiger (of the snows, named) is the
+  looper (the agent, named (proposing, carried)).
+- **The lost recipe [canon: Stradivari (secret varnish;
+  specified Antonio (vs no hits)); verification deferred].**
+  → Antonio's varnish (the secret, lost (the sound, kept)) is
+  the sandbox (the evaluation, kept (the mechanism, open (the
+  signal, biased))); his Messiah (unplayed, kept (perfect))
+  is the unbuilt line (C9, kept (perfect (unfrozen))).
