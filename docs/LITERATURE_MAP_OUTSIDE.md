@@ -19796,3 +19796,29 @@ violins (publishes NOGOs), and affairs (counts rows). Four more.
   (carried, won (crowd, kept))); his "Benefit" (kingly, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 471 — Decomposed, sharpened, flattened, escaped (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: sharpness — the wound's geometry
+(already-cited sharpness lead not repeated; flatness family,
+four branches).
+
+- **Flatness decomposed [arXiv:2601.07636 (Chen / FLAD; vs no
+  hits)].** Sharpness is NOT one signal (decompose it;
+  efficient). → Decompose the wound's geometry, don't
+  average it. Unlicensed.
+- **Plasticity-sharpness [arXiv:2409.17300 (Koster; vs no
+  hits)].** Plasticity loss HIGHLY RELATED to sharpness;
+  smooth minima keep adapting. → The wound's geometry,
+  named (flat transfers, sharp sticks). Filed as the
+  geometry twin.
+- **C-Flat [arXiv:2404.00986 (Bian; vs no hits)].** Flat
+  minima in uniform-low-loss neighborhoods (sensitivity-
+  stability dilemma). → Sensitivity-stability = our
+  plasticity-retention. Filed as the dilemma twin.
+- **Escape efficiency [arXiv:2111.04004 (Ibayashi; vs no
+  hits)].** SGD escapes sharp minima EXPONENTIALLY fast
+  (non-stationary regime). → Sharp doesn't even hold
+  (noise escapes it). Filed as the escape twin.
+- Program note: flat transfers, sharp sticks, noise escapes
+  — the geometry file. None licensed — filed.
