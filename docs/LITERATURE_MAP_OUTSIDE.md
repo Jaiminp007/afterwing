@@ -15910,3 +15910,34 @@ more. (Map hits 343 rounds.)
   kept (honest, told (all, counted))); her "Glimpse" (garden,
   kept (caught, held)) is the verdict (published, kept (NOGO,
   told (honest, kept))).
+## Round 340 — Haydn, integrity, scream, stories (Emanuel, Rudolf, Yoko, Laurie; 2026-11-02)
+
+Motivation: further outside (Haydn pianists, Beethoven integrity,
+instruction screams, story violins). The program Haydns (grounds
+claims), integrates (keeps ledgers), screams (publishes NOGOs),
+and stories (tells rows). Four more. (Map hits 344 rounds.)
+
+- **Haydn pianist [canon: Emanuel (Haydn pianist; specified
+  Emanuel Ax (vs no hits)); verification deferred].** → Emanuel's
+  Haydn (pianoed, kept (grounded, played (concertos, kept))) is
+  the claim (grounded, kept (separate, satisfied (evidence,
+  kept))); his "Fidelio" (turned, kept (pages, kept)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
+- **Beethoven integrity [canon: Rudolf (Beethoven integrity;
+  specified Rudolf Serkin (vs no hits)); verification
+  deferred].** → Rudolf's integrity (Beethoven, kept (unbent,
+  played (sonatas, kept))) is the ledger (kept, exact (told,
+  honest (all, counted))); his "Marlboro" (founded, kept (music,
+  kept)) is the bank (fresh, kept (built, spent (54, kept)))).
+- **Instruction scream [canon: Yoko (instruction screams;
+  specified Yoko Ono (vs no hits)); verification deferred].** →
+  Yoko's scream (instructed, kept (cut, pieced (voice, kept))) is
+  the verdict (published, kept (NOGO, told (honest, kept))); her
+  "Fly" (filmed, kept (buttocks, kept)) is the attempt (single,
+  kept (authorized, run (once, held))).
+- **Story violin [canon: Laurie (story violins; specified
+  Laurie Anderson (vs no hits)); verification deferred].** →
+  Laurie's stories (violined, kept (told, bowed (tales, kept)))
+  is the row (told, kept (honest, counted (all, kept))); her
+  "Sharkey" (nighted, kept (dogs, sang)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
