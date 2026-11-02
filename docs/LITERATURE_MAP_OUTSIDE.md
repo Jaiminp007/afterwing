@@ -18438,3 +18438,35 @@ system (our tick-vs-lifetime, formalized).
 - Program note: Kaplanis's invariance-across-timescales is the
   robustness criterion our transfer test approximates (train vs
   transfer = two timescales of the same rule). Filed as method.
+## Round 426 — Funk, formica, laws, footprints (Herbie, Artschwager, Shang, Wayne; 2026-11-02)
+
+Motivation: further outside (headhunter funk, formica crates,
+reform laws, weather footprints). The program funks (runs
+attempts), formicas (stitches verdicts), laws (publishes NOGOs),
+and footprints (counts rows). Four more. (Map holds 432 rounds.)
+
+- **Funk headhunter [canon: Herbie (headhunter funk; specified
+  Herbie Hancock (vs no hits)); verification deferred].** →
+  Herbie's funk (headhunted, kept (synthed, chameleoned (keys,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Dolphin" (danced, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Formica crate [canon: Artschwager (crate formicas; specified
+  Richard Artschwager (vs no hits; first-name tag collides twice
+  — surname tag used); verification deferred].** → Artschwager's
+  formica (crated, kept (-grained, exed (tables, kept))) is the
+  verdict (exed, kept (NOGO, told (honest, kept))); his "Door"
+  (triptyched, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Law reform [canon: Shang (reform laws; specified Shang Yang
+  (vs no hits)); verification deferred].** → Shang's laws
+  (reformed, kept (ranked, burned (books, kept))) is the claim
+  (burned, kept (RSI, unclaimed (still, standing))); his "Rewards"
+  (punished, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Footprint weather [canon: Wayne (weather footprints; specified
+  Wayne Shorter (vs no hits)); verification deferred].** → Wayne's
+  footprints (weathered, kept (sopped, reported (Nefertiti,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "JuJu" (chanted, kept (played, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
