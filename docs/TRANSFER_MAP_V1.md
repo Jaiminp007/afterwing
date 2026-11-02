@@ -148,6 +148,10 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R431 addendum: Chen head-task action bias (tail falls back on
+  head patterns when evidence is thin) filed as the wound's
+  cross-domain twin lens (same shape, different substrate);
+  memorize-to-compose + factor-holdout + de-blur banked unlicensed.
 - R429 addendum: Montero limits adopted as method-caution on
   part-based claims (disentangled-don't-compose robustly;
   object-centric untested beyond scenes); Zahran anticipation
