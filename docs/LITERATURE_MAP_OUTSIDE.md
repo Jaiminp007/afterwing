@@ -21310,3 +21310,30 @@ ubuntus, blue dollars. The program scraps (runs attempts), cubis
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Dollar" (blue, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 521 — Failed, staired, verified, embedded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: repair reuse — turn failures into
+reusable plans (already-cited repair lead converging; reuse
+family, four branches).
+
+- **Failure-aware [arXiv:2603.17826 (Ma / FailureMem; vs no
+  hits)].** Failed attempts RARELY TRANSFORMED (rigid
+  pipelines; ungrounded vision). → Transform the failures
+  (our NOGOs→signals, repair-side). Filed.
+- **Staired plans [arXiv:2607.29658 (Xu / STAIR; vs no hits)].**
+  Past trajectories → HIERARCHICAL reusable PLANS (don't
+  discard procedural knowledge). → Stair the experience
+  (our chain-legs as plans, hierarchy-side). Filed as the
+  stair twin.
+- **Evidence-verified [arXiv:2608.06950 (Liu / MIRA; vs no
+  hits)].** Coarse experience CORRUPTS (verify before reuse;
+  don't corrupt the correct). → Verify the reuse (our
+  adopt-iff, reuse-side). Filed.
+- **Trajectory embedding [arXiv:2507.00028 (Li / HiT-JEPA; vs
+  no hits)].** Fine + coarse in ONE model (similarity
+  computation). → Compare trajectories hierarchically
+  (our leg-comparison, embedding-side). Filed.
+- Program note: transform failures, stair plans, verify
+  reuse, embed trajectories — the reuse file. None licensed
+  — filed.
