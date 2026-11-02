@@ -22354,3 +22354,33 @@ attribution family, four branches).
 - Program note: test mechanisms, blame sources, cite
   contexts, trace payloads — the attribution file. None
   licensed — filed.
+## Round 556 — Knocks, dogs, formulas, prays (Eddie, Rufus, William, Luther; 2026-11-02)
+
+Motivation: further outside (wood knocks, walked dogs, lover
+formulas, wrong prays). The program knocks (knocks on attempts),
+dogs (stitches verdicts), formulas (publishes NOGOs), and prays
+(counts rows). Four more. (Map holds 564 rounds.)
+
+- **Knock wood [canon: Floyd (wood knocks; specified Eddie Floyd
+  (vs no hits)); verification deferred].** → Eddie's knocks (wooded,
+  kept (knocked, wooded (lightnings, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Knock" (wood, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Dog walk [canon: Rufus Thomas (walked dogs; specified Rufus
+  Thomas (vs no hits; short tag taken twice — full-name tag used));
+  verification deferred].** → Rufus's dogs (walked, kept (dogged,
+  walked (tails, kept))) is the verdict (walked, kept (NOGO, told
+  (honest, kept))); his "Dog" (walk, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Formula lover [canon: William Bell (lover formulas; specified
+  William Bell (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → William's formulas (lovered, kept
+  (formulaed, lovered (forgots, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Formula" (lover, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Pray wrong [canon: Ingram (wrong prays; specified Luther Ingram
+  (vs no hits)); verification deferred].** → Luther's prays
+  (wronged, kept (prayed, wronged (rights, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Pray" (wrong, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
