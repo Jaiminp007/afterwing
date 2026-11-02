@@ -171,6 +171,9 @@ the map stays open, not empty.
   is the transfer mechanism not the vault (MoCL-P instance);
   efficiency is the other budget (REP); contrastive task-free
   unlicensed.
+- R449 RSI-adjacent family: Recuris NAMES RSI-hard + evidence-
+  localized failures; MoLEM states update-vs-memory (= weights-
+  vs-carry) dilemma; Hippocam/Executive unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
