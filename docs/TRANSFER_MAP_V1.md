@@ -43,6 +43,13 @@ verdicts — never run, never claimed); what would license new work.
   model of the train world = substrate work) but it re-partitions
   the hunt: weight-side (mapped, largely closed) vs input-side
   (unmapped, one candidate).
+- R363 addendum: input-side family grows 1→5 — Mummadi
+  input-transformation (the original TTA), Gao DDA (project to
+  source = our transfer restated), Zhang BETA (black-box
+  input-space, matches our constraint shape), Lee BECoTTA
+  (input-dependent blending, DTR-relevant). ALL unlicensed (each
+  needs machinery: transform, generator, steering model,
+  experts). Locus stands: unmapped, five candidates, zero lines.
 - TTA taxonomy (Liang survey) adopted as the hunt's map: update
   weights/statistics (tried) vs adapt inputs (untried) vs adapt
   prototypes (ProtoTTA — closest analog to niche-model weights;
