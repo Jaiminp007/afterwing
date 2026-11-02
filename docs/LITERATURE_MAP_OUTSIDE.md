@@ -17298,3 +17298,29 @@ and scribbles (counts rows). Four more. (Map hits 390 rounds.)
   whispered (etudes, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Chopin" (mazurkaed, kept (played,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 385 — Surprised, scaled, synced, gained (live arXiv; 2026-11-02)
+
+Three fresh abstracts (fetched 2026-11-02) + one banked
+(2608.04358 NeuMoSync already on record — cited, not repeated).
+Abstracts only, 0 worlds. Three virgin pre-append. Themed:
+surprise-gated plasticity — the vote done right elsewhere.
+
+- **Surprise gate [arXiv:2606.31495 (Mouchon; vs no hits)].**
+  Prediction-error over a FROZEN encoder gates plasticity AND
+  metacognition; episodic writes on high surprise + offline
+  consolidation (+17.7 retention). → Frozen backbone +
+  surprise-gated writes + consolidation. Our architecture with
+  the gate we lack. Unlicensed (needs predictor + memory).
+- **Surprise scaling [arXiv:2601.17598 (Kini / DISRC; vs no
+  hits)].** Scale Q-updates by latent-space surprise (bio-
+  inspired, sparse rewards). → Surprise-scaled updates, not
+  uniform. Unlicensed.
+- **Gain neuromodulation [arXiv:2507.14056 (Rodriguez-Garcia;
+  vs no hits)].** DYNAMIC GAIN neuromodulation attenuates
+  stability gaps at task boundaries (adaptation vs retention).
+  → Our gain thread, neuromodulated, at the boundary. The
+  stability gap = our seg-boundary tax. Unlicensed.
+- Program note: Mouchon's frozen-encoder + surprise-gate +
+  consolidation is the closest full architecture to a working
+  C16-successor (flipped-conditional vote + write + consolidate).
+  Filed as the design to steal from, unlicensed.
