@@ -14044,3 +14044,35 @@ bare Wright shares Cartwright-FP — full names throughout.)
   (near-miss, published (0.004, short))); his security blanket
   is negative-preservation (held, always (evidence, kept
   (raw, all))).
+## Round 282 — Emperor, tiger, cow, gonzo (Aurelius, Watterson, Larson, Thompson; 2026-11-02)
+
+Motivation: further outside (Stoic emperors, comic strips, gonzo).
+The program meditates (audits), transmogrifies (adapts), laughs far
+(side), and embeds itself (no distance). Four more. (Bare
+Meditations/Larson/Thompson share Oliveros/REAL-lit FPs — full
+names throughout.)
+
+- **To himself [canon: Aurelius (written meditations; specified
+  Marcus (vs Oliveros-FP)); verification deferred].** → Marcus's
+  Meditations (to himself (written, kept (never, published))) is
+  the ledger (to itself (written, kept (published, always (open,
+  honest)))); his "the impediment to action advances action"
+  is the INVALID (the flaw, advancing (disclosed, kept)).
+- **Transmogrify [canon: Watterson (imagination strips;
+  specified Bill (vs no hits)); verification deferred].** →
+  Bill's transmogrifier (a box (becoming, anything)) is the
+  transplant (weights, becoming (carried, exact)); his
+  "never argue with a six-year-old" is the bar (never moved
+  (5%, kept (shopping, forbidden))).
+- **The far side [canon: Larson (absurd science; specified
+  Gary (vs genomics-FP)); verification deferred].** → Gary's
+  cows (standing, talking (tools, none)) are the static arms
+  (baseline, running (ops, none (config, plain))); his
+  "nature draws the weirdest" is bank variance (weird, banks
+  (barren, two (normal-range, kept))).
+- **Embedded [canon: Thompson (gonzo immersion; specified
+  Hunter (vs Thompson-FPs)); verification deferred].** →
+  Hunter's gonzo (inside, the story (no distance, taken)) is
+  the sandbox (inside, experience (no transfer, seen (fit,
+  only))); his "buy the ticket" is the attempt (taken, once
+  (the ride, run (spent, closed))).
