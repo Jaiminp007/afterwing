@@ -74,6 +74,12 @@ verdicts — never run, never claimed); what would license new work.
   features (Einstellung), rigidity DISTINCT from forgetting. Our HB
   gap is one instance of the class. Framing only (no measure
   computed here, no mechanism follows).
+- Arbitration failure (R371/Nooralahzadeh: NEW lens, untested):
+  encodes the evidence yet answers from the prior. Compatible with
+  extinction/rigidity (the prior IS the preserved mapping); adds
+  the arbitration question (who wins: prior or evidence). Hafez
+  reliability-arbitration banked as a candidate mechanism
+  (unlicensed: needs model + reliability estimate).
 - Convergent precedent + tension (R361): MedEinst's control+trap
   with flipped evidence ≅ our train/flip-split + HB gap (kin, not
   a line); but context-change OVERCOMES mental set in code
