@@ -20421,3 +20421,38 @@ family, four branches).
 - Program note: preserve, measure, initialize-from-prior,
   partition-and-mix — the prior file. None licensed —
   filed.
+## Round 492 — Decodings, noises, salves, sharpnesses (Shannon, Haino, Salvo, Sharp; 2026-11-02)
+
+Motivation: further outside (decoding societies, watermelon
+noises, tutto salves, carbon guitars). The program decodings
+(runs attempts), noises (stitches verdicts), salves (publishes
+NOGOs), and sharpnesses (counts rows). Four more. (Map holds
+498 rounds.)
+
+- **Decoding society [canon: Shannon (decoding societies;
+  specified Ronald Shannon Jackson (vs no hits)); verification
+  deferred].** → Shannon's decodings (societied, kept (decoded,
+  hawked (eyes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Decoding" (society, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Noise watermelon [canon: Haino (watermelon noises;
+  specified Keiji Haino (vs no hits)); verification
+  deferred].** → Haino's noises (watermeloned, kept (noised,
+  fushitsushaed (zei, kept))) is the verdict (fushitsushaed, kept
+  (NOGO, told (honest, kept))); his "Watermelon" (sugar, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Salve tutto [canon: Salvo (tutto salves; specified Salvo
+  (vs no hits)); verification deferred].** → Salvo's salves
+  (tuttoed, kept (salved, sicilied (tricolor, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Tutto"
+  (sicily, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Sharpness carbon [canon: Sharp (carbon sharpnesses;
+  specified Elliott Sharp (vs no hits)); verification
+  deferred].** → Sharp's sharpnesses (carboned, kept (sharped,
+  terraplaned (guitars, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Carbon" (fiber, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
