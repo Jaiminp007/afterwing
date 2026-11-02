@@ -56,11 +56,12 @@ verdicts — never run, never claimed); what would license new work.
 - Extinction failure (CONFIRMED working lens): lossy + surprise-gated
   both work by unlearning preserved avoidance; direction exclusivity
   (HB-only) supports it; adoption-decline tracks it.
-- Shortcut failure (R353/Wei: NEW lens, untested): avoidance keys on
-  spurious cue correlations that flip across codebooks. Distinguishing
-  test exists in principle (per-cue turn dominance — CONTACT_GRADIENT
-  work touches it) but is not run or specified; filed as a future
-  measurement, not a claim, not a license.
+- Shortcut failure (R353/Wei: TESTED 2026-11-02, REJECTED in strong
+  form): train rows turn 0.866 on harmful vs 0.049 on beneficial
+  cues (n=492+492, pooled C2–C15) — behavior tracks labels, not
+  cues. Agents learn the rule; the wound is pure failure-to-unlearn
+  (see SHORTCUT_AUDIT_V1). Subtler cue-threshold variant untested.
+  Extinction lens stands alone.
 
 ## What would license transfer-side work
 
