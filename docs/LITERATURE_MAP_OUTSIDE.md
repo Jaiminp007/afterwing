@@ -13310,3 +13310,38 @@ already mapped R235, dropped with his served/servant pair.)
   use, licensed))); his schools (the street inside (learning,
   everywhere)) are the 1792 ticks (decisions inside (learning,
   everywhere (the everywhere, billed))).
+## Round 259 — Vernacular and zones (Rudofsky, Brand, Adams, Capa; 2026-11-02)
+
+Motivation: the program builds vernacular (unplanned rows, frozen plans)
+in zones (join 1.00, calibrated scales). Four more. (Bare "Capa"
+shares 69 capacity-substring FPs — full names throughout.)
+
+- **Without architects [canon: Rudofsky (vernacular; specified
+  Bernard (vs no hits)); verification deferred].** → Bernard's
+  Architecture Without Architects (builders without plans (the
+  building, right)) is the row (data without theory (the verdict,
+  right)); his lesson (the vernacular knows (what the academy
+  forgot)) is the baseline (the unlearned knows (flat 0.00 (what
+  the trained forgot (nothing (the nothing, kept))))).
+- **Shearing speeds [canon: Brand (paced layers; specified
+  Stewart (vs no hits)); verification deferred].** → Stewart's
+  shearing layers (site slow, structure slower? no — site eternal,
+  stuff fast (the speeds, different)) are the timescales (weights
+  fast (records slow (buffers slower? no — recent 8, older 24 (the
+  speeds, bounded)))); his "how buildings learn" (by remodeling
+  (not rebuilding)) is the operator loop (by re-gating (not
+  re-architecting (the menu, six)))).
+- **Calibrated zones [canon: Adams (zone system; specified Ansel
+  (vs no hits)); verification deferred].** → Ansel's Zone System
+  (0 pure black, X pure white (every tone, placed)) is the gate
+  yardstick (+0.1 (below fail, above pass (every verdict,
+  placed)))); his visualization (see the print (before the
+  shutter)) is the freeze (see the verdict (before the bank
+  (the plan, first)))).
+- **Close enough [canon: Capa (proximity; specified Robert (vs
+  capacity-substring FPs)); verification deferred].** → Robert's
+  "if your pictures aren't good enough, you're not close enough"
+  is the join gate (if your rate isn't 0.99, you're not joined
+  enough (the joining, exact))); his contact sheets (every frame
+  (the take, all)) are the rows (every seed (the main, all
+  (12/12 (the twelve, kept)))).
