@@ -375,6 +375,9 @@ the map stays open, not empty.
 - R575 hidden-failures file: separate-layers;
   audit-corpora; seek-signals;
   trace-facts.
+- R577 composition file: probe-boundaries;
+  audit-writes; test-assembly;
+  build-strategies.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
