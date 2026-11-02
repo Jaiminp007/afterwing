@@ -97,6 +97,12 @@ open sentence into a work list — advancement, not closure.
   Dobrzeniecka (retrieval routing + eval) + CARL-CXR (task-unknown,
   our setting exactly) support. Route-by-input is now specified
   three ways (prototype, gradient-free, adapter); all unlicensed.
+- R379 addendum: COMPOSITION shelf — MoCL-P (compose+prune,
+  budgeted), L2R (isolate-train + learn-to-compose), Mendez
+  (lifelong compositional RL), modulating-masks (fixed backbone).
+  L2R's failure modes map: training-interference SEEN (V1o),
+  routing-suboptimality UNTESTED (routing shelf's open question).
+  All unlicensed.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
