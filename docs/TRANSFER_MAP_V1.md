@@ -366,6 +366,9 @@ the map stays open, not empty.
 - R569 failure file: inject-faults;
   bind-approvals; audit-evaluators;
   reflect-structurally.
+- R571 approval file: guard-loops;
+  name-approvals; card-ground-truth;
+  verify-before-fixing.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
