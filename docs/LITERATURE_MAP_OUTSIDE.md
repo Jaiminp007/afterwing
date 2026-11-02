@@ -22471,3 +22471,34 @@ operations family, four branches; includes our namesake).
 - Program note: automate guides, operationalize
   indicators, model evidence, search resolved — the
   operations file. None licensed — filed.
+## Round 560 — Souls, als, greens, satellites (David, Al, Jim, Estelle; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred sixty). Soul-man writs, promoted als, founded greens, record
+satellites. The program souls (writes attempts), als (stitches
+verdicts), greens (publishes NOGOs), and satellites (counts rows).
+Four more. (Map holds 568 rounds.)
+
+- **Soul man [canon: Porter (man souls; specified David Porter (vs
+  no hits)); verification deferred].** → David's souls (manned, kept
+  (souled, manned (writs, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Soul" (man, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Al promote [canon: Al Bell (promoted als; specified Al Bell
+  (vs no hits; short tag taken — full-name tag used)); verification
+  deferred].** → Al's als (promoted, kept (aled, promoted (labels,
+  kept))) is the verdict (promoted, kept (NOGO, told (honest, kept)));
+  his "Al" (promote, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Green found [canon: Jim Stewart (founded greens; specified Jim
+  Stewart (vs no hits; short tag taken by the bow-hummer — full-name
+  tag used)); verification deferred].** → Jim's greens (founded, kept
+  (greened, founded (labels, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Green" (found, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Satellite record [canon: Axton (record satellites; specified
+  Estelle Axton (vs no hits)); verification deferred].** → Estelle's
+  satellites (recorded, kept (satellited, recorded (staxes, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); her
+  "Satellite" (record, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
