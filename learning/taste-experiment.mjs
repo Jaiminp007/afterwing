@@ -8,11 +8,11 @@ import {tickMotor} from './tick-actor-critic.mjs';
 import {pursuitMotor} from './pursuit-authority.mjs';
 import {chargeForStep,billSarsaWork,encodedStateBytes} from './sarsa-experiment.mjs';
 import {createTasteEnergyBody,chooseTasteEnergyAction,observeTasteEnergyBody,freezeTasteEnergyBody,resetTasteEnergyBody,compactTasteEnergyBody,restoreTasteEnergyBody} from './taste-energy.mjs';
-import {attachOperatorLoop,fireLooperProposal,fireLooperChoice,fireLooperFlipChoice,adoptOperatorLive,OL_MENU,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
+import {attachOperatorLoop,fireLooperProposal,fireLooperChoice,fireLooperFlipChoice,adoptOperatorLive,OL_MENU,OL_PROPOSAL_TICK,OL_PROPOSAL_TICK_EARLY} from './rsi-operator-loop.mjs';
 import {createTasteKernelBody,chooseTasteKernelAction,observeTasteKernelBody} from './taste-kernel.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
-export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper','copier','standard']); // C10: standard = looper-equivalent standard-choice arm (flip-eval off)
+export const TASTE_ARMS=Object.freeze(['candidate','unlearned','frozen','reset','noTaste','noNormalization','blind','acceptCruise','acceptStationary','nativeFullCruise','frontload','recent','tasteKernel','looper','copier','standard','double']); // C13: double = two-fire iterative arm (fires @512 and @1024)
 
 // R-GAP S2 schedule gate (plan docs/R_GAP_PLAN_V1A.md): per-tick acquisition
 // windows within each continual phase. frontload learns the first half of every
@@ -133,6 +133,11 @@ export function fireTickProposal(exp,state,own){
     if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
     else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
   }
+  /* C13: double fires at BOTH ticks (second-order revision: adopt, learn, re-fire) */
+  if(exp.arm==='double'&&(own.tick===OL_PROPOSAL_TICK||own.tick===OL_PROPOSAL_TICK_EARLY)&&state.rsiLoop){
+    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
+    else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
+  }
   /* C7: blind adoption, same tick, no sandbox/fee (dose matched) */
   if(exp.arm==='copier'&&own.tick===OL_PROPOSAL_TICK&&exp.copierMenuIndex!=null)adoptOperatorLive(state,OL_MENU[exp.copierMenuIndex]);
 }
@@ -159,7 +164,7 @@ export class TasteExperiment{
       const seed=(history.seed^Math.imul(id,2654435761))>>>0||1;
       this.learners[id]=this.program==='fixed'?fixedBody(id,seed):arm==='tasteKernel'?createTasteKernelBody(id,seed,{...learnerOptions,tasteLearning:false}):createTasteEnergyBody(id,seed,{...learnerOptions,tasteLearning:arm!=='noTaste',normalizeMotor:arm!=='noNormalization',cueBlind:arm==='blind'});
       if(arm==='unlearned')freezeTasteEnergyBody(this.learners[id]);
-      if(arm==='looper'||arm==='standard')attachOperatorLoop(this.learners[id]); // C10: standard evaluates like looper (flip-eval off)
+      if(arm==='looper'||arm==='standard'||arm==='double')attachOperatorLoop(this.learners[id]); // C10: standard evaluates like looper (flip-eval off); C13: double too
     }
     this.startingEnergy=this.world.flies.reduce((n,f)=>n+f.energy,0);this.startingDebt=0;this.startingOperations=0;
     this.phaseIndex=0;this.phaseEnd=512;this.phaseRows=[];this.savedModels={};this.atA=null;this.atB=null;this.atC=null;this.probe=false;this.transfer=false;this.finished=false;

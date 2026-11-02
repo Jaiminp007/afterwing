@@ -25,6 +25,7 @@ export const OL_MENU=Object.freeze([
 ]);
 export const OL_LIFETIME_MAX=4;
 export const OL_PROPOSAL_TICK=1024;
+export const OL_PROPOSAL_TICK_EARLY=512; // C13: double-fire early tick (single authorized addition; all other arms 1024-only)
 export const OL_MIN_RECORDS=4;
 export const OL_ADOPT_FACTOR=0.95; // candErr < incErr x 0.95 (5% bar)
 export function attachOperatorLoop(tasteState){
