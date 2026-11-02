@@ -107,6 +107,10 @@ open sentence into a work list — advancement, not closure.
   ONLINE experience — closest transfer-operator on record) joins
   the wing; cross-agent mask sharing (population-adjacent) +
   PEMN (task-in-mask) noted. All unlicensed.
+- R427 addendum: WHAT/HOW two-system (infer-computation + implement-
+  it) filed as the reference implementation shape for trunk/head
+  + inference; GaTaP two-loop gating + part-conflict + CompIL
+  banked unlicensed.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
