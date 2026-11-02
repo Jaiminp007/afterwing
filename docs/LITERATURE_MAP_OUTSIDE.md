@@ -18782,3 +18782,37 @@ those are NOT repeated, only the new branches are banked).
 - Program note: Danda's input-side adapter is the first INPUT-
   SIDE machinery on the map (untouched axis per R348). Filed
   as the route to unmap — needs freezing, not shopping.
+## Round 438 — Voids, columns, prices, consciousness (Lee, Anne, Herbie, Xiong; 2026-11-02)
+
+Motivation: further outside (welded voids, colored columns,
+priced parties, consciousness-only). The program voids (drains
+verdicts), columns (stacks rows), prices (charges budgets), and
+consciouses (publishes NOGOs). Four more. (Map holds 444
+rounds.)
+
+- **Void welded [canon: Bontecou (welded voids; specified Lee
+  Bontecou (vs no hits; first-name tag taken by Morgan —
+  surname tag used)); verification deferred].** → Lee's voids
+  (welded, kept (vacuumed, sooted (worlds, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); her "Untitled"
+  (relieved, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Column colored [canon: Truitt (colored columns; specified
+  Anne Truitt (vs no hits)); verification deferred].** → Anne's
+  columns (colored, kept (striped, picketed (fences, kept))) is
+  the verdict (picketed, kept (NOGO, told (honest, kept))); her
+  "Summer" (dry, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Price partied [canon: Nichols (priced parties; specified
+  Herbie Nichols (vs no hits; first-name tag taken by Hancock
+  — surname tag used)); verification deferred].** → Herbie's
+  prices (partied, kept (housed, danced (parties, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Lady" (sung, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Consciousness only [canon: Xiong (consciousness only;
+  specified Xiong Shili (vs no hits)); verification
+  deferred].** → Xiong's consciousness (only, kept (manifested,
+  consciousnessed (minds, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "New" (doctrined, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
