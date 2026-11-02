@@ -390,6 +390,9 @@ the map stays open, not empty.
 - R585 audit-layer file: measure-routes;
   pay-disagreements; bound-deployments;
   shield-executions.
+- R587 skill-budget file: format-specs;
+  virtualize-state; allocate-by-skill;
+  modularize-knowledge.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
