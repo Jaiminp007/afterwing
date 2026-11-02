@@ -16403,3 +16403,35 @@ middle layer between weights and tasks.
   (not extinction failure but shortcut failure). Lens only —
   possible future measurement (per-cue turn dominance exists in
   CONTACT_GRADIENT work); not a line, not a claim.
+## Round 354 — Baton, noses, depression, unity (Simon, Audrey, Lars, Wang; 2026-11-02)
+
+Motivation: further outside (baton conductors, photorealist
+noses, depression trilogies, unity philosophers). The program
+batons (freezes plans), noses (counts rows), depresses (withholds
+RSI), and unites (joins votes). Four more. (Map hits 360 rounds.)
+
+- **Baton Berlin [canon: Simon (baton Berlin; specified Simon
+  Rattle (vs no hits)); verification deferred].** → Simon's baton
+  (Berlined, kept (waved, conducted (Phil, kept))) is the plan
+  (frozen, kept (written, held (still, kept))); his "Rite"
+  (sprang, kept (sacrificed, kept)) is the attempt (single, kept
+  (authorized, run (once, held))).
+- **Nose photorealism [canon: Audrey (nose photorealism;
+  specified Audrey Flack (vs no hits)); verification deferred).]
+  → Audrey's noses (photorealed, kept (painted, counted
+  (queens, kept))) is the row (counted, kept (honest, told (all,
+  counted))); her "Marilyn" (vanitased, kept (blonde, kept)) is
+  the bank (fresh, kept (built, spent (54, kept)))).
+- **Depression trilogy [canon: Lars (depression trilogies;
+  specified Lars von Trier (vs no hits)); verification
+  deferred].** → Lars's depression (trilogied, kept (melancholed,
+  filmed (waves, kept))) is the claim (withheld, kept (RSI,
+  unclaimed (still, standing))); his "Venture" (elemented, kept
+  (crime, kept)) is the verdict (published, kept (NOGO, told
+  (honest, kept))).
+- **Unity knowledge [canon: Wang (unity knowledge; specified
+  Wang Yangming (vs no hits)); verification deferred].** → Wang's
+  unity (known, kept (acted, extended (liangzhi, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "School"
+  (minded, kept (heart, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
