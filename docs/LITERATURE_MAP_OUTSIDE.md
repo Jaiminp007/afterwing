@@ -22038,3 +22038,30 @@ rows). Four more. (Map holds 552 rounds.)
   kept (souled, sauced (breezes, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Soul" (sauce, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 545 — Stabilized, unlearned, consolidated, lifecycled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: fast-slow two timescales —
+form varies (already-cited DualNet/CLS leads converging;
+timescale family, four branches).
+
+- **Alignment control [arXiv:2603.01501 (Xu / GAC; vs no
+  hits)].** Async alters dynamics (gradient ALIGNMENT
+  control stabilizes). → Control the alignment (our
+  gradient-align scorer, control-side). Filed.
+- **Unlearning dichotomy [arXiv:2602.07378 (Imai; vs no
+  hits)].** Feature UNLEARNING (loses learned features
+  over long training; fast-slow differential). → Name
+  the loss (our extinction, theory-side). Filed.
+- **Fast-slow consolidation [arXiv:2511.11707 (El Gorrim /
+  FSC-Net; vs no hits)].** FAST adapt SLOW consolidate
+  (distillation; separate networks). → Split the speeds
+  (our looper-fast/carrier-slow, network-side). Filed.
+- **Knowledge lifecycle [arXiv:2608.22215 (Li; vs no
+  hits)].** Manage lifecycle (externalize / update /
+  internalize; fast write + slow consolidate). → Manage
+  the ledger (our banks+results+plans, lifecycle-side).
+  Filed.
+- Program note: stabilize alignment, name unlearning,
+  split speeds, manage lifecycle — the fast-slow file.
+  None licensed — filed.
