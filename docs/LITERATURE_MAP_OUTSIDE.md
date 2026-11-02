@@ -24132,3 +24132,33 @@ Four more. (Map holds 624 rounds.)
   (danned, banded (leaders, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Dan" (band, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 617 — Gated, routed, grounded, handed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: neuro-symbolic — constrain
+the structure don't trust the likelihood (already-cited
+verification/logic leads converging; symbolic family, four
+branches).
+
+- **Verification gate [arXiv:2512.20664 (Miya / Eidoku;
+  vs no hits)].** Hallucination = STRUCTURAL failure
+  (CSP independent of likelihood; not low-confidence).
+  → Gate structurally (our G0/G2a bars,
+  gate-side). Filed.
+- **Expert routing [arXiv:2506.21393 (Zhang / TableMoE;
+  vs no hits)].** Neuro-symbolic ROUTING (structured
+  experts; wild-structure conditions). → Route the
+  experts (our scorer arms, routing-side). Filed.
+- **Mechanistic grounding [arXiv:2606.26179 (Garg /
+  KG-TRACE; vs no hits)].** KG as CONSTRAINT
+  (epistemic trust gate; fuse + weigh). → Ground
+  mechanistically (our per-leg deltas, KG-side).
+  Filed.
+- **Constrained handoff [arXiv:2606.18068 (Srivastava;
+  vs no hits)].** Premature + SILENT failures
+  (deterministic constraints replace judge-routing).
+  → Constrain the handoff (our exact transplants,
+  handoff-side). Filed.
+- Program note: gate structurally, route experts,
+  ground mechanistically, constrain handoffs — the
+  neuro-symbolic file. None licensed — filed.
