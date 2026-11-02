@@ -20393,3 +20393,31 @@ and companies (counts rows). Four more. (Map holds 496 rounds.)
   free-improvised (incus, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Company" (incus, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 491 — Priored, benched, prompted, partitioned (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: prior infusion — the old teaches
+the new (already-cited adapter lead not repeated; infusion
+family, four branches).
+
+- **Prior-infused [arXiv:2601.08493 (Baoa / PKI; vs no hits)].**
+  Freeze-more + finetune-less + extra memory (few-shot CIL;
+  forgetting + overfitting). → Preserve-then-adapt (our
+  chain, session-side). Filed as the session twin.
+- **Infusion benchmark [arXiv:2411.05059 (Wu / FineTuneBench;
+  vs no hits)].** HOW WELL do APIs infuse? (efficacy
+  unclear; five frontiers tested). → Measure the infusion
+  (our G2b, commercial-side). Filed as the benchmark twin.
+- **Prompt infusion [arXiv:2502.19777 (Zhou / InPK; vs no
+  hits)].** Infuse prior INTO PROMPT INIT (random tokens
+  overfit seen, fail unseen). → Initialize from the prior,
+  not from noise (our transplant > fresh, init-side). Filed
+  as the init twin.
+- **Partitioned mixture [arXiv:2109.04810 (Meng / MoP; vs no
+  hits)].** Partition the KG, infuse via adapters, MIXTURE
+  them (large knowledge, lightweight). → Partition then
+  mix (our per-leg + majority-vote, knowledge-side). Filed
+  as the mixture twin.
+- Program note: preserve, measure, initialize-from-prior,
+  partition-and-mix — the prior file. None licensed —
+  filed.
