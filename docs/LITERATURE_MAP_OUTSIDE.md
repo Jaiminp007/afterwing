@@ -20336,3 +20336,28 @@ more. (Map holds 494 rounds.)
   (exhibitions, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Exposition" (baoshu, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 489 — Kept, adapted, surveyed, retained (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: injection — add knowledge
+without flushing the old (already-cited injection lead not
+repeated; infusion family, four branches).
+
+- **Keep general [arXiv:2505.00029 (Hong / SDFT; vs no hits)].**
+  KEEP the general, INJECT the specific (structured dialogue;
+  dilemma named). → The preservation-injection dilemma,
+  stated. Filed as the dilemma twin.
+- **K-Adapter [arXiv:2002.01808 (Wang; vs no hits)].**
+  Freeze ORIGINAL, infuse via ADAPTERS (multi-knowledge
+  doesn't flush). → The adapter pattern (our menu-config
+  carry, classic-side). Filed as the adapter twin.
+- **Injection survey [arXiv:2502.10708 (Song; vs no hits)].**
+  Comprehensive SURVEY of domain injection. → The map of
+  the territory (filed as reference, not shopping).
+- **Retention-aware [arXiv:2607.24771 (Hong / RoCo-ACE; vs no
+  hits)].** Rollout-conditioned distillation (drift in
+  non-updated behavior tamed). → Inject with retention
+  awareness (our adopt-iff, distillation-side). Filed.
+- Program note: freeze the old, adapt the new, survey the
+  field, retain while injecting — the infusion file. None
+  licensed — filed.
