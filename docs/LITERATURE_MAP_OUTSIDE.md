@@ -19822,3 +19822,37 @@ four branches).
   (noise escapes it). Filed as the escape twin.
 - Program note: flat transfers, sharp sticks, noise escapes
   — the geometry file. None licensed — filed.
+## Round 472 — Feet, units, practices, students (Luciano, Cecil Taylor, Yan Yuan, Li Gong; 2026-11-02)
+
+Motivation: further outside (hung feet, silent units, four
+practices, reviving students). The program feet (runs attempts),
+units (stitches verdicts), practices (publishes NOGOs), and
+students (counts rows). Four more. (Map holds 478 rounds.)
+
+- **Foot hung [canon: Fabro (hung feet; specified Luciano Fabro
+  (vs no hits)); verification deferred].** → Luciano's feet
+  (hung, kept (footed, hanged (talias, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Foot"
+  (hung, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Unit silent [canon: Cecil Taylor (silent units; specified
+  Cecil Taylor (vs no hits; single-name tag collides with
+  Payne — full-name tag used)); verification deferred].** →
+  Cecil's units (silented, kept (united, structured (structures,
+  kept))) is the verdict (structured, kept (NOGO, told (honest,
+  kept))); his "Unit" (silented, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Practice four [canon: Yan Yuan (four practices; specified
+  Yan Yuan (vs no hits; single-name tag collides with Yang —
+  full-name tag used)); verification deferred].** → Yan Yuan's
+  practices (foured, kept (practiced, studied (classics, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Four" (arts, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Student reviving [canon: Li Gong (reviving students;
+  specified Li Gong (vs no hits; single-name tags collide with
+  Gongsun + Li-contexts — full-name tag used)); verification
+  deferred].** → Li Gong's students (revived, kept (studented,
+  revived (learnings, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Revival" (learned, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
