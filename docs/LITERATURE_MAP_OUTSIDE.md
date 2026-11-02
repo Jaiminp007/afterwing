@@ -23202,3 +23202,31 @@ Four more. (Map holds 592 rounds.)
   everydayed (blues, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Joe" (everyday, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 585 — Routed, disagreed, explained, shielded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: audit layer — check before
+it runs (already-cited approval/firewall leads converging;
+audit family, four branches).
+
+- **Route-not-model [arXiv:2609.10494 (Stenstrom / IBIB;
+  vs no hits)].** Serving ROUTE measured (gold-blind
+  preflight; failure kept in score). → Measure the
+  route (our full-stack rows, route-side). Filed.
+- **Disagreement-paid [arXiv:2609.17560 (Balachandran;
+  vs no hits)].** Risk lives on DISAGREEMENTS
+  (certified no-regression; zero-label tier). → Pay
+  the disagreement (our flip-split, risk-side).
+  Filed.
+- **Pre-deployment route [arXiv:2609.03470 (Gai /
+  ExplainRoute; vs no hits)].** BOUNDED responses
+  (machine-checkable contract; cited + leakage).
+  → Bound before deploying (our freeze-before-code,
+  bound-side). Filed.
+- **Pre-execution shield [arXiv:2603.12621 (Yuan /
+  AEGIS; vs no hits)].** NO call unchecked (firewall
+  interposed; post-hoc can't stop). → Shield before
+  executing (our caps, shield-side). Filed.
+- Program note: measure routes, pay disagreements,
+  bound deployments, shield executions — the
+  audit-layer file. None licensed — filed.
