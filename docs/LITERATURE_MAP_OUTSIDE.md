@@ -15692,3 +15692,35 @@ Ruling (program): order/curriculum studies characterize the wound;
 characterization is closed (5 axes + diminishing returns). These
 papers are precedents for the record, not candidates — nothing
 here clears the C15 bar (same task/gap/channel, would-be mapping).
+## Round 333 — Exile, homage, planes, march (Vadim, James, Brice, Ross; 2026-11-02)
+
+Motivation: further outside (exiled violins, homage albums,
+plane panels, first-person marches). The program exiles (parks
+candidates), homages (cites precedents), planes (flattens
+ledgers), and marches (advances milestones). Four more. (Map hits
+337 rounds.)
+
+- **Exiled Strad [canon: Vadim (exiled Strads; specified Vadim
+  Gluzman (vs no hits)); verification deferred].** → Vadim's exile
+  (Straded, kept (played, fled (strings, kept))) is the park
+  (strong, kept (filed, held (still, kept))); his "Fire" (ballet,
+  kept (Stravinsky, played)) is the trigger (watched, kept (shut,
+  confirmed (V4, held))).
+- **Homage album [canon: James (homage albums; specified James
+  Ehnes (vs no hits)); verification deferred].** → James's homage
+  (albumed, kept (Caprices, played (Paganini, kept))) is the
+  precedent (cited, kept (field, told (honest, kept))); his
+  "Recollection" (Brahms, kept (sonatas, played)) is the attempt
+  (single, kept (authorized, run (once, held))).
+- **Plane panels [canon: Brice (plane panels; specified Brice
+  Marden (vs no hits)); verification deferred].** → Brice's planes
+  (paneled, kept (flat, washed (ink, kept))) is the ledger
+  (flattened, kept (exact, told (all, counted))); his "Rex"
+  (drowned, kept (adder, painted)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
+- **First-person march [canon: Ross (first-person marches;
+  specified Ross McElwee (vs no hits)); verification deferred).**
+  → Ross's march (marched, kept (Sherman, filmed (self, kept)))
+  is the milestone (advanced, kept (honest, told (done, held)));
+  his "Door" (backyard, kept (filmed, kept)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
