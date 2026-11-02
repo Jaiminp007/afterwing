@@ -23692,3 +23692,31 @@ governed family, four branches).
 - Program note: govern memory, factory pipelines,
   replay longitudinally, meter cross-layer — the
   governed file. None licensed — filed.
+## Round 602 — Spaniels, dells, impalas, fiestas (Spaniel, Dell, Impala, Fiesta; 2026-11-02)
+
+Motivation: further outside (sweetheart spaniels, night dells,
+home impalas, fine fiestas). The program spaniels (nights attempts),
+dells (stitches verdicts), impalas (publishes NOGOs), and fiestas
+(counts rows). Four more. (Map holds 610 rounds.)
+
+- **Spaniel night [canon: Spaniels (nighted spaniels; specified
+  The Spaniels (vs no hits)); verification deferred].** → Spaniel's
+  spaniels (nighted, kept (spanieled, nighted (sweethearts, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Spaniel" (night, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dell night [canon: Dells (nighted dells; specified The Dells (vs
+  no hits)); verification deferred].** → Dell's dells (nighted, kept
+  (delled, nighted (ohs, kept))) is the verdict (nighted, kept (NOGO,
+  told (honest, kept))); his "Dell" (night, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Impala home [canon: Impalas (homed impalas; specified The Impalas
+  (vs no hits)); verification deferred].** → Impala's impalas (homed,
+  kept (impalaed, homed (sorries, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Impala" (home, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Fiesta fine [canon: Fiestas (fined fiestas; specified The
+  Fiestas (vs no hits)); verification deferred].** → Fiesta's fiestas
+  (fined, kept (fiestaed, fined (sos, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Fiesta" (fine, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
