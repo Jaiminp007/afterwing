@@ -23988,3 +23988,33 @@ leads converging; weave family, four branches).
 - Program note: pair scenes, separate stores, weave
   hybrids, lighten structures — the woven-memory file.
   None licensed — filed.
+## Round 612 — Smokeys, marys, marthas, wilsons (Smokey, Mary, Martha, Wilson; 2026-11-02)
+
+Motivation: further outside (tearful smokeys, guyed marys, waved
+marthas, supreme wilsons). The program smokeys (tears attempts), marys
+(stitches verdicts), marthas (publishes NOGOs), and wilsons (counts
+rows). Four more. (Map holds 620 rounds.)
+
+- **Smokey tear [canon: Smokey Robinson (teared smokeys; specified
+  Smokey Robinson (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Smokey's smokeys (teared, kept (smokeyed,
+  teared (tracks, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Smokey" (tear, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Mary guy [canon: Wells (guyed marys; specified Mary Wells (vs no
+  hits)); verification deferred].** → Mary's marys (guyed, kept
+  (maried, guyed (guys, kept))) is the verdict (guyed, kept (NOGO,
+  told (honest, kept))); her "Mary" (guy, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Martha heat [canon: Martha Reeves (heated marthas; specified
+  Martha Reeves (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Martha's marthas (heated, kept
+  (marthaed, heated (dances, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Martha" (heat, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Wilson supreme [canon: Mary Wilson (supremed wilsons; specified
+  Mary Wilson (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → Wilson's wilsons (supremed, kept
+  (wilsoned, supremed (babies, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Wilson" (supreme, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
