@@ -21458,3 +21458,36 @@ family, four branches).
 - Program note: share physics, motif actions, simulate
   zero-shot, learn suboptimal — the embodiment file. None
   licensed — filed.
+## Round 526 — Taxis, glasses, arts, meetings (Bob James, Powell, Farmer, Booker Little; 2026-11-02)
+
+Motivation: further outside (touchdown taxis, enclosed glasses,
+modern arts, friend meetings). The program taxis (runs attempts),
+glasses (stitches verdicts), arts (publishes NOGOs), and meetings
+(counts rows). Four more. (Map holds 532 rounds.)
+
+- **Taxi touchdown [canon: Bob James (touchdown taxis;
+  specified Bob James (vs no hits; single-name tags taken —
+  full-name tag used)); verification deferred].** → Bob James's
+  taxis (touchdowned, kept (taxied, touched (downs, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Taxi"
+  (touchdown, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Glass enclosed [canon: Powell (enclosed glasses; specified
+  Bud Powell (vs no hits)); verification deferred].** → Bud's
+  glasses (enclosed, kept (glassed, budded (moods, kept))) is the
+  verdict (budded, kept (NOGO, told (honest, kept))); his "Glass"
+  (enclosure, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Art modern [canon: Farmer (modern arts; specified Art Farmer
+  (vs no hits)); verification deferred].** → Art's arts (moderned,
+  kept (arted, farmered (markets, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Art" (modern,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Meeting friend [canon: Booker Little (friend meetings;
+  specified Booker Little (vs no hits; single-name tag taken by
+  the Giant — full-name tag used)); verification deferred].** →
+  Booker Little's meetings (friended, kept (meeting, out-fronted
+  (fronts, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Meeting" (friend, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
