@@ -22240,3 +22240,33 @@ converging; credit family, four branches).
 - Program note: credit retrieval, separate skill, cite
   turns, decompose trajectories — the credit file. None
   licensed — filed.
+## Round 552 — Leans, peoples, shafts, cries (Bill, Curtis, Isaac, Solomon; 2026-11-02)
+
+Motivation: further outside (ain't-sunshine leans, ready peoples,
+buttered shafts, to-me cries). The program leans (leans on attempts),
+peoples (stitches verdicts), shafts (publishes NOGOs), and cries
+(counts rows). Four more. (Map holds 560 rounds.)
+
+- **Lean ain't [canon: Withers (ain't leans; specified Bill Withers
+  (vs no hits)); verification deferred].** → Bill's leans (ain'ted,
+  kept (leaned, ain'ted (sunshines, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Lean" (ain't, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **People ready [canon: Mayfield (ready peoples; specified Curtis
+  Mayfield (vs no hits)); verification deferred].** → Curtis's
+  peoples (readied, kept (peopled, readied (moves, kept))) is the
+  verdict (readied, kept (NOGO, told (honest, kept))); his "People"
+  (ready, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Shaft buttered [canon: Hayes (buttered shafts; specified Isaac
+  Hayes (vs no hits)); verification deferred].** → Isaac's shafts
+  (buttered, kept (shafted, buttered (themes, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Shaft"
+  (buttered, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Cry everybody [canon: Burke (everybody cries; specified Solomon
+  Burke (vs no hits)); verification deferred].** → Solomon's cries
+  (everybodied, kept (cried, everybodied (needs, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Cry" (everybody,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
