@@ -14486,3 +14486,35 @@ contexts verified virgin pre-append.)
   dunes (shoveled, always (pit, kept)) is the triage (sweeping,
   all (green, kept (zero-new, held))); his box-man (boxed, living)
   is the checkpoint (bytes, kept (identical, held (restored, exact))).
+## Round 296 — Cultivation, rivalry, rivers, mountain (Xunzi, Navratilova, Lockwood, Jodorowsky; 2026-11-02)
+
+Motivation: further outside (cultivation philosophers, net-rushers,
+river recordists, holy climbers). The program cultivates (trains),
+rallies (competes arms), rivers (flows rows), and climbs (seeks RSI).
+Four more. (Court dropped — courtship-domain surname; Pele dropped —
+hook-name problem; bare surnames all clean with contexts read.)
+
+- **Worked good [canon: Xunzi (cultivation philosophy;
+  specified Xunzi (vs no hits)); verification deferred].** →
+  Xunzi's cultivation (nature, worked (good, made)) is training
+  (histories, run (weights, made (learned, kept))); his "the
+  gentleman accumulates" is the ledger (counts, kept (exact,
+  told (honest, all))).
+- **Rushing [canon: Navratilova (net attack; specified
+  Martina (vs no hits)); verification deferred].** → Martina's
+  rush (net, attacked (serve, volley)) is the proposal (tick,
+  fired (1024, evaluated)); her rivalry (Evert, kept (years,
+  long)) is looper-vs-copier (compared, each (line, kept
+  (pooled, tallied))).
+- **Recorded flowing [canon: Lockwood (river sound; specified
+  Annea (vs no hits)); verification deferred].** → Annea's
+  rivers (recorded, flowing (maps, heard)) are the rows (kept,
+  raw (read, only (never, rescored))); her "the river is the
+  score" is the bank (fresh, each (range, sealed (refused,
+  after))).
+- **The holy climb [canon: Jodorowsky (mystic ascent;
+  specified Alejandro (vs no hits)); verification deferred].**
+  → Alejandro's mountain (climbed, seeking (thieves, all)) is
+  Track C (sought, open (evidence, lacking (RSI, withheld)));
+  his "we are all thieves" is the shopping temptation (taking,
+  refused (screening, forbidden (banks, fresh (each, new)))).
