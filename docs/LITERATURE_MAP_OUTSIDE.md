@@ -12905,3 +12905,47 @@ bare Lynch/McHarg-suitability/overlay FPs avoided throughout.)
   (the friendship, enforced)))); his street as habitat (not pipe
   (the street, lived)) is the ecology as habitat (not assay (the
   world, lived (1792 ticks (the ticks, inhabited)))).
+## Round 248 — Public space (Whyte, Jacobs, Sennett, Cullen; 2026-11-02)
+
+Motivation: the program's oldest finding is social (join 1.00; contact;
+encounters bottleneck everything). Four who watched people in places.
+(All hooks verified virgin pre-append.)
+
+- **What plazas do [canon: Whyte (triangulation; specified
+  William (vs no hits)); verification deferred].** → William's
+  triangulation (a third thing (that makes strangers talk (the
+  sculpture, the food cart (the cart, the cause)))) is the cue (the
+  third thing (that makes agents turn (the pattern, sensed (the
+  sensing, contact-gated))))); his "what attracts people most is
+  other people" (the plaza paradox (capacity unused (benches empty
+  (people with people)))) is the hub (what attracts agents most is
+  other agents (matings rare (encounters with encounters)))).
+  Whyte filmed (time-lapse (the method, patient)) as the collector
+  joins (tick by tick (the joining, exact)).
+- **Eyes on the run [canon: Jacobs (street ballet; specified
+  Jane (vs no hits)); verification deferred].** → Jane's eyes on the
+  street (safety from watchers (shopkeepers, residents (the watching,
+  mutual))) is the probe program (safety from fixtures (green before
+  bank (the watching, mutual (code watched by tests (tests watched
+  by triage))))); her street ballet (the morning rhythm (shutters,
+  commuters, children (the ballet, unplanned))) is the 1792-tick
+  rhythm (ticks, contacts, intakes (the ballet, unplanned (planned
+  only in caps))). Jacobs distrusted the plan (the Radiant City
+  (towers in parks (the towers, empty))) as the program distrusts
+  the unbanked run (worlds without banks (the worlds, unspent))).
+- **The public control [canon: Sennett (public man; specified
+  Richard (vs no hits)); verification deferred].** → Richard's fall
+  of public man (intimacy replaces publicness (the stranger,
+  threat (the threat, felt))) is the unlearned arm (the stranger
+  (the control, flat (the flat, informative))); his public realm
+  (strangers acting together (the masks, worn (the wearing,
+  civil))) is the matched history (strangers — arms — acting
+  together (same seeds (the sameness, load-bearing))).
+- **Serial transfer [canon: Cullen (serial vision; specified
+  Gordon (vs no hits)); verification deferred].** → Gordon's serial
+  vision (the street unfolding (frame by frame (the revelation,
+  sequential))) is the seg chain (seg1→seg2→seg3 (the unfolding,
+  sequential (0.587→0.709→0.841 (the revelation, transient)))); his
+  townscape (here vs there (the contrast, composed)) is the flip-
+  split (train vs transfer (the contrast, contact-weighted (same/
+  flipped (the split, labeled)))).
