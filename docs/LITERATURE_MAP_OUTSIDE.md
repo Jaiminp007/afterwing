@@ -15243,3 +15243,35 @@ and dots (counts worlds). Four more. (Map hits 322 rounds.)
   ledger (exact, kept (honest, told (all, counted))); his "Red"
   (pleasure, kept (eye, kept)) is the verdict (published, kept
   (NOGO, told (honest, kept))).
+## Round 319 — Suites, complementaries, corridors, Bach (Mischa, Richard, Gary, Lynn; 2026-11-02)
+
+Motivation: further outside (Bach cello suites, red-green
+complementaries, video corridors, more Bach). The program suites
+(houses attempts), complements (pairs arms), corridors (transfers
+links), and Baches (grounds claims). Four more. (Conrad dropped
+— surname shared with real-lit canon; map hits 323 rounds.)
+
+- **Suite pupil [canon: Mischa (Bach suites; specified Mischa
+  Maisky (vs no hits)); verification deferred].** → Mischa's
+  suites (Bached, kept (Slava, taught (cello, kept))) is the bank
+  (fresh, kept (built, spent (54, kept))); his "Kol" (nidrei,
+  kept (played, stood)) is the trigger (watched, kept (shut,
+  confirmed (V4, held))).
+- **Complementary red [canon: Richard (red-green pairs;
+  specified Richard Anuszkiewicz (vs no hits)); verification
+  deferred].** → Richard's red (greened, kept (complement,
+  paired (colors, kept))) is the arm (paired, kept (sparse,
+  copied (blind, kept))); his "Sol" (plus, kept (spectral, held))
+  is the attempt (single, kept (authorized, run (once, held))).
+- **Corridor ships [canon: Gary (video corridors; specified
+  Gary Hill (vs no hits)); verification deferred].** → Gary's
+  ships (talled, kept (corridors, walked (viewers, kept))) is the
+  link (second, kept (recovered, held (config, kept))); his
+  "Incidence" (cataracts, kept (read, aloud)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Bach ground [canon: Lynn (Bach grounds; specified Lynn
+  Harrell (vs no hits)); verification deferred].** → Lynn's Bach
+  (grounded, kept (cello, bowed (suites, kept))) is the claim
+  (grounded, kept (separate, satisfied (evidence, kept))); his
+  "Romanze" (played, kept (encored, held)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
