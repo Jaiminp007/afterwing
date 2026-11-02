@@ -155,6 +155,23 @@ export function fireLooperProposal(t,menuIndex){
   if(ev.adopted)adoptOperatorLive(t,op);
   return {skipped:false,eval:ev};
 }
+export function fireLooperChoice(t,indices){
+  assert.ok(t&&t.rsiLoop,'operator loop not attached');
+  assert.ok(Array.isArray(indices)&&indices.length>0,'choice needs a non-empty index list');
+  const records=[...t.recent,...t.older].sort((a,b)=>a.experience-b.experience);
+  if(records.length<OL_MIN_RECORDS||t.rsiLoop.proposals.length>=OL_LIFETIME_MAX)return {skipped:true};
+  const half=Math.floor(records.length/2);
+  const fitIds=records.slice(0,half).map(r=>r.experience),testIds=records.slice(half).map(r=>r.experience);
+  let best=null;
+  for(const i of indices){
+    if(t.rsiLoop.proposals.length>=OL_LIFETIME_MAX)break;
+    const op=proposeOperator(t,i); // menu-closed fail-closed per index
+    const ev=sandboxEvaluate(t,op,fitIds,testIds);
+    if(ev.adopted&&(best==null||ev.candErr<best.eval.candErr))best={op,eval:ev};
+  }
+  if(best)adoptOperatorLive(t,best.op);
+  return {skipped:false,best:best?best.op.kind:null,n:indices.length};
+}
 export function loopDigest(tasteState){
   assert.ok(tasteState&&tasteState.rsiLoop,'operator loop not attached');
   return JSON.stringify(tasteState.rsiLoop);
