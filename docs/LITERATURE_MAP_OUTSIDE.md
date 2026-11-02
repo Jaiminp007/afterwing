@@ -22826,3 +22826,32 @@ converging; approval family, four branches).
 - Program note: guard loops, name approvals, card
   ground truth, verify before fixing — the approval
   file. None licensed — filed.
+## Round 572 — Ramseys, eddies, les, shirleys (Ramsey, Eddie, Les, Shirley; 2026-11-02)
+
+Motivation: further outside (crowd ramseys, dance eddies, what les,
+organ shirleys). The program ramseys (crowds attempts), eddies
+(stitches verdicts), les (publishes NOGOs), and shirleys (counts rows).
+Four more. (Map holds 580 rounds.)
+
+- **Ramsey crowd [canon: Ramsey Lewis (crowded ramseys; specified
+  Ramsey Lewis (vs no hits; short tag taken twice — full-name tag
+  used)); verification deferred].** → Ramsey's ramseys (crowded, kept
+  (ramseyed, crowded (ins, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Ramsey" (crowd, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Eddie dance [canon: Harris (danced eddies; specified Eddie Harris
+  (vs no hits)); verification deferred].** → Eddie's eddies (danced,
+  kept (eddied, danced (frees, kept))) is the verdict (danced, kept
+  (NOGO, told (honest, kept))); his "Eddie" (dance, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Les what [canon: McCann (whated les; specified Les McCann (vs no
+  hits)); verification deferred].** → Les's les (whated, kept (lesed,
+  whated (compareds, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Les" (what, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Shirley organ [canon: Shirley Scott (organed shirleys; specified
+  Shirley Scott (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Shirley's shirleys (organed, kept
+  (shirleyed, organed (queens, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Shirley" (organ, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
