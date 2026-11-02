@@ -381,6 +381,9 @@ the map stays open, not empty.
 - R579 experience-opt file: freeze-successors;
   generate-entries; distill-reusable;
   reuse-selectively.
+- R581 compression file: engineer-context;
+  sleep-consolidate; verify-compaction;
+  compress-risk.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
