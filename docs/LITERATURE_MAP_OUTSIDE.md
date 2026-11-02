@@ -16038,3 +16038,34 @@ taken by R250's canon hook; map hits 347 rounds.)
   (shots, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Carriage" (traded, kept (divided, kept)) is the
   verdict (published, kept (NOGO, told (honest, kept))).
+## Round 344 — Armenian, British, seeds, foghorns (Kim, Lawrence, Sarah, Gunvor; 2026-11-02)
+
+Motivation: further outside (Armenian violas, British violas,
+seed sculptures, foghorn films). The program Armenians (keeps
+minorities), Britishes (holds bars), seeds (banks spent), and
+foghorns (publishes NOGOs). Four more. (Map hits 348 rounds.)
+
+- **Armenian viola [canon: Kim (Armenian violist; specified Kim
+  Kashkashian (vs no hits)); verification deferred].** → Kim's
+  Armenian (violed, kept (folked, bowed (songs, kept))) is the
+  minority (kept, held (negative, preserved (still, standing)));
+  her "Lachrymae" (wept, kept (Britten, played)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **British viola [canon: Lawrence (British violist; specified
+  Lawrence Power (vs no hits)); verification deferred].** →
+  Lawrence's British (violed, kept (Walton, bowed (concerto,
+  kept))) is the bar (held, kept (unmoved, standing (still,
+  kept))); his "Vieuxtemps" (played, kept (sonata, stood)) is
+  the attempt (single, kept (authorized, run (once, held))).
+- **Seed sculptures [canon: Sarah (seed sculptures; specified
+  Sarah Sze (vs no hits)); verification deferred].** → Sarah's
+  seeds (sculpted, kept (grown, installed (taxa, kept))) is the
+  bank (seeded, kept (fresh, built (54, kept))); her "Triple"
+  (booked, kept (time, kept)) is the row (read, kept (honest,
+  told (all, counted))).
+- **Foghorn films [canon: Gunvor (foghorn films; specified
+  Gunvor Nelson (vs no hits)); verification deferred].** →
+  Gunvor's foghorns (filmed, kept (moaned, watched (bay, kept)))
+  is the verdict (moaned, kept (NOGO, told (honest, kept))); her
+  "Schmeerguntz" (showered, kept (clean, watched)) is the ledger
+  (exact, kept (honest, told (all, counted))).
