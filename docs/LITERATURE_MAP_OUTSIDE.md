@@ -21249,3 +21249,29 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Shape"
   (eleven, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 519 — Provenanced, retraced, causal-historied, untangled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: history-keeping — provenance,
+untangle, learn-from-failure (already-cited atomic lead
+converging; history family, four branches).
+
+- **Provenance gaps [arXiv:2607.02774 (Mockus; vs no hits)].**
+  Never-COLLECTED vs REWRITTEN-AWAY (two views, one
+  graph). → Missing has kinds (our VOID audit, provenance-
+  side). Filed as the missing-kinds twin.
+- **Retrace repairs [arXiv:2610.04658 (Muna / RETRACE; vs no
+  hits)].** ENTANGLED histories → REUSABLE experience
+  (problems/solutions unaligned). → Untangle the repair
+  (our per-leg deltas, repair-side). Filed.
+- **Causal history [arXiv:2609.18016 (Li; vs no hits)].**
+  Errors BECOME causal history (train on failures;
+  test-time scaling). → Failures are causal (our NOGOs
+  teach, history-side). Filed as the causal twin.
+- **Untangled changes [arXiv:2003.14086 (Yamashita / CBT; vs
+  no hits)].** ONE INTENTIONAL TASK per commit (interactive
+  tailoring). → One thing per change (our commit
+  discipline, task-side). Filed as the atomic twin.
+- Program note: kind the missing, untangle repairs, causify
+  failures, atomize tasks — the history file. None licensed
+  — filed.
