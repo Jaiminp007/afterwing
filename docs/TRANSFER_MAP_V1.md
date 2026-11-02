@@ -144,6 +144,10 @@ the map stays open, not empty.
   representations + recurring-concept alarm = flip-back detector)
   filed; unified drift+forgetting survey Joins the map's reading
   list; Ayers GoF + Sharma cross-domain prototypes banked unlicensed.
+- R395 addendum: MICE recall-or-relearn (cut-at-change + merge-or-store
+  by error, training-free) filed as the transfer-chain operator;
+  Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
+  bottleneck banked unlicensed.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
