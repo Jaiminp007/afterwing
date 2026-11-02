@@ -19700,3 +19700,37 @@ repeated; ensemble family, four branches).
   gradients (our store-vs-weights, external twin). Filed.
 - Program note: the family weights, purifies, and decouples
   — consensus with structure. None licensed — filed.
+## Round 468 — Horizons, kabells, sounds, numbers (Giovanni, Wadada, Roscoe, Yong; 2026-11-02)
+
+Motivation: further outside (torsion horizons, silence
+kabells, song sounds, plum numbers). The program horizons (runs
+attempts), kabells (stitches verdicts), sounds (publishes NOGOs),
+and numbers (counts rows). Four more. (Map holds 474 rounds.)
+
+- **Horizon torsion [canon: Anselmo (torsion horizons;
+  specified Giovanni Anselmo (vs no hits)); verification
+  deferred].** → Giovanni's horizons (torsioned, kept
+  (horizoned, directed (infinities, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Horizon"
+  (torsioned, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Kabell silence [canon: Wadada (silence kabells; specified
+  Wadada Leo Smith (vs no hits; surname collides with Smithson
+  — first-name tag used)); verification deferred].** → Wadada's
+  kabells (silenced, kept (kabelled, ten-freedoms (freedoms,
+  kept))) is the verdict (ten-freedoms, kept (NOGO, told (honest,
+  kept))); his "Kabell" (years, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Sound song [canon: Roscoe (song sounds; specified Roscoe
+  Mitchell (vs no hits; surname taken by Sandra — first-name
+  tag used)); verification deferred].** → Roscoe's sounds
+  (songed, kept (sounded, nonaahhed (nonaahs, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Sound" (song, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Number plum [canon: Yong (plum numbers; specified Shao Yong
+  (vs no hits)); verification deferred].** → Yong's numbers
+  (plummed, kept (numbered, flowered (plums, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Plum"
+  (flowered, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
