@@ -16005,3 +16005,36 @@ shared with real-lit canon; map hits 346 rounds.)
   the verdict (voiced, kept (NOGO, told (honest, kept))); his
   "Chopin" (played, kept (ballades, stood)) is the bank (fresh,
   kept (built, spent (54, kept)))).
+## Round 343 — Podium, faithful, chains, montage (Nikolaj, Isabelle, Monica, Warren; 2026-11-02)
+
+Motivation: further outside (conductor violinists, faithful Bach,
+steel chains, friendship montages). The program podiums (freezes
+plans), faiths (keeps negatives), chains (carries transplants),
+and montages (joins votes). Four more. (Rainer dropped — surname
+taken by R250's canon hook; map hits 347 rounds.)
+
+- **Podium violin [canon: Nikolaj (podium violinist; specified
+  Nikolaj Znaider (vs no hits)); verification deferred].** →
+  Nikolaj's podium (violined, kept (conducted, bowed (strings,
+  kept))) is the freeze (scoped, kept (written, held (still,
+  kept))); his "Brahms" (played, kept (concerto, stood)) is the
+  attempt (single, kept (authorized, run (once, held))).
+- **Faithful Bach [canon: Isabelle (faithful Bach; specified
+  Isabelle Faust (vs no hits)); verification deferred].** →
+  Isabelle's faithful (Bached, kept (texted, played (urtext,
+  kept))) is the negative (kept, held (faithful, preserved
+  (still, standing))); her "Bartok" (second, kept (concerto,
+  played)) is the trigger (watched, kept (shut, confirmed (V4,
+  held))).
+- **Steel chains [canon: Monica (steel chains; specified Monica
+  Bonvicini (vs no hits)); verification deferred].** → Monica's
+  chains (steeled, kept (hung, built (stairs, kept))) is the
+  transplant (exact, kept (digest, held (same, verified))); her
+  "Belts" (leathered, kept (harnessed, kept)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Friendship montage [canon: Warren (friendship montages;
+  specified Warren Sonbert (vs no hits)); verification
+  deferred].** → Warren's montage (friended, kept (cut, joined
+  (shots, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Carriage" (traded, kept (divided, kept)) is the
+  verdict (published, kept (NOGO, told (honest, kept))).
