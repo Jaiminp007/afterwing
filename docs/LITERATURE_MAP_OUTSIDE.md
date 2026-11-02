@@ -17187,3 +17187,27 @@ hits 386 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Bach"
   (partitaed, kept (played, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 381 — Shared, reused, quantized, masked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: masks + reuse — fixed backbone,
+task in the mask, policies combined.
+
+- **Shared masks [arXiv:2305.10997 (Nath; vs no hits)].** Share
+  lifelong knowledge ACROSS agents via modulating masks. →
+  Multi-agent mask transfer (population-adjacent, M5 flavor).
+  Unlicensed.
+- **Find+reuse [arXiv:2610.03119 (Nath / AMSC; vs no hits)].**
+  Similarity from ONLINE experience (Wasserstein task embeddings);
+  find + COMBINE prior policies; relevance shifts with experience.
+  → Closest transfer-operator on record. Unlicensed.
+- **Different spaces [arXiv:2410.15698 (Hu / VQ-CD; vs no hits)].**
+  Continual offline RL across DIFFERENT observation/action spaces
+  (vector-quantized diffuser). → Names our setting (codebook =
+  different space). Unlicensed.
+- **Mask capacity [arXiv:2210.06699 (Bai / PEMN; vs no hits)].**
+  Fixed random weights + learned diverse masks = capacity. →
+  Task lives in the mask. Unlicensed.
+- Program note: AMSC → DTR wing (similarity-gated combination);
+  VQ-CD → transfer map (different-spaces precedent). Next
+  integration turn files both.
