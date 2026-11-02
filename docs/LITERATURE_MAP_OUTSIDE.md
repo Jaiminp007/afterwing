@@ -21431,3 +21431,30 @@ rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Lemur" (scratch, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 525 — Shared, motifed, simulated, offlined (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: cross-embodiment — shared and
+specific (already-cited body lead converging; embodiment
+family, four branches).
+
+- **Shared+specific [arXiv:2608.06374 (Li / DyPES-VLA; vs no
+  hits)].** SHARED dynamics priors + EMBODIMENT-SPECIFIC
+  control (no manual action conversion). → Share the
+  physics, specify the body (our train-multi lesson,
+  control-side). Filed.
+- **Action motifs [arXiv:2602.13764 (Zhi / MOTIF; vs no
+  hits)].** ACTION MOTIFS for few-shot (shared-private
+  limits named). → Motifs transfer (our menu-indices,
+  motif-side). Filed as the motif twin.
+- **Zero-shot physics [arXiv:2608.27406 (Liu / CLAP; vs no
+  hits)].** Video world models as ZERO-SHOT physical
+  simulators (universal laws). → Physics transfers
+  (our ecology-transfer, simulation-side). Filed.
+- **Heterogeneous offline [arXiv:2602.18025 (Abe; vs no
+  hits)].** Expert + SUBOPTIMAL data (universal control
+  priors). → Learn from the suboptimal too (our NOGOs
+  again, data-side). Filed.
+- Program note: share physics, motif actions, simulate
+  zero-shot, learn suboptimal — the embodiment file. None
+  licensed — filed.
