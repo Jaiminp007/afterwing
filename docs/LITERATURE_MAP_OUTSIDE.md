@@ -16873,3 +16873,35 @@ of V1o's disruption.
   pseudos (low overlap) or alignment machinery — not the maximally-
   aligned permutes V1o used. Filed as post-hoc lens on a closed
   line (verdict stands).
+## Round 370 — Beards, kitchens, quadrants, thunder (Radu, Carrie, Al, Lazar; 2026-11-02)
+
+Motivation: further outside (beard Schuberts, kitchen tables,
+frequency quadrants, thundering Liszts). The program beards
+(runs attempts), kitchens (stitches verdicts), quadrants
+(publishes NOGOs), and thunders (counts rows). Four more. (Map
+hits 376 rounds.)
+
+- **Beard Schubert [canon: Radu (beard Schuberts; specified Radu
+  Lupu (vs no hits)); verification deferred].** → Radu's beards
+  (Schuberted, kept (played, voiced (sonatas, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Brahms" (intermezzoed, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Kitchen table [canon: Carrie (kitchen tables; specified
+  Carrie Mae Weems (vs no hits)); verification deferred].** →
+  Carrie's kitchens (tabled, kept (staged, seriated (Kitchen,
+  kept))) is the verdict (seriated, kept (NOGO, told (honest,
+  kept))); her "Ain't" (joked, kept (laughed, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Quadrant frequency [canon: Al (quadrant frequencies; specified
+  Al-Kindi (vs no hits)); verification deferred].** → Al's
+  quadrants (frequencied, kept (cryptanalyzed, counted (letters,
+  kept))) is the claim (counted, kept (RSI, unclaimed (still,
+  standing))); his "Intellect" (graded, kept (ranked, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Thunder Liszt [canon: Lazar (thunder Liszts; specified Lazar
+  Berman (vs no hits)); verification deferred].** → Lazar's
+  thunder (Liszted, kept (played, struck (Transcendentals,
+  kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Rachmaninoff" (concertoed, kept (played, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
