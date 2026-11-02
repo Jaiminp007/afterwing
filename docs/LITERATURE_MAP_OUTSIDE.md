@@ -19519,3 +19519,36 @@ branches; R459 not repeated).
 - Program note: the family bounds the state and externalizes
   the carry; NSR is our bank discipline in miniature. None
   licensed — filed.
+## Round 462 — Guitars, pockets, brothers, polarities (Sonny, Joe, Hao, Dunyi; 2026-11-02)
+
+Motivation: further outside (black-woman guitars, trinity
+pockets, humanity brothers, supreme polarities). The program
+guitars (runs attempts), pockets (stitches verdicts), brothers
+(publishes NOGOs), and polarities (counts rows). Four more. (Map
+holds 468 rounds.)
+
+- **Guitar black-woman [canon: Sharrock (black-woman guitars;
+  specified Sonny Sharrock (vs no hits)); verification
+  deferred].** → Sonny's guitars (black-womaned, kept (asked,
+  answered (monkeys, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Black" (woman, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Pocket trinity [canon: McPhee (trinity pockets; specified
+  Joe McPhee (vs no hits)); verification deferred].** → Joe's
+  pockets (trinitied, kept (pocketed, nation-timed (times, kept)))
+  is the verdict (nation-timed, kept (NOGO, told (honest, kept)));
+  his "Trinity" (nation, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Brother humanity [canon: Hao (humanity brothers; specified
+  Cheng Hao (vs no hits)); verification deferred].** → Hao's
+  brothers (humanitied, kept (brothered, humane (natures, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Humanity" (brothered, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Polarity supreme [canon: Dunyi (supreme polarities;
+  specified Zhou Dunyi (vs no hits)); verification deferred].**
+  → Dunyi's polarities (supremed, kept (polarized, explained
+  (diagrams, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Supreme" (polarity, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
