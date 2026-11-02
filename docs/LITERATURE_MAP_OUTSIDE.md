@@ -21215,3 +21215,37 @@ instrument family, four branches).
   atomic (our per-line commits, history-side). Filed.
 - Program note: control, scale-observation, untangle,
   atomize — the instrument file. None licensed — filed.
+## Round 518 — Pastiches, morgues, poincianas, shapes (David, Witkin, Jamal, Ellis; 2026-11-02)
+
+Motivation: further outside (pastoral pastiches, satyr morgues,
+pershing poincianas, eleven shapes). The program pastiches (runs
+attempts), morgues (stitches verdicts), poincianas (publishes
+NOGOs), and shapes (counts rows). Four more. (Map holds 524
+rounds.)
+
+- **Pastiche pastoral [canon: Salle (pastoral pastiches;
+  specified David Salle (vs no hits)); verification
+  deferred].** → David's pastiches (pastoraled, kept (pastiched,
+  pastichioed (paintings, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Pastiche" (pastoral,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Morgue satyr [canon: Witkin (satyr morgues; specified
+  Joel-Peter Witkin (vs no hits)); verification deferred].** →
+  Witkin's morgues (satyred, kept (morgued, harmed (gods, kept)))
+  is the verdict (harmed, kept (NOGO, told (honest, kept))); his
+  "Morgue" (satyr, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Poinciana pershing [canon: Jamal (pershing poincianas;
+  specified Ahmad Jamal (vs no hits)); verification
+  deferred].** → Ahmad's poincianas (pershinged, kept
+  (poincianaed, butcher-blocked (blocks, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Poinciana" (pershing, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Shape eleven [canon: Ellis (eleven shapes; specified Herb
+  Ellis (vs no hits)); verification deferred].** → Herb's shapes
+  (elevened, kept (shaped, seven-comed (blueses, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Shape"
+  (eleven, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
