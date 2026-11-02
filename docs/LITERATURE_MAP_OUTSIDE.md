@@ -22096,3 +22096,30 @@ and wickednesses (counts rows). Four more. (Map holds 554 rounds.)
   (hours, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Wickedness" (midnight, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 547 — Governed, audited, layered, externalized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: externalize and guard —
+mechanize the loop, distrust the loop (already-cited
+governance leads converging; assurance family, four branches).
+
+- **Governance runtime [arXiv:2604.05080 (Gorinevski / Nidus;
+  vs no hits)].** MECHANIZE assurance (invariants enforced
+  not learned; proof obligations every commit). → Mechanize
+  the freeze (our plans+auditors, runtime-side). Filed.
+- **False frontiers [arXiv:2609.39102 (Chen; vs no hits)].**
+  CO-CHEATING (proposer+solver agree on shared errors;
+  internal up external flat; audit vs source). → Audit
+  the loop (our copied-controls, audit-side). Filed.
+- **Layered supervision [arXiv:2608.26316 (Stolze; vs no
+  hits)].** LAYER controls (review alone doesn't scale;
+  guardrails strained by throughput). → Layer the checks
+  (our fixtures+triage+banks, layer-side). Filed.
+- **Faithful externalization [arXiv:2609.38869 (Kim; vs no
+  hits)].** EXTERNALIZE with evidence (temporal evidence
+  + historical analogs for faithful narratives). →
+  Externalize faithfully (our docs-trace-everything,
+  evidence-side). Filed.
+- Program note: mechanize, audit co-cheating, layer
+  supervision, externalize with evidence — the
+  externalize-and-guard file. None licensed — filed.
