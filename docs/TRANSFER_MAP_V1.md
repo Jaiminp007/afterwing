@@ -177,6 +177,10 @@ the map stays open, not empty.
 - R451 keep-less-prove-more: CoP2L certification twin;
   condensation antidote-shape; uncompressible selection twin;
   unequal-points (heterogeneity twin). Selection file grows.
+- R453 smart memory: frozen geometry 4×-CONFIRMED (CARES);
+  decoupled store (TEM); density-not-samples; keep-the-wounds
+  (KDF+ HB-legs twin). Memory file: coverage+density+
+  difficulty, not recency.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
