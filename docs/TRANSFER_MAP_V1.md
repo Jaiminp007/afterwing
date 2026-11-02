@@ -256,6 +256,9 @@ the map stays open, not empty.
 - R497 interface file: standardize-ops + governance
   (interface twin); test-formation (seconded); serve-
   future (carry twin); append-only (discipline twin).
+- R499 governance file: revocable-validity (revocation
+  twin); mechanical-audit (audit twin); failure-aware
+  (maintenance twin); what-currently-holds (meta twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
