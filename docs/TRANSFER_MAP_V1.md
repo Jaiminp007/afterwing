@@ -414,6 +414,9 @@ the map stays open, not empty.
 - R601 governed file: govern-memory;
   factory-pipelines; replay-longitudinally;
   meter-cross-layer.
+- R603 measurement file: compress-buffers;
+  condition-evals; validate-instruments;
+  diversify-gates.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
