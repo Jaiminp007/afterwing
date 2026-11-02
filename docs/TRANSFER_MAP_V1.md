@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R397 addendum: Lee DPM (neural Dirichlet-process mixture, task-free
+  infinite causes) filed as the nonparametric cause-inference;
+  DRIFT (continuous-shift benchmark) + PST (single-net segments)
+  banked unlicensed; Korte three-levels (data/partition/learner)
+  adopted as method for describing banks vs learners.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
