@@ -16731,3 +16731,29 @@ hits 370 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Rabbit"
   (inflated, kept (sold, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 365 — Unified, latent, open, incremental (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: knowing you're somewhere new —
+task-inference + open-world (DTR's infer-not-given wing).
+
+- **Unified replay+open-set [arXiv:1905.12019 (Mundt; vs no
+  hits)].** Variational unification: generative replay (keep the
+  known) + open-set recognition (detect the unknown). →
+  Detect-then-keep in one model. Unlicensed.
+- **Latent worlds [arXiv:1812.03399 (Perez; vs no hits)].**
+  Explicit latent of unknown environment properties (mass,
+  friction, actuators); online Bayesian inference at test time;
+  embodied control. → Infer the world's latent, then adapt.
+  Closest to our codebook-shift in spirit. Unlicensed.
+- **Open world [arXiv:1604.02275 (Bendale; vs no hits)].** The
+  original open-world loop: detect unknown + add incrementally +
+  update continuously. → The detect-new loop our transfer would
+  need before any unlearning. Unlicensed.
+- **OpenIncrement [arXiv:2310.03848 (Xu; vs no hits)].** Open-set
+  detection integrated with class-incremental learning (novel
+  samples pre-identified no more). → Detect-then-learn, unified.
+  Unlicensed.
+- Shelf note: van de Ven (1904.07734) + Hafez (2107.04533) already
+  bank DTR's infer-not-given lead (R327); these four extend that
+  wing (detect-new + infer-latent). No line follows.
