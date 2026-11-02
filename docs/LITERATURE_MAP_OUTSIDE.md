@@ -22799,3 +22799,30 @@ rows). Four more. (Map holds 578 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Barry" (unlimited,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 571 — Hijacked, named, carded, verified (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: approval — approve exactly
+what executes (already-cited laundering/binding leads
+converging; approval family, four branches).
+
+- **Loopjacking [arXiv:2609.21081 (Kumar; vs no
+  hits)].** Approved A vs EXECUTED B (representation
+  vs release; last boundary). → Guard the loop
+  (our single-authorized, loop-side). Filed.
+- **Approve-what [arXiv:2610.21063 (Kodathala; vs no
+  hits)].** Twelve attacks on APPROVAL (name EXACTLY
+  what it approves; second-factor test). → Name the
+  approval (our frozen caps, naming-side). Filed.
+- **Action card [arXiv:2609.18411 (Irshad / VAC; vs no
+  hits)].** Reconstruct from GROUND-TRUTH (approval
+  prompt itself influenceable). → Card the ground
+  truth (our digests, card-side). Filed.
+- **Verify-before-fix [arXiv:2604.10800 (Gajjar; vs no
+  hits)].** Predictions ≠ VERIFIED (ground in
+  observable evidence; compounding failures). →
+  Verify before fixing (our freeze-before-code,
+  evidence-side). Filed.
+- Program note: guard loops, name approvals, card
+  ground truth, verify before fixing — the approval
+  file. None licensed — filed.
