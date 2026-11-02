@@ -22153,3 +22153,30 @@ superstitions (counts rows). Four more. (Map holds 556 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Superstition" (signed, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 549 — Adjusted, corrected, paired, audited (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: reward trust — distrust the
+score, verify the path (already-cited co-cheating/auditing
+leads converging; trust family, four branches).
+
+- **Causal adjustment [arXiv:2508.04216 (Song; vs no
+  hits)].** Confounds cause hacking (backdoor CORRECTION
+  adjusts). → Correct the confound (our scorer
+  re-derives, causal-side). Filed.
+- **Faithful-to-correct [arXiv:2509.25409 (Ma; vs no
+  hits)].** Verifiable-reward limits (think CRITICALLY
+  where verification is hard). → Think past the
+  verifier (our closed verdicts, critical-side). Filed.
+- **Internal prefix reward [arXiv:2605.17877 (Kim / PAIR;
+  vs no hits)].** Sparse outcomes limit credit
+  (step-level WITHOUT ground truth). → Credit the step
+  (our per-leg deltas, prefix-side). Filed.
+- **Adversarial audit [arXiv:2602.01750 (Beigi / ARA; vs
+  no hits)].** HACKER discovers vulnerabilities
+  (competitive game; static defenses fail). → Audit
+  adversarially (our independent auditors, game-side).
+  Filed.
+- Program note: correct confounds, think critically,
+  credit steps, audit adversarially — the reward-trust
+  file. None licensed — filed.
