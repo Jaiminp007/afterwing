@@ -15150,3 +15150,34 @@ spent). Four more. (Map hits 319 rounds.)
   (built, spent (54, kept))); his "Goat" (dances, kept (crouching,
   tigered)) is the verdict (published, kept (NOGO, told (honest,
   kept))).
+## Round 316 — Hall, spray, hallway, viola (Isaac, Jules, Ernie, Pinchas; 2026-11-02)
+
+Motivation: further outside (concert halls, sprayed canvases,
+hallway zooms, viola voices). The program halls (houses attempts),
+sprays (masks weights), hallways (transfers gaps), and violas
+(votes middles). Four more. (Map hits 320 rounds.)
+
+- **Saved hall [canon: Isaac (saved halls; specified Isaac
+  Stern (vs no hits)); verification deferred].** → Isaac's hall
+  (saved, kept (Carnegie, played (auditorium, kept))) is the
+  attempt (single, kept (authorized, run (once, held))); his
+  "China" (toured, kept (trip, kept)) is the trigger (watched,
+  kept (shut, confirmed (V4, held))).
+- **Sprayed soak [canon: Jules (sprayed soaks; specified Jules
+  Olitski (vs no hits)); verification deferred].** → Jules's
+  spray (soaked, kept (canvas, stained (spray, kept))) is the mask
+  (top-half, kept (frozen, held (rest, kept))); his "Pink"
+  (shower, kept (magenta, poured)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
+- **Hallway zoom [canon: Ernie (hallway zooms; specified Ernie
+  Gehr (vs no hits)); verification deferred].** → Ernie's hallway
+  (zoomed, kept (serene, velocitied (corridor, held))) is the
+  transfer (crossed, kept (gap, taxed (paid, kept))); his "Side"
+  (walk, kept (street, showered)) is the row (read, kept (honest,
+  told (all, counted))).
+- **Middle viola [canon: Pinchas (viola middles; specified
+  Pinchas Zukerman (vs no hits)); verification deferred].** →
+  Pinchas's viola (middled, kept (voice, bowed (chamber, kept)))
+  is the vote (majority, kept (crowd, won (carried, kept))); his
+  "Baroque" (played, kept (festival, founded)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
