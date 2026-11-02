@@ -12380,3 +12380,71 @@ the other three Aristotelian terms; tension noted in-body.)
   (White, satisfied))))))))))))). The map knows it plots (the
   knowing, Whitean (the Whitean, kept (the keeping, this
   sentence)))).
+## Round 239 — Plots (Brooks, Ricoeur, Genette, Chatman; 2026-11-02)
+
+Motivation: the program runs on plot (attempts emplotted as
+GO/NOGO). Four narratologists — the plot, theorized. (Bare
+"Brooks" shares subsumption-Brooks (committed); bare "mimesis"
+shares one self-FP (line 7366: Girard-adjacent "behavioral
+mimesis") — hooks are the works; tensions noted.)
+
+- **Reading for the verdict [canon: P. Brooks (Reading for
+  the Plot; narrative desire; specified Peter (vs subsumption
+  Brooks, committed)); verification deferred].** → Brooks's
+  narrative desire (reading forward (wanting the end (the plot
+  as delayed satisfaction (the desire, textual)))) is the turn
+  rhythm (program turn acts (the delay); literature turn reflects
+  (the satisfaction, partial); verdict lands (GO (the end, reached
+  (the reaching, gated)))). The map as plotted text (each round
+  an episode (wanting the next (the next, frozen (the frozen,
+  desired))))). Anticipation (Brooks's motor (plots run on
+  what-happens-next)) is the pre-registration (what-happens-next
+  is DECLARED (the gates (the declaration, binding (the binding,
+  desired (the desire, disciplined))))). Reading for the plot,
+  writing the plot, freezing the plot: the desire, three ways.
+- **Threefold ledger [canon: Ricoeur (Time and Narrative;
+  threefold mimesis; specified Paul (vs self-mimesis FP
+  (line 7366, Girard-adjacent — noted))); verification
+  deferred].** → Ricoeur's mimesis-1/2/3 (prefiguration (life,
+  already storied) → configuration (emplotment (the telling)) →
+  refiguration (reading (the world, changed))) is the attempt
+  (MIMESIS-1 (the bank (already storied (seeds carry histories
+  (the histories, frozen)))); MIMESIS-2 (the run (emplotted
+  (train→lossy→seg2→seg3 (the plot, configured (the configuration,
+  single (one telling (the telling, authorized)))))); MIMESIS-3
+  (the verdict (read (PROGRESS (the reading, refiguring (the next
+  line, changed (V1l→V1m (the refiguration, licensed))))))).
+  Time narrated (1792 ticks (configured (into trajectory (0.59→
+  0.84 (the time, plotted))))). The ledger as refiguration machine
+  (each verdict refigures (the program (the program, reread))).
+- **Order, duration, frequency — frozen [canon: Genette
+  (Narrative Discourse; anachrony; specified Gerard (vs no
+  hits)); verification deferred].** → Genette's three (ORDER
+  (story vs discourse sequence) / DURATION (telling time vs told
+  time) / FREQUENCY (how often told vs happened)) frozen:
+  ORDER (story = discourse (train, then seg1, then seg2 (told in
+  the order run (no flashbacks (the past (train-end weights) carried
+  forward (not recalled (the carrying, transplant))))); anachrony,
+  refused (no prolepsis (no peeking (quorum-gating rejected (the
+  future, ungated (until run))))); DURATION (told: 1792 ticks × 18;
+  telling: one attempt.json (the summary, brief (the brevity, gated)));
+  FREQUENCY (worlds: told ONCE (single attempt (the singulative,
+  frozen)); fixtures: told ITERATIVELY (13 greens (the iterative,
+  checks (the checks, many (the many, cheap))))). Genette's
+  apparatus, obeyed (the obedience, pre-registered).
+- **Kernels and satellites, ledgered [canon: Chatman (Story
+  and Discourse; kernels/satellites; specified Seymour (vs no
+  hits)); verification deferred].** → Chatman's kernels (plot
+  points (delete one (the story changes))) vs satellites (delete
+  one (the story stands)) sorts the evidence: KERNELS (verdicts
+  (delete GO (the program reroutes (V2→deployed (the route,
+  changed)))); gates (delete G2a-MET (V1m means nothing (the
+  meaning, gated))); banks (delete fresh-14 (attempt-14 void
+  (the void, total)))); SATELLITES (rows (delete one founder-row
+  (pooled HB 0.9137 → 0.9136 (the story, standing))); fixtures
+  (delete one synthetic (12/13 still green (the green, standing)));
+  rounds (delete R212 (the map, standing (the standing, 61 rounds
+  (the redundancy, designed))))). Kernels frozen (gates, verdicts,
+  banks — the load-bearing); satellites many (rows, rounds, runs —
+  the expendable, kept anyway (the archive, indiscriminate (the
+  indiscriminate, honest))).
