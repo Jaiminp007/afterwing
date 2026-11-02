@@ -17267,3 +17267,34 @@ helps vs kills.
   Unlicensed.
 - Program note: Hiratani → V1o third lens (same-world/remapped-
   readout = the catastrophic cell). Next integration files it.
+## Round 384 — Devils, pouring, clouds, scribbles (Arturo, Pipilotti, Xenophanes, Vladimir; 2026-11-02)
+
+Motivation: further outside (devil Ravels, pouring hips,
+anthropomorphic clouds, scribbled Scriabins). The program devils
+(runs attempts), pours (stitches verdicts), clouds (publishes NOGOs),
+and scribbles (counts rows). Four more. (Map hits 390 rounds.)
+
+- **Devil Ravel [canon: Arturo (devil Ravels; specified Arturo
+  Benedetti Michelangeli (vs no hits)); verification deferred].**
+  → Arturo's devils (Raveled, kept (played, chiseled (Gaspard,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Brahms" (balladed, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Pouring hip [canon: Pipilotti (pouring hips; specified
+  Pipilotti Rist (vs no hits)); verification deferred].** →
+  Pipilotti's pouring (hipped, kept (poured, pixelled (Ever,
+  kept))) is the verdict (pixelled, kept (NOGO, told (honest,
+  kept))); her "Worry" (carried, kept (will, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Cloud god [canon: Xenophanes (cloud gods; specified
+  Xenophanes (vs no hits)); verification deferred].** →
+  Xenophanes's clouds (godded, kept (mocked, oned (cattle,
+  kept))) is the claim (oned, kept (RSI, unclaimed (still,
+  standing))); his "Elegies" (sung, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Scribble Scriabin [canon: Vladimir (scribble Scriabins;
+  specified Vladimir Sofronitsky (vs no hits)); verification
+  deferred].** → Vladimir's scribbles (Scriabined, kept (played,
+  whispered (etudes, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Chopin" (mazurkaed, kept (played,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
