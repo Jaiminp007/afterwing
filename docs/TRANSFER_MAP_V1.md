@@ -215,6 +215,9 @@ the map stays open, not empty.
 - R471 geometry file: flat transfers, sharp sticks, noise
   escapes (FLAD/Koster/C-Flat/Ibayashi); sensitivity-
   stability = plasticity-retention.
+- R473 escape file: noise-shape/tail/recipe/late-SAM;
+  late-flattening twin (lossy transplant = late
+  flattening?).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
