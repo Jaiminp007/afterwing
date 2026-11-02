@@ -13275,3 +13275,38 @@ mean-crowding/Wright FPs — full names throughout.)
   spinning)) is the op ledger (hanging from the caps (4.0e9
   (the hands, enforced))); his glasses (the prop, constant) are
   the fixtures (green before bank (the constant, kept)).
+## Round 258 — Indeterminacy and twins (Tudor, Wolff, van Eyck, Hertzberger; 2026-11-02)
+
+Motivation: the program executes exact plans with free outcomes
+(indeterminacy) and measures everything twice (train/transfer twins).
+Four more. (Bare "Kahn" shares 8 Kahneman/R235 FPs — Louis Kahn
+already mapped R235, dropped with his served/servant pair.)
+
+- **Exact plan, free outcome [canon: Tudor (indeterminate
+  execution; specified David (vs no hits)); verification
+  deferred].** → David's 4'33" realization (the score exact (the
+  sounds, whatever happens)) is the frozen attempt (the code exact
+  (the worlds, whatever happens)); his contact microphones
+  (amplifying the inaudible) are the probes (amplifying the
+  unpriced (below behavior (the below, read)))).
+- **Cues, not orders [canon: Wolff (cue-scores; specified
+  Christian (vs no hits)); verification deferred].** → Christian's
+  For 1, 2 or 3 People (cues telling WHEN (never what (the player,
+  free))) is the attempt protocol (caps telling HOW MUCH (never
+  what (the outcome, free))); his resistance (to notation (to
+  control (the control, refused))) is the null-default (to
+  changes (to behavior (the behavior, kept))).
+- **Both, at once [canon: Eyck (twin phenomena; specified Aldo
+  van (vs no hits)); verification deferred].** → Aldo's twin
+  phenomena (inside-outside, big-small (reconciled (not chosen)))
+  are train-transfer (both measured (neither privileged (the tax,
+  decomposed))); his orphanages (a house like a city (the small,
+  large)) are the rows (a world like a ledger (the small file,
+  large (the meaning, exact)))).
+- **One room, many uses [canon: Hertzberger (polyvalence;
+  specified Herman (vs no hits)); verification deferred].** →
+  Herman's polyvalence (one room (used many ways (the uses,
+  unscripted))) is the bank (one range (used for one line (the
+  use, licensed))); his schools (the street inside (learning,
+  everywhere)) are the 1792 ticks (decisions inside (learning,
+  everywhere (the everywhere, billed))).
