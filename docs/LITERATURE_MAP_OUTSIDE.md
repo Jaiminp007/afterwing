@@ -13825,3 +13825,34 @@ share FPs — full names throughout.)
   the sandbox (the evaluation, kept (the mechanism, open (the
   signal, biased))); his Messiah (unplayed, kept (perfect))
   is the unbuilt line (C9, kept (perfect (unfrozen))).
+## Round 275 — Pole, words, escape, wildness (Amundsen, Carlin, Houdini, Martin; 2026-11-02)
+
+Motivation: further outside (exploration, comedy, magic). The program
+prepares (frozen), counts words (menu six), escapes nothing
+(negatives kept), and runs wild (unsteered verdicts). Four more.
+(Bare escape shares prose-FPs — full names throughout.)
+
+- **Prepared wins [canon: Amundsen (polar preparation;
+  specified Roald (vs no hits)); verification deferred].** →
+  Roald's Pole (prepared (dogs, depots (won, first))) is the
+  frozen plan (prepared (fixtures, banks (verdicts, valid)));
+  his "victory awaits him who has everything in order" is the
+  triage (green, everything (in order (13, pre-existing))).
+- **Words you can't say [canon: Carlin (counted words;
+  specified George + seven words (vs no hits)); verification
+  deferred].** → George's seven (the words, counted (banned,
+  seven)) is the menu (the indices, counted (frozen, seven
+  (0-6, closed))); his "stuff" (the place, for) is the bank
+  (fresh, each (line, its own (range, sealed))).
+- **No escape [canon: Houdini (escape artistry; specified
+  Harry (vs prose-FPs)); verification deferred].** → Harry's
+  escapes (locked, water (out, always)) are the INVALIDs
+  (declared, published (out, always (never hidden))); his
+  "no prison can hold me" (the boast, tested) is the
+  single-attempt (one, only (tested (spent, closed))).
+- **Wild and crazy [canon: Martin (unsteered comedy;
+  specified Steve (vs no hits)); verification deferred].** →
+  Steve's wildness (crazy (the arrow, through (the head,))) is
+  the verdict (unsteered (the numbers, through (the gate,)));
+  his "comedy is not pretty" is the NOGO (flat, kept (not
+  pretty (informative))).
