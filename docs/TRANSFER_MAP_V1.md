@@ -345,6 +345,9 @@ the map stays open, not empty.
 - R555 attribution file: test-mechanisms;
   blame-sources; cite-contexts;
   trace-payloads.
+- R557 forensics file: tag-paths;
+  augment-tools; sleuth-wreckage;
+  stage-verdicts.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
