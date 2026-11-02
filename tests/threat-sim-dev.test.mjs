@@ -103,15 +103,11 @@ test('threat-sim scorer INCOMPLETE on untrained baseline',()=>{
   assert.equal(v.g0,false);
   assert.equal(v.verdict,'TS-INCOMPLETE-UNTRAINED');
 });
-test('threat-sim bank builds in tmpdir (9-schema, 54 unique, union-excluded)',()=>{
+test('threat-sim bank refuses rebuild post-spend (454xxx in prior evidence)',()=>{
+  // TS-NOGO committed the bank; the tmpdir-build assumption is stale by bank
+  // lifecycle (V1k/V1l/V1m/V1n/T1/K1 precedent): expect refusal.
   const dir=mkdtempSync(join(tmpdir(),'ts-bank-'));
-  const p=threatSimDevBank(join(dir,'bank.json'));
-  assert.equal(p.experiment,'threat-sim-dev-v1');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  for(const s of [454001,454054])assert.ok(flat.includes(s));
-  for(const s of [450001,451001,452001,453001])assert.ok(p.excludedSeeds.includes(s));
+  assert.throws(()=>threatSimDevBank(join(dir,'bank.json')),/already used in prior evidence/);
 });
 test('threat-sim mains-caps frozen design (3 pairs x 5 runs = 15)',()=>{
   assert.equal(TS_TAGS.length*TS_PAIRS.length,TS_EXPECT_MAINS);
