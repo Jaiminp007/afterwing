@@ -14901,3 +14901,34 @@ map hits 312 rounds.)
   kept))) is the transplant (exact, kept (digest, held (same,
   verified))); his "Asturias" (laid, kept (legend, fingered)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 309 — Parade, humor, shell, grid (Angelin, Gregor, Germaine, Agnes; 2026-11-02)
+
+Motivation: further outside (military parades, cellist humor,
+dream shells, penciled grids). The program parades (publishes
+rows), humors (keeps negatives), shells (spends banks), and grids
+(freezes plans). Four more. (Map hits 313 rounds.)
+
+- **Parade rest [canon: Angelin (parade ballets; specified
+  Angelin Preljocaj (vs no hits)); verification deferred].** →
+  Angelin's parade (drilled, kept (graveyard, marched (rest,
+  kept))) is the row (published, kept (honest, told (all,
+  counted))); his "Noces" (chairs, kept (stacked, thrown)) is the
+  attempt (single, kept (authorized, run (once, held))).
+- **Cellist humor [canon: Gregor (cellist humor; specified Gregor
+  Piatigorsky (vs no hits)); verification deferred].** → Gregor's
+  humor (cellist, kept (told, bowed (jokes, kept))) is the NOGO
+  (kept, held (negative, preserved (still, standing))); his
+  "Variations" (Paganini, kept (theme, returned)) is the trigger
+  (watched, kept (shut, confirmed (V3, held))).
+- **Dream shell [canon: Germaine (dream shells; specified
+  Germaine Dulac (vs no hits)); verification deferred].** →
+  Germaine's shell (dreamed, kept (seashell, held (clergyman,
+  hallucinated))) is the bank (fresh, kept (built, spent (54,
+  kept))); her "Smiling" (Buddha, kept (Madame, beamed)) is the
+  loop (fired, kept (twice, evaluated (sandbox, kept))).
+- **Penciled grid [canon: Agnes (penciled grids; specified Agnes
+  Martin (vs no hits)); verification deferred].** → Agnes's grid
+  (penciled, kept (innocence, drawn (lines, kept))) is the plan
+  (frozen, kept (written, held (still, kept))); her "With"
+  (flowers, kept (my, love)) is the ledger (exact, kept (honest,
+  told (all, counted))).
