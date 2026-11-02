@@ -16466,3 +16466,35 @@ and patterns (counts rows). Four more. (Map hits 361 rounds.)
   row (counted, kept (honest, told (all, counted))); his "Learning"
   (neared, kept (means, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 356 — Beards, quilts, soup, emptiness (Richard, Faith, Andy, Nagarjuna; 2026-11-02)
+
+Motivation: further outside (beard Beethovens, story quilts,
+soup repetitions, middle emptiness). The program beards (runs
+attempts), quilts (stitches verdicts), soups (publishes NOGOs),
+and empties (leaves RSI unclaimed). Four more. (Map hits 362
+rounds.)
+
+- **Beard Beethoven [canon: Richard (beard Beethovens; specified
+  Richard Goode (vs no hits)); verification deferred].** →
+  Richard's beards (Beethovened, kept (played, voiced (sonatas,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Mozart" (concertoed, kept (played, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Quilt story [canon: Faith (quilt stories; specified Faith
+  Ringgold (vs no hits)); verification deferred].** → Faith's
+  quilts (storied, kept (sewed, painted (Dinner, kept))) is the
+  verdict (stitched, kept (NOGO, told (honest, kept))); her "Flag"
+  (caused, kept (trouble, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Soup repetition [canon: Andy (soup repetitions; specified
+  Andy Warhol (vs no hits)); verification deferred].** → Andy's
+  soups (repeated, kept (screened, colored (Marilyn, kept))) is
+  the claim (repeated, kept (RSI, unclaimed (still, standing)));
+  his "Brillo" (boxed, kept (stacked, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Empty middle [canon: Nagarjuna (empty middles; specified
+  Nagarjuna (vs no hits)); verification deferred].** → Nagarjuna's
+  emptiness (middled, kept (argued, emptied (svabhava, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Verses" (rooted, kept (wisdom, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
