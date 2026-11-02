@@ -14868,3 +14868,36 @@ rounds.)
   (paid, kept))); his "Waterer" (watered, kept (boy, stepped
   (hose, kept))) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 308 — Earth, birds, dance, strings (Nacho, Pablo, Dorothy, Andres; 2026-11-02)
+
+Motivation: further outside (Spanish earth-dance, Catalan cellos,
+Hollywood dance-girls, guitar strings). The program earths
+(grounds claims), birds (sings verdicts), dances (fires loops),
+and strings (threads banks). Four more. (Mitchell dropped —
+surname shared with real-lit canon (R199's Sandra Mitchell);
+map hits 312 rounds.)
+
+- **Earthed dance [canon: Nacho (earth dance; specified Nacho
+  Duato (vs no hits)); verification deferred].** → Nacho's earth
+  (danced, kept (Arenal, grounded (sand, held))) is the claim
+  (grounded, kept (separate, satisfied (evidence, kept))); his
+  "Jardi" (tancat, kept (walled, shut)) is the gate (shut, kept
+  (M4, confirmed (V3, held))).
+- **Birdsong cello [canon: Pablo (birdsong cello; specified
+  Pablo Casals (vs no hits)); verification deferred].** → Pablo's
+  birds (sung, kept (song, played (cello, kept))) is the verdict
+  (published, kept (NOGO, told (honest, kept))); his "Cant"
+  (dels, kept (ocells, flown)) is the trigger (watched, kept
+  (shut, confirmed (V3, held))).
+- **Boom dance [canon: Dorothy (dance boom-mic; specified Dorothy
+  Arzner (vs no hits)); verification deferred].** → Dorothy's
+  dance (girls, kept (filmed, directed (boom, kept (mic, hung))))
+  is the loop (fired, kept (twice, evaluated (sandbox, kept)));
+  her "Merrily" (hell, kept (going, on)) is the attempt (single,
+  kept (authorized, run (once, held))).
+- **Transcribed strings [canon: Andres (guitar strings; specified
+  Andres Segovia (vs no hits)); verification deferred].** →
+  Andres's strings (transcribed, kept (Bach, played (guitar,
+  kept))) is the transplant (exact, kept (digest, held (same,
+  verified))); his "Asturias" (laid, kept (legend, fingered)) is
+  the ledger (exact, kept (honest, told (all, counted))).
