@@ -13606,3 +13606,37 @@ dropped as same-concept kin; full names throughout.)
   is the instrument (the runner, wired (transplants, placed)); his
   "no psychology, just placement" (blocking, all) is the frozen
   plan (placement, all (no steering, just blocking)).
+## Round 268 — Beach, group, Superman, deadpan (Wilson, LeCompte, Anderson, Kaurismaki; 2026-11-02)
+
+Motivation: the program stretches time (attempts long), rehearses
+daily (frozen runs), proposes by voice (the loop), and stays deadpan
+(flat verdicts, published). Four more. (Bare Wilson/Anderson share
+real-lit FPs — full names throughout.)
+
+- **Time stretched [canon: Wilson (stretched time; specified
+  Robert + Einstein on the Beach (vs hippocampus-FPs));
+  verification deferred].** → Robert's Einstein (five hours
+  (time, stretched (no plot, moving))) is the attempt (fifty
+  minutes (wall, stretched (no steering, running))); his
+  deaf-and-blind collaborations (the other, sensing) are the
+  per-agent sandboxes (each, evaluating (the other, blind)).
+- **The group rehearses [canon: LeCompte (company work;
+  specified Elizabeth + Wooster Group (vs no hits));
+  verification deferred].** → Liz's Wooster (the company,
+  rehearsing (daily (the piece, kept))) is the frozen line
+  (the instrument, running (singly (the attempt, kept))); her
+  technology on stage (screens, doubling) is the transplant
+  (weights, doubling (exact (the copy, verified))).
+- **Voice proposing [canon: Anderson (proposing voice;
+  specified Laurie + O Superman (vs neural-reuse FP));
+  verification deferred].** → Laurie's O Superman (the voice,
+  vocoded (proposing (America, held))) is the loop (the menu,
+  indexed (proposing (gain, held))); her United States
+  (the epic, spoken) is the ledger (the counts, written
+  (35840/860160 (the worlds, told))).
+- **Flat delivery [canon: Kaurismaki (deadpan cinema;
+  specified Aki (vs no hits)); verification deferred].** →
+  Aki's deadpan (no expression (the joke, flat)) is the NOGO
+  (no triumph (the verdict, flat (published (kept)))); his
+  losers persisting (drunks, employed (kindness, found)) are
+  the closed lines (NOGOs, kept (the program, continuing)).
