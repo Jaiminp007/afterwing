@@ -14424,3 +14424,34 @@ all clean with contexts read.)
   claim (bars, unmoved (evidence, lacking (RSI, open))); his
   tune (the fork, sounding) is the vote (carried, many
   (majority, kept (crowd, won))).
+## Round 294 — Pressure, bin, truckin', care (Post, Barks, Crumb, Mozi; 2026-11-02)
+
+Motivation: further outside (high-altitude pilots, duck universes,
+underground comix, Mohist logic). The program pressurizes (caps),
+bins (ledgers), trucks on (continues), and cares impartially (blind
+controls). Four more. (Coleman/Johnson dropped — surname shared
+with real-lit canon; bare Post shares prefix-FPs — full names.)
+
+- **First pressure [canon: Post (high-altitude solo; specified
+  Wiley (vs prefix-FPs)); verification deferred].** → Wiley's
+  pressure suit (up, high (breathing, kept)) is the op cap (4.0e9,
+  holding (attempts, within (3.3e9, kept))); his Winnie Mae
+  (around, twice) is the seg-chain (H0/H1/H2, carried (weights,
+  transplanted)).
+- **Swimming in it [canon: Barks (duck universe; specified
+  Carl (vs no hits)); verification deferred].** → Carl's bin
+  (money, swimming (exact, coins)) is the ledger (20/0/35840/
+  860160 (exact, kept)); his "I just draw pictures" is the
+  row (written, kept (raw, all (dual, provenance))).
+- **Keep on [canon: Crumb (underground persistence; specified
+  Robert (vs no hits)); verification deferred].** → Robert's
+  truckin' (walking, on (kept, going)) is the program (continuing,
+  kept (holding, pattern (surveillance, research (preserved,
+  all)))); his sketchbooks (drawn, daily) are PROGRESS (newest,
+  current (each, turn (kept, honest))).
+- **Care impartially [canon: Mozi (impartial logic; specified
+  Mozi (vs no hits)); verification deferred].** → Mozi's care
+  (all, equally (loved, each)) is the copier (blind, all (same,
+  tick (dose, matched))); his against-fate (working, hard
+  (heaven, willed)) is the barren bank (passing, nothing
+  (bar, kept (5%, missed (barren, published)))).
