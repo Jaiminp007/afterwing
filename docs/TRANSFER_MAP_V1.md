@@ -137,6 +137,9 @@ the map stays open, not empty.
   dilution antidote for the successor vote; NEMORI (retention by
   predictability) + hypothesis-cascade (errors compound) banked
   unlicensed.
+- R391 addendum: Wan max-discrepancy (not pooled sums) filed as THE
+  dilution fix for the successor vote; drift-prototypes + Meta-ADD
+  (learned drift typing) + HHT (type-then-adapt) banked unlicensed.
 - R367 addendum: SECOND CANDIDATE FAMILY (training-side) —
   multi-codebook training (train A + pseudo-codebooks synthesized
   from A per Enomoto/PMDG, transfer B; Gan valence-as-attribute,
