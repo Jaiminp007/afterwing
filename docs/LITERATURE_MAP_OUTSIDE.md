@@ -16559,3 +16559,27 @@ fingers (runs attempts), trees (grows ledgers), umbrellas
   (joined, kept (carried, won (crowd, kept))); his "Reading"
   (commented, kept (classics, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 359 — Unified, collapsed, robust, uneroded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: selective unlearning — forget the
+mapping, keep the rule.
+
+- **Unified learn+unlearn [arXiv:2408.11374 (Chatterjee; vs no
+  hits)].** Joint framework: learn new concepts + targeted
+  unlearning via controlled distillation + fixed buffer. → The
+  joint framing our program needs (learn rule + unlearn mapping).
+  Unlicensed (needs distillation machinery).
+- **Plasticity collapse [arXiv:2608.29513 (Shi; vs no hits)].**
+  CONTINUAL unlearning degrades the ability to forget itself
+  (accumulated geometric constraints). → Direct caution for any
+  unlearning-based line (incl. ours, repeated lossy across
+  segments): watch that unlearning still works the Nth time.
+- **Robust unlearning [arXiv:2601.21682 (Xu / FIT; vs no hits)].**
+  Processes deletion streams while resisting forgetting AND
+  post-unlearning recovery. → Recovery-resistance = retention of
+  the unlearning; the mirror of our retention question.
+- **Uneroded unlearning [arXiv:2503.13769 (Thakral / DUGE; vs no
+  hits)].** Removes targeted concepts while preserving related
+  ones, no generalization erosion. → Selective removal preserving
+  neighbors — the surgical ideal. Unlicensed.
