@@ -14330,3 +14330,34 @@ respectful.)
   program (between, lines (closed, kept (open, one (Track C,
   last)))); his islands (floating, together) are the banks
   (fresh, each (spent, together (map, kept))).
+## Round 291 — Carnival, emptiness, rooms, moon (Fellini, Antonioni, Amacher, Tetley; 2026-11-02)
+
+Motivation: further outside (dream carnivals, empty parks,
+sounding rooms, moonstruck dancers). The program parades (runs),
+empties (barren banks), rooms (echoes refusal), and moons (reaches).
+Four more. (R290 Laver reused-then-dropped on person-identity;
+bare Laver/Pele share slavery/unknown-FPs — full names.)
+
+- **The parade kept [canon: Fellini (dream carnival;
+  specified Federico (vs no hits)); verification deferred].** →
+  Federico's parade (dreams, marching (kept, all)) is the attempt
+  (mains, marching (20, each (counted, kept))); his "all my films
+  are home movies" is the ledger (all, kept (home, rows (raw,
+  told))).
+- **The empty park [canon: Antonioni (modern emptiness;
+  specified Michelangelo (vs no hits)); verification deferred].**
+  → Michelangelo's park (empty, kept (blow-up, nothing)) is the
+  barren bank (nothing, adopted (bar, kept (5%, missed))); his
+  alienation (figures, small (landscapes, large)) is the vote
+  (agents, many (experience, small (pooled, large))).
+- **Rooms sounding [canon: Amacher (room tones; specified
+  Maryanne (vs no hits)); verification deferred].** → Maryanne's
+  rooms (sounding, themselves (third, ear)) are the spent banks
+  (echoing, refusal (post-bank, form)); her "the house is the
+  instrument" is the runner (built, here (copy-adapted, frozen
+  (tested, green))).
+- **Moonstruck [canon: Tetley (lunar dance; specified Glen
+  (vs no hits)); verification deferred].** → Glen's Pierrot
+  (moonstruck, white (danced, kept)) is Track C (unmet, kept
+  (open, last (frontier, only))); his myth (danced, told) is
+  the synthesis (told, kept (anatomy, whole (C-series, closed))).
