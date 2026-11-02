@@ -12639,3 +12639,70 @@ full names and works throughout.)
   (learning/tick-kernel-critic.mjs (weights + choose/observe (the
   representation (kernel records), hidden (the hidden, checkpointed)))).
   Substitutability, measured (not asserted (0.914 (the measure, fresh))).
+## Round 243 — Unix culture (McIlroy, Ritchie, Kay, Lampson; 2026-11-02)
+
+Motivation: the program runs on composition (small frozen pieces,
+piped together). Four systems builders — the composition, honored.
+(Bare "pipes" shares run-dry FP (line 10483); Ken Thompson CUT
+(D'Arcy + Evan committed — McIlroy covers Unix without a 6th
+specification).)
+
+- **Do one thing, frozen [canon: McIlroy (Unix philosophy;
+  do one thing well); verification deferred].** → McIlroy's
+  philosophy (write programs that do one thing well (to work
+  together (text streams (universal interface)))) is the
+  instrument design (each script does one thing (turn-gated-dev
+  runs (scorer scores (bank builds (the builder, one thing (the
+  one thing, frozen))))); universal interface (rows.json (text
+  streams (every tool reads rows (writes verdicts (the pipes:
+  bank | runner | scorer | results (the pipeline, frozen)))))).
+  Do one thing WELL (fixtures (green (the well, measured))).
+  Do one thing, FROZEN (McIlroy plus immutability (the program,
+  Unix-with-no-shell-history (no interactive use (batch only
+  (the batch, authorized))))). Pipes without pipelines (named
+  "pipes" avoided (FP noted); the composition, real).
+- **Close to the billed metal [canon: Ritchie (C language;
+  specified Dennis (vs no hits)); verification deferred].** →
+  Ritchie's C (close to the metal (no garbage (memory manual
+  (the manual, exact (trust the programmer (the programmer,
+  trusted)))))) is the billing discipline (close to the op
+  (every scalar counted (no garbage (unbilled work, none (the
+  manual: arithmetic() wrapper (every add billed (the billed,
+  charged))))))). Trust the programmer (me (trusted (with caps
+  (the caps, enforced (the enforcement, automatic))))). C's
+  portability (write once (run everywhere)) is the frozen plan
+  (write once (run once (the run, single (the single, everywhere
+  (the bank (the bank, fresh)))))) — portability inverted (run
+  nowhere twice (the nowhere, enforced (never-duplicate-runs))).
+  Dennis's simplicity (keep the language small) is the engine
+  (161 params (the small, kept (the kept, frozen))).
+- **Objects that message [canon: Kay (Smalltalk; Dynabook;
+  object-oriented; specified Alan (vs no hits)); verification
+  deferred].** → Kay's objects (message-passing (not state
+  (the message IS the program (objects all the way down))))
+  are the founders (choose/observe messages (the program:
+  messages (compute locally (the local: weights (the weights,
+  private (the private, checkpointed)))))). Smalltalk (the
+  image (alive (the system, running (changed while running))))
+  inverted (my image, dead (frozen (changed never (while running
+  (the run, immutable))))). Dynabook (the personal computer
+  (for children of all ages (learning tool))) is the map
+  (personal (one author); for children of all ages (no one
+  reads (the reading, hypothetical)); learning tool (I learn
+  (by writing (the writing, public (the public, absent))))).
+  Alan's prediction (the best way to predict the future is to
+  invent it) is V1m (predicted +0.23 (invented 0.22 (the future,
+  invented (within 0.02)))).
+- **Hints, followed [canon: Lampson (hints for computer
+  system design); verification deferred].** → Lampson's hints
+  (keep it simple (do one thing well (again, McIlroy (the hints,
+  overlapping))); handle normal and worst cases separately
+  (fixtures (normal); caps (worst (the separation, frozen)));
+  end-to-end (the argument (function in the endpoints (gates
+  at the END (not the middle (the middle, unmonitored (the
+  monitoring, verdict-shaped)))))). Hints followed (the list,
+  checked): simplicity (frozen plans (one question each));
+  generality (yardsticks (same band everywhere)); robustness
+  (fail-closed (INVALID over wrong (the wrong, refused))).
+  Butler's meta-hint (all quotes... no (the hints, plain)) —
+  the plainest hint (keep the ledger (the keeping, total)).
