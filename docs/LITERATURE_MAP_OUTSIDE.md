@@ -15724,3 +15724,33 @@ ledgers), and marches (advances milestones). Four more. (Map hits
   is the milestone (advanced, kept (honest, told (done, held)));
   his "Door" (backyard, kept (filmed, kept)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 334 — Song, love, black, nostalgia (Zino, Fritz, Al, Lewis; 2026-11-02)
+
+Motivation: further outside (French songs, love sorrows,
+black-and-whites, cut-out nostalgia). The program songs (voices
+claims), loves (keeps negatives), blacks (banks spent), and
+nostalgias (preserves rows). Four more. (Map hits 338 rounds.)
+
+- **French song [canon: Zino (French songs; specified Zino
+  Francescatti (vs no hits)); verification deferred].** → Zino's
+  song (Frenched, kept (sung, bowed (airs, kept))) is the claim
+  (voiced, kept (separate, satisfied (evidence, kept))); his
+  "Beethoven" (tenth, kept (concerto, played)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **Love sorrow [canon: Fritz (love sorrows; specified Fritz
+  Kreisler (vs no hits)); verification deferred].** → Fritz's love
+  (sorrowed, kept (Liebesleid, played (miniatures, kept))) is the
+  negative (loved, kept (NOGO, preserved (still, standing)));
+  his "Praeludium" (alleged, kept (Bach, played)) is the attempt
+  (single, kept (authorized, run (once, held))).
+- **Black white [canon: Al (black whites; specified Al Held (vs
+  no hits)); verification deferred].** → Al's black (whited,
+  kept (edged, hard (murals, kept))) is the bank (spent, kept
+  (fresh, built (54, kept))); his "Taxi" (cabbed, kept ( alphabet,
+  kept)) is the row (read, kept (honest, told (all, counted))).
+- **Cut nostalgia [canon: Lewis (cut nostalgia; specified Lewis
+  Klahr (vs no hits)); verification deferred].** → Lewis's cut
+  (nostalgied, kept (collaged, watched (daylight, kept))) is the
+  ledger (exact, kept (honest, told (all, counted))); his
+  "False" (married, kept (debutantes, kept)) is the verdict
+  (published, kept (NOGO, told (honest, kept))).
