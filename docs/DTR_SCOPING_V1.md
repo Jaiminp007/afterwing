@@ -58,6 +58,15 @@ open sentence into a work list — advancement, not closure.
   detection + Hafez self-organization + Lei librarian routing without
   task-ID). Freeze should LEAD with the inference-head, labeled route
   as fallback (reversal of the original sketch's assumption).
+- R335 addendum (hypernetworks — the trunk literature, all feed part
+  (i), none unblocks): von Oswald canonical task-conditioned generation
+  (+ weight-realization rehearsal) joins TAME as the second reference
+  design; Partial sizing principle (freeze early/generate late — shared
+  chemotaxis trunk + small task heads, don't generate everything);
+  HyperMask merges the SU thread (trunk-GENERATED masks — our per-tick
+  mask could one day be per-task generated, conditional on the trunk);
+  dependency-preservation is a CONSTRAINT (niche-model weights are
+  structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
   design constraint (isolate experts = no transfer; share updates =
   forgetting); CP-MoE's transient expert is the middle path to steal at
