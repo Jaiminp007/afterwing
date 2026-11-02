@@ -8,7 +8,7 @@ import {tickMotor} from './tick-actor-critic.mjs';
 import {pursuitMotor} from './pursuit-authority.mjs';
 import {chargeForStep,billSarsaWork,encodedStateBytes} from './sarsa-experiment.mjs';
 import {createTasteEnergyBody,chooseTasteEnergyAction,observeTasteEnergyBody,freezeTasteEnergyBody,resetTasteEnergyBody,compactTasteEnergyBody,restoreTasteEnergyBody} from './taste-energy.mjs';
-import {attachOperatorLoop,fireLooperProposal,fireLooperChoice,adoptOperatorLive,OL_MENU,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
+import {attachOperatorLoop,fireLooperProposal,fireLooperChoice,fireLooperFlipChoice,adoptOperatorLive,OL_MENU,OL_PROPOSAL_TICK} from './rsi-operator-loop.mjs';
 import {createTasteKernelBody,chooseTasteKernelAction,observeTasteKernelBody} from './taste-kernel.mjs';
 import {VALUE_REFERENCE} from './value-development.mjs';
 
@@ -130,7 +130,7 @@ export function syncNewbornLearners(run){
 // looper: single-index sandbox proposal OR multi-index sandbox choice; copier: blind auto-adopt (no sandbox).
 export function fireTickProposal(exp,state,own){
   if(exp.arm==='looper'&&own.tick===OL_PROPOSAL_TICK&&state.rsiLoop){
-    if(exp.looperMenuIndices!=null)fireLooperChoice(state,exp.looperMenuIndices);
+    if(exp.looperMenuIndices!=null){if(exp.looperFlipEval)fireLooperFlipChoice(state,exp.looperMenuIndices);else fireLooperChoice(state,exp.looperMenuIndices);}
     else if(exp.looperMenuIndex!=null)fireLooperProposal(state,exp.looperMenuIndex);
   }
   /* C7: blind adoption, same tick, no sandbox/fee (dose matched) */

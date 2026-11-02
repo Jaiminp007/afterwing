@@ -172,6 +172,71 @@ export function fireLooperChoice(t,indices){
   if(best)adoptOperatorLive(t,best.op);
   return {skipped:false,best:best?best.op.kind:null,n:indices.length};
 }
+export function fireLooperFlipChoice(t,indices){
+  assert.ok(t&&t.rsiLoop,'operator loop not attached');
+  assert.ok(Array.isArray(indices)&&indices.length>0,'choice needs a non-empty index list');
+  const records=[...t.recent,...t.older].sort((a,b)=>a.experience-b.experience);
+  if(records.length<OL_MIN_RECORDS||t.rsiLoop.proposals.length>=OL_LIFETIME_MAX)return {skipped:true};
+  const half=Math.floor(records.length/2);
+  const fitIds=records.slice(0,half).map(r=>r.experience),testIds=records.slice(half).map(r=>r.experience);
+  // Flip-eval: fit on TRUE labels, test on FLIPPED labels (extinction-readiness without transfer history).
+  const flippedTest=testIds.map(id=>1-records.find(r=>r.experience===id).target);
+  let best=null;
+  for(const i of indices){
+    if(t.rsiLoop.proposals.length>=OL_LIFETIME_MAX)break;
+    const op=proposeOperator(t,i); // menu-closed fail-closed per index
+    const ev=sandboxEvaluateFlipped(t,op,fitIds,testIds,flippedTest);
+    if(ev.adopted&&(best==null||ev.candErr<best.eval.candErr))best={op,eval:ev};
+  }
+  if(best)adoptOperatorLive(t,best.op);
+  return {skipped:false,best:best?best.op.kind:null,n:indices.length};
+}
+function sandboxEvaluateFlipped(tasteState,operator,fitIds,testIds,flippedTargets){
+  // Clone of sandboxEvaluate with flipped test targets (pure: retained records untouched).
+  const fit=new Set(fitIds),test=new Set(testIds);
+  const records=[...tasteState.recent,...tasteState.older];
+  const fitRecs=records.filter(r=>fit.has(r.experience));
+  let testRecs=records.filter(r=>test.has(r.experience));
+  assert.ok(fitRecs.length>0&&testRecs.length>0,'sandbox needs non-empty fit and test sets');
+  testRecs=testRecs.map((r,j)=>({...r,target:flippedTargets[j]})); // flipped copies; originals untouched
+  const D=sandboxDims(fitRecs,testRecs);
+  const before=canonicalSnapshot(tasteState);
+  const clone=structuredClone(tasteState);
+  delete clone.rsiLoop;
+  const noop=()=>{};
+  if(operator.kind==='shrinkOnce'){
+    assert.ok(Number.isFinite(operator.alpha)&&operator.alpha>0&&operator.alpha<1,'shrink alpha must be in (0,1)');
+    for(const k of Object.keys(clone.weights))clone.weights[k]=clone.weights[k].map(v=>v*operator.alpha);
+  }else if(operator.kind==='replayGain'){
+    assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'replay gain must be non-negative');
+    clone.config.replayGain=operator.gain;
+    for(const r of fitRecs)tasteUpdate(clone,r,'replay',noop,1);
+  }else if(operator.kind==='replaySkip'){
+    assert.ok(Number.isFinite(operator.skip)&&operator.skip>=0,'replay skip must be non-negative');
+    for(const r of fitRecs){
+      const p=tastePrediction(clone,r.phi),e=r.target-p;
+      if(e*e<operator.skip*operator.skip)continue;
+      tasteUpdate(clone,r,'replay',noop,1);
+    }
+  }else if(operator.kind==='replaySurprise'){
+    assert.ok(Number.isFinite(operator.gain)&&operator.gain>=0,'replay surprise gain must be non-negative');
+    assert.ok(Number.isFinite(operator.live)&&operator.live>=0,'replay surprise live gain must be non-negative');
+    clone.config.surpriseGain=operator.live;clone.config.replaySurpriseGain=operator.gain;
+    clone.surpriseEma=0;clone.surpriseTimer=0;
+    for(const r of fitRecs)tasteUpdate(clone,r,'live',noop,1);
+  }else throw Error('menu-closed: unknown operator kind');
+  const incErr=heldOutError(tasteState.weights.taste,tasteState.tasteScale,tasteState.priorLogit,testRecs);
+  const candErr=heldOutError(clone.weights.taste,clone.tasteScale,clone.priorLogit,testRecs);
+  const fee=2*(fitRecs.length+testRecs.length)*(D+1);
+  tasteState.work.scalarOperations+=fee;
+  assert.equal(digestSnapshot(tasteState),digestSnapshot(before.state),'live state touched by sandbox (byte-identity violated)');
+  const adopted=candErr<incErr*OL_ADOPT_FACTOR;
+  const evalRec={operator:structuredClone(operator),fitN:fitRecs.length,testN:testRecs.length,
+    incErr:+incErr.toFixed(6),candErr:+candErr.toFixed(6),adopted,fee,flipped:true};
+  tasteState.rsiLoop.proposals.push(evalRec);
+  tasteState.rsiLoop.evaluations++;
+  return evalRec;
+}
 export function loopDigest(tasteState){
   assert.ok(tasteState&&tasteState.rsiLoop,'operator loop not attached');
   return JSON.stringify(tasteState.rsiLoop);
