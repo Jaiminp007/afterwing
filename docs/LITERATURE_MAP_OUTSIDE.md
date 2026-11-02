@@ -22327,3 +22327,30 @@ rows). Four more. (Map holds 562 rounds.)
   jonesed (mrs, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Wine" (jones, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 555 — Reasoned, blamed, cited, traced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: attribution — who said it,
+where from (already-cited poisoning/audit leads converging;
+attribution family, four branches).
+
+- **Reasoning-or-retrieval [arXiv:2509.24156 (Wang; vs no
+  hits)].** Answers CONTRADICT traces (two competing
+  mechanisms; misleading vs corrupted). → Test both
+  mechanisms (our say-vs-do, mechanism-side). Filed.
+- **Who-taught-the-lie [arXiv:2509.13772 (Zhang; vs no
+  hits)].** RESPONSIBILITY attribution (poisoned
+  knowledge; RAGOrigin black-box). → Blame the source
+  (our origin-bound provenance, blame-side). Filed.
+- **Context citation [arXiv:2409.00729 (Cohen-Wang /
+  ContextCite; vs no hits)].** ATTRIBUTE to context
+  (grounded / misread / fabricated). → Cite the
+  context (our per-leg deltas, citation-side). Filed.
+- **Poisoned-span traceback [arXiv:2605.01782 (Cui; vs no
+  hits)].** CHARACTER-level traceback (payload inside
+  benign chunk; passage-level too coarse). → Trace
+  the payload (our digest-per-link, span-side).
+  Filed.
+- Program note: test mechanisms, blame sources, cite
+  contexts, trace payloads — the attribution file. None
+  licensed — filed.
