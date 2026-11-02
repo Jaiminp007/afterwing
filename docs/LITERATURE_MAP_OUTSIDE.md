@@ -19125,3 +19125,33 @@ records (counts rows). Four more. (Map holds 454 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "New" (account,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 449 — Recursed, mixed, consolidated, executived (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-evolving agents — the RSI-
+adjacent family (names our problem, four branches; already-cited
+self-improvement lead not repeated).
+
+- **Recursive RSI [arXiv:2608.24876 (Yu / Recuris; vs no hits)].**
+  "RSI remains hard in long-horizon tasks" (NAMED); working
+  memory guides skill selection from experiential memory;
+  execution → structured evidence localizing failures. →
+  Ground skill use in current needs, not full history. Filed
+  as the RSI-adjacent twin.
+- **Mixture memories [arXiv:2605.21951 (Yu / MoLEM; vs no
+  hits)].** Self-evolution dilemma STATED: parameter updates
+  forget, external memory doesn't enhance intrinsically. →
+  Our weights-vs-carry dilemma, verbatim. Filed as the
+  dilemma twin.
+- **Use and disuse [arXiv:2610.12124 (Zeng / Hippocam; vs no
+  hits)].** Selective maintenance (current goals) + gradual
+  consolidation (repeated). → The two-timescale memory, agent-
+  side. Unlicensed.
+- **Executive function [arXiv:2204.12639 (Lengerich; vs no
+  hits)].** Executive function as contrastive value policy:
+  resample + relabel perceptions via hindsight to minimize
+  attended prediction error. → Hindsight relabeling (our
+  flip-split, agent-side). Unlicensed.
+- Program note: Recuris/MoLEM say the program's shape out
+  loud (RSI-hard; update-vs-memory dilemma). None licensed —
+  filed.
