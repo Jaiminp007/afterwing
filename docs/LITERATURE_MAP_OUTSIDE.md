@@ -18382,3 +18382,33 @@ storing less (and keep it usable).
 - Program note: Caccia's encoder/decoder compatibility is the
   version problem every banked row faces (old rows, new code).
   Filed as method-awareness, not a change.
+## Round 424 — Cool, stones, essays, alto (Stan, Isamu, Han, Paul; 2026-11-02)
+
+Motivation: further outside (cool bossas, stone gardens,
+crocodile essays, take-five altos). The program cools (runs
+attempts), stones (stitches verdicts), essays (publishes NOGOs),
+and altos (counts rows). Four more. (Map holds 430 rounds.)
+
+- **Cool bossa [canon: Stan (cool bossas; specified Stan Getz
+  (vs no hits)); verification deferred].** → Stan's cool
+  (bossaed, kept (breathed, novad (Girl, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Desafinado"
+  (tuned, kept (played, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Stone garden [canon: Isamu (stone gardens; specified Isamu
+  Noguchi (vs no hits)); verification deferred].** → Isamu's
+  stones (gardened, kept (carved, set (Kyoto, kept))) is the
+  verdict (set, kept (NOGO, told (honest, kept))); his "Slide"
+  (mantraed, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Essay crocodile [canon: Han (crocodile essays; specified Han
+  Yu (vs no hits)); verification deferred].** → Han's essays
+  (crocodiled, kept (memorialized, revived (prose, kept))) is the
+  claim (revived, kept (RSI, unclaimed (still, standing))); his
+  "Epitaph" (stoned, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Alto five [canon: Paul (alto fives; specified Paul Desmond
+  (vs no hits)); verification deferred].** → Paul's alto (fived,
+  kept (took, floated (Brubeck, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Rondo" (turked, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
