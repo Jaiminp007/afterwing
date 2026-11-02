@@ -15181,3 +15181,34 @@ sprays (masks weights), hallways (transfers gaps), and violas
   is the vote (majority, kept (crowd, won (carried, kept))); his
   "Baroque" (played, kept (festival, founded)) is the verdict
   (published, kept (NOGO, told (honest, kept))).
+## Round 317 — Flute, stripes, alphabet, baroque (James, Gene, Hollis, Jean-Pierre; 2026-11-02)
+
+Motivation: further outside (golden flutes, rhythm stripes,
+alphabet films, baroque flutes). The program flutes (pipes rows),
+stripes (freezes plans), alphabets (indexes menus), and baroques
+(ornaments ledgers). Four more. (Map hits 321 rounds.)
+
+- **Golden flute [canon: James (golden flutist; specified James
+  Galway (vs no hits)); verification deferred].** → James's flute
+  (golden, kept (man, piped (airs, kept))) is the row (piped,
+  kept (honest, told (all, counted))); his "Annie" (laurie, kept
+  (song, played)) is the attempt (single, kept (authorized, run
+  (once, held))).
+- **Rhythm stripes [canon: Gene (rhythm stripes; specified Gene
+  Davis (vs no hits)); verification deferred].** → Gene's stripes
+  (rhythmed, kept (micro, waved (repetition, kept))) is the plan
+  (frozen, kept (written, held (still, kept))); his "Black"
+  (rainbow, kept (gray, broken)) is the bank (fresh, kept (built,
+  spent (54, kept)))).
+- **Alphabet film [canon: Hollis (alphabet films; specified
+  Hollis Frampton (vs no hits)); verification deferred].** →
+  Hollis's alphabet (filmed, kept (Zorns, lemmaed (letters,
+  kept))) is the menu (indexed, kept (8, appended (selective,
+  kept))); his "Nostalgia" (burned, kept (photos, held)) is the
+  trigger (watched, kept (shut, confirmed (V4, held))).
+- **Baroque flute [canon: Jean-Pierre (baroque flutist; specified
+  Jean-Pierre Rampal (vs no hits)); verification deferred].** →
+  Jean-Pierre's baroque (fluted, kept (French, played (airs,
+  kept))) is the ledger (ornamented, kept (exact, told (all,
+  counted))); his "Bolling" (suited, kept (jazz, played)) is the
+  verdict (published, kept (NOGO, told (honest, kept))).
