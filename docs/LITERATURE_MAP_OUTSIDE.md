@@ -17019,3 +17019,25 @@ NOGOs), and ices (counts rows). Four more. (Map hits 380 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Chopin" (etuded, kept (played, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 375 — Activated, forgotten, weighted, sampled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: ensembles for continual RL —
+diversify, activate, arbitrate.
+
+- **Self-activating [arXiv:2301.00141 (Powers / SANE; vs no
+  hits)].** TASK-AGNOSTIC modular ensemble; a module activates per
+  trajectory, no task boundaries, no supervision. → Infer-not-
+  given + modularity in one. Unlicensed (needs modules).
+- **Active forgetting [arXiv:2404.12639 (Gai / DICORL; vs no
+  hits)].** Conservative learning ACTIVELY forgets the learnt
+  skill (data-incremental continual offline RL). → Named failure
+  mode: learning causes forgetting. V1o-adjacent (training caused
+  unlearning). Lens only.
+- **Online weighted [arXiv:2209.15078 (Garcia; vs no hits)].**
+  Ensemble with different hyperparameters; choose the best ONLINE.
+  → Arbitration by live performance. Unlicensed.
+- **Single-run diverse [arXiv:2001.05209 (Saphal / SEERL; vs no
+  hits)].** Diverse ensemble from ONE training run (no extra
+  worlds). → Constraint-compatible diversity. Unlicensed (needs
+  ensemble machinery).
