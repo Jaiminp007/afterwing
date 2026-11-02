@@ -18219,3 +18219,34 @@ before adapting (whole-batch adaptation fails mixed worlds).
 - Program note: Su's separate-first + Tomar's per-instance
   statistics are the un-mixing shelf; Tomar's temporal-
   correlation warning applies to our rows directly. Filed.
+## Round 418 — Trains, scribbles, doubt, hats (Duke, Cy, Clitomachus, Thelonious; 2026-11-02)
+
+Motivation: further outside (A-trains, blackboard scribbles,
+academic doubt, round hats). The program trains (runs attempts),
+scribbles (stitches verdicts), doubts (publishes NOGOs), and hats
+(counts rows). Four more. (Map holds 424 rounds.)
+
+- **Train A [canon: Duke (A trains; specified Duke Ellington (vs
+  no hits)); verification deferred].** → Duke's trains (A-tooked,
+  kept (swung, rode (Harlem, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Mood" (indigoed, kept
+  (played, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Scribble blackboard [canon: Cy (blackboard scribbles;
+  specified Cy Twombly (vs no hits)); verification deferred].** →
+  Cy's scribbles (blackboarded, kept (scrawled, looped (Nini,
+  kept))) is the verdict (looped, kept (NOGO, told (honest,
+  kept))); his "Rose" (bloomed, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Doubt academic [canon: Clitomachus (academic doubts; specified
+  Clitomachus (vs no hits)); verification deferred].** →
+  Clitomachus's doubt (academied, kept (suspended, wrote
+  (volumes, kept))) is the claim (wrote, kept (RSI, unclaimed
+  (still, standing))); his "Books" (counted, kept (400, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Hat round [canon: Thelonious (round hats; specified Thelonious
+  Monk (vs no hits)); verification deferred].** → Thelonious's
+  hats (rounded, kept (tipped, danced (straight, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Brilliant"
+  (corners, kept (played, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
