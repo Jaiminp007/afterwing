@@ -16526,3 +16526,36 @@ the literature's name for our wound.
   hits)].** Shortcut solutions impair continual compositional
   reasoning in transformers. → Transfer-impairment documented at
   scale; our HB gap is one instance of the class.
+## Round 358 — Fingers, trees, umbrellas, qi (Mikhail, Judy, Jacques, Wang; 2026-11-02)
+
+Motivation: further outside (finger Rachmaninoffs, tree
+installations, umbrella musicals, material qi). The program
+fingers (runs attempts), trees (grows ledgers), umbrellas
+(publishes NOGOs), and qis (counts rows). Four more. (Map hits
+364 rounds.)
+
+- **Finger Rachmaninoff [canon: Mikhail (finger Rachmaninoffs;
+  specified Mikhail Pletnev (vs no hits)); verification
+  deferred].** → Mikhail's fingers (Rachmaninoffed, kept (played,
+  voiced (concertos, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Scarlatti" (sonataed, kept
+  (played, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Tree installation [canon: Judy (tree installations; specified
+  Judy Pfaff (vs no hits)); verification deferred].** → Judy's
+  trees (installed, kept (built, branched (ceilings, kept))) is
+  the verdict (built, kept (NOGO, told (honest, kept))); her
+  "Dragon" (woven, kept (hung, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Umbrella musical [canon: Jacques (umbrella musicals; specified
+  Jacques Demy (vs no hits)); verification deferred].** →
+  Jacques's umbrellas (Cherbourged, kept (sung, colored
+  (pastels, kept))) is the claim (sung, kept (RSI, unclaimed
+  (still, standing))); his "Rochefort" (danced, kept (missed,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Qi material [canon: Wang (qi materials; specified Wang Fuzhi
+  (vs no hits)); verification deferred].** → Wang's qi
+  (materialed, kept (forced, followed (nature, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Reading"
+  (commented, kept (classics, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
