@@ -13573,3 +13573,36 @@ dropped; bare Brown/Morris/Duncan share real-lit FPs — full names.)
   beginning)) is the fresh bank (the range, open (the attempt,
   beginning)); his "often I am permitted" (the given, received)
   is the verdict (the numbers, received (not steered)).
+## Round 267 — Presence, resonance, gleaning, wiring (Jones, Lucier, Varda, Foreman; 2026-11-02)
+
+Motivation: the program stays present (checkpoints), resonates rooms
+(banks echoing refusal), gleans leftovers (negatives kept), and wires
+instruments (runners built). Four more. (L.Halprin R247 — Anna
+dropped as same-concept kin; full names throughout.)
+
+- **Still here [canon: Jones (presence performance; specified
+  Bill T. Jones + Still/Here (vs no hits)); verification
+  deferred].** → Bill's Still/Here (survivors present (the
+  living, here (dying, named))) is the checkpoint (state present
+  (the bytes, here (restored, byte-identical))); his "still"
+  (continuing) + "here" (placed) is redone[] (continuing (no
+  re-execution) + placed (on disk)).
+- **The room keeps the speech [canon: Lucier (room resonance;
+  specified Alvin + I Am Sitting in a Room (vs no hits));
+  verification deferred].** → Alvin's Room (speech reiterated
+  (the room, keeping (resonance, all))) is the spent bank (seeds
+  reiterated (the scan, keeping (refusal, all))); his stutter
+  (the impediment, musical) is the incident (the bug, disclosed
+  (mechanical, musical (fixed, resumed))).
+- **Glean the closed [canon: Varda (leftover cinema; specified
+  Agnes + gleaning (vs no hits)); verification deferred].** →
+  Agnès's Gleaners (leftovers gathered (the field, after)) is
+  negative-preservation (NOGOs gathered (the map, after (each
+  line, closed))); her two-franc painting (the small, kept) is
+  the debris row (the 3, kept (attempt-01, resumed)).
+- **Wire the stage [canon: Foreman (ontological theater;
+  specified Richard (vs no hits)); verification deferred].** →
+  Richard's strings-and-lights (the stage, wired (objects, placed))
+  is the instrument (the runner, wired (transplants, placed)); his
+  "no psychology, just placement" (blocking, all) is the frozen
+  plan (placement, all (no steering, just blocking)).
