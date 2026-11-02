@@ -23491,3 +23491,29 @@ and coasters (counts rows). Four more. (Map holds 602 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Coaster" (yak,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 595 — Probed, read, sirened, criticized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: from within — the model
+reads itself (already-cited intrinsic/self-awareness leads
+converging; internal family, four branches).
+
+- **Internal probe [arXiv:2511.06209 (Ni / ReProbe; vs
+  no hits)].** LIGHTWEIGHT step-verification (probe
+  internals; no expensive PRMs). → Probe the step
+  (our tick math, probe-side). Filed.
+- **Model-centric readout [arXiv:2601.16874 (Wu; vs no
+  hits)].** Training state as LATENT (anchor-relative
+  projections; unified readouts). → Read the state
+  (our digests, readout-side). Filed.
+- **Safety from within [arXiv:2604.18519 (Jiao / SIREN;
+  vs no hits)].** Safety NEURONS (internal layers;
+  adaptive weighting; no modification). → Guard from
+  within (our flat fees, neuron-side). Filed.
+- **Own critic [arXiv:2605.07579 (Choi; vs no hits)].**
+  Value from ACTOR states (baselines + diversity;
+  no separate critic). → Criticize yourself (our
+  adoption rule, critic-side). Filed.
+- Program note: probe steps, read states, guard
+  within, criticize self — the from-within file. None
+  licensed — filed.
