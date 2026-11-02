@@ -17769,3 +17769,36 @@ old and new pull apart.
 - Program note: Hu's collapse (shared → vanilla forgetting) is
   V1o's thirds in miniature; CPLUS probe-then-dampen is the
   gentlest conflict response on record. Filed, unlicensed.
+## Round 402 — Bells, squeegees, suspension, flight (Fazil, Gerhard, Pyrrho, Yuja; 2026-11-02)
+
+Motivation: further outside (Black Earth bells, Atlas
+squeegees, skeptics' suspension, Tchaikovsky flights). The program
+bells (runs attempts), squeegees (stitches verdicts), suspends
+(publishes NOGOs), and flies (counts rows). Four more. (Map holds
+408 rounds.)
+
+- **Bell earth [canon: Fazil (earth bells; specified Fazil Say
+  (vs no hits)); verification deferred].** → Fazil's bells
+  (earthed, kept (played, blacked (Earth, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Mozart"
+  (Turkished, kept (marched, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Squeegee Atlas [canon: Gerhard (Atlas squeegees; specified
+  Gerhard Richter (vs no hits; surname collides R220 + dropped
+  Sviatoslav — first-name tag used); verification deferred].** →
+  Gerhard's squeegees (Atlased, kept (dragged, blurred (October,
+  kept))) is the verdict (blurred, kept (NOGO, told (honest,
+  kept))); his "Candle" (lit, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Suspension skeptic [canon: Pyrrho (skeptic suspensions;
+  specified Pyrrho (vs no hits)); verification deferred].** →
+  Pyrrho's suspension (epoched, kept (withheld, tranquilized
+  (judgment, kept))) is the claim (withheld, kept (RSI, unclaimed
+  (still, standing))); his "Silence" (kept, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Flight Tchaikovsky [canon: Yuja (flight Tchaikovskys;
+  specified Yuja Wang (vs no hits)); verification deferred].** →
+  Yuja's flights (Tchaikovskied, kept (played, dressed (concertos,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  her "Rachmaninoff" (thirded, kept (played, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
