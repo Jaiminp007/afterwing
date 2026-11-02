@@ -80,6 +80,12 @@ verdicts — never run, never claimed); what would license new work.
   the arbitration question (who wins: prior or evidence). Hafez
   reliability-arbitration banked as a candidate mechanism
   (unlicensed: needs model + reliability estimate).
+- Arbitration mechanisms (R373): Fard classic STATES the wound
+  (habit = automated previously-rewarded actions, inflexible when
+  environments change — filed as the canonical description);
+  Jang ensemble-arbitration, Shan Pavlovian-hybrid (contextual CS),
+  Lin source-reasoning (+correlation bias) all banked UNLICENSED
+  (need ensemble/arbitrator, hybrid machinery, source model).
 - Convergent precedent + tension (R361): MedEinst's control+trap
   with flipped evidence ≅ our train/flip-split + HB gap (kin, not
   a line); but context-change OVERCOMES mental set in code
