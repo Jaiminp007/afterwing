@@ -49,3 +49,7 @@ or gradient-alignment machinery (Bai/Abbes/Dherin — all unlicensed).
 Second lens (R375/Gai ACTIVE FORGETTING): conservative learning can
 actively forget the learnt skill — V1o's thirds-training may have
 caused unlearning, not just interference. Compatible, untested.
+Third lens (R383/Hiratani): high INPUT similarity + LOW readout
+similarity is analytically the catastrophic cell — A/A2/A3 share
+the world but remap the readout. V1o sat exactly in it.
+Compatible, untested; verdict stands.
