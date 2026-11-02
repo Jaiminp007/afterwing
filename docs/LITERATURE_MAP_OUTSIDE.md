@@ -18816,3 +18816,31 @@ rounds.)
   consciousnessed (minds, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "New" (doctrined, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 439 — Collapsed, co-observed, prompted, masked (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: the forgetting mechanism — what
+breaks, what helps, what suffices (already-cited AFEC/Panetta not
+repeated; only the new branches are banked).
+
+- **Rank collapse [arXiv:2603.04580 (Zhu; vs no hits)].**
+  Structural collapse (eRank) → plasticity loss → overwrite;
+  accuracy hides the mechanism. → Movement≠decay: check the
+  rank, not the mean. Filed as the rank diagnostic.
+- **Co-observation [arXiv:2608.18803 (Hess; vs no hits)].**
+  Co-observation is the THIRD facet (beyond forgetting +
+  plasticity); separate data access from stability. → Our
+  legs never co-observe (sequential by design) — Hess names
+  the tax. Filed as the tax's third name.
+- **Prompted online [arXiv:2604.00653 (Hassani; vs no hits)].**
+  Prompt-based ONLINE continual learning (next-activity).
+  → Prompts as the carry mechanism (routing, not weights).
+  Unlicensed.
+- **Zero-forgetting masks [arXiv:2001.08714 (Masana; vs no
+  hits)].** Ternary feature masks; avoiding forgetting largely
+  COMPENSATES for no backward transfer. → Our legs in one
+  sentence: carry holds, gains don't transfer, and that's
+  most of it. Filed as the carry-sufficiency twin.
+- Program note: Masana + Hess together say the program's
+  posture is right-shaped (preserve first, transfer is bonus);
+  Zhu says watch rank not means. None licensed — filed.
