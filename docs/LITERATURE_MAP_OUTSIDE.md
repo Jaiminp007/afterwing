@@ -12156,3 +12156,75 @@ use); Louis Kahn via works (bare "Kahn" shares Kahneman FPs).)
   (attempt-13, 15 mains) follows the function (cure-vs-palliative)
   (the function, gated (the gates, cosmetic-free (the cosmetic,
   refused (streamlined R232 (the schools, agreeing)))))).
+## Round 236 — Organic machines (Wright, Corbusier, Mies, Ando; 2026-11-02)
+
+Motivation: V1l proved growth (0.59→0.84) from a halved start.
+Four modern masters — growth, machines, less, light. (Bare
+"Wright" shares Cartwright FPs; bare "Mies" shares enemies
+FPs; bare "Ando" noisy (57) — full names throughout.)
+
+- **Growth from the site [canon: F.L. Wright (organic
+  architecture; Fallingwater; specified Frank Lloyd (vs
+  Cartwright FPs)); verification deferred].** → Wright's
+  organic (the building grows from the site (not placed on
+  it (form and ground, one (Fallingwater over the waterfall
+  (the house, of the rock (not on it)))))) is the seg chain
+  (seg3 grows from seg1 (not placed after it (the trajectory,
+  of the start (0.84 OF 0.59 (not after it (the convergence,
+  grown (not added (the growth, lossy-initialized (the site:
+  halved weights (the building: recovered transfer))))))).
+  Usonia (the democratic house (for Everyman (the modest
+  dwelling (the many, housed))) is the 24 founders (Everyman,
+  identical (the dwelling: one topology (the many, housed
+  (fed or starved (the democracy, energetic (the vote:
+  births (the births, counted))))))). Organic persistence
+  (the building belongs (to its ground)) is M2-CLOSING
+  (the transfer belongs (to its train (recovered, not
+  replaced (the belonging, converged)))).
+- **The verdict machine [canon: Le Corbusier (machine for
+  living; Modulor); verification deferred].** → Corbusier's
+  house-machine (a house is a machine for living in (purist,
+  precise, inhabited (the machine, served (the servant,
+  mechanical)))) is the runner (an attempt is a machine for
+  verdicting in (15 mains in (GO out (the machine, frozen
+  (the frozen, mechanical))))). The Modulor (the human
+  measure (proportion from man (the golden (the standard,
+  embodied)))) is the cap table (the machine measure
+  (proportion from attempt (ticks 26880 (slots 645120 (ops
+  4.0e9 (the golden (the standard, frozen (the Modulor,
+  ledgered))))))))). Villa Savoye (the machine, raised
+  (on pilotis (the ground freed (below)))) is attempt-13
+  (the verdict, raised (on rows (the ground (evidence/)
+  freed (below (the rows, load-bearing (the pilotis,
+  protocol-hashed)))))). Machines for living, run by the
+  unliving (for verdicts (about learning (by no one)))).
+- **Less is more, enacted [canon: Mies van der Rohe
+  (Less-is-more; specified full name (vs enemies FPs));
+  verification deferred].** → Mies's less (the pared
+  (steel and glass (nothing extra (the more, from less))))
+  is ×0.5 (half the weights (twice the unlearning (the
+  more (HB 0.84) from less (halved transplant (the motto,
+  measured (the measurement: +0.25 (the more, quantified)))))).
+  The Barcelona pavilion (the refine (stone, water, steel
+  (each perfect (the perfection, quiet))) is V1l (the
+  refine (train, lossy, seg2, seg3 (each gated (the gates,
+  quiet (G1/G0/G2a/G2b/G2c/G2d (the quiet, conjunctive))))))).
+  Less-is-more as the program's engine (remove (exact-copy's
+  inertia (the removal, ×0.5); expose (the trajectory (the
+  exposure, seg-chained); converge (0.84 (the convergence,
+  Miesian (the master, vindicated (by rows))))).
+- **Concrete and verdict-light [canon: T. Ando (Church of
+  the Light; specified Tadao (vs noisy bare form));
+  verification deferred].** → Ando's concrete (poured once
+  (formwork exact (the pour, single (the concrete, cured
+  (the curing, waited)))) is the attempt (run once (bank
+  exact (the run, single (the rows, cured (the curing,
+  published))))). The Church of the Light (the cross cut
+  (in concrete (light through (the sacred, admitted (by
+  removal (the wall, slit (the slit, luminous)))))) is
+  dev-results.json (the GO cut (in rows (verdict through
+  (the true, admitted (by shrinkage (the weights, halved
+  (the halving, luminous (HB 0.84 (the light, measured))))))))).
+  Concrete that listens (Ando's walls, silent (holding light))
+  is the ledger (silent (holding verdicts (the holding,
+  hashed (the hash, concrete (the concrete, honest))))).
