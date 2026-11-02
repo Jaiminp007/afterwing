@@ -21979,3 +21979,31 @@ vibrations (counts rows). Four more. (Map holds 550 rounds.)
   (ripples, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Vibration" (bright, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 543 — Populated, compassed, mated, instructed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: co-evolution — evolve both
+sides, judge the outcome (already-cited self-play leads
+converging; evolution family, four branches).
+
+- **Co-evolving populations [arXiv:2605.16727 (Castanyer /
+  PopuLoRA; vs no hits)].** Teachers PROPOSE students
+  SOLVE (cross-evaluation replaces self-calibration).
+  → Propose and solve (our propose-evaluate-adopt,
+  population-side). Filed.
+- **Compass reward [arXiv:2609.32228 (Pu / CompassPlay; vs
+  no hits)].** Reward PROPOSER where it MOVES solver
+  (gradient alignment with targets). → Reward the
+  movement (our adoption liveness, proposer-side). Filed.
+- **Move-vs-win [arXiv:2610.02425 (Chai / XiangqiBench; vs
+  no hits)].** Finding move ≠ WINNING (carry plan to
+  VERIFIED outcome vs opponent). → Carry to outcome
+  (our G2a transfer, outcome-side). Filed.
+- **Instruction-policy [arXiv:2512.01945 (Zhou; vs no
+  hits)].** Instruction CO-EVOLVES as policy improves
+  (static instructions suboptimal). → Co-evolve the
+  frame (our frozen plan evolves across lines,
+  instruction-side). Filed.
+- Program note: propose+solve, reward movement, carry to
+  win, co-evolve frame — the co-evolution file. None
+  licensed — filed.
