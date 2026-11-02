@@ -15374,3 +15374,36 @@ surnames shared with real-lit canon; map hits 326 rounds.)
   is the ledger (grounded, kept (exact, told (all, counted)));
   his "Bed" (death, kept (art, slept)) is the verdict (published,
   kept (NOGO, told (honest, kept))).
+## Round 323 — Lifelong, sync, context, diffusion (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: neuromodulation — the family our
+surprise-gain belongs to (live-gated third factor).
+
+- **Lifelong via modulation [arXiv:2408.08446 (Lee; vs no hits)].**
+  Abstract framework integrating neuroscience/cognitive theories
+  (neuromodulatory systems) into adaptive RL design for
+  succession/distribution adaptation. → Our surprise-gain is one
+  such system (live-gated); the framework says the SIGNAL matters
+  (what the modulator tracks), not just the gate.
+- **Plasticity + transfer jointly [arXiv:2608.04358 (Rohani /
+  NeuMoSync; vs no hits)].** Neuron-specific modulation tracking
+  network-wide states; targets plasticity loss AND poor knowledge
+  transfer together. → Names our exact pair (saturation + wound)
+  as one joint problem. Our lines treat them separately (LoP-ish
+  saturation vs HB wound); the joint framing is new to us.
+- **Context modulation [arXiv:2111.00134 (Ben-Iwhiwhu; vs no
+  hits)].** Neuromodulation as a modular add-on: context
+  conditions a standard policy net for fast adaptation. →
+  Context-conditioned (not surprise-conditioned) modulation =
+  input-conditioning at policy level. SU's mask is per-tick
+  input-conditioned — same family, finer grain. A task-context
+  modulator needs task representation first (DTR blocker #1
+  again) — recorded as DTR-adjacent, not a line.
+- **Locality in simple nets [arXiv:1705.07241 (Velez; vs no
+  hits)].** Diffusion neuromodulation + modularity eliminates
+  forgetting in SIMPLE networks (locality isolates tasks). →
+  Substrate-level precedent at OUR scale (not LLM): retention via
+  locality, not capacity. Unlicensed (architectural; needs the
+  shared-trunk work first) but the closest existence proof that
+  small substrates can retain by structure.
