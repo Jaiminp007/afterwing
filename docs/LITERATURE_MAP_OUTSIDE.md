@@ -22214,3 +22214,29 @@ NOGOs across), and happinesses (counts rows). Four more. (Map holds
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Happiness" (staying, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 551 — Retrieved, counterfactualized, self-credited, timescaled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: credit — credit the middle
+not just the end (already-cited PAIR/step-credit leads
+converging; credit family, four branches).
+
+- **Retrieval credit [arXiv:2610.10179 (Huang; vs no
+  hits)].** BEYOND outcome rewards (construct + assign
+  RETRIEVAL credit; intermediate supervision). → Credit
+  the retrieval (our scorer, retrieval-side). Filed.
+- **Counterfactual Shapley [arXiv:2607.16999 (Li; vs no
+  hits)].** Separate SKILL from LUCK (counterfactual;
+  causal drivers vs spurious). → Separate lifted from
+  lucky (our copied-controls, causal-side). Filed.
+- **Self-credit [arXiv:2610.28388 (Yin; vs no hits)].**
+  Dense from sparse (SELF-generated; intra-group
+  rescaling; cite earlier turns). → Cite the turn
+  (our per-leg deltas, self-side). Filed.
+- **Multi-timescale credit [arXiv:2608.08255 (Huo; vs no
+  hits)].** Decompose trajectory rewards (MULTIPLE
+  timescales; history as supervision). → Decompose the
+  run (our flip-split, timescale-side). Filed.
+- Program note: credit retrieval, separate skill, cite
+  turns, decompose trajectories — the credit file. None
+  licensed — filed.
