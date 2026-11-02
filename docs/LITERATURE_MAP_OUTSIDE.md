@@ -16757,3 +16757,31 @@ task-inference + open-world (DTR's infer-not-given wing).
 - Shelf note: van de Ven (1904.07734) + Hafez (2107.04533) already
   bank DTR's infer-not-given lead (R327); these four extend that
   wing (detect-new + infer-latent). No line follows.
+## Round 366 — Extinguished, split, relapsed, nested (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: latent-cause inference — the
+computational theory of OUR wound and our trunk.
+
+- **Extinction as inference [arXiv:2205.04670 (Song; vs no
+  hits)].** Extinction works via inferring a NEW latent cause;
+  return-of-fear = the old cause re-winning. → Our wound's
+  theory: transfer = new codebook = new cause that never wins.
+  HB gap = inference failure, not erasure failure.
+- **Shared vs context [arXiv:2312.08519 (Lu / LCNet; vs no
+  hits)].** Shared structure in weights + context-specific in a
+  context module, learned jointly. → The trunk/head split NAMED
+  as architecture. Strongest DTR theory on record.
+- **Relapse model [arXiv:2411.08140 (Rajagopal / ConFER; vs no
+  hits)].** Context-dependent extinction recall + relapse,
+  neurally constrained, testable hypotheses. → Renewal modeled;
+  our flip-split is a renewal test already.
+- **Nested online [arXiv:2603.19139 (Aitsahalia / HOLMES; vs no
+  hits)].** Hierarchical latent structure via ONLINE inference
+  (generalization + discrimination). → Multiscale causes,
+  incrementally. Unlicensed.
+- Program note: latent-cause gating (infer the new codebook as a
+  new cause; gate avoidance by cause) is the first genuinely-NEW
+  rationale family for the third-mechanism hunt (not gain, not
+  selection, not scaling — inference). CANDIDATE (needs frozen
+  plan + fresh bank), not a line, not a claim.
