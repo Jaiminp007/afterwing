@@ -192,6 +192,11 @@ the map stays open, not empty.
 - R459 two timescales: FSA-first STRONG baseline (our shape
   embarrasses fancier); SAFE slow-fast; DualNet CLS (fast
   votes, slow carries); Tiwari update-vs-carry LLM-side.
+- R461 bounded state: InduceKV footprint twin (backbone
+  unchanged, delta externalized); Wan op-cap twin (spend
+  where the wound is); NSR lifecycle twin (compress→reserve
+  →recall→reallocate = our bank discipline); preempt
+  unlicensed.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
