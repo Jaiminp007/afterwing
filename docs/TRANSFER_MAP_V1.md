@@ -189,6 +189,9 @@ the map stays open, not empty.
   prompts; NESS leftover-capacity (wound, geometrically);
   PLASTIC first-session-frozen = our chain shape + named
   failure mode.
+- R459 two timescales: FSA-first STRONG baseline (our shape
+  embarrasses fancier); SAFE slow-fast; DualNet CLS (fast
+  votes, slow carries); Tiwari update-vs-carry LLM-side.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
