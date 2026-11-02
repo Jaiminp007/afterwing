@@ -20214,3 +20214,31 @@ and norths (counts rows). Four more. (Map holds 490 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "North" (learning, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 485 — Memoried, laddered, retained, aligned (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: residual editing — dedicated
+modules, minimal overwrite (already-cited editing leads not
+repeated; module-carry family, four branches).
+
+- **Residual memory [arXiv:2506.07899 (Wang / MEMOIR; vs no
+  hits)].** Dedicated residual module (MINIMAL overwrite +
+  INFORMED retention; core preserved). → Our preservation
+  posture, editing-side (carry the delta aside). Filed as
+  the module twin.
+- **Ladder compression [arXiv:2610.11160 (Yu / LadderEdit; vs
+  no hits)].** Edit-level RESIDUAL compression (cheap sketch;
+  probe-contract checked). → Compress the carry; verify by
+  probe (our digest + probe discipline, external twin).
+  Filed.
+- **Edit retention [arXiv:2507.14198 (Wen; vs no hits)].**
+  Does edited knowledge SURVIVE later fine-tuning? →
+  Retention analysis, editing-side (our leg-2 recovery
+  question, formalized). Filed as the survival twin.
+- **Subspace alignment [arXiv:2604.07965 (Das / DSCA; vs no
+  hits)].** DYNAMIC subspace alignment for lifelong VLM
+  editing (sequential edits misalign). → Align the
+  subspaces, not just the weights. Unlicensed.
+- Program note: dedicate modules, compress carries, verify
+  survival, align subspaces — the module-carry file. None
+  licensed — filed.
