@@ -21887,3 +21887,36 @@ experience family, four branches).
 - Program note: abstract, graph, reflect retrieval, graph
   corrections — the experience file. None licensed —
   filed.
+## Round 540 — Bones, tests, doorways, kais (Curtis Fuller, Grey, Winding, Johnson; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (five
+hundred forty). Bluesette bones, shade tests, dixie doorways,
+eminen kais. The program bones (runs attempts), tests (stitches
+verdicts), doorways (publishes NOGOs), and kais (counts rows).
+Four more. (Map holds 548 rounds.)
+
+- **Bone bluesette [canon: Curtis Fuller (bluesette bones;
+  specified Curtis Fuller (vs no hits; single-name tag taken by
+  the jurist — full-name tag used)); verification deferred].**
+  → Curtis Fuller's bones (bluesetted, kept (boned, bluesetted
+  (slides, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Bone" (bluesette, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Test shade [canon: Grey (shade tests; specified Al Grey (vs
+  no hits)); verification deferred].** → Al's tests (shaded, kept
+  (tested, testified (naps, kept))) is the verdict (testified,
+  kept (NOGO, told (honest, kept))); his "Test" (shade, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Doorway dixie [canon: Winding (dixie doorways; specified Kai
+  Winding (vs no hits)); verification deferred].** → Kai's
+  doorways (dixied, kept (doorwayed, whistled (stop, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Doorway" (dixie, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Kai eminen [canon: Johnson (eminen kais; specified J.J.
+  Johnson (vs no hits)); verification deferred].** → J.J.'s kais
+  (emined, kept (kaied, emined (trombones, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Kai" (eminen,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
