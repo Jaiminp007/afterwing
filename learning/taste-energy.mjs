@@ -23,8 +23,8 @@ function clip(state,value,bound=8){const m=math(state);return m.max(-bound,m.min
 
 export function createTasteEnergyBody(agentId,seed,options={}){
   assert.ok(options&&typeof options==='object'&&!Array.isArray(options));
-  keys(options,Object.keys(options).filter(k=>['tasteLearning','normalizeMotor','cueBlind','feedingRule','tasteRepresentation','tasteRate','capacity','recent','replayStrata','replayPasses','consolidationRate','motorConsolidationRate','streams','streamHysteresis','surpriseGain','surpriseWindow','phaseSlots','slotRate','marginWidth','marginBoost','replayTournament','replayRate','replaySkip','replaySurpriseGain','replayDamageGain','evictBias','motorAnchorRate','motorAnchorStrength','motorRepresentation','holdTicks','criticWarmStart','motorRule','renewalRate','greedyInference','slowAnchorRate','slowAnchorStrength','marginGateTau','selfMod','assocBrake','assocC0','assocDecay'].includes(k)));
-  const {tasteLearning=true,normalizeMotor=true,cueBlind=false,feedingRule='matching',tasteRepresentation='pairwise',tasteRate=.1,capacity=32,recent=8,replayStrata=1,replayPasses=1,consolidationRate=0,motorConsolidationRate=0,streams=1,streamHysteresis=0,surpriseGain=0,surpriseWindow=0,phaseSlots=1,slotRate=.05,marginWidth=0,marginBoost=0,replayTournament=1,replayRate=1,replaySkip=0,replaySurpriseGain=0,replayDamageGain=0,evictBias=0,motorAnchorRate=0,motorAnchorStrength=0,motorRepresentation='shared',holdTicks=16,criticWarmStart=false,motorRule='td',renewalRate=.1,greedyInference=false,slowAnchorRate=0,slowAnchorStrength=0,marginGateTau=0,selfMod=false,assocBrake=false,assocC0=2000,assocDecay=0}=options;
+  keys(options,Object.keys(options).filter(k=>['tasteLearning','normalizeMotor','cueBlind','feedingRule','tasteRepresentation','tasteRate','capacity','recent','replayStrata','replayPasses','consolidationRate','motorConsolidationRate','streams','streamHysteresis','surpriseGain','surpriseWindow','phaseSlots','slotRate','marginWidth','marginBoost','replayTournament','replayRate','replaySkip','replaySurpriseGain','replayDamageGain','replayThreatGain','evictBias','motorAnchorRate','motorAnchorStrength','motorRepresentation','holdTicks','criticWarmStart','motorRule','renewalRate','greedyInference','slowAnchorRate','slowAnchorStrength','marginGateTau','selfMod','assocBrake','assocC0','assocDecay'].includes(k)));
+  const {tasteLearning=true,normalizeMotor=true,cueBlind=false,feedingRule='matching',tasteRepresentation='pairwise',tasteRate=.1,capacity=32,recent=8,replayStrata=1,replayPasses=1,consolidationRate=0,motorConsolidationRate=0,streams=1,streamHysteresis=0,surpriseGain=0,surpriseWindow=0,phaseSlots=1,slotRate=.05,marginWidth=0,marginBoost=0,replayTournament=1,replayRate=1,replaySkip=0,replaySurpriseGain=0,replayDamageGain=0,replayThreatGain=0,evictBias=0,motorAnchorRate=0,motorAnchorStrength=0,motorRepresentation='shared',holdTicks=16,criticWarmStart=false,motorRule='td',renewalRate=.1,greedyInference=false,slowAnchorRate=0,slowAnchorStrength=0,marginGateTau=0,selfMod=false,assocBrake=false,assocC0=2000,assocDecay=0}=options;
   assert.ok(typeof assocBrake==='boolean');assert.ok(Number.isFinite(assocC0)&&assocC0>0);assert.ok(Number.isFinite(assocDecay)&&assocDecay>=0&&assocDecay<=1);
   assert.ok(Number.isFinite(slowAnchorRate)&&slowAnchorRate>=0&&slowAnchorRate<=1);
   assert.ok(marginGateTau===null||(Number.isFinite(marginGateTau)&&marginGateTau>=0));assert.ok(typeof selfMod==='boolean');
@@ -42,7 +42,7 @@ export function createTasteEnergyBody(agentId,seed,options={}){
   assert.ok(Number.isFinite(consolidationRate)&&consolidationRate>=0&&consolidationRate<=1);
   assert.ok(Number.isFinite(motorConsolidationRate)&&motorConsolidationRate>=0&&motorConsolidationRate<=1);
   assert.ok(Number.isInteger(streams)&&(streams===1||streams===2));assert.ok(Number.isInteger(replayPasses)&&replayPasses>=1);
-  assert.ok(Number.isFinite(streamHysteresis)&&streamHysteresis>=0&&streamHysteresis<=1);assert.ok(Number.isFinite(surpriseGain)&&surpriseGain>=0);assert.ok(Number.isInteger(surpriseWindow)&&surpriseWindow>=0);assert.ok(phaseSlots===1||phaseSlots===2);assert.ok(Number.isFinite(slotRate)&&slotRate>0);assert.ok(Number.isFinite(marginWidth)&&marginWidth>=0);assert.ok(Number.isFinite(marginBoost)&&marginBoost>=0);assert.ok(Number.isInteger(replayTournament)&&replayTournament>=1&&replayTournament<=3);assert.ok(Number.isFinite(replayRate)&&replayRate>0);assert.ok(Number.isFinite(replaySkip)&&replaySkip>=0);assert.ok(Number.isFinite(replaySurpriseGain)&&replaySurpriseGain>=0);assert.ok(Number.isFinite(replayDamageGain)&&replayDamageGain>=0);assert.ok(evictBias===-1||evictBias===0||evictBias===1);assert.ok(!(streams>1&&phaseSlots>1));assert.ok(!(consolidationRate>0&&phaseSlots>1));
+  assert.ok(Number.isFinite(streamHysteresis)&&streamHysteresis>=0&&streamHysteresis<=1);assert.ok(Number.isFinite(surpriseGain)&&surpriseGain>=0);assert.ok(Number.isInteger(surpriseWindow)&&surpriseWindow>=0);assert.ok(phaseSlots===1||phaseSlots===2);assert.ok(Number.isFinite(slotRate)&&slotRate>0);assert.ok(Number.isFinite(marginWidth)&&marginWidth>=0);assert.ok(Number.isFinite(marginBoost)&&marginBoost>=0);assert.ok(Number.isInteger(replayTournament)&&replayTournament>=1&&replayTournament<=3);assert.ok(Number.isFinite(replayRate)&&replayRate>0);assert.ok(Number.isFinite(replaySkip)&&replaySkip>=0);assert.ok(Number.isFinite(replaySurpriseGain)&&replaySurpriseGain>=0);assert.ok(Number.isFinite(replayDamageGain)&&replayDamageGain>=0);assert.ok(Number.isFinite(replayThreatGain)&&replayThreatGain>=0);assert.ok(evictBias===-1||evictBias===0||evictBias===1);assert.ok(!(streams>1&&phaseSlots>1));assert.ok(!(consolidationRate>0&&phaseSlots>1));
   const tasteDimensions=tasteRepresentation==='orthogonal'?16:11;
   assert.ok(['shared','appetite','intake','balance','ecology'].includes(motorRepresentation));assert.ok([1,4,16].includes(holdTicks));
   const motorDimensions=motorRepresentation==='shared'?16:motorRepresentation==='appetite'?48:motorRepresentation==='ecology'?96:64;
@@ -50,7 +50,7 @@ export function createTasteEnergyBody(agentId,seed,options={}){
   if(motorRule!=='td')assert.ok(holdTicks===1&&!criticWarmStart);
   assert.ok([tasteLearning,normalizeMotor,cueBlind,criticWarmStart,greedyInference].every(v=>typeof v==='boolean'));
   assert.ok(Number.isSafeInteger(agentId)&&agentId>0&&Number.isInteger(seed)&&seed>0&&seed<=0xffffffff);
-  return {schema:1,kind:'own-taste-energy',agentId,config:{...TASTE_ENERGY_DEFAULTS,tasteLearning,normalizeMotor,cueBlind,feedingRule,tasteRepresentation,tasteRate,capacity,recent,replayStrata,replayPasses,consolidationRate,motorConsolidationRate,streams,streamHysteresis,surpriseGain,surpriseWindow,phaseSlots,slotRate,marginWidth,marginBoost,replayTournament,replayRate,replaySkip,replaySurpriseGain,replayDamageGain,evictBias,tasteDimensions,motorRepresentation,motorDimensions,holdTicks,slowAnchorRate,slowAnchorStrength,marginGateTau,selfMod,motorAnchorRate,motorAnchorStrength,assocBrake,assocC0,assocDecay,...(criticWarmStart?{criticWarmStart:true}:{}),...(motorRule!=='td'?{motorRule,renewalRate}:{}),...(greedyInference?{greedyInference:true}:{})},
+  return {schema:1,kind:'own-taste-energy',agentId,config:{...TASTE_ENERGY_DEFAULTS,tasteLearning,normalizeMotor,cueBlind,feedingRule,tasteRepresentation,tasteRate,capacity,recent,replayStrata,replayPasses,consolidationRate,motorConsolidationRate,streams,streamHysteresis,surpriseGain,surpriseWindow,phaseSlots,slotRate,marginWidth,marginBoost,replayTournament,replayRate,replaySkip,replaySurpriseGain,replayDamageGain,replayThreatGain,evictBias,tasteDimensions,motorRepresentation,motorDimensions,holdTicks,slowAnchorRate,slowAnchorStrength,marginGateTau,selfMod,motorAnchorRate,motorAnchorStrength,assocBrake,assocC0,assocDecay,...(criticWarmStart?{criticWarmStart:true}:{}),...(motorRule!=='td'?{motorRule,renewalRate}:{}),...(greedyInference?{greedyInference:true}:{})},
     priorLogit:Math.log(3),tasteScale:1/Math.sqrt(tasteDimensions),
     weights:{taste:zeros(tasteDimensions),actor:zeros(motorDimensions),critic:zeros(motorDimensions),...(consolidationRate>0?{slowTaste:zeros(tasteDimensions)}:{}),...(slowAnchorStrength>0?{slowDir:zeros(tasteDimensions)}:{}),...(motorAnchorStrength>0?{slowMotorDir:zeros(motorDimensions)}:{}),...(motorConsolidationRate>0?{slowActor:zeros(motorDimensions),slowCritic:zeros(motorDimensions)}:{}),...(streams>1?{tasteB:zeros(tasteDimensions)}:{})},eligibility:{actor:zeros(motorDimensions),critic:zeros(motorDimensions)},
     credit:createStationaryTasteCredit(agentId,{maskedCue:cueBlind}),hold:{cruise:false,remaining:0},motorPending:null,tdRms:0,
@@ -58,7 +58,7 @@ export function createTasteEnergyBody(agentId,seed,options={}){
     feedRngState:seed,motorRngState:(seed^0x9e3779b9)>>>0||1,retentionRngState:(seed^0xa511e9b3)>>>0||1,replayRngState:(seed^0x63d83595)>>>0||1,
     decisions:0,lastDecisionTick:0,lastObservedTick:0,awaitingObservation:false,acquisition:true,dead:false,
     ...(assocBrake?{brakes:{}}:{}),
-    work:{scalarOperations:6,liveUpdates:0,replayUpdates:0,tasteLiveUpdates:0,motorUpdates:0,surpriseBoosts:0,marginBoosts:0,replaySkips:0,replaySurpriseBoosts:0,replayDamageBoosts:0,evictSwaps:0,...(assocBrake?{brakeUpdates:0}:{})},
+    work:{scalarOperations:6,liveUpdates:0,replayUpdates:0,tasteLiveUpdates:0,motorUpdates:0,surpriseBoosts:0,marginBoosts:0,replaySkips:0,replaySurpriseBoosts:0,replayDamageBoosts:0,replayThreatBoosts:0,evictSwaps:0,...(assocBrake?{brakeUpdates:0}:{})},
     charge:{operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0},
     ...(motorRepresentation==='balance'||motorRepresentation==='ecology'?{balance:{before:null,delta:0}}:{}),...(criticWarmStart?{criticReady:false}:{}),...(greedyInference?{inference:false}:{}),...(streams>1?{streamEma:[0,0],controller:0}:{}),...(surpriseGain>0?{surpriseEma:0}:{}),...(surpriseGain>0?{surpriseTimer:0}:{}),...(phaseSlots>1?{slot:[zeros(tasteDimensions),zeros(tasteDimensions)],gapEma:null,slotC:null,activeSlot:0,slotLastTick:null}:{})};
 }
@@ -251,16 +251,19 @@ function replayDraw(state,records,lo,hi){
   return records[best];
 }
 export function replayGated(state,record,emit){
-  const cfg=state.config,skip=cfg.replaySkip??0,h=cfg.replaySurpriseGain??0,d=cfg.replayDamageGain??0;
+  const cfg=state.config,skip=cfg.replaySkip??0,h=cfg.replaySurpriseGain??0,d=cfg.replayDamageGain??0,t=cfg.replayThreatGain??0;
   let boost=1;
-  if(skip>0||h>0||d>0){const m=math(state),w=cfg.phaseSlots>1?state.slot[record.slot??0]:undefined;
+  if(skip>0||h>0||d>0||t>0){const m=math(state),w=cfg.phaseSlots>1?state.slot[record.slot??0]:undefined;
     const err=m.sub(record.target,tastePrediction(state,record.phi,w)),err2=m.mul(err,err);
     if(skip>0&&m.less(err2,m.mul(skip,skip))){state.work.replaySkips++;return;}
     const ema=state.surpriseEma??0;
     if(h>0&&ema>1e-4&&m.less(m.mul(2,ema),err2)){boost=1+h;state.work.replaySurpriseBoosts++;}
     // Damage gate mirrors the surprise gate (single-knob discipline: arms never set both;
     // combination needs its own frozen plan). Damage checked after surprise; last-wins if combined.
-    if(d>0&&m.less(0,record.damage??0)){boost=1+d;state.work.replayDamageBoosts++;}}
+    if(d>0&&m.less(0,record.damage??0)){boost=1+d;state.work.replayDamageBoosts++;}
+    // Threat gate mirrors the damage gate (single-knob discipline: arms never combine
+    // gains; combination needs its own frozen plan). Threat checked after damage; last-wins if combined.
+    if(t>0&&record.outcomeSign===-1){boost=1+t;state.work.replayThreatBoosts++;}}
   tasteUpdate(state,record,'replay',emit,boost);}
 export function replay(state,emit){
   const records=[...state.older,...state.recent];
@@ -466,7 +469,7 @@ function restoreCheckedTasteEnergyBody(value,sample){
   }
   if(value.acquisition&&!value.dead&&(value.hold.remaining>0||value.awaitingObservation))assert.ok(value.motorPending);
   if(!value.acquisition||value.dead){assert.equal(value.motorPending,null);assert.ok(Object.values(value.eligibility).flat().every(v=>v===0));}
-  keys(value.work,['scalarOperations','liveUpdates','replayUpdates','tasteLiveUpdates','motorUpdates','surpriseBoosts','marginBoosts','replaySkips','replaySurpriseBoosts','replayDamageBoosts','evictSwaps']);for(const v of Object.values(value.work))assert.ok(Number.isSafeInteger(v)&&v>=0);
+  keys(value.work,['scalarOperations','liveUpdates','replayUpdates','tasteLiveUpdates','motorUpdates','surpriseBoosts','marginBoosts','replaySkips','replaySurpriseBoosts','replayDamageBoosts','replayThreatBoosts','evictSwaps']);for(const v of Object.values(value.work))assert.ok(Number.isSafeInteger(v)&&v>=0);
   assert.equal(value.work.liveUpdates,value.work.tasteLiveUpdates+value.work.motorUpdates);assert.equal(value.work.tasteLiveUpdates,value.tasteExamples);
   assert.ok(value.acquiredTasteExamples<=value.tasteExamples);assert.equal(value.olderSeen,Math.max(0,value.acquiredTasteExamples-(value.config.recent??8)));
   assert.ok(Array.isArray(value.recent)&&Array.isArray(value.older));assert.equal(value.recent.length,Math.min(value.config.recent??8,value.acquiredTasteExamples));assert.equal(value.older.length,Math.min((value.config.capacity??32)-(value.config.recent??8),value.olderSeen));

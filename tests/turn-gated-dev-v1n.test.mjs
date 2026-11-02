@@ -62,15 +62,11 @@ test('V1n structural source guard (dose blocks + range present)',()=>{
   assert.ok(src.includes('453001'),'runner must reference fresh-15 range');
   assert.ok(src.includes('turn-gated-dev-v1m.mjs'),'runner must import frozen V1m machinery');
 });
-test('V1n bank builds in tmpdir (9-schema, 54 unique, union-excluded)',()=>{
+test('V1n bank refuses rebuild post-spend (453xxx in prior evidence)',()=>{
+  // V1n PHASE-N-GO committed the bank; the tmpdir-build assumption is stale by
+  // bank lifecycle (V1k/V1l/V1m/T1/K1 precedent): expect refusal.
   const dir=mkdtempSync(join(tmpdir(),'v1n-bank-'));
-  const p=turnGateDevV1nBank(join(dir,'bank.json'));
-  assert.equal(p.experiment,'turn-gated-dev-v1n');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  for(const s of [453001,453054])assert.ok(flat.includes(s));
-  for(const s of [450001,451001,452001])assert.ok(p.excludedSeeds.includes(s));
+  assert.throws(()=>turnGateDevV1nBank(join(dir,'bank.json')),/already used in prior evidence/);
 });
 test('V1n collector joins synthetic decision+physical',()=>{
   const c=collectTurnChoice();

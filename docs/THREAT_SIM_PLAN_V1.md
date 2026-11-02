@@ -29,9 +29,15 @@ acquisition ≥+0.1 without impairing HB extinction?
   `record.outcomeSign===-1` (harmful intake, existing field), boost
   `1+threatGain`. Single-knob discipline (no arm sets surprise+dame+
   threat together). Billed like other boosts (+1 op, symmetric).
-- Arms (matched histories, standard pairs): baseline (gain 0) +
-  threat (gain 1.0, pre-registered, surprise-gain scale) + unlearned.
-  3 pairs × 3 tags = 9 mains, 0 probes. 1792-tick segs.
+- Arms (matched histories, standard pairs): baseline-train (gain 0) + threat-train
+  (gain 1.0, pre-registered, surprise-gain scale) + baseline-transferred (gain 0) +
+  threat-transferred (gain 0, threat-trained weights) + unlearned.
+  3 pairs × 5 runs = 15 mains, 0 probes. 1792-tick segs.
+- CORRECTION (pre-code, 2026-11-02): the frozen 3-tag/9-main count cannot isolate
+  the acquisition effect (a single 'threat' tag would carry gain 1.0 into transfer
+  replay, violating the gating scope). Threat gain 1.0 ONLY in threat-train runs;
+  threat-transferred runs gain 0 (difference from baseline-transferred is the
+  transplanted weights alone). Caps/fixtures updated accordingly. No gate change.
 - Gating scope: threat boost applies in TRAIN replay (acquisition);
   transfer replay runs the baseline rule on both arms (isolates the
   acquisition effect; transfer measures the consequence).
@@ -51,7 +57,7 @@ Module (5): gate validation; null-identity (gain 0 ≡ current path,
 fixture-level); threat boost math (outcomeSign −1 only; +1/0/−1 and
 missing-field cases); billing (+1 op); sources-closure guard.
 Instrument (7): collector valence; scorer GO/NOGO(tradeoff)/INVALID/
-INCOMPLETE branches; bank-build tmpdir; mains-caps check (3×3=9).
+INCOMPLETE branches; bank-build tmpdir; mains-caps check (3×5=15).
 
 ## Bank, caps, attempt discipline
 
@@ -61,8 +67,8 @@ INCOMPLETE branches; bank-build tmpdir; mains-caps check (3×3=9).
   **454001–454054**. VERIFIED clean 2026-11-02. attempt-01 + fresh-16
   verified free pre-freeze. Builder re-verifies; fixture-seeds after
   build; post-bank refusal; union-excluded (spent through 453xxx + own).
-- Caps: 9 mains / 0 probes / 16128 worldTicks / 387072 founderSlots /
-  2.0e9 scalar ops / 7200s wall. Fail-closed.
+- Caps: 15 mains / 0 probes / 26880 worldTicks / 645120 founderSlots /
+  3.0e9 scalar ops (1.2× linear est 2.4e9) / 9000s wall. Fail-closed.
 - ONE authorized attempt (attempt-01). `redone: []` expected; repair only
   result-independent one-line cap form with dual provenance.
 
