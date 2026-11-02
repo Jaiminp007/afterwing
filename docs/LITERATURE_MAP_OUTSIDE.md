@@ -15307,3 +15307,38 @@ aristocrats (withholds claims). Four more. (Map hits 324 rounds.)
   unmoved (still, standing))); his "Gavotte" (played, kept
   (Popper, studied)) is the verdict (published, kept (NOGO, told
   (honest, kept))).
+## Round 321 — Winners, supermasks, shared, invariant (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: subnetworks — the architectural
+cousin of SU's mask (mask-PER-TASK over frozen weights vs SU's
+mask-per-tick over plastic weights).
+
+- **Winning subnetworks [arXiv:2303.14962 (Kang; vs no hits)].**
+  WSN/SoftNet: task-adaptive (non-)binary masks + regularized
+  weights, reusing prior weights, small winning tickets,
+  forget-free. → Mask-per-task WITH weight learning (unlike
+  SupSup's frozen base). The family SU belongs to, one level up
+  (task-indexed vs tick-indexed).
+- **Supermask limits [arXiv:2210.10209 (Yadav; vs no hits)].**
+  SupSup (frozen random base + per-task supermask): no forgetting
+  BUT sub-optimal (fixed weights restrict power) AND no
+  accumulation/transfer inside supermasks. → The crucial caveat:
+  masks give RETENTION, not TRANSFER — our core fact (acquire≠
+  carry) restated architecturally. Tempers mask-per-task
+  enthusiasm: a C-line on masks would repeat the program's
+  central disappointment in a new costume. Recorded, unlicensed.
+- **Shared representations [arXiv:2604.21640 (Liu; vs no hits)].**
+  Multi-task RL overcomes single-task limits by LEVERAGING SHARED
+  REPRESENTATIONS for efficient adaptation. → Outside confirmation
+  of DTR blocker #1 (no shared trunk = no cross-task adaptation).
+  The blocker is the field's consensus premise, not our
+  idiosyncrasy.
+- **Invariant self [arXiv:2603.24350 (Jhunjhunwala; vs no hits)].**
+  Self = the invariant portion of cognitive process (changes
+  little vs rapidly-acquired skills); measured in continual
+  robots (constant vs changing task). → Our transplant digest IS
+  an invariance tracker (same weights across links); the wound
+  (HB collapse under preserved weights) = the invariant failing
+  where it matters. Analytical lens, not a line (no intervention
+  follows from a definition).
