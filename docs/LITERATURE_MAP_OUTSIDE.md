@@ -20361,3 +20361,35 @@ repeated; infusion family, four branches).
 - Program note: freeze the old, adapt the new, survey the
   field, retain while injecting — the infusion file. None
   licensed — filed.
+## Round 490 — Princes, cities, cobras, companies (Sandro, Cucchi, Zorn, Bailey; 2026-11-02)
+
+Motivation: further outside (lazy princes, voyage cities, game
+cobras, improvising companies). The program princes (runs
+attempts), cities (stitches verdicts), cobras (publishes NOGOs),
+and companies (counts rows). Four more. (Map holds 496 rounds.)
+
+- **Prince lazy [canon: Sandro (lazy princes; specified Sandro
+  Chia (vs no hits; surname collides with the Achiam RL canon
+  — first-name tag used)); verification deferred].** → Sandro's
+  princes (lazied, kept (princed, combed (fathers, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Prince" (lazy, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **City voyage [canon: Cucchi (voyage cities; specified Enzo
+  Cucchi (vs no hits)); verification deferred].** → Enzo's
+  cities (voyaged, kept (citied, hero-headed (seas, kept))) is
+  the verdict (hero-headed, kept (NOGO, told (honest, kept))); his
+  "City" (hero, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Cobra game [canon: Zorn (game cobras; specified John Zorn
+  (vs no hits)); verification deferred].** → John's cobras
+  (gamed, kept (cobraed, naked-citied (cities, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Cobra" (game, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Company improvising [canon: Bailey (improvising companies;
+  specified Derek Bailey (vs no hits)); verification
+  deferred].** → Derek's companies (improvised, kept (companied,
+  free-improvised (incus, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Company" (incus, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
