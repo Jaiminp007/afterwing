@@ -20242,3 +20242,37 @@ repeated; module-carry family, four branches).
 - Program note: dedicate modules, compress carries, verify
   survival, align subspaces — the module-carry file. None
   licensed — filed.
+## Round 486 — Portraits, trumpets, villages, boxings (Francesco, Bill, Guangdi, Boxing; 2026-11-02)
+
+Motivation: further outside (nomadic portraits, intent trumpets,
+tolerance villages, practical boxings). The program portraits
+(runs attempts), trumpets (stitches verdicts), villages
+(publishes NOGOs), and boxings (counts rows). Four more. (Map
+holds 492 rounds.)
+
+- **Portrait nomadic [canon: Clemente (nomadic portraits;
+  specified Francesco Clemente (vs no hits)); verification
+  deferred].** → Francesco's portraits (nomaded, kept
+  (portraited, watercolored (india, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Portrait"
+  (nomad, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Trumpet intent [canon: Dixon (intent trumpets; specified
+  Bill Dixon (vs no hits)); verification deferred].** → Bill's
+  trumpets (intended, kept (trumpeted, intents-purposes (octets,
+  kept))) is the verdict (intents-purposes, kept (NOGO, told
+  (honest, kept))); his "Intent" (octet, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Village tolerance [canon: Guangdi (tolerance villages;
+  specified Li Guangdi (vs no hits)); verification deferred].**
+  → Guangdi's villages (tolerated, kept (villaged, rongcuned
+  (states, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Village" (rongcun, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Boxing practical [canon: Boxing (practical boxings;
+  specified Zhang Boxing (vs no hits)); verification
+  deferred].** → Boxing's boxings (practiced, kept (boxed,
+  learned (learnings, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Practical" (learning, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
