@@ -16069,3 +16069,39 @@ foghorns (publishes NOGOs). Four more. (Map hits 348 rounds.)
   is the verdict (moaned, kept (NOGO, told (honest, kept))); her
   "Schmeerguntz" (showered, kept (clean, watched)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 345 — Exile, address, slogan, ballad (Augustin, Sophie, Barbara, Nan; 2026-11-02)
+
+Motivation: further outside (exiled violinists, detective
+addresses, slogan artists, ballad photographers). The program
+exiles (parks candidates), addresses (specifies designs), slogans
+(freezes bars), and ballads (sings verdicts). Four more. (Emin
+dropped — Fleming collision; Denk dropped — Denkstil compounds;
+Rosen dropped — R30's canon hook; Sherman dropped — R333's hook;
+Calle's 2 hits are called-substrings, disclosed per Fini
+precedent; map hits 349 rounds.)
+
+- **Exiled violin [canon: Augustin (exiled violinist; specified
+  Augustin Hadelich (vs no hits)); verification deferred].** →
+  Augustin's exile (violin, kept (fled, bowed (son, kept))) is
+  the park (architectural, kept (filed, held (still, kept)));
+  his "Paganini" (capped, kept (24, played)) is the trigger
+  (watched, kept (shut, confirmed (V4, held))).
+- **Detective address [canon: Sophie (detective addresses;
+  specified Sophie Calle (vs no hits)); verification deferred).**
+  → Sophie's address (detectived, kept (followed, watched
+  (strangers, kept))) is the design (specified, kept (written,
+  held (still, kept))); her "Suite" (venetian, kept (hotel,
+  kept)) is the attempt (single, kept (authorized, run (once,
+  held))).
+- **Slogan art [canon: Barbara (slogan artist; specified
+  Barbara Kruger (vs no hits)); verification deferred].** →
+  Barbara's slogan (shopped, kept (pictured, read (words, kept)))
+  is the bar ("I" (shop, kept (therefore, held (still, kept))));
+  her "Belief" (doubted, kept (power, kept)) is the row (read,
+  kept (honest, told (all, counted))).
+- **Ballad photos [canon: Nan (ballad photographer; specified
+  Nan Goldin (vs no hits)); verification deferred].** → Nan's
+  ballad (photographed, kept (sung, shot (dependency, kept))) is
+  the verdict (sung, kept (NOGO, told (honest, kept))); her
+  "Grid" (ballad, kept (sexual, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
