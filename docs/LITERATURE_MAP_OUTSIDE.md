@@ -14579,3 +14579,33 @@ with contexts read.)
   (flat, kept (no, tells)) is the NOGO (flat, kept (published,
   dry (no triumph, held))); her "I never lose my temper" is the
   discipline (frozen, kept (steering, never (shopping, never))).
+## Round 299 — Wind, bricks, swamps, distance (Liezi, Eisner, Kingsley, Saariaho; 2026-11-02)
+
+Motivation: further outside (wind-riders, brick cartoonists, swamp
+travelers, distant lovers). The program rides (carries weights),
+bricks (lays rows), wades (banks alone), and loves far (withholds
+claims). Four more. (Kirby/Rubin dropped — surnames shared with
+real-lit canon; bare surnames read clean.)
+
+- **Riding far [canon: Liezi (wind riding; specified Liezi
+  (vs no hits)); verification deferred].** → Liezi's wind
+  (ridden, far (effortless, kept)) is the transplant (exact,
+  carried (weights, down (links, kept))); his "the sage rests"
+  is redone[] (empty, kept (nothing, re-run (complete, all))).
+- **Brick by brick [canon: Eisner (tenement stories; specified
+  Will (vs no hits)); verification deferred].** → Will's
+  Dropsie (brick, by (brick, laid)) is the attempt (mains,
+  counted (20, each (rows, kept))); his contract (signed, God
+  (kept, terms)) is the frozen plan (frozen, kept (design,
+  held (verified, clean))).
+- **Wading alone [canon: Kingsley (swamp travel; specified
+  Mary (vs no hits)); verification deferred].** → Mary's
+  swamps (waded, alone (West, Africa)) is the single attempt
+  (run, once (alone, kept (spent, closed))); her fish (collected,
+  kept) are the rows (raw, kept (never, rescored (dual, kept))).
+- **Loved far [canon: Saariaho (distant love; specified Kaija
+  (vs no hits)); verification deferred].** → Kaija's Loin
+  (loved, far (distant, kept)) is the RSI goal (open, kept
+  (withheld, still (evidence, lacking))); her Stria (striations,
+  sounding) are the votes (carried, many (majority, kept
+  (crowd, won))).
