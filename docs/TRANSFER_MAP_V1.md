@@ -148,6 +148,11 @@ the map stays open, not empty.
   by error, training-free) filed as the transfer-chain operator;
   Halstead relevance-gating + evolution-pool (no replay) + reuse-selection
   bottleneck banked unlicensed.
+- R413 addendum: Sakai route-codebook (scored trajectory-vs-codebook
+  alignment) filed with DTR inference as the cleanest algorithmic
+  statement of the transfer test; Yi saturation warning (benchmarks
+  hide hard routing) adopted as method-caution; routed-CL paradigm +
+  hyperbolic reliability-routing banked unlicensed.
 - R411 addendum: transport-discrepancy joins max-discrepancy as the
   successor vote's statistic (both label-free, both per-step);
   behavioral rehearsal (hard-first) + BP-TTA (imbalance+shift) +
