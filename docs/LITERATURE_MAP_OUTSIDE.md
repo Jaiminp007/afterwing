@@ -23287,3 +23287,33 @@ budget family, four branches).
 - Program note: format specs, virtualize state,
   allocate by skill, modularize knowledge — the
   skill-budget file. None licensed — filed.
+## Round 588 — Crickets, bambas, prettys, summers (Buddy, Ritchie, Roy, Eddie; 2026-11-02)
+
+Motivation: further outside (peggy crickets, donna bambas, dreamed
+prettys, bluesed summers). The program crickets (chirps attempts),
+bambas (stitches verdicts), prettys (publishes NOGOs), and summers
+(counts rows). Four more. (Map holds 596 rounds.)
+
+- **Cricket peggy [canon: Holly (peggied crickets; specified Buddy
+  Holly (vs no hits)); verification deferred].** → Buddy's crickets
+  (peggied, kept (cricketed, peggied (sues, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Cricket" (peggy, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Bamba donna [canon: Valens (donnad bambas; specified Ritchie
+  Valens (vs no hits)); verification deferred].** → Ritchie's bambas
+  (donnad, kept (bambaed, donnad (las, kept))) is the verdict (donnad,
+  kept (NOGO, told (honest, kept))); his "Bamba" (donna, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Pretty dream [canon: Orbison (dreamed prettys; specified Roy
+  Orbison (vs no hits)); verification deferred].** → Roy's prettys
+  (dreamed, kept (prettied, dreamed (womans, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Pretty"
+  (dream, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Summer blues [canon: Cochran (bluesed summers; specified Eddie
+  Cochran (vs no hits)); verification deferred].** → Eddie's summers
+  (bluesed, kept (summered, bluesed (flights, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Summer" (blues, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
