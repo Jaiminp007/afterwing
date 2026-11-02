@@ -92,17 +92,12 @@ test('collector joins tick-cue decision+physical into turn-gaps with valence lab
   assert.ok(Math.abs(s.gap-1.0)<1e-9);
 });
 
-test('bank builds in tmpdir (48-unique, idempotent, experiment-pinned)',()=>{
+test('bank refuses rebuild (451xxx absorbed into union-exclusion by committed T1 bank)',()=>{
+  // K1 V1/V1A closed INVALID with no bank ever built; T1's committed bank lists
+  // 451001-451054 in excludedSeeds (range respected, never drawn). The tmpdir-build
+  // assumption is stale by bank lifecycle (V1k/V1l/V1m/T1 precedent): expect refusal.
   const dir=mkdtempSync(join(tmpdir(),'kernel-critic-dev-bank-'));
-  const p1=kernelCriticDevBank(join(dir,'protocol.json'));
-  assert.equal(p1.histories.length,6);
-  const flat=p1.histories.flatMap(h=>[h.seed,h.cueSeed,h.shuffleSeed,h.nullSeed,...h.resourceSeeds]);
-  assert.equal(new Set(flat).size,48);
-  assert.deepEqual(flat.slice(0,3),[451001,451002,451003]);
-  assert.deepEqual(p1.reservedSeeds,[451049,451050,451051,451052,451053,451054]);
-  const p2=kernelCriticDevBank(join(dir,'protocol.json'));
-  assert.deepEqual(p2,p1);
-  for(const s of [381001,395019,396001,407001,414001,418001,444001,447001,448001,449001,450001])assert.ok(p1.excludedSeeds.includes(s),`missing exclusion ${s}`);
+  assert.throws(()=>kernelCriticDevBank(join(dir,'protocol.json')),/already used in prior evidence/);
 });
 
 test('mains/probes caps match the frozen 6-history x 2-arm design (V1l 12-vs-15 lesson)',()=>{

@@ -377,3 +377,10 @@ to a NEW history (new codebook shuffle; frozen V1 rows: 6-7 flipped cues of
   redone[]. M2 flips to MET (addendum V2, bar applied verbatim).
   Line re-CLOSED (no V1n without new rationale). Cumulative 8070 (+18).
   M4 trigger 2 explicitly unfired (wrong measurement class). No RSI claim.
+
+## V1n (dose-peak mapping, 2026-11-02): PHASE-N-GO, line CLOSED
+Fresh-15 (453001-453054) spent, attempt-01 21/0/3.499e9 redone[]. Peak is a
+plateau: HB 0.950/0.953/0.951/0.951/0.934 across 0.05-0.25 (all +0.11-0.13
+over train 0.824); argmax 0.1 descriptive. 0.25 replicates V1m to 0.02.
+Dose-response complete 0.05-0.75 (plateau then step down). No second attempt.
+Cumulative 8103 (+21). No RSI claim.

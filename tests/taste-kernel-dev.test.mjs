@@ -60,15 +60,9 @@ test('taste-kernel scorer INCOMPLETE branch (baseline <0.5)',()=>{
   assert.equal(d.g0,false);
   assert.equal(d.verdict,'TK-INCOMPLETE-BASELINE');
 });
-test('taste-kernel bank builds in tmpdir (9-schema, 54 unique, union-excluded)',()=>{
+test('taste-kernel bank refuses rebuild post-spend (452xxx in prior evidence)',()=>{
   const dir=mkdtempSync(join(tmpdir(),'tk-bank-'));
-  const p=tasteKernelDevBank(join(dir,'bank.json'));
-  assert.equal(p.experiment,'taste-kernel-dev-v1');
-  assert.equal(p.histories.length,6);
-  const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-  assert.equal(new Set(flat).size,54);
-  for(const s of [452001,452054])assert.ok(flat.includes(s));
-  for(const s of [451001,451054,450001])assert.ok(p.excludedSeeds.includes(s),`spent seed ${s} must be excluded`);
+  assert.throws(()=>tasteKernelDevBank(join(dir,'bank.json')),/already used in prior evidence/);
 });
 test('taste-kernel mains-caps frozen-design + structural guard',()=>{
   assert.equal(TK_ARMS.length*TK_HISTORIES,TK_EXPECT_MAINS);
