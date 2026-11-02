@@ -23023,3 +23023,34 @@ wolves (stitches verdicts), lightnins (publishes NOGOs), and hookers
   (boomed, kept (hooked, boomed (boogies, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Hooker" (boom, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 579 — Hygiened, generated, evolved, de-varianced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: experience optimization —
+reuse the past but selectively (already-cited
+replay/self-evolution leads converging; reuse family, four
+branches).
+
+- **Memory hygiene [arXiv:2608.20664 (Singh / DreamBench;
+  vs no hits)].** Multi-session HYGIENE (non-inferable
+  evidence; hidden oracles; preregistered-successor
+  frozen-before-inspection). → Freeze the successor
+  (our frozen plans, hygiene-side). Filed.
+- **Generated experience [arXiv:2602.02556 (Li / SEAM; vs
+  no hits)].** GENERATE utility-optimized (beyond
+  retrieval; executor-specific; frozen executor). →
+  Generate the entry (our per-leg deltas,
+  generation-side). Filed.
+- **Evolving-RL [arXiv:2605.10663 (Fan; vs no hits)].**
+  Experience-DRIVEN self-evolving (distill reusable;
+  demands abstraction + generalization). → Distill
+  the reusable (our transfer map, evolution-side).
+  Filed.
+- **Variance-reduction replay [arXiv:2602.05379 (Zheng;
+  vs no hits)].** SELECTIVE reuse (informative
+  samples; not uniform; reduce variance). → Reuse
+  selectively (our fresh-bank rule, replay-side).
+  Filed.
+- Program note: freeze successors, generate entries,
+  distill reusable, reuse selectively — the
+  experience-opt file. None licensed — filed.
