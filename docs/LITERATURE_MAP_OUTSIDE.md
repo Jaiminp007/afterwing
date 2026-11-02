@@ -21009,3 +21009,31 @@ beauties (stitches verdicts), bops (publishes NOGOs), and browns
   vote (joined, kept (carried, won (crowd, kept))); his "Brown"
   (strings, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 511 — Metacognized, governed, monitored, trusted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: self-governance — metacognition
+as the framework (already-cited govern lead converging;
+governance family, four branches).
+
+- **Metacognition framework [arXiv:2605.23981 (Ji; vs no
+  hits)].** Metacognition FOR BOUNDED self-governance
+  (sustain yet govern generative activity). → Govern the
+  generator (our frozen-plan discipline, framework-side).
+  Filed as the framework twin.
+- **Governed state [arXiv:2608.14804 (Pissarra; vs no hits)].**
+  GENERATED context vs GOVERNED state (state-estimation
+  under partial observability). → Govern the state, not
+  the text (our scorer-state separation). Filed.
+- **Metacognitive control [arXiv:2505.13763 (Ji-An; vs no
+  hits)].** MONITORING + CONTROL of internal activations
+  (report strategies; obfuscation risk). → Monitor the
+  mechanism (our flame-graph discipline, control-side).
+  Filed.
+- **Trust the skill [arXiv:2604.16753 (Unlu; vs no hits)].**
+  WHEN TO TRUST (delayed appraisal; epistemic VIGILANCE;
+  overthinking). → Delay appraisal (our frozen-before-
+  evidence; vigilance = audit). Filed as the vigilance
+  twin.
+- Program note: frame, state, monitor, trust-late —
+  the govern file. None licensed — filed.
