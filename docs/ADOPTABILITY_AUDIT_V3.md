@@ -25,6 +25,14 @@ C9/C10 0) + V2 (C11/C12 18%, C13 single 22% / double 41%).
    too (nothing to compare), which is why G2b reads as selection
    value, not adoption difference.
 
+## Addendum 2026-11-02 (fee confound ruled out, read-only C14 votes)
+
+Adopted votes (n=28) mean fee 1079.5 vs rejected (n=113) mean fee
+1063.0 — essentially identical. Adoption does NOT track evaluation
+size: the 5% bar isn't easier on smaller evals, so the train→T2
+decline is about the weights/experience, not an eval-size artifact.
+The decline reading stands unconfounded.
+
 ## Nothing reopens
 
 V1/V2 stand; C14-NOGO stands. The audit sharpens the mechanism
