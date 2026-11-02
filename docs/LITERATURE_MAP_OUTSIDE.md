@@ -13345,3 +13345,37 @@ shares 69 capacity-substring FPs — full names throughout.)
   enough (the joining, exact))); his contact sheets (every frame
   (the take, all)) are the rows (every seed (the main, all
   (12/12 (the twelve, kept)))).
+## Round 260 — Sorrow and mirrors (Gorecki, Ligeti, Ashbery, Plath; 2026-11-02)
+
+Motivation: the program sings sorrowful songs (NOGOs, published) in
+many voices (24 founders, one texture) before mirrors (scorers). Four
+more. (All hooks verified virgin pre-append.)
+
+- **Sorrowful songs [canon: Gorecki (sorrow; specified Henryk
+  (vs no hits)); verification deferred].** → Henryk's Symphony of
+  Sorrowful Songs (a mother mourning (slowly (the slow,
+  unbearable))) is the NOGO sequence (a program mourning (slowly
+  (each line, closed (the closing, published)))); its slowness
+  (the same chord (an hour)) is the plateau (the same HB (0.95
+  (an alpha panel)))).
+- **Many voices, one texture [canon: Ligeti (micropolyphony;
+  specified Gyorgy (vs no hits)); verification deferred].** →
+  Gyorgy's micropolyphony (a hundred voices (each its own line
+  (the texture, one))) is the founder pool (24 weights (each its
+  own path (the behavior, one (join 1.00))))); his Requiem (for
+  the unanswered) is the RSI ledger (for the unclaimed (the
+  claim, withheld)).
+- **The scoring mirror [canon: Ashbery (convex reflection;
+  specified John (vs no hits)); verification deferred].** →
+  John's Self-Portrait in a Convex Mirror (the painting bent
+  (the poet, inside it)) is the dev-results file (the rows bent
+  (the scorer, inside them (contact-weighted (the bending,
+  exact))))); his "the experience of experience" is the sandbox
+  (retained experience (evaluated (on retained experience (the
+  recursion, bounded)))).
+- **The sealed bank [canon: Plath (bell jar; specified Sylvia
+  (vs no hits)); verification deferred].** → Sylvia's bell jar
+  (air sealed in (the air, stale)) is the spent bank (seeds sealed
+  in (never redrawn (the never, enforced))); her "I took a deep
+  breath and listened" is the triage (the suite run (listened to
+  (green (the green, required)))).
