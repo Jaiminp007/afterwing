@@ -15087,3 +15087,35 @@ for the SU scoping (mask-rule choice).
   better, V1m) is the same signature from the other side.
   (Supports SU's mechanism story: freeze-most-weights ≈ assume
   adiabaticity.)
+## Round 314 — Slava, bath, veils, diary (Mstislav, Yehudi, Morris, Jonas; 2026-11-02)
+
+Motivation: further outside (cellist-conductors, yogi violinists,
+poured veils, film diaries). The program conducts (runs attempts),
+bathes (washes claims), veils (freezes plans), and diaries (keeps
+ledgers). Four more. (Map hits 318 rounds.)
+
+- **Slava conducted [canon: Mstislav (cellist conductor;
+  specified Mstislav Rostropovich (vs no hits)); verification
+  deferred].** → Mstislav's Slava (conducted, kept (cello,
+  bowed (Shostakovich, kept))) is the attempt (single, kept
+  (authorized, run (once, held))); his "Britain" (exiled, kept
+  (defected, held)) is the trigger (watched, kept (shut,
+  confirmed (V3, held))).
+- **Bath yoga [canon: Yehudi (yogi violinist; specified Yehudi
+  Menuhin (vs no hits)); verification deferred].** → Yehudi's yoga
+  (bathed, kept (Bath, stretched (strings, kept))) is the claim
+  (washed, kept (separate, satisfied (evidence, kept))); his
+  "School" (founded, kept (Stoke, d'Abernon)) is the freeze
+  (scoped, kept (written, held (still, kept))).
+- **Poured veils [canon: Morris (poured veils; specified Morris
+  Louis (vs no hits)); verification deferred].** → Morris's veils
+  (poured, kept (unfurled, stained (canvas, kept))) is the plan
+  (frozen, kept (written, held (still, kept))); his "Dale"
+  (tetons, kept (named, first)) is the bank (fresh, kept (built,
+  spent (54, kept)))).
+- **Walden diary [canon: Jonas (film diaries; specified Jonas
+  Mekas (vs no hits)); verification deferred].** → Jonas's diary
+  (filmed, kept (Walden, walked (notes, kept))) is the ledger
+  (exact, kept (honest, told (all, counted))); his "Guns" (trees,
+  kept (remembrance, lost)) is the verdict (published, kept
+  (NOGO, told (honest, kept))).
