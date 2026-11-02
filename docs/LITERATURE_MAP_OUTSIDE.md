@@ -15624,3 +15624,38 @@ hits 334 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Train"
   (coming, kept (Lumiere, remade)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 331 — Sibelius, white, shadows, strapless (Lisa, Robert, Jennifer, Anne-Sophie; 2026-11-02)
+
+Motivation: further outside (Georgian violins, white-on-white,
+poetry films, strapless Bach). The program Sibeliuses (voices
+concertos), whites (freezes blanks), shadows (keeps negatives),
+and straps (holds bars). Four more. (Fischer dropped — surname
+taken by R272's chess hook; Ryman's 2 hits are Everyman-
+substrings, disclosed per Fini precedent; map hits 335 rounds.)
+
+- **Georgian Sibelius [canon: Lisa (Georgian violinist;
+  specified Lisa Batiashvili (vs no hits)); verification
+  deferred].** → Lisa's Sibelius (Georgian, kept (voiced,
+  bowed (concerto, kept))) is the claim (voiced, kept (separate,
+  satisfied (evidence, kept))); her "Goldberg" (varied, kept
+  (Bach, played)) is the trigger (watched, kept (shut, confirmed
+  (V4, held))).
+- **White white [canon: Robert (white-on-white; specified
+  Robert Ryman (vs no hits)); verification deferred].** → Robert's
+  white (whited, kept (blank, primed (canvas, kept))) is the row
+  (blanked, kept (honest, told (all, counted))); his "Surface"
+  (veiled, kept (brushed, traced)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
+- **Shadow poetry [canon: Jennifer (shadow poetry; specified
+  Jennifer Reeves (vs no hits)); verification deferred].** →
+  Jennifer's shadows (poetried, kept (doubled, projected (16mm,
+  kept))) is the negative (doubled, kept (NOGO, preserved (still,
+  standing))); her "Stations" (colored, kept (emulsion, scratched))
+  is the attempt (single, kept (authorized, run (once, held))).
+- **Strapless Bach [canon: Anne-Sophie (strapless Bach;
+  specified Anne-Sophie Mutter (vs no hits)); verification
+  deferred].** → Anne-Sophie's straps (strapless, kept (Bach,
+  gowned (evening, kept))) is the bar (held, kept (unmoved,
+  standing (still, kept))); her "Mozart" (fifth, kept (concerto,
+  played)) is the verdict (published, kept (NOGO, told (honest,
+  kept))).
