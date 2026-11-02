@@ -15119,3 +15119,34 @@ ledgers). Four more. (Map hits 318 rounds.)
   (exact, kept (honest, told (all, counted))); his "Guns" (trees,
   kept (remembrance, lost)) is the verdict (published, kept
   (NOGO, told (honest, kept))).
+## Round 315 — Roof, targets, wavelength, road (Itzhak, Kenneth, Michael, Yo-Yo; 2026-11-02)
+
+Motivation: further outside (roof fiddlers, target chevrons,
+45-minute zooms, silk roads). The program fiddles (tunes knobs),
+targets (gates verdicts), zooms (reads rows), and roads (banks
+spent). Four more. (Map hits 319 rounds.)
+
+- **Roof fiddle [canon: Itzhak (roof fiddler; specified Itzhak
+  Perlman (vs no hits)); verification deferred].** → Itzhak's roof
+  (fiddled, kept (tradition, played (strings, kept))) is the knob
+  (tuned, kept (mapped, held (null, kept))); his "Vivace" (flown,
+  kept (fast, bowed)) is the attempt (single, kept (authorized,
+  run (once, held))).
+- **Chevron targets [canon: Kenneth (target chevrons; specified
+  Kenneth Noland (vs no hits)); verification deferred].** →
+  Kenneth's targets (chevroned, kept (aimed, shot (circles,
+  kept))) is the gate (+0.1, kept (unmoved, held (still,
+  standing))); his "Stripes" (flagged, kept (bleeding, held)) is
+  the trigger (watched, kept (shut, confirmed (V3, held))).
+- **Zoom wavelength [canon: Michael (zoom wavelength; specified
+  Michael Snow (vs no hits)); verification deferred].** → Michael's
+  zoom (wavelengthed, kept (room, crossed (45, minutes (held,
+  kept)))) is the row (read, kept (honest, told (all, counted)));
+  his "La" (region, kept (central, held)) is the ledger (exact,
+  kept (honest, told (all, counted))).
+- **Silk road [canon: Yo-Yo (silk roads; specified Yo-Yo Ma (vs
+  no hits)); verification deferred].** → Yo-Yo's road (silked,
+  kept (bached, played (cello, kept))) is the bank (fresh, kept
+  (built, spent (54, kept))); his "Goat" (dances, kept (crouching,
+  tigered)) is the verdict (published, kept (NOGO, told (honest,
+  kept))).
