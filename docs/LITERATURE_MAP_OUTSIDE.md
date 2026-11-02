@@ -23317,3 +23317,31 @@ bambas (stitches verdicts), prettys (publishes NOGOs), and summers
   (joined, kept (carried, won (crowd, kept))); his "Summer" (blues, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 589 — Listened, diagnosed, debated, evaluated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: incomplete — the graph has
+holes, work anyway (already-cited robustness/validity leads
+converging; incomplete family, four branches).
+
+- **Evidence-aware sampling [arXiv:2610.35536 (Lin /
+  EARS; vs no hits)].** Uniform MISSES brief evidence
+  (motion + audio rank; training-free query-free).
+  → Rank by signal (our per-leg deltas,
+  sampling-side). Filed.
+- **Miss diagnosis [arXiv:2608.18489 (Wang / MissDiag;
+  vs no hits)].** Aggregate UNDER-SPECIFIES (source
+  of degradation; type of missing). → Specify the
+  source (our leg audit, diagnosis-side). Filed.
+- **Mixed-knowledge debate [arXiv:2511.12208 (Liu /
+  DoM; vs no hits)].** FUSE adaptively (complementary
+  strengths; multi-source debate). → Fuse the
+  sources (our synthesis addenda, debate-side).
+  Filed.
+- **Incompleteness evaluation [arXiv:2504.05163 (Zhou;
+  vs no hits)].** Essential info MISSING (systematic
+  under-incompleteness). → Evaluate under holes
+  (our G2b floor, evaluation-side). Filed.
+- Program note: rank signals, specify sources, fuse
+  debates, evaluate holes — the incomplete file. None
+  licensed — filed.
