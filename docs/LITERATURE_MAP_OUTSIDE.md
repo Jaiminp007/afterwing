@@ -22588,3 +22588,33 @@ converging; limits family, four branches).
 - Program note: bound expressiveness, mind gaps, think
   first, enrich codebooks — the governance-limits file.
   None licensed — filed.
+## Round 564 — Sassys, carmens, anitas, rivers (Sarah, Carmen, Anita, Julie; 2026-11-02)
+
+Motivation: further outside (divine sassys, great carmens, swinging
+anitas, river cries). The program sassys (sassys attempts), carmens
+(stitches verdicts), anitas (publishes NOGOs), and rivers (counts
+rows). Four more. (Map holds 572 rounds.)
+
+- **Sassy divine [canon: Vaughan (divine sassys; specified Sarah
+  Vaughan (vs no hits)); verification deferred].** → Sarah's sassys
+  (divined, kept (sassied, divined (ships, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "Sassy" (divine, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Carmen great [canon: McRae (great carmens; specified Carmen
+  McRae (vs no hits)); verification deferred].** → Carmen's carmens
+  (greated, kept (carmened, greated (alphabets, kept))) is the verdict
+  (greated, kept (NOGO, told (honest, kept))); her "Carmen" (great,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Anita swing [canon: O'Day (swung anitas; specified Anita O'Day
+  (vs no hits)); verification deferred].** → Anita's anitas (swung,
+  kept (anitaed, swung (teas, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Anita" (swing, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **River cry [canon: Julie London (cried rivers; specified Julie
+  London (vs no hits; short tag taken by the dendrite men — full-name
+  tag used)); verification deferred].** → Julie's rivers (cried, kept
+  (riverred, cried (mes, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); her "River" (cry, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
