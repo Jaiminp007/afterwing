@@ -354,6 +354,9 @@ the map stays open, not empty.
 - R561 assurance file: ledger-fragments;
   assure-scope; synthesize-beyond;
   verify-experience.
+- R563 governance-limits file: bound-expressiveness;
+  mind-gaps; think-first;
+  enrich-codebooks.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
