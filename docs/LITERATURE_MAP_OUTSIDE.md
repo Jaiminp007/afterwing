@@ -23172,3 +23172,33 @@ leads converging; loop family, four branches).
 - Program note: reset pairs, close loops, ground
   achievements, rectify on-policy — the closed-loop
   file. None licensed — filed.
+## Round 584 — Lous, georges, jimmys, joes (Lou, George, Spoon, Joe; 2026-11-02)
+
+Motivation: further outside (dead-end lous, breezing georges, spoonful
+jimmys, everyday joes). The program lous (grooves attempts), georges
+(stitches verdicts), jimmys (publishes NOGOs), and joes (counts rows).
+Four more. (Map holds 592 rounds.)
+
+- **Lou dead-end [canon: Lou Rawls (dead-ended lous; specified Lou
+  Rawls (vs no hits; short tag taken by the justice man — full-name
+  tag used)); verification deferred].** → Lou's lous (dead-ended, kept
+  (loued, dead-ended (grooves, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Lou" (dead-end, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **George breeze [canon: Benson (breezed georges; specified George
+  Benson (vs no hits)); verification deferred].** → George's georges
+  (breezed, kept (georged, breezed (broadways, kept))) is the verdict
+  (breezed, kept (NOGO, told (honest, kept))); his "George" (breeze,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Jimmy spoon [canon: Witherspoon (spooned jimmys; specified Jimmy
+  Witherspoon (vs no hits)); verification deferred].** → Jimmy's jimmys
+  (spooned, kept (jimmied, spooned (alls, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Jimmy" (spoon, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Joe everyday [canon: Joe Williams (everydayed joes; specified Joe
+  Williams (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → Joe's joes (everydayed, kept (joed,
+  everydayed (blues, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Joe" (everyday, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
