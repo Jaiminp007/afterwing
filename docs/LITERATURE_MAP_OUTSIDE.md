@@ -19491,3 +19491,31 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Tang"
   (previewed, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 461 — Footprinted, budgeted, preempted, reallocated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: fixed-footprint adaptation —
+bounded state, externalized carry (two-timescale family, four
+branches; R459 not repeated).
+
+- **Fixed footprint [arXiv:2607.02010 (Chen / InduceKV; vs no
+  hits)].** Backbone UNCHANGED; task updates externalized to
+  KV memories under FIXED budget. → Our frozen-plus-carry,
+  deployment-side (freeze the big, externalize the delta).
+  Filed as the footprint twin.
+- **Adaptive budgets [arXiv:2505.22358 (Wan; vs no hits)].**
+  Fixed budget NEGLECTS varying complexity (orthogonal-
+  subspace adapters). → Our op-caps, external twin (spend
+  where the wound is). Filed.
+- **Preempt [arXiv:2510.01282 (Chu; vs no hits)].** Remember,
+  adapt, PREEMPT (erroneous gradients accumulate under
+  dynamic shifts). → Preemption as the third verb (before
+  surprise drowns the vote). Unlicensed.
+- **Reallocation cycle [arXiv:2606.30067 (Yoon / NSR; vs no
+  hits)].** CL as memory MANAGEMENT: compress → reserve →
+  recall → reallocate (LoRAs as retrievable units). → Our
+  bank lifecycle (build/spend/freeze), agent-side. Filed as
+  the lifecycle twin.
+- Program note: the family bounds the state and externalizes
+  the carry; NSR is our bank discipline in miniature. None
+  licensed — filed.
