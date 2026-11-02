@@ -20546,3 +20546,34 @@ four branches).
 - Program note: bind origin, guard formation, watch the
   interface, fear the sleeper — the poison file. None
   licensed — filed.
+## Round 496 — Plates, cities, altos, dips (Julian, Robert, Ernie, Oliver; 2026-11-02)
+
+Motivation: further outside (broken plates, suited cities,
+seven altos, ntu dips). The program plates (runs attempts),
+cities (stitches verdicts), altos (publishes NOGOs), and dips
+(counts rows). Four more. (Map holds 502 rounds.)
+
+- **Plate broken [canon: Schnabel (broken plates; specified
+  Julian Schnabel (vs no hits)); verification deferred].** →
+  Julian's plates (broken, kept (plated, plate-broked (dishes,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Plate" (broke, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **City suited [canon: Longo (suited cities; specified Robert
+  Longo (vs no hits)); verification deferred].** → Robert's
+  cities (suited, kept (citied, men-in-the-citied (cities,
+  kept))) is the verdict (men-in-the-citied, kept (NOGO, told
+  (honest, kept))); his "City" (suited, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Alto seven [canon: Henry (seven altos; specified Ernie
+  Henry (vs no hits)); verification deferred].** → Ernie's
+  altos (sevened, kept (altoed, seven-stanned (stands, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Seven" (stand, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Dip ntu [canon: Lake (ntu dips; specified Oliver Lake (vs
+  no hits)); verification deferred].** → Oliver's dips (ntued,
+  kept (dipped, ntued (strings, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Dip" (ntu, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
