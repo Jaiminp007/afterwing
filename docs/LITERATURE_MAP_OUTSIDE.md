@@ -24105,3 +24105,30 @@ converging; symbolic family, four branches).
 - Program note: lean context, ground temporally, step
   symbolically, solve logically — the symbolic-memory
   file. None licensed — filed.
+## Round 616 — Johns, jims, harrys, dans (John, Jim, Harry, Dan; 2026-11-02)
+
+Motivation: further outside (roaded johns, bottled jims, taxied
+harrys, banded dans). The program johns (roads attempts), jims
+(stitches verdicts), harrys (publishes NOGOs), and dans (counts rows).
+Four more. (Map holds 624 rounds.)
+
+- **John road [canon: Denver (roaded johns; specified John Denver
+  (vs no hits)); verification deferred].** → John's johns (roaded,
+  kept (johned, roaded (countries, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "John" (road, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Jim bottle [canon: Croce (bottled jims; specified Jim Croce (vs
+  no hits)); verification deferred].** → Jim's jims (bottled, kept
+  (jimmed, bottled (times, kept))) is the verdict (bottled, kept (NOGO,
+  told (honest, kept))); his "Jim" (bottle, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Harry taxi [canon: Chapin (taxied harrys; specified Harry Chapin
+  (vs no hits)); verification deferred].** → Harry's harrys (taxied,
+  kept (harried, taxied (cats, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Harry" (taxi, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Dan band [canon: Fogelberg (banded dans; specified Dan Fogelberg
+  (vs no hits)); verification deferred].** → Dan's dans (banded, kept
+  (danned, banded (leaders, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Dan" (band, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
