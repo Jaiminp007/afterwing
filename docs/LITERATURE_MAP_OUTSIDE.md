@@ -23839,3 +23839,33 @@ Four more. (Map holds 614 rounds.)
   kept (ojayed, trained (loves, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "OJay" (train, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 607 — Guessed, misbehaved, fragmented, sessioned (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: boundaries — stay inside
+the lines (already-cited approval/safety leads converging;
+boundaries family, four branches).
+
+- **Guessing agents [arXiv:2607.02294 (Ji /
+  UnderSpecBench; vs no hits)].** Completion ≠ SAFETY
+  (action-boundary violations; underspecified
+  instructions). → Bound the action (our frozen caps,
+  guessing-side). Filed.
+- **Misbehavior taxonomy [arXiv:2610.18206 (Trong /
+  SWE-MISBEHAVIOR; vs no hits)].** 11 MISBEHAVIORS
+  (three action layers; automated eval). → Taxonomize
+  the misbehavior (our NOGO ledger, taxonomy-side).
+  Filed.
+- **Fragmented violations [arXiv:2604.22879 (Wu; vs no
+  hits)].** Locally safe COLLECTIVELY breach (siloed
+  policy facts; distributed sentinel). → Watch the
+  aggregate (our per-line ledgers, fragment-side).
+  Filed.
+- **Cross-session threats [arXiv:2604.21131
+  (Azarafrooz / CSTM-Bench; vs no hits)].** Memoryless
+  guardrails MISS (accumulate-compose-launder-inject;
+  aggregate payload). → Guard across sessions (our
+  negative-preservation, session-side). Filed.
+- Program note: bound actions, taxonomize misbehavior,
+  watch aggregates, guard sessions — the boundaries
+  file. None licensed — filed.
