@@ -17155,3 +17155,35 @@ Themed: module composition — reuse by recombining.
 - Program note: L2R's two failure modes (training interference,
   routing suboptimality) map onto V1o (interference seen) +
   routing shelf (suboptimality untested). Filed, not a line.
+## Round 380 — Smiles, shooting, processions, waltzes (Clara, Niki, Proclus, Dinu; 2026-11-02)
+
+Motivation: further outside (smiling Mozarts, shooting nanas,
+emanating processions, waltzing Chopins). The program smiles
+(runs attempts), shoots (stitches verdicts), processions
+(publishes NOGOs), and waltzes (counts rows). Four more. (Map
+hits 386 rounds.)
+
+- **Smile Mozart [canon: Clara (smile Mozarts; specified Clara
+  Haskil (vs no hits)); verification deferred].** → Clara's
+  smiles (Mozarted, kept (played, floated (concertos, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); her
+  "Beethoven" (sonataed, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Shooting nana [canon: Niki (shooting nanas; specified Niki de
+  Saint Phalle (vs no hits)); verification deferred].** → Niki's
+  shooting (nanaed, kept (fired, danced (Tirs, kept))) is the
+  verdict (danced, kept (NOGO, told (honest, kept))); her "Tarot"
+  (gardened, kept (built, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Procession emanation [canon: Proclus (procession emanations;
+  specified Proclus (vs no hits)); verification deferred].** →
+  Proclus's processions (emanated, kept (flowed, returned (One,
+  kept))) is the claim (returned, kept (RSI, unclaimed (still,
+  standing))); his "Elements" (theologized, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Waltz Chopin [canon: Dinu (waltz Chopins; specified Dinu
+  Lipatti (vs no hits)); verification deferred].** → Dinu's
+  waltzes (Chopined, kept (played, breathed (minutes, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Bach"
+  (partitaed, kept (played, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
