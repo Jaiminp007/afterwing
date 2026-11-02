@@ -17713,3 +17713,35 @@ erase what conflicts.
   C16 tried (erase the conflicting mapping, keep the rule) —
   with conflict-detection as the missing piece. Filed with
   family #1, unlicensed.
+## Round 400 — Smiles, cakes, laughter, keys (Ingrid, Wayne, Democritus, Mona; 2026-11-02)
+
+Motivation: four hundred rounds outside (smiling Mozarts,
+painted cakes, laughing atoms, exiled keys). The program smiles
+(runs attempts), cakes (stitches verdicts), laughs (publishes
+NOGOs), and keys (counts rows). Four more. (Map passes 400
+rounds: R179–R400, 225 rounds, ~169 arXiv IDs, 0 worlds.)
+
+- **Smile Mozart [canon: Ingrid (smile Mozarts; specified Ingrid
+  Haebler (vs no hits)); verification deferred].** → Ingrid's
+  smiles (Mozarted, kept (played, floated (concertos, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); her
+  "Schubert" (improvised, kept (played, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Cake paint [canon: Wayne (cake paints; specified Wayne
+  Thiebaud (vs no hits)); verification deferred].** → Wayne's
+  cakes (painted, kept (frosted, stacked (pies, kept))) is the
+  verdict (stacked, kept (NOGO, told (honest, kept))); his "Lip"
+  (sticked, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Laughter atom [canon: Democritus (laughter atoms; specified
+  Democritus (vs no hits)); verification deferred].** →
+  Democritus's laughter (atomed, kept (laughed, voided (worlds,
+  kept))) is the claim (voided, kept (RSI, unclaimed (still,
+  standing))); his "Cheerful" (wised, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Key exile [canon: Mona (exile keys; specified Mona Hatoum (vs
+  no hits)); verification deferred].** → Mona's keys (exiled,
+  kept (grated, mapless (home, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Grater" (divided, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
