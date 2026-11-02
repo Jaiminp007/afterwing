@@ -46,3 +46,6 @@ Doan/NTK-overlap: forgetting grows with task alignment. A/A2/A3
 interference → multi-train G0 fails. The pseudos were too similar.
 A future multi-codebook line wants DISSIMILAR pseudos (low overlap)
 or gradient-alignment machinery (Bai/Abbes/Dherin — all unlicensed).
+Second lens (R375/Gai ACTIVE FORGETTING): conservative learning can
+actively forget the learnt skill — V1o's thirds-training may have
+caused unlearning, not just interference. Compatible, untested.

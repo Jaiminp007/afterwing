@@ -86,6 +86,11 @@ open sentence into a work list — advancement, not closure.
   theory; ConFER (renewal modeled — our flip-split is a renewal
   test already); HOLMES (nested online). Theory shelf complete;
   substrate still the blocker.
+- R375 addendum: SANE (task-agnostic SELF-ACTIVATING modules —
+  infer-not-given + modularity combined) joins the wing as the 8th
+  reference; SEERL (diverse ensemble from one run) is the
+  constraint-compatible diversity note; Garcia (online-weighted)
+  is performance-arbitration precedent. All unlicensed.
   dependency-preservation is a CONSTRAINT (niche-model weights are
   structured — generation must respect it, not emit flat vectors).
 - R329 addendum: the isolate-vs-share tradeoff (CP-MoE) is the part-(i)
