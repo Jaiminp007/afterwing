@@ -20882,3 +20882,31 @@ mumbles (counts rows). Four more. (Map holds 512 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Mumble" (flugel, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 507 — Signaled, completed, recovered, harnessed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: failure teaches — negatives as
+training signal (already-cited negatives lead converging;
+failure family, four branches).
+
+- **Failed signals [arXiv:2603.03378 (Yang / AOI; vs no
+  hits)].** FAILED trajectories → TRAINING SIGNALS (closed
+  systems can't improve). → Our NOGOs are the training set
+  (closed lines still teach). Filed as the signals twin.
+- **Failed prefix [arXiv:2609.36924 (Idrees / TRACC; vs no
+  hits)].** SINGLE FAILED video suffices (usable prefix +
+  intended outcome). → The prefix teaches, the failure
+  locates (our leg-1 carries, failure-side). Filed.
+- **Failure recovery [arXiv:2409.14674 (Dai / RACER; vs no
+  hits)].** Language-guided RECOVERY policies (self-
+  recovery mechanisms). → Recover by instruction (our
+  lossy-transplant = recovery, policy-side). Filed.
+- **Harness from failure [arXiv:2608.02276 (Shao / Harness-
+  R1; vs no hits)].** EDIT THE HARNESS from failures
+  (lifecycle-wide learned capability). → Improve the
+  instrument, not just the weights (our harness
+  discipline, instrument-side). Filed as the harness
+  twin.
+- Program note: signal the failure, keep the prefix,
+  recover by instruction, edit the harness — the failure
+  file. None licensed — filed.
