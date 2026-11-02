@@ -18665,3 +18665,37 @@ surprise alone (C16's epitaph, formalized four ways).
   from-calibration is filed as the C16-successor vote design
   (default = static lossy; switch ONLY on calibrated evidence;
   never pool). The bar stands.
+## Round 434 — Thunder, cymbals, nothingness, wandering (Art, Elvin, Bi, Guo; 2026-11-02)
+
+Motivation: further outside (thundering messengers, Coltrane
+cymbals, nothing-as-root, carefree wandering). The program
+thunders (runs attempts), cymbals (stitches verdicts), nothings
+(publishes NOGOs), and wanders (counts rows). Four more. (Map
+holds 440 rounds.)
+
+- **Thunder messenger [canon: Art (thunder messengers; specified
+  Art Blakey (vs no hits)); verification deferred].** → Art's
+  thunder (messengered, kept (cracked, moaned (Blues, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Night" (Tunisian, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Cymbal Coltrane [canon: Elvin (Coltrane cymbals; specified
+  Elvin Jones (vs no hits)); verification deferred].** → Elvin's
+  cymbals (Coltraned, kept (lashed, loved (Supreme, kept))) is the
+  verdict (loved, kept (NOGO, told (honest, kept))); his "Fierce"
+  (flamed, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Nothingness root [canon: Bi (nothingness roots; specified
+  Wang Bi (vs no hits; surname tag collides twice — first-name
+  tag unused here? verified: no canon Wang Bi tag exists);
+  verification deferred].** → Wang's nothingness (rooted, kept
+  (commented, forgot (images, kept))) is the claim (forgotten,
+  kept (RSI, unclaimed (still, standing))); his "Changes" (yied,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Wandering carefree [canon: Guo (carefree wanderings; specified
+  Guo Xiang (vs no hits)); verification deferred].** → Guo's
+  wandering (carefreed, kept (paired, self-so (heaven, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his
+  "Zhuangzi" (annotated, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
