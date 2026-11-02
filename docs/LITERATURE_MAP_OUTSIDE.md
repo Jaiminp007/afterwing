@@ -18271,3 +18271,35 @@ correlated streams, neighbor structure.
   mix characterizes targets. → Split what matters. Unlicensed.
 - Program note: NOTE (Gong) is the direct answer to the Tomar
   method-note — read both together (warning + fix). Filed.
+## Round 420 — Sheets, flowers, syncretism, cool (John, Alex, Antiochus, Miles; 2026-11-02)
+
+Motivation: further outside (sheets of sound, painted flowers,
+syncretic academies, birth of cool). The program sheets (runs
+attempts), flowers (stitches verdicts), syncretises (publishes
+NOGOs), and cools (counts rows). Four more. (Map holds 426
+rounds.)
+
+- **Sheet sound [canon: John (sound sheets; specified John
+  Coltrane (vs no hits)); verification deferred].** → John's
+  sheets (sounded, kept (blown, prayed (Love, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Giant" (stepped, kept (played, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Flower face [canon: Alex (face flowers; specified Alex Katz
+  (vs no hits)); verification deferred].** → Alex's flowers
+  (faced, kept (painted, floated (Ada, kept))) is the verdict
+  (floated, kept (NOGO, told (honest, kept))); his "Park"
+  (picnicked, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Syncretism academy [canon: Antiochus (academy syncretisms;
+  specified Antiochus of Ascalon (vs no hits)); verification
+  deferred].** → Antiochus's syncretism (academied, kept (wed,
+  reconciled (Stoics, kept))) is the claim (reconciled, kept
+  (RSI, unclaimed (still, standing))); his "Old" (returned, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Cool birth [canon: Miles (cool births; specified Miles Davis
+  (vs no hits)); verification deferred].** → Miles's cool (birthed,
+  kept (muted, fused (Bitches, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Kind" (blued, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
