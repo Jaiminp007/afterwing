@@ -15562,3 +15562,33 @@ shared with R248's canon; map hits 332 rounds.)
   watched (silence, kept))) is the ledger (exact, kept (honest,
   told (all, counted))); his "Arbor" (vitam, kept (trees, kept))
   is the verdict (published, kept (NOGO, told (honest, kept))).
+## Round 329 — Gating theory, transient experts, librarian robots, expansion (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: mixture-of-experts for continual
+learning — the trunk+experts architecture DTR part (i) sketches.
+
+- **MoE theory [arXiv:2406.16437 (Li; vs no hits)].** First
+  theoretical characterization: the gating network sparsifies and
+  DISTRIBUTES diverse tasks among experts. → When/why the trunk+
+  experts works, in principle. Design guidance for part (i).
+- **Isolate-vs-share tradeoff [arXiv:2605.20247 (Liu / CP-MoE;
+  vs no hits)].** The fundamental tradeoff: isolate experts (no
+  transfer) vs share updates (forgetting); transient expert
+  captures early task signal as middle path. → Our program lives
+  inside this tradeoff (static arms = isolated; transplant =
+  shared). CP-MoE's transient expert is a specified middle path
+  worth stealing at design time.
+- **Librarian robots [arXiv:2506.05985 (Lei; vs no hits)].**
+  Lifelong ROBOT learning: progressive PEFT expert library, NO
+  test-time task identifier needed, knowledge sharing among
+  adapters. → Weakens the task-ID requirement (routing without
+  labels — with TAME/Hafez, three votes for infer-not-given).
+  Embodied + DTR-direct.
+- **Self-controlled expansion [arXiv:2504.10561 (Wu; vs no hits)].**
+  Static backbones fail diverse domains (inactive parameters);
+  SELF-CONTROLLED dynamic EXPANSION grows the model. → Growth as
+  a revision channel (capacity, not weights): genuinely new
+  (nothing in 14 lines grows anything — all dims fixed). Parked
+  architectural (needs dynamic capacity = substrate work,
+  DTR-adjacent).
