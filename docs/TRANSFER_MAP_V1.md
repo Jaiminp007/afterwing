@@ -348,6 +348,9 @@ the map stays open, not empty.
 - R557 forensics file: tag-paths;
   augment-tools; sleuth-wreckage;
   stage-verdicts.
+- R559 operations file: automate-guides;
+  operationalize-indicators; model-evidence;
+  search-resolved.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
