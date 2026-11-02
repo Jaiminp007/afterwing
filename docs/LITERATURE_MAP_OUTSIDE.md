@@ -13024,3 +13024,39 @@ bare "models" unclaimable — full names/methods throughout.)
   no future rewards))); his automatism (the hand, doing (before the
   head, deciding)) is the greedy rule (0.5 (doing before deliberating
   (the doing, proven)))).
+## Round 251 — Company and failure (Kurosawa, Miyazaki, Beckett, Grotowski; 2026-11-02)
+
+Motivation: the program runs companies (24 founders, matched) and fails
+better (every NOGO a better failure). Four directors of both. (Bare
+"ensemble" shares 9 blanket/code FPs; Brecht/Artaud already mapped R212 —
+full names/titles throughout.)
+
+- **The assembled company [canon: Kurosawa (seven together;
+  specified Akira (vs no hits)); verification deferred].** → Akira's
+  Seven Samurai (seven hired (each with a skill (the skill, one each)))
+  are the 24 founders (hired (each with a seed (the seed, one each)));
+  his recruitment (farmers who cannot fight (hire fighters (the
+  hiring, matched))) is the bank draw (histories that cannot learn
+  (hire learners (the hiring, union-excluded))).
+- **The indiscriminate eater [canon: Miyazaki (No-Face;
+  specified Hayao (vs no hits)); verification deferred].** → Hayao's
+  No-Face (eats everything (offered or not (growing (the growing,
+  monstrous)))) is the unlearned arm (eats everything (harmShare 0.49
+  (the eating, indiscriminate))); his bathhouse (names taken (debts
+  kept (the debt, worked off))) is the energy ledger (intake taken
+  (costs kept (the costs, billed))).
+- **Fail better [canon: Beckett (failing better; specified
+  Samuel (vs no hits)); verification deferred].** → Samuel's "fail
+  better" (ever tried, ever failed (no matter (try again (fail again
+  (fail better))))) is the program (every NOGO (a better failure
+  (threat +0.004 (better than damage +0.015 (better than flat
+  (the better, measured)))))); his Godot (waiting (for what never
+  comes (the coming, refused))) is the M4 trigger (waiting (for tax
+  <0.1 (the firing, refused (wrong class)))).
+- **The poor bank [canon: Grotowski (poor theatre; specified
+  Jerzy (vs no hits)); verification deferred].** → Jerzy's poor
+  theatre (no sets, no lights (the actor, enough)) is the null-default
+  (no new files when untouched (the branch, enough); gain 0 (the
+  behavior, identical)); his via negativa (remove, don't add (the
+  role, found (by taking away))) is the lossy transplant (remove
+  weights (×0.25 (don't add (the lift, found (by taking away))))).
