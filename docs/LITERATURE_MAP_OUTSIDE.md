@@ -20517,3 +20517,32 @@ rounds.)
   (blueses, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Murmur" (octet, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 495 — Bound, formed, poisoned-once, slept (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: memory poisoning — retaining is
+risking (already-cited risk lead not repeated; poison family,
+four branches).
+
+- **Origin-bound [arXiv:2606.24322 (Louck; vs no hits)].**
+  Content AND lineage both MALLEABLE; authority must be
+  non-malleable, ORIGIN-BOUND (machine-checked). → Bind
+  authority to origin, not content (our bank-SHA +
+  provenance, security-side). Filed as the provenance twin.
+- **Formation benchmark [arXiv:2610.14431 (Pan / MemForm; vs
+  no hits)].** FORMATION interfaces under-characterized
+  (channels/patterns/stages organized; formation not).
+  → Watch the commit interface (our bank-build =
+  formation; guard it). Filed as the formation twin.
+- **Poison once [arXiv:2604.02623 (Zou; vs no hits)].**
+  ENVIRONMENT-injected (observation alone contaminates);
+  poison ONCE, exploit FOREVER. → The environment writes
+  to memory (our cue-worlds write weights; guard the
+  interface). Filed as the interface twin.
+- **Sleeper [arXiv:2605.15338 (Pulipaka; vs no hits)].**
+  DELAYED corruption (external context → stored memory →
+  future influence). → Sleepers wake late (our wound woke
+  at transfer, not at train). Filed as the sleeper twin.
+- Program note: bind origin, guard formation, watch the
+  interface, fear the sleeper — the poison file. None
+  licensed — filed.
