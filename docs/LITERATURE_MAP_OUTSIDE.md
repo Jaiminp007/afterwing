@@ -13060,3 +13060,37 @@ full names/titles throughout.)
   behavior, identical)); his via negativa (remove, don't add (the
   role, found (by taking away))) is the lossy transplant (remove
   weights (×0.25 (don't add (the lift, found (by taking away))))).
+## Round 252 — Unstaged (Ozu, Cartier-Bresson, Arbus, Evans; 2026-11-02)
+
+Motivation: the program photographs (collectors join; rows persist) but
+never stages (no identity, no labels, no counterfactual rewards). Four
+photographers of the unstaged. (Bare "Evans" shares 4 vague-identity/
+anthropology FPs — full names throughout.)
+
+- **The empty tick [canon: Ozu (pillow shots; specified Yasujiro
+  (vs no hits)); verification deferred].** → Yasujiro's pillow shots
+  (empty rooms, landscapes (between scenes (the between, held))) are
+  the unjoined ticks (decisions without physicals (join 0.99 (the
+  0.01, held))); his stillness (nothing moves (the camera, low))
+  is the frozen instrument (nothing changes (the code, kept)).
+- **The decisive tick [canon: Cartier-Bresson (decisive moment;
+  specified Henri (vs no hits)); verification deferred].** →
+  Henri's decisive moment (the second (when form and content align
+  (the click, once))) is tick 224 (the median (first mating (form
+  (encounter) and content (birth) aligning (the alignment, once))));
+  his 35mm (small camera (always there)) is the per-tick probe
+  (small billing (always on)).
+- **The kept tail [canon: Arbus (outliers; specified Diane (vs no
+  hits)); verification deferred].** → Diane's freaks (photographed
+  directly (not explained (the directness, the point))) are the
+  left-tail rows (kept directly (not trimmed (the keeping, the
+  point (LEFT_TAIL_AUDIT)))); her frontality (facing the subject
+  (the flash, on)) is the negative-preservation rule (facing the
+  NOGO (publishing it (the publishing, exact))).
+- **The unstaged row [canon: Evans (documentary style; specified
+  Walker (vs identity/anthropology FPs)); verification deferred].**
+  → Walker's documentary style (no staging (the street, as found))
+  is the row schema (no staging (no labels (no fork outcomes (the
+  row, as found)))); his signage (words in the frame (read, not
+  written)) is the dev-results file (numbers in the frame (read,
+  not written (never rescored))).
