@@ -17411,3 +17411,25 @@ and frames (counts rows). Four more. (Map hits 394 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Plane"
   (curved, kept (split, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 389 — Deserved, hypothesized, surprised, noveltied (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: what earns keeping — deserving,
+hypotheses, surprise, novelty.
+
+- **Deserving memory [arXiv:2508.03341 (Ma / NEMORI; vs no hits)].**
+  What deserves retention = predictability; episodic→semantic
+  cascade. → Retention by future utility, learned not heuristed.
+- **Hypothesis refinement [arXiv:2604.04108 (Chen; vs no hits)].**
+  Hypothesis-driven exploration + CASCADE error correction;
+  erroneous predictions propagate (confidence attenuation
+  insufficient). → Errors compound; correct in cascade. Embodied.
+- **Surprise classic [arXiv:1703.01732 (Achiam; vs no hits)].**
+  Surprise-based intrinsic motivation for deep RL (sparse
+  rewards). → The classic; explore what surprises.
+- **Surprise novelty [arXiv:2308.04836 (Le; vs no hits)].**
+  Reward the NOVELTY of surprise (memory retrieval errors), not
+  the norm — reduces attraction to noise. → The dilution
+  antidote in miniature: familiar confirming contacts discounted,
+  novel flipped surprises counted. EXACTLY the flipped-conditional
+  direction. Filed with the C16-successor design, unlicensed.
