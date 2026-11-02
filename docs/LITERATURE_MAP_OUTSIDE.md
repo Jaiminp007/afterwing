@@ -18699,3 +18699,29 @@ holds 440 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Zhuangzi" (annotated, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 435 — Sandwiched, allocated, trajectoried, lifted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: residuals — small corrections on
+frozen foundations (C16-done-right, four more ways).
+
+- **Frozen+residual [arXiv:2609.21740 (Soni; vs no hits)].**
+  FROZEN world model + small residual corrections around the
+  predictor, online. → RAEGL's twin. The pattern repeats:
+  freeze the big, learn the small delta. Unlicensed.
+- **Evidence residuals [arXiv:2608.27964 (Wang / AERA; vs no
+  hits)].** Adaptive evidence-residual allocation; evidence can
+  STRENGTHEN before collapse (non-monotonic). → Current evidence
+  ≠ done. C16's L (+4k..+10k) misread as confidence is exactly
+  this error. Filed as the L-reading caution.
+- **Hidden trajectories [arXiv:2610.24220 (Sabour / Drift-TTA;
+  vs no hits)].** Trajectories don't lie (clean vs corrupted
+  separate with severity); zero-init adapters align them. →
+  Our trajectories as the evidence. Unlicensed.
+- **Dual lifting [arXiv:2408.13983 (Tang; vs no hits)].**
+  Dual-path lifting (principal vs noise) + domain-shift token.
+  → Separate signal from shift, tokenize the shift. Unlicensed.
+- Program note: AERA's non-monotonicity (strengthen-then-
+  collapse) is filed on C16's voteL (+4k looked confident;
+  confidence ≠ correctness). RAEGL + sandwich = the frozen+
+  delta pattern, twice confirmed.
