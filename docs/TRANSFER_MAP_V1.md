@@ -269,6 +269,9 @@ the map stays open, not empty.
 - R505 evolve file: density-budget (budget twin);
   adapt-effort (spend-where-wound seconded); distill-
   trajectory; negatives-teach (uncertainty twin).
+- R507 failure file: failed→signals (signals twin);
+  failed-prefix (leg-carry twin); recover-by-instruction
+  (recovery twin); edit-the-harness (harness twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
