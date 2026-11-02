@@ -20004,3 +20004,38 @@ carry-across family, four branches).
 - Program note: portable behavior, generated banks, patch
   carries, latent channels — the portability file. None
   licensed — filed.
+## Round 478 — Pictures, birds, gatherings, meetings (Giulio, Charlie, Xinyin, Rufang; 2026-11-02)
+
+Motivation: further outside (young-man pictures, ornithology
+birds, filial gatherings, winter meetings). The program pictures
+(runs attempts), birds (stitches verdicts), gatherings (publishes
+NOGOs), and meetings (counts rows). Four more. (Map holds 484
+rounds.)
+
+- **Picture young-man [canon: Paolini (young-man pictures;
+  specified Giulio Paolini (vs no hits)); verification
+  deferred].** → Giulio's pictures (young-maned, kept (pictured,
+  georged (browsers, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Picture" (george-attired, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Bird ornithology [canon: Charlie (ornithology birds;
+  specified Charlie Parker (vs no hits; single-name tag belongs
+  to the sperm biologist — first-name tag used)); verification
+  deferred].** → Charlie's birds (ornithologied, kept (birded,
+  yardbirded (savoy, kept))) is the verdict (yardbirded, kept
+  (NOGO, told (honest, kept))); his "Bird" (savoy, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Gathering filial [canon: Xinyin (filial gatherings;
+  specified He Xinyin (vs no hits)); verification deferred].** →
+  Xinyin's gatherings (filialed, kept (gathered, dutied (sons,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Gathering" (red, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Meeting winter [canon: Rufang (winter meetings; specified
+  Luo Rufang (vs no hits)); verification deferred].** → Rufang's
+  meetings (wintered, kept (met, wintered (hearts, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Winter"
+  (meeting, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
