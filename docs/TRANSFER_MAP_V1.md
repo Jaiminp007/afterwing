@@ -309,6 +309,9 @@ the map stays open, not empty.
 - R531 doing file: belief≠doing (belief twin);
   refine-trajectory; attribution-or-simulation
   (simulation twin); say≠do (structural twin).
+- R533 refine file: closed-loop (control twin);
+  round-detection (triage twin); reshape-mass;
+  detection-to-fix (pipeline twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
