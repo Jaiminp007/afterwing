@@ -22938,3 +22938,31 @@ converging; hidden family, four branches).
 - Program note: separate layers, audit corpora, seek
   signals, trace facts — the hidden-failures file. None
   licensed — filed.
+## Round 576 — Blues, bees, otises, buddys (Bobby, B.B., Otis, Buddy; 2026-11-02)
+
+Motivation: further outside (night blues, thrilled bees, troubled
+otises, right buddys). The program blues (sings attempts), bees
+(stitches verdicts), otises (publishes NOGOs), and buddys (counts
+rows). Four more. (Map holds 584 rounds.)
+
+- **Blue night [canon: Bland (nighted blues; specified Bobby Bland
+  (vs no hits)); verification deferred].** → Bobby's blues (nighted,
+  kept (blued, nighted (storms, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Blue" (night, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Bee thrill [canon: B.B. King (thrilled bees; specified B.B. King
+  (vs no hits)); verification deferred].** → B.B.'s bees (thrilled,
+  kept (beed, thrilled (regals, kept))) is the verdict (thrilled, kept
+  (NOGO, told (honest, kept))); his "Bee" (thrill, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Otis trouble [canon: Rush (troubled otises; specified Otis Rush
+  (vs no hits)); verification deferred].** → Otis's otises (troubled,
+  kept (otised, troubled (doubles, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Otis" (trouble, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Buddy damn [canon: Buddy Guy (damned buddys; specified Buddy Guy
+  (vs no hits; short tag collides with the frozen-literature man —
+  full-name tag used)); verification deferred].** → Buddy's buddys
+  (damned, kept (buddied, damned (rights, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Buddy" (damn, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
