@@ -18196,3 +18196,26 @@ dummies (stitches verdicts), ends (publishes NOGOs), and blocks
   the vote (joined, kept (carried, won (crowd, kept))); his
   "Missa" (solemned, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 417 — Unmixed, unmixed, experted, minimaxed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: un-mixing — separate the streams
+before adapting (whole-batch adaptation fails mixed worlds).
+
+- **Un-mix streams [arXiv:2411.15173 (Su; vs no hits)].**
+  TTA under heterogeneous streams: BEYOND whole-batch adaptation.
+  → Separate first, adapt second. Unlicensed.
+- **Un-mix statistics [arXiv:2401.08328 (Tomar / UnMix-TNS; vs no
+  hits)].** Per-instance re-calibration; i.i.d. batches assumed,
+  temporal correlation breaks them. → Our transfer rows ARE
+  temporally correlated (same world, sequential ticks). Filed.
+- **Expert paths [arXiv:2511.13760 (Fan / MoETTA; vs no hits)].**
+  MoE-LayerNorm for mixed shifts (unified path fails; gradient
+  directions vary by domain). → One path per domain. Unlicensed.
+- **Minimax alignment [arXiv:2410.01709 (Tao / Meta-TTT; vs no
+  hits)].** Meta-minimax aligns SSL with the primary objective;
+  entropy-min fails on low-diversity batches. → Align the
+  auxiliary with the goal; entropy lies when batches bore.
+- Program note: Su's separate-first + Tomar's per-instance
+  statistics are the un-mixing shelf; Tomar's temporal-
+  correlation warning applies to our rows directly. Filed.
