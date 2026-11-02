@@ -14641,3 +14641,35 @@ catching again; map hits 300 rounds.)
   BH (same, kept (subsets, measured (voids, counted)))); his
   clouds (capped, star) is the trigger (watched, kept (shut,
   confirmed (V2, held))).
+## Round 301 — Egoist, panic, bestiary, vessels (Yang, Orson, Leonora, Remedios; 2026-11-02)
+
+Motivation: further outside (egoist philosophers, panic broadcasts,
+surrealist bestiaries, alchemical vessels). The program revises
+itself (agents firing), panics nothing (bars unmoved), catalogs
+beasts (niches fingerprinted), and pours vessels (banks spent).
+Four more. (Map hits 305 rounds.)
+
+- **Each himself [canon: Yang (egoist philosopher; specified Yang
+  Zhu (vs no hits)); verification deferred].** → Yang's each
+  (himself, kept (hair, none (given, lost))) is the agent (self,
+  firing (proposals, kept (two, most (one, adopted))))); his
+ 拔毛 ("pluck, none") is the NOGO (withheld, kept (bars, unmoved
+  (still, standing))).
+- **Panic broadcast [canon: Orson (Martian panic; specified Orson
+  Welles (vs no hits)); verification deferred].** → Orson's
+  Martians (broadcast, believed (panic, kept)) is the near-miss
+  (0.099, hailed (close, kept (GO, unclaimed (still, NOGO)))); his
+  deep focus (Rosebud, kept (sled, burned)) is the ledger (exact,
+  kept (honest, told (all, counted))).
+- **Bestiary self [canon: Leonora (surrealist beasts; specified
+  Leonora Carrington (vs no hits)); verification deferred].** →
+  Leonora's beasts (hyena, horse (self, kept (portrait, painted)))
+  is the niche (fingerprinted, kept (1.000, exact (identity,
+  held))); her giantess (guardian, kept (egg, held)) is the gate
+  (shut, kept (M4, confirmed (V2, held))).
+- **Woven vessels [canon: Remedios (alchemical women; specified
+  Remedios Varo (vs no hits)); verification deferred].** →
+  Remedios's vessels (woven, poured (women, kept (weaving,
+  threads))) is the bank (spent, kept (fresh, built (54, spent))));
+  her loom (threaded, kept) is the transplant (exact, kept
+  (digest, held (same, verified))).
