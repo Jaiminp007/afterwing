@@ -221,6 +221,9 @@ the map stays open, not empty.
 - R475 forgetting file: reasonable > none (lossy twin);
   unlearn-bad-alignments (removal twin); discard-required
   (stratified); share-reasoning (sharing twin).
+- R477 portability file: reusability metric (heterogeneity
+  twin); procedural generators (bank twin); patch carries
+  (transplant twin); latent channels (carry twin).
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
