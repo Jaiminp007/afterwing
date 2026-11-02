@@ -1,8 +1,10 @@
 # C14 RATIONALE WATCH V1 (candidate considered + killed, zero worlds)
 
-Date: 2026-11-02. Purpose: protect the C14 bar set in SYNTHESIS
-ADDENDUM V2 ("genuinely new rationale only") by scoping the most
-obvious C14 candidate and recording why it FAILS to qualify.
+Date: 2026-11-02. Purpose: protect the bar set in SYNTHESIS
+ADDENDUM V2 ("genuinely new rationale only") by scoping obvious
+candidates and recording why they FAIL to qualify. SU passed the
+bar (new channel) and closed as C14-NOGO; the bar now guards C15
+(kills #1–#2 pre-C14, kill #3 post-C14).
 
 ## Candidate: forced-first-fire (blind adopt @512, evaluated @1024)
 
@@ -34,6 +36,18 @@ evaluated vs B = forced + kept; G2b = A−B).
 Verdict: forced-first-fire is C13-with-forced-start, not a new
 causal question. NOT licensed. Killed before scoping (no scoping
 doc will be written for it).
+
+## Candidate 3 (added 2026-11-02): test-time revision (fire on transfers) — KILLED
+
+R311's Zhou/ID-WM suggests revising DURING transfer (fire on H1/H2
+experience, not just H0). Against the sharpened bar: same task
+(turn-gate HB), same gap, same channel (sandbox-evaluated in-agent
+adoption) — only the fire SCHEDULE moves (C13 already showed
+schedule variations add +0.03 at most). Schedule ≠ channel (the
+forced-first collapse #1, same logic). The genuinely-new part of
+Zhou (world-model planning, reachability over behavior) has no
+substrate here; the portable part (fire timing) is shopped
+schedule. KILLED. The ID-WM thread stays recorded-unlicensed.
 
 ## Candidate 2 (added 2026-11-02): majority-carry successive — KILLED
 
