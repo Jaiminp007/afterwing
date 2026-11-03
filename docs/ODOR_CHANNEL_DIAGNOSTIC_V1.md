@@ -24,7 +24,10 @@ across contexts, specificity lost). Reactivation probe (R790 —
 Tayler 2011): test whether transfer contexts reactivate the
 training ensemble's trace (probe-response similarity) —
 reactivation failure is the specific form of general-channel
-failure. Dominance ratio (R793 — Cui 2024, sufficient AND
+failure. Pairing rule (R800 — Moncada 2015, behavioral tagging):
+persistence is SCHEDULED — weak tag + strong event nearby in time
+or no capture. Check the schedule before judging the memory: no
+strong event near the tag → no capture expected, verdict or not. Dominance ratio (R793 — Cui 2024, sufficient AND
 necessary): measure the training ensemble's DOMINANCE in the
 transfer context, not yes/no reactivation — tune dominance, tune
 specificity; mossy suppression pairs with transmodulation as the
@@ -87,6 +90,14 @@ changes concentrated in few mechanisms = sparse gradients. Every
 transfer gap re-read as disentanglement data filed as failure:
 the diagnostic reports WHERE the gradients concentrated, not
 just whether transfer cleared the bar.
+
+Late-phase proviso (R800 — Kleim 2004): synaptogenesis and map
+reorganization arrive in the SLOW phase; fast-early refines
+existing structure only. The program's 1792-tick phases may all
+be fast phase — transfer tested on an early substrate, judged as
+if late. Structure needs the slow phase; every transfer reading
+carries this calendar proviso until a line runs long enough to
+void it.
 
 Transfer formalism (R792 — Barreto 2016, successor features): the
 A→transfer structure (fixed dynamics, changing rewards) is the

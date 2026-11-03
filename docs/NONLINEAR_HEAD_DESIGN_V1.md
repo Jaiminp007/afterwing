@@ -138,6 +138,17 @@ competition-shaped (plastic, activity-dependent); perisomatic is
 NOT (fixed, structural). One learning brake + one fixed brake:
 plasticity where inputs arrive, fixity where outputs leave.
 
+Integration window (R800 — Rakela 2024): transplanted/new
+components are not instant — integration takes its own
+activity-gated period (expression windows, host-circuit
+manifestation). A mixture with new components freezes an
+integration window, never assumes instant coupling.
+
+ISN by default (R800 — Sanzeni 2020): inhibition stabilization
+is the widespread DEFAULT regime (paradoxical suppression
+confirmed, no stimulus needed). Design for ISN by default —
+paradoxical effects expected, not anomalous.
+
 ISN framing (R799 — Hennequin 2013): inhibition-stabilized
 networks selectively AMPLIFY — fixed soma stabilizes to ENABLE
 dendritic selection. Stability is computation's condition, not
