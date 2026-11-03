@@ -101,6 +101,15 @@ owns which component, but which consequence class each matrix learns
 — and the motivational scaling of the positive term is the
 acquisition-gating gain function in its native form.
 
+Extension (R785 — Lowet 2025, opponent distributional title record):
+the 97%-negative landscape is a distribution (dense small losses,
+rare gains), and opponent halves natively encode halves of a
+distribution. The separate matrices gain a third voice alongside
+consequence classes and Go/No-Go pathways: halves learning halves
+of the reward distribution. The effort term is pharmacologically
+grounded too (R785 — Bardgett 2009, D1/D2 antagonists discount
+effort, agonists restore): gain AND cost are both dials.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —

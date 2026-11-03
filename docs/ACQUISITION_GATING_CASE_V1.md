@@ -25,8 +25,10 @@ by the hunger scalar, leave the effort/discount terms unscaled,
 with hard bounds so gain cannot explode the weights. The ceiling
 of the class (not its entry): meta-plasticity — the gain itself
 as a learned parameter, after dopamine neurons that learn their
-own activity level. A scoping starts at the fixed-gain form and
-must earn the learned-gain form.
+own activity level. Architecture rule (R785 — Ben-Iwhiwhu 2022,
+modular neuromodulation): gain lives in its OWN module beside the
+actor, never entangled in the policy weights. A scoping starts at
+the fixed-gain form and must earn the learned-gain form.
 
 ## What a case needs (not a plan)
 

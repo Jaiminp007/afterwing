@@ -46,7 +46,12 @@ frozen conditions — the confound is double, the control must be too.
 Flageat et al. 2022 (QD suite for deep neuroevolution RL): coverage,
 QD-score, max fitness, archive profile, stochasticity-corrected
 robustness. A population line adopts these at opening; new metrics
-require their own justification.
+require their own justification. Certified limit (R785 — Shihab
+2026): coverage bounds covered-cell tail risk and average residual
+severity but CANNOT bound the worst remaining cell from covered
+fraction alone (impossibility proved). Report the residual bound
+(Lipschitz + covering-radius terms) alongside coverage, or report
+neither — worst-case claims from coverage are pre-falsified.
 
 ## Opening conditions (not a plan)
 
