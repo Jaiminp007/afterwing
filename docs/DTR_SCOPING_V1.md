@@ -107,6 +107,14 @@ open sentence into a work list — advancement, not closure.
   ONLINE experience — closest transfer-operator on record) joins
   the wing; cross-agent mask sharing (population-adjacent) +
   PEMN (task-in-mask) noted. All unlicensed.
+- R739 addendum: OPEN-WORLD shelf (detect-new/infer-latent wing now
+  11 references) — Kim (OOD+CIL unified: recognize-learned +
+  detect-never-seen + learn-incrementally); Bing Liu (self-initiated:
+  self-motivated, detect/characterize/accommodate without engineer
+  retraining); CADIC (class-sub-banks restrict; incremental coreset
+  for new-task normals); H2ST (closed-world assumed by TIL;
+  hierarchical two-sample tests for unknown identities). All
+  unlicensed; the wing leads inference-head design.
 - R427 addendum: WHAT/HOW two-system (infer-computation + implement-
   it) filed as the reference implementation shape for trunk/head
   + inference; GaTaP two-loop gating + part-conflict + CompIL

@@ -618,6 +618,9 @@ the map stays open, not empty.
 - R738 rehearsal file (DTR/odor-adjacent): dream-rehearse;
   curve-replays; adapt-memory;
   couple-past.
+- R739 open-world file (DTR detect-new wing): unify-worlds;
+  initiate-self; core-anomalies;
+  test-hierarchically.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
