@@ -26348,3 +26348,29 @@ graves (counts rows). Four more. (Map holds 702 rounds.)
   (madmanned, kept (graved, madmanned (madmen, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); their "Grave" (madman, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 695 — Tasked, smoothed, bridged, resolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: task schedule — what
+matters vs when it happens (already-cited shortcut
+leads converging; schedule family, four branches).
+
+- **Task schedule [arXiv:2610.26507 (Hu; vs no
+  hits)].** Opposite-arm SHORTCUT (spurious coupling;
+  constraint-preserving recombination). → Learn tasks
+  (our transfer test, learn-side). Filed.
+- **Smooth reading [arXiv:2507.19353 (Liu; vs no
+  hits)].** Fixed memory LIMITS (recurrent vs attention;
+  architecture insufficient). → Read smoothly (our
+  staged search, read-side). Filed.
+- **Beyond isolated [arXiv:2507.14849 (Wang; vs no
+  hits)].** Distillation impact UNEXPLORED (retrieval
+  needs context; RAG). → Bridge reasoning (our
+  multi-line synthesis, bridge-side). Filed.
+- **Context gaps [arXiv:2410.01671 (Liu / LQCA; vs no
+  hits)].** Ambiguity in LENGTH (coreference for long;
+  tailored resolution). → Resolve gaps (our flip-split
+  design, resolve-side). Filed.
+- Program note: learn tasks, read smoothly, bridge
+  reasoning, resolve gaps — the task-schedule file.
+  None licensed — filed.
