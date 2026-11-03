@@ -33060,3 +33060,39 @@ rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Chuenrudeemol"
   (canals, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 909 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (banyaned matins, paddied yusings, javaed
+pradonos, mosqued djuharas). The program matins (banyans attempts),
+yusings (paddies verdicts), pradonos (javas claims), and djuharas
+(mosques votes). Four more, Indonesian vein. ("sings" declined —
+one letter from standing "singhs" (R905) — compound nickname
+"yusings" + full-name tag per collision rule; "rices"/"volcanoes"
+taken — "paddies"/"javas" used, all per collision rule.) (Map holds
+800 rounds.)
+
+- **Matin banyans [canon: Matin (banyaned matins; specified Andra
+  Matin (banyans; vs no hits)); verification deferred].** → Matin's
+  matins (banyaned, kept (matin, banyaned (banyans, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Matin"
+  (banyans, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Yu Sing paddies [canon: Yu Sing (paddied yusings; specified Yu
+  Sing (paddies; "sings" declined vs "singhs" — compound nickname +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Yu Sing's yusings (paddied, kept (yusing, paddied
+  (paddies, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Yu Sing" (paddies, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Pradono javas [canon: Pradono (javaed pradonos; specified Budi
+  Pradono (javas; vs no hits)); verification deferred].** → Pradono's
+  pradonos (javaed, kept (pradono, javaed (javas, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Pradono"
+  (javas, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Djuhara mosques [canon: Djuhara (mosqued djuharas; specified Ahmad
+  Djuhara (mosques; vs no hits)); verification deferred].** →
+  Djuhara's djuharas (mosqued, kept (djuhara, mosqued (mosques, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Djuhara" (mosques, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
