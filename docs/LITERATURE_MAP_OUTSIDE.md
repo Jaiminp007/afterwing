@@ -24776,3 +24776,32 @@ rows). Four more. (Map holds 646 rounds.)
   kooed (rocks, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Johnny" (koo, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 639 — Repaired, lensed, checked, separated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: repair equivalence — fix
+what changed, keep what matters (already-cited repair/verify
+leads converging; equivalence family, four branches).
+
+- **Multi-line repair [arXiv:2610.32597 (Das; vs no
+  hits)].** Model-checker-AIDED (open-loop NOT enough;
+  careful counterexample analysis). → Repair with
+  checkers (our diagnose-then-fix, repair-side).
+  Filed.
+- **Lens equivalence [arXiv:2606.15817 (Si /
+  ScratchLens; vs no hits)].** Tree-diff TOO strict
+  (single-run unsound; lens-parametric). → Judge
+  behaviorally (our transfer test, lens-side).
+  Filed.
+- **Schedule robustness [arXiv:2607.00623 (Si /
+  SchedCheck; vs no hits)].** Editing CHANGES behavior
+  (schedule-sensitive; remix breaks). → Check
+  robustness (our exact replays, check-side). Filed.
+- **Width separation [arXiv:2602.06903 (Schestag; vs
+  no hits)].** FIRST FPT-vs-not (scanwidth vs treewidth;
+  respects directions). → Separate parameters (our
+  bar-vs-cause, separation-side). Filed.
+- Program note: repair with checkers, judge
+  behaviorally, check robustness, separate parameters
+  — the repair-equivalence file. None licensed —
+  filed.
