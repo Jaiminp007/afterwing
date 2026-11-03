@@ -289,6 +289,17 @@ transfer wins, with one exception each way (3170855589 wins at
 is texture for the shelf: the readout is not arbitrary, it is
 priced.
 
+## Executed re-reading 18 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
+
+Transfer feasts fine; the debt is all entry. Per-third mean energies
+in transfer-current probes rise on BOTH arms on all 8 histories
+(R1 +16..+44, R10 +12..+29 — same feasting shape, no slope deficit).
+But R10 ENTERS poorer on 5/8 (entry gaps to −26: 3170855589 opens
+20.6 vs 46.8 yet climbs +27.5 vs +16.1). The transfer-local
+dynamics are intact; the endpoint gap is inherited acquisition debt,
+not transfer-local failure. The wound's address narrows again: not
+in how agents feast once transferred, but in what they carry in.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
