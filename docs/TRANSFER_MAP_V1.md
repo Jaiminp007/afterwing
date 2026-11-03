@@ -627,6 +627,9 @@ the map stays open, not empty.
 - R743 closed-loop file (C17-audit fuel): embody-astra;
   close-loops; find-closed;
   oversee-evidence.
+- R745 shielding file (guard-feature round-3 fuel): shield-learning;
+  ease-shields; guide-shields;
+  robustify-shields.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
