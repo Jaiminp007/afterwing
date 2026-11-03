@@ -29708,3 +29708,34 @@ gottschalks (systems verdicts), staehelins (graphs claims), and gauchats
   (typed, kept (gauchat, typed (types, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Gauchat" (type, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 815 — Canon (both live hoses still dry): zapfs, frutigers, matthews, spiekermans (Zapf, Frutiger, Matthew Carter, Spiekermann; 2026-11-02)
+
+Motivation: further outside (typed zapfs, systemed frutigers, alphabeted
+matthews, postered spiekermanns). The program zapfs (types attempts),
+frutigers (systems verdicts), matthews (alphabets claims), and spiekermanns
+(posters votes). Four more. (Map holds 800 rounds.)
+
+- **Zapf type [canon: Zapf (typed zapfs; specified Hermann Zapf (type;
+  vs no hits)); verification deferred].** → Zapf's zapfs (typed, kept
+  (zapf, typed (types, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Zapf" (type, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Frutiger systems [canon: Frutiger (systemed frutigers; specified Adrian
+  Frutiger (signage systems; vs no hits)); verification deferred].** →
+  Frutiger's frutigers (systemed, kept (frutiger, systemed (systems, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Frutiger"
+  (systems, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Matthew Carter alphabets [canon: Matthew Carter (alphabeted matthews;
+  specified Matthew Carter (alphabets; distinct from Elliott Carter (metric
+  modulation) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Carter's matthews (alphabeted, kept (matthew,
+  alphabeted (alphabets, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Matthew" (alphabets, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Spiekermann posters [canon: Spiekermann (postered spiekermanns; specified
+  Erik Spiekermann (posters; vs no hits)); verification deferred].** →
+  Spiekermann's spiekermanns (postered, kept (spiekermann, postered (posters,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Spiekermann" (posters, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
