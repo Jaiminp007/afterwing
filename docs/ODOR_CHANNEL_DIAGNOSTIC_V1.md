@@ -319,6 +319,24 @@ is universal (all 64 Go/No-Go pairs negative). This bounds the
 "rotate one vector" shortcut: real but partial, and the bar
 still demands a full round, not a cosine, to prove it.
 
+## Executed re-reading 21 (2026-11-02, read-only: spent R10 split-acquire + R1 plain-acquire traces)
+
+The starvation path is readout-invariant. Split-acquire thirds:
+54 → 32 → 12, all 8 histories, floors 11.7–14.1. Plain-acquire
+thirds: 54 → 32 → 12, all 8, floors 11.4–13.0, same decision
+counts (~32–35k). The two arms bleed identically through all
+1792 ticks; the readout split changes NOTHING about the energy
+dynamics — only the weight allocation at the end (Go positive
+vs uniformly negative). The price is environmental, not
+readout-caused: learning in this world costs more than it earns,
+everybody starves, the question is only what weights you carry
+out. Weights move, dynamics don't — the second dissociation
+beside re-reading 16 (there behavior moved and endpoints
+didn't; here weights move and the path doesn't). A next
+rationale aimed at the readout should expect weight changes
+with unchanged starvation; one aimed at the debt must change
+the world economics, not the head.
+
 ## Executed re-reading 18 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
 
 Transfer feasts fine; the debt is all entry. Per-third mean energies
