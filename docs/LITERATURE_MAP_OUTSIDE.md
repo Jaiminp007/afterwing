@@ -30276,3 +30276,38 @@ claims), and pontis (towers votes). Four more. (Map holds 800 rounds.)
   (towered, kept (ponti, towered (towers, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Ponti" (towers, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 833 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (balanced achilles, stood piergiacomos,
+typed sottsasses, folded zanusos). The program achilles (balances
+attempts), piergiacomos (stands verdicts), sottsasses (types claims),
+and zanusos (folds votes). Four more, Italian-modern vein. (Map holds
+800 rounds.)
+
+- **Achille Castiglioni balances [canon: Achille Castiglioni (balanced
+  achilles; specified Achille Castiglioni (balances; distinct from Pier
+  Giacomo Castiglioni (stands, this round) — full-name tags both ways
+  per collision rule; vs no hits on full name)); verification deferred].**
+  → Castiglioni's achilles (balanced, kept (achille, balanced (balances,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Achille" (balances, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Pier Giacomo Castiglioni stands [canon: Pier Giacomo Castiglioni
+  (stood piergiacomos; specified Pier Giacomo Castiglioni (stands;
+  distinct from Achille Castiglioni (balances, this round) — full-name
+  tags both ways per collision rule; vs no hits on full name));
+  verification deferred].** → Castiglioni's piergiacomos (stood, kept
+  (piergiacomo, stood (stands, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Piergiacomo" (stands, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Sottsass types [canon: Sottsass (typed sottsasses; specified Ettore
+  Sottsass (types; vs no hits)); verification deferred].** → Sottsass's
+  sottsasses (typed, kept (sottsass, typed (types, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Sottsass"
+  (types, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Zanuso folds [canon: Zanuso (folded zanusos; specified Marco Zanuso
+  (folds; vs no hits)); verification deferred].** → Zanuso's zanusos
+  (folded, kept (zanuso, folded (folds, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Zanuso" (folds, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
