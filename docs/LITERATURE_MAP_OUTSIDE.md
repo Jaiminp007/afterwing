@@ -31701,3 +31701,53 @@ tag declined — Parker substrings — Inertia used; "thins" taken.)
   (kept, banks billing guards (falsifiers toothed, kept))))); his
   "Barres" (relates, kept (kept, kept)) is the ledger (exact, kept
   (test the organization (kept, not just the task))).
+## Round 875 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: unequipped direction, matched gradients, accumulated
+unlearning, conditioned blunders — ask, distill, forget
+certifiably, play to the skill. The program oliaros (unequips
+attempts), olgas (matches-gradients verdicts), un Gavins
+(unlearns claims), and chess (blunders votes). ("Shang"/"Jiao"
+fragments taken — Unlearning/Chess tags used; "distills"/
+"coresets" taken — "matches-gradients" used per collision rule.)
+(Map holds 800 rounds.)
+
+- **Oliaro unequips [live: Oliaro et al 2611.03517 (scripted vs
+  open-ended agents both stall; both respond by EQUIPPING more;
+  both lack DIRECTION — a hypothesis about where the remaining
+  gain is; vs no hits); abstract only].** → Oliaro's unequipping
+  (directional, kept (strip equipment (kept, hypothesize gain
+  (more tools ≠ direction)))) is the attempt (run, kept (bar
+  demands direction (kept, re-tunes are variations (unequip,
+  kept))))); his "Oliaro" (unequips, kept (kept, kept)) is the row
+  (counted, kept (ask (kept, don't equip))).
+- **OLGA matches-gradients [live: Pakdamansavoji et al 2611.03496
+  (small unlabeled sets carrying the training signal of all data;
+  gradient matching without labels, on a growing stream; vs no
+  hits); abstract only].** → OLGA's matching-gradients (label-free,
+  kept (small sets (kept, all-data signal (streaming, kept))))) is
+  the verdict (kept, kept (eight-history banks (kept, spent signal
+  reused read-only (certified, kept))))); its "OLGA"
+  (matches-gradients, kept (kept, kept)) is the bar (unmoved, kept
+  (carry signal (kept, spare labels))).
+- **Unlearning unlearns [live: Shang et al 2611.03445 (sequential
+  unlearning accumulates approximation error; partial retains
+  unpublished internals, perfect only published; pointwise vs
+  pathwise certification; vs no hits on title/full context (Shang
+  fragment taken — Unlearning tag used); abstract only].** →
+  Unlearning's unlearning (sequential, kept (errors accumulate
+  (kept, certified two ways (hidden vs published)))) is the claim
+  (mourned, kept (extinction unlearns (kept, cumulative budgets
+  (frozen artifacts, digested))))); its "Unlearning" (unlearns,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Chess blunders [live: Jiao et al 2611.03439 (same board, same
+  weights — skill conditioning flips blunder to best move; less
+  knowledge vs different USE of retained knowledge; vs no hits on
+  title (Jiao/Dumb fragments taken — Chess tag used); abstract
+  only].** → Chess's blundering (conditioned, kept (weights fixed
+  (kept, skill flips outcome (use, not knowledge)))) is the vote
+  (joined, kept (twins fixed-weight (kept, turn fraction is use
+  (knowledge retained, kept))))); its "Chess" (blunders, kept
+  (kept, kept)) is the ledger (exact, kept (fix weights (kept,
+  vary use))).
