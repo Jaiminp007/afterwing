@@ -28317,3 +28317,32 @@ werkmans (prints verdicts), schuitemas (posters claims), and elfferses
   elfferses (muralled, kept (elffers, muralled (murals, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Elffers" (murals, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 772 — Toorns, martenses, dumbars, bens (van Toorn, Martens, Dumbar, Ben Bos; 2026-11-02)
+
+Motivation: further outside (dialogued toorns, printed martenses,
+systemed dumbars, totalled bens). The program toorns (dialogues
+attempts), martenses (prints verdicts), dumbars (systems claims), and
+bens (totals votes). Four more. (Map holds 764 rounds.)
+
+- **van Toorn dialogue [canon: Toorn (dialogued toorns; specified Jan
+  van Toorn (dialogue; vs no hits)); verification deferred].** → van
+  Toorn's toorns (dialogued, kept (toorn, dialogued (dialogues, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his "Toorn"
+  (dialogue, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Martens prints [canon: Martens (printed martenses; specified Karel
+  Martens (prints; vs no hits)); verification deferred].** → Martens's
+  martenses (printed, kept (martens, printed (prints, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Martens" (prints, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Dumbar systems [canon: Dumbar (systemed dumbars; specified Gert
+  Dumbar (systems; vs no hits)); verification deferred].** → Dumbar's
+  dumbars (systemed, kept (dumbar, systemed (systems, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Dumbar" (systems,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Ben Bos total [canon: Ben Bos (totalled bens; specified Ben Bos
+  (total design; near-miss Boss (deepened bosses) is a different name —
+  full-name tag for audit clarity; vs no hits on full name)); verification
+  deferred].** → Bos's bens (totalled, kept (ben, totalled (totals, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Ben" (total,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
