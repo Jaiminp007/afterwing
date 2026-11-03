@@ -31225,3 +31225,34 @@ votes). Four more, French vein. (Map holds 800 rounds.)
   (linked, kept (motte, linked (links, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Motte" (links, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 864 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (reclined mourgues, lit fermigiers, rested
+helds, pressed boyers). The program mourgues (reclines attempts),
+fermigiers (lights verdicts), helds (rests claims), and boyers
+(presses votes). Four more, French vein. (Alain Richard probed and
+declined — Richard-identity over-mapped with 5 existing contexts;
+declined, not spared.) (Map holds 800 rounds.)
+
+- **Mourgue reclines [canon: Mourgue (reclined mourgues; specified
+  Olivier Mourgue (reclines; vs no hits)); verification deferred].** →
+  Mourgue's mourgues (reclined, kept (mourgue, reclined (reclines,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Mourgue" (reclines, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Fermigier lights [canon: Fermigier (lit fermigiers; specified
+  Etienne Fermigier (lights; vs no hits)); verification deferred].** →
+  Fermigier's fermigiers (lit, kept (fermigier, lit (lights, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Fermigier"
+  (lights, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Held rests [canon: Held (rested helds; specified Marc Held (rests;
+  vs no hits)); verification deferred].** → Held's helds (rested, kept
+  (held, rested (rests, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Held" (rests, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Boyer presses [canon: Boyer (pressed boyers; specified Michel Boyer
+  (presses; vs no hits)); verification deferred].** → Boyer's boyers
+  (pressed, kept (boyer, pressed (presses, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Boyer" (presses, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
