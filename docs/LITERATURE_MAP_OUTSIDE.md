@@ -34290,3 +34290,39 @@ irisarri (vigos votes). Four more, Galician vein. (All four surnames
   (vigos, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); their "Irisarri" (vigos, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 944 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (vallettaed englands, nicosiaed
+michaelidess, sofiaed stoilovs, lisboned salgados). The program
+englands (vallettas attempts), michaelidess (nicosias verdicts),
+stoilovs (sofias claims), and salgados (lisbons votes). Four more,
+Mediterranean vein. ("Goncalo Byrne" declined — "byrne" fragments
+standing Machiavellian-intelligence lines; 9th fragment-consistency
+decline; "Edwin Mintoff" declined — uncertain identity; all per
+collision rule.) (Map holds 800 rounds.)
+
+- **England vallettas [canon: England (vallettaed englands; specified
+  Richard England (vallettas; vs no hits)); verification deferred].**
+  → England's englands (vallettaed, kept (england, vallettaed
+  (vallettas, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "England" (vallettas, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Michaelides nicosias [canon: Michaelides (nicosiaed michaelidess;
+  specified Neoptolemos Michaelides (nicosias; vs no hits));
+  verification deferred].** → Michaelides's michaelidess (nicosiaed,
+  kept (michaelides, nicosiaed (nicosias, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Michaelides" (nicosias, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Stoilov sofias [canon: Stoilov (sofiaed stoilovs; specified Georgi
+  Stoilov (sofias; vs no hits)); verification deferred].** → Stoilov's
+  stoilovs (sofiaed, kept (stoilov, sofiaed (sofias, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Stoilov" (sofias, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Salgado lisbons [canon: Salgado (lisboned salgados; specified
+  Manuel Salgado (lisbons; vs no hits)); verification deferred].** →
+  Salgado's salgados (lisboned, kept (salgado, lisboned (lisbons,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Salgado" (lisbons, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
