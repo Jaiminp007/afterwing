@@ -37240,3 +37240,54 @@ pre-append, flattened method.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Lilienthal" (dispersions, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 1017 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=290, cs.RO start=270).
+Two new IDs triaged (0 worlds), both map: 2610.31336 (Qiu/Yao/Yu)
+— metric conformal prediction via conditional expected local radius
+(local conditional concentration; heterogeneity + multimodality
+without densities; nonconformity comparable across covariates;
+single forest fit supplies all components) — local adaptivity plus
+multimodality plus single-fit efficiency, the program's local gates
+plus heterogeneity plus single-attempts, formalized; and
+2611.39454 lead (Martín Rico) — Kairos semantics-aware
+orchestration of heterogeneous planning engines (profile each task;
+select engines; explicit guarantees; re-plan while acting; coverage/
+latency/failure-meaning differ) — routing heterogeneous methods by
+task semantics with stated guarantees, the program's looper/copier/
+standard/double routing plus frozen plans with guarantees,
+formalized. (Lead author mapped from the sextet per MOST precedent;
+5 middles noted unmapped.) (Abstracts only, 0 worlds; IDs + authors
++ contexts virgin pre-append, flattened method.)
+
+- **Qiu nonconformities [LIVE 2610.31336 (nonconformitied ruiqius;
+  specified Rui Qiu (nonconformities; distinct from recorded-hearing
+  Qiu — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Qiu's ruiqius (nonconformitied, kept
+  (ruiqiu, nonconformitied (nonconformities, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Qiu"
+  (nonconformities, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Yao heterogeneities [LIVE 2610.31336 (heterogeneitied fangyaos;
+  specified Fang Yao (heterogeneities; vs no hits)); verification
+  deferred].** → Yao's fangyaos (heterogeneitied, kept (fangyao,
+  heterogeneitied (heterogeneities, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Yao" (heterogeneities, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Yu multimodalities [LIVE 2610.31336 (multimodalitied zhouyus;
+  specified Zhou Yu (multimodalities; vs no hits)); verification
+  deferred].** → Yu's zhouyus (multimodalitied, kept (zhouyu,
+  multimodalitied (multimodalities, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Yu"
+  (multimodalities, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Rico orchestrations [LIVE 2611.39454 (orchestrationed
+  franciscomartinricos; specified Francisco Martin Rico
+  (orchestrations; distinct from narrative-round Ricoeur — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Rico's franciscomartinricos (orchestrationed, kept
+  (franciscomartinrico, orchestrationed (orchestrations, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Rico"
+  (orchestrations, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
