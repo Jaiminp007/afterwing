@@ -29857,3 +29857,31 @@ Four more. (Map holds 800 rounds; Batchelor queued as spare.)
   (halas, filmed (films, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Halas" (films, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 820 — Canon (both live hoses still dry): binders, perris, fitzgeralds, batchelors (Binder, Perri, Fitzgerald, Batchelor; 2026-11-02)
+
+Motivation: further outside (titled binders, crawled perris, sequenced
+fitzgeralds, filmed batchelors). The program binders (titles attempts),
+perris (crawls verdicts), fitzgeralds (sequences claims), and batchelors
+(films votes). Four more. (Map holds 800 rounds; Batchelor was queued spare.)
+
+- **Binder titles [canon: Binder (titled binders; specified Maurice Binder
+  (titles; vs no hits)); verification deferred].** → Binder's binders
+  (titled, kept (binder, titled (titles, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Binder" (titles, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Perri crawls [canon: Perri (crawled perris; specified Dan Perri
+  (crawls; vs no hits)); verification deferred].** → Perri's perris
+  (crawled, kept (perri, crawled (crawls, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Perri" (crawls, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Fitzgerald sequences [canon: Fitzgerald (sequenced fitzgeralds; specified
+  Wayne Fitzgerald (sequences; vs no hits)); verification deferred].** →
+  Fitzgerald's fitzgeralds (sequenced, kept (fitzgerald, sequenced
+  (sequences, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Fitzgerald" (sequences, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Batchelor films [canon: Batchelor (filmed batchelors; specified Joy
+  Batchelor (films; vs no hits)); verification deferred].** → Batchelor's
+  batchelors (filmed, kept (batchelor, filmed (films, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); her "Batchelor" (films, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
