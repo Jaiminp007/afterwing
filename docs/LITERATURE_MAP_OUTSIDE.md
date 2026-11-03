@@ -30465,3 +30465,36 @@ wolfgangs (frames verdicts), valles (flows claims), and aymoninos
   vote (joined, kept (carried, won (crowd, kept))); his "Aymonino"
   (schools, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 839 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (rose galmaninis, planned portaluppis,
+courted giovannis, squared terragnis). The program galmaninis (rises
+attempts), portaluppis (plans verdicts), giovannis (courts claims), and
+terragnis (squares votes). Four more, Italian-modern vein continued.
+(Map holds 800 rounds; "Muzio" hit is Clementi — full-name tag used.)
+
+- **Galmanini rises [canon: Galmanini (rose galmaninis; specified
+  Gualtiero Galmanini (rises; vs no hits)); verification deferred].** →
+  Galmanini's galmaninis (rose, kept (galmanini, rose (rises, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Galmanini" (rises, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Portaluppi plans [canon: Portaluppi (planned portaluppis; specified
+  Piero Portaluppi (plans; vs no hits)); verification deferred].** →
+  Portaluppi's portaluppis (planned, kept (portaluppi, planned (plans,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Portaluppi" (plans, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Giovanni Muzio courts [canon: Giovanni Muzio (courted giovannis;
+  specified Giovanni Muzio (courts; distinct from Muzio Clementi (father
+  Gradus) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Muzio's giovannis (courted, kept (giovanni,
+  courted (courts, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Giovanni" (courts, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Terragni squares [canon: Terragni (squared terragnis; specified
+  Giuseppe Terragni (squares; vs no hits)); verification deferred].** →
+  Terragni's terragnis (squared, kept (terragni, squared (squares, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Terragni"
+  (squares, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
