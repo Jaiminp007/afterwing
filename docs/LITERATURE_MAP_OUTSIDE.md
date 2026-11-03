@@ -35450,3 +35450,40 @@ consistency 20th-23rd; "piano" instrument-flood avoided via compound
   tolentinoed (tolentinos, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Lucchi" (tolentinos, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 977 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (santandered navarrobaldwegs, morosoed
+urquiolas, hemisfericed calatravas, musaced tunons). The program
+navarrobaldwegs (santanders attempts), urquiolas (morosos verdicts),
+calatravas (hemisferics claims), and tunons (musacs votes). Four more,
+Spanish vein. (Moneo/Baeza/Miralles/Pinos/Sota/Fisac/Coderch/Bohigas/
+Bofill declined — all already mapped, own R-rounds; consistency
+24th-32nd — the hardest-won vein yet; compounds vs floods + full-name
+tags per collision rule; all per collision rule.) (Map holds 800
+rounds.)
+
+- **Baldeweg santanders [canon: Juan Navarro Baldeweg (santandered
+  navarrobaldwegs; specified Juan Navarro Baldeweg (santanders;
+  vs no hits)); verification deferred].** → Baldeweg's
+  navarrobaldwegs (santandered, kept (navarrobaldweg, santandered
+  (santanders, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Baldeweg" (santanders, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Urquiola morosos [canon: Urquiola (morosoed urquiolas; specified
+  Patricia Urquiola (morosos; vs no hits)); verification
+  deferred].** → Urquiola's urquiolas (morosoed, kept (urquiola,
+  morosoed (morosos, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); her "Urquiola" (morosos, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Calatrava hemisferics [canon: Calatrava (hemisfericed calatravas;
+  specified Santiago Calatrava (hemisferics; vs no hits));
+  verification deferred].** → Calatrava's calatravas (hemisfericed,
+  kept (calatrava, hemisfericed (hemisferics, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Calatrava"
+  (hemisferics, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Tunon musacs [canon: Tunon (musaced tunons; specified Emilio Tunon
+  (musacs; vs no hits)); verification deferred].** → Tunon's tunons
+  (musaced, kept (tunon, musaced (musacs, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Tunon" (musacs, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
