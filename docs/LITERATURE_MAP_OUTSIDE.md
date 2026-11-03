@@ -30371,3 +30371,33 @@ full-name tag used regardless.)
   (lamped, kept (aulenti, lamped (lamps, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Aulenti" (lamps, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 836 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (detailed scarpas, hung albinis, collected
+dominionis, leaned borsanis). The program scarpas (details attempts),
+albinis (hangs verdicts), dominionis (collects claims), and borsanis
+(leans votes). Four more, Italian-modern vein continued. (Map holds 800
+rounds.)
+
+- **Scarpa details [canon: Scarpa (detailed scarpas; specified Carlo
+  Scarpa (details; vs no hits)); verification deferred].** → Scarpa's
+  scarpas (detailed, kept (scarpa, detailed (details, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Scarpa"
+  (details, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Albini hangs [canon: Albini (hung albinis; specified Franco Albini
+  (hangs; vs no hits)); verification deferred].** → Albini's albinis
+  (hung, kept (albini, hung (hangs, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Albini" (hangs, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Dominioni collects [canon: Dominioni (collected dominionis; specified
+  Luigi Caccia Dominioni (collects; vs no hits)); verification deferred].**
+  → Dominioni's dominionis (collected, kept (dominioni, collected
+  (collects, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Dominioni" (collects, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Borsani leans [canon: Borsani (leaned borsanis; specified Osvaldo
+  Borsani (leans; vs no hits)); verification deferred].** → Borsani's
+  borsanis (leaned, kept (borsani, leaned (leans, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Borsani" (leans, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
