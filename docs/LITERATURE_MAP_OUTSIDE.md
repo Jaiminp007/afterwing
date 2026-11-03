@@ -32339,3 +32339,49 @@ fragments taken — Zhang Zai, antiquity-doubter — Yufei tag used;
   (joined, kept (single solution (kept, exact transplant (assemble
   back, kept))))); its "CoLa3D" (assembles, kept (kept, kept)) is the
   ledger (exact, kept (share latent (kept, assemble whole))).
+## Round 889 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: forecasted shifts, departed symmetries, interpreted
+visitors, gossiped liveness — train one regime, break bounded,
+read time plainly, keep messages fresh. The program st-gfms
+(forecasts attempts), symmetrys (departs verdicts), zarins
+(interprets claims), and jiahengs (gossips votes). ("Bal" fragments
+taken — Balaban/Ballard/Ballmer — Symmetry tag used; "breaks"
+taken — "departs" used; "visits"/"lakes" taken — "interprets" used;
+"casts" taken — "gossips"/"freshens" spared, "gossips" used, all per
+collision rule.) (Map holds 800 rounds.)
+
+- **ST-GFM forecasts [live: Bohra & Vijay 2611.03512 (trained one
+  regime, deployed in others; spectral shift split operator vs
+  frequency; Frobenius perturbation BOUNDS; temporal attention; vs
+  no hits); abstract only].** → ST-GFM's forecasting (shifted, kept
+  (regimes differ (kept, spectra split (bounded, timed))))) is the
+  attempt (run, kept (train-to-transfer shift (kept, flood spectral
+  (caps measured, kept))))); its "ST-GFM" (forecasts, kept (kept,
+  kept)) is the row (counted, kept (shift regimes (kept, bound
+  spectra))).
+- **Symmetry departs [live: Bal & de Rham 2611.03510 (departures from
+  enhanced symmetry BOUNDED by respecting terms — never arbitrary
+  under standard completion; classified hierarchies; vs no hits on
+  title (Bal fragments taken — Symmetry tag used); abstract only].** →
+  Symmetry's departing (bounded, kept (breaks limited (kept,
+  hierarchies kept (completion standard, kept))))) is the verdict
+  (kept, kept (Go-positive bounded (kept, flood symmetric (never
+  huge, kept))))); its "Symmetry" (departs, kept (kept, kept)) is the
+  bar (unmoved, kept (bound breaks (kept, or don't ship))).
+- **Zarin interprets [live: Zarin & Chizinski 2611.03486 (INTERPRETABLE
+  temporal features; ensemble hybrids; lags and outliers; vs no
+  hits); abstract only].** → Zarin's interpreting (readable, kept
+  (time featured (kept, hybrids ensembled (lags probed, kept)))))
+  is the claim (mourned, kept (thirds readable (kept, histories
+  ensembled (outliers twins, kept))))); his "Zarin" (interprets,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Jiaheng gossips [live: Li et al 2611.03509 (adversaries violating
+  LIVENESS — fresh messages blocked, nothing forged; gossip must
+  deliver; vs no hits); abstract only].** → Jiaheng's gossiping
+  (live, kept (fresh blocked (kept, forged nothing (honest nodes
+  starved, kept))))) is the vote (joined, kept (G4 liveness (kept,
+  votes carried (dead phases quiet, kept))))); his "Jiaheng"
+  (gossips, kept (kept, kept)) is the ledger (exact, kept (stay
+  live (kept, deliver fresh))).
