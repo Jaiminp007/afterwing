@@ -28374,3 +28374,42 @@ votes). Four more. (Map holds 764 rounds.)
   (graphed, kept (tissi, graphed (graphs, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Tissi" (graphics, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 776 — LIVE via OpenAlex (arXiv API still down): soft-winners, routers, specializers, goedels (Kang WSN 2023, Hongbo Li MoE-theory 2024, Junzhuo Li DES-MoE 2025, Yin Goedel Agent 2024; 2026-11-02)
+
+Recovery: arXiv export API still returns 14-byte empties; switched to
+api.openalex.org (different host, reachable) for search + abstracts.
+Abstracts only, 0 worlds. (Numbering: R776 breaks the odd=live
+parity convention — sequence integrity kept over parity; content is
+live.) Four papers, all virgin pre-append (0 hits each).
+
+- **Soft-winning subnetworks [Kang et al. 2023, Forget-free Continual
+  Learning with Soft-Winning SubNetworks; vs no hits].** → SoftNet's
+  non-binary task-adaptive masks (immune to forgetting because each
+  subnetwork does not infringe the others; winning tickets reuse prior
+  weights) is the run attempt (B2's per-regime experts are the same
+  bet — separation by regime, not by task); the audit it sharpens: B2's
+  branches share the feature vector, so infringement, if it lives
+  anywhere, lives in the shared input — a future probe should test
+  cross-branch interference directly.
+- **MoE continual-learning theory [Hongbo Li et al. 2024, Theory on
+  Mixture-of-Experts in Continual Learning; vs no hits].** → The
+  router-learns-to-select / experts-specialize theorem is the kept
+  verdict (B2's hard viability switch is a FIXED router — the theory's
+  gap, router learning, is exactly what B2 does not do); a learned
+  router (B4-shaped) is recorded as a CANDIDATE rationale, not a
+  license — it needs its own genuinely-new case under the C17-bar
+  discipline.
+- **Dynamic expert specialization [Junzhuo Li et al. 2025, DES-MoE;
+  vs no hits].** → Adaptive router + expert-domain correlation mapping
+  + progressive freezing (matches single-domain ESFT on six domains)
+  is the (unclaimed) claim — the analogy that disciplines B2:
+  progressive freezing is the program's freeze probes, expert-domain
+  mapping is per-regime experts, and DES's bar (match the specialist)
+  is B2's bar (beat the guard that internalizes the stop).
+- **Goedel Agent [Yin et al. 2024, self-referential recursively
+  self-improving agent; vs no hits].** → LLM-rewritten own-logic
+  without fixed routines is the joined vote — and the program's
+  in-agent loop is the bounded, checkpointed, budgeted version of
+  exactly this ambition (VISION milestone 3 verbatim); what Goedel
+  lacks (independent evaluation + compute budgets) is what the
+  frozen-plan/single-attempt discipline supplies.
