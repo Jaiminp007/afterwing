@@ -31751,3 +31751,49 @@ fragments taken — Unlearning/Chess tags used; "distills"/
   (knowledge retained, kept))))); its "Chess" (blunders, kept
   (kept, kept)) is the ledger (exact, kept (fix weights (kept,
   vary use))).
+## Round 876 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: refuted actions, dissociated capabilities, coherent
+phases, deposited signals — verify by refutation, evaluate
+process, track transitions, coordinate through the world. The
+program refutations (refutes attempts), lucas (dissociates
+verdicts), kangs (phase-coheres claims), and manjos (deposits
+votes). ("Oh" fragment taken — Ohsumi autophagy — Refutation tag
+used; "switches" taken — "phase-coheres" used per collision rule.)
+(Map holds 800 rounds.)
+
+- **Refutation refutes [live: Oh et al 2611.02950 (confirmation
+  checks pass wrong actions; verify instead by seeking what would
+  REFUTE; vs no hits on title/full context); abstract only].** →
+  Refutation's refuting (seeking, kept (what kills (kept, not what
+  flatters (blind spot, kept))))) is the attempt (run, kept
+  (toothed falsifier (kept, direction-first (kill-conditions,
+  kept))))); its "Refutation" (refutes, kept (kept, kept)) is the
+  row (counted, kept (ask what kills (kept, not what crowns))).
+- **LUCA dissociates [live: Gogleva et al 2611.03100 (agents succeed
+  for wrong reasons; evaluate PROCESS under known ground truth —
+  selection, prediction, diagnosis, intervention separately;
+  capabilities DISSOCIATE; budgeted experimentation; vs no hits);
+  abstract only].** → LUCA's dissociating (separate, kept (process
+  over outcome (kept, ground truth known (budgeted, kept))))) is
+  the verdict (kept, kept (our dissociations (kept, behavior/
+  endpoints/paths/homes (frozen plans, kept))))); its "LUCA"
+  (dissociates, kept (kept, kept)) is the bar (unmoved, kept
+  (test parts (kept, not wholes))).
+- **Kang phase-coheres [live: Kang & Kim 2611.03071 (track state
+  switches via phase coherence; TRANSITION dynamics predict
+  performance — not the states; vs no hits); abstract only].** →
+  Kang's phase-cohering (tracked, kept (switches mapped (kept,
+  transitions predict (states don't, kept))))) is the claim
+  (mourned, kept (turn fractions switch (kept, dynamics carry
+  (weights sit, kept))))); his "Kang" (phase-coheres, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Manoj deposits [live: Manoj & Prasath 2611.02997 (colony
+  foraging via stigmergy EMERGING from optimal control — not
+  fine-tuned rules; pheromone from HJB flows; vs no hits);
+  abstract only].** → Manoj's depositing (emergent, kept (world
+  mediated (kept, no addressing (rules unfine-tuned, kept))))) is
+  the vote (joined, kept (shape steered (kept, flies unaddressed
+  (coordinated, kept))))); his "Manoj" (deposits, kept (kept,
+  kept)) is the ledger (exact, kept (signal the world (kept,
+  steer the shape))).
