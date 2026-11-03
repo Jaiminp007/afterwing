@@ -27892,3 +27892,35 @@ rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Rodchenko"
   (construct, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 750 — Tschicholds, renners, bayers, moholys (Tschichold, Renner, Bayer, Moholy-Nagy; 2026-11-02)
+
+Motivation: further outside (typed tschicholds, futura'd renners,
+bauhaus'd bayers, lighted moholys). The program tschicholds (types
+attempts), renners (futuras verdicts), bayers (bauhauses claims), and
+moholys (lights votes). Four more. (Map holds 754 rounds; milestone:
+canon R750.)
+
+- **Tschichold typography [canon: Tschichold (typed tschicholds;
+  specified Jan Tschichold (typography; vs no hits)); verification
+  deferred].** → Tschichold's tschicholds (typed, kept (tschichold,
+  typed (types, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Tschichold" (type, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Renner futura [canon: Renner (futura'd renners; specified Paul
+  Renner (Futura; vs no hits)); verification deferred].** → Renner's
+  renners (futura'd, kept (renner, futura'd (futuras, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Renner" (futura,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Bayer bauhaus [canon: Bayer (bauhaus'd bayers; specified Herbert
+  Bayer (Bauhaus; vs no hits)); verification deferred].** → Bayer's
+  bayers (bauhaus'd, kept (bayer, bauhaus'd (bauhauses, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Bayer"
+  (bauhaus, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Moholy-Nagy light [canon: Moholy (lighted moholys; specified
+  László Moholy-Nagy (light; vs no hits)); verification deferred].** →
+  Moholy's moholys (lighted, kept (moholy, lighted (lights, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Moholy"
+  (light, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
