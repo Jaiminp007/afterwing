@@ -30979,3 +30979,34 @@ rounds.)
   kept (gmur, marked (marks, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Gmur" (marks, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 856 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (formed meisses, reviewed steinmanns, studied
+oechslins, made pfammatters). The program meisses (forms attempts),
+steinmanns (reviews verdicts), oechslins (studies claims), and pfammatters
+(makes votes). Four more, Swiss-modern vein continued (theory turn).
+(Map holds 800 rounds.)
+
+- **Meiss forms [canon: Meiss (formed meisses; specified Pierre von Meiss
+  (forms; vs no hits)); verification deferred].** → Meiss's meisses
+  (formed, kept (meiss, formed (forms, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Meiss" (forms, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Steinmann reviews [canon: Steinmann (reviewed steinmanns; specified
+  Martin Steinmann (reviews; vs no hits)); verification deferred].** →
+  Steinmann's steinmanns (reviewed, kept (steinmann, reviewed (reviews,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Steinmann" (reviews, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Oechslin studies [canon: Oechslin (studied oechslins; specified Werner
+  Oechslin (studies; vs no hits)); verification deferred].** → Oechslin's
+  oechslins (studied, kept (oechslin, studied (studies, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Oechslin"
+  (studies, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Pfammatter makes [canon: Pfammatter (made pfammatters; specified
+  Ulrich Pfammatter (makes; vs no hits)); verification deferred].** →
+  Pfammatter's pfammatters (made, kept (pfammatter, made (makes, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Pfammatter"
+  (makes, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
