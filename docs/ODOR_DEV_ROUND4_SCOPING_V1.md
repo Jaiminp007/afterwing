@@ -60,6 +60,24 @@ question). B stays queued behind A's falsifier. C is the fallback
 if both A and B close. No parallel arms across hypotheses —
 single-variable discipline holds since round 2.
 
+## R749 addendum (distillation file — 4 outside legs for candidate
+A, filed unlicensed)
+
+- Never-ending BC (Liang): multi-modal observations; series of new
+  tasks is the setting, 3D + human-level the blockers. Round-4
+  analogue: guarded rollouts on the same 8 histories are the
+  multi-modal teacher.
+- Scalable BC (Yang): bottleneck is deciding under incomplete
+  information; priors live implicit in traces. Round-4 analogue:
+  the learner's deficit may be exactly these priors.
+- Neural-to-tree (Li): black-box to verifiable if-then; stationary
+  assumption violated. Caution for round 4: the teacher (guarded)
+  is stationary-policy; the student faces non-stationary phases —
+  distill per-phase or expect the violation to bite.
+- Dataset distillation (Light): synthesize a better dataset when
+  quality is unavailable. Fallback if guarded rollouts underperform
+  as teachers: distill the dataset, not the policy.
+
 ## Open items before a frozen dev plan
 
 1. Distillation protocol (whose rollouts: guarded on the same 8

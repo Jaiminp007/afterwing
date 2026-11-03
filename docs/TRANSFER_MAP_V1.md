@@ -633,6 +633,9 @@ the map stays open, not empty.
 - R747 anti-collapse file (probe-audit successor fuel): diversify-values;
   repel-members; collapse-uncertainty;
   repel-physics.
+- R749 distillation file (round-4 candidate-A fuel): clone-endless;
+  scale-traces; tree-policies;
+  distill-datasets.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
