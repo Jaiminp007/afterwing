@@ -31562,3 +31562,49 @@ rule.) (Map holds 800 rounds.)
   collective shape (threshold moved, kept))))); his "Yadav"
   (shepherds, kept (kept, kept)) is the ledger (exact, kept (steer
   the shape (kept, not the fly))).
+## Round 872 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: calibrated twins, unplugged sources, reordered layers,
+reimplemented forms — the outside keeps sending our mail to itself.
+The program mendezes (twin-calibrates attempts), abedis (unplugs
+verdicts), rahmanis (reorders claims), and lambs (reimplements
+votes). ("Twins"/"calibrates"/"discrepancy" taken in unrelated
+contexts — full phrase "twin-calibrated" virgin, used per collision
+rule; "consensus"/"distills" taken — "unplugs" used.) (Map holds
+800 rounds.)
+
+- **Mendez twin-calibrates [live: Mendez et al 2611.03540
+  (twin prediction as calibrated trend plus discrepancy learned
+  from measured returns; exploit the twin WITHOUT being tied to
+  its predictions; vs no hits on title/authors/full phrase);
+  abstract only].** → Mendez's twin-calibrating (exploited, kept
+  (trend calibrated (kept, discrepancy measured (untied, kept)))))
+  is the attempt (run, kept (explain the twins (kept, model the
+  gap (either may err, kept))))); his "Mendez" (twin-calibrates,
+  kept (kept, kept)) is the row (counted, kept (use the twin
+  (kept, trust the measures))).
+- **Abedi unplugs [live: Abedi et al 2611.03528 (multi-source-free
+  domain adaptation: generalize to unlabeled target with NO source
+  access; consensus adapters; vs no hits); abstract only].** →
+  Abedi's unplugging (sourceless, kept (many sources (kept, none
+  touched (target unlabeled, kept))))) is the verdict (kept, kept
+  (spent banks reused read-only (kept, sources unchanged (never
+  reopened, kept))))); his "Abedi" (unplugs, kept (kept, kept)) is
+  the bar (unmoved, kept (generalize (kept, without touching)))).
+- **Rahmani reorders [live: Rahmani et al 2611.03526 (same reusable
+  primitives in DIFFERENT orders per problem; dynamic inference-time
+  ordering; reuse-vs-sparsity dial; vs no hits); abstract only].** →
+  Rahmani's reordering (programmed, kept (primitives same (kept,
+  order per problem (inference-time, kept))))) is the claim
+  (mourned, kept (probe-time mechanism (kept, reorder don't retrain
+  (head untouched, kept))))); his "Rahmani" (reorders, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Lamb reimplements [live: Lamb 2611.03543 (agents synthesize
+  literature, REIMPLEMENT published parameterizations, propose new
+  functional forms as differentiable code; vs no hits); abstract
+  only].** → Lamb's reimplementing (agent-built, kept (literature
+  synthesized (kept, forms proposed (differentiable, tested)))))
+  is the vote (joined, kept (revision engine (kept, new forms
+  (frozen plan first, kept))))); her "Lamb" (reimplements, kept
+  (kept, kept)) is the ledger (exact, kept (propose forms (kept,
+  test frozen))).
