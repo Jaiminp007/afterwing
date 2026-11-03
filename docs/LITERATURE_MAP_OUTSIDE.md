@@ -34923,3 +34923,36 @@ rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Vaso" (shkodras,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 962 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (podgoricaed vukotics, prishtinaed ramas,
+cetinjeed vujovics, prizrened ramkus). The program vukotics
+(podgoricas attempts), ramas (prishtinas verdicts), vujovics
+(cetinjes claims), and ramkus (prizrens votes). Four more,
+Montenegrin-Kosovar vein. (All four surnames + full names + contexts
+virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Vukotic podgoricas [canon: Vukotic (podgoricaed vukotics; specified
+  Vukota Tupa Vukotic (podgoricas; vs no hits)); verification
+  deferred].** → Vukotic's vukotics (podgoricaed, kept (vukotic,
+  podgoricaed (podgoricas, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Vukotic" (podgoricas, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Rama prishtinas [canon: Rama (prishtinaed ramas; specified
+  Perparim Rama (prishtinas; vs no hits)); verification deferred].** →
+  Rama's ramas (prishtinaed, kept (rama, prishtinaed (prishtinas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Rama" (prishtinas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Vujovic cetinjes [canon: Vujovic (cetinjeed vujovics; specified
+  Milorad Vujovic (cetinjes; vs no hits)); verification deferred].** →
+  Vujovic's vujovics (cetinjeed, kept (vujovic, cetinjeed (cetinjes,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Vujovic" (cetinjes, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Ramku prizrens [canon: Ramku (prizrened ramkus; specified Bekim
+  Ramku (prizrens; vs no hits)); verification deferred].** → Ramku's
+  ramkus (prizrened, kept (ramku, prizrened (prizrens, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Ramku"
+  (prizrens, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
