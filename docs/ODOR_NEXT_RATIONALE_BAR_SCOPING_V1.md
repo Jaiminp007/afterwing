@@ -16,9 +16,13 @@ during transfer (re-acquisition, exploration, transfer dynamics,
 closed-loop verification). Weight-matrix state at D is evidence,
 never the intervention locus: centering, distributional, split, and
 normalized readouts are CLOSED as a family on evidence, not taste.
-(b) No phase-gating (R13): history-idiosyncratic price rules out
-phase-targeted mechanisms. The rationale must be history-adaptive or
-readout-global, stated in the freeze, or it is curve-fitting.
+(b) No phase-gating, and history-adaptive preferred (R13):
+history-idiosyncratic price rules out phase-targeted mechanisms.
+The rationale must be history-adaptive (adapts per history/cue),
+stated in the freeze — or, if readout-global, must operate on a
+channel R10's difference readout never touched (a second global
+readout rule is a variation of (c), not a rationale). R10 was
+already readout-global; repeating globality is not novelty.
 (c) New locus or new channel (C17-bar (a)): the mechanism must touch
 something R8–R10 never moved — not the background, not the
 representation, not the routing, not the readout norm. Re-tuning,
@@ -39,12 +43,16 @@ difference-based acquisition gate (R8 lesson, R9/R10 precedent).
   as mechanism evidence (means, posfracs, norms, normalized margins —
   re-reading 15, fourth strike).
 
-## Still open (examples, not licenses)
+## Still open (examples mapped to (b), not licenses)
 
 - Closed-loop verification at transfer (C17 lesson, odor-side
-  unbuilt). - Re-acquisition speed / stale-map repair (lifespan
-  line). - Exploration modulation during transfer (turning responds
-  — R16 — but conversion unproven). Each still needs its own
+  unbuilt): history-adaptive (per-cue/per-history) — fits (b)
+  directly. - Re-acquisition speed / stale-map repair (lifespan
+  line): history-adaptive (per-history maps) — fits (b) directly.
+- Exploration modulation during transfer (turning responds
+  — R16 — but conversion unproven): readout-global by default,
+  so it must name its new channel under (c) explicitly or fail
+  the bar as a (c)-variation. Each still needs its own
   scoping → freeze → fixtures → triage → single attempt; openness
   is not authorization.
 
