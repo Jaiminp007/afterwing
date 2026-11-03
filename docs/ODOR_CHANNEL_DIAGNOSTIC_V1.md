@@ -444,6 +444,19 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 38 (2026-11-02, read-only: spent R1/R8/R9/R10 anchors)
+
+The 12-cell freeze table is complete. Taste 4/4 frozen, motor
+4/4 frozen (present-bank bitwise, all arms, both twins) — and
+steering 0/4 frozen, everywhere, always. The exception proves
+the rule's irrelevance: the steering's C→D drift averages
+1.7e-4 per weight against its own rms of 0.004 — Brownian
+doodling around zero, no direction, no growth (rms flat-to-down).
+So: nothing learns in the final stretch, anywhere, in any
+stack, under any readout. Two stacks freeze bitwise; the third
+never learned enough to have anything to freeze. The dead time
+is total — 12 cells, zero learning, all billing.
+
 ## Executed re-reading 37 (2026-11-02, read-only: spent R8/R9 anchors C/D)
 
 The C-freeze is paradigm-general, 4/4 arms. R8 centered weights
