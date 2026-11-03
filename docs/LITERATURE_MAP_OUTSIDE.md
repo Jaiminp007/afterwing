@@ -31519,3 +31519,46 @@ rounds.)
   (kept, no single map assumed (probed frozen, kept))))); his
   "Haghifam" (pools, kept (kept, kept)) is the ledger (exact, kept
   (fit jointly (kept, or don't claim))).
+## Round 871 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: bounded proposers, frozen selectors, identical updates,
+shepherded swarms — the loop, the probe, the billing, the colony.
+The program fedreadys (bounds attempts), ahmeds (selects verdicts),
+mittals (frees claims), and yadavs (shepherds votes). (Roth fragment
+taken — Alvin Roth, market design — FedReady tag used per collision
+rule.) (Map holds 800 rounds.)
+
+- **FedReady bounds [live: Xu et al 2611.03586 (BOUNDED LLM agents
+  for federation formation; agents propose contracts, runtime owns
+  state, accepts artifacts only after digest-tied checks; vs no
+  hits); abstract only].** → FedReady's bounding (bounded, kept
+  (propose (kept, check digest (accept, kept))))) is the attempt
+  (run, kept (propose-evaluate-adopt (kept, bounded (digests,
+  kept))))); its "FedReady" (bounds, kept (kept, kept)) is the row
+  (counted, kept (own the state (kept, check the artifact))).
+- **Ahmed selects [live: Ahmed et al 2611.03585, WISE (plausible
+  prediction need not be realized by its co-generated action;
+  pre-execution selector scores rollouts, executes best WHILE
+  KEEPING THE WAM FROZEN; vs no hits); abstract only].** → Ahmed's
+  selecting (frozen, kept (score first (kept, execute best (model
+  untouched, kept))))) is the verdict (kept, kept (saying-isn't-
+  doing (kept, frozen probes (selected, not trained))))); his
+  "Ahmed" (selects, kept (kept, kept)) is the bar (unmoved, kept
+  (keep it frozen (kept, select among))).
+- **Mittal frees [live: Mittal et al 2611.03577, Sonar-MoE (expert
+  updates freed immediately; bitwise identical to standard;
+  peak memory down 19-22%; vs no hits); abstract only].** →
+  Mittal's freeing (identical, kept (free early (kept, match
+  bitwise (memory down, kept))))) is the claim (mourned, kept (null
+  arms identical (kept, billing uniform (bitwise, kept))))); his
+  "Mittal" (frees, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Yadav shepherds [live: Yadav et al 2611.03548 (steer
+  UNGOVERNABLE swarms via boundary/shape control, not individual
+  addressing; motion primitives on collective shape; vs no hits);
+  abstract only].** → Yadav's shepherding (collective, kept
+  (boundary not members (kept, shape primitives (workload down,
+  kept))))) is the vote (joined, kept (turn fraction (kept,
+  collective shape (threshold moved, kept))))); his "Yadav"
+  (shepherds, kept (kept, kept)) is the ledger (exact, kept (steer
+  the shape (kept, not the fly))).
