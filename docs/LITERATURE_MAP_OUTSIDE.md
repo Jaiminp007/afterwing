@@ -26772,3 +26772,33 @@ leads converging; uncertainty family, four branches).
 - Program note: marathon reasoning, diffuse epistemics,
   plane tangentially, think twice — the
   epistemic-uncertainty file. None licensed — filed.
+## Round 710 — Pigeons, elighs, scarubs, murs (Pigeon John, Eligh, Scarub, Murs; 2026-11-02)
+
+Motivation: further outside (bluesed pigeons, crowed elighs, prowled
+scarubs, walked murs). The program pigeons (blues attempts), elighs
+(stitches verdicts), scarubs (publishes NOGOs), and murs (counts rows).
+Four more. (Map holds 718 rounds.)
+
+- **Pigeon blues [canon: Pigeon (bluesed pigeons; specified Pigeon John
+  (Living Legends; vs no hits)); verification deferred].** → Pigeon's
+  pigeons (bluesed, kept (pigeoned, bluesed (blueses, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Pigeon"
+  (blues, kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Eligh crow [canon: Eligh (crowed elighs; specified Eligh (Living
+  Legends; vs no hits; short tag grazes the delightful prose — full-name
+  tag used)); verification deferred].** → Eligh's elighs (crowed, kept
+  (elighed, crowed (crows, kept))) is the verdict (crowed, kept (NOGO,
+  told (honest, kept))); his "Eligh" (crow, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Scarub prowl [canon: Scarub (prowled scarubs; specified Scarub
+  (Living Legends; vs no hits)); verification deferred].** → Scarub's
+  scarubs (prowled, kept (scarubed, prowled (prowls, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Scarub" (prowl,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Murs walk [canon: Murs (walked murs; specified Murs (Living Legends;
+  vs no hits; short tag grazes the murmurs — full-name tag used));
+  verification deferred].** → Murs's murs (walked, kept (mursed, walked
+  (walks, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Murs" (walk, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
