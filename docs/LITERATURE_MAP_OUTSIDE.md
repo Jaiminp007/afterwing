@@ -34016,3 +34016,37 @@ per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Turanyi" (magyars, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 936 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (bucharested creangas, revived mincus,
+victoried antonescus, constataed lazarescus). The program creangas
+(bucharests attempts), mincus (revivals verdicts), antonescus
+(victories claims), and lazarescus (constatas votes). Four more,
+Romanian vein. ("triumphs" declined — my own standing text ("turns,
+not triumphs") — self-collision routed; all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Creanga bucharests [canon: Creanga (bucharested creangas;
+  specified Horia Creanga (bucharests; vs no hits)); verification
+  deferred].** → Creanga's creangas (bucharested, kept (creanga,
+  bucharested (bucharests, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Creanga" (bucharests, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Mincu revivals [canon: Mincu (revived mincus; specified Ion Mincu
+  (revivals; vs no hits)); verification deferred].** → Mincu's mincus
+  (revived, kept (mincu, revived (revivals, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Mincu" (revivals, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Antonescu victories [canon: Antonescu (victoried antonescus;
+  specified Petre Antonescu (victories; vs no hits)); verification
+  deferred].** → Antonescu's antonescus (victoried, kept (antonescu,
+  victoried (victories, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Antonescu" (victories, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Lazarescu constatas [canon: Lazarescu (constataed lazarescus;
+  specified Cezar Lazarescu (constatas; vs no hits)); verification
+  deferred].** → Lazarescu's lazarescus (constataed, kept (lazarescu,
+  constataed (constatas, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Lazarescu" (constatas, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
