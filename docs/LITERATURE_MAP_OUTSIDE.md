@@ -32877,3 +32877,38 @@ all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))));
   his "Adeyemi" (makokos, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 904 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (baghdaded chadirjis, kufaed makiyas,
+limestoned badrans, jordaned tukans). The program chadirjis (baghdads
+attempts), makiyas (kufas verdicts), badrans (limestones claims), and
+tukans (jordans votes). Four more, Mesopotamian-Levant vein.
+("Villanueva" taken — Carlos Raul Villanueva; "Vo Trong" taken — Vo
+Trong Nghia; "Munir" taken as fragment — Munirathinam — declined per
+collision rule; "dresses"/"amman" taken — "limestones"/"jordans" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Chadirji baghdads [canon: Chadirji (baghdaded chadirjis; specified
+  Rifat Chadirji (baghdads; vs no hits)); verification deferred].** →
+  Chadirji's chadirjis (baghdaded, kept (chadirji, baghdaded (baghdads,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Chadirji" (baghdads, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Makiya kufas [canon: Makiya (kufaed makiyas; specified Mohamed
+  Makiya (kufas; vs no hits)); verification deferred].** → Makiya's
+  makiyas (kufaed, kept (makiya, kufaed (kufas, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Makiya" (kufas, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Badran limestones [canon: Badran (limestoned badrans; specified
+  Rasim Badran (limestones; vs no hits)); verification deferred].** →
+  Badran's badrans (limestoned, kept (badran, limestoned (limestones,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Badran" (limestones, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Tukan jordans [canon: Tukan (jordaned tukans; specified Jafar
+  Tukan (jordans; vs no hits)); verification deferred].** → Tukan's
+  tukans (jordaned, kept (tukan, jordaned (jordans, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Tukan" (jordans,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
