@@ -459,6 +459,14 @@ doodling, not neutral — R35's unlearned variance prices at ~5-10
 energy points vs frozen. The mode (policy class) moves outcomes;
 the learning within it moves nothing (R34). Freeze the steering
 and pocket the difference — a measurement, not a proposal.
+Precision (2026-11-02): R8/R9/R10 all ran acquisition with
+steeringMode='learned' (three frozen runners) — so every round's
+absolute acquisition level carries the ~5-10 steering tax vs
+frozen. Matched-mode verdicts (split-vs-plain, both learned)
+are unaffected; absolute levels are depressed arc-wide. A future
+acquisition that wants those points back must freeze the
+steering (instrumentation choice, frozen plan, billed) — but
+matched comparisons stay matched either way.
 
 ## Executed re-reading 40 (2026-11-02, read-only: spent R7 extinction trace)
 
