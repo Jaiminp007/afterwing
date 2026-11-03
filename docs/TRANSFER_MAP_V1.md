@@ -549,6 +549,9 @@ the map stays open, not empty.
 - R691 verified-lexing file: lex-verified;
   invert-lexing; zip-lexing;
   paradox-compliance.
+- R693 repo-localization file: trace-lines;
+  gym-vulns; race-reasoning;
+  rivet-context.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
