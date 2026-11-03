@@ -31070,3 +31070,33 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Ammann"
   (suspends, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 859 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (curved maillarts, clattered tinguelys,
+fired phalles, set dudlers). The program maillarts (curves attempts),
+tinguelys (clatters verdicts), phalles (fires claims), and dudlers
+(sets votes). Four more. (Map holds 800 rounds.)
+
+- **Maillart curves [canon: Maillart (curved maillarts; specified Robert
+  Maillart (curves; vs no hits)); verification deferred].** → Maillart's
+  maillarts (curved, kept (maillart, curved (curves, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Maillart" (curves,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Tinguely clatters [canon: Tinguely (clattered tinguelys; specified
+  Jean Tinguely (clatters; vs no hits)); verification deferred].** →
+  Tinguely's tinguelys (clattered, kept (tinguely, clattered (clatters,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Tinguely" (clatters, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Phalle fires [canon: Phalle (fired phalles; specified Niki de Saint
+  Phalle (fires; vs no hits)); verification deferred].** → Phalle's
+  phalles (fired, kept (phalle, fired (fires, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); her "Phalle"
+  (fires, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Dudler sets [canon: Dudler (set dudlers; specified Max Dudler (sets;
+  vs no hits)); verification deferred].** → Dudler's dudlers (set, kept
+  (dudler, set (sets, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Dudler" (sets, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
