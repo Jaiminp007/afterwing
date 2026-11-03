@@ -444,6 +444,23 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
+
+The pairing probe needs a plan, not an instrument. R10's traces
+log per-tick decisions in dedicated transfer-probe phases
+(`probe-transfer-current/guarded/native-full/native/reset`):
+action, move, probability, route, feedProbability, energy,
+raw sensors, cue, odorPresent, contactPresent,
+recommendation point/pair/score, steering predictions, outputs.
+Every probe-time quantity the bar's successors could need — action,
+intake (energy deltas), exploration (action entropy), re-acquisition
+(action|cue over ticks), closed-loop error (recommendation point vs
+actual move) — is already a function over these fields. The
+supposed blocker ("tag operationalization before pairing probe can
+run") dissolves on inspection: the tags shipped with R10. What a
+bar-passing round still owes is the rationale + frozen plan + fresh
+bank — the instrument is waiting, not missing.
+
 ## Executed re-reading 49 (2026-11-02, read-only: spent R9+R10 verdicts)
 
 Transfer sign is mechanism-invariant; acquisition is not. Same 8
