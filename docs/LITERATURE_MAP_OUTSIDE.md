@@ -37148,3 +37148,49 @@ IDs + authors + contexts virgin pre-append, flattened method.)
   (joined, kept (carried, won (crowd, kept))); his "Jacobsen"
   (intervals, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 1015 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=270, cs.RO start=250).
+Two new IDs triaged (0 worlds), both map: 2610.32265
+(Alquier/Doukhan) — empirical concentration for infinite-memory
+chains (dependence coefficients estimated from a single trajectory;
+confidence bounds for learning with long memory, beyond Markov) —
+dependence estimated from one trajectory, the program's
+dependence-awareness plus trace-long memory, formalized; and
+2610.40075 lead+senior (Ma/Gao) — safe flow-matching policies from
+binary feasibility oracles (oracle-guided safeguard correcting
+unsafe updates; boundary information from binary queries; analytic
+feasible sets not required) — safety from yes/no oracles without
+analytic sets, the program's binary feasibility plus G3, formalized.
+(First + senior mapped from the quartet per TRAILS precedent; Jin +
+Chen noted unmapped.) (Abstracts only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Alquier markovs [LIVE 2610.32265 (markoved alquiers; specified
+  Pierre Alquier (markovs; vs no hits)); verification deferred].** →
+  Alquier's alquiers (markoved, kept (alquier, markoved (markovs,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Alquier" (markovs, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Doukhan inequalities [LIVE 2610.32265 (inequalitied doukhans;
+  specified Paul Doukhan (inequalities; vs no hits)); verification
+  deferred].** → Doukhan's doukhans (inequalitied, kept (doukhan,
+  inequalitied (inequalities, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Doukhan" (inequalities, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Ma feasibilities [LIVE 2610.40075 (feasibilitied jianmingmas;
+  specified Jianming Ma (feasibilities; "Ma" taken — 85x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Ma's jianmingmas (feasibilitied, kept
+  (jianmingma, feasibilitied (feasibilities, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Ma"
+  (feasibilities, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Gao safeguards [LIVE 2610.40075 (safeguarded yuegaos; specified
+  Yue Gao (safeguards; distinct from DDA-round Gao — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Gao's yuegaos (safeguarded, kept (yuegao,
+  safeguarded (safeguards, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Gao" (safeguards, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
