@@ -213,6 +213,20 @@ one short). Any next rationale starts here — the negativity is
 confined, named, and measured per history, not a fog over the
 whole palate.
 
+## Executed re-reading 13 (2026-11-02, read-only: spent R10 rows + r1plain)
+
+The acquisition price is HISTORY-idiosyncratic, not phase-owned.
+Per-history centered-minus-R1 diffs (A/B/transfer): no phase
+concentrates the losses (A 3/8 clearly negative, B 5/8, transfer
+3/8 — different histories in each set). Extremes coexist:
+3285880790 wins everywhere (+2.36/+1.19/+3.42), 3170855589 wins
+transfer (+2.77) while bleeding acquisition (−1.59/−2.49 — carriage
+WITHOUT preservation), and 1172370180 preserves acquisition (+0.64)
+while losing transfer (−3.68 — preservation WITHOUT carriage). A
+phase-gated readout fix is NOT licensed by this cut (ruled out, not
+merely unscoped): the next rationale must be history-adaptive or
+readout-global, or it is curve-fitting to phases.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
