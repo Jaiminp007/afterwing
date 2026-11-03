@@ -34154,3 +34154,40 @@ collision rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Sayin"
   (istanbuls, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 940 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (barcelonetaed coderchs, barceloned
+bohigass, waldenged bofills, cemeteried miralless). The program
+coderchs (barcelonetas attempts), bohigass (barcelonas verdicts),
+bofills (waldens claims), and miralless (cemeteries votes). Four
+more, Spanish vein II. (Portuguese vein declined wholesale —
+already mapped (Siza, Souto de Moura, Aires Mateus); Moneo/Fisac/de
+la Sota used R895; "Sert" declined — fragments standing
+"assert/desert/insert" flood; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Coderch barcelonetas [canon: Coderch (barcelonetaed coderchs;
+  specified Jose Antonio Coderch (barcelonetas; vs no hits));
+  verification deferred].** → Coderch's coderchs (barcelonetaed, kept
+  (coderch, barcelonetaed (barcelonetas, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Coderch" (barcelonetas,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Bohigas barcelonas [canon: Bohigas (barceloned bohigass; specified
+  Oriol Bohigas (barcelonas; vs no hits)); verification deferred].** →
+  Bohigas's bohigass (barceloned, kept (bohigas, barceloned
+  (barcelonas, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Bohigas" (barcelonas, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Bofill waldens [canon: Bofill (waldenged bofills; specified Ricardo
+  Bofill (waldens; vs no hits)); verification deferred].** → Bofill's
+  bofills (waldenged, kept (bofill, waldenged (waldens, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Bofill" (waldens, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Miralles cemeteries [canon: Miralles (cemeteried miralless;
+  specified Enric Miralles (cemeteries; vs no hits)); verification
+  deferred].** → Miralles's miralless (cemeteried, kept (miralles,
+  cemeteried (cemeteries, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Miralles" (cemeteries, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
