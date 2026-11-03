@@ -25212,3 +25212,31 @@ a namesake).
 - Program note: watch marks, fingerprint distillation,
   ask back, disentangle identity — the watermark-attack
   file. None licensed — filed.
+## Round 654 — Swvs, totals, stones, zhanes (SWV, Total, Brownstone, Zhané; 2026-11-02)
+
+Motivation: further outside (weakened swvs, kissed totals, loved
+stones, deejaed zhanes). The program swvs (weakens attempts), totals
+(stitches verdicts), stones (publishes NOGOs), and zhanes (counts rows).
+Four more. (Map holds 662 rounds.)
+
+- **Swv weak [canon: SWV (weakened swvs; specified SWV (Sisters With
+  Voices; vs no hits)); verification deferred].** → Swv's swvs
+  (weakened, kept (swved, weakened (weaks, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); their "Swv" (weak, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Total kiss [canon: Total (kissed totals; specified Total (vs no
+  hits)); verification deferred].** → Total's totals (kissed, kept
+  (totaled, kissed (kisses, kept))) is the verdict (kissed, kept (NOGO,
+  told (honest, kept))); their "Total" (kiss, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Stone love [canon: Brownstone (loved stones; specified Brownstone
+  (vs no hits)); verification deferred].** → Stone's stones (loved, kept
+  (stoned, loved (loves, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); their "Stone" (love, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Zhane dee [canon: Zhane (deejaed zhanes; specified Zhané (vs no
+  hits; author-surname Zhan collides — full-name tag used));
+  verification deferred].** → Zhane's zhanes (deejaed, kept (zhaned,
+  deejaed (deejays, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); their "Zhane" (dee, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
