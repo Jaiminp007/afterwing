@@ -36,6 +36,14 @@ adopts this union as its formalism — survival and transfer as
 separate objectives with one priced tradeoff, never one metric
 asked to do both jobs.
 
+Rival (R794 — Yang 2020, PCPO): price safety (Lagrangian, soft
+tradeoff) vs PROJECT onto the constraint set (hard per-update
+reward-lower + violation-upper bounds, L2/KL convergence). A
+future transfer freeze chooses between them with criteria —
+projection for hard per-update guarantees, pricing for smooth
+tradeoffs — never by default. The formalism debate is
+pre-registered.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping

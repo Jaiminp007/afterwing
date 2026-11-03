@@ -121,6 +121,13 @@ name its suppression pathway — which stop signal, which go trace,
 what suppression operator — or it repeats the zero-coupling failure
 with new weights.
 
+Third process (R794 — Hashimotodani 2017, mossy-LTP title
+record): the suppression pathway is itself PLASTIC — learn WHEN
+to suppress. Go learns, stop learns, and the coupling learns:
+three learning processes, all named, none built. A mixture freeze
+that fixes its suppression schedule by hand builds two students
+and a statue.
+
 Extension (R787 — Goulton 2026, early-uncertainty gating):
 suppression is transiently EARLY (recruited when contingencies
 emerge, not steady-state), TARGETED at the plasticity gate (PKA

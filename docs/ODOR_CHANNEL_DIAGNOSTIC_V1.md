@@ -58,7 +58,11 @@ Plasticity proviso (R793 — CODA-Prompt 2023): freeze the encoder
 ONLY after end-to-end decomposition training — frozen keys that
 never learned to decompose cannot serve new tasks. Separation
 needs its own learning phase; a separation freeze without one is
-pre-falsified.
+pre-falsified. Decomposition protocol (R794 — Kirsch 2018):
+routing AND modules learned jointly end-to-end (no diversity
+forcing), freeze after specialization turns interpretable. The
+proviso satisfied constructively — the training half found, not
+invented.
 
 Discovery framing (R793 — Scholkopf 2021, CRL): the
 return-distribution abstraction is a causal variable to DISCOVER
