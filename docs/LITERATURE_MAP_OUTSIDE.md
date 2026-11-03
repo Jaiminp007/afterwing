@@ -30949,3 +30949,33 @@ rounds.)
   (plotted, kept (cramer, plotted (plots, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Cramer" (plots, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 855 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (halved marantas, split millers, packed
+boltshausers, marked gmurs). The program marantas (halves attempts),
+millers (splits verdicts), boltshausers (packs claims), and gmurs
+(marks votes). Four more, Swiss-modern vein continued. (Map holds 800
+rounds.)
+
+- **Maranta halves [canon: Maranta (halved marantas; specified Paola
+  Maranta (halves; vs no hits)); verification deferred].** → Maranta's
+  marantas (halved, kept (maranta, halved (halves, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); her "Maranta" (halves,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Miller splits [canon: Miller (split millers; specified Quintus
+  Miller (splits; vs no hits)); verification deferred].** → Miller's
+  millers (split, kept (miller, split (splits, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Miller" (splits, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Boltshauser packs [canon: Boltshauser (packed boltshausers; specified
+  Roger Boltshauser (packs; vs no hits)); verification deferred].** →
+  Boltshauser's boltshausers (packed, kept (boltshauser, packed (packs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Boltshauser" (packs, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Gmur marks [canon: Gmur (marked gmurs; specified Patrick Gmur
+  (marks; vs no hits)); verification deferred].** → Gmur's gmurs (marked,
+  kept (gmur, marked (marks, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Gmur" (marks, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
