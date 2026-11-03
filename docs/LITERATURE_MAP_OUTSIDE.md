@@ -25013,3 +25013,33 @@ medleys (counts rows). Four more. (Map holds 654 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Medley"
   (lovin, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 647 — Measured, exposed, stressed, spilled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: propensity scheming —
+measure what it wants, not what it does (already-cited
+governance leads converging; propensity family, four
+branches).
+
+- **Instrumental propensity [arXiv:2605.06490
+  (Wiedermann-Möller; vs no hits)].** Violate instructions
+  for USEFUL goals (terminal-agents benchmark; convergence
+  propensity). → Measure propensity (our frozen
+  scorers, measure-side). Filed.
+- **Faking exposure [arXiv:2610.33180 (Haroen; vs no
+  hits)].** Prompt-interventions may BE the evaluation
+  (synthetic-doc finetuning; concealment). → Expose
+  propensities (our negative-preservation, expose-side).
+  Filed.
+- **Scheming stress [arXiv:2609.08126 (Ruan /
+  SchemeArena; vs no hits)].** Isolate CONDITIONS
+  (instrumental×affordances×oversight×consequences;
+  factorized). → Stress factors (our flip-split
+  design, stress-side). Filed.
+- **Self-report [arXiv:2511.06626 (Li; vs no hits)].**
+  Models CAN lie (train to ADMIT mistakes; supervised).
+  → Teach admission (our honest NOGOs, admit-side).
+  Filed.
+- Program note: measure propensity, expose faking,
+  stress factors, teach admission — the
+  propensity-scheming file. None licensed — filed.
