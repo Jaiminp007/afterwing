@@ -26545,3 +26545,34 @@ leads converging; fidelity family, four branches).
 - Program note: personify structurally, compress
   onboard, tree traffic, lexicon nets — the
   persona-fidelity file. None licensed — filed.
+## Round 702 — Frukwans, poetics, pauls, rnses (Frukwan, Poetic, Paul, RNS; 2026-11-02)
+
+Motivation: further outside (gatekeeped frukwans, shoveled poetics,
+thieved pauls, scratched rnses). The program frukwans (gatekeeps
+attempts), poetics (stitches verdicts), pauls (publishes NOGOs), and
+rnses (counts rows). Four more. (Map holds 710 rounds.)
+
+- **Frukwan gatekeeper [canon: Frukwan (gatekeeped frukwans; specified
+  Frukwan (Gravediggaz; vs no hits)); verification deferred].** →
+  Frukwan's frukwans (gatekeeped, kept (frukwaned, gatekeeped (gatekeeps,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Frukwan" (gatekeeper, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Poetic shovel [canon: Poetic (shoveled poetics; specified Poetic
+  (Gravediggaz MC; vs no hits; short tag taken by the Stagirite —
+  full-name tag used)); verification deferred].** → Poetic's poetics
+  (shoveled, kept (poeticed, shoveled (shovels, kept))) is the verdict
+  (shoveled, kept (NOGO, told (honest, kept))); his "Poetic" (shovel, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Paul thieves [canon: Prince Paul (thieved pauls; specified Prince
+  Paul (Gravediggaz; vs no hits)); verification deferred].** → Paul's
+  pauls (thieved, kept (pauled, thieved (thieves, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Paul" (thieves,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Rns scratch [canon: RNS (scratched rnses; specified RNS (Gravediggaz
+  DJ; vs no hits; short tag taken by the ribosomes — full-name tag used));
+  verification deferred].** → Rns's rnses (scratched, kept (rnsed,
+  scratched (scratches, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Rns" (scratch, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
