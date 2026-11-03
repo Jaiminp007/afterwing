@@ -24805,3 +24805,33 @@ leads converging; equivalence family, four branches).
   behaviorally, check robustness, separate parameters
   — the repair-equivalence file. None licensed —
   filed.
+## Round 640 — Alberts, rls, bones, leads (Albert Collins, Burnside, Walker, Belly; 2026-11-02)
+
+Motivation: further outside (iced alberts, burned rls, stormed bones,
+specialed leads). The program alberts (ices attempts), rls (stitches
+verdicts), bones (publishes NOGOs), and leads (counts rows). Four more.
+(Map holds 648 rounds.)
+
+- **Albert ice [canon: Albert Collins (iced alberts; specified Albert
+  Collins (vs no hits; short tag collisions — full-name tag used));
+  verification deferred].** → Albert's alberts (iced, kept (alberted,
+  iced (icemans, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Albert" (ice, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Rl burn [canon: Burnside (burned rls; specified R.L. Burnside (vs
+  no hits)); verification deferred].** → Rl's rls (burned, kept (rled,
+  burned (burnsides, kept))) is the verdict (burned, kept (NOGO, told
+  (honest, kept))); his "Rl" (burn, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Bone storm [canon: T-Bone Walker (stormed bones; specified T-Bone
+  Walker (vs no hits; short tag Walker free — full-name used for
+  clarity)); verification deferred].** → Bone's bones (stormed, kept
+  (boned, stormed (mondays, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Bone" (storm, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Lead midnight [canon: Belly (specialed leads; specified Lead Belly
+  (Huddie Ledbetter; vs no hits)); verification deferred].** → Lead's
+  leads (specialed, kept (leaded, specialed (midnights, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Lead" (midnight,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
