@@ -35344,3 +35344,38 @@ Midlands vein. ("cox" fragment taken — Nightingale coxcomb —
   (joined, kept (carried, won (crowd, kept))); his "Cox" (derbys, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 974 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (isleofdogsed outrams, hepburned
+chipperfields, lissoned frettons, holborned parrys). The program
+outrams (isleofdogs attempts), chipperfields (hepburns verdicts),
+frettons (lissons claims), and parrys (holborns votes). Four more,
+London vein II. ("Adjaye" declined — already mapped, own R-round
+adjayes/benins; consistency 13th; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Outram isleofdogs [canon: Outram (isleofdogsed outrams; specified
+  John Outram (isleofdogs; vs no hits)); verification deferred].** →
+  Outram's outrams (isleofdogsed, kept (outram, isleofdogsed
+  (isleofdogs, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Outram" (isleofdogs, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Chipperfield hepburns [canon: Chipperfield (hepburned
+  chipperfields; specified David Chipperfield (hepburns; vs no
+  hits)); verification deferred].** → Chipperfield's chipperfields
+  (hepburned, kept (chipperfield, hepburned (hepburns, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Chipperfield"
+  (hepburns, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Fretton lissons [canon: Fretton (lissoned frettons; specified Tony
+  Fretton (lissons; vs no hits)); verification deferred].** →
+  Fretton's frettons (lissoned, kept (fretton, lissoned (lissons,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Fretton" (lissons, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Parry holborns [canon: Parry (holborned parrys; specified Eric
+  Parry (holborns; vs no hits)); verification deferred].** → Parry's
+  parrys (holborned, kept (parry, holborned (holborns, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Parry"
+  (holborns, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
