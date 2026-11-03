@@ -499,6 +499,17 @@ fully fenced to a single regime. The ledger's first probe-time
 quantity survives in exactly one training world out of three. Filed
 without flinching; the gate unmoved.
 
+Precision 6 (2026-11-03): panel boundary — R2–R6 DO carry
+probe-transfer traces (40 files each = 8×5), but their verdicts are
+aggregate-only (no per-history transfer outcomes published); R7
+never reached transfer (extinct at tick 1911). Computing my own
+transfer metric on their traces would mix my measure with their
+rounds — declined, same rule as the verdict-level extension.
+The panel (R8/R9/R10) covers every round whose own verdict
+publishes per-history transfer outcomes: the candidate was tested
+everywhere the line's own verdicts allow testing. Boundary stated,
+not breached; fence complete.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
