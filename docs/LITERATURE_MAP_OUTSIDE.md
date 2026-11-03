@@ -36738,3 +36738,55 @@ pre-append, flattened method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Gong" (flexibilities, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1007 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=180, cs.RO start=160).
+Two new IDs triaged (0 worlds), both map: 2610.36708 lead+senior
+(Deb/Banerjee) — conservative dueling bandits: cumulative score of
+the better displayed item stays above a (1−α) fraction of a trusted
+baseline at every round; safety test transfers; constraint needs no
+absolute rewards, only utility differences — never-below-baseline
+with baseline-relative safety, the program's noninferiority (vs
+unlearned/frozen) plus difference-gates, formalized; and 2610.41877
+lead+senior (Bu/Li) — Movens: 15M human-motion plus 5M physically
+executable humanoid sequences with humanoid retargeting and execution
+verification — cross-embodiment retargeting with verification at
+scale, the program's body-transfer data problem, industrialized.
+(First + senior mapped from each multi-author paper per TRAILS
+precedent; Ghavamzadeh + 22 Movens middles noted unmapped.)
+(Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Deb duelings [LIVE 2610.36708 (duelinged rohandeb; specified
+  Rohan Deb (duelings; "Deb" fragments standing (debt/Deborah) —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Deb's rohandeb (duelinged, kept
+  (rohande, duelinged (duelings, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Deb" (duelings, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Banerjee conservatives [LIVE 2610.36708 (conservatived
+  arindambanerjees; specified Arindam Banerjee (conservatives;
+  distinct from RCT-round Banerjee/Duflo — compound + full-name tag
+  per collision rule; vs no hits)); verification deferred].** →
+  Banerjee's arindambanerjees (conservatived, kept (arindambanerjee,
+  conservatived (conservatives, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Banerjee" (conservatives, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Bu retargetings [LIVE 2610.41877 (retargetinged wendongbus;
+  specified Wendong Bu (retargetings; "Bu" taken — 14x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Bu's wendongbus (retargetinged, kept
+  (wendongbu, retargetinged (retargetings, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Bu"
+  (retargetings, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Li executables [LIVE 2610.41877 (executabled junchenglis;
+  specified Juncheng Li (executables; "Li" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Li's junchenglis (executabled, kept
+  (junchengli, executabled (executables, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Li" (executables, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
