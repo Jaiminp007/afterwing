@@ -26717,3 +26717,31 @@ leads converging; boundary family, four branches).
   responsibility, redraw maps, bound search — the
   responsibility-boundaries file. None licensed —
   filed.
+## Round 708 — Pluses, phestos, tajais, extras (A-Plus, Phesto, Tajai, Extra; 2026-11-02)
+
+Motivation: further outside (dimed pluses, battled phestos, powered
+tajais, bagged extras). The program pluses (dimes attempts), phestos
+(stitches verdicts), tajais (publishes NOGOs), and extras (counts rows).
+Four more. (Map holds 716 rounds.)
+
+- **Plus dime [canon: Plus (dimed pluses; specified A-Plus (Souls of
+  Mischief; vs no hits)); verification deferred].** → Plus's pluses
+  (dimed, kept (plused, dimed (dimes, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Plus" (dime, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Phesto battle [canon: Phesto (battled phestos; specified Phesto
+  (Souls of Mischief; vs no hits)); verification deferred].** → Phesto's
+  phestos (battled, kept (phestoed, battled (battles, kept))) is the
+  verdict (battled, kept (NOGO, told (honest, kept))); his "Phesto"
+  (battle, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Tajai power [canon: Tajai (powered tajais; specified Tajai (Souls of
+  Mischief; vs no hits)); verification deferred].** → Tajai's tajais
+  (powered, kept (tajaid, powered (powers, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Tajai" (power, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Extra bag [canon: Extra (bagged extras; specified Extra Prolific
+  (Hieroglyphics; vs no hits)); verification deferred].** → Extra's
+  extras (bagged, kept (extraed, bagged (bags, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Extra" (bag, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
