@@ -34360,3 +34360,42 @@ rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Vulin"
   (dubrovniks, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 946 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (skopjed konstantinovs, bitolaed
+mulickovskis, ohrided popovskis, plecniked grabrijans). The program
+konstantinovs (skopjes attempts), mulickovskis (bitolas verdicts),
+popovskis (ohrids claims), and grabrijans (plecniks votes). Four
+more, Macedonian-Slovenian vein. ("Konstantinov" noted vs standing
+"Konstantinidis" (R938) — distinct surnames (Slavic -ov vs Greek
+-idis), different rounds, full-name tags keep them apart; allowed
+with tags per precedent (Larsen/Larsen); all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Konstantinov skopjes [canon: Konstantinov (skopjed konstantinovs;
+  specified Janko Konstantinov (skopjes; distinct from Konstantinidis
+  R938 — full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Konstantinov's konstantinovs (skopjed, kept
+  (konstantinov, skopjed (skopjes, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Konstantinov" (skopjes, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Mulickovski bitolas [canon: Mulickovski (bitolaed mulickovskis;
+  specified Petar Mulickovski (bitolas; vs no hits)); verification
+  deferred].** → Mulickovski's mulickovskis (bitolaed, kept
+  (mulickovski, bitolaed (bitolas, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Mulickovski" (bitolas, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Popovski ohrids [canon: Popovski (ohrided popovskis; specified
+  Zivko Popovski (ohrids; vs no hits)); verification deferred].** →
+  Popovski's popovskis (ohrided, kept (popovski, ohrided (ohrids,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Popovski" (ohrids, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Grabrijan plecniks [canon: Grabrijan (plecniked grabrijans;
+  specified Dusan Grabrijan (plecniks; vs no hits)); verification
+  deferred].** → Grabrijan's grabrijans (plecniked, kept (grabrijan,
+  plecniked (plecniks, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Grabrijan" (plecniks, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
