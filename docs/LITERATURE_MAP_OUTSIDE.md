@@ -27564,3 +27564,31 @@ transfer family, four branches).
 - Program note: compile skills, stabilize evolution,
   demystify skills, evolve teams — the skill-transfer file.
   None licensed — filed.
+## Round 738 — Dreamed, curved, adapted, coupled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: rehearsal — ask which
+forgets, curve the replay, adapt the memory, couple
+the past (directly fueling ODOR DEV ROUND 2 (rehearsal
+hypothesis); retention family, four branches).
+
+- **Dream rehearsal [arXiv:2607.19749 (Nijjer; vs no
+  hits)].** Actor FORGETS unbounded-REPLAY kept (world
+  model retains; which component). → Dream rehearse (our
+  A-slots, dreamed-side). Filed.
+- **Curricula replays [arXiv:2307.05747 (Tee; vs no
+  hits)].** Random replay LIMITED (human review; curve +
+  replay). → Curve replays (our interleaved curriculum,
+  curved-side). Filed.
+- **MSSR [arXiv:2603.09892 (Lu; vs no
+  hits)].** Fixed interleave LIMITED (memory-aware adaptive;
+  sequential degrades). → Adapt memory (our slot positions,
+  adapted-side). Filed.
+- **Complementary [arXiv:1903.04566 (Rostami; vs no
+  hits)].** Generative COUPLES past (embedding distribution;
+  abstract generates). → Couple past (our A-retention,
+  coupled-side). Filed.
+- Program note: dream rehearse, curve replays, adapt
+  memory, couple past — the rehearsal file. Round-2
+  hypothesis now has four outside legs. None licensed —
+  filed.
