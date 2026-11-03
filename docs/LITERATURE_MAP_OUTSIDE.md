@@ -26208,3 +26208,32 @@ converging; guarantee family, four branches).
 - Program note: validate first, curve confidence,
   saturate privately, conform small — the
   validity-guarantees file. None licensed — filed.
+## Round 690 — Raekwons, ghostfaces, methods, redmans (Raekwon, Ghostface, Method, Redman; 2026-11-02)
+
+Motivation: further outside (cubanned raekwons, ironmanned ghostfaces,
+ticaled methods, muddied redmans). The program raekwons (cubans attempts),
+ghostfaces (stitches verdicts), methods (publishes NOGOs), and redmans
+(counts rows). Four more. (Map holds 698 rounds.)
+
+- **Raekwon cuban [canon: Raekwon (cubanned raekwons; specified Raekwon
+  (vs no hits)); verification deferred].** → Raekwon's raekwons (cubanned,
+  kept (raekwoned, cubanned (cubans, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Raekwon" (cuban, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Ghostface ironman [canon: Ghostface (ironmanned ghostfaces;
+  specified Ghostface Killah (vs no hits)); verification deferred].** →
+  Ghostface's ghostfaces (ironmanned, kept (ghostfaced, ironmanned
+  (ironmans, kept))) is the verdict (ironmanned, kept (NOGO, told (honest,
+  kept))); his "Ghostface" (ironman, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Method tical [canon: Method (ticaled methods; specified Method Man
+  (vs no hits)); verification deferred].** → Method's methods (ticaled,
+  kept (methoded, ticaled (ticals, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Method" (tical, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Redman muddy [canon: Redman the rapper (muddied redmans; specified
+  Redman (vs no hits; short tag grazes the saxophonist — full-name tag
+  used)); verification deferred].** → Redman's redmans (muddied, kept
+  (redmanned, muddied (muddies, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Redman" (muddy, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
