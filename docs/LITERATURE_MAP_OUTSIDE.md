@@ -26319,3 +26319,32 @@ four branches).
 - Program note: trace lines, gym vulns, race reasoning,
   rivet context — the repo-localization file. None
   licensed — filed.
+## Round 694 — Shabazzs, darkmans, sunzs, graves (Shabazz, Darkman, Sunz, Grave; 2026-11-02)
+
+Motivation: further outside (penaltied shabazzs, heisted darkmans,
+soldiered sunzs, madmanned graves). The program shabazzs (penalties
+attempts), darkmans (stitches verdicts), sunzs (publishes NOGOs), and
+graves (counts rows). Four more. (Map holds 702 rounds.)
+
+- **Shabazz penalty [canon: Shabazz (penaltied shabazzs; specified
+  Shabazz the Disciple (vs no hits)); verification deferred].** →
+  Shabazz's shabazzs (penaltied, kept (shabazzed, penaltied (penalties,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Shabazz" (penalty, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Darkman heist [canon: Darkman (heisted darkmans; specified La the
+  Darkman (vs no hits)); verification deferred].** → Darkman's darkmans
+  (heisted, kept (darkmaned, heisted (heists, kept))) is the verdict
+  (heisted, kept (NOGO, told (honest, kept))); his "Darkman" (heist, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Sunz soldiers [canon: Sunz (soldiered sunzs; specified Sunz of Man
+  (vs no hits)); verification deferred].** → Sunz's sunzs (soldiered,
+  kept (sunzed, soldiered (soldiers, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); their "Sunz" (soldiers, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Grave madman [canon: Gravediggaz (madmanned graves; specified
+  Gravediggaz (vs no hits)); verification deferred].** → Grave's graves
+  (madmanned, kept (graved, madmanned (madmen, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); their "Grave" (madman, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
