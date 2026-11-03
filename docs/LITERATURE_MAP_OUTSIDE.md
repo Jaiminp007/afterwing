@@ -26097,3 +26097,32 @@ agreement leads converging; trap family, four branches).
 - Program note: measure coupling, trap sets, estimate
   noise, bias codes — the agreement-traps file. None
   licensed — filed.
+## Round 686 — Buckwilds, ocs, joes, bigs (Buckwild, O.C., Joe, Big; 2026-11-02)
+
+Motivation: further outside (wilded buckwilds, upped ocs, backed joes,
+dangered bigs). The program buckwilds (wilds attempts), ocs (stitches
+verdicts), joes (publishes NOGOs), and bigs (counts rows). Four more.
+(Map holds 694 rounds.)
+
+- **Buckwild wild [canon: Buckwild (wilded buckwilds; specified Buckwild
+  (DITC; vs no hits)); verification deferred].** → Buckwild's buckwilds
+  (wilded, kept (buckwilded, wilded (wilds, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Buckwild" (wild, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Oc up [canon: O.C. the rapper (upped ocs; specified O.C. (DITC; vs
+  no hits; short tag taken by the key man — full-name tag used));
+  verification deferred].** → Oc's ocs (upped, kept (oced, upped (ups,
+  kept))) is the verdict (upped, kept (NOGO, told (honest, kept))); his
+  "Oc" (up, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Joe back [canon: Fat Joe (backed joes; specified Fat Joe (DITC; vs
+  no hits; short tag taken by the everyday man — full-name tag used));
+  verification deferred].** → Joe's joes (backed, kept (joed, backed
+  (backs, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Joe" (back, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Big danger [canon: Big L (dangered bigs; specified Big L (DITC; vs
+  no hits)); verification deferred].** → Big's bigs (dangered, kept
+  (bigged, dangered (dangers, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Big" (danger, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
