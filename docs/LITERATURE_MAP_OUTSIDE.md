@@ -25960,3 +25960,30 @@ gurus (stitches verdicts), prodigies (publishes NOGOs), and professors
   vote (joined, kept (carried, won (crowd, kept))); his "Professor"
   (door, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 681 — Consensed, revealed, illuded, verified (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: majority escape —
+popularity ≠ correctness (already-cited majority-vote
+leads converging; escape family, four branches; RSI
+relevance noted in-source).
+
+- **Dual consensus [arXiv:2603.16223 (Du; vs no
+  hits)].** TRAPPED in dominant mode (popular-but-wrong;
+  two-stage vote). → Escape majorities (our G2b
+  floor, escape-side). Filed.
+- **Reveal [arXiv:2506.11442 (Jin / ReVeal; vs no
+  hits)].** Widen verification ASYMMETRY (reliable
+  self-verification drives scaling). → Reveal reliably
+  (our frozen scorers, reveal-side). Filed.
+- **Overuse illusion [arXiv:2604.19749 (Zeng; vs no
+  hits)].** PERVASIVE unnecessary use (epistemic lens;
+  external over internal). → Illude tools (our flat
+  fee, illude-side). Filed.
+- **Tool verify [arXiv:2603.02203 (Liao; TTRL-as-RSI
+  in-source; vs no hits)].** Popularity ≠ CORRECTNESS
+  (collapse into wrong mode; verify tools). → Verify
+  tools (our copy-controls, verify-side). Filed.
+- Program note: escape majorities, reveal reliably,
+  illude tools, verify tools — the majority-escape
+  file. None licensed — filed.
