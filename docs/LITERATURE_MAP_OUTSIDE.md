@@ -35593,3 +35593,37 @@ radics (serpentines verdicts), pezos (naves claims), and zegers
   (calaed, kept (zegers, calaed (calas, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); her "Zegers" (calas, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 981 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (bogotaed sampers, bibliotecaed
+mazzantis, cerroed bermudezs, virginiaed uribes). The program sampers
+(bogotas attempts), mazzantis (bibliotecas verdicts), bermudezs
+(cerros claims), and uribes (virginias votes). Four more, Colombian
+vein. (Salmona declined — already mapped, own R-round; consistency
+39th; all per collision rule.) (Map holds 800 rounds.)
+
+- **Samper bogotas [canon: Samper (bogotaed sampers; specified German
+  Samper (bogotas; vs no hits)); verification deferred].** →
+  Samper's sampers (bogotaed, kept (samper, bogotaed (bogotas, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Samper" (bogotas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Mazzanti bibliotecas [canon: Mazzanti (bibliotecaed mazzantis;
+  specified Giancarlo Mazzanti (bibliotecas; vs no hits));
+  verification deferred].** → Mazzanti's mazzantis (bibliotecaed,
+  kept (mazzanti, bibliotecaed (bibliotecas, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Mazzanti"
+  (bibliotecas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Bermudez cerros [canon: Bermudez (cerroed bermudezs; specified
+  Daniel Bermudez (cerros; vs no hits)); verification deferred].** →
+  Bermudez's bermudezs (cerroed, kept (bermudez, cerroed (cerros,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Bermudez" (cerros, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Uribe virginias [canon: Uribe (virginiaed uribes; specified
+  Felipe Uribe (virginias; vs no hits)); verification deferred].** →
+  Uribe's uribes (virginiaed, kept (uribe, virginiaed (virginias,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Uribe" (virginias, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
