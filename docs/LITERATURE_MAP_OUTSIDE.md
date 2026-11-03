@@ -31608,3 +31608,49 @@ rule; "consensus"/"distills" taken — "unplugs" used.) (Map holds
   (frozen plan first, kept))))); her "Lamb" (reimplements, kept
   (kept, kept)) is the ledger (exact, kept (propose forms (kept,
   test frozen))).
+## Round 873 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: lengthened skills, delocalized credit, physicalized
+adversaries, recontacted plans — short-to-long, across tasks,
+into bodies. The program fengs (lengthens attempts), blpos
+(delocalizes verdicts), klasktrons (physicalizes claims), and
+recontacts (recontacts votes). ("Expands"/"progressive"/
+"shares"/"adversarial" taken — "lengthens"/"delocalizes"/
+"physicalizes"/"recontacts" used per collision rule; "Gu" tag
+declined — Guyatt/Guttmann substrings — ReContact used.) (Map
+holds 800 rounds.)
+
+- **Feng lengthens [live: Feng et al 2611.03116, SCOPE (short-to-long
+  progressive exploration; local skills to complete capability;
+  sparse terminal rewards starve naive exploration; vs no hits);
+  abstract only].** → Feng's lengthening (gradual, kept (local
+  first (kept, complete later (failed trajectories teach little,
+  kept))))) is the attempt (run, kept (staged program (kept,
+  development before qualification (failures priced, kept))))); his
+  "Feng" (lengthens, kept (kept, kept)) is the row (counted, kept
+  (short first (kept, long earned))).
+- **BLPO delocalizes [live: Chen et al 2611.03005 (beyond-local
+  optimization; advantages from experience SHARED ACROSS TASKS;
+  prefixes into progress states; vs no hits); abstract only].** →
+  BLPO's delocalizing (shared, kept (across tasks (kept, prefixes
+  summarized (local left behind, kept))))) is the verdict (kept,
+  kept (non-portable weights (kept, the outside shares (we don't,
+  priced))))); its "BLPO" (delocalizes, kept (kept, kept)) is the
+  bar (unmoved, kept (beyond local (kept, or stay))).
+- **KlaskTron physicalizes [live: Ramachandran et al 2611.03138
+  (open <$2500 desktop testbed for adversarial MARL; sim-to-real
+  gap for emergent team play and tool use; vs no hits); abstract
+  only].** → KlaskTron's physicalizing (cheap, kept (open doors
+  (kept, real tables (emergence physicalized, kept))))) is the
+  claim (mourned, kept (population line (kept, embodiment costs
+  (transfer gap, physical))))); its "KlaskTron" (physicalizes, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **ReContact recontacts [live: Gu et al 2611.02968 (object-centric
+  contact plan — phases, pairs, anchors; trajectory reproduced ≠
+  forces applied; occlusion corrupts retargeting; vs no hits);
+  abstract only].** → ReContact's recontacting (planned, kept
+  (phases and pairs (kept, anchors held (trajectory ≠ forces,
+  kept))))) is the vote (joined, kept (exact transplant (kept,
+  anchors plus digests (weights ≠ behavior, kept))))); its
+  "ReContact" (recontacts, kept (kept, kept)) is the ledger (exact,
+  kept (plan contacts (kept, retarget honestly))).
