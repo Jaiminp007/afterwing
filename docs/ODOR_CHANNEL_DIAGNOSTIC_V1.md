@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 51 (2026-11-02, read-only: spent R10 transfer probes)
+
+The instrument works: per-history transfer action-entropy computed
+end-to-end from `probe-transfer-current` traces (8/8 histories,
+512–1151 decisions each, action-2 cruise dominant throughout).
+Entropy rank-tracks transfer at rho≈0.61 (n=8, suggestive not
+significant): the pure-cruise history (1917475589, H=0.000, 512/512
+action-2) WINS +1.01, the richest mixer (3170855589, H=1.339) wins
++2.77, the two leanest losers sit at the bottom. First probe-time
+quantity that doesn't immediately die — and it bounds its own story:
+H=0 wins, so exploration is not necessary; confounded by probe length
+(512–1151), so entropy is not sufficient. A candidate, not a carrier.
+Candidate recorded, gate unmoved.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
