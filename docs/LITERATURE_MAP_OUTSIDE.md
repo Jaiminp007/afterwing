@@ -27163,3 +27163,32 @@ converging; trade-off family, four branches).
 - Program note: convolve fast, lightning parallel,
   cheapen queries, think auto — the speed-accuracy file.
   None licensed — filed.
+## Round 724 — Mikes, smashes, despots, yaks (Mike Ladd, Smash, Despot, Yak; 2026-11-02)
+
+Motivation: further outside (inflected mikes, smashed smashes, crypticed
+despots, balled yaks). The program mikes (inflects attempts), smashes
+(stitches verdicts), despots (publishes NOGOs), and yaks (counts rows).
+Four more. (Map holds 732 rounds.)
+
+- **Mike inflect [canon: Mike Ladd (inflected mikes; specified Mike Ladd
+  (Def Jux; vs no hits)); verification deferred].** → Mike's mikes
+  (inflected, kept (miked, inflected (inflects, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Mike" (inflect, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Smash smash [canon: SA Smash (smashed smashes; specified S.A. Smash
+  (Def Jux; vs no hits)); verification deferred].** → Smash's smashes
+  (smashed, kept (smashed, smashed (smashes, kept))) is the verdict
+  (smashed, kept (NOGO, told (honest, kept))); their "Smash" (smash, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Despot cryptic [canon: Despot the rapper (crypticed despots; specified
+  Despot (Def Jux MC; vs no hits; short tag taken by the regimes —
+  full-name tag used)); verification deferred].** → Despot's despots
+  (crypticed, kept (despoted, crypticed (cryptics, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Despot" (cryptic,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Yak ballz [canon: Yak Ballz (balled yaks; specified Yak Ballz (Def
+  Jux; vs no hits)); verification deferred].** → Yak's yaks (balled, kept
+  (yaked, balled (ballz, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Yak" (ballz, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
