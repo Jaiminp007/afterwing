@@ -36637,3 +36637,50 @@ method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Martin" (unstructureds, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 1005 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=160, cs.RO start=140,
+eess.SY start=130, q-bio.NC start=170). Four new IDs triaged (0
+worlds): 2611.00324 (tethered robots — DECLINED unrelated-screening),
+2610.40427 (chance-control package — DECLINED thin, tool paper),
+2610.37611 (Tedesco/Finazzi) — agentic distributional regression
+(an agent examines data, chooses a conditional-distribution model and
+fitting procedure, returns the estimator as a short program —
+parametric, mixture, or factorization) — propose-choose-fit-returned-
+as-program, the program's RSI-SELF in-agent loop (propose-evaluate-
+adopt), formalized; and 2609.38998 lead+senior (Braun/Saxe) —
+analytical dissociation of functional and representational similarity
+(representational similarity without functional similarity and vice
+versa; neither robustness...) — the program's twin finding (same
+weights, behavior separates) plus mean-vector misdirection,
+proven analytically. (First + senior mapped from the trio per TRAILS
+precedent; Grant noted unmapped.) (Abstracts only, 0 worlds; IDs +
+authors + contexts virgin pre-append, flattened method.)
+
+- **Tedesco agentics [LIVE 2610.37611 (agenticed tedescos; specified
+  Lorenzo Tedesco (agentics; vs no hits)); verification deferred].**
+  → Tedesco's tedescos (agenticed, kept (tedesco, agenticed (agentics,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Tedesco" (agentics, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Finazzi covariates [LIVE 2610.37611 (covariated finazzis;
+  specified Francesco Finazzi (covariates; vs no hits)); verification
+  deferred].** → Finazzi's finazzis (covariated, kept (finazzi,
+  covariated (covariates, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Finazzi" (covariates, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Braun similarities [LIVE 2609.38998 (similaritied lukasbrauns;
+  specified Lukas Braun (similarities; distinct from cross-modal-marks
+  Braun — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Braun's lukasbrauns (similaritied, kept
+  (lukasbraun, similaritied (similarities, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Braun"
+  (similarities, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Saxe linears [LIVE 2609.38998 (linearized andrewmsaxes; specified
+  Andrew M. Saxe (linears; distinct from saxophone-round "saxes" —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Saxe's andrewmsaxes (linearized, kept
+  (andrewmsaxe, linearized (linears, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Saxe" (linears, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
