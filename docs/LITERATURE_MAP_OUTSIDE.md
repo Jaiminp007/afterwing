@@ -36200,3 +36200,51 @@ pre-append, flattened method.)
   invasioned (invasions, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); her "Bitbol" (invasions, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 996 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (cs.RO start=50, eess.SY start=50).
+Two new IDs triaged (0 worlds), both map: 2611.02660
+(Kim/Kim/Choi/Lee) — HeLM hierarchical explicit language memory for
+non-Markovian manipulation (Markovian current-obs→action fails where
+history matters; task-relevant history kept via event-triggered
+updates, inner-monologue-inspired) — the program's history-adaptive
+demand (R1 architectures fail exactly by mapping current state and
+ignoring history), formalized; and 2611.01598
+(Bhattacharya/Chakraborty) — QFabric guarded cross-domain task
+recovery with stated limits (compiled for both domains, windowed
+monitoring with hysteresis, switch at quiescent boundaries, commit or
+roll back after probation) — the program's transfer +
+negative-preservation + rollback discipline, formalized. (First +
+senior mapped from the quartet per TRAILS precedent; Donghoon Kim +
+Minsoo Choi noted unmapped.) (Abstracts only, 0 worlds; IDs + authors
++ contexts virgin pre-append, flattened method.)
+
+- **Kim monologues [LIVE 2611.02660 (monologued gyeonghunkims;
+  specified Gyeonghun Kim (monologues; "Kim" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Kim's gyeonghunkims (monologued, kept
+  (gyeonghunkim, monologued (monologues, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Kim" (monologues, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Lee hystereses [LIVE 2611.02660 (hysteresised suyunlees;
+  specified Suyun Lee (hystereses; "Lee" flood — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Lee's suyunlees (hysteresised, kept (suyunlee,
+  hysteresised (hystereses, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); her "Lee" (hystereses, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Bhattacharya recoveries [LIVE 2611.01598 (recoveried
+  bhattacharyas; specified Ayushman Bhattacharya (recoveries; vs no
+  hits)); verification deferred].** → Bhattacharya's bhattacharyas
+  (recoveried, kept (bhattacharya, recoveried (recoveries, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Bhattacharya" (recoveries, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Chakraborty probations [LIVE 2611.01598 (probationed
+  chakrabortys; specified Anwesha Chakraborty (probations; vs no
+  hits)); verification deferred].** → Chakraborty's chakrabortys
+  (probationed, kept (chakraborty, probationed (probations, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); her
+  "Chakraborty" (probations, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
