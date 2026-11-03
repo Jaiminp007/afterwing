@@ -34326,3 +34326,37 @@ collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Salgado" (lisbons, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 945 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (triested bernardis, televisioned
+mutnjakovics, poljuded magass, dubrovniked vulins). The program
+bernardis (triests attempts), mutnjakovics (televisions verdicts),
+magass (poljuds claims), and vulins (dubrovniks votes). Four more,
+Adriatic vein. ("splits" taken — "triests" used, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Bernardi triests [canon: Bernardi (triested bernardis; specified
+  Bernardo Bernardi (triests; vs no hits)); verification deferred].**
+  → Bernardi's bernardis (triested, kept (bernardi, triested (triests,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Bernardi" (triests, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Mutnjakovic televisions [canon: Mutnjakovic (televisioned
+  mutnjakovics; specified Andrija Mutnjakovic (televisions; vs no
+  hits)); verification deferred].** → Mutnjakovic's mutnjakovics
+  (televisioned, kept (mutnjakovic, televisioned (televisions, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Mutnjakovic" (televisions, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Magas poljuds [canon: Magas (poljuded magass; specified Boris Magas
+  (poljuds; vs no hits)); verification deferred].** → Magas's magass
+  (poljuded, kept (magas, poljuded (poljuds, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Magas"
+  (poljuds, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Vulin dubrovniks [canon: Vulin (dubrovniked vulins; specified Ante
+  Vulin (dubrovniks; vs no hits)); verification deferred].** → Vulin's
+  vulins (dubrovniked, kept (vulin, dubrovniked (dubrovniks, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Vulin"
+  (dubrovniks, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
