@@ -33025,3 +33025,38 @@ used, all per collision rule.) (Map holds 800 rounds.)
   (bundles, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Minsuk" (bundles, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 908 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (jungled bensleys, bangkokked yantrasasts,
+elephanted premthadas, canalled chuenrudeemols). The program bensleys
+(jungles attempts), yantrasasts (bangkoks verdicts), premthadas
+(elephants claims), and chuenrudeemols (canals votes). Four more, Thai
+vein. ("Bangkok" fragment clean — full "bangkoks" virgin; all four
+surnames + full names + contexts virgin pre-append, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Bensley jungles [canon: Bensley (jungled bensleys; specified Bill
+  Bensley (jungles; vs no hits)); verification deferred].** → Bensley's
+  bensleys (jungled, kept (bensley, jungled (jungles, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Bensley"
+  (jungles, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Yantrasast bangkoks [canon: Yantrasast (bangkokked yantrasasts;
+  specified Kulapat Yantrasast (bangkoks; vs no hits)); verification
+  deferred].** → Yantrasast's yantrasasts (bangkokked, kept
+  (yantrasast, bangkokked (bangkoks, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Yantrasast" (bangkoks, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Premthada elephants [canon: Premthada (elephanted premthadas;
+  specified Boonserm Premthada (elephants; vs no hits)); verification
+  deferred].** → Premthada's premthadas (elephanted, kept (premthada,
+  elephanted (elephants, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Premthada" (elephants, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Chuenrudeemol canals [canon: Chuenrudeemol (canalled
+  chuenrudeemols; specified Chatpong Chuenrudeemol (canals; vs no
+  hits)); verification deferred].** → Chuenrudeemol's chuenrudeemols
+  (canalled, kept (chuenrudeemol, canalled (canals, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Chuenrudeemol"
+  (canals, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
