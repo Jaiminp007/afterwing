@@ -32,9 +32,12 @@ exact open items. Nothing here changes any verdict.
   part-iv scoping → ODOR readiness NOT READY). Odor DEV round 2
   (rehearsal) CLOSED as NO-GO 2026-11-02: A 22%→96% (mechanism
   confirmed on retention) but transfer +0.42→−1.20 and B 179%→73%
-  — retention⇏transfer dissociation; round 3 = guard-feature
-  augmentation (scoped, needs frozen dev plan). Next: round-3
-  freeze, then qual freeze (iv-b) only on a GO.
+  — retention⇏transfer dissociation; round 3 (guard-feature)
+  CLOSED as NO-GO 2026-11-02: transfer −0.42/−0.52, A 78%, B 103%,
+  beat-guarded fails (−0.37, 3/8) — frozen falsifier: gap is
+  policy-expressiveness, not information. Both recorded mechanisms
+  failed; no round 4 scoped (new hypothesis needed). Next: fresh
+  thinking for the odor lane, then qual freeze (iv-b) only on a GO.
 - RSI proper — bounded recursive self-improvement: OPEN.
   Requires ALL of: (a) ≥2 successive persistent revisions lifting
   transfer vs copied-improvement + matched-budget controls;
