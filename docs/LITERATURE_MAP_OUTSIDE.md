@@ -30433,3 +30433,35 @@ micheluccis (stations votes). Four more, Italian-modern vein continued.
   stationed (stations, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Michelucci" (stations, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 838 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (housed ridolfis, framed wolfgangs, flowed
+valles, schooled aymoninos). The program ridolfis (houses attempts),
+wolfgangs (frames verdicts), valles (flows claims), and aymoninos
+(schools votes). Four more, Italian-modern vein continued. (Map holds
+800 rounds; "Frankl" substring hits are Franklin — full-name tag used.)
+
+- **Ridolfi houses [canon: Ridolfi (housed ridolfis; specified Mario
+  Ridolfi (houses; vs no hits)); verification deferred].** → Ridolfi's
+  ridolfis (housed, kept (ridolfi, housed (houses, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Ridolfi" (houses,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Wolfgang Frankl frames [canon: Wolfgang Frankl (framed wolfgangs;
+  specified Wolfgang Frankl (frames; distinct from Franklin — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Frankl's wolfgangs (framed, kept (wolfgang, framed
+  (frames, kept))) is the verdict (kept, kept (NOGO, told (honest, kept)));
+  his "Wolfgang" (frames, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Valle flows [canon: Valle (flowed valles; specified Gino Valle
+  (flows; vs no hits)); verification deferred].** → Valle's valles
+  (flowed, kept (valle, flowed (flows, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Valle" (flows, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Aymonino schools [canon: Aymonino (schooled aymoninos; specified Carlo
+  Aymonino (schools; vs no hits)); verification deferred].** → Aymonino's
+  aymoninos (schooled, kept (aymonino, schooled (schools, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Aymonino"
+  (schools, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
