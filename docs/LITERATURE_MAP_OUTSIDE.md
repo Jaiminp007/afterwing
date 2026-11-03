@@ -26237,3 +26237,29 @@ ghostfaces (stitches verdicts), methods (publishes NOGOs), and redmans
   (redmanned, muddied (muddies, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Redman" (muddy, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 691 — Coqlexed, inverted, zipped, paradoxic (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: verified lexing — every
+stage proved (already-cited verification leads
+converging; lexing family, four branches).
+
+- **Coqlex [arXiv:2306.12411 (Ouedraogo; vs no
+  hits)].** OCamllex UNVERIFIED gap (CompCert chain;
+  every component proved). → Lex verified (our
+  instrument chain, lex-side). Filed.
+- **Invert lexer [arXiv:2412.13581 (Chassot; vs no
+  hits)].** Lexing-printing DUALITY (regex + DFAs;
+  serialization). → Invert lexing (our flip-split
+  design, invert-side). Filed.
+- **ZipLex [arXiv:2510.18479 (Chassot; vs no hits)].**
+  Mutual INVERSES (verified memoization; linear-time;
+  maximal munch). → Zip lexing (our exact replays,
+  zip-side). Filed.
+- **Compliance paradox [arXiv:2601.21360 (Sahoo; vs no
+  hits)].** Helpfulness → VULNERABILITY (instruction ≠
+  adjudication; decoupling). → Paradox compliance
+  (our frozen verdicts, paradox-side). Filed.
+- Program note: lex verified, invert lexing, zip
+  lexing, paradox compliance — the verified-lexing
+  file. None licensed — filed.
