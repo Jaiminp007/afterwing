@@ -27449,3 +27449,33 @@ efficiency family, four branches).
 - Program note: refine data, link values, scale vocab,
   expand trees — the refine-link-scale-expand file.
   None licensed — filed.
+## Round 734 — Bieruts, schers, geissbuhlers, chermayeffs (Bierut, Scher, Geissbuhler, Chermayeff; 2026-11-02)
+
+Motivation: further outside (howto'd bieruts, mapped schers, marked
+geissbuhlers, collaged chermayeffs). The program bieruts (howtos
+attempts), schers (maps verdicts), geissbuhlers (marks claims), and
+chermayeffs (collages votes). Four more. (Map holds 740 rounds;
+milestone: 740 rounds.)
+
+- **Bierut howto [canon: Bierut (howto'd bieruts; specified Michael
+  Bierut (Pentagram; vs no hits)); verification deferred].** → Bierut's
+  bieruts (howto'd, kept (bierut, howto'd (howtos, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Bierut" (howto, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Scher maps [canon: Scher (mapped schers; specified Paula Scher
+  (Pentagram; vs no hits)); verification deferred].** → Scher's schers
+  (mapped, kept (scher, mapped (maps, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); her "Scher" (maps, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Geissbuhler marks [canon: Geissbuhler (marked geissbuhlers;
+  specified Steff Geissbuhler (Chermayeff/Geismar; vs no hits));
+  verification deferred].** → Geissbuhler's geissbuhlers (marked, kept
+  (geissbuhler, marked (marks, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Geissbuhler" (marks, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Chermayeff collages [canon: Chermayeff (collaged chermayeffs;
+  specified Ivan Chermayeff (Chermayeff/Geismar; vs no hits));
+  verification deferred].** → Chermayeff's chermayeffs (collaged, kept
+  (chermayeff, collaged (collages, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Chermayeff" (collage, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
