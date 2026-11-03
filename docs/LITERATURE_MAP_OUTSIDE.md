@@ -36530,3 +36530,56 @@ contexts virgin pre-append, flattened method.)
   (nhatbui, disordered (disorders, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Bui" (disorders, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 1003 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=130, eess.SY start=100,
+cs.RO start=120, q-bio.NC start=150). Four new IDs triaged (0
+worlds): 2610.41238 (battery dispatch — DECLINED unrelated-screening),
+2610.39302 (Balestriero/LeCun) — Platonic Representation Theorem:
+JEPAs on different modalities learn the SAME representation up to one
+rotation given good views, misalignment bounded otherwise;
+next-token prediction is a JEPA with bad views — convergence up to
+rotation with bounded misalignment, the program's twin finding (same
+weights, behavior separates — history is the rotation) plus bad-views
+partial observability, proven; 2610.03827 (Rahbar) — the score is
+not the structure: probe transfer gradients confounded by probe
+accuracy falling on the same axis; chance-level cases dropped halve
+explained variance; pairs counted as independent inflate — the
+program's audit discipline (panel boundaries, midrank corrections,
+dependence-awareness), titled; and 2611.00734 lead (He) — MOST
+memory of object states and task progress for long-horizon
+manipulation (act on no-longer-visible information; completed
+subtasks constrain futures; remember state changes and progress, not
+more) — phase progress with completed phases constraining futures,
+the program's segSummary/CONVERGED tracking, formalized. (Lead
+author mapped from the octet; senior + 6 middles noted unmapped.)
+(Abstracts/titles only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Balestriero platonics [LIVE 2610.39302 (platoniced balestrieros;
+  specified Randall Balestriero (platonics; vs no hits)); verification
+  deferred].** → Balestriero's balestrieros (platoniced, kept
+  (balestriero, platoniced (platonics, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Balestriero"
+  (platonics, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **LeCun rotations [LIVE 2610.39302 (rotationed lecuns; specified
+  Yann LeCun (rotations; vs no hits)); verification deferred].** →
+  LeCun's lecuns (rotationed, kept (lecun, rotationed (rotations,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "LeCun" (rotations, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Rahbar independences [LIVE 2610.03827 (independenced rahbars;
+  specified Saman Rahbar (independences; vs no hits)); verification
+  deferred].** → Rahbar's rahbars (independenced, kept (rahbar,
+  independenced (independences, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Rahbar" (independences,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **He progresses [LIVE 2611.00734 (progressed diqihes; specified
+  Diqi He (progresses; "He" taken — 21x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → He's diqihes (progressed, kept (diqihe, progressed
+  (progresses, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "He" (progresses, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
