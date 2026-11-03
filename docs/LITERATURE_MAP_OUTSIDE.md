@@ -29005,3 +29005,41 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   the representation, test the behavior). The encoder-abstraction
   measure: don't correlate the encoder with returns — intervene
   on it. The gate-redirect's method, causal and executable.
+## Round 793 — LIVE via OpenAlex: constrainers, dominants, decomposers, causes (Feng safe-transfer 2023, Cui engram-dominance 2024, CODA-Prompt 2023, Schölkopf CRL 2021; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Safe transfer [Feng et al. 2023, safety-constrained policy
+  transfer with successor features; vs no hits].** → CMDP
+  separating task goals from safety; constrained GPI via
+  Lagrangian; dual optimization pricing the target's constraint.
+  The censoring debt and the transfer formalism FUSE: transfer
+  the policy, constrain the dying, price safety with a dual
+  variable. Most complete transfer specification seen — banked as
+  the formalism for any future transfer line.
+- **Dominance knob [Cui et al. 2024, dDG engram dominance
+  underlies fear generalization; vs no hits].** → Conditioned-
+  context engram cells dominate similar-context activation;
+  SUFFICIENT AND NECESSARY (mossy cells suppressed alongside).
+  Generalization with a causal knob: tune dominance, tune
+  specificity. The reactivation probe upgrades from yes/no to
+  RATIO (dominance of training ensemble in transfer context) —
+  and mossy suppression pairs with transmodulation as the
+  inhibitory counterpart.
+- **Plasticity proviso [Smith et al. 2023, CODA-Prompt decomposed
+  attention prompting; vs no hits].** → Frozen keys (not trained
+  end-to-end) kill plasticity on new tasks; CODA trains the
+  decomposition itself. Sixth split voice with a warning: freeze
+  the encoder ONLY after end-to-end decomposition training, or
+  the frozen representation can't serve what it never learned to
+  decompose. Separation needs its own learning phase.
+- **Field foundations [Schölkopf et al. 2021, toward causal
+  representation learning; vs no hits].** → Causality assumes the
+  variables given; the central problem is DISCOVERING high-level
+  causal variables from low-level observations — with transfer
+  and generalization as the open problems it addresses. The
+  encoder-abstraction inherits its problem statement: the
+  return-distribution abstraction is a causal variable to
+  discover (not assume), and interchange is how discovery is
+  verified.
