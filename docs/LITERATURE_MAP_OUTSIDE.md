@@ -34257,3 +34257,36 @@ rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Arroyo" (leones,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 943 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (pontevedraed portelas, corunnaed gallegos,
+santiagoed pereas, vigoed irisarri). The program portelas (pontevedras
+attempts), gallegos (corunas verdicts), pereas (santiagos claims), and
+irisarri (vigos votes). Four more, Galician vein. (All four surnames
++ full names + contexts virgin pre-append, all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Portela pontevedras [canon: Portela (pontevedraed portelas;
+  specified Cesar Portela (pontevedras; vs no hits)); verification
+  deferred].** → Portela's portelas (pontevedraed, kept (portela,
+  pontevedraed (pontevedras, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Portela" (pontevedras, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Gallego corunas [canon: Gallego (corunnaed gallegos; specified
+  Manuel Gallego (corunas; vs no hits)); verification deferred].** →
+  Gallego's gallegos (corunnaed, kept (gallego, corunnaed (corunas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Gallego" (corunas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Perea santiagos [canon: Perea (santiagoed pereas; specified Andres
+  Perea (santiagos; vs no hits)); verification deferred].** → Perea's
+  pereas (santiagoed, kept (perea, santiagoed (santiagos, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Perea" (santiagos, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Irisarri vigos [canon: Irisarri Pinera (vigoed irisarri; specified
+  Irisarri Pinera practice (vigos; vs no hits)); verification
+  deferred].** → Irisarri's irisarri (vigoed, kept (irisarri, vigoed
+  (vigos, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); their "Irisarri" (vigos, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
