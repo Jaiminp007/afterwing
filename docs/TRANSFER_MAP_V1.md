@@ -621,6 +621,9 @@ the map stays open, not empty.
 - R739 open-world file (DTR detect-new wing): unify-worlds;
   initiate-self; core-anomalies;
   test-hierarchically.
+- R741 recursive file (RSI-proper context): rise-recursive;
+  distill-self; bound-loops;
+  evolve-grounded.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
