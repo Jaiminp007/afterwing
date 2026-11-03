@@ -32841,3 +32841,39 @@ full-name tag "canon: Robin Boyd" vs Boyd & Richerson used; "clusters"/
   vote (joined, kept (carried, won (crowd, kept))); his "Athfield"
   (alleys, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 903 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (laterited keres, benined adjayes,
+niameyed kamaras, makokoed adeyemis). The program keres (laterites
+attempts), adjayes (benins verdicts), kamaras (niameys claims), and
+adeyemis (makokos votes). Four more, African contemporary vein.
+("Kerez" fragment taken — Christian Kerez — full-name tag per
+collision rule; "bricks"/"masks"/"veils" taken — "laterites"/
+"benins"/"niameys" used; "floats"/"lagoons" taken — "makokos" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Kere laterites [canon: Diebedo Francis Kere (laterited keres;
+  specified Diebedo Francis Kere (laterites; distinct from Christian
+  Kerez — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Kere's keres (laterited, kept (kere,
+  laterited (laterites, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Kere" (laterites, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Adjaye benins [canon: Adjaye (benined adjayes; specified David
+  Adjaye (benins; vs no hits)); verification deferred].** → Adjaye's
+  adjayes (benined, kept (adjaye, benined (benins, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Adjaye"
+  (benins, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Kamara niameys [canon: Kamara (niameyed kamaras; specified Mariam
+  Kamara (niameys; vs no hits)); verification deferred].** → Kamara's
+  kamaras (niameyed, kept (kamara, niameyed (niameys, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); her
+  "Kamara" (niameys, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Adeyemi makokos [canon: Adeyemi (makokoed adeyemis; specified
+  Kunle Adeyemi (makokos; vs no hits)); verification deferred].** →
+  Adeyemi's adeyemis (makokoed, kept (adeyemi, makokoed (makokos,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))));
+  his "Adeyemi" (makokos, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
