@@ -371,6 +371,23 @@ proposal must act between probes, on training segments,
 which is exactly where the bar's open example (b) points.
 Validates the bar's framing; licenses nothing.
 
+## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
+
+The colony is one solution in twenty-four bodies — and survival
+is weight-blind. Within-history learner pairwise cosines: Go
++0.74..+0.77, No-Go +0.83..+0.85, on the biggest loser, the twin
+winner, and the biggest winner alike. No portfolio, no diversity
+to select from: the flood is the same flood in every fly. And the
+few outliers are not the saved: survivor typicality ≈ casualty
+typicality (alive +0.78/+0.76/+0.72 vs dead +0.77/+0.73/+0.76 —
+noise, no pattern, both directions across histories). Who lives
+is not written in the weights. This buries a whole class of
+stories: no learner carries the colony, no selection mechanism
+can act here, the transfer object is a single solution whose
+fate is decided downstream (behavior, luck, entry state — the
+things re-readings 16–24 already isolated). A population
+proposal must first CREATE diversity that is measured absent.
+
 ## Executed re-reading 22 (2026-11-02, read-only: spent transfer probes + R10 verdict)
 
 Decision volume does not track transfer — on either arm.
