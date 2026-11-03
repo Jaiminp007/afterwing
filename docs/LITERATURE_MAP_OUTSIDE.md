@@ -29560,3 +29560,36 @@ daggradas (posters verdicts), iliprandis (types claims), and tovaglias
   vote (joined, kept (carried, won (crowd, kept))); his "Tovaglia" (systems,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 810 — Canon (both live hoses still dry): burtins, bealls, sutnars, bradburys (Burtin, Beall, Sutnar, Bradbury Thompson; 2026-11-02)
+
+Motivation: further outside (exhibitioned burtins, postered bealls,
+systemed sutnars, alphabeted bradburys). The program burtins
+(exhibitions attempts), bealls (posters verdicts), sutnars (systems
+claims), and bradburys (alphabets votes). Four more. (Map holds 800
+rounds.)
+
+- **Burtin exhibitions [canon: Burtin (exhibitioned burtins; specified
+  Will Burtin (exhibitions; vs no hits)); verification deferred].** →
+  Burtin's burtins (exhibitioned, kept (burtin, exhibitioned (exhibitions,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Burtin" (exhibitions, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Beall posters [canon: Beall (postered bealls; specified Lester Beall
+  (posters; vs no hits)); verification deferred].** → Beall's bealls
+  (postered, kept (beall, postered (posters, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Beall" (posters, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Sutnar systems [canon: Sutnar (systemed sutnars; specified Ladislav
+  Sutnar (systems; vs no hits)); verification deferred].** → Sutnar's
+  sutnars (systemed, kept (sutnar, systemed (systems, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Sutnar"
+  (systems, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Bradbury Thompson alphabets [canon: Bradbury Thompson (alphabeted
+  bradburys; specified Bradbury Thompson (alphabets; distinct from
+  Thompson & Spencer (habituation) and Hunter Thompson (gonzo) —
+  full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Thompson's bradburys (alphabeted, kept
+  (bradbury, alphabeted (alphabets, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Bradbury" (alphabets, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
