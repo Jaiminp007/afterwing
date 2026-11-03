@@ -30,17 +30,40 @@ falsified if the guarded gap persists with the feature present
   restricted action space on fixed data. Round-3 analogue: frozen-A
   is the baseline; the gate restricts, never enlarges.
 
-## Open items before a frozen dev plan
+## Open items #1–#2 CLOSED (analytic; instrument read 2026-11-02)
 
-1. Exact feature encoding (boolean + scalar normalized how?).
-2. Instrument change list (learner input dims + billing).
-3. Arms/probes (same 8 reused histories; which arms? learned-guard
-   only + full probes?).
-4. Caps (round-1/2 actuals × margin).
-5. Verdict mapping (transfer gate + retentions + guarded-gap bar?).
-   Pre-registered guarded-gap closure bar TBD at freeze (e.g. gap
-   halves vs round 2, or clears 6/8 positive vs guarded? — freeze
-   decides; must be direction-first and pre-registered).
+- #1 feature encoding (frozen): append `[guard.viable?1:0,
+  min(1, requiredEnergy/120)]` to the 8-dim steering features
+  (energy-scale-consistent: the existing energy feature is
+  energy/120). 8→10 dims. The boolean gates; the scalar grades
+  the margin. Pre-registered, no tuning.
+- #2 instrument change list: generalize `STEERING_FEATURES` in
+  `learning/own-steering.mjs` to a constructor dim (default 8 —
+  legacy path bit-identical); experiment passes dim 10 when the
+  round-3 flag is set; `values`/`update`/`validate`/`reset` bound
+  by `weights[action].length`, not the global const. Billing stays
+  1 scalar op per op (counts scale with dim: decision 32→40,
+  update 49→59 — billed honestly, negligible vs 27e9 scale).
+  Round-1/2 code paths untouched when the flag is off.
+## Open items #3–#5 CLOSED (analytic)
+
+- #3 arms/probes: ONE new arm `learned-guard` on the ROUND-1
+  FIXED curriculum (A512/B512/C512/D256 — rehearsal stays out of
+  round 3; single-variable isolation: R1-learned vs R3-learned-guard
+  differ ONLY in input channels) + full A/B/transfer probe suite
+  (same 8 reused histories; R1/R2 rows reused read-only).
+- #4 caps: round-2 actuals 26.98e9 → same 40e9 ops / 3600s wall
+  (10-dim steering adds ~20 ops/decision — negligible).
+- #5 verdict mapping (frozen): GO iff transfer gate (6/8 vs reset
+  AND vs cheap native-full, nonnegative survivor diffs) AND A≥95%
+  AND B≥95% AND guarded-comparison ≥6/8 positive with mean≥0
+  (BEAT guarded, not just close it — direction-first,
+  pre-registered). PARTIAL if transfer+A+B pass but guarded bar
+  fails (feature helps generally, not specifically). Else NO-GO
+  (guard-feature closed; information hypothesis dead).
+
+Remaining: the frozen dev plan doc (mechanical from this scoping)
++ fixtures. Still NOT FROZEN, not authorized.
 
 ## What this is not
 
