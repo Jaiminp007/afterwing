@@ -25850,3 +25850,30 @@ rows). Four more. (Map holds 684 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Rza" (wu, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 677 — Reexamined, ranked, tracked, caused (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: counterfactual assessment —
+ask what would have happened (already-cited
+counterfactual leads converging; assessment family,
+four branches).
+
+- **Treatment reexam [arXiv:2405.18556 (Luo; vs no
+  hits)].** Baselines ABSENT (inconsistent metrics;
+  inconclusive; reassess). → Reexamine treatments (our
+  audit discipline, reexamine-side). Filed.
+- **Tool rank [arXiv:2609.22819 (Li; vs no hits)].**
+  Regression REVERSES initial (authority vs history;
+  45 + 30 + 15×1930). → Rank counterfactually (our
+  per-arm scorers, rank-side). Filed.
+- **Fast track [arXiv:2504.21383 (Agrawal / FAST-Q; vs
+  no hits)].** Intent VOLATILITY (adversarially
+  balanced; OOD overestimation). → Track fast (our
+  staged search, track-side). Filed.
+- **Cause [arXiv:2403.19056 (Abolghasemi / CAUSE; vs no
+  hits)].** Benchmarks SKEWED satisfied (dissatisfaction
+  identification; balance unknown). → Assess cause (our
+  flip-split design, assess-side). Filed.
+- Program note: reexamine treatments, rank
+  counterfactually, track fast, assess cause — the
+  counterfactual-assessment file. None licensed — filed.
