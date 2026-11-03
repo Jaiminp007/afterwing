@@ -27712,3 +27712,32 @@ wolves (esquires votes). Four more. (Map holds 748 rounds.)
   esquired (esquires, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Esquire" (esquire, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 743 — Embodied, chunked, found, overseen (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: closed-loop — imply
+from competence, verify the chunk, close the find,
+ground the oversight (C17-audit fuel: open-loop probe
+vs closed-loop behavior; second ASTRA namesake; four
+branches).
+
+- **Astra embodied [arXiv:2610.22471 (SenseNova; vs no
+  hits; second ASTRA namesake on record).]** Competence
+  CHALLENGES specialized-models (12 benchmarks; four
+  embodiments; what it implies). → Embody astra (our
+  embodied-benefit gap, embodied-side). Filed.
+- **Open-loop closed-loop [arXiv:2604.02965 (Wang; vs no
+  hits)].** Chunking SENSITIVE (error accumulation; no
+  feedback; speculative verification). → Close loops (our
+  probe audit, chunked-side). Filed.
+- **Finder [arXiv:2609.18058 (Xu; vs no
+  hits)].** Coupled search COSTLY (static one-shot maps;
+  agentic finding primitive). → Find closed (our geometric
+  attribution, found-side). Filed.
+- **What-did-it-do [arXiv:2610.06406 (Sun; vs no
+  hits)].** Volume + FRAGMENTATION (which decisions warrant;
+  evidence-grounded). → Oversee evidence (our redone ledger,
+  overseen-side). Filed.
+- Program note: embody astra, close loops, find closed,
+  oversee evidence — the closed-loop file. None licensed —
+  filed.
