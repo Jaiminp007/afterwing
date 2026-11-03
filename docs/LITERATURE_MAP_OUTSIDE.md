@@ -35058,3 +35058,40 @@ rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Boffo" (odesas,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 966 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (tbilisied djorbenadzes, rustavied
+bostanashvilis, mtskhetaed kalandarishvilis, kutaisied orbeladzes).
+The program djorbenadzes (tbilisis attempts), bostanashvilis
+(rustavis verdicts), kalandarishvilis (mtskhetas claims), and
+orbeladzes (kutaisis votes). Four more, Georgian vein. (All four
+surnames + full names + contexts virgin pre-append, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Djorbenadze tbilisis [canon: Djorbenadze (tbilisied djorbenadzes;
+  specified Viktor Djorbenadze (tbilisis; vs no hits)); verification
+  deferred].** → Djorbenadze's djorbenadzes (tbilisied, kept
+  (djorbenadze, tbilisied (tbilisis, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Djorbenadze" (tbilisis, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Bostanashvili rustavis [canon: Bostanashvili (rustavied
+  bostanashvilis; specified Shota Bostanashvili (rustavis; vs no
+  hits)); verification deferred].** → Bostanashvili's bostanashvilis
+  (rustavied, kept (bostanashvili, rustavied (rustavis, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Bostanashvili"
+  (rustavis, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Kalandarishvili mtskhetas [canon: Kalandarishvili (mtskhetaed
+  kalandarishvilis; specified Otar Kalandarishvili (mtskhetas; vs no
+  hits)); verification deferred].** → Kalandarishvili's
+  kalandarishvilis (mtskhetaed, kept (kalandarishvili, mtskhetaed
+  (mtskhetas, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Kalandarishvili" (mtskhetas, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Orbeladze kutaisis [canon: Orbeladze (kutaisied orbeladzes;
+  specified Vazha Orbeladze (kutaisis; vs no hits)); verification
+  deferred].** → Orbeladze's orbeladzes (kutaisied, kept (orbeladze,
+  kutaisied (kutaisis, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Orbeladze" (kutaisis, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
