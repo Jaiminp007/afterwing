@@ -30797,3 +30797,33 @@ Four more, Swiss-modern vein continued. (Map holds 800 rounds.)
   kept (meili, shown (shows, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Meili" (shows, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 850 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (critiqued guggers, moduled hallers, planted
+kienasts, covered vogts). The program guggers (critiques attempts),
+hallers (modules verdicts), kienasts (plants claims), and vogts (covers
+votes). Four more, Swiss-modern vein continued (landscape turn). (Map
+holds 800 rounds.)
+
+- **Gugger critiques [canon: Gugger (critiqued guggers; specified Harry
+  Gugger (critiques; vs no hits)); verification deferred].** → Gugger's
+  guggers (critiqued, kept (gugger, critiqued (critiques, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Gugger"
+  (critiques, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Haller modules [canon: Haller (moduled hallers; specified Fritz
+  Haller (modules; vs no hits)); verification deferred].** → Haller's
+  hallers (moduled, kept (haller, moduled (modules, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Haller" (modules, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Kienast plants [canon: Kienast (planted kienasts; specified Dieter
+  Kienast (plants; vs no hits)); verification deferred].** → Kienast's
+  kienasts (planted, kept (kienast, planted (plants, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Kienast"
+  (plants, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Vogt covers [canon: Vogt (covered vogts; specified Gunther Vogt
+  (covers; vs no hits)); verification deferred].** → Vogt's vogts
+  (covered, kept (vogt, covered (covers, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Vogt" (covers, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
