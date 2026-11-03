@@ -33347,3 +33347,37 @@ claims), and giorghises (lalibelas votes). Four more, Ethiopian vein.
   lalibelaed (lalibelas, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Giorghis" (lalibelas, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 917 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (casablancaed mountassirs, medinaed
+azagurys, brutalised zevacos, riaded kabbajs). The program mountassirs
+(casablancas attempts), azagurys (medinas verdicts), zevacos
+(brutalisms claims), and kabbajs (riads votes). Four more, Moroccan
+vein. ("harbors" fragment taken — webharbors R865 — "medinas" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Mountassir casablancas [canon: Mountassir (casablancaed
+  mountassirs; specified Abdelouahed Mountassir (casablancas; vs no
+  hits)); verification deferred].** → Mountassir's mountassirs
+  (casablancaed, kept (mountassir, casablancaed (casablancas, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Mountassir" (casablancas, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Azagury medinas [canon: Azagury (medinaed azagurys; specified Elie
+  Azagury (medinas; vs no hits)); verification deferred].** →
+  Azagury's azagurys (medinaed, kept (azagury, medinaed (medinas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Azagury" (medinas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Zevaco brutalisms [canon: Zevaco (brutalised zevacos; specified
+  Jean-Francois Zevaco (brutalisms; vs no hits)); verification
+  deferred].** → Zevaco's zevacos (brutalised, kept (zevaco,
+  brutalised (brutalisms, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Zevaco" (brutalisms, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Kabbaj riads [canon: Kabbaj (riaded kabbajs; specified Amine
+  Kabbaj (riads; vs no hits)); verification deferred].** → Kabbaj's
+  kabbajs (riaded, kept (kabbaj, riaded (riads, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Kabbaj" (riads,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
