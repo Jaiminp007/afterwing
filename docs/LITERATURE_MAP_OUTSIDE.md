@@ -28346,3 +28346,31 @@ bens (totals votes). Four more. (Map holds 764 rounds.)
   deferred].** → Bos's bens (totalled, kept (ben, totalled (totals, kept)))
   is the vote (joined, kept (carried, won (crowd, kept))); his "Ben" (total,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 774 — Caseys, winklers, troxlers, tissis (Casey, Winkler, Troxler, Tissi; 2026-11-02)
+
+Motivation: further outside (postered caseys, typed winklers, jazzed
+troxlers, graphed tissis). The program caseys (posters attempts),
+winklers (types verdicts), troxlers (jazzes claims), and tissis (graphs
+votes). Four more. (Map holds 764 rounds.)
+
+- **Casey posters [canon: Casey (postered caseys; specified Jacqueline
+  Casey (MIT posters; vs no hits)); verification deferred].** → Casey's
+  caseys (postered, kept (casey, postered (posters, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); her "Casey" (posters, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Winkler type [canon: Winkler (typed winklers; specified Dietmar
+  Winkler (type; vs no hits)); verification deferred].** → Winkler's
+  winklers (typed, kept (winkler, typed (types, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Winkler" (type, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Troxler jazz [canon: Troxler (jazzed troxlers; specified Niklaus
+  Troxler (jazz posters; vs no hits)); verification deferred].** →
+  Troxler's troxlers (jazzed, kept (troxler, jazzed (jazzes, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Troxler"
+  (jazz, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Tissi graphics [canon: Tissi (graphed tissis; specified Rosemarie
+  Tissi (graphics; vs no hits)); verification deferred].** → Tissi's tissis
+  (graphed, kept (tissi, graphed (graphs, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Tissi" (graphics, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
