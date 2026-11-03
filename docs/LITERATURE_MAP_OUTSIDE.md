@@ -29043,3 +29043,40 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   return-distribution abstraction is a causal variable to
   discover (not assume), and interchange is how discovery is
   verified.
+## Round 794 — LIVE via OpenAlex: projectors, decomposers, factorizers, balancers (Yang PCPO 2020, Kirsch modular 2018, Lei VCD 2022, Hashimotodani mossy-LTP 2017; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Hashimotodani: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Rival formalism [Yang et al. 2020, projection-based
+  constrained policy optimization; vs no hits].** → Improve,
+  then PROJECT back onto the constraint set — per-update reward
+  lower bounds + violation upper bounds, L2/KL convergence. The
+  Lagrangian's rival: price safety (Feng, soft tradeoff) vs
+  project onto it (Yang, hard per-update bounds). A future
+  transfer freeze chooses between them with criteria, not taste —
+  the formalism debate is pre-registered.
+- **Decomposition protocol [Kirsch et al. 2018, modular networks
+  (decompose + modules end-to-end); vs no hits].** → Routing and
+  modules learned JOINTLY, no diversity regularization, modules
+  specializing interpretably. The CODA proviso satisfied in
+  advance: the separation phase trains decomposition end-to-end,
+  freezes after specialization turns interpretable. Training
+  protocol for the diagnostic's structural answer, found not
+  invented.
+- **Intervene to discover [Lei et al. 2022 (Schölkopf lineage),
+  variational causal dynamics; vs no hits].** → Modular world
+  models from INTERVENTIONS: causal factorization of transitions,
+  reusable components across environments, representation +
+  transition jointly unsupervised. Unites interchange (verify),
+  successor (transfer), modularity (split) in one paper — the
+  world-model direction beyond the encoder: discover modules by
+  intervening, transfer by factorizing. Banked whole.
+- **Plastic brake [Hashimotodani et al. 2017, mossy LTP shifts
+  E/I balance; title record (abstract unindexed); vs no hits].**
+  → The inhibitory counterpart LEARNS: mossy LTP modulates
+  dentate output balance. A6's suppression pathway must itself be
+  plastic — learn WHEN to suppress. Go learns, stop learns, and
+  the coupling learns: three learning processes, all named,
+  none built.
