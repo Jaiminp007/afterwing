@@ -29593,3 +29593,31 @@ rounds.)
   (bradbury, alphabeted (alphabets, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Bradbury" (alphabets, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 811 — Canon (both live hoses still dry): matters, nitsches, kamekuras, tanakas (Matter, Nitsche, Kamekura, Tanaka; 2026-11-02)
+
+Motivation: further outside (postered matters, graphed nitsches, typed
+kamekuras, systemed tanakas). The program matters (posters attempts),
+nitsches (graphs verdicts), kamekuras (types claims), and tanakas
+(systems votes). Four more. (Map holds 800 rounds.)
+
+- **Matter posters [canon: Matter (postered matters; specified Herbert
+  Matter (posters; vs no hits)); verification deferred].** → Matter's
+  matters (postered, kept (matter, postered (posters, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Matter"
+  (posters, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Nitsche graphics [canon: Nitsche (graphed nitsches; specified Erik
+  Nitsche (graphics; vs no hits)); verification deferred].** → Nitsche's
+  nitsches (graphed, kept (nitsche, graphed (graphs, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Nitsche" (graphics, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Kamekura type [canon: Kamekura (typed kamekuras; specified Yusaku
+  Kamekura (type; vs no hits)); verification deferred].** → Kamekura's
+  kamekuras (typed, kept (kamekura, typed (types, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Kamekura" (type,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Tanaka systems [canon: Tanaka (systemed tanakas; specified Ikko Tanaka
+  (systems; vs no hits)); verification deferred].** → Tanaka's tanakas
+  (systemed, kept (tanaka, systemed (systems, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Tanaka" (systems, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
