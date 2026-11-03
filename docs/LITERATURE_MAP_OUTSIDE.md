@@ -28490,3 +28490,42 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   fixed stack, op caps = fixed budgets, propose-evaluate-adopt =
   iterative revision. Outside convergence on the discipline shape —
   the field is standardizing what the program already practices.
+## Round 779 — LIVE via OpenAlex: censors, tinies, rovers, trusters (CTPS 2026, tiny-RNN 2025, foraging-gene 2009, benchmarks-review 2025; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Censoring-aware shaping [Pan et al. 2026, CTPS; vs no hits].**
+  → Sparse reward + time-limited episodes: absence of observed
+  success is incomplete follow-up, not failure — model it as
+  right-censored time-to-event data or progress estimates bias.
+  Measurement insight for the whole program: dead flies are
+  right-censored trajectories, and no verdict gate models
+  censoring — deaths currently read as failures. Future probe
+  design should treat death as censoring (survival analysis),
+  not as zero.
+- **Tiny recurrent strategies [Li et al. 2025, discovering
+  cognitive strategies with tiny RNNs; vs no hits].** → 1–4 unit
+  RNNs outperform classical cognitive models and match larger nets
+  across six reward-learning tasks; interpreted via dynamical
+  systems. B3 upgraded: expressiveness lives in recurrence and
+  dynamics, not width — a 1–4 unit RECURRENT steering head could
+  express the viability-gated strategy linear heads cannot, at
+  billable size, interpretable the same way. Recorded as the B3
+  refinement (recurrent, not MLP).
+- **Rover/sitter dial [Kent et al. 2009, foraging-gene GEI under
+  deprivation; vs no hits].** → One natural gene variant retunes
+  the whole deprivation response (fat, carbs, food-leaving,
+  expression) via insulin-pathway interaction. The viability
+  channel is the program's analog dial — and every round says the
+  failures are in the architecture AROUND the dial, never the dial
+  itself. Keep the signal, change the consumer: consistent with
+  the recurrent-B3 direction.
+- **Benchmark trust [Eriksson et al. 2025, interdisciplinary
+  review of ~110 evaluation-shortcoming studies; vs no hits].** →
+  Contamination, inadequate documentation, signal-vs-noise
+  failures, sociotechnical over-focus. The program's discipline
+  answers each by name: fresh banks (contamination), per-line
+  ledgers (documentation), noise-at-bar/T-Cal (signal-vs-noise),
+  preserved negatives (over-claiming). Third outside convergence
+  on the discipline shape (with RSIBench-Data and MetaRSI).
