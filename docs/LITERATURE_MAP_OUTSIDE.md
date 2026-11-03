@@ -28572,3 +28572,40 @@ kinship noted, not a collision).
   near-duplicate evidence inflates exactly like exact. The
   seed-literal guards are the floor; the spent-regardless rule is
   the ceiling this paper demands.
+## Round 781 — LIVE via OpenAlex: timescales, alternatives, silences, diversities (Kaplanis 2020, Brockmann 2001, Shindou 2018, Pugh QD 2019; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Brockmann: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Multi-timescale memory [Kaplanis 2020, continual RL with memory
+  at multiple timescales; vs no hits].** → Same Kaplanis whose
+  invariance-across-timescales the program adopted (train vs
+  transfer = two timescales of one rule): this paper is the other
+  half — invariance states what must hold, multi-timescale memory
+  states what machinery holds it. The B3 slow variable must coexist
+  with fast weights (two timescales in one head), not replace them.
+  Adoption and constraint strengthen each other.
+- **Alternative tactics [Brockmann 2001, evolution of alternative
+  strategies and tactics; title record (abstract unindexed); vs no
+  hits].** → Second polymorphism voice beside de Belle (now at
+  review level): maintained alternative strategies are nature's
+  standing design pattern for exactly the go-vs-stop class of
+  problems. Population-track fuel (VISION-5): when that track
+  opens, it opens with two independent biological precedents for
+  staying two instead of blending one.
+- **Silent trace [Shindou et al. 2018, silent eligibility trace for
+  dopamine-dependent plasticity; vs no hits].** → The trace accrues
+  SILENTLY (activity-initiated, LTD-masked) and expresses only when
+  dopamine later converts it to LTP. Upgrades the B3 constraint
+  from slow to SILENT: accrue without acting, no behavioral
+  signature until the gate reads it. Answers B2's poisoning at the
+  mechanism level — the stop branch poisoned because it acted while
+  learning; a silent trace learns without touching the trajectory.
+- **Quality diversity [Pugh et al. 2019, QD: many types of good
+  solutions; vs no hits].** → MAP-Elites / Novelty Search with
+  Local Competition: archive diverse high-performers instead of
+  pursuing one optimum. The licensed-shaped population paradigm
+  for the VISION-5 track: bounded (archive), checkpointable
+  (elites), controlled (local competition) — open-endedness the
+  frozen-plan discipline can actually adopt, unlike unbounded OEE.
