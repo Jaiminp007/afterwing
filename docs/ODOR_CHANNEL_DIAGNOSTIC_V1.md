@@ -580,6 +580,15 @@ loses −2.63 under quantile, wins +2.34 under split) bounds the claim —
 mechanism can flip one history, not eight. Training chooses the size
 of the fate, never its side (7 times out of 8).
 
+Precision (2026-11-03): verdict-level panel — native-arm positive
+histories across all 8 completed rounds: R2 4/8, R3 4/8, R4 5/8,
+R5 5/8, R6 5/8, R8 4/8, R9 4/8, R10 5/8 (means +0.02..+0.40 where
+published). The coarse verdict is regime-invariant too: about half
+the histories transfer positive under EVERY training, with small
+positive means. R49's per-history 7/8 is the fine structure of a
+line-wide constant: the colony splits ~half-half no matter what
+you teach it.
+
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
 Acquisition rank does not predict transfer rank (rho 0.071).
