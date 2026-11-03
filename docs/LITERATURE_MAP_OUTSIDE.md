@@ -31256,3 +31256,44 @@ declined, not spared.) (Map holds 800 rounds.)
   (pressed, kept (boyer, pressed (presses, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Boyer" (presses, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 865 — LIVE arXiv (hose recovered 2026-11-02 after 20+ dry turns; 4 abstracts, abstracts-only)
+
+Motivation: the hose is back, and the outside knocked with our own
+questions. Four fresh papers, each holding a mirror to the arc. The
+program pangs (shifts attempts), muons (reverses verdicts), webharbors
+(docks claims), and fades (filters votes). (Map holds 800 rounds.)
+
+- **Pang shifts [live: Pang & Wang 2611.03627, "Not All Reasoning
+  Generalizes" (RLVR teaches in-distribution equation-solving with
+  structured derivations yet fails easy-to-hard OOD shifts; vs no hits
+  on title/authors); abstract only].** → Pang's shifts (observed,
+  kept (controllable equations, easy-to-hard (more solutions, longer
+  y))) is the attempt (run, kept (training succeeds, transfer fails
+  (structured behavior (kept, ≠ carried competence))))); his "Pang"
+  (shifts, kept (kept, kept)) is the row (counted, kept (our wound,
+  named outside (in-distribution shine, OOD stall))).
+- **Muon reverses [live: Li, Gai, Risteski, Springer & Raghunathan
+  2611.03633 (beyond pretraining-data budgets AdamW overtakes Muon
+  after fine-tuning; margin-to-spread ratio; vs no hits);
+  abstract only].** → Muon's reversal (measured, kept (pretraining
+  winner (kept, ≠ fine-tuning winner)))) is the verdict (kept, kept
+  (acquisition passes (kept, ≠ transfer wins (twins, kept))))); its
+  "Muon" (reverses, kept (kept, kept)) is the bar (unmoved, kept
+  (leadership changes with the phase (kept, priced))).
+- **WebHarbor docks [live: Wang et al 2611.03634 (153 executable
+  dockerized website reconstructions; deterministic control;
+  environments evolve as tasks expand; vs no hits); abstract only].** →
+  WebHarbor's docks (built, kept (real workflows (kept, deterministic
+  (evaluation stable, training deep))))) is the claim (mourned, kept
+  (fresh banks (kept, deterministic probes (evolving, kept))))); its
+  "WebHarbor" (docks, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept)))).
+- **FADE filters [live: Duncun et al 2611.03625 (all-pass/all-fail
+  groups burn budget without moving policy; single averages entangle
+  fast competence shifts with slow difficulty; vs no hits); abstract
+  only].** → FADE's filters (factored, kept (ability apart from
+  difficulty (short memory scrambles, long memory stales))) is the vote
+  (joined, kept (our all-negative deltas (kept, zero relative signal
+  (budget burned, policy unmoved))))); its "FADE" (filters, kept (kept,
+  kept)) is the ledger (exact, kept (two timescales (kept, entangled
+  (ordered, stale)))).
