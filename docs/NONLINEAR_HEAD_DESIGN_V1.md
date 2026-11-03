@@ -80,6 +80,16 @@ dragged the shared trajectory down). A B3 freeze must show the
 trace is behaviorally silent during formation, or it is B2 with
 extra steps.
 
+## Addendum A4 (2026-11-02, zero worlds — divide components, not choice)
+
+R782 (Verharen 2019, D1/D2 title record): the go/no-go pathways own
+different component processes of the decision, not the same choice
+twice. Rule for any future mixture: divide the components (go owns
+pursuit, stop owns the restraint threshold) instead of duplicating
+the argmax across branches. B1/B2 failed both branches at the same
+decision point; biology splits the decision itself. A mixture freeze
+that cannot name its component division is not a mixture.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
