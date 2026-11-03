@@ -702,3 +702,25 @@ fix consolidation/maintenance (the B-lane looked in the wrong
 place — the stop hypotheses were never the problem; the keeper
 was). Either way the next odor line starts from a classified
 failure instead of a measured gap.
+
+## Synthesis: shared vs subjective (2026-11-02, zero new worlds)
+
+Thirty-five re-readings, sorted by scope. SHARED (holds on all
+8 histories — constrains every future rationale): energy collapse
+54→12 both arms; behavior-neutral acquisition (turn 0.28–0.33);
+zero odor in transfer vs 1.000 in training; Go/No-Go separation
+sign everywhere; C→D exact freezes (taste bitwise, motor bitwise);
+present-motor weakness (rms 0.014) and absent-motor near-zeros
+(0.0008); steering flatness (0.19–0.30); home-probe indifference
+(±2 all 16); volume-outcome scatter (no relation, both arms);
+mode-robustness (5–6/8 all modes); ~85% acquisition mortality both
+arms; single-solution colonies (+0.75/+0.84 within). SUBJECTIVE
+(history-idiosyncratic — texture, not constraint): Go-sign at
+anchor A (winner +0.073 vs loser −0.070); transfer outcomes and
+magnitudes (−3.68..+3.42); entry gaps (−26..+13); survivor counts
+(2–5 vs 1–4); which histories win which gate. The shared column
+is the wound's anatomy — same on every body. The subjective
+column is its biography — different on every fly. A next rationale
+must respect the anatomy and may exploit the biography; confusing
+the two (universalizing twins, or dismissing the flood as noise)
+is the characteristic error this ledger exists to prevent.
