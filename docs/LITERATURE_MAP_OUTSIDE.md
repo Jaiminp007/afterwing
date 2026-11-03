@@ -27421,3 +27421,31 @@ maedas (digitals votes). Four more. (Map holds 738 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his "Maeda"
   (digital, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 733 — Refined, linked, scaled, expanded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: refine-link-scale-expand —
+edit the data, link the values, scale the vocab, earn
+the tree (already-cited worth leads converging;
+efficiency family, four branches).
+
+- **UltraX refine [arXiv:2607.08646 (Zhao; vs no
+  hits)].** Physical LIMIT (scaling diminishing;
+  fixed heuristics). → Refine data (our fresh
+  banks, refined-side). Filed.
+- **DIVER link [arXiv:2602.12064 (Nan; vs no
+  hits)].** Expert EVIDENCE reliance (ambiguous
+  queries; dynamic values). → Link values (our cue
+  indexing, linked-side). Filed.
+- **Over-Tokenized scale [arXiv:2501.16975 (Huang; vs
+  no hits)].** Decouple vocabs (multi-gram; log-linear
+  loss). → Scale vocab (our codebook design,
+  scaled-side). Filed.
+- **SMART expand [arXiv:2604.09731 (Wang; vs no hits;
+  distinct from the R729 SMART multi-vector paper).]**
+  Efficiency PARADOX (super-linear overhead; negative
+  speedup at scale). → Expand trees (our probe
+  budget, expanded-side). Filed.
+- Program note: refine data, link values, scale vocab,
+  expand trees — the refine-link-scale-expand file.
+  None licensed — filed.
