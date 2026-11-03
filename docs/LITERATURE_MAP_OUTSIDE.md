@@ -24545,3 +24545,32 @@ holds 638 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Dave" (disagree,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 631 — Yaml-blocked, verified, benched, decomposed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: minimal edit — touch
+little prove much (already-cited edit/restraint leads
+converging; edit family, four branches).
+
+- **Deterministic remediation [arXiv:2609.00227
+  (Davineni; vs no hits)].** No text-gen SAFE
+  (deterministic minimal-diff from field changes;
+  unattended automation). → Remediate
+  deterministically (our 1-line fixes,
+  deterministic-side). Filed.
+- **Edit audit [arXiv:2604.05100 (Ebrahimi; vs no
+  hits)].** 19% of INTERACTIONS (only two
+  benchmarks; audit both). → Audit the editing
+  (our fixtures, audit-side). Filed.
+- **Real-world bench [arXiv:2511.04486 (Chi /
+  EDIT-Bench; vs no hits)].** Wild INSTRUCTIONS +
+  contexts (540 problems; grounded real). → Bench
+  the real (our fresh banks, bench-side). Filed.
+- **Decomposed editing [arXiv:2604.25737 (Tarshish /
+  SAFEdit; vs no hits)].** 39/40 BELOW 60%
+  (specialized roles; reduce unintended). →
+  Decompose the edit (our frozen loops,
+  decompose-side). Filed.
+- Program note: remediate deterministically, audit
+  editing, bench real, decompose edits — the
+  minimal-edit file. None licensed — filed.
