@@ -11,6 +11,7 @@ import {TasteExperiment} from '../learning/taste-experiment.mjs';
 import {selfPropose} from '../scripts/rsi-self-dev.mjs';
 import {snapshotWeights,digestWeights,copyWeights,assertFreshTarget,checkTransplantIntegrity} from '../scripts/turn-gated-dev-v1m.mjs';
 import {rsiTransferBank,finalRateOf,scoreRsiTransferRows,RT_FIXTURE_SEEDS,RT_TRAIN_ARMS} from '../scripts/rsi-transfer-dev.mjs';
+import {rsiTransferBank as rsiTransferBankV1b,scoreRsiTransferRows as scoreRsiTransferRowsV1b,trainRowComplete as trainRowCompleteV1b,RT_FIXTURE_SEEDS as RT_FIXTURE_SEEDS_V1B} from '../scripts/rsi-transfer-v1b.mjs';
 
 const synthHistory=(seed)=>({seed,cueSeed:seed+1,resourceSeeds:[seed+2,seed+3,seed+4,seed+5],probeSeeds:{A:seed+6,B:seed+7,transfer:seed+8}});
 const trainRow=(arm,seed,proposals,energy=-60.0)=>({history:{seed},arm,stage:'train',proposals,finalRate:1.0,finalRateSpread:0,
@@ -89,5 +90,67 @@ describe('rsi-transfer-dev fixtures',()=>{
     const run=new TasteExperiment({history:synthHistory(7),arm:'candidate'});
     for(const id of run.founderIds)run.learners[id].config.tasteRate=2.0;
     assert.ok(run.learners[run.founderIds[0]].config.tasteRate===2.0);
+  });
+});
+
+describe('rsi-transfer-v1b births-eval fixtures',()=>{
+  const txRowV1b=(arm,seed,births,gen1=0,gen2=0,energy=-60.0)=>({history:{seed},arm,stage:'transfer',probeRate:1.0,
+    transfer:{transferred:24,total:24,sourceDigest:'aa',appliedDigest:'aa'},
+    endpoint:{budgetAdjustedEnergyPerFounder:energy,survivors:3},births,
+    generations:{gen1,gen2,maxGeneration:gen2>0?2:gen1>0?1:0,byGeneration:{}}});
+  const trRowV1b=(arm,seed,proposals)=>({history:{seed},arm,stage:'train',proposals,finalRate:1.0,finalRateSpread:0,
+    phaseRows:[0,1,2,3].map(i=>({phase:i})),endpoint:{budgetAdjustedEnergyPerFounder:-59.0,survivors:3}});
+  const adopt=[{agentId:0,tick:512,incRate:1,propRate:2,decision:'adopt'}];
+  const skip=[{agentId:0,tick:512,incRate:1,propRate:null,decision:'skip'}];
+  it('V1b bank refuses re-mint post-spend (spent-bank guard)',()=>{
+    const dir=join(tmpdir(),'rtv1b-bank-test');
+    rmSync(dir,{recursive:true,force:true});
+    assert.throws(()=>rsiTransferBankV1b(join(dir,'protocol.json')),/already used in prior evidence/);
+    rmSync(dir,{recursive:true,force:true});
+  });
+  it('V1b scorer GO iff selfmod births top both controls',()=>{
+    const v=scoreRsiTransferRowsV1b([
+      trRowV1b('selfmod',473118,adopt),trRowV1b('fixed',473118,[]),trRowV1b('unlearned',473118,[]),
+      trRowV1b('selfmod',473136,adopt),trRowV1b('fixed',473136,[]),trRowV1b('unlearned',473136,[]),
+      txRowV1b('selfmod',473127,4,4,0),txRowV1b('fixed',473127,2,2,0),txRowV1b('unlearned',473127,1,1,0),
+      txRowV1b('selfmod',473145,3,3,0),txRowV1b('fixed',473145,2,2,0),txRowV1b('unlearned',473145,2,2,0)]);
+    assert.equal(v.g1,true);assert.equal(v.g2,true);
+    assert.equal(v.go,true);assert.equal(v.verdict,'RSI-TRANSFER-GO-V1B');
+    assert.deepEqual(v.births,{selfmod:7,fixed:4,unlearned:3});
+  });
+  it('V1b scorer NOGO/VOID branches',()=>{
+    const mk=(sm,fx,un)=>[
+      trRowV1b('selfmod',473118,adopt),trRowV1b('fixed',473118,[]),trRowV1b('unlearned',473118,[]),
+      trRowV1b('selfmod',473136,adopt),trRowV1b('fixed',473136,[]),trRowV1b('unlearned',473136,[]),
+      txRowV1b('selfmod',473127,sm),txRowV1b('fixed',473127,fx),txRowV1b('unlearned',473127,un),
+      txRowV1b('selfmod',473145,sm),txRowV1b('fixed',473145,fx),txRowV1b('unlearned',473145,un)];
+    const n=scoreRsiTransferRowsV1b(mk(2,5,4));
+    assert.equal(n.go,false);assert.equal(n.verdict,'RSI-TRANSFER-NOGO-V1B');
+    const z=scoreRsiTransferRowsV1b(mk(0,0,0));
+    assert.equal(z.go,false);assert.equal(z.verdict,'INCOMPLETE-NOBIRTHS');
+    const frows=mk(5,2,1).map(r=>r.stage==='train'&&r.arm==='selfmod'?{...r,proposals:skip}:r);
+    const f=scoreRsiTransferRowsV1b(frows);
+    assert.equal(f.go,false);assert.equal(f.verdict,'INCOMPLETE-NOFIRE');
+  });
+  it('V1b mating-probe wiring zero-tick (synthetic seed 7, no bank contact)',()=>{
+    const run=new TasteExperiment({history:synthHistory(7),arm:'candidate',reproduction:true,matingActionRequired:false,matingEnergyBar:50,verticalTransmission:'none',nutrientOverride:5});
+    assert.equal(run.world.config.reproduction,true);
+    assert.equal(run.world.config.matingEnergyBar,50);
+    assert.equal(run.world.config.verticalTransmission,'none');
+  });
+  it('trainRowComplete accepts clean extinction, rejects crashed partials',()=>{
+    const ext={history:{seed:473118},arm:'unlearned',stage:'train',
+      phaseRows:[{phase:'A'},{phase:'B'},{phase:'C'}],
+      endpoint:{budgetAdjustedEnergyPerFounder:-65.0,survivors:0,totals:{deaths:24,births:0}}};
+    assert.equal(trainRowCompleteV1b(ext),true);
+    const full={history:{seed:473118},arm:'candidate',stage:'train',
+      phaseRows:[{phase:'A'},{phase:'B'},{phase:'C'},{phase:'return-A'}],
+      endpoint:{budgetAdjustedEnergyPerFounder:-60.0,survivors:3,totals:{deaths:21,births:0}}};
+    assert.equal(trainRowCompleteV1b(full),true);
+    const crashed={history:{seed:473118},arm:'candidate',stage:'train',
+      phaseRows:[{phase:'A'}],
+      endpoint:{budgetAdjustedEnergyPerFounder:-60.0,survivors:12,totals:{deaths:12,births:0}}};
+    assert.equal(trainRowCompleteV1b(crashed),false);
+    assert.equal(trainRowCompleteV1b(null),false);
   });
 });
