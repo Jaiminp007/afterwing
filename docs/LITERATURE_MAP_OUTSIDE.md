@@ -24484,3 +24484,33 @@ verdicts), ewans (publishes NOGOs), and docs (counts rows). Four more.
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Doc" (river, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 629 — Fact-checked, preserved, grounded, minimized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: preservation — plausible
+isn't right minimal isn't lazy (already-cited edit/restraint
+leads converging; preservation family, four branches).
+
+- **World consistency [arXiv:2610.11184 (Chen /
+  WorldFact; vs no hits)].** Plausible CONTRADICTS
+  world (source-aligned pairs; no claim needed).
+  → Check against world (our transfer test,
+  world-side). Filed.
+- **Preservation-aware tuning [arXiv:2604.03113 (Yang /
+  PAFT; vs no hits)].** Token-level PRESERVE-vs-CHANGE
+  (over-editing rewrites; minimal-edit repair). →
+  Preserve the tokens (our negative-preservation,
+  token-side). Filed.
+- **Grounded consistency [arXiv:2610.02959 (Fu /
+  TerraVis; vs no hits)].** Appealing VIOLATES
+  plausibility (malformed + impossible +
+  inconsistent). → Ground the visual (our per-leg
+  audit, ground-side). Filed.
+- **Minimal fidelity [arXiv:2609.04061 (Zhu; vs no
+  hits)].** Correct ≠ MINIMAL (reviewable +
+  faithful; known patch; over-edit measured). →
+  Minimize the edit (our 1-line fixes, minimal-
+  side). Filed.
+- Program note: check worlds, preserve tokens, ground
+  visuals, minimize edits — the preservation file.
+  None licensed — filed.
