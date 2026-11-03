@@ -70,6 +70,13 @@ from low-level observations, never assume — and interchange
 intervention is how discovery is verified. The diagnostic's
 primary measure inherits the field's central problem.
 
+Meta-transfer re-reading (R795 — Bengio 2019): adaptation SPEED
+to sparse shifts as the meta-objective — correct structure =
+changes concentrated in few mechanisms = sparse gradients. Every
+transfer gap re-read as disentanglement data filed as failure:
+the diagnostic reports WHERE the gradients concentrated, not
+just whether transfer cleared the bar.
+
 Transfer formalism (R792 — Barreto 2016, successor features): the
 A→transfer structure (fixed dynamics, changing rewards) is the
 successor-features scenario natively: carry dynamics-knowledge,

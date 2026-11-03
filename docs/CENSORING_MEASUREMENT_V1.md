@@ -44,6 +44,12 @@ projection for hard per-update guarantees, pricing for smooth
 tradeoffs — never by default. The formalism debate is
 pre-registered.
 
+Third option (R795 — Chen 2021, PROF): differentiable projection
+layer INSIDE the policy — feasibility by construction, gradients
+flowing through (policy cognizant of constraints). Price-vs-project
+dissolves: project hard, learn through it. The tiebreaker the
+freeze adopts unless it argues otherwise.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping

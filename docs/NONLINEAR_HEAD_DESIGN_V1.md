@@ -128,6 +128,13 @@ three learning processes, all named, none built. A mixture freeze
 that fixes its suppression schedule by hand builds two students
 and a statue.
 
+Brake form (R795 — Miehl 2022, nonlinear inhibitory plasticity):
+inhibition must DOMINATE excitation and depend NONLINEARLY on
+the postsynaptic rate (same-sign changes) — excitatory Hebbian
+learning alone is unstable (runaway or silence), and linear
+symmetric suppression is pre-falsified by stability theory, not
+by opinion. The coupling specifies dominance + nonlinearity.
+
 Extension (R787 — Goulton 2026, early-uncertainty gating):
 suppression is transiently EARLY (recruited when contingencies
 emerge, not steady-state), TARGETED at the plasticity gate (PKA
