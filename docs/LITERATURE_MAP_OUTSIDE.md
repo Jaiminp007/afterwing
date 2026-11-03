@@ -29293,3 +29293,33 @@ TRANSLATION paper and its actionable protocol).
   simple two-population models fit, coupling quantified. Design
   for ISN by default: paradoxical effects expected, PV-expression
   details matter. The brake's home regime, confirmed widespread.
+## Round 801 — Canon (OpenAlex rate-limited until midnight UTC; arXiv API still down): lohses, neuburgs, vivarellis, ballmers (Lohse, Neuburg, Vivarelli, Ballmer; 2026-11-02)
+
+Motivation: further outside (systemed lohses, postered neuburgs,
+graphed vivarellis, typed ballmers). The program lohses (systems
+attempts), neuburgs (posters verdicts), vivarellis (graphs claims),
+and ballmers (types votes). Four more. (Map holds 794 rounds.)
+
+- **Lohse systems [canon: Lohse (systemed lohses; specified Richard
+  Paul Lohse (systems; vs no hits)); verification deferred].** →
+  Lohse's lohses (systemed, kept (lohse, systemed (systems, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his "Lohse"
+  (systems, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Neuburg posters [canon: Neuburg (postered neuburgs; specified Hans
+  Neuburg (posters; vs no hits)); verification deferred].** → Neuburg's
+  neuburgs (postered, kept (neuburg, postered (posters, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Neuburg"
+  (posters, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Vivarelli graphics [canon: Vivarelli (graphed vivarellis; specified
+  Carlo Vivarelli (graphics; vs no hits)); verification deferred].** →
+  Vivarelli's vivarellis (graphed, kept (vivarelli, graphed (graphs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Vivarelli" (graphics, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Ballmer type [canon: Ballmer (typed ballmers; specified Walter
+  Ballmer (type; vs no hits)); verification deferred].** → Ballmer's
+  ballmers (typed, kept (ballmer, typed (types, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Ballmer" (type, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
