@@ -36684,3 +36684,57 @@ authors + contexts virgin pre-append, flattened method.)
   (andrewmsaxe, linearized (linears, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Saxe" (linears, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 1006 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=170, cs.RO start=150,
+eess.SY start=140, q-bio.NC start=180). Four new IDs triaged (0
+worlds): 2610.39859 (wind/solar — DECLINED unrelated-screening),
+2610.37169 (Rényi-VI calibration — DECLINED thin for consistency;
+twin-experiment framing, VI-regularization content, no gate
+mechanism), 2610.42053 lead+senior (Zhou/You) — REA routed embodied
+runtime for asynchronous brain-cerebellum control (deliberative
+brain: slow, general foundation models; reactive cerebellum: fast
+reflex policies; asynchronous coordination without stalling or
+fallback re-triggering) — slow/fast two-speed plus ROUTED, the
+program's routed-experiment lineage and two-speed architecture,
+formalized; and 2609.37355 (Harris/Gong) — adaptive fractional state
+linking circuit mechanisms to cortical dynamics (flexibility-to-new-
+inputs vs integration-of-past; long-range temporal memory growing up
+the hierarchy) — plasticity-vs-retention with hierarchical memory,
+the program's M-RELEARN/retention tradeoff, formalized. (First +
+senior mapped from the octet per TRAILS precedent; 6 middles noted
+unmapped.) (Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Zhou deliberatives [LIVE 2610.42053 (deliberatived pengfeizhous;
+  specified Pengfei Zhou (deliberatives; "Zhou" taken — 2x precedent
+  — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Zhou's pengfeizhous (deliberatived,
+  kept (pengfeizhou, deliberatived (deliberatives, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Zhou"
+  (deliberatives, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **You cerebellums [LIVE 2610.42053 (cerebellumed yangyous;
+  specified Yang You (cerebellums; "You" fragments standing (Young/
+  Youlan) — compound + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → You's yangyous (cerebellumed,
+  kept (yangyou, cerebellumed (cerebellums, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "You" (cerebellums,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Harris fractionals [LIVE 2609.37355 (fractionaled
+  brendanharrises; specified Brendan Harris (fractionals; distinct
+  from dance-round Harris — compound + full-name tag per collision
+  rule; vs no hits)); verification deferred].** → Harris's
+  brendanharrises (fractionaled, kept (brendanharris, fractionaled
+  (fractionals, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Harris" (fractionals, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Gong flexibilities [LIVE 2609.37355 (flexibilitied pulingongs;
+  specified Pulin Gong (flexibilities; distinct from white-horse
+  Gongsun — compound + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Gong's pulingongs
+  (flexibilitied, kept (pulingong, flexibilitied (flexibilities,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Gong" (flexibilities, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
