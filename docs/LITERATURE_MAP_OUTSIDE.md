@@ -25184,3 +25184,31 @@ rows). Four more. (Map holds 660 rounds.)
   (xscaped, kicked (kicks, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); their "Xscape" (kick, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 653 — Poisoned, fingerprinted, asked, disentangled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: watermark attack — marks
+that leak, marks that resist (already-cited watermark
+leads converging; attack family, four branches; includes
+a namesake).
+
+- **Poisoned marks [arXiv:2610.05453 (Braun; vs no
+  hits)].** Cross-modal ACCESS (locally-deployed trust
+  broken; conversation poisons). → Watch the marks
+  (our negative-preservation, watch-side). Filed.
+- **Distill fingerprints [arXiv:2602.03812 (Xu; vs no
+  hits)].** Quality-vs-strength TRADE-OFF (heuristic
+  perturbations; steep cost). → Fingerprint distillation
+  (our copy-controls, fingerprint-side). Filed.
+- **Asking back [arXiv:2605.16462 (Yang; vs no hits)].**
+  Paraphrase STRIPS tokens (interaction-layer; logits
+  uncontrolled). → Ask back (our scorer boundaries,
+  ask-side). Filed.
+- **Namesake disentangle [arXiv:2604.13938 (Xia /
+  ASTRA; vs no hits; namesake noted, no claim)].**
+  Identity fusion vs POSE distortion (retrieval-augmented;
+  disentangled). → Disentangle identity (our niche
+  fingerprint, disentangle-side). Filed.
+- Program note: watch marks, fingerprint distillation,
+  ask back, disentangle identity — the watermark-attack
+  file. None licensed — filed.
