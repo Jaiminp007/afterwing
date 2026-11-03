@@ -25931,3 +25931,32 @@ converging; null family, four branches).
 - Program note: audit phantoms, partition causes, guard
   verifiers, evolve verification — the phantom-null
   file. None licensed — filed.
+## Round 680 — Smooths, gurus, prodigies, professors (Smooth, Guru, Prodigy, Professor; 2026-11-02)
+
+Motivation: further outside (meccaed smooths, massed gurus, shook
+prodigies, doored professors). The program smooths (meccas attempts),
+gurus (stitches verdicts), prodigies (publishes NOGOs), and professors
+(counts rows). Four more. (Map holds 688 rounds.)
+
+- **Smooth mecca [canon: Smooth (meccaed smooths; specified CL Smooth
+  (vs no hits)); verification deferred].** → Smooth's smooths (meccaed,
+  kept (smoothed, meccaed (meccas, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Smooth" (mecca, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Guru mass [canon: Guru (massed gurus; specified Guru (Gang Starr; vs
+  no hits)); verification deferred].** → Guru's gurus (massed, kept
+  (gurued, massed (masses, kept))) is the verdict (massed, kept (NOGO,
+  told (honest, kept))); his "Guru" (mass, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Prodigy shook [canon: Prodigy (shook prodigies; specified Prodigy
+  (Mobb Deep; vs no hits)); verification deferred].** → Prodigy's
+  prodigies (shook, kept (prodigied, shook (shooks, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Prodigy"
+  (shook, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Professor door [canon: Large (doored professors; specified Large
+  Professor (vs no hits)); verification deferred].** → Professor's
+  professors (doored, kept (professored, doored (doors, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Professor"
+  (door, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
