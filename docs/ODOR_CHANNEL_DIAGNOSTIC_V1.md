@@ -163,6 +163,22 @@ return; the D-feast arrives for a remnant too small to matter.
 A survival line must fix the A→C intake decline (or the fixed
 burn), not D — specified HOW, not just "live longer."
 
+## Executed re-reading 7 (2026-11-02, read-only: spent R1 anchors)
+
+Depletion vs efficiency, decided: food amount GROWS 332.7 → 433.3
+→ 561.5 → 649.1 across A/B/C/D (fill 0.37 → 0.65; regrowth
+outpaces use) while intake halves and all 18–20 deaths are
+energy-caused. DEPLETION REFUTED — the colony starves surrounded
+by growing food. EFFICIENCY COLLAPSE confirmed: the agents get
+worse at finding food that increasingly exists. Mechanism
+specified: per-phase resource reshuffling (new seeds each phase)
+invalidates spatial memory every phase boundary while steering
+acts on stale maps — re-acquisition lags reshuffling, intake
+ratchets down, the colony bleeds out. That is the transfer wound
+at within-run scale: memory does not survive the reshuffle.
+A survival line fixes re-acquisition speed (or stops the maps
+going stale), never the food supply.
+
 ## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
 
 Pairing-rule schedule check (Moncada: strong events near tags?):
