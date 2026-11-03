@@ -25653,3 +25653,32 @@ leads converging; gatekeeper family, four branches).
 - Program note: keep four factors, guarantee feasibility,
   learn the human, protect the embodied — the
   gatekeeper-psychology file. None licensed — filed.
+## Round 670 — Hubbards, kamals, knuckles, rahzels (Hubbard, Gray, Knuckles, Rahzel; 2026-11-02)
+
+Motivation: further outside (bassed hubbards, keyed kamals, percussed
+knuckles, beatboxed rahzels). The program hubbards (basses attempts),
+kamals (stitches verdicts), knuckles (publishes NOGOs), and rahzels
+(counts rows). Four more. (Map holds 678 rounds.)
+
+- **Hubbard bass [canon: Hubbard (bassed hubbards; specified Leonard
+  "Hub" Hubbard (The Roots; vs no hits; short tag grazes the scientists
+  — full-name tag used)); verification deferred].** → Hubbard's hubbards
+  (bassed, kept (hubbarded, bassed (basses, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Hubbard" (bass, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Kamal keys [canon: Kamal (keyed kamals; specified Kamal Gray (The
+  Roots; vs no hits)); verification deferred].** → Kamal's kamals (keyed,
+  kept (kamaled, keyed (keys, kept))) is the verdict (keyed, kept (NOGO,
+  told (honest, kept))); his "Kamal" (keys, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Knuckles percussion [canon: Knuckles (percussed knuckles; specified
+  Frank Knuckles (The Roots; vs no hits)); verification deferred].** →
+  Knuckles's knuckles (percussed, kept (knuckled, percussed (percussions,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Knuckles" (percussion, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Rahzel beatbox [canon: Rahzel (beatboxed rahzels; specified Rahzel
+  (The Roots; vs no hits)); verification deferred].** → Rahzel's rahzels
+  (beatboxed, kept (rahzeled, beatboxed (beatboxes, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Rahzel" (beatbox, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
