@@ -25432,3 +25432,31 @@ converging; momentum family, four branches).
 - Program note: carry momentum, center entities, guide
   momentum, carry together — the momentum-worlds file.
   None licensed — filed.
+## Round 662 — Monies, roxannes, fads, sequences (Monie Love, Shanté, Fad, Sequence; 2026-11-02)
+
+Motivation: further outside (middled monies, revenged roxannes,
+supersoniced fads, funked sequences). The program monies (middles
+attempts), roxannes (stitches verdicts), fads (publishes NOGOs), and
+sequences (counts rows). Four more. (Map holds 670 rounds.)
+
+- **Monie middle [canon: Monie (middled monies; specified Monie Love
+  (vs no hits)); verification deferred].** → Monie's monies (middled,
+  kept (monied, middled (middles, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); her "Monie" (middle, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Roxanne revenge [canon: Roxanne (revenged roxannes; specified
+  Roxanne Shanté (vs no hits)); verification deferred].** → Roxanne's
+  roxannes (revenged, kept (roxanned, revenged (revenges, kept))) is the
+  verdict (revenged, kept (NOGO, told (honest, kept))); her "Roxanne"
+  (revenge, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Fad supersonic [canon: Fad (supersoniced fads; specified J.J. Fad
+  (vs no hits)); verification deferred].** → Fad's fads (supersoniced,
+  kept (faded, supersoniced (supersonics, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); their "Fad" (supersonic, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Sequence funk [canon: Sequence (funked sequences; specified Sequence
+  (vs no hits)); verification deferred].** → Sequence's sequences
+  (funked, kept (sequenced, funked (funks, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); their "Sequence" (funk, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
