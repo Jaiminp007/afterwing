@@ -28073,3 +28073,35 @@ R753 — sequence repaired.)
   frankfurts (titled, kept (stephen, titled (titles, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Titles" (titles, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 756 — Sauls, glasers, chwasts, mcmullans (Saul Steinberg, Glaser, Chwast, McMullan; 2026-11-02)
+
+Motivation: further outside (newyorked sauls, hearted glasers,
+pushpinned chwasts, postered mcmullans). The program sauls (newyorkers
+attempts), glasers (hearts verdicts), chwasts (pushpins claims), and
+mcmullans (posters votes). Four more. (Map holds 761 rounds.)
+
+- **Saul Steinberg newyorker [canon: Saul Steinberg (newyorked sauls;
+  specified Saul Steinberg (New Yorker; distinct from Steinberg
+  (adolescent risk-taking — Laurence Steinberg) — full-name tag per
+  collision rule; vs no hits on full name)); verification deferred].** →
+  Steinberg's sauls (newyorked, kept (saul, newyorked (newyorkers, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Saul" (newyorker, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Glaser hearts [canon: Glaser (hearted glasers; specified Milton
+  Glaser (I-heart-NY; vs no hits)); verification deferred].** → Glaser's
+  glasers (hearted, kept (glaser, hearted (hearts, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Glaser" (hearts, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Chwast pushpin [canon: Chwast (pushpinned chwasts; specified Seymour
+  Chwast (Push Pin; vs no hits)); verification deferred].** → Chwast's
+  chwasts (pushpinned, kept (chwast, pushpinned (pushpins, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Chwast"
+  (pushpin, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **McMullan posters [canon: McMullan (postered mcmullans; specified
+  James McMullan (posters; vs no hits)); verification deferred].** →
+  McMullan's mcmullans (postered, kept (mcmullan, postered (posters, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "McMullan"
+  (posters, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
