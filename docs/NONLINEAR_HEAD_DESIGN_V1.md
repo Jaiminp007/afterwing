@@ -142,6 +142,16 @@ three heads is the unprincipled placeholder this replaces; a freeze
 names its uncertainty signal and its epistemic policy, or it keeps
 the noise and says so.
 
+Extension (R788 — Nikolov 2018 IDS; Dreyer 2010 receptor model):
+the epistemic half gains its tractable method — information ratio
+over the distributional encoder, built for heteroscedastic
+landscapes (the 97%-negative case by name), never ε-noise. The
+phasic half gains receptor mechanics (parameter-free): bursts
+drive D1 occupancy, pauses drop D1+D2, phasic means D1-up/D2-down
+vs tonic — tonic-stop is D2-tone hold, phasic-stop is burst
+(D1 learn-window) + pause (D2 release) = rewrite window. Stop
+forms read as occupancies now, not metaphors.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —

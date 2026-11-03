@@ -40,6 +40,12 @@ state whether distributional roles are phase-assigned. Action,
 sensing, and teaching are one loop — a design that updates off-cycle
 treats them as three modules and repeats the decoupling.
 
+Ordering upgrade (R788 — Jang 2026, ACh demixes dopamine): the
+update must LAG the pause — lagging predicts learning, preceding
+predicts nothing, coinciding drives movement. Post-decision timing
+upgraded to pause-then-teach sequencing: a freeze that updates
+before the pause resolves is pre-falsified.
+
 ## What a case needs (not a plan)
 
 A future scoping must name: the gain function (frozen formula of
