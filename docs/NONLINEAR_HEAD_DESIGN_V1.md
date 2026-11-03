@@ -121,6 +121,27 @@ name its suppression pathway — which stop signal, which go trace,
 what suppression operator — or it repeats the zero-coupling failure
 with new weights.
 
+Extension (R787 — Goulton 2026, early-uncertainty gating):
+suppression is transiently EARLY (recruited when contingencies
+emerge, not steady-state), TARGETED at the plasticity gate (PKA
+constraint in the go pathway), and OVERRIDES the global broadcast
+signal. The freeze names timing (early, uncertainty-gated) +
+target (the plasticity gate, never the weights) + override
+(against the broadcast teaching signal) — all four coordinates
+now specified by independent results.
+
+## Addendum A7 (2026-11-02, zero worlds — phasic stop, epistemic explore)
+
+R787 (Huang 2023, CIN burst-pause; Friston 2016, active inference):
+two head-behavior rules. (1) Stop is PHASIC: burst-then-pause with
+an obligatory recovery window for updating — tonic stop holds the
+system down, phasic stop lets it rewrite (B1 held down, B2 never
+released). (2) Exploration is EPISTEMIC: ambiguity-resolving
+before reward-seeking — the 10% ε-greedy belief-free noise in all
+three heads is the unprincipled placeholder this replaces; a freeze
+names its uncertainty signal and its epistemic policy, or it keeps
+the noise and says so.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
