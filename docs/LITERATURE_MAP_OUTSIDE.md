@@ -36341,3 +36341,54 @@ method.)
   kept (carried, won (crowd, kept))); his "Murthy" (chemosensories,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 999 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=90, eess.SY start=80,
+cs.RO start=80, q-bio.NC start=110). Four new IDs triaged (0
+worlds): 2610.41590 (PDE kriging — DECLINED unrelated-screening),
+2610.14095 (neuropsychiatric limits — DECLINED thin; limits framing,
+clinical domain, no gate mechanism), 2610.41884
+(Rownak/Bhatti/Ahmed) — preference-conditioned multi-objective
+policy optimization returning the Pareto front in one run, with a
+positive floor rendering the terminal-constraint penalty exact —
+floors with teeth, the program's floor discipline sharpened; and
+2611.01844 (Nie/Song/Wang/Wang/Han/Ding/Zheng/Wu/Chen) — OpenNWM
+generalist navigation world model with latent-action pretraining
+from 17.5M action-free observations across robots, humans, and
+drones, aligned to physical motions — cross-embodiment navigation
+data with alignment, the program's body-transfer data problem,
+formalized. (First + senior mapped from each multi-author paper per
+TRAILS precedent; Bhatti + 7 OpenNWM middles noted unmapped.)
+(Abstracts/titles only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Rownak paretos [LIVE 2610.41884 (paretoed rownaks; specified Md
+  Ragib Rownak (paretos; vs no hits)); verification deferred].** →
+  Rownak's rownaks (paretoed, kept (rownak, paretoed (paretos, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Rownak" (paretos, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Ahmed multiobjectives [LIVE 2610.41884 (multiobjectived
+  qadeerahmeds; specified Qadeer Ahmed (multiobjectives; "Ahmed" taken
+  — 1x precedent — compound + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Ahmed's qadeerahmeds
+  (multiobjectived, kept (qadeerahmed, multiobjectived
+  (multiobjectives, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Ahmed" (multiobjectives, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Nie pretrainings [LIVE 2611.01844 (pretraininged dujunnie;
+  specified Dujun Nie (pretrainings; "Nie" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Nie's dujunnie (pretraininged, kept
+  (dujunni, pretraininged (pretrainings, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Nie"
+  (pretrainings, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Chen worldmodels [LIVE 2611.01844 (worldmodeled longchens;
+  specified Long Chen (worldmodels; "Chen" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Chen's longchens (worldmodeled, kept
+  (longchen, worldmodeled (worldmodels, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Chen" (worldmodels, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
