@@ -139,6 +139,18 @@ unmeasured — thirds are not tag times) but unconfirmed; the
 schedule check needs tag times, not bins. Front-loading everywhere
 is consistent with re-reading 2 (early phase does the eating).
 
+## Executed re-reading 4 (2026-11-02, read-only: spent R1/R5/R6 traces)
+
+Pairing rule at tag granularity (Moncada: top-5% intake ticks within
+±64 of phase boundaries 512/1024/1536): R1(+0.42) 0.182, R5(−0.70)
+0.213, R6(−0.95) 0.213. Second null — no separation favoring positive
+transfer (R1 lowest). Finding upgraded: the pairing rule is UNTESTABLE
+on spent traces without a tag operationalization (phase boundaries are
+candidate tags, not measured tags). The diagnostic's probe needs a
+frozen definition of "tag" in trace terms before it can run — currently
+unspecified. Two nulls banked; the rule stands unrefuted, unconfirmed,
+and now precisely untestable-as-stated.
+
 Late-phase proviso (R800 — Kleim 2004): synaptogenesis and map
 reorganization arrive in the SLOW phase; fast-early refines
 existing structure only. The program's 1792-tick phases may all
