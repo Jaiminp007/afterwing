@@ -24427,3 +24427,30 @@ janises (stitches verdicts), judees (publishes NOGOs), and lauras
   (lauraed, belled (weddings, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Laura" (bell, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 627 — Simulated, twinned, lucked, bandited (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: counterfactual — what would
+have happened if (already-cited branching/twin leads
+converging; counterfactual family, four branches).
+
+- **Counterfactual simulation [arXiv:2608.11601 (Zhang;
+  vs no hits)].** Direct prediction MISMATCH
+  (plausible without preserving; factual continuation
+  matters). → Preserve what matters (our transfer
+  legs, simulation-side). Filed.
+- **Twin rollouts [arXiv:2608.08982 (Ma; vs no
+  hits)].** Noise-COUPLED branching (shared prefix +
+  noise; diverge in actions). → Twin the rollout
+  (our copied-controls, twin-side). Filed.
+- **Twin-world credit [arXiv:2610.31544 (Surio; vs no
+  hits)].** Same LUCK different CHOICE (deterministic
+  episode; isolate decision effect). → Isolate the
+  choice (our flip-split, luck-side). Filed.
+- **Fair bandits [arXiv:2610.01377 (Huh; vs no
+  hits)].** MINIMAX optimal regret (factual-only
+  feedback; shared parameter). → Bandit fairly (our
+  frozen caps, bandit-side). Filed.
+- Program note: preserve what matters, twin rollouts,
+  isolate choices, bandit fairly — the counterfactual
+  file. None licensed — filed.
