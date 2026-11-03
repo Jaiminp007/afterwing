@@ -39,9 +39,29 @@ exact open items. Nothing here changes any verdict.
   distillation) CLOSED as NO-GO 2026-11-02: transfer +0.40/+0.35
   but 5/8 and 4/8 (count-gate fails by one — not shopped); A 30%;
   student loses to teacher 0/8 (−0.57, same as R1) — frozen
-  falsifier: ARCHITECTURE, not signal. Candidate B (nonlinear
+  falsifier: ARCHITECTURE, not signal. Round 5 (gated pair) CLOSED
+  as NO-GO 2026-11-02: forced stop starves acquisition (A 33%), stop
+  consumes learning — B1 closed, B2 licensed. Round 6 (soft-gated
+  mixture) CLOSED as NO-GO 2026-11-02: learned stop poisons trajectory
+  (A 22%, fail-A-too) — B2 closed, NO gating family onward (fail-A-too
+  rule). Round 7 CLOSED as INCOMPLETE-EXTINCT 2026-11-02 (colony died
+  1911/3584; deterministic digest-identical, no re-run; repair specified
+  not applied). Round 8 CLOSED as NO-GO 2026-11-02: adaptive centering
+  falsified (transfer 4/8, posfrac 5/8, acquisition degenerate 0/8;
+  ratio-on-negatives gate lesson banked). Round 9 CLOSED as NO-GO
+  2026-11-02: distributional falsified (transfer 4/8; optimism-WITHOUT-
+  transfer dissociation measured: 5/8 positive means yet transfer flat;
+  ENOSPC crash-resume, redone:[]). Round 10 CLOSED as PARTIAL
+  2026-11-02: split Go/No-Go (transfer 5/8 + Go-mean>0 7/8 pass,
+  acquisition 5/8 misses by one — mechanism works, priced too high;
+  NO (d) exists). Channel diagnostic: 16 executed read-only re-readings
+  (flood ADDRESSED to No-Go on all 8 histories; price mechanized as 2:1
+  magnitude dominance; weight-stats-don't-predict-transfer 4th strike;
+  turn-suppression without endpoints). Candidate B (nonlinear
   head) promoted (needs design doc, not authorized). Next:
-  architectural line, then qual freeze (iv-b) only on a GO.
+  probe-time rationale under the C17-bar (readout-tweak family
+  exhausted on evidence; phase-gating ruled out), then qual freeze
+  (iv-b) only on a GO.
 - RSI proper — bounded recursive self-improvement: OPEN.
   Requires ALL of: (a) ≥2 successive persistent revisions lifting
   transfer vs copied-improvement + matched-budget controls;
@@ -54,8 +74,12 @@ exact open items. Nothing here changes any verdict.
   with hostile descriptives + probe-audit constraints). Next: (i) a
   new input-side rationale clearing the C17-bar with rate-normalized
   gates + closed-loop correctness verification (unlicensed — needs
-  genuine novelty over C17, not a bugfix); (ii) odor DEV round for
-  the DTR path; (iii) DTR parts (i)–(iii) substrate builds.
+  genuine novelty over C17, not a bugfix; readout-tweak family
+  closed on evidence, phase-gating ruled out, probe-time only);
+  (ii) odor DEV for the DTR path: rounds 5-10 closed (R5/R6 NO-GO,
+  R7 extinct, R8/R9 NO-GO, R10 PARTIAL works-but-costs; flood
+  addressed to No-Go, price mechanized 2:1, dissociations measured);
+  (iii) DTR parts (i)–(iii) substrate builds.
 
 ## What "done" looks like (so stopping is checkable)
 
