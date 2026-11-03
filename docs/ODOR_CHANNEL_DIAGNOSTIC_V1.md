@@ -490,6 +490,15 @@ quantile-training. Bounded to R10's regime — or a small-n fluctuation
 plainly: 1-for-2 across rounds. A regime-local texture, not a
 carrier; the gate unmoved, the candidate fenced.
 
+Precision 5 (2026-11-03): three-round panel — same computation on
+R8's transfer probes (centered training): rho=+0.310. The panel
+reads R8 +0.31 / R9 −0.12 / R10 +0.57..+0.62: present under split,
+weak under centering, absent under quantile. The candidate is now
+1-for-3 with one weak maybe — unreliable as a general carrier,
+fully fenced to a single regime. The ledger's first probe-time
+quantity survives in exactly one training world out of three. Filed
+without flinching; the gate unmoved.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
