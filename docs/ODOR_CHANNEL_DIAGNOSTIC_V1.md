@@ -136,6 +136,21 @@ Any line invoking the proviso must first show survival to slow-
 phase ticks under its regime; otherwise the proviso is not
 unresolved, it is inapplicable.
 
+## Executed re-reading 5 (2026-11-02, read-only: spent R1/R5/R6 traces)
+
+Alive flies per 256-tick bin (24 founders, 8/8 histories each arm):
+ALL arms hold 24 through bin 4 (ticks 0–1279), then collapse in
+bins 5–6 — R1 ends [1–4], R5 [1–5], R6 [1–5], same cliff shape
+everywhere. Mortality is a synchronized LATE CLIFF, not attrition;
+head-independent (gated heads die no faster). Combined with R7
+(dead 1911 in doubled-phase-B): lifespan limit ≈1300–1900 ticks
+regardless of phase — the colony has a maximum AGE, and slow-phase
+structure is unreachable not because phases are short but because
+lifespan is short. Specification sharpened: lifespan extension
+(slower burn / better intake economics) precedes slow-phase
+structure. The next line must first keep agents alive past ~1900
+ticks; only then does the slow phase exist to be measured.
+
 ## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
 
 Pairing-rule schedule check (Moncada: strong events near tags?):
