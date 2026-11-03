@@ -29185,3 +29185,38 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   side's implementation barrier falls: certificate-layers become
   composable parts. Banked as tooling for the day a line needs
   certificates (the machinery waits, modular).
+## Round 798 — LIVE via OpenAlex: subtypers, shapers, solvers, sculptors (Chen motor-learning 2015, Bar-Ilan dendritic-states 2013, Butler ADMM-QP 2022, Frola competition 2013; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Chen/Butler: abstracts unindexed — title-record readings flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **During learning [Chen et al. 2015, subtype-specific inhibitory
+  plasticity in motor cortex during motor learning; title record
+  (abstract unindexed); vs no hits].** → Fractionation DURING
+  behavior (learning animals, motor cortex) — the compartment
+  story holds where it matters: in a learning motor system, the
+  program's closest substrate. Title-record weight: the phenomenon
+  is behavioral, not slice-physiological.
+- **Three-state selector [Bar-Ilan et al. 2013 (Segev),
+  dendritic inhibition shapes excitatory plasticity; vs no
+  hits].** → Dendritic inhibition selects among THREE plasticity
+  states — protected (unchanged), potentiated, depressed — with
+  high spatial resolution, coexisting over short distances. The
+  gate-dendrite arm mechanized: not a blocker but a selector, and
+  "protected" is the silent-trace mechanism by another name
+  (unchanged-by-design, not unchanged-by-accident).
+- **Faster certificates [Butler & Kwon 2022, differentiable QP
+  via ADMM; title record (abstract unindexed); vs no hits].** →
+  The certificate-layer solver upgrade (ADMM vs interior-point).
+  Tooling: when a line needs proofs, ADMM-based layers scale the
+  solves. Title-record weight: the machinery keeps improving
+  while it waits.
+- **Two natures [Frola et al. 2013, competition sculpts dendritic
+  (not perisomatic) inhibitory synapses; vs no hits].** →
+  Dendritic inhibition is competition-shaped (plastic,
+  activity-dependent); perisomatic is NOT (fixed, structural).
+  Fractionation goes developmental: gate-dendrite LEARNS by
+  competition, release-soma is FIXED infrastructure. One learning
+  brake + one fixed brake — different in kind, not just
+  compartment. The design needs both natures.
