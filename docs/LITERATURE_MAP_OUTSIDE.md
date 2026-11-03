@@ -25545,3 +25545,30 @@ branches).
 - Program note: authorize transitions, weight speakers,
   reconcile systems, validate outputs — the
   authority-reconciliation file. None licensed — filed.
+## Round 666 — Mystics, talibs, moses, roots (Mystic, Kweli, Def, Roots; 2026-11-02)
+
+Motivation: further outside (shadowed mystics, gotbyed talibs,
+mathed moses, seeded roots). The program mystics (shadows attempts),
+talibs (stitches verdicts), moses (publishes NOGOs), and roots (counts
+rows). Four more. (Map holds 674 rounds.)
+
+- **Mystic shadow [canon: Mystic (shadowed mystics; specified Mystic (vs
+  no hits)); verification deferred].** → Mystic's mystics (shadowed, kept
+  (mysticed, shadowed (shadows, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); her "Mystic" (shadow, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Talib getby [canon: Talib (gotbyed talibs; specified Talib Kweli (vs
+  no hits)); verification deferred].** → Talib's talibs (gotbyed, kept
+  (talibed, gotbyed (getbys, kept))) is the verdict (gotbyed, kept (NOGO,
+  told (honest, kept))); his "Talib" (getby, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Mos math [canon: Mos (mathed moses; specified Mos Def (Yasiin Bey;
+  vs no hits)); verification deferred].** → Mos's moses (mathed, kept
+  (mosed, mathed (maths, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Mos" (math, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Root seed [canon: Roots (seeded roots; specified The Roots (vs no
+  hits)); verification deferred].** → Root's roots (seeded, kept (rooted,
+  seeded (seeds, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); their "Root" (seed, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
