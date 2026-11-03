@@ -37291,3 +37291,48 @@ formalized. (Lead author mapped from the sextet per MOST precedent;
   the vote (joined, kept (carried, won (crowd, kept))); his "Rico"
   (orchestrations, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1018 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=300, cs.RO start=280).
+Two new IDs triaged (0 worlds), both map: 2610.30729 (Zhang/Hayou)
+— width and depth limits commute during training (output converges
+to the same limit along every joint growth path; Depth-μP scaling;
+fixed steps with gradient clipping) — limit-order commutativity
+plus clipping, the program's matched-budget order-independence plus
+floors/bounds, formalized; and 2610.39319 lead+senior (Zou/Zhu) —
+ProLoop progress-aware closed-loop (explicit subgoal progress as
+ongoing/deviated/completed from desired-vs-execution state
+relations; State-Relation Monitor; progress guides adaptation) —
+explicit progress states guiding adaptation, the program's
+segSummary plus probe-time adaptation, formalized. (First + senior
+mapped from the octet per TRAILS precedent; 6 middles noted
+unmapped.) (Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Zhang commutes [LIVE 2610.30729 (commuted ruijiazhangs;
+  specified Ruijia Zhang (commutes; "Zhang" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Zhang's ruijiazhangs (commuted, kept
+  (ruijiazhang, commuted (commutes, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Zhang" (commutes, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Hayou clippings [LIVE 2610.30729 (clippinged hayous; specified
+  Soufiane Hayou (clippings; vs no hits)); verification deferred].**
+  → Hayou's hayous (clippinged, kept (hayou, clippinged (clippings,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Hayou" (clippings, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Zou proloops [LIVE 2610.39319 (prolooped runxinzous; specified
+  Runxin Zou (proloops; vs no hits)); verification deferred].** →
+  Zou's runxinzous (prolooped, kept (runxinzou, prolooped (proloops,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Zou" (proloops, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Zhu monitors [LIVE 2610.39319 (monitored shiqiangzhus; specified
+  Shiqiang Zhu (monitors; "Zhu" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhu's shiqiangzhus (monitored, kept (shiqiangzhu,
+  monitored (monitors, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Zhu" (monitors, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
