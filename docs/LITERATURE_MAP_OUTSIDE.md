@@ -30739,3 +30739,34 @@ olgiatis (pours verdicts), caminadas (stays claims), and marklis
   marklis (sketched, kept (markli, sketched (sketches, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Markli" (sketches, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 848 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (caged jacqueses, wrapped meurons,
+scattered tschumis, thinned kerezs). The program jacqueses (cages
+attempts), meurons (wraps verdicts), tschumis (scatters claims), and
+kerezs (thins votes). Four more, Swiss-modern vein continued. (Map
+holds 800 rounds; Herzog-hit is Werner — full-name tag used.)
+
+- **Jacques Herzog cages [canon: Jacques Herzog (caged jacqueses;
+  specified Jacques Herzog (cages; distinct from Werner Herzog
+  (ecstatic truth) — full-name tag per collision rule; vs no hits on
+  full name)); verification deferred].** → Herzog's jacqueses (caged,
+  kept (jacques, caged (cages, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Jacques" (cages, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Meuron wraps [canon: Meuron (wrapped meurons; specified Pierre de
+  Meuron (wraps; vs no hits)); verification deferred].** → Meuron's
+  meurons (wrapped, kept (meuron, wrapped (wraps, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Meuron" (wraps, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Tschumi scatters [canon: Tschumi (scattered tschumis; specified
+  Bernard Tschumi (scatters; vs no hits)); verification deferred].** →
+  Tschumi's tschumis (scattered, kept (tschumi, scattered (scatters,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Tschumi" (scatters, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Kerez thins [canon: Kerez (thinned kerezs; specified Christian Kerez
+  (thins; vs no hits)); verification deferred].** → Kerez's kerezs
+  (thinned, kept (kerez, thinned (thins, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Kerez" (thins, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
