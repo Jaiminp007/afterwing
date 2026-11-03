@@ -28529,3 +28529,46 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   ledgers (documentation), noise-at-bar/T-Cal (signal-vs-noise),
   preserved negatives (over-claiming). Third outside convergence
   on the discipline shape (with RSIBench-Data and MetaRSI).
+## Round 780 — LIVE via OpenAlex: censors, ramps, heritages, rephrases (Goldberg censored-Q 2012, Wong-Lin integration 2006, de Belle rover/sitter 1987, Yang contamination 2023; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(de Belle: abstract unindexed — title-record reading flagged as
+such), 0 worlds. All four virgin as papers pre-append (de Belle:
+the R779 line names Kent 2009 GEI, not this 1987 heredity paper —
+kinship noted, not a collision).
+
+- **Censored Q-learning [Goldberg & Kosorok 2012, Q-learning with
+  censored data; vs no hits].** → Multistage decisions with survival
+  times as rewards: Q-learning adjusted for censoring, flexible
+  stages, finite-sample bounds, converges to optimal expected
+  survival. The censoring debt graduates from complaint to method:
+  the future line has a formalism with bounds, not just "do survival
+  analysis." First adopter tests whether any closed margin changes
+  shape under censored-Q — still a new measurement, never a
+  re-scoring.
+- **Ramping integration [Wong-Lin & Wang 2006, recurrent time
+  integration in perceptual decisions; vs no hits].** → LIP ramping
+  as temporal accumulation; slow integration needs NMDA-mediated
+  reverberation — fast-AMPA-only recurrence decides too fast to
+  match behavior. B3-recurrent design constraint: the head needs
+  SLOW integration (an eligibility-like trace holding viability
+  history), not mere recurrence; fast-only recurrence cannot hold
+  the stop context across ticks. Biology prices the architecture.
+- **Heredity of strategies [de Belle & Sokolowski 1987, rover/
+  sitter alternatives; title record (abstract unindexed); kin of
+  R779-Kent, different paper].** → The alternative foraging
+  strategies are HERITABLE — nature maintains both policies as a
+  polymorphism rather than converging on one mixture. Population
+  answer (VISION-5 direction): maintain go and stop as coexisting
+  variants under selection (M-POP-shaped) instead of blending them
+  in one head. The mixture program tried to be both; nature stays
+  two.
+- **Rephrased contamination [Yang et al. 2023, rephrased-sample
+  benchmark contamination; vs no hits].** → N-gram decontamination
+  insufficient: paraphrase/translation bypasses it, and a 13B model
+  overfits to GPT-4-level on leaked variants. Validates the
+  program's strictness from the other side: histories count as
+  spent regardless of code path (R3–R6 reuse the same 8), because
+  near-duplicate evidence inflates exactly like exact. The
+  seed-literal guards are the floor; the spent-regardless rule is
+  the ceiling this paper demands.
