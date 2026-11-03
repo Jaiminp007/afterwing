@@ -437,7 +437,12 @@ zero home-world footprint. The price is likewise not paid at
 home (probes indifferent) but during learning (entry debt,
 R18) and at transfer. A readout that matters everywhere
 except where it acts: the side-channel story, closed from
-both ends.
+both ends. Precision (2026-11-02): B is TRAINED, not a hidden
+second transfer test — the rehearsal table runs A/B/A/C/A/D,
+so B-current is a home probe and the indifference above covers
+both trained worlds. The with-odor-transfer hypothesis died on
+the frozen plan before measurement; the only transfer world
+remains the odor-free one (R26).
 
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
