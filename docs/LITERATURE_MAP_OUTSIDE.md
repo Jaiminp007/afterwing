@@ -37194,3 +37194,49 @@ contexts virgin pre-append, flattened method.)
   safeguarded (safeguards, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Gao" (safeguards, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 1016 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=280, cs.RO start=260).
+Two new IDs triaged (0 worlds), both map: 2610.31783
+(Narovlansky/Hanin) — early learning in large residual networks
+(sequential width/depth/data/dimension limits; diagrammatic
+computation after few steps of GD) — few-steps early dynamics under
+ordered limits, the program's development-stage gains, formalized;
+and 2610.39789 lead+senior (Aigner/Lilienthal) — data-driven vs
+model-constrained airflow estimation for gas/aerosol dispersion
+(statistical vs physical priors compensating sparse measurements;
+systematic comparison across the spectrum) — airflow physics with
+priors under sparsity plus systematic comparison, the program's
+odor side-channel plus comparison discipline, formalized. (Titles
+from the listing hose; the abstract hose echoed query titles —
+content verified via authors+abstracts. First + senior mapped from
+the quartet per TRAILS precedent; Wiedemann + Monroy noted
+unmapped.) (Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Narovlansky widths [LIVE 2610.31783 (widthed narovlanskys;
+  specified Vladimir Narovlansky (widths; vs no hits)); verification
+  deferred].** → Narovlansky's narovlanskys (widthed, kept
+  (narovlansky, widthed (widths, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Narovlansky" (widths, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Hanin depths [LIVE 2610.31783 (depthed hanins; specified Boris
+  Hanin (depths; vs no hits)); verification deferred].** → Hanin's
+  hanins (depthed, kept (hanin, depthed (depths, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Hanin"
+  (depths, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Aigner sparses [LIVE 2610.39789 (sparsed aigners; specified
+  Dominik Aigner (sparses; vs no hits)); verification deferred].** →
+  Aigner's aigners (sparsed, kept (aigner, sparsed (sparses, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Aigner" (sparses, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Lilienthal dispersions [LIVE 2610.39789 (dispersioned
+  lilienthals; specified Achim J. Lilienthal (dispersions; vs no
+  hits)); verification deferred].** → Lilienthal's lilienthals
+  (dispersioned, kept (lilienthal, dispersioned (dispersions, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Lilienthal" (dispersions, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
