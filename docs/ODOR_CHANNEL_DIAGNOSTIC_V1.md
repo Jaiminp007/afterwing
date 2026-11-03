@@ -337,6 +337,22 @@ rationale aimed at the readout should expect weight changes
 with unchanged starvation; one aimed at the debt must change
 the world economics, not the head.
 
+## Executed re-reading 23 (2026-11-02, read-only: spent split + plain acquire traces)
+
+The readout is fully behavior-neutral during learning. Turn
+rates by third, split vs plain, all 8 histories: 0.28–0.33 vs
+0.29–0.33, flat across thirds (starving agents neither search
+more nor conserve — behavior frozen while energy collapses
+54→12), arms interchangeable to noise. Same worlds, same
+behavior, same energy path, different final weights: the split
+touches NOTHING observable during acquisition except the
+weight allocation it leaves behind. The narrator verdict
+hardens from partial to full — and with it the price sharpens:
+the ONLY thing bought by the transfer gain (5/8) is paid in
+the ONLY thing changed (weights at exit). No hidden behavioral
+compensation, no dynamics shift — the ledger has one line on
+each side.
+
 ## Executed re-reading 22 (2026-11-02, read-only: spent transfer probes + R10 verdict)
 
 Decision volume does not track transfer — on either arm.
