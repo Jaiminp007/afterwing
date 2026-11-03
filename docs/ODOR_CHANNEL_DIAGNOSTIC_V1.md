@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 47 (2026-11-02, read-only: spent R10 anchors + verdict)
+
+No-Go rank doesn't track transfer either (rho 0.333, n=8,
+nothing). Combined with R46 (Go-level refuted monotonically):
+the readout's weight levels are transfer-blind, period — Go
+marginal texture at best (R17, fenced), No-Go nothing at all.
+The flood's depth doesn't order outcomes; the Go's height
+doesn't determine them. What decides transfer lives entirely
+outside the weights (entry, behavior, encounters — R18/R24/R30).
+The question "do weights predict transfer" is now closed on
+both heads: No and No. A proposal that tunes weights to move
+transfer must explain why, when no weight statistic has ever
+ordered it.
+
 ## Executed re-reading 46 (2026-11-02, read-only: spent R10 anchors A-D, all 8)
 
 B-phase growth is universal — and Go-level doesn't imply transfer.
