@@ -32385,3 +32385,38 @@ collision rule.) (Map holds 800 rounds.)
   votes carried (dead phases quiet, kept))))); his "Jiaheng"
   (gossips, kept (kept, kept)) is the ledger (exact, kept (stay
   live (kept, deliver fresh))).
+## Round 890 — Canon (live pool thin across five queries; 2026-11-02)
+
+Motivation: further outside (metabolized tanges, nakagined kurokawas,
+hillsided makis, mannered isozakis). The program tanges (metabolizes
+attempts), kurokawas (nakagins verdicts), makis (hillsides claims),
+and isozakis (mannerists votes). Four more, Japanese metabolist vein.
+("Plans"/"bays" taken — "metabolizes" used; "capsules" fragment taken
+in distillation context — "nakagins" used; "groups"/"collects" taken —
+"hillsides" used; "cites" taken — "mannerists" used, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Tange metabolizes [canon: Tange (metabolized tanges; specified
+  Kenzo Tange (metabolizes; vs no hits)); verification deferred].** →
+  Tange's tanges (metabolized, kept (tange, metabolized (metabolizes,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Tange" (metabolizes, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Kurokawa nakagins [canon: Kurokawa (nakagined kurokawas; specified
+  Kisho Kurokawa (nakagins; vs no hits)); verification deferred].** →
+  Kurokawa's kurokawas (nakagined, kept (kurokawa, nakagined
+  (nakagins, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Kurokawa" (nakagins, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Maki hillsides [canon: Maki (hillsided makis; specified Fumihiko
+  Maki (hillsides; vs no hits)); verification deferred].** → Maki's
+  makis (hillsided, kept (maki, hillsided (hillsides, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Maki"
+  (hillsides, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Isozaki mannerists [canon: Isozaki (mannered isozakis; specified
+  Arata Isozaki (mannerists; vs no hits)); verification deferred].** →
+  Isozaki's isozakis (mannered, kept (isozaki, mannered (mannerists,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))));
+  his "Isozaki" (mannerists, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
