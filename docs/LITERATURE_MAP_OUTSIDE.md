@@ -28757,3 +28757,39 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   design rule: gain lives in its OWN module, never entangled in the
   policy weights. The acquisition-gating ceiling gains its
   architecture (modulator beside actor, not inside it).
+## Round 786 — LIVE via OpenAlex: distributions, suppressions, sniffs, spines (Dabney distributional 2020, Matamales transmodulation 2020, Scheller sniffing 2026, Iino D2-spines 2020; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Dabney/Iino: abstracts unindexed — title-record readings flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Distributional dopamine [Dabney et al. 2020, distributional
+  code for value; title record (abstract unindexed); vs no
+  hits].** → The teaching signal is a distribution across units
+  with diverse reversal points — canonical form of the
+  distributional voice. The encoder for the 97%-negative landscape
+  should be distributional (multiple units, diverse thresholds),
+  never a single TD scalar. Strongest specification yet of what
+  replaces the scalar error.
+- **Transmodulatory extinction [Matamales et al. 2020, D2→D1
+  transmodulation updates goal-directed learning; vs no hits].**
+  → Extinction — the program's wound — has a named circuit
+  operation: D2-SPNs SUPPRESS outdated D1 plasticity to reshape
+  volition; necessary for updating, not optional. What B2 lacked,
+  precisely: its stop branch never suppressed go plasticity
+  (separate weights, zero coupling). Design rule: stop must
+  INHIBIT go-plasticity, not merely act instead of it.
+- **Clocked teaching [Scheller et al. 2026, sniffing shapes
+  dopamine for reward prediction; vs no hits].** → The sampling
+  rhythm entrains VTA-striatum communication; firing realigns to
+  post-inspiratory phase with learning, predicting distributional
+  optimism-pessimism assignment. Deepest embodied insight banked:
+  the body CLOCKS learning (update timing locked to the action
+  cycle) and the clock assigns distributional roles. Action,
+  sensing, and teaching signal are one loop, not three modules.
+- **Structural no-go [Iino et al. 2020, D2 in discrimination
+  learning and spine enlargement; title record (abstract
+  unindexed); vs no hits].** → Discrimination learning with
+  STRUCTURAL plasticity on the no-go side. Banked for any reopened
+  discrimination case: look for spine-level (not weight-level)
+  change where stopping is learned.
