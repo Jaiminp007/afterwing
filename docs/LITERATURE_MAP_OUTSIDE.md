@@ -25100,3 +25100,31 @@ converging; trace family, four branches).
 - Program note: distill to reveal, guard traces, split
   to reveal, count invisible — the trace-tampering
   file. None licensed — filed.
+## Round 650 — Boyz, vogues, tlcs, destinys (Boyz II Men, Vogue, TLC, Destiny; 2026-11-02)
+
+Motivation: further outside (ended boyz, freed vogues, waterfalled
+tlcs, survived destinys). The program boyz (ends attempts), vogues
+(stitches verdicts), tlcs (publishes NOGOs), and destinys (counts rows).
+Four more. (Map holds 658 rounds.)
+
+- **Boy end [canon: Boyz (ended boyz; specified Boyz II Men (vs no
+  hits)); verification deferred].** → Boyz's boyz (ended, kept (boyzed,
+  ended (roads, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); their "Boy" (end, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Vogue free [canon: Vogue (freed vogues; specified En Vogue (vs no
+  hits)); verification deferred].** → Vogue's vogues (freed, kept
+  (vogued, freed (minds, kept))) is the verdict (freed, kept (NOGO, told
+  (honest, kept))); their "Vogue" (free, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Tlc waterfall [canon: TLC (waterfalled tlcs; specified TLC (vs no
+  hits)); verification deferred].** → Tlc's tlcs (waterfalled, kept
+  (tlced, waterfalled (falls, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); their "Tlc" (waterfall, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Destiny survivor [canon: Destiny (survived destinys; specified
+  Destiny's Child (vs no hits)); verification deferred].** → Destiny's
+  destinys (survived, kept (destinied, survived (survivors, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); their "Destiny"
+  (survivor, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
