@@ -25627,3 +25627,29 @@ questloves (stitches verdicts), dices (publishes NOGOs), and maliks
   (proceeded, kept (maliked, proceeded (proceeds, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Malik" (proceed, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 669 — Kept, guaranteed, learned, protected (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: gatekeeper psychology —
+guard the gate, mind the human (already-cited assurance
+leads converging; gatekeeper family, four branches).
+
+- **Quantum gate [arXiv:2604.26413 (Tomar; vs no
+  hits)].** FOUR-factor extraction (VQC key + LSB +
+  binding + authenticated). → Keep four factors (our
+  frozen gates, keep-side). Filed.
+- **Slater guarantee [arXiv:2610.40764 (Reehorst; vs no
+  hits)].** Violations → INCONCLUSIVE (slow/breakdown;
+  tools within). → Guarantee feasibility (our
+  gate conditions, guarantee-side). Filed.
+- **Machine psychology [arXiv:2601.06172 (Qadir; vs no
+  hits)].** Deployment OUTPACES grasp (four traditions;
+  automation paradox). → Learn the human (our
+  newest-chain tracking, learn-side). Filed.
+- **Valley beyond [arXiv:2510.26082 (Yang; vs no
+  hits)].** Anthropomorphism → PROTECTION (CASA moral;
+  201 participants; abuse). → Protect the embodied
+  (our richer-bodies gate, protect-side). Filed.
+- Program note: keep four factors, guarantee feasibility,
+  learn the human, protect the embodied — the
+  gatekeeper-psychology file. None licensed — filed.
