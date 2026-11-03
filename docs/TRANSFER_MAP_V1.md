@@ -573,6 +573,9 @@ the map stays open, not empty.
 - R707 responsibility-boundaries file: replay-multiversions;
   vacuum-responsibility; redraw-maps;
   bound-search.
+- R709 epistemic-uncertainty file: marathon-reasoning;
+  diffuse-epistemics; plane-tangentially;
+  think-twice.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
