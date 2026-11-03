@@ -24717,3 +24717,32 @@ skynyrds (stitches verdicts), tops (publishes NOGOs), and eagles
   kept (eagled, hoteled (californias, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Eagle" (hotel, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 637 — Reacher, relayed, automataed, semanticized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: boundary crossing — the
+prompt is a program boundary (already-cited program/interface
+leads converging; crossing family, four branches).
+
+- **NL/PL reachability [arXiv:2603.28345 (Xu; vs no
+  hits)].** LLM call BREAKS dataflow (taxonomy-driven;
+  taint + slicing need summaries). → Model the
+  boundary (our scorer boundaries, reach-side).
+  Filed.
+- **Specialist relay [arXiv:2608.23918 (Mikhailov /
+  MARS; vs no hits)].** Topic SPECIALISTS (prompt-only;
+  retrieval-grounded; relay). → Relay the
+  specialists (our per-line ledgers, relay-side).
+  Filed.
+- **Verifiable automata [arXiv:2608.27797 (Chen /
+  CEDAR; vs no hits)].** Regular languages over
+  TRACES (counterexample-guided; repair from fail).
+  → Automate verifiably (our frozen loops,
+  automata-side). Filed.
+- **Action semantics [arXiv:2506.17697 (Tang; vs no
+  hits)].** Reproduce MEANING not tokens (beyond
+  syntax; smaller open models). → Learn the meaning
+  (our transfer test, semantics-side). Filed.
+- Program note: model boundaries, relay specialists,
+  automate verifiably, learn meanings — the
+  boundary-crossing file. None licensed — filed.
