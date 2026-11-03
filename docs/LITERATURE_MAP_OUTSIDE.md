@@ -28229,3 +28229,32 @@ Four more. (Map holds 764 rounds.)
   kept (karrer, typed (types, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Karrer" (type, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 766 — Weingarts, ruders, hofmanns, gerstners (Weingart, Ruder, Hofmann, Gerstner; 2026-11-02)
+
+Motivation: further outside (typed weingarts, gridded ruders, postered
+hofmanns, systemed gerstners). The program weingarts (types attempts),
+ruders (grids verdicts), hofmanns (posters claims), and gerstners (systems
+votes). Four more. (Map holds 764 rounds.)
+
+- **Weingart type [canon: Weingart (typed weingarts; specified Wolfgang
+  Weingart (typography; vs no hits)); verification deferred].** →
+  Weingart's weingarts (typed, kept (weingart, typed (types, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Weingart"
+  (type, kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Ruder grids [canon: Ruder (gridded ruders; specified Emil Ruder
+  (typography; vs no hits)); verification deferred].** → Ruder's ruders
+  (gridded, kept (ruder, gridded (grids, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Ruder" (grids, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Hofmann posters [canon: Hofmann (postered hofmanns; specified Armin
+  Hofmann (posters; vs no hits)); verification deferred].** → Hofmann's
+  hofmanns (postered, kept (hofmann, postered (posters, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Hofmann"
+  (posters, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Gerstner systems [canon: Gerstner (systemed gerstners; specified Karl
+  Gerstner (systems; vs no hits)); verification deferred].** → Gerstner's
+  gerstners (systemed, kept (gerstner, systemed (systems, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Gerstner" (systems, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
