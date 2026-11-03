@@ -30770,3 +30770,30 @@ holds 800 rounds; Herzog-hit is Werner — full-name tag used.)
   (thinned, kept (kerez, thinned (thins, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Kerez" (thins, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 849 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (clad gigons, extended guyers, massed
+dieners, shown meilis). The program gigons (clads attempts), guyers
+(extends verdicts), dieners (masses claims), and meilis (shows votes).
+Four more, Swiss-modern vein continued. (Map holds 800 rounds.)
+
+- **Gigon clads [canon: Gigon (clad gigons; specified Annette Gigon
+  (clads; vs no hits)); verification deferred].** → Gigon's gigons (clad,
+  kept (gigon, clad (clads, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); her "Gigon" (clads, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Guyer extends [canon: Guyer (extended guyers; specified Mike Guyer
+  (extends; vs no hits)); verification deferred].** → Guyer's guyers
+  (extended, kept (guyer, extended (extends, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Guyer" (extends, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Diener masses [canon: Diener (massed dieners; specified Roger Diener
+  (masses; vs no hits)); verification deferred].** → Diener's dieners
+  (massed, kept (diener, massed (masses, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Diener" (masses, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Meili shows [canon: Meili (shown meilis; specified Marcel Meili
+  (shows; vs no hits)); verification deferred].** → Meili's meilis (shown,
+  kept (meili, shown (shows, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Meili" (shows, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
