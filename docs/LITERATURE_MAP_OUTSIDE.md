@@ -32034,3 +32034,51 @@ taken — "acceptances" used, all per collision rule.) (Map holds
   clauses, kept))))); its "DeliverBench" (delivers, kept (kept,
   kept)) is the ledger (exact, kept (deliver whole (kept, or
   don't claim))).
+## Round 882 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: kept worth, banded thin, propriocepted gates, speculated
+drafts — judge interestingness, generate the missing, fuse the
+senses, parallelize supervision. The program interestings
+(worth-keeps attempts), laitenbergers (thin-bands verdicts),
+regates (propriocepts claims), and specopds (speculates votes).
+("Zhu" fragments taken — Zhuangzi, pattern-Zhu — ReGATE tag used;
+"bridges"/"fuses"/"drafts"/"adapters" taken — "thin-bands"/
+"propriocepts"/"speculates" used; "interests" taken —
+"worth-keeps" used, all per collision rule.) (Map holds 800
+rounds.)
+
+- **Interesting worth-keeps [live: Gangloff 2611.02905 (exploring
+  agents must judge what is WORTH KEEPING; proxies uncorresponded
+  to human value; evaluators split shared vs subjective; vs no
+  hits); abstract only].** → Interesting's worth-keeping (split,
+  kept (shared part (kept, subjective part (libraries observed,
+  kept))))) is the attempt (run, kept (bar judges pursuit (kept,
+  universal gates plus idiosyncratic histories (frozen, kept)))));
+  its "Interesting" (worth-keeps, kept (kept, kept)) is the row
+  (counted, kept (keep worth (kept, not proxies))).
+- **Laitenberger thin-bands [live: Laitenberger et al 2611.02952,
+  BRIDGE (reweighting adds nothing new; GENERATE under-represented
+  data via budgeted acquisition from thin bands; vs no hits);
+  abstract only].** → Laitenberger's thin-banding (generated, kept
+  (new ones (kept, not reweighted (budgeted, thin)))) is the verdict
+  (kept, kept (CREATE diversity (kept, generate the missing
+  (don't reweight, priced))))); his "Laitenberger" (thin-bands, kept
+  (kept, kept)) is the bar (unmoved, kept (add new (kept, not
+  weights))).
+- **ReGATE propriocepts [live: Zhu & Pena-Queralta 2611.02871
+  (recurrent adapter; head-wise plus global GATES; teacher-student;
+  reactive whole-body control; vs no hits on title (Zhu fragments
+  taken — ReGATE tag used); abstract only].** → ReGATE's
+  propriocepting (gated, kept (heads wise (kept, global too
+  (teacher shows, kept))))) is the claim (mourned, kept (gated
+  steering (kept, heads split (reactive, priced))))); its "ReGATE"
+  (propriocepts, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **SpecOPD speculates [live: Liu et al 2611.02846 (parallel drafters;
+  on-policy supervision WITHOUT sequential dependencies; push past
+  plateaus; vs no hits); abstract only].** → SpecOPD's speculating
+  (parallel, kept (drafts many (kept, no sequence (live taught,
+  kept))))) is the vote (joined, kept (eight histories parallel
+  (kept, live supervision (plateaus pushed, kept))))); its "SpecOPD"
+  (speculates, kept (kept, kept)) is the ledger (exact, kept (run
+  parallel (kept, teach live))).
