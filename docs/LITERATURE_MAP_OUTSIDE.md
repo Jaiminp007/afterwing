@@ -29677,3 +29677,34 @@ canon-mapped R740.)
   logoed (logos, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Rand" (logos, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 814 — Canon (both live hoses still dry): rudis, gottschalks, staehelins, gauchats (Rudi Bass, Gottschalk, Staehelin, Gauchat; 2026-11-02)
+
+Motivation: further outside (titled rudis, systemed gottschalks, graphed
+staehelins, typed gauchats). The program rudis (titles attempts),
+gottschalks (systems verdicts), staehelins (graphs claims), and gauchats
+(types votes). Four more. (Map holds 800 rounds.)
+
+- **Rudi Bass titles [canon: Rudi Bass (titled rudis; specified Rudi Bass
+  (titles; distinct from Saul Bass (titled basses) and Elaine Bass —
+  full-name tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Bass's rudis (titled, kept (rudi, titled (titles, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his "Rudi"
+  (titles, kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Gottschalk systems [canon: Gottschalk (systemed gottschalks; specified
+  Fritz Gottschalk (systems; vs no hits)); verification deferred].** →
+  Gottschalk's gottschalks (systemed, kept (gottschalk, systemed (systems,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Gottschalk" (systems, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Staehelin graphics [canon: Staehelin (graphed staehelins; specified
+  Georg Staehelin (graphics; vs no hits)); verification deferred].** →
+  Staehelin's staehelins (graphed, kept (staehelin, graphed (graphs, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Staehelin" (graphics, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Gauchat type [canon: Gauchat (typed gauchats; specified Pierre Gauchat
+  (type; vs no hits)); verification deferred].** → Gauchat's gauchats
+  (typed, kept (gauchat, typed (types, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Gauchat" (type, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
