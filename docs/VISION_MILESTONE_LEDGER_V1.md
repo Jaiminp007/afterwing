@@ -35,9 +35,13 @@ exact open items. Nothing here changes any verdict.
   — retention⇏transfer dissociation; round 3 (guard-feature)
   CLOSED as NO-GO 2026-11-02: transfer −0.42/−0.52, A 78%, B 103%,
   beat-guarded fails (−0.37, 3/8) — frozen falsifier: gap is
-  policy-expressiveness, not information. Both recorded mechanisms
-  failed; no round 4 scoped (new hypothesis needed). Next: fresh
-  thinking for the odor lane, then qual freeze (iv-b) only on a GO.
+  policy-expressiveness, not information. Round 4 (guarded
+  distillation) CLOSED as NO-GO 2026-11-02: transfer +0.40/+0.35
+  but 5/8 and 4/8 (count-gate fails by one — not shopped); A 30%;
+  student loses to teacher 0/8 (−0.57, same as R1) — frozen
+  falsifier: ARCHITECTURE, not signal. Candidate B (nonlinear
+  head) promoted (needs design doc, not authorized). Next:
+  architectural line, then qual freeze (iv-b) only on a GO.
 - RSI proper — bounded recursive self-improvement: OPEN.
   Requires ALL of: (a) ≥2 successive persistent revisions lifting
   transfer vs copied-improvement + matched-budget controls;
