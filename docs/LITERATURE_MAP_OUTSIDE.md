@@ -26181,3 +26181,30 @@ rows). Four more. (Map holds 696 rounds.)
   (arms, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "God" (arms, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 689 — Validated, curved, saturated, conformed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: validity guarantees —
+correctness before scale (already-cited validity leads
+converging; guarantee family, four branches).
+
+- **Validity first [arXiv:2607.15313 (Song; vs no
+  hits)].** Syntax-semantics GAP (unverified teaches
+  syntax-not-physics; directional error). → Validate
+  first (our frozen gates, validate-side). Filed.
+- **Confidence curves [arXiv:2206.15272 (Pernot; vs no
+  hits)].** Oracle UNLIKELY (can't inform calibration;
+  probabilistic reference). → Curve confidence (our
+  scorer variance, curve-side). Filed.
+- **Private counters [arXiv:2608.10521 (Chi; vs no
+  hits)].** Deterministic LEAKS (randomize + prove;
+  side-channel). → Saturate privately (our op-cap
+  billing, saturate-side). Filed.
+- **Small conformal [arXiv:2512.04566
+  (Sánchez-Domínguez; vs no hits)].** Data-AGNOSTIC
+  before safety-critical (conformal; small datasets).
+  → Conform small (our fresh banks, conform-side).
+  Filed.
+- Program note: validate first, curve confidence,
+  saturate privately, conform small — the
+  validity-guarantees file. None licensed — filed.
