@@ -24,7 +24,13 @@ across contexts, specificity lost). Reactivation probe (R790 —
 Tayler 2011): test whether transfer contexts reactivate the
 training ensemble's trace (probe-response similarity) —
 reactivation failure is the specific form of general-channel
-failure. No new probes, no new worlds, no re-scoring — a
+failure. Context-overlap covariate (R792 — Doyle 2024): measure
+encoding-stimulus overlap FIRST — gap-without-overlap is
+encoding-coverage, never memory failure; the probe cannot judge
+retrieval it never enabled. Interchange verification (R792 —
+Geiger 2021): verify the encoder's abstraction by interchange
+intervention (swap the representation, test the behavior), never
+by correlation. No new probes, no new worlds, no re-scoring — a
 diagnostic overlay, not a verdict change.
 
 ## Structural answer (R790 — Stooke 2020, ATC decoupling)
@@ -43,6 +49,22 @@ the policy learns on top. This fuses decoupling with the
 distributional voices and the 97%-negative landscape: abstract the
 returns, then act. Any separation freeze names its contrastive
 rule and its return-aggregation, or it separates nothing.
+
+Transfer formalism (R792 — Barreto 2016, successor features): the
+A→transfer structure (fixed dynamics, changing rewards) is the
+successor-features scenario natively: carry dynamics-knowledge,
+reweight rewards. The bar above "beat reset": performance
+guarantees before any learning. No program line has met it; now
+the bar is named, and the diagnostic tests successor-structure
+transfer (does dynamics-knowledge cross?) separately from reward
+reweighting (do the weights adapt?).
+
+Fifth split voice (R792 — DualPrompt 2022, title record):
+general-prompt shared + expert-prompts specific, rehearsal-free.
+With ATC, successor features, Go/No-Go, and consequence classes,
+shared-general + specific-expert converges across paradigms from
+proposal to regularity — the program's gated rounds are the
+anomaly to explain, not the baseline to extend.
 
 Gate redirect (R791 — Zhang 2017, rethinking generalization):
 memorization and generalization coexist, so transfer gates must
