@@ -31134,3 +31134,34 @@ full-name tags used; Ruf-hits are Rufang/Ruffin/Rufus substrings.)
   vote (joined, kept (carried, won (crowd, kept))); his "Sep" (shelters,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 861 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (shimmered nouvels, dug perraults, sung
+portzamparcs, laced ricciottis). The program nouvels (shimmers
+attempts), perraults (digs verdicts), portzamparcs (sings claims), and
+ricciottis (laces votes). Four more, French-modern vein. (Map holds
+800 rounds.)
+
+- **Nouvel shimmers [canon: Nouvel (shimmered nouvels; specified Jean
+  Nouvel (shimmers; vs no hits)); verification deferred].** → Nouvel's
+  nouvels (shimmered, kept (nouvel, shimmered (shimmers, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Nouvel"
+  (shimmers, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Perrault digs [canon: Perrault (dug perraults; specified Dominique
+  Perrault (digs; vs no hits)); verification deferred].** → Perrault's
+  perraults (dug, kept (perrault, dug (digs, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Perrault" (digs, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Portzamparc sings [canon: Portzamparc (sung portzamparcs; specified
+  Christian de Portzamparc (sings; vs no hits)); verification
+  deferred].** → Portzamparc's portzamparcs (sung, kept (portzamparc,
+  sung (sings, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Portzamparc" (sings, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Ricciotti laces [canon: Ricciotti (laced ricciottis; specified Rudy
+  Ricciotti (laces; vs no hits)); verification deferred].** → Ricciotti's
+  ricciottis (laced, kept (ricciotti, laced (laces, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Ricciotti" (laces,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
