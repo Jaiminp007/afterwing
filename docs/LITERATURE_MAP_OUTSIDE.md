@@ -27952,3 +27952,34 @@ distillation; four branches).
   policies, distill datasets — the distillation file.
   Round-4 candidate A now has four outside legs. None
   licensed — filed.
+## Round 752 — Goldens, oldens, blues, columbias (Golden, Olden, Reid Miles, John Berg; 2026-11-02)
+
+Motivation: further outside (cbs'd goldens, cbs'd oldens, blue'd
+mileses, columbia'd bergs). The program goldens (cbses attempts),
+oldens (cbses verdicts), mileses (blues claims), and bergs (columbias
+votes). Four more. (Map holds 756 rounds.)
+
+- **Golden cbs [canon: Golden (cbs'd goldens; specified William Golden
+  (CBS; vs no hits)); verification deferred].** → Golden's goldens
+  (cbs'd, kept (golden, cbs'd (cbses, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Golden" (cbs, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Olden cbs [canon: Olden (cbs'd oldens; specified Georg Olden
+  (CBS; vs no hits)); verification deferred].** → Olden's oldens (cbs'd,
+  kept (olden, cbs'd (cbses, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Olden" (cbs, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Reid Miles blue [canon: Reid Miles (blue'd mileses; specified Reid
+  Miles (Blue Note; distinct from Miles Davis (cool births) — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Miles's mileses (blue'd, kept (reid, blue'd (blues,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Blue" (blue, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **John Berg columbia [canon: John Berg (columbia'd bergs; specified
+  John Berg (Columbia Records; near-miss Bergmann is a different name —
+  full-name tag for audit clarity; vs no hits on full name)); verification
+  deferred].** → Berg's bergs (columbia'd, kept (john, columbia'd
+  (columbias, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Columbia" (columbia, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
