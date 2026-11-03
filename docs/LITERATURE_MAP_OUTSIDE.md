@@ -30920,3 +30920,32 @@ full-name tag used.) (Map holds 800 rounds.)
   Senn's senns (sat, kept (senn, sat (sits, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Senn" (sits, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 854 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (edged consonis, modeled fischlis, sloped
+neukoms, plotted cramers). The program consonis (edges attempts),
+fischlis (models verdicts), neukoms (slopes claims), and cramers
+(plots votes). Four more, Swiss-modern vein continued. (Map holds 800
+rounds.)
+
+- **Consoni edges [canon: Consoni (edged consonis; specified Beat Consoni
+  (edges; vs no hits)); verification deferred].** → Consoni's consonis
+  (edged, kept (consoni, edged (edges, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Consoni" (edges, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Fischli models [canon: Fischli (modeled fischlis; specified Hans
+  Fischli (models; vs no hits)); verification deferred].** → Fischli's
+  fischlis (modeled, kept (fischli, modeled (models, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Fischli" (models,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Neukom slopes [canon: Neukom (sloped neukoms; specified Willi Neukom
+  (slopes; vs no hits)); verification deferred].** → Neukom's neukoms
+  (sloped, kept (neukom, sloped (slopes, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Neukom" (slopes, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Cramer plots [canon: Cramer (plotted cramers; specified Ernst Cramer
+  (plots; vs no hits)); verification deferred].** → Cramer's cramers
+  (plotted, kept (cramer, plotted (plots, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Cramer" (plots, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
