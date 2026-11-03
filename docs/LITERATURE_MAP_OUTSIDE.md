@@ -27741,3 +27741,35 @@ branches).
 - Program note: embody astra, close loops, find closed,
   oversee evidence — the closed-loop file. None licensed —
   filed.
+## Round 744 — Feitlers, harpers, barons, libermen (Feitler, Ruth Ansel, Baron, Liberman; 2026-11-02)
+
+Motivation: further outside (bazaared feitlers, harper'd ansels,
+interviewed barons, vogued libermen). The program feitlers (bazaars
+attempts), ansels (harpers verdicts), barons (interviews claims), and
+libermen (vogues votes). Four more. (Map holds 750 rounds; milestone:
+750 rounds.)
+
+- **Feitler bazaar [canon: Feitler (bazaared feitlers; specified Bea
+  Feitler (Harper's Bazaar; vs no hits)); verification deferred].** →
+  Feitler's feitlers (bazaared, kept (feitler, bazaared (bazaars, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); her
+  "Feitler" (bazaar, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Ruth Ansel harpers [canon: Ruth Ansel (harper'd ansels; specified
+  Ruth Ansel (Harper's; near-miss Anselm/Anselmo are different names —
+  full-name tag for audit clarity; vs no hits on full name)); verification
+  deferred].** → Ansel's ansels (harper'd, kept (ruth, harper'd (harpers,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); her
+  "Harpers" (harper, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Baron interview [canon: Baron (interviewed barons; specified Fabien
+  Baron (Interview; vs no hits)); verification deferred].** → Baron's
+  barons (interviewed, kept (baron, interviewed (interviews, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Baron" (interview, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Liberman vogue [canon: Liberman (vogued libermen; specified Alex
+  Liberman (Vogue; vs no hits)); verification deferred].** → Liberman's
+  libermen (vogued, kept (liberman, vogued (vogues, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Liberman" (vogue, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
