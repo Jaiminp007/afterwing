@@ -42,7 +42,7 @@ function tape(label,create,ticks){
   const path=join(output,'traces',label+'.jsonl');mkdirSync(dirname(path),{recursive:true});const fd=openSync(path,'wx'),digest=createHash('sha256');let events=0;
   const counts={},emit=event=>{counts[event.type]=(counts[event.type]||0)+1;const line=JSON.stringify(event)+'\n';digest.update(line);writeSync(fd,line);events++;};
   const run=create(emit);let tick=0;while(tick<ticks&&run.advance(1))tick++;
-  closeSync(fd);return {run,endpoint:run.endpoint(),counts,trace:{sha256:digest.digest().hex(),events},finalSha256:hash(JSON.stringify(run.checkpoint()))};
+  closeSync(fd);return {run,endpoint:run.endpoint(),counts,trace:{sha256:digest.digest('hex'),events},finalSha256:hash(JSON.stringify(run.checkpoint()))};
 }
 const start=performance.now();let rows=[];let scalarOps=0;
 const noteOps=o=>{scalarOps+=o;assert.ok(scalarOps<=ODOR_R2_OP_CAP,'R8 aggregate op cap breached');};
