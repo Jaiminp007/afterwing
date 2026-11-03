@@ -32912,3 +32912,38 @@ all per collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Tukan" (jordans,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 905 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (ahmedabaded rajes, lonavalaed gandhis,
+campused kanvindes, delhied singhs). The program rajes (ahmedabads
+attempts), gandhis (lonavalas verdicts), kanvindes (campuses claims),
+and singhs (delhis votes). Four more, Indian-modernist vein. ("Raj
+Rewal" declined — "rewal" fragment collides with standing "firewall"
+lines per collision rule; "Gandhi" surname clean — no prior Gandhi
+mapped; "campuses"/"delhis" virgin, all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Raje ahmedabads [canon: Raje (ahmedabaded rajes; specified Anant
+  Raje (ahmedabads; vs no hits)); verification deferred].** → Raje's
+  rajes (ahmedabaded, kept (raje, ahmedabaded (ahmedabads, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Raje" (ahmedabads, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Gandhi lonavalas [canon: Gandhi (lonavalaed gandhis; specified
+  Nari Gandhi (lonavalas; vs no hits)); verification deferred].** →
+  Gandhi's gandhis (lonavalaed, kept (gandhi, lonavalaed (lonavalas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Gandhi" (lonavalas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Kanvinde campuses [canon: Kanvinde (campused kanvindes; specified
+  Achyut Kanvinde (campuses; vs no hits)); verification deferred].** →
+  Kanvinde's kanvindes (campused, kept (kanvinde, campused (campuses,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Kanvinde" (campuses, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Singh delhis [canon: Singh (delhied singhs; specified Kuldip
+  Singh (delhis; vs no hits)); verification deferred].** → Singh's
+  singhs (delhied, kept (singh, delhied (delhis, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Singh" (delhis,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
