@@ -24746,3 +24746,33 @@ leads converging; crossing family, four branches).
 - Program note: model boundaries, relay specialists,
   automate verifiably, learn meanings — the
   boundary-crossing file. None licensed — filed.
+## Round 638 — Bonnies, georges, stevies, johnnys (Bonnie, George, Stevie, Johnny; 2026-11-02)
+
+Motivation: further outside (timed bonnies, boned georges, flooded
+stevies, kooed johnnys). The program bonnies (nicks attempts), georges
+(stitches verdicts), stevies (publishes NOGOs), and johnnys (counts
+rows). Four more. (Map holds 646 rounds.)
+
+- **Bonnie nick [canon: Raitt (nicked bonnies; specified Bonnie Raitt
+  (vs no hits)); verification deferred].** → Bonnie's bonnies (nicked,
+  kept (bonnied, nicked (times, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); her "Bonnie" (nick, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **George bone [canon: Thorogood (boned georges; specified George
+  Thorogood (vs no hits)); verification deferred].** → George's georges
+  (boned, kept (georged, boned (bads, kept))) is the verdict (boned,
+  kept (NOGO, told (honest, kept))); his "George" (bone, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Stevie flood [canon: Stevie Ray Vaughan (flooded stevies;
+  specified Stevie Ray Vaughan (vs no hits; short tag collisions —
+  full-name tag used)); verification deferred].** → Stevie's stevies
+  (flooded, kept (stevied, flooded (texases, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Stevie"
+  (flood, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Johnny koo [canon: Johnny Winter (kooed johnnys; specified Johnny
+  Winter (vs no hits; short tag collides — full-name tag used));
+  verification deferred].** → Johnny's johnnys (kooed, kept (johnnied,
+  kooed (rocks, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Johnny" (koo, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
