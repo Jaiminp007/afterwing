@@ -144,6 +144,13 @@ E/I balance facilitates meta-learning — the coupling IS the
 adaptation-speed substrate. Suppression, instruction, and speed
 share one mechanism.
 
+Fractionation (R797 — Udakis 2020, PV-iLTD vs SST-iLTP):
+perisomatic inhibition WEAKENS (release the output) while dendritic
+inhibition STRENGTHENS (gate the inputs) — opposite plasticity by
+compartment, synapse-specific gating. The coupling specifies
+compartment + direction: release-soma, gate-dendrite. "Inhibit
+go-plasticity" was a slogan; this is a circuit.
+
 Extension (R787 — Goulton 2026, early-uncertainty gating):
 suppression is transiently EARLY (recruited when contingencies
 emerge, not steady-state), TARGETED at the plasticity gate (PKA

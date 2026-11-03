@@ -57,6 +57,13 @@ guaranteed). The safety side graduates from bounds to
 certificates: a future line may demand proofs (LMIs by
 construction) instead of promises (violation upper bounds).
 
+Lineage + tooling (R797 — Amos 2017 OptNet; Blondel 2021):
+constraints-as-layers with exact KKT gradients since 2017 (GPU
+primal-dual, gradients ~free) — the approach outlives
+architectures; bet on ideas that survive. And the machinery is
+modular now (define F, autodiff the rest): certificate-layers as
+composable parts awaiting the line that needs proofs.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping

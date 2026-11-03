@@ -33,7 +33,10 @@ Meta-SGD): meta-learn initialization + update direction + learning
 rate jointly (higher capacity than MAML, one step, supervised +
 RL). "Must be earned" now names the earner — a scoping earns the
 learned-gain form by specifying its meta-learner, never by
-asserting it.
+asserting it. Scale upgrade (R797 — Wichrowska 2017): meta-learn
+the OPTIMIZER (hierarchical RNN, minimal overhead, structure-
+mirroring), generalizing to unseen architectures — not one gain
+per task but the update rule itself. The earner earns at scale.
 
 ## Timing rule (R786 — Scheller 2026, sniffing shapes dopamine)
 
