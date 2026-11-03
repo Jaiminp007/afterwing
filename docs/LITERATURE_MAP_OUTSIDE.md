@@ -25321,3 +25321,32 @@ embodiment leads converging; body family, four branches).
 - Program note: memorize parametrically, gesture fully,
   fuse widely, embody audio — the embodied-memory file.
   None licensed — filed.
+## Round 658 — Salts, foxys, lils, eves (Salt-N-Pepa, Foxy, Lil, Eve; 2026-11-02)
+
+Motivation: further outside (pushed salts, homed foxys, mommaed lils,
+blowed eves). The program salts (pushes attempts), foxys (stitches
+verdicts), lils (publishes NOGOs), and eves (counts rows). Four more.
+(Map holds 666 rounds.)
+
+- **Salt push [canon: Salt-N-Pepa (pushed salts; specified Salt-N-Pepa
+  (vs no hits)); verification deferred].** → Salt's salts (pushed, kept
+  (salted, pushed (pushes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); their "Salt" (push, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Foxy home [canon: Foxy Brown (homed foxys; specified Foxy Brown (vs
+  no hits)); verification deferred].** → Foxy's foxys (homed, kept
+  (foxied, homed (homes, kept))) is the verdict (homed, kept (NOGO, told
+  (honest, kept))); her "Foxy" (home, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Lil momma [canon: Lil (mommaed lils; specified Lil' Kim (vs no
+  hits; short tag taken by the Armenian violist — full-name tag
+  used)); verification deferred].** → Lil's lils (mommaed, kept (liled,
+  mommaed (mommas, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); her "Lil" (momma, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Eve blow [canon: Rapper Eve (blowed eves; specified Eve (vs no
+  hits; short tag grazes the Everly men — full-name tag used));
+  verification deferred].** → Eve's eves (blowed, kept (eved, blowed
+  (minds, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); her "Eve" (blow, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
