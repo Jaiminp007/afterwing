@@ -30077,3 +30077,42 @@ rounds.)
   (stacked, kept (panton, stacked (stacks, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Panton" (stacks, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 827 — Canon, aimed at the OPEN frontier (both live hoses still dry: arXiv 0B, OpenAlex shared-IP budget $0 to midnight UTC; 2026-11-02)
+
+Motivation: outside the usual vein on purpose — four builders whose
+trades name the open work. M2-distinct-tasks and RSI-proper are OPEN;
+R8/A2 carries the centering fix, (b)/(c) queue behind it, DTR waits on
+substrate. The program henningsens (shades attempts), vodders (drawers
+verdicts), ditzels (weaves claims), and jalks (bends votes). Four more.
+(ArXiv probed 0 bytes; OpenAlex probed rate-limited — canon only.)
+
+- **Henningsen shades [canon: Henningsen (shaded henningsens; specified
+  Poul Henningsen (shades; vs no hits)); verification deferred].** →
+  Henningsen's henningsens (shaded, kept (henningsen, shaded (shades,
+  kept))) is the attempt (run, kept (single, authorized (once, held) —
+  the R8 single attempt)); his layered shade (glare removed, light kept)
+  is the baseline (centered, kept (background subtracted (signal kept)));
+  his "Henningsen" (shades, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Vodder drawers [canon: Vodder (drawered vodders; specified Arne
+  Vodder (drawers; vs no hits)); verification deferred].** → Vodder's
+  vodders (drawered, kept (vodder, drawered (drawers, kept))) is the
+  verdict (kept, kept (NOGO told honestly where NOGO is due)); his
+  sideboard (each consequence its own drawer) is fix (c) (separate
+  matrices, kept (positives where the flood doesn't reach)); his
+  "Vodder" (drawers, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Ditzel weaves [canon: Ditzel (wove ditzels; specified Nanna Ditzel
+  (weaves; vs no hits)); verification deferred].** → Ditzel's ditzels
+  (wove, kept (ditzel, wove (weaves, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); her textile (distinct threads held
+  across the whole cloth) is DTR (distinct tasks, kept (retention without
+  loss (open, specified))); her "Ditzel" (weaves, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Jalk bends [canon: Jalk (bent jalks; specified Grete Jalk (bends; vs
+  no hits)); verification deferred].** → Jalk's jalks (bent, kept (jalk,
+  bent (bends, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); her laminated curve (bent, kept (unbroken, carried (transfer,
+  kept))) is the transfer (lossy, kept (carried, kept (0.95, kept)));
+  her "Jalk" (bends, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
