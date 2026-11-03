@@ -600,6 +600,9 @@ the map stays open, not empty.
 - R727 worth-it file: condition-updates;
   compare-RAGs; chunk-semantically;
   flux-data.
+- R729 looped-efficient file: loop-self-improve;
+  vector-smart; gate-entries;
+  transfer-histo.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
