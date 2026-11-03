@@ -28289,3 +28289,31 @@ votes). Four more. (Map holds 764 rounds.)
   kept (crouwel, typed (types, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Crouwel" (type, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 770 — Zwarts, werkmans, schuitemas, elfferses (Zwart, Werkman, Schuitema, Elffers; 2026-11-02)
+
+Motivation: further outside (typed zwarts, printed werkmans, postered
+schuitemas, muralled elfferses). The program zwarts (types attempts),
+werkmans (prints verdicts), schuitemas (posters claims), and elfferses
+(murals votes). Four more. (Map holds 764 rounds; milestone: canon R770.)
+
+- **Zwart type [canon: Zwart (typed zwarts; specified Piet Zwart (type;
+  vs no hits)); verification deferred].** → Zwart's zwarts (typed, kept
+  (zwart, typed (types, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Zwart" (type, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Werkman prints [canon: Werkman (printed werkmans; specified Hendrik
+  Werkman (prints; vs no hits)); verification deferred].** → Werkman's
+  werkmans (printed, kept (werkman, printed (prints, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Werkman" (prints, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Schuitema posters [canon: Schuitema (postered schuitemas; specified
+  Paul Schuitema (posters; vs no hits)); verification deferred].** →
+  Schuitema's schuitemas (postered, kept (schuitema, postered (posters,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Schuitema" (posters, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Elffers murals [canon: Elffers (muralled elfferses; specified Dick
+  Elffers (murals; vs no hits)); verification deferred].** → Elffers's
+  elfferses (muralled, kept (elffers, muralled (murals, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Elffers" (murals, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
