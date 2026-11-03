@@ -27137,3 +27137,29 @@ and fourths (counts rows). Four more. (Map holds 730 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Fourth" (disciple,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 723 — Convolved, lightninged, cheapened, thought (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: speed accuracy — fast
+enough, good enough (already-cited trade-off leads
+converging; trade-off family, four branches).
+
+- **FMDConv [arXiv:2503.17530 (Zhang; vs no hits)].**
+  Triple attention (input + degraded-kernel + output;
+  edge-constrained). → Convolve fast (our op-cap
+  billing, convolve-side). Filed.
+- **LightningRL [arXiv:2603.13319 (Hu; vs no hits)].**
+  Aggressive TPF → INSTABILITY (navigate highs; RL
+  breaks trade-off). → Lightning parallel (our staged
+  search, lightning-side). Filed.
+- **Cheaper SQL [arXiv:2505.14174 (Dönder; vs no
+  hits)].** $0.46/query vs N-rep (CoT/fine-tune costly;
+  worth-it). → Cheapen queries (our fresh banks,
+  cheapen-side). Filed.
+- **AutoThink [arXiv:2607.22622 (Jang / AutoThinkSQL;
+  vs no hits)].** Forced reasoning WASTEFUL (simple
+  needs no deduction; SFT+DPO). → Think auto (our
+  frozen verdicts, think-side). Filed.
+- Program note: convolve fast, lightning parallel,
+  cheapen queries, think auto — the speed-accuracy file.
+  None licensed — filed.
