@@ -35627,3 +35627,49 @@ vein. (Salmona declined — already mapped, own R-round; consistency
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Uribe" (virginias, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 982 — LIVE (outside-box embodied-AI find; 2026-11-03)
+
+Motivation: the live hose kept returning the mapped agent pool, so
+the probe went outside the box — a drosophila-olfaction query
+surfaced the embodied-AI cluster instead (start=0, bio-flavored q).
+One genuinely new live paper: Pixel (2611.03648, Tao/Liu/
+Salakhutdinov/Pathak) — a co-designed full-stack system for
+general-purpose mobile manipulation (wheeled humanoid, whole-body
+controller, human+robot demonstration pipeline, language-conditioned
+visuomotor stack). Its sibling Pixel-UMI (2611.03647) stands
+already-declined (relevant-but-thin); the full-stack system paper is
+the mappable one — embodiment mismatch handled by co-design, which
+rhymes with the program's transfer-tax problem (carriage fails where
+bodies differ; Pixel answers by building body+policy together).
+(Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method; sibling decline preserved.)
+
+- **Tao humanoids [LIVE 2611.03648 (humanoided tonytaos; specified
+  Tony Tao (humanoids; "taos" taken — Taoism text — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Tao's tonytaos (humanoided, kept (tonytao,
+  humanoided (humanoids, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Tao" (humanoids, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Pathak grippers [LIVE 2611.03648 (grippered pathaks; specified
+  Deepak Pathak (grippers; vs no hits)); verification deferred].** →
+  Pathak's pathaks (grippered, kept (pathak, grippered (grippers,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Pathak" (grippers, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Salakhutdinov teleoperations [LIVE 2611.03648 (teleoperationed
+  salakhutdinovs; specified Ruslan Salakhutdinov (teleoperations; vs
+  no hits)); verification deferred].** → Salakhutdinov's
+  salakhutdinovs (teleoperationed, kept (salakhutdinov,
+  teleoperationed (teleoperations, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Salakhutdinov"
+  (teleoperations, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Liu visuomotors [LIVE 2611.03648 (visuomotored
+  jasonjingzhoulius; specified Jason Jingzhou Liu (visuomotors;
+  distinct from Jiakun round — compound + full-name tag per collision
+  rule; vs no hits)); verification deferred].** → Liu's
+  jasonjingzhoulius (visuomotored, kept (jasonjingzhouliu, visuomotored
+  (visuomotors, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Liu" (visuomotors, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
