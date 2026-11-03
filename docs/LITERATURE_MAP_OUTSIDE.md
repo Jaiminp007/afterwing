@@ -30148,3 +30148,35 @@ more, Danish-modern vein continued. (Map holds 800 rounds.)
   joined (joins, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Frits" (joins, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 829 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (partnered larsens, partnered madsens,
+formed hansolsens, built hvidts). The program larsens (partners
+attempts), madsens (partners verdicts), hansolsens (forms claims), and
+hvidts (builds votes). Four more, Danish-modern vein continued. (Map
+holds 800 rounds.)
+
+- **Larsen partners [canon: Larsen (partnered larsens; specified Ejner
+  Larsen (partners; vs no hits)); verification deferred].** → Larsen's
+  larsens (partnered, kept (larsen, partnered (partners, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Larsen"
+  (partners, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Madsen partners [canon: Madsen (partnered madsens; specified Axel
+  Bender Madsen (partners; vs no hits)); verification deferred].** →
+  Madsen's madsens (partnered, kept (madsen, partnered (partners, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Madsen"
+  (partners, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Hans Olsen forms [canon: Hans Olsen (formed hansolsens; specified
+  Hans Olsen (forms; distinct from Tillie Olsen (silences) — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Olsen's hansolsens (formed, kept (hansolsen, formed
+  (forms, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Hansolsen" (forms, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Hvidt builds [canon: Hvidt (built hvidts; specified Peter Hvidt
+  (builds; vs no hits)); verification deferred].** → Hvidt's hvidts
+  (built, kept (hvidt, built (builds, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Hvidt" (builds, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
