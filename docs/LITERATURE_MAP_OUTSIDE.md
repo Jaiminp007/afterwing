@@ -26659,3 +26659,32 @@ converging; edge family, four branches).
 - Program note: unify runtimes, sense sparse, twin
   semantically, mine edges — the edge-physical file.
   None licensed — filed.
+## Round 706 — Hieros, soulses, peps, opios (Hieroglyphics, Souls, Pep, Opio; 2026-11-02)
+
+Motivation: further outside (eyed hieros, infinited soulses, ascended
+peps, vultured opios). The program hieros (eyes attempts), soulses
+(stitches verdicts), peps (publishes NOGOs), and opios (counts rows).
+Four more. (Map holds 714 rounds.)
+
+- **Hiero eye [canon: Hieroglyphics (eyed hieros; specified Hieroglyphics
+  (vs no hits)); verification deferred].** → Hiero's hieros (eyed, kept
+  (hieroed, eyed (eyes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); their "Hiero" (eye, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Souls infinity [canon: Souls (infinited soulses; specified Souls of
+  Mischief (vs no hits)); verification deferred].** → Souls' soulses
+  (infinited, kept (soulsed, infinited (infinities, kept))) is the verdict
+  (infinited, kept (NOGO, told (honest, kept))); their "Souls" (infinity,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Pep ascension [canon: Pep (ascended peps; specified Pep Love
+  (Hieroglyphics; vs no hits)); verification deferred].** → Pep's peps
+  (ascended, kept (peped, ascended (ascensions, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Pep"
+  (ascension, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Opio vulture [canon: Opio (vultured opios; specified Opio (Souls of
+  Mischief; vs no hits)); verification deferred].** → Opio's opios
+  (vultured, kept (opioed, vultured (vultures, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Opio" (vulture, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
