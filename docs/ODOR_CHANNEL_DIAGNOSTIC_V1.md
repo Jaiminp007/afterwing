@@ -306,6 +306,19 @@ instrument) — but the next rationale now has a twin pair to
 explain, and "explain the twins" is a checkable bar for any
 probe-time proposal.
 
+## Executed re-reading 20 (2026-11-02, read-only: spent R10 D-anchors)
+
+The flood is half-universal. Cross-history mean-learner cosines:
+No-Go vs No-Go +0.64 (min +0.34), Go vs Go +0.60 (min +0.30),
+Go vs No-Go −0.60 everywhere (max −0.32). So the badness direction
+is substantially shared across histories but not identical — a
+single universal pessimism vector explains ~60%, not ~95%.
+Repair-one-vector would not fully transfer; the idiosyncratic
+remainder (~40%) must be learned per history. Separation itself
+is universal (all 64 Go/No-Go pairs negative). This bounds the
+"rotate one vector" shortcut: real but partial, and the bar
+still demands a full round, not a cosine, to prove it.
+
 ## Executed re-reading 18 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
 
 Transfer feasts fine; the debt is all entry. Per-third mean energies
