@@ -29220,3 +29220,35 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   competition, release-soma is FIXED infrastructure. One learning
   brake + one fixed brake — different in kind, not just
   compartment. The design needs both natures.
+## Round 799 — LIVE via OpenAlex: taggers, adapters, transplanters, amplifiers (Clopath TTC 2008, Peters motor-cortex 2017, Tang transplant 2014, Hennequin ISN 2013; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Tag-trigger-consolidate [Clopath et al. 2008, TTC model of
+  early/late LTP/LTD; vs no hits].** → Tag (silent mark) +
+  trigger (protein-synthesis event) + consolidate (late
+  stabilization); cross-tagging, shared synthesis, voltage/
+  frequency dependence. Mechanizes protection fully: the B3 slow
+  variable IS a tag awaiting trigger; the gate IS the trigger;
+  retention measures consolidation. Whole program re-read:
+  acquisition tags, transfer triggers, retention consolidates.
+  Three threads, one model.
+- **Adaptive substrate [Peters et al. 2017, learning in rodent
+  motor cortex (review); vs no hits].** → M1 as adaptive
+  structure: synapse formation/maintenance as motor-learning
+  substrate; activity-movement map refined with learning.
+  Closest-domain validation — weights as substrate, map
+  refinement as transfer, in the program's substrate class.
+- **Causal fractionation [Tang et al. 2014, SST/PV transplant
+  reopens critical-period plasticity; vs no hits].** → Adding
+  interneuron types CAUSES plasticity windows (SST contributes
+  against the PV-only story). Fractionation is causal: which
+  transplant reopens what. Neither brake arm epiphenomenal —
+  both arms earn their place by intervention, not correlation.
+- **Stability amplifies [Hennequin 2013, stability + amplification
+  in plastic circuits (ISN); vs no hits].** → Inhibition-stabilized
+  networks selectively AMPLIFY (fast, spontaneous, stable).
+  Fixed soma stabilizes to ENABLE dendritic selection: stability
+  is computation's condition, not its enemy. Two natures, one
+  circuit, both jobs at once.
