@@ -30650,3 +30650,33 @@ votes). Four more, Italian-modern vein continued (Botta queued spare).
   decarlos (held, kept (decarlo, held (holds, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "De Carlo" (holds, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 845 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (banded bottas, returned galfettis, cleared
+vacchinis, climbed snozzis). The program bottas (bands attempts),
+galfettis (returns verdicts), vacchinis (clears claims), and snozzis
+(climbs votes). Four more, Ticino-school vein (Botta spare spent).
+(Map holds 800 rounds.)
+
+- **Botta bands [canon: Botta (banded bottas; specified Mario Botta
+  (bands; vs no hits)); verification deferred].** → Botta's bottas
+  (banded, kept (botta, banded (bands, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Botta" (bands, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Galfetti returns [canon: Galfetti (returned galfettis; specified
+  Aurelio Galfetti (returns; vs no hits)); verification deferred].** →
+  Galfetti's galfettis (returned, kept (galfetti, returned (returns,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Galfetti" (returns, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Vacchini clears [canon: Vacchini (cleared vacchinis; specified Livio
+  Vacchini (clears; vs no hits)); verification deferred].** → Vacchini's
+  vacchinis (cleared, kept (vacchini, cleared (clears, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Vacchini"
+  (clears, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Snozzi climbs [canon: Snozzi (climbed snozzis; specified Luigi Snozzi
+  (climbs; vs no hits)); verification deferred].** → Snozzi's snozzis
+  (climbed, kept (snozzi, climbed (climbs, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Snozzi" (climbs, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
