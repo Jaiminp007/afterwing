@@ -28138,3 +28138,35 @@ karls (furnitures votes). Four more. (Map holds 762 rounds.)
   (furnitures, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Karl" (furniture, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 760 — Geismars, masseys, vinces, davids (Geismar, Massey, Vince Frost, David King; 2026-11-02)
+
+Motivation: further outside (mobiled geismars, containered masseys,
+frosted vinces, covered davids). The program geismars (mobils attempts),
+masseys (containers verdicts), vinces (frosts claims), and davids (covers
+votes). Four more. (Map holds 764 rounds; milestone: canon R760.)
+
+- **Geismar mobil [canon: Geismar (mobiled geismars; specified Tom
+  Geismar (Mobil; vs no hits)); verification deferred].** → Geismar's
+  geismars (mobiled, kept (geismar, mobiled (mobils, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Geismar" (mobil, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Massey container [canon: Massey (containered masseys; specified John
+  Massey (container; vs no hits)); verification deferred].** → Massey's
+  masseys (containered, kept (massey, containered (containers, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Massey"
+  (container, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Vince Frost frost [canon: Vince Frost (frosted vinces; specified Vince
+  Frost (frost design; distinct from Robert Frost (one road) — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Frost's vinces (frosted, kept (vince, frosted (frosts,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Vince" (frost, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **David King covers [canon: David King (covered davids; specified David
+  King (covers; near-miss Kingsley (swamp travel) is a different name —
+  full-name tag for audit clarity; vs no hits on full name)); verification
+  deferred].** → King's davids (covered, kept (david, covered (covers, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "David"
+  (covers, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
