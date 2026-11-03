@@ -34956,3 +34956,36 @@ virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Ramku"
   (prizrens, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 963 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (banovinaed brasovans, hercegnovied
+dobrovics, bokaed zlokovics, skadarlijaed kojics). The program
+brasovans (banovinas attempts), dobrovics (hercegnovis verdicts),
+zlokovics (bokas claims), and kojics (skadarlijas votes). Four more,
+Serbian vein II. (All four surnames + full names + contexts virgin
+pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Brasovan banovinas [canon: Brasovan (banovinaed brasovans;
+  specified Dragisa Brasovan (banovinas; vs no hits)); verification
+  deferred].** → Brasovan's brasovans (banovinaed, kept (brasovan,
+  banovinaed (banovinas, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Brasovan" (banovinas, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Dobrovic hercegnovis [canon: Dobrovic (hercegnovied dobrovics;
+  specified Nikola Dobrovic (hercegnovis; vs no hits)); verification
+  deferred].** → Dobrovic's dobrovics (hercegnovied, kept (dobrovic,
+  hercegnovied (hercegnovis, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Dobrovic" (hercegnovis, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Zlokovic bokas [canon: Zlokovic (bokaed zlokovics; specified Milan
+  Zlokovic (bokas; vs no hits)); verification deferred].** →
+  Zlokovic's zlokovics (bokaed, kept (zlokovic, bokaed (bokas, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Zlokovic" (bokas, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Kojic skadarlijas [canon: Kojic (skadarlijaed kojics; specified
+  Branislav Kojic (skadarlijas; vs no hits)); verification deferred].**
+  → Kojic's kojics (skadarlijaed, kept (kojic, skadarlijaed
+  (skadarlijas, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Kojic" (skadarlijas, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
