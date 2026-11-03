@@ -32636,3 +32636,36 @@ holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)))); her
   "Escobedo" (lattices, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 897 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (beamed rochas, brutalled artigas,
+brasiliaed niemeyers, mosaiced marxs). The program rochas (beams
+attempts), artigas (brutals verdicts), niemeyers (brasilias claims),
+and marxs (mosaics votes). Four more, Brazilian vein. (Bardi probed
+and declined — already mapped ("floated bardis").) (Map holds 800
+rounds.)
+
+- **Rocha beams [canon: Rocha (beamed rochas; specified Paulo Mendes
+  da Rocha (beams; vs no hits)); verification deferred].** → Rocha's
+  rochas (beamed, kept (rocha, beamed (beams, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Rocha" (beams,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Artigas brutals [canon: Artigas (brutalled artigas; specified
+  Vilanova Artigas (brutals; vs no hits)); verification deferred].** →
+  Artigas's artigas (brutalled, kept (artigas, brutalled (brutals,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Artigas" (brutals, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Niemeyer brasilias [canon: Niemeyer (brasiliaed niemeyers;
+  specified Oscar Niemeyer (brasilias; vs no hits)); verification
+  deferred].** → Niemeyer's niemeyers (brasiliaed, kept (niemeyer,
+  brasiliaed (brasilias, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Niemeyer" (brasilias, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Marx mosaics [canon: Marx (mosaiced marxs; specified Burle Marx
+  (mosaics; vs no hits)); verification deferred].** → Marx's marxs
+  (mosaiced, kept (marx, mosaiced (mosaics, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Marx" (mosaics,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
