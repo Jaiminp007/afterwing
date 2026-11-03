@@ -371,6 +371,26 @@ proposal must act between probes, on training segments,
 which is exactly where the bar's open example (b) points.
 Validates the bar's framing; licenses nothing.
 
+## Executed re-reading 26 (2026-11-02, read-only: spent A + transfer traces both arms)
+
+The transfer instrument never opens the front door. Odor-present
+fraction: A-probes 1.000 (7/8 exactly, one 0.995); transfer
+probes 0.000 — all 16 probes, both arms, every decision. In
+transfer the own-taste readout CANNOT fire (odor-absent forces
+probability 1, accept trivially 1.000 everywhere); the frozen
+weights express only through the spatial-recommendation side
+channel (candidate-target scores via predictTargetTaste: split
+vs plain differ slightly, 0.063–0.076 vs 0.060–0.092, no
+systematic direction) plus entry debt plus motor dynamics. Every
+transfer verdict R1–R10 is therefore a side-channel verdict:
+what the weights do when their front door is shut. The twins
+resolve instantly — same weights, same silence, outcomes
+decided elsewhere. A with-odor transfer probe would be a
+different instrument class entirely; transfer-side is CLOSED
+per C16 and the C17-bar, so this is noted and NOT licensed —
+but it bounds what all our transfer numbers mean: echoes,
+not judgments.
+
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
 The colony is one solution in twenty-four bodies — and survival
