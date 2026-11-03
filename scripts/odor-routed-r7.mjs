@@ -15,9 +15,9 @@ import {ODOR_R2_OP_CAP,ODOR_R2_WALL_CAP_SECONDS} from '../learning/continual-reg
 
 const root=fileURLToPath(new URL('../',import.meta.url)),output=join(root,'evidence/odor-routed-development-r7');
 const bank=join(root,'evidence/odor-routed-development-r7/bank-protocol.json');
-{ // Single-execution guard: output absent, or holding only the triage bank copy.
+{ // Single-execution guard: output absent, or holding only the triage bank copy + short-self R1 rows.
   const pre=existsSync(output)?readdirSync(output):[];
-  assert.ok(pre.length===0||(pre.length===1&&pre[0]==='bank-protocol.json'),'R7 output already exists; preserve it: '+output);
+  assert.ok(pre.length===0||(pre.length===2&&pre.includes('bank-protocol.json')&&pre.includes('short-self')),'R7 output already exists; preserve it: '+output);
 }
 const hash=value=>createHash('sha256').update(value).digest('hex');
 const write=(path,value)=>{mkdirSync(dirname(path),{recursive:true});writeFileSync(path,JSON.stringify(value,null,2)+'\n',{flag:'wx'});};
