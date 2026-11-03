@@ -13,8 +13,20 @@ function features(state,cue){
   state.work.scalarOperations+=6;return phi;
 }
 function prediction(state,phi){
-  const logit=priorLogit+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/tasteScale;
-  state.work.scalarOperations+=29;return 1/(1+Math.exp(-logit));
+  const K=state.taste.quantileK??1;
+  if(K<=1){
+    const logit=priorLogit+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/tasteScale;
+    state.work.scalarOperations+=29;return 1/(1+Math.exp(-logit));
+  }
+  // R9 distributional behavior (docs/ODOR_DEV_ROUND9_PLAN_V1.md, frozen):
+  // mean of head predictions; rule unchanged, representation enriched.
+  let sum=0;
+  for(let h=0;h<K;h++){
+    const w=state.taste.qweights[h];
+    let dot=0;for(let j=0;j<11;j++)dot+=w[j]*phi[j];
+    sum+=1/(1+Math.exp(-(priorLogit+dot/tasteScale)));
+  }
+  state.work.scalarOperations+=K*30;return sum/K;
 }
 export function predictTargetTaste(state,cue,cueTastePolicy=null){
   assert.ok(Array.isArray(cue)&&cue.length===4&&(cue.every(value=>value===0)||cue.every(value=>value===-1||value===1)));
@@ -39,15 +51,32 @@ function update(state,record,mode){
     if(mode==='live')state.taste.baselineC=nextC;
     target=record.target-state.taste.baselineC;
   }
-  const error=target-prediction(state,record.phi),step=.5*error/tasteScale;
-  for(let index=0;index<11;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
-  state.work.scalarOperations+=4+11*4+4;
+  const K=state.taste.quantileK??1;
+  if(K<=1){
+    const error=target-prediction(state,record.phi),step=.5*error/tasteScale;
+    for(let index=0;index<11;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
+    state.work.scalarOperations+=4+11*4+4;
+    return;
+  }
+  // R9 K-head quantile update (docs/ODOR_DEV_ROUND9_PLAN_V1.md, frozen).
+  // Plain-JS, mode gates only the (off-in-R9) baseline above; both modes
+  // update all heads. Uniform K*82 billing (composition per head: 29 pred
+  // + 48 update + 4 baseline-off + 1 tau-indicator).
+  for(let h=0;h<K;h++){
+    const tau=(h+0.5)/K,w=state.taste.qweights[h];
+    let dot=0;for(let j=0;j<11;j++)dot+=w[j]*record.phi[j];
+    const pred=1/(1+Math.exp(-(priorLogit+dot/tasteScale)));
+    const step=.5*(tau-(target<pred?1:0))/tasteScale;
+    for(let j=0;j<11;j++)w[j]=Math.max(-8,Math.min(8,w[j]+step*record.phi[j]));
+  }
+  state.work.scalarOperations+=K*82;
 }
-export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0}={}){
+export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1}={}){
   assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
+  assert.ok(Number.isInteger(quantileHeads)&&quantileHeads>=1);
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
-  state.taste={weights:Array(11).fill(0),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate};
+  state.taste={weights:Array(11).fill(0),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{})};
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){
@@ -97,6 +126,6 @@ export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
 }
 export function freezeOdorRoutedTaste(state){freezeOdorRoutedMotor(state);}
 export function resetOdorRoutedTaste(state){
-  resetOdorRoutedMotor(state);state.taste.weights.fill(0);state.taste.memory=[];state.taste.seen=0;state.taste.baselineC=0;state.work.scalarOperations+=12;
+  resetOdorRoutedMotor(state);state.taste.weights.fill(0);state.taste.memory=[];state.taste.seen=0;state.taste.baselineC=0;if(state.taste.qweights)for(const w of state.taste.qweights)w.fill(0);state.work.scalarOperations+=12;
   if(state.cueTaste){const before=state.cueTaste.work.scalarOperations;resetDecoupledCueTaste(state.cueTaste);state.work.scalarOperations+=state.cueTaste.work.scalarOperations-before;}
 }
