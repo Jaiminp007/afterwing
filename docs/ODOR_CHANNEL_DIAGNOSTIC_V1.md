@@ -181,6 +181,21 @@ Discriminator, pre-registered: a line that preserves maps across
 reshuffles must SIMULTANEOUSLY lift transfer-tax, rehearsal-cost,
 AND starvation if unity holds; if it fixes one but not the others,
 the wounds are distinct mechanisms and the unity claim dies.
+
+## Executed re-reading 11 (2026-11-02, read-only: spent R1 D-anchor)
+
+Uniform-pessimism attractor CONFIRMED — the shared attractor named:
+all 24 flies' taste weights mean-negative (−0.40 to −1.29,
+positive fraction only 0.27–0.46); present-bank likewise negative.
+Plain TD on 97%-negative deltas teaches "everything is bad",
+identically, in every seed: the convergent misdirection MECHANISM
+(rule, not data). Transfer as uniform avoidance explains flat
+transfer without invoking forgetting. Fixes specified (not
+executed): (a) reward centering/baselining (subtract background
+loss so deltas aren't 97% negative); (b) distributional encoding
+(optimism survives in upper quantiles — Dabney); (c) separate
+Go/No-Go matrices (positives learned where the negative flood
+doesn't reach — Bogacz/A5).
 A survival line fixes re-acquisition speed (or stops the maps
 going stale), never the food supply.
 
