@@ -612,6 +612,9 @@ the map stays open, not empty.
 - R735 frozen-verdicts file: job-learn;
   route-within; sift-self;
   overrule-cherry.
+- R737 skill-transfer file: compile-skills;
+  stabilize-evolution; demystify-skills;
+  evolve-teams.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
