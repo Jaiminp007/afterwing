@@ -36,6 +36,21 @@ learned reward-driven on top. Multi-task encoders generalizing
 downstream is the existence proof. This supersedes gating as the
 default next operation — gate only what separation cannot divide.
 
+Encoder specification (R791 — Liu 2021, return-based contrast):
+the representation channel learns return-DISTRIBUTION structure
+(aggregating similar-return state-action pairs = the abstraction),
+the policy learns on top. This fuses decoupling with the
+distributional voices and the 97%-negative landscape: abstract the
+returns, then act. Any separation freeze names its contrastive
+rule and its return-aggregation, or it separates nothing.
+
+Gate redirect (R791 — Zhang 2017, rethinking generalization):
+memorization and generalization coexist, so transfer gates must
+test the ENCODER's abstraction (return-distributions), never the
+policy's specificity. A verdict that punishes policy memorization
+misreads deep learning; the diagnostic reports encoder-abstraction
+as its primary measure.
+
 ## Null to rule out (R790 — Asok 2019, adaptive generalization)
 
 Before any failure classification: rule out the gate bug —
