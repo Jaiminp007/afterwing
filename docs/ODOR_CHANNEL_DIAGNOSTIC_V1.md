@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 33 (2026-11-02, read-only: spent R10 anchors A-D)
+
+Convergence is system-wide, and the transfer motor is untrained.
+Present-bank motor weights: rms 0.007→0.014 by C, then EXACTLY
+frozen C→D (bitwise, all learners) — alongside the taste freeze
+(R31). Absent-bank (the transfer bank): rms 0.0008, ~17× below
+the already-tiny present weights — effectively init noise, never
+trained because training never leaves odor-present. By anchor C
+the ENTIRE learnable stack is fixed; the final stretch moves
+only positions, energies, and RNG. And in transfer, agents steer
+through a motor bank that learned nothing, guided by taste
+scores from weights that stopped learning a phase earlier,
+spending entry debt they accrued while both slept. The last
+phase is dead time for learning everywhere — the meter runs,
+no one writes.
+
 ## Executed re-reading 32 (2026-11-02, read-only: spent rows + traces inventory)
 
 The read-only boundary, declared. Spent artifacts contain NO
