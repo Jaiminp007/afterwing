@@ -29,8 +29,12 @@ exact open items. Nothing here changes any verdict.
 
 - M2-distinct-tasks — retention across DISTINCT tasks: OPEN.
   Specified down to a work chain (DTR scoping → trunk scoping →
-  part-iv scoping → ODOR readiness NOT READY). Next: odor DEV
-  round (iv-a), then qual freeze (iv-b). No worlds spent.
+  part-iv scoping → ODOR readiness NOT READY). Odor DEV round 2
+  (rehearsal) CLOSED as NO-GO 2026-11-02: A 22%→96% (mechanism
+  confirmed on retention) but transfer +0.42→−1.20 and B 179%→73%
+  — retention⇏transfer dissociation; round 3 = guard-feature
+  augmentation (scoped, needs frozen dev plan). Next: round-3
+  freeze, then qual freeze (iv-b) only on a GO.
 - RSI proper — bounded recursive self-improvement: OPEN.
   Requires ALL of: (a) ≥2 successive persistent revisions lifting
   transfer vs copied-improvement + matched-budget controls;
