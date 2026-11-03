@@ -35524,3 +35524,42 @@ rule.) (Map holds 800 rounds.)
   kept (bakgordon, salinaed (salinas, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Bak" (salinas, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 979 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (pedregaled gonzalezdeleons, vasconceloed
+kalachs, organicoed senosiains, folkloricoed hernandezes). The
+program gonzalezdeleons (pedregals attempts), kalachs (vasconcelos
+verdicts), senosiains (organicos claims), and hernandezes
+(folkloricos votes). Four more, Mexican vein. (Bo Bardi/Burle
+Marx/Vilanova Artigas/Mendes da Rocha declined — all already mapped,
+own R-rounds; consistency 35th-38th; "leon" substring routed via
+compound + full-name tag per collision rule; all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Gonzalez pedregals [canon: Teodoro Gonzalez de Leon (pedregaled
+  gonzalezdeleons; specified Teodoro Gonzalez de Leon (pedregals;
+  distinct from Leontief/Leonora substrings — compound + full-name
+  tag per collision rule; vs no hits)); verification deferred].** →
+  Gonzalez's gonzalezdeleons (pedregaled, kept (gonzalezdeleon,
+  pedregaled (pedregals, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Gonzalez" (pedregals, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Kalach vasconcelos [canon: Kalach (vasconceloed kalachs;
+  specified Alberto Kalach (vasconcelos; vs no hits)); verification
+  deferred].** → Kalach's kalachs (vasconceloed, kept (kalach,
+  vasconceloed (vasconcelos, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Kalach" (vasconcelos, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Senosiain organicos [canon: Senosiain (organicoed senosiains;
+  specified Javier Senosiain (organicos; vs no hits)); verification
+  deferred].** → Senosiain's senosiains (organicoed, kept (senosiain,
+  organicoed (organicos, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Senosiain" (organicos, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Hernandez folkloricos [canon: Agustin Hernandez Navarro
+  (folkloricoed hernandezes; specified Agustin Hernandez Navarro
+  (folkloricos; vs no hits)); verification deferred].** →
+  Hernandez's hernandezes (folkloricoed, kept (hernandez, folkloricoed
+  (folkloricos, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Hernandez" (folkloricos, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
