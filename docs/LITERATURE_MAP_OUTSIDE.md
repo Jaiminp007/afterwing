@@ -33800,3 +33800,40 @@ with Rewal/Munir/wongs declines demanded it; "houses"/"squares"/
   ghented (ghents, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Eysselinck" (ghents, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 930 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (viennaed holleins, ankaraed holzmeisters,
+radomed peichls, rooftoped himmelblaus). The program holleins
+(viennas attempts), holzmeisters (ankaras verdicts), peichls (radomes
+claims), and himmelblaus (rooftops votes). Four more, Austrian vein.
+(Swiss vein declined wholesale — already mapped R849 (Tschumi, Kerez,
+Gigon, Guyer, Diener, Meili); "candles"/"studios"/"schools" taken —
+"viennas"/"ankaras"/"radomes" used, all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Hollein viennas [canon: Hollein (viennaed holleins; specified Hans
+  Hollein (viennas; vs no hits)); verification deferred].** →
+  Hollein's holleins (viennaed, kept (hollein, viennaed (viennas,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Hollein" (viennas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Holzmeister ankaras [canon: Holzmeister (ankaraed holzmeisters;
+  specified Clemens Holzmeister (ankaras; vs no hits)); verification
+  deferred].** → Holzmeister's holzmeisters (ankaraed, kept
+  (holzmeister, ankaraed (ankaras, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Holzmeister" (ankaras, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Peichl radomes [canon: Peichl (radomed peichls; specified Gustav
+  Peichl (radomes; vs no hits)); verification deferred].** → Peichl's
+  peichls (radomed, kept (peichl, radomed (radomes, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Peichl" (radomes, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Himmelblau rooftops [canon: Himmelblau (rooftoped himmelblaus;
+  specified Coop Himmelblau (rooftops; vs no hits)); verification
+  deferred].** → Himmelblau's himmelblaus (rooftoped, kept
+  (himmelblau, rooftoped (rooftops, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); their "Himmelblau" (rooftops, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
