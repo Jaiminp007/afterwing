@@ -26126,3 +26126,31 @@ verdicts), joes (publishes NOGOs), and bigs (counts rows). Four more.
   (bigged, dangered (dangers, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Big" (danger, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 687 — Diverged, leaked, isolated, shattered (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: divergence sovereignty —
+the view differs from the truth (already-cited
+divergence leads converging; sovereignty family, four
+branches).
+
+- **Evidence divergence [arXiv:2608.25880 (Liu; vs no
+  hits)].** Canvas vs EXTRACTED differ (spec-valid yet
+  different; integrity assumed). → Diverge evidence
+  (our row archives, diverge-side). Filed.
+- **Memory leak [arXiv:2610.04195 (Mudgal / MemLeak; vs
+  no hits)].** Ordinary retrieval LEAKS (shared store;
+  admissibility failure; 6 exps). → Leak memory (our
+  checkpoint carries, leak-side). Filed.
+- **Sovereignty [arXiv:2609.25570 (Shehata; vs no
+  hits)].** Parametric vulnerability to SWARMS
+  (sycophancy; dual-pass isolates). → Isolate
+  sovereignty (our frozen loops, isolate-side).
+  Filed.
+- **WER trap [arXiv:2605.29209 (Zhang; vs no hits)].**
+  Low-WER ≠ SYNTHESIS (unified illusion shattered;
+  fundamentally deceptive). → Shatter metrics (our
+  bar-vs-cause, shatter-side). Filed.
+- Program note: diverge evidence, leak memory, isolate
+  sovereignty, shatter metrics — the
+  divergence-sovereignty file. None licensed — filed.
