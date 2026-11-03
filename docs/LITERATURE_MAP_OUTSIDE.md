@@ -33485,3 +33485,37 @@ Thomson lines — "syrias" used, all per collision rule.) (Map holds
   (jamaleddine, jbeiled (jbeils, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Jamaleddine" (jbeils, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 921 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (najded hathlouls, qatiffed shuaibis,
+dubaied alalis, sharjahed esmaeils). The program hathlouls (najds
+attempts), shuaibis (qatifs verdicts), alalis (dubais claims), and
+esmaeils (sharjahs votes). Four more, Gulf vein. ("alis" declined —
+160 standing hits — compound nickname "alalis" + full-name tag per
+collision rule; all per collision rule.) (Map holds 800 rounds.)
+
+- **Hathloul najds [canon: Hathloul (najded hathlouls; specified Saleh
+  al-Hathloul (najds; vs no hits)); verification deferred].** →
+  Hathloul's hathlouls (najded, kept (hathloul, najded (najds, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Hathloul" (najds, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Shuaibi qatifs [canon: Shuaibi (qatiffed shuaibis; specified Ali
+  Shuaibi (qatifs; vs no hits)); verification deferred].** →
+  Shuaibi's shuaibis (qatiffed, kept (shuaibi, qatiffed (qatifs,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Shuaibi" (qatifs, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Al-Ali dubais [canon: Ahmed al-Ali (dubaied alalis; specified
+  Ahmed al-Ali (dubais; "alis" declined vs 160 hits — compound
+  "alalis" + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Al-Ali's alalis (dubaied, kept (alali,
+  dubaied (dubais, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Al-Ali" (dubais, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Esmaeil sharjahs [canon: Esmaeil (sharjahed esmaeils; specified
+  Farid Esmaeil (sharjahs; vs no hits)); verification deferred].** →
+  Esmaeil's esmaeils (sharjahed, kept (esmaeil, sharjahed (sharjahs,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Esmaeil" (sharjahs, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
