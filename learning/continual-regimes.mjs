@@ -9,6 +9,19 @@ export const CONTINUAL_PHASES = Object.freeze([
   Object.freeze({id: 'C', kind: 'scarce', ticks: 512, nutrient: .2, shiftEvery: 0}),
   Object.freeze({id: 'return-A', kind: 'stable', ticks: 256, nutrient: .4, shiftEvery: 0})
 ]);
+// ODOR DEV ROUND 2 rehearsal table (PLAN V1 FROZEN): A256-B512-A128-
+// C512-A128-D256 = 1792 ticks (same budget). A-revisits reuse the A
+// resource seed via the runner's phaseSeedMap [0,1,0,2,0,3]. D mirrors
+// return-A (stable/.4/0/256). Slot keys at runtime: A1,B1,A2,C1,A3,D1
+// with 'A' aliased to the final A-slot.
+export const CONTINUAL_PHASES_REHEARSAL = Object.freeze([
+  Object.freeze({id: 'A', kind: 'stable', ticks: 256, nutrient: .4, shiftEvery: 0}),
+  Object.freeze({id: 'B', kind: 'moving', ticks: 512, nutrient: .4, shiftEvery: 128}),
+  Object.freeze({id: 'A', kind: 'stable', ticks: 128, nutrient: .4, shiftEvery: 0}),
+  Object.freeze({id: 'C', kind: 'scarce', ticks: 512, nutrient: .2, shiftEvery: 0}),
+  Object.freeze({id: 'A', kind: 'stable', ticks: 128, nutrient: .4, shiftEvery: 0}),
+  Object.freeze({id: 'D', kind: 'stable', ticks: 256, nutrient: .4, shiftEvery: 0})
+]);
 
 function layout(world, rng, moveFood) {
   world.resourceCenters = Array.from({length: 3}, () => ({x: rng.range(100, 900), y: rng.range(80, 560)}));

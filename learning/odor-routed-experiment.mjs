@@ -27,7 +27,7 @@ const steeringMethods={
 const methods=run=>steeringMethods[run.steeringLearner??'original'];
 
 export class OdorRoutedExperiment extends OwnSteeringExperiment{
-  constructor({trainingRegime='continuous',steeringLearner='original',spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,...options}){
+  constructor({trainingRegime='continuous',steeringLearner='original',spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,...options}){
     assert.ok(['continuous','freeze-after-A','reset-each-phase'].includes(trainingRegime));
     assert.ok(Object.hasOwn(steeringMethods,steeringLearner));
     assert.ok(['filtered','incremental'].includes(spatialSelector));
@@ -41,7 +41,10 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     assert.ok(steeringProtection===null||steeringLearner==='cue-shared'&&steeringProjection===null&&['control','protect'].includes(steeringProtection));
     assert.ok(contactBandit===null||['learned','random','shadow'].includes(contactBandit)&&contactCueMode==='filter');
     assert.ok(contactGateReplay===null||['fresh','reservoir'].includes(contactGateReplay)&&contactBandit!==null);
-    assert.ok(phaseDurations===null||Array.isArray(phaseDurations)&&phaseDurations.length===CONTINUAL_PHASES.length&&phaseDurations.every(value=>Number.isSafeInteger(value)&&value>0));
+    assert.ok(phaseTable===null||Array.isArray(phaseTable)&&phaseTable.length>0&&phaseTable.every(p=>p&&typeof p.id==='string'&&Number.isSafeInteger(p.ticks)&&p.ticks>0));
+    assert.ok(phaseSeedMap===null||Array.isArray(phaseSeedMap)&&phaseTable!==null&&phaseSeedMap.length===phaseTable.length&&phaseSeedMap.every(i=>Number.isSafeInteger(i)&&i>=0));
+    assert.ok(phaseTable===null||trainingRegime==='continuous','custom phase tables support continuous regime only');
+    assert.ok(phaseDurations===null||Array.isArray(phaseDurations)&&phaseDurations.length===(phaseTable??CONTINUAL_PHASES).length&&phaseDurations.every(value=>Number.isSafeInteger(value)&&value>0));
     super(options);
     this.trainingRegime=trainingRegime;this.steeringLearner=steeringLearner;this.spatialSelector=spatialSelector;
     if(contactCueMode!=='disabled')this.contactCueMode=contactCueMode;
@@ -53,6 +56,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     if(steeringProtection!==null)this.steeringProtection=steeringProtection;
     if(contactBandit!==null)this.contactBandit=contactBandit;
     if(contactGateReplay!==null)this.contactGateReplay=contactGateReplay;
+    if(phaseTable!==null){this.phaseTable=[...phaseTable];this.phaseSeedMap=phaseSeedMap?[...phaseSeedMap]:null;this.phaseSlotCount={};}
     if(phaseDurations!==null){this.phaseDurations=[...phaseDurations];this.phaseEnd=this.world.tick+phaseDurations[0];}
     if(cueCurriculum==='adjacent-opposed'){const book=makeAdjacentConflictCodebook(this.history.cueSeed);assert.deepEqual(book.A,this.codebook.A);this.codebook=book;this.cueCurriculum=cueCurriculum;}
     for(const fly of this.world.flies){
@@ -71,7 +75,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     if(this.finished||!this.world.flies.length)return false;
     if(this.targetCueMode)assert.ok(!this.wallShortcut&&!this.cueNativeProof);
     if(this.world.tick===this.phaseEnd){
-      if(this.probe||++this.phaseIndex>=CONTINUAL_PHASES.length){this.finished=true;return false;}
+      if(this.probe||++this.phaseIndex>=(this.phaseTable??CONTINUAL_PHASES).length){this.finished=true;return false;}
       if(this.trainingRegime==='freeze-after-A'&&this.phaseIndex===1||this.trainingRegime==='reset-each-phase')for(const fly of this.world.flies){
         const state=this.learners[fly.id];
         if(this.trainingRegime==='freeze-after-A'){freezeOdorRoutedTaste(state);methods(this).freeze(state.steering);}
@@ -79,11 +83,12 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
         if(state.contactBandit){const work=state.contactBandit.work.scalarOperations;if(this.trainingRegime==='freeze-after-A')freezeContactAction(state.contactBandit);else resetContactAction(state.contactBandit);state.work.scalarOperations+=state.contactBandit.work.scalarOperations-work;}
         state.charge.storageBytes=0;billSarsaWork(state,this.pricing);
       }
-      if(this.phaseIndex===3){
+      const PH=this.phaseTable??CONTINUAL_PHASES, SM=this.phaseSeedMap;
+      if(this.phaseIndex===PH.length-1){
         this.world.config.cueForaging=false;this.transfer=true;
-        this.resource=enterContinualPhase(this.world,CONTINUAL_PHASES[0],this.history.resourceSeeds[3]);
-      }else this.resource=enterCuePhase(this.world,CONTINUAL_PHASES[this.phaseIndex],this.history.resourceSeeds[this.phaseIndex],this.codebook);
-      this.phaseEnd+=this.phaseDurations?.[this.phaseIndex]??CONTINUAL_PHASES[this.phaseIndex].ticks;
+        this.resource=enterContinualPhase(this.world,PH[0],this.history.resourceSeeds[SM?SM[this.phaseIndex]:3]);
+      }else this.resource=enterCuePhase(this.world,PH[this.phaseIndex],this.history.resourceSeeds[SM?SM[this.phaseIndex]:this.phaseIndex],this.codebook);
+      this.phaseEnd+=this.phaseDurations?.[this.phaseIndex]??PH[this.phaseIndex].ticks;
     }
     if(this.transfer)updateContinualResources(this.world,this.resource);else updateCueResources(this.world,this.resource);
     const family=this.transfer?(this.probe?'transfer':'odor-free-acquisition'):this.resource.family,stats=this.statistics[family]??={decisions:0,moves:[0,0,0],accept:0,intake:0,toxin:0,cost:0,steering:[0,0],available:0};
@@ -139,7 +144,15 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
       if(state.contactBandit?.pending){const debt=state.charge.outstandingEnergy;billSarsaWork(state,this.pricing);const cost=contactActionObservationOperations(state.contactBandit,this.contactGateReplay??null),energy=own.energy-(state.charge.outstandingEnergy-debt)-cost*this.pricing.operationEnergy,work=state.contactBandit.work.scalarOperations;observeContactAction(state.contactBandit,{...own,energy},{replayPolicy:this.contactGateReplay??null});state.work.scalarOperations+=state.contactBandit.work.scalarOperations-work;}
       billSarsaWork(state,this.pricing);this.emit?.({type:'observe',own,...(this.auditSnapshots?{auditState:structuredClone(state)}:{})});
     }
-    if(!this.probe&&this.world.tick===this.phaseEnd&&this.phaseIndex<4)this.anchors[this.phaseIndex===3?'D':CONTINUAL_PHASES[this.phaseIndex].id]=this.checkpoint(false);
+    if(!this.probe&&this.world.tick===this.phaseEnd){
+      if(this.phaseTable){
+        const PH=this.phaseTable,id=PH[this.phaseIndex].id;
+        this.phaseSlotCount[id]=(this.phaseSlotCount[id]||0)+1;
+        const cp=this.checkpoint(false);
+        this.anchors[id+this.phaseSlotCount[id]]=cp;
+        if(id==='A')this.anchors['A']=cp;
+      }else if(this.phaseIndex<4)this.anchors[this.phaseIndex===3?'D':CONTINUAL_PHASES[this.phaseIndex].id]=this.checkpoint(false);
+    }
     return true;
   }
   checkpoint(includeAnchors=true){const value=super.checkpoint(includeAnchors);value.kind='odor-routed-world';return value;}
