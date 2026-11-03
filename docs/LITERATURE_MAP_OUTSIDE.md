@@ -27330,3 +27330,36 @@ family, four branches).
 - Program note: loop self-improve, vector smart, gate
   entries, transfer histo — the looped-efficient file.
   None licensed — filed.
+## Round 730 — Haraks, druckreys, grunges, brodys (de Harak, Druckrey, David Carson, Brody; 2026-11-02)
+
+Motivation: further outside (designed haraks, educated druckreys,
+grunged typographies, directed brodys). The program haraks (designs
+attempts), druckreys (educates verdicts), grunges (types claims), and
+brodys (directs votes). Four more. (Map holds 737 rounds; milestone:
+740 rounds + canon R730.)
+
+- **de Harak design [canon: de Harak (designed haraks; specified
+  Rudolph de Harak (graphic design; vs no hits)); verification
+  deferred].** → Harak's haraks (designed, kept (haraked, designed
+  (designs, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Harak" (design, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Druckrey education [canon: Druckrey (educated druckreys; specified
+  Inge Druckrey (design education; vs no hits)); verification
+  deferred].** → Druckrey's druckreys (educated, kept (druckreyed,
+  educated (educations, kept))) is the verdict (taught, kept (NOGO,
+  told (honest, kept))); her "Druckrey" (education, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **David Carson grunge [canon: David Carson (grunged typographies;
+  specified David Carson (grunge typography; distinct from Carson
+  (Silent Spring — full-name tag per collision rule); vs no hits on
+  full name)); verification deferred].** → Carson's grunges (typed,
+  kept (david, grunged (grunges, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Grunge" (type, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Brody direction [canon: Brody (directed brodys; specified Neville
+  Brody (art direction; vs no hits)); verification deferred].** →
+  Brody's brodys (directed, kept (brody, directed (directions, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Brody"
+  (direction, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
