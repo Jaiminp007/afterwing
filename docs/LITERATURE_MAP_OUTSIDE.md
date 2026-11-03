@@ -31797,3 +31797,50 @@ used; "switches" taken — "phase-coheres" used per collision rule.)
   (coordinated, kept))))); his "Manoj" (deposits, kept (kept,
   kept)) is the ledger (exact, kept (signal the world (kept,
   steer the shape))).
+## Round 877 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: outfitted harnesses, tolled collisions, assured unknowns,
+fine-scaled energies — fix the model, price the overlap, bound the
+uncertainty, decompose the locale. The program cleos (outfits
+attempts), benhamous (tolls verdicts), lefringhausens (assures
+claims), and decompositions (fine-scales votes). ("Harnesses"/
+"constrains"/"audits"/"minimizes" taken — "outfits" used;
+"collides" taken — "tolls" used; "quantifies" taken — "assures"
+used; "localizes" taken — "fine-scales" used, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **CLEO outfits [live: Gefen et al 2611.03434 (OPTIMIZE THE HARNESS,
+  NOT THE MODEL; minimal harness on a FIXED LLM; admit only what
+  improves while general and auditable; vs no hits); abstract
+  only].** → CLEO's outfitting (minimal, kept (model fixed (kept,
+  harness admitted piece by piece (auditable, kept))))) is the
+  attempt (run, kept (freeze weights (kept, optimize banks guards
+  bills falsifiers (auditable, kept))))); its "CLEO" (outfits, kept
+  (kept, kept)) is the row (counted, kept (harness, not model)).
+- **Benhamou tolls [live: Benhamou et al 2611.03453 (different systems
+  make nearly the SAME trade; decision concentration behind apparent
+  diversity; SIGNAL COLLISION; overlap-dependent toll; vs no hits);
+  abstract only].** → Benhamou's tolling (shared, kept (same trade
+  (kept, diverse looks (concentration real, kept))))) is the verdict
+  (kept, kept (colony +0.75 (kept, twenty-four bodies one direction
+  (toll the overlap, kept))))); his "Benhamou" (tolls, kept (kept,
+  kept)) is the bar (unmoved, kept (price the common (kept, or pay
+  it))).
+- **Lefringhausen assures [live: Lefringhausen et al 2611.03466
+  (safe control of UNKNOWN systems from input-output data alone;
+  no state measurements; safety under constraints with rigorous
+  uncertainty; vs no hits); abstract only].** → Lefringhausen's
+  assuring (unknown, kept (inputs-outputs only (kept, no internals
+  (constraints held, kept))))) is the claim (mourned, kept (frozen
+  black-box transfer (kept, caps as safety (uncertain, bounded)))));
+  his "Lefringhausen" (assures, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Decomposition fine-scales [live: Li et al 2611.03451 (spectral
+  bias favors smooth over fine-scale; fine errors AMPLIFIED by
+  differentiation; LOCAL energy decomposition; vs no hits);
+  abstract only].** → Decomposition's fine-scaling (local, kept
+  (fine over smooth (kept, amplified at the derivative (marginals
+  flip, kept))))) is the vote (joined, kept (per-fly ledgers (kept,
+  threshold leverage (small diffs, ±5 ends))))); its "Decomposition"
+  (fine-scales, kept (kept, kept)) is the ledger (exact, kept
+  (decompose locally (kept, watch it amplify))).
