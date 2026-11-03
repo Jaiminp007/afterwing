@@ -227,6 +227,26 @@ phase-gated readout fix is NOT licensed by this cut (ruled out, not
 merely unscoped): the next rationale must be history-adaptive or
 readout-global, or it is curve-fitting to phases.
 
+## Executed re-reading 14 (2026-11-02, read-only: spent R10 D-anchors)
+
+The readout price has a MECHANISM: magnitude dominance. No-Go RMS
+runs 2.0–2.35x Go RMS on ALL 8 histories (2.6–3.0 vs 1.2–1.4) —
+invariant across histories, so structural to the instrument (the
+flood sees ~97% of records, Go ~3%), not to the data. Go/No-Go
+mean vectors point opposite-ish (cosine −0.43 to −0.78, never near
+−1: genuine structural difference, not offset collapse). The
+difference readout is therefore dominated 2:1 by the louder
+matrix — Go's voice drowns in No-Go's volume even though they
+disagree in direction. Candidate direction noted (not licensed):
+magnitude-normalized readout; whether that clears the C17-bar as
+genuinely-new versus a variation of (c) is for the scoping, not
+this reading.
+
+Standing disk note: C: free 3.64G and falling exogenously (was
+4.49G; evidence dirs stable ~0.5G each — not this program).
+Halt-and-escalate if any attempt is ever blocked; no attempt is
+active.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
