@@ -27024,3 +27024,29 @@ attempts), hangars (stitches verdicts), rayzs (publishes NOGOs), and rjds
   kept (rjded, deadringered (deadringers, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Rjd" (deadringer, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 719 — Snaked, morphed, swum, distilled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: mechanical intelligence —
+let the body do the thinking (already-cited embodiment
+leads converging; mechanical family, four branches).
+
+- **Limbless MI [arXiv:2304.08652 (Wang; vs no
+  hits)].** Passive NEGLECTED (models fail simplest;
+  undulatory waves). → Snake passively (our embodied
+  learner, snake-side). Filed.
+- **MORPH [arXiv:2602.06265 (Jang; vs no hits)].**
+  Logic EMBEDDED in geometry (no actuators/sensors;
+  torque-responsive). → Morph passively (our frozen
+  instruments, morph-side). Filed.
+- **AquaMILR [arXiv:2407.01733 (Wang; vs no hits)].**
+  Offload to MECHANICS (cluttered hydro; elongate
+  limbless). → Swim cluttered (our transfer test,
+  swim-side). Filed.
+- **Physical imitation [arXiv:2604.00611 (Ma; vs no
+  hits)].** Control FIGHTS body (co-evolution; body
+  part-of-solution). → Distill elastically (our
+  retained weights, distill-side). Filed.
+- Program note: snake passively, morph passively, swim
+  cluttered, distill elastically — the
+  mechanical-intelligence file. None licensed — filed.
