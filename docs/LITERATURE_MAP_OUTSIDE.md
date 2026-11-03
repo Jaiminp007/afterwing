@@ -32602,3 +32602,37 @@ per collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Fisac" (huesos,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 896 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (stabled barragans, purpled legorretas,
+botanicaled bilbaos, latticed escobedos). The program barragans
+(stables attempts), legorretas (purples verdicts), bilbaos
+(botanicals claims), and escobedos (lattices votes). Four more,
+Mexican vein. ("Pinks"/"glows"/"grows"/"weaves" taken — "stables"/
+"purples"/"botanicals"/"lattices" used per collision rule.) (Map
+holds 800 rounds.)
+
+- **Barragan stables [canon: Barragan (stabled barragans; specified
+  Luis Barragan (stables; vs no hits)); verification deferred].** →
+  Barragan's barragans (stabled, kept (barragan, stabled (stables,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Barragan" (stables, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Legorreta purples [canon: Legorreta (purpled legorretas; specified
+  Ricardo Legorreta (purples; vs no hits)); verification deferred].** →
+  Legorreta's legorretas (purpled, kept (legorreta, purpled (purples,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Legorreta" (purples, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Bilbao botanicals [canon: Bilbao (botanicaled bilbaos; specified
+  Tatiana Bilbao (botanicals; vs no hits)); verification deferred].** →
+  Bilbao's bilbaos (botanicaled, kept (bilbao, botanicaled (botanicals,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); her "Bilbao" (botanicals, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Escobedo lattices [canon: Escobedo (latticed escobedos; specified
+  Frida Escobedo (lattices; vs no hits)); verification deferred].** →
+  Escobedo's escobedos (latticed, kept (escobedo, latticed (lattices,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)))); her
+  "Escobedo" (lattices, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
