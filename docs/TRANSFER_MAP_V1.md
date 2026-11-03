@@ -561,6 +561,9 @@ the map stays open, not empty.
 - R699 constraint-generalization file: breed-constraints;
   prune-first; twin-semantically;
   soften-driving.
+- R701 persona-fidelity file: personify-structurally;
+  compress-onboard; tree-traffic;
+  lexicon-nets.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
