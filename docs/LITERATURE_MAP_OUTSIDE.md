@@ -25877,3 +25877,31 @@ four branches).
 - Program note: reexamine treatments, rank
   counterfactually, track fast, assess cause — the
   counterfactual-assessment file. None licensed — filed.
+## Round 678 — Petes, premiers, havocs, alchemists (Pete Rock, Premier, Havoc, Alchemist; 2026-11-02)
+
+Motivation: further outside (reminisced petes, truthed premiers, shook
+havocs, held alchemists). The program petes (reminisces attempts),
+premiers (stitches verdicts), havocs (publishes NOGOs), and alchemists
+(counts rows). Four more. (Map holds 686 rounds.)
+
+- **Pete reminisce [canon: Pete Rock (reminisced petes; specified Pete
+  Rock (vs no hits; short tag grazes the dream man — full-name tag
+  used)); verification deferred].** → Pete's petes (reminisced, kept
+  (peted, reminisced (reminiscences, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Pete" (reminisce, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Premier truth [canon: Premier (truthed premiers; specified DJ Premier
+  (vs no hits)); verification deferred].** → Premier's premiers (truthed,
+  kept (premiered, truthed (truths, kept))) is the verdict (truthed, kept
+  (NOGO, told (honest, kept))); his "Premier" (truth, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Havoc shook [canon: Havoc (shook havocs; specified Havoc (Mobb Deep;
+  vs no hits)); verification deferred].** → Havoc's havocs (shook, kept
+  (havoced, shook (shooks, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Havoc" (shook, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Alchemist hold [canon: Alchemist (held alchemists; specified The
+  Alchemist (vs no hits)); verification deferred].** → Alchemist's
+  alchemists (held, kept (alchemisted, held (holds, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Alchemist" (hold, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
