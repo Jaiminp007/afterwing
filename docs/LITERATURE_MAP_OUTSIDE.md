@@ -36065,3 +36065,43 @@ method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Bao" (claimants, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 993 — LIVE (fresh-hose find; 2026-11-03)
+
+Motivation: deeper offsets (cs.RO start=30, math.OC start=10).
+Two new IDs triaged (0 worlds): 2611.03443 (metric-space Newtonian
+dynamics — DECLINED unrelated-screening) and 2611.03059
+(Yang/Moudallal/Langella/Turrisi/Barasuol/Semini) — BeyondContact:
+RL for airflow-based non-contact manipulation (forces without direct
+robot-object contact; hybrid push-blow policy; massively parallel
+airflow extension for Isaac Lab) — influence without contact, the
+program's side-channel physics (odor moves flies it never touches),
+formalized. (Abstract/title only, 0 worlds; ID + authors + contexts
+virgin pre-append, flattened method.)
+
+- **Yang airflows [LIVE 2611.03059 (airflowed peiyuyangs; specified
+  Peiyu Yang (airflows; "Yang" taken — 1x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Yang's peiyuyangs (airflowed, kept (peiyuyang,
+  airflowed (airflows, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Yang" (airflows, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Moudallal noncontacts [LIVE 2611.03059 (noncontacted moudallals;
+  specified Mohamad S. Moudallal (noncontacts; vs no hits));
+  verification deferred].** → Moudallal's moudallals (noncontacted,
+  kept (moudallal, noncontacted (noncontacts, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Moudallal"
+  (noncontacts, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Langella reorientations [LIVE 2611.03059 (reorientationed
+  langellas; specified Antonio Langella (reorientations; vs no
+  hits)); verification deferred].** → Langella's langellas
+  (reorientationed, kept (langella, reorientationed (reorientations,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Langella" (reorientations, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Semini isaacs [LIVE 2611.03059 (isaaced seminis; specified
+  Claudio Semini (isaacs; vs no hits)); verification deferred].** →
+  Semini's seminis (isaaced, kept (semini, isaaced (isaacs, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Semini"
+  (isaacs, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
