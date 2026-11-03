@@ -591,6 +591,9 @@ the map stays open, not empty.
 - R719 mechanical-intelligence file: snake-passively;
   morph-passively; swim-cluttered;
   distill-elastically.
+- R721 soft-actuation file: seal-haptics;
+  inspire-softly; model-pneumatics;
+  print-visually.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
