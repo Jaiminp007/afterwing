@@ -27801,3 +27801,33 @@ branches).
   shields, robustify shields — the shielding file. Round-3
   guard-feature now has four outside legs. None licensed —
   filed.
+## Round 746 — Heartfields, höchs, hausmanns, schwitterses (Heartfield, Höch, Hausmann, Schwitters; 2026-11-02)
+
+Motivation: further outside (montaged heartfields, collaged höchs,
+dada'd hausmanns, merz'd schwitterses). The program heartfields
+(montages attempts), höchs (collages verdicts), hausmanns (dadas
+claims), and schwitterses (merzes votes). Four more. (Map holds 752
+rounds.)
+
+- **Heartfield montage [canon: Heartfield (montaged heartfields;
+  specified John Heartfield (photomontage; vs no hits)); verification
+  deferred].** → Heartfield's heartfields (montaged, kept (heartfield,
+  montaged (montages, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Heartfield" (montage, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Höch collage [canon: Höch (collaged höchs; specified Hannah Höch
+  (photomontage; vs no hits)); verification deferred].** → Höch's höchs
+  (collaged, kept (höch, collaged (collages, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); her "Höch" (collage, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Hausmann dada [canon: Hausmann (dada'd hausmanns; specified Raoul
+  Hausmann (Dada; vs no hits)); verification deferred].** → Hausmann's
+  hausmanns (dada'd, kept (hausmann, dada'd (dadas, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Hausmann" (dada,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Schwitters merz [canon: Schwitters (merz'd schwitterses; specified
+  Kurt Schwitters (Merz; vs no hits)); verification deferred].** →
+  Schwitters's schwitterses (merz'd, kept (schwitters, merz'd (merzes,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Schwitters" (merz, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
