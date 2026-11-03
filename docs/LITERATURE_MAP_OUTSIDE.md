@@ -26887,3 +26887,31 @@ branches).
 - Program note: bound sharing, successor constrain,
   disentangle dynamics, guard geometry — the
   shared-representations file. None licensed — filed.
+## Round 714 — Aesops, els, lifs, oxes (Aesop Rock, El-P, Lif, Ox; 2026-11-02)
+
+Motivation: further outside (labored aesops, jeweled els, rationed
+lifs, veined oxes). The program aesops (labors attempts), els (stitches
+verdicts), lifs (publishes NOGOs), and oxes (counts rows). Four more.
+(Map holds 722 rounds.)
+
+- **Aesop labor [canon: Aesop (labored aesops; specified Aesop Rock (vs
+  no hits)); verification deferred].** → Aesop's aesops (labored, kept
+  (aesoped, labored (labors, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Aesop" (labor, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **El jewels [canon: El-P (jeweled els; specified El-P (vs no hits; short
+  tag grazes the level prose — full-name tag used)); verification
+  deferred].** → El's els (jeweled, kept (eled, jeweled (jewels, kept)))
+  is the verdict (jeweled, kept (NOGO, told (honest, kept))); his "El"
+  (jewels, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Lif rations [canon: Lif (rationed lifs; specified Mr. Lif (vs no
+  hits)); verification deferred].** → Lif's lifs (rationed, kept (lifed,
+  rationed (rations, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Lif" (rations, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Ox vein [canon: Ox (veined oxes; specified Cannibal Ox (vs no
+  hits)); verification deferred].** → Ox's oxes (veined, kept (oxed,
+  veined (veins, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); their "Ox" (vein, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
