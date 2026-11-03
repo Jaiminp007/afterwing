@@ -184,6 +184,21 @@ the wounds are distinct mechanisms and the unity claim dies.
 A survival line fixes re-acquisition speed (or stops the maps
 going stale), never the food supply.
 
+## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
+
+Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
+pattern holds): taste 2.6–4.4 → 4.2–5.3 → 6.0–7.5 → frozen;
+steering 0.004–0.021 throughout (near-zero); banks tiny;
+absent-bank 0.0 until D. NO collapse anywhere — unlearning-by-
+norm-decay REFUTED. Two findings instead: (1) R1 is taste-driven
+with a VESTIGIAL steering head (the celebrated +0.42 rides on
+~zero steering weights — the head never learned, the palate did);
+(2) intake-per-accept halves DESPITE monotonically growing taste
+norms → misdirection, not decay (confident wrong, or right
+weights in a reshuffled world). Next specified step: direction,
+not magnitude — do the grown weights point anywhere useful
+(compare vs probe-successful rows, read-only)?
+
 ## Executed re-reading 8 (2026-11-02, read-only: spent R1 traces)
 
 Stale-map by distance: REFUTED. Mean recommended distance by
