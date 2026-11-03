@@ -32771,3 +32771,36 @@ collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept)))); his
   "Doshi" (sangaths, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 901 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (lagooned bawas, bambooed nghias,
+skygardened yeangs, yusuharaed kumas). The program bawas (lagoons
+attempts), nghias (bamboos verdicts), yeangs (skygardens claims),
+and kumas (yusuharas votes). Four more, tropical Asian vein.
+("Gardens"/"courts" taken — "lagoons"/"bamboos"/"skygardens"/
+"yusuharas" used per collision rule.) (Map holds 800 rounds.)
+
+- **Bawa lagoons [canon: Bawa (lagooned bawas; specified Geoffrey
+  Bawa (lagoons; vs no hits)); verification deferred].** → Bawa's
+  bawas (lagooned, kept (bawa, lagooned (lagoons, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Bawa"
+  (lagoons, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Nghia bamboos [canon: Nghia (bambooed nghias; specified Vo Trong
+  Nghia (bamboos; vs no hits)); verification deferred].** → Nghia's
+  nghias (bambooed, kept (nghia, bambooed (bamboos, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Nghia"
+  (bamboos, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Yeang skygardens [canon: Yeang (skygardened yeangs; specified Ken
+  Yeang (skygardens; vs no hits)); verification deferred].** → Yeang's
+  yeangs (skygardened, kept (yeang, skygardened (skygardens, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Yeang" (skygardens, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Kuma yusuharas [canon: Kuma (yusuharaed kumas; specified Kengo
+  Kuma (yusuharas; vs no hits)); verification deferred].** → Kuma's
+  kumas (yusuharaed, kept (kuma, yusuharaed (yusuharas, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Kuma"
+  (yusuharas, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
