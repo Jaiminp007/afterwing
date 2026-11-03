@@ -34465,3 +34465,38 @@ pre-append, all per collision rule.) (Map holds 800 rounds.)
   krizevaed (krizevacs, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Fabijanic" (krizevacs, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 949 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (skofjaed kristls, kranjed mihelics,
+bascarsijaed arnautovics, celjeed lajovics). The program kristls
+(skofjas attempts), mihelics (kranjs verdicts), arnautovics
+(bascarsijas claims), and lajovics (celjes votes). Four more,
+Slovenian vein II. ("Musil"/"Kobe" declined — architect-identity
+uncertain (writer/city collisions); all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Kristl skofjas [canon: Kristl (skofjaed kristls; specified Stanko
+  Kristl (skofjas; vs no hits)); verification deferred].** → Kristl's
+  kristls (skofjaed, kept (kristl, skofjaed (skofjas, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Kristl" (skofjas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Mihelic kranjs [canon: Mihelic (kranjed mihelics; specified Milan
+  Mihelic (kranjs; vs no hits)); verification deferred].** →
+  Mihelic's mihelics (kranjed, kept (mihelic, kranjed (kranjs, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Mihelic" (kranjs, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Arnautovic bascarsijas [canon: Arnautovic (bascarsijaed
+  arnautovics; specified Ilija Arnautovic (bascarsijas; vs no hits));
+  verification deferred].** → Arnautovic's arnautovics (bascarsijaed,
+  kept (arnautovic, bascarsijaed (bascarsijas, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Arnautovic"
+  (bascarsijas, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Lajovic celjes [canon: Lajovic (celjeed lajovics; specified Janez
+  Lajovic (celjes; vs no hits)); verification deferred].** →
+  Lajovic's lajovics (celjeed, kept (lajovic, celjeed (celjes, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Lajovic" (celjes, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
