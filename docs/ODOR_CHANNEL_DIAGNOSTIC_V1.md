@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 40 (2026-11-02, read-only: spent R7 extinction trace)
+
+Extinction is the universal bleed uninterrupted. The only colony
+that ever died (R7, 1172370180, 1911 ticks) walks the SAME path
+as every arm on every round: 57→41→25→12, with turn rate FLAT
+at 0.31 throughout (0.321/0.309/0.345/0.301 — no panic, no
+freeze, no conservation). The last ten decisions: energies
+1.6→0.4, still turning. They starve doing exactly what they did
+when fed; behavior unchanged from 65 to 0.4. No special death
+mechanism — the ordinary path to its ordinary end, followed
+119 ticks past where R10 stops. This confirms the starvation
+story (R21) the hardest way: the bleed all arms share is the
+bleed that kills when uninterrupted. Survival is not adaptation
+(it never adapts — flat to the grave); survival is the run
+ending before the bleed ends you.
+
 ## Executed re-reading 39 (2026-11-02, read-only: spent R10 anchors A + D)
 
 The Go ranking is set in the first stretch: anchor-A order
