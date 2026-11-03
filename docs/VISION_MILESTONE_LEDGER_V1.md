@@ -13,8 +13,8 @@ exact open items. Nothing here changes any verdict.
   tax mapped; lossy transfer deployed). See VISION_M2_VERDICT +
   ADDENDA V1 (CLOSING) + V2 (MET).
 - M3 — bounded, checkpointed controller-change proposals vs
-  independent evals + budgets: MET as CAPABILITY (13-line C-series:
-  loop fires/evaluates/carries under caps, 260 mains). Product
+  independent evals + budgets: MET as CAPABILITY (16-line C-series:
+  loop fires/evaluates/carries under caps, 313 mains). Product
   absent — see RSI row.
 - M4 — richer bodies only after simpler explained / body transfer:
   CONFIRMED shut (V2 FAIL-body; V3-dev NOGO; triggers V1→V4 all
@@ -38,9 +38,13 @@ exact open items. Nothing here changes any verdict.
   on record: P&C active-column→knowledge base accelerates subsequent
   learning; unlicensed here);
   (c) embodied controller benefit; (d) learning-algorithm redesign
-  evidence. Current: capability without product (14/282/0).
-  Next: C16 FROZEN 2026-11-02 (cause-gated transfer, family #1;
-  R366/R371-licensed; 16 mains, fresh-32) or DTR path.
+  evidence. Current: capability without product (16 lines, 313 mains,
+  0 accepts; C16-NOGO vote-dilution, C17-INVALID freeze-deviation
+  with hostile descriptives + probe-audit constraints). Next: (i) a
+  new input-side rationale clearing the C17-bar with rate-normalized
+  gates + closed-loop correctness verification (unlicensed — needs
+  genuine novelty over C17, not a bugfix); (ii) odor DEV round for
+  the DTR path; (iii) DTR parts (i)–(iii) substrate builds.
 
 ## What "done" looks like (so stopping is checkable)
 
