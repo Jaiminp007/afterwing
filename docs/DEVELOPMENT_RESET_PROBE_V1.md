@@ -34,3 +34,10 @@ that is a future bounded run, not this one.
 ## Preservation
 Attempt, bank, rows, sources digests in
 `evidence/taste-development/dev-reset-probe-01/` (untracked raw evidence).
+
+## Bank-virginity audit (post-run, zero new worlds)
+Independent re-check: all 72 bank seeds (8 histories × seed/cueSeed/4
+resourceSeeds/3 probeSeeds, all unique) absent from every prior
+`evidence/**/protocol.json` (0 hits, bank + probe output excluded from the
+search) and from the tests/scripts integer-token pools (0 overlap). Exclusion
+pool at build: 24,703 seeds. Fresh-bank claim holds.
