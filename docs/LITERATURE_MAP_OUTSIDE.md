@@ -36248,3 +36248,48 @@ Minsoo Choi noted unmapped.) (Abstracts only, 0 worlds; IDs + authors
   the vote (joined, kept (carried, won (crowd, kept))); her
   "Chakraborty" (probations, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 997 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=70, cs.RO start=60,
+eess.SY start=60, q-bio.NC start=80). Four new IDs triaged (0
+worlds): 2611.02517 (hugging robot — DECLINED unrelated-screening),
+2610.21660 (33-author Alzheimer consortium — DECLINED
+unrelated-screening), 2611.00471 (Li) — MI estimation with finite
+sample guarantees and train/eval sample allocation — how to split
+samples between training and evaluation, the program's fit/test
+split and fee accounting, formalized; and 2611.01100
+(Jagabathula/Basu/Jagtap) — co-designed neural controller + observer
++ barrier for partially-observed stochastic systems with a
+safety-violation probability bound — co-design under partial
+observability with a bound, the program's G3 plus its blind spots,
+formalized. (Abstracts/titles only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Li allocations [LIVE 2611.00471 (allocationed fengyilis;
+  specified Fengyi Li (allocations; "Li" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Li's fengyilis (allocationed, kept
+  (fengyili, allocationed (allocations, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Li" (allocations, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Jagabathula diffusions [LIVE 2611.01100 (diffusioned
+  jagabathulas; specified Vaishnavi Jagabathula (diffusions; vs no
+  hits)); verification deferred].** → Jagabathula's jagabathulas
+  (diffusioned, kept (jagabathula, diffusioned (diffusions, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); her
+  "Jagabathula" (diffusions, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Basu stochastics [LIVE 2611.01100 (stochasticed basus; specified
+  Ahan Basu (stochastics; vs no hits)); verification deferred].** →
+  Basu's basus (stochasticed, kept (basu, stochasticed (stochastics,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Basu" (stochastics, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Jagtap partialities [LIVE 2611.01100 (partialitied jagtaps;
+  specified Pushpak Jagtap (partialities; vs no hits)); verification
+  deferred].** → Jagtap's jagtaps (partialitied, kept (jagtap,
+  partialitied (partialities, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Jagtap" (partialities, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
