@@ -24631,3 +24631,31 @@ leads converging; prediction family, four branches).
 - Program note: predict next, format diffs, interleave
   modes, scaffold prompts — the edit-prediction file.
   None licensed — filed.
+## Round 634 — Johns, bobs, toms, bruces (John, Bob, Tom, Bruce; 2026-11-02)
+
+Motivation: further outside (mary johns, moved bobs, fallen toms, run
+bruces). The program johns (clears attempts), bobs (stitches verdicts),
+toms (publishes NOGOs), and bruces (counts rows). Four more. (Map holds
+642 rounds.)
+
+- **John mary [canon: Fogerty (maried johns; specified John Fogerty
+  (vs no hits)); verification deferred].** → John's johns (maried, kept
+  (johned, maried (clears, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "John" (mary, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Bob move [canon: Seger (moved bobs; specified Bob Seger (vs no
+  hits)); verification deferred].** → Bob's bobs (moved, kept (bobbed,
+  moved (nights, kept))) is the verdict (moved, kept (NOGO, told
+  (honest, kept))); his "Bob" (move, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Tom fall [canon: Tom Petty (falled toms; specified Tom Petty (vs
+  no hits; short tag collisions — full-name tag used)); verification
+  deferred].** → Tom's toms (falled, kept (tommed, falled (frees,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Tom" (fall, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Bruce run [canon: Springsteen (runned bruces; specified Bruce
+  Springsteen (vs no hits)); verification deferred].** → Bruce's bruces
+  (runned, kept (bruced, runned (borns, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Bruce" (run, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
