@@ -28829,3 +28829,37 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   to "disambiguate cause vs consequence": any structural no-go
   claim must separate the two, or it mistakes the footprint for
   the foot. Outside negative-preservation instinct, adopted.
+## Round 788 — LIVE via OpenAlex: demixers, directors, receptors, occluders (Jang ACh-demix 2026, Nikolov IDS 2018, Dreyer phasic-tonic 2010, Harms spine-occlusion 2008; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Phase-ordered teaching [Jang et al. 2026, ACh demixes dopamine
+  for learning vs moving; vs no hits].** → Whether dopamine
+  predicts future behavior depends on PHASE vs the cholinergic
+  signal: lagging the dip → predicts learning; preceding → no
+  relationship; coincident-with-burst → movement. The clock rule
+  gains ordering: update must LAG the pause, never precede it.
+  Post-decision timing upgraded to pause-then-teach sequencing.
+- **Directed information [Nikolov et al. 2018, information-directed
+  exploration for deep RL; vs no hits].** → Heteroscedastic returns
+  break UCB/Thompson; IDS via distributional RL prices parametric
+  uncertainty + heteroscedastic noise separately (Atari gains). The
+  97%-negative heteroscedastic landscape is the IDS use-case by
+  name. A7's epistemic half gains its tractable method: explore by
+  information ratio over the distributional encoder, never by
+  ε-noise.
+- **Receptor mechanics [Dreyer et al. 2010, phasic/tonic dopamine
+  receptor model (no free parameters); vs no hits].** → Bursts
+  drive D1 occupancy; pauses drop D1 AND D2; phasic patterns mean
+  D1-up/D2-down vs tonic. Mechanizes A7's phasic rule: tonic-stop
+  is D2-tone hold; phasic-stop is burst (D1 learn-window) + pause
+  (D2 release) = rewrite window. Stop forms now read as receptor
+  occupancies, not metaphors.
+- **Occlusion signature [Harms et al. 2008, transient spine
+  expansion + LTP occlusion in motor learning; vs no hits].** →
+  Initial learning widens spines while TRANSIENTLY OCCLUDING LTP
+  (substrate saturates, then frees). Structural-signature rule:
+  look for transient occlusion, never permanent marks — and the
+  temporal order (expansion DURING initial learning) is what keeps
+  the root/result question empirical instead of philosophical.
