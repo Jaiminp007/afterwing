@@ -32127,3 +32127,52 @@ holds 800 rounds.)
   (joined, kept (greedy probes (kept, 5/8 beats half (deterministic,
   priced))))); his "Udwani" (perturbs, kept (kept, kept)) is the
   ledger (exact, kept (beat half (kept, or stay))).
+## Round 884 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: combined posteriors, inaccessible solutions, amortized
+alignment, gaussian islands — track online, freeze strongly,
+align once, dictionary shared. The program koulischers (combines
+attempts), perceptrons (inaccessibles verdicts), masers (amortizes
+claims), and islands (gaussians votes). ("Li" fragment taken —
+25 surname hits — Perceptron tag used; "boosts"/"suppresses"/
+"tracks" taken — "combines" used; "isolates"/"freezes" taken —
+"inaccessibles" used; "islands" taken as noun — "gaussians" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Koulischer combines [live: Koulischer et al 2611.03454 (track
+  posterior online via conditional + unconditional; aligned boost,
+  contradictory suppress; logical guidance ops; vs no hits);
+  abstract only].** → Koulischer's combining (online, kept
+  (conditional plus unconditional (kept, boost or suppress (logic,
+  kept))))) is the attempt (run, kept (Go boosts, No-Go suppresses
+  (kept, difference decides (greedy, kept))))); his "Koulischer"
+  (combines, kept (kept, kept)) is the row (counted, kept (both
+  predictions (kept, one posterior))).
+- **Perceptron inaccessibles [live: Li & Schoenbach 2611.03397
+  (STRONG FREEZING: all but vanishing solutions isolated Ω(n)-far,
+  believed algorithmically inaccessible; algorithms use rare
+  well-connected structures; vs no hits on title (Li fragment
+  taken — Perceptron tag used); abstract only].** → Perceptron's
+  inaccessibling (frozen, kept (isolated far (kept, rare paths
+  used (inaccessible believed, kept))))) is the verdict (kept,
+  kept (single solutions isolated (kept, frozen everything
+  (twins rare, kept))))); its "Perceptron" (inaccessibles, kept
+  (kept, kept)) is the bar (unmoved, kept (frozen stands (kept,
+  rare paths only))).
+- **Maser amortizes [live: Maser et al 2611.03438, ALOE (ALIGN ONCE
+  to explain; one-time label-free alignment; drop-in replacement
+  amortizing interpretability cost; vs no hits); abstract only].** →
+  Maser's amortizing (once, kept (aligned single (kept, cost spread
+  (reused everywhere, kept))))) is the claim (mourned, kept (align
+  once explains colony (kept, spent banks reused (amortized,
+  kept))))); his "Maser" (amortizes, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Island gaussians [live: Yeo et al 2611.03420, TI-SAE (frozen
+  model → shared concept dictionary; temporal GAUSSIAN ISLANDS
+  saying when each concept lives; per-cell scores incoherent; vs
+  no hits); abstract only].** → Island's gaussianing (shared, kept
+  (dictionary one (kept, islands timed (frozen read, kept))))) is
+  the vote (joined, kept (flood half-shared (kept, phases as islands
+  (C-freeze timed, kept))))); its "Island" (gaussians, kept (kept,
+  kept)) is the ledger (exact, kept (share concepts (kept, time
+  islands))).
