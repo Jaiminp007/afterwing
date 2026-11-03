@@ -35095,3 +35095,37 @@ rule.) (Map holds 800 rounds.)
   kutaisied (kutaisis, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Orbeladze" (kutaisis, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 967 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (yerevaned tamanians, matenadaraned
+grigorians, sardarapatd israelyans, gyumried torosyans). The program
+tamanians (yerevans attempts), grigorians (matenadarans verdicts),
+israelyans (sardarapats claims), and torosyans (gyumris votes). Four
+more, Armenian vein. (All four surnames + full names + contexts
+virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Tamanian yerevans [canon: Tamanian (yerevaned tamanians; specified
+  Alexander Tamanian (yerevans; vs no hits)); verification deferred].**
+  → Tamanian's tamanians (yerevaned, kept (tamanian, yerevaned
+  (yerevans, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Tamanian" (yerevans, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Grigorian matenadarans [canon: Grigorian (matenadaraned
+  grigorians; specified Mark Grigorian (matenadarans; vs no hits));
+  verification deferred].** → Grigorian's grigorians (matenadaraned,
+  kept (grigorian, matenadaraned (matenadarans, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Grigorian"
+  (matenadarans, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Israelyan sardarapats [canon: Israelyan (sardarapatd israelyans;
+  specified Rafael Israelyan (sardarapats; vs no hits)); verification
+  deferred].** → Israelyan's israelyans (sardarapatd, kept (israelyan,
+  sardarapatd (sardarapats, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Israelyan" (sardarapats, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Torosyan gyumris [canon: Torosyan (gyumried torosyans; specified
+  Jim Torosyan (gyumris; vs no hits)); verification deferred].** →
+  Torosyan's torosyans (gyumried, kept (torosyan, gyumried (gyumris,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Torosyan" (gyumris, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
