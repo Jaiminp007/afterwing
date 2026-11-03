@@ -28,7 +28,22 @@ always-stop ⇒ B1 with extra steps). A B4 failure looks like
 fluctuation or collapse — nothing like starvation (B1) or poisoning
 (B2). Different mechanism, different signature, different falsifier.
 
-## License gate (pre-registered, zero new worlds)
+## License-gate outcome (EXECUTED 2026-11-02, zero new worlds — CLOSED)
+
+Offline logistic probe on spent acquisition traces (read-only):
+267,739 (R5) + 267,608 (R6) decision→next-tick energy-sign pairs.
+Base rates: P(+|viable)≈3.0%, P(+|!viable)≈0.7–0.9% — per-tick
+energy deltas are ~97% negative (metabolic cost dominates; reward is
+"lose slowly by default, occasionally gain" — itself a record of
+why TD struggles here). Viability-only test-acc 0.9699/0.9710 vs
+full-phi 0.9722/0.9719: edge +0.23pp/+0.09pp — the learnable mapping
+is the constant predictor. A router trained on this signal routes
+everything one way (entropy → 0), which is the falsifier's collapse
+branch firing before any world is spent. Premise fails in the only
+sense that matters (actionable routing signal beyond viability:
+none). B4 CLOSED UNSPENT — the license gate working as designed.
+The fixed switch already encodes everything learnable about
+branch selection from these features.
 
 Before any round-7 scoping, the core premise gets an offline test
 on SPENT traces (R5/R6 rows, read-only, non-qualifying per the
