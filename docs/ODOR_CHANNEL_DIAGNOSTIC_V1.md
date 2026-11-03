@@ -518,6 +518,15 @@ H=0" (512/512 action-2) and "cruise dominant" read correctly;
 the entropy was computed over {turn, stay, cruise}, not arbitrary
 codes. The ledger's newest numbers mean what they say.
 
+Precision 8 (2026-11-03): uniformity line-wide — acquire-phase
+entropy recomputed for R8 and R9 (~equal decades of decisions):
+H∈[1.582,1.585] and [1.580,1.584] across all 16 histories
+(range widths 0.003–0.004 — flat to the third decimal). Training
+explores uniformly in every round; transfer differentiates in
+every round. The "training is uniform noise" half of R51's
+texture generalizes line-wide even though the transfer-H half
+does not. A uniform spring, divergent fates — everywhere.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
