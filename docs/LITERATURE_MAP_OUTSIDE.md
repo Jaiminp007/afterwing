@@ -24367,3 +24367,34 @@ more. (Map holds 632 rounds.)
   kept (sandied, timed (whos, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Sandy" (time, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 625 — Balanced, evolved, harnessed, guided (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: grounded self — improve
+from your own experience but verify (already-cited
+self-evolution/verification leads converging; self family,
+four branches).
+
+- **Grounded self-improvement [arXiv:2609.03241 (Huang /
+  FlowBalance; vs no hits)].** Fragile INNER loop
+  (sparse-terminal + dense-guidance; normalized
+  distribution; frozen view). → Ground the loop (our
+  flat-fee math, balance-side). Filed.
+- **Physical self-evolution [arXiv:2610.34921 (Hu /
+  PhysEvolve; vs no hits)].** Construct OWN problems
+  (executable worlds; factual vs counterfactual).
+  → Evolve physically (our embodied track,
+  evolve-side). Filed.
+- **Harness optimization [arXiv:2608.10157 (Kulkarni /
+  SBCO; vs no hits)].** Competence ALIGNMENT (self-
+  reference; reduce engineering; planning agents).
+  → Optimize the harness (our runners+scorers,
+  harness-side). Filed.
+- **Trace-guided planning [arXiv:2602.12244 (Liu /
+  TGPO; vs no hits)].** Verifiable SUBGOALS (LLM
+  intent + symbolic feasibility; long horizons). →
+  Guide by traces (our per-tick math, guide-side).
+  Filed.
+- Program note: ground loops, evolve physically,
+  optimize harnesses, guide by traces — the
+  grounded-self file. None licensed — filed.
