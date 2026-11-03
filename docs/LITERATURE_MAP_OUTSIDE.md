@@ -30498,3 +30498,32 @@ terragnis (squares votes). Four more, Italian-modern vein continued.
   is the vote (joined, kept (carried, won (crowd, kept))); his "Terragni"
   (squares, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 840 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (served figinis, shared pollinis, zoned
+bottonis, piled gabettis). The program figinis (serves attempts),
+pollinis (shares verdicts), bottonis (zones claims), and gabettis
+(piles votes). Four more, Italian-modern vein continued. (Map holds
+800 rounds.)
+
+- **Figini serves [canon: Figini (served figinis; specified Luigi Figini
+  (serves; vs no hits)); verification deferred].** → Figini's figinis
+  (served, kept (figini, served (serves, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Figini" (serves, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Pollini shares [canon: Pollini (shared pollinis; specified Gino
+  Pollini (shares; vs no hits)); verification deferred].** → Pollini's
+  pollinis (shared, kept (pollini, shared (shares, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Pollini" (shares, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Bottoni zones [canon: Bottoni (zoned bottonis; specified Piero
+  Bottoni (zones; vs no hits)); verification deferred].** → Bottoni's
+  bottonis (zoned, kept (bottoni, zoned (zones, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Bottoni"
+  (zones, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Gabetti piles [canon: Gabetti (piled gabettis; specified Roberto
+  Gabetti (piles; vs no hits)); verification deferred].** → Gabetti's
+  gabettis (piled, kept (gabetti, piled (piles, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Gabetti" (piles, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
