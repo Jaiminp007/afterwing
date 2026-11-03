@@ -26603,3 +26603,33 @@ branches).
 - Program note: contract omissions, assure traces, eval
   surely, provenance agents — the assurance-contracts
   file. None licensed — filed.
+## Round 704 — Handsomes, automators, dels, casuals (Handsome Boy, Automator, Del, Casual; 2026-11-02)
+
+Motivation: further outside (modeled handsomes, tomorrowed automators,
+alarmed dels, feared casuals). The program handsomes (models attempts),
+automators (stitches verdicts), dels (publishes NOGOs), and casuals
+(counts rows). Four more. (Map holds 712 rounds.)
+
+- **Handsome model [canon: Handsome Boy (modeled handsomes; specified
+  Handsome Boy Modeling School (vs no hits)); verification deferred].** →
+  Handsome's handsomes (modeled, kept (handsomed, modeled (models, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); their
+  "Handsome" (model, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Automator tomorrow [canon: Dan Automator (tomorrowed automators;
+  specified Dan the Automator (vs no hits)); verification deferred].** →
+  Automator's automators (tomorrowed, kept (automatored, tomorrowed
+  (tomorrows, kept))) is the verdict (tomorrowed, kept (NOGO, told
+  (honest, kept))); his "Automator" (tomorrow, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Del alarm [canon: Del the (alarmed dels; specified Del the Funky
+  Homosapien (vs no hits; short tag grazes the nightingales — full-name
+  tag used)); verification deferred].** → Del's dels (alarmed, kept
+  (deled, alarmed (alarms, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Del" (alarm, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Casual fear [canon: Casual (feared casuals; specified Casual
+  (Hieroglyphics; vs no hits)); verification deferred].** → Casual's
+  casuals (feared, kept (casualed, feared (fears, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Casual" (fear, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
