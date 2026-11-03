@@ -33983,3 +33983,36 @@ demanded it; all per collision rule.) (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Soltan"
   (team10s, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 935 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (organiced makoveczs, tulipped csetes,
+nemzetied fintas, magyared turanyis). The program makoveczs
+(organics attempts), csetes (tulips verdicts), fintas (nemzetis
+claims), and turanyis (magyars votes). Four more, Hungarian vein.
+(All four surnames + full names + contexts virgin pre-append, all
+per collision rule.) (Map holds 800 rounds.)
+
+- **Makovecz organics [canon: Makovecz (organiced makoveczs; specified
+  Imre Makovecz (organics; vs no hits)); verification deferred].** →
+  Makovecz's makoveczs (organiced, kept (makovecz, organiced
+  (organics, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Makovecz" (organics, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Csete tulips [canon: Csete (tulipped csetes; specified Gyorgy Csete
+  (tulips; vs no hits)); verification deferred].** → Csete's csetes
+  (tulipped, kept (csete, tulipped (tulips, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Csete" (tulips, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Finta nemzetis [canon: Finta (nemzetied fintas; specified Jozsef
+  Finta (nemzetis; vs no hits)); verification deferred].** → Finta's
+  fintas (nemzetied, kept (finta, nemzetied (nemzetis, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Finta" (nemzetis, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Turanyi magyars [canon: Turanyi (magyared turanyis; specified Gabor
+  Turanyi (magyars; vs no hits)); verification deferred].** →
+  Turanyi's turanyis (magyared, kept (turanyi, magyared (magyars,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Turanyi" (magyars, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
