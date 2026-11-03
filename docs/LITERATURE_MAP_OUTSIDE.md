@@ -26405,3 +26405,30 @@ rows). Four more. (Map holds 704 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Shogun"
   (assasson, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 697 — Preserved, natived, disentangled, printed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: shape preserving — keep
+the structure while changing the surface (already-cited
+preservation leads converging; preservation family, four
+branches).
+
+- **Shape preserve [arXiv:2406.16970 (Lee; vs no
+  hits)].** Retain DISTINCTIVE features (statistical +
+  spread; surrogate data). → Preserve shapes (our
+  retained weights, preserve-side). Filed.
+- **Graph native [arXiv:2607.06532 (Guo / GraphBU; vs
+  no hits)].** Record HOW local couples (template/stats/
+  edits insufficient). → Native graphs (our per-line
+  ledgers, native-side). Filed.
+- **Dual disentangle [arXiv:2308.08935 (Cong / SDDNet;
+  vs no hits)].** Background vs SHADOW layers (separation
+  + recombination; style-guided). → Disentangle dual
+  (our flip-split design, disentangle-side). Filed.
+- **Lab fab [arXiv:2603.06827 (Taranenko; vs no hits)].**
+  Lab-optimal ≠ MANUFACTURABLE (ink/drying/integration;
+  record efficiency). → Print fab (our frozen verdicts,
+  print-side). Filed.
+- Program note: preserve shapes, native graphs,
+  disentangle dual, print fab — the shape-preserving
+  file. None licensed — filed.
