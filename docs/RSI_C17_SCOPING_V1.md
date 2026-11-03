@@ -63,8 +63,28 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
 
 ## Open items before any freeze (all must close)
 
-- **Q3 surrogate-bank procedure:** exact probe protocol for max-turn
-  propensity, norm-matching, bank size, billing through `m`.
+- **Q3 surrogate-bank procedure: CLOSED at shape level 2026-11-02
+  (analytic); numerics deferred to freeze.** (a) Bank: K fixed
+  random 96-dim vectors, norm-matched to mean codebook-vector norm
+  (magnitude preserved, only direction changes). (b) Probe: each
+  bank vector presented to the FROZEN transplanted controller across
+  S states sampled from the wounded policy's own transfer rollouts
+  (ecologically valid, not a synthetic grid); turn propensity =
+  fraction of turn decisions, mean over states, max-over-states
+  reported as robustness diagnostic. (c) Selection: for a
+  beneficial-evidenced cue, the bank vector with MINIMUM mean turn
+  propensity (cruise-address). CORRECTION to the consult sketch,
+  which said "maximum": maximum-turn would address beneficial cues
+  to turn — the wound direction. Scoping adopts min-mean; the
+  deviation is recorded here, not silently made. (d) Evidence gate:
+  reassignment only after direct beneficial evidence for that cue
+  (cruise + intake observed, threshold count deferred); no pooling
+  across cues. (e) Retention: keep iff post-assignment
+  cue-specific intake rate beats pre-assignment baseline, else
+  revert to the original vector. (f) Billing: every probe decision
+  billed through `m` like all inference (symmetric billing); memory
+  read/write ops billed per op. Deferred numerics (K, S, evidence
+  threshold, retention window, cap math) belong in the frozen plan.
 - **Q4 direction-first bar:** pre-registered HB-only prediction
   (BH must stay flat), pooled-vote ban holds (cue-specific only),
   shuffled-control dose-match per the C7 CORRECTION precedent.
@@ -75,7 +95,7 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
 
 ## Verdict
 
-SCOPED-CANDIDATE (Q1, Q2 closed). C17 remains UNLICENSED until Q3–Q6
+SCOPED-CANDIDATE (Q1–Q3 closed). C17 remains UNLICENSED until Q4–Q6
 close in a frozen plan. The C17-bar (genuinely new + non-pooled external-or-max +
 direction-first) is provisionally met on paper: input-side (unmapped
 locus), cue-specific external probe statistic, HB-first prediction.
