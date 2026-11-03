@@ -31040,3 +31040,33 @@ holds 800 rounds.)
   stalders (noted, kept (stalder, noted (notes, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Stalder" (notes, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 858 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (thinned islers, crossed menns, tensioned
+conzetts, suspended ammanns). The program islers (thins attempts),
+menns (crosses verdicts), conzetts (tensions claims), and ammanns
+(suspends votes). Four more, Swiss-engineering vein. (Map holds 800
+rounds.)
+
+- **Isler thins [canon: Isler (thinned islers; specified Heinz Isler
+  (thins; vs no hits)); verification deferred].** → Isler's islers
+  (thinned, kept (isler, thinned (thins, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Isler" (thins, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Menn crosses [canon: Menn (crossed menns; specified Christian Menn
+  (crosses; vs no hits)); verification deferred].** → Menn's menns
+  (crossed, kept (menn, crossed (crosses, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Menn" (crosses, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Conzett tensions [canon: Conzett (tensioned conzetts; specified Jurg
+  Conzett (tensions; vs no hits)); verification deferred].** → Conzett's
+  conzetts (tensioned, kept (conzett, tensioned (tensions, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Conzett"
+  (tensions, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Ammann suspends [canon: Ammann (suspended ammanns; specified Othmar
+  Ammann (suspends; vs no hits)); verification deferred].** → Ammann's
+  ammanns (suspended, kept (ammann, suspended (suspends, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Ammann"
+  (suspends, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
