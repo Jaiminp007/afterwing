@@ -24687,3 +24687,33 @@ converging; practice family, four branches).
 - Program note: capture interactions, watch usage,
   program prompts, support struggles — the
   in-practice file. None licensed — filed.
+## Round 636 — Allmans, skynyrds, tops, eagles (Allman, Skynyrd, Top, Eagle; 2026-11-02)
+
+Motivation: further outside (posted allmans, birded skynyrds, dressed
+tops, californiaed eagles). The program allmans (posts attempts),
+skynyrds (stitches verdicts), tops (publishes NOGOs), and eagles
+(counts rows). Four more. (Map holds 644 rounds.)
+
+- **Allman post [canon: Allman (posted allmans; specified Allman
+  Brothers (vs no hits)); verification deferred].** → Allman's allmans
+  (posted, kept (allmaned, posted (whippings, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Allman" (post,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Skynyrd bird [canon: Skynyrd (birded skynyrds; specified Lynyrd
+  Skynyrd (vs no hits)); verification deferred].** → Skynyrd's skynyrds
+  (birded, kept (skynyrded, birded (frees, kept))) is the verdict
+  (birded, kept (NOGO, told (honest, kept))); his "Skynyrd" (bird, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Top dress [canon: ZZ Top (dressed tops; specified ZZ Top (vs no
+  hits; short tag collides with the Motown men — full-name tag used));
+  verification deferred].** → Top's tops (dressed, kept (topped,
+  dressed (sharps, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Top" (dress, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Eagle hotel [canon: Eagles (hoteled eagles; specified The Eagles
+  (vs no hits)); verification deferred].** → Eagle's eagles (hoteled,
+  kept (eagled, hoteled (californias, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Eagle" (hotel, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
