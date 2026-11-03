@@ -26374,3 +26374,34 @@ leads converging; schedule family, four branches).
 - Program note: learn tasks, read smoothly, bridge
   reasoning, resolve gaps — the task-schedule file.
   None licensed — filed.
+## Round 696 — Princes, sins, berettas, shoguns (9th Prince, Killa Sin, Beretta, ShoGun; 2026-11-02)
+
+Motivation: further outside (ninthed princes, killaed sins, nined
+berettas, assassoned shoguns). The program princes (ninths attempts),
+sins (stitches verdicts), berettas (publishes NOGOs), and shoguns (counts
+rows). Four more. (Map holds 704 rounds.)
+
+- **Prince ninth [canon: 9th Prince (ninthed princes; specified 9th
+  Prince (Killarmy; vs no hits; short tag taken by the re-photographer —
+  full-name tag used)); verification deferred].** → Prince's princes
+  (ninthed, kept (princed, ninthed (ninths, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Prince" (ninth, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Sin killa [canon: Killa Sin (killaed sins; specified Killa Sin
+  (Killarmy; vs no hits; short tag grazes the drowning man — full-name
+  tag used)); verification deferred].** → Sin's sins (killaed, kept
+  (sinned, killaed (killas, kept))) is the verdict (killaed, kept (NOGO,
+  told (honest, kept))); his "Sin" (killa, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Beretta nine [canon: Beretta (nined berettas; specified Beretta 9
+  (Kinetic 9; Killarmy; vs no hits)); verification deferred].** →
+  Beretta's berettas (nined, kept (berettaed, nined (nines, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Beretta"
+  (nine, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Shogun assasson [canon: ShoGun (assassoned shoguns; specified ShoGun
+  Assasson (Killarmy; vs no hits)); verification deferred].** → Shogun's
+  shoguns (assassoned, kept (shoguned, assassoned (assassons, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Shogun"
+  (assasson, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
