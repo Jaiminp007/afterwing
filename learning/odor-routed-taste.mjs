@@ -24,15 +24,30 @@ export function predictTargetTaste(state,cue,cueTastePolicy=null){
   if(cueTastePolicy!==null){assert.ok(state.cueTaste);state.work.scalarOperations+=60;return predictDecoupledCueTaste(state.cueTaste,cue,cueTastePolicy);}
   return .05+.9*prediction(state,features(state,cue));
 }
-function update(state,record){
-  const error=record.target-prediction(state,record.phi),step=.5*error/tasteScale;
+function update(state,record,mode){
+  assert.ok(mode==='live'||mode==='replay');
+  // A2 adaptive baseline (docs/ODOR_DEV_ROUND8_AMENDMENT_A2.md, frozen):
+  // c tracks the background target rate (EMA, alpha=baselineRate);
+  // centered error = (target-c)-prediction. EMA computed-always/
+  // apply-live: uniform +4 billing in both modes (48->52 lumped);
+  // behavior changes only when baselineRate>0 (plain-JS gate, no RNG
+  // draws, so null arms match legacy code in weights/decisions).
+  const alpha=state.taste.baselineRate??0;
+  let target=record.target;
+  if(alpha>0){
+    const nextC=state.taste.baselineC+alpha*(record.target-state.taste.baselineC);
+    if(mode==='live')state.taste.baselineC=nextC;
+    target=record.target-state.taste.baselineC;
+  }
+  const error=target-prediction(state,record.phi),step=.5*error/tasteScale;
   for(let index=0;index<11;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
-  state.work.scalarOperations+=4+11*4;
+  state.work.scalarOperations+=4+11*4+4;
 }
-export function createOdorRoutedTasteBody(agentId,seed){
+export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0}={}){
+  assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
-  state.taste={weights:Array(11).fill(0),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1};
+  state.taste={weights:Array(11).fill(0),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate};
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){
@@ -73,15 +88,15 @@ export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
       state.taste.seen++;state.work.scalarOperations+=3;
       if(state.taste.memory.length<32)state.taste.memory.push(record);
       else{const index=Math.floor(draw(state)*state.taste.seen);state.work.scalarOperations+=3;if(index<32)state.taste.memory[index]=record;}
-      update(state,record);
+      update(state,record,'live');
       const index=Math.floor(draw(state)*state.taste.memory.length);state.work.scalarOperations+=2;
-      update(state,state.taste.memory[index]);
+      update(state,state.taste.memory[index],'replay');
     }
   }
   observeOdorRoutedMotor(state,own);
 }
 export function freezeOdorRoutedTaste(state){freezeOdorRoutedMotor(state);}
 export function resetOdorRoutedTaste(state){
-  resetOdorRoutedMotor(state);state.taste.weights.fill(0);state.taste.memory=[];state.taste.seen=0;state.work.scalarOperations+=12;
+  resetOdorRoutedMotor(state);state.taste.weights.fill(0);state.taste.memory=[];state.taste.seen=0;state.taste.baselineC=0;state.work.scalarOperations+=12;
   if(state.cueTaste){const before=state.cueTaste.work.scalarOperations;resetDecoupledCueTaste(state.cueTaste);state.work.scalarOperations+=state.cueTaste.work.scalarOperations-before;}
 }

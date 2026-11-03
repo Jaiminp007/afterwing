@@ -31,7 +31,7 @@ const steeringMethods={
 const methods=run=>steeringMethods[run.steeringLearner??'original'];
 
 export class OdorRoutedExperiment extends OwnSteeringExperiment{
-  constructor({trainingRegime='continuous',steeringLearner='original',steeringDims=null,spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,...options}){
+  constructor({trainingRegime='continuous',steeringLearner='original',steeringDims=null,spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,baselineRate=0,...options}){
     assert.ok(['continuous','freeze-after-A','reset-each-phase'].includes(trainingRegime));
     assert.ok(Object.hasOwn(steeringMethods,steeringLearner));
     assert.ok(['filtered','incremental'].includes(spatialSelector));
@@ -53,8 +53,9 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     assert.ok(steeringLearner!=='soft-gated'||steeringDims===null,'soft-gated mixture carries its own frozen 10 dims');
     assert.ok(phaseTable===null||trainingRegime==='continuous','custom phase tables support continuous regime only');
     assert.ok(phaseDurations===null||Array.isArray(phaseDurations)&&phaseDurations.length===(phaseTable??CONTINUAL_PHASES).length&&phaseDurations.every(value=>Number.isSafeInteger(value)&&value>0));
+    assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
     super(options);
-    this.trainingRegime=trainingRegime;this.steeringLearner=steeringLearner;this.spatialSelector=spatialSelector;
+    this.trainingRegime=trainingRegime;this.steeringLearner=steeringLearner;this.spatialSelector=spatialSelector;this.baselineRate=baselineRate;
     if(steeringLearner==='gated')this.steeringDims=10;
     if(steeringLearner==='soft-gated')this.steeringDims=10;
     if(steeringDims!==null)this.steeringDims=steeringDims;
@@ -72,7 +73,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     if(cueCurriculum==='adjacent-opposed'){const book=makeAdjacentConflictCodebook(this.history.cueSeed);assert.deepEqual(book.A,this.codebook.A);this.codebook=book;this.cueCurriculum=cueCurriculum;}
     for(const fly of this.world.flies){
       const old=this.learners[fly.id],seed=(this.history.seed^Math.imul(fly.id,2654435761))>>>0||1;
-      const state=createOdorRoutedTasteBody(fly.id,seed);
+      const state=createOdorRoutedTasteBody(fly.id,seed,{baselineRate:this.baselineRate??0});
       state.steering=steeringLearner==='replay'?createReplaySteering(fly.id,old.steering.rngState):steeringLearner==='cue-shared'?createCueSharedSteering(fly.id,old.steering.rngState,steeringProjection,steeringProtection):old.steering;
       if(steeringDims!==null)state.steering=createOwnSteering(fly.id,old.steering.rngState,steeringDims);
       if(steeringLearner==='gated')state.steering=createGatedSteering(fly.id,old.steering.rngState);
@@ -172,7 +173,9 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
   checkpoint(includeAnchors=true){const value=super.checkpoint(includeAnchors);value.kind='odor-routed-world';return value;}
   static restore(checkpoint,emit=null){
     assert.equal(checkpoint.kind,'odor-routed-world');const run=Object.create(OdorRoutedExperiment.prototype);
-    Object.assign(run,structuredClone(checkpoint.state));run.world=World.restore(checkpoint.world);run.anchors=structuredClone(checkpoint.anchors);run.attach(emit);run.attachSpatial();return run;
+    Object.assign(run,structuredClone(checkpoint.state));run.world=World.restore(checkpoint.world);run.anchors=structuredClone(checkpoint.anchors);
+    for(const state of Object.values(run.learners))if(state.taste){if(state.taste.baselineC===undefined)state.taste.baselineC=0;if(state.taste.baselineRate===undefined)state.taste.baselineRate=0;}
+    run.attach(emit);run.attachSpatial();return run;
   }
   static fork(anchor,{phase='A',seed,mode='current',modelAnchor=null,steeringMode=null,fixedMove=null,compactFrozen=false,wallShortcut=false,cueNativeProof=false,targetCueMode=null,emit=null}){
     assert.ok(['A','B','C','transfer'].includes(phase));assert.ok(['current','reset'].includes(mode));
