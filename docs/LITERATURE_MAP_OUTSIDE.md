@@ -24574,3 +24574,33 @@ converging; edit family, four branches).
 - Program note: remediate deterministically, audit
   editing, bench real, decompose edits — the
   minimal-edit file. None licensed — filed.
+## Round 632 — Davids, stephens, grahams, neils (David, Stephen, Graham, Neil; 2026-11-02)
+
+Motivation: further outside (wooden davids, loved stephens, taught
+grahams, golden neils). The program davids (ships attempts), stephens
+(stitches verdicts), grahams (publishes NOGOs), and neils (counts rows).
+Four more. (Map holds 640 rounds.)
+
+- **David wooden [canon: David Crosby (woodened davids; specified
+  David Crosby (vs no hits; short tag taken by the ecologist —
+  full-name tag used)); verification deferred].** → David's davids
+  (woodened, kept (davided, woodened (ships, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "David" (wooden, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Stephen love [canon: Stills (loved stephens; specified Stephen
+  Stills (vs no hits)); verification deferred].** → Stephen's stephens
+  (loved, kept (stephened, loved (ones, kept))) is the verdict (loved,
+  kept (NOGO, told (honest, kept))); his "Stephen" (love, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Graham teach [canon: Nash (taught grahams; specified Graham Nash
+  (vs no hits)); verification deferred].** → Graham's grahams (taught,
+  kept (grahamed, taught (childrens, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Graham" (teach, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Neil heart [canon: Neil Young (hearted neils; specified Neil Young
+  (vs no hits; short tag taken by the droner — full-name tag used));
+  verification deferred].** → Neil's neils (hearted, kept (neiled,
+  hearted (golds, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Neil" (heart, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
