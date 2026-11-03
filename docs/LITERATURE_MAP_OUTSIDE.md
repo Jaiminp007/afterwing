@@ -27537,3 +27537,30 @@ and aichers (ulms votes). Four more. (Map holds 742 rounds.)
   (ulmed, kept (aicher, ulmed (ulms, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Aicher" (ulm, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 737 — Compiled, stabilized, demystified, evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: skill-transfer — author
+the skill, stabilize the loop, ask when, confirm
+deployment (already-cited frozen leads converging;
+transfer family, four branches).
+
+- **Compile once [arXiv:2610.25114 (Bai; vs no
+  hits)].** Offline AUTHOR (writes/runs/diagnoses/repairs;
+  exam after freezing; what RSI adds). → Compile skills
+  (our frozen instruments, compiled-side). Filed.
+- **SkillAdam [arXiv:2609.08944 (Li; vs no
+  hits)].** Heuristics UNSTABLE (low iteration efficiency;
+  stable + efficient). → Stabilize evolution (our frozen
+  bars, stabilized-side). Filed.
+- **Demystify [arXiv:2608.14036 (Jiang; vs no
+  hits)].** Aggregates HIDE (when + why + where fail;
+  representation/annotation/retrieval). → Demystify skills
+  (our per-leg flip-splits, demystified-side). Filed.
+- **Evo2Team [arXiv:2609.34135 (Wang; vs no
+  hits)].** Bank helps one LEAVES ANOTHER (helps only
+  when target acts; select/adapt/confirm). → Evolve teams
+  (our transfer test, evolved-side). Filed.
+- Program note: compile skills, stabilize evolution,
+  demystify skills, evolve teams — the skill-transfer file.
+  None licensed — filed.
