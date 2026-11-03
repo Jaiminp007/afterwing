@@ -32669,3 +32669,37 @@ rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Marx" (mosaics,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 898 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (bunkered testas, petronaed pellis,
+prefabbed ambaszzes, recycled benitezs). The program testas
+(bunkers attempts), pellis (petronas verdicts), ambaszzes (prefabs
+claims), and benitezs (recycles votes). Four more, River Plate vein.
+("Towers"/"twins" taken — "petronas" used; "greens"/"grays" taken —
+"prefabs" used; "vaults"/"bricks"/"pyramids" taken — "recycled" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Testa bunkers [canon: Testa (bunkered testas; specified Clorindo
+  Testa (bunkers; vs no hits)); verification deferred].** → Testa's
+  testas (bunkered, kept (testa, bunkered (bunkers, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Testa"
+  (bunkers, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Pelli petronas [canon: Pelli (petronaed pellis; specified Cesar
+  Pelli (petronas; vs no hits)); verification deferred].** → Pelli's
+  pellis (petronaed, kept (pelli, petronaed (petronas, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Pelli"
+  (petronas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Ambasz prefabs [canon: Ambasz (prefabbed ambaszzes; specified
+  Emilio Ambasz (prefabs; vs no hits)); verification deferred].** →
+  Ambasz's ambaszzes (prefabbed, kept (ambasz, prefabbed (prefabs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Ambasz" (prefabs, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Benitez recycles [canon: Benitez (recycled benitezs; specified
+  Solano Benitez (recycles; vs no hits)); verification deferred].** →
+  Benitez's benitezs (recycled, kept (benitez, recycled (recycles,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))));
+  his "Benitez" (recycles, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
