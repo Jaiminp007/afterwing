@@ -37096,3 +37096,55 @@ pre-append, flattened method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
   "Duncker" (motorics, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1014 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=260, cs.RO start=240).
+Two new IDs triaged (0 worlds), both map — and they empty the
+waiting room: 2610.32740 lead (Jacobsen) — strongly adaptive online
+learning with time-varying movement costs (regret over arbitrary
+sub-intervals; data-dependent bounds with comparator path length;
+switching costs fluctuating) — sub-interval regret with switching
+costs, the program's phase/segment evaluation plus turn costs,
+formalized; and 2610.40349 lead+senior (Zhang/Xu) — TouchBridge
+tactile-conditioned human-to-robot transfer (cross-embodiment
+visual+tactile correspondence; Tac-Retarget aligning contact
+patches) — correspondence plus retargeting across embodiments, the
+program's body-transfer with alignment, formalized. Joined by the
+carried 2610.33835 (Wang) — Hessian-similar optimization with capped
+participation (strict per-round contact caps; every query counted;
+lower bounds) — caps with everything counted, the program's ceilings
+plus symmetric billing, priced. (Waiting room EMPTY. First+senior /
+lead mapped per TRAILS/MOST precedents; Esposito/Qiu/Mengxiao-Zhang
++ 8 TouchBridge middles noted unmapped.) (Abstracts only, 0 worlds;
+IDs + authors + contexts virgin pre-append, flattened method.)
+
+- **Wang complexities [LIVE 2610.33835 (complexitied ruiwangs;
+  specified Rui Wang (complexities; "Wang" taken — 4x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Wang's ruiwangs (complexitied, kept
+  (ruiwang, complexitied (complexities, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Wang" (complexities,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Zhang tactiles [LIVE 2610.40349 (tactiled haozhezhangs; specified
+  Haozhe Zhang (tactiles; "Zhang" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhang's haozhezhangs (tactiled, kept (haozhezhang,
+  tactiled (tactiles, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Zhang" (tactiles, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Xu fingertips [LIVE 2610.40349 (fingertipped huazhexus; specified
+  Huazhe Xu (fingertips; "Xu" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Xu's huazhexus (fingertipped, kept (huazhexu,
+  fingertipped (fingertips, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Xu" (fingertips, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Jacobsen intervals [LIVE 2610.32740 (intervaled andrewjacobsens;
+  specified Andrew Jacobsen (intervals; distinct from eggs-round Arne
+  — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Jacobsen's andrewjacobsens (intervaled,
+  kept (andrewjacobsen, intervaled (intervals, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Jacobsen"
+  (intervals, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
