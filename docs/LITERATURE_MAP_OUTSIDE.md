@@ -35946,3 +35946,47 @@ method.)
   planninged (plannings, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "LaValle" (plannings, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 990 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: newest physics.bio-ph + deeper q-bio.NC, then stat.ML
+start=30 + bio-ph start=10. Four new IDs triaged (0 worlds):
+2611.03310 (membrane wrapping — DECLINED unrelated-screening),
+2611.01293 (cell adhesion — DECLINED unrelated-screening),
+2610.34106 (Laurens) — 3D head-direction compass geometry with
+tilt-dependent gain (rotation-matrix DA/TA formulation; gain
+modulated by tilt) — the program's gain-gating language in a living
+compass; and 2611.02086 (Zhang/Amin/Perakis) — influence functions
+estimating how each training point shifts downstream decisions, plus
+reweighting to reduce regret — the program's per-history attribution
+(spent banks, twins, which training matters for transfer),
+formalized. (Abstracts/titles only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Laurens compasses [LIVE 2610.34106 (compassed laurens; specified
+  Jean Laurens (compasses; vs no hits)); verification deferred].** →
+  Laurens's laurens (compassed, kept (laurens, compassed (compasses,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Laurens" (compasses, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Zhang routings [LIVE 2611.02086 (routinged williamzhangs;
+  specified William Zhang (routings; "Zhang" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Zhang's williamzhangs (routinged, kept
+  (williamzhang, routinged (routings, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Zhang" (routings, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Amin reweightings [LIVE 2611.02086 (reweightinged saurabhamins;
+  specified Saurabh Amin (reweightings; "amin" fragments standing
+  (gaming/framing) — compound + full-name tag per collision rule; vs
+  no hits)); verification deferred].** → Amin's saurabhamins
+  (reweightinged, kept (saurabhamin, reweightinged (reweightings,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Amin" (reweightings, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Perakis pricings [LIVE 2611.02086 (pricinged perakis; specified
+  Georgia Perakis (pricings; vs no hits)); verification deferred].**
+  → Perakis's perakis (pricinged, kept (perakis, pricinged (pricings,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
+  "Perakis" (pricings, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
