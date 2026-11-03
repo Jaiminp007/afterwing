@@ -17,6 +17,17 @@ of hunger (desired-minus-current resource): learn fast when hungry
 Those gate what the learner DOES; this gates how fast the learner
 CHANGES.
 
+## Frozen-form candidate (R784 — Bogacz 2017)
+
+Utility = hunger-scaled positive consequences minus effort. The
+gain function takes this form: multiply the positive (reward) term
+by the hunger scalar, leave the effort/discount terms unscaled,
+with hard bounds so gain cannot explode the weights. The ceiling
+of the class (not its entry): meta-plasticity — the gain itself
+as a learned parameter, after dopamine neurons that learn their
+own activity level. A scoping starts at the fixed-gain form and
+must earn the learned-gain form.
+
 ## What a case needs (not a plan)
 
 A future scoping must name: the gain function (frozen formula of

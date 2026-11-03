@@ -37,7 +37,16 @@ have assayed social behavior under the wrong deprivation state —
 sociality as a state of the hunger dial, assortment by state, not
 a separate track with its own mechanism. Any reopened social case
 must name the deprivation condition as a frozen variable, or it
-repeats the confound.
+repeats the confound. R784 doubles it (Xu 2010, NPFR1): stress
+reactivity is NPF-modulated too, so deprivation AND stress are both
+frozen conditions — the confound is double, the control must be too.
+
+## Metrics at opening (R784 — adopt QDax, invent none)
+
+Flageat et al. 2022 (QD suite for deep neuroevolution RL): coverage,
+QD-score, max fitness, archive profile, stochasticity-corrected
+robustness. A population line adopts these at opening; new metrics
+require their own justification.
 
 ## Opening conditions (not a plan)
 

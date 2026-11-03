@@ -90,6 +90,17 @@ the argmax across branches. B1/B2 failed both branches at the same
 decision point; biology splits the decision itself. A mixture freeze
 that cannot name its component division is not a mixture.
 
+## Addendum A5 (2026-11-02, zero worlds — separate consequence matrices)
+
+R784 (Bogacz 2017, motivation theory): striatal Go and No-Go weights
+learn SEPARATELY about positive vs negative consequences, with the
+motivational state scaling the positive term. The division is in the
+LEARNING (different matrices, different consequence classes), not
+just the action. A mixture freeze must therefore name not only who
+owns which component, but which consequence class each matrix learns
+— and the motivational scaling of the positive term is the
+acquisition-gating gain function in its native form.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
