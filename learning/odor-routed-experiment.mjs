@@ -9,7 +9,7 @@ import {filteredOverlapRecommendation} from './filtered-overlap.mjs';
 import {incrementalOverlapRecommendation} from './incremental-overlap.mjs';
 import {compactFrozenOdorRoutedState} from './frozen-memory-compaction.mjs';
 import {overlapGuard} from './guarded-overlap.mjs';
-import {chooseOwnSteering,terminateOwnSteering,freezeOwnSteering,resetOwnSteering} from './own-steering.mjs';
+import {createOwnSteering,chooseOwnSteering,terminateOwnSteering,freezeOwnSteering,resetOwnSteering} from './own-steering.mjs';
 import {createReplaySteering,chooseReplaySteering,terminateReplaySteering,freezeReplaySteering,resetReplaySteering} from './replay-steering.mjs';
 import {createCueSharedSteering,chooseCueSharedSteering,terminateCueSharedSteering,freezeCueSharedSteering,resetCueSharedSteering} from './cue-shared-steering.mjs';
 import {encodedStateBytes,billSarsaWork,chargeForStep} from './sarsa-experiment.mjs';
@@ -27,7 +27,7 @@ const steeringMethods={
 const methods=run=>steeringMethods[run.steeringLearner??'original'];
 
 export class OdorRoutedExperiment extends OwnSteeringExperiment{
-  constructor({trainingRegime='continuous',steeringLearner='original',spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,...options}){
+  constructor({trainingRegime='continuous',steeringLearner='original',steeringDims=null,spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,...options}){
     assert.ok(['continuous','freeze-after-A','reset-each-phase'].includes(trainingRegime));
     assert.ok(Object.hasOwn(steeringMethods,steeringLearner));
     assert.ok(['filtered','incremental'].includes(spatialSelector));
@@ -43,10 +43,13 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     assert.ok(contactGateReplay===null||['fresh','reservoir'].includes(contactGateReplay)&&contactBandit!==null);
     assert.ok(phaseTable===null||Array.isArray(phaseTable)&&phaseTable.length>0&&phaseTable.every(p=>p&&typeof p.id==='string'&&Number.isSafeInteger(p.ticks)&&p.ticks>0));
     assert.ok(phaseSeedMap===null||Array.isArray(phaseSeedMap)&&phaseTable!==null&&phaseSeedMap.length===phaseTable.length&&phaseSeedMap.every(i=>Number.isSafeInteger(i)&&i>=0));
+    assert.ok(steeringDims===null||Number.isSafeInteger(steeringDims)&&steeringDims>0);
+    assert.ok(steeringDims===null||steeringLearner==='original','custom steering dims only with the original learner');
     assert.ok(phaseTable===null||trainingRegime==='continuous','custom phase tables support continuous regime only');
     assert.ok(phaseDurations===null||Array.isArray(phaseDurations)&&phaseDurations.length===(phaseTable??CONTINUAL_PHASES).length&&phaseDurations.every(value=>Number.isSafeInteger(value)&&value>0));
     super(options);
     this.trainingRegime=trainingRegime;this.steeringLearner=steeringLearner;this.spatialSelector=spatialSelector;
+    if(steeringDims!==null)this.steeringDims=steeringDims;
     if(contactCueMode!=='disabled')this.contactCueMode=contactCueMode;
     if(targetCueMode!=='disabled')this.targetCueMode=targetCueMode;
     if(tasteDecisionMode!==null)this.tasteDecisionMode=tasteDecisionMode;
@@ -63,6 +66,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
       const old=this.learners[fly.id],seed=(this.history.seed^Math.imul(fly.id,2654435761))>>>0||1;
       const state=createOdorRoutedTasteBody(fly.id,seed);
       state.steering=steeringLearner==='replay'?createReplaySteering(fly.id,old.steering.rngState):steeringLearner==='cue-shared'?createCueSharedSteering(fly.id,old.steering.rngState,steeringProjection,steeringProtection):old.steering;
+      if(steeringDims!==null)state.steering=createOwnSteering(fly.id,old.steering.rngState,steeringDims);
       if(steeringLearner==='cue-shared')state.work.scalarOperations+=state.steering.work.scalarOperations;
       state.spatialPoints=old.spatialPoints;state.scratch=old.scratch;state.lastCost=old.lastCost;
       if(this.targetCueMode){state.targetCues=[];state.work.scalarOperations++;}
@@ -118,7 +122,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
           if(available){const scores=recommendation.pair.map(index=>predictTargetTaste(state,state.targetCues[index],this.cueTastePolicy??null));state.work.scalarOperations+=3;
             targetEvaluation={scores,reject:scores[0]+scores[1]<1};}
         }
-        features=[1,Math.max(0,Math.min(1,own.energy/120)),raw[10],raw[11],raw[13],Math.max(-1,Math.min(1,raw[12])),Math.min(1,distance/fly.genome.traits.sense),distance>0?recommendation.point[1]/distance:0];
+        features=[1,Math.max(0,Math.min(1,own.energy/120)),raw[10],raw[11],raw[13],Math.max(-1,Math.min(1,raw[12])),Math.min(1,distance/fly.genome.traits.sense),distance>0?recommendation.point[1]/distance:0,...(this.steeringDims?[guard.viable?1:0,Math.min(1,guard.requiredEnergy/120)]:[])];
         state.work.scalarOperations+=14;const steeringWork=state.steering.work.scalarOperations;
         const focalMode=this.focalSteering?.[fly.id]??null;if(focalMode!==null)assert.ok(this.probe&&this.targetCueMode!=='filter'&&!this.wallShortcut&&!this.cueNativeProof&&['native','learned'].includes(focalMode));
         const selectedMode=focalMode??this.steeringMode,forcedAction=selectedMode==='native'?0:selectedMode==='guarded'?Number(available):null;
