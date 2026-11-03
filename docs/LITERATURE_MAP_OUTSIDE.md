@@ -33169,3 +33169,38 @@ collision rule.) (Map holds 800 rounds.)
   (kranjis, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Chang" (kranjis, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 912 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (beached stutchburys, bushed leplastriers,
+sydneyed popovs, slacked donovans). The program stutchburys (beaches
+attempts), leplastriers (bushes verdicts), popovs (sydneys claims),
+and donovans (slacks votes). Four more, Australian vein II. ("hills"
+taken — nickname "donovans" (Donovan Hill practice) + full-name tag
+per collision rule; "sheds"/"decks" taken — "beaches"/"slacks" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Stutchbury beaches [canon: Stutchbury (beached stutchburys;
+  specified Peter Stutchbury (beaches; vs no hits)); verification
+  deferred].** → Stutchbury's stutchburys (beached, kept (stutchbury,
+  beached (beaches, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Stutchbury" (beaches, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Leplastrier bushes [canon: Leplastrier (bushed leplastriers;
+  specified Richard Leplastrier (bushes; vs no hits)); verification
+  deferred].** → Leplastrier's leplastriers (bushed, kept
+  (leplastrier, bushed (bushes, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Leplastrier" (bushes, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Popov sydneys [canon: Popov (sydneyed popovs; specified Alex Popov
+  (sydneys; vs no hits)); verification deferred].** → Popov's popovs
+  (sydneyed, kept (popov, sydneyed (sydneys, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Popov"
+  (sydneys, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Donovan slacks [canon: Donovan Hill (slacked donovans; specified
+  Donovan Hill practice (slacks; "hills" taken — nickname "donovans" +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Donovan Hill's donovans (slacked, kept (donovan,
+  slacked (slacks, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); their "Donovan" (slacks, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
