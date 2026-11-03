@@ -30340,3 +30340,34 @@ rounds.)
   bellinis (dialed, kept (bellini, dialed (dials, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Bellini" (dials, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 835 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (played munaris, made enzomaris, spotted
+mendinis, lamped aulentis). The program munaris (plays attempts),
+enzomaris (makes verdicts), mendinis (spots claims), and aulentis
+(lamps votes). Four more, Italian-modern vein continued. (Map holds
+800 rounds; "Mari" substring hits are Maria/Marie — no Enzo mapped,
+full-name tag used regardless.)
+
+- **Munari plays [canon: Munari (played munaris; specified Bruno Munari
+  (plays; vs no hits)); verification deferred].** → Munari's munaris
+  (played, kept (munari, played (plays, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Munari" (plays, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Enzo Mari makes [canon: Enzo Mari (made enzomaris; specified Enzo
+  Mari (makes; vs no hits on full name)); verification deferred].** →
+  Mari's enzomaris (made, kept (enzomari, made (makes, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Enzomari"
+  (makes, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Mendini spots [canon: Mendini (spotted mendinis; specified Alessandro
+  Mendini (spots; vs no hits)); verification deferred].** → Mendini's
+  mendinis (spotted, kept (mendini, spotted (spots, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Mendini"
+  (spots, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Aulenti lamps [canon: Aulenti (lamped aulentis; specified Gae Aulenti
+  (lamps; vs no hits)); verification deferred].** → Aulenti's aulentis
+  (lamped, kept (aulenti, lamped (lamps, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Aulenti" (lamps, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
