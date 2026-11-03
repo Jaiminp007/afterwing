@@ -151,6 +151,18 @@ lifespan is short. Specification sharpened: lifespan extension
 structure. The next line must first keep agents alive past ~1900
 ticks; only then does the slow phase exist to be measured.
 
+## Executed re-reading 6 (2026-11-02, read-only: spent R1 traces)
+
+Per-capita energy economics by phase (physical events, 8 histories):
+A intake 0.0217 cost 0.0482 net −0.0265; B 0.0160/0.0479/−0.0319;
+C 0.0126/0.0466/−0.0340 (events 98k→62k as flies die); D
+0.1171/0.0492/+0.0679 (only ~6k events — remnant feasts). Costs
+FLAT every phase (~0.048); intake halves A→C. The cliff is
+STARVATION ECONOMICS, not senescence: fixed burn, declining
+return; the D-feast arrives for a remnant too small to matter.
+A survival line must fix the A→C intake decline (or the fixed
+burn), not D — specified HOW, not just "live longer."
+
 ## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
 
 Pairing-rule schedule check (Moncada: strong events near tags?):
