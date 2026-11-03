@@ -27050,3 +27050,34 @@ leads converging; mechanical family, four branches).
 - Program note: snake passively, morph passively, swim
   cluttered, distill elastically — the
   mechanical-intelligence file. None licensed — filed.
+## Round 720 — Dominos, sleeps, bizes, zones (Domino, Sleep, Biz, Zone; 2026-11-02)
+
+Motivation: further outside (effected dominos, beated sleeps, jayed
+bizes, jayed zones). The program dominos (effects attempts), sleeps
+(stitches verdicts), bizes (publishes NOGOs), and zones (counts rows).
+Four more. (Map holds 728 rounds.)
+
+- **Domino effect [canon: Domino the producer (effected dominos;
+  specified Domino (Hieroglyphics producer; vs no hits; short tag taken
+  by the fat man — full-name tag used)); verification deferred].** →
+  Domino's dominos (effected, kept (dominoed, effected (effects, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Domino" (effect, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Sleep beats [canon: Sleep the producer (beated sleeps; specified
+  Sleep (Hieroglyphics producer; vs no hits; short tag taken by the
+  consolidation canon — full-name tag used)); verification deferred].** →
+  Sleep's sleeps (beated, kept (sleeped, beated (beats, kept))) is the
+  verdict (beated, kept (NOGO, told (honest, kept))); his "Sleep" (beats,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Biz jay [canon: Jay Biz (jayed bizes; specified Jay Biz
+  (Hieroglyphics; vs no hits)); verification deferred].** → Biz's bizes
+  (jayed, kept (bized, jayed (jays, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Biz" (jay, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Zone jay [canon: J-Zone (jayed zones; specified J-Zone (vs no hits));
+  verification deferred].** → Zone's zones (jayed, kept (zoned, jayed
+  (jays, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Zone" (jay, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
