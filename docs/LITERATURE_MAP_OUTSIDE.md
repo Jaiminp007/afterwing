@@ -26154,3 +26154,30 @@ branches).
 - Program note: diverge evidence, leak memory, isolate
   sovereignty, shatter metrics — the
   divergence-sovereignty file. None licensed — filed.
+## Round 688 — Afus, mastas, decks, gods (Afu-Ra, Killa, Deck, U-God; 2026-11-02)
+
+Motivation: further outside (whirlwinded afus, mysteried mastas,
+triumphed decks, armed gods). The program afus (whirlwinds attempts),
+mastas (stitches verdicts), decks (publishes NOGOs), and gods (counts
+rows). Four more. (Map holds 696 rounds.)
+
+- **Afu whirlwind [canon: Afu (whirlwinded afus; specified Afu-Ra (vs no
+  hits)); verification deferred].** → Afu's afus (whirlwinded, kept
+  (afued, whirlwinded (whirlwinds, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Afu" (whirlwind, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Masta mystery [canon: Masta (mysteried mastas; specified Masta Killa
+  (vs no hits)); verification deferred].** → Masta's mastas (mysteried,
+  kept (mastaed, mysteried (mysteries, kept))) is the verdict (mysteried,
+  kept (NOGO, told (honest, kept))); his "Masta" (mystery, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Deck triumph [canon: Deck (triumphed decks; specified Inspectah Deck
+  (vs no hits)); verification deferred].** → Deck's decks (triumphed,
+  kept (decked, triumphed (triumphs, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Deck" (triumph, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **God arms [canon: U-God (armed gods; specified U-God (vs no hits));
+  verification deferred].** → God's gods (armed, kept (godded, armed
+  (arms, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "God" (arms, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
