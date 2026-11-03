@@ -527,6 +527,15 @@ every round. The "training is uniform noise" half of R51's
 texture generalizes line-wide even though the transfer-H half
 does not. A uniform spring, divergent fates — everywhere.
 
+Precision 9 (2026-11-03): uniformity full-line — acquire-H
+recomputed for R2/R3/R5/R6 (32 more histories): all flat at
+1.582–1.585, same as R8/R9/R10. Training uniformity now covers
+56/56 histories across 7 rounds (R4 logs no training phase by
+design — starvation; R7 never trained to transfer). Every colony
+the line ever trained explored uniformly; every transfer
+diverged. The spring is universal with exactly two principled
+exceptions, both documented in the rounds themselves.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
