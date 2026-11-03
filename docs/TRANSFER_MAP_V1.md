@@ -486,6 +486,9 @@ the map stays open, not empty.
 - R649 trace-tampering file: distill-to-reveal;
   guard-traces; split-to-reveal;
   count-invisible.
+- R651 provenance-watermark file: mark-the-process;
+  layer-the-code; key-the-provenance;
+  trace-robustly.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
