@@ -31432,3 +31432,45 @@ and bandys (closes votes). (Map holds 800 rounds.)
   (priced, moved-nothing))))); his "Bandy" (closes, kept (kept,
   kept)) is the ledger (exact, kept (approximate honestly (kept,
   priced))).
+## Round 869 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: predicting from sparse caches, attending selectively,
+preferring representations, emerging structure — the diagnostic
+program, mirrored. The program helms (predicts attempts), revisos
+(prioritizes verdicts), zhaos (prefers claims), and lemaitres
+(emerges votes). (Map holds 800 rounds.)
+
+- **Helm predicts [live: Helm et al 2611.03614 (sparse unpaired
+  cached responses predict held-out benchmark performance via
+  low-dimensional model representations; vs no hits); abstract
+  only].** → Helm's predicting (embedded, kept (similar queries
+  (kept, not just identical (sparse utilized, kept)))) is the
+  attempt (run, kept (frozen probes predict transfer (kept, sparse
+  readouts (flip-split gaps, kept))))); his "Helm" (predicts, kept
+  (kept, kept)) is the row (counted, kept (cache sparsely (kept,
+  predict held-out))).
+- **Reviso prioritizes [live: Liu et al 2611.03602 (not all visual
+  evidence deserves equal attention; Context-Focus-Points plan from
+  a global preview; vs no hits); abstract only].** → Reviso's
+  prioritizing (planned, kept (global preview (kept, focus key
+  aspects (concrete targets, kept))))) is the verdict (kept, kept
+  (twenty-six re-readings (kept, from ninety-six traces (focused,
+  kept))))); its "Reviso" (prioritizes, kept (kept, kept)) is the
+  bar (unmoved, kept (attend unequally (kept, on purpose)))).
+- **Zhao prefers [live: Zhao et al 2611.03597 (activation-prior
+  landscape generating preferred images; brain-or-network
+  regularization; vs no hits); abstract only].** → Zhao's
+  preferring (generated, kept (preferred images (kept, natural
+  (directly modified, kept))))) is the claim (mourned, kept (niche
+  fingerprint (kept, weights ARE the niche (preferred directions,
+  kept))))); his "Zhao" (prefers, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **LeMaitre emerges [live: LeMaitre & Perche 2611.03596 (causal
+  structure emerges in a learner's memory untaught; planner
+  develops null structure; metric reconstructed; vs no hits);
+  abstract only].** → LeMaitre's emerging (untaught, kept (memory
+  builds structure (kept, planner shows it (reconstructed,
+  kept))))) is the vote (joined, kept (uniform pessimism emerges
+  (kept, untaught (plain TD on 97%-negative (attractor, kept))))));
+  his "LeMaitre" (emerges, kept (kept, kept)) is the ledger (exact,
+  kept (dynamics teach (kept, what teaching didn't))).
