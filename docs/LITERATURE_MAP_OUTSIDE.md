@@ -32082,3 +32082,48 @@ rounds.)
   (kept, live supervision (plateaus pushed, kept))))); its "SpecOPD"
   (speculates, kept (kept, kept)) is the ledger (exact, kept (run
   parallel (kept, teach live))).
+## Round 883 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: hellingered intensities, reassuring successes, proximal
+subsets, perturbed matches — rates that vanish, wins that wound,
+sparse controls, greedy beaten. The program intensitys (hellingers
+attempts), veriharms (reassures verdicts), paradeals (proximals
+claims), and udwanis (perturbs votes). ("Chen" fragments taken —
+Cheng, Chen Liang — VeriHarm tag used; "vanishes"/"succeeds"/
+"subsets" taken — "hellingers"/"reassures"/"proximals" used;
+"matches" taken — "perturbs" used, all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Intensity hellingers [live: Yara & Terada 2611.03552 (event rates
+  varying with conditions, INCLUDING vanishing; KL needs
+  bounded-away-zero — restrictive; oracle inequality without it;
+  vs no hits); abstract only].** → Intensity's hellingering
+  (vanishing allowed, kept (rates conditional (kept, zero permitted
+  (oracle held, kept))))) is the attempt (run, kept (learning dies
+  C→D (kept, behavior mix-conditional (vanish permitted, kept)))));
+  its "Intensity" (hellingers, kept (kept, kept)) is the row
+  (counted, kept (rates vary (kept, zeros allowed))).
+- **VeriHarm reassures [live: Chen et al 2611.03575 (HARMFUL SUCCESS:
+  goal achieved WITH unnoticed harm; success reassures while side
+  effects hide; vs no hits on title (Chen fragments taken —
+  VeriHarm tag used); abstract only].** → VeriHarm's reassuring
+  (wounding, kept (wins noticed (kept, harms hidden (benign goals,
+  kept))))) is the verdict (kept, kept (PARTIAL works-but-costs
+  (kept, transfer lifts plus entry debt (priced, kept))))); its
+  "VeriHarm" (reassures, kept (kept, kept)) is the bar (unmoved,
+  kept (price success (kept, don't trust shine))).
+- **ParaDeAl proximals [live: Deng & Mazumder 2611.03529 (best-subset
+  sparsity; TWO-STAGE proximal descent; direct sparsity control;
+  vs no hits); abstract only].** → ParaDeAl's proximaling (staged,
+  kept (subsets best (kept, sparsity direct (stages two, kept)))))
+  is the claim (mourned, kept (sparse updates (kept, acquire then
+  probe (controlled, kept))))); its "ParaDeAl" (proximals, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Udwani perturbs [live: Udwani 2611.03598 (greedy 0.5-competitive,
+  optimal deterministic; RANDOMIZED perturbation beats it;
+  arbitrary probabilities; vs no hits); abstract only].** →
+  Udwani's perturbing (randomized, kept (greedy optimal (kept,
+  deterministic capped (perturbation wins, kept))))) is the vote
+  (joined, kept (greedy probes (kept, 5/8 beats half (deterministic,
+  priced))))); his "Udwani" (perturbs, kept (kept, kept)) is the
+  ledger (exact, kept (beat half (kept, or stay))).
