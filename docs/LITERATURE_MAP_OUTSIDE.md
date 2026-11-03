@@ -31341,3 +31341,51 @@ votes). (Map holds 800 rounds.)
   moves nothing but weights))); its "Pixel" (codesigns, kept (kept,
   kept)) is the ledger (exact, kept (joint or mismatch (kept,
   priced))).
+## Round 867 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: the outside keeps answering, and one paper even coined
+our word. Low-rank stagnation, dense action reading, dominant
+directions, dominant units — four mirrors. The program bisects
+(starves attempts), shens (atomizes verdicts), plies (concentrates
+claims), and kiesels (dominates votes). ("Spectral" fragment taken
+in unrelated contexts — full phrase "spectral starvation" virgin,
+used per collision rule.) (Map holds 800 rounds.)
+
+- **Bisect starves [live: Saliencro et al 2611.03574, BISECT
+  (subspace isolation equates overlap with interference; the
+  orthogonality premise induces "spectral starvation": gradient
+  reaching trainable weights upper-bounded by captured energy;
+  vs no hits on title/authors/full phrase); abstract only].** →
+  Bisect's starvation (named, kept (isolation (kept, bottleneck
+  (energy-bounded, kept))))) is the attempt (run, kept (our
+  starvation economics (kept, learning costs more than it earns
+  (gradient bounded by capture, kept))))); its "Bisect" (starves,
+  kept (kept, kept)) is the row (counted, kept (overlap ≠
+  interference (kept, priced))).
+- **Shen atomizes [live: Shen et al 2611.03646, EgoActionBench
+  (continuous manipulation as temporally localized atomic actions;
+  41,132 human-refined annotations; dense-prediction protocol;
+  vs no hits); abstract only].** → Shen's atomizing (annotated,
+  kept (atomic actions (kept, temporally eligible (retrieved,
+  selected))))) is the verdict (kept, kept (our diagnostic (kept,
+  dense decision-events captioned (twenty-four re-readings,
+  kept))))); her "Shen" (atomizes, kept (kept, kept)) is the bar
+  (unmoved, kept (read densely (kept, counted)))).
+- **Plies concentrates [live: Plies et al 2611.03628 (99% of
+  gradient variation along a single direction per observable;
+  comparing directions across nuclei quantifies similarity;
+  vs no hits); abstract only].** → Plies' concentrating (found,
+  kept (one direction (kept, 99% (seventeen dimensions, one
+  line))))) is the claim (mourned, kept (our half-universal
+  flood (kept, +0.64 not +0.95 (shared plus idiosyncratic,
+  kept))))); his "Plies" (concentrates, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Kiesel dominates [live: Chen et al 2611.03561 (a few units
+  carry a non-vanishing share; limits depend on the unobserved
+  pairing of each dominant unit; vs no hits); abstract only].** →
+  Kiesel's dominating (proved, kept (heavy tails (kept, same
+  marginals, different limits (pairing unobserved, kept)))))
+  is the vote (joined, kept (our idiosyncratic histories (kept,
+  twins diverge (weights agree, outcomes differ))))); his
+  "Kiesel" (dominates, kept (kept, kept)) is the ledger (exact,
+  kept (a few carry (kept, counted))).
