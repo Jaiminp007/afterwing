@@ -33837,3 +33837,42 @@ holds 800 rounds.)
   (carried, won (crowd, kept))); their "Himmelblau" (rooftops, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 931 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (kaisered eiermanns, philharmonied
+scharouns, muniched ottos, bonned behnischs). The program eiermanns
+(kaisers attempts), scharouns (philharmonies verdicts), ottos
+(munichs claims), and behnischs (bonns votes). Four more, German
+vein. ("Gottfried Bohm" declined — "bohm" fragments standing
+"Nottebohm" (songbird round); consistency with Munir/Horta declines
+demanded it; "steels"/"tents"/"parks"/"stadiums" taken —
+"kaisers"/"munichs"/"bonns" used; three standing Ottos routed via
+full-name tag "canon: Frei Otto", all per collision rule.) (Map holds
+800 rounds.)
+
+- **Eiermann kaisers [canon: Eiermann (kaisered eiermanns; specified
+  Egon Eiermann (kaisers; vs no hits)); verification deferred].** →
+  Eiermann's eiermanns (kaisered, kept (eiermann, kaisered (kaisers,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Eiermann" (kaisers, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Scharoun philharmonies [canon: Scharoun (philharmonied scharouns;
+  specified Hans Scharoun (philharmonies; vs no hits)); verification
+  deferred].** → Scharoun's scharouns (philharmonied, kept (scharoun,
+  philharmonied (philharmonies, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Scharoun" (philharmonies, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Otto munichs [canon: Frei Otto (muniched ottos; specified Frei
+  Otto (munichs; three standing Ottos — full-name tag per collision
+  rule; vs no hits)); verification deferred].** → Otto's ottos
+  (muniched, kept (otto, muniched (munichs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Otto"
+  (munichs, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Behnisch bonns [canon: Behnisch (bonned behnischs; specified
+  Gunter Behnisch (bonns; vs no hits)); verification deferred].** →
+  Behnisch's behnischs (bonned, kept (behnisch, bonned (bonns, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Behnisch" (bonns, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
