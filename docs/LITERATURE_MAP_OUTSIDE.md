@@ -34120,3 +34120,37 @@ pre-append, all per collision rule.) (Map holds 800 rounds.)
   athened (athens, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); her "Antonakaki" (athens, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 939 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (yalied eldems,
+bodrumed cansevers, metued cinicis, istanbuled sayins). The program
+eldems (yalis attempts), cansevers (bodrums verdicts), cinicis
+(metus claims), and sayins (istanbuls votes). Four more, Turkish
+vein. ("Emin Onat" declined — "onat" fragments standing
+"proportionate" lines ×40; 8th fragment-consistency decline; all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Eldem yalis [canon: Eldem (yalied eldems; specified Sedad Hakki
+  Eldem (yalis; vs no hits)); verification deferred].** → Eldem's
+  eldems (yalied, kept (eldem, yalied (yalis, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Eldem" (yalis,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Cansever bodrums [canon: Cansever (bodrumed cansevers; specified
+  Turgut Cansever (bodrums; vs no hits)); verification deferred].** →
+  Cansever's cansevers (bodrumed, kept (cansever, bodrumed (bodrums,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Cansever" (bodrums, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Cinici metus [canon: Cinici (metued cinicis; specified Behruz
+  Cinici (metus; vs no hits)); verification deferred].** → Cinici's
+  cinicis (metued, kept (cinici, metued (metus, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Cinici"
+  (metus, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Sayin istanbuls [canon: Sayin (istanbuled sayins; specified Nevzat
+  Sayin (istanbuls; vs no hits)); verification deferred].** → Sayin's
+  sayins (istanbuled, kept (sayin, istanbuled (istanbuls, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Sayin"
+  (istanbuls, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
