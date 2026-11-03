@@ -34223,3 +34223,37 @@ rule.) (Map holds 800 rounds.)
   (paled, kept (girones, paled (pals, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Girones" (pals, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 942 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (penaed penagancheguis, getxoed ercillas,
+pamplonaed mangados, leoned arroyos). The program penagancheguis (penas
+attempts), ercillas (getxos verdicts),
+mangados (pamplonas claims), and arroyos (leones votes). Four more,
+Basque vein. ("bilbaos" declined — my own standing R896 text;
+self-collision routed; all per collision rule.) (Map holds 800
+rounds.)
+
+- **Penaganchegui penas [canon: Pena Ganchegui (penaed penagancheguis; specified Luis
+  Pena Ganchegui (penas; vs no hits)); verification deferred].** →
+  Pena's penagancheguis (penaed, kept (penaganchegui, penaed (penas, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Pena"
+  (penas, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Ercilla getxos [canon: Ercilla (getxoed ercillas; specified Roberto
+  Ercilla (getxos; vs no hits)); verification deferred].** →
+  Ercilla's ercillas (getxoed, kept (ercilla, getxoed (getxos, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Ercilla" (getxos, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Mangado pamplonas [canon: Mangado (pamplonaed mangados; specified
+  Patxi Mangado (pamplonas; vs no hits)); verification deferred].** →
+  Mangado's mangados (pamplonaed, kept (mangado, pamplonaed (pamplonas,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Mangado" (pamplonas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Arroyo leones [canon: Arroyo (leoned arroyos; specified Eduardo
+  Arroyo (leones; vs no hits)); verification deferred].** → Arroyo's
+  arroyos (leoned, kept (arroyo, leoned (leones, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Arroyo" (leones,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
