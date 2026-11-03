@@ -510,6 +510,14 @@ publishes per-history transfer outcomes: the candidate was tested
 everywhere the line's own verdicts allow testing. Boundary stated,
 not breached; fence complete.
 
+Precision 7 (2026-11-03): semantics verified — traced the action
+encoding to source: COVERAGE_MOVES=[−1,0,1] indexed by action
+{0,1,2}, and the trace logs action=move+1 (turn-forced −1 included).
+So action 0=turn, 1=stay, 2=advance(cruise). R51's "pure-cruise
+H=0" (512/512 action-2) and "cruise dominant" read correctly;
+the entropy was computed over {turn, stay, cruise}, not arbitrary
+codes. The ledger's newest numbers mean what they say.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
