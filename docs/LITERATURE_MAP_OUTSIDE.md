@@ -26518,3 +26518,30 @@ rows). Four more. (Map holds 708 rounds.)
   kept (timboed, kinged (kings, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Timbo" (king, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 701 — Personified, compressed, treed, lexiconed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: persona fidelity — act
+the part, keep the meaning (already-cited fidelity
+leads converging; fidelity family, four branches).
+
+- **Persona fidelity [arXiv:2608.26674 (Li; vs no
+  hits)].** Holistic judges HALLUCINATE (static misses
+  context; structured inference). → Personify
+  structurally (our per-agent rows, personify-side).
+  Filed.
+- **Onboard compress [arXiv:2610.29302 (Deng; vs no
+  hits)].** Fixed budget + STATIC artifact (ground-
+  validated behavior; ground-segment step). → Compress
+  onboard (our op-cap billing, compress-side). Filed.
+- **Traffic trees [arXiv:2606.04517 (Luo; vs no
+  hits)].** Preprocessing OBSCURES semantics (manual
+  structure; hierarchical graph). → Tree traffic (our
+  transfer map, tree-side). Filed.
+- **Net lexicon [arXiv:2609.37672 (Gao / NetLexicon; vs
+  no hits)].** Vector-quantized STATES (compact lexicon;
+  reusable behaviors). → Lexicon nets (our codebook
+  design, lexicon-side). Filed.
+- Program note: personify structurally, compress
+  onboard, tree traffic, lexicon nets — the
+  persona-fidelity file. None licensed — filed.
