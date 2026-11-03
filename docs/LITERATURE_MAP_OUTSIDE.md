@@ -29120,3 +29120,36 @@ already canon-mapped — routed to PROF instead).
   inhibition-dominant, nonlinear, same-sign. A6's coupling now
   specifies dominance + nonlinearity; linear symmetric
   suppression is pre-falsified by stability theory.
+## Round 796 — LIVE via OpenAlex: breakers, metas, certificates, balancers (Rossbroich E/I-errors 2025, Li Meta-SGD 2017, Tang LMI-Net 2026, Wu balance-meta-learning 2026; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Instructive inhibition [Rossbroich & Zenke 2025, local errors
+  in E/I perturbations; vs no hits].** → Deviations from E/I
+  balance ENCODE the error signals instructing plasticity
+  (targeted interneuron feedback → assembly-specific errors;
+  answers backprop's locality problem biologically). The brake
+  INSTRUCTS, not just gates: suppression magnitude = local error.
+  A6's coupling gains information content — how much stop inhibits
+  go says what go must fix. Inhibition as instructor.
+- **Earned ceiling [Li et al. 2017, Meta-SGD (init + direction +
+  rate meta-learned); vs no hits].** → Higher capacity than MAML
+  by meta-learning the update itself, one step, supervised + RL.
+  The acquisition-gating ceiling gains its algorithm: the
+  learned-gain form is earned by meta-learning init, direction,
+  and rate jointly. "Must be earned" now names the earner.
+- **Certificates inside [Tang et al. 2026, LMI-Net (stability/
+  robustness/invariance via differentiable projection); vs no
+  hits].** → LMIs enforced by construction (Douglas-Rachford +
+  implicit differentiation, convergence guaranteed). PROF's
+  constraint class expands to CERTIFICATES: stability as a hard
+  in-network constraint, not a hoped-for property. The safety
+  side graduates from bounds to certificates.
+- **Balance adapts [Wu et al. 2026, E/I balance facilitates
+  meta-learning (Dale-constrained SNNs); vs no hits].** →
+  Balance mechanism for meta-learning init → broadly-applicable
+  representations for few-shot tasks. Fuses A6 with adaptation
+  speed: balanced networks adapt fast, and the brake keeps the
+  network balanceable. Suppression and speed share one
+  mechanism — the coupling IS the meta-learning substrate.
