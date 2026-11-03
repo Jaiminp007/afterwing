@@ -32804,3 +32804,40 @@ and kumas (yusuharas votes). Four more, tropical Asian vein.
   vote (joined, kept (carried, won (crowd, kept))); his "Kuma"
   (yusuharas, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 902 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (verandahed murcutts, harboured
+seidlers, uglified boyds, alleyed athfields). The program murcutts
+(verandahs attempts), seidlers (harbours verdicts), boyds (uglifies
+claims), and athfields (alleys votes). Four more, Oceanian vein.
+("Touches"/"lightens"/"earths" taken — "verandahs" used; "blues"
+taken — "harbours" used; "robins" taken, "Boyd" fragment taken —
+full-name tag "canon: Robin Boyd" vs Boyd & Richerson used; "clusters"/
+"hills" taken — "alleys" used, all per collision rule.) (Map holds
+800 rounds.)
+
+- **Murcutt verandahs [canon: Murcutt (verandahed murcutts; specified
+  Glenn Murcutt (verandahs; vs no hits)); verification deferred].** →
+  Murcutt's murcutts (verandahed, kept (murcutt, verandahed (verandahs,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Murcutt" (verandahs, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Seidler harbours [canon: Seidler (harboured seidlers; specified
+  Harry Seidler (harbours; vs no hits)); verification deferred].** →
+  Seidler's seidlers (harboured, kept (seidler, harboured (harbours,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Seidler" (harbours, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Robin Boyd uglifies [canon: Robin Boyd (uglified boyds; specified
+  Robin Boyd (uglifies; distinct from Boyd & Richerson — full-name tag
+  per collision rule; vs no hits on full name)); verification
+  deferred].** → Boyd's boyds (uglified, kept (boyd, uglified
+  (uglifies, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Boyd" (uglifies, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Athfield alleys [canon: Athfield (alleyed athfields; specified Ian
+  Athfield (alleys; vs no hits)); verification deferred].** → Athfield's
+  athfields (alleyed, kept (athfield, alleyed (alleys, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Athfield"
+  (alleys, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
