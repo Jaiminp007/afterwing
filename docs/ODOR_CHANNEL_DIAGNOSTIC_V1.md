@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 41 (2026-11-02, read-only: spent R1 rows, 5 acquisition modes)
+
+The archive held an unpublished experiment: R1 ran acquisition
+under five steering modes, and frozen steering BEATS learned on
+all 8 histories (+4..+10: frozen −50..−60 vs learned −59..−64;
+guarded/native/reset cluster with learned). Steering MODE moves
+acquisition ±10 — five times the split-vs-plain readout diffs
+(±2, matched-mode). Two consequences: (1) R10's acquireDiff
+gate survives strengthened — passing a ±0.5 band against a
+baseline that swings ±5 across modes means split tracks plain
+tightly within matched mode; (2) the steering system is COSTLY
+doodling, not neutral — R35's unlearned variance prices at ~5-10
+energy points vs frozen. The mode (policy class) moves outcomes;
+the learning within it moves nothing (R34). Freeze the steering
+and pocket the difference — a measurement, not a proposal.
+
 ## Executed re-reading 40 (2026-11-02, read-only: spent R7 extinction trace)
 
 Extinction is the universal bleed uninterrupted. The only colony
