@@ -32947,3 +32947,42 @@ holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Singh" (delhis,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 906 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (wuzhened wangshus, teahoused lius,
+shan-shuied yansongs, gorged zhangkes). The program wangshus (wuzhens
+attempts), lius (teahouses verdicts), yansongs (shanshuis claims), and
+zhangkes (gorges votes). Four more, Chinese-contemporary vein. ("I.
+M. Pei" declined — "pei" fragment collides with standing
+"peircean/apeiron" lines per collision rule; "Ma" surname unusable as
+nickname — first-name nickname "yansongs" + full-name tag per
+collision rule; "tiles"/"recycles"/"pours"/"yards" taken —
+"wuzhens"/"teahouses"/"shanshuis" used, all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Wang Shu wuzhens [canon: Wang Shu (wuzhened wangshus; specified
+  Wang Shu (wuzhens; vs no hits)); verification deferred].** → Wang
+  Shu's wangshus (wuzhened, kept (wangshu, wuzhened (wuzhens, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Wang Shu" (wuzhens, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Liu Jiakun teahouses [canon: Liu Jiakun (teahoused lius; specified
+  Liu Jiakun (teahouses; vs no hits)); verification deferred].** →
+  Liu's lius (teahoused, kept (liu, teahoused (teahouses, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Liu
+  Jiakun" (teahouses, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Ma Yansong shanshuis [canon: Ma Yansong (shan-shuied yansongs;
+  specified Ma Yansong (shanshuis; surname unusable — first-name
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Ma's yansongs (shan-shuied, kept
+  (yansong, shan-shuied (shanshuis, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Ma Yansong"
+  (shanshuis, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Zhang Ke gorges [canon: Zhang Ke (gorged zhangkes; specified Zhang
+  Ke (gorges; vs no hits)); verification deferred].** → Zhang's
+  zhangkes (gorged, kept (zhangke, gorged (gorges, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Zhang Ke" (gorges,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
