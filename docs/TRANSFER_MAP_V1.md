@@ -492,6 +492,9 @@ the map stays open, not empty.
 - R653 watermark-attack file: watch-marks;
   fingerprint-distillation; ask-back;
   disentangle-identity.
+- R655 face-control file: restore-blindly;
+  swap-controllably; model-parametrically;
+  steer-aligned.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
