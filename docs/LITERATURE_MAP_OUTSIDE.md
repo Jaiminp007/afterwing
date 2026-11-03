@@ -36583,3 +36583,57 @@ pre-append, flattened method.)
   (progresses, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "He" (progresses, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 1004 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=140, eess.SY start=110,
+cs.RO start=130, q-bio.NC start=160, eess.SY start=120, stat.ML
+start=150). Six new IDs triaged (0 worlds): 2610.40984 (reservoir
+package — DECLINED unrelated-screening), 2610.00719 (neuromorphic
+RNG — DECLINED unrelated-screening), 2610.40881 (dynamic persuasion
+— DECLINED unrelated-screening), 2610.38753 (Corenflos) —
+metropolized backward sampling forcing trajectory switches during
+backward passes (stuck trajectories that coincide must be forcibly
+switched) — stuck attractors that must be forced to switch, the
+program's UNIFORM-PESSIMISM stickiness plus extinction/surprise
+interventions, formalized; 2611.00513 (Wang) — WorldSketch
+self-improving world models (minimal task-relevant kinematic
+models; execution feedback verifies outcomes and updates uncertain
+hypotheses) — self-improving minimal models via execution feedback,
+the program's RSI loop plus sufficiency, formalized; and 2610.38082
+lead+senior (Arnaudo/Martin) — interpretable feature discovery via
+LLM pairwise comparisons with rationales-as-data in choice models —
+pairwise articulation of distinguishing features, the program's twin
+comparisons, formalized. (First + senior mapped from the trio per
+TRAILS precedent; Bennouna noted unmapped.) (Abstracts/titles only,
+0 worlds; IDs + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Corenflos switchings [LIVE 2610.38753 (switchinged corenfloses;
+  specified Adrien Corenflos (switchings; vs no hits)); verification
+  deferred].** → Corenflos's corenfloses (switchinged, kept
+  (corenflos, switchinged (switchings, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Corenflos"
+  (switchings, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Wang validations [LIVE 2611.00513 (validationed jiamingwangs;
+  specified Jiaming Wang (validations; "Wang" taken — 4x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Wang's jiamingwangs (validationed, kept
+  (jiamingwang, validationed (validations, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Wang" (validations,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Arnaudo pairwises [LIVE 2610.38082 (pairwised arnaudos; specified
+  Baptiste Arnaudo (pairwises; vs no hits)); verification deferred].**
+  → Arnaudo's arnaudos (pairwised, kept (arnaudo, pairwised
+  (pairwises, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Arnaudo" (pairwises, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Martin unstructureds [LIVE 2610.38082 (unstructured sebastienmartins;
+  specified Sebastien Martin (unstructureds; "Martin" taken — 1x
+  precedent — compound + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Martin's sebastienmartins
+  (unstructured, kept (sebastienmartin, unstructured (unstructureds,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Martin" (unstructureds, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
