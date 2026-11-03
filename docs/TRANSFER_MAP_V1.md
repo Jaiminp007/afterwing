@@ -540,6 +540,9 @@ the map stays open, not empty.
 - R685 agreement-traps file: measure-coupling;
   trap-sets; estimate-noise;
   bias-codes.
+- R687 divergence-sovereignty file: diverge-evidence;
+  leak-memory; isolate-sovereignty;
+  shatter-metrics.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
