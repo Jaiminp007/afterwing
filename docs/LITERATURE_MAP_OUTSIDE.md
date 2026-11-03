@@ -27924,3 +27924,31 @@ canon R750.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Moholy"
   (light, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 749 — Cloned, scaled, treed, distilled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: distillation — clone
+never-ending, scale the traces, tree the black box,
+synthesize the dataset (round-4 fuel: guarded
+distillation; four branches).
+
+- **Never-ending BC [arXiv:2403.00336 (Liang; vs no
+  hits)].** Multi-modal observations (long-standing 3D +
+  human-level; series of tasks). → Clone endless (our
+  teacher rollouts, cloned-side). Filed.
+- **Scalable BC [arXiv:2606.32014 (Yang; vs no
+  hits)].** Priors IMPLICIT in traces (bottleneck is
+  deciding under incomplete; skill distills). → Scale traces
+  (our 8 histories, scaled-side). Filed.
+- **Neural-to-tree [arXiv:2108.06898 (Li; vs no
+  hits)].** Black-box to IF-THEN (verified; stationary
+  violated). → Tree policies (our guard gate, treed-side).
+  Filed.
+- **Dataset distill [arXiv:2407.20299 (Light; vs no
+  hits)].** Quality UNAVAILABLE (synthesize better;
+  similar performance). → Distill datasets (our reused
+  bank, distilled-side). Filed.
+- Program note: clone endless, scale traces, tree
+  policies, distill datasets — the distillation file.
+  Round-4 candidate A now has four outside legs. None
+  licensed — filed.
