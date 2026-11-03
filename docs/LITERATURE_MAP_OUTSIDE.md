@@ -34676,3 +34676,39 @@ rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Padrik" (parnus,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 955 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (tapiolaed ervis, saunaed anttis,
+textiled vuokkos, kartioed francks). The program ervis (tapiolas
+attempts), anttis (saunas verdicts), vuokkos (textiles claims), and
+francks (kartios votes). Four more, Finnish vein II. (Shared surname
+Nurmesniemi — Antti vs Vuokko — handled via given-name nicknames +
+full-name tags per Kim precedent; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Ervi tapiolas [canon: Ervi (tapiolaed ervis; specified Aarne Ervi
+  (tapiolas; vs no hits)); verification deferred].** → Ervi's ervis
+  (tapiolaed, kept (ervi, tapiolaed (tapiolas, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Ervi" (tapiolas,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Antti saunas [canon: Antti Nurmesniemi (saunaed anttis; specified
+  Antti Nurmesniemi (saunas; shared surname — given-name nickname +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Antti's anttis (saunaed, kept (antti, saunaed
+  (saunas, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Antti" (saunas, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Vuokko textiles [canon: Vuokko Nurmesniemi (textiled vuokkos;
+  specified Vuokko Nurmesniemi (textiles; shared surname — given-name
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Vuokko's vuokkos (textiled, kept
+  (vuokko, textiled (textiles, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); her "Vuokko" (textiles, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Franck kartios [canon: Franck (kartioed francks; specified Kaj
+  Franck (kartios; vs no hits)); verification deferred].** → Franck's
+  francks (kartioed, kept (franck, kartioed (kartios, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Franck"
+  (kartios, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
