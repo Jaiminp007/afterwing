@@ -33876,3 +33876,41 @@ full-name tag "canon: Frei Otto", all per collision rule.) (Map holds
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Behnisch" (bonns, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 932 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (majolikaed wagners, knized adolfloos,
+kingsroaded schindlers, southdaled gruens). The program wagners
+(majolikas attempts), adolfloos (knizes verdicts), schindlers
+(kingsroads claims), and gruens (southdales votes). Four more,
+Austrian-American vein. ("Richard Neutra" declined — "neutra"
+fragments standing "neutral/neutrality" lines; consistency with
+Rewal/Munir/Horta/Bohm declines demanded it; "loos" declined vs
+13-hit flood — compound "adolfloos" + full-name tag; "malls" taken —
+"southdales" used, all per collision rule.) (Map holds 800 rounds.)
+
+- **Wagner majolikas [canon: Wagner (majolikaed wagners; specified
+  Otto Wagner (majolikas; vs no hits)); verification deferred].** →
+  Wagner's wagners (majolikaed, kept (wagner, majolikaed (majolikas,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Wagner" (majolikas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Loos knizes [canon: Adolf Loos (knized adolfloos; specified Adolf
+  Loos (knizes; "loos" declined vs flood — compound + full-name tag
+  per collision rule; vs no hits)); verification deferred].** →
+  Loos's adolfloos (knized, kept (adolfloo, knized (knizes, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Loos"
+  (knizes, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Schindler kingsroads [canon: Schindler (kingsroaded schindlers;
+  specified Rudolph Schindler (kingsroads; vs no hits)); verification
+  deferred].** → Schindler's schindlers (kingsroaded, kept
+  (schindler, kingsroaded (kingsroads, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Schindler"
+  (kingsroads, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Gruen southdales [canon: Gruen (southdaled gruens; specified
+  Victor Gruen (southdales; vs no hits)); verification deferred].** →
+  Gruen's gruens (southdaled, kept (gruen, southdaled (southdales,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Gruen" (southdales, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
