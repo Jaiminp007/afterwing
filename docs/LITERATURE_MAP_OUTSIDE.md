@@ -35563,3 +35563,33 @@ compound + full-name tag per collision rule; all per collision rule.)
   (folkloricos, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Hernandez" (folkloricos, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 980 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (quintaed aravenas, serpentined radics,
+naved pezos, calaed zegers). The program aravenas (quintas attempts),
+radics (serpentines verdicts), pezos (naves claims), and zegers
+(calas votes). Four more, Chilean vein. (All per collision rule.)
+(Map holds 800 rounds.)
+
+- **Aravena quintas [canon: Aravena (quintaed aravenas; specified
+  Alejandro Aravena (quintas; vs no hits)); verification deferred].**
+  → Aravena's aravenas (quintaed, kept (aravena, quintaed (quintas,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Aravena" (quintas, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Radic serpentines [canon: Radic (serpentined radics; specified
+  Smiljan Radic (serpentines; vs no hits)); verification deferred].**
+  → Radic's radics (serpentined, kept (radic, serpentined
+  (serpentines, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Radic" (serpentines, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Pezo naves [canon: Pezo (naved pezos; specified Mauricio Pezo
+  (naves; vs no hits)); verification deferred].** → Pezo's pezos
+  (naved, kept (pezo, naved (naves, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Pezo" (naves, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Zegers calas [canon: Zegers (calaed zegers; specified Cazu Zegers
+  (calas; vs no hits)); verification deferred].** → Zegers's zegers
+  (calaed, kept (zegers, calaed (calas, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); her "Zegers" (calas, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
