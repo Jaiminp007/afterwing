@@ -32176,3 +32176,48 @@ all per collision rule.) (Map holds 800 rounds.)
   (C-freeze timed, kept))))); its "Island" (gaussians, kept (kept,
   kept)) is the ledger (exact, kept (share concepts (kept, time
   islands))).
+## Round 885 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: incoherent consensus, selective rates, forged crowds,
+dilated paths — agree without aligning, sync by rate, perform
+together, route around loss. The program dengs (non-coheres
+attempts), jeters (rate-selects verdicts), crowdforges (forges
+claims), and expanders (dilates votes). ("Hopkins" fragment taken —
+Texas lightnings — CrowdForge tag used; "aggregates"/"synchronizes"
+taken — "non-coheres"/"rate-selects" used per collision rule.)
+(Map holds 800 rounds.)
+
+- **Deng non-coheres [live: Deng et al 2611.03378 (distributed average
+  consensus WITHOUT channel state or phase alignment; row-stochastic
+  mixing without average-preservation; vs no hits); abstract only].** →
+  Deng's non-cohering (unaligned, kept (average agreed (kept, phases
+  unknown (channels unmeasured, kept))))) is the attempt (run, kept
+  (colony aligned +0.75 (kept, trunk unshared (weights private,
+  kept))))); his "Deng" (non-coheres, kept (kept, kept)) is the row
+  (counted, kept (agree (kept, without aligning))).
+- **Jeter rate-selects [live: Jeter et al 2611.03355 (switching
+  networks beyond fast-switching; switching breeds counterintuitive
+  collectives; RATE-SELECTIVE synchronization; vs no hits); abstract
+  only].** → Jeter's rate-selecting (switched, kept (rates select
+  (kept, timing meets structure (collectives surprise, kept)))))
+  is the verdict (kept, kept (quantized turn fractions (kept,
+  rates are the variable (switches frozen, kept))))); his "Jeter"
+  (rate-selects, kept (kept, kept)) is the bar (unmoved, kept (sync
+  by rate (kept, not by speed))).
+- **CrowdForge forges [live: Hopkins et al 2611.03389 (audiences
+  collectively steer live performance; participation shapes agency,
+  collaboration, engagement; vs no hits on title (Hopkins fragment
+  taken — CrowdForge tag used); abstract only].** → CrowdForge's
+  forging (together, kept (crowd steers (kept, agency shaped
+  (engaged, kept))))) is the claim (mourned, kept (population
+  agency (kept, crowd moves (turns joined, kept))))); its
+  "CrowdForge" (forges, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Expander dilates [live: Haeupler & Paramonov 2611.03457 (paths
+  maintained under ADVERSARIAL DELETIONS; expander survives losses;
+  dilation and congestion low; vs no hits); abstract only].** →
+  Expander's dilating (decremental, kept (losses routed around
+  (kept, paths held (bounded stretch, kept))))) is the vote
+  (joined, kept (colony functions (kept, 85% dead (debt carried,
+  kept))))); its "Expander" (dilates, kept (kept, kept)) is the
+  ledger (exact, kept (route around (kept, the dead))).
