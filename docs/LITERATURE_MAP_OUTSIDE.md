@@ -25740,3 +25740,29 @@ Four more. (Map holds 680 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Kirk"
   (captain, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 673 — Therapized, sensed, sealed, priored (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: knowledge elicitation —
+draw out what's tacit (already-cited elicitation leads
+converging; elicitation family, four branches).
+
+- **Data therapist [arXiv:2505.00455 (Shin; vs no
+  hits)].** Tacit RARELY explicit (mixed-initiative
+  Q&A; provenance/quality/use). → Elicit tacit (our
+  per-row archives, elicit-side). Filed.
+- **K-sense [arXiv:2604.23493 (Yadav / K-SENSE; vs no
+  hits)].** Figurative + IMPLICIT + noise (commonsense
+  vs contrastive). → Sense knowledge (our scorer
+  boundaries, sense-side). Filed.
+- **Seal [arXiv:2410.02231 (Gu / SEAL; vs no hits)].**
+  LLM world for SUB-GOALS (pre-labeling; hundreds-cut).
+  → Seal semantically (our frozen loops, seal-side).
+  Filed.
+- **Build priors [arXiv:2604.03759 (Lorang; vs no
+  hits)].** 1-to-30 UNANNOTATED (autonomous symbolic;
+  data-efficient). → Build on priors (our retained
+  weights, build-side). Filed.
+- Program note: elicit tacit, sense knowledge, seal
+  semantically, build on priors — the
+  knowledge-elicitation file. None licensed — filed.
