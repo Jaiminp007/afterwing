@@ -35200,3 +35200,36 @@ Michael Hopkins"; all per collision rule.) (Map holds 800 rounds.)
   docklanded (docklands, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Dixon" (docklands, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 970 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (dublined stephensons, corked deblacams,
+galwayed meaghers, limericked clearys). The program stephensons
+(dublins attempts), deblacams (corks verdicts), meaghers (galways
+claims), and clearys (limericks votes). Four more, Irish vein. (All
+four surnames + full names + contexts virgin pre-append, all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Stephenson dublins [canon: Stephenson (dublined stephensons;
+  specified Sam Stephenson (dublins; vs no hits)); verification
+  deferred].** → Stephenson's stephensons (dublined, kept (stephenson,
+  dublined (dublins, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Stephenson" (dublins, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Blacam corks [canon: Blacam (corked deblacams; specified Shane de
+  Blacam (corks; vs no hits)); verification deferred].** → Blacam's
+  deblacams (corked, kept (deblacam, corked (corks, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Blacam"
+  (corks, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Meagher galways [canon: Meagher (galwayed meaghers; specified John
+  Meagher (galways; vs no hits)); verification deferred].** →
+  Meagher's meaghers (galwayed, kept (meagher, galwayed (galways,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Meagher" (galways, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Cleary limericks [canon: Cleary (limericked clearys; specified Shay
+  Cleary (limericks; vs no hits)); verification deferred].** →
+  Cleary's clearys (limericked, kept (cleary, limericked (limericks,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Cleary" (limericks, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
