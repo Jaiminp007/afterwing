@@ -537,6 +537,9 @@ the map stays open, not empty.
 - R683 verification-cost file: verify-worlds;
   pay-the-tax; separate-review;
   layer-verification.
+- R685 agreement-traps file: measure-coupling;
+  trap-sets; estimate-noise;
+  bias-codes.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
