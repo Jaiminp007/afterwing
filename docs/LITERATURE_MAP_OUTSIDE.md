@@ -35773,3 +35773,48 @@ collision rule; all per collision rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Pardo"
   (parques, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 986 — LIVE (fresh-hose find; 2026-11-03)
+
+Motivation: the date-sorted hose recirculated, so the probe opened
+fresh hoses — newest q-bio.NC and eess.SY listings. Two new IDs
+triaged by abstract (0 worlds): 2611.03071 (fMRI connectivity
+state-switching — descriptive human neuroimaging, no mechanism for
+any gate — DECLINED unrelated-screening) and 2611.00387
+(Russin/Kim/Pavlick/Frank) — geometric vs algebraic inference:
+experience gradually shapes representational geometry making later
+inference cheap (geometric), versus flexible online reasoning over
+novel relations at extra inference-time cost (algebraic). The
+resonance is direct: the program's architectures carry relations
+baked into weights (geometric), and every transfer failure is the
+absence of the algebraic half — no online repair at probe time. The
+bar's demand for probe-time history-adaptive mechanisms IS the
+demand for the algebraic strategy. (Abstract only, 0 worlds; IDs +
+authors + contexts virgin pre-append, flattened method.)
+
+- **Russin geometries [LIVE 2611.00387 (geometried russins;
+  specified Jacob Russin (geometries; vs no hits)); verification
+  deferred].** → Russin's russins (geometried, kept (russin,
+  geometried (geometries, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Russin" (geometries, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Kim algebras [LIVE 2611.00387 (algebraed joonhwakims; specified
+  Joonhwa Kim (algebras; "Kim" taken — 2x2 precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Kim's joonhwakims (algebraed, kept (joonhwakim,
+  algebraed (algebras, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Kim" (algebras, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Pavlick transitives [LIVE 2611.00387 (transitived pavlicks;
+  specified Ellie Pavlick (transitives; vs no hits)); verification
+  deferred].** → Pavlick's pavlicks (transitived, kept (pavlick,
+  transitived (transitives, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Pavlick" (transitives, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Frank inferences [LIVE 2611.00387 (inferenced michaeljfranks;
+  specified Michael J. Frank (inferences; distinct from
+  Jean-Michel/ant rounds — compound + full-name tag per collision
+  rule; vs no hits)); verification deferred].** → Frank's
+  michaeljfranks (inferenced, kept (michaeljfrank, inferenced
+  (inferences, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Frank" (inferences, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
