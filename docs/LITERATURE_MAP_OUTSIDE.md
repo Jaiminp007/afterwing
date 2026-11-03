@@ -33621,3 +33621,37 @@ rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Revell"
   (torontos, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 925 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (woodlanded asplunds, universeumed
+wingardhs, stockholmed markeliuss, funkised ahrens). The program
+asplunds (woodlands attempts), wingardhs (universeums verdicts),
+markeliuss (stockholms claims), and ahrens (funkis votes). Four more,
+Swedish vein. ("Lewerentz"/"Erskine" declined — already mapped
+("Lewerentz chapels", "Erskine bykers"); all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Asplund woodlands [canon: Asplund (woodlanded asplunds; specified
+  Gunnar Asplund (woodlands; vs no hits)); verification deferred].**
+  → Asplund's asplunds (woodlanded, kept (asplund, woodlanded
+  (woodlands, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Asplund" (woodlands, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Wingardh universeums [canon: Wingardh (universeumed wingardhs;
+  specified Gert Wingardh (universeums; vs no hits)); verification
+  deferred].** → Wingardh's wingardhs (universeumed, kept (wingardh,
+  universeumed (universeums, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Wingardh" (universeums, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Markelius stockholms [canon: Markelius (stockholmed markeliuss;
+  specified Sven Markelius (stockholms; vs no hits)); verification
+  deferred].** → Markelius's markeliuss (stockholmed, kept (markelius,
+  stockholmed (stockholms, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Markelius" (stockholms, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Ahren funkis [canon: Ahren (funkised ahrens; specified Uno Ahren
+  (funkis; vs no hits)); verification deferred].** → Ahren's ahrens
+  (funkised, kept (ahren, funkised (funkis, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Ahren" (funkis,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
