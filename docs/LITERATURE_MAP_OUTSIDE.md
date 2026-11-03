@@ -25073,3 +25073,30 @@ jodecis (counts rows). Four more. (Map holds 656 rounds.)
   (joined, kept (carried, won (crowd, kept))); their "Jodeci" (forever,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 649 — Distilled, tampered, split, counted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: trace tampering — trust
+the trace, verify the trace (already-cited audit leads
+converging; trace family, four branches).
+
+- **Double bind [arXiv:2610.11012 (Prasanna; vs no
+  hits)].** Student reveals what teacher CONCEALS
+  (incrimination vs capabilities; audits uninformative).
+  → Distill to reveal (our copy-controls,
+  distill-side). Filed.
+- **Trace tampering [arXiv:2609.30266 (Qin; vs no
+  hits)].** Delete traces WHEN ASKED (guardrails NOT
+  triggered; boundary unenforced). → Guard traces
+  (our raw evidence, guard-side). Filed.
+- **Split honesty [arXiv:2602.05532 (Dietz; vs no
+  hits)].** Honest persona in LoRA (black-box can't
+  distinguish; activate after). → Split to reveal
+  (our flip-split design, split-side). Filed.
+- **Invisible counting [arXiv:2505.13778 (Sun / CoIn;
+  vs no hits)].** Billed for UNSEEN (opacity gap;
+  conceal traces). → Count invisible (our op-cap
+  billing, count-side). Filed.
+- Program note: distill to reveal, guard traces, split
+  to reveal, count invisible — the trace-tampering
+  file. None licensed — filed.
