@@ -287,7 +287,24 @@ transfer wins, with one exception each way (3170855589 wins at
 +0.044; 2672461838 loses at +0.483). This licenses NOTHING new
 (no second attempt, no re-tuning, no (d) — the freeze stands); it
 is texture for the shelf: the readout is not arbitrary, it is
-priced.
+priced. Re-reading 19 sharpens it to a twin study (see below).
+
+## Executed re-reading 19 (2026-11-02, read-only: spent R10 anchors+probes+verdict)
+
+Twin contrast, opposite outcomes, near-identical weights.
+Histories 1172370180 (transfer −3.68) and 3170855589 (+2.77):
+Go means −0.022 vs +0.044, No-Go −0.982 vs −0.649, RMS ratios
+2.27 vs 2.16 — weight statistics indistinguishable. What
+differs is BEHAVIOR: transfer turn rate 0.915 vs 0.584, survivors
+−1 vs +2. Holding weights fixed-ish, turning separates the
+outcomes (direction: less turning, better transfer — n=2,
+illustrative, causal arrow unknown; turning may follow energy,
+not lead it). This is the R16 handle with a twin control: the
+behavioral difference is real where the weight difference is
+not. It licenses nothing (illustrative n=2, no freeze, no
+instrument) — but the next rationale now has a twin pair to
+explain, and "explain the twins" is a checkable bar for any
+probe-time proposal.
 
 ## Executed re-reading 18 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
 
