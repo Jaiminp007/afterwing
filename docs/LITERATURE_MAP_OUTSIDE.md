@@ -28451,3 +28451,42 @@ mapped — routed to MetaRSI instead).
   (argument), single attempts (replication), negative preservation
   (measurement) — and "claim RSI only on separately-satisfying
   evidence" is MetaRSI's format-bound critique turned into a rule.
+## Round 778 — LIVE via OpenAlex: balancers, preferrers, dopamines, benchers (Loss-Free 2024, Kumar-vs-BC 2022, Landayan fly-foraging 2018, RSIBench-Data 2026; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Loss-free balancing [Wang et al. 2024, Auxiliary-Loss-Free Load
+  Balancing for MoE; vs no hits].** → Unbalanced load collapses
+  routing; aux losses fix balance but inject interference gradients
+  that impair the model; answer: expert-wise bias updated by recent
+  load, no aux gradients. B4 fuel with a warning label: if the
+  program ever learns a router, balance it by load-bias, never by
+  aux-loss — aux gradients would swamp the tiny steering head the
+  way they impair the big one.
+- **Offline-RL-vs-BC [Kumar et al. 2022, When Should We Prefer
+  Offline RL Over Behavioral Cloning?; vs no hits].** → Characterizes
+  the environments where offline RL beats BC on equal expert data
+  (BC cannot improve over its demonstrator's suboptimality
+  structure). Adjudicates R4 from outside: guarded's demonstrations
+  carry exactly the suboptimality structure BC cannot transcend —
+  R4's 0/8 is an instance of a characterized phenomenon, not a
+  surprise, and the characterization predicts which future
+  teacher-data COULD work (data the student can improve upon, not
+  merely imitate).
+- **State-dependent foraging circuits [Landayan et al. 2018,
+  satiation dopaminergic control of foraging in Drosophila; vs no
+  hits].** → Food-deprived vs well-fed flies use DISTINCT
+  dopaminergic circuits (PAM vs other) that CONVERGE on D1 Kenyon
+  cells, where activity promotes foraging independent of satiation.
+  Biology's viability gate is per-regime experts — nature's B2 —
+  with the detail B2 lacked: the circuits converge on shared
+  downstream integration rather than independent argmax. Any future
+  mixture needs the convergence point, not just the branches.
+- **RSI data-bench [Meng et al. 2026, RSIBench-Data; vs no hits].**
+  → Fixed post-training stack, Harbor/E2B official evaluation,
+  fixed budgets across agents, iterative training-data revision.
+  The benchmark version of the program's discipline: frozen plan =
+  fixed stack, op caps = fixed budgets, propose-evaluate-adopt =
+  iterative revision. Outside convergence on the discipline shape —
+  the field is standardizing what the program already practices.
