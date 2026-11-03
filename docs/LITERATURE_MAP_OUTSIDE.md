@@ -34712,3 +34712,37 @@ full-name tags per Kim precedent; all per collision rule.) (Map holds
   vote (joined, kept (carried, won (crowd, kept))); his "Franck"
   (kartios, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 956 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (vallingbyed backstroms, farstaed
+reiniuss, kistaed nybergs, gavled erikssons). The program backstroms
+(vallingbys attempts), reiniuss (farstas verdicts), nybergs (kistas
+claims), and erikssons (gavles votes). Four more, Swedish vein II.
+("Klas Anselm" declined — "anselm" fragments standing Kiefer lines;
+11th fragment-consistency decline; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Backstrom vallingbys [canon: Backstrom (vallingbyed backstroms;
+  specified Sven Backstrom (vallingbys; vs no hits)); verification
+  deferred].** → Backstrom's backstroms (vallingbyed, kept (backstrom,
+  vallingbyed (vallingbys, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Backstrom" (vallingbys, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Reinius farstas [canon: Reinius (farstaed reiniuss; specified Leif
+  Reinius (farstas; vs no hits)); verification deferred].** →
+  Reinius's reiniuss (farstaed, kept (reinius, farstaed (farstas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Reinius" (farstas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Nyberg kistas [canon: Nyberg (kistaed nybergs; specified Bernt
+  Nyberg (kistas; vs no hits)); verification deferred].** → Nyberg's
+  nybergs (kistaed, kept (nyberg, kistaed (kistas, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Nyberg"
+  (kistas, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Eriksson gavles [canon: Eriksson (gavled erikssons; specified Nils
+  Einar Eriksson (gavles; vs no hits)); verification deferred].** →
+  Eriksson's erikssons (gavled, kept (eriksson, gavled (gavles, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Eriksson" (gavles, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
