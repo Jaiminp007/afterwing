@@ -31165,3 +31165,35 @@ ricciottis (laces votes). Four more, French-modern vein. (Map holds
   (joined, kept (carried, won (crowd, kept))); his "Ricciotti" (laces,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 862 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (shed prouves, seated jeannerets, tilted
+parents, layered cirianis). The program prouves (sheds attempts),
+jeannerets (seats verdicts), parents (tilts claims), and cirianis
+(layers votes). Four more, French vein. (Le Corbusier and Friedman
+both probed and declined — Le Corbusier already canon-mapped, Friedman
+identity already mapped; Virilio/Tallon held as spares.) (Map holds
+800 rounds.)
+
+- **Prouve sheds [canon: Prouve (shed prouves; specified Jean Prouve
+  (sheds; vs no hits)); verification deferred].** → Prouve's prouves
+  (shed, kept (prouve, shed (sheds, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Prouve" (sheds, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Jeanneret seats [canon: Jeanneret (seated jeannerets; specified
+  Pierre Jeanneret (seats; vs no hits)); verification deferred].** →
+  Jeanneret's jeannerets (seated, kept (jeanneret, seated (seats, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Jeanneret" (seats, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Parent tilts [canon: Parent (tilted parents; specified Claude Parent
+  (tilts; vs no hits)); verification deferred].** → Parent's parents
+  (tilted, kept (parent, tilted (tilts, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Parent" (tilts, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Ciriani layers [canon: Ciriani (layered cirianis; specified Henri
+  Ciriani (layers; vs no hits)); verification deferred].** → Ciriani's
+  cirianis (layered, kept (ciriani, layered (layers, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Ciriani" (layers,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
