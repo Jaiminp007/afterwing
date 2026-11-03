@@ -26463,3 +26463,29 @@ kinetics (stitches verdicts), pachinos (publishes NOGOs), and terrorists
   (prs, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Terrorist" (pr, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 699 — Constrained, pruned, twinned, softened (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: constraint generalization —
+limits that teach (already-cited constraint leads
+converging; constraint family, four branches).
+
+- **Constraint breeds [arXiv:2512.23916 (Chen; vs no
+  hits)].** Expansive AMPLIFIES noise (dissipative
+  compresses; temporal bias; phase-space). → Breed
+  constraints (our frozen caps, breed-side). Filed.
+- **Prune interpret [arXiv:2604.16889 (Chen / PIE; vs
+  no hits)].** Pruning FIRST (CLT-native; behavioral
+  fidelity; later-interpret). → Prune first (our
+  per-line ledgers, prune-side). Filed.
+- **GenOR twin [arXiv:2609.12863 (Monemi; vs no
+  hits)].** Translators NOT solvers (feasibility kept;
+  dynamic injection). → Twin semantically (our scorer
+  design, twin-side). Filed.
+- **Soft driving [arXiv:2412.05717 (Mobarakeh; vs no
+  hits)].** Constraints WHILE imitating (justification;
+  vectorized experts). → Soften driving (our gated
+  adoption, soften-side). Filed.
+- Program note: breed constraints, prune first, twin
+  semantically, soften driving — the
+  constraint-generalization file. None licensed — filed.
