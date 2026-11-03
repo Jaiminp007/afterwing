@@ -564,6 +564,9 @@ the map stays open, not empty.
 - R701 persona-fidelity file: personify-structurally;
   compress-onboard; tree-traffic;
   lexicon-nets.
+- R703 assurance-contracts file: contract-omissions;
+  assure-traces; eval-surely;
+  provenance-agents.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
