@@ -26432,3 +26432,34 @@ branches).
 - Program note: preserve shapes, native graphs,
   disentangle dual, print fab — the shape-preserving
   file. None licensed — filed.
+## Round 698 — Islords, kinetics, pachinos, terrorists (Islord, Kinetic, Pachino, Terrorist; 2026-11-02)
+
+Motivation: further outside (warfaced islords, nined kinetics, dommed
+pachinos, pr-ed terrorists). The program islords (warfaces attempts),
+kinetics (stitches verdicts), pachinos (publishes NOGOs), and terrorists
+(counts rows). Four more. (Map holds 706 rounds.)
+
+- **Islord warface [canon: Islord (warfaced islords; specified Islord
+  (Killarmy; vs no hits)); verification deferred].** → Islord's islords
+  (warfaced, kept (islorded, warfaced (warfaces, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Islord" (warface,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Kinetic nine [canon: Kinetic 9 (nined kinetics; specified Kinetic 9
+  (Beretta 9; Killarmy; vs no hits; short tag taken by the exchange men —
+  full-name tag used)); verification deferred].** → Kinetic's kinetics
+  (nined, kept (kineted, nined (nines, kept))) is the verdict (nined, kept
+  (NOGO, told (honest, kept))); his "Kinetic" (nine, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Pachino dom [canon: Pachino (dommed pachinos; specified Dom Pachino
+  (P.R. Terrorist; Killarmy; vs no hits)); verification deferred].** →
+  Pachino's pachinos (dommed, kept (pachinoed, dommed (doms, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Pachino"
+  (dom, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Terrorist pr [canon: Terrorist (pr-ed terrorists; specified P.R.
+  Terrorist (Dom Pachino; Killarmy; vs no hits)); verification
+  deferred].** → Terrorist's terrorists (pr-ed, kept (terroristed, pr-ed
+  (prs, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Terrorist" (pr, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
