@@ -11,23 +11,17 @@ import {rmSync} from 'node:fs';
 import {TasteExperiment} from '../learning/taste-experiment.mjs';
 import {summarizeGenerations} from '../scripts/mate-inherit-v1b.mjs';
 import {mateSelectionBank,scoreMateSelectionRows,MS_FIXTURE_SEEDS,MS_ARMS} from '../scripts/mate-selection-dev.mjs';
+import {mateSelectionBank as mateSelectionBankV1b,scoreMateSelectionRows as scoreMateSelectionRowsV1b,MS_FIXTURE_SEEDS as MS_FIXTURE_SEEDS_V1B} from '../scripts/mate-selection-v1b.mjs';
 
 const synthHistory=(seed)=>({seed,cueSeed:seed+1,resourceSeeds:[seed+2,seed+3,seed+4,seed+5],probeSeeds:{A:seed+6,B:seed+7,transfer:seed+8}});
 const synthRow=(arm,seed,births,gen1,gen2)=>({history:{seed},arm,mode:'none',matingEnergyBar:50,nutrientOverride:5,transmission:'none',
   endpoint:{budgetAdjustedEnergyPerFounder:-60.1,survivors:3},births,generations:{gen1,gen2,maxGeneration:gen2>0?2:gen1>0?1:0,byGeneration:{}}});
 
 describe('mate-selection-dev fixtures',()=>{
-  it('bank builds deterministic 1-history/9-unique-seed protocol to tmp (cleaned)',()=>{
+  it('V1 bank refuses re-mint post-spend (spent-bank guard)',()=>{
     const dir=join(tmpdir(),'msel-bank-test');
     rmSync(dir,{recursive:true,force:true});
-    const p=mateSelectionBank(join(dir,'protocol.json'));
-    assert.equal(p.experiment,'mate-selection-dev');
-    assert.equal(p.histories.length,1);
-    const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
-    assert.equal(new Set(flat).size,9);
-    assert.deepEqual([...MS_FIXTURE_SEEDS].sort((a,b)=>a-b),flat.slice().sort((a,b)=>a-b));
-    const q=mateSelectionBank(join(dir,'protocol.json'));
-    assert.deepEqual(q,p);
+    assert.throws(()=>mateSelectionBank(join(dir,'protocol.json')),/already used in prior evidence/);
     rmSync(dir,{recursive:true,force:true});
   });
   it('scorer GO iff candidate > unlearned and >= frozen',()=>{
@@ -58,5 +52,32 @@ describe('mate-selection-dev fixtures',()=>{
     assert.equal(run.world.config.reproduction,true);
     assert.equal(run.world.config.matingEnergyBar,50);
     assert.equal(run.arm,'candidate');
+  });
+});
+
+describe('mate-selection-v1b replication fixtures',()=>{
+  it('V1b bank builds deterministic 2-history/18-unique-seed protocol to tmp (cleaned)',()=>{
+    const dir=join(tmpdir(),'mselv1b-bank-test');
+    rmSync(dir,{recursive:true,force:true});
+    const p=mateSelectionBankV1b(join(dir,'protocol.json'));
+    assert.equal(p.experiment,'mate-selection-dev');
+    assert.equal(p.histories.length,2);
+    const flat=p.histories.flatMap(h=>[h.seed,h.cueSeed,...h.resourceSeeds,h.probeSeeds.A,h.probeSeeds.B,h.probeSeeds.transfer]);
+    assert.equal(new Set(flat).size,18);
+    assert.deepEqual([...MS_FIXTURE_SEEDS_V1B].sort((a,b)=>a-b),flat.slice().sort((a,b)=>a-b));
+    assert.ok(!MS_FIXTURE_SEEDS.some(s=>MS_FIXTURE_SEEDS_V1B.includes(s)),'V1b seeds overlap V1 bank');
+    rmSync(dir,{recursive:true,force:true});
+  });
+  it('V1b scorer GO/NOGO on 2-history synthetic rows',()=>{
+    const go=scoreMateSelectionRowsV1b([
+      synthRow('candidate',473010,4,4,0),synthRow('frozen',473010,2,2,0),synthRow('unlearned',473010,1,1,0),
+      synthRow('candidate',473019,3,3,0),synthRow('frozen',473019,3,3,0),synthRow('unlearned',473019,2,2,0)]);
+    assert.equal(go.g1,true);assert.equal(go.g2,true);
+    assert.equal(go.go,true);assert.equal(go.verdict,'MATE-SELECTION-GO-V1');
+    assert.equal(go.candidateBirths,7);
+    const no=scoreMateSelectionRowsV1b([
+      synthRow('candidate',473010,1,1,0),synthRow('frozen',473010,4,4,0),synthRow('unlearned',473010,2,2,0),
+      synthRow('candidate',473019,2,2,0),synthRow('frozen',473019,1,1,0),synthRow('unlearned',473019,3,3,0)]);
+    assert.equal(no.go,false);assert.equal(no.verdict,'MATE-SELECTION-NOGO-V1');
   });
 });
