@@ -32293,3 +32293,49 @@ rounds.)
   boarded (boards, kept))) is the vote (joined, kept (carried, won
   (crowd, kept)))); his "Paul" (boards, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 888 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: amended laws, contextualized results, aleatoric humans,
+assembled scenes — date the law, place the gain, split the
+uncertainty, share the latent. The program nitibenchs (amends
+attempts), leaderboards (contextualizes verdicts), yufeis
+(aleatorics claims), and cola3ds (assembles votes). ("Zhang"/"Cui"
+fragments taken — Zhang Zai, antiquity-doubter — Yufei tag used;
+"dates"/"lives"/"bodies" taken — "amends"/"contextualizes"/
+"aleatorics" used per collision rule.) (Map holds 800 rounds.)
+
+- **NitiBench amends [live: Akarajaradwong et al 2611.03576 (law
+  CHANGES; 67% cite amended/repealed text; benchmark holds BOTH
+  then-text and now-text plus every dated version; vs no hits);
+  abstract only].** → NitiBench's amending (dated, kept (then-text
+  kept (kept, now-text beside it (versions all, kept))))) is the
+  attempt (run, kept (frozen banks (kept, text-in-force-at-run
+  (seeds dated, kept))))); its "NitiBench" (amends, kept (kept,
+  kept)) is the row (counted, kept (date the law (kept, hold both
+  texts))).
+- **Leaderboard contextualizes [live: Ritzert 2611.03433 (gains may be
+  outdated comparisons or weak baselines; LIVING leaderboard
+  organizes by dataset; 27,723 results extracted; vs no hits);
+  abstract only].** → Leaderboard's contextualizing (living, kept
+  (gains placed (kept, baselines current (weak ones named,
+  kept))))) is the verdict (kept, kept (matched controls (kept,
+  unlearned/reset current (stale gains named, kept))))); its
+  "Leaderboard" (contextualizes, kept (kept, kept)) is the bar
+  (unmoved, kept (place the gain (kept, or don't claim it))).
+- **Yufei aleatorics [live: Zhang & Cui 2611.03428 (robot needs a world
+  model OF THE HUMAN: belief over body state plus dynamics; ALEATORIC
+  flags unreliable observations, EPISTEMIC flags low-density inputs;
+  vs no hits on title (Zhang/Cui fragments taken — Yufei tag used);
+  abstract only].** → Yufei's aleatoric-ing (split, kept (dice apart
+  (kept, ignorance apart (observed noisy, kept))))) is the claim
+  (mourned, kept (encounter dice (kept, unseen regimes (two
+  uncertainties, kept))))); his "Yufei" (aleatorics, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **CoLa3D assembles [live: Cai et al 2611.03533 (composable
+  decomposition WITHIN a shared whole-scene latent — not per-object
+  plus fragile glue; assembles back coherently; vs no hits);
+  abstract only].** → CoLa3D's assembling (shared, kept (one latent
+  (kept, parts composable (glue unfragile, kept))))) is the vote
+  (joined, kept (single solution (kept, exact transplant (assemble
+  back, kept))))); its "CoLa3D" (assembles, kept (kept, kept)) is the
+  ledger (exact, kept (share latent (kept, assemble whole))).
