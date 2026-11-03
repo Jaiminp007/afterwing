@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 39 (2026-11-02, read-only: spent R10 anchors A + D)
+
+The Go ranking is set in the first stretch: anchor-A order
+predicts anchor-D order at Spearman rho 0.952 (only adjacent
+swaps: 3243↔2672, 1917↔6818; the loser last at both, the
+winner-table stable). The A-means already span −0.07..+0.52 —
+the divergence is immediate, first phase, before any flood.
+R31's fate-set-early upgrades from sign to full rank-order:
+not only who is positive but the whole ladder is fixed before
+the flood arrives, and the flood preserves it (all shift, none
+pass). Combined with R17 (D-rank tracks transfer), the chain
+is unbroken A-rank → D-rank → transfer: the ordering that
+decides transfer is the ordering from the first stretch.
+
 ## Executed re-reading 38 (2026-11-02, read-only: spent R1/R8/R9/R10 anchors)
 
 The 12-cell freeze table is complete. Taste 4/4 frozen, motor
