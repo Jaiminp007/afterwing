@@ -518,6 +518,16 @@ H=0" (512/512 action-2) and "cruise dominant" read correctly;
 the entropy was computed over {turn, stay, cruise}, not arbitrary
 codes. The ledger's newest numbers mean what they say.
 
+Precision 10 (2026-11-03): rank-math audit — all reported rhos
+recomputed with proper midrank Spearman (the ledger's scripts used
+first-occurrence ties). Shifts: R10 transfer-H +0.571→+0.602
+(inside the reported variant range), R9 −0.119→−0.144, length
++0.500→+0.509, R8/R48/R49/acquire exact. No conclusion moves:
+R10 ~0.60, R9 noise, R8 weak. New: R8/R9 acquire-H −0.02/+0.19
+(both noise) — training is uniform AND uninformative, line-wide.
+The ledger's arithmetic checks out; the one method flaw found
+changed nothing.
+
 Precision 8 (2026-11-03): uniformity line-wide — acquire-phase
 entropy recomputed for R8 and R9 (~equal decades of decisions):
 H∈[1.582,1.585] and [1.580,1.584] across all 16 histories
