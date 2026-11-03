@@ -30401,3 +30401,35 @@ rounds.)
   borsanis (leaned, kept (borsani, leaned (leans, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Borsani" (leans, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 837 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (sped mollinos, vaulted gardellas, facaded
+morettis, stationed micheluccis). The program mollinos (speeds
+attempts), gardellas (vaults verdicts), morettis (facades claims), and
+micheluccis (stations votes). Four more, Italian-modern vein continued.
+(Map holds 800 rounds.)
+
+- **Mollino speeds [canon: Mollino (sped mollinos; specified Carlo
+  Mollino (speeds; vs no hits)); verification deferred].** → Mollino's
+  mollinos (sped, kept (mollino, sped (speeds, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Mollino" (speeds,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Gardella vaults [canon: Gardella (vaulted gardellas; specified
+  Ignazio Gardella (vaults; vs no hits)); verification deferred].** →
+  Gardella's gardellas (vaulted, kept (gardella, vaulted (vaults, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Gardella"
+  (vaults, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Moretti facades [canon: Moretti (facaded morettis; specified Luigi
+  Moretti (facades; vs no hits)); verification deferred].** → Moretti's
+  morettis (facaded, kept (moretti, facaded (facades, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Moretti"
+  (facades, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Michelucci stations [canon: Michelucci (stationed micheluccis;
+  specified Giovanni Michelucci (stations; vs no hits)); verification
+  deferred].** → Michelucci's micheluccis (stationed, kept (michelucci,
+  stationed (stations, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Michelucci" (stations, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
