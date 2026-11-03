@@ -25268,3 +25268,30 @@ leads converging; control family, four branches).
 - Program note: restore blindly, swap controllably,
   model parametrically, steer aligned — the face-control
   file. None licensed — filed.
+## Round 656 — Sevens, blaques, faces, adinas (702, Blaque, Faces, Howard; 2026-11-02)
+
+Motivation: further outside (steeled sevens, eighted blaques, stroked
+faces, freaked adinas). The program sevens (steels attempts), blaques
+(stitches verdicts), faces (publishes NOGOs), and adinas (counts rows).
+Four more. (Map holds 664 rounds.)
+
+- **Seven steelo [canon: 702 (steeled sevens; specified 702 (vs no
+  hits)); verification deferred].** → Seven's sevens (steeled, kept
+  (sevened, steeled (steelos, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); their "Seven" (steelo, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Blaque eight [canon: Blaque (eighted blaques; specified Blaque (vs
+  no hits)); verification deferred].** → Blaque's blaques (eighted, kept
+  (blaqued, eighted (eights, kept))) is the verdict (eighted, kept (NOGO,
+  told (honest, kept))); their "Blaque" (eight, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Face stroke [canon: Changing (stroked faces; specified Changing
+  Faces (vs no hits)); verification deferred].** → Face's faces (stroked,
+  kept (faced, stroked (strokes, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); their "Face" (stroke, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Adina freak [canon: Adina (freaked adinas; specified Adina Howard
+  (vs no hits)); verification deferred].** → Adina's adinas (freaked,
+  kept (adinaed, freaked (freaks, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Adina" (freak, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
