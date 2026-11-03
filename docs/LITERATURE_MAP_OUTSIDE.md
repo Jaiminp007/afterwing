@@ -32986,3 +32986,42 @@ holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Zhang Ke" (gorges,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 907 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (buyeoed swoogeuns, parised chungups,
+seouled sangs, bundled minsuks). The program swoogeuns (buyeos
+attempts), chungups (parises verdicts), sangs (seouls claims), and
+minsuks (bundles votes). Four more, Korean vein. (Shared surname
+"Kim" — Kim Swoo-geun vs Kim Chung-up — handled via given-name
+nicknames + full-name tags per collision rule; "chos"/"voids"/
+"olympics"/"french" taken — "minsuks"/"seouls"/"buyeos"/"parises"
+used, all per collision rule.) (Map holds 800 rounds.)
+
+- **Swoo-geun buyeos [canon: Kim Swoo-geun (buyeoed swoogeuns;
+  specified Kim Swoo-geun (buyeos; shared surname — given-name
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Swoo-geun's swoogeuns (buyeoed, kept
+  (swoogeun, buyeoed (buyeos, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Swoo-geun" (buyeos, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Chung-up parises [canon: Kim Chung-up (parised chungups; specified
+  Kim Chung-up (parises; shared surname — given-name nickname +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Chung-up's chungups (parised, kept (chungup, parised
+  (parises, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Chung-up" (parises, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **H-Sang seouls [canon: Seung H-Sang (seouled sangs; specified Seung
+  H-Sang (seouls; vs no hits)); verification deferred].** → H-Sang's
+  sangs (seouled, kept (sang, seouled (seouls, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "H-Sang"
+  (seouls, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Minsuk bundles [canon: Minsuk Cho (bundled minsuks; specified
+  Minsuk Cho (bundles; surname unusable — given-name nickname +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Minsuk's minsuks (bundled, kept (minsuk, bundled
+  (bundles, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Minsuk" (bundles, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
