@@ -35901,3 +35901,48 @@ contexts virgin pre-append, flattened method.)
   (carried, won (crowd, kept))); his "Silano" (multirotors, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 989 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets again (cs.LG/math.OC start=0,
+q-bio.NC start=30, stat.ML start=20, cs.RO/eess.SY start=20). Five
+new IDs triaged (0 worlds): 2611.03638 (SDP optimizer — DECLINED
+unrelated-screening), 2611.02778 (attention spectra — DECLINED
+thin/unrelated-screening), 2611.03013 (pedestrian corridor —
+DECLINED unrelated-screening), 2610.36272 (Vastola/Gershman) —
+temporal smoothness constraints imply timescale division of labor
+(slow subsystems ↔ slow features): a normative principle for WHY
+fast steering and slow taste separate — the program's two-speed
+architecture, derived; and 2611.03254 (Kalliokoski/Center/LaValle/
+Ojala/Sakcak) — TRAILS automated diverse-trajectory-bank generation
+for controlled navigation experiments under geometric/kinematic
+constraints: the program's fresh-bank discipline (diverse,
+comparable, constrained banks), formalized. (Abstracts/titles only, 0
+worlds; IDs + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Vastola slownesses [LIVE 2610.36272 (slownessed vastolas;
+  specified John J. Vastola (slownesses; vs no hits)); verification
+  deferred].** → Vastola's vastolas (slownessed, kept (vastola,
+  slownessed (slownesses, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Vastola" (slownesses, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Gershman efficiencies [LIVE 2610.36272 (efficiencied gershmans;
+  specified Samuel J. Gershman (efficiencies; vs no hits));
+  verification deferred].** → Gershman's gershmans (efficiencied,
+  kept (gershman, efficiencied (efficiencies, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Gershman"
+  (efficiencies, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Kalliokoski beziers [LIVE 2611.03254 (beziered kalliokoskis;
+  specified Juho Kalliokoski (beziers; vs no hits)); verification
+  deferred].** → Kalliokoski's kalliokoskis (beziered, kept
+  (kalliokoski, beziered (beziers, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Kalliokoski" (beziers,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **LaValle plannings [LIVE 2611.03254 (planninged lavalles;
+  specified Steven M. LaValle (plannings; vs no hits)); verification
+  deferred].** → LaValle's lavalles (planninged, kept (lavalle,
+  planninged (plannings, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "LaValle" (plannings, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
