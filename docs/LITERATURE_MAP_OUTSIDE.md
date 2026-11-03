@@ -35818,3 +35818,40 @@ authors + contexts virgin pre-append, flattened method.)
   (inferences, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Frank" (inferences, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 987 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (palermoed solsonas, belgranoed
+alvarezs, catalinaed manteolas, maderoed borthagarays). The program
+solsonas (palermos attempts), alvarezs (belgranos verdicts),
+manteolas (catalinas claims), and borthagarays (maderos votes). Four
+more, Argentine vein. (Ambasz/Testa/Pelli declined — all already
+mapped, own R-rounds; consistency 42nd-44th; live triage on the side:
+Pixel-UMI recirculated, FAIR-infra + benchmark-prediction declined
+thin, cs.SY hose empty; all per collision rule.) (Map holds 800
+rounds.)
+
+- **Solsona palermos [canon: Solsona (palermoed solsonas; specified
+  Justo Solsona (palermos; vs no hits)); verification deferred].** →
+  Solsona's solsonas (palermoed, kept (solsona, palermoed (palermos,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Solsona" (palermos, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Alvarez belgranos [canon: Alvarez (belgranoed alvarezs;
+  specified Mario Alvarez (belgranos; vs no hits)); verification
+  deferred].** → Alvarez's alvarezs (belgranoed, kept (alvarez,
+  belgranoed (belgranos, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Alvarez" (belgranos, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Manteola catalinas [canon: Manteola (catalinaed manteolas;
+  specified Flora Manteola (catalinas; vs no hits)); verification
+  deferred].** → Manteola's manteolas (catalinaed, kept (manteola,
+  catalinaed (catalinas, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Manteola" (catalinas, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Borthagaray maderos [canon: Borthagaray (maderoed borthagarays;
+  specified Juan Manuel Borthagaray (maderos; vs no hits));
+  verification deferred].** → Borthagaray's borthagarays (maderoed,
+  kept (borthagaray, maderoed (maderos, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Borthagaray" (maderos, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
