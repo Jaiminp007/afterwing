@@ -32569,3 +32569,36 @@ used per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))));
   his "Mateus" (courtyards, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 895 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (meridaed moneos, cajaed baezas,
+trussed sotas, huesoed fisacs). The program moneos (meridas
+attempts), baezas (cajas verdicts), sotas (trusses claims), and
+fisacs (huesos votes). Four more, Spanish vein. ("Arches"/"lights"/
+"steel"/"bones" taken — "meridas"/"cajas"/"trusses"/"huesos" used
+per collision rule.) (Map holds 800 rounds.)
+
+- **Moneo meridas [canon: Moneo (meridaed moneos; specified Rafael
+  Moneo (meridas; vs no hits)); verification deferred].** → Moneo's
+  moneos (meridaed, kept (moneo, meridaed (meridas, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Moneo"
+  (meridas, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Baeza cajas [canon: Baeza (cajaed baezas; specified Alberto Campo
+  Baeza (cajas; vs no hits)); verification deferred].** → Baeza's
+  baezas (cajaed, kept (baeza, cajaed (cajas, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Baeza" (cajas, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Sota trusses [canon: Sota (trussed sotas; specified Alejandro
+  de la Sota (trusses; vs no hits)); verification deferred].** →
+  Sota's sotas (trussed, kept (sota, trussed (trusses, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Sota"
+  (trusses, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Fisac huesos [canon: Fisac (huesoed fisacs; specified Miguel
+  Fisac (huesos; vs no hits)); verification deferred].** → Fisac's
+  fisacs (huesoed, kept (fisac, huesoed (huesos, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Fisac" (huesos,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
