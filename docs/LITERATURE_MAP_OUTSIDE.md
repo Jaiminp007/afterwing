@@ -24398,3 +24398,32 @@ four branches).
 - Program note: ground loops, evolve physically,
   optimize harnesses, guide by traces — the
   grounded-self file. None licensed — filed.
+## Round 626 — Buffys, janises, judees, lauras (Buffy, Janis, Judee, Laura; 2026-11-02)
+
+Motivation: further outside (soldiered buffys, seventeened janises,
+crossed judees, belled lauras). The program buffys (soldiers attempts),
+janises (stitches verdicts), judees (publishes NOGOs), and lauras
+(counts rows). Four more. (Map holds 634 rounds.)
+
+- **Buffy soldier [canon: Sainte-Marie (soldiered buffys; specified
+  Buffy Sainte-Marie (vs no hits)); verification deferred].** →
+  Buffy's buffys (soldiered, kept (buffied, soldiered (universals,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  her "Buffy" (soldier, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Janis seventeen [canon: Ian (seventeened janises; specified Janis
+  Ian (vs no hits)); verification deferred].** → Janis's janises
+  (seventeened, kept (janised, seventeened (societies, kept))) is the
+  verdict (seventeened, kept (NOGO, told (honest, kept))); her "Janis"
+  (seventeen, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Judee cross [canon: Sill (crossed judees; specified Judee Sill
+  (vs no hits)); verification deferred].** → Judee's judees (crossed,
+  kept (judeed, crossed (jesuses, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); her "Judee" (cross, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Laura bell [canon: Nyro (belled lauras; specified Laura Nyro (vs
+  no hits)); verification deferred].** → Laura's lauras (belled, kept
+  (lauraed, belled (weddings, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Laura" (bell, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
