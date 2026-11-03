@@ -199,6 +199,19 @@ weights in a reshuffled world). Next specified step: direction,
 not magnitude — do the grown weights point anywhere useful
 (compare vs probe-successful rows, read-only)?
 
+## Executed re-reading 10 (2026-11-02, read-only: spent R1 anchors+rows)
+
+Mean taste-vector direction vs transfer outcome (8 histories, median
+split on transfer-current energy): within-bottom-4 cosine 0.58,
+within-top-4 0.38, across 0.28 — with mean norms EQUAL (5.58 vs
+5.50). Failures learned just as much, in a SHARED wrong direction;
+successes learned diversely. Anna Karenina with magnitude
+controlled: convergent misdirection, idiosyncratic success. The
+shared-wrong direction across different seeds points at the RULE
+(shared update/architecture converging to one attractor), not the
+data — fix the rule, not the bank. (n=8, descriptive; no claim
+beyond the pattern.)
+
 ## Executed re-reading 8 (2026-11-02, read-only: spent R1 traces)
 
 Stale-map by distance: REFUTED. Mean recommended distance by
