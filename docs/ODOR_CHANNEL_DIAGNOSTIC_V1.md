@@ -444,6 +444,25 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 30 (2026-11-02, read-only: frozen code + bank protocol)
+
+The agent side has zero variance left to give. In probes the
+motor acts GREEDY by construction (exploration gated on
+state.acquisition; frozen probes take argmax deterministically),
+the taste accepts trivially (probability 1 on odor-absent),
+and transfer probe seeds are UNIQUE per history (1004137408,
+1023327705, ... — eight different encounter sequences). So:
+KNOWLEDGE is fixed (near-identical weights, deterministic
+greedy policy), USE varies (unique encounters + entry states),
+OUTCOME diverges (twins −3.68/+2.77). The twins are closed
+mechanistically: same function, different dice, different
+starting chips. All cross-history transfer variance lives in
+(entry state, encounter sequence) — none in the agent. A
+probe-time proposal must therefore change the FUNCTION (the
+greedy map from encounters to actions), because the variance
+it would need to harness is all on the world's side of the
+table. Use-vs-knowledge, proved from the code.
+
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
 The colony is one solution in twenty-four bodies — and survival
