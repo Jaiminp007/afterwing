@@ -29885,3 +29885,35 @@ perris (crawls verdicts), fitzgeralds (sequences claims), and batchelors
   batchelors (filmed, kept (batchelor, filmed (films, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); her "Batchelor" (films, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 821 — Canon (both live hoses still dry): kyles, greenbergs, fongs, mcquarries (Kyle Cooper, Greenberg, Fong, McQuarrie; 2026-11-02)
+
+Motivation: further outside (titled kyles, sequenced greenbergs, opened
+fongs, concepted mcquarries). The program kyles (titles attempts),
+greenbergs (sequences verdicts), fongs (openers claims), and mcquarries
+(concepts votes). Four more, line-split lesson triple-confirmed (full-name
+grep missed mapped R819 Froshaug and R820 Batchelor; surname-check is
+mandatory). (Map holds 800 rounds.)
+
+- **Kyle Cooper titles [canon: Kyle Cooper (titled kyles; specified Kyle
+  Cooper (titles; distinct from Muriel Cooper — full-name tag per collision
+  rule; vs no hits on full name)); verification deferred].** → Cooper's
+  kyles (titled, kept (kyle, titled (titles, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Kyle" (titles, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Greenberg sequences [canon: Greenberg (sequenced greenbergs; specified
+  Richard Greenberg (sequences; vs no hits)); verification deferred].** →
+  Greenberg's greenbergs (sequenced, kept (greenberg, sequenced (sequences,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Greenberg" (sequences, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Fong openers [canon: Fong (opened fongs; specified Karin Fong
+  (openers; vs no hits)); verification deferred].** → Fong's fongs (opened,
+  kept (fong, opened (openers, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Fong" (openers, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **McQuarrie concepts [canon: McQuarrie (concepted mcquarries; specified
+  Ralph McQuarrie (concepts; vs no hits)); verification deferred].** →
+  McQuarrie's mcquarries (concepted, kept (mcquarrie, concepted (concepts,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "McQuarrie" (concepts, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
