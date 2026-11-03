@@ -27479,3 +27479,30 @@ milestone: 740 rounds.)
   (chermayeff, collaged (collages, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Chermayeff" (collage, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 735 — Jobbed, routed, sifted, overruled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: frozen-verdicts — distil
+the episode, read the route, gate the retrain, decline
+the direction (already-cited frozen leads converging;
+verdict family, four branches).
+
+- **Learning on the job [arXiv:2607.22157 (Tablan; vs no
+  hits)].** Discards EPISODES (frozen deployment; verdicts +
+  corrections SUFFICIENT; external distills). → Job learn (our
+  memory overlay, jobbed-side). Filed.
+- **Router within [arXiv:2609.15982 (Chen; vs no
+  hits)].** Preloading DISPERSES (retrieval out-of-capability;
+  own forward passes; two maps). → Route within (our cue-specific
+  selection, routed-side). Filed.
+- **SIFT [arXiv:2607.18358 (Raduta; vs no
+  hits)].** Solved LAB unsolved ENTERPRISE (fear retraining;
+  cheap pipeline + escalates). → Sift self (our frozen-gate
+  pattern, sifted-side). Filed.
+- **Cherry-pick override [arXiv:2606.07834 (Xu; vs no
+  hits)].** Non-directional AUTHORIZED (directional overcommitment;
+  output not authorized). → Overrule cherry (our BH-flat veto,
+  overruled-side). Filed.
+- Program note: job learn, route within, sift self,
+  overrule cherry — the frozen-verdicts file. None
+  licensed — filed.
