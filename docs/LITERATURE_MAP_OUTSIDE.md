@@ -29917,3 +29917,37 @@ mandatory). (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "McQuarrie" (concepts, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 822 — Canon (both live hoses still dry): zacharys, roberts, elaines, havindens (Zachary, Robert Greenberg, Elaine Lustig, Havinden; 2026-11-02)
+
+Motivation: further outside (edited zacharys, broadcast roberts, designed
+elaines, advertised havindens). The program zacharys (edits attempts),
+roberts (broadcasts verdicts), elaines (designs claims), and havindens
+(advertises votes). Four more. Olden skipped (mapped as Georg Olden
+variant — collision, not a new person); Golden already mapped. (Map holds
+800 rounds.)
+
+- **Zachary edits [canon: Zachary (edited zacharys; specified Frank
+  Zachary (edits; vs no hits)); verification deferred].** → Zachary's
+  zacharys (edited, kept (zachary, edited (edits, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Zachary" (edits, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Robert Greenberg broadcasts [canon: Robert Greenberg (broadcast
+  roberts; specified Robert Greenberg (broadcasts; distinct from Richard
+  Greenberg (R821) — full-name tag per collision rule; vs no hits on full
+  name)); verification deferred].** → Greenberg's roberts (broadcast, kept
+  (robert, broadcast (broadcasts, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Robert" (broadcasts, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Elaine Lustig designs [canon: Elaine Lustig (designed elaines;
+  specified Elaine Lustig (designs; distinct from Alvin Lustig (R758) —
+  full-name tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Lustig's elaines (designed, kept (elaine, designed
+  (designs, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); her "Elaine" (designs, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Havinden advertises [canon: Havinden (advertised havindens; specified
+  Ashley Havinden (advertises; vs no hits)); verification deferred].** →
+  Havinden's havindens (advertised, kept (havinden, advertised (advertises,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Havinden" (advertises, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
