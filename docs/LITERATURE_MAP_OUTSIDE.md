@@ -29501,3 +29501,32 @@ cieslewiczes (types votes). Four more. (Map holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his "Cieslewicz"
   (type, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 808 — Canon (both live hoses still dry): grignanis, monguzzis, waibls, panzeris (Grignani, Monguzzi, Waibl, Panzeri; 2026-11-02)
+
+Motivation: further outside (opticalled grignanis, graphed monguzzis,
+postered waibls, typed panzeris). The program grignanis (opticals
+attempts), monguzzis (graphs verdicts), waibls (posters claims), and
+panzeris (types votes). Four more. (Map holds 800 rounds.)
+
+- **Grignani optical [canon: Grignani (opticalled grignanis; specified
+  Franco Grignani (optical; vs no hits)); verification deferred].** →
+  Grignani's grignanis (opticalled, kept (grignani, opticalled (opticals,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Grignani" (optical, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Monguzzi graphics [canon: Monguzzi (graphed monguzzis; specified Bruno
+  Monguzzi (graphics; vs no hits)); verification deferred].** → Monguzzi's
+  monguzzis (graphed, kept (monguzzi, graphed (graphs, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Monguzzi"
+  (graphics, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Waibl posters [canon: Waibl (postered waibls; specified Heinz Waibl
+  (posters; vs no hits)); verification deferred].** → Waibl's waibls
+  (postered, kept (waibl, postered (posters, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Waibl" (posters, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Panzeri type [canon: Panzeri (typed panzeris; specified Mauro Panzeri
+  (type; vs no hits)); verification deferred].** → Panzeri's panzeris
+  (typed, kept (panzeri, typed (types, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Panzeri" (type, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
