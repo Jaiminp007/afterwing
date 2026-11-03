@@ -465,6 +465,13 @@ from the same downstream spring (colony vitality at transfer); the
 shortest probe (512) wins twice, so length is not the story either.
 Three downstream variables, one spring, none of them learned.
 
+Precision 2 (2026-11-03): variant-robust — entropy-vs-transfer rho
+recomputed across all five transfer-probe variants (current, guarded,
+native-full, native, reset): +0.571 to +0.619 everywhere. Not a
+one-variant fluke; the candidate survives the instrument's own
+variations. Still a candidate (n=8, vitality-confounded), but a
+stubborn one.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
