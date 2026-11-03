@@ -597,6 +597,9 @@ the map stays open, not empty.
 - R723 speed-accuracy file: convolve-fast;
   lightning-parallel; cheapen-queries;
   think-auto.
+- R727 worth-it file: condition-updates;
+  compare-RAGs; chunk-semantically;
+  flux-data.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
