@@ -624,6 +624,9 @@ the map stays open, not empty.
 - R741 recursive file (RSI-proper context): rise-recursive;
   distill-self; bound-loops;
   evolve-grounded.
+- R743 closed-loop file (C17-audit fuel): embody-astra;
+  close-loops; find-closed;
+  oversee-evidence.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
