@@ -27245,3 +27245,29 @@ Four more. (Map holds 734 rounds.)
   breezes (hustled, kept (breezed, hustled (hustles, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Breeze" (hustle, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 727 — Conditioned, compared, chunked, fluxed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: worth it — ask the
+price before buying (already-cited cost leads
+converging; price family, four branches).
+
+- **Kappa LoRA [arXiv:2607.22489 (Wang; vs no
+  hits)].** Uniform updates WASTEFUL (condition numbers;
+  not-all-equal). → Condition updates (our per-line
+  ledgers, condition-side). Filed.
+- **Agentic RAG [arXiv:2601.07711 (Ferrazzi; vs no
+  hits)].** Noisy + MISUSED (weak matching; generator
+  cost; out-of-scope). → Compare RAGs (our transfer
+  test, compare-side). Filed.
+- **Semantic chunk [arXiv:2410.13070 (Qu; vs no
+  hits)].** Benefits UNCLEAR (fixed-size rival;
+  3-task eval). → Chunk semantically (our codebook
+  design, chunk-side). Filed.
+- **FLUX [arXiv:2603.13972 (Gowtham; vs no hits)].**
+  Scale-vs-quality FORCED (filtering loses tokens;
+  noise). → Flux data (our fresh banks, flux-side).
+  Filed.
+- Program note: condition updates, compare RAGs, chunk
+  semantically, flux data — the worth-it file. None
+  licensed — filed.
