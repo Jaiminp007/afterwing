@@ -26915,3 +26915,29 @@ verdicts), lifs (publishes NOGOs), and oxes (counts rows). Four more.
   veined (veins, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); their "Ox" (vein, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 715 — Polarized, lied, flowed, cosined (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: open-form discovery —
+find the law, don't assume it (already-cited discovery
+leads converging; discovery family, four branches).
+
+- **Planet probe [arXiv:2610.22048 (Stephens; vs no
+  hits)].** 0.5%-few-% signals (ALMA sensitivity; trace
+  formation + grains + fields). → Probe faintly (our
+  G2b floor, probe-side). Filed.
+- **Lie discover [arXiv:2609.33663 (Li / LieDiscover;
+  vs no hits)].** Predefined FAILS high-order (adaptive
+  library; exact number+form). → Discover openly (our
+  frozen plans, discover-side). Filed.
+- **Flow map [arXiv:2605.31438 (Gross; vs no hits)].**
+  Library STRUCTURE matters (Koopman on explicit span;
+  identifiability). → Map flows (our transfer map,
+  map-side). Filed.
+- **Cosine [arXiv:2604.12806 (Liang / COSINE; vs no
+  hits)].** Accuracy vs MECHANISM (LLM-guided symbolic;
+  co-optimization). → Infer relationally (our flip-split
+  design, infer-side). Filed.
+- Program note: probe faintly, discover openly, map
+  flows, infer relationally — the open-form-discovery
+  file. None licensed — filed.
