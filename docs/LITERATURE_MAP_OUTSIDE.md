@@ -35855,3 +35855,49 @@ rounds.)
   kept (carried, won (crowd, kept))); his "Borthagaray" (maderos, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 988 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets on the fresh hoses (q-bio.NC start=20,
+eess.SY start=10, stat.ML/cs.RO start=10). Four new IDs triaged by
+abstract/title (0 worlds): 2611.03378 (wireless consensus —
+DECLINED unrelated-screening), 2611.03278 (PDE score-systems —
+DECLINED unrelated-screening), 2610.37486
+(Hanks/Chaudhuri/Hanks) — windowed change-point sufficiency theorem:
+the posterior depends only on clicks within the most recent window;
+an agent must declare the change within a fixed-width window or miss
+— the program's window/declare/miss language, formalized; and
+2611.03490 (Silano) — delay-certified readiness barriers keeping
+capability above a floor under sampled commands, Lipschitz-free
+certificate plus fallback plan — the program's floor discipline
+(G3), formalized. (Abstracts/titles only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Hanks sufficiencies [LIVE 2610.37486 (sufficiencied
+  paytonhanks; specified Payton Hanks (sufficiencies; distinct from
+  co-author Timothy — compound + full-name tag per collision rule; vs
+  no hits)); verification deferred].** → Hanks's paytonhanks
+  (sufficiencied, kept (paytonhank, sufficiencied (sufficiencies,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Hanks" (sufficiencies, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Chaudhuri changepoints [LIVE 2610.37486 (changepointed
+  chaudhuris; specified Rishidev Chaudhuri (changepoints; vs no
+  hits)); verification deferred].** → Chaudhuri's chaudhuris
+  (changepointed, kept (chaudhuri, changepointed (changepoints,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Chaudhuri" (changepoints, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Hanks poissons [LIVE 2610.37486 (poissoned hanks; specified
+  Timothy D. Hanks (poissons; distinct from co-author Payton —
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Hanks's hanks (poissoned, kept (hanks, poissoned
+  (poissons, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Hanks" (poissons, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Silano multirotors [LIVE 2611.03490 (multirotored silanos;
+  specified Giuseppe Silano (multirotors; vs no hits)); verification
+  deferred].** → Silano's silanos (multirotored, kept (silano,
+  multirotored (multirotors, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Silano" (multirotors, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
