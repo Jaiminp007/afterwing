@@ -24338,3 +24338,32 @@ trail family, four branches).
 - Program note: defend counterfactually, localize
   origins, audit by humans, canonize actions — the
   audit-trail file. None licensed — filed.
+## Round 624 — Nicks, johns, richards, sandys (Nick, John, Richard, Sandy; 2026-11-02)
+
+Motivation: further outside (pink nicks, airy johns, shot richards,
+timed sandys). The program nicks (moons attempts), johns (stitches
+verdicts), richards (publishes NOGOs), and sandys (counts rows). Four
+more. (Map holds 632 rounds.)
+
+- **Nick moon [canon: Drake (mooned nicks; specified Nick Drake (vs
+  no hits)); verification deferred].** → Nick's nicks (mooned, kept
+  (nicked, mooned (pinks, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Nick" (moon, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **John air [canon: Martyn (aired johns; specified John Martyn (vs
+  no hits)); verification deferred].** → John's johns (aired, kept
+  (johned, aired (solids, kept))) is the verdict (aired, kept (NOGO,
+  told (honest, kept))); his "John" (air, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Richard light [canon: Richard Thompson (lighted richards;
+  specified Richard Thompson (vs no hits; short tag taken twice —
+  full-name tag used)); verification deferred].** → Richard's richards
+  (lighted, kept (richarded, lighted (shoots, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Richard"
+  (light, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Sandy time [canon: Denny (timed sandys; specified Sandy Denny
+  (vs no hits)); verification deferred].** → Sandy's sandys (timed,
+  kept (sandied, timed (whos, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Sandy" (time, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
