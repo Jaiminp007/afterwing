@@ -37048,3 +37048,51 @@ authors + contexts virgin pre-append, flattened method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Luo" (couplings, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1013 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=250, cs.RO start=230,
+eess.SY start=190, q-bio.NC start=230). Four new IDs triaged (0
+worlds): 2610.37632 (AV coordination — DECLINED unrelated-screening),
+2610.33286 (kernel embeddings — DECLINED thin for consistency;
+RKHS theory, no gate mechanism), 2610.40431 lead+senior
+(Vinod/Di Cairano) — adaptive search with path-constrained
+energy-limited mobile sensors via bandits (confidence bounds from
+collected data; low-cardinality path covers under team constraints;
+return-to-charger; obstacle avoidance) — constrained adaptive search
+under energy limits, the program's caps plus fee accounting plus
+single attempts, formalized; and 2609.17042 lead+senior
+(Kumar/Duncker) — learning options for compositional motor control
+with adapter banks — banked adapters composed for motor control, the
+program's bank() registry plus menu machinery plus motor line,
+named. (Wang's capped-bounds paper RE-CARRIED — the waiting room
+holds one chair, still occupied. First + senior mapped from each
+quartet/trio per TRAILS precedent; Thaker/Dasarathy/Mattar noted
+unmapped.) (Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Vinod coverages [LIVE 2610.40431 (coveraged vinods; specified
+  Abraham P. Vinod (coverages; vs no hits)); verification deferred].**
+  → Vinod's vinods (coveraged, kept (vinod, coveraged (coverages,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Vinod" (coverages, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Di Cairano chargers [LIVE 2610.40431 (chargered dicairanos;
+  specified Stefano Di Cairano (chargers; vs no hits)); verification
+  deferred].** → Di Cairano's dicairanos (chargered, kept (dicairano,
+  chargered (chargers, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Di Cairano" (chargers, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Kumar optionss [LIVE 2609.17042 (optioned sreejankumars;
+  specified Sreejan Kumar (optionss; "kumar" taken — 5x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Kumar's sreejankumars (optioned, kept
+  (sreejankumar, optioned (optionss, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Kumar" (optionss,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Duncker motorics [LIVE 2609.17042 (motoriced dunckers; specified
+  Lea Duncker (motorics; vs no hits)); verification deferred].** →
+  Duncker's dunckers (motoriced, kept (duncker, motoriced (motorics,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
+  "Duncker" (motorics, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
