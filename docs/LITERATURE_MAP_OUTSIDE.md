@@ -27303,3 +27303,30 @@ workshops (teaches languages), pioneers (leads digitals), and cranbrooks
   (joined, kept (carried, won (crowd, kept))); her "Katherine" (merit,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 729 — Looped, vectored, entered, transferred (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: looped-efficient — share
+the loop, unlock the vector, gate the entry, stage the
+transfer (already-cited sharing leads converging; efficiency
+family, four branches).
+
+- **Recurrent self-improve [arXiv:2610.10623 (Wang; vs no
+  hits)].** Sparse rewards + teacher MISMATCH (shared
+  loops; external limited). → Loop self-improve (our
+  loop operator, looped-side). Filed.
+- **SMART [arXiv:2605.24938 (Zhang; vs no
+  hits)].** Single-vector DISCARDS (latent multi
+  unlocked; globally summarized). → Vector smart (our
+  cue vectors, vectored-side). Filed.
+- **Entry gates [arXiv:2608.17564 (Qiu; vs no
+  hits)].** Generation leaves FLAT (separated by
+  construction; attribution). → Gate entries (our
+  evidence gate, entered-side). Filed.
+- **HistoTransfer [arXiv:2106.07068 (Sharma; vs no
+  hits)].** Gigapixel INFEASIBLE direct (two-stage
+  patch-aggregate; detailed). → Transfer histo (our
+  lossy transfer, transferred-side). Filed.
+- Program note: loop self-improve, vector smart, gate
+  entries, transfer histo — the looped-efficient file.
+  None licensed — filed.
