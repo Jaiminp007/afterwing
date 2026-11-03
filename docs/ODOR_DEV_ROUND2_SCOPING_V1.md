@@ -48,6 +48,23 @@ A-retention and (via better-preserved A steering) transfer.
   record WHAT it does that learned doesn't — informs whether the
   −0.55 gap is reachable or structural. Filed, not gated.
 
+## Open item #4 CLOSED — guarded diagnostic (zero worlds, code read)
+
+Guarded = physics-informed energy gate: `overlapGuard` computes
+requiredEnergy from turn+travel ticks given speed and lastCost;
+guarded mode forces go ONLY when the midpoint is available AND
+wall-clear AND energy-viable (`odor-routed-experiment.mjs:119`,
+`guarded-overlap.mjs`). Native forces stop. Learned must discover
+the gating — and its feature vector HAS normalized energy
+(`features[1] = energy/120`) but NO viability boolean and no
+requiredEnergy. The −0.55 gap is therefore an information-use gap
+with a crisp candidate mechanism: GUARD-FEATURE AUGMENTATION —
+feed `guard.viable` (+ requiredEnergy) as explicit learner inputs.
+New input channel, not tuning; falsifiable (if the gap persists,
+it is policy-expressiveness, not information). Filed as the
+recorded ROUND-3 candidate (round 2 stays single-hypothesis:
+rehearsal). Freeze decides only if round 2 closes first.
+
 ## Open items before a frozen dev plan
 
 1. Exact rehearsal schedule (phase masses, slot positions) under
