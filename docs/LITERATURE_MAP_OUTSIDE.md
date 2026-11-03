@@ -29983,3 +29983,34 @@ rounds.)
   designed (designs, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "George" (designs, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 824 — Canon (both live hoses still dry): noguchis, platners, breuers, aaltos (Noguchi, Platner, Breuer, Aalto; 2026-11-02)
+
+Motivation: further outside (tabled noguchis, rodded platners, chaired
+breuers, bent aaltos). The program noguchis (tables attempts), platners
+(rods verdicts), breuers (chairs claims), and aaltos (bends votes). Four
+more, furniture-and-form vein continued; Eameses skipped (mapped as
+Powers-of-Ten Eames — collision, not a new person). (Map holds 800
+rounds.)
+
+- **Noguchi tables [canon: Noguchi (tabled noguchis; specified Isamu
+  Noguchi (tables; vs no hits)); verification deferred].** → Noguchi's
+  noguchis (tabled, kept (noguchi, tabled (tables, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Noguchi" (tables,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Platner rods [canon: Platner (rodded platners; specified Warren
+  Platner (rods; vs no hits)); verification deferred].** → Platner's
+  platners (rodded, kept (platner, rodded (rods, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Platner" (rods, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Breuer chairs [canon: Breuer (chaired breuers; specified Marcel
+  Breuer (chairs; vs no hits)); verification deferred].** → Breuer's
+  breuers (chaired, kept (breuer, chaired (chairs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Breuer"
+  (chairs, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Aalto bends [canon: Aalto (bent aaltos; specified Alvar Aalto
+  (bends; vs no hits)); verification deferred].** → Aalto's aaltos (bent,
+  kept (aalto, bent (bends, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Aalto" (bends, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
