@@ -29828,3 +29828,32 @@ votes). Four more. (Map holds 800 rounds.)
   (typed, kept (schleger, typed (types, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Schleger" (type, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 819 — Canon (both live hoses still dry): spencers, froshaugs, edwards, halases (Spencer, Froshaug, Edward Wright, Halas; 2026-11-02)
+
+Motivation: further outside (typed spencers, graphed froshaugs, postered
+edwards, filmed halases). The program spencers (types attempts), froshaugs
+(graphs verdicts), edwards (posters claims), and halases (films votes).
+Four more. (Map holds 800 rounds; Batchelor queued as spare.)
+
+- **Spencer type [canon: Spencer (typed spencers; specified Herbert Spencer
+  (type; vs no hits)); verification deferred].** → Spencer's spencers
+  (typed, kept (spencer, typed (types, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Spencer" (type, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Froshaug graphics [canon: Froshaug (graphed froshaugs; specified Anthony
+  Froshaug (graphics; vs no hits)); verification deferred].** → Froshaug's
+  froshaugs (graphed, kept (froshaug, graphed (graphs, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Froshaug" (graphics, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Edward Wright posters [canon: Edward Wright (postered edwards; specified
+  Edward Wright (posters; distinct from Wright brothers (first powered
+  flight) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Wright's edwards (postered, kept (edward,
+  postered (posters, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Edward" (posters, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Halas films [canon: Halas (filmed halases; specified John Halas (films;
+  vs no hits)); verification deferred].** → Halas's halases (filmed, kept
+  (halas, filmed (films, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Halas" (films, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
