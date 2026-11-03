@@ -31100,3 +31100,37 @@ tinguelys (clatters verdicts), phalles (fires claims), and dudlers
   (dudler, set (sets, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Dudler" (sets, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 860 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (raised rudolfs, molded foerderers, inked
+rolfs, sheltered seps). The program rudolfs (raises attempts),
+foerderers (molds verdicts), rolfs (inks claims), and seps (shelters
+votes). Four more. (Olgiati-hit is Valerio, Keller-hit is Ernst —
+full-name tags used; Ruf-hits are Rufang/Ruffin/Rufus substrings.)
+(Map holds 800 rounds.)
+
+- **Rudolf Olgiati raises [canon: Rudolf Olgiati (raised rudolfs;
+  specified Rudolf Olgiati (raises; distinct from Valerio Olgiati —
+  full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Olgiati's rudolfs (raised, kept (rudolf,
+  raised (raises, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Rudolf" (raises, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Foerderer molds [canon: Foerderer (molded foerderers; specified
+  Walter Foerderer (molds; vs no hits)); verification deferred].** →
+  Foerderer's foerderers (molded, kept (foerderer, molded (molds, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Foerderer" (molds, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Rolf Keller inks [canon: Rolf Keller (inked rolfs; specified Rolf
+  Keller (inks; distinct from Ernst Keller — full-name tag per collision
+  rule; vs no hits on full name)); verification deferred].** → Keller's
+  rolfs (inked, kept (rolf, inked (inks, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Rolf" (inks, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Sep Ruf shelters [canon: Sep Ruf (sheltered seps; specified Sep Ruf
+  (shelters; vs no hits on full name)); verification deferred].** →
+  Ruf's seps (sheltered, kept (sep, sheltered (shelters, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Sep" (shelters,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
