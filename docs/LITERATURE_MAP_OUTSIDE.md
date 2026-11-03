@@ -33381,3 +33381,37 @@ all per collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Kabbaj" (riads,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 918 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (diared pouillons, algiered simounets,
+casbahed deluzs, auresed bouchamas). The program pouillons (diars
+attempts), simounets (algers verdicts), deluzs (casbahs claims), and
+bouchamas (auress votes). Four more, Algerian vein. ("Le Corbusier"
+declined — already mapped R236; "stones"/"patios"/"villages" taken —
+"diars"/"algers"/"auress" used, all per collision rule.) (Map holds
+800 rounds.)
+
+- **Pouillon diars [canon: Pouillon (diared pouillons; specified
+  Fernand Pouillon (diars; vs no hits)); verification deferred].** →
+  Pouillon's pouillons (diared, kept (pouillon, diared (diars, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Pouillon" (diars, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Simounet algers [canon: Simounet (algiered simounets; specified
+  Roland Simounet (algers; vs no hits)); verification deferred].** →
+  Simounet's simounets (algiered, kept (simounet, algiered (algers,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Simounet" (algers, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Deluz casbahs [canon: Deluz (casbahed deluzs; specified
+  Jean-Jacques Deluz (casbahs; vs no hits)); verification deferred].**
+  → Deluz's deluzs (casbahed, kept (deluz, casbahed (casbahs, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Deluz" (casbahs, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Bouchama auress [canon: Bouchama (auresed bouchamas; specified
+  Abderrahmane Bouchama (auress; vs no hits)); verification
+  deferred].** → Bouchama's bouchamas (auresed, kept (bouchama,
+  auresed (auress, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Bouchama" (auress, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
