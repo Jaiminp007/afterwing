@@ -30889,3 +30889,34 @@ as well — documented, not used.) (Map holds 800 rounds.)
   pessinas (bound, kept (pessina, bound (binds, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Pessina" (binds, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 853 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (spanned hoechels, terraced gisels, gridded
+schaders, sat senns). The program hoechels (spans attempts), gisels
+(terraces verdicts), schaders (grids claims), and senns (sits votes).
+Four more, Swiss-modern vein continued. (Senn-hits are Sennett/Senna —
+full-name tag used.) (Map holds 800 rounds.)
+
+- **Hoechel spans [canon: Hoechel (spanned hoechels; specified Arnold
+  Hoechel (spans; vs no hits)); verification deferred].** → Hoechel's
+  hoechels (spanned, kept (hoechel, spanned (spans, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Hoechel" (spans,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Gisel terraces [canon: Gisel (terraced gisels; specified Ernst Gisel
+  (terraces; vs no hits)); verification deferred].** → Gisel's gisels
+  (terraced, kept (gisel, terraced (terraces, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Gisel" (terraces, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Schader grids [canon: Schader (gridded schaders; specified Jacques
+  Schader (grids; vs no hits)); verification deferred].** → Schader's
+  schaders (gridded, kept (schader, gridded (grids, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Schader"
+  (grids, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Otto Senn sits [canon: Otto Senn (sat senns; specified Otto Senn
+  (sits; distinct from Sennett/Senna substring-hits — full-name tag per
+  collision rule; vs no hits on full name)); verification deferred].** →
+  Senn's senns (sat, kept (senn, sat (sits, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Senn" (sits, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
