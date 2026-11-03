@@ -424,6 +424,21 @@ the instrument offers. A mode-fragile effect would have been
 a verdict-qualification; a mode-robust one is a phenomenon
 worth the shelf it sits on.
 
+## Executed re-reading 29 (2026-11-02, read-only: spent R10 + R1 rows)
+
+The readout tunes the carry, not the home. Post-training
+odor-bearing probes, split-vs-plain: A-current +2..-2, B-current
++1..-2 — all sixteen within noise. Where the readout FIRES
+every encounter, it changes nothing; where it NEVER fires
+(transfer, R26), it moves outcomes ±5. Third dissociation:
+the split's entire measurable footprint is Go-positivity in
+weights plus transfer lifts plus acquisition endpoint diffs —
+zero home-world footprint. The price is likewise not paid at
+home (probes indifferent) but during learning (entry debt,
+R18) and at transfer. A readout that matters everywhere
+except where it acts: the side-channel story, closed from
+both ends.
+
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
 The colony is one solution in twenty-four bodies — and survival
