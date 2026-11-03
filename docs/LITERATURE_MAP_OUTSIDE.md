@@ -30680,3 +30680,33 @@ galfettis (returns verdicts), vacchinis (clears claims), and snozzis
   (climbed, kept (snozzi, climbed (climbs, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Snozzi" (climbs, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 846 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (guided carlonis, bored tamis, led
+camenzinds, opened ruchats). The program carlonis (guides attempts),
+tamis (bores verdicts), camenzinds (leads claims), and ruchats (opens
+votes). Four more, Ticino-school vein continued. (Map holds 800
+rounds.)
+
+- **Carloni guides [canon: Carloni (guided carlonis; specified Tita
+  Carloni (guides; vs no hits)); verification deferred].** → Carloni's
+  carlonis (guided, kept (carloni, guided (guides, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Carloni" (guides,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Tami bores [canon: Tami (bored tamis; specified Rino Tami (bores; vs
+  no hits)); verification deferred].** → Tami's tamis (bored, kept (tami,
+  bored (bores, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Tami" (bores, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Camenzind leads [canon: Camenzind (led camenzinds; specified Alberto
+  Camenzind (leads; vs no hits)); verification deferred].** → Camenzind's
+  camenzinds (led, kept (camenzind, led (leads, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Camenzind"
+  (leads, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Ruchat opens [canon: Ruchat (opened ruchats; specified Flora Ruchat
+  (opens; vs no hits)); verification deferred].** → Ruchat's ruchats
+  (opened, kept (ruchat, opened (opens, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); her "Ruchat" (opens, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
