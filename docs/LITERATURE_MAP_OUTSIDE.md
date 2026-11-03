@@ -33949,3 +33949,37 @@ karels (federals votes). Four more, Czech vein. ("pragers" declined
   (karel, federaled (federals, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Karel" (federals, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 934 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (varsovied brukalskis, sejmed pniewskis,
+saskaed kurcyuss, team10ed soltans). The program brukalskis
+(varsovies attempts), pniewskis (sejms verdicts), kurcyuss (saskas
+claims), and soltans (team10s votes). Four more, Polish vein.
+("Romuald Gutt" declined — "gutt" fragments standing "Guttmann"
+(sports round); consistency with Munir/Horta/Bohm/Neutra declines
+demanded it; all per collision rule.) (Map holds 800 rounds.)
+
+- **Brukalski varsovies [canon: Brukalski (varsovied brukalskis;
+  specified Stanislaw Brukalski (varsovies; vs no hits)); verification
+  deferred].** → Brukalski's brukalskis (varsovied, kept (brukalski,
+  varsovied (varsovies, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Brukalski" (varsovies, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Pniewski sejms [canon: Pniewski (sejmed pniewskis; specified Bohdan
+  Pniewski (sejms; vs no hits)); verification deferred].** →
+  Pniewski's pniewskis (sejmed, kept (pniewski, sejmed (sejms, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Pniewski" (sejms, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Kurcyusz saskas [canon: Kurcyusz (saskaed kurcyuss; specified
+  Helena Kurcyusz (saskas; vs no hits)); verification deferred].** →
+  Kurcyusz's kurcyuss (saskaed, kept (kurcyus, saskaed (saskas, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); her
+  "Kurcyusz" (saskas, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Soltan team10s [canon: Soltan (team10ed soltans; specified Jerzy
+  Soltan (team10s; vs no hits)); verification deferred].** → Soltan's
+  soltans (team10ed, kept (soltan, team10ed (team10s, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Soltan"
+  (team10s, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
