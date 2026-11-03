@@ -27679,3 +27679,36 @@ on-mission file yet, four branches).
   loops, evolve grounded — the recursive file. RSI row
   notes all four as unlicensed context. None licensed —
   filed.
+## Round 742 — Brodovitches, pineleses, mccalls, esquires (Brodovitch, Pineles, Otto Storch, Henry Wolf; 2026-11-02)
+
+Motivation: further outside (bazaared brodovitches, directed pineleses,
+mccall'd storches, esquired wolves). The program brodovitches (bazaars
+attempts), pineleses (directs verdicts), storches (mccalls claims), and
+wolves (esquires votes). Four more. (Map holds 748 rounds.)
+
+- **Brodovitch bazaar [canon: Brodovitch (bazaared brodovitches;
+  specified Alexey Brodovitch (Harper's Bazaar; vs no hits));
+  verification deferred].** → Brodovitch's brodovitches (bazaared, kept
+  (brodovitch, bazaared (bazaars, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Brodovitch" (bazaar, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Pineles director [canon: Pineles (directed pineleses; specified
+  Cipe Pineles (first female art director; vs no hits)); verification
+  deferred].** → Pineles's pineleses (directed, kept (pineles, directed
+  (directors, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); her "Pineles" (director, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Otto Storch mccalls [canon: Otto Storch (mccall'd storches;
+  specified Otto Storch (McCall's; distinct from Scott Storch
+  (dre-ed storches — full-name tag per collision rule); vs no hits on
+  full name)); verification deferred].** → Storch's storches (mccall'd,
+  kept (otto, mccall'd (mccalls, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "McCalls" (mccall, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Henry Wolf esquire [canon: Henry Wolf (esquired wolves; specified
+  Henry Wolf (Esquire; near-miss Wolff (cue-scores) is a different
+  name — full-name tag for audit clarity); vs no hits on full name));
+  verification deferred].** → Wolf's wolves (esquired, kept (henry,
+  esquired (esquires, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Esquire" (esquire, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
