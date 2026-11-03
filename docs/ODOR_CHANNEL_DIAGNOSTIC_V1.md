@@ -24,7 +24,11 @@ across contexts, specificity lost). Reactivation probe (R790 —
 Tayler 2011): test whether transfer contexts reactivate the
 training ensemble's trace (probe-response similarity) —
 reactivation failure is the specific form of general-channel
-failure. Context-overlap covariate (R792 — Doyle 2024): measure
+failure. Dominance ratio (R793 — Cui 2024, sufficient AND
+necessary): measure the training ensemble's DOMINANCE in the
+transfer context, not yes/no reactivation — tune dominance, tune
+specificity; mossy suppression pairs with transmodulation as the
+inhibitory counterpart. Context-overlap covariate (R792 — Doyle 2024): measure
 encoding-stimulus overlap FIRST — gap-without-overlap is
 encoding-coverage, never memory failure; the probe cannot judge
 retrieval it never enabled. Interchange verification (R792 —
@@ -49,6 +53,18 @@ the policy learns on top. This fuses decoupling with the
 distributional voices and the 97%-negative landscape: abstract the
 returns, then act. Any separation freeze names its contrastive
 rule and its return-aggregation, or it separates nothing.
+
+Plasticity proviso (R793 — CODA-Prompt 2023): freeze the encoder
+ONLY after end-to-end decomposition training — frozen keys that
+never learned to decompose cannot serve new tasks. Separation
+needs its own learning phase; a separation freeze without one is
+pre-falsified.
+
+Discovery framing (R793 — Scholkopf 2021, CRL): the
+return-distribution abstraction is a causal variable to DISCOVER
+from low-level observations, never assume — and interchange
+intervention is how discovery is verified. The diagnostic's
+primary measure inherits the field's central problem.
 
 Transfer formalism (R792 — Barreto 2016, successor features): the
 A→transfer structure (fixed dynamics, changing rewards) is the

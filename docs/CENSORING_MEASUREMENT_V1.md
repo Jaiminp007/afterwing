@@ -25,6 +25,17 @@ approximation space. The first adopting line runs censored-Q on its
 probes (new measurement, never a re-scoring) and reports whether any
 closed margin changes shape — with bounds, not vibes.
 
+## Fusion (R793 — Feng 2023, safety-constrained transfer)
+
+The survival constraint and the transfer formalism unite:
+constrained generalized policy improvement via Lagrangian, dual
+optimization pricing the target task's safety. Transfer the policy
+(successor recombination), constrain the dying (censored-Q),
+price safety with a dual variable. Any future transfer line
+adopts this union as its formalism — survival and transfer as
+separate objectives with one priced tradeoff, never one metric
+asked to do both jobs.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping
