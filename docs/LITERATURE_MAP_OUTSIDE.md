@@ -26688,3 +26688,32 @@ Four more. (Map holds 714 rounds.)
   (vultured, kept (opioed, vultured (vultures, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Opio" (vulture, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 707 — Replayed, vacuumed, redrawn, bounded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: responsibility boundaries —
+who answers for the agent (already-cited boundary
+leads converging; boundary family, four branches).
+
+- **Multiversion replay [arXiv:2202.08429 (Manne /
+  CHEX; vs no hits)].** Containers share but DON'T
+  replay efficiently (ordered checkpoints;
+  multiversion). → Replay multiversions (our exact
+  replays, replay-side). Filed.
+- **Responsibility vacuum [arXiv:2601.15059 (Romanchuk;
+  vs no hits)].** Authority WITHOUT capacity
+  (formally-correct; unattributable). → Vacuum
+  responsibility (our frozen verdicts, vacuum-side).
+  Filed.
+- **Redraw map [arXiv:2605.23179 (Hydari; vs no
+  hits)].** Modular ≠ ACCOUNTABLE (evidence/review/
+  signoff integrate; boundaries). → Redraw maps (our
+  transfer map, redraw-side). Filed.
+- **BAPO [arXiv:2601.11037 (Liu; vs no hits)].**
+  Rarely admits IDK (insufficient evidence;
+  plausible-unreliable). → Bound search (our capped
+  budgets, bound-side). Filed.
+- Program note: replay multiversions, vacuum
+  responsibility, redraw maps, bound search — the
+  responsibility-boundaries file. None licensed —
+  filed.
