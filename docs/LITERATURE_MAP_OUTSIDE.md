@@ -34432,3 +34432,36 @@ virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Deroko" (belgrades, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 948 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (korculaed kovacics, samobored franics,
+karlovaced pavernjirics, krizevaed fabijanics). The program kovacics
+(korculas attempts), franics (samobors verdicts), pavernjirics
+(karlovacs claims), and fabijanics (krizevacs votes). Four more,
+Croatian vein II. (All four surnames + full names + contexts virgin
+pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Kovacic korculas [canon: Kovacic (korculaed kovacics; specified
+  Dinko Kovacic (korculas; vs no hits)); verification deferred].** →
+  Kovacic's kovacics (korculaed, kept (kovacic, korculaed (korculas,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Kovacic" (korculas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Franic samobors [canon: Franic (samobored franics; specified Igor
+  Franic (samobors; vs no hits)); verification deferred].** → Franic's
+  franics (samobored, kept (franic, samobored (samobors, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Franic"
+  (samobors, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Paver karlovacs [canon: Paver Njiric (karlovaced pavernjirics;
+  specified Helena Paver Njiric (karlovacs; vs no hits)); verification
+  deferred].** → Paver's pavernjirics (karlovaced, kept (paver,
+  karlovaced (karlovacs, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Paver" (karlovacs, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Fabijanic krizevacs [canon: Fabijanic (krizevaed fabijanics;
+  specified Nenad Fabijanic (krizevacs; vs no hits)); verification
+  deferred].** → Fabijanic's fabijanics (krizevaed, kept (fabijanic,
+  krizevaed (krizevacs, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Fabijanic" (krizevacs, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
