@@ -630,6 +630,9 @@ the map stays open, not empty.
 - R745 shielding file (guard-feature round-3 fuel): shield-learning;
   ease-shields; guide-shields;
   robustify-shields.
+- R747 anti-collapse file (probe-audit successor fuel): diversify-values;
+  repel-members; collapse-uncertainty;
+  repel-physics.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.

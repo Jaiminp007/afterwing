@@ -47,6 +47,26 @@ recomputation (`makeCueCodebook` on bank cueSeeds). Analytic only.
   the single-attractor collapse (9/10 to one pattern) — e.g. by
   penalizing occupied addresses or by requiring per-cue distinctness.
 
+## R747 addendum (anti-collapse file — 4 outside legs for the
+anti-attractor-collapse constraint, filed unlicensed)
+
+- Value-collapse (Sheikh): ensemble learners converge to the same
+  point, falling back to a single net; representation diversity is
+  the fix. Direct analogue of the [-1⁴] attractor (16 options,
+  1 used).
+- Repulsive Bayesian (D'Angelo): saturation to single-model
+  performance without functional diversity; repulsion as mechanism.
+  A successor's selection rule needs an explicit repulsion term
+  (e.g. penalize occupied addresses — already constrained, now
+  with a named mechanism).
+- Uncertainty collapse (Kirsch): collapse grows with complexity;
+  implicit ensembling as explanation. Caution for successors:
+  bigger banks (K=16 sufficed to collapse) don't fix collapse;
+  the selection rule does.
+- Repulsive PINN (Pilar): uncertainty over point estimates.
+  Successor probes should report selection uncertainty (means
+  distribution), not just the argmin — recorded, not gated.
+
 ## Status
 
 Audit recorded; no verdict change (C17 stays INVALID-closed). The
