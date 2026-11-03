@@ -353,6 +353,24 @@ the ONLY thing changed (weights at exit). No hidden behavioral
 compensation, no dynamics shift — the ledger has one line on
 each side.
 
+## Executed re-reading 24 (2026-11-02, read-only: spent transfer-current traces both arms)
+
+Transfer probes are frozen readouts — confirmed to three
+decimals. Turn-rate thirds are identical within every
+history-arm (e.g. 0.751/0.751/0.749, 0.500/0.500/0.500);
+nothing learns, drifts, or repairs in-probe, by design and
+now by measurement. The split's transfer signature is a
+threshold-crossing shift: quantized turn fractions (0.50,
+0.59, 0.66, 0.75, 1.00 — the cue-mix fraction above a moved
+threshold), suppressed vs plain on 6/8 (plain sits at 1.000
+on 6/8: always turn). R16's handle resolved to decision
+level: the readout moves the turn fraction, and the turn
+fraction IS the transfer behavior. Corollary for the shelf:
+no repair can happen inside a probe — any re-acquisition
+proposal must act between probes, on training segments,
+which is exactly where the bar's open example (b) points.
+Validates the bar's framing; licenses nothing.
+
 ## Executed re-reading 22 (2026-11-02, read-only: spent transfer probes + R10 verdict)
 
 Decision volume does not track transfer — on either arm.
