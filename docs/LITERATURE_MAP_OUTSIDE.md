@@ -28721,3 +28721,39 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   lanes strengthened: deprivation AND stress both NPF-modulated,
   so any reopened social case freezes both conditions — the
   confound is double, the control must be too.
+## Round 785 — LIVE via OpenAlex: opponents, certificates, efforts, modulators (Lowet distributional 2025, Shihab QD-certificates 2026, Bardgett effort 2009, Ben-Iwhiwhu neuromodulation 2022; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Lowet: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Opponent distributions [Lowet et al. 2025, opponent striatal
+  circuit for distributional RL; title record (abstract unindexed);
+  vs no hits].** → Opponent halves encoding a reward DISTRIBUTION.
+  The 97%-negative landscape is a distribution (dense small losses,
+  rare gains) — distributional-opponent encoding is its native
+  formalism. A5's separate matrices gain a distributional voice:
+  halves learning halves of the distribution, not just positive vs
+  negative means. Banked for B3/acquisition-gating forms.
+- **Coverage limits [Shihab et al. 2026, what archive coverage can
+  and cannot certify; vs no hits].** → Coverage bounds covered-cell
+  tail risk and average residual severity — but NO fraction-only
+  worst-case guarantee exists (impossibility proved; residual needs
+  Lipschitz + covering-radius terms). The adopted QDax metrics come
+  with a certified limit: report coverage AND the residual bound,
+  never claim worst-case from coverage. Anti-overclaiming built
+  into the population track's measurement before it opens.
+- **Effort pharmacology [Bardgett et al. 2009, dopamine modulates
+  effort-based choice (D1/D2 antagonists discount, amphetamine
+  restores); vs no hits].** → The utility formula's effort term is
+  pharmacologically real and receptor-specific (both D1 and D2).
+  The acquisition-gating frozen form (hunger-scaled positive minus
+  effort) now has both terms biologically grounded — gain AND cost
+  are dials, not constants.
+- **Modular neuromodulation [Ben-Iwhiwhu et al. 2022, context
+  meta-RL via neuromodulation; vs no hits].** → Separate modulatory
+  component regulating policy activities → fast adaptation without
+  burdening the policy network. In-silico meta-plasticity with a
+  design rule: gain lives in its OWN module, never entangled in the
+  policy weights. The acquisition-gating ceiling gains its
+  architecture (modulator beside actor, not inside it).
