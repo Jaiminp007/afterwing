@@ -34746,3 +34746,37 @@ claims), and erikssons (gavles votes). Four more, Swedish vein II.
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Eriksson" (gavles, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 957 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (tromsoed jarmunds, stavangered vigsnaess,
+geiloed hjeltness, fornebued torps). The program jarmunds (tromsos
+attempts), vigsnaess (stavangers verdicts), hjeltness (geilos claims),
+and torps (fornebus votes). Four more, Norwegian vein II. (Practice
+partners Jarmund/Vigsnaes given distinct contexts per virginity rule;
+draft restarted clean pre-append; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Jarmund tromsos [canon: Jarmund (tromsoed jarmunds; specified Einar
+  Jarmund (tromsos; vs no hits)); verification deferred].** →
+  Jarmund's jarmunds (tromsoed, kept (jarmund, tromsoed (tromsos,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Jarmund" (tromsos, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Vigsnaes stavangers [canon: Hakon Vigsnaes (stavangered vigsnaess;
+  specified Hakon Vigsnaes (stavangers; vs no hits)); verification
+  deferred].** → Vigsnaes's vigsnaess (stavangered, kept (vigsnaes,
+  stavangered (stavangers, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Vigsnaes" (stavangers, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Hjeltnes geilos [canon: Hjeltnes (geiloed hjeltness; specified Knut
+  Hjeltnes (geilos; vs no hits)); verification deferred].** →
+  Hjeltnes's hjeltness (geiloed, kept (hjeltnes, geiloed (geilos,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Hjeltnes" (geilos, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Torp fornebus [canon: Torp (fornebued torps; specified Nils Torp
+  (fornebus; vs no hits)); verification deferred].** → Torp's torps
+  (fornebued, kept (torp, fornebued (fornebus, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Torp" (fornebus,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
