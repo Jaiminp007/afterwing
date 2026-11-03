@@ -37383,3 +37383,61 @@ IDs + authors + contexts virgin pre-append, flattened method.)
   (groundeds, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Wang" (groundeds, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 1020 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=310/320, cs.RO
+start=290/300/310, eess.SY start=230, q-bio.NC start=260). Six new
+IDs triaged (0 worlds): 2610.29960 recirculated (already mapped
+R1019 — hose recycling begins at depth; noted, not remapped),
+2610.35296 (Lightning fees — DECLINED unrelated-screening; fee
+words, payment-routing content — words don't map, mechanisms do),
+2610.38569 (wheelchair navigation — DECLINED thin/unrelated),
+2610.38993 lead (Peterson) — open-world motion anticipation via
+meta-learned semantic/geometric/relational history (few online
+observations; trained only in simulation; novel objects and
+object-moves-object) — sim-to-novel transfer from few observations
+with semantic history, the program's transfer plus adaptation plus
+history, formalized; 2609.08070 lead+senior (Zhang/Schuller) —
+gradient-tunneling temporal credit assignment from local spike
+timing (task-required components induced by historical
+perturbations read from current state; long-timescale evidence
+integration) — credit from history read at probe time, the
+program's probe-time history reading plus credit assignment,
+formalized; and 2610.29530 lead (Klippert) — residual-based causal
+discovery via in-context quantile regression (noise independence
+identifies causal direction; pretrained tabular models as plug-in
+estimators) — residuals plus quantiles plus causal direction, the
+program's R9 plus residual analyses plus causal discipline,
+formalized. (Padir already mapped R1009 — not remapped. Lead /
+first+senior mapped per MOST/TRAILS precedents; 7 + 7 + 2 middles
+noted unmapped.) (Abstracts only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Peterson anticipations [LIVE 2610.38993 (anticipationed
+  petersons; specified Mason Peterson (anticipations; distinct from
+  pianist-round Oscar — full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Peterson's petersons
+  (anticipationed, kept (peterson, anticipationed (anticipations,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Peterson" (anticipations, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Zhang credits [LIVE 2609.08070 (credited xiangnanzhangs;
+  specified Xiangnan Zhang (credits; "Zhang" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Zhang's xiangnanzhangs (credited, kept
+  (xiangnanzhang, credited (credits, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Zhang" (credits, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Schuller tunnelings [LIVE 2609.08070 (tunnelinged schullers;
+  specified Bjorn W. Schuller (tunnelings; vs no hits)); verification
+  deferred].** → Schuller's schullers (tunnelinged, kept (schuller,
+  tunnelinged (tunnelings, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Schuller" (tunnelings, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Klippert causals [LIVE 2610.29530 (causaled klipperts; specified
+  Daniel Klippert (causals; vs no hits)); verification deferred].**
+  → Klippert's klipperts (causaled, kept (klippert, causaled
+  (causals, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Klippert" (causals, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
