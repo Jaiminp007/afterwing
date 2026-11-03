@@ -42,6 +42,21 @@ Most expressive, least interpretable, biggest instrument change
 (caps on hidden size frozen at plan time). Last resort — licensed
 only if B1 AND B2 both close with the gap intact.
 
+## Addendum A1 (2026-11-02, zero worlds — supersedes the B3 sketch above)
+
+R779 (Li et al. 2025, tiny RNNs): 1–4 unit recurrent networks match
+larger nets on reward-learning tasks and are interpreted via dynamical
+systems. B3 is therefore refined from "small MLP" to TINY RECURRENT
+HEAD (1–4 units, recurrence over the feature stream, dynamics-
+interpretable): expressiveness from recurrence, not width; billable
+size; the viability-gated strategy linear heads cannot express is a
+dynamical object (state-dependent switching), which is exactly what
+recurrence represents natively. The MLP sketch is retained above as
+the superseded record, not deleted. B3 still needs its fresh rationale
+and remains queued behind its own gate (no B3 on gating grounds —
+R6 falsifier stands); this addendum sharpens WHAT B3 would be, not
+WHETHER it runs.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
