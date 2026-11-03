@@ -126,6 +126,16 @@ proviso is unrefuted and sharpened: nothing in the traces suggests
 1792 ticks reached the slow phase where Kleim-structure appears.
 Calendar proviso stands.
 
+R7 sharpening (2026-11-02 — R7-INCOMPLETE-EXTINCT): the colony
+died at tick 1911/3584 under R1 conditions extended. The proviso
+now has a precondition: SLOW-PHASE STRUCTURE REQUIRES SURVIVAL.
+The question is no longer just "does structure arrive with time"
+but "can the colony live long enough to find out" — persistence
+(VISION-2) fails at the colony level before the memory level.
+Any line invoking the proviso must first show survival to slow-
+phase ticks under its regime; otherwise the proviso is not
+unresolved, it is inapplicable.
+
 ## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
 
 Pairing-rule schedule check (Moncada: strong events near tags?):
