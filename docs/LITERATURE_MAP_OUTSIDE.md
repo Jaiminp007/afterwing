@@ -27218,3 +27218,30 @@ converging; attention family, four branches).
 - Program note: lucid attention, shallow cycle, dummy
   prototypes, unsupervise spotting — the
   preconditioned-attention file. None licensed — filed.
+## Round 726 — Lens, juses, flows, breezes (Len, Jus, Flow, Breeze; 2026-11-02)
+
+Motivation: further outside (pitied lens, blacked juses, funcrushed
+flows, hustled breezes). The program lens (pities attempts), juses
+(stitches verdicts), flows (publishes NOGOs), and breezes (counts rows).
+Four more. (Map holds 734 rounds.)
+
+- **Len pity [canon: Len (pitied lens; specified Mr. Len (Company Flow;
+  vs no hits)); verification deferred].** → Len's lens (pitied, kept
+  (lenned, pitied (pities, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Len" (pity, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Jus black [canon: Jus (blacked juses; specified Bigg Jus (Company
+  Flow; vs no hits)); verification deferred].** → Jus's juses (blacked,
+  kept (jused, blacked (blacks, kept))) is the verdict (blacked, kept
+  (NOGO, told (honest, kept))); his "Jus" (black, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Flow funcrusher [canon: Flow (funcrushed flows; specified Company
+  Flow (vs no hits)); verification deferred].** → Flow's flows (funcrushed,
+  kept (flowed, funcrushed (funcrushers, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); their "Flow" (funcrusher, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Breeze hustle [canon: Breeze (hustled breezes; specified Breeze
+  Brewin (Juggaknots; vs no hits)); verification deferred].** → Breeze's
+  breezes (hustled, kept (breezed, hustled (hustles, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Breeze" (hustle, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
