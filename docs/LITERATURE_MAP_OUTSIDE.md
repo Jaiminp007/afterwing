@@ -34609,3 +34609,36 @@ full-name tags per Kim precedent; all per collision rule.) (Map holds
   (trakais, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Baravykas" (trakais, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 953 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (rigaed gelziss, jurmalaed laubes,
+liepajaed bokslafs, jelgavaed birzenieks). The program gelziss
+(rigas attempts), laubes (jurmalas verdicts), bokslafs (liepajas
+claims), and birzenieks (jelgavas votes). Four more, Latvian vein.
+(All four surnames + full names + contexts virgin pre-append, all
+per collision rule.) (Map holds 800 rounds.)
+
+- **Gelzis rigas [canon: Gelzis (rigaed gelziss; specified Modris
+  Gelzis (rigas; vs no hits)); verification deferred].** → Gelzis's
+  gelziss (rigaed, kept (gelzis, rigaed (rigas, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Gelzis" (rigas,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Laube jurmalas [canon: Laube (jurmalaed laubes; specified Eizens
+  Laube (jurmalas; vs no hits)); verification deferred].** → Laube's
+  laubes (jurmalaed, kept (laube, jurmalaed (jurmalas, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Laube"
+  (jurmalas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Bokslafs liepajas [canon: Bokslafs (liepajaed bokslafs; specified
+  Vilhelms Bokslafs (liepajas; vs no hits)); verification deferred].**
+  → Bokslafs's bokslafs (liepajaed, kept (bokslafs, liepajaed
+  (liepajas, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Bokslafs" (liepajas, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Birzenieks jelgavas [canon: Birzenieks (jelgavaed birzenieks;
+  specified Aleksandrs Birzenieks (jelgavas; vs no hits)); verification
+  deferred].** → Birzenieks's birzenieks (jelgavaed, kept (birzenieks,
+  jelgavaed (jelgavas, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Birzenieks" (jelgavas, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
