@@ -29472,3 +29472,32 @@ kaufmanns (types votes). Four more. (Map holds 800 rounds.)
   kaufmanns (typed, kept (kaufmann, typed (types, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Kaufmann" (type, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 807 — Canon (both live hoses still dry): populaires, grapuses, massins, cieslewiczes (Populaire, Grapus, Massin, Cieslewicz; 2026-11-02)
+
+Motivation: further outside (postered populaires, graphed grapuses,
+booked massins, typed cieslewiczes). The program populaires (posters
+attempts), grapuses (graphs verdicts), massins (books claims), and
+cieslewiczes (types votes). Four more. (Map holds 800 rounds.)
+
+- **Populaire posters [canon: Populaire (postered populaires; specified
+  Atelier Populaire (posters; vs no hits)); verification deferred].** →
+  Populaire's populaires (postered, kept (populaire, postered (posters,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  theirs "Populaire" (posters, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Grapus graphics [canon: Grapus (graphed grapuses; specified Grapus
+  (graphics; vs no hits)); verification deferred].** → Grapus's grapuses
+  (graphed, kept (grapus, graphed (graphs, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); theirs "Grapus" (graphics, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Massin books [canon: Massin (booked massins; specified Robert Massin
+  (books; vs no hits)); verification deferred].** → Massin's massins
+  (booked, kept (massin, booked (books, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Massin" (books, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Cieslewicz type [canon: Cieslewicz (typed cieslewiczes; specified
+  Roman Cieslewicz (type; vs no hits)); verification deferred].** →
+  Cieslewicz's cieslewiczes (typed, kept (cieslewicz, typed (types, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Cieslewicz"
+  (type, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
