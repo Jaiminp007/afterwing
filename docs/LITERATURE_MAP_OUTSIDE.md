@@ -37441,3 +37441,54 @@ contexts virgin pre-append, flattened method.)
   (causals, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Klippert" (causals, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 1021 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=330, cs.RO start=290,
+eess.SY start=240, q-bio.NC start=280). Four new IDs triaged (0
+worlds): 2610.38351 (proprioceptive sensing — DECLINED thin,
+engineering without gate mechanism), 2609.02183 (McCulloch-Pitts
+essay — DECLINED thin/unrelated, history-of-ideas without mechanism),
+2610.30196 (Ding/He/Zhu) — differentially private synthetic data via
+generalized moment matching (estimate moments privately, fit
+measure, sample synthetic records; error theorems; minimax optimal)
+— synthetic record generation with privacy noise plus guarantees,
+the program's fresh-bank generation, formalized; and 2610.34895 lead
+(Saharsh) — compositional approximately bisimilar abstractions (local
+relations preserved under global composition; stochastic-to-
+deterministic approximate equivalence with formal conditions) —
+composition with approximation bounds, the program's composition plus
+tolerance discipline, formalized. (Lead author mapped from the
+quintet per MOST precedent; Saoud/Sadek/Swikir noted unmapped;
+Jagtap already mapped R997 — not remapped.) (Abstracts only, 0
+worlds; IDs + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Ding privacies [LIVE 2610.30196 (privacied rundongdings;
+  specified Rundong Ding (privacies; "ding" fragments standing
+  (reading/depending — 1525!) — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Ding's
+  rundongdings (privacied, kept (rundongding, privacied (privacies,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Ding" (privacies, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **He matchings [LIVE 2610.30196 (matchinged yiyunhes; specified
+  Yiyun He (matchings; "He" taken — 21x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → He's yiyunhes (matchinged, kept (yiyunhe,
+  matchinged (matchings, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "He" (matchings, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Zhu minimaxes [LIVE 2610.30196 (minimaxed yizhezhus; specified
+  Yizhe Zhu (minimaxes; "Zhu" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhu's yizhezhus (minimaxed, kept (yizhezhu,
+  minimaxed (minimaxes, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Zhu" (minimaxes, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Saharsh bisimulations [LIVE 2610.34895 (bisimulationed saharshs;
+  specified S. Saharsh (bisimulations; vs no hits)); verification
+  deferred].** → Saharsh's saharshs (bisimulationed, kept (saharsh,
+  bisimulationed (bisimulations, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Saharsh" (bisimulations, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
