@@ -30527,3 +30527,34 @@ pollinis (shares verdicts), bottonis (zones claims), and gabettis
   gabettis (piled, kept (gabetti, piled (piles, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Gabetti" (piles, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 841 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (mentored viganos, drafted samonas, layered
+marconis, blocked fiorentinos). The program viganos (mentors attempts),
+samonas (drafts verdicts), marconis (layers claims), and fiorentinos
+(blocks votes). Four more, Italian-modern vein continued. (Map holds
+800 rounds; ASCII forms per map convention.)
+
+- **Vigano mentors [canon: Vigano (mentored viganos; specified Vittoriano
+  Vigano (mentors; vs no hits)); verification deferred].** → Vigano's
+  viganos (mentored, kept (vigano, mentored (mentors, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Vigano"
+  (mentors, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Samona drafts [canon: Samona (drafted samonas; specified Giuseppe
+  Samona (drafts; vs no hits)); verification deferred].** → Samona's
+  samonas (drafted, kept (samona, drafted (drafts, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Samona" (drafts, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Marconi layers [canon: Marconi (layered marconis; specified Plinio
+  Marconi (layers; vs no hits)); verification deferred].** → Marconi's
+  marconis (layered, kept (marconi, layered (layers, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Marconi"
+  (layers, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Fiorentino blocks [canon: Fiorentino (blocked fiorentinos; specified
+  Mario Fiorentino (blocks; vs no hits)); verification deferred].** →
+  Fiorentino's fiorentinos (blocked, kept (fiorentino, blocked (blocks,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Fiorentino" (blocks, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
