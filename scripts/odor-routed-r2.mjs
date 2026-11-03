@@ -6,7 +6,7 @@
 // Single execution. Caps: 40e9 ops, 3600s wall.
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {readFileSync,writeFileSync,mkdirSync,existsSync,openSync,closeSync,writeSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,existsSync,openSync,closeSync,writeSync,readdirSync} from 'node:fs';
 import {dirname,join,relative,resolve,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {OdorRoutedExperiment} from '../learning/odor-routed-experiment.mjs';
@@ -14,7 +14,11 @@ import {CoverageExperiment} from '../learning/coverage-experiment.mjs';
 import {CONTINUAL_PHASES_REHEARSAL,ODOR_R2_SEED_MAP,ODOR_R2_TICKS,ODOR_R2_OP_CAP,ODOR_R2_WALL_CAP_SECONDS} from '../learning/continual-regimes.mjs';
 
 const root=fileURLToPath(new URL('../',import.meta.url)),output=join(root,'evidence/odor-routed-development-r2');
-const bank=join(root,'evidence/odor-routed-development-r2/bank-protocol.json');assert.ok(!existsSync(output));
+const bank=join(root,'evidence/odor-routed-development-r2/bank-protocol.json');
+{ // Single-execution guard: output absent, or holding only the triage bank copy.
+  const pre=existsSync(output)?readdirSync(output):[];
+  assert.ok(pre.length===0||(pre.length===1&&pre[0]==='bank-protocol.json'),'R2 output already exists; preserve it: '+output);
+}
 const hash=value=>createHash('sha256').update(value).digest('hex');
 const write=(path,value)=>{mkdirSync(dirname(path),{recursive:true});writeFileSync(path,JSON.stringify(value,null,2)+'\n',{flag:'wx'});};
 const sources={},visit=path=>{
