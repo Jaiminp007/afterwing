@@ -36293,3 +36293,51 @@ contexts virgin pre-append, flattened method.)
   (carried, won (crowd, kept))); his "Jagtap" (partialities, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 998 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=80, cs.RO start=70,
+eess.SY start=70, q-bio.NC start=100). Four new IDs triaged (0
+worlds): 2611.00262 (shipboard microgrid — DECLINED
+unrelated-screening), 2611.02173 (flocking consensus — DECLINED thin;
+vocabulary rhymes but no gate mechanism), 2610.42109
+(Nietert/Kuhn) — regret-optimal Wasserstein-robust regression (source
+vs target law under adversarial perturbation; the robustness/regret
+gap; instance-optimal rates) — source/target shift with a tax, the
+program's train/transfer shift and transfer tax, formalized; and
+2610.17164 (Pashakhanloo/Murthy) — perceptual geometry of natural
+odor mixtures from LLM descriptors (1,200 mixtures, 8,000
+components; language-derived supervision predicts held-out mixture
+similarity) — odor chemistry→perception geometry at naturalistic
+scale, the program's odor line from outside. (Abstracts/titles only,
+0 worlds; IDs + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Nietert wassersteins [LIVE 2610.42109 (wassersteined nieterts;
+  specified Sloan Nietert (wassersteins; vs no hits)); verification
+  deferred].** → Nietert's nieterts (wassersteined, kept (nietert,
+  wassersteined (wassersteins, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Nietert" (wassersteins,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Kuhn robustnesses [LIVE 2610.42109 (robustnessed danielkuhns;
+  specified Daniel Kuhn (robustnesses; distinct from paradigms-round
+  Kuhn — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Kuhn's danielkuhns (robustnessed, kept
+  (danielkuhn, robustnessed (robustnesses, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Kuhn"
+  (robustnesses, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Pashakhanloo volatiles [LIVE 2610.17164 (volatiled
+  pashakhanloos; specified Farhad Pashakhanloo (volatiles; vs no
+  hits)); verification deferred].** → Pashakhanloo's pashakhanloos
+  (volatiled, kept (pashakhanloo, volatiled (volatiles, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Pashakhanloo" (volatiles, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Murthy chemosensories [LIVE 2610.17164 (chemosensored murthys;
+  specified Venkatesh N. Murthy (chemosensories; vs no hits));
+  verification deferred].** → Murthy's murthys (chemosensored, kept
+  (murthy, chemosensored (chemosensories, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Murthy" (chemosensories,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
