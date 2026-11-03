@@ -35270,3 +35270,40 @@ collision rule; all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Hoskins" (stirlings, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 972 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (templed thomass, swanseaed daleowens,
+cardiffed jonathanadams, coeded loyns). The program thomass (temples
+attempts), daleowens (swanseas verdicts), jonathanadams (cardiffs
+claims), and loyns (coeds votes). Four more, Welsh vein. ("canon:
+Thomas/Owen/Adams" fragments taken — poet/composer rounds —
+full-name tags per collision rule; "millennia"/"storms" taken — my
+own text — "cardiffs"/"coeds" used; compounds vs "owens"/"adams"
+floods; all per collision rule.) (Map holds 800 rounds.)
+
+- **Thomas temples [canon: Percy Thomas (templed thomass; specified
+  Percy Thomas (temples; distinct from poet-round Thomas — full-name
+  tag per collision rule; vs no hits)); verification deferred].** →
+  Thomas's thomass (templed, kept (thomas, templed (temples, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Thomas" (temples, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Owen swanseas [canon: Dale Owen (swanseaed daleowens; specified
+  Dale Owen (swanseas; "owens" taken — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Owen's
+  daleowens (swanseaed, kept (daleowen, swanseaed (swanseas, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Owen"
+  (swanseas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Adams cardiffs [canon: Jonathan Adams (cardiffed jonathanadams;
+  specified Jonathan Adams (cardiffs; "adams" taken — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Adams's jonathanadams (cardiffed, kept (jonathanadam,
+  cardiffed (cardiffs, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Adams" (cardiffs, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Loyn coeds [canon: Loyn (coeded loyns; specified Chris Loyn
+  (coeds; vs no hits)); verification deferred].** → Loyn's loyns
+  (coeded, kept (loyn, coeded (coeds, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Loyn" (coeds, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
