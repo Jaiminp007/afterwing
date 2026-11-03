@@ -28413,3 +28413,41 @@ live.) Four papers, all virgin pre-append (0 hits each).
   exactly this ambition (VISION milestone 3 verbatim); what Goedel
   lacks (independent evaluation + compute budgets) is what the
   frozen-plan/single-attempt discipline supplies.
+## Round 777 — LIVE via OpenAlex: stablers, distrallers, diffusers, metarsis (StableMoE 2022, Distral, Diffusion-QL 2022, MetaRSI 2026; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (StableMoE/Distral/Diffusion
+Policies 0 hits; Darwin/Red-Queen/Mendel Goedel variants already
+mapped — routed to MetaRSI instead).
+
+- **Stable routing [Dai et al. 2022, StableMoE; vs no hits].** →
+  Routing fluctuation (same input updates different experts, only one
+  used at inference) harms sample efficiency; two stages: learn a
+  balanced routing, distill it into a lightweight router, FREEZE it.
+  The program's fixed viability router avoids fluctuation by
+  construction — a feature bought at the MoE-theory round's price
+  (no router learning); and distill-then-freeze is the frozen-plan
+  discipline in miniature (decide the routing, then freeze it).
+- **Distill-and-transfer [Teh et al., Distral; vs no hits].** →
+  Task gradients interfere negatively through shared parameters and
+  differing reward schemes let one task dominate; answer: share a
+  DISTILLED policy, not parameters. This is the R3/R4 failure in
+  miniature (shared weights + A-vs-BCD reward regimes) — and the
+  program holds a concrete embodied negative against Distral's
+  prescription (R4's BC-of-guarded lost 0/8 by −0.57): distillation
+  without the right substrate is another dead level, recorded.
+- **Expressive policies [Wang et al. 2022, Diffusion-QL; vs no
+  hits].** → Offline RL fails under limited-expressiveness policy
+  classes; represent the policy as a conditional diffusion model +
+  action-value maximization. Outside support for the go-quality side:
+  every odor round used linear heads, so if the gap is go-quality,
+  expressiveness is the untested axis — B3's fresh rationale, if any,
+  must be expressiveness, never another gate.
+- **Meta-RSI [Tan et al. 2026, MetaRSI/RSI2; vs no hits].** → RSI
+  validated only on machine-checkable slices (code/math), bound to
+  format not capability; must operate across real domains where
+  correctness is settled by argument, replication, measurement. The
+  program's discipline IS this demand in one domain: frozen plans
+  (argument), single attempts (replication), negative preservation
+  (measurement) — and "claim RSI only on separately-satisfying
+  evidence" is MetaRSI's format-bound critique turned into a rule.
