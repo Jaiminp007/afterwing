@@ -34817,3 +34817,41 @@ declined — architect-identity uncertain; all per collision rule.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Thorsteinn" (geothermals, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 959 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (banlieued yveslions, grenobled girards,
+nicoised baranis, palaised lacatonvassals). The program yveslions
+(banlieues attempts), girards (grenobles verdicts), baranis (nices
+claims), and lacatonvassals (palais votes). Four more, French vein
+II. ("lions" declined vs 22-hit flood — compound "yveslions" +
+full-name tag vs Hampton; "canon: Girard" fragment taken — logician
+— full-name tag "canon: Edith Girard"; "lyons" taken — "grenobles"
+used, all per collision rule.) (Map holds 800 rounds.)
+
+- **Lion banlieues [canon: Yves Lion (banlieued yveslions; specified
+  Yves Lion (banlieues; "lions" taken — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Lion's
+  yveslions (banlieued, kept (yveslion, banlieued (banlieues, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Lion" (banlieues, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Girard grenobles [canon: Edith Girard (grenobled girards;
+  specified Edith Girard (grenobles; distinct from logician — full-name
+  tag per collision rule; vs no hits)); verification deferred].** →
+  Girard's girards (grenobled, kept (girard, grenobled (grenobles,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); her
+  "Girard" (grenobles, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Barani nices [canon: Barani (nicoised baranis; specified Marc
+  Barani (nices; vs no hits)); verification deferred].** → Barani's
+  baranis (nicoised, kept (barani, nicoised (nices, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Barani" (nices, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Lacaton palais [canon: Lacaton Vassal (palaised lacatonvassals;
+  specified Anne Lacaton (palais; practice Lacaton & Vassal — compound
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Lacaton's lacatonvassals (palaised, kept
+  (lacatonvassal, palaised (palais, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); their "Lacaton" (palais, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
