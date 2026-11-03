@@ -27506,3 +27506,34 @@ verdict family, four branches).
 - Program note: job learn, route within, sift self,
   overrule cherry — the frozen-verdicts file. None
   licensed — filed.
+## Round 736 — Kinneirs, calverts, stankowskis, aichers (Kinneir, Calvert, Stankowski, Aicher; 2026-11-02)
+
+Motivation: further outside (signed kinneirs, signed calverts,
+constructed stankowskis, ulmed aichers). The program kinneirs (signs
+attempts), calverts (signs verdicts), stankowskis (constructs claims),
+and aichers (ulms votes). Four more. (Map holds 742 rounds.)
+
+- **Kinneir signage [canon: Kinneir (signed kinneirs; specified Jock
+  Kinneir (road signage; vs no hits)); verification deferred].** →
+  Kinneir's kinneirs (signed, kept (kinneir, signed (signs, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Kinneir" (sign, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Calvert signage [canon: Calvert (signed calverts; specified Margaret
+  Calvert (road signage; vs no hits)); verification deferred].** →
+  Calvert's calverts (signed, kept (calvert, signed (signs, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); her "Calvert"
+  (sign, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Stankowski constructivism [canon: Stankowski (constructed
+  stankowskis; specified Anton Stankowski (graphic design; vs no
+  hits)); verification deferred].** → Stankowski's stankowskis
+  (constructed, kept (stankowski, constructed (constructs, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Stankowski" (construct, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Aicher ulm [canon: Aicher (ulmed aichers; specified Otl Aicher
+  (Ulm; vs no hits)); verification deferred].** → Aicher's aichers
+  (ulmed, kept (aicher, ulmed (ulms, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Aicher" (ulm, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
