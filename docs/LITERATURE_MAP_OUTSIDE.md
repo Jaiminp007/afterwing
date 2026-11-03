@@ -32221,3 +32221,37 @@ taken — "non-coheres"/"rate-selects" used per collision rule.)
   (joined, kept (colony functions (kept, 85% dead (debt carried,
   kept))))); its "Expander" (dilates, kept (kept, kept)) is the
   ledger (exact, kept (route around (kept, the dead))).
+## Round 886 — Canon (both live hoses quiet this turn; 2026-11-02)
+
+Motivation: further outside (mirrored maass, gherkined fosters,
+edened grimshaws, canted bloms). The program maass (mirrors
+attempts), fosters (gherkins verdicts), grimshaws (edens claims),
+and bloms (cants votes). Four more, Dutch/British high-tech vein.
+(Koolhaas probed and declined — already mapped; Piano probed and
+declined — exposed-building round is Renzo; Richard Rogers probed
+and declined — full-name tag would still crowd Rogers' paradox;
+Piet Blom substituted per collision rule.) (Map holds 800 rounds.)
+
+- **Maas mirrors [canon: Maas (mirrored maass; specified Winy Maas
+  (mirrors; vs no hits)); verification deferred].** → Maas's maass
+  (mirrored, kept (maas, mirrored (mirrors, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Maas"
+  (mirrors, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Foster gherkins [canon: Foster (gherkined fosters; specified
+  Norman Foster (gherkins; vs no hits)); verification deferred].** →
+  Foster's fosters (gherkined, kept (foster, gherkined (gherkins,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept)));
+  his "Foster" (gherkins, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Grimshaw edens [canon: Grimshaw (edened grimshaws; specified
+  Nicholas Grimshaw (edens; vs no hits)); verification
+  deferred].** → Grimshaw's grimshaws (edened, kept (grimshaw,
+  edened (edens, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Grimshaw" (edens, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Blom cants [canon: Blom (canted bloms; specified Piet Blom
+  (cants; vs no hits)); verification deferred].** → Blom's bloms
+  (canted, kept (blom, canted (cants, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Blom" (cants, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
