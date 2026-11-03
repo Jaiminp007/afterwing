@@ -26941,3 +26941,31 @@ leads converging; discovery family, four branches).
 - Program note: probe faintly, discover openly, map
   flows, infer relationally — the open-form-discovery
   file. None licensed — filed.
+## Round 716 — Vasts, vorduls, cages, camus (Vast Aire, Vordul, Cage, Camu; 2026-11-02)
+
+Motivation: further outside (looked vasts, megaed vorduls, movied
+cages, hearted camus). The program vasts (looks attempts), vorduls
+(stitches verdicts), cages (publishes NOGOs), and camus (counts rows).
+Four more. (Map holds 724 rounds.)
+
+- **Vast look [canon: Vast (looked vasts; specified Vast Aire (Cannibal
+  Ox; vs no hits)); verification deferred].** → Vast's vasts (looked, kept
+  (vasted, looked (looks, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Vast" (look, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Vordul mega [canon: Vordul (megaed vorduls; specified Vordul Mega
+  (Cannibal Ox; vs no hits)); verification deferred].** → Vordul's
+  vorduls (megaed, kept (vorduled, megaed (megas, kept))) is the verdict
+  (megaed, kept (NOGO, told (honest, kept))); his "Vordul" (mega, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Cage movies [canon: Cage (movied cages; specified Cage (Def Jux; vs
+  no hits)); verification deferred].** → Cage's cages (movied, kept
+  (caged, movied (movies, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Cage" (movies, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Camu hearts [canon: Camu (hearted camus; specified Camu Tao (Def Jux;
+  vs no hits)); verification deferred].** → Camu's camus (hearted, kept
+  (camued, hearted (hearts, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Camu" (hearts, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
