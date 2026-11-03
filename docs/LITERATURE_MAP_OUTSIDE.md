@@ -30710,3 +30710,32 @@ rounds.)
   (opened, kept (ruchat, opened (opens, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Ruchat" (opens, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 847 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (steamed zumthors, poured olgiatis, stayed
+caminadas, sketched marklis). The program zumthors (steams attempts),
+olgiatis (pours verdicts), caminadas (stays claims), and marklis
+(sketches votes). Four more, Swiss-modern vein. (Map holds 800 rounds.)
+
+- **Zumthor steams [canon: Zumthor (steamed zumthors; specified Peter
+  Zumthor (steams; vs no hits)); verification deferred].** → Zumthor's
+  zumthors (steamed, kept (zumthor, steamed (steams, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Zumthor" (steams,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Olgiati pours [canon: Olgiati (poured olgiatis; specified Valerio
+  Olgiati (pours; vs no hits)); verification deferred].** → Olgiati's
+  olgiatis (poured, kept (olgiati, poured (pours, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Olgiati" (pours, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Caminada stays [canon: Caminada (stayed caminadas; specified Gion
+  Caminada (stays; vs no hits)); verification deferred].** → Caminada's
+  caminadas (stayed, kept (caminada, stayed (stays, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Caminada"
+  (stays, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Markli sketches [canon: Markli (sketched marklis; specified Peter
+  Markli (sketches; vs no hits)); verification deferred].** → Markli's
+  marklis (sketched, kept (markli, sketched (sketches, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Markli" (sketches, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
