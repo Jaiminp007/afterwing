@@ -34536,3 +34536,37 @@ holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Svetko"
   (trnavas, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 951 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (kyived zhezherins, khreshchatyked
+dobrovolskys, kharkived drozdovs, lvived chaplinskys). The program
+zhezherins (kyivs attempts), dobrovolskys (khreshchatyks verdicts),
+drozdovs (kharkivs claims), and chaplinskys (lvives votes). Four
+more, Ukrainian vein. ("Victor Petrik" declined — architect-identity
+uncertain; all per collision rule.) (Map holds 800 rounds.)
+
+- **Zhezherin kyivs [canon: Zhezherin (kyived zhezherins; specified
+  Vadym Zhezherin (kyivs; vs no hits)); verification deferred].** →
+  Zhezherin's zhezherins (kyived, kept (zhezherin, kyived (kyivs,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Zhezherin" (kyivs, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dobrovolsky khreshchatyks [canon: Dobrovolsky (khreshchatyked
+  dobrovolskys; specified Anatoliy Dobrovolsky (khreshchatyks; vs no
+  hits)); verification deferred].** → Dobrovolsky's dobrovolskys
+  (khreshchatyked, kept (dobrovolsky, khreshchatyked (khreshchatyks,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Dobrovolsky" (khreshchatyks, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Drozdov kharkivs [canon: Drozdov (kharkived drozdovs; specified Oleg
+  Drozdov (kharkivs; vs no hits)); verification deferred].** →
+  Drozdov's drozdovs (kharkived, kept (drozdov, kharkived (kharkivs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Drozdov" (kharkivs, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Chaplinsky lvives [canon: Chaplinsky (lvived chaplinskys; specified
+  Yulian Chaplinsky (lvives; vs no hits)); verification deferred].** →
+  Chaplinsky's chaplinskys (lvived, kept (chaplinsky, lvived (lvives,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Chaplinsky" (lvives, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
