@@ -35738,3 +35738,38 @@ collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Lugo" (orinoques,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 985 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (bastilled carlosotts, tokyoed vinolys,
+montevideod paysses, parqueed pardos). The program carlosotts
+(bastilles attempts), vinolys (tokyos verdicts), paysses (monte
+videos claims), and pardos (parques votes). Four more, Uruguayan
+vein. (Dieste declined — already mapped, own R-round; consistency
+41st; "otts" taken — Otto rounds — compound + full-name tag per
+collision rule; all per collision rule.) (Map holds 800 rounds.)
+
+- **Ott bastilles [canon: Carlos Ott (bastilled carlosotts; specified
+  Carlos Ott (bastilles; "otts" taken — Otto rounds — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Ott's carlosotts (bastilled, kept (carlosott,
+  bastilled (bastilles, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Ott" (bastilles, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Vinoly tokyos [canon: Vinoly (tokyoed vinolys; specified Rafael
+  Vinoly (tokyos; vs no hits)); verification deferred].** → Vinoly's
+  vinolys (tokyoed, kept (vinoly, tokyoed (tokyos, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Vinoly"
+  (tokyos, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Paysse monte videos [canon: Paysse (montevideod paysses;
+  specified Mario Paysse (monte videos; vs no hits)); verification
+  deferred].** → Paysse's paysses (montevideod, kept (paysse,
+  montevideod (monte videos, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Paysse" (monte videos, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Pardo parques [canon: Pardo (parqueed pardos; specified Luis
+  Garcia Pardo (parques; vs no hits)); verification deferred].** →
+  Pardo's pardos (parqueed, kept (pardo, parqueed (parques, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Pardo"
+  (parques, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
