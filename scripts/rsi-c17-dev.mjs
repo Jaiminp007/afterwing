@@ -147,6 +147,11 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     if(sample.length<C17_S)return null;
     const firstId=Object.keys(run.learners)[0];
     const triggerSnap=JSON.parse(JSON.stringify(run.learners[firstId]));
+    // The trigger fires mid-cycle (observe path), so the live learner may
+    // legitimately await observation. The probe clone is feedforward-only
+    // (features + actor head never read the flag); clearing it on the COPY
+    // satisfies freeze's assertion without touching the live learner.
+    triggerSnap.awaitingObservation=false;
     compactTasteEnergyBody(triggerSnap);
     const scored=C17_SURROGATE_BANK.map(vec=>{
       let t=0,ops=0;
