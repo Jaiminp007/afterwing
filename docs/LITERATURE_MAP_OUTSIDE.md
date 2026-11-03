@@ -24310,3 +24310,31 @@ livingstons (stitches verdicts), tims (publishes NOGOs), and bucks
   (bucked, helloed (goodbyes, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Buck" (hello, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 623 — Misled, originated, reviewed, canonized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: audit trail — every step
+leaves a mark (already-cited audit/validity leads converging;
+trail family, four branches).
+
+- **Truthful misleading [arXiv:2608.17960 (Gondhalekar /
+  COMA; vs no hits)].** All-TRUE still MISLEADS
+  (correct assess + open remediate; causal
+  counterfactual). → Defend counterfactually (our
+  copied-controls, coma-side). Filed.
+- **Error origin [arXiv:2609.33297 (Wang; vs no
+  hits)].** Seen ≠ MADE (progression-aware origin;
+  first-rejected ≠ source). → Localize the origin
+  (our per-leg deltas, origin-side). Filed.
+- **Human audit [arXiv:2610.01491 (Gan; vs no
+  hits)].** Review OUTCOMES + TRAJECTORIES (retain
+  score; correct false-negatives). → Audit by human
+  (our independent auditors, review-side). Filed.
+- **Canonical actions [arXiv:2609.24264 (Li / CPA; vs
+  no hits)].** AUDITABLE annotation (function +
+  anchor + events + evidence; versioned codebook).
+  → Canonize the actions (our frozen loops,
+  canon-side). Filed.
+- Program note: defend counterfactually, localize
+  origins, audit by humans, canonize actions — the
+  audit-trail file. None licensed — filed.
