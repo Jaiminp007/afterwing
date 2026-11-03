@@ -115,6 +115,17 @@ odor-guided learner? Future lines: probe WITH odor (fair cue test),
 or claim odor-free robustness explicitly (own falsifier), or accept
 the gate-bug reading. The six NO-GOs stand; what they MEAN changed.
 
+## Executed re-reading 2 (2026-11-02, read-only: spent R5/R6 traces)
+
+Mean alive-fly energy per 256-tick bin, all 8 acquisition histories:
+R5 53.0 → 28.9 → 21.3; R6 53.0 → 28.9 → 20.2 (early → mid → late).
+No late plateau — still declining (late-mid slope ≈ −8 per 512
+ticks). Consistent with the B4-gate base rate (97%-negative deltas):
+the runs end mid-dynamics, never at equilibrium. The late-phase
+proviso is unrefuted and sharpened: nothing in the traces suggests
+1792 ticks reached the slow phase where Kleim-structure appears.
+Calendar proviso stands.
+
 Late-phase proviso (R800 — Kleim 2004): synaptogenesis and map
 reorganization arrive in the SLOW phase; fast-early refines
 existing structure only. The program's 1792-tick phases may all
