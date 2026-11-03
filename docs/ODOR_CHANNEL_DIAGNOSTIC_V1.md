@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 42 (2026-11-02, read-only: spent R1 rows, survivors + intake)
+
+Frozen steering STRICTLY dominates learned: more survivors (5–9
+vs 1–4, all 8 histories — learned leaves lone wolves on three)
+AND more total intake per founder AND higher endpoints. No
+tradeoff at all — learned loses on every axis, everywhere. And
+the failure modes differ by kind: the split's price is INTENSIVE
+(R27: more survivors, poorer per-capita entry STATE) while the
+learned steering's is EXTENSIVE (fewer survivors AND less total
+— both down). Warning attached: per-END-survivor intake looks
+like feasting under learned (up to 698 vs ~100) but is pure
+denominator bias — the dead ate too, then died, and their intake
+gets attributed to the living. States divide honestly;
+accumulated flows don't. Two failure anatomies filed: intensive
+(readout) vs extensive (steering).
+
 ## Executed re-reading 33 precision-audit (2026-11-02, read-only: spent R10 anchors)
 
 R33's number audited itself and passed: present-motor rms
