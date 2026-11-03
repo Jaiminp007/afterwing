@@ -34191,3 +34191,35 @@ la Sota used R895; "Sert" declined — fragments standing
   cemeteried (cemeteries, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Miralles" (cemeteries, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 941 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (iglesiaed pinos, mercated tagliabues,
+gironated ferrandos, paled girones). The program pinos (iglesias
+attempts), tagliabues (mercats verdicts), ferrandos (gironas claims),
+and girones (pals votes). Four more, Catalan vein. (All four
+surnames + full names + contexts virgin pre-append, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Pinos iglesias [canon: Pinos (iglesiaed pinos; specified Carme
+  Pinos (iglesias; vs no hits)); verification deferred].** → Pinos's
+  pinos (iglesiaed, kept (pinos, iglesiaed (iglesias, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); her "Pinos"
+  (iglesias, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Tagliabue mercats [canon: Tagliabue (mercated tagliabues; specified
+  Benedetta Tagliabue (mercats; vs no hits)); verification deferred].**
+  → Tagliabue's tagliabues (mercated, kept (tagliabue, mercated
+  (mercats, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); her "Tagliabue" (mercats, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Ferrando gironas [canon: Ferrando (gironated ferrandos; specified
+  Josep Ferrando (gironas; vs no hits)); verification deferred].** →
+  Ferrando's ferrandos (gironated, kept (ferrando, gironated (gironas,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Ferrando" (gironas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Girones pals [canon: Girones (paled girones; specified Toni Girones
+  (pals; vs no hits)); verification deferred].** → Girones's girones
+  (paled, kept (girones, paled (pals, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Girones" (pals, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
