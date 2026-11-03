@@ -25350,3 +25350,29 @@ verdicts), lils (publishes NOGOs), and eves (counts rows). Four more.
   (minds, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); her "Eve" (blow, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 659 — Frozen, routed, upcycled, grafted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: frozen expertise —
+frozen base, evolving top (already-cited frozen-loop
+leads converging; expertise family, four branches).
+
+- **Frozen evolving [arXiv:2610.09146 (He; vs no
+  hits)].** Model-AGNOSTIC from DEPLOYMENT (practice
+  changes; no weight access). → Learn deployed (our
+  frozen instruments, deploy-side). Filed.
+- **Copula routing [arXiv:2607.28670 (Xu; vs no hits)].**
+  Which JOINTS with FIXED marginals (two-sided control;
+  correlate within). → Route jointly (our per-line
+  ledgers, route-side). Filed.
+- **Introvert upcycle [arXiv:2410.09687 (Tejankar /
+  MoIN; vs no hits)].** Frozen base + ADAPTERS
+  (route-then-load; no full retrain). → Upcycle frozen
+  (our checkpoint carries, upcycle-side). Filed.
+- **Expert grafting [arXiv:2506.00965 (Liu / FLEx; vs
+  no hits)].** Sparsity-vs-INTEGRATION (heterogeneity;
+  personalize federated). → Graft experts (our
+  transplant chain, graft-side). Filed.
+- Program note: learn deployed, route jointly, upcycle
+  frozen, graft experts — the frozen-expertise file.
+  None licensed — filed.
