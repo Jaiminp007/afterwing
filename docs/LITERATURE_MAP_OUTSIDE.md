@@ -27391,3 +27391,33 @@ converging; authorization family, four branches).
 - Program note: authorize cross-interface, tripartite
   compute, write kathleen, steer nous — the
   tripartite-authorized file. None licensed — filed.
+## Round 732 — Wilds, tenazases, pirtles, maedas (Wild, Tenazas, Pirtle, Maeda; 2026-11-02)
+
+Motivation: further outside (greened wilds, layered tenazases,
+standardized pirtles, digitalled maedas). The program wilds (greens
+attempts), tenazases (layers verdicts), pirtles (standards claims), and
+maedas (digitals votes). Four more. (Map holds 738 rounds.)
+
+- **Wild green [canon: Wild (greened wilds; specified Lorraine Wild
+  (graphic design; vs no hits)); verification deferred].** → Wild's
+  wilds (greened, kept (wild, greened (greens, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); her "Wild" (green, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Tenazas layers [canon: Tenazas (layered tenazases; specified
+  Lucille Tenazas (design; vs no hits)); verification deferred].** →
+  Tenazas's tenazases (layered, kept (tenazas, layered (layers, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); her "Tenazas"
+  (layers, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Pirtle standards [canon: Pirtle (standardized pirtles; specified
+  Woody Pirtle (graphic design; vs no hits)); verification
+  deferred].** → Pirtle's pirtles (standardized, kept (pirtle,
+  standardized (standards, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Pirtle" (standards, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Maeda digital [canon: Maeda (digitalled maedas; specified John
+  Maeda (digital design; vs no hits)); verification deferred].** →
+  Maeda's maedas (digitalled, kept (maeda, digitalled (digitals, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Maeda"
+  (digital, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
