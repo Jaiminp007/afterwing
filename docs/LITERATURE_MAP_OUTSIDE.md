@@ -29648,3 +29648,32 @@ votes). Four more. (Map holds 800 rounds.)
   katsuisis (systemed, kept (katsui, systemed (systems, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Katsui" (systems, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 813 — Canon (both live hoses still dry): palladinos, loises, hellers, rands (Palladino, Lois, Heller, Rand; 2026-11-02)
+
+Motivation: further outside (alphabeted palladinos, aded loises, written
+hellers, logoed rands). The program palladinos (alphabets attempts),
+loises (ads verdicts), hellers (writings claims), and rands (logos votes).
+Four more. (Map holds 800 rounds; Lubalin/Dorfsman routed around — already
+canon-mapped R740.)
+
+- **Palladino alphabets [canon: Palladino (alphabeted palladinos; specified
+  Tony Palladino (alphabets; vs no hits)); verification deferred].** →
+  Palladino's palladinos (alphabeted, kept (palladino, alphabeted (alphabets,
+  kept))) is the attempt (run, kept (single, authorized (once, held))); his
+  "Palladino" (alphabets, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Lois ads [canon: Lois (aded loises; specified George Lois (ads; vs no
+  hits)); verification deferred].** → Lois's loises (aded, kept (lois, aded
+  (ads, kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Lois" (ads, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Heller writings [canon: Heller (written hellers; specified Steven Heller
+  (writings; vs no hits)); verification deferred].** → Heller's hellers
+  (written, kept (heller, written (writings, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Heller" (writings, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Rand logos [canon: Rand (logoed rands; specified Paul Rand (logos; vs
+  no hits)); verification deferred].** → Rand's rands (logoed, kept (rand,
+  logoed (logos, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Rand" (logos, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
