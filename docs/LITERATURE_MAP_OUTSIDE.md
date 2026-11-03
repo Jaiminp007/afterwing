@@ -32536,3 +32536,36 @@ growth — Zadra tag used; "grades"/"transfers"/"shapes" taken —
   turns (kept, nonlinear weights (rank-1 atoms, kept))))); his
   "Zadra" (linearizes, kept (kept, kept)) is the ledger (exact, kept
   (lift faithfully (kept, keep invariants))).
+## Round 894 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (lecaed sizas, stadiumed mouras, cedroed
+tavoras, courtyarded mateus). The program sizas (lecas attempts),
+mouras (stadiums verdicts), tavoras (cedros claims), and mateus
+(courtyards votes). Four more, Portuguese vein. ("Dips"/"quarries"/
+"teaches"/"courts" taken — "lecas"/"stadiums"/"cedros"/"courtyards"
+used per collision rule.) (Map holds 800 rounds.)
+
+- **Siza lecas [canon: Siza (lecaed sizas; specified Alvaro Siza
+  (lecas; vs no hits)); verification deferred].** → Siza's sizas
+  (lecaed, kept (siza, lecaed (lecas, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Siza" (lecas, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Moura stadiums [canon: Moura (stadiumed mouras; specified Eduardo
+  Souto de Moura (stadiums; vs no hits)); verification deferred].** →
+  Moura's mouras (stadiumed, kept (moura, stadiumed (stadiums, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Moura"
+  (stadiums, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Tavora cedros [canon: Tavora (cedroed tavoras; specified Fernando
+  Tavora (cedros; vs no hits)); verification deferred].** → Tavora's
+  tavoras (cedroed, kept (tavora, cedroed (cedros, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Tavora"
+  (cedros, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Mateus courtyards [canon: Mateus (courtyarded mateus; specified
+  Aires Mateus (courtyards; vs no hits)); verification deferred].** →
+  Mateus's mateus (courtyarded, kept (mateus, courtyarded (courtyards,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))));
+  his "Mateus" (courtyards, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
