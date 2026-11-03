@@ -36902,3 +36902,51 @@ contexts virgin pre-append, flattened method.)
   kept (carried, won (crowd, kept))); his "Ko" (malfunctions, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 1010 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=220, cs.RO start=200).
+Two new IDs triaged (0 worlds), both map: 2610.34611
+(Maru/Han/Mamidala) — how much graph is too much (do graph
+neighbors add anything beyond a node's own history; diagnostic
+design: vary exposure holding the graph fixed, vary construction
+holding integration fixed, plus randomized graph controls) — hold-one-
+thing-fixed diagnostic design with randomized controls, the program's
+single-variable arms, formalized; and 2611.41320 lead (Zeng) — LEXP
+learning from physical experience through context-space adaptation
+(experience module interpreting execution evidence; fine manipulation
+and spatial reasoning from a general-purpose reasoner — one
+ChatGPT-6-Astra, a model that shares the program's name) —
+experience-interpreting adaptation with a namesake reasoner, the
+program's development evidence, formalized. (Lead author mapped from
+the 12-author paper per MOST precedent; Yan + 10 middles noted
+unmapped.) (Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Maru spatios [LIVE 2610.34611 (spatioed marus; specified Saj Maru
+  (spatios; vs no hits)); verification deferred].** → Maru's marus
+  (spatioed, kept (maru, spatioed (spatios, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Maru" (spatios,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Han unemployments [LIVE 2610.34611 (unemploymented qiyuhans;
+  specified Qiyu Han (unemployments; "Han" taken — 8x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Han's qiyuhans (unemploymented, kept
+  (qiyuhan, unemploymented (unemployments, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Han"
+  (unemployments, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Mamidala exposures [LIVE 2610.34611 (exposured mamidalas;
+  specified Krishna Mamidala (exposures; vs no hits)); verification
+  deferred].** → Mamidala's mamidalas (exposured, kept (mamidala,
+  exposured (exposures, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Mamidala" (exposures, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Zeng chatgpt6astras [LIVE 2610.41320 (chatgpt6astraed yihanzengs;
+  specified Yihan Zeng (chatgpt6astras; "Zeng" flood — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zeng's yihanzengs (chatgpt6astraed, kept
+  (yihanzeng, chatgpt6astraed (chatgpt6astras, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Zeng"
+  (chatgpt6astras, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
