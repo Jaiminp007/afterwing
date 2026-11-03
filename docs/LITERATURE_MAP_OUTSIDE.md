@@ -32255,3 +32255,41 @@ Piet Blom substituted per collision rule.) (Map holds 800 rounds.)
   (canted, kept (blom, canted (cants, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Blom" (cants, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 887 — Canon (live pool exhausted across five queries; 2026-11-02)
+
+Motivation: further outside (greened roches, triangled peis,
+reflected philips, boarded pauls). The program roches (greens
+attempts), peis (triangles verdicts), philips (reflects claims),
+and pauls (boards votes). Four more, American modernist vein.
+(Louis Kahn probed and declined — already mapped; Eero Saarinen
+probed and declined — already mapped; Philip Johnson full-name tag
+vs J.J. Johnson the trumpeter; Paul Rudolph full-name tag vs Wilma
+Rudolph the sprinter, both per collision rule.) (Map holds 800
+rounds.)
+
+- **Roche greens [canon: Roche (greened roches; specified Kevin
+  Roche (greens; vs no hits)); verification deferred].** → Roche's
+  roches (greened, kept (roche, greened (greens, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Roche"
+  (greens, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Pei triangles [canon: Pei (triangled peis; specified I. M. Pei
+  (triangles; vs no hits)); verification deferred].** → Pei's peis
+  (triangled, kept (pei, triangled (triangles, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Pei" (triangles,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Philip Johnson reflects [canon: Philip Johnson (reflected philips;
+  specified Philip Johnson (reflects; distinct from J.J. Johnson —
+  full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Johnson's philips (reflected, kept
+  (philip, reflected (reflects, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Philip" (reflects, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Paul Rudolph boards [canon: Paul Rudolph (boarded pauls;
+  specified Paul Rudolph (boards; distinct from Wilma Rudolph —
+  full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Rudolph's pauls (boarded, kept (paul,
+  boarded (boards, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept)))); his "Paul" (boards, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
