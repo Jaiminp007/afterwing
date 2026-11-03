@@ -50,7 +50,7 @@ for(const history of histories){
   const acquisition={},traces={},anchors={};
   const label=history.seed+'-acquire-learned-interleaved';
   const result=tape(label,emit=>new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',
-    phaseTable:CONTINUAL_PHASES_REHEARSAL,phaseSeedMap:[...ODOR_R2_SEED_MAP],emit}),protocol.acquisitionTicks);
+    phaseTable:CONTINUAL_PHASES_REHEARSAL,phaseSeedMap:[...ODOR_R2_SEED_MAP],phaseDurations:[...ODOR_R2_TICKS],emit}),protocol.acquisitionTicks);
   acquisition['learned-interleaved']={endpoint:result.endpoint,counts:result.counts};traces[label]=result.trace;
   noteOps(result.endpoint.scalarOperations);
   for(const key of ['A1','B1','A2','C1','A3','D1','A'])if(result.run.anchors[key]){anchors[key]=result.run.anchors[key];write(join(output,'anchors',history.seed+'-'+key+'.json'),anchors[key]);}
