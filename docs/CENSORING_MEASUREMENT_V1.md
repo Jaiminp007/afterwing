@@ -50,6 +50,13 @@ flowing through (policy cognizant of constraints). Price-vs-project
 dissolves: project hard, learn through it. The tiebreaker the
 freeze adopts unless it argues otherwise.
 
+Certificates (R796 — Tang 2026, LMI-Net): stability, robustness,
+and invariance enforced by differentiable projection
+(Douglas-Rachford + implicit differentiation, convergence
+guaranteed). The safety side graduates from bounds to
+certificates: a future line may demand proofs (LMIs by
+construction) instead of promises (violation upper bounds).
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping

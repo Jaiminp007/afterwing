@@ -135,6 +135,15 @@ learning alone is unstable (runaway or silence), and linear
 symmetric suppression is pre-falsified by stability theory, not
 by opinion. The coupling specifies dominance + nonlinearity.
 
+Instructive brake (R796 — Rossbroich 2025, E/I errors):
+suppression MAGNITUDE encodes the local error instructing go
+plasticity (targeted interneuron feedback → assembly-specific
+errors). The brake INSTRUCTS, never merely gates: how much stop
+inhibits go says what go must fix. Speed fusion (R796 — Wu 2026):
+E/I balance facilitates meta-learning — the coupling IS the
+adaptation-speed substrate. Suppression, instruction, and speed
+share one mechanism.
+
 Extension (R787 — Goulton 2026, early-uncertainty gating):
 suppression is transiently EARLY (recruited when contingencies
 emerge, not steady-state), TARGETED at the plasticity gate (PKA

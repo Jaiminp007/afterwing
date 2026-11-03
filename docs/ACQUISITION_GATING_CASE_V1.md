@@ -28,7 +28,12 @@ as a learned parameter, after dopamine neurons that learn their
 own activity level. Architecture rule (R785 — Ben-Iwhiwhu 2022,
 modular neuromodulation): gain lives in its OWN module beside the
 actor, never entangled in the policy weights. A scoping starts at
-the fixed-gain form and must earn the learned-gain form.
+the fixed-gain form and must earn the learned-gain form. Earner named (R796 — Li 2017,
+Meta-SGD): meta-learn initialization + update direction + learning
+rate jointly (higher capacity than MAML, one step, supervised +
+RL). "Must be earned" now names the earner — a scoping earns the
+learned-gain form by specifying its meta-learner, never by
+asserting it.
 
 ## Timing rule (R786 — Scheller 2026, sniffing shapes dopamine)
 
