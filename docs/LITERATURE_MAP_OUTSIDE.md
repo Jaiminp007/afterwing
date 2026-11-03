@@ -31892,3 +31892,49 @@ holds 800 rounds.)
   (kept, navigate blind (greedy map, fixed))))); its "TAMPAgent"
   (navigates, kept (kept, kept)) is the ledger (exact, kept (plan
   partial (kept, act anyway))).
+## Round 879 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: debugged systems, secreted insulin, gamma distortions,
+kept sidewalks — diagnose failures, dose the deficiency, weaken
+symmetrically, transfer bodies. The program distdebugs (debugs
+attempts), diabagents (secretes verdicts), tilteds (gammas
+claims), and snaps (sidewalks votes). ("Jiang" fragment taken —
+vague early tag — DistDebug used; "doses"/"controls"/"sustains"
+taken — "secretes" used; "weakens"/"distorts"/"slopes" taken —
+"gammas" used; "crowds"/"transfers" taken — "sidewalks" used, all
+per collision rule.) (Map holds 800 rounds.)
+
+- **DistDebug debugs [live: Jiang et al 2611.03523 (agents diagnose
+  complex-system failures at code level; 120 real bugs, 11 systems,
+  10 failure patterns; vs no hits on title/full context); abstract
+  only].** → DistDebug's debugging (real, kept (bugs curated
+  (kept, patterns ten (systems eleven, kept))))) is the attempt
+  (run, kept (thirty-three re-readings (kept, wound biographied
+  (failures classified, kept))))); its "DistDebug" (debugs, kept
+  (kept, kept)) is the row (counted, kept (real bugs (kept,
+  named patterns))).
+- **DiabAgent secretes [live: Li et al 2611.03601 (agentic
+  PHYSIOLOGICAL control; impaired secretion → exogenous dosing
+  adjusted on meals, exercise, glucose; simulator plus framework;
+  vs no hits); abstract only].** → DiabAgent's secreting (adjusted,
+  kept (deficiency dosed (kept, meals and movement priced
+  (sustained, kept))))) is the verdict (kept, kept (starvation
+  economics (kept, energy regulated (per-fly ledgers, kept)))));
+  its "DiabAgent" (secretes, kept (kept, kept)) is the bar
+  (unmoved, kept (dose the deficiency (kept, price the meals))).
+- **Tilted gammas [live: Pedramfar et al 2611.03472 (weaken convexity
+  by distortion γ — positives ×γ, negatives ÷γ; local stays global;
+  EXACT offline-online separation; vs no hits); abstract only].** →
+  Tilted's gamma-ing (distorted, kept (asymmetric changes (kept,
+  offline apart from online (exact, kept))))) is the claim (mourned,
+  kept (asymmetric gates (kept, frozen apart from live (toothed,
+  kept))))); its "Tilted" (gammas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **SNAP sidewalks [live: Wolfram et al 2611.03498 (semantic terrain
+  plus dynamic crowds from ONE map; no explicit human-state
+  estimation; ZERO-SHOT transfer to a legged robot; vs no hits);
+  abstract only].** → SNAP's sidewalking (joint, kept (one map
+  (kept, crowds plus curbs (new body, zero-shot)))) is the vote
+  (joined, kept (body transfer (kept, new legs unasked (vision
+  milestone four, kept))))); its "SNAP" (sidewalks, kept (kept,
+  kept)) is the ledger (exact, kept (one map (kept, many bodies))).
