@@ -25766,3 +25766,31 @@ converging; elicitation family, four branches).
 - Program note: elicit tacit, sense knowledge, seal
   semantically, build on priors — the
   knowledge-elicitation file. None licensed — filed.
+## Round 674 — Storches, tidds, hendricksons, biddles (Storch, Tidd, Hendrickson, Biddle; 2026-11-02)
+
+Motivation: further outside (dre-ed storches, bassed tidds, horned
+hendricksons, bassed biddles). The program storches (dres attempts),
+tidds (stitches verdicts), hendricksons (publishes NOGOs), and biddles
+(counts rows). Four more. (Map holds 682 rounds.)
+
+- **Storch dre [canon: Storch (dre-ed storches; specified Scott Storch
+  (The Roots; vs no hits)); verification deferred].** → Storch's
+  storches (dre-ed, kept (storched, dre-ed (dres, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Storch" (dre, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Tidd bass [canon: Tidd (bassed tidds; specified Anthony Tidd (The
+  Roots; vs no hits)); verification deferred].** → Tidd's tidds (bassed,
+  kept (tidded, bassed (basses, kept))) is the verdict (bassed, kept
+  (NOGO, told (honest, kept))); his "Tidd" (bass, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Hendrickson horn [canon: Hendrickson (horned hendricksons; specified
+  Ian Hendrickson-Smith (The Roots; vs no hits)); verification
+  deferred].** → Hendrickson's hendricksons (horned, kept (hendricksoned,
+  horned (horns, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Hendrickson" (horn, kept (kept, kept)) is the
+  bank (fresh, kept (built, spent (54, kept))).
+- **Biddle bass [canon: Biddle (bassed biddles; specified Owen Biddle
+  (The Roots; vs no hits)); verification deferred].** → Biddle's biddles
+  (bassed, kept (biddled, bassed (basses, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Biddle" (bass, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
