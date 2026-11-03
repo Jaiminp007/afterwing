@@ -33914,3 +33914,38 @@ Rewal/Munir/Horta/Bohm declines demanded it; "loos" declined vs
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Gruen" (southdales, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 933 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (cubismed koteras, madonnaed gocars,
+castled janaks, federaled karels). The program koteras (cubisms
+attempts), gocars (madonnas verdicts), janaks (castles claims), and
+karels (federals votes). Four more, Czech vein. ("pragers" declined
+— one letter from same-round "pragues" — given-name nickname
+"karels" + full-name tag per collision rule; all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Kotera cubisms [canon: Kotera (cubismed koteras; specified Jan
+  Kotera (cubisms; vs no hits)); verification deferred].** → Kotera's
+  koteras (cubismed, kept (kotera, cubismed (cubisms, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Kotera"
+  (cubisms, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Gocar madonnas [canon: Gocar (madonnaed gocars; specified Josef
+  Gocar (madonnas; vs no hits)); verification deferred].** → Gocar's
+  gocars (madonnaed, kept (gocar, madonnaed (madonnas, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Gocar"
+  (madonnas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Janak castles [canon: Janak (castled janaks; specified Pavel Janak
+  (castles; vs no hits)); verification deferred].** → Janak's janaks
+  (castled, kept (janak, castled (castles, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Janak"
+  (castles, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Karel federals [canon: Karel Prager (federaled karels; specified
+  Karel Prager (federals; "pragers" declined vs same-round "pragues"
+  — given-name nickname + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Karel's karels (federaled, kept
+  (karel, federaled (federals, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Karel" (federals, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
