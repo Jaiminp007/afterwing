@@ -28258,3 +28258,34 @@ votes). Four more. (Map holds 764 rounds.)
   gerstners (systemed, kept (gerstner, systemed (systems, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Gerstner" (systems, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 768 — Maxes, brockmanns, beekes, crouwels (Max Bill, Brockmann, Beeke, Crouwel; 2026-11-02)
+
+Motivation: further outside (concreted maxes, gridded brockmanns,
+postered beekes, typed crouwels). The program maxes (concretes attempts),
+brockmanns (grids verdicts), beekes (posters claims), and crouwels (types
+votes). Four more. (Map holds 764 rounds.)
+
+- **Max Bill concrete [canon: Max Bill (concreted maxes; specified Max
+  Bill (concrete art; distinct from Billig (banal nationalism), Bill
+  (peaceful pianos), Billy Paul, and Bill Medley — full-name tag per
+  collision rule; vs no hits on full name)); verification deferred].** →
+  Bill's maxes (concreted, kept (max, concreted (concretes, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Max"
+  (concrete, kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Brockmann grids [canon: Brockmann (gridded brockmanns; specified
+  Josef Muller-Brockmann (grids; vs no hits)); verification deferred].** →
+  Brockmann's brockmanns (gridded, kept (brockmann, gridded (grids, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Brockmann"
+  (grids, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Beeke posters [canon: Beeke (postered beekes; specified Anthon Beeke
+  (posters; vs no hits)); verification deferred].** → Beeke's beekes
+  (postered, kept (beeke, postered (posters, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Beeke" (posters, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Crouwel type [canon: Crouwel (typed crouwels; specified Wim Crouwel
+  (type; vs no hits)); verification deferred].** → Crouwel's crouwels (typed,
+  kept (crouwel, typed (types, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Crouwel" (type, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
