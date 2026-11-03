@@ -501,6 +501,9 @@ the map stays open, not empty.
 - R659 frozen-expertise file: learn-deployed;
   route-jointly; upcycle-frozen;
   graft-experts.
+- R661 momentum-worlds file: carry-momentum;
+  center-entities; guide-momentum;
+  carry-together.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
