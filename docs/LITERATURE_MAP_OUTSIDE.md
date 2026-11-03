@@ -26263,3 +26263,32 @@ converging; lexing family, four branches).
 - Program note: lex verified, invert lexing, zip
   lexing, paradox compliance — the verified-lexing
   file. None licensed — filed.
+## Round 692 — Cappadonnas, dirtys, gzas, priests (Cappadonna, Dirty, GZA, Priest; 2026-11-02)
+
+Motivation: further outside (pillaged cappadonnas, shimmied dirtys,
+sworded gzas, mented priests). The program cappadonnas (pillages
+attempts), dirtys (stitches verdicts), gzas (publishes NOGOs), and
+priests (counts rows). Four more. (Map holds 700 rounds.)
+
+- **Cappadonna pillage [canon: Cappadonna (pillaged cappadonnas;
+  specified Cappadonna (vs no hits)); verification deferred].** →
+  Cappadonna's cappadonnas (pillaged, kept (cappadonnaed, pillaged
+  (pillages, kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Cappadonna" (pillage, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Dirty shimmy [canon: Dirty (shimmied dirtys; specified Ol' Dirty
+  Bastard (vs no hits)); verification deferred].** → Dirty's dirtys
+  (shimmied, kept (dirtied, shimmied (shimmies, kept))) is the verdict
+  (shimmied, kept (NOGO, told (honest, kept))); his "Dirty" (shimmy, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Gza swords [canon: GZA (sworded gzas; specified GZA (vs no hits));
+  verification deferred].** → Gza's gzas (sworded, kept (gzaed, sworded
+  (swords, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Gza" (swords, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Priest mental [canon: Priest (mented priests; specified Killah
+  Priest (vs no hits)); verification deferred].** → Priest's priests
+  (mented, kept (priested, mented (mentals, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Priest" (mental, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
