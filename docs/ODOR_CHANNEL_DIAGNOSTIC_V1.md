@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 46 (2026-11-02, read-only: spent R10 anchors A-D, all 8)
+
+B-phase growth is universal — and Go-level doesn't imply transfer.
+Every history's Go rises A→B (even the big loser: −0.070→+0.001);
+then C freezes whatever B→C did. But 2672461838 carries the
+SECOND-highest Go (+0.483) into a −2.94 transfer loss, while
+3170855589 wins +2.77 on the lowest positive Go (+0.044).
+Monotonicity refuted by construction: high Go neither saves nor
+damns. This bounds R17 precisely: the weak rank-tracking lives
+ENTIRELY in the A-set levels (R39, rho 0.952) — phase dynamics
+add nothing, B grows for all, C locks all. Anyone citing R17's
+tracking as mechanism must answer 2672461838 first: same high Go
+as a winner, opposite fate. Texture, fenced on both sides now.
+
 ## Executed re-reading 45 (2026-11-02, read-only: spent R1 transfer + R10 acquire traces)
 
 Turn-costs are neutral in both worlds; the price is world physics,
