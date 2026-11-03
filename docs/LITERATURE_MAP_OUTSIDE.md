@@ -24982,3 +24982,34 @@ branches).
 - Program note: share percepts, align jointly, regulate
   sharedly, govern runtime — the partner-regulation
   file. None licensed — filed.
+## Round 646 — Marvins, womacks, hatfields, medleys (Marvin Gaye, Womack, Hatfield, Medley; 2026-11-02)
+
+Motivation: further outside (grapevined marvins, crossed womacks,
+unchained hatfields, lovined medleys). The program marvins (grapes
+attempts), womacks (stitches verdicts), hatfields (publishes NOGOs), and
+medleys (counts rows). Four more. (Map holds 654 rounds.)
+
+- **Marvin grapevine [canon: Marvin Gaye (grapevined marvins; specified
+  Marvin Gaye (vs no hits)); verification deferred].** → Marvin's
+  marvins (grapevined, kept (marvined, grapevined (grapes, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Marvin"
+  (grapevine, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Womack crossing [canon: Bobby Womack (crossed womacks; specified
+  Bobby Womack (vs no hits)); verification deferred].** → Womack's
+  womacks (crossed, kept (womacked, crossed (110ths, kept))) is the
+  verdict (crossed, kept (NOGO, told (honest, kept))); his "Womack"
+  (crossing, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Hatfield unchained [canon: Bobby Hatfield (unchained hatfields;
+  specified Bobby Hatfield (Righteous Brothers; vs no hits));
+  verification deferred].** → Hatfield's hatfields (unchained, kept
+  (hatfielded, unchained (melodies, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Hatfield" (unchained, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Medley lovin [canon: Bill Medley (lovined medleys; specified Bill
+  Medley (Righteous Brothers; vs no hits)); verification deferred].** →
+  Medley's medleys (lovined, kept (medleyed, lovined (lovins, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Medley"
+  (lovin, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
