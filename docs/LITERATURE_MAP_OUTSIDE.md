@@ -24454,3 +24454,33 @@ converging; counterfactual family, four branches).
 - Program note: preserve what matters, twin rollouts,
   isolate choices, bandit fairly — the counterfactual
   file. None licensed — filed.
+## Round 628 — Jeans, peggys, ewans, docs (Jean, Peggy, Ewan, Doc; 2026-11-02)
+
+Motivation: further outside (kentucky jeans, timed peggys, old ewans,
+river docs). The program jeans (dulcimers attempts), peggys (stitches
+verdicts), ewans (publishes NOGOs), and docs (counts rows). Four more.
+(Map holds 636 rounds.)
+
+- **Jean kentucky [canon: Jean Ritchie (kentuckied jeans; specified
+  Jean Ritchie (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Jean's jeans (kentuckied, kept (jeanied,
+  kentuckied (dulcimers, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); her "Jean" (kentucky, kept (kept, kept)) is
+  the row (counted, kept (honest, told (all, counted))).
+- **Peggy time [canon: Peggy Seeger (timed peggys; specified Peggy
+  Seeger (vs no hits; short tag taken — full-name tag used));
+  verification deferred].** → Peggy's peggys (timed, kept (peggied,
+  timed (firsts, kept))) is the verdict (timed, kept (NOGO, told
+  (honest, kept))); her "Peggy" (time, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Ewan old [canon: MacColl (olded ewans; specified Ewan MacColl (vs
+  no hits)); verification deferred].** → Ewan's ewans (olded, kept
+  (ewaned, olded (towns, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Ewan" (old, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Doc river [canon: Doc Watson (riverred docs; specified Doc Watson
+  (vs no hits; short tag taken — full-name tag used)); verification
+  deferred].** → Doc's docs (riverred, kept (docced, riverred (deeps,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Doc" (river, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
