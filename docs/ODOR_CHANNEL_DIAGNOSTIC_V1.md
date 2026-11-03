@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 43 (2026-11-02, read-only: spent R1/R8/R9/R10 anchors)
+
+The motor path is identical across all arms and both twins:
+0.007→0.013→0.014→0.014 everywhere (A values match to 1e-4).
+The motor is readout-BLIND — same trajectory whether the head
+is plain, centered, quantile, or split. This confirms R23 from
+the weight side: identical behavior (turn 0.28–0.33 both arms)
+means identical coverage experience means identical motor
+weights. The causal arrow runs behavior→weights here, not the
+reverse — and since behavior is arm-indifferent, so is everything
+it touches. The motor is not just weak and early-frozen; it is
+the same motor in every colony, a constant of the paradigm, not
+a variable of the experiment.
+
 ## Executed re-reading 42 (2026-11-02, read-only: spent R1 rows, survivors + intake)
 
 Frozen steering STRICTLY dominates learned: more survivors (5–9
