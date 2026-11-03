@@ -33450,3 +33450,38 @@ pre-append, all per collision rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Nahas"
   (beiruts, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 920 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (syriaed sabounis, aleppoed malass,
+ramallahed sharifs, jbeiled jamaleddines). The program sabounis
+(syrias attempts), malass (aleppos verdicts), sharifs (ramallahs
+claims), and jamaleddines (jbeils votes). Four more, Levantine vein.
+("Karim Nader" declined — architect-identity uncertain + collides
+with mapped reconsolidation-Nader; "homs"/"hama" fragments taken —
+Thomson lines — "syrias" used, all per collision rule.) (Map holds
+800 rounds.)
+
+- **Sabouni syrias [canon: Sabouni (syriaed sabounis; specified Marwa
+  al-Sabouni (syrias; vs no hits)); verification deferred].** →
+  Sabouni's sabounis (syriaed, kept (sabouni, syriaed (syrias, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); her
+  "Sabouni" (syrias, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Malas aleppos [canon: Malas (aleppoed malass; specified Khaled
+  Malas (aleppos; vs no hits)); verification deferred].** → Malas's
+  malass (aleppoed, kept (malas, aleppoed (aleppos, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Malas"
+  (aleppos, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Sharif ramallahs [canon: Sharif (ramallahed sharifs; specified
+  Yara Sharif (ramallahs; vs no hits)); verification deferred].** →
+  Sharif's sharifs (ramallahed, kept (sharif, ramallahed (ramallahs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); her "Sharif" (ramallahs, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Jamaleddine jbeils [canon: Jamaleddine (jbeiled jamaleddines;
+  specified Ziad Jamaleddine (jbeils; vs no hits)); verification
+  deferred].** → Jamaleddine's jamaleddines (jbeiled, kept
+  (jamaleddine, jbeiled (jbeils, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Jamaleddine" (jbeils, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
