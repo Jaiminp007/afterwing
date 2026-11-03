@@ -26576,3 +26576,30 @@ rnses (counts rows). Four more. (Map holds 710 rounds.)
   scratched (scratches, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Rns" (scratch, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 703 — Contracted, assured, unified, provenanced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: assurance contracts —
+prove the pipeline, not just the product (already-cited
+assurance leads converging; contract family, four
+branches).
+
+- **Omission contracts [arXiv:2610.39241 (Zhang; vs no
+  hits)].** Omission ERASES obligation (pinned workflow;
+  fixed inventory; separate implementation). → Contract
+  omissions (our frozen plans, contract-side). Filed.
+- **Trace assurance [arXiv:2603.18096 (Paduraru; vs no
+  hits)].** Failures BEYOND outputs (non-termination/
+  drift/claims; contracts+testing). → Assure traces
+  (our per-row archives, assure-side). Filed.
+- **Sure eval [arXiv:2609.39030 (Peng / SURE-EVAL; vs
+  no hits)].** Capability vs DEPLOYMENT conflated (same
+  checkpoint differs; controlled). → Eval surely (our
+  exact replays, eval-side). Filed.
+- **Prov agent [arXiv:2508.02866 (Souza / PROV-AGENT;
+  vs no hits)].** Errors PROPAGATE agent-to-agent
+  (transparent/traceable/reproducible). → Provenance
+  agents (our transfer map, provenance-side). Filed.
+- Program note: contract omissions, assure traces, eval
+  surely, provenance agents — the assurance-contracts
+  file. None licensed — filed.
