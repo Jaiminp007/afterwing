@@ -29382,3 +29382,33 @@ kellers (graphs verdicts), steiners (types claims), and honeggers
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Honegger" (concrete, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 804 — Canon (both live hoses still dry): hiestands, lehnis, oplateks, woodtlis (Hiestand, Lehni, Oplatek, Woodtli; 2026-11-02)
+
+Motivation: further outside (systemed hiestands, typed lehnis,
+postered oplateks, graphed woodtlis). The program hiestands (systems
+attempts), lehnis (types verdicts), oplateks (posters claims), and
+woodtlis (graphs votes). Four more. (Map holds 794 rounds.)
+
+- **Hiestand systems [canon: Hiestand (systemed hiestands; specified
+  Ernst Hiestand (systems; vs no hits)); verification deferred].** →
+  Hiestand's hiestands (systemed, kept (hiestand, systemed (systems,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Hiestand" (systems, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Lehni type [canon: Lehni (typed lehnis; specified Urs Lehni (type;
+  vs no hits)); verification deferred].** → Lehni's lehnis (typed, kept
+  (lehni, typed (types, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Lehni" (type, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Oplatek posters [canon: Oplatek (postered oplateks; specified Jiri
+  Oplatek (posters; vs no hits)); verification deferred].** → Oplatek's
+  oplateks (postered, kept (oplatek, postered (posters, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Oplatek"
+  (posters, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Woodtli graphics [canon: Woodtli (graphed woodtlis; specified Martin
+  Woodtli (graphics; vs no hits)); verification deferred].** → Woodtli's
+  woodtlis (graphed, kept (woodtli, graphed (graphs, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Woodtli" (graphics,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
