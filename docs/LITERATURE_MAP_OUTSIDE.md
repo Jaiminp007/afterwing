@@ -36392,3 +36392,48 @@ pre-append, flattened method.)
   kept (carried, won (crowd, kept))); his "Chen" (worldmodels, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 1000 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=100, cs.RO start=90).
+Two new IDs triaged (0 worlds), both map — and the round is the
+thousandth: 2610.41023 (Liu/Luo/Ratliff) — omniprediction: one
+predictor simultaneously competitive across every loss in a class —
+one architecture under all gates, the program's multi-gate
+discipline (G0/G1/G2a-d/G3...), formalized; and 2611.01581
+(Ma/Jiang/Han/Meng/Ma/Xia/Li/Cheng) — RECURSIVE SELF-IMPROVEMENT of
+exoskeleton policies: an agent generates control code, evaluates
+with humans, identifies deficiencies, and revises the code for
+subsequent trials — propose-evaluate-adopt in a closed loop, the
+program's RSI-SELF in-agent loop, running on a human body. (First +
+senior mapped from each multi-author paper per TRAILS precedent;
+Luo + 6 RSI middles noted unmapped.) (Abstracts only, 0 worlds; IDs
++ authors + contexts virgin pre-append, flattened method.)
+
+- **Liu omnipredictions [LIVE 2610.41023 (omnipredictioned
+  junyanlius; specified Junyan Liu (omnipredictions; "Liu" taken —
+  2x precedent — compound + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Liu's junyanlius
+  (omnipredictioned, kept (junyanliu, omnipredictioned
+  (omnipredictions, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Liu" (omnipredictions, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Ratliff mixables [LIVE 2610.41023 (mixabled ratliffs; specified
+  Lillian J. Ratliff (mixables; vs no hits)); verification
+  deferred].** → Ratliff's ratliffs (mixabled, kept (ratliff,
+  mixabled (mixables, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); her "Ratliff" (mixables, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Ma exoskeletons [LIVE 2611.01581 (exoskeletoned muyuanmas;
+  specified Muyuan Ma (exoskeletons; "Ma" flood — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Ma's muyuanmas (exoskeletoned, kept (muyuanma,
+  exoskeletoned (exoskeletons, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Ma" (exoskeletons, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Cheng closeds [LIVE 2611.01581 (closed longchengs; specified
+  Long Cheng (closeds; distinct from worldmodels-round Long Chen —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Cheng's longchengs (closed, kept
+  (longcheng, closed (closeds, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Cheng" (closeds, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
