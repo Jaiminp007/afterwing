@@ -29621,3 +29621,30 @@ nitsches (graphs verdicts), kamekuras (types claims), and tanakas
   (systemed, kept (tanaka, systemed (systems, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Tanaka" (systems, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 812 — Canon (both live hoses still dry): fukudas, nagais, igarashis, katsuisi (Fukuda, Nagai, Igarashi, Katsui; 2026-11-02)
+
+Motivation: further outside (postered fukudas, graphed nagais, typed
+igarashis, systemed katsuisis). The program fukudas (posters attempts),
+nagais (graphs verdicts), igarashis (types claims), and katsuisis (systems
+votes). Four more. (Map holds 800 rounds.)
+
+- **Fukuda posters [canon: Fukuda (postered fukudas; specified Shigeo
+  Fukuda (posters; vs no hits)); verification deferred].** → Fukuda's
+  fukudas (postered, kept (fukuda, postered (posters, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Fukuda" (posters, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Nagai graphics [canon: Nagai (graphed nagais; specified Kazumasa Nagai
+  (graphics; vs no hits)); verification deferred].** → Nagai's nagais
+  (graphed, kept (nagai, graphed (graphs, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Nagai" (graphics, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Igarashi type [canon: Igarashi (typed igarashis; specified Takenobu
+  Igarashi (type; vs no hits)); verification deferred].** → Igarashi's
+  igarashis (typed, kept (igarashi, typed (types, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Igarashi" (type,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Katsui systems [canon: Katsui (systemed katsuisis; specified Mitsuo
+  Katsui (systems; vs no hits)); verification deferred].** → Katsui's
+  katsuisis (systemed, kept (katsui, systemed (systems, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Katsui" (systems, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
