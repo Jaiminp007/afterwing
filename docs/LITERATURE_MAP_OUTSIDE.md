@@ -28936,3 +28936,38 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   gate demands specificity)? Punishing adaptiveness is a gate
   bug, not a learner bug. Interpretation banked, verdicts
   untouched.
+## Round 791 — LIVE via OpenAlex: returners, taggers, sparsifiers, memorizers (Liu return-contrast 2021, Tayler ensemble thesis, Bricken SDM 2023, Zhang generalization 2017; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Return-aware decoupling [Liu et al. 2021, return-based
+  contrastive representations; vs no hits].** → Representations
+  discriminating state-action pairs by RETURN DISTRIBUTION
+  (aggregating similar-return pairs = a new abstraction); beats
+  baselines low-data, stacks with other auxiliaries. Fuses three
+  threads: decoupling (Stooke) + distributional (Dabney/Lowet) +
+  the 97%-landscape — the specific channel learns return-
+  distribution structure, the policy learns on top. Strongest
+  encoder specification yet: abstract the returns, then act.
+- **Tag-and-test [Tayler thesis, ensemble reactivation during
+  retrieval (H2B-GFP permanent tagging); vs no hits].** → Same
+  first author as the NMDAR-free paper: the lab's two results
+  combine — general-channel learning forms without NMDAR and
+  retrieves by ensemble reactivation. The diagnostic's probe is
+  now a protocol with precedent (tag active-at-training, test
+  reactivation-at-transfer), not an idea.
+- **Sparse address [Bricken et al. 2023, SDM as continual learner;
+  vs no hits].** → Biology-translated MLP, every component
+  necessary, no replay, no task info — strong continual learner.
+  Fourth locality voice (sparse-distributed addressing): the
+  no-replay clause matters — the program replays nothing either,
+  and SDM says that's fine if addressing is sparse. Banked.
+- **Memorization red herring [Zhang et al. 2017, rethinking
+  generalization; vs no hits].** → DNNs fit random labels and
+  noise, yet generalize; regularization doesn't explain it.
+  Mathematical cousin of the adaptiveness-null: memorization and
+  generalization coexist, so a transfer gate demanding
+  non-memorization tests the wrong property. Redirect: test the
+  encoder's abstraction (return-distributions), not the policy's
+  specificity.
