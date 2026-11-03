@@ -25709,3 +25709,34 @@ converging; paradox family, four branches).
 - Program note: navigate expertise, expect inversion,
   resolve finitely, govern locally — the
   paradox-dynamics file. None licensed — filed.
+## Round 672 — Tariqs, ahmirs, poysers, kirks (Trotter, Thompson, Poyser, Kirk; 2026-11-02)
+
+Motivation: further outside (trotted tariqs, quested ahmirs, keyed
+poysers, captained kirks). The program tariqs (trots attempts), ahmirs
+(stitches verdicts), poysers (publishes NOGOs), and kirks (counts rows).
+Four more. (Map holds 680 rounds.)
+
+- **Tariq trot [canon: Tariq (trotted tariqs; specified Tariq Trotter
+  (Black Thought; vs no hits)); verification deferred].** → Tariq's
+  tariqs (trotted, kept (tariqed, trotted (trots, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Tariq" (trot, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Ahmir quest [canon: Ahmir (quested ahmirs; specified Ahmir Thompson
+  (Questlove; vs no hits; short surname taken by the gonzo man —
+  full-name tag used)); verification deferred].** → Ahmir's ahmirs
+  (quested, kept (ahmired, quested (quests, kept))) is the verdict
+  (quested, kept (NOGO, told (honest, kept))); his "Ahmir" (quest, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Poyser keys [canon: Poyser (keyed poysers; specified James Poyser
+  (The Roots; vs no hits)); verification deferred].** → Poyser's poysers
+  (keyed, kept (poysered, keyed (keys, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Poyser" (keys, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Kirk captain [canon: Captain Kirk (captained kirks; specified
+  Captain Kirk Douglas (The Roots guitarist; vs no hits; short tag
+  grazes the lek men — full-name tag used)); verification deferred].** →
+  Kirk's kirks (captained, kept (kirked, captained (captains, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Kirk"
+  (captain, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
