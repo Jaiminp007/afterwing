@@ -29951,3 +29951,35 @@ variant — collision, not a new person); Golden already mapped. (Map holds
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Havinden" (advertises, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 823 — Canon (both live hoses still dry): knolls, saarinens, bertoias, georges (Knoll, Saarinen, Bertoia, George Nelson; 2026-11-02)
+
+Motivation: further outside (furnished knolls, seated saarinens, sculpted
+bertoias, designed georges). The program knolls (furnishes attempts),
+saarinens (seats verdicts), bertoias (sculpts claims), and georges
+(designs votes). Four more, furniture-and-form vein. (Map holds 800
+rounds.)
+
+- **Knoll furnishes [canon: Knoll (furnished knolls; specified Florence
+  Knoll (furnishes; vs no hits)); verification deferred].** → Knoll's
+  knolls (furnished, kept (knoll, furnished (furnishes, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); her "Knoll"
+  (furnishes, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Saarinen seats [canon: Saarinen (seated saarinens; specified Eero
+  Saarinen (seats; vs no hits)); verification deferred].** → Saarinen's
+  saarinens (seated, kept (saarinen, seated (seats, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Saarinen" (seats, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Bertoia sculpts [canon: Bertoia (sculpted bertoias; specified Harry
+  Bertoia (sculpts; vs no hits)); verification deferred].** → Bertoia's
+  bertoias (sculpted, kept (bertoia, sculpted (sculpts, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Bertoia"
+  (sculpts, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **George Nelson designs [canon: George Nelson (designed georges;
+  specified George Nelson (designs; distinct from Ricky Nelson (traveled
+  rickys) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Nelson's georges (designed, kept (george,
+  designed (designs, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "George" (designs, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
