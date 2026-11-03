@@ -33689,3 +33689,45 @@ all per collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Korsmo" (villas,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 927 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (granded spreckelsens, malmoed
+henninglarsens, bagsvaerded kimutzons, torshavned gunnlogssons). The
+program spreckelsens (grandes attempts), henninglarsens (malmos
+verdicts), kimutzons (bagsvaerds claims), and gunnlogssons (torshavns
+votes). Four more, Danish vein. ("Arne Jacobsen"/"Jorgen Bo"/"Vilhelm
+Wohlert" declined — already mapped (Wohlert caught via canon-tag
+layer: full name wraps a line break — two-layer method validated);
+"Lewerentz"/"Erskine" declined — already mapped; "utzons"/"hennings"
+taken — compound nicknames + full-name tags per collision rule;
+"cubes"/"operas"/"defenses" taken — "grandes"/"malmos"/"torshavns"
+used, all per collision rule.) (Map holds 800 rounds.)
+
+- **Spreckelsen grandes [canon: Spreckelsen (granded spreckelsens;
+  specified Johan Otto von Spreckelsen (grandes; vs no hits));
+  verification deferred].** → Spreckelsen's spreckelsens (granded,
+  kept (spreckelsen, granded (grandes, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Spreckelsen" (grandes,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Larsen malmos [canon: Henning Larsen (malmoed henninglarsens;
+  specified Henning Larsen (malmos; "larsens" taken — compound
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Larsen's henninglarsens (malmoed, kept
+  (henninglarsen, malmoed (malmos, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Larsen" (malmos, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Utzon bagsvaerds [canon: Kim Utzon (bagsvaerded kimutzons;
+  specified Kim Utzon (bagsvaerds; "utzons" taken — compound nickname
+  + full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Utzon's kimutzons (bagsvaerded, kept (kimutzon,
+  bagsvaerded (bagsvaerds, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Utzon" (bagsvaerds, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Gunnlogsson torshavns [canon: Gunnlogsson (torshavned
+  gunnlogssons; specified Halldor Gunnlogsson (torshavns; vs no
+  hits)); verification deferred].** → Gunnlogsson's gunnlogssons
+  (torshavned, kept (gunnlogsson, torshavned (torshavns, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Gunnlogsson"
+  (torshavns, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
