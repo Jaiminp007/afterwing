@@ -444,6 +444,19 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 37 (2026-11-02, read-only: spent R8/R9 anchors C/D)
+
+The C-freeze is paradigm-general, 4/4 arms. R8 centered weights
+and R9 quantile weights (plus plain means): EXACTLY frozen C→D
+on both twins — same as split (R31) and plain (R36). Every
+readout family the program ever built converges by the same
+checkpoint; the rehearsal schedule, not any head, sets the
+freeze. R36's architectural claim upgrades from two arms to
+all four ever tried. No readout, past or shelf, can buy a
+later convergence by being different — difference lives only
+in what each converges TO (flood, centered flat, quantile
+spread, Go-positive), never in when it stops moving.
+
 ## Executed re-reading 36 (2026-11-02, read-only: spent R1 plain anchors A-D)
 
 The C-freeze is architectural, not split-specific. Plain-arm
