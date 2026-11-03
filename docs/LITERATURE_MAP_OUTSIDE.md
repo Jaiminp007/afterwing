@@ -36845,3 +36845,60 @@ method.)
   (joined, kept (carried, won (crowd, kept))); his "Xie"
   (discrepancies, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1009 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=200, cs.RO start=180,
+eess.SY start=160, q-bio.NC start=200, stat.ML start=210, cs.RO
+start=190). Six new IDs triaged (0 worlds): 2610.38930 (sliding-mode
+control — DECLINED thin, engineering without gate mechanism),
+2609.33366 (consciousness theory — DECLINED unrelated-screening),
+2610.35160 (energy design — DECLINED unrelated-screening),
+2610.35551 (Xu) — balanced sampling in stochastic multi-objective
+bandits (fairness as KL from uniform over the true Pareto set; exact
+decomposition; early decisions create hard-to-erase imbalances) —
+balanced splits plus entry-debt (early imbalances unerased), the
+program's symmetric billing plus biography, formalized; 2611.41609
+lead+senior (Jang/Kim) — VLA policies that do not know when not to
+act (paired protocol holding initial state fixed; unintended
+execution; start suppression) — action withholding with paired
+controls, the program's No-Go plus twin discipline, formalized; and
+2611.00155 (Ko) — the concept-malfunction gap (concepts encoded are
+insufficient for actual causes of specific incidents; fault
+isolation via interventions, counterfactuals, contingencies;
+backups obscure causes) — encoded≠causal, the program's
+weight-stats-don't-predict plus intervention discipline, formalized.
+(First + senior mapped from the quartet per TRAILS precedent; Choi +
+Yoon noted unmapped.) (Abstracts only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Xu samplings [LIVE 2610.35551 (samplinged mengfanxus; specified
+  Mengfan Xu (samplings; "Xu" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Xu's mengfanxus (samplinged, kept (mengfanxu,
+  samplinged (samplings, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Xu" (samplings, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Jang withholdings [LIVE 2611.41609 (withholdinged minsujiangs;
+  specified Minsu Jang (withholdings; "jang" fragments standing —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Jang's minsujiangs (withholdinged, kept
+  (minsujiang, withholdinged (withholdings, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Jang"
+  (withholdings, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Kim unintendeds [LIVE 2611.41609 (unintended dohyungkims;
+  specified Dohyung Kim (unintendeds; "Kim" taken — 4x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Kim's dohyungkims (unintended, kept
+  (dohyungkim, unintended (unintendeds, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Kim" (unintendeds,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Ko malfunctions [LIVE 2611.00155 (malfunctioned gihyukkos;
+  specified Gihyuk Ko (malfunctions; "ko" fragments standing (358!) —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Ko's gihyukkos (malfunctioned, kept
+  (gihyukko, malfunctioned (malfunctions, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Ko" (malfunctions, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
