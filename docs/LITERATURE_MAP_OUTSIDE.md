@@ -29252,3 +29252,44 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   Fixed soma stabilizes to ENABLE dendritic selection: stability
   is computation's condition, not its enemy. Two natures, one
   circuit, both jobs at once.
+## Round 800 — LIVE via OpenAlex (800th numbered round; 794 map rounds): pairings, phases, integrations, stabilizations (Moncada behavioral-tagging 2015, Kleim late-phase 2004, Rakela transplant-integration 2024, Sanzeni ISN-widespread 2020; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. Three virgin pre-append (0 hits); Moncada 2015 noted
+against the Frey&Morris/Redondo canon entry (same topic, different
+paper — the canon mapped the hypothesis origin; this maps the
+TRANSLATION paper and its actionable protocol).
+
+- **Weak-strong pairing [Moncada et al. 2015, behavioral tagging
+  (translation of STC); topic kin of canon Frey&Morris/Redondo
+  entry, different paper; vs 0 paper-hits].** → The actionable
+  half the canon entry lacked: WEAK events persist by capturing
+  plasticity-proteins from STRONG events nearby in time (tag +
+  synthesis + capture at tagged sites). Protocol, not hypothesis:
+  transfer probes need a strong event near the weak training for
+  capture — persistence is scheduled, not hoped. The diagnostic's
+  reactivation probe gains the pairing rule (was a strong event
+  near the tag? if not, no capture expected, verdict or not).
+- **Late phase builds [Kleim et al. 2004, synaptogenesis + map
+  reorganization in LATE (not early) motor learning; vs no
+  hits].** → Fast-early refines existing; slow-late BUILDS
+  (synapses + maps). The 1792-tick phases may never reach the
+  late phase where structure changes: transfer tested on an
+  early-phase substrate, judged as if late. Timing proviso for
+  every transfer verdict — structure needs the slow phase, and
+  the program's ticks are all fast.
+- **Transplants integrate [Rakela et al. 2024, transplanted
+  interneurons integrate over a new adult plasticity period; vs
+  no hits].** → Transplanted PV/SST must be ACTIVE to induce
+  plasticity; host circuit changes manifest through integration
+  (33–35 day expression window). Added brakes aren't instant:
+  integration takes its own period, activity-gated. Any mixture
+  with transplanted/new components freezes an integration window,
+  never assumes instant coupling.
+- **ISN by default [Sanzeni et al. 2020, inhibition stabilization
+  widespread (paradoxical suppression confirmed, visual +
+  somatosensory + motor, no stimulus needed); vs no hits].** →
+  The ISN framing is the DEFAULT regime (even anesthetized),
+  simple two-population models fit, coupling quantified. Design
+  for ISN by default: paradoxical effects expected, PV-expression
+  details matter. The brake's home regime, confirmed widespread.
