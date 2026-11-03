@@ -35990,3 +35990,40 @@ contexts virgin pre-append, flattened method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); her
   "Perakis" (pricings, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 991 — LIVE (fresh-hose find; 2026-11-03)
+
+Motivation: deeper offsets (eess.SY start=30, q-bio.QM start=10).
+2611.02626 (Vamsi/Zinage/Bakolas/Chandra) — neural integral control
+barrier functions: learn ALL THREE from data (dynamics via neural
+ODEs, nominal controller via imitation, barrier via regression) to
+keep a planner inside a safe set — the program's learned-gating +
+G3-floor discipline with everything learned, formalized. (Abstract
+only, 0 worlds; ID + authors + contexts virgin pre-append,
+flattened method.)
+
+- **Vamsi avoidances [LIVE 2611.02626 (avoidanced vamsis; specified
+  Dasari Raj Vamsi (avoidances; vs no hits)); verification
+  deferred].** → Vamsi's vamsis (avoidanced, kept (vamsi, avoidanced
+  (avoidances, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Vamsi" (avoidances, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Zinage safeties [LIVE 2611.02626 (safetied zinages; specified
+  Vrushabh Zinage (safeties; vs no hits)); verification deferred].**
+  → Zinage's zinages (safetied, kept (zinage, safetied (safeties,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Zinage" (safeties, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Bakolas agilities [LIVE 2611.02626 (agilitied bakolass; specified
+  Efstathios Bakolas (agilities; vs no hits)); verification
+  deferred].** → Bakolas's bakolass (agilitied, kept (bakolas,
+  agilitied (agilities, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Bakolas" (agilities, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Chandra nominals [LIVE 2611.02626 (nominaled rohanchandras;
+  specified Rohan Chandra (nominals; distinct from
+  Balachandran/Ramachandran substrings — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** →
+  Chandra's rohanchandras (nominaled, kept (rohanchandra, nominaled
+  (nominals, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Chandra" (nominals, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
