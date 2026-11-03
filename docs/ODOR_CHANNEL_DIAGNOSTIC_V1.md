@@ -199,6 +199,20 @@ doesn't reach — Bogacz/A5).
 A survival line fixes re-acquisition speed (or stops the maps
 going stale), never the food supply.
 
+## Executed re-reading 12 (2026-11-02, read-only: spent R10 D-anchors)
+
+The flood has an ADDRESS. Go/No-Go weight means per history: Go
+7/8 positive (−0.022 to +0.596), No-Go 8/8 NEGATIVE (−0.231 to
+−1.099). The old uniform-pessimism (single matrix −0.40 to −1.29,
+R11) did not disappear — it was SORTED: positives live in Go,
+the flood lives in No-Go, uniformly, on every history.
+Architectural separation HOLDS (each matrix learned what it was
+shown and nothing else). What remains is purely readout price:
+the difference carries the lesson but taxes acquisition (R10 5/8,
+one short). Any next rationale starts here — the negativity is
+confined, named, and measured per history, not a fog over the
+whole palate.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
