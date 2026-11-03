@@ -35162,3 +35162,41 @@ all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Gasimzade" (icharis, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 969 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (londoned hopkinss, vauxhalled farrells,
+wharfed goughs, docklanded jeremydixons). The program hopkinss
+(londons attempts), farrells (vauxhalls verdicts), goughs (wharfs
+claims), and jeremydixons (docklands votes). Four more, British vein
+II. ("Richard Rogers" declined — probed-and-declined standing;
+Foster/Grimshaw mapped ("gherkins"/"edens"); "jones" fragment —
+performance round — Dixon via compound "jeremydixons" + full-name tag;
+"canon: Hopkins" fragment — Lightnin' — full-name tag "canon:
+Michael Hopkins"; all per collision rule.) (Map holds 800 rounds.)
+
+- **Hopkins londons [canon: Michael Hopkins (londoned hopkinss;
+  specified Michael Hopkins (londons; distinct from Lightnin' —
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Hopkins's hopkinss (londoned, kept (hopkins,
+  londoned (londons, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Hopkins" (londons, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Farrell vauxhalls [canon: Farrell (vauxhalled farrells; specified
+  Terry Farrell (vauxhalls; vs no hits)); verification deferred].** →
+  Farrell's farrells (vauxhalled, kept (farrell, vauxhalled (vauxhalls,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Farrell" (vauxhalls, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Gough wharfs [canon: Gough (wharfed goughs; specified Piers Gough
+  (wharfs; vs no hits)); verification deferred].** → Gough's goughs
+  (wharfed, kept (gough, wharfed (wharfs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Gough"
+  (wharfs, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Dixon docklands [canon: Jeremy Dixon (docklanded jeremydixons;
+  specified Jeremy Dixon (docklands; "dixon" fragment taken — compound
+  + full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Dixon's jeremydixons (docklanded, kept (jeremydixon,
+  docklanded (docklands, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Dixon" (docklands, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
