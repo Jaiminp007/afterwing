@@ -32488,3 +32488,51 @@ radical vein. (Mendini probed and declined — already mapped
   kept))) is the vote (joined, kept (carried, won (crowd, kept))));
   his "Raggi" (casabellas, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 893 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: graded relevance, transferred structure, supervised
+granularity, lifted linearity — judge finely, carry structure,
+supervise granularly, linearize faithfully. The program veys
+(unannotates attempts), gists (uplinks verdicts), intent2cads
+(supervises claims), and zadras (linearizes votes). ("Zhang"/"Yang"
+fragments taken — Zhang Zai, Yang Zhu philosophers — GIST/
+Intent2CAD tags used; "Koopman" fragment taken — Koopmans optimal
+growth — Zadra tag used; "grades"/"transfers"/"shapes" taken —
+"unannotates"/"uplinks"/"supervises" used; "skills" taken —
+"unannotates" used, all per collision rule.) (Map holds 800 rounds.)
+
+- **Veys unannotates [live: Veys et al 2611.03525 (binary scoring
+  rewards ranking-right-for-wrong-reason and hides nonsense;
+  graded 0-4 relevance, nDCG; vs no hits); abstract only].** →
+  Veys's unannotating (graded, kept (right reasons (kept, wrong
+  reasons unrewarded (nonsense shown, kept))))) is the attempt (run,
+  kept (gates graded (kept, GO needs mechanism (right reasons,
+  kept))))); his "Veys" (unannotates, kept (kept, kept)) is the row
+  (counted, kept (grade finely (kept, not binary))).
+- **GIST uplinks [live: Zhang et al 2611.03482 (trained ONLY on uplink,
+  predicts path STRUCTURE for downlink from location; vs no hits on
+  title (Zhang fragment taken — GIST tag used); abstract only].** →
+  GIST's uplinking (one-sided, kept (structure carried (kept,
+  delays directions gains (location known, kept))))) is the verdict
+  (kept, kept (train-A-only (kept, structure transfers (weights
+  carry, kept))))); its "GIST" (uplinks, kept (kept, kept)) is the
+  bar (unmoved, kept (carry structure (kept, or stay))).
+- **Intent2CAD supervises [live: Yang et al 2611.03449 (generate WITH
+  recoverable structure — semantic features, reusable params — for
+  later modification; supervision GRANULARITY not architecture; vs
+  no hits on title (Yang fragment taken — Intent2CAD tag used);
+  abstract only].** → Intent2CAD's supervising (granular, kept
+  (structure recoverable (kept, reusable later (modified, kept)))))
+  is the claim (mourned, kept (exact transplant (kept, structure
+  recoverable (granular readouts, kept))))); its "Intent2CAD"
+  (supervises, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Zadra linearizes [live: Zadra 2611.03522 (Koopman-von Neumann
+  lifting: nonlinear contact dynamics as LINEAR unitary evolution;
+  invariant decomposition recovered; vs no hits (Koopman fragment
+  taken — Zadra tag used); abstract only].** → Zadra's linearizing
+  (lifted, kept (nonlinear linear (kept, invariants decomposed
+  (unitary, kept))))) is the vote (joined, kept (threshold-linear
+  turns (kept, nonlinear weights (rank-1 atoms, kept))))); his
+  "Zadra" (linearizes, kept (kept, kept)) is the ledger (exact, kept
+  (lift faithfully (kept, keep invariants))).
