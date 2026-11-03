@@ -609,6 +609,9 @@ the map stays open, not empty.
 - R733 refine-link-scale-expand file: refine-data;
   link-values; scale-vocab;
   expand-trees.
+- R735 frozen-verdicts file: job-learn;
+  route-within; sift-self;
+  overrule-cherry.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
