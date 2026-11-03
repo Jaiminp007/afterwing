@@ -410,6 +410,20 @@ per-capita. Two cheap stories dead at once (culling and
 dilution); the intensive one stands: the readout's price is
 paid inside every survivor's ledger, not in the headcount.
 
+## Executed re-reading 28 (2026-11-02, read-only: spent R10 + R1 rows)
+
+The transfer effect is mode-robust — not a comparator artifact.
+Split-vs-plain wins by probe mode: current 5/8, native 5/8,
+guarded 6/8, reset 6/8, native-full 6/8; signs stable (losers
+stay losers on 6-7/8 across modes; magnitudes shift ±2). This
+is NOT a rescore — the frozen verdict stands on transfer-current
+by plan, and nothing here revises it. It is a robustness
+characterization: the phenomenon (split carries better than
+plain into the odor-free world) survives every readout mode
+the instrument offers. A mode-fragile effect would have been
+a verdict-qualification; a mode-robust one is a phenomenon
+worth the shelf it sits on.
+
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
 The colony is one solution in twenty-four bodies — and survival
