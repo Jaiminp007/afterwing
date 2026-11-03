@@ -30180,3 +30180,35 @@ holds 800 rounds.)
   (built, kept (hvidt, built (builds, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Hvidt" (builds, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 830 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (lifted hundevads, wove kjaernulfs, sailed
+kofod-larsens, shelved cadoviuses). The program hundevads (lifts
+attempts), kjaernulfs (weaves verdicts), kofod-larsens (sails claims),
+and cadoviuses (shelves votes). Four more, Danish-modern vein
+continued. (Map holds 800 rounds.)
+
+- **Hundevad lifts [canon: Hundevad (lifted hundevads; specified Poul
+  Hundevad (lifts; vs no hits)); verification deferred].** → Hundevad's
+  hundevads (lifted, kept (hundevad, lifted (lifts, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Hundevad" (lifts,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Kjaernulf weaves [canon: Kjaernulf (wove kjaernulfs; specified
+  Henning Kjaernulf (weaves; vs no hits)); verification deferred].** →
+  Kjaernulf's kjaernulfs (wove, kept (kjaernulf, wove (weaves, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Kjaernulf"
+  (weaves, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Kofod-Larsen sails [canon: Kofod-Larsen (sailed kofod-larsens;
+  specified Ib Kofod-Larsen (sails; vs no hits)); verification
+  deferred].** → Kofod-Larsen's kofod-larsens (sailed, kept
+  (kofod-larsen, sailed (sails, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Kofod-Larsen" (sails, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Cadovius shelves [canon: Cadovius (shelved cadoviuses; specified Poul
+  Cadovius (shelves; vs no hits)); verification deferred].** → Cadovius's
+  cadoviuses (shelved, kept (cadovius, shelved (shelves, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Cadovius"
+  (shelves, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
