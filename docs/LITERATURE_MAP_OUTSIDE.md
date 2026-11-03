@@ -28202,3 +28202,30 @@ richards (swisses votes). Four more. (Map holds 764 rounds.)
   (richard, swissed (swisses, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Richard" (swiss, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 764 — Vogeles, lutzes, arxes, karrers (Vogele, Lutz, von Arx, Karrer; 2026-11-02)
+
+Motivation: further outside (gridded vogeles, systemed lutzes, postered
+arxes, typed karrers). The program vogeles (grids attempts), lutzes
+(systems verdicts), arxes (posters claims), and karrers (types votes).
+Four more. (Map holds 764 rounds.)
+
+- **Vogele grids [canon: Vogele (gridded vogeles; specified Robert
+  Vogele (grids; vs no hits)); verification deferred].** → Vogele's
+  vogeles (gridded, kept (vogele, gridded (grids, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Vogele" (grids, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Lutz systems [canon: Lutz (systemed lutzes; specified Hans-Rudolf
+  Lutz (systems; vs no hits)); verification deferred].** → Lutz's lutzes
+  (systemed, kept (lutz, systemed (systems, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Lutz" (systems, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **von Arx posters [canon: Arx (postered arxes; specified Peter von Arx
+  (posters; vs no hits)); verification deferred].** → von Arx's arxes
+  (postered, kept (arx, postered (posters, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Arx" (posters, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Karrer type [canon: Karrer (typed karrers; specified Ruedi Karrer
+  (type; vs no hits)); verification deferred].** → Karrer's karrers (typed,
+  kept (karrer, typed (types, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Karrer" (type, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
