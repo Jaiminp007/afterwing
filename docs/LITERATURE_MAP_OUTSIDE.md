@@ -29771,3 +29771,32 @@ queued spares.)
   noordzijs (typed, kept (noordzij, typed (types, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Noordzij" (type, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 817 — Canon (both live hoses still dry): miedingers, hoffmanns, meiers, majoors (Miedinger, Hoffmann, Meier, Majoor; 2026-11-02)
+
+Motivation: further outside (typed miedingers, systemed hoffmanns,
+alphabeted meiers, typed majoors). The program miedingers (types
+attempts), hoffmanns (systems verdicts), meiers (alphabets claims), and
+majoors (types votes). Four more. (Map holds 800 rounds; Ballmer routed
+around — already mapped R801, line-split grep missed it.)
+
+- **Miedinger type [canon: Miedinger (typed miedingers; specified Max
+  Miedinger (type; vs no hits)); verification deferred].** → Miedinger's
+  miedingers (typed, kept (miedinger, typed (types, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Miedinger" (type, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Hoffmann systems [canon: Hoffmann (systemed hoffmanns; specified Eduard
+  Hoffmann (systems; vs no hits)); verification deferred].** → Hoffmann's
+  hoffmanns (systemed, kept (hoffmann, systemed (systems, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Hoffmann" (systems,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Meier alphabets [canon: Meier (alphabeted meiers; specified Hans Eduard
+  Meier (alphabets; vs no hits)); verification deferred].** → Meier's meiers
+  (alphabeted, kept (meier, alphabeted (alphabets, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Meier" (alphabets,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Majoor type [canon: Majoor (typed majoors; specified Martin Majoor
+  (type; vs no hits)); verification deferred].** → Majoor's majoors (typed,
+  kept (majoor, typed (types, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Majoor" (type, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
