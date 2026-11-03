@@ -11,7 +11,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {TasteExperiment} from '../learning/taste-experiment.mjs';
 import {makeCueCodebook} from '../learning/cue-foraging.mjs';
-import {tasteEnergyFeatures,compactTasteEnergyBody,restoreTasteEnergyBody} from '../learning/taste-energy.mjs';
+import {tasteEnergyFeatures} from '../learning/taste-energy.mjs';
 import {CONTINUAL_PHASES} from '../learning/continual-regimes.mjs';
 import {collectTurnChoice} from './turn-gated-dev.mjs';
 import {bodyTransferExclusions,BT_LEARNER_OPTIONS,BT_PRICING,BT_TICKS,BT_FOUNDERS,
@@ -121,12 +121,17 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     }
     return best;
   }
-  function probeTurnBit(triggerSnap,sample,vec){
-    // Fresh restore per probe (unbilled harness, like snapshot/copy), real
-    // tasteEnergyFeatures path for motor phi, actor head mirrors
-    // taste-energy.mjs choose-line exactly at live per-op rate.
+  function probeTurnBit(snapW,probeCtx,sample,vec){
+    // Minimal probe state: config + trigger-time weights + balance + fresh
+    // work counter. No compact/restore: the feedforward path
+    // (tasteEnergyFeatures + actor head) never reads cycle bookkeeping
+    // (ticks/credit/awaiting/hold/motorPending), so cycle-transient live
+    // state cannot contaminate or invalidate the probe. Billed honestly
+    // (features via the real path + mirrored head at live per-op rate).
     // Deterministic. Excludes motorPending/hold timing by construction.
-    const cs=restoreTasteEnergyBody(triggerSnap);
+    const cs={config:probeCtx.config,weights:{taste:[...snapW.taste],actor:[...snapW.actor]},
+      priorLogit:probeCtx.priorLogit,tasteScale:probeCtx.tasteScale,balance:probeCtx.balance,
+      work:{scalarOperations:0}};
     cs.work.scalarOperations=0;
     const {motor}=tasteEnergyFeatures(cs,sample.raw,vec,sample.contactPresent,sample.odorPresent);
     let ops=cs.work.scalarOperations;
@@ -146,16 +151,12 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     const sample=st.ownBuf.slice(-C17_S);
     if(sample.length<C17_S)return null;
     const firstId=Object.keys(run.learners)[0];
-    const triggerSnap=JSON.parse(JSON.stringify(run.learners[firstId]));
-    // The trigger fires mid-cycle (observe path), so the live learner may
-    // legitimately await observation. The probe clone is feedforward-only
-    // (features + actor head never read the flag); clearing it on the COPY
-    // satisfies freeze's assertion without touching the live learner.
-    triggerSnap.awaitingObservation=false;
-    compactTasteEnergyBody(triggerSnap);
+    const snapW=snapshotWeights({[firstId]:run.learners[firstId]})[firstId];
+    const lv=run.learners[firstId];
+    const probeCtx={config:lv.config,priorLogit:lv.priorLogit,tasteScale:lv.tasteScale,balance:lv.balance};
     const scored=C17_SURROGATE_BANK.map(vec=>{
       let t=0,ops=0;
-      for(const s of sample){const r=probeTurnBit(triggerSnap,s,vec);t+=r.bit;ops+=r.ops;}
+      for(const s of sample){const r=probeTurnBit(snapW,probeCtx,s,vec);t+=r.bit;ops+=r.ops;}
       return {vec,mean:t/sample.length,ops};
     });
     let target;
