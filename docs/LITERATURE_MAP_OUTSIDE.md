@@ -27363,3 +27363,31 @@ brodys (directs votes). Four more. (Map holds 737 rounds; milestone:
   is the vote (joined, kept (carried, won (crowd, kept))); his "Brody"
   (direction, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 731 — Authorized, tripartited, written, steered (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: tripartite-authorized —
+cut the route, freeze the cerebrum, scale the bytes,
+steer the reaction (already-cited frozen leads
+converging; authorization family, four branches).
+
+- **Cross-interface authorize [arXiv:2610.41397 (Zhu; vs
+  no hits)].** Invariant policy, BYPASSABLE execution
+  (route-to-sink cut; commit-after-changed). → Authorize
+  cross-interface (our frozen bar, authorized-side).
+  Filed.
+- **SaiVLA tripartite [arXiv:2603.08124 (Shi; vs no
+  hits)].** Cerebrum FROZEN priors (pons compiles;
+  cerebellum fast hysteresis). → Tripartite compute
+  (our frozen controller, tripartited-side). Filed.
+- **Kathleen writes [arXiv:2608.04678 (Fountzoulas; vs
+  no hits)].** Attention-FREE beats matched (bytes
+  scale; every 2-512MB). → Write kathleen (our frozen
+  vectors, written-side). Filed.
+- **NOUS [arXiv:2603.20187 (Zhou; vs no hits)].**
+  Reactions MISMATCH video (relational distortion;
+  mutual steering). → Steer nous (our transfer
+  steering, steered-side). Filed.
+- Program note: authorize cross-interface, tripartite
+  compute, write kathleen, steer nous — the
+  tripartite-authorized file. None licensed — filed.
