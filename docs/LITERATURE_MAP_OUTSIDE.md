@@ -26745,3 +26745,30 @@ Four more. (Map holds 716 rounds.)
   extras (bagged, kept (extraed, bagged (bags, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Extra" (bag, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 709 — Marathonned, diffused, planed, thought (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: epistemic uncertainty —
+know what you don't know (already-cited uncertainty
+leads converging; uncertainty family, four branches).
+
+- **Marathon [arXiv:2609.34537 (Lyu / SciARP; vs no
+  hits)].** Robustness POORLY understood (620
+  interdependent; plausible perturbations). → Marathon
+  reasoning (our single attempts, marathon-side).
+  Filed.
+- **Diffusion epistemic [arXiv:2601.14625 (Huang; vs
+  no hits)].** Aleatoric-vs-EPISTEMIC (asymmetric
+  learning; generated detection). → Diffuse epistemics
+  (our flip-split design, diffuse-side). Filed.
+- **Tangent evidential [arXiv:2605.12353 (Cheng; vs no
+  hits)].** PHYSICALLY meaningful (coupled lattice-spin;
+  costly labels). → Plane tangentially (our scorer
+  design, plane-side). Filed.
+- **Think twice [arXiv:2312.02567 (Chen; vs no hits)].**
+  Expensive annotation (local + global predictions;
+  federated evidential). → Think twice (our frozen
+  verdicts, think-side). Filed.
+- Program note: marathon reasoning, diffuse epistemics,
+  plane tangentially, think twice — the
+  epistemic-uncertainty file. None licensed — filed.
