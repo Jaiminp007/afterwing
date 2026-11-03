@@ -25295,3 +25295,29 @@ Four more. (Map holds 664 rounds.)
   kept (adinaed, freaked (freaks, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); her "Adina" (freak, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 657 — Memorized, gestured, fused, embodied (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: embodied memory —
+bodies that learn, views that fuse (already-cited
+embodiment leads converging; body family, four branches).
+
+- **Parametric memory [arXiv:2606.04536 (Ren / TMEM; vs
+  no hits)].** Look-up vs LEARN-FROM (frozen-params can't
+  learn; compress history). → Memorize parametrically
+  (our checkpointed weights, memorize-side). Filed.
+- **Face gesture [arXiv:2608.04722 (Javanmardi; vs no
+  hits)].** Head-vs-hands OVERLOOK (subtle dynamics;
+  communication needs both). → Gesture fully (our
+  richer-bodies gate, gesture-side). Filed.
+- **Wide fusion [arXiv:2504.02287 (Nguyen / MultiSensor-
+  Home; vs no hits)].** Asynchronous STREAMS (inter-view
+  relationships; frame-lack). → Fuse widely (our
+  multi-line ledgers, fuse-side). Filed.
+- **Audio embodiment [arXiv:2401.01885 (Ng; vs no
+  hits)].** VQ diversity + DIFFUSION detail (gesture per
+  dynamics; dyadic). → Embody audio (our embodied
+  learner, embody-side). Filed.
+- Program note: memorize parametrically, gesture fully,
+  fuse widely, embody audio — the embodied-memory file.
+  None licensed — filed.
