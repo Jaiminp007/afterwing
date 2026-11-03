@@ -582,6 +582,9 @@ the map stays open, not empty.
 - R713 shared-representations file: bound-sharing;
   successor-constrain; disentangle-dynamics;
   guard-geometry.
+- R715 open-form-discovery file: probe-faintly;
+  discover-openly; map-flows;
+  infer-relationally.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
