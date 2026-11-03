@@ -444,6 +444,21 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 36 (2026-11-02, read-only: spent R1 plain anchors A-D)
+
+The C-freeze is architectural, not split-specific. Plain-arm
+taste weights: means slide negative (flood path: +0.30→−0.19→
+−0.43 and −0.22→−0.42→−0.85), norms grow (1.3→2.0) — then
+EXACTLY frozen C→D on both twins, to four decimals. Both arms
+converge by C; the last phase is dead time for everyone. So
+split-specificity is WHAT freezes (Go-positive vs flood), never
+WHEN: the schedule belongs to the paradigm (rehearsal table),
+the content to the readout. A training-time proposal cannot
+buy late-phase learning by switching readouts — the freeze is
+in the architecture. It must either act in A/B or change the
+schedule itself (new phases, frozen plan, fresh bank — a bigger
+ask than a new head, priced accordingly).
+
 ## Executed re-reading 35 (2026-11-02, read-only: spent R10 traces)
 
 The steering is an unlearned variance source, not guidance.
