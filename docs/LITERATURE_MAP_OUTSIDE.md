@@ -25128,3 +25128,30 @@ Four more. (Map holds 658 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); their "Destiny"
   (survivor, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 651 — Marked, layered, keyed, traced (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: provenance watermark —
+mark the process, not just the product (already-cited
+provenance leads converging; watermark family, four
+branches).
+
+- **Trajectory mark [arXiv:2609.10416 (Zeng / TrajMark;
+  vs no hits)].** Final patch ≠ PROCESS (segment-level
+  localization; symmetric-key visible-only). → Mark
+  the process (our per-row archives, mark-side). Filed.
+- **Code layers [arXiv:2604.16001 (Nie / MATRIX; vs no
+  hits)].** Black-box patterns vs white-box UNAWARE
+  (dual-channel parity; multi-layer). → Layer the
+  code (our layered ledgers, layer-side). Filed.
+- **Keyed provenance [arXiv:2608.20580 (Liu; vs no
+  hits)].** Kerckhoffs-compliant (lattice aggregation;
+  physical anchors; federated). → Key the provenance
+  (our frozen banks, key-side). Filed.
+- **Robust trace [arXiv:2607.08400 (Gao / TRACE; vs no
+  hits)].** Survives READ/WRITE adversary (complementary
+  embeddings; reseller-rebrand). → Trace robustly
+  (our raw evidence, trace-side). Filed.
+- Program note: mark the process, layer the code, key
+  the provenance, trace robustly — the
+  provenance-watermark file. None licensed — filed.
