@@ -29153,3 +29153,35 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   speed: balanced networks adapt fast, and the brake keeps the
   network balanceable. Suppression and speed share one
   mechanism — the coupling IS the meta-learning substrate.
+## Round 797 — LIVE via OpenAlex: scalers, layers, fractionators, modularizers (Wichrowska learned-optimizers 2017, Amos OptNet 2017, Udakis PV/SST 2020, Blondel implicit-diff 2021; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Scalable earner [Wichrowska et al. 2017, learned optimizers
+  that scale and generalize; vs no hits].** → Hierarchical RNN,
+  minimal per-parameter overhead, mirrors optimization structure;
+  meta-trained on small diverse tasks, beats ADAM on unseen CNNs.
+  The ceiling-earner's scalability answer: don't meta-learn one
+  gain — meta-learn the OPTIMIZER (structured, generalizing).
+  The earner earns at scale, not per task.
+- **Lineage root [Amos & Kolter 2017, OptNet (QP-as-layer, exact
+  KKT gradients); vs no hits].** → Constraints as layers since
+  2017, GPU primal-dual solves, gradients ~free. PROF/LMI-Net
+  descend from this: the certificate approach is nine years old
+  and still the frontier — the approach's own stability is
+  evidence. Banked as lineage (oldest root of the safety side).
+- **Fractionated brake [Udakis et al. 2020, PV-iLTD vs SST-iLTP
+  reprioritize excitation; vs no hits].** → Perisomatic (PV)
+  inhibition WEAKENS while dendritic (SST) inhibition
+  STRENGTHENS — opposite plasticity by compartment, T-type-gated
+  specificity. Suppression fractionates: release the output, gate
+  the input, simultaneously. A6's coupling gains cell-class
+  structure — which compartment, which direction, never one
+  signal.
+- **Democratized machinery [Blondel et al. 2021, modular
+  implicit differentiation; vs no hits].** → Define F, autodiff
+  the rest — no bespoke derivations per constraint. The safety
+  side's implementation barrier falls: certificate-layers become
+  composable parts. Banked as tooling for the day a line needs
+  certificates (the machinery waits, modular).
