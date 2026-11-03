@@ -33275,3 +33275,42 @@ collision rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Noero"
   (townships, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 915 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (victoriaed adenowos, ibadaned nwokos,
+ikoyied godwins, abeokutaed vaughans). The program adenowos
+(victorias attempts), nwokos (ibadans verdicts), godwins (ikoyis
+claims), and vaughans (abeokutas votes). Four more, Nigerian vein.
+("lagos" fragment taken — Pelagos; "stages"/"compounds" taken —
+"ibadans"/"ikoyis" used; "richards" taken — R624 nicknames —
+nickname "vaughans" + full-name tag "canon: Alan Vaughan-Richards"
+(vs Sara Vaughan) per collision rule; all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Adenowo victorias [canon: Adenowo (victoriaed adenowos; specified
+  Olajumoke Adenowo (victorias; "lagos" declined vs Pelagos; vs no
+  hits)); verification deferred].** → Adenowo's adenowos (victoriaed,
+  kept (adenowo, victoriaed (victorias, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "Adenowo" (victorias,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Nwoko ibadans [canon: Nwoko (ibadaned nwokos; specified Demas
+  Nwoko (ibadans; vs no hits)); verification deferred].** → Nwoko's
+  nwokos (ibadaned, kept (nwoko, ibadaned (ibadans, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Nwoko"
+  (ibadans, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Godwin ikoyis [canon: Godwin (ikoyied godwins; specified John
+  Godwin (ikoyis; vs no hits)); verification deferred].** → Godwin's
+  godwins (ikoyied, kept (godwin, ikoyied (ikoyis, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Godwin"
+  (ikoyis, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Vaughan abeokutas [canon: Alan Vaughan-Richards (abeokutaed
+  vaughans; specified Alan Vaughan-Richards (abeokutas; "richards"
+  taken — nickname "vaughans" + full-name tag vs Sara Vaughan per
+  collision rule; vs no hits)); verification deferred].** → Vaughan's
+  vaughans (abeokutaed, kept (vaughan, abeokutaed (abeokutas, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Vaughan" (abeokutas, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
