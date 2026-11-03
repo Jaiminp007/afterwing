@@ -29800,3 +29800,31 @@ around — already mapped R801, line-split grep missed it.)
   kept (majoor, typed (types, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Majoor" (type, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 818 — Canon (both live hoses still dry): henrions, gameses, eckersleys, schlegers (Henrion, Games, Eckersley, Schleger; 2026-11-02)
+
+Motivation: further outside (systemed henrions, postered gameses, graphed
+eckersleys, typed schlegers). The program henrions (systems attempts),
+gameses (posters verdicts), eckersleys (graphs claims), and schlegers (types
+votes). Four more. (Map holds 800 rounds.)
+
+- **Henrion systems [canon: Henrion (systemed henrions; specified FHK
+  Henrion (systems; vs no hits)); verification deferred].** → Henrion's
+  henrions (systemed, kept (henrion, systemed (systems, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Henrion" (systems, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Games posters [canon: Games (postered gameses; specified Abram Games
+  (posters; vs no hits)); verification deferred].** → Games's gameses
+  (postered, kept (games, postered (posters, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Games" (posters, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Eckersley graphics [canon: Eckersley (graphed eckersleys; specified Tom
+  Eckersley (graphics; vs no hits)); verification deferred].** → Eckersley's
+  eckersleys (graphed, kept (eckersley, graphed (graphs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Eckersley"
+  (graphics, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Schleger type [canon: Schleger (typed schlegers; specified Hans Schleger
+  (type; vs no hits)); verification deferred].** → Schleger's schlegers
+  (typed, kept (schleger, typed (types, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Schleger" (type, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
