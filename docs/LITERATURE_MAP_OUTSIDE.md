@@ -34570,3 +34570,42 @@ uncertain; all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Chaplinsky" (lvives, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 952 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (vilniused bredikiss, nerised algimantas,
+kaunaed vytautas, trakaied baravykass). The program bredikiss
+(vilniuss attempts), algimantas (neriss verdicts), vytautas (kaunas
+claims), and baravykass (trakais votes). Four more, Lithuanian vein.
+(Two Vytautases — Bredikis vs Nasvytis — and two Nasvytises —
+Algimantas vs Vytautas — handled via given-name nicknames +
+full-name tags per Kim precedent; all per collision rule.) (Map holds
+800 rounds.)
+
+- **Bredikis vilniuss [canon: Vytautas Bredikis (vilniused bredikiss;
+  specified Vytautas Bredikis (vilniuss; shared given name —
+  given-name nickname + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Bredikis's bredikiss (vilniused,
+  kept (bredikis, vilniused (vilniuss, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Bredikis" (vilniuss,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Algimantas neriss [canon: Algimantas Nasvytis (nerised algimantas;
+  specified Algimantas Nasvytis (neriss; shared surname — given-name
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Algimantas's algimantas (nerised, kept
+  (algimanta, nerised (neriss, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Algimantas" (neriss, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Vytautas kaunas [canon: Vytautas Nasvytis (kaunaed vytautas;
+  specified Vytautas Nasvytis (kaunas; shared given name AND surname
+  — given-name nickname + full-name tag per collision rule; vs no
+  hits)); verification deferred].** → Vytautas's vytautas (kaunaed,
+  kept (vytauta, kaunaed (kaunas, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Vytautas" (kaunas, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Baravykas trakais [canon: Baravykas (trakaied baravykass; specified
+  Gediminas Baravykas (trakais; vs no hits)); verification deferred].**
+  → Baravykas's baravykass (trakaied, kept (baravykas, trakaied
+  (trakais, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Baravykas" (trakais, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
