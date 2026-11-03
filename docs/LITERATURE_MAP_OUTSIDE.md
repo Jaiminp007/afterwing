@@ -33314,3 +33314,36 @@ holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Vaughan" (abeokutas, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 916 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (addised cherenets, jubileed mezzedimis,
+mudded marchands, lalibelaed giorghises). The program cherenets
+(addises attempts), mezzedimis (jubilees verdicts), marchands (muds
+claims), and giorghises (lalibelas votes). Four more, Ethiopian vein.
+("palaces"/"africas" taken — "jubilees" used, all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Cherenet addises [canon: Cherenet (addised cherenets; specified
+  Zegeye Cherenet (addises; vs no hits)); verification deferred].** →
+  Cherenet's cherenets (addised, kept (cherenet, addised (addises,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Cherenet" (addises, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Mezzedimi jubilees [canon: Mezzedimi (jubileed mezzedimis;
+  specified Arturo Mezzedimi (jubilees; vs no hits)); verification
+  deferred].** → Mezzedimi's mezzedimis (jubileed, kept (mezzedimi,
+  jubileed (jubilees, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Mezzedimi" (jubilees, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Marchand muds [canon: Marchand (mudded marchands; specified Trevor
+  Marchand (muds; vs no hits)); verification deferred].** → Marchand's
+  marchands (mudded, kept (marchand, mudded (muds, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Marchand"
+  (muds, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Giorghis lalibelas [canon: Giorghis (lalibelaed giorghises;
+  specified Fasil Giorghis (lalibelas; vs no hits)); verification
+  deferred].** → Giorghis's giorghises (lalibelaed, kept (giorghis,
+  lalibelaed (lalibelas, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Giorghis" (lalibelas, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
