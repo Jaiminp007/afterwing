@@ -24954,3 +24954,31 @@ rows). Four more. (Map holds 652 rounds.)
   (joined, kept (carried, won (crowd, kept))); her "Lavern" (tweedle, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 645 — Observed, aligned, regulated, governed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: partner regulation —
+coordinate without sharing intentions (already-cited
+multi-agent leads converging; partner family, four
+branches).
+
+- **Partner info [arXiv:2610.16895 (Szlatincsán; vs
+  no hits)].** Share percepts NEVER intentions (observe/
+  share/predict; symmetric roles; Habitat). → Share
+  percepts (our row archives, share-side). Filed.
+- **Joint attention [arXiv:2605.04639 (Golrang; vs no
+  hits)].** Alignment DRIVES attention (joint effort +
+  joint gaze; 182 dyads; adaptive strengthens). →
+  Align jointly (our frozen loops, align-side). Filed.
+- **SSRL agent [arXiv:2505.00945 (Huang / SSRLBot; vs
+  no hits)].** Socially-shared-REGULATED (assist process +
+  outcome evaluation). → Regulate sharedly (our gated
+  adoption, regulate-side). Filed.
+- **Homeostatic control [arXiv:2607.24339 (Sharma /
+  Gubernaut; vs no hits)].** Failures of PROPENSITY
+  (deterministic; Nelson-Narens loop; model-agnostic).
+  → Govern runtime (our frozen plans, govern-side).
+  Filed.
+- Program note: share percepts, align jointly, regulate
+  sharedly, govern runtime — the partner-regulation
+  file. None licensed — filed.
