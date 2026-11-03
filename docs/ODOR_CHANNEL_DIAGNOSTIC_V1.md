@@ -444,6 +444,21 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
+
+Acquisition rank does not predict transfer rank (rho 0.071).
+The twin loser PASSED acquisition (+0.64) and lost transfer
+(−3.68); the twin winner FAILED acquisition (−1.59) and won
+(+2.77). R13's dissociation, quantified at rank level: what
+you earn in training says nothing about what you carry out —
+the correlation is seven hundredths. Combined with R47 (weights
+blind both heads): neither the learned values nor the learned
+outcomes order transfer. Train-time success and transfer success
+are independent draws from the same eight histories. The only
+things that have ever tracked transfer are entry state, behavior
+rate, and encounter dice — all downstream of learning, none of
+them learned.
+
 ## Executed re-reading 47 (2026-11-02, read-only: spent R10 anchors + verdict)
 
 No-Go rank doesn't track transfer either (rho 0.333, n=8,
