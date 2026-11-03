@@ -444,6 +444,17 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 33 precision-audit (2026-11-02, read-only: spent R10 anchors)
+
+R33's number audited itself and passed: present-motor rms
+0.0072→0.0121→0.0135→0.0135 (A→B→C→D, both twins) — the
+"0.007→0.014 by C" was exact, and the path adds timing: 85% of
+motor growth lands in the FIRST stretch (A→B), same shape as the
+taste (early set, mid flood, late freeze) at 1/400th the scale.
+Self-audit: PASS, no correction. The temporal biography now
+holds for both learners that learn: everything is mostly written
+by B, fully written by C, and billed through D.
+
 ## Executed re-reading 41 (2026-11-02, read-only: spent R1 rows, 5 acquisition modes)
 
 The archive held an unpublished experiment: R1 ran acquisition
