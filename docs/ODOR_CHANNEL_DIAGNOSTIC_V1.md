@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 45 (2026-11-02, read-only: spent R1 transfer + R10 acquire traces)
+
+Turn-costs are neutral in both worlds; the price is world physics,
+not action choice. Per-agent post-decision deltas: R1-plain transfer
+turn +0.11..+0.26 (same as R10-split — universal); R10-split
+acquire turn −0.045..−0.053 vs cruise −0.040..−0.044 — turns cost
+a hair more while learning, pay a hair more while feasting, and
+both gaps are second-order against the baseline flows (+0.15
+feast, −0.045 bleed per decision). No action-based price mechanism
+exists at any measured scale: the bleed is in the food physics,
+not the feet. R44 generalizes across arms (plain same as split)
+and phases (acquire same neutrality as transfer). The acting is
+priced by the world it acts in, never by the act.
+
 ## Executed re-reading 44 (2026-11-02, read-only: spent R10 transfer traces)
 
 Turning is not costly — suppression doesn't save. Per-agent
