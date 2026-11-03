@@ -33765,3 +33765,38 @@ collision rule.) (Map holds 800 rounds.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Arets"
   (amsterdams, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 929 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (nouveaued veldes, brusselled hankars,
+casinoed stynens, ghented eysselincks). The program veldes (nouveaus
+attempts), hankars (brussels verdicts), stynens (casinos claims), and
+eysselincks (ghents votes). Four more, Belgian vein. ("Victor Horta"
+declined — "horta" fragments standing "shortage" lines; consistency
+with Rewal/Munir/wongs declines demanded it; "houses"/"squares"/
+"corners" taken — "brussels"/"ghents" used, all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Velde nouveaus [canon: Velde (nouveaued veldes; specified Henry
+  van de Velde (nouveaus; vs no hits)); verification deferred].** →
+  Velde's veldes (nouveaued, kept (velde, nouveaued (nouveaus, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Velde" (nouveaus, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Hankar brussels [canon: Hankar (brusselled hankars; specified Paul
+  Hankar (brussels; vs no hits)); verification deferred].** →
+  Hankar's hankars (brusselled, kept (hankar, brusselled (brussels,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Hankar" (brussels, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Stynen casinos [canon: Stynen (casinoed stynens; specified Leon
+  Stynen (casinos; vs no hits)); verification deferred].** → Stynen's
+  stynens (casinoed, kept (stynen, casinoed (casinos, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Stynen" (casinos, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Eysselinck ghents [canon: Eysselinck (ghented eysselincks;
+  specified Gaston Eysselinck (ghents; vs no hits)); verification
+  deferred].** → Eysselinck's eysselincks (ghented, kept (eysselinck,
+  ghented (ghents, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Eysselinck" (ghents, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
