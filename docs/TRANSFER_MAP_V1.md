@@ -507,6 +507,9 @@ the map stays open, not empty.
 - R663 agentic-architecture file: mine-quality;
   work-the-architecture; distrust-consensus;
   loop-closed.
+- R665 authority-reconciliation file: authorize-transitions;
+  weight-speakers; reconcile-systems;
+  validate-outputs.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
