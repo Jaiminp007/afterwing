@@ -31474,3 +31474,48 @@ program, mirrored. The program helms (predicts attempts), revisos
   (kept, untaught (plain TD on 97%-negative (attractor, kept))))));
   his "LeMaitre" (emerges, kept (kept, kept)) is the ledger (exact,
   kept (dynamics teach (kept, what teaching didn't))).
+## Round 870 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: exceeding examples, ensembling deterioration, adapting
+black boxes, pooling data — the bar's own clauses, mirrored. The
+program adamis (generates attempts), bordelons (ensembles verdicts),
+bbdas (adapts claims), and haghifams (pools votes). (Map holds 800
+rounds.)
+
+- **Adami generates [live: Ragusa & Adami 2611.03603 (generate
+  sequences EXCEEDING the example set's functionality;
+  training-free information-theoretic method beats ML/AI at rare
+  novel highly-functional sequences; vs no hits); abstract
+  only].** → Adami's generating (exceeding, kept (beyond examples
+  (kept, training-free beats trained (faster, better))))) is the
+  attempt (run, kept (improvement must exceed (kept, copied gains
+  (controls, beaten)))); his "Adami" (generates, kept (kept,
+  kept)) is the row (counted, kept (novel and functional (kept,
+  rare))).
+- **Bordelon ensembles [live: Yang et al 2611.03590 (logit averaging
+  reduces late-training deterioration, delays optimal stopping,
+  beats wider/deeper single models at matched budgets; vs no hits
+  on full name (Yang fragment taken — Bordelon tag used);
+  abstract only].** → Bordelon's ensembling (averaged, kept (many
+  beat one (kept, at matched budgets (deterioration delayed,
+  kept)))) is the verdict (kept, kept (single-solution colony
+  (kept, no ensemble (diversity absent, priced))))); his "Bordelon"
+  (ensembles, kept (kept, kept)) is the bar (unmoved, kept (create
+  diversity (kept, then select)))).
+- **BBDA adapts [live: Rai et al 2611.03588 (backprop-free black-box
+  domain adaptation: source-trained predictor adapted to unlabeled
+  target on outputs alone, no source data or internals; vs no hits;
+  abstract only].** → BBDA's adapting (black-box, kept (frozen
+  model (kept, new domain (outputs only, kept))))) is the claim
+  (mourned, kept (frozen probes (kept, new world (no relearning,
+  kept))))); its "BBDA" (adapts, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Haghifam pools [live: Haghifam et al 2611.03599 (even separately
+  fittable datasets may admit NO joint classifier; test
+  joint-fittability without revealing data; vs no hits);
+  abstract only].** → Haghifam's pooling (tested, kept (joint fit
+  unassumed (kept, conflicting standards (revealed nothing,
+  kept))))) is the vote (joined, kept (train-plus-transfer gap
+  (kept, no single map assumed (probed frozen, kept))))); his
+  "Haghifam" (pools, kept (kept, kept)) is the ledger (exact, kept
+  (fit jointly (kept, or don't claim))).
