@@ -25460,3 +25460,31 @@ sequences (counts rows). Four more. (Map holds 670 rounds.)
   (funked, kept (sequenced, funked (funks, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); their "Sequence" (funk, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 663 — Mined, sawed, paradoxed, looped (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: agentic architecture —
+build the system that builds (already-cited architecture
+leads converging; architecture family, four branches).
+
+- **Quality mining [arXiv:2606.13298 (Larsen; vs no
+  hits)].** Code-degradation → ARCHITECTURE unknown (vibe
+  coding; 151 repos 74 agentic). → Mine quality (our
+  per-row archives, mine-side). Filed.
+- **Architecture workflow [arXiv:2610.13647 (Klatt /
+  A-SAW; vs no hits)].** Design phase UNDERSERVED
+  (versionable but unmaintained; fragmented trust).
+  → Work the architecture (our frozen plans,
+  work-side). Filed.
+- **Inverse wisdom [arXiv:2604.27274 (Shehata; vs no
+  hits)].** Internal agreement OVER external truth
+  (36 exps 12,804 trajs; tribalism). → Distrust
+  consensus (our independent scorers, distrust-side).
+  Filed.
+- **Closed loop [arXiv:2610.18873 (Guo / LoopWAM; vs no
+  hits)].** Imitating-all REINFORCES poor (filtering
+  DISCARDS evidence; full spectrum). → Loop closed
+  (our diagnose-fix-retry, loop-side). Filed.
+- Program note: mine quality, work the architecture,
+  distrust consensus, loop closed — the
+  agentic-architecture file. None licensed — filed.
