@@ -68,6 +68,18 @@ recurrence is insufficient, and fast-only recurrence is pre-falsified
 by this result. A B3 freeze must name its slow variable and its
 timescale, or it is not a B3.
 
+## Addendum A3 (2026-11-02, zero worlds — silence constraint)
+
+R781 (Shindou 2018, silent eligibility trace): the trace accrues
+silently (activity-initiated, LTD-masked) and expresses only when
+dopamine converts it. Constraint upgrade from slow to SILENT: the
+B3 slow variable must accrue WITHOUT ACTING — no behavioral
+signature until the gate reads it. This answers B2's poisoning at
+the mechanism level (the stop branch acted while learning and
+dragged the shared trajectory down). A B3 freeze must show the
+trace is behaviorally silent during formation, or it is B2 with
+extra steps.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
