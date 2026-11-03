@@ -601,6 +601,16 @@ corrects itself: precision 1's "constant" language overreached;
 the per-round verdicts are clean, their comparability is not.
 Filed, gate unmoved.
 
+Precision 3 (2026-11-03): scope of the correction — R8/R9/R10
+transferLift share the IDENTICAL scorer formula (candidate minus
+same-bank r1Rows transfer-current endpoint, same 8 histories).
+The correction touches ONLY the R2–R6 extension: R49's 7/8, R51's
+entire panel, and the uniformity finding are all like-with-like
+within R8–R10. Downgrade applies to the 8-round coarse pattern
+alone (suggestive); everything computed inside R8–R10 stands
+audited. The ledger narrows its correction to exactly what the
+evidence requires — no more.
+
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
 Acquisition rank does not predict transfer rank (rho 0.071).
