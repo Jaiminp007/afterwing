@@ -174,8 +174,13 @@ worse at finding food that increasingly exists. Mechanism
 specified: per-phase resource reshuffling (new seeds each phase)
 invalidates spatial memory every phase boundary while steering
 acts on stale maps — re-acquisition lags reshuffling, intake
-ratchets down, the colony bleeds out. That is the transfer wound
-at within-run scale: memory does not survive the reshuffle.
+ratchets down, the colony bleeds out. HYPOTHESIS (not finding):
+that is the transfer wound at within-run scale — one phenomenon
+(transfer tax, rehearsal cost, starvation) in three clothes.
+Discriminator, pre-registered: a line that preserves maps across
+reshuffles must SIMULTANEOUSLY lift transfer-tax, rehearsal-cost,
+AND starvation if unity holds; if it fixes one but not the others,
+the wounds are distinct mechanisms and the unity claim dies.
 A survival line fixes re-acquisition speed (or stops the maps
 going stale), never the food supply.
 
