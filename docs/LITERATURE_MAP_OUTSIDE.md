@@ -26633,3 +26633,29 @@ automators (stitches verdicts), dels (publishes NOGOs), and casuals
   casuals (feared, kept (casualed, feared (fears, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Casual" (fear, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 705 — Unified, sensed, twinned, mined (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: edge physical — run
+where the world is (already-cited edge leads
+converging; edge family, four branches).
+
+- **PhyAI [arXiv:2608.03682 (Wang; vs no hits)].**
+  Single runtime UNIFIES (shared checkpoint + semantics;
+  adapters for specifics). → Unify runtimes (our
+  frozen instruments, unify-side). Filed.
+- **VIRSO [arXiv:2604.01802 (Howes; vs no hits)].**
+  Inaccessible FROM sparse (deployment unaddressed;
+  safety-critical). → Sense sparse (our scorer
+  boundaries, sense-side). Filed.
+- **Semantic twins [arXiv:2610.14187 (Onsu; vs no
+  hits)].** Synchronized REPLICAS (collisions/near-miss/
+  violations data). → Twin semantically (our transfer
+  test, twin-side). Filed.
+- **EdgeMap [arXiv:2606.12103 (Reiter / PM-EdgeMap; vs
+  no hits)].** Sensors-to-NEARBY (real-time mining;
+  autonomy demands). → Mine edges (our per-line
+  ledgers, mine-side). Filed.
+- Program note: unify runtimes, sense sparse, twin
+  semantically, mine edges — the edge-physical file.
+  None licensed — filed.
