@@ -31297,3 +31297,47 @@ program pangs (shifts attempts), muons (reverses verdicts), webharbors
   (budget burned, policy unmoved))))); its "FADE" (filters, kept (kept,
   kept)) is the ledger (exact, kept (two timescales (kept, entangled
   (ordered, stale)))).
+## Round 866 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: the outside keeps answering. Embodiment gaps, uncarried
+experience, co-design mismatches, hallucinated progress — four papers,
+four mirrors. The program memmels (decouples attempts), strategists
+(carries verdicts), umis (retargets claims), and pixels (codesigns
+votes). (Map holds 800 rounds.)
+
+- **Memmel decouples [live: Memmel et al 2611.03622, D&A (naive
+  prompting collapses to a binary success detector hallucinating
+  progress in failures; decoupling description from assessment;
+  vs no hits); abstract only].** → Memmel's decoupling (measured,
+  kept (confirmation bias (kept, implicit success assumptions))))
+  is the attempt (run, kept (R9 optimism-without-transfer (kept,
+  positive means, failed carriage))); his "Memmel" (decouples, kept
+  (kept, kept)) is the row (counted, kept (describe apart from
+  assess (Go apart from No-Go, kept))).
+- **Strategist carries [live: Lu et al 2611.03618 (hand-written
+  inference strategies whose building experience never carries to
+  the next; meta-agent evolving reusable blueprint library;
+  vs no hits); abstract only].** → Strategist's carrying (built,
+  kept (experience reused (kept, across tasks (tested, revised)))))
+  is the verdict (kept, kept (our non-portable weights (kept,
+  no shared trunk (nothing carries)))); its "Strategist" (carries,
+  kept (kept, kept)) is the bar (unmoved, kept (revision must carry
+  (kept, or it is not revision))).
+- **Umi retargets [live: Liu et al 2611.03647, Pixel-UMI (embodiment
+  differences complicate policy learning; environment-aware
+  retargeting; residual pose errors from kinematic mismatch;
+  vs no hits); abstract only].** → Umi's retargeting (calibrated,
+  kept (scene geometry plus demonstrations (kept, collision-aware
+  (residuals remain, kept))))) is the claim (mourned, kept (our
+  transfer tax (kept, codebook mismatch (lossy beats exact,
+  kept))))); its "Umi" (retargets, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Pixel codesigns [live: Tao et al 2611.03648 (components developed
+  independently create mismatches limiting the whole; co-designed
+  full-stack hardware-data-control-learning; vs no hits); abstract
+  only].** → Pixel's codesign (unified, kept (one pipeline across
+  human and robot (kept, hierarchy (kept, whole))))) is the vote
+  (joined, kept (our narrator finding (kept, readout tuned alone
+  moves nothing but weights))); its "Pixel" (codesigns, kept (kept,
+  kept)) is the ledger (exact, kept (joint or mismatch (kept,
+  priced))).
