@@ -391,6 +391,20 @@ per C16 and the C17-bar, so this is noted and NOT licensed —
 but it bounds what all our transfer numbers mean: echoes,
 not judgments.
 
+## Executed re-reading 27 (2026-11-02, read-only: spent R10 + R1 D-anchors)
+
+The debt is intensive, not extensive. Acquisition kills ~85% of
+both colonies (alive at entry: split 2-5, plain 1-4 of 24) —
+and the split survives acquisition EQUAL OR BETTER on 7/8
+histories (+1,+2,+1,+1,0,-1,+3,+1). Yet it enters poorer 5/8
+(to -26). More survivors carrying less each is NOT composition:
+the survivor-gap vs entry-energy-gap scatters both ways
+(+3→-26.2 but +2→+13.3). The split does not kill flies and
+does not dilute by saving the weak — each living fly is poorer
+per-capita. Two cheap stories dead at once (culling and
+dilution); the intensive one stands: the readout's price is
+paid inside every survivor's ledger, not in the headcount.
+
 ## Executed re-reading 25 (2026-11-02, read-only: spent R10 D-anchors)
 
 The colony is one solution in twenty-four bodies — and survival
