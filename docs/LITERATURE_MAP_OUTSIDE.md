@@ -27592,3 +27592,31 @@ hypothesis); retention family, four branches).
   memory, couple past — the rehearsal file. Round-2
   hypothesis now has four outside legs. None licensed —
   filed.
+## Round 739 — Unified, initiated, cored, tested (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: open-world — unify
+detection, initiate self, core the normal, test
+hierarchically (DTR parts-(i) inference-head fuel;
+detect-new wing, four branches).
+
+- **Unifying OWCL [arXiv:2304.10038 (Kim; vs no
+  hits)].** Recognize LEARNED + detect NEVER-SEEN +
+  learn INCREMENTALLY (OOD + CIL unified). → Unify worlds
+  (our task-IL first, unified-side). Filed.
+- **Self-initiated [arXiv:2203.08994 (Bing Liu; vs no
+  hits)].** FULLY autonomous (self-motivated not retrained;
+  detect/characterize/accommodate). → Initiate self (our
+  frozen bars, initiated-side). Filed.
+- **CADIC [arXiv:2511.08634 (Yang; vs no
+  hits)].** Sub-banks RESTRICT (incremental coreset;
+  normal of new tasks). → Core anomalies (our per-cue
+  counters, cored-side). Filed.
+- **H2ST [arXiv:2503.14832 (Yuhang Liu; vs no
+  hits)].** Closed-world ASSUMED (identities unknown;
+  hierarchical tests). → Test hierarchically (our
+  flip-splits, tested-side). Filed.
+- Program note: unify worlds, initiate self, core
+  anomalies, test hierarchically — the open-world file.
+  Detect-new wing now has 11 references. None licensed —
+  filed.
