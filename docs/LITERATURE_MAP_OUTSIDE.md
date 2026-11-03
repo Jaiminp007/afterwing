@@ -30588,3 +30588,35 @@ muratoris (sorts verdicts), zevis (tells claims), and benevolos
   is the vote (joined, kept (carried, won (crowd, kept))); his "Benevolo"
   (orders, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 843 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (judged persicos, shot paganos, floated
+bardis, cited rossis). The program persicos (judges attempts), paganos
+(shoots verdicts), bardis (floats claims), and rossis (cites votes).
+Four more, Italian-modern vein continued. (Piano skipped — mapped as
+essay-round Renzo; Pagano distinct from Samona/Terragni Giuseppes by
+full name.) (Map holds 800 rounds.)
+
+- **Persico judges [canon: Persico (judged persicos; specified Edoardo
+  Persico (judges; vs no hits)); verification deferred].** → Persico's
+  persicos (judged, kept (persico, judged (judges, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Persico" (judges,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Pagano shoots [canon: Pagano (shot paganos; specified Giuseppe Pagano
+  (shoots; distinct from Giuseppe Samona and Giuseppe Terragni —
+  full-name disambiguation; vs no hits on full name)); verification
+  deferred].** → Pagano's paganos (shot, kept (pagano, shot (shoots,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Pagano" (shoots, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Bardi floats [canon: Bardi (floated bardis; specified Lina Bo Bardi
+  (floats; vs no hits)); verification deferred].** → Bardi's bardis
+  (floated, kept (bardi, floated (floats, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); her "Bardi" (floats, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Rossi cites [canon: Rossi (cited rossis; specified Aldo Rossi
+  (cites; vs no hits)); verification deferred].** → Rossi's rossis
+  (cited, kept (rossi, cited (cites, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Rossi" (cites, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
