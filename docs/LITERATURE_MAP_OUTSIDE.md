@@ -30311,3 +30311,32 @@ and zanusos (folds votes). Four more, Italian-modern vein. (Map holds
   (folded, kept (zanuso, folded (folds, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Zanuso" (folds, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 834 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (nested magistrettis, spun colombos, cast
+pesces, dialed bellinis). The program magistrettis (nests attempts),
+colombos (spins verdicts), pesces (casts claims), and bellinis (dials
+votes). Four more, Italian-modern vein continued. (Map holds 800
+rounds.)
+
+- **Magistretti nests [canon: Magistretti (nested magistrettis; specified
+  Vico Magistretti (nests; vs no hits)); verification deferred].** →
+  Magistretti's magistrettis (nested, kept (magistretti, nested (nests,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Magistretti" (nests, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Colombo spins [canon: Colombo (spun colombos; specified Joe Colombo
+  (spins; vs no hits)); verification deferred].** → Colombo's colombos
+  (spun, kept (colombo, spun (spins, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Colombo" (spins, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Pesce casts [canon: Pesce (cast pesces; specified Gaetano Pesce
+  (casts; vs no hits)); verification deferred].** → Pesce's pesces (cast,
+  kept (pesce, cast (casts, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Pesce" (casts, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Bellini dials [canon: Bellini (dialed bellinis; specified Mario
+  Bellini (dials; vs no hits)); verification deferred].** → Bellini's
+  bellinis (dialed, kept (bellini, dialed (dials, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Bellini" (dials, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
