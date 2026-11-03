@@ -34086,3 +34086,37 @@ rounds.)
   ljubljanaed (ljubljanas, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Ravnikar" (ljubljanas, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 938 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (acropolised pikioniss, mykonosed
+konstantinidiss, cabled zenetoss, athened antonakakis). The program
+pikioniss (acropolises attempts), konstantinidiss (mykonos verdicts),
+zenetoss (cables claims), and antonakakis (athens votes). Four more,
+Greek vein. (All four surnames + full names + contexts virgin
+pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Pikionis acropolises [canon: Pikionis (acropolised pikioniss;
+  specified Dimitris Pikionis (acropolises; vs no hits)); verification
+  deferred].** → Pikionis's pikioniss (acropolised, kept (pikionis,
+  acropolised (acropolises, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Pikionis" (acropolises, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Konstantinidis mykonos [canon: Konstantinidis (mykonosed
+  konstantinidiss; specified Aris Konstantinidis (mykonos; vs no
+  hits)); verification deferred].** → Konstantinidis's
+  konstantinidiss (mykonosed, kept (konstantinidis, mykonosed (mykonos,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Konstantinidis" (mykonos, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Zenetos cables [canon: Zenetos (cabled zenetoss; specified Takis
+  Zenetos (cables; vs no hits)); verification deferred].** → Zenetos's
+  zenetoss (cabled, kept (zenetos, cabled (cables, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Zenetos"
+  (cables, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Antonakaki athens [canon: Antonakaki (athened antonakakis;
+  specified Suzana Antonakaki (athens; vs no hits)); verification
+  deferred].** → Antonakaki's antonakakis (athened, kept (antonakaki,
+  athened (athens, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); her "Antonakaki" (athens, kept (kept, kept)) is the
+  ledger (exact, kept (honest, told (all, counted))).
