@@ -115,7 +115,7 @@ const r1Rows=histories.map(history=>{
 });
 const r1Sha=Object.fromEntries(r1Rows.map(row=>[row.history.seed,hash(JSON.stringify(row))]));
 write(join(output,'r1plain-sha256.json'),r1Sha);
-for(const [seed,expected]of Object.entries(r1Sha))assert.equal(hash(readFileSync(join(r1Dir,seed+'.json'))),expected);
+for(const [seed,expected]of Object.entries(r1Sha))assert.equal(hash(JSON.stringify(JSON.parse(readFileSync(join(r1Dir,seed+'.json'),'utf8')))),expected);
 // Gated comparisons (fail-closed: missing comparator data throws, no verdict shopping).
 const transferLift=rows.map((row,i)=>{
   const candidate=row.probes['transfer-current']?.endpoint,b= r1Rows[i].probes['transfer-current']?.endpoint;
