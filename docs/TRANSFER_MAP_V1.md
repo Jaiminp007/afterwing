@@ -525,6 +525,9 @@ the map stays open, not empty.
 - R675 mixed-type-synthesis file: found-openly;
   cross-datasets; cascade-generation;
   co-evolve-arms.
+- R677 counterfactual-assessment file: reexamine-treatments;
+  rank-counterfactually; track-fast;
+  assess-cause.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
