@@ -31654,3 +31654,50 @@ holds 800 rounds.)
   anchors plus digests (weights ≠ behavior, kept))))); its
   "ReContact" (recontacts, kept (kept, kept)) is the ledger (exact,
   kept (plan contacts (kept, retarget honestly))).
+## Round 874 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: identical vectors, asymmetric reads, outweighing arms,
+related work — steering without touching, reading apart from
+writing, priced mismatches, embedded difficulty. The program vias
+(adds attempts), rasps (asymmetrizes verdicts), inertias
+(outweighs claims), and barres (relates votes). ("Isolates"/
+"steers"/"contrasts" taken — "adds vectors" virgin, used; "Park"
+tag declined — Parker substrings — Inertia used; "thins" taken.)
+(Map holds 800 rounds.)
+
+- **VIAS adds [live: Mittal et al 2611.03518 (steering adds vectors
+  WITHOUT changing weights; per-value contrasts yield NEARLY
+  IDENTICAL vectors — general compliance, not individual values;
+  vs no hits); abstract only].** → VIAS's adding (weightless,
+  kept (vectors added (kept, weights untouched (values identical,
+  kept))))) is the attempt (run, kept (colony aligned +0.75
+  (kept, steer without retraining (thresholds move, kept))))); its
+  "VIAS" (adds, kept (kept, kept)) is the row (counted, kept
+  (vectors, not weights)).
+- **RASP asymmetrizes [live: Liu et al 2611.03513 (reading
+  consolidated knowledge vs writing new credit FUNDAMENTALLY
+  ASYMMETRIC; forward reads all rank-1 atoms, backward writes
+  sparse; vs no hits); abstract only].** → RASP's asymmetrizing
+  (read-all/write-sparse, kept (atoms rank-1 (kept, no silos
+  (consolidated, shared)))) is the verdict (kept, kept (frozen
+  reads (kept, live writes (single solution, rank-1))))); its
+  "RASP" (asymmetrizes, kept (kept, kept)) is the bar (unmoved,
+  kept (read apart (kept, from write)))).
+- **Inertia outweighs [live: Park et al 2611.03501 (heavy arm, light
+  objects; mismatch overcome with data BUT hidden cost on learning
+  — worse scaling, lower ceiling; vs no hits on full name (Park
+  fragment taken — Inertia tag used); abstract only].** → Inertia's
+  outweighing (heavy, kept (overcome (kept, priced (scaling worse,
+  ceiling lower)))) is the claim (mourned, kept (transfer tax
+  (kept, hidden cost of mismatch (paid, priced))))); its "Inertia"
+  (outweighs, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Barres relates [live: Barres et al 2611.03494 (tasks embedded in
+  systems of relations; organizational difficulty ≠ technical
+  difficulty; benchmarks miss the interdependence; vs no hits);
+  abstract only].** → Barres's relating (embedded, kept (relations
+  not tasks (kept, interdependence underway (authority, time,
+  interests)))) is the vote (joined, kept (harness around claims
+  (kept, banks billing guards (falsifiers toothed, kept))))); his
+  "Barres" (relates, kept (kept, kept)) is the ledger (exact, kept
+  (test the organization (kept, not just the task))).
