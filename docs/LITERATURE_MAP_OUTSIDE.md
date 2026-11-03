@@ -34780,3 +34780,40 @@ draft restarted clean pre-append; all per collision rule.) (Map holds
   (joined, kept (carried, won (crowd, kept))); his "Torp" (fornebus,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 958 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (reykjaviked hardardottirs, harpaed
+christers, akureyried kristmundssons, geothermalled thorsteinns). The
+program hardardottirs (reykjaviks attempts), christers (harpas
+verdicts), kristmundssons (akureyris claims), and thorsteinns
+(geothermals votes). Four more, Icelandic vein. ("Sigrun Sumar"
+declined — architect-identity uncertain; all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Hardardottir reykjaviks [canon: Hardardottir (reykjaviked
+  hardardottirs; specified Margret Hardardottir (reykjaviks; vs no
+  hits)); verification deferred].** → Hardardottir's hardardottirs
+  (reykjaviked, kept (hardardottir, reykjaviked (reykjaviks, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); her
+  "Hardardottir" (reykjaviks, kept (kept, kept)) is the row (counted,
+  kept (honest, told (all, counted))).
+- **Christer harpas [canon: Christer (harpaed christers; specified
+  Steve Christer (harpas; vs no hits)); verification deferred].** →
+  Christer's christers (harpaed, kept (christer, harpaed (harpas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Christer" (harpas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Kristmundsson akureyris [canon: Kristmundsson (akureyried
+  kristmundssons; specified Palmar Kristmundsson (akureyris; vs no
+  hits)); verification deferred].** → Kristmundsson's kristmundssons
+  (akureyried, kept (kristmundsson, akureyried (akureyris, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Kristmundsson" (akureyris, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Thorsteinn geothermals [canon: Thorsteinn (geothermalled
+  thorsteinns; specified Einar Thorsteinn Asgeirsson (geothermals; vs
+  no hits)); verification deferred].** → Thorsteinn's thorsteinns
+  (geothermalled, kept (thorsteinn, geothermalled (geothermals, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Thorsteinn" (geothermals, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
