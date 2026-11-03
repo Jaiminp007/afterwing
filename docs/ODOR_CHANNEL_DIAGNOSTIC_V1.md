@@ -444,6 +444,20 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 44 (2026-11-02, read-only: spent R10 transfer traces)
+
+Turning is not costly — suppression doesn't save. Per-agent
+post-decision energy deltas in transfer: after turns +0.11..+0.21,
+after cruises −0.03..+0.13, turn ≥ cruise on all 7 measurable
+histories (1917475589 turns 100%, no cruises to compare). The
+cheap mechanism dies: the split's turn-suppression (R16/R24)
+cannot work by spending less, because turns pay as well or better
+than cruises. The turn fraction is a behavioral SIGNATURE of
+whatever the weights+entry+encounters produce — not an energy
+lever anyone pulls. Third cheap story this arc has killed at the
+decision level (after culling R27 and dilution R27): the handle
+describes, it doesn't dispense.
+
 ## Executed re-reading 43 (2026-11-02, read-only: spent R1/R8/R9/R10 anchors)
 
 The motor path is identical across all arms and both twins:
