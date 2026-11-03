@@ -126,6 +126,19 @@ proviso is unrefuted and sharpened: nothing in the traces suggests
 1792 ticks reached the slow phase where Kleim-structure appears.
 Calendar proviso stands.
 
+## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
+
+Pairing-rule schedule check (Moncada: strong events near tags?):
+intake share by acquisition thirds — R1(+0.42) [0.47,0.31,0.22],
+R2(−1.20) [0.41,0.30,0.30], R5(−0.70) [0.45,0.30,0.26],
+R6(−0.95) [0.45,0.30,0.25]. All front-loaded; late share does NOT
+separate positive from negative transfer (R2 highest late share,
+worst transfer). NULL result, honestly recorded: intake timing at
+third-granularity carries no transfer signal. Rule unrefuted (tags
+unmeasured — thirds are not tag times) but unconfirmed; the
+schedule check needs tag times, not bins. Front-loading everywhere
+is consistent with re-reading 2 (early phase does the eating).
+
 Late-phase proviso (R800 — Kleim 2004): synaptogenesis and map
 reorganization arrive in the SLOW phase; fast-early refines
 existing structure only. The program's 1792-tick phases may all
