@@ -27983,3 +27983,30 @@ votes). Four more. (Map holds 756 rounds.)
   (columbias, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Columbia" (columbia, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 751 — Latented, generated, retrieved, composed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: trunk — store in
+weights, generate behaviors, retrieve the relevant,
+compose the novel (DTR parts-(i) shared-trunk fuel;
+four branches).
+
+- **LatentSkill [arXiv:2606.06087 (Yu; vs no
+  hits)].** Context OVERHEAD + plaintext (hypernetwork →
+  plug-and-play adapters; weight not context; modular).
+  → Latent skills (our niche weights, latented-side). Filed.
+- **Zero-shot hypernets [arXiv:2211.15457 (Rezaei; vs no
+  hits)].** Generate BEHAVIORS unseen (TD objective;
+  near-optimal set; task params). → Generate behaviors
+  (our transplant shape-identity, generated-side). Filed.
+- **Task-adaptive retrieval [arXiv:2306.10698 (Jin; vs no
+  hits)].** Sampling INEFFICIENT (hippocampus retrieves
+  relevant; guide new). → Retrieve relevant (our
+  per-cue counters, retrieved-side). Filed.
+- **Task-driven modular [arXiv:1905.05908 (Purushwalkam; vs no
+  hits)].** Compose NOVEL zero-shot (hundreds-per-category
+  vs human; module set). → Compose modules (our
+  flip-splits, composed-side). Filed.
+- Program note: latent skills, generate behaviors, retrieve
+  relevant, compose modules — the trunk file. Parts-(i)
+  reference shelf grows by four. None licensed — filed.
