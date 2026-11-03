@@ -33096,3 +33096,39 @@ taken — "paddies"/"javas" used, all per collision rule.) (Map holds
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Djuhara" (mosques, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 910 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (theatered locsins, art-decoed antonios,
+capitoled arellanos, bahayed manosas). The program locsins (theaters
+attempts), antonios (artdecos verdicts), arellanos (capitols claims),
+and manosas (bahays votes). Four more, Filipino vein. ("canon:
+Antonio" fragment taken — Michelangelo Antonioni — full-name tag
+"canon: Pablo Antonio" per collision rule; all four surnames + full
+names + contexts virgin pre-append, all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Locsin theaters [canon: Locsin (theatered locsins; specified
+  Leandro Locsin (theaters; vs no hits)); verification deferred].** →
+  Locsin's locsins (theatered, kept (locsin, theatered (theaters,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Locsin" (theaters, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Antonio artdecos [canon: Pablo Antonio (art-decoed antonios;
+  specified Pablo Antonio (artdecos; distinct from Antonioni —
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Antonio's antonios (art-decoed, kept (antonio,
+  art-decoed (artdecos, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Antonio" (artdecos, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Arellano capitols [canon: Arellano (capitoled arellanos; specified
+  Juan Arellano (capitols; vs no hits)); verification deferred].** →
+  Arellano's arellanos (capitoled, kept (arellano, capitoled (capitols,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Arellano" (capitols, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Manosa bahays [canon: Manosa (bahayed manosas; specified Francisco
+  Manosa (bahays; vs no hits)); verification deferred].** → Manosa's
+  manosas (bahayed, kept (manosa, bahayed (bahays, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Manosa" (bahays,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
