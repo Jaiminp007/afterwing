@@ -20,8 +20,29 @@ Re-read the recorded transfer probes (5 modes) + A/B retention
 rows from R1/R3/R5/R6 evidence: classify each arm's retained
 behavior as specific (transfer-current ≈ transfer on trained
 contexts only, sharp context tuning) vs generalized (flat transfer
-across contexts, specificity lost). No new probes, no new worlds,
-no re-scoring — a diagnostic overlay, not a verdict change.
+across contexts, specificity lost). Reactivation probe (R790 —
+Tayler 2011): test whether transfer contexts reactivate the
+training ensemble's trace (probe-response similarity) —
+reactivation failure is the specific form of general-channel
+failure. No new probes, no new worlds, no re-scoring — a
+diagnostic overlay, not a verdict change.
+
+## Structural answer (R790 — Stooke 2020, ATC decoupling)
+
+If the diagnostic finds entanglement (one head carrying both
+channels), the specified refactor is separation, not another
+gate: representation learned contrastively and frozen, policy
+learned reward-driven on top. Multi-task encoders generalizing
+downstream is the existence proof. This supersedes gating as the
+default next operation — gate only what separation cannot divide.
+
+## Null to rule out (R790 — Asok 2019, adaptive generalization)
+
+Before any failure classification: rule out the gate bug —
+generalization as adaptation (appropriate response to non-identical
+contexts) punished by a specificity-demanding gate. The diagnostic
+reports adaptiveness-vs-failure as its first cut; a gap that is
+the system working must not be filed as the system broken.
 
 ## What it licenses
 
