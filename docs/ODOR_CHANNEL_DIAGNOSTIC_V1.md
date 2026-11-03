@@ -337,6 +337,21 @@ rationale aimed at the readout should expect weight changes
 with unchanged starvation; one aimed at the debt must change
 the world economics, not the head.
 
+## Executed re-reading 22 (2026-11-02, read-only: spent transfer probes + R10 verdict)
+
+Decision volume does not track transfer — on either arm.
+Split-arm probe decisions vs R10 lift: 512→+1.01/+1.28,
+768→−0.16/−2.94, 810→−3.68, 1024→+3.42/+2.34, 1151→+2.77.
+Plain-arm (R1) likewise: winners span 256–998 decisions,
+losers 256–1024. The two smallest volumes both win; the
+largest non-winner loses big. Naive exploration-volume as
+the transfer channel is descriptively dead (n=8, both arms).
+This is why the bar's open example (c) demands a NAMED channel
+plus conversion-to-budget proof: volume alone predicts nothing,
+so any modulation proposal must say what exactly is modulated
+and show the budget conversion — otherwise it is a re-tune
+with an exploration costume. Constrains, licenses nothing.
+
 ## Executed re-reading 18 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
 
 Transfer feasts fine; the debt is all entry. Per-third mean energies
