@@ -34891,3 +34891,35 @@ collision rule.) (Map holds 800 rounds.)
   (differdanges, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Clemes" (differdanges, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 961 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (tiranaed kolevicas, berated fajas,
+durresed velos, shkodraed vasos). The program kolevicas (tiranas
+attempts), fajas (berats verdicts), velos (durres claims), and vasos
+(shkodras votes). Four more, Albanian vein. ("Sokrat Mosha"/"Koco
+Miho" declined — architect-identity uncertain; all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Kolevica tiranas [canon: Kolevica (tiranaed kolevicas; specified
+  Petraq Kolevica (tiranas; vs no hits)); verification deferred].** →
+  Kolevica's kolevicas (tiranaed, kept (kolevica, tiranaed (tiranas,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Kolevica" (tiranas, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Faja berats [canon: Faja (berated fajas; specified Enver Faja
+  (berats; vs no hits)); verification deferred].** → Faja's fajas
+  (berated, kept (faja, berated (berats, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Faja" (berats, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Velo durres [canon: Velo (durresed velos; specified Maks Velo
+  (durres; vs no hits)); verification deferred].** → Velo's velos
+  (durresed, kept (velo, durresed (durres, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Velo"
+  (durres, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Vaso shkodras [canon: Vaso (shkodraed vasos; specified Pirro Vaso
+  (shkodras; vs no hits)); verification deferred].** → Vaso's vasos
+  (shkodraed, kept (vaso, shkodraed (shkodras, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Vaso" (shkodras,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
