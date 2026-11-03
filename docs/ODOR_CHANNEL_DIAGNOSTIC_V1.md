@@ -389,7 +389,12 @@ decided elsewhere. A with-odor transfer probe would be a
 different instrument class entirely; transfer-side is CLOSED
 per C16 and the C17-bar, so this is noted and NOT licensed —
 but it bounds what all our transfer numbers mean: echoes,
-not judgments.
+not judgments. Precision (2026-11-02): odor-free transfer is
+BY CONSTRUCTION, not accident — the experiment hard-codes
+odorPresent=false in transfer (own-cue forced [0,0,0,0]); the
+front door is bricked into the architecture, and B-probes
+(odorfrac 1.000) confirm the other training world bears odor
+normally. The instrument tests extinction by design.
 
 ## Executed re-reading 27 (2026-11-02, read-only: spent R10 + R1 D-anchors)
 
