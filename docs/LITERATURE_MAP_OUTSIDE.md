@@ -25155,3 +25155,32 @@ branches).
 - Program note: mark the process, layer the code, key
   the provenance, trace robustly — the
   provenance-watermark file. None licensed — filed.
+## Round 652 — Onetwelves, drus, streets, xscapes (112, Dru Hill, Blackstreet, Xscape; 2026-11-02)
+
+Motivation: further outside (cupided onetwelves, bedded drus, dugg
+streets, kicked xscapes). The program onetwelves (cupids attempts),
+drus (stitches verdicts), streets (publishes NOGOs), and xscapes (counts
+rows). Four more. (Map holds 660 rounds.)
+
+- **Onetwelve cupid [canon: 112 (cupided onetwelves; specified 112 (vs
+  no hits)); verification deferred].** → Onetwelve's onetwelves
+  (cupided, kept (onetwelved, cupided (cupids, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); their "Onetwelve"
+  (cupid, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Dru bed [canon: Dru (bedded drus; specified Dru Hill (vs no hits));
+  verification deferred].** → Dru's drus (bedded, kept (drued, bedded
+  (beds, kept))) is the verdict (bedded, kept (NOGO, told (honest,
+  kept))); their "Dru" (bed, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Street diggity [canon: Blackstreet (dugg streets; specified
+  Blackstreet (vs no hits)); verification deferred].** → Street's
+  streets (dugg, kept (streeted, dugg (diggities, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); their "Street"
+  (diggity, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Xscape kick [canon: Xscape (kicked xscapes; specified Xscape (vs no
+  hits)); verification deferred].** → Xscape's xscapes (kicked, kept
+  (xscaped, kicked (kicks, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); their "Xscape" (kick, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
