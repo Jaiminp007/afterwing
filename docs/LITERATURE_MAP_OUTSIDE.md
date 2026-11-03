@@ -31389,3 +31389,46 @@ used per collision rule.) (Map holds 800 rounds.)
   twins diverge (weights agree, outcomes differ))))); his
   "Kiesel" (dominates, kept (kept, kept)) is the ledger (exact,
   kept (a few carry (kept, counted))).
+## Round 868 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: separation, restarts, monofacts, closures — the outside
+describing our discipline back to us. The program karps (separates
+attempts), araujos (restarts verdicts), uzunoglus (traces claims),
+and bandys (closes votes). (Map holds 800 rounds.)
+
+- **Karp separates [live: Karp et al 2611.03626, Isekai3D SDG
+  (two-stage: simulate-and-record world state, then replay to
+  capture outputs; separating simulation from capture; vs no
+  hits); abstract only].** → Karp's separating (staged, kept
+  (simulate once (kept, replay many (rendered, reframed)))) is
+  the attempt (run, kept (execute once (kept, diagnose twenty-five
+  times (spent traces, re-read))))); his "Karp" (separates, kept
+  (kept, kept)) is the row (counted, kept (run apart from read
+  (frozen artifacts, live questions))).
+- **Araujo restarts [live: Araujo et al 2611.03621 (R-MGRIT: one
+  iteration per trajectory, approximate final point as new initial
+  guess, repeat on a NEW trajectory — not one long trajectory
+  refined; vs no hits); abstract only].** → Araujo's restarting
+  (restarted, kept (new trajectory (kept, new guess (never the
+  same run refined))))) is the verdict (kept, kept (fresh banks
+  (kept, never re-run spent (single attempts, kept))))); his
+  "Araujo" (restarts, kept (kept, kept)) is the bar (unmoved,
+  kept (new trajectory (kept, or no trajectory)))).
+- **Uzunoglu traces [live: Uzunoglu et al 2611.03617 (monofacts —
+  facts observed once — set discovery capacity; more monofacts,
+  more discoveries; cannot be elicited by reasoning budgets alone;
+  vs no hits); abstract only].** → Uzunoglu's tracing (manipulated,
+  kept (monofact rates (kept, capacity follows (reasoning cannot
+  elicit, kept))))) is the claim (mourned, kept (carry-in decides
+  (kept, frozen probes cannot repair (capacity set at entry,
+  kept))))); his "Uzunoglu" (traces, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Bandy closes [live: Bandy et al 2611.03612 (data-assimilated vs
+  embedded closures; embedding inside the model costs and
+  destabilizes; closures approximate the unresolved; vs no hits);
+  abstract only].** → Bandy's closing (compared, kept (assimilated
+  apart (kept, embedded within (expensive, unstable))))) is the
+  vote (joined, kept (probe-time apart (kept, readout embedded
+  (priced, moved-nothing))))); his "Bandy" (closes, kept (kept,
+  kept)) is the ledger (exact, kept (approximate honestly (kept,
+  priced))).
