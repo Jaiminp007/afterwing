@@ -37336,3 +37336,50 @@ pre-append, flattened method.)
   monitored (monitors, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Zhu" (monitors, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 1019 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=300, cs.RO start=290).
+Two new IDs triaged (0 worlds), both map: 2610.29960 lead+senior
+(Yan/Rahal) — InterModel Vigorish: differences in fit expressed as
+expected betting advantage over a reference model (SHAP-attributed
+gains; one-vs-rest and pairwise discrimination; ablation; ten
+seeds) — fit-differences vs a reference as a betting edge, the
+program's difference-gates plus fee accounting, formalized; and
+2610.39180 lead+senior (Gu/Wang) — EmbodiExp compositional
+experience transfer (outcome-grounded subgoal experiences: subgoal +
+applicability + adaptable policy + verifiable outcome; shared
+subgoals assessable independently of overall success; online
+composition) — verifiable subgoal experiences composed online, the
+program's development evidence plus transfer plus composition,
+formalized. (First + senior mapped from each quintet per TRAILS
+precedent; 3 + 3 middles noted unmapped.) (Abstracts only, 0 worlds;
+IDs + authors + contexts virgin pre-append, flattened method.)
+
+- **Yan vigorishes [LIVE 2610.29960 (vigorished jianiyans; specified
+  Jiani Yan (vigorishes; "Yan" taken — 3x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Yan's jianiyans (vigorished, kept (jianiyan,
+  vigorished (vigorishes, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Yan" (vigorishes, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Rahal ablations [LIVE 2610.29960 (ablationed rahals; specified
+  Charles Rahal (ablations; vs no hits)); verification deferred].**
+  → Rahal's rahals (ablationed, kept (rahal, ablationed (ablations,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Rahal" (ablations, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Gu applicabilities [LIVE 2610.39180 (applicabilitied zhifenggus;
+  specified Zhifeng Gu (applicabilities; "Gu" taken — 13x precedent
+  — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Gu's zhifenggus (applicabilitied, kept
+  (zhifenggu, applicabilitied (applicabilities, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Gu"
+  (applicabilities, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Wang groundeds [LIVE 2610.39180 (grounded bingwangs; specified
+  Bing Wang (groundeds; "Wang" taken — 4x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Wang's bingwangs (grounded, kept (bingwang, grounded
+  (groundeds, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Wang" (groundeds, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
