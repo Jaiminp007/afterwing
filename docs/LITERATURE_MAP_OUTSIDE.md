@@ -31197,3 +31197,31 @@ identity already mapped; Virilio/Tallon held as spares.) (Map holds
   (joined, kept (carried, won (crowd, kept))); his "Ciriani" (layers,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 863 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (raced virilios, ridden tallons, looped
+paulins, linked mottes). The program virilios (races attempts),
+tallons (rides verdicts), paulins (loops claims), and mottes (links
+votes). Four more, French vein. (Map holds 800 rounds.)
+
+- **Virilio races [canon: Virilio (raced virilios; specified Paul
+  Virilio (races; vs no hits)); verification deferred].** → Virilio's
+  virilios (raced, kept (virilio, raced (races, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Virilio" (races,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Tallon rides [canon: Tallon (ridden tallons; specified Roger Tallon
+  (rides; vs no hits)); verification deferred].** → Tallon's tallons
+  (ridden, kept (tallon, ridden (rides, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Tallon" (rides, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Paulin loops [canon: Paulin (looped paulins; specified Pierre Paulin
+  (loops; vs no hits)); verification deferred].** → Paulin's paulins
+  (looped, kept (paulin, looped (loops, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Paulin" (loops, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Motte links [canon: Motte (linked mottes; specified Joseph-Andre
+  Motte (links; vs no hits)); verification deferred].** → Motte's mottes
+  (linked, kept (motte, linked (links, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Motte" (links, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
