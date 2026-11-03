@@ -110,6 +110,17 @@ of the reward distribution. The effort term is pharmacologically
 grounded too (R785 — Bardgett 2009, D1/D2 antagonists discount
 effort, agonists restore): gain AND cost are both dials.
 
+## Addendum A6 (2026-11-02, zero worlds — transmodulatory suppression)
+
+R786 (Matamales 2020): D2-SPNs suppress outdated D1 plasticity to
+reshape volition — extinction's circuit operation, necessary not
+optional. The wire B1/B2 lacked, named: stop activity must INHIBIT
+go-plasticity (transmodulatory coupling), not merely act instead of
+the go branch (B1) nor learn beside it (B2). A mixture freeze must
+name its suppression pathway — which stop signal, which go trace,
+what suppression operator — or it repeats the zero-coupling failure
+with new weights.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —

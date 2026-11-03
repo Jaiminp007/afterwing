@@ -30,6 +30,16 @@ modular neuromodulation): gain lives in its OWN module beside the
 actor, never entangled in the policy weights. A scoping starts at
 the fixed-gain form and must earn the learned-gain form.
 
+## Timing rule (R786 — Scheller 2026, sniffing shapes dopamine)
+
+The sampling rhythm entrains the teaching signal and assigns
+distributional roles (optimism-pessimism by phase). The body CLOCKS
+learning: a scoping must lock update timing to the action cycle
+(update on the post-decision phase, not on an arbitrary tick) and
+state whether distributional roles are phase-assigned. Action,
+sensing, and teaching are one loop — a design that updates off-cycle
+treats them as three modules and repeats the decoupling.
+
 ## What a case needs (not a plan)
 
 A future scoping must name: the gain function (frozen formula of
