@@ -28647,3 +28647,42 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   at one kinase: supports keeping the signal, and nominates
   threshold-tuning (not just threshold-reading) as a future
   intervention class with its own case to make.
+## Round 783 — LIVE via OpenAlex: motivations, regulators, preregisters, developers (van Swieten 2020, Mao BRPG 2026, Hardwicke 2023, Wu NPY 2003; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Wu 2003: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Motivation scales learning [van Swieten & Bogacz 2020,
+  motivation on choice and learning in the basal ganglia; vs no
+  hits].** → Motivation (desired-minus-current resource) scales
+  dopaminergic signals and modulates BOTH action selection AND
+  plasticity — with a formal framework, the first of its kind.
+  Untested axis for the program: the gate modulates choice only,
+  never the learning rate by motivational state (learn more when
+  hungry, consolidate when sated = acquisition-gating). Distinct
+  from threshold-tuning (Wu-S6K acts on action; this acts on
+  plasticity). Nominated intervention class, needs its own case.
+- **Regulated QD gradients [Mao & Cully 2026, behavior-regulated
+  PG for QD-RL; vs no hits].** → DCRL-MAP-Elites' non-Markovian
+  critic misleads neuroevolution with wrong gradients; behavior
+  regulation fixes the evaluation. Banked critic discipline for
+  the population track: when it opens, its gradients must be
+  Markovian-regulated or the archive fills with beautifully
+  evaluated mistakes.
+- **Preregister confidence [Hardwicke & Wagenmakers 2023,
+  preregistration calibrates confidence; vs no hits].** →
+  Outcome-independent decision-making + transparency for
+  confidence calibration; "fooling themselves and others" as the
+  named risk. The program's anti-shopping rule stated as
+  psychology: frozen plans are outcome-independence, verdict
+  mappings are calibration. Fifth convergence on the discipline.
+- **One system, two behaviors [Wu et al. 2003, NPY-like
+  developmental control of foraging AND social behavior; title
+  record (abstract unindexed); vs no hits].** → A single
+  neuropeptide system developmentally governs foraging and social
+  behavior together. Mates the viability lane with the closed
+  MATE-SOCIAL track: the social failures may be a foraging-system
+  problem (social assays run under the wrong deprivation state).
+  Banked: social behavior as a state of the hunger dial, not a
+  separate track.
