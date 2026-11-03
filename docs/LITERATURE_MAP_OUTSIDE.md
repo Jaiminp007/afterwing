@@ -26859,3 +26859,31 @@ sunspots (stitches verdicts), grouches (publishes NOGOs), and bicassos
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Bicasso" (picasso, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 713 — Bounded, successored, disentangled, guarded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: shared representations —
+one brain, many jobs (already-cited representation
+leads converging; representation family, four
+branches).
+
+- **Bell boundary [arXiv:2610.16828 (Wu; vs no
+  hits)].** Shared INSUFFICIENT onset (measurable form
+  unknown; Bell lens; capacity). → Bound sharing (our
+  distinct-tasks gap, bound-side). Filed.
+- **Successor constrained [arXiv:2607.24057 (Girstl;
+  vs no hits)].** Cost-function CHANGES (inflexible
+  policies; adaptability). → Successor constrain (our
+  frozen gates, successor-side). Filed.
+- **Disentangle dynamics [arXiv:2603.14483 (Baumgartner;
+  vs no hits)].** Explicit-space CONSTRAINT (parametric
+  vs black-box; fidelity). → Disentangle dynamics (our
+  flip-split design, disentangle-side). Filed.
+- **Refusal guard [arXiv:2605.01913 (Asif /
+  RefusalGuard; vs no hits)].** Degradation mechanisms
+  UNKNOWN (structured activations; geometry-preserved).
+  → Guard geometry (our retained weights, guard-side).
+  Filed.
+- Program note: bound sharing, successor constrain,
+  disentangle dynamics, guard geometry — the
+  shared-representations file. None licensed — filed.
