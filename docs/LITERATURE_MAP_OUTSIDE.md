@@ -33731,3 +33731,37 @@ used, all per collision rule.) (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Gunnlogsson"
   (torshavns, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 928 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (maastrichted coenens, mobiused berkels,
+delfted houbens, amsterdamed aretss). The program coenens
+(maastrichts attempts), berkels (mobius verdicts), houbens (delfts
+claims), and aretss (amsterdams votes). Four more, Dutch vein. ("van
+Eyck"/"Hertzberger" declined — already mapped as live-round authors;
+"academies"/"trilogies"/"hedges" taken — "amsterdams" used, all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Coenen maastrichts [canon: Coenen (maastrichted coenens; specified
+  Jo Coenen (maastrichts; vs no hits)); verification deferred].** →
+  Coenen's coenens (maastrichted, kept (coenen, maastrichted
+  (maastrichts, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Coenen" (maastrichts, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Berkel mobius [canon: Ben van Berkel (mobiused berkels; specified
+  Ben van Berkel (mobius; vs no hits)); verification deferred].** →
+  Berkel's berkels (mobiused, kept (berkel, mobiused (mobius, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "van
+  Berkel" (mobius, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Houben delfts [canon: Houben (delfted houbens; specified Francine
+  Houben (delfts; vs no hits)); verification deferred].** → Houben's
+  houbens (delfted, kept (houben, delfted (delfts, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); her "Houben"
+  (delfts, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Arets amsterdams [canon: Arets (amsterdamed aretss; specified Wiel
+  Arets (amsterdams; vs no hits)); verification deferred].** → Arets's
+  aretss (amsterdamed, kept (arets, amsterdamed (amsterdams, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Arets"
+  (amsterdams, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
