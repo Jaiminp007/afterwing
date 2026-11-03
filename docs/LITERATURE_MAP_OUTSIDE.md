@@ -27192,3 +27192,29 @@ Four more. (Map holds 732 rounds.)
   (yaked, balled (ballz, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Yak" (ballz, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 725 — Lucided, shallowed, dummied, unsupervized (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: preconditioned attention —
+focus without freezing (already-cited attention leads
+converging; attention family, four branches).
+
+- **LUCID [arXiv:2602.10410 (Duvvuri; vs no hits)].**
+  Softmax DIFFUSES mass (sharpening kills gradients;
+  precondition). → Lucid attention (our scorer
+  design, lucid-side). Filed.
+- **Shallow batteries [arXiv:2304.05084 (Chen; vs no
+  hits)].** No labeled DATA (partial-range reality;
+  different profiles). → Shallow cycle (our spent
+  banks, shallow-side). Filed.
+- **Dummy proto [arXiv:2206.13691 (Kim; vs no hits)].**
+  REJECT unknowns (open-set; N-way M-shot +
+  unexpected). → Dummy prototypes (our unlearned
+  baseline, dummy-side). Filed.
+- **Unsupervised KWS [arXiv:2210.02732 (Lee; vs no
+  hits)].** SYNTHETIC only (metric learning;
+  distance). → Unsupervise spotting (our fresh banks,
+  unsupervise-side). Filed.
+- Program note: lucid attention, shallow cycle, dummy
+  prototypes, unsupervise spotting — the
+  preconditioned-attention file. None licensed — filed.
