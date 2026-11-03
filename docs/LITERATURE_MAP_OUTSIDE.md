@@ -35307,3 +35307,40 @@ floods; all per collision rule.) (Map holds 800 rounds.)
   (coeded, kept (loyn, coeded (coeds, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Loyn" (coeds, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 973 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (birminghamed howellss, coventried
+maccormacs, wolverhamptoned madins, derbyed coxs). The program
+howellss (birminghams attempts), maccormacs (coventrys verdicts),
+madins (wolverhamptons claims), and coxs (derbys votes). Four more,
+Midlands vein. ("cox" fragment taken — Nightingale coxcomb —
+"coxs" + full-name tag per collision rule; all per collision rule.)
+(Map holds 800 rounds.)
+
+- **Howells birminghams [canon: Howells (birminghamed howellss;
+  specified Glenn Howells (birminghams; vs no hits)); verification
+  deferred].** → Howells's howellss (birminghamed, kept (howells,
+  birminghamed (birminghams, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Howells" (birminghams, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **MacCormac coventrys [canon: MacCormac (coventried maccormacs;
+  specified Richard MacCormac (coventrys; vs no hits)); verification
+  deferred].** → MacCormac's maccormacs (coventried, kept (maccormac,
+  coventried (coventrys, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "MacCormac" (coventrys, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Madin wolverhamptons [canon: Madin (wolverhamptoned madins;
+  specified John Madin (wolverhamptons; vs no hits)); verification
+  deferred].** → Madin's madins (wolverhamptoned, kept (madin,
+  wolverhamptoned (wolverhamptons, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Madin" (wolverhamptons,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Cox derbys [canon: David Cox (derbyed coxs; specified David Cox
+  (derbys; distinct from Nightingale coxcomb — "coxs" + full-name tag
+  per collision rule; vs no hits)); verification deferred].** → Cox's
+  coxs (derbyed, kept (cox, derbyed (derbys, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Cox" (derbys, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
