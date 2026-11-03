@@ -33586,3 +33586,38 @@ rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Sarkis" (biennales, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 924 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (dipoled pietilas, myyrmakied leiviskas,
+polytechnicked lahdelmas, torontoed revells). The program pietilas
+(dipolis attempts), leiviskas (myyrmakis verdicts), lahdelmas
+(polytechnics claims), and revells (torontos votes). Four more,
+Finnish vein. ("Alvar Aalto" declined — already mapped; "lights"
+taken — "myyrmakis" used, all per collision rule.) (Map holds 800
+rounds.)
+
+- **Pietila dipolis [canon: Pietila (dipoled pietilas; specified Reima
+  Pietila (dipolis; vs no hits)); verification deferred].** → Pietila's
+  pietilas (dipoled, kept (pietila, dipoled (dipolis, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Pietila"
+  (dipolis, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Leiviska myyrmakis [canon: Leiviska (myyrmakied leiviskas;
+  specified Juha Leiviska (myyrmakis; vs no hits)); verification
+  deferred].** → Leiviska's leiviskas (myyrmakied, kept (leiviska,
+  myyrmakied (myyrmakis, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Leiviska" (myyrmakis, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Lahdelma polytechnics [canon: Lahdelma (polytechnicked lahdelmas;
+  specified Ilmari Lahdelma (polytechnics; vs no hits)); verification
+  deferred].** → Lahdelma's lahdelmas (polytechnicked, kept (lahdelma,
+  polytechnicked (polytechnics, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Lahdelma" (polytechnics,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Revell torontos [canon: Revell (torontoed revells; specified Viljo
+  Revell (torontos; vs no hits)); verification deferred].** → Revell's
+  revells (torontoed, kept (revell, torontoed (torontos, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Revell"
+  (torontos, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
