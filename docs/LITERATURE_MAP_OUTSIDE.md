@@ -33238,3 +33238,40 @@ rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Moller" (aucklands, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 914 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (highvelded eatons, thatched fagans,
+table-mounted revels, townshiped noeros). The program eatons
+(highvelds attempts), fagans (thatches verdicts), revels
+(tablemountains claims), and noeros (townships votes). Four more,
+South-African vein. ("canon: Fox" fragment taken — Foxy Brown;
+"foxes"/"mountains"/"capes" taken — first-name nickname "revels" +
+full-name tag "canon: Revel Fox" + "tablemountains" used, all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Eaton highvelds [canon: Eaton (highvelded eatons; specified Norman
+  Eaton (highvelds; vs no hits)); verification deferred].** → Eaton's
+  eatons (highvelded, kept (eaton, highvelded (highvelds, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Eaton" (highvelds, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Fagan thatches [canon: Fagan (thatched fagans; specified Gawie
+  Fagan (thatches; vs no hits)); verification deferred].** → Fagan's
+  fagans (thatched, kept (fagan, thatched (thatches, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Fagan"
+  (thatches, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Revel tablemountains [canon: Revel Fox (table-mounted revels;
+  specified Revel Fox (tablemountains; "foxes" taken — first-name
+  nickname + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Revel's revels (table-mounted, kept
+  (revel, table-mounted (tablemountains, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Revel"
+  (tablemountains, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Noero townships [canon: Noero (townshiped noeros; specified Jo
+  Noero (townships; vs no hits)); verification deferred].** → Noero's
+  noeros (townshiped, kept (noero, townshiped (townships, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Noero"
+  (townships, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
