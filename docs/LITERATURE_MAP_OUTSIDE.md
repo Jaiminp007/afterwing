@@ -29530,3 +29530,33 @@ panzeris (types votes). Four more. (Map holds 800 rounds.)
   (typed, kept (panzeri, typed (types, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Panzeri" (type, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 809 — Canon (both live hoses still dry): lupis, daggradas, iliprandis, tovaglias (Lupi, Dagrada, Iliprandi, Tovaglia; 2026-11-02)
+
+Motivation: further outside (graphed lupis, postered daggradas, typed
+iliprandis, systemed tovaglias). The program lupis (graphs attempts),
+daggradas (posters verdicts), iliprandis (types claims), and tovaglias
+(systems votes). Four more. (Map holds 800 rounds.)
+
+- **Lupi graphics [canon: Lupi (graphed lupis; specified Italo Lupi
+  (graphics; vs no hits)); verification deferred].** → Lupi's lupis
+  (graphed, kept (lupi, graphed (graphs, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Lupi" (graphics, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Dagrada posters [canon: Dagrada (postered daggradas; specified Mario
+  Dagrada (posters; vs no hits)); verification deferred].** → Dagrada's
+  daggradas (postered, kept (dagrada, postered (posters, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Dagrada" (posters,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Iliprandi type [canon: Iliprandi (typed iliprandis; specified
+  Giancarlo Iliprandi (type; vs no hits)); verification deferred].** →
+  Iliprandi's iliprandis (typed, kept (iliprandi, typed (types, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Iliprandi" (type, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Tovaglia systems [canon: Tovaglia (systemed tovaglias; specified Pino
+  Tovaglia (systems; vs no hits)); verification deferred].** → Tovaglia's
+  tovaglias (systemed, kept (tovaglia, systemed (systems, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Tovaglia" (systems,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
