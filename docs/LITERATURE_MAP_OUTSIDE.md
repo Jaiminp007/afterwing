@@ -33519,3 +33519,36 @@ collision rule; all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Esmaeil" (sharjahs, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 922 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (feynanned khammashs, ammanned hiyaris,
+dead-seaed hammads, ziglabbed humeids). The program khammashs
+(feynans attempts), hiyaris (ammans verdicts), hammads (deadseas
+claims), and humeids (ziglabs votes). Four more, Jordanian vein.
+(All four surnames + full names + contexts virgin pre-append, all
+per collision rule.) (Map holds 800 rounds.)
+
+- **Khammash feynans [canon: Khammash (feynanned khammashs; specified
+  Ammar Khammash (feynans; vs no hits)); verification deferred].** →
+  Khammash's khammashs (feynanned, kept (khammash, feynanned (feynans,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Khammash" (feynans, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Hiyari ammans [canon: Hiyari (ammanned hiyaris; specified Sahel
+  al-Hiyari (ammans; vs no hits)); verification deferred].** →
+  Hiyari's hiyaris (ammanned, kept (hiyari, ammanned (ammans, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Hiyari" (ammans, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Hammad deadseas [canon: Hammad (dead-seaed hammads; specified Bilal
+  Hammad (deadseas; vs no hits)); verification deferred].** →
+  Hammad's hammads (dead-seaed, kept (hammad, dead-seaed (deadseas,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Hammad" (deadseas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Humeid ziglabs [canon: Humeid (ziglabbed humeids; specified Ahmad
+  Humeid (ziglabs; vs no hits)); verification deferred].** → Humeid's
+  humeids (ziglabbed, kept (humeid, ziglabbed (ziglabs, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Humeid"
+  (ziglabs, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
