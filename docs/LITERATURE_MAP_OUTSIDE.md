@@ -25406,3 +25406,29 @@ Four more. (Map holds 668 rounds.)
   funkdafied (funks, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); her "Brat" (funk, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 661 — Momentumed, centered, guided, carried (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: momentum worlds — carry
+the trend forward (already-cited world-model leads
+converging; momentum family, four branches).
+
+- **Momentum world [arXiv:2609.33737 (Song / MomWorld;
+  vs no hits)].** Single-state rollouts ATTENUATE (stale
+  patterns retained; trends lost). → Carry momentum
+  (our staged search, momentum-side). Filed.
+- **Entity center [arXiv:2605.15466 (Paidi; vs no
+  hits)].** Patch-masking TEXTURE-blind (rare kinematics
+  missed; physics-blind). → Center entities (our
+  per-agent rows, center-side). Filed.
+- **Momentum guide [arXiv:2508.01218 (Liu / MoGaFace;
+  vs no hits)].** Continuous REFINEMENT (misalignment
+  loses detail; texture-aware). → Guide momentum (our
+  diagnose-fix, guide-side). Filed.
+- **Cooperative carry [arXiv:2610.32460 (Lin / CoCarry;
+  vs no hits)].** Cross-agent RELATIONS (shared grasp;
+  220 synchronized; support-structured). → Carry together
+  (our multi-line synthesis, carry-side). Filed.
+- Program note: carry momentum, center entities, guide
+  momentum, carry together — the momentum-worlds file.
+  None licensed — filed.
