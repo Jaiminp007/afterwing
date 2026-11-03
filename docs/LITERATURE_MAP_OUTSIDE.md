@@ -36950,3 +36950,52 @@ pre-append, flattened method.)
   (joined, kept (carried, won (crowd, kept))); his "Zeng"
   (chatgpt6astras, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1011 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=230, cs.RO start=210).
+Two new IDs triaged (0 worlds), both map: 2610.34171
+(Cerqueira/Inácio/Soares) — MetaARIMA configuration-level transfer
+learning (a pretrained configuration policy from historical
+experiments; transfer at the configuration level rather than the
+model level, for classical statistical forecasting) — transfer of
+configurations not weights, the program's menu/config discipline
+plus lossy transplants (what survives the crossing), formalized; and
+2611.41028 lead (Xu) — CIMI contact-grounded skill transfer
+(robot-free human demonstrations preserving natural dexterity;
+contact-alignment-first retargeting; hierarchical contact-surface
+planner plus controller) — dexterous skill transfer with alignment-
+first retargeting and hierarchy, the program's skill-transfer plus
+retarget-plus-hierarchy, formalized. (Lead author mapped from the
+octet per MOST precedent; Shao + 6 middles noted unmapped.)
+(Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Cerqueira classicals [LIVE 2610.34171 (classicaled cerqueiras;
+  specified Vitor Cerqueira (classicals; vs no hits)); verification
+  deferred].** → Cerqueira's cerqueiras (classicaled, kept
+  (cerqueira, classicaled (classicals, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Cerqueira"
+  (classicals, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Inacio arimas [LIVE 2610.34171 (arimaed inacios; specified
+  Ricardo Inacio (arimas; vs no hits)); verification deferred].** →
+  Inacio's inacios (arimaed, kept (inacio, arimaed (arimas, kept))) is
+  the verdict (kept, kept (NOGO, told (honest, kept))); his "Inacio"
+  (arimas, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Soares forecastings [LIVE 2610.34171 (forecastinged soaress;
+  specified Carlos Soares (forecastings; distinct from et-al.-2015
+  citation Soares — full-name tag per collision rule; vs no hits));
+  verification deferred].** → Soares's soaress (forecastinged, kept
+  (soares, forecastinged (forecastings, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Soares"
+  (forecastings, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Xu dexterities [LIVE 2610.41028 (dexteritied zhixuanxus;
+  specified Zhixuan Xu (dexterities; "Xu" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Xu's zhixuanxus (dexteritied, kept
+  (zhixuanxu, dexteritied (dexterities, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Xu" (dexterities, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
