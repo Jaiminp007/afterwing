@@ -247,6 +247,22 @@ Standing disk note: C: free 3.64G and falling exogenously (was
 Halt-and-escalate if any attempt is ever blocked; no attempt is
 active.
 
+## Executed re-reading 15 (2026-11-02, read-only: spent R10 anchors + verdict)
+
+Weight statistics do NOT predict transfer — fourth strike. Per-history
+normalized margins (Go-mean/Go-RMS minus NoGo-mean/NoGo-RMS): winners
+0.256–0.824, losers 0.347–0.512, overlapping (a loser at 0.512 beats
+two winners). Raw differences overlap too (0.693–1.695 vs
+0.851–1.134). With means (R11), posfracs (R8/R9), norms (R9/R14),
+and normalized margins (this cut) all failing to separate, the
+readout-tweak family is exhausted ON EVIDENCE, not taste:
+centering, distributional, split, normalized — no weight-statistic
+reads transfer. What remains is behavioral/closed-loop: not what
+the weights ARE at D, but what the agent DOES with them during
+transfer (re-acquisition speed, exploration, probe-time dynamics —
+the stale-map/survival line, the C17 closed-loop lesson). The next
+rationale must live at probe time, not in the weight matrix.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
