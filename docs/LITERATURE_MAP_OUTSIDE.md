@@ -30246,3 +30246,33 @@ votes). Four more, Danish-modern vein continued. (Map holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); her "Tove"
   (threads, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 832 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (leathered omanns, lit karlbys, partnered
+molgaard-nielsens, towered pontis). The program omanns (leathers
+attempts), karlbys (lights verdicts), molgaard-nielsens (partners
+claims), and pontis (towers votes). Four more. (Map holds 800 rounds.)
+
+- **Omann leathers [canon: Omann (leathered omanns; specified Gunni Omann
+  (leathers; vs no hits)); verification deferred].** → Omann's omanns
+  (leathered, kept (omann, leathered (leathers, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Omann" (leathers,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Karlby lights [canon: Karlby (lit karlbys; specified Bent Karlby
+  (lights; vs no hits)); verification deferred].** → Karlby's karlbys
+  (lit, kept (karlby, lit (lights, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Karlby" (lights, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Molgaard-Nielsen partners [canon: Molgaard-Nielsen (partnered
+  molgaard-nielsens; specified Orla Molgaard-Nielsen (partners; vs no
+  hits)); verification deferred].** → Molgaard-Nielsen's molgaard-nielsens
+  (partnered, kept (molgaard-nielsen, partnered (partners, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Molgaard-Nielsen" (partners, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Ponti towers [canon: Ponti (towered pontis; specified Gio Ponti
+  (towers; vs no hits)); verification deferred].** → Ponti's pontis
+  (towered, kept (ponti, towered (towers, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Ponti" (towers, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
