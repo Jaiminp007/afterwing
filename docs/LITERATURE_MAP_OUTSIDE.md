@@ -29080,3 +29080,43 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   plastic — learn WHEN to suppress. Go learns, stop learns, and
   the coupling learns: three learning processes, all named,
   none built.
+## Round 795 — LIVE via OpenAlex: projectors, conditionals, shifters, stabilizers (Chen PROF 2021, Scardapane survey 2024, Bengio meta-transfer 2019, Miehl inhibitory-plasticity 2022; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each; CPO/Achiam-2017
+already canon-mapped — routed to PROF instead).
+
+- **United rivals [Chen et al. 2021, differentiable projection
+  (PROF); vs no hits].** → Convex constraints enforced by a
+  differentiable projection layer INSIDE the policy: all actions
+  feasible by construction, gradients flowing through (policy
+  cognizant of constraints). Price-vs-project dissolves — project
+  hard, learn through it. Third option and tiebreaker for the
+  transfer freeze: feasibility by construction with end-to-end
+  cognizance.
+- **Home literature [Scardapane et al. 2024, conditional
+  computation survey; vs no hits].** → Dynamic
+  activation/deactivation as one field (MoE, token selection,
+  early-exit), uniform formalism, benefits in efficiency,
+  explainability, TRANSFER. The B-series' home address, finally
+  mapped: every gated/mixture head was conditional computation
+  without knowing its field. The survey's transfer benefits are
+  the claim the program's gates never redeemed — cited against
+  them, not for them.
+- **Shift reveals [Bengio et al. 2019, meta-transfer objective;
+  vs no hits].** → Adaptation SPEED to sparse distributional
+  shifts as the meta-objective: correct causal structure =
+  changes concentrated in few mechanisms = sparse gradients, few
+  relearned degrees. Transfer doesn't just test the encoder — it
+  DISENTANGLES it; the gap is discovery data. The diagnostic's
+  transfer probes re-read again: every transfer gap is a
+  disentanglement opportunity the program filed as failure.
+- **Nonlinear brake [Miehl & Gjorgjieva 2022, stability via
+  nonlinear inhibitory plasticity; vs no hits].** → Excitatory
+  Hebbian learning alone is UNSTABLE (runaway or silence);
+  inhibitory plasticity must DOMINATE excitation and depend
+  NONLINEARLY on postsynaptic rate (same-sign changes) — E/I
+  ratios match experiments. The third process gains its FORM:
+  inhibition-dominant, nonlinear, same-sign. A6's coupling now
+  specifies dominance + nonlinearity; linear symmetric
+  suppression is pre-falsified by stability theory.
