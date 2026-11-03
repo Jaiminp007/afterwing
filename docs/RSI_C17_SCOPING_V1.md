@@ -85,18 +85,33 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
   billed through `m` like all inference (symmetric billing); memory
   read/write ops billed per op. Deferred numerics (K, S, evidence
   threshold, retention window, cap math) belong in the frozen plan.
-- **Q4 direction-first bar:** pre-registered HB-only prediction
-  (BH must stay flat), pooled-vote ban holds (cue-specific only),
-  shuffled-control dose-match per the C7 CORRECTION precedent.
+- **Q4 direction-first bar: CLOSED 2026-11-02 (analytic).**
+  Pre-registered conjunctive gates, all TRUE (same legs, same bank,
+  same ticks as the exact baseline): (G0 applicability) the memory
+  fires on >=1 HB cue (evidence gate reached); else
+  INCOMPLETE-unfirable — the mechanism never engaged, a
+  substrate-observability fact, not a negative on the mechanism.
+  (G1 direction) HB lift > +0.10 on the correctly-indexed arm vs
+  exact-transfer baseline. (G2 exclusivity) BH stays within +/-0.07
+  of exact baseline (prior BH-noise band); pooled/general recoding
+  ruled out by cue-specific firing. (G3 control) the
+  shuffled-surrogate arm — SAME number of reassignments at the
+  same ticks under the same evidence thresholds, only the target
+  differs (random bank vector vs min-turn vector), per the C7
+  CORRECTION dose-match precedent — shows HB lift <= +0.03; else
+  the lift is generic-recoding and the unlearning claim is INVALID.
+  BH-flat is a veto, not a secondary metric.
 - **Q5 budget/caps:** mains count, tick caps, op caps, single attempt,
   fresh bank range — per C-series discipline (≤22 mains pattern).
-- **Q6 verdict mapping:** GO only on HB lift > +0.10 with BH flat AND
-  shuffled control null; else NOGO/INVALID per fail-closed rules.
+- **Q6 verdict mapping: CLOSED with Q4 (see G0–G3 + retention).**
+  GO iff G0+G1+G2+G3 plus train-side intact within noise; NOGO if
+  G1 fails with G0 met; INVALID if G3 fails or dose mismatches;
+  INCOMPLETE if G0 fails. Fail-closed throughout.
 
 ## Verdict
 
-SCOPED-CANDIDATE (Q1–Q3 closed). C17 remains UNLICENSED until Q4–Q6
-close in a frozen plan. The C17-bar (genuinely new + non-pooled external-or-max +
+SCOPED-CANDIDATE (Q1–Q4 + Q6 closed). C17 remains UNLICENSED until Q5
+closes in a frozen plan. The C17-bar (genuinely new + non-pooled external-or-max +
 direction-first) is provisionally met on paper: input-side (unmapped
 locus), cue-specific external probe statistic, HB-first prediction.
 No bank, no fixtures, no attempt authorized by this doc.
