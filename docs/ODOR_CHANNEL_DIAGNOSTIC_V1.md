@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 35 (2026-11-02, read-only: spent R10 traces)
+
+The steering is an unlearned variance source, not guidance.
+It acts often (25–46% across acquire/transfer) with ~zero
+weights (rms 0.004, R34) and near-flat conditioning: P(steer=1)
+0.19–0.30 across all motor×accept cells, both twins — a ~25%
+coin with a whisper of tilt (accept-rows a touch higher).
+It gates the movement target when it fires, so it injects
+behavioral variance; but with flat conditioning and frozen
+weights, the variance is unlearned. Whether that variance
+HELPS (exploration) or merely jitters is NOT read-only
+decidable — no counterfactual in spent traces. Bounded claim
+only: the third pen is not just dry, it doodles. Guidance
+lives in taste scores + entry + encounter mix (R24/R30); the
+steering contributes unlearned variance of unknown value.
+
 ## Executed re-reading 34 (2026-11-02, read-only: spent R10 anchors A-D)
 
 The colony has one learner, not three. Weight rms by stack:
