@@ -221,6 +221,8 @@ not proof it learns useful behavior in the environment. Its performance study
 has not begun; integration, matched controls and the qualification protocol are
 next. The native research goal is active; no honest overall percentage is known.
 
+Latest (2026-11-02): odor dev rounds 1-6 CLOSED (R1 baseline fail / R2 rehearsal retention-yes-transfer-no / R3 information dead / R4 signal dead / R5 hard-gate starves acquisition / R6 soft-gate poisons trajectory; each single-authorized execution, triage-verified reuse, negatives preserved). Learned-router candidate B4 CLOSED UNSPENT by its own offline license gate (full-phi +0.2pp on 97%-negative base = collapse; spent-trace read-only). Channel diagnostic SPECIFIED + two executed read-only re-readings: transfer probes are odor-free by construction (modality shift; D-specialization interference, not forgetting) and runs end mid-dynamics (53->21 energy, no late plateau; slow-phase proviso stands). Queued specified-unlicensed: silent-recurrent B3 (7 addenda), archive-distillation, acquisition-gating (frozen-form candidate + Meta-SGD earner), population-QD (QDax metrics + coverage limit), censored-Q + Lagrangian/PCPO/PROF transfer formalism (certificates via LMI). Literature map R179-R803 (625 numbered rounds, ~956 arXiv IDs, 0 worlds; live via OpenAlex, canon bridge while rate-limited). No RSI claimed; bounded RSI correctly unreached.
+
 Latest (2026-10-24): resumed the requested research, ignoring the misdirected
 Grok request. [New small engineering checks](CUE_CREDIT_DIAGNOSIS.md) show that
 the smelled cue, steering target and food actually eaten can differ, and that
