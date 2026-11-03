@@ -65,7 +65,37 @@ it is policy-expressiveness, not information). Filed as the
 recorded ROUND-3 candidate (round 2 stays single-hypothesis:
 rehearsal). Freeze decides only if round 2 closes first.
 
-## Open items before a frozen dev plan
+## Open items #1–#3, #5 CLOSED (analytic; freeze adopts verbatim)
+
+- #1 schedule (frozen candidate): A256–B512–A128–C512–A128–D256
+  = 1792 ticks (SAME budget as round 1). Minimal deviation: B/C/D
+  masses identical to round 1; A split 512 → 256+128+128. A-first
+  preserved (anchors + frozen-A comparability); ends in D (transfer
+  probes from D state, unchanged); B/C ≥256 contiguous (B/C
+  acquisition comparable); two A-rehearsal slots.
+- #1b seed rule: A-revisits reuse `history.resourceSeeds[0]` (same A
+  geometry, literal re-exposure). No new seeds — bank-safe by
+  construction; the 8 reused histories suffice unchanged.
+- #2 instrument change list: current machinery caps at 4 phases
+  (`CONTINUAL_PHASES` length-locked; `phaseDurations` must match).
+  Required: a 6-entry rehearsal phase table (new export, A-slots
+  kind 'stable' nutrient .4 shiftEvery 0), anchor rule (anchor every
+  slot; the FINAL A-slot is THE 'A' anchor for frozen probes; keep
+  all six for audit), dev-script curriculum flag. Fixtures for the
+  new table (slot order, tick sums =1792, anchor keys, seed reuse).
+- #3 cap rule: extract round-1 totals from the archived evidence
+  tar at freeze time (read-only) and set absolute tick/op/wall caps
+  at ×1.5 (one new arm + identical probe suite on the same 8
+  histories — bounded by construction).
+- #5 verdict mapping (frozen): GO iff transfer gate (6/8 vs reset
+  AND cheap native-full, nonnegative survivor diffs) AND A ≥ 95%
+  AND B ≥ 95% (rehearsal must not rob B — stricter than round 1,
+  justified); PARTIAL if transfer+A pass but B < 95% (round 3 must
+  protect B); else NO-GO (rehearsal hypothesis closed; round 3 =
+  guard-feature). Descriptive (dev, not qual) in all cases.
+
+Remaining before execution: the frozen dev plan doc (mechanical from
+this scoping) + its fixtures. Still NOT FROZEN.
 
 1. Exact rehearsal schedule (phase masses, slot positions) under
    the fixed-tick budget.
