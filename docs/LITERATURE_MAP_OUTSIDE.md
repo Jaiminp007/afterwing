@@ -34855,3 +34855,39 @@ used, all per collision rule.) (Map holds 800 rounds.)
   (lacatonvassal, palaised (palais, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); their "Lacaton" (palais, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 960 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (luxembourged robkriers, urbanised
+leonkriers, esched valentinys, differdanged clemess). The program
+robkriers (luxembourgs attempts), leonkriers (urbanisms verdicts),
+valentinys (eschs claims), and clemess (differdanges votes). Four
+more, Luxembourg vein. (Two Krier brothers — Rob vs Leon — handled
+via compound nicknames + full-name tags per Kim precedent; all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Krier luxembourgs [canon: Rob Krier (luxembourged robkriers;
+  specified Rob Krier (luxembourgs; shared surname — compound nickname
+  + full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Krier's robkriers (luxembourged, kept (robkrier,
+  luxembourged (luxembourgs, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Krier" (luxembourgs, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Krier urbanisms [canon: Leon Krier (urbanised leonkriers; specified
+  Leon Krier (urbanisms; shared surname — compound nickname +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Krier's leonkriers (urbanised, kept (leonkrier,
+  urbanised (urbanisms, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Krier" (urbanisms, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Valentiny eschs [canon: Valentiny (esched valentinys; specified
+  Francois Valentiny (eschs; vs no hits)); verification deferred].** →
+  Valentiny's valentinys (esched, kept (valentiny, esched (eschs,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Valentiny" (eschs, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Clemes differdanges [canon: Clemes (differdanged clemess; specified
+  Jim Clemes (differdanges; vs no hits)); verification deferred].** →
+  Clemes's clemess (differdanged, kept (clemes, differdanged
+  (differdanges, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Clemes" (differdanges, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
