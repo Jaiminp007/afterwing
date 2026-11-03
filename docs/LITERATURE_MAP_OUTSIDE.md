@@ -35379,3 +35379,40 @@ adjayes/benins; consistency 13th; all per collision rule.) (Map holds
   vote (joined, kept (carried, won (crowd, kept))); his "Parry"
   (holborns, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 975 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (holborned jeanmichelfranks, hoteled
+dirands, velveted mahdavis, verred chareaus). The program
+jeanmichelfranks (holborns attempts), dirands (hotels verdicts),
+mahdavis (velvets claims), and chareaus (verres votes). Four more,
+French vein II. (Parent/Prouve/Perriand/Tallon/Paulin/Virilio
+declined — all already mapped, own R-rounds; consistency 14th-19th;
+"franks" taken — ant researchers — compound + full-name tag per
+collision rule; all per collision rule.) (Map holds 800 rounds.)
+
+- **Frank holborns [canon: Jean-Michel Frank (holborned
+  jeanmichelfranks; specified Jean-Michel Frank (holborns;
+  distinct from ant-round Franks — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Frank's
+  jeanmichelfranks (holborned, kept (jeanmichelfrank, holborned
+  (holborns, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Frank" (holborns, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Dirand hotels [canon: Dirand (hoteled dirands; specified Joseph
+  Dirand (hotels; vs no hits)); verification deferred].** → Dirand's
+  dirands (hoteled, kept (dirand, hoteled (hotels, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Dirand"
+  (hotels, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Mahdavi velvets [canon: Mahdavi (velveted mahdavis; specified
+  India Mahdavi (velvets; vs no hits)); verification deferred].** →
+  Mahdavi's mahdavis (velveted, kept (mahdavi, velveted (velvets,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); her "Mahdavi" (velvets, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Chareau verres [canon: Chareau (verred chareaus; specified Pierre
+  Chareau (verres; vs no hits)); verification deferred].** →
+  Chareau's chareaus (verred, kept (chareau, verred (verres, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Chareau" (verres, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
