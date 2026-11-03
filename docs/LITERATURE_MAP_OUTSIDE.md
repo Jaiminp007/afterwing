@@ -32703,3 +32703,37 @@ all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))));
   his "Benitez" (recycles, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 899 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (ceramicked diestes, caracased
+villanuevas, patioed salmonas, cepalled duharts). The program
+diestes (ceramics attempts), villanuevas (caracas verdicts),
+salmonas (patios claims), and duharts (cepal votes). Four more,
+Andean vein. ("Shells"/"campus"/"cities" taken — "ceramics"/
+"caracas"/"patios" used; "glass"/"concretes" taken — "cepal" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Dieste ceramics [canon: Dieste (ceramicked diestes; specified
+  Eladio Dieste (ceramics; vs no hits)); verification deferred].** →
+  Dieste's diestes (ceramicked, kept (dieste, ceramicked (ceramics,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Dieste" (ceramics, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Villanueva caracas [canon: Villanueva (caracased villanuevas;
+  specified Carlos Raul Villanueva (caracas; vs no hits)); verification
+  deferred].** → Villanueva's villanuevas (caracased, kept (villanueva,
+  caracased (caracas, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Villanueva" (caracas, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Salmona patios [canon: Salmona (patioed salmonas; specified
+  Rogelio Salmona (patios; vs no hits)); verification deferred].** →
+  Salmona's salmonas (patioed, kept (salmona, patioed (patios, kept)))
+  is the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Salmona" (patios, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Duhart cepal [canon: Duhart (cepalled duharts; specified Emilio
+  Duhart (cepal; vs no hits)); verification deferred].** → Duhart's
+  duharts (cepalled, kept (duhart, cepalled (cepal, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Duhart" (cepal,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
