@@ -26292,3 +26292,30 @@ priests (counts rows). Four more. (Map holds 700 rounds.)
   (mented, kept (priested, mented (mentals, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Priest" (mental, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 693 — Traced, gymed, raced, riveted (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: repo localization —
+find the line in the haystack (already-cited
+localization leads converging; localization family,
+four branches).
+
+- **Trace line [arXiv:2510.02389 (Xi / T2L; vs no
+  hits)].** Progressively NARROWS scope (project-to-line;
+  AST-chunking + evidence). → Trace lines (our per-row
+  archives, trace-side). Filed.
+- **Vuln gym [arXiv:2608.02001 (Ji / VulnGym; vs no
+  hits)].** Autonomously EXPLORE (preselected
+  insufficient; repository-level). → Gym vulns (our
+  fresh banks, gym-side). Filed.
+- **Race bench [arXiv:2603.26337 (Liu / RACE-Bench; vs
+  no hits)].** Black-box INSUFFICIENT (how-reason +
+  where-fail; feature addition). → Race reasoning (our
+  flip-split design, race-side). Filed.
+- **Rivet [arXiv:2610.34967 (Pan; vs no hits)].**
+  Budget can't HOLD repo (evidence determines
+  location; utility-preserving). → Rivet context (our
+  op-cap billing, rivet-side). Filed.
+- Program note: trace lines, gym vulns, race reasoning,
+  rivet context — the repo-localization file. None
+  licensed — filed.
