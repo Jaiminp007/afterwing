@@ -25905,3 +25905,29 @@ premiers (stitches verdicts), havocs (publishes NOGOs), and alchemists
   alchemists (held, kept (alchemisted, held (holds, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Alchemist" (hold, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 679 — Phantomed, partitioned, backdoored, evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: phantom null — prove
+the gain is real (already-cited null-control leads
+converging; null family, four branches).
+
+- **Phantom gains [arXiv:2608.20290 (Xu; vs no
+  hits)].** SEVEN failures INVERT findings (noisy
+  differencing; identical-pipeline control). → Audit
+  phantoms (our copy-controls, audit-side). Filed.
+- **Causal partition [arXiv:2606.05932 (Gao; vs no
+  hits)].** Naive estimand BIASED (elicitation vs
+  signal; preregistered). → Partition causes (our
+  flip-split design, partition-side). Filed.
+- **RLVR backdoors [arXiv:2604.09748 (Guo; vs no
+  hits)].** WITHOUT touching verifier (poisoning
+  injection; trigger). → Guard verifiers (our frozen
+  scorers, guard-side). Filed.
+- **Seva [arXiv:2606.29713 (Yuan / SEVA; vs no hits)].**
+  Opaque binary → EVIDENCE (alignments + chains +
+  six-category diagnosis). → Evolve verification (our
+  layered adoption, evolve-side). Filed.
+- Program note: audit phantoms, partition causes, guard
+  verifiers, evolve verification — the phantom-null
+  file. None licensed — filed.
