@@ -471,6 +471,9 @@ the map stays open, not empty.
 - R639 repair-equivalence file: repair-with-checkers;
   judge-behaviorally; check-robustness;
   separate-parameters.
+- R641 feedback-refinement file: loop-automatically;
+  ask-efficiently; verify-within;
+  refine-not-resample.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
