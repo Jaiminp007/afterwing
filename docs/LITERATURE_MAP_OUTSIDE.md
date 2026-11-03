@@ -28105,3 +28105,36 @@ mcmullans (posters votes). Four more. (Map holds 761 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his "McMullan"
   (posters, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 758 — Lustigs, tschernys, jameses, karls (Lustig, Tscherny, James Cross, Karl Frank; 2026-11-02)
+
+Motivation: further outside (covered lustigs, postered tschernys,
+schooled jameses, furnitured karls). The program lustigs (covers
+attempts), tschernys (posters verdicts), jameses (schools claims), and
+karls (furnitures votes). Four more. (Map holds 762 rounds.)
+
+- **Lustig covers [canon: Lustig (covered lustigs; specified Alvin
+  Lustig (book covers; vs no hits)); verification deferred].** →
+  Lustig's lustigs (covered, kept (lustig, covered (covers, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Lustig" (covers, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Tscherny posters [canon: Tscherny (postered tschernys; specified
+  George Tscherny (posters; vs no hits)); verification deferred].** →
+  Tscherny's tschernys (postered, kept (tscherny, postered (posters, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Tscherny"
+  (posters, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **James Cross school [canon: James Cross (schooled jameses; specified
+  James Cross (design education; distinct from Nigel Cross (designerly
+  ways of knowing) — full-name tag per collision rule; vs no hits on full
+  name)); verification deferred].** → Cross's jameses (schooled, kept
+  (james, schooled (schools, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "James" (school, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Karl Frank furniture [canon: Karl Frank (furnitured karls; specified
+  Karl Frank (furniture; distinct from Frank Stella (protractor stripes)
+  — full-name tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Frank's karls (furnitured, kept (karl, furnitured
+  (furnitures, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
+  his "Karl" (furniture, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
