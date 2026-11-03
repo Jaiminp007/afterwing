@@ -24604,3 +24604,30 @@ Four more. (Map holds 640 rounds.)
   hearted (golds, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Neil" (heart, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 633 — Predicted, formatted, interleaved, scaffolded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: edit prediction — predict
+the edit format the diff (already-cited edit/modification
+leads converging; prediction family, four branches).
+
+- **Next-edit prediction [arXiv:2508.10074 (Lu; vs no
+  hits)].** Context + HISTORY (cursor-constrained vs
+  chat-switch; bridge the gap). → Predict the next
+  (our per-leg deltas, prediction-side). Filed.
+- **Diff-or-not [arXiv:2604.27296 (Cheng; vs no
+  hits)].** Fragile offsets FRAGMENT (structure-aware
+  adaptive formats; efficiency). → Format the diff
+  (our minimal diffs, format-side). Filed.
+- **Interleaved modes [arXiv:2509.14088 (Padurean; vs
+  no hits)].** Prompting + EDITING (13k interactions;
+  varies with complexity). → Interleave the modes
+  (our propose+evaluate, interleave-side). Filed.
+- **Scaffolded prompting [arXiv:2508.01523 (Tang; vs no
+  hits)].** DIRECT vs SUMMARY-mediated
+  (modification ≠ generation; scaffolding). →
+  Scaffold the prompt (our frozen plans,
+  scaffold-side). Filed.
+- Program note: predict next, format diffs, interleave
+  modes, scaffold prompts — the edit-prediction file.
+  None licensed — filed.
