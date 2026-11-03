@@ -34,6 +34,14 @@ PARTIAL, and the program returns to the shelf and the diagnostic
 under the C17-bar (genuinely new rationale only). The queue spent
 in order: centering lost, distributional lost, split works-but-costs.
 
+## Independent recount (2026-11-02, zero worlds, read-only)
+
+Verdict recomputed from raw artifacts by independent code (different
+computation path than the runner): transfer 5/8, acquire 5/8,
+Go-positive 7/8 — all three match the published counts exactly;
+recomputed verdict R10-PARTIAL == published R10-PARTIAL. No rescore
+(the recount confirms, never revises).
+
 ## Spend and provenance (all ledgered, zero duplicates)
 
 - ~2.655e10 ops total (8 mains + full probe sets), under the 40e9 cap;
