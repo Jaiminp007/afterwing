@@ -636,6 +636,9 @@ the map stays open, not empty.
 - R749 distillation file (round-4 candidate-A fuel): clone-endless;
   scale-traces; tree-policies;
   distill-datasets.
+- R751 trunk file (DTR parts-i fuel): latent-skills;
+  generate-behaviors; retrieve-relevant;
+  compose-modules.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.

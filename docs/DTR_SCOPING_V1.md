@@ -115,6 +115,18 @@ open sentence into a work list — advancement, not closure.
   for new-task normals); H2ST (closed-world assumed by TIL;
   hierarchical two-sample tests for unknown identities). All
   unlicensed; the wing leads inference-head design.
+- R751 addendum: TRUNK shelf +4 (all unlicensed) — LatentSkill
+  (hypernetwork → plug-and-play LoRA adapters; weight-space not
+  context-space; modular loading/scaling/composition — the most
+  constraint-compatible generation pattern on record); zero-shot
+  hypernets (TD-trained generation across unseen task conditions
+  from near-optimal solutions + task params); task-adaptive
+  retrieval (hippocampus-like relevant-past retrieval for new
+  tasks — guides decisions without environmental interactions);
+  task-driven modular (compose learned modules into novel concepts
+  zero-shot — the compositional-efficiency bar). The part-(i)
+  design space now Shelves trunk-generation + retrieval +
+  composition together.
 - R427 addendum: WHAT/HOW two-system (infer-computation + implement-
   it) filed as the reference implementation shape for trunk/head
   + inference; GaTaP two-loop gating + part-conflict + CompIL
