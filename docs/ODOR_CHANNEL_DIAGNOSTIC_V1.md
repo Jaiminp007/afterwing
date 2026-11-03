@@ -589,6 +589,13 @@ positive means. R49's per-history 7/8 is the fine structure of a
 line-wide constant: the colony splits ~half-half no matter what
 you teach it.
 
+Precision 2 (2026-11-03): metric audit — R2's effects[mode].energy
+and R10's transferLift energy are the same quantity (trained minus
+native-control budgetAdjustedEnergyPerFounder; positiveHistories =
+lift>0 in both). The panel compares like with like across all 8
+rounds; the constant is real, not a schema artifact. Audited to
+the scorer line.
+
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
 Acquisition rank does not predict transfer rank (rho 0.071).
