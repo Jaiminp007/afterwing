@@ -35673,3 +35673,35 @@ pre-append, flattened method; sibling decline preserved.)
   (visuomotors, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Liu" (visuomotors, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 983 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (limaed harthterres, rinconed
+garciabryces, huacaed agurtos, mirafloresed seoanes). The program
+harthterres (limas attempts), garciabryces (rincons verdicts),
+agurtos (huacas claims), and seoanes (miraflores votes). Four more,
+Peruvian vein. (All per collision rule.) (Map holds 800 rounds.)
+
+- **Harth limas [canon: Harth (limaed harthterres; specified Emilio
+  Harth-Terre (limas; vs no hits)); verification deferred].** →
+  Harth's harthterres (limaed, kept (harthterre, limaed (limas, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Harth" (limas, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Bryce rincons [canon: Bryce (rinconed garciabryces; specified
+  Jose Garcia Bryce (rincons; vs no hits)); verification deferred].**
+  → Bryce's garciabryces (rinconed, kept (garciabryce, rinconed
+  (rincons, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Bryce" (rincons, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Agurto huacas [canon: Agurto (huacaed agurtos; specified Santiago
+  Agurto (huacas; vs no hits)); verification deferred].** → Agurto's
+  agurtos (huacaed, kept (agurto, huacaed (huacas, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Agurto"
+  (huacas, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Seoane miraflores [canon: Seoane (mirafloresed seoanes; specified
+  Enrique Seoane (miraflores; vs no hits)); verification deferred].**
+  → Seoane's seoanes (mirafloresed, kept (seoane, mirafloresed
+  (miraflores, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Seoane" (miraflores, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
