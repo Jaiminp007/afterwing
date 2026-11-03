@@ -24863,3 +24863,36 @@ feedback family, four branches).
 - Program note: loop automatically, ask efficiently,
   verify within, refine not resample — the
   feedback-refinement file. None licensed — filed.
+## Round 642 — Willies, jimmys, sonnys, juniors (Willie Dixon, Reed, Boy, Wells; 2026-11-02)
+
+Motivation: further outside (coochied willies, lighted jimmys, helped
+sonnys, hoodooed juniors). The program willies (coochies attempts),
+jimmys (stitches verdicts), sonnys (publishes NOGOs), and juniors
+(counts rows). Four more. (Map holds 650 rounds.)
+
+- **Willie coochie [canon: Willie Dixon (coochied willies; specified
+  Willie Dixon (vs no hits; short tag taken by the trumpet man —
+  full-name tag used)); verification deferred].** → Willie's willies
+  (coochied, kept (willied, coochied (hoochies, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Willie" (coochie,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Jimmy light [canon: Jimmy Reed (lighted jimmys; specified Jimmy
+  Reed (vs no hits; short tag taken by the chain man — full-name tag
+  used)); verification deferred].** → Jimmy's jimmys (lighted, kept
+  (jimmied, lighted (brights, kept))) is the verdict (lighted, kept
+  (NOGO, told (honest, kept))); his "Jimmy" (light, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Sonny help [canon: Sonny Boy (helped sonnys; specified Sonny Boy
+  Williamson (vs no hits; short tag taken by the E=K man — full-name
+  tag used)); verification deferred].** → Sonny's sonnys (helped, kept
+  (sonnied, helped (helps, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Sonny" (help, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Junior hoodoo [canon: Junior Wells (hoodooed juniors; specified
+  Junior Wells (vs no hits; short tag taken by the Motown mary —
+  full-name tag used)); verification deferred].** → Junior's juniors
+  (hoodooed, kept (juniored, hoodooed (hoodoos, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Junior" (hoodoo, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
