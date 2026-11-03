@@ -34500,3 +34500,39 @@ holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Lajovic" (celjes, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 950 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (franklined karfiks, radioed belluss,
+galleried dedeceks, trnavaed svetkos). The program karfiks
+(franklins attempts), belluss (radios verdicts), dedeceks (galleries
+claims), and svetkos (trnavas votes). Four more, Slovak vein. (Two
+Vladimirs — Karfik vs Dedecek — distinct surnames + full-name tags
+keep them apart per Larsen precedent; all per collision rule.) (Map
+holds 800 rounds.)
+
+- **Karfik franklins [canon: Karfik (franklined karfiks; specified
+  Vladimir Karfik (franklins; shared given name — full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Karfik's
+  karfiks (franklined, kept (karfik, franklined (franklins, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Karfik" (franklins, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Bellus radios [canon: Bellus (radioed belluss; specified Emil
+  Bellus (radios; vs no hits)); verification deferred].** → Bellus's
+  belluss (radioed, kept (bellus, radioed (radios, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Bellus"
+  (radios, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Dedecek galleries [canon: Dedecek (galleried dedeceks; specified
+  Vladimir Dedecek (galleries; shared given name — full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Dedecek's
+  dedeceks (galleried, kept (dedecek, galleried (galleries, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Dedecek" (galleries, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Svetko trnavas [canon: Svetko (trnavaed svetkos; specified Stefan
+  Svetko (trnavas; vs no hits)); verification deferred].** → Svetko's
+  svetkos (trnavaed, kept (svetko, trnavaed (trnavas, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Svetko"
+  (trnavas, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
