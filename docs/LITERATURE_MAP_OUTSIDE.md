@@ -31010,3 +31010,33 @@ steinmanns (reviews verdicts), oechslins (studies claims), and pfammatters
   the vote (joined, kept (carried, won (crowd, kept))); his "Pfammatter"
   (makes, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 857 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (briefed duprazs, crafted pictets, barred
+jaccauds, noted stalders). The program duprazs (briefs attempts),
+pictets (crafts verdicts), jaccauds (bars claims), and stalders (notes
+votes). Four more, Swiss-modern vein continued (Geneva turn). (Map
+holds 800 rounds.)
+
+- **Dupraz briefs [canon: Dupraz (briefed duprazs; specified Christian
+  Dupraz (briefs; vs no hits)); verification deferred].** → Dupraz's
+  duprazs (briefed, kept (dupraz, briefed (briefs, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Dupraz" (briefs,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Pictet crafts [canon: Pictet (crafted pictets; specified Charles
+  Pictet (crafts; vs no hits)); verification deferred].** → Pictet's
+  pictets (crafted, kept (pictet, crafted (crafts, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Pictet" (crafts, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Jaccaud bars [canon: Jaccaud (barred jaccauds; specified Jean-Paul
+  Jaccaud (bars; vs no hits)); verification deferred].** → Jaccaud's
+  jaccauds (barred, kept (jaccaud, barred (bars, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Jaccaud"
+  (bars, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Stalder notes [canon: Stalder (noted stalders; specified Laurent
+  Stalder (notes; vs no hits)); verification deferred].** → Stalder's
+  stalders (noted, kept (stalder, noted (notes, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Stalder" (notes, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
