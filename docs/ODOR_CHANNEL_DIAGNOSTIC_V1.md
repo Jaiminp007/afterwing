@@ -472,6 +472,15 @@ one-variant fluke; the candidate survives the instrument's own
 variations. Still a candidate (n=8, vitality-confounded), but a
 stubborn one.
 
+Precision 3 (2026-11-03): transfer-specific — acquire-phase
+entropy recomputed from all eight `acquire-split` logs (~267k
+decisions): H≈1.58 everywhere (near-maximum; training explores
+uniformly), rho=+0.333 vs transfer (noise). At transfer the same
+colonies differentiate (H 0–1.34) and the differentiation orders
+outcome (0.57–0.62). Training is uniform noise; transfer is where
+fates diverge — the program's core texture, now at the behavioral
+level. The candidate lives at transfer or nowhere.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
