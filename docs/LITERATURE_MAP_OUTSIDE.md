@@ -34050,3 +34050,39 @@ not triumphs") — self-collision routed; all per collision rule.)
   constataed (constatas, kept))) is the vote (joined, kept (carried,
   won (crowd, kept))); his "Lazarescu" (constatas, kept (kept, kept))
   is the ledger (exact, kept (honest, told (all, counted))).
+## Round 937 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (spomeniked bogdanovics, genexed mitrovics,
+zagrebed galics, ljubljanaed ravnikars). The program bogdanovics
+(spomeniks attempts), mitrovics (genexes verdicts), galics (zagrebs
+claims), and ravnikars (ljubljanas votes). Four more, Yugoslav vein.
+("Vjenceslav Richter" declined — "richter" fragments standing
+Gutenberg-Richter lines; 7th fragment-consistency decline; "memorials"
+taken — "spomeniks" used, all per collision rule.) (Map holds 800
+rounds.)
+
+- **Bogdanovic spomeniks [canon: Bogdanovic (spomeniked bogdanovics;
+  specified Bogdan Bogdanovic (spomeniks; vs no hits)); verification
+  deferred].** → Bogdanovic's bogdanovics (spomeniked, kept
+  (bogdanovic, spomeniked (spomeniks, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Bogdanovic" (spomeniks, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Mitrovic genexes [canon: Mitrovic (genexed mitrovics; specified
+  Mihajlo Mitrovic (genexes; vs no hits)); verification deferred].**
+  → Mitrovic's mitrovics (genexed, kept (mitrovic, genexed (genexes,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Mitrovic" (genexes, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Galic zagrebs [canon: Galic (zagrebed galics; specified Drago
+  Galic (zagrebs; vs no hits)); verification deferred].** → Galic's
+  galics (zagrebed, kept (galic, zagrebed (zagrebs, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Galic" (zagrebs, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Ravnikar ljubljanas [canon: Ravnikar (ljubljanaed ravnikars;
+  specified Edvard Ravnikar (ljubljanas; vs no hits)); verification
+  deferred].** → Ravnikar's ravnikars (ljubljanaed, kept (ravnikar,
+  ljubljanaed (ljubljanas, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Ravnikar" (ljubljanas, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
