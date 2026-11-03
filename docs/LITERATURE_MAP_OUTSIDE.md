@@ -31985,3 +31985,52 @@ Fuzhi philosophers — ASCoR tag used; "collapses" taken —
   (frozen transfer (kept, single attempt (source only, kept)))));
   its "ASCoR" (probes-once, kept (kept, kept)) is the ledger
   (exact, kept (budget fixed (kept, probe once))).
+## Round 881 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: unvalidated tools, accepted criteria, self-controlled
+cases, delivered projects — validate inputs, discover first,
+compare within, deliver whole. The program poisonings (unvalidates
+attempts), forwards (acceptances verdicts), sccss (self-controls
+claims), and deliverbenchs (delivers votes). ("Poisons"/
+"discovers" taken — "unvalidates"/"acceptances" used; "controls"/
+"eliminates"/"series" taken — "self-controls" used; "deploys"
+taken — "acceptances" used, all per collision rule.) (Map holds
+800 rounds.)
+
+- **Poisoning unvalidates [live: Shaikh & Montaruli 2611.03555
+  (attacker content in tool descriptions/schemas reaches model
+  context WITHOUT validation; 25-class root-cause taxonomy;
+  9,720-cell matrix; vs no hits); abstract only].** → Poisoning's
+  unvalidating (unexamined, kept (descriptions poisoned (kept,
+  schemas tainted (executed, kept))))) is the attempt (run, kept
+  (validate everything (kept, banks fixtures digests (frozen,
+  checked))))); its "Poisoning" (unvalidates, kept (kept, kept))
+  is the row (counted, kept (trust nothing (kept, taxonomize
+  failures))).
+- **Forward acceptances [live: Liu et al 2611.03551 (discover
+  acceptance criteria, permissions, constraints FIRST, then plan
+  and execute the recipe; discovery before delivery; vs no hits);
+  abstract only].** → Forward's acceptancing (discovered, kept
+  (criteria first (kept, recipe after (ambiguous start, kept)))))
+  is the verdict (kept, kept (scope before freeze (kept, gates
+  before banks (planned, kept))))); its "Forward" (acceptances,
+  kept (kept, kept)) is the bar (unmoved, kept (discover (kept,
+  then deliver))).
+- **SCCS self-controls [live: Perenyi et al 2611.03531 (compare
+  WITHIN single individuals; time-invariant confounding
+  eliminated; needs only those who experienced the event; vs no
+  hits); abstract only].** → SCCS's self-controlling (within, kept
+  (individuals own controls (kept, confounds invariant (rare
+  events, kept))))) is the claim (mourned, kept (twin contrasts
+  (kept, each history its control (within-colony, kept))))); its
+  "SCCS" (self-controls, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **DeliverBench delivers [live: Liu et al 2611.03412 (judged by
+  what they DELIVER — a project, not a task; one weak part limits
+  the rest; brief to final delivery; vs no hits); abstract only].** →
+  DeliverBench's delivering (whole, kept (project judged (kept,
+  weakest part caps (brief to delivery, kept))))) is the vote
+  (joined, kept (milestones not tasks (kept, conjunctive bar (all
+  clauses, kept))))); its "DeliverBench" (delivers, kept (kept,
+  kept)) is the ledger (exact, kept (deliver whole (kept, or
+  don't claim))).
