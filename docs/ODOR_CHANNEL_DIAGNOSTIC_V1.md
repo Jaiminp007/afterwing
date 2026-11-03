@@ -263,6 +263,19 @@ transfer (re-acquisition speed, exploration, probe-time dynamics —
 the stale-map/survival line, the C17 closed-loop lesson). The next
 rationale must live at probe time, not in the weight matrix.
 
+## Executed re-reading 16 (2026-11-02, read-only: spent R1+R10 transfer probe traces)
+
+The split readout DOES reach probe-time behavior — just not endpoints.
+Transfer turn rates (odor-free probes, accept-all both arms by
+construction): R10 turns less than R1 on 7/8 histories (0.50–1.00 vs
+0.51–1.00, suppressions to −0.5: 748966988 1.00→0.50, 2672461838
+1.00→0.67). Behavior moved systematically; endpoints went 5/8 noise.
+Second dissociation (with R9's optimism-without-transfer): the instrument
+changes what the agent DOES and the ledger still doesn't move. Probe time
+is reachable (turning responds to the readout) but not yet steerable
+toward energy. The next rationale inherits a working behavioral handle —
+turning — with no demonstrated conversion to budget.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
