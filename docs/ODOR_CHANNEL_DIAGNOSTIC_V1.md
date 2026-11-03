@@ -481,6 +481,15 @@ outcome (0.57–0.62). Training is uniform noise; transfer is where
 fates diverge — the program's core texture, now at the behavioral
 level. The candidate lives at transfer or nowhere.
 
+Precision 4 (2026-11-03): failed generalization — same computation
+on R9's transfer probes (quantile training): rho=−0.119 (noise;
+H=0 wins +1.25 AND loses −0.78). The candidate holds under
+split-routing (R10: +0.57..+0.62 ×5 variants) and vanishes under
+quantile-training. Bounded to R10's regime — or a small-n fluctuation
+(n=8 both; R10 p≈0.14 uncorrected). The ledger records the miss
+plainly: 1-for-2 across rounds. A regime-local texture, not a
+carrier; the gate unmoved, the candidate fenced.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
