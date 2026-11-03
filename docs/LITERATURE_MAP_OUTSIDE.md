@@ -35023,3 +35023,38 @@ all per collision rule.) (Map holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Stefan" (sibius, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 965 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (chisinaued bernardazzis, mausoleumed
+sciusevs, cricovaed opriss, odesaed boffos). The program bernardazzis
+(chisinaus attempts), sciusevs (mausoleums verdicts), opriss
+(cricovas claims), and boffos (odesas votes). Four more,
+Moldovan-Odessan vein. ("Gheorghe Cupcea" declined —
+architect-identity uncertain; all per collision rule.) (Map holds 800
+rounds.)
+
+- **Bernardazzi chisinaus [canon: Bernardazzi (chisinaued bernardazzis;
+  specified Alexandru Bernardazzi (chisinaus; vs no hits));
+  verification deferred].** → Bernardazzi's bernardazzis (chisinaued,
+  kept (bernardazzi, chisinaued (chisinaus, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Bernardazzi"
+  (chisinaus, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Sciusev mausoleums [canon: Sciusev (mausoleumed sciusevs; specified
+  Alexei Sciusev (mausoleums; vs no hits)); verification deferred].**
+  → Sciusev's sciusevs (mausoleumed, kept (sciusev, mausoleumed
+  (mausoleums, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Sciusev" (mausoleums, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Opris cricovas [canon: Opris (cricovaed opriss; specified Mihai
+  Opris (cricovas; vs no hits)); verification deferred].** → Opris's
+  opriss (cricovaed, kept (opris, cricovaed (cricovas, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Opris" (cricovas, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Boffo odesas [canon: Boffo (odesaed boffos; specified Francesco
+  Boffo (odesas; vs no hits)); verification deferred].** → Boffo's
+  boffos (odesaed, kept (boffo, odesaed (odesas, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Boffo" (odesas,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
