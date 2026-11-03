@@ -128,6 +128,16 @@ three learning processes, all named, none built. A mixture freeze
 that fixes its suppression schedule by hand builds two students
 and a statue.
 
+State selection (R798 — Bar-Ilan 2013, Segev): dendritic
+inhibition SELECTS among protected / potentiated / depressed per
+compartment, coexisting over short distances. The dendritic arm
+is a three-state switch, never a blocker — and "protected"
+(unchanged-by-design) is the silent trace under another name.
+Two natures (R798 — Frola 2013): dendritic inhibition is
+competition-shaped (plastic, activity-dependent); perisomatic is
+NOT (fixed, structural). One learning brake + one fixed brake:
+plasticity where inputs arrive, fixity where outputs leave.
+
 Brake form (R795 — Miehl 2022, nonlinear inhibitory plasticity):
 inhibition must DOMINATE excitation and depend NONLINEARLY on
 the postsynaptic rate (same-sign changes) — excitatory Hebbian

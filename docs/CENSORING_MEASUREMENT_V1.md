@@ -64,6 +64,12 @@ architectures; bet on ideas that survive. And the machinery is
 modular now (define F, autodiff the rest): certificate-layers as
 composable parts awaiting the line that needs proofs.
 
+Solver upgrade (R798 — Butler 2022, ADMM differentiable-QP,
+title record): the certificate solves scale (ADMM vs
+interior-point). The machinery improves while it waits — a line
+that needs proofs cites the current solver, never the 2017 one
+by default.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping
