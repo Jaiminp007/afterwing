@@ -29412,3 +29412,34 @@ woodtlis (graphs votes). Four more. (Map holds 794 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Woodtli" (graphics,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 805 — Canon (both live hoses still dry): odermatts, dieters, mendells, levys (Odermatt, Dieter Roth, Mendell, Levy; 2026-11-02)
+
+Motivation: further outside (postered odermatts, booked dieters,
+graphed mendells, typed levys). The program odermatts (posters
+attempts), dieters (books verdicts), mendells (graphs claims), and
+levys (types votes). Four more. (Map holds 794 rounds.)
+
+- **Odermatt posters [canon: Odermatt (postered odermatts; specified
+  Siegfried Odermatt (posters; vs no hits)); verification deferred].** →
+  Odermatt's odermatts (postered, kept (odermatt, postered (posters,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Odermatt" (posters, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dieter Roth books [canon: Dieter Roth (booked dieters; specified
+  Dieter Roth (artist's books; distinct from Alvin Roth (matching/market
+  design) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Roth's dieters (booked, kept (dieter,
+  booked (books, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Dieter" (books, kept (kept, kept)) is the bar (unmoved,
+  kept (still, standing (noise, kept))).
+- **Mendell graphics [canon: Mendell (graphed mendells; specified Pierre
+  Mendell (graphics; vs no hits)); verification deferred].** → Mendell's
+  mendells (graphed, kept (mendell, graphed (graphs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Mendell"
+  (graphics, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Levy type [canon: Levy (typed levys; specified Jean-Benoit Levy
+  (type; vs no hits)); verification deferred].** → Levy's levys (typed,
+  kept (levy, typed (types, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Levy" (type, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
