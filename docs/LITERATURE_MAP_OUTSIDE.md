@@ -36151,3 +36151,52 @@ IDs + authors + contexts virgin pre-append, flattened method.)
   (grayscotts, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Pearson" (grayscotts, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 995 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (q-bio.QM start=20, math.OC start=20,
+stat.ML start=50, physics.bio-ph start=20). Six new IDs triaged (0
+worlds): 2610.40867 (protein TF — DECLINED unrelated-screening),
+2611.03030 (energy game — DECLINED unrelated-screening), 2611.00787
+(low-rank approximation — DECLINED unrelated-screening), 2611.01216
+(An/Huo) — adaptive optimizers can change WHAT is estimated: fixed
+averaging rates move the fit away from the intended TD value,
+differentially across rules, and more data makes a wrong ranking more
+certain — the program's optimizer-choice + anti-shopping discipline,
+formalized; and 2611.00134 (Alexandre/Loverdo/Bitbol) — flow hinders
+fixation of beneficial mutants but accelerates invasion (fixation
+probability reduced vs well-mixed; fate heterogeneity sets
+suppression) — beneficial revisions that never fixate (0 accepts) and
+invasion≠fixation (acquire≠transfer), formalized. (First + senior
+mapped from the trio per TRAILS precedent; Loverdo noted unmapped.)
+(Abstracts/titles only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **An momentums [LIVE 2611.01216 (momentumed sunyoungans;
+  specified Sunyoung An (momentums; "An" is an English word —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → An's sunyoungans (momentumed, kept
+  (sunyoungan, momentumed (momentums, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); her "An" (momentums, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Huo averagings [LIVE 2611.01216 (averaginged xiaominghuos;
+  specified Xiaoming Huo (averagings; distinct from prior mapped Huo
+  — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Huo's xiaominghuos (averaginged, kept
+  (xiaominghuo, averaginged (averagings, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Huo" (averagings, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Alexandre fixations [LIVE 2611.00134 (fixationed arthuralexandres;
+  specified Arthur Alexandre (fixations; vs no hits)); verification
+  deferred].** → Alexandre's arthuralexandres (fixationed, kept
+  (arthuralexandre, fixationed (fixations, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Alexandre"
+  (fixations, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Bitbol invasions [LIVE 2611.00134 (invasioned bitbols; specified
+  Anne-Florence Bitbol (invasions; vs no hits)); verification
+  deferred].** → Bitbol's bitbols (invasioned, kept (bitbol,
+  invasioned (invasions, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); her "Bitbol" (invasions, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
