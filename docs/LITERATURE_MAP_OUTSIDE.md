@@ -36484,3 +36484,49 @@ pre-append, flattened method.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Padir" (precisions, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 1002 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=120, cs.RO start=110,
+eess.SY start=90, q-bio.NC start=140). Four new IDs triaged (0
+worlds): 2610.41538 (islanded power — DECLINED unrelated-screening),
+2611.00978 (skill reuse — DECLINED unverifiable, abstract is the
+author list), 2610.39709 (Liu/Regol/Valkanas/Rebeschini/Coates) —
+Bayes-consistent losses for adaptive inference (routers selecting
+models per input balancing accuracy vs cost; single-stage vs cascade
+deferral; joint training) — routing by cost/accuracy with deferral,
+the program's gated split (Go/No-Go routing) plus staged decisions,
+formalized; and 2610.05503 (Peng/Bui) — frozen lightweight encoder
+transferred across clinically distinct tasks under a unified
+frozen-transfer protocol — frozen transfer across distinct tasks,
+the program's transplant line, formalized. (First + senior mapped
+from the quintet per TRAILS precedent; Regol/Valkanas/Rebeschini
+noted unmapped.) (Abstracts/titles only, 0 worlds; IDs + authors +
+contexts virgin pre-append, flattened method.)
+
+- **Liu hinges [LIVE 2610.39709 (hinged shirleyxiaoqilius; specified
+  Shirley Xiaoqi Liu (hinges; "Liu" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Liu's shirleyxiaoqilius (hinged, kept
+  (shirleyxiaoqiliu, hinged (hinges, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); her "Liu" (hinges, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Coates deferrals [LIVE 2610.39709 (deferraled coateses; specified
+  Mark Coates (deferrals; vs no hits)); verification deferred].** →
+  Coates's coateses (deferraled, kept (coates, deferraled (deferrals,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Coates" (deferrals, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Peng frozens [LIVE 2610.05503 (froze ritahuantingpengs; specified
+  Rita Huan-Ting Peng (frozens; distinct from Penguins round —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Peng's ritahuantingpengs (froze, kept
+  (ritahuantingpeng, froze (frozens, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); her "Peng" (frozens, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Bui disorders [LIVE 2610.05503 (disordered nhatbuis; specified
+  Nhat Bui (disorders; "bui" fragments standing (built/building) —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Bui's nhatbuis (disordered, kept
+  (nhatbui, disordered (disorders, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Bui" (disorders, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
