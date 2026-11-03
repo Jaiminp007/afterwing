@@ -546,6 +546,9 @@ the map stays open, not empty.
 - R689 validity-guarantees file: validate-first;
   curve-confidence; saturate-privately;
   conform-small.
+- R691 verified-lexing file: lex-verified;
+  invert-lexing; zip-lexing;
+  paradox-compliance.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
