@@ -26014,3 +26014,30 @@ Four more. (Map holds 690 rounds.)
   (leveled, kept (showbized, leveled (levels, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); their "Showbiz" (level, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 683 — Verified, taxed, reviewed, layered (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: verification cost —
+checking costs more than doing (already-cited
+verification leads converging; cost family, four
+branches).
+
+- **World verifier [arXiv:2604.01985 (Liu / WAV; vs no
+  hits)].** Reliable over SUBOPTIMAL (forward-inverse
+  asymmetry; self-improving). → Verify worlds (our
+  transfer test, verify-side). Filed.
+- **Verification tax [arXiv:2604.12951 (Wang; vs no
+  hits)].** Improving → HARDER to verify (fundamental
+  limits; rare-error regime). → Pay the tax (our op-cap
+  billing, pay-side). Filed.
+- **Review rarely [arXiv:2610.15897 (Zhang; vs no
+  hits)].** Separate verification FROM transfer (48
+  pairs; judged-vs-generator confuses). → Separate
+  review (our copy-controls, separate-side). Filed.
+- **Verify layer [arXiv:2609.31937 (Afoud / VReAct; vs
+  no hits)].** Nothing outside REJECTS (V-model;
+  runs-until-budget). → Layer verification (our
+  frozen gates, layer-side). Filed.
+- Program note: verify worlds, pay the tax, separate
+  review, layer verification — the verification-cost
+  file. None licensed — filed.
