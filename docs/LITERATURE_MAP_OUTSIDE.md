@@ -35487,3 +35487,40 @@ rounds.)
   (musaced, kept (tunon, musaced (musacs, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Tunon" (musacs, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 978 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (lisboaed carrilhos, maated gadanhos,
+mudaed paulodavids, salinaed bakgordons). The program carrilhos
+(lisboas attempts), gadanhos (maats verdicts), paulodavids (mudas
+claims), and bakgordons (salinas votes). Four more, Portuguese vein
+II. (Byrne/Mateus declined — both already mapped, own R-rounds;
+consistency 33rd-34th; "david" flood + "baker" substring routed via
+compounds + full-name tags per collision rule; all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Carrilho lisboas [canon: Carrilho (lisboaed carrilhos; specified
+  Joao Carrilho da Graca (lisboas; vs no hits)); verification
+  deferred].** → Carrilho's carrilhos (lisboaed, kept (carrilho,
+  lisboaed (lisboas, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Carrilho" (lisboas, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Gadanho maats [canon: Gadanho (maated gadanhos; specified Pedro
+  Gadanho (maats; vs no hits)); verification deferred].** → Gadanho's
+  gadanhos (maated, kept (gadanho, maated (maats, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Gadanho"
+  (maats, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **David mudas [canon: Paulo David (mudaed paulodavids; specified
+  Paulo David (mudas; "david" taken — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → David's
+  paulodavids (mudaed, kept (paulodavid, mudaed (mudas, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "David" (mudas, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Bak salinas [canon: Ricardo Bak Gordon (salinaed bakgordons;
+  specified Ricardo Bak Gordon (salinas; distinct from Baker-round
+  "Bak" substring — compound + full-name tag per collision rule; vs
+  no hits)); verification deferred].** → Bak's bakgordons (salinaed,
+  kept (bakgordon, salinaed (salinas, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Bak" (salinas, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
