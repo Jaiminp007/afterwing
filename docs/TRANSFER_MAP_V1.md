@@ -615,6 +615,9 @@ the map stays open, not empty.
 - R737 skill-transfer file: compile-skills;
   stabilize-evolution; demystify-skills;
   evolve-teams.
+- R738 rehearsal file (DTR/odor-adjacent): dream-rehearse;
+  curve-replays; adapt-memory;
+  couple-past.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.

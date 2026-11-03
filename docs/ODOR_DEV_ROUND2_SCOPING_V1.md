@@ -59,6 +59,25 @@ A-retention and (via better-preserved A steering) transfer.
 5. Verdict mapping (what round-2 outcome triggers qual-freeze
    consideration vs what closes the rehearsal hypothesis).
 
+## R738 addendum (rehearsal file — 4 outside legs, filed unlicensed)
+
+- Dream rehearsal (Nijjer): the ACTOR forgets even under unbounded
+  replay while the world model retains — which-component-forgets is
+  measured, not assumed. Sharpens round 2: rehearsal slots must
+  re-expose the STEERING policy (actor), not just observations;
+  slot design should verify actor re-engagement (action-support
+  readback, round-1 precedent: 20/20 survivors sampled all speeds).
+- Curricula+replays (Tee): random replay effective-but-limited;
+  review-like ordering helps. Slot POSITION (not just mass) is a
+  design variable for the freeze.
+- MSSR (Lu): fixed interleaving limited; memory-aware adaptive
+  scheduling wins. Round 2 freezes ONE fixed schedule (no tuning);
+  adaptivity is a successor hypothesis, not this round.
+- Complementary replay (Rostami): generative coupling of current to
+  past via embedding. Our substrate has no generative path — noted
+  as the reason round 2 uses literal re-exposure, not generated
+  replay (honest substrate limit).
+
 ## What this is not
 
 Not qualification (reused histories, outcome-informed). Not a
