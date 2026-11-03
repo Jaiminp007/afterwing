@@ -3,7 +3,7 @@
 // frozen schedule; frozen sums asserted purely). Zero bank worlds.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {CONTINUAL_PHASES,CONTINUAL_PHASES_REHEARSAL} from '../learning/continual-regimes.mjs';
+import {CONTINUAL_PHASES,CONTINUAL_PHASES_REHEARSAL,ODOR_R2_TICKS,ODOR_R2_SEED_MAP,ODOR_R2_OP_CAP,ODOR_R2_WALL_CAP_SECONDS} from '../learning/continual-regimes.mjs';
 import {OdorRoutedExperiment} from '../learning/odor-routed-experiment.mjs';
 import {VALUE_REFERENCE} from '../learning/value-development.mjs';
 
@@ -18,6 +18,15 @@ test('rehearsal table: A256-B512-A128-C512-A128-D256 = 1792, frozen',()=>{
   assert.ok(Object.isFrozen(CONTINUAL_PHASES_REHEARSAL));
   const d=CONTINUAL_PHASES_REHEARSAL[5];
   assert.equal(d.kind,'stable');assert.equal(d.nutrient,.4);assert.equal(d.shiftEvery,0);
+});
+
+test('frozen round-2 numbers: schedule, seed map, caps (PLAN V1)',()=>{
+  assert.deepEqual([...ODOR_R2_TICKS],[256,512,128,512,128,256]);
+  assert.equal(ODOR_R2_TICKS.reduce((s,t)=>s+t,0),1792);
+  assert.deepEqual([...ODOR_R2_SEED_MAP],[0,1,0,2,0,3]);
+  assert.ok(Math.max(...ODOR_R2_SEED_MAP)<4,'seed map stays inside the 4 reused resource seeds');
+  assert.equal(ODOR_R2_OP_CAP,40_000_000_000);
+  assert.equal(ODOR_R2_WALL_CAP_SECONDS,3600);
 });
 
 test('constructor accepts the table + seed map; rejects bad shapes and non-continuous regimes',()=>{
