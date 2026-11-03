@@ -576,6 +576,9 @@ the map stays open, not empty.
 - R709 epistemic-uncertainty file: marathon-reasoning;
   diffuse-epistemics; plane-tangentially;
   think-twice.
+- R711 robustness-trilemma file: transfer-robustly;
+  extend-trilemmas; obfuscate-nulls;
+  encode-context.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
