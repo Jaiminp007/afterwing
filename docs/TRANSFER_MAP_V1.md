@@ -459,6 +459,9 @@ the map stays open, not empty.
 - R631 minimal-edit file: remediate-deterministically;
   audit-editing; bench-real;
   decompose-edits.
+- R633 edit-prediction file: predict-next;
+  format-diffs; interleave-modes;
+  scaffold-prompts.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
