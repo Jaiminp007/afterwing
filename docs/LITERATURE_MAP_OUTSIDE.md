@@ -26071,3 +26071,29 @@ rows). Four more. (Map holds 692 rounds.)
   leveled (levels, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Ag" (level, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 685 — Coupled, trapped, estimated, biased (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: agreement traps —
+agreement lies, structure fails (already-cited
+agreement leads converging; trap family, four branches).
+
+- **Consensus coupling [arXiv:2608.05670 (Khanbayov;
+  vs no hits)].** Coupling RARELY measured (re-rendering
+  exact by construction; assumption exposed). → Measure
+  coupling (our G2b floor, measure-side). Filed.
+- **Trapping sets [arXiv:2608.11516 (Pacenti; vs no
+  hits)].** Low-error POORLY understood (graph structures
+  govern; predict floor). → Trap sets (our barren
+  banks, trap-side). Filed.
+- **Noise estimate [arXiv:2602.19722 (Cao; dMLE; vs no
+  hits)].** NO decoder in loop (syndrome-to-stat-mech;
+  planar solvers). → Estimate noise (our scorer
+  variance, estimate-side). Filed.
+- **Biased code [arXiv:2607.13105 (Ho; vs no hits)].**
+  Single-type SUFFICES (suppress one channel; tornado
+  concatenation). → Bias codes (our HB/HB-only
+  findings, bias-side). Filed.
+- Program note: measure coupling, trap sets, estimate
+  noise, bias codes — the agreement-traps file. None
+  licensed — filed.
