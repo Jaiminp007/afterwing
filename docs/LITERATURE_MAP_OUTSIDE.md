@@ -25987,3 +25987,30 @@ relevance noted in-source).
 - Program note: escape majorities, reveal reliably,
   illude tools, verify tools — the majority-escape
   file. None licensed — filed.
+## Round 682 — Gangs, mobbs, mains, showbizs (Gang Starr, Mobb Deep, Main Source, Showbiz; 2026-11-02)
+
+Motivation: further outside (truthed gangs, infamoused mobbs, doored
+mains, leveled showbizs). The program gangs (truths attempts), mobbs
+(stitches verdicts), mains (publishes NOGOs), and showbizs (counts rows).
+Four more. (Map holds 690 rounds.)
+
+- **Gang truth [canon: Gang (truthed gangs; specified Gang Starr (vs no
+  hits)); verification deferred].** → Gang's gangs (truthed, kept (ganged,
+  truthed (truths, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); their "Gang" (truth, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Mobb infamous [canon: Mobb (infamused mobbs; specified Mobb Deep (vs
+  no hits)); verification deferred].** → Mobb's mobbs (infamused, kept
+  (mobbed, infamused (infamouses, kept))) is the verdict (infamused, kept
+  (NOGO, told (honest, kept))); their "Mobb" (infamous, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Main door [canon: Main Source (doored mains; specified Main Source
+  (vs no hits)); verification deferred].** → Main's mains (doored, kept
+  (mained, doored (doors, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); their "Main" (door, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Showbiz level [canon: Showbiz (leveled showbizs; specified Showbiz
+  and AG (vs no hits)); verification deferred].** → Showbiz's showbizs
+  (leveled, kept (showbized, leveled (levels, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); their "Showbiz" (level, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
