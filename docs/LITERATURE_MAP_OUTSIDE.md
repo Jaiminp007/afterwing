@@ -25572,3 +25572,29 @@ rows). Four more. (Map holds 674 rounds.)
   seeded (seeds, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); their "Root" (seed, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 667 — Perturbed, sunk, amplified, ensembled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: hallucination grounding —
+ground every token (already-cited grounding leads
+converging; grounding family, four branches).
+
+- **Perturb decode [arXiv:2604.12424 (Jia; vs no
+  hits)].** Priors DOMINATE evidence (hypersensitivity
+  to phrasing; dynamic textual). → Perturb decoding
+  (our flip-split probes, perturb-side). Filed.
+- **Sink aware [arXiv:2603.27898 (Shukla / SAGE; vs no
+  hits)].** Intervene DURING decoding (modulate
+  self-attention; not post-hoc). → Decode grounded
+  (our in-loop votes, decode-side). Filed.
+- **Step amplify [arXiv:2602.13600 (Zhang / SAVAA; vs
+  no hits)].** Fixed factor DUAL failure (too weak /
+  too strong; stepwise adaptive). → Amplify stepwise
+  (our adaptive proposals, amplify-side). Filed.
+- **Token ensemble [arXiv:2510.18321 (Li; vs no hits)].**
+  BEYOND single models (model-independence;
+  scalability). → Ensemble tokens (our majority
+  votes, ensemble-side). Filed.
+- Program note: perturb decoding, decode grounded,
+  amplify stepwise, ensemble tokens — the
+  hallucination-grounding file. None licensed — filed.
