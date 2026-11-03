@@ -480,6 +480,9 @@ the map stays open, not empty.
 - R645 partner-regulation file: share-percepts;
   align-jointly; regulate-sharedly;
   govern-runtime.
+- R647 propensity-scheming file: measure-propensity;
+  expose-faking; stress-factors;
+  teach-admission.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
