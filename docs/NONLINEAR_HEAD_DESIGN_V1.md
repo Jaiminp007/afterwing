@@ -152,6 +152,12 @@ vs tonic — tonic-stop is D2-tone hold, phasic-stop is burst
 (D1 learn-window) + pause (D2 release) = rewrite window. Stop
 forms read as occupancies now, not metaphors.
 
+Extension (R789 — Aosaki 2010, balance update): the cycle is
+burst-pause-REBOUND, three phases — dopamine surging into the ACh
+vacancy, then the structured return. The release has structure
+too: a phasic-stop freeze names all three phases (inhibit, hold
+vacant, rebound), never two.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —
