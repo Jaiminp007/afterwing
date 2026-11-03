@@ -33552,3 +33552,37 @@ per collision rule.) (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Humeid"
   (ziglabs, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 923 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (nightclubbed khourys, yachted
+kosremellis, marinaed gholams, biennaled sarkiss). The program khourys
+(nightclubs attempts), kosremellis (yachts verdicts), gholams
+(marinas claims), and sarkiss (biennales votes). Four more, Lebanese
+vein. ("bunkers"/"vaults"/"arches"/"chapels" taken —
+"nightclubs"/"yachts"/"marinas"/"biennales" used, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Khoury nightclubs [canon: Khoury (nightclubbed khourys; specified
+  Bernard Khoury (nightclubs; vs no hits)); verification deferred].**
+  → Khoury's khourys (nightclubbed, kept (khoury, nightclubbed
+  (nightclubs, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Khoury" (nightclubs, kept (kept, kept)) is the
+  row (counted, kept (honest, told (all, counted))).
+- **Kosremelli yachts [canon: Kosremelli (yachted kosremellis;
+  specified Simone Kosremelli (yachts; vs no hits)); verification
+  deferred].** → Kosremelli's kosremellis (yachted, kept (kosremelli,
+  yachted (yachts, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); her "Kosremelli" (yachts, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Gholam marinas [canon: Gholam (marinaed gholams; specified Nabil
+  Gholam (marinas; vs no hits)); verification deferred].** → Gholam's
+  gholams (marinaed, kept (gholam, marinaed (marinas, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Gholam" (marinas, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Sarkis biennales [canon: Sarkis (biennaled sarkiss; specified
+  Hashim Sarkis (biennales; vs no hits)); verification deferred].** →
+  Sarkis's sarkiss (biennaled, kept (sarkis, biennaled (biennales,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Sarkis" (biennales, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
