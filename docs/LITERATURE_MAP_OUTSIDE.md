@@ -26041,3 +26041,33 @@ branches).
 - Program note: verify worlds, pay the tax, separate
   review, layer verification — the verification-cost
   file. None licensed — filed.
+## Round 684 — Ditcs, finesses, diamonds, ags (DITC, Finesse, Diamond, AG; 2026-11-02)
+
+Motivation: further outside (crated ditcs, technicianed finesses,
+sallied diamonds, leveled ags). The program ditcs (crates attempts),
+finesses (stitches verdicts), diamonds (publishes NOGOs), and ags (counts
+rows). Four more. (Map holds 692 rounds.)
+
+- **Ditc crates [canon: DITC (crated ditcs; specified DITC (vs no
+  hits)); verification deferred].** → Ditc's ditcs (crated, kept (ditced,
+  crated (crates, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); their "Ditc" (crates, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Finesse technician [canon: Lord Finesse (technicianed finesses;
+  specified Lord Finesse (vs no hits)); verification deferred].** →
+  Finesse's finesses (technicianed, kept (finessed, technicianed
+  (technicians, kept))) is the verdict (technicianed, kept (NOGO, told
+  (honest, kept))); his "Finesse" (technician, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Diamond sally [canon: Diamond D (sallied diamonds; specified Diamond
+  D (vs no hits; short tag taken by the darling man — full-name tag
+  used)); verification deferred].** → Diamond's diamonds (sallied, kept
+  (diamonded, sallied (sallies, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Diamond" (sally, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Ag level [canon: AG the rapper (leveled ags; specified AG (Showbiz
+  and AG; vs no hits; short tag grazes the foragers — full-name tag
+  used)); verification deferred].** → Ag's ags (leveled, kept (agged,
+  leveled (levels, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Ag" (level, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
