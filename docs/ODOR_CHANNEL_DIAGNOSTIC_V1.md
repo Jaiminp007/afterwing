@@ -91,6 +91,30 @@ transfer gap re-read as disentanglement data filed as failure:
 the diagnostic reports WHERE the gradients concentrated, not
 just whether transfer cleared the bar.
 
+## Executed re-reading 1 (2026-11-02, read-only: code + bank + verdicts)
+
+VERIFIED (code): transfer probes zero observation.cue and set
+odorPresent=false (odor-routed-experiment step), same history/codebook
+unpresented, new resource seed, 256 ticks, frozen current vs reset.
+VERIFIED (code): viability = energy vs travel-cost (overlapGuard) —
+odor-independent, so the gate functions in-probe; B1/B2 transfer
+failure is NOT forced-stop-by-zeroed-odor.
+VERIFIED (verdicts): transfer-current MINUS transfer-reset means:
+R1 +0.42, R2 −1.20, R3 −0.52, R4 +0.40, R5 −0.70, R6 −0.95.
+INFERENCE (licensed by the three verifieds): the transfer regime
+differs from training in MODALITY, not just instances — odor-present
+training, odor-free probe. Cue-trace retrieval is disabled by design
+(cues absent; Doyle: no overlap → no retrieval expected), so the test
+measures non-cue carryover only. Negative gaps = the D-config's
+odor-present specialization ACTIVELY HARMS odor-free foraging
+(interference, not forgetting) — strongest exactly where D was most
+specialized (R2 rehearsal, R5/R6 gating), absent where it wasn't
+(R1 plain, R4 student). The probe punishes specialization: gate-bug
+cousin (Asok) — is odor-free robustness the right demand of an
+odor-guided learner? Future lines: probe WITH odor (fair cue test),
+or claim odor-free robustness explicitly (own falsifier), or accept
+the gate-bug reading. The six NO-GOs stand; what they MEAN changed.
+
 Late-phase proviso (R800 — Kleim 2004): synaptogenesis and map
 reorganization arrive in the SLOW phase; fast-early refines
 existing structure only. The program's 1792-tick phases may all
