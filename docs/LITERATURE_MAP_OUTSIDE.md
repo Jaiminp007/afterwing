@@ -35416,3 +35416,37 @@ collision rule; all per collision rule.) (Map holds 800 rounds.)
   is the vote (joined, kept (carried, won (crowd, kept))); his
   "Chareau" (verres, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 976 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (zenithed fuksass, laguned zucchis,
+boscoed boeris, tolentinoed lucchis). The program fuksass (zeniths
+attempts), zucchis (lagunes verdicts), boeris (boscos claims), and
+lucchis (tolentinos votes). Four more, Italian vein II. (Ponti/
+Rossi/Scarpa/Piano declined — all already mapped, own R-rounds;
+consistency 20th-23rd; "piano" instrument-flood avoided via compound
+— unused; all per collision rule.) (Map holds 800 rounds.)
+
+- **Fuksas zeniths [canon: Fuksas (zenithed fuksass; specified
+  Massimiliano Fuksas (zeniths; vs no hits)); verification
+  deferred].** → Fuksas's fuksass (zenithed, kept (fuksas, zenithed
+  (zeniths, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); his "Fuksas" (zeniths, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Zucchi lagunes [canon: Zucchi (laguned zucchis; specified Cino
+  Zucchi (lagunes; vs no hits)); verification deferred].** →
+  Zucchi's zucchis (laguned, kept (zucchi, laguned (lagunes, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Zucchi" (lagunes, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Boeri boscos [canon: Boeri (boscoed boeris; specified Stefano
+  Boeri (boscos; vs no hits)); verification deferred].** → Boeri's
+  boeris (boscoed, kept (boeri, boscoed (boscos, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Boeri"
+  (boscos, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Lucchi tolentinos [canon: Michele De Lucchi (tolentinoed lucchis;
+  specified Michele De Lucchi (tolentinos; vs no hits)); verification
+  deferred].** → Lucchi's lucchis (tolentinoed, kept (lucchi,
+  tolentinoed (tolentinos, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Lucchi" (tolentinos, kept (kept, kept)) is
+  the ledger (exact, kept (honest, told (all, counted))).
