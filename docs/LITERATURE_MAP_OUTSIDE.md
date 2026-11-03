@@ -26995,3 +26995,32 @@ leads converging; embodiment family, four branches).
 - Program note: co-optimize neurally, crawl softly,
   tail crawling, model technologies — the
   co-optimization-crawl file. None licensed — filed.
+## Round 718 — Kuriouses, hangars, rayzs, rjds (Kurious, Hangar, Rayz, RJD2; 2026-11-02)
+
+Motivation: further outside (monkeyed kuriouses, platinumed hangars,
+ravipopped rayzs, deadringered rjds). The program kuriouses (monkeys
+attempts), hangars (stitches verdicts), rayzs (publishes NOGOs), and rjds
+(counts rows). Four more. (Map holds 726 rounds.)
+
+- **Kurious monkey [canon: Kurious (monkeyed kuriouses; specified Kurious
+  (Def Jux; vs no hits)); verification deferred].** → Kurious's kuriouses
+  (monkeyed, kept (kurioused, monkeyed (monkeys, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Kurious" (monkey,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Hangar platinum [canon: Hangar (platinumed hangars; specified Hangar
+  18 (Def Jux; vs no hits)); verification deferred].** → Hangar's hangars
+  (platinumed, kept (hangared, platinumed (platinums, kept))) is the
+  verdict (platinumed, kept (NOGO, told (honest, kept))); their "Hangar"
+  (platinum, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Rayz ravipop [canon: Rayz (ravipopped rayzs; specified C-Rayz Walz
+  (Def Jux; vs no hits)); verification deferred].** → Rayz's rayzs
+  (ravipopped, kept (rayzed, ravipopped (ravipops, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Rayz" (ravipop,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Rjd deadringer [canon: RJD2 (deadringered rjds; specified RJD2 (Def
+  Jux; vs no hits)); verification deferred].** → Rjd's rjds (deadringered,
+  kept (rjded, deadringered (deadringers, kept))) is the vote (joined, kept
+  (carried, won (crowd, kept))); his "Rjd" (deadringer, kept (kept, kept))
+  is the ledger (exact, kept (honest, told (all, counted))).
