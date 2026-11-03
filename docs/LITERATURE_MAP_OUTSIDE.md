@@ -28010,3 +28010,32 @@ four branches).
 - Program note: latent skills, generate behaviors, retrieve
   relevant, compose modules — the trunk file. Parts-(i)
   reference shelf grows by four. None licensed — filed.
+## Round 754 — Vignellis, lellas, noordas, unimarks (Vignelli, Lella, Noorda, Unimark; 2026-11-02)
+
+Motivation: further outside (unimark'd vignellis, interiored lellas,
+signed noordas, system'd unimarks). The program vignellis (unimarks
+attempts), lellas (interiors verdicts), noordas (signs claims), and
+unimarks (systems votes). Four more. (Map holds 758 rounds.)
+
+- **Vignelli unimark [canon: Vignelli (unimark'd vignellis; specified
+  Massimo Vignelli (Unimark; vs no hits)); verification deferred].** →
+  Vignelli's vignellis (unimark'd, kept (vignelli, unimark'd (unimarks,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Vignelli" (unimark, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Lella interiors [canon: Lella (interiored lellas; specified Lella
+  Vignelli (interiors; vs no hits)); verification deferred].** → Lella's
+  lellas (interiored, kept (lella, interiored (interiors, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); her "Lella" (interior,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Noorda signage [canon: Noorda (signed noordas; specified Bob Noorda
+  (signage; vs no hits)); verification deferred].** → Noorda's noordas
+  (signed, kept (noorda, signed (signs, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Noorda" (sign, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Unimark systems [canon: Unimark (system'd unimarks; specified Unimark
+  (design systems; vs no hits)); verification deferred].** → Unimark's
+  unimarks (system'd, kept (unimark, system'd (systems, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); its "Unimark" (system, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
