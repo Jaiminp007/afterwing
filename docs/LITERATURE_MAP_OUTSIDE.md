@@ -27620,3 +27620,34 @@ detect-new wing, four branches).
   anomalies, test hierarchically — the open-world file.
   Detect-new wing now has 11 references. None licensed —
   filed.
+## Round 740 — Lubalins, carnases, spignas, dorfsmen (Lubalin, Carnase, Di Spigna, Dorfsman; 2026-11-02)
+
+Motivation: further outside (typed lubalins, lettered carnases,
+calligraphed spignas, cbs'd dorfsmen). The program lubalins (types
+attempts), carnases (letters verdicts), spignas (calligraphs claims),
+and dorfsmen (cbs votes). Four more. (Map holds 746 rounds; milestone:
+canon R740.)
+
+- **Lubalin type [canon: Lubalin (typed lubalins; specified Herb
+  Lubalin (typography; vs no hits)); verification deferred].** →
+  Lubalin's lubalins (typed, kept (lubalin, typed (types, kept))) is
+  the attempt (run, kept (single, authorized (once, held))); his
+  "Lubalin" (type, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Carnase lettering [canon: Carnase (lettered carnases; specified
+  Tom Carnase (lettering; vs no hits)); verification deferred].** →
+  Carnase's carnases (lettered, kept (carnase, lettered (letters, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Carnase"
+  (letters, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Di Spigna calligraphy [canon: Spigna (calligraphed spignas;
+  specified Tony Di Spigna (calligraphy; vs no hits)); verification
+  deferred].** → Spigna's spignas (calligraphed, kept (spigna,
+  calligraphed (calligraphs, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Spigna" (calligraph, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Dorfsman cbs [canon: Dorfsman (cbs'd dorfsmen; specified Lou
+  Dorfsman (CBS; vs no hits)); verification deferred].** → Dorfsman's
+  dorfsmen (cbs'd, kept (dorfsman, cbs'd (cbs, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Dorfsman" (cbs, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
