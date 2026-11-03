@@ -461,6 +461,10 @@ run") dissolves on inspection: the tags shipped with R10. What a
 bar-passing round still owes is the rationale + frozen plan + fresh
 bank — the instrument is waiting, not missing.
 
+Precision (2026-11-02): 96 trace files = 8 histories × 12 phases;
+all 5 transfer-probe variants present 8/8, plus A/B probes + acquire
+log. The claim holds without qualification.
+
 ## Executed re-reading 49 (2026-11-02, read-only: spent R9+R10 verdicts)
 
 Transfer sign is mechanism-invariant; acquisition is not. Same 8
