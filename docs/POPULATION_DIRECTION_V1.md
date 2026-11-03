@@ -28,6 +28,17 @@ paradigm, all from live literature (R780–R781).
   (closed twice) is the substrate this would build on, not
   re-litigate.
 
+## Mated lanes (R783 — social as a dial state, not a separate track)
+
+Wu et al. 2003 (NPY-like title record): one neuropeptide system
+developmentally governs foraging AND social behavior together.
+Consequence banked: the closed MATE-SOCIAL lines (NOGO twice) may
+have assayed social behavior under the wrong deprivation state —
+sociality as a state of the hunger dial, assortment by state, not
+a separate track with its own mechanism. Any reopened social case
+must name the deprivation condition as a frozen variable, or it
+repeats the confound.
+
 ## Opening conditions (not a plan)
 
 A population line opens only with: a fresh frozen plan, a fresh
