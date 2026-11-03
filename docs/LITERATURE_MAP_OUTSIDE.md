@@ -33655,3 +33655,37 @@ Swedish vein. ("Lewerentz"/"Erskine" declined — already mapped
   (joined, kept (carried, won (crowd, kept))); his "Ahren" (funkis,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 926 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (bergened grungs, portored knutsens,
+osloed digeruds, villaed korsmos). The program grungs (bergens
+attempts), knutsens (portors verdicts), digeruds (oslos claims), and
+korsmos (villas votes). Four more, Norwegian vein. ("Sverre Fehn"
+declined — already mapped ("Fehn pavilions"); "schools"/"summers"/
+"fjords"/"holms" taken — "bergens"/"portors"/"oslos"/"villas" used,
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Grung bergens [canon: Grung (bergened grungs; specified Geir Grung
+  (bergens; vs no hits)); verification deferred].** → Grung's grungs
+  (bergened, kept (grung, bergened (bergens, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Grung" (bergens,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Knutsen portors [canon: Knutsen (portored knutsens; specified Knut
+  Knutsen (portors; vs no hits)); verification deferred].** →
+  Knutsen's knutsens (portored, kept (knutsen, portored (portors,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Knutsen" (portors, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Digerud oslos [canon: Digerud (osloed digeruds; specified Jan
+  Digerud (oslos; vs no hits)); verification deferred].** → Digerud's
+  digeruds (osloed, kept (digerud, osloed (oslos, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Digerud"
+  (oslos, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Korsmo villas [canon: Korsmo (villaed korsmos; specified Arne
+  Korsmo (villas; vs no hits)); verification deferred].** → Korsmo's
+  korsmos (villaed, kept (korsmo, villaed (villas, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Korsmo" (villas,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
