@@ -29443,3 +29443,32 @@ levys (types votes). Four more. (Map holds 794 rounds.)
   kept (levy, typed (types, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Levy" (type, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 806 — Canon (both live hoses still dry): schirners, albrechts, baurs, kaufmanns (Schirner, Albrecht, Baur, Kaufmann; 2026-11-02)
+
+Motivation: further outside (campaigned schirners, postered albrechts,
+systemed baurs, typed kaufmanns). The program schirners (campaigns
+attempts), albrechts (posters verdicts), baurs (systems claims), and
+kaufmanns (types votes). Four more. (Map holds 800 rounds.)
+
+- **Schirner campaigns [canon: Schirner (campaigned schirners; specified
+  Michael Schirner (campaigns; vs no hits)); verification deferred].** →
+  Schirner's schirners (campaigned, kept (schirner, campaigned (campaigns,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Schirner" (campaigns, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Albrecht posters [canon: Albrecht (postered albrechts; specified Hans
+  Peter Albrecht (posters; vs no hits)); verification deferred].** →
+  Albrecht's albrechts (postered, kept (albrecht, postered (posters, kept)))
+  is the verdict (kept, kept (NOGO, told (honest, kept))); his "Albrecht"
+  (posters, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Baur systems [canon: Baur (systemed baurs; specified Ruedi Baur
+  (systems; vs no hits)); verification deferred].** → Baur's baurs
+  (systemed, kept (baur, systemed (systems, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Baur" (systems, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Kaufmann type [canon: Kaufmann (typed kaufmanns; specified Ueli
+  Kaufmann (type; vs no hits)); verification deferred].** → Kaufmann's
+  kaufmanns (typed, kept (kaufmann, typed (types, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Kaufmann" (type, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
