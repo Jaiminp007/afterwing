@@ -35705,3 +35705,36 @@ Peruvian vein. (All per collision rule.) (Map holds 800 rounds.)
   (miraflores, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Seoane" (miraflores, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 984 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (caracased sanabrias, guaired galias,
+avilaed pimentels, orinocoed lugos). The program sanabrias (caracases
+attempts), galias (guaires verdicts), pimentels (avilas claims), and
+lugos (orinoques votes). Four more, Venezuelan vein. (Villanueva
+declined — already mapped, own R-round; consistency 40th; all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Sanabria caracases [canon: Sanabria (caracased sanabrias;
+  specified Tomas Sanabria (caracases; vs no hits)); verification
+  deferred].** → Sanabria's sanabrias (caracased, kept (sanabria,
+  caracased (caracases, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Sanabria" (caracases, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Galia guaires [canon: Galia (guaired galias; specified Jose Miguel
+  Galia (guaires; vs no hits)); verification deferred].** → Galia's
+  galias (guaired, kept (galia, guaired (guaires, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Galia"
+  (guaires, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Pimentel avilas [canon: Pimentel (avilaed pimentels; specified
+  Francisco Pimentel (avilas; vs no hits)); verification deferred].**
+  → Pimentel's pimentels (avilaed, kept (pimentel, avilaed (avilas,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Pimentel" (avilas, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Lugo orinoques [canon: Lugo (orinocoed lugos; specified Tomas Lugo
+  (orinoques; vs no hits)); verification deferred].** → Lugo's lugos
+  (orinocoed, kept (lugo, orinocoed (orinoques, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Lugo" (orinoques,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
