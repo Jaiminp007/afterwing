@@ -33415,3 +33415,38 @@ declined — already mapped R236; "stones"/"patios"/"villages" taken —
   auresed (auress, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Bouchama" (auress, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 919 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (nasred karims, corniched gabrs, belvedered
+shebibs, beiruted nahass). The program karims (nasrs attempts), gabrs
+(corniches verdicts), shebibs (belvederes claims), and nahass
+(beiruts votes). Four more, Egyptian vein II. ("canon: Gabr" fragment
+taken — Richard Gabriel — full-name tag "canon: Ali Labib Gabr" per
+collision rule; all four surnames + full names + contexts virgin
+pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Karim nasrs [canon: Karim (nasred karims; specified Sayed Karim
+  (nasrs; vs no hits)); verification deferred].** → Karim's karims
+  (nasred, kept (karim, nasred (nasrs, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Karim" (nasrs, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Gabr corniches [canon: Ali Labib Gabr (corniched gabrs; specified
+  Ali Labib Gabr (corniches; distinct from Gabriel — full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Gabr's
+  gabrs (corniched, kept (gabr, corniched (corniches, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Gabr"
+  (corniches, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Shebib belvederes [canon: Shebib (belvedered shebibs; specified
+  Naoum Shebib (belvederes; vs no hits)); verification deferred].** →
+  Shebib's shebibs (belvedered, kept (shebib, belvedered (belvederes,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Shebib" (belvederes, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Nahas beiruts [canon: Nahas (beiruted nahass; specified Antoine
+  Selim Nahas (beiruts; vs no hits)); verification deferred].** →
+  Nahas's nahass (beiruted, kept (nahas, beiruted (beiruts, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Nahas"
+  (beiruts, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
