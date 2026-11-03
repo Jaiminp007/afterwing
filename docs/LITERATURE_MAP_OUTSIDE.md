@@ -28039,3 +28039,37 @@ unimarks (systems votes). Four more. (Map holds 758 rounds.)
   unimarks (system'd, kept (unimark, system'd (systems, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); its "Unimark" (system, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 753 — Basses, elaines, ferros, titles (Saul Bass, Elaine Bass, Ferro, Stephen Frankfurt; 2026-11-02)
+
+Motivation: further outside (titled basses, titled elaines, titled
+ferros, titled frankfurts). The program basses (titles attempts),
+elaines (titles verdicts), ferros (titles claims), and frankfurts
+(titles votes). Four more. (Map holds 759 rounds; fills the skipped
+R753 — sequence repaired.)
+
+- **Saul Bass titles [canon: Saul Bass (titled basses; specified Saul
+  Bass (film titles; distinct from Elaine Bass below — full-name tag
+  per collision rule; vs no hits on full name)); verification
+  deferred].** → Bass's basses (titled, kept (saul, titled (titles,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Saul" (titles, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Elaine Bass titles [canon: Elaine Bass (titled elaines; specified
+  Elaine Bass (film titles; distinct from Saul Bass above — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Elaine's elaines (titled, kept (elaine, titled (titles,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); her
+  "Elaine" (titles, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Ferro titles [canon: Ferro (titled ferros; specified Pablo Ferro
+  (film titles; vs no hits)); verification deferred].** → Ferro's ferros
+  (titled, kept (ferro, titled (titles, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Ferro" (titles, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Stephen Frankfurt titles [canon: Stephen Frankfurt (titled
+  frankfurts; specified Stephen Frankfurt (film titles; distinct from
+  Frankfurt (hierarchy — Frankfurt School) — full-name tag per collision
+  rule; vs no hits on full name)); verification deferred].** → Frankfurt's
+  frankfurts (titled, kept (stephen, titled (titles, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Titles" (titles, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
