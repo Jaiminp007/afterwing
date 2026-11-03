@@ -24251,3 +24251,32 @@ holds 628 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Dave" (village,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 621 — Juried, modularized, traced, searched (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: propose-dispose —
+propose freely dispose rigorously (already-cited judgment/
+verification leads converging; disposal family, four
+branches).
+
+- **Votes-vs-proofs [arXiv:2604.25419 (Chen / JURY-RL;
+  vs no hits)].** Votes PROPOSE proofs DISPOSE
+  (decouple; votes false-positive; label-free). →
+  Dispose by proof (our adoption liveness,
+  jury-side). Filed.
+- **Modular verification [arXiv:2608.21140 (Abel; vs
+  no hits)].** RELIABLE + AUDITABLE (ground relations
+  in evidence; modular agent). → Verify modularly
+  (our fixtures+triage, module-side). Filed.
+- **Trace-verify-correct [arXiv:2608.04759 (Yang; vs
+  no hits)].** Unfaithful chains DEGRADE
+  (training-free; faithful to input). → Correct the
+  trace (our diagnose-fix-retry, trace-side).
+  Filed.
+- **Search-vs-CoT [arXiv:2606.21884 (Patel; vs no
+  hits)].** Verifiable ≠ LEARNABLE (write-finetune
+  fails; identifiable procedures). → Search don't
+  teach (our frozen loops, search-side). Filed.
+- Program note: dispose by proof, verify modularly,
+  correct traces, search don't teach — the
+  propose-dispose file. None licensed — filed.
