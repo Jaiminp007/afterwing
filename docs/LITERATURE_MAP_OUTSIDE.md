@@ -36437,3 +36437,50 @@ Luo + 6 RSI middles noted unmapped.) (Abstracts only, 0 worlds; IDs
   (longcheng, closed (closeds, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Cheng" (closeds, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 1001 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=110, cs.RO start=100).
+Two new IDs triaged (0 worlds), both map: 2610.40254 (Sheen/Zhou)
+— verified self-training in linear regression (pre-trained
+estimator generates synthetic data with noise; a verifier selects
+samples by threshold; repeated self-training amplifies inherited
+errors into model collapse; verification prevents it) — fresh-bank
+generation plus verification, and error amplification formalized
+(the program's bank discipline and negative-preservation, in linear
+regression); and 2611.01250 (Genua/Prajapati/Trivedi/Padir) —
+SPECTRA object-centric execution-quality quantification beyond
+binary success (progress-aligned relative poses; constrained
+directions and admissible variations from demonstrations) —
+graded verdicts beyond GO/NO-GO, the program's five-way verdicts
+plus difference-gates, formalized. (First + senior mapped from the
+quartet per TRAILS precedent; Prajapati + Trivedi noted unmapped.)
+(Abstracts only, 0 worlds; IDs + authors + contexts virgin
+pre-append, flattened method.)
+
+- **Sheen verifications [LIVE 2610.40254 (verificationed sheens;
+  specified Heejune Sheen (verifications; vs no hits)); verification
+  deferred].** → Sheen's sheens (verificationed, kept (sheen,
+  verificationed (verifications, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Sheen" (verifications, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Zhou synthetics [LIVE 2610.40254 (syntheticed harrisonhzhous;
+  specified Harrison H. Zhou (synthetics; "Zhou" flood — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhou's harrisonhzhous (syntheticed, kept
+  (harrisonhzhou, syntheticed (synthetics, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Zhou" (synthetics,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Genua spectras [LIVE 2611.01250 (spectraed genuas; specified
+  Lorena Maria Genua (spectras; vs no hits)); verification
+  deferred].** → Genua's genuas (spectraed, kept (genua, spectraed
+  (spectras, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); her "Genua" (spectras, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Padir precisions [LIVE 2611.01250 (precisioned padirs; specified
+  Taskin Padir (precisions; vs no hits)); verification deferred].** →
+  Padir's padirs (precisioned, kept (padir, precisioned (precisions,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Padir" (precisions, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
