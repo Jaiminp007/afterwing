@@ -6,7 +6,7 @@
 // probeOps billed inline (executed-only, live per-op rate). Attempt-01.
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,existsSync,mkdirSync,readdirSync} from 'node:fs';
-import {join,dirname as pathDirname,resolve} from 'node:path';
+import {join,dirname as pathDirname,resolve,relative,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {TasteExperiment} from '../learning/taste-experiment.mjs';
@@ -55,10 +55,13 @@ function turnGateC17ExtraTokens(){
   return into;
 }
 export function turnGateDevC17Sources(){
-  const h=createHash('sha256');
-  for(const name of ['scripts/rsi-c17-dev.mjs','learning/taste-experiment.mjs','learning/taste-energy.mjs','learning/cue-foraging.mjs','learning/continual-regimes.mjs','scripts/turn-gated-dev.mjs','scripts/turn-gated-dev-v1m.mjs','scripts/body-transfer.mjs'])
-    h.update(readFileSync(join(root,name)));
-  return h.digest('hex');
+  const found={},visit=path=>{
+    const name=relative(root,path).split(sep).join('/');assert.ok(!name.startsWith('../')&&!name.startsWith('/'));
+    if(Object.hasOwn(found,name))return;const bytes=readFileSync(path);found[name]=digest(bytes);
+    if(/\.m?js$/.test(name))for(const m of bytes.toString().matchAll(/(?:from|import)\s+['"](\.[^'"]+)['"]/g))visit(resolve(pathDirname(path),m[1]));
+  };
+  for(const name of ['scripts/rsi-c17-dev.mjs','scripts/turn-gated-dev-v1m.mjs','learning/taste-experiment.mjs','learning/taste-energy.mjs','learning/cue-foraging.mjs','learning/continual-regimes.mjs','tests/rsi-c17-dev.test.mjs','docs/RSI_C17_PLAN_V1.md','docs/RSI_C17_AMENDMENT_A1.md','docs/RSI_C17_SCOPING_V1.md'])visit(resolve(root,name));
+  return found;
 }
 function priorEvidenceSeeds(){
   const into=new Set();
