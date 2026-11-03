@@ -28898,3 +28898,41 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   then-general channels, and maintenance-without-specificity =
   generalization = the transfer gap in miniature. Any odor-lane
   reopening inherits this dissociation (which channel failed?).
+## Round 790 — LIVE via OpenAlex: decouplers, independents, locals, generalizers (Stooke ATC 2020, Tayler NMDAR-free 2011, Atmuri CMP 2026, Asok fear-generalization 2019; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Decoupled channels [Stooke et al. 2020, decoupling
+  representation from RL (ATC); vs no hits].** → Encoder trained
+  unsupervised (temporal contrast), frozen, policy on top —
+  matches/beats end-to-end; multi-task encoders generalize
+  downstream. The channel diagnostic's architectural answer: split
+  the specific channel (representation, contrastive, frozen) from
+  the general channel (policy, reward-driven) instead of gating
+  one entangled head two ways. Strongest structural proposal since
+  the mixture — separate, don't gate.
+- **Second learning form [Tayler et al. 2011, NMDAR-independent
+  hippocampal learning; vs no hits].** → Context fear without
+  NMDAR in pre-trained animals; needs hippocampus + protein
+  synthesis, not Arc; only on REACTIVATION of recently-stimulated
+  neurons. The general channel learns (not decays) — and the
+  transfer gap could be reactivation failure (context B never
+  reactivated context A's ensemble). Diagnostic sharpened: two
+  learning forms to distinguish, with reactivation as the probe.
+- **Locality [Atmuri et al. 2026, CMP local-learning architecture;
+  vs no hits].** → Sparse relational codes + two-tier competitive
+  memory + local updates without end-to-end backprop → beats
+  EWC-Transformer on forgetting, stable over 15 domains. Third
+  voice (with silence, per-regime experts) for updates that don't
+  propagate: what doesn't overwrite, persists. Architecture
+  family banked.
+- **Adaptive gap [Asok et al. 2019, neurobiology of fear
+  generalization (Kandel); vs no hits].** → Generalization is
+  ADAPTIVE — appropriate defense from non-identical experience,
+  safety/danger weighed across regions. The standing question the
+  diagnostic must rule out: is the transfer gap failure, or the
+  system working (adapting to non-identical contexts while the
+  gate demands specificity)? Punishing adaptiveness is a gate
+  bug, not a learner bug. Interpretation banked, verdicts
+  untouched.
