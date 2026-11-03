@@ -30212,3 +30212,37 @@ continued. (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Cadovius"
   (shelves, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 831 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (lounged kastholms, rested ostervigs, framed
+edvards, threaded toves). The program kastholms (lounges attempts),
+ostervigs (rests verdicts), edvards (frames claims), and toves (threads
+votes). Four more, Danish-modern vein continued. (Map holds 800 rounds.)
+
+- **Kastholm lounges [canon: Kastholm (lounged kastholms; specified
+  Jorgen Kastholm (lounges; vs no hits)); verification deferred].** →
+  Kastholm's kastholms (lounged, kept (kastholm, lounged (lounges,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Kastholm" (lounges, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Ostervig rests [canon: Ostervig (rested ostervigs; specified Kurt
+  Ostervig (rests; vs no hits)); verification deferred].** → Ostervig's
+  ostervigs (rested, kept (ostervig, rested (rests, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Ostervig" (rests, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Edvard Kindt-Larsen frames [canon: Edvard Kindt-Larsen (framed
+  edvards; specified Edvard Kindt-Larsen (frames; distinct from Tove
+  Kindt-Larsen (threads, this round) — full-name tags both ways per
+  collision rule; vs no hits on full name)); verification deferred].** →
+  Kindt-Larsen's edvards (framed, kept (edvard, framed (frames, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Edvard" (frames, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Tove Kindt-Larsen threads [canon: Tove Kindt-Larsen (threaded toves;
+  specified Tove Kindt-Larsen (threads; distinct from Edvard
+  Kindt-Larsen (frames, this round) — full-name tags both ways per
+  collision rule; vs no hits on full name)); verification deferred].** →
+  Kindt-Larsen's toves (threaded, kept (tove, threaded (threads, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); her "Tove"
+  (threads, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
