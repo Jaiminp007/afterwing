@@ -21,6 +21,11 @@ measured 1.5–2 GB free before and after; run output 1.6 MB; evidence gitignore
 The frozen/reset arm contrasts are vacuous at 512 ticks: both arms are
 identical to candidate (effects exactly 0,0) because the freeze/reset
 manipulation bites at B/C segment boundaries, which only exist at ticks=1792.
+Mechanism verified in source post-run (zero new worlds): phase A ends at tick
+512 (`taste-experiment.mjs:195`); the B-phase transition fires only on advance
+beyond 512 (:208-211); freezing applies only at phaseIndex!==0 (:74) and
+freeze/reset only in B/C phases (:210). A 512-tick run never leaves phase A,
+so frozen/reset ≡ candidate exactly.
 The probe-level memory effect is present (acquiredA 2/2 positive), but the
 sequence-level reset test — the actual criterion — was not exercised.
 No milestone changes. No RSI claim. The reset question needs a 1792-tick run;
