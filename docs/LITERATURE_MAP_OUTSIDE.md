@@ -24896,3 +24896,30 @@ jimmys (stitches verdicts), sonnys (publishes NOGOs), and juniors
   (joined, kept (carried, won (crowd, kept))); his "Junior" (hoodoo, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 643 — Guided, introspected, changed, evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: adaptive compute — spend
+where it counts (already-cited compute/scaling
+leads converging; spending family, four branches).
+
+- **Surprisal selection [arXiv:2602.07670 (Barnes; vs
+  no hits)].** Search BEATS minimal adaptation (compute-
+  optimal; execution-grounded dense rewards). → Select
+  by surprise (our scored transfers, select-side).
+  Filed.
+- **Zero introspection [arXiv:2512.01457 (Manvi; vs
+  no hits)].** Anticipate OWN success (fixed-budget
+  wasteful; how-much-effort). → Introspect cheaply
+  (our cheap scorers, introspect-side). Filed.
+- **Thought change [arXiv:2507.13569 (Mathur; vs no
+  hits)].** Fixed-pass provably LIMITED (brains iterate
+  WITHOUT externalizing). → Change within (our frozen
+  loops, change-side). Filed.
+- **Demo evolution [arXiv:2603.09987 (Wang; vs no
+  hits)].** LLM priors for VALID (inefficiency/invalid/
+  redundant beaten). → Evolve demos (our per-line
+  ledgers, evolve-side). Filed.
+- Program note: select by surprise, introspect
+  cheaply, change within, evolve demos — the
+  adaptive-compute file. None licensed — filed.
