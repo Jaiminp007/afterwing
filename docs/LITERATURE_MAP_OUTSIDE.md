@@ -28971,3 +28971,37 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   non-memorization tests the wrong property. Redirect: test the
   encoder's abstraction (return-distributions), not the policy's
   specificity.
+## Round 792 — LIVE via OpenAlex: successors, contexts, prompts, interchanges (Barreto successor-features 2016, Doyle engram-context 2024, DualPrompt 2022, Geiger causal-abstraction 2021; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(DualPrompt: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Transfer formalism [Barreto et al. 2016 (with Dabney),
+  successor features for transfer; vs no hits].** → Same dynamics
+  + changing rewards = carry successor features, reweight rewards;
+  performance guarantees BEFORE any learning. The A→transfer
+  structure (fixed fly dynamics, new resource regime) IS this
+  scenario: the diagnostic tests whether dynamics-knowledge
+  transfers while reward weights adapt. No program line has met
+  the before-learning-guarantee bar — now the bar is named.
+- **Context-gated retrieval [Doyle & Guillaume 2024, reactivating
+  an engram (context matters); vs no hits].** → Engrams reactivate
+  on ENCODING-stimulus exposure; no overlap → no retrieval, by
+  design. The reactivation probe must measure context overlap
+  FIRST: gap-without-overlap is encoding-coverage, not memory
+  failure. Context-overlap as pre-registered covariate — the
+  diagnostic can't judge retrieval it never enabled.
+- **Split prompting [DualPrompt 2022, complementary prompting for
+  rehearsal-free continual learning; title record (abstract
+  unindexed); vs no hits].** → General prompt (shared) + expert
+  prompts (specific), no replay. Fifth split voice (ATC, successor
+  features, Go/No-Go, consequence classes, now prompts): shared-
+  general + specific-expert converges across paradigms. The
+  pattern is no longer a proposal; it's a regularity.
+- **Interchange verification [Geiger et al. 2021, causal
+  abstractions of networks; vs no hits].** → Align representations
+  to causal variables, VERIFY by interchange intervention (swap
+  the representation, test the behavior). The encoder-abstraction
+  measure: don't correlate the encoder with returns — intervene
+  on it. The gate-redirect's method, causal and executable.
