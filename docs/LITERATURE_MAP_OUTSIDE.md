@@ -28609,3 +28609,41 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   for the VISION-5 track: bounded (archive), checkpointable
   (elites), controlled (local competition) — open-endedness the
   frozen-plan discipline can actually adopt, unlike unbounded OEE.
+## Round 782 — LIVE via OpenAlex: pathways, distillers, reporters, kinases (Verharen D1/D2 2019, Faldor archive-distill 2023, Laitin RARE 2021, Wu S6K 2005; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Verharen: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **D1/D2 components [Verharen et al. 2019, differential D1/D2
+  contributions to value-based decision components; title record
+  (abstract unindexed); vs no hits].** → The go/no-go pathways own
+  DIFFERENT component processes of choice, not the same choice
+  twice. Design hint for any future mixture: divide the components
+  (go owns pursuit, stop owns the restraint threshold) instead of
+  duplicating the argmax. B1/B2 failed both branches on the same
+  decision; biology splits the decision itself.
+- **Archive distillation [Faldor et al. 2023, MAP-Elites with
+  descriptor-conditioned gradients distilled into a single policy;
+  vs no hits].** → QD archive → one policy: distill DIVERSITY, not
+  one demonstrator. Re-opens distillation on new grounds —
+  archive-distillation ≠ R4's BC-of-guard (single teacher, failed
+  0/8): a diverse archive contains behaviors no single demonstrator
+  shows, which is exactly the Kumar condition (data the student can
+  improve upon). Licensed-shaped, needs its own case — teacher-data
+  condition now specified.
+- **Report everything [Laitin et al. 2021, RARE: report all
+  results efficiently; vs no hits].** → Registries + reviewers +
+  funders incentivizing full reporting against publication bias.
+  The program's negative-preservation as infrastructure in
+  miniature (map = registry, NO-GO verdicts = full reporting at
+  equal weight). Fourth outside convergence on the discipline
+  shape.
+- **Hunger kinase [Wu et al. 2005, S6K regulation of
+  hunger-driven fly behavior; vs no hits].** → DILPs suppress
+  hunger intake; S6K-down in DILP neurons TRIGGERS foraging in FED
+  larvae — behavior by down-regulation, gain-of-function from a
+  dial turn. The viability channel's analog is bidirectional-tunable
+  at one kinase: supports keeping the signal, and nominates
+  threshold-tuning (not just threshold-reading) as a future
+  intervention class with its own case to make.
