@@ -441,6 +441,9 @@ the map stays open, not empty.
 - R619 epistemic file: recruit-capability;
   floor-trust; govern-consolidation;
   contract-gates.
+- R621 propose-dispose file: dispose-by-proof;
+  verify-modularly; correct-traces;
+  search-don't-teach.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
