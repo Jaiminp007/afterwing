@@ -101,8 +101,19 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
   CORRECTION dose-match precedent — shows HB lift <= +0.03; else
   the lift is generic-recoding and the unlearning claim is INVALID.
   BH-flat is a veto, not a secondary metric.
-- **Q5 budget/caps:** mains count, tick caps, op caps, single attempt,
-  fresh bank range — per C-series discipline (≤22 mains pattern).
+- **Q5 budget/caps: CLOSED as envelope 2026-11-02 (analytic).**
+  Mains 12 max (3 HB-direction pairs x 4 tags:
+  indexed-reassignment + shuffled + exact-baseline + unlearned;
+  train rows are transplant sources, not mains). Transfer legs
+  BT_TICKS each (same as V1m). Probes bounded: bank K <= 16
+  vectors, S <= 64 states per probe, evidence threshold <= 3
+  intakes, retention window = remainder of leg. Aggregate op cap
+  5.0e9 (V1m TM_OP_CAP precedent), executions cap 300, wall 10800s.
+  Fresh bank 472001-472054 (54-unique pattern; verified zero hits
+  in scripts/tests/docs/evidence-protocols — clean). Single
+  attempt-01; `redone:[]` expected. Exact K/S/threshold/window
+  fixed numerically in the frozen plan; the envelope above is the
+  scoping bound it must fit inside.
 - **Q6 verdict mapping: CLOSED with Q4 (see G0–G3 + retention).**
   GO iff G0+G1+G2+G3 plus train-side intact within noise; NOGO if
   G1 fails with G0 met; INVALID if G3 fails or dose mismatches;
@@ -110,8 +121,11 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
 
 ## Verdict
 
-SCOPED-CANDIDATE (Q1–Q4 + Q6 closed). C17 remains UNLICENSED until Q5
-closes in a frozen plan. The C17-bar (genuinely new + non-pooled external-or-max +
+SCOPING-COMPLETE (Q1–Q6 closed) 2026-11-02, zero worlds. Next step:
+write the frozen C17 plan (numerics, fixtures, bank build, single
+attempt-01 authorization) — the plan freeze is a separate commit and
+nothing here authorizes execution. C17 remains UNLICENSED until the
+frozen plan exists. The C17-bar (genuinely new + non-pooled external-or-max +
 direction-first) is provisionally met on paper: input-side (unmapped
 locus), cue-specific external probe statistic, HB-first prediction.
 No bank, no fixtures, no attempt authorized by this doc.
