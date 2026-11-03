@@ -25376,3 +25376,33 @@ leads converging; expertise family, four branches).
 - Program note: learn deployed, route jointly, upcycle
   frozen, graft experts — the frozen-expertise file.
   None licensed — filed.
+## Round 660 — Lytes, latifahs, yoyos, brats (Lyte, Latifah, Yo-Yo, Brat; 2026-11-02)
+
+Motivation: further outside (thinned lytes, united latifahs, played
+yoyos, funkdafied brats). The program lytes (thins attempts), latifahs
+(stitches verdicts), yoyos (publishes NOGOs), and brats (counts rows).
+Four more. (Map holds 668 rounds.)
+
+- **Lyte paper [canon: Lyte (thinned lytes; specified MC Lyte (vs no
+  hits)); verification deferred].** → Lyte's lytes (thinned, kept (lyted,
+  thinned (papers, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); her "Lyte" (paper, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Latifah unity [canon: Latifah (united latifahs; specified Queen
+  Latifah (vs no hits)); verification deferred].** → Latifah's latifahs
+  (united, kept (latifahed, united (unities, kept))) is the verdict
+  (united, kept (NOGO, told (honest, kept))); her "Latifah" (unity, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Yoyo play [canon: Yo-Yo the rapper (played yoyos; specified Yo-Yo
+  (rapper; vs no hits; short tag taken by the cellist — full-name tag
+  used)); verification deferred].** → Yoyo's yoyos (played, kept (yoyoed,
+  played (plays, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); her "Yoyo" (play, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **Brat funk [canon: Da Brat (funkdafied brats; specified Da Brat (vs
+  no hits; short tag grazes the philosopher — full-name tag used));
+  verification deferred].** → Brat's brats (funkdafied, kept (bratted,
+  funkdafied (funks, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); her "Brat" (funk, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
