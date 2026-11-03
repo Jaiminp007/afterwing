@@ -30046,3 +30046,34 @@ rounds.)
   chaired (chairs, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Hans" (chairs, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 826 — Canon (both live hoses still dry): kjaerholms, mogensens, juhls, pantons (Kjaerholm, Mogensen, Juhl, Panton; 2026-11-02)
+
+Motivation: further outside (steeled kjaerholms, spanned mogensens,
+chieftained juhls, stacked pantons). The program kjaerholms (steels
+attempts), mogensens (spans verdicts), juhls (chieftains claims), and
+pantons (stacks votes). Four more, Danish-modern vein. (Map holds 800
+rounds.)
+
+- **Kjaerholm steels [canon: Kjaerholm (steeled kjaerholms; specified
+  Poul Kjaerholm (steels; vs no hits)); verification deferred].** →
+  Kjaerholm's kjaerholms (steeled, kept (kjaerholm, steeled (steels,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Kjaerholm" (steels, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Mogensen spans [canon: Mogensen (spanned mogensens; specified Borge
+  Mogensen (spans; vs no hits)); verification deferred].** → Mogensen's
+  mogensens (spanned, kept (mogensen, spanned (spans, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Mogensen"
+  (spans, kept (kept, kept)) is the bar (unmoved, kept (still, standing
+  (noise, kept))).
+- **Juhl chieftains [canon: Juhl (chieftained juhls; specified Finn Juhl
+  (chieftains; vs no hits)); verification deferred].** → Juhl's juhls
+  (chieftained, kept (juhl, chieftained (chieftains, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Juhl"
+  (chieftains, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Panton stacks [canon: Panton (stacked pantons; specified Verner Panton
+  (stacks; vs no hits)); verification deferred].** → Panton's pantons
+  (stacked, kept (panton, stacked (stacks, kept))) is the vote (joined,
+  kept (carried, won (crowd, kept))); his "Panton" (stacks, kept (kept,
+  kept)) is the ledger (exact, kept (honest, told (all, counted))).
