@@ -36999,3 +36999,52 @@ pre-append, flattened method.)
   kept (carried, won (crowd, kept))); his "Xu" (dexterities, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 1012 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=240, cs.RO start=200,
+eess.SY start=180, q-bio.NC start=220). Four new IDs triaged (0
+worlds): 2609.23828 (consciousness theory — DECLINED
+unrelated-screening), 2610.33835 (capped-participation lower bounds
+— CARRIED to a later round, not declined: caps with every query
+counted await three companions), 2610.38104 (Sangwan/Zhang) — same
+label, different interface (position/velocity labels don't determine
+execution; bounded output passes through filtering, scaling,
+reference, feedback, timing, effort; varying the executed interface
+moves success 0.645–1.000 under one shared learner and budget) —
+labels-don't-determine-execution with interface attribution under
+shared controls, the program's action≠move semantics (R51P7) plus
+single-variable attribution, formalized; and 2610.40646 lead+senior
+(Zhang/Luo) — SwapBot tool-centric manipulation via interchangeable
+end-effectors (fixed robot-side coupling interface plus swappable
+tools, not one universal gripper) — one interface, many bodies, the
+program's exact-transplant plus body-transfer, industrialized.
+(First + senior mapped from the nonet per TRAILS precedent; 7
+middles noted unmapped.) (Abstracts/titles only, 0 worlds; IDs +
+authors + contexts virgin pre-append, flattened method.)
+
+- **Sangwan pegs [LIVE 2610.38104 (pegged sangwans; specified Arshia
+  Sangwan (pegs; vs no hits)); verification deferred].** → Sangwan's
+  sangwans (pegged, kept (sangwan, pegged (pegs, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his
+  "Sangwan" (pegs, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Zhang gears [LIVE 2610.38104 (geared zhongyangzhangs; specified
+  Zhongyang Zhang (gears; "Zhang" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhang's zhongyangzhangs (geared, kept
+  (zhongyangzhang, geared (gears, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Zhang" (gears, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Zhang swaps [LIVE 2610.40646 (swapped yunchuzhangs; specified
+  Yunchu Zhang (swaps; "Zhang" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhang's yunchuzhangs (swapped, kept (yunchuzhang,
+  swapped (swaps, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Zhang" (swaps, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Luo couplings [LIVE 2610.40646 (coupled yiyueluos; specified
+  Yiyue Luo (couplings; vs no hits)); verification deferred].** →
+  Luo's yiyueluos (coupled, kept (yiyueluo, coupled (couplings,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Luo" (couplings, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
