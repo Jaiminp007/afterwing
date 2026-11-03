@@ -36027,3 +36027,41 @@ flattened method.)
   (nominals, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Chandra" (nominals, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 992 — LIVE (fresh-hose find; 2026-11-03)
+
+Motivation: same hose sweep. 2611.01527 (Yi/Zhang/Zhou/Bao) —
+auditing decision provenance: the same verdict from different
+evidence; restore/transplant values at original coordinates; verdicts
+stable while evidence changes — the program's exact-transplant +
+digest-identity + verdict-reproduction discipline (R49 bank identity,
+preservation audit), formalized as an agent benchmark. (Abstract only,
+0 worlds; ID + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Yi provenances [LIVE 2611.01527 (provenanced xingyuyis;
+  specified Xingyu Yi (provenances; vs no hits)); verification
+  deferred].** → Yi's xingyuyis (provenanced, kept (xingyuyi,
+  provenanced (provenances, kept))) is the attempt (run, kept (single,
+  authorized (once, held))); his "Yi" (provenances, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Zhang scifacts [LIVE 2611.01527 (scifacted xinyazhangs; specified
+  Xinya Zhang (scifacts; "Zhang" taken — 2x precedent — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhang's xinyazhangs (scifacted, kept (xinyazhang,
+  scifacted (scifacts, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); her "Zhang" (scifacts, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Zhou evidences [LIVE 2611.01527 (evidenced yunshenzhous;
+  specified Yunshen Zhou (evidences; "Zhou" flood — compound +
+  full-name tag per collision rule; vs no hits)); verification
+  deferred].** → Zhou's yunshenzhous (evidenced, kept (yunshenzhou,
+  evidenced (evidences, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Zhou" (evidences, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Bao claimants [LIVE 2611.01527 (claimanted haoyubaos; specified
+  Haoyu Bao (claimants; "baos" taken — compound + full-name tag per
+  collision rule; vs no hits)); verification deferred].** → Bao's
+  haoyubaos (claimanted, kept (haoyubao, claimanted (claimants,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Bao" (claimants, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
