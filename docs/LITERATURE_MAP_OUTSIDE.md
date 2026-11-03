@@ -28863,3 +28863,38 @@ Live via api.openalex.org (arXiv API still down). Abstracts only,
   look for transient occlusion, never permanent marks — and the
   temporal order (expansion DURING initial learning) is what keeps
   the root/result question empirical instead of philosophical.
+## Round 789 — LIVE via OpenAlex: dials, balances, tunings, channels (Uribe-Cano Smoothened 2025, Aosaki balance 2010, Abraham metaplasticity 2008, Mukherjee odor-metaplasticity 2019; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Abraham: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Clock dial [Uribe-Cano 2025, Smoothened on cholinergic
+  interneurons; vs no hits].** → A GPCR ON the pauser
+  bidirectionally tunes ACh inhibition after DA/CIN activity,
+  reorganizing ACh timing + DA coupling → learning changes. The
+  clock has a dial: pause dynamics are tunable, coupling is
+  tunable, and both tune learning. Pause-then-teach gains its
+  control point (tune the pauser, tune the teaching).
+- **Balance frame [Aosaki et al. 2010, ACh–DA balance hypothesis
+  update; vs no hits].** → CS evokes CIN pause (depolarize→pause→
+  rebound) TIMED with the DA surge — dopamine rises while
+  nicotinic receptors sit unbound. Ordering confirmed at receptor
+  level; and the frame is BALANCE, not suppression alone: A6's
+  transmodulation is one direction, the rebound is the return.
+  Burst-pause-REBOUND, three phases, not two.
+- **Field named [Abraham 2008, Metaplasticity (tuning synapses and
+  networks for plasticity); title record (abstract unindexed); vs
+  no hits].** → The ceiling's founding review, banked by title:
+  acquisition-gating (gain tuning plasticity) is a field with a
+  name and a literature, not an invention. The case's legitimacy
+  no longer depends on any single result.
+- **Odor metaplasticity [Mukherjee 2019, NMDAR plasticity and
+  metaplasticity in early odor preference learning; vs no
+  hits].** → NMDAR creates stimulus-specific memory; LTCC
+  maintains it (without NMDAR → specificity lost, memory
+  generalizes); prior learning down-regulates NMDARs, modifying
+  FUTURE plasticity. The odor lane's molecular mirror: specific-
+  then-general channels, and maintenance-without-specificity =
+  generalization = the transfer gap in miniature. Any odor-lane
+  reopening inherits this dissociation (which channel failed?).
