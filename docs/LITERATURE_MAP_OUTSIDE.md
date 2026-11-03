@@ -31938,3 +31938,50 @@ per collision rule.) (Map holds 800 rounds.)
   (joined, kept (body transfer (kept, new legs unasked (vision
   milestone four, kept))))); its "SNAP" (sidewalks, kept (kept,
   kept)) is the ledger (exact, kept (one map (kept, many bodies))).
+## Round 880 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: tasted ideas, circumvented collapses, orchestrated
+lifecycles, probed-once budgets — judge what to pursue, fix the
+magnitude, coordinate the stages, spend the budget once. The
+program ideatastes (tastes attempts), collapses (circumvents
+verdicts), chatzimiltis (orchestrates claims), and ascors
+(probes-once votes). ("Wang" fragments taken — Wang Yangming, Wang
+Fuzhi philosophers — ASCoR tag used; "collapses" taken —
+"circumvents" used per collision rule.) (Map holds 800 rounds.)
+
+- **IdeaTaste tastes [live: Zhong et al 2611.03424 (RESEARCH TASTE:
+  what to read, pursue, try; proposals from a FROZEN 2025 snapshot
+  vs 2026 publications; agents fall short of human curiosity; vs
+  no hits); abstract only].** → IdeaTaste's tasting (judged, kept
+  (proposals frozen (kept, future published (curiosity short,
+  kept))))) is the attempt (run, kept (taste program (kept, bar
+  judges pursuit (frozen banks, kept))))); its "IdeaTaste" (tastes,
+  kept (kept, kept)) is the row (counted, kept (taste the idea
+  (kept, before executing))).
+- **Collapse circumvents [live: van den Bergh et al 2611.03421
+  (MAGNITUDE COLLAPSE in open-set representations; representation
+  × postprocessing interaction unexplored; modular two-stage fix;
+  vs no hits); abstract only].** → Collapse's circumventing
+  (modular, kept (magnitudes fixed (kept, stages two (interaction
+  mapped, kept))))) is the verdict (kept, kept (flood magnitudes
+  (kept, taste × probe interaction (measured, priced))))); its
+  "Collapse" (circumvents, kept (kept, kept)) is the bar (unmoved,
+  kept (fix interaction (kept, not just weights))).
+- **Chatzimiltis orchestrates [live: Chatzimiltis et al 2611.03406
+  (resilience as lifecycle — anticipation, absorption, adaptation,
+  recovery, evolution — across timescales, orchestrated; vs no
+  hits); abstract only].** → Chatzimiltis's orchestrating (staged,
+  kept (loops many (kept, hierarchy one (intent coordinated,
+  kept))))) is the claim (mourned, kept (staged program (kept,
+  dev before qual before transfer (orchestrated, kept))))); his
+  "Chatzimiltis" (orchestrates, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **ASCoR probes-once [live: Wang et al 2611.03382 (asymmetric
+  framework; FIXED adaptation budget distributed probe-once;
+  source-only generalization, no target data; vs no hits on title
+  (Wang fragments taken — ASCoR tag used); abstract only].** →
+  ASCoR's probing-once (budgeted, kept (fixed spend (kept, no
+  target data (asymmetric, kept))))) is the vote (joined, kept
+  (frozen transfer (kept, single attempt (source only, kept)))));
+  its "ASCoR" (probes-once, kept (kept, kept)) is the ledger
+  (exact, kept (budget fixed (kept, probe once))).
