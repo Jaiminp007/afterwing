@@ -585,6 +585,9 @@ the map stays open, not empty.
 - R715 open-form-discovery file: probe-faintly;
   discover-openly; map-flows;
   infer-relationally.
+- R717 co-optimization-crawl file: co-optimize-neurally;
+  crawl-softly; tail-crawling;
+  model-technologies.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
