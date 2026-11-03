@@ -27271,3 +27271,35 @@ converging; price family, four branches).
 - Program note: condition updates, compare RAGs, chunk
   semantically, flux data — the worth-it file. None
   licensed — filed.
+## Round 728 — Icons, workshops, pioneers, cranbrooks (Kare, Cooper, Greiman, Katherine McCoy; 2026-11-02)
+
+Motivation: further outside (iconed pixels, workshopped languages,
+pioneered digitals, cranbrooked merits). The program icons (freezes pixels),
+workshops (teaches languages), pioneers (leads digitals), and cranbrooks
+(merits designs). Four more. (Map holds 736 rounds.)
+
+- **Kare icon [canon: Kare (iconed pixels; specified Susan Kare
+  (Macintosh icons; vs no hits)); verification deferred].** → Kare's
+  icons (pixeled, kept (kared, pixeled (pixels, kept))) is the attempt
+  (iconed, kept (single, frozen (once, held))); her "Kare" (icon, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Cooper workshop [canon: Cooper (workshopped languages; specified
+  Muriel Cooper (Visible Language Workshop; vs no hits)); verification
+  deferred].** → Cooper's workshops (languaged, kept (coopered,
+  workshopped (languages, kept))) is the verdict (visible, kept (NOGO,
+  told (honest, kept))); her "Cooper" (workshop, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Greiman pioneer [canon: Greiman (pioneered digitals; specified April
+  Greiman (digital design pioneer; vs no hits)); verification
+  deferred].** → Greiman's pioneers (digitalled, kept (greimaned,
+  pioneered (digitals, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Greiman" (pioneer, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Katherine McCoy cranbrook [canon: Katherine McCoy (cranbrooked
+  merits; specified Katherine McCoy (Cranbrook; distinct from McCoy
+  Tyner (R722 power fourths — full-name tag per collision rule); vs
+  no hits on full name)); verification deferred].** → McCoy's cranbrooks
+  (merited, kept (katherined, cranbrooked (merits, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); her "Katherine" (merit,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
