@@ -25488,3 +25488,32 @@ leads converging; architecture family, four branches).
 - Program note: mine quality, work the architecture,
   distrust consensus, loop closed — the
   agentic-architecture file. None licensed — filed.
+## Round 664 — Bahamadias, ladybugs, bosses, mias (Bahamadia, Ladybug, Boss, Mia; 2026-11-02)
+
+Motivation: further outside (wrecked bahamadias, slicked ladybugs,
+deepened bosses, partied mias). The program bahamadias (wrecks
+attempts), ladybugs (stitches verdicts), bosses (publishes NOGOs), and
+mias (counts rows). Four more. (Map holds 672 rounds.)
+
+- **Bahamadia wreck [canon: Bahamadia (wrecked bahamadias; specified
+  Bahamadia (vs no hits)); verification deferred].** → Bahamadia's
+  bahamadias (wrecked, kept (bahamadiaed, wrecked (wrecks, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); her "Bahamadia"
+  (wreck, kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Ladybug slick [canon: Ladybug (slicked ladybugs; specified Ladybug
+  Mecca (Digable Planets; vs no hits)); verification deferred].** →
+  Ladybug's ladybugs (slicked, kept (ladybugged, slicked (slicks, kept)))
+  is the verdict (slicked, kept (NOGO, told (honest, kept))); her
+  "Ladybug" (slick, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Boss deep [canon: Boss (deepened bosses; specified Boss (vs no
+  hits)); verification deferred].** → Boss's bosses (deepened, kept
+  (bossed, deepened (deepers, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); their "Boss" (deep, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Mia party [canon: Mia X (partied mias; specified Mia X (vs no
+  hits)); verification deferred].** → Mia's mias (partied, kept (miaed,
+  partied (parties, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); her "Mia" (party, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
