@@ -25517,3 +25517,31 @@ mias (counts rows). Four more. (Map holds 672 rounds.)
   partied (parties, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); her "Mia" (party, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 665 — Authorized, weighted, reconciled, validated (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: authority reconciliation —
+act on the claim, weight the speaker (already-cited
+assurance leads converging; authority family, four
+branches).
+
+- **Authorized transition [arXiv:2609.28216 (Koch; vs
+  no hits)].** CAN-produce → JUSTIFIED-to-act (sandboxes/
+  approvals/hooks/traces/attestations/SBOMs). → Authorize
+  transitions (our frozen verdicts, authorize-side).
+  Filed.
+- **Speaker weight [arXiv:2608.13410 (Tritella /
+  ParliamentRAG; vs no hits)].** Frequent-speaker DOMINANCE
+  (expertise-weighting; misattribution). → Weight
+  speakers (our per-line ledgers, weight-side). Filed.
+- **Cross-system [arXiv:2604.15108 (Qiu; vs no hits)].**
+  Recorded-here UNRECONCILED-there (never-designed-to-
+  interoperate; drift). → Reconcile systems (our
+  transfer map, reconcile-side). Filed.
+- **Output drift [arXiv:2511.07585 (Khatchadourian; vs
+  no hits)].** Small 100% vs 120B 12.5% (cross-provider
+  validation; auditability). → Validate outputs (our
+  exact replays, validate-side). Filed.
+- Program note: authorize transitions, weight speakers,
+  reconcile systems, validate outputs — the
+  authority-reconciliation file. None licensed — filed.
