@@ -43,13 +43,21 @@ losers. If time doesn't save the winner, it saves nothing.
 
 1. Exact tick count (2× = 3584, or longer? cap the wall first).
 2. Caps (ops/wall scaled from R1 actuals × margin).
-3. Verdict bar (transfer gate vs 1792-tick R1 rows as the comparator?
-   beat-R1-itself as GO? frozen at plan time).
+3. Verdict bar — RESOLVED-PROPOSED 2026-11-02: the comparator is the
+   same arm at short length (3584-tick rows vs 1792-tick R1 rows:
+   beat-your-shorter-self). GO iff transfer gate (6/8 vs short-self
+   AND vs cheap native-full, nonnegative survivor diffs) AND A≥95%
+   AND B≥95%. Reset/native/guarded comparators carried for context
+   but do not gate (the question is time, not teachers). Frozen at
+   plan time; proposed here.
 4. Fixtures (anchor keys for extended phases; no-new-seeds;
    billing identity at the new length; scorer reuse).
-5. Bank status (same 8 histories extended — reuse ruling: extension
-   is not a new bank, but the runs are new worlds; needs explicit
-   authorization as the single authorized execution).
+5. Bank status — RULED 2026-11-02: the bank is seed-defined (same 8
+   histories = same bank 893c60a9…, no new bank needed, no new seeds
+   spent). The EXECUTION is new (tick count changes world count) and
+   needs its own single authorization + scaled caps under the same
+   guard as R2–R6 (output absent or bank-copy-only). Extension ≠ new
+   bank, but extension = new execution. No shopping the ruling.
 
 ## What this is not
 
