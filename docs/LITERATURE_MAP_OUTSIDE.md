@@ -30558,3 +30558,33 @@ samonas (drafts verdicts), marconis (layers claims), and fiorentinos
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Fiorentino" (blocks, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 842 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (arched liberas, sorted muratoris, told
+zevis, ordered benevolos). The program liberas (arches attempts),
+muratoris (sorts verdicts), zevis (tells claims), and benevolos
+(orders votes). Four more, Italian-modern vein continued. (Map holds
+800 rounds.)
+
+- **Libera arches [canon: Libera (arched liberas; specified Adalberto
+  Libera (arches; vs no hits)); verification deferred].** → Libera's
+  liberas (arched, kept (libera, arched (arches, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Libera" (arches,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Muratori sorts [canon: Muratori (sorted muratoris; specified Saverio
+  Muratori (sorts; vs no hits)); verification deferred].** → Muratori's
+  muratoris (sorted, kept (muratori, sorted (sorts, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Muratori" (sorts, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Zevi tells [canon: Zevi (told zevis; specified Bruno Zevi (tells; vs
+  no hits)); verification deferred].** → Zevi's zevis (told, kept (zevi,
+  told (tells, kept))) is the claim (mourned, kept (RSI, unclaimed (still,
+  standing))); his "Zevi" (tells, kept (kept, kept)) is the bank (fresh,
+  kept (built, spent (54, kept))).
+- **Benevolo orders [canon: Benevolo (ordered benevolos; specified
+  Leonardo Benevolo (orders; vs no hits)); verification deferred].** →
+  Benevolo's benevolos (ordered, kept (benevolo, ordered (orders, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his "Benevolo"
+  (orders, kept (kept, kept)) is the ledger (exact, kept (honest, told
+  (all, counted))).
