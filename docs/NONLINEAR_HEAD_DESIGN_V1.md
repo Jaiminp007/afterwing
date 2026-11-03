@@ -57,6 +57,17 @@ and remains queued behind its own gate (no B3 on gating grounds —
 R6 falsifier stands); this addendum sharpens WHAT B3 would be, not
 WHETHER it runs.
 
+## Addendum A2 (2026-11-02, zero worlds — slow-integration constraint)
+
+R780 (Wong-Lin 2006, recurrent time integration): slow evidence
+accumulation needs slow reverberation (NMDA-mediated); fast-only
+recurrence decides too fast to match behavior. Constraint on the
+refined B3: the recurrent head must carry a SLOW integration trace
+(eligibility-like, holding viability history across ticks) — mere
+recurrence is insufficient, and fast-only recurrence is pre-falsified
+by this result. A B3 freeze must name its slow variable and its
+timescale, or it is not a B3.
+
 ## Constraints (all candidates)
 
 - Features stay the R3 10-dim set (guard channels included —

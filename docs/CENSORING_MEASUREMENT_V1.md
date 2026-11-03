@@ -15,6 +15,16 @@ flies alive longer in hard regimes (they accumulate more exposure
 to censoring) and bias toward policies that die fast with a few
 early gains.
 
+## The method (R780 upgrade — Goldberg & Kosorok 2012, censored Q-learning)
+
+The debt graduates from complaint to bounded formalism: multistage
+Q-learning with survival times as rewards, adjusted for censoring,
+flexible stages, finite-sample generalization bounds, convergence to
+optimal expected survival when the optimal Q-function is in the
+approximation space. The first adopting line runs censored-Q on its
+probes (new measurement, never a re-scoring) and reports whether any
+closed margin changes shape — with bounds, not vibes.
+
 ## Standing recommendation (not a re-scoring license)
 
 No closed verdict is re-scored under this note (anti-shopping
