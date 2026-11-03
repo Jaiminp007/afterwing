@@ -41,6 +41,8 @@ const digest=b=>createHash('sha256').update(b).digest('hex');
 const PATTERNS=Array.from({length:16},(_,i)=>[0,1,2,3].map(j=>(i>>j&1)?1:-1));
 export const C17_SURROGATE_BANK=Object.freeze(PATTERNS.map(p=>Object.freeze([...p])));
 const str=v=>v.join(',');
+export function argminIndex(means){let bi=0;for(let i=1;i<means.length;i++)if(means[i]<means[bi])bi=i;return bi;}
+export function makeSeededRand(seed){let s=(seed>>>0)||1;return ()=>{s=(Math.imul(s,1664525)+1013904223)>>>0;return s/4294967296;};}
 
 function turnGateC17ExtraTokens(){
   const into=new Set();
@@ -102,8 +104,7 @@ export function cueIdMaps(transferCodebook,trainCodebook){
 export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodebook}){
   assert.ok(mode==='indexed'||mode==='shuffled');
   const maps=cueIdMaps(transferCodebook,trainCodebook);
-  let rngState=(legSeed>>>0)||1;
-  const nextRand=()=>{rngState=(Math.imul(rngState,1664525)+1013904223)>>>0;return rngState/4294967296;};
+  const nextRand=makeSeededRand(legSeed);
   const st={intakes:{},fired:0,reassignments:[],ownBuf:[],probeOps:0,pending:new Map()};
   const key=(tick,agentId)=>`${tick}:${agentId}`;
   const famNow=phaseId=>phaseId==='return-A'?'A':phaseId;
@@ -117,12 +118,12 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     }
     return best;
   }
-  function probeTurnBit(triggerCompact,sample,vec){
+  function probeTurnBit(triggerSnap,sample,vec){
     // Fresh restore per probe (unbilled harness, like snapshot/copy), real
     // tasteEnergyFeatures path for motor phi, actor head mirrors
     // taste-energy.mjs choose-line exactly at live per-op rate.
     // Deterministic. Excludes motorPending/hold timing by construction.
-    const cs=restoreTasteEnergyBody(triggerCompact);
+    const cs=restoreTasteEnergyBody(triggerSnap);
     cs.work.scalarOperations=0;
     const {motor}=tasteEnergyFeatures(cs,sample.raw,vec,sample.contactPresent,sample.odorPresent);
     let ops=cs.work.scalarOperations;
@@ -142,15 +143,16 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     const sample=st.ownBuf.slice(-C17_S);
     if(sample.length<C17_S)return null;
     const firstId=Object.keys(run.learners)[0];
-    const triggerCompact=compactTasteEnergyBody(run.learners[firstId]);
+    const triggerSnap=JSON.parse(JSON.stringify(run.learners[firstId]));
+    compactTasteEnergyBody(triggerSnap);
     const scored=C17_SURROGATE_BANK.map(vec=>{
       let t=0,ops=0;
-      for(const s of sample){const r=probeTurnBit(triggerCompact,s,vec);t+=r.bit;ops+=r.ops;}
+      for(const s of sample){const r=probeTurnBit(triggerSnap,s,vec);t+=r.bit;ops+=r.ops;}
       return {vec,mean:t/sample.length,ops};
     });
     let target;
     if(mode==='indexed'){
-      let bi=0;for(let i=1;i<scored.length;i++)if(scored[i].mean<scored[bi].mean)bi=i;
+      const bi=argminIndex(scored.map(s=>s.mean));
       target={index:bi,vec:scored[bi].vec};
     }else{
       const bi=Math.floor(nextRand()*scored.length);
@@ -166,7 +168,7 @@ export function makeInterventionDriver({mode,legSeed,transferCodebook,trainCodeb
     for(const p of run.world.food)if(p.cueId===id)p.cue=[...target.vec];
     st.fired++;
     const rec={cueId:id,phase:phaseId,tick:run.world.tick,mode,targetIndex:target.index,
-      target:[...target.vec],orig,origSha:digest(JSON.stringify(orig)),coincide,
+      means:scored.map(s=>+s.mean.toFixed(6)),target:[...target.vec],orig,origSha:digest(JSON.stringify(orig)),coincide,
       probeOps:opsSum,preIntakes:st.intakes[id]||0,agentId:firstId,reverted:false};
     st.reassignments.push(rec);
     return rec;
