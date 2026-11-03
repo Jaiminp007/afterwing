@@ -24835,3 +24835,31 @@ verdicts), bones (publishes NOGOs), and leads (counts rows). Four more.
   vote (joined, kept (carried, won (crowd, kept))); his "Lead" (midnight,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 641 — Looped, asked, verified, refined (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: feedback refinement —
+close the loop, spend compute where it matters
+(already-cited refinement/verify leads converging;
+feedback family, four branches).
+
+- **Feedback loops [arXiv:2512.02567 (Weiss; vs no
+  hits)].** Automated loops + PERTURBATIONS (reliability
+  before industrial use; C-to-Rust case). → Loop
+  automatically (our diagnose-fix-retry, loop-side).
+  Filed.
+- **Active feedback [arXiv:2110.12255 (Zhang; vs no
+  hits)].** CONFIDENCE-AWARE (low interaction efficiency;
+  cold-start problem). → Ask efficiently (our fresh
+  banks, ask-side). Filed.
+- **Self-verifying [arXiv:2607.28457 (Chen / SVR; vs
+  no hits)].** Joint VERDICT-CONFIDENCE (oracle-free;
+  compute-control policy). → Verify within (our frozen
+  scorers, verify-side). Filed.
+- **Refine-over-resample [arXiv:2608.05643 (Bilal; vs
+  no hits)].** Verifier-free breadth-depth (repeats
+  PATTERNS warning; diminishing returns). → Refine
+  not resample (our diagnose-fix, refine-side). Filed.
+- Program note: loop automatically, ask efficiently,
+  verify within, refine not resample — the
+  feedback-refinement file. None licensed — filed.
