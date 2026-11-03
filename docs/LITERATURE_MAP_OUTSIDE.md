@@ -27773,3 +27773,31 @@ libermen (vogues votes). Four more. (Map holds 750 rounds; milestone:
   libermen (vogued, kept (liberman, vogued (vogues, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Liberman" (vogue, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 745 — Shielded, eased, guided, robustified (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: shielding — synthesize
+the guard, ease the adoption, guide by verification,
+restrict the space (guard-feature round-3 fuel; four
+branches).
+
+- **Shielding canonical [arXiv:1708.08611 (Alshiekh; vs no
+  hits)].** Reward ≠ SAFETY (temporal-logic spec; reactive
+  synthesized; two ways). → Shield learning (our viability
+  gate, shielded-side). Filed.
+- **Easy shielding [arXiv:2606.03804 (Pranger; vs no
+  hits)].** Prevent HARMFUL exploring (domain model decides;
+  limited adoption). → Ease shields (our feature input,
+  eased-side). Filed.
+- **Verification-guided [arXiv:2406.06507 (Corsi; vs no
+  hits)].** Poor RELIABILITY limits (external online; shield
+  + verify). → Guide shields (our scorer gates, guided-side).
+  Filed.
+- **Robust probabilistic [arXiv:2605.10293 (Galesloot; vs no
+  hits)].** Fixed DATASETS (safe improvement baseline;
+  restrict space). → Robustify shields (our frozen bars,
+  robustified-side). Filed.
+- Program note: shield learning, ease shields, guide
+  shields, robustify shields — the shielding file. Round-3
+  guard-feature now has four outside legs. None licensed —
+  filed.
