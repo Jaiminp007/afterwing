@@ -27081,3 +27081,29 @@ Four more. (Map holds 728 rounds.)
   (jays, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Zone" (jay, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 721 — Sealed, inspired, modeled, printed (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: soft actuation — touch
+gently, hold firmly (already-cited actuation leads
+converging; actuation family, four branches).
+
+- **Sealed haptic [arXiv:2608.19635 (Qiang; vs no
+  hits)].** Self-sealed + LOW-hysteresis (high-fidelity
+  torque; stable long-duration). → Seal haptics (our
+  frozen instruments, seal-side). Filed.
+- **Bio exos [arXiv:2509.01145 (Zhang; vs no hits)].**
+  Slow/restricted/WEAK limits (bellow-structured;
+  position + force). → Inspire softly (our embodied
+  learner, inspire-side). Filed.
+- **Pneumatic model [arXiv:2610.04612 (Zhong; vs no
+  hits)].** Differentiable FEM (accuracy-efficiency-
+  speed trade-offs; end-to-end). → Model pneumatics
+  (our transfer test, model-side). Filed.
+- **Vision printing [arXiv:2312.01135 (Wu; vs no
+  hits)].** Webcam DETECTS + CORRECTS (molding needs
+  skill; holes/gaps). → Print visually (our exact
+  replays, print-side). Filed.
+- Program note: seal haptics, inspire softly, model
+  pneumatics, print visually — the soft-actuation file.
+  None licensed — filed.
