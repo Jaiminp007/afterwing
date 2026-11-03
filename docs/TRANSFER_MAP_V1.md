@@ -513,6 +513,9 @@ the map stays open, not empty.
 - R667 hallucination-grounding file: perturb-decoding;
   decode-grounded; amplify-stepwise;
   ensemble-tokens.
+- R669 gatekeeper-psychology file: keep-four-factors;
+  guarantee-feasibility; learn-the-human;
+  protect-the-embodied.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
