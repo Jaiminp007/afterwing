@@ -102,14 +102,19 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
   the lift is generic-recoding and the unlearning claim is INVALID.
   BH-flat is a veto, not a secondary metric.
 - **Q5 budget/caps: CLOSED as envelope 2026-11-02 (analytic).**
-  Mains 12 max (3 HB-direction pairs x 4 tags:
-  indexed-reassignment + shuffled + exact-baseline + unlearned;
-  train rows are transplant sources, not mains). Transfer legs
-  BT_TICKS each (same as V1m). Probes bounded: bank K <= 16
-  vectors, S <= 64 states per probe, evidence threshold <= 3
-  intakes, retention window = remainder of leg. Aggregate op cap
+  Mains 15 max (3 pairs x 5 tags: train on H_tr (transplant
+  source) + exact-baseline + indexed-reassignment + shuffled +
+  unlearned, all on H_te; V1m row-construction precedent:
+  per-pair train + transfer arms + unlearned-on-H_te). Probe
+  decisions are NOT separate executions: surrogate-bank probing
+  runs inside each transfer leg's setup on the frozen transplanted
+  controller, billed inline as a `probeOps` row field (audited like
+  lossy `scaleOps`). Transfer legs BT_TICKS each. Probe bounds:
+  bank K <= 16 vectors, S <= 64 states per probe, evidence
+  threshold <= 3 intakes, retention window = remainder of leg. Aggregate op cap
   5.0e9 (V1m TM_OP_CAP precedent), executions cap 300, wall 10800s.
-  Fresh bank 472001-472054 (54-unique pattern; verified zero hits
+  Fresh bank 472001-472054 (54-unique: 16 fixtures + 6 pair
+  histories + spares; verified zero hits
   in scripts/tests/docs/evidence-protocols — clean). Single
   attempt-01; `redone:[]` expected. Exact K/S/threshold/window
   fixed numerically in the frozen plan; the envelope above is the
