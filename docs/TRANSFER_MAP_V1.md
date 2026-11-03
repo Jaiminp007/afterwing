@@ -606,6 +606,9 @@ the map stays open, not empty.
 - R731 tripartite-authorized file: authorize-cross-interface;
   tripartite-compute; write-kathleen;
   steer-nous.
+- R733 refine-link-scale-expand file: refine-data;
+  link-values; scale-vocab;
+  expand-trees.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
