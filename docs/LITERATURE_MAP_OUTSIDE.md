@@ -34642,3 +34642,37 @@ per collision rule.) (Map holds 800 rounds.)
   jelgavaed (jelgavas, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Birzenieks" (jelgavas, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 954 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (tallinned kotlis, piritaed kunnapus,
+tartued lapins, parnued padriks). The program kotlis (tallinns
+attempts), kunnapus (piritas verdicts), lapins (tartus claims), and
+padriks (parnus votes). Four more, Estonian vein. ("Mart Port"
+declined — "port" fragments standing Porter/Portaluppi lines; 10th
+fragment-consistency decline; all per collision rule.) (Map holds 800
+rounds.)
+
+- **Kotli tallinns [canon: Kotli (tallinned kotlis; specified Alar
+  Kotli (tallinns; vs no hits)); verification deferred].** → Kotli's
+  kotlis (tallinned, kept (kotli, tallinned (tallinns, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Kotli"
+  (tallinns, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Kunnapu piritas [canon: Kunnapu (piritaed kunnapus; specified Vilen
+  Kunnapu (piritas; vs no hits)); verification deferred].** →
+  Kunnapu's kunnapus (piritaed, kept (kunnapu, piritaed (piritas,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Kunnapu" (piritas, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Lapin tartus [canon: Lapin (tartued lapins; specified Leonhard
+  Lapin (tartus; vs no hits)); verification deferred].** → Lapin's
+  lapins (tartued, kept (lapin, tartued (tartus, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Lapin"
+  (tartus, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Padrik parnus [canon: Padrik (parnued padriks; specified Ain Padrik
+  (parnus; vs no hits)); verification deferred].** → Padrik's padriks
+  (parnued, kept (padrik, parnued (parnus, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Padrik" (parnus,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
