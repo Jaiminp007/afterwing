@@ -25240,3 +25240,31 @@ Four more. (Map holds 662 rounds.)
   deejaed (deejays, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); their "Zhane" (dee, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 655 — Restored, swapped, splatted, steered (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: face control — restore
+the face, steer the circuit (already-cited control
+leads converging; control family, four branches).
+
+- **Blind restoration [arXiv:2510.04410 (Reddem /
+  CodeFormer++; vs no hits)].** Quality-vs-IDENTITY
+  trade-off (deformable registration; blind). →
+  Restore blindly (our exact replays, restore-side).
+  Filed.
+- **Head swap [arXiv:2506.16852 (Ji; vs no hits)].**
+  Transplant head PRESERVE body (tweak expressions;
+  one-shot controllable). → Swap controllably (our
+  transplant chain, swap-side). Filed.
+- **3D deepfake [arXiv:2509.11624 (Liu; vs no hits)].**
+  Parametric + DYNAMIC (Gaussian splatting; multi-view
+  consistent). → Model parametrically (our frozen
+  instruments, model-side). Filed.
+- **Circuit steer [arXiv:2608.05732 (Saadatinia /
+  CircuitSteer; vs no hits)].** Single-intervention
+  FAILS (geometrically aligned; sparse circuits;
+  multi-layer). → Steer aligned (our layered
+  adoption, steer-side). Filed.
+- Program note: restore blindly, swap controllably,
+  model parametrically, steer aligned — the face-control
+  file. None licensed — filed.
