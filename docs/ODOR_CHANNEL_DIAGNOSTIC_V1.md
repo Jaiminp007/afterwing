@@ -444,6 +444,24 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 32 (2026-11-02, read-only: spent rows + traces inventory)
+
+The read-only boundary, declared. Spent artifacts contain NO
+per-tick weights: rows hold endpoints (acquisition + probes),
+traces hold 34,228 decisions/observations/physicals per history
+(energies, actions, cues — never weights). So the within-phase-A
+weight dynamics — WHICH encounters flip Go positive in the
+first stretch where fates diverge (R31) — are UNRECOVERABLE
+from everything the program has ever written. This is not a
+gap to fill by re-reading; it is a wall. A future freeze that
+wants the A-phase mechanism must instrument mid-phase weight
+snapshots FIRST (new trace event or periodic anchor writes —
+an instrumentation change frozen before the bank, billed in the
+cap, null-arm identical). Until then, phase A stays a black
+box with known input (init zeros) and known output (anchor A).
+The diagnostic ends where the artifacts end; the next round
+starts with better instruments, not better guesses.
+
 ## Executed re-reading 31 (2026-11-02, read-only: spent R10 anchors A/B/C/D)
 
 The weight path through training, both twins: phase A sets the
