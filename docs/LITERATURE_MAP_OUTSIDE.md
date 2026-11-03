@@ -26969,3 +26969,29 @@ Four more. (Map holds 724 rounds.)
   (camued, hearted (hearts, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Camu" (hearts, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 717 — Co-optimized, crawled, tailed, modeled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: co-optimization crawl —
+body and brain together (already-cited embodiment
+leads converging; embodiment family, four branches).
+
+- **Neural co-opt [arXiv:2209.00579 (Schaff; vs no
+  hits)].** Body+sensors+perception+planning+control
+  INTERACTIONS. → Co-optimize neurally (our richer-
+  bodies gate, co-opt-side). Filed.
+- **Soft crawl [arXiv:2202.04575 (Schaff; vs no
+  hits)].** MECHANICAL INTELLIGENCE (design-control
+  coupling; sim-to-real). → Crawl softly (our
+  embodied learner, crawl-side). Filed.
+- **Tail crawl [arXiv:2509.12468 (Liu; vs no hits)].**
+  Morphology+movement JOINTLY (idle vs active;
+  granular deformable). → Tail crawling (our
+  transplant chain, tail-side). Filed.
+- **DTCO [arXiv:1904.10269 (Zhang; vs no hits)].**
+  Surrogate WITHOUT physics (FinFET verified; ML-
+  assisted flow). → Model technologies (our frozen
+  instruments, model-side). Filed.
+- Program note: co-optimize neurally, crawl softly,
+  tail crawling, model technologies — the
+  co-optimization-crawl file. None licensed — filed.
