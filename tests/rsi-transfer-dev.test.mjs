@@ -12,6 +12,7 @@ import {selfPropose} from '../scripts/rsi-self-dev.mjs';
 import {snapshotWeights,digestWeights,copyWeights,assertFreshTarget,checkTransplantIntegrity} from '../scripts/turn-gated-dev-v1m.mjs';
 import {rsiTransferBank,finalRateOf,scoreRsiTransferRows,RT_FIXTURE_SEEDS,RT_TRAIN_ARMS} from '../scripts/rsi-transfer-dev.mjs';
 import {rsiTransferBank as rsiTransferBankV1b,scoreRsiTransferRows as scoreRsiTransferRowsV1b,trainRowComplete as trainRowCompleteV1b,RT_FIXTURE_SEEDS as RT_FIXTURE_SEEDS_V1B} from '../scripts/rsi-transfer-v1b.mjs';
+import {rsiTransferBank as rsiTransferBankV1c,scoreRsiTransferRows as scoreRsiTransferRowsV1c,freezeDecision,finalRateOf as finalRateOfV1c,RT_FIXTURE_SEEDS as RT_FIXTURE_SEEDS_V1C} from '../scripts/rsi-transfer-v1c.mjs';
 
 const synthHistory=(seed)=>({seed,cueSeed:seed+1,resourceSeeds:[seed+2,seed+3,seed+4,seed+5],probeSeeds:{A:seed+6,B:seed+7,transfer:seed+8}});
 const trainRow=(arm,seed,proposals,energy=-60.0)=>({history:{seed},arm,stage:'train',proposals,finalRate:1.0,finalRateSpread:0,
@@ -152,5 +153,55 @@ describe('rsi-transfer-v1b births-eval fixtures',()=>{
       endpoint:{budgetAdjustedEnergyPerFounder:-60.0,survivors:12,totals:{deaths:12,births:0}}};
     assert.equal(trainRowCompleteV1b(crashed),false);
     assert.equal(trainRowCompleteV1b(null),false);
+  });
+});
+
+describe('rsi-transfer-v1c freeze-loop fixtures',()=>{
+  const txRow=(arm,seed,value,rate=1.0)=>({history:{seed},arm,stage:'transfer',probeRate:rate,
+    transfer:{transferred:24,total:24,sourceDigest:'bb',appliedDigest:'bb'},
+    endpoint:{budgetAdjustedEnergyPerFounder:value,survivors:3}});
+  const trRow=(arm,seed,proposals)=>({history:{seed},arm,stage:'train',proposals,finalRate:1.0,finalRateSpread:0,
+    phaseRows:[0,1,2,3].map(i=>({phase:i})),endpoint:{budgetAdjustedEnergyPerFounder:-60.0,survivors:3}});
+  const adopt=(rate=2.0)=>[{agentId:0,tick:512,incRate:1,propRate:rate,decision:'adopt'}];
+  const freezeAt=(rate=1.0)=>[{agentId:0,tick:512,incRate:1,propRate:null,decision:'keep',errInc:0.5,fitN:8,testN:8},{agentId:0,tick:1024,incRate:1,propRate:null,decision:'freeze',errInc:0.6,fitN:8,testN:8}];
+  it('V1c bank refuses re-mint post-spend (spent-bank guard)',()=>{
+    const dir=join(tmpdir(),'rtv1c-bank-test');
+    rmSync(dir,{recursive:true,force:true});
+    assert.throws(()=>rsiTransferBankV1c(join(dir,'protocol.json')),/already used in prior evidence/);
+    rmSync(dir,{recursive:true,force:true});
+  });
+  it('freezeDecision fires only on keep+non-improving incumbent (synthetic)',()=>{
+    assert.deepEqual(freezeDecision({decision:'adopt',errInc:0.4},0.5),{decision:'adopt',baseline:null});
+    assert.deepEqual(freezeDecision({decision:'skip',errInc:null},0.5),{decision:'skip',baseline:0.5});
+    assert.deepEqual(freezeDecision({decision:'keep',errInc:0.5},null),{decision:'keep',baseline:0.5});
+    assert.deepEqual(freezeDecision({decision:'keep',errInc:0.4},0.5),{decision:'keep',baseline:0.4});
+    assert.deepEqual(freezeDecision({decision:'keep',errInc:0.6},0.5),{decision:'freeze',baseline:0.6});
+    assert.deepEqual(freezeDecision({decision:'keep',errInc:0.5},0.5),{decision:'freeze',baseline:0.5});
+  });
+  it('finalRateOf uses freeze incRate when no later adopt (synthetic)',()=>{
+    const fr=finalRateOfV1c([{agentId:0,tick:512,incRate:1.5,propRate:2.0,decision:'adopt'},{agentId:0,tick:1024,incRate:2.0,propRate:null,decision:'freeze',errInc:0.6}],1.0);
+    assert.equal(fr.median,2.0);
+    const fr2=finalRateOfV1c([{agentId:3,tick:512,incRate:0.5,propRate:null,decision:'freeze',errInc:0.6}],1.0);
+    assert.equal(fr2.median,0.5);
+  });
+  it('V1c scorer GO/NOGO/VOID branches on synthetic rows',()=>{
+    const mk=(sm,fx,un,props)=>[
+      trRow('selfmod',473154,props),trRow('fixed',473154,[]),trRow('unlearned',473154,[]),
+      trRow('selfmod',473172,props),trRow('fixed',473172,[]),trRow('unlearned',473172,[]),
+      txRow('selfmod',473163,sm),txRow('fixed',473163,fx),txRow('unlearned',473163,un),
+      txRow('selfmod',473181,sm),txRow('fixed',473181,fx),txRow('unlearned',473181,un)];
+    const go=scoreRsiTransferRowsV1c(mk(-59.0,-60.5,-61.0,freezeAt()));
+    assert.equal(go.g1,true);assert.equal(go.g2,true);
+    assert.equal(go.go,true);assert.equal(go.verdict,'RSI-TRANSFER-GO-V1C');
+    const no=scoreRsiTransferRowsV1c(mk(-61.0,-59.0,-60.0,freezeAt()));
+    assert.equal(no.go,false);assert.equal(no.verdict,'RSI-TRANSFER-NOGO-V1C');
+    const nf=scoreRsiTransferRowsV1c(mk(-59.0,-60.5,-61.0,adopt()));
+    assert.equal(nf.go,false);assert.equal(nf.verdict,'INCOMPLETE-NOFREEZE');
+    const zf=scoreRsiTransferRowsV1c(mk(-59.0,-60.5,-61.0,[]));
+    assert.equal(zf.go,false);assert.equal(zf.verdict,'INCOMPLETE-NOFIRE');
+  });
+  it('frozen learner holds acquisition false at tick 0 (synthetic seed 7)',()=>{
+    const run=new TasteExperiment({history:synthHistory(7),arm:'unlearned'});
+    assert.equal(run.learners[run.founderIds[0]].acquisition,false);
   });
 });
