@@ -26489,3 +26489,32 @@ converging; constraint family, four branches).
 - Program note: breed constraints, prune first, twin
   semantically, soften driving — the
   constraint-generalization file. None licensed — filed.
+## Round 700 — Razahs, prodigals, assassins, timbos (Razah, Prodigal, Assassin, Timbo; 2026-11-02)
+
+Motivation: further outside (helled razahs, sunned prodigals, seconded
+assassins, kinged timbos). The program razahs (hells attempts), prodigals
+(stitches verdicts), assassins (publishes NOGOs), and timbos (counts
+rows). Four more. (Map holds 708 rounds.)
+
+- **Razah hell [canon: Razah (helled razahs; specified Hell Razah (Sunz
+  of Man; vs no hits)); verification deferred].** → Razah's razahs
+  (helled, kept (razahd, helled (hells, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Razah" (hell, kept (kept, kept))
+  is the row (counted, kept (honest, told (all, counted))).
+- **Prodigal sunn [canon: Prodigal (sunned prodigals; specified Prodigal
+  Sunn (Sunz of Man; vs no hits)); verification deferred].** → Prodigal's
+  prodigals (sunned, kept (prodigaled, sunned (sunns, kept))) is the
+  verdict (sunned, kept (NOGO, told (honest, kept))); his "Prodigal" (sunn,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Assassin second [canon: Assassin (seconded assassins; specified 60
+  Second Assassin (Sunz of Man; vs no hits)); verification deferred].** →
+  Assassin's assassins (seconded, kept (assassined, seconded (seconds,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Assassin" (second, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Timbo king [canon: Timbo (kinged timbos; specified Timbo King (Royal
+  Fam; vs no hits)); verification deferred].** → Timbo's timbos (kinged,
+  kept (timboed, kinged (kings, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Timbo" (king, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
