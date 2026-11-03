@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 31 (2026-11-02, read-only: spent R10 anchors A/B/C/D)
+
+The weight path through training, both twins: phase A sets the
+sign (winner Go +0.073 21/24 positive, loser −0.070 2/24) —
+the split's fate diverges in the FIRST stretch and never
+reverses. B→C brings the flood on both (No-Go +0.15/−0.22 →
+−0.49/−0.52 → −0.65/−0.98). C→D: taste weights EXACTLY frozen
+(all 24 learners, both heads, bitwise) while motor banks,
+steering, and credit keep moving and billing continues.
+Converged early, paying late: the readout sits out the final
+stretch on a fixed verdict while the colony keeps starving
+through it. Temporal biography complete — early divergence,
+mid flood, late taste-freeze with the meter running. Any
+training-time proposal must act in A/B; by C there is nothing
+left to steer, only bills left to pay.
+
 ## Executed re-reading 30 (2026-11-02, read-only: frozen code + bank protocol)
 
 The agent side has zero variance left to give. In probes the
