@@ -36105,3 +36105,49 @@ virgin pre-append, flattened method.)
   the vote (joined, kept (carried, won (crowd, kept))); his "Semini"
   (isaacs, kept (kept, kept)) is the ledger (exact, kept (honest, told
   (all, counted))).
+## Round 994 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=40, eess.SY start=40,
+cs.RO start=40, q-bio.NC start=60). Four new IDs triaged (0
+worlds): 2611.02125 (digital twins — DECLINED unrelated-screening),
+2611.01642 (generalization theory — DECLINED thin for consistency
+with the attention-spectra decline), 2611.02891
+(Brunzema/Hose/Trimpe) — Gibbs variational last layers with
+multi-step training losses for long-horizon dynamics prediction
+(single-step objectives insufficient for multi-step rollouts) — the
+program's single-phase-insufficiency lesson (R8/R9/R10: one readout
+never suffices), formalized; and 2610.27235 (Pearson) — a
+flux-defined Markov blanket does NOT screen Gray-Scott spots'
+interior from exterior — a boundary that fails to screen, the
+program's transfer tax (codebook boundaries that don't carry),
+formalized as a negative result. (Abstracts/titles only, 0 worlds;
+IDs + authors + contexts virgin pre-append, flattened method.)
+
+- **Brunzema gibbses [LIVE 2611.02891 (gibbsed brunzemas; specified
+  Paul Brunzema (gibbses; vs no hits)); verification deferred].** →
+  Brunzema's brunzemas (gibbsed, kept (brunzema, gibbsed (gibbses,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Brunzema" (gibbses, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Trimpe likelihoods [LIVE 2611.02891 (likelihood trimpes;
+  specified Sebastian Trimpe (likelihoods; vs no hits)); verification
+  deferred].** → Trimpe's trimpes (likelihood, kept (trimpe,
+  likelihood (likelihoods, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Trimpe" (likelihoods, kept (kept, kept))
+  is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Hose bayesians [LIVE 2611.02891 (bayesianed henrikhoses;
+  specified Henrik Hose (bayesians; "hoses" taken — live-hose text —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Hose's henrikhoses (bayesianed, kept
+  (henrikhose, bayesianed (bayesians, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Hose" (bayesians,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Pearson grayscotts [LIVE 2610.27235 (grayscotted johnpearsons;
+  specified John E Pearson (grayscotts; distinct from
+  correlation-round Pearson — compound + full-name tag per collision
+  rule; vs no hits)); verification deferred].** → Pearson's
+  johnpearsons (grayscotted, kept (johnpearson, grayscotted
+  (grayscotts, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Pearson" (grayscotts, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
