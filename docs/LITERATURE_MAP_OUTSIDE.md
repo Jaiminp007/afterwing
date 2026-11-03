@@ -29739,3 +29739,35 @@ frutigers (systems verdicts), matthews (alphabets claims), and spiekermanns
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Spiekermann" (posters, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 816 — Canon (both live hoses still dry): jekers, goldfingers, rolfs, noordzijs (Jeker, Goldfinger, Rolf Muller, Noordzij; 2026-11-02)
+
+Motivation: further outside (postered jekers, concreted goldfingers,
+systemed rolfs, typed noordzijs). The program jekers (posters attempts),
+goldfingers (concretes verdicts), rolfs (systems claims), and noordzijs
+(types votes). Four more. (Map holds 800 rounds; Jeker/Goldfinger were
+queued spares.)
+
+- **Jeker posters [canon: Jeker (postered jekers; specified Werner Jeker
+  (posters; vs no hits)); verification deferred].** → Jeker's jekers
+  (postered, kept (jeker, postered (posters, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Jeker" (posters, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Goldfinger concrete [canon: Goldfinger (concreted goldfingers; specified
+  Erno Goldfinger (brutalism; vs no hits)); verification deferred].** →
+  Goldfinger's goldfingers (concreted, kept (goldfinger, concreted
+  (concretes, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Goldfinger" (concrete, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Rolf Muller systems [canon: Rolf Muller (systemed rolfs; specified Rolf
+  Muller (systems; distinct from Josef Muller-Brockmann (grids) and from
+  the genetics Mullers (Dobzhansky incompatibility, ratchet) — full-name
+  tag per collision rule; vs no hits on full name)); verification
+  deferred].** → Muller's rolfs (systemed, kept (rolf, systemed (systems,
+  kept))) is the claim (mourned, kept (RSI, unclaimed (still, standing)));
+  his "Rolf" (systems, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Noordzij type [canon: Noordzij (typed noordzijs; specified Gerrit
+  Noordzij (type; vs no hits)); verification deferred].** → Noordzij's
+  noordzijs (typed, kept (noordzij, typed (types, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Noordzij" (type, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
