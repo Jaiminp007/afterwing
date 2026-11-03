@@ -25682,3 +25682,30 @@ kamals (stitches verdicts), knuckles (publishes NOGOs), and rahzels
   (beatboxed, kept (rahzeled, beatboxed (beatboxes, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Rahzel" (beatbox, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 671 — Paradoxed, lessened, finited, co-evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: paradox dynamics — when
+intuition inverts (already-cited paradox leads
+converging; paradox family, four branches).
+
+- **Professional paradox [arXiv:2504.12654 (Ganuthula;
+  vs no hits)].** Externalizing ACCELERATES automation
+  (expertise paradox; navigate landscape). → Navigate
+  expertise (our program discipline, navigate-side).
+  Filed.
+- **Less-more [arXiv:2502.02713 (Vieira; vs no hits)].**
+  Counterintuitive THRESHOLD (deception dynamics;
+  replicator + Monte Carlo). → Expect inversion (our
+  BH-inversion lesson, expect-side). Filed.
+- **Finite resolve [arXiv:2510.24905 (Ishikawa; vs no
+  hits)].** Finite RESOLVES paradox (penalty-independent
+  crime; fixation). → Resolve finitely (our capped
+  budgets, resolve-side). Filed.
+- **Co-evolve paradox [arXiv:2310.03672 (St-Onge; vs no
+  hits)].** Local GOVERNANCE neither-nor (contagions +
+  institutions; classic models miss). → Govern locally
+  (our frozen plans, govern-side). Filed.
+- Program note: navigate expertise, expect inversion,
+  resolve finitely, govern locally — the
+  paradox-dynamics file. None licensed — filed.
