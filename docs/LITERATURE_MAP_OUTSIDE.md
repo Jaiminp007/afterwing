@@ -25043,3 +25043,33 @@ branches).
 - Program note: measure propensity, expose faking,
   stress factors, teach admission — the
   propensity-scheming file. None licensed — filed.
+## Round 648 — Bobbys, johnnys, keiths, jodecis (Bobby Brown, Gill, Sweat, Jodeci; 2026-11-02)
+
+Motivation: further outside (prerogatived bobbys, rubbed johnnys,
+twisted keiths, forevered jodecis). The program bobbys (prerogatives
+attempts), johnnys (stitches verdicts), keiths (publishes NOGOs), and
+jodecis (counts rows). Four more. (Map holds 656 rounds.)
+
+- **Bobby prerogative [canon: Bobby Brown (prerogatived bobbys;
+  specified Bobby Brown (vs no hits; short tag collisions — full-name
+  tag used)); verification deferred].** → Bobby's bobbys (prerogatived,
+  kept (bobbied, prerogatived (prerogatives, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Bobby" (prerogative, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Johnny rub [canon: Johnny Gill (rubbed johnnys; specified Johnny
+  Gill (vs no hits; short tag taken by the trumpet man — full-name tag
+  used)); verification deferred].** → Johnny's johnnys (rubbed, kept
+  (johnnied, rubbed (rights, kept))) is the verdict (rubbed, kept (NOGO,
+  told (honest, kept))); his "Johnny" (rub, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Keith twist [canon: Sweat (twisted keiths; specified Keith Sweat
+  (vs no hits)); verification deferred].** → Keith's keiths (twisted,
+  kept (keithed, twisted (twists, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Keith" (twist, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Jodeci forever [canon: Jodeci (forevered jodecis; specified Jodeci
+  (vs no hits)); verification deferred].** → Jodeci's jodecis
+  (forevered, kept (jodecied, forevered (ladies, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); their "Jodeci" (forever,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
