@@ -184,6 +184,19 @@ the wounds are distinct mechanisms and the unity claim dies.
 A survival line fixes re-acquisition speed (or stops the maps
 going stale), never the food supply.
 
+## Executed re-reading 8 (2026-11-02, read-only: spent R1 traces)
+
+Stale-map by distance: REFUTED. Mean recommended distance by
+phase: 44.2 → 41.4 → 41.7 → 43.2 (flat); accept-rate 0.53 →
+0.58 → 0.54 (flat; D 1.00 = odor-free accept-all). Intake collapse
+is NOT longer trips or fewer acceptances — intake PER ACCEPT
+halves (0.041 → 0.028 → 0.023) while food grows. The wound is meal
+quality/discrimination, not travel or choosiness. Next specified
+step (not executed): anchor weight-drift across A/B/C/D
+(taste-bank norms in spent anchors) — if taste weights collapse,
+the mechanism is learned-taste unlearning, tying retention +
+discrimination + starvation into one intermediates file.
+
 ## Executed re-reading 3 (2026-11-02, read-only: spent R1/R2/R5/R6 traces)
 
 Pairing-rule schedule check (Moncada: strong events near tags?):
