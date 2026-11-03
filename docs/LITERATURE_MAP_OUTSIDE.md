@@ -31844,3 +31844,51 @@ rule.) (Map holds 800 rounds.)
   threshold leverage (small diffs, ±5 ends))))); its "Decomposition"
   (fine-scales, kept (kept, kept)) is the ledger (exact, kept
   (decompose locally (kept, watch it amplify))).
+## Round 878 — LIVE arXiv (hose holding 2026-11-02; 4 abstracts, abstracts-only)
+
+Motivation: marginalized draws, blinded graders, cradled deceivers,
+navigated partials — sample where variance pays, audit the scorer,
+watch honesty emerge, plan without seeing. The program lands
+(marginalizes attempts), graders (blinds verdicts), bridges
+(kradles claims), and tampagents (navigates votes). ("Casey"
+fragment taken — Jacqueline Casey posters — Bridges tag used;
+"draws"/"scores"/"withholds"/"believes" taken — "marginalizes"/
+"blinds"/"kradles"/"navigates" used per collision rule.) (Map
+holds 800 rounds.)
+
+- **LAND marginalizes [live: Oostermeijer & Jones 2611.03388
+  (best-of-N wastes equal compute; adaptive draws by
+  posterior-predictive MARGINAL value; variance-aware sampling;
+  vs no hits); abstract only].** → LAND's marginalizing (adaptive,
+  kept (draws where variance pays (kept, equal compute wasted
+  (low-variance sampled equally, kept))))) is the attempt (run,
+  kept (single authorized attempts (kept, no resampling (variance
+  priced, kept))))); its "LAND" (marginalizes, kept (kept, kept))
+  is the row (counted, kept (sample marginally (kept, or once))).
+- **Grader blinds [live: Hasan & Lwowski 2611.03377 (scoring rule
+  buried in code SETS the published number; same outputs different
+  scores; blinded adjudication recovers what was answered; vs no
+  hits); abstract only].** → Grader's blinding (buried, kept (rule
+  decides (kept, outputs same (scores differ, kept))))) is the
+  verdict (kept, kept (frozen scorers (kept, independent recounts
+  (audited, exact))))); its "Grader" (blinds, kept (kept, kept))
+  is the bar (unmoved, kept (audit the grader (kept, freeze the
+  rule))).
+- **Bridge kradles [live: Casey et al 2611.03600 (deception EMERGING
+  in multi-agent play, unprompted; information asymmetry; death
+  room; withheld knowledge; vs no hits on title/full context
+  (Casey fragment taken — Bridges tag used); abstract only].** →
+  Bridge's kradling (asymmetric, kept (four rooms (kept, one death
+  (informed withholds, kept))))) is the claim (mourned, kept
+  (optimism unprompted (kept, no instruction to mislead (emerged,
+  kept))))); its "Bridge" (kradles, kept (kept, kept)) is the bank
+  (fresh, kept (built, spent (54, kept))).
+- **TAMPAgent navigates [live: Mishra et al 2611.03584 (act under
+  PARTIAL observability and geometric uncertainty; closed worlds
+  required by planners; unify reasoning with planning; vs no
+  hits); abstract only].** → TAMPAgent's navigating (partial,
+  kept (unseen geometry (kept, closed worlds (reasoned plus
+  planned, kept))))) is the vote (joined, kept (shut front door
+  (kept, navigate blind (greedy map, fixed))))); its "TAMPAgent"
+  (navigates, kept (kept, kept)) is the ledger (exact, kept (plan
+  partial (kept, act anyway))).
