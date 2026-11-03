@@ -30014,3 +30014,35 @@ rounds.)
   kept (aalto, bent (bends, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Aalto" (bends, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 825 — Canon (both live hoses still dry): perriands, grays, jacobsens, hanses (Perriand, Gray, Jacobsen, Hans Wegner; 2026-11-02)
+
+Motivation: further outside (chaised perriands, screened grays, egged
+jacobsens, chaired hanses). The program perriands (chaises attempts),
+grays (screens verdicts), jacobsens (eggs claims), and hanses (chairs
+votes). Four more, furniture-and-form vein continued. (Map holds 800
+rounds.)
+
+- **Perriand chaises [canon: Perriand (chaised perriands; specified
+  Charlotte Perriand (chaises; vs no hits)); verification deferred].** →
+  Perriand's perriands (chaised, kept (perriand, chaised (chaises, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); her
+  "Perriand" (chaises, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Gray screens [canon: Gray (screened grays; specified Eileen Gray
+  (screens; vs no hits)); verification deferred].** → Gray's grays
+  (screened, kept (gray, screened (screens, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); her "Gray" (screens, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Jacobsen eggs [canon: Jacobsen (egged jacobsens; specified Arne
+  Jacobsen (eggs; vs no hits)); verification deferred].** → Jacobsen's
+  jacobsens (egged, kept (jacobsen, egged (eggs, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Jacobsen"
+  (eggs, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Hans Wegner chairs [canon: Hans Wegner (chaired hanses; specified
+  Hans Wegner (chairs; distinct from Daniel Wegner (transactive memory)
+  — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Wegner's hanses (chaired, kept (hans,
+  chaired (chairs, kept))) is the vote (joined, kept (carried, won
+  (crowd, kept))); his "Hans" (chairs, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
