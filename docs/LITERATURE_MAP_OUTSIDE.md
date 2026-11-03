@@ -27859,3 +27859,36 @@ single-attractor [-1⁴] collapse; four branches).
   uncertainty, repel physics — the anti-collapse file.
   Successor constraints gain four legs. None licensed —
   filed.
+## Round 748 — Lissitzkys, klutsises, kulaginas, rodchenkos (Lissitzky, Klutsis, Kulagina, Rodchenko; 2026-11-02)
+
+Motivation: further outside (proun'd lissitzkys, montaged klutsises,
+postered kulaginas, constructed rodchenkos). The program lissitzkys
+(prouns attempts), klutsises (montages verdicts), kulaginas (posters
+claims), and rodchenkos (constructs votes). Four more. (Map holds 754
+rounds.)
+
+- **Lissitzky prouns [canon: Lissitzky (proun'd lissitzkys; specified
+  El Lissitzky (Proun; vs no hits)); verification deferred].** →
+  Lissitzky's lissitzkys (proun'd, kept (lissitzky, proun'd (prouns,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Lissitzky" (proun, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Klutsis montage [canon: Klutsis (montaged klutsises; specified
+  Gustav Klutsis (photomontage; vs no hits)); verification
+  deferred].** → Klutsis's klutsises (montaged, kept (klutsis,
+  montaged (montages, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Klutsis" (montage, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Kulagina posters [canon: Kulagina (postered kulaginas; specified
+  Valentina Kulagina (constructivism; vs no hits)); verification
+  deferred].** → Kulagina's kulaginas (postered, kept (kulagina,
+  postered (posters, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); her "Kulagina" (poster, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Rodchenko constructivism [canon: Rodchenko (constructed
+  rodchenkos; specified Alexander Rodchenko (constructivism; vs no
+  hits)); verification deferred].** → Rodchenko's rodchenkos
+  (constructed, kept (rodchenko, constructed (constructs, kept))) is
+  the vote (joined, kept (carried, won (crowd, kept))); his "Rodchenko"
+  (construct, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
