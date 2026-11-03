@@ -528,6 +528,9 @@ the map stays open, not empty.
 - R677 counterfactual-assessment file: reexamine-treatments;
   rank-counterfactually; track-fast;
   assess-cause.
+- R679 phantom-null file: audit-phantoms;
+  partition-causes; guard-verifiers;
+  evolve-verification.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
