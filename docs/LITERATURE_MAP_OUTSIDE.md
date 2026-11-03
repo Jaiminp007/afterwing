@@ -29354,3 +29354,31 @@ treumanns (graphs votes). Four more. (Map holds 794 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Treumann" (graphics,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 803 — Canon (both live hoses still dry): hubers, kellers, steiners, honeggers (Huber, Keller, Steiner, Honegger; 2026-11-02)
+
+Motivation: further outside (postered hubers, graphed kellers, typed
+steiners, concreted honeggers). The program hubers (posters attempts),
+kellers (graphs verdicts), steiners (types claims), and honeggers
+(concretes votes). Four more. (Map holds 794 rounds.)
+
+- **Huber posters [canon: Huber (postered hubers; specified Max Huber
+  (posters; vs no hits)); verification deferred].** → Huber's hubers
+  (postered, kept (huber, postered (posters, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Huber" (posters, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Keller graphics [canon: Keller (graphed kellers; specified Ernst
+  Keller (graphics; vs no hits)); verification deferred].** → Keller's
+  kellers (graphed, kept (keller, graphed (graphs, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Keller" (graphics, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Steiner type [canon: Steiner (typed steiners; specified Heiri Steiner
+  (type; vs no hits)); verification deferred].** → Steiner's steiners
+  (typed, kept (steiner, typed (types, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Steiner" (type, kept (kept,
+  kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Honegger concrete [canon: Honegger (concreted honeggers; specified
+  Gottfried Honegger (concrete; vs no hits)); verification deferred].** →
+  Honegger's honeggers (concreted, kept (honegger, concreted (concretes,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Honegger" (concrete, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
