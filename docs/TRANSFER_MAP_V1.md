@@ -453,6 +453,9 @@ the map stays open, not empty.
 - R627 counterfactual file: preserve-what-matters;
   twin-rollouts; isolate-choices;
   bandit-fairly.
+- R629 preservation file: check-worlds;
+  preserve-tokens; ground-visuals;
+  minimize-edits.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
