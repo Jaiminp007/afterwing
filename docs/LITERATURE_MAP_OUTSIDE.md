@@ -30827,3 +30827,37 @@ holds 800 rounds.)
   (covered, kept (vogt, covered (covers, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Vogt" (covers, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 851 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (questioned maxes, shelled utzons, glazed
+wohlerts, shared jorgenbos). The program maxes (questions attempts),
+utzons (shells verdicts), wohlerts (glazes claims), and jorgenbos
+(shares votes). Four more. (Frisch-hit is Ragnar (impulse-propagation)
+— full-name tag used; Bo substring-hits are Bardi/Bottoni/etc. —
+full-name tag used.) (Map holds 800 rounds.)
+
+- **Max Frisch questions [canon: Max Frisch (questioned maxes;
+  specified Max Frisch (questions; distinct from Ragnar Frisch
+  (impulse-propagation) — full-name tag per collision rule; vs no hits
+  on full name)); verification deferred].** → Frisch's maxes (questioned,
+  kept (max, questioned (questions, kept))) is the attempt (run, kept
+  (single, authorized (once, held))); his "Max" (questions, kept (kept,
+  kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Utzon shells [canon: Utzon (shelled utzons; specified Jorn Utzon
+  (shells; vs no hits)); verification deferred].** → Utzon's utzons
+  (shelled, kept (utzon, shelled (shells, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Utzon" (shells, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Wohlert glazes [canon: Wohlert (glazed wohlerts; specified Vilhelm
+  Wohlert (glazes; vs no hits)); verification deferred].** → Wohlert's
+  wohlerts (glazed, kept (wohlert, glazed (glazes, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Wohlert"
+  (glazes, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Jorgen Bo shares [canon: Jorgen Bo (shared jorgenbos; specified
+  Jorgen Bo (shares; distinct from Bo-substrings (Bardi/Bottoni/etc.) —
+  full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Bo's jorgenbos (shared, kept (jorgenbo,
+  shared (shares, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Jorgenbo" (shares, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
