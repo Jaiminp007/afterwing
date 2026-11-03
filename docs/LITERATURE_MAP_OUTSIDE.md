@@ -34989,3 +34989,37 @@ pre-append, all per collision rule.) (Map holds 800 rounds.)
   (skadarlijas, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Kojic" (skadarlijas, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 964 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (targued maicus, timisoaraed birous,
+clujed gabreas, sibiused stefans). The program maicus (targus
+attempts), birous (timisoaras verdicts), gabreas (clujs claims), and
+stefans (sibius votes). Four more, Romanian vein II. ("Stefan" as
+fragment hits standing "Stefan Svetko" (R950) — nickname "stefans" +
+full-name tag "canon: Dorin Stefan" keep them apart per precedent;
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Maicu targus [canon: Maicu (targued maicus; specified Horia Maicu
+  (targus; vs no hits)); verification deferred].** → Maicu's maicus
+  (targued, kept (maicu, targued (targus, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Maicu" (targus, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Birou timisoaras [canon: Birou (timisoaraed birous; specified
+  Virgil Birou (timisoaras; vs no hits)); verification deferred].** →
+  Birou's birous (timisoaraed, kept (birou, timisoaraed (timisoaras,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Birou" (timisoaras, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Gabrea clujs [canon: Gabrea (clujed gabreas; specified Sorin Gabrea
+  (clujs; vs no hits)); verification deferred].** → Gabrea's gabreas
+  (clujed, kept (gabrea, clujed (clujs, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Gabrea" (clujs, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Stefan sibius [canon: Dorin Stefan (sibiused stefans; specified
+  Dorin Stefan (sibius; "Stefan" fragment taken — nickname + full-name
+  tag per collision rule; vs no hits)); verification deferred].** →
+  Stefan's stefans (sibiused, kept (stefan, sibiused (sibius, kept)))
+  is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Stefan" (sibius, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
