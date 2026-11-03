@@ -25794,3 +25794,29 @@ tidds (stitches verdicts), hendricksons (publishes NOGOs), and biddles
   (bassed, kept (biddled, bassed (basses, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Biddle" (bass, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 675 — Solared, crossed, cascaded, co-evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: mixed-type synthesis —
+one model, many schemas (already-cited synthesis
+leads converging; synthesis family, four branches).
+
+- **Solar foundation [arXiv:2609.02886 (Huang / SolarWM;
+  vs no hits)].** Naive mixing → INCONSISTENT (fully
+  open; heterogeneous sources). → Found openly (our
+  raw evidence, found-side). Filed.
+- **Cross-dataset [arXiv:2609.39124 (Ketata / CDMD; vs
+  no hits)].** Different SCHEMAS (diffusion directly
+  over mixed-type; no per-dataset). → Cross datasets
+  (our fresh banks, cross-side). Filed.
+- **Cascade [arXiv:2601.22816 (Mueller; vs no hits)].**
+  Low-resolution FIRST (discrete-in-continuous;
+  refine). → Cascade generation (our staged search,
+  cascade-side). Filed.
+- **Co-evolve [arXiv:2304.12654 (Lee / CoDi; vs no
+  hits)].** Conditioned ON EACH OTHER (two models;
+  continuous + discrete). → Co-evolve arms (our
+  multi-arm design, co-evolve-side). Filed.
+- Program note: found openly, cross datasets, cascade
+  generation, co-evolve arms — the mixed-type-synthesis
+  file. None licensed — filed.
