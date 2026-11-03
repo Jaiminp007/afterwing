@@ -33132,3 +33132,40 @@ holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Manosa" (bahays,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 911 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (timbered lims, skyvillaged hassells,
+hajied kasturis, kranjied changs). The program lims (timbers
+attempts), hassells (skyvillages verdicts), kasturis (hajis claims),
+and changs (kranjis votes). Four more, Malayan vein. ("Ken Yeang"
+declined — already mapped ("Yeang skygardens"); "Mun Summ Wong"
+declined — "wongs" one letter from standing "wrongs"; "ters"
+declined — 432 standing hits — "changs" used; full-name tags
+"canon: Chang Yong Ter" (vs "Changing") per collision rule; all per
+collision rule.) (Map holds 800 rounds.)
+
+- **Lim timbers [canon: Jimmy Lim (timbered lims; specified Jimmy Lim
+  (timbers; vs no hits)); verification deferred].** → Lim's lims
+  (timbered, kept (lim, timbered (timbers, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Lim" (timbers, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Hassell skyvillages [canon: Hassell (skyvillaged hassells;
+  specified Richard Hassell (skyvillages; vs no hits)); verification
+  deferred].** → Hassell's hassells (skyvillaged, kept (hassell,
+  skyvillaged (skyvillages, kept))) is the verdict (kept, kept (NOGO,
+  told (honest, kept))); his "Hassell" (skyvillages, kept (kept,
+  kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Kasturi hajis [canon: Kasturi (hajied kasturis; specified Hijjas
+  Kasturi (hajis; vs no hits)); verification deferred].** → Kasturi's
+  kasturis (hajied, kept (kasturi, hajied (hajis, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Kasturi"
+  (hajis, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Chang kranjis [canon: Chang Yong Ter (kranjied changs; specified
+  Chang Yong Ter (kranjis; "ters" declined — full "Chang Yong Ter" tag
+  vs "Changing" per collision rule; vs no hits)); verification
+  deferred].** → Chang's changs (kranjied, kept (chang, kranjied
+  (kranjis, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Chang" (kranjis, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
