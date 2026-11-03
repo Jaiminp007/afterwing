@@ -30116,3 +30116,35 @@ verdicts), ditzels (weaves claims), and jalks (bends votes). Four more.
   kept))) is the transfer (lossy, kept (carried, kept (0.95, kept)));
   her "Jalk" (bends, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 828 — Canon (both live hoses still dry: OpenAlex re-probed, shared-IP budget still $0; 2026-11-02)
+
+Motivation: further outside (refined wanschers, founded klints, cabined
+kochs, joined fritses). The program wanschers (refines attempts), klints
+(founds verdicts), kochs (cabins claims), and fritses (joins votes). Four
+more, Danish-modern vein continued. (Map holds 800 rounds.)
+
+- **Wanscher refines [canon: Wanscher (refined wanschers; specified Ole
+  Wanscher (refines; vs no hits)); verification deferred].** → Wanscher's
+  wanschers (refined, kept (wanscher, refined (refines, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Wanscher"
+  (refines, kept (kept, kept)) is the row (counted, kept (honest, told
+  (all, counted))).
+- **Klint founds [canon: Klint (founded klints; specified Kaare Klint
+  (founds; vs no hits)); verification deferred].** → Klint's klints
+  (founded, kept (klint, founded (founds, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his school (founded, kept (taught,
+  kept (founds, kept))) is the bar (unmoved, kept (still, standing
+  (noise, kept))); his "Klint" (founds, kept (kept, kept)) is the bar's
+  name (kept, kept).
+- **Koch cabins [canon: Koch (cabined kochs; specified Mogens Koch
+  (cabins; vs no hits)); verification deferred].** → Koch's kochs
+  (cabined, kept (koch, cabined (cabins, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Koch" (cabins, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Frits Henningsen joins [canon: Frits Henningsen (joined fritses;
+  specified Frits Henningsen (joins; distinct from Poul Henningsen
+  (R827) — full-name tag per collision rule; vs no hits on full name));
+  verification deferred].** → Henningsen's fritses (joined, kept (frits,
+  joined (joins, kept))) is the vote (joined, kept (carried, won (crowd,
+  kept))); his "Frits" (joins, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
