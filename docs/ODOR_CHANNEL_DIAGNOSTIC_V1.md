@@ -611,6 +611,13 @@ alone (suggestive); everything computed inside R8–R10 stands
 audited. The ledger narrows its correction to exactly what the
 evidence requires — no more.
 
+Precision 4 (2026-11-03): bank identity — R8/R9/R10 r1plain
+banks are byte-identical (8/8 seeds, sha256 match all three
+ways). The R8–R10 like-with-like chain now verified at three
+levels: same scorer formula, same comparator bytes, same
+histories. The correction's scope is itself audited: R2–R6
+suggestive-only, R8–R10 airtight. Nothing left to check.
+
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
 Acquisition rank does not predict transfer rank (rho 0.071).
