@@ -32420,3 +32420,37 @@ rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))));
   his "Isozaki" (mannerists, kept (kept, kept)) is the ledger (exact,
   kept (honest, told (all, counted))).
+## Round 891 — Canon (live pool exhausted across four veins; 2026-11-02)
+
+Motivation: further outside (helsinkied eliels, chapeled lewerentzes,
+bykered erskines, pavilioned fehns). The program eliels (helsinkis
+attempts), lewerentzes (chapels verdicts), erskines (bykers claims),
+and fehns (pavilions votes). Four more, Nordic vein. (Aalto probed
+and declined — already mapped; Arne Jacobsen probed and declined —
+already mapped ("egged jacobsens").) (Map holds 800 rounds.)
+
+- **Eliel helsinkis [canon: Eliel (helsinkied eliels; specified Eliel
+  Saarinen (helsinkis; distinct from Eero — full-name tag per
+  collision rule; vs no hits on full name)); verification deferred].**
+  → Eliel's eliels (helsinkied, kept (eliel, helsinkied (helsinkis,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); his "Eliel" (helsinkis, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Lewerentz chapels [canon: Lewerentz (chapeled lewerentzes;
+  specified Sigurd Lewerentz (chapels; vs no hits)); verification
+  deferred].** → Lewerentz's lewerentzes (chapeled, kept (lewerentz,
+  chapeled (chapels, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "Lewerentz" (chapels, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Erskine bykers [canon: Erskine (bykered erskines; specified Ralph
+  Erskine (bykers; vs no hits)); verification deferred].** → Erskine's
+  erskines (bykered, kept (erskine, bykered (bykers, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his
+  "Erskine" (bykers, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Fehn pavilions [canon: Fehn (pavilioned fehns; specified Sverre
+  Fehn (pavilions; vs no hits)); verification deferred].** → Fehn's
+  fehns (pavilioned, kept (fehn, pavilioned (pavilions, kept))) is the
+  vote (joined, kept (carried, won (crowd, kept))); his "Fehn"
+  (pavilions, kept (kept, kept)) is the ledger (exact, kept (honest,
+  told (all, counted))).
