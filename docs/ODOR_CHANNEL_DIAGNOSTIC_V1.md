@@ -589,12 +589,17 @@ positive means. R49's per-history 7/8 is the fine structure of a
 line-wide constant: the colony splits ~half-half no matter what
 you teach it.
 
-Precision 2 (2026-11-03): metric audit — R2's effects[mode].energy
-and R10's transferLift energy are the same quantity (trained minus
-native-control budgetAdjustedEnergyPerFounder; positiveHistories =
-lift>0 in both). The panel compares like with like across all 8
-rounds; the constant is real, not a schema artifact. Audited to
-the scorer line.
+Precision 2 (2026-11-03): metric audit, CORRECTED — R2's
+effects[mode].energy and R10's transferLift share the lift FORM
+(trained minus a control) but NOT the baseline: R1-plain transfer
+endpoints vs R2 native-control endpoints differ by up to 5.5
+energy units per history. The count pattern (4,4,5,5,5,4,4,5)
+stands as published verdicts, but cross-round like-with-like is
+NOT established — the "line-wide constant" is downgraded from
+audited finding to suggestive cross-verdict pattern. The ledger
+corrects itself: precision 1's "constant" language overreached;
+the per-round verdicts are clean, their comparability is not.
+Filed, gate unmoved.
 
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
