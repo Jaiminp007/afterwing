@@ -26802,3 +26802,30 @@ Four more. (Map holds 718 rounds.)
   (walks, kept))) is the vote (joined, kept (carried, won (crowd, kept)));
   his "Murs" (walk, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 711 — Transferred, extended, obfuscated, encoded (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: robustness trilemma —
+carry strength forward, break three-way ties
+(already-cited trilemma leads converging; trilemma
+family, four branches).
+
+- **Robust transfer [arXiv:2208.03835 (Nern; vs no
+  hits)].** Pretraining → downstream POORLY understood
+  (representation constrains predictor). → Transfer
+  robustly (our transfer test, transfer-side). Filed.
+- **Generative extend [arXiv:2504.10555 (Salmè; vs no
+  hits)].** Trilemma INSUFFICIENT (extend to utility/
+  robustness/privacy; scarcity). → Extend trilemmas
+  (our bar-vs-cause, extend-side). Filed.
+- **OSNIP [arXiv:2601.22752 (Cao; vs no hits)].**
+  Fidelity + ORTHOGONALITY (obfuscated null space;
+  client-side). → Obfuscate nulls (our copy-controls,
+  obfuscate-side). Filed.
+- **Coordinates context [arXiv:2511.23200 (Phan; vs no
+  hits)].** LLM-BOOTSTRAPPED encoding (privacy-enhanced;
+  human-friendly). → Encode context (our codebook
+  design, encode-side). Filed.
+- Program note: transfer robustly, extend trilemmas,
+  obfuscate nulls, encode context — the
+  robustness-trilemma file. None licensed — filed.
