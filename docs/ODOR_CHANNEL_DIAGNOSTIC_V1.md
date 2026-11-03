@@ -458,6 +458,13 @@ H=0 wins, so exploration is not necessary; confounded by probe length
 (512–1151), so entropy is not sufficient. A candidate, not a carrier.
 Candidate recorded, gate unmoved.
 
+Precision (2026-11-03): the length-confound quantified — probe
+length (512–1151 decisions) rank-tracks transfer at rho=0.500, vs
+entropy's 0.61. Entropy adds signal over mere length, but both flow
+from the same downstream spring (colony vitality at transfer); the
+shortest probe (512) wins twice, so length is not the story either.
+Three downstream variables, one spring, none of them learned.
+
 ## Executed re-reading 50 (2026-11-02, read-only: spent R10 traces)
 
 The pairing probe needs a plan, not an instrument. R10's traces
