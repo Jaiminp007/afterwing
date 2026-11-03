@@ -603,6 +603,9 @@ the map stays open, not empty.
 - R729 looped-efficient file: loop-self-improve;
   vector-smart; gate-entries;
   transfer-histo.
+- R731 tripartite-authorized file: authorize-cross-interface;
+  tripartite-compute; write-kathleen;
+  steer-nous.
 - R725 preconditioned-attention file: lucid-attention;
   shallow-cycle; dummy-prototypes;
   unsupervise-spotting.
