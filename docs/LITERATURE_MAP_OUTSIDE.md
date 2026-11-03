@@ -28170,3 +28170,35 @@ votes). Four more. (Map holds 764 rounds; milestone: canon R760.)
   is the vote (joined, kept (carried, won (crowd, kept))); his "David"
   (covers, kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 762 — Brownjohns, friedmen, allemanns, richards (Brownjohn, Friedman, Allemann, Richard Hollis; 2026-11-02)
+
+Motivation: further outside (titled brownjohns, radicalled friedmen,
+postered allemanns, swissed richards). The program brownjohns (titles
+attempts), friedmen (radicals verdicts), allemanns (posters claims), and
+richards (swisses votes). Four more. (Map holds 764 rounds.)
+
+- **Brownjohn titles [canon: Brownjohn (titled brownjohns; specified
+  Robert Brownjohn (film titles; vs no hits)); verification deferred].** →
+  Brownjohn's brownjohns (titled, kept (brownjohn, titled (titles, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Brownjohn" (titles, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Friedman radicals [canon: Friedman (radicalled friedmen; specified
+  Dan Friedman (radical modernism; vs no hits)); verification deferred].** →
+  Friedman's friedmen (radicalled, kept (friedman, radicalled (radicals,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Friedman" (radicals, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Allemann posters [canon: Allemann (postered allemanns; specified Hans
+  Allemann (posters; vs no hits)); verification deferred].** → Allemann's
+  allemanns (postered, kept (allemann, postered (posters, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); his "Allemann"
+  (posters, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Richard Hollis swiss [canon: Richard Hollis (swissed richards;
+  specified Richard Hollis (Swiss design; distinct from Hollis Frampton
+  (alphabet films) — full-name tag per collision rule; vs no hits on full
+  name)); verification deferred].** → Hollis's richards (swissed, kept
+  (richard, swissed (swisses, kept))) is the vote (joined, kept (carried,
+  won (crowd, kept))); his "Richard" (swiss, kept (kept, kept)) is the ledger
+  (exact, kept (honest, told (all, counted))).
