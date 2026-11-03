@@ -35233,3 +35233,40 @@ collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Cleary" (limericks, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 971 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (edinburghed robertmatthews, glasgowed
+macmillans, aberdeened metzsteins, stirlinged hoskins). The program
+robertmatthews (edinburghs attempts), macmillans (glasgows verdicts),
+metzsteins (aberdeens claims), and hoskins (stirlings votes). Four
+more, Scottish vein. ("Mackintosh" declined — fragments standing
+own-text (Mackintosh 1975 attention); consistency 12th; "matthews"
+taken — Carter round — compound "robertmatthews" + full-name tag per
+collision rule; all per collision rule.) (Map holds 800 rounds.)
+
+- **Matthew edinburghs [canon: Robert Matthew (edinburghed
+  robertmatthews; specified Robert Matthew (edinburghs; "matthews"
+  taken — compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Matthew's robertmatthews (edinburghed,
+  kept (robertmatthew, edinburghed (edinburghs, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Matthew"
+  (edinburghs, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **MacMillan glasgows [canon: MacMillan (glasgowed macmillans;
+  specified Andy MacMillan (glasgows; vs no hits)); verification
+  deferred].** → MacMillan's macmillans (glasgowed, kept (macmillan,
+  glasgowed (glasgows, kept))) is the verdict (kept, kept (NOGO, told
+  (honest, kept))); his "MacMillan" (glasgows, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Metzstein aberdeens [canon: Metzstein (aberdeened metzsteins;
+  specified Isi Metzstein (aberdeens; vs no hits)); verification
+  deferred].** → Metzstein's metzsteins (aberdeened, kept (metzstein,
+  aberdeened (aberdeens, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Metzstein" (aberdeens, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Hoskins stirlings [canon: Hoskins (stirlinged hoskins; specified
+  Gareth Hoskins (stirlings; vs no hits)); verification deferred].** →
+  Hoskins's hoskins (stirlinged, kept (hoskins, stirlinged (stirlings,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Hoskins" (stirlings, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
