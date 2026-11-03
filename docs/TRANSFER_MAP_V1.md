@@ -543,6 +543,9 @@ the map stays open, not empty.
 - R687 divergence-sovereignty file: diverge-evidence;
   leak-memory; isolate-sovereignty;
   shatter-metrics.
+- R689 validity-guarantees file: validate-first;
+  curve-confidence; saturate-privately;
+  conform-small.
 - R433 addendum: RAEGL (default-global + separate selection-
   from-calibration) filed as THE successor vote design;
   surprise-alone-learns-lies filed on C16 as the epitaph;
