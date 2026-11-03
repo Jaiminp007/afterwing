@@ -2,8 +2,7 @@ import assert from 'node:assert/strict';
 import {advanceRng} from './intervention-study.mjs';
 
 export const STEERING_FEATURES=8;
-export function createOwnSteering(agentId,seed,dims=STEERING_FEATURES){
-  assert.ok(Number.isSafeInteger(agentId)&&agentId>0&&Number.isInteger(seed)&&seed>0&&seed<=0xffffffff);
+export function createOwnSteering(agentId,seed,dims=STEERING_FEATURES){  assert.ok(Number.isSafeInteger(agentId)&&agentId>0&&Number.isInteger(seed)&&seed>0&&seed<=0xffffffff);
   assert.ok(Number.isSafeInteger(dims)&&dims>0);
   return {agentId,weights:Array.from({length:2},()=>Array(dims).fill(0)),pending:null,rngState:seed,
     acquisition:true,dead:false,lastDecisionTick:null,updates:0,work:{scalarOperations:0}};
@@ -28,6 +27,27 @@ function update(state,energy,nextFeatures,available,terminal){
     state.weights[pending.action][index]=Math.max(-8,Math.min(8,value));
   }
   state.work.scalarOperations+=5*state.weights[pending.action].length;state.updates++;state.pending=null;
+}
+export function superviseOwnSteering(state,features,expert){
+  // ODOR DEV ROUND 4 frozen BC rule (PLAN V1 §1): perceptron push/pull
+  // toward the expert action, same rate/bounds as the live rule.
+  // Billing is the frozen formula: values 2*2*D + update 2*(2*D+1).
+  assert.ok(Array.isArray(features)&&features.length===state.weights[0].length&&features.every(Number.isFinite));
+  assert.ok(expert===0||expert===1);
+  const D=state.weights[0].length;
+  const s0=state.weights[0].reduce((s,w,j)=>s+w*features[j],0);
+  const s1=state.weights[1].reduce((s,w,j)=>s+w*features[j],0);
+  const pred=s1>s0?1:0;
+  let ops=2*2*D;
+  if(pred!==expert){
+    for(let j=0;j<D;j++){
+      state.weights[expert][j]=Math.max(-8,Math.min(8,state.weights[expert][j]+.05*features[j]));
+      state.weights[1-expert][j]=Math.max(-8,Math.min(8,state.weights[1-expert][j]-.05*features[j]));
+    }
+    ops+=2*(2*D+1);state.updates++;
+  }
+  state.work.scalarOperations+=ops;
+  return {action:pred,updated:pred!==expert,ops};
 }
 export function chooseOwnSteering(state,own,{forcedAction=null}={}){
   validate(state,own);
