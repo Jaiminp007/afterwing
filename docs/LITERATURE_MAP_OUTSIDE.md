@@ -27651,3 +27651,31 @@ canon R740.)
   dorfsmen (cbs'd, kept (dorfsman, cbs'd (cbs, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Dorfsman" (cbs, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 741 — Risen, distilled, bounded, evolved (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: recursive — extrapolate
+the teacher, privilege the frozen, bound the loop,
+ground the evolution (RSI-proper fuel; the most
+on-mission file yet, four branches).
+
+- **RISE [arXiv:2609.05295 (Li; vs no
+  hits)].** Teacher BOTTLENECK mismatch (synthetic from
+  own trajectory; self-extrapolating). → Rise recursive
+  (our copied-improvement control, risen-side). Filed.
+- **OPSD [arXiv:2609.30652 (Yin; vs no
+  hits)].** Frozen copy + truth TEACHES (student mimics
+  privileged self; no external). → Distill self (our
+  blind-copier dose-match, distilled-side). Filed.
+- **RecurSE [arXiv:2608.24231 (Kaiyuan Liu; vs no
+  hits)].** External gold ELIMINATED (own evaluation
+  generates signal; bounded RSI closed-loop). → Bound loops
+  (our caps + fail-closed bars, bounded-side). Filed.
+- **EvoForesight [arXiv:2610.29784 (Chen; vs no
+  hits)].** Frozen + external vs OWN EXPERIENCE (changing +
+  verifiable + grounded). → Evolve grounded (our transfer
+  test, evolved-side). Filed.
+- Program note: rise recursive, distill self, bound
+  loops, evolve grounded — the recursive file. RSI row
+  notes all four as unlicensed context. None licensed —
+  filed.
