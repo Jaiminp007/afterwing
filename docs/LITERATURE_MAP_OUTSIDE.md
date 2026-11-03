@@ -24659,3 +24659,31 @@ toms (publishes NOGOs), and bruces (counts rows). Four more. (Map holds
   (runned, kept (bruced, runned (borns, kept))) is the vote (joined,
   kept (carried, won (crowd, kept))); his "Bruce" (run, kept (kept,
   kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 635 — Captured, used, programmed, struggled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: in practice — watch
+developers not benchmarks (already-cited usage/editing leads
+converging; practice family, four branches).
+
+- **Interaction capture [arXiv:2605.01104 (He / RECAP;
+  vs no hits)].** Which prompt → WHICH edit
+  (tried-and-discarded; strategy evolution;
+  passive record). → Capture the interaction (our
+  per-row archives, capture-side). Filed.
+- **Production usage [arXiv:2402.17442 (Sahoo; vs no
+  hits)].** Domain-specific NEGLECTED (IDE as
+  interface; productivity tools). → Watch the usage
+  (our newest-chain tracking, usage-side). Filed.
+- **Prompt programs [arXiv:2409.12447 (Liang; vs no
+  hits)].** Prompts ARE programs (prompt programming
+  distinct; grounded theory). → Program the prompt
+  (our frozen plans, program-side). Filed.
+- **Practice struggles [arXiv:2504.20196 (Nam; vs no
+  hits)].** Where they STRUGGLE (multi-phase;
+  daily workflows; gap in how). → Support the
+  struggle (our diagnose-fix-retry, practice-side).
+  Filed.
+- Program note: capture interactions, watch usage,
+  program prompts, support struggles — the
+  in-practice file. None licensed — filed.
