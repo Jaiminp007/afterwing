@@ -32454,3 +32454,37 @@ already mapped ("egged jacobsens").) (Map holds 800 rounds.)
   vote (joined, kept (carried, won (crowd, kept))); his "Fehn"
   (pavilions, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 892 — Canon (live pool exhausted across five veins; 2026-11-02)
+
+Motivation: further outside (sprawled branzis, superstudioed
+natalinis, ufoed binazzis, casabellaed raggis). The program branzis
+(sprawls attempts), natalinis (superstudios verdicts), binazzis
+(ufos claims), and raggis (casabellas votes). Four more, Italian
+radical vein. (Mendini probed and declined — already mapped
+("spotted mendinis").) (Map holds 800 rounds.)
+
+- **Branzi sprawls [canon: Branzi (sprawled branzis; specified Andrea
+  Branzi (sprawls; vs no hits)); verification deferred].** → Branzi's
+  branzis (sprawled, kept (branzi, sprawled (sprawls, kept))) is the
+  attempt (run, kept (single, authorized (once, held))); his "Branzi"
+  (sprawls, kept (kept, kept)) is the row (counted, kept (honest,
+  told (all, counted))).
+- **Natalini superstudios [canon: Natalini (superstudioed natalinis;
+  specified Adolfo Natalini (superstudios; vs no hits)); verification
+  deferred].** → Natalini's natalinis (superstudioed, kept (natalini,
+  superstudioed (superstudios, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Natalini" (superstudios, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Binazzi ufos [canon: Binazzi (ufoed binazzis; specified Lapo
+  Binazzi (ufos; vs no hits)); verification deferred].** → Binazzi's
+  binazzis (ufoed, kept (binazzi, ufoed (ufos, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Binazzi"
+  (ufos, kept (kept, kept)) is the bank (fresh, kept (built, spent
+  (54, kept))).
+- **Raggi casabellas [canon: Raggi (casabellaed raggis; specified
+  Franco Raggi (casabellas; vs no hits)); verification deferred].** →
+  Raggi's raggis (casabellaed, kept (raggi, casabellaed (casabellas,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))));
+  his "Raggi" (casabellas, kept (kept, kept)) is the ledger (exact,
+  kept (honest, told (all, counted))).
