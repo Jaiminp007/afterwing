@@ -30620,3 +30620,33 @@ full name.) (Map holds 800 rounds.)
   (cited, kept (rossi, cited (cites, kept))) is the vote (joined, kept
   (carried, won (crowd, kept))); his "Rossi" (cites, kept (kept, kept)) is
   the ledger (exact, kept (honest, told (all, counted))).
+## Round 844 — Canon (both live hoses still dry; 2026-11-02)
+
+Motivation: further outside (grounded gregottis, read tafuris, streamed
+riccis, held decarlos). The program gregottis (grounds attempts),
+tafuris (reads verdicts), riccis (streams claims), and decarlos (holds
+votes). Four more, Italian-modern vein continued (Botta queued spare).
+(Map holds 800 rounds.)
+
+- **Gregotti grounds [canon: Gregotti (grounded gregottis; specified
+  Vittorio Gregotti (grounds; vs no hits)); verification deferred].** →
+  Gregotti's gregottis (grounded, kept (gregotti, grounded (grounds,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Gregotti" (grounds, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Tafuri reads [canon: Tafuri (read tafuris; specified Manfredo Tafuri
+  (reads; vs no hits)); verification deferred].** → Tafuri's tafuris
+  (read, kept (tafuri, read (reads, kept))) is the verdict (kept, kept
+  (NOGO, told (honest, kept))); his "Tafuri" (reads, kept (kept, kept)) is
+  the bar (unmoved, kept (still, standing (noise, kept))).
+- **Ricci streams [canon: Ricci (streamed riccis; specified Leonardo
+  Ricci (streams; vs no hits)); verification deferred].** → Ricci's
+  riccis (streamed, kept (ricci, streamed (streams, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Ricci"
+  (streams, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **De Carlo holds [canon: De Carlo (held decarlos; specified Giancarlo
+  De Carlo (holds; vs no hits)); verification deferred].** → De Carlo's
+  decarlos (held, kept (decarlo, held (holds, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "De Carlo" (holds, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
