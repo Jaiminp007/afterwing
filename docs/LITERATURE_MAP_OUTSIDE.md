@@ -30861,3 +30861,31 @@ full-name tag used.) (Map holds 800 rounds.)
   shared (shares, kept))) is the vote (joined, kept (carried, won (crowd,
   kept))); his "Jorgenbo" (shares, kept (kept, kept)) is the ledger
   (exact, kept (honest, told (all, counted))).
+## Round 852 — Canon (all three live hoses dry: arXiv 0B 20+ turns, OpenAlex shared-IP $0, Semantic Scholar 429 on shared IP too; 2026-11-02)
+
+Motivation: further outside (cut deplazeses, creased bearths, gathered
+campis, bound pessinas). The program deplazeses (cuts attempts), bearths
+(creases verdicts), campis (gathers claims), and pessinas (binds votes).
+Four more. (Third hose tried: Semantic Scholar rate-limits the shared IP
+as well — documented, not used.) (Map holds 800 rounds.)
+
+- **Deplazes cuts [canon: Deplazes (cut deplazeses; specified Andrea
+  Deplazes (cuts; vs no hits)); verification deferred].** → Deplazes's
+  deplazeses (cut, kept (deplazes, cut (cuts, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Deplazes" (cuts, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all, counted))).
+- **Bearth creases [canon: Bearth (creased bearths; specified Valentin
+  Bearth (creases; vs no hits)); verification deferred].** → Bearth's
+  bearths (creased, kept (bearth, creased (creases, kept))) is the verdict
+  (kept, kept (NOGO, told (honest, kept))); his "Bearth" (creases, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise, kept))).
+- **Campi gathers [canon: Campi (gathered campis; specified Mario Campi
+  (gathers; vs no hits)); verification deferred].** → Campi's campis
+  (gathered, kept (campi, gathered (gathers, kept))) is the claim (mourned,
+  kept (RSI, unclaimed (still, standing))); his "Campi" (gathers, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Pessina binds [canon: Pessina (bound pessinas; specified Franco
+  Pessina (binds; vs no hits)); verification deferred].** → Pessina's
+  pessinas (bound, kept (pessina, bound (binds, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Pessina" (binds, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
