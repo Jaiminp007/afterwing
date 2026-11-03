@@ -28793,3 +28793,39 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   STRUCTURAL plasticity on the no-go side. Banked for any reopened
   discrimination case: look for spine-level (not weight-level)
   change where stopping is learned.
+## Round 787 — LIVE via OpenAlex: gates, pauses, beliefs, roots (Goulton D2-gating 2026, Huang CIN-pause 2023, Friston active-inference 2016, Gipson spine-causality 2016; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only,
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Early gating [Goulton et al. 2026, D2 gates D1 encoding under
+  uncertainty; vs no hits].** → D2-SPNs recruited transiently in
+  EARLIEST learning; transmodulation constrains PKA in D1-SPNs,
+  OVERRIDING the extracellular dopamine broadcast. A6 refined:
+  suppression is early (when contingencies emerge), targeted (the
+  plasticity gate, not the weights), and against the global signal.
+  A mixture freeze must name timing + target + override — the
+  suppression pathway now has all three specified.
+- **Pause is information [Huang et al. 2023, CIN burst-pause
+  controls extinction/updating; vs no hits].** → Extinction
+  enhances ACh; burst promotes it; disrupting the post-burst PAUSE
+  impairs updating (alcohol flattens burst-pause, traps old goals).
+  Second extinction mechanism with a design analog: stop as
+  PHASIC burst-then-pause (inhibition with an obligatory recovery
+  window for updating), never a tonic gate. Tonic stop holds the
+  system down; phasic stop lets it rewrite.
+- **Beliefs before habits [Friston et al. 2016, active inference
+  and learning; vs no hits].** → Epistemic (ambiguity-resolving)
+  behavior enables pragmatic (reward-seeking) behavior; habits
+  emerge from sequential optimization; the key cut is belief-free
+  vs belief-based. The heads' 10% ε-explore is belief-free noise —
+  specified upgrade: uncertainty-directed (epistemic) exploration,
+  ambiguity-resolving before reward-seeking. Exploration-design
+  rule banked.
+- **Spine causality [Gipson & Olive 2016, spine plasticity root or
+  result of behavior; vs no hits].** → Structural change may be
+  CONSEQUENCE, not cause, of the behavior — causality currently
+  unclear. Downgrades the Iino banking from "look for substrate"
+  to "disambiguate cause vs consequence": any structural no-go
+  claim must separate the two, or it mistakes the footprint for
+  the foot. Outside negative-preservation instinct, adopted.
