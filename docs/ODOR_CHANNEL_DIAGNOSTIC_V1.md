@@ -276,6 +276,19 @@ is reachable (turning responds to the readout) but not yet steerable
 toward energy. The next rationale inherits a working behavioral handle —
 turning — with no demonstrated conversion to budget.
 
+## Executed re-reading 17 (2026-11-02, read-only: spent R10 rows)
+
+Go-positivity rank-tracks transfer (descriptive, n=8, no claim).
+Sorted by Go-mean ascending: L, W, L, L, W, W, W, W — the top 4
+are all transfer wins, the bottom 4 split 1W/3L (all-wins-on-top
+p≈0.07 under null). Dose-response flavor supporting the PARTIAL's
+own words (mechanism works): stronger Go learning goes with
+transfer wins, with one exception each way (3170855589 wins at
++0.044; 2672461838 loses at +0.483). This licenses NOTHING new
+(no second attempt, no re-tuning, no (d) — the freeze stands); it
+is texture for the shelf: the readout is not arbitrary, it is
+priced.
+
 ## Executed re-reading 9 (2026-11-02, read-only: spent R1 anchors)
 
 Weight-norm drift across A/B/C/D anchors (flies 1/10/11 shown,
