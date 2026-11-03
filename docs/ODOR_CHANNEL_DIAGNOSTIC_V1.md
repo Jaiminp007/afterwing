@@ -444,6 +444,22 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 34 (2026-11-02, read-only: spent R10 anchors A-D)
+
+The colony has one learner, not three. Weight rms by stack:
+taste norms ~5.5 (the only real learning), motor 0.007→0.014
+(weak, frozen at C), steering 0.002→0.005 (spectator — an
+order below weak, C→D drifting 0.004→0.004 and 0.005→0.004,
+effectively nothing). The steering learner barely moves all
+1792 ticks on either twin. So the turn fractions — the entire
+transfer behavior — come from (near-zero motor + taste scores
++ entry state + encounter mix), with the taste as nearly the
+only learned thing in the building. Single-solution (R25) was
+about diversity; this is about magnitude: there is one pen
+writing, two pens dry. Any account of what the colony "learns"
+that spreads credit across three learners is triple-counting
+one student.
+
 ## Executed re-reading 33 (2026-11-02, read-only: spent R10 anchors A-D)
 
 Convergence is system-wide, and the transfer motor is untrained.
