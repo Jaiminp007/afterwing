@@ -27831,3 +27831,31 @@ rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Schwitters" (merz, kept (kept, kept)) is the ledger (exact, kept (honest,
   told (all, counted))).
+## Round 747 — Diversified, repelled, collapsed, repelled (live arXiv; 2026-11-02)
+
+Four fresh abstracts (fetched 2026-11-02, abstracts only, 0 worlds),
+all virgin pre-append. Themed: anti-collapse — maximize
+the representation, repel the members, explain the
+implicit, prefer the uncertainty (probe-audit fuel:
+single-attractor [-1⁴] collapse; four branches).
+
+- **Value collapse [arXiv:2006.13823 (Sheikh; vs no
+  hits)].** Learners CONVERGE same point (falls back to
+  single; representation diversity). → Diversify values
+  (our occupied-address penalty, diversified-side). Filed.
+- **Repulsive Bayesian [arXiv:2106.11642 (D'Angelo; vs no
+  hits)].** Saturation to SINGLE (functional diversity
+  challenging; repulsion). → Repel members (our
+  per-cue distinctness, repelled-side). Filed.
+- **Uncertainty collapse [arXiv:2409.02628 (Kirsch; vs no
+  hits)].** Epistemic COLLAPSE with complexity (implicit
+  ensembling explains). → Collapse uncertainty (our
+  probe-means audit, collapsed-side). Filed.
+- **Repulsive PINN [arXiv:2505.17308 (Pilar; vs no
+  hits)].** Uncertainty over POINT (inverse problems;
+  repulsive ensembles). → Repel physics (our billing
+  honesty, repel-side). Filed.
+- Program note: diversify values, repel members, collapse
+  uncertainty, repel physics — the anti-collapse file.
+  Successor constraints gain four legs. None licensed —
+  filed.
