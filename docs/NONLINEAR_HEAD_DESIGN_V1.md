@@ -138,6 +138,15 @@ competition-shaped (plastic, activity-dependent); perisomatic is
 NOT (fixed, structural). One learning brake + one fixed brake:
 plasticity where inputs arrive, fixity where outputs leave.
 
+ISN framing (R799 — Hennequin 2013): inhibition-stabilized
+networks selectively AMPLIFY — fixed soma stabilizes to ENABLE
+dendritic selection. Stability is computation's condition, not
+its enemy: hold still to select. Causal fractionation (R799 —
+Tang 2014): both arms earn their place by intervention (SST
+reopens plasticity against the PV-only story) — neither brake
+arm epiphenomenal; correlation's fractionation becomes
+causation's.
+
 Brake form (R795 — Miehl 2022, nonlinear inhibitory plasticity):
 inhibition must DOMINATE excitation and depend NONLINEARLY on
 the postsynaptic rate (same-sign changes) — excitatory Hebbian

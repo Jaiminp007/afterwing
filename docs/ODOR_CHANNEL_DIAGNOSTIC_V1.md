@@ -70,6 +70,17 @@ from low-level observations, never assume — and interchange
 intervention is how discovery is verified. The diagnostic's
 primary measure inherits the field's central problem.
 
+TTC re-reading (R799 — Clopath 2008, tag-trigger-consolidate):
+acquisition TAGS (silent mark), transfer TRIGGERS (capture
+event), retention CONSOLIDATES (late stabilization) — one model's
+three phases, not three literatures. The diagnostic's job is now
+FIND THE TAGS: which traces were tagged but never triggered
+(acquisition without transfer opportunity), which triggered
+without tags (transfer probes with nothing to capture). Cross-
+tagging explains mixed cases. Six gating rounds re-read as six
+attempts at the trigger phase of a cycle the program never knew
+it was in.
+
 Meta-transfer re-reading (R795 — Bengio 2019): adaptation SPEED
 to sparse shifts as the meta-objective — correct structure =
 changes concentrated in few mechanisms = sparse gradients. Every
