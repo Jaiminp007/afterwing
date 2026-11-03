@@ -444,6 +444,19 @@ both trained worlds. The with-odor-transfer hypothesis died on
 the frozen plan before measurement; the only transfer world
 remains the odor-free one (R26).
 
+## Executed re-reading 49 (2026-11-02, read-only: spent R9+R10 verdicts)
+
+Transfer sign is mechanism-invariant; acquisition is not. Same 8
+histories, different training (R9 quantile vs R10 split): transfer
+win/lose agrees 7/8 (p≈0.035 vs coin), magnitude rank-tracks
+moderately (rho 0.476), while acquisition sign agrees 4/8 — chance.
+The mechanism moves what you earn and modulates how much you carry,
+but NOT whether you win: the verdict per history is set elsewhere
+(entry/behavior/dice, per R17/R19/R44). The single flip (681849533:
+loses −2.63 under quantile, wins +2.34 under split) bounds the claim —
+mechanism can flip one history, not eight. Training chooses the size
+of the fate, never its side (7 times out of 8).
+
 ## Executed re-reading 48 (2026-11-02, read-only: spent R10 verdict)
 
 Acquisition rank does not predict transfer rank (rho 0.071).
