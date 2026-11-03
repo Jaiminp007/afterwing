@@ -48,11 +48,18 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
   already cruise, so intake evidence accrues on a minority of trials.
   Per-cue heterogeneity expected: 100%-turn cues yield no evidence
   ever (consultant-flagged limit, pre-accepted as a boundary).
-- **Q2 learning-state during transfer: OPEN.** Transfer legs in
-  V1m advance with the transplanted weights; whether ongoing
-  plasticity is on/off during transfer eval, and how the exception
-  memory interacts with it, must be fixed in the freeze (memory must
-  not duplicate or fight live plasticity).
+- **Q2 learning-state during transfer: CLOSED 2026-11-02
+  (analytic).** Plasticity is ON during transfer eval: candidate
+  arm never freezes (`taste-experiment.mjs` freeze applies only to
+  frozen/reset arms; `acquisition:true` default in
+  `taste-energy.mjs:59`; no window gating for candidate). So the
+  wound (HB ~0.29 exact) is measured WITH live learning — failure
+  DESPITE ongoing plasticity. Freeze recommendation: keep the
+  standard protocol (plasticity ON, matching all prior transfer
+  legs — comparability preserved); the memory is an OVERLAY, and
+  the shuffled control isolates the addressing effect from any
+  generic overlay effect. The memory's value must come from
+  input-addressability, not extra learning signal.
 
 ## Open items before any freeze (all must close)
 
@@ -68,8 +75,8 @@ HB lift tracks correctly-indexed reassignment, not generic recoding.
 
 ## Verdict
 
-SCOPED-CANDIDATE. C17 remains UNLICENSED until Q2–Q6 close in a frozen
-plan. The C17-bar (genuinely new + non-pooled external-or-max +
+SCOPED-CANDIDATE (Q1, Q2 closed). C17 remains UNLICENSED until Q3–Q6
+close in a frozen plan. The C17-bar (genuinely new + non-pooled external-or-max +
 direction-first) is provisionally met on paper: input-side (unmapped
 locus), cue-specific external probe statistic, HB-first prediction.
 No bank, no fixtures, no attempt authorized by this doc.
