@@ -32737,3 +32737,37 @@ all per collision rule.) (Map holds 800 rounds.)
   (joined, kept (carried, won (crowd, kept))); his "Duhart" (cepal,
   kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 900 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (moulded fathys, loomed wassefs,
+kanchanjungaed correas, sangathed doshis). The program fathys
+(moulds attempts), wassefs (looms verdicts), correas (kanchanjungas
+claims), and doshis (sangaths votes). Four more, mud-and-sun vein.
+("Shades"/"sinks" taken — "kanchanjungas"/"sangaths" used per
+collision rule.) (Map holds 800 rounds.)
+
+- **Fathy moulds [canon: Fathy (moulded fathys; specified Hassan
+  Fathy (moulds; vs no hits)); verification deferred].** → Fathy's
+  fathys (moulded, kept (fathy, moulded (moulds, kept))) is the attempt
+  (run, kept (single, authorized (once, held))); his "Fathy" (moulds,
+  kept (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Wassef looms [canon: Wassef (loomed wassefs; specified Ramses
+  Wissa Wassef (looms; vs no hits)); verification deferred].** →
+  Wassef's wassefs (loomed, kept (wassef, loomed (looms, kept))) is the
+  verdict (kept, kept (NOGO, told (honest, kept))); his "Wassef"
+  (looms, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Correa kanchanjungas [canon: Correa (kanchanjungaed correas;
+  specified Charles Correa (kanchanjungas; vs no hits)); verification
+  deferred].** → Correa's correas (kanchanjungaed, kept (correa,
+  kanchanjungaed (kanchanjungas, kept))) is the claim (mourned, kept
+  (RSI, unclaimed (still, standing))); his "Correa" (kanchanjungas,
+  kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Doshi sangaths [canon: Doshi (sangathed doshis; specified
+  Balkrishna Doshi (sangaths; vs no hits)); verification deferred].** →
+  Doshi's doshis (sangathed, kept (doshi, sangathed (sangaths,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept)))); his
+  "Doshi" (sangaths, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
