@@ -28686,3 +28686,38 @@ Live via api.openalex.org (arXiv API still down). Abstracts only
   problem (social assays run under the wrong deprivation state).
   Banked: social behavior as a state of the hunger dial, not a
   separate track.
+## Round 784 — LIVE via OpenAlex: utilities, silences, benchmarks, gates (Bogacz motivation-theory 2017, Rossato silent 2018, Flageat QD-bench 2022, Xu NPFR1 2010; 2026-11-02)
+
+Live via api.openalex.org (arXiv API still down). Abstracts only
+(Rossato: abstract unindexed — title-record reading flagged),
+0 worlds. All four virgin pre-append (0 hits each).
+
+- **Motivation theory [Bogacz 2017, RL and motivation in the basal
+  ganglia; vs no hits].** → Utility = hunger-scaled positive
+  consequences minus effort, in striatal Go vs No-Go weights that
+  learn SEPARATELY — and dopamine neurons learn their own activity
+  level (meta-plasticity). Three gifts: (a) the acquisition-gating
+  gain function with a theory (motivation multiplies the positive
+  term — frozen-form candidate banked); (b) A4's component-division
+  with a learning story (separate matrices for positive vs negative
+  consequences, never two branches on one argmax); (c) the modulator
+  itself learns — plasticity-gain as a learned parameter, the
+  deepest version of the nominated class.
+- **Silent name [Rossato et al. 2018, Silent Learning; title record
+  (abstract unindexed); vs no hits].** → The constraint named
+  independently of Shindou's mechanism: learning without behavioral
+  expression as a phenomenon in its own right. Second voice for
+  B3-silence (mechanism + phenomenon now both banked).
+- **QD benchmarks [Flageat et al. 2022, QD suite for deep
+  neuroevolution RL (QDax); vs no hits].** → Tasks, descriptors,
+  fitness + coverage / QD-score / max-fitness / archive-profile /
+  stochasticity-corrected robustness. The population track's
+  evaluation pre-specified: adopt these metrics at opening, invent
+  none. Opening conditions gain a measurement suite.
+- **Stress gate [Xu et al. 2010, NPFR1 inhibits aversion to
+  diverse stressful stimuli; vs no hits].** → NPF signaling is
+  broadly INHIBitory under stress (TRP-mediated Ca2+ attenuated);
+  resilience + aggression-control ride the same receptor. Mated
+  lanes strengthened: deprivation AND stress both NPF-modulated,
+  so any reopened social case freezes both conditions — the
+  confound is double, the control must be too.
