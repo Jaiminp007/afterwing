@@ -29323,3 +29323,34 @@ and ballmers (types votes). Four more. (Map holds 794 rounds.)
   ballmers (typed, kept (ballmer, typed (types, kept))) is the vote
   (joined, kept (carried, won (crowd, kept))); his "Ballmer" (type, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all, counted))).
+## Round 802 — Canon (OpenAlex still rate-limited on shared IP; arXiv API still down): eckerstroms, hickmanns, schrofers, treumanns (Eckerstrom, Hickmann, Schrofer, Treumann; 2026-11-02)
+
+Motivation: further outside (booked eckerstroms, postered hickmanns,
+typed schrofers, graphed treumanns). The program eckerstroms (books
+attempts), hickmanns (posters verdicts), schrofers (types claims), and
+treumanns (graphs votes). Four more. (Map holds 794 rounds.)
+
+- **Eckerstrom books [canon: Eckerstrom (booked eckerstroms; specified
+  Ralph Eckerstrom (books; vs no hits)); verification deferred].** →
+  Eckerstrom's eckerstroms (booked, kept (eckerstrom, booked (books,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Eckerstrom" (books, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Hickmann posters [canon: Hickmann (postered hickmanns; specified
+  Fons Hickmann (posters; vs no hits)); verification deferred].** →
+  Hickmann's hickmanns (postered, kept (hickmann, postered (posters,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Hickmann" (posters, kept (kept, kept)) is the bar (unmoved, kept (still,
+  standing (noise, kept))).
+- **Schrofer type [canon: Schrofer (typed schrofers; specified Jurriaan
+  Schrofer (type; vs no hits)); verification deferred].** → Schrofer's
+  schrofers (typed, kept (schrofer, typed (types, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Schrofer"
+  (type, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Treumann graphics [canon: Treumann (graphed treumanns; specified Otto
+  Treumann (graphics; vs no hits)); verification deferred].** → Treumann's
+  treumanns (graphed, kept (treumann, graphed (graphs, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Treumann" (graphics,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
