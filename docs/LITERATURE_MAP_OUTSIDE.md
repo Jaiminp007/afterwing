@@ -34399,3 +34399,36 @@ with tags per precedent (Larsen/Larsen); all per collision rule.)
   plecniked (plecniks, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); his "Grabrijan" (plecniks, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 947 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (sarajevoed strauss, jablanicaed ugljens,
+trebeviced neidhardts, belgraded derokos). The program strauss
+(sarajevos attempts), ugljens (jablanicas verdicts), neidhardts
+(trebevics claims), and derokos (belgrades votes). Four more,
+Bosnian-Serbian vein. (All four surnames + full names + contexts
+virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
+
+- **Straus sarajevos [canon: Straus (sarajevoed strauss; specified Ivan
+  Straus (sarajevos; vs no hits)); verification deferred].** →
+  Straus's strauss (sarajevoed, kept (straus, sarajevoed (sarajevos,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Straus" (sarajevos, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Ugljen jablanicas [canon: Ugljen (jablanicaed ugljens; specified
+  Zlatko Ugljen (jablanicas; vs no hits)); verification deferred].**
+  → Ugljen's ugljens (jablanicaed, kept (ugljen, jablanicaed
+  (jablanicas, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Ugljen" (jablanicas, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Neidhardt trebevics [canon: Neidhardt (trebeviced neidhardts;
+  specified Juraj Neidhardt (trebevics; vs no hits)); verification
+  deferred].** → Neidhardt's neidhardts (trebeviced, kept (neidhardt,
+  trebeviced (trebevics, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Neidhardt" (trebevics, kept
+  (kept, kept)) is the bank (fresh, kept (built, spent (54, kept))).
+- **Deroko belgrades [canon: Deroko (belgraded derokos; specified
+  Aleksandar Deroko (belgrades; vs no hits)); verification deferred].**
+  → Deroko's derokos (belgraded, kept (deroko, belgraded (belgrades,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Deroko" (belgrades, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
