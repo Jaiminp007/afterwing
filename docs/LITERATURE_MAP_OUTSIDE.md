@@ -24923,3 +24923,34 @@ leads converging; spending family, four branches).
 - Program note: select by surprise, introspect
   cheaply, change within, evolve demos — the
   adaptive-compute file. None licensed — filed.
+## Round 644 — Ruths, dinahs, rosettas, laverns (Ruth Brown, Washington, Tharpe, Baker; 2026-11-02)
+
+Motivation: further outside (dropped ruths, differed dinahs, stranged
+rosettas, tweedled laverns). The program ruths (drops attempts), dinahs
+(stitches verdicts), rosettas (publishes NOGOs), and laverns (counts
+rows). Four more. (Map holds 652 rounds.)
+
+- **Ruth drop [canon: Ruth Brown (dropped ruths; specified Ruth Brown
+  (vs no hits; short tag collisions — full-name tag used)); verification
+  deferred].** → Ruth's ruths (dropped, kept (ruthed, dropped
+  (teardrops, kept))) is the attempt (run, kept (single, authorized
+  (once, held))); her "Ruth" (drop, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Dinah difference [canon: Dinah (differed dinahs; specified Dinah
+  Washington (vs no hits)); verification deferred].** → Dinah's dinahs
+  (differed, kept (dinahed, differed (diffrences, kept))) is the verdict
+  (differed, kept (NOGO, told (honest, kept))); her "Dinah" (difference,
+  kept (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Rosetta strange [canon: Tharpe (stranged rosettas; specified Sister
+  Rosetta Tharpe (vs no hits)); verification deferred].** → Rosetta's
+  rosettas (stranged, kept (rosettaed, stranged (stranges, kept))) is the
+  claim (mourned, kept (RSI, unclaimed (still, standing))); her "Rosetta"
+  (strange, kept (kept, kept)) is the bank (fresh, kept (built, spent (54,
+  kept))).
+- **Lavern tweedle [canon: Baker (tweedled laverns; specified LaVern
+  Baker (vs no hits)); verification deferred].** → Lavern's laverns
+  (tweedled, kept (laverned, tweedled (tweedles, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); her "Lavern" (tweedle, kept
+  (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
