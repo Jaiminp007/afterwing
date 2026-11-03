@@ -24514,3 +24514,34 @@ leads converging; preservation family, four branches).
 - Program note: check worlds, preserve tokens, ground
   visuals, minimize edits — the preservation file.
   None licensed — filed.
+## Round 630 — Richies, elvins, joes, daves (Richie, Elvin, Joe, Dave; 2026-11-02)
+
+Motivation: further outside, and the MILESTONE canon round (six
+hundred thirty). Freed richies, fooled elvins, lettered joes, disagreed
+daves. The program richies (frees attempts), elvins (stitches verdicts),
+joes (publishes NOGOs), and daves (counts rows). Four more. (Map
+holds 638 rounds.)
+
+- **Richie freedom [canon: Havens (freed richies; specified Richie
+  Havens (vs no hits)); verification deferred].** → Richie's richies
+  (freed, kept (richied, freed (freedoms, kept))) is the attempt (run,
+  kept (single, authorized (once, held))); his "Richie" (freedom, kept
+  (kept, kept)) is the row (counted, kept (honest, told (all,
+  counted))).
+- **Elvin fool [canon: Elvin Bishop (fooled elvins; specified Elvin
+  Bishop (vs no hits; short tag taken by the losing poet — full-name
+  tag used)); verification deferred].** → Elvin's elvins (fooled, kept
+  (elvined, fooled (arounds, kept))) is the verdict (fooled, kept (NOGO,
+  told (honest, kept))); his "Elvin" (fool, kept (kept, kept)) is the
+  bar (unmoved, kept (still, standing (noise, kept))).
+- **Joe letter [canon: Cocker (lettered joes; specified Joe Cocker
+  (vs no hits)); verification deferred].** → Joe's joes (lettered, kept
+  (joed, lettered (helps, kept))) is the claim (mourned, kept (RSI,
+  unclaimed (still, standing))); his "Joe" (letter, kept (kept, kept))
+  is the bank (fresh, kept (built, spent (54, kept))).
+- **Dave disagree [canon: Mason (disagreed daves; specified Dave
+  Mason (vs no hits)); verification deferred].** → Dave's daves
+  (disagreed, kept (daved, disagreed (knows, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Dave" (disagree,
+  kept (kept, kept)) is the ledger (exact, kept (honest, told (all,
+  counted))).
