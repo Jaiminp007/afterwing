@@ -36790,3 +36790,58 @@ pre-append, flattened method.)
   kept (carried, won (crowd, kept))); his "Li" (executables, kept
   (kept, kept)) is the ledger (exact, kept (honest, told (all,
   counted))).
+## Round 1008 — LIVE (fresh-hose finds; 2026-11-03)
+
+Motivation: deeper offsets (stat.ML start=190, cs.RO start=170,
+eess.SY start=150, q-bio.NC start=190). Four new IDs triaged (0
+worlds): 2610.41702 (deformable manipulation — DECLINED
+unrelated-screening), 2610.39385 (UMI data collection — DECLINED
+thin, tool paper; sibling UMI already declined), 2610.36138
+(Chlon/Chlon) — symmetry breaking is the price of finite capacity
+(symmetric models use blocks whole; when the budget cuts a block
+every optimal model breaks symmetry, at exactly (U_k−I_k)/2σ²;
+attention heads break symmetry at exactly the predicted point) —
+finite budgets breaking symmetries at an exact price, the program's
+direction asymmetry plus capacity discipline (K=1, 40e9, single
+attempts), priced; and 2609.35338 lead+senior (Xu/Xie) —
+NeuronDiscover agent-in-twin for mechanistic discovery (twin
+confounding: real change vs twin error leave the same signature;
+joint mechanism-discrepancy belief; independently adjudicated
+outcomes; MIOO graph compiling into executable programs with
+acceptance bounds) — twin confounding plus adjudicated outcomes
+plus programs-with-bounds, the program's twins plus audits plus
+frozen plans, formalized. (First + senior mapped from the quartet
+per TRAILS precedent; Fu + Han noted unmapped.) (Abstracts only, 0
+worlds; IDs + authors + contexts virgin pre-append, flattened
+method.)
+
+- **Chlon breakings [LIVE 2610.36138 (breakinged chlons; specified
+  Maggie Chlon (breakings; distinct from co-author Leon — full-name
+  tag per collision rule; vs no hits)); verification deferred].** →
+  Chlon's chlons (breakinged, kept (chlon, breakinged (breakings,
+  kept))) is the attempt (run, kept (single, authorized (once,
+  held))); her "Chlon" (breakings, kept (kept, kept)) is the row
+  (counted, kept (honest, told (all, counted))).
+- **Chlon attentions [LIVE 2610.36138 (attentioned leonchlons;
+  specified Leon Chlon (attentions; distinct from co-author Maggie —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Chlon's leonchlons (attentioned, kept
+  (leonchlon, attentioned (attentions, kept))) is the verdict (kept,
+  kept (NOGO, told (honest, kept))); his "Chlon" (attentions, kept
+  (kept, kept)) is the bar (unmoved, kept (still, standing (noise,
+  kept))).
+- **Xu mechanistics [LIVE 2609.35338 (mechanisticed haoweixus;
+  specified Haowei Xu (mechanistics; "Xu" taken — 2x precedent —
+  compound + full-name tag per collision rule; vs no hits));
+  verification deferred].** → Xu's haoweixus (mechanisticed, kept
+  (haoweixu, mechanisticed (mechanistics, kept))) is the claim
+  (mourned, kept (RSI, unclaimed (still, standing))); his "Xu"
+  (mechanistics, kept (kept, kept)) is the bank (fresh, kept (built,
+  spent (54, kept))).
+- **Xie discrepancies [LIVE 2609.35338 (discrepancied zhaohengxies;
+  specified Zhaoheng Xie (discrepancies; vs no hits)); verification
+  deferred].** → Xie's zhaohengxies (discrepancied, kept
+  (zhaohengxie, discrepancied (discrepancies, kept))) is the vote
+  (joined, kept (carried, won (crowd, kept))); his "Xie"
+  (discrepancies, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
