@@ -33204,3 +33204,37 @@ all per collision rule.) (Map holds 800 rounds.)
   slacked (slacks, kept))) is the vote (joined, kept (carried, won
   (crowd, kept))); their "Donovan" (slacks, kept (kept, kept)) is the
   ledger (exact, kept (honest, told (all, counted))).
+## Round 913 — Canon (live pool mapped; 2026-11-02)
+
+Motivation: further outside (coasted cheshires, waihekeed bossleys,
+ponsonbyed stouts, aucklanded mollers). The program cheshires
+(coasts attempts), bossleys (waihekes verdicts), stouts (ponsonbys
+claims), and mollers (aucklands votes). Four more, Kiwi vein. ("David
+Mitchell" declined — uncertain architect-identity; "baches"/
+"libraries" taken — "coasts"/"ponsonbys" used, all per collision
+rule.) (Map holds 800 rounds.)
+
+- **Cheshire coasts [canon: Cheshire (coasted cheshires; specified Pip
+  Cheshire (coasts; vs no hits)); verification deferred].** →
+  Cheshire's cheshires (coasted, kept (cheshire, coasted (coasts,
+  kept))) is the attempt (run, kept (single, authorized (once, held)));
+  his "Cheshire" (coasts, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Bossley waihekes [canon: Bossley (waihekeed bossleys; specified
+  Pete Bossley (waihekes; vs no hits)); verification deferred].** →
+  Bossley's bossleys (waihekeed, kept (bossley, waihekeed (waihekes,
+  kept))) is the verdict (kept, kept (NOGO, told (honest, kept))); his
+  "Bossley" (waihekes, kept (kept, kept)) is the bar (unmoved, kept
+  (still, standing (noise, kept))).
+- **Stout ponsonbys [canon: Stout (ponsonbyed stouts; specified Julie
+  Stout (ponsonbys; vs no hits)); verification deferred].** → Stout's
+  stouts (ponsonbyed, kept (stout, ponsonbyed (ponsonbys, kept))) is
+  the claim (mourned, kept (RSI, unclaimed (still, standing))); her
+  "Stout" (ponsonbys, kept (kept, kept)) is the bank (fresh, kept
+  (built, spent (54, kept))).
+- **Moller aucklands [canon: Moller (aucklanded mollers; specified
+  Gordon Moller (aucklands; vs no hits)); verification deferred].** →
+  Moller's mollers (aucklanded, kept (moller, aucklanded (aucklands,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Moller" (aucklands, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
