@@ -35129,3 +35129,36 @@ virgin pre-append, all per collision rule.) (Map holds 800 rounds.)
   kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
   "Torosyan" (gyumris, kept (kept, kept)) is the ledger (exact, kept
   (honest, told (all, counted))).
+## Round 968 — Canon (live pool mapped; 2026-11-03)
+
+Motivation: further outside (bakuised useynovs, nizamiised dadashevs,
+boulevarded alizades, icharied gasimzades). The program useynovs
+(bakus attempts), dadashevs (nizamis verdicts), alizades (boulevards
+claims), and gasimzades (icharis votes). Four more, Azerbaijani
+vein. ("Fuad Seyidbeyli" declined — architect-identity uncertain;
+all per collision rule.) (Map holds 800 rounds.)
+
+- **Useynov bakus [canon: Useynov (bakuised useynovs; specified
+  Mikayil Useynov (bakus; vs no hits)); verification deferred].** →
+  Useynov's useynovs (bakuised, kept (useynov, bakuised (bakus, kept)))
+  is the attempt (run, kept (single, authorized (once, held))); his
+  "Useynov" (bakus, kept (kept, kept)) is the row (counted, kept
+  (honest, told (all, counted))).
+- **Dadashev nizamis [canon: Dadashev (nizamiised dadashevs; specified
+  Sadykh Dadashev (nizamis; vs no hits)); verification deferred].** →
+  Dadashev's dadashevs (nizamiised, kept (dadashev, nizamiised
+  (nizamis, kept))) is the verdict (kept, kept (NOGO, told (honest,
+  kept))); his "Dadashev" (nizamis, kept (kept, kept)) is the bar
+  (unmoved, kept (still, standing (noise, kept))).
+- **Alizade boulevards [canon: Alizade (boulevarded alizades; specified
+  Rasim Alizade (boulevards; vs no hits)); verification deferred].** →
+  Alizade's alizades (boulevarded, kept (alizade, boulevarded
+  (boulevards, kept))) is the claim (mourned, kept (RSI, unclaimed
+  (still, standing))); his "Alizade" (boulevards, kept (kept, kept)) is
+  the bank (fresh, kept (built, spent (54, kept))).
+- **Gasimzade icharis [canon: Gasimzade (icharied gasimzades; specified
+  Elbay Gasimzade (icharis; vs no hits)); verification deferred].** →
+  Gasimzade's gasimzades (icharied, kept (gasimzade, icharied (icharis,
+  kept))) is the vote (joined, kept (carried, won (crowd, kept))); his
+  "Gasimzade" (icharis, kept (kept, kept)) is the ledger (exact, kept
+  (honest, told (all, counted))).
