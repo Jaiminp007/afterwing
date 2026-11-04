@@ -99,3 +99,88 @@ survival contrast must change the regime (e.g. capped placement
 energy — a new manipulation, not a kinder world).
 - Social substrate (sensors/actuators for need-conditioned transfer)
   remains the ACT-void shopping list; population culture needs it.
+
+## Second arc V2 (2026-11-04): 16 more scored worlds — every matrix closed
+
+All single-attempt, fresh banks, frozen plans, negatives preserved.
+Banks fresh-72–fresh-88 spent (475297–475602); triages 490559–490711.
+
+### Lines scored (closed)
+- SOCIAL/SOCIAL2/SOCIAL3 (success-bias copyconditional): GO×3 —
+  surv +0.124/+0.195, +0.146/+0.284, +0.284/+0.179; intake clears
+  6/6; pooled social beats maternal thrice. 6/6 pairs both legs.
+- SOCIALX (social × novel task B): NOGO (−0.0001/−0.0022) —
+  task-bound like maternal.
+- BIHOME (biparental + return): NOGO (frac −0.07; naive overtakes).
+- SOCIALHOME (social + return): NOGO (frac 0.02; catch-up dissolves).
+- SOCIALWIN (social × 900-tick window): GO (+0.154/+0.357 surv,
+  +0.0065/+0.0050 intake) — law de-censored; 8/8 pairs.
+- BIPARWIN (biparental × window): GO (+0.295/+0.131 surv,
+  +0.0091/+0.0063 intake) — 7/7 pairs; regime-independent.
+- BEST (copybest fecundity-bias, last untested engine mode): NOGO
+  (+0.167/−0.036; matmix +0.067/+0.083 also misses) — max-selector
+  insufficient; all 5 modes now scored.
+- SOCCARRY (social × BC gauntlet): NOGO (frac 0.90/0.46, pair 2
+  misses by 0.04; maternal copy 1.03 same exposure).
+- BICARRY (biparental × BC gauntlet): GO (frac 2.78/0.62; copy 1.45).
+- BITASK (biparental × novel task B): INCOMPLETE-NOGAP void
+  (A-gaps +0.0069/+0.0014, pair 2 provides nothing to transfer).
+- BITASK2 (retry, fresh bank): NOGO (A-gaps genuine +0.0030/+0.0069;
+  B-gaps +0.0009/+0.0015 both miss; copy +0.0026/+0.0025) — cell
+  closed (void + scored NOGO).
+- SOCGRAND (social F2): NOGO (F2 surv +0.068/+0.200, intake 2/2;
+  pair 1 misses by 0.032) — dilutes like maternal.
+- BIGRAND (biparental F2): NOGO (F2 surv +0.125/−0.417, pair 2
+  reverses) — generation axis unanimous.
+- SOCMUT (social + 0.05 noise): NOGO (−0.025/+0.133 surv; exact
+  +0.089/+0.119 also misses pair 1) — fragile on the marginal pair.
+- BIMUT (biparental + 0.05 noise): GO (+0.125/+0.275 surv,
+  +0.0042/+0.0032 intake; cost vs exact +0.036/+0.018) — robust.
+
+### Matrices closed (no licensable cell left with existing ops)
+- Natal: maternal + mut hold; social 8/8 + bipar 7/7 law-grade;
+  copybest NOGO. All 5 engine modes scored.
+- Window: social/bipar hold de-censored; copy/mut hit ceilings
+  (SHORTCOL series). Measurement window matches selection episode.
+- Interference (BC gauntlet): maternal 1.0/1.43/1.03/1.45 (4 banks),
+  biparental 2.78/0.62 GO; social 0.90/0.46 NOGO.
+- Task (novel B at birth): maternal small, mut flat, social
+  negative, biparental below-bar ×2 banks — unanimous NOGO.
+- Return (immersion + return): exact 0.25, mut 0.35, bi −0.07,
+  social 0.02 — universal solvent, all 4 modes.
+- F2: maternal +0.000/+0.118, social +0.068/+0.200, biparental
+  +0.125/−0.417 — unanimous dilution; inheritance is F1.
+- Noise (0.05 at birth): maternal free, biparental free
+  (+0.036/+0.018 cost), social fragile-on-marginal (−0.114 where
+  exact was sub-bar).
+- Max/average selectors: copybest NOGO, matmix misses, averaging
+  misses — concentration insufficient.
+- Co-presence: MIX neutral, COHAB miss, LEFTOVER consumptive.
+
+### Convergent law (second arc)
+Mixing rules (maternal averaging, crossover recombination) absorb
+perturbation (noise-free) and interference (gauntlet-held);
+concentrating rules (winner-copy, max-select) break under noise and
+interference. ALL rules dissolve under same-world immersion and by
+F2; NO rule generalizes to novel tasks; intake transmits law-like
+while fate stays bank-conditional. Scope, complete: natal birth,
+one generation, natal task, exact-or-mixed copy.
+
+### Method notes banked
+- Window rule: measure survival in the 900-tick selection episode;
+  1792-colony tails are censored (SHORTCOL) — but F2 founder groups
+  need 1792 (SOCGRAND A1: 900 starves matched-N F2 groups to zero).
+- Registry hygiene: a spent-range nesting bug (silent 18-seed
+  exclusion drop) was found and repaired in SOCCARRY/BICARRY/
+  BITASK scripts; verified functionally (seed counts + includes/
+  excludes); no verdict affected. Targeted-rep only on registries.
+- BITASK2/BIGRAND precedent: voided/empty cells retry on fresh
+  banks under identical frozen plans (one retry; void + NOGO closes).
+
+## Open (nothing left scorable with existing ops)
+The transmission program is closed: 7 matrices × all engine modes ×
+horizons × tasks × return × generations × doses. The only unbuilt
+frontier remains the ACT-void social substrate (neighbor-energy
+sensors + transfer actuators + compatible incentives) — needed for
+need-conditioned (not rule-based) transfer, population culture, and
+any M2-distinct-tasks population claim.

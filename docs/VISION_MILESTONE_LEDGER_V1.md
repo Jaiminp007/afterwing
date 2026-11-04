@@ -22,21 +22,25 @@ exact open items. Nothing here changes any verdict.
 - M5 — population/social/cultural with explicit models/controls:
   MET-AS-STUDIES (mating transmission-mechanism space closed twice;
   encounter-topology closed; lineage/depth audits) EXTENDED 2026-11-04
-  by the 14-world transmission arc (docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md):
-  birth inheritance NARROWED-POSITIVE — intake skill transmits law-like
-  (8-10/10 bank-pairs, both noise doses, every ecology), fate transmits
-  unreliably (exact > mutated > naive pooled; pair-conditional everywhere;
-  900-tick window 4/6 each arm; dose×horizon factorial complete, no GO cell);
-  deaths all energy (boom-bust; cap waste + depletion timing confirmed
-  zero-world); co-presence without mechanism inert (MIX neutral, COHAB miss,
-  SHARE tie); redistribution ecological not agentic (GIVE/DOSE GO, ACT void
-  with sensor/actuator shopping list). Recombination (engine-native
-  uniform crossover, trained-mothers × naive-fathers) GO,GO,NOGO-at-
-  extinction (survival 5/6 pairs, intake 6/6) — the only channel that
-  holds still; structure beats perturbation. F2 bound: transmission
-  dilutes to zero pooled by F2 (GRAND NOGO; inheritance is F1).
-  Task-bound total frozen and plastic (BIRTHCARRY + LEARNBC NOGO).
-  No claim beyond these bounds.
+  by the full transmission program (docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md
+  V1 + V2 addendum, ~38 scored worlds, banks 474631–475602 spent):
+  birth inheritance NARROWED-POSITIVE with two law-grade channels —
+  social (success-bias copyconditional) 8/8 pairs natal + window-GO,
+  biparental (crossover recombination) 7/7 pairs natal + window-GO +
+  gauntlet-GO (2.78/0.62) + noise-GO; maternal/mut hold natal; copybest
+  NOGO (all 5 engine modes scored). Seven matrices closed: natal (5
+  modes), window (social/bipar hold; copy/mut ceilings), interference
+  (maternal 4x + bipar hold; social 0.90/0.46 NOGO), novel-task
+  (unanimous NOGO, 4 modes + retry), return (universal solvent —
+  exact/mut/bi/social all dissolve), F2 (maternal/social/biparental
+  all dilute — inheritance is F1), noise (maternal/bipar free; social
+  fragile-on-marginal). Max/average selectors insufficient; intake
+  transmits law-like while fate stays bank-conditional; deaths all
+  energy (boom-bust; cap waste + depletion timing confirmed
+  zero-world); co-presence without mechanism inert; redistribution
+  ecological not agentic (GIVE/DOSE GO, ACT void with sensor/actuator
+  shopping list). Complete scope: natal birth, one generation, natal
+  task, exact-or-mixed copy. No claim beyond these bounds.
 - Observatory — measured senses/actions/energy/family/history:
   supporting (ledgers, readbacks, manifests current).
 
