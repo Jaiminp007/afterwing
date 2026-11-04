@@ -30,7 +30,13 @@ exact open items. Nothing here changes any verdict.
   deaths all energy (boom-bust; cap waste + depletion timing confirmed
   zero-world); co-presence without mechanism inert (MIX neutral, COHAB miss,
   SHARE tie); redistribution ecological not agentic (GIVE/DOSE GO, ACT void
-  with sensor/actuator shopping list). No claim beyond these bounds.
+  with sensor/actuator shopping list). Recombination (engine-native
+  uniform crossover, trained-mothers × naive-fathers) GO,GO,NOGO-at-
+  extinction (survival 5/6 pairs, intake 6/6) — the only channel that
+  holds still; structure beats perturbation. F2 bound: transmission
+  dilutes to zero pooled by F2 (GRAND NOGO; inheritance is F1).
+  Task-bound total frozen and plastic (BIRTHCARRY + LEARNBC NOGO).
+  No claim beyond these bounds.
 - Observatory — measured senses/actions/energy/family/history:
   supporting (ledgers, readbacks, manifests current).
 

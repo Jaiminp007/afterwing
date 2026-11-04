@@ -28,9 +28,21 @@ worlds single-attempt, fresh banks, frozen plans, negatives preserved.
   holds; mut out-eats copy.
 - MUTLOW (0.01 dose, heir ecology): mut01−naive +0.186/+0.065 NOGO;
   copy−mut01 +0.126; intake clears both.
-- SHORTCOL/SHORTCOL2 (900-tick window): V1 GO (+0.389/+0.249 copy,
-  +0.300/+0.108 mut); V2 NOGO (+0.301/+0.042 copy, +0.288/−0.096 mut;
-  ceiling on pair 2).
+- SHORTCOL/SHORTCOL2/SHORTCOL3 (900-tick window): V1 GO (+0.389/+0.249
+  copy, +0.300/+0.108 mut); V2 NOGO (+0.301/+0.042 copy, +0.288/−0.096
+  mut; ceiling on pair 2); V3 NOGO (+0.083/+0.179 copy, +0.103/+0.267
+  mut; copy−mut flip) — 4/6 each arm; ceiling was the rule.
+- MUTLOWS (0.01 × 900 factorial cell): mut01−naive +0.093/+0.092 NOGO
+  (both miss by dust; mirror of MUTHOME GO-by-dust) — factorial complete,
+  no GO cell at any dose × horizon.
+- LEARNBC (lifetime learning × novel task): B-learn intake +0.008 all
+  arms, copy gaps +0.0004/+0.0014 NOGO — task-bound total, frozen and
+  plastic; learning rescues everybody, no birth advantage.
+- GRAND (F2 grandoffspring): F2 gaps +0.000/+0.118 surv, intake
+  flat/negative pooled NOGO — dilutes to zero by F2; F1 phenomenon.
+- BIPAR/BIPAR2/BIPAR3 (recombination): GO,GO,NOGO-at-extinction
+  (survival 5/6, intake 6/6) — only stable channel; structure beats
+  perturbation.
 
 ## Convergent findings (all pair-stable unless noted)
 1. **Intake edge is law-like**: mut/copy out-eat naive on 8/8
@@ -68,11 +80,9 @@ worlds single-attempt, fresh banks, frozen plans, negatives preserved.
   bodies still gated).
 
 ## Open (licensed frontiers only: fresh plan + fresh bank, never rescale closed bars)
-- Window replication pool: 3/4 copy pairs clear — a third window bank
-  settles whether V2's ceiling was the exception.
-- Mechanism of the front-loaded edge: why extra early intake never
-  converts (cap waste vs depletion timing) — needs substrate
-  instrumentation, not another colony.
+- Social substrate (ACT shopping list): neighbor-energy sensing +
+  transfer actuation + compatible incentives — the only unbuilt
+  frontier; everything scorable with existing ops is closed.
 
 ## Mechanism addendum (2026-11-04, zero-world cut of SHORTCOL/SHORTCOL3 rows)
 Energy curves pin ALL arms at the same ceiling early (max bin-mean
