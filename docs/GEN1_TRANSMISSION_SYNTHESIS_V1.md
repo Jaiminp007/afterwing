@@ -73,5 +73,19 @@ worlds single-attempt, fresh banks, frozen plans, negatives preserved.
 - Mechanism of the front-loaded edge: why extra early intake never
   converts (cap waste vs depletion timing) — needs substrate
   instrumentation, not another colony.
+
+## Mechanism addendum (2026-11-04, zero-world cut of SHORTCOL/SHORTCOL3 rows)
+Energy curves pin ALL arms at the same ceiling early (max bin-mean
+45.7–45.8 on every colony, both banks — placement is 48, i.e.
+everyone starts capped) and decline together to ~21–25 by tick 900.
+Verdict: BOTH mechanisms operate — early intake is wasted at the cap
+(cap waste) and late survival is shared starvation (depletion
+timing). Intake cannot convert because there is no regime in the
+colony where marginal food changes anyone's fate: full at the start,
+starving together at the end, declining together in the middle. This
+closes the mechanism question with existing evidence; no new colony
+can separate these without retuning the world (banned). Any future
+survival contrast must change the regime (e.g. capped placement
+energy — a new manipulation, not a kinder world).
 - Social substrate (sensors/actuators for need-conditioned transfer)
   remains the ACT-void shopping list; population culture needs it.
