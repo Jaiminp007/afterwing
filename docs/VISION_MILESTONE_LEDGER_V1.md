@@ -21,7 +21,16 @@ exact open items. Nothing here changes any verdict.
   NOT MET). Gate logic stands.
 - M5 — population/social/cultural with explicit models/controls:
   MET-AS-STUDIES (mating transmission-mechanism space closed twice;
-  encounter-topology closed; lineage/depth audits).
+  encounter-topology closed; lineage/depth audits) EXTENDED 2026-11-04
+  by the 14-world transmission arc (docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md):
+  birth inheritance NARROWED-POSITIVE — intake skill transmits law-like
+  (8-10/10 bank-pairs, both noise doses, every ecology), fate transmits
+  unreliably (exact > mutated > naive pooled; pair-conditional everywhere;
+  900-tick window 4/6 each arm; dose×horizon factorial complete, no GO cell);
+  deaths all energy (boom-bust; cap waste + depletion timing confirmed
+  zero-world); co-presence without mechanism inert (MIX neutral, COHAB miss,
+  SHARE tie); redistribution ecological not agentic (GIVE/DOSE GO, ACT void
+  with sensor/actuator shopping list). No claim beyond these bounds.
 - Observatory — measured senses/actions/energy/family/history:
   supporting (ledgers, readbacks, manifests current).
 
