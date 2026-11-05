@@ -104,7 +104,11 @@ exact open items. Nothing here changes any verdict.
   (ii) odor DEV for the DTR path: rounds 5-10 closed (R5/R6 NO-GO,
   R7 extinct, R8/R9 NO-GO, R10 PARTIAL works-but-costs; flood
   addressed to No-Go, price mechanized 2:1, dissociations measured);
-  (iii) DTR parts (i)–(iii) substrate builds.
+  (iii) DTR parts (i)–(iii) substrate builds; (iv) C1 internal loop
+  DESIGNED (docs/RSI_C1_DESIGN_V1.md: 4 engine surgeries S1–S4
+  priced with code pointers; insufficient-even-if-built — menu is
+  non-compounding; implementation needs (iii)-class substrate +
+  (i)-class operator, neither exists).
 
 ## What "done" looks like (so stopping is checkable)
 
