@@ -1,7 +1,7 @@
 # Vision milestone 5 addendum V1 (2026-11-04): narrowed-positive — birth inheritance works lawfully at F1 (zero new worlds)
 
 Supersedes in part `docs/VISION_M5_VERDICT.md` ("phenomena absent"),
-on the strength of the 38-world transmission program closed
+on the strength of the 41-world transmission program closed
 2026-11-04 (`docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md` V1–V6; banks
 fresh-19–fresh-93 spent; all single-attempt, frozen plans, negatives
 preserved). The verdict's letter (MET AS STUDIES) stands and widens;

@@ -1,7 +1,7 @@
 # CAPABILITY INVENTORY addendum V1 (2026-11-04): birth-transmission laws demonstrated; compounding still absent (zero new worlds)
 
 Amends `docs/CAPABILITY_INVENTORY_V1.md` on scored evidence from the
-38-world transmission program closed 2026-11-04
+41-world transmission program closed 2026-11-04
 (`docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md` V1–V6; banks fresh-19–
 fresh-93; single attempts, frozen plans, negatives preserved).
 Nothing is rewritten; entries below supersede by citation.
