@@ -83,7 +83,9 @@ exact open items. Nothing here changes any verdict.
   (flood ADDRESSED to No-Go on all 8 histories; price mechanized as 2:1
   magnitude dominance; weight-stats-don't-predict-transfer 4th strike;
   turn-suppression without endpoints). Candidate B (nonlinear
-  head) promoted (needs design doc, not authorized). Next:
+  head) design V1 filed (R10-price decoupling; bar-adjudicated,
+  (c) tightness disclosed, two kill-conditions; worlds NOT
+  authorized). Next:
   probe-time rationale under the C17-bar (readout-tweak family
   exhausted on evidence; phase-gating ruled out), then qual freeze
   (iv-b) only on a GO.
