@@ -12,5 +12,4 @@ be closed from the ledger; builds nothing new.
   disclaimers only, zero claims; dashboard gap noted non-gating).
 - 2026-10-29: A4 M4 position COMPLIANT (gate correctly shut; no premature
   richer bodies; M-POP reading proposed for Track B, nothing licensed).
-- Next: Track B (M-POP-1 lineage substrate; needs its own frozen plan +
-  fresh goal). Track C (true RSI) after B1 at earliest.
+- Next (2026-11-04 update): Track B executed under its own frozen plans — M-POP V1/V2 ran INVALID-FEASIBLE x2 (0 births both); B2-type transmission studies then proceeded via the Amendment-A1 de-gated mating substrate (38 worlds, narrowed-positive F1 laws, M5 addendum V1). Track C (true RSI) still gated on fresh design; no other track licensed.
