@@ -34,7 +34,8 @@ exact open items. Nothing here changes any verdict.
   mutated-social GO 0.71/1.36 — cube complete, birth is where modes
   differ, everywhere else they agree), novel-task
   (unanimous NOGO, 4 modes + retry), return (universal solvent —
-  exact/mut/bi/social all dissolve), F2 (maternal/social/biparental
+  exact/mut/bi/social all dissolve at 1792; social also at 900+1024
+  (0.05/−0.24, catch-up complete) — fast, horizon-independent), F2 (maternal/social/biparental
   all dilute — inheritance is F1), noise (maternal/bipar free; social
   fragile-on-marginal; noise×interference cube closed for mixing
   rules (bimut GO 1.12/1.41 after void; exact holds + maternal 4x;

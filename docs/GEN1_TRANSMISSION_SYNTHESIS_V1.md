@@ -246,3 +246,17 @@ retains, novel tasks defeat, immersion dissolves, F2 dilutes, and
 intake transmits while fate stays bank-conditional, for every mode.
 Birth is where modes differ; everywhere else they agree. No cube
 cells remain (3 modes × exact/mutated × gauntlet all scored).
+
+## Horizon × return V6 (2026-11-04): short immersion dissolves (GEN1_SOCMUTG context + GEN1_SOCHOMEW V1 NOGO)
+SOCMUTG closed the stress cube GO (0.71/1.36); SOCHOMEW tested the
+solvent's horizon bound for the law-grade channel: 1024-tick
+same-task immersion erases the social edge (frac 0.05/−0.24, naive
+catch-up complete in absolute terms; birth gaps +0.0128/+0.0106
+genuine). The universal solvent is fast: 1792 ticks are not needed,
+the selection episode itself suffices. Maternal erased too (−0.09
+descriptive). Social boundary map complete across ecologies —
+birth transmits (8/8 + window), foreign tasks erode (0.90/0.46,
+1.36/0.71 with noise), same-world life dissolves at any tested
+horizon (0.02 at 1792, 0.05/−0.24 at 900+1024). No second horizon
+(below-window immersion is below the measurement regime) and no
+second mode on this axis without a new rationale.
