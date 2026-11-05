@@ -1,4 +1,4 @@
-# GEN1 Transmission Synthesis V1 (2026-11-04) — what 10 scored worlds say about birth inheritance
+# GEN1 Transmission Synthesis V1 (2026-11-04) — what 41 scored worlds say about birth inheritance
 
 ## Question
 VISION.md milestone 5 asks for population studies with explicit models
@@ -202,9 +202,9 @@ any M2-distinct-tasks population claim.
   birth-gate, never in the gauntlet. No third attempt.
 
 ## Program status (all worlds accounted)
-38 scored worlds + 3 voids (BITASK V1 NOGAP, BIMUTG V1 NOGAP,
+38 scored worlds + 3 mechanism worlds (CAPTEST FLOOR fresh-91, SOCMUTG GO fresh-92, SOCHOMEW NOGO fresh-93) = 41 scored + 3 voids (BITASK V1 NOGAP, BIMUTG V1 NOGAP,
 LOWSTART triage-void) + 1 act-void (GEN1-ACT unsubstratable) across
-fresh-19–fresh-90 + reuse/joint banks. Every licensable cell with
+fresh-19–fresh-93 + reuse/joint banks. Every licensable cell with
 existing ops is scored or voided-twice-closed: 7 matrices (natal,
 window, interference, novel-task, return, generation, noise) × 5
 engine modes × horizons × doses, plus the noise×interference cube
