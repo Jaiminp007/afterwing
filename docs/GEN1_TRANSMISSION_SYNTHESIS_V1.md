@@ -212,3 +212,21 @@ for the two mixing rules. Open-world work needs new substrate
 (ACT shopping list) or a new rationale (RSI C17-bar, odor
 probe-time channel); autopilot worlds are banned by the bar
 structure itself.
+
+## Mechanism world-test V4 (2026-11-04): capped placement (GEN1_CAPTEST V1 FLOOR)
+The V2 addendum's licensed regime-change test ran: placement energy
+20 (vs 48), reproduction OFF, 900 ticks, uniform trained vs naive
+founders. Result: FLOOR — capped-naive extinct both banks (0/0),
+capped-skilled survives both (0.042/0.083); pooled naive 0.0 < 0.05
+fires the frozen floor guard, no scored verdict. Substance (void-adjacent
+observations, no claim): the floor is ASYMMETRIC — 20 starves naive,
+not everyone; the intake edge persists (+0.0055 vs +0.0004); deaths
+occur (no ceiling). Directionally, conversion is observed twice
+(extinction vs survival), but the +0.10 bar cannot be met near zero
+and the plan's own "do not retune" plus anti-dose-grinding discipline
+licenses NO retuned-cap follow-up — shopping caps until one scores
+is what the floor guard forbids. The zero-world mechanism stands
+partially tested: the regime change works (deaths, no ceiling, edge
+persists), conversion direction confirmed twice but unscored, line
+closed as FLOOR. A fresh rationale on a new day could reopen the
+regime question; no autopilot retune.
