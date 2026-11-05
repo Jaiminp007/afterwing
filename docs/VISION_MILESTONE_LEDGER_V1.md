@@ -107,10 +107,12 @@ exact open items. Nothing here changes any verdict.
   R7 extinct, R8/R9 NO-GO, R10 PARTIAL works-but-costs; flood
   addressed to No-Go, price mechanized 2:1, dissociations measured);
   (iii) DTR parts (i)–(iii) substrate builds; (iv) C1 internal loop
-  DESIGNED (docs/RSI_C1_DESIGN_V1.md: 4 engine surgeries S1–S4
-  priced with code pointers; insufficient-even-if-built — menu is
-  non-compounding; implementation needs (iii)-class substrate +
-  (i)-class operator, neither exists).
+  DESIGNED (docs/RSI_C1_DESIGN_V1.md) + surgery spec V1
+  DRAFT-UNAPPROVED (docs/RSI_C1_SURGERY_SPEC_V1.md: S1–S4 with
+  insertion points, null-default/billing/gating invariants);
+  insufficient-even-if-built (menu is non-compounding);
+  implementation needs (iii)-class substrate + (i)-class operator,
+  neither exists).
 
 ## What "done" looks like (so stopping is checkable)
 
