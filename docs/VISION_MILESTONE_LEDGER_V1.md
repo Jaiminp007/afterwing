@@ -23,7 +23,7 @@ exact open items. Nothing here changes any verdict.
   MET-AS-STUDIES (mating transmission-mechanism space closed twice;
   encounter-topology closed; lineage/depth audits) EXTENDED 2026-11-04
   by the full transmission program (docs/GEN1_TRANSMISSION_SYNTHESIS_V1.md
-  V1 + V2 addendum, ~38 scored worlds, banks 474631–475602 spent):
+  V1 through V6, 41 scored worlds, banks 474631–475692 spent):
   birth inheritance NARROWED-POSITIVE with two law-grade channels —
   social (success-bias copyconditional) 8/8 pairs natal + window-GO,
   biparental (crossover recombination) 7/7 pairs natal + window-GO +
