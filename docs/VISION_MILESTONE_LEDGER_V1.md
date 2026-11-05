@@ -30,7 +30,9 @@ exact open items. Nothing here changes any verdict.
   gauntlet-GO (2.78/0.62) + noise-GO; maternal/mut hold natal; copybest
   NOGO (all 5 engine modes scored). Seven matrices closed: natal (5
   modes), window (social/bipar hold; copy/mut ceilings), interference
-  (maternal 4x + bipar hold; social 0.90/0.46 NOGO), novel-task
+  (maternal 4x + bipar hold; social 0.90/0.46 NOGO one bank but
+  mutated-social GO 0.71/1.36 — cube complete, birth is where modes
+  differ, everywhere else they agree), novel-task
   (unanimous NOGO, 4 modes + retry), return (universal solvent —
   exact/mut/bi/social all dissolve), F2 (maternal/social/biparental
   all dilute — inheritance is F1), noise (maternal/bipar free; social

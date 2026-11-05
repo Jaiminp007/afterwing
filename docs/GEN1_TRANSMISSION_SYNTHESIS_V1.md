@@ -230,3 +230,19 @@ partially tested: the regime change works (deaths, no ceiling, edge
 persists), conversion direction confirmed twice but unscored, line
 closed as FLOOR. A fresh rationale on a new day could reopen the
 regime question; no autopilot retune.
+
+## Stress-cube completion V5 (2026-11-04): mutated success-bias holds (GEN1_SOCMUTG V1 GO)
+Mutated winner-copying through the B+C gauntlet retains 0.71/1.36
+both pairs (birth gaps +0.0108/+0.0040 genuine; exact-social 0.91
+pooled descriptive on the same bank). The cube is complete:
+maternal exact/noise, biparental exact/noise, social exact/mutated —
+5/6 cells GO, social-exact the lone bank-split NOGO (0.90/0.46 vs
+0.91-pooled). Against the compound-collapse hypothesis, mutated
+concentration retains the way mutated mixing does.
+Revised convergent law: transmission rules differ at BIRTH (noise
+halves gaps; concentration wobbles on marginal banks; copybest/
+matmix fail outright) but CONVERGE everywhere else — interference
+retains, novel tasks defeat, immersion dissolves, F2 dilutes, and
+intake transmits while fate stays bank-conditional, for every mode.
+Birth is where modes differ; everywhere else they agree. No cube
+cells remain (3 modes × exact/mutated × gauntlet all scored).
