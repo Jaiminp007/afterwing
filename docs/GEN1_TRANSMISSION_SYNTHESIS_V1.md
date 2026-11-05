@@ -184,3 +184,31 @@ frontier remains the ACT-void social substrate (neighbor-energy
 sensors + transfer actuators + compatible incentives) — needed for
 need-conditioned (not rule-based) transfer, population culture, and
 any M2-distinct-tasks population claim.
+
+## Second arc, cube cell V3 (2026-11-04): noise × interference for recombination
+- BIMUTG V1: INCOMPLETE-NOGAP void — mutated birth gaps +0.0019/
+  +0.0017 miss +0.002 by dust while exact-bi gaps clear (+0.0039/
+  +0.0042). Zero-world read of voided rows: 0.05 noise halves the
+  birth gap (0.004 → 0.0018). Void is noise-caused; gauntlet
+  fractions on the remnant were 1.86/1.12.
+- BIMUTG2 V1 (fresh-bank retry, BITASK precedent): GO — pre-gaps
+  +0.0123/+0.0057, retention 1.12/1.41 both pairs, bi-exact 0.97.
+  Void + GO closes the cell.
+- Cube closed: mutated recombination retains through B+C (1.12/
+  1.41) like maternal (1.0/1.43/1.03/1.45) and exact biparental
+  (2.78/0.62); only winner-copying erodes (0.90/0.46). Mixing
+  absorbs compound stress; concentration does not. Caveat banked:
+  noise halves the birth gap, so mutated lines live or die at the
+  birth-gate, never in the gauntlet. No third attempt.
+
+## Program status (all worlds accounted)
+38 scored worlds + 3 voids (BITASK V1 NOGAP, BIMUTG V1 NOGAP,
+LOWSTART triage-void) + 1 act-void (GEN1-ACT unsubstratable) across
+fresh-19–fresh-90 + reuse/joint banks. Every licensable cell with
+existing ops is scored or voided-twice-closed: 7 matrices (natal,
+window, interference, novel-task, return, generation, noise) × 5
+engine modes × horizons × doses, plus the noise×interference cube
+for the two mixing rules. Open-world work needs new substrate
+(ACT shopping list) or a new rationale (RSI C17-bar, odor
+probe-time channel); autopilot worlds are banned by the bar
+structure itself.

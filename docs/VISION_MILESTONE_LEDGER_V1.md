@@ -34,7 +34,10 @@ exact open items. Nothing here changes any verdict.
   (unanimous NOGO, 4 modes + retry), return (universal solvent —
   exact/mut/bi/social all dissolve), F2 (maternal/social/biparental
   all dilute — inheritance is F1), noise (maternal/bipar free; social
-  fragile-on-marginal). Max/average selectors insufficient; intake
+  fragile-on-marginal; noise×interference cube closed for mixing
+  rules (bimut GO 1.12/1.41 after void; exact holds + maternal 4x;
+  only winner-copy erodes) with the banked caveat that 0.05 noise
+  halves the birth gap. Max/average selectors insufficient; intake
   transmits law-like while fate stays bank-conditional; deaths all
   energy (boom-bust; cap waste + depletion timing confirmed
   zero-world); co-presence without mechanism inert; redistribution
