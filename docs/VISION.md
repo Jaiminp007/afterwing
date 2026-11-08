@@ -21,3 +21,21 @@ research step toward the vision, not an implementation of recursive algorithm
 self-modification. Continual retention across distinct tasks remains open.
 
 A separate offline algorithm selector now has one prospectively accepted forecast-learning kernel revision, with migration from retained own experience and automatic self-application to its preference learner. This has not yet shown repeated improvements, better recursive-search productivity, or an embodied fly-controller benefit. See [the exact scope and audit](ALGORITHM_UPGRADE.md). The full RSI goal remains open.
+
+## Milestone status (2026-11-08)
+
+Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDIT_V1.md).
+
+| Milestone | Status |
+|---|---|
+| Lifetime benefit on held-out tasks + loss under reset | Met |
+| Persistent adaptation, within-task (changing codebooks) | Met |
+| Persistent adaptation, across distinct tasks | Open (odor rounds 1–10 failed; round 11 designed, not run) |
+| Bounded, checkpointable controller-change proposals | Met as a capability; no accepted improvement |
+| Richer bodies only after simpler models are explained | Gate correctly shut (body transfer failed) |
+| Population, social, cultural studies with controls | Met as studies: two first-generation inheritance channels, with stated bounds |
+| Observatory and separate model tracks | Met |
+| Recursive self-improvement | Open (0 accepted revisions in 313 bounded trials; agent-internal loop designed, not built) |
+
+The vision is not complete. Two items stay open until an experiment
+succeeds or a negative record rules them out.
