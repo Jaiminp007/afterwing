@@ -35,8 +35,8 @@ Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDI
 | Richer bodies only after simpler models are explained | Gate correctly shut (body transfer failed) |
 | Population, social, cultural studies with controls | Met as studies: two first-generation inheritance channels, with stated bounds |
 | Observatory and separate model tracks | Met |
-| Recursive self-improvement | Met in bounded form: self-revised improver beats the fixed one on held-out problems, both pre-registered banks (46-4 paired), two successive improver revisions each better than the last, small consistent energy benefit; operator menu hand-written ([results](RSI_GUIDED_RESULTS_V1.md)) |
+| Recursive self-improvement | Not met. A narrow meta-learning demo passed: an improver reweighting a hand-written move menu beat the fixed one within one world family ([V4](RSI_GUIDED_RESULTS_V1.md)). The stronger test failed all three criteria: moves invented from primitives did not help, a revised update rule did not help, and nothing transferred to an unseen threshold-rule family ([V5](RSI_V5_RESULTS.md)) |
 
-All measurable milestones are met, within the bounds stated in each results doc.
+All measurable milestones except recursive self-improvement are met, within the bounds stated in each results doc.
 Human-like cognition, planetary worlds and long-run societies remain research
 aspirations, as stated above.
