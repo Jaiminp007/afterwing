@@ -31,7 +31,7 @@ Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDI
 | Lifetime benefit on held-out tasks + loss under reset | Met |
 | Persistent adaptation, within-task (changing codebooks) | Met |
 | Persistent adaptation, across distinct tasks | Met for the odor-taste skill: orthogonal code keeps 104–109% of earlier tasks' skill vs 84–93% before, two banks ([results](M2_DISTINCT_RESULTS_V1.md)); survival unchanged |
-| Bounded, checkpointable controller-change proposals | Met as a capability; no accepted improvement |
+| Bounded, checkpointable controller-change proposals | Met: proposals evaluated on fresh worlds under budgets; accepted revisions since 2026-11-11 ([RSI V1](RSI_SEARCH_RESULTS_V1.md), [V4](RSI_GUIDED_RESULTS_V1.md)) |
 | Richer bodies only after simpler models are explained | Gate correctly shut (body transfer failed) |
 | Population, social, cultural studies with controls | Met as studies: two first-generation inheritance channels, with stated bounds |
 | Observatory and separate model tracks | Met |
