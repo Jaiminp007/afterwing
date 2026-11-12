@@ -43,3 +43,9 @@ test('identity taste code: an update on one cue leaves every other cue unchanged
   for(let i=0;i<16;i++)if(i!==5)assert.ok(Math.abs(after[i]-before[i])<1e-12,'cue '+i+' moved');
   assert.throws(()=>createOdorRoutedTasteBody(1,256121,{tasteCode:'identity',splitTaste:true}));
 });
+test('taste program knobs: omitted fields keep the original constants',()=>{
+  const plain=createOdorRoutedTasteBody(1,256121),explicit=createOdorRoutedTasteBody(1,256121,{tasteProgram:{}});
+  assert.equal(plain.taste.step,undefined);assert.equal(explicit.taste.step,.5);assert.equal(explicit.taste.replays,1);assert.equal(explicit.taste.memoryCap,32);assert.equal(explicit.taste.prior,Math.log(3));
+  assert.throws(()=>createOdorRoutedTasteBody(1,256121,{tasteProgram:{unknown:1}}));
+  assert.throws(()=>createOdorRoutedTasteBody(1,256121,{tasteProgram:{step:0}}));
+});

@@ -31,7 +31,7 @@ const steeringMethods={
 const methods=run=>steeringMethods[run.steeringLearner??'original'];
 
 export class OdorRoutedExperiment extends OwnSteeringExperiment{
-  constructor({trainingRegime='continuous',steeringLearner='original',steeringDims=null,spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise',...options}){
+  constructor({trainingRegime='continuous',steeringLearner='original',steeringDims=null,spatialSelector='filtered',contactCueMode='disabled',targetCueMode='disabled',phaseTable=null,phaseSeedMap=null,phaseDurations=null,tasteDecisionMode=null,cueCurriculum='default',cueTastePolicy=null,cueTasteReplay=null,steeringProjection=null,steeringProtection=null,contactBandit=null,contactGateReplay=null,baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise',tasteProgram=null,...options}){
     assert.ok(['continuous','freeze-after-A','reset-each-phase'].includes(trainingRegime));
     assert.ok(Object.hasOwn(steeringMethods,steeringLearner));
     assert.ok(['filtered','incremental'].includes(spatialSelector));
@@ -75,7 +75,7 @@ export class OdorRoutedExperiment extends OwnSteeringExperiment{
     if(cueCurriculum==='adjacent-opposed'){const book=makeAdjacentConflictCodebook(this.history.cueSeed);assert.deepEqual(book.A,this.codebook.A);this.codebook=book;this.cueCurriculum=cueCurriculum;}
     for(const fly of this.world.flies){
       const old=this.learners[fly.id],seed=(this.history.seed^Math.imul(fly.id,2654435761))>>>0||1;
-      const state=createOdorRoutedTasteBody(fly.id,seed,{baselineRate:this.baselineRate??0,quantileHeads:this.quantileHeads??1,splitTaste:this.splitTaste??false,tasteCode});
+      const state=createOdorRoutedTasteBody(fly.id,seed,{baselineRate:this.baselineRate??0,quantileHeads:this.quantileHeads??1,splitTaste:this.splitTaste??false,tasteCode,tasteProgram});
       state.steering=steeringLearner==='replay'?createReplaySteering(fly.id,old.steering.rngState):steeringLearner==='cue-shared'?createCueSharedSteering(fly.id,old.steering.rngState,steeringProjection,steeringProtection):old.steering;
       if(steeringDims!==null)state.steering=createOwnSteering(fly.id,old.steering.rngState,steeringDims);
       if(steeringLearner==='gated')state.steering=createGatedSteering(fly.id,old.steering.rngState);

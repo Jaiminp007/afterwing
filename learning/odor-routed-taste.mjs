@@ -30,7 +30,7 @@ function prediction(state,phi){
     return 1/(1+Math.exp(-(priorLogit+(dg-dn)/tasteScale)));
   }
   if(K<=1){
-    const logit=priorLogit+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/Math.sqrt(phi.length);
+    const logit=(state.taste.prior??priorLogit)+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/Math.sqrt(phi.length);
     state.work.scalarOperations+=29;return 1/(1+Math.exp(-logit));
   }
   // R9 distributional behavior (docs/ODOR_DEV_ROUND9_PLAN_V1.md, frozen):
@@ -80,7 +80,7 @@ function update(state,record,mode){
     return;
   }
   if(K<=1){
-    const error=target-prediction(state,record.phi),step=.5*error/Math.sqrt(record.phi.length);
+    const error=target-prediction(state,record.phi),step=(state.taste.step??.5)*error/Math.sqrt(record.phi.length);
     for(let index=0;index<record.phi.length;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
     state.work.scalarOperations+=4+11*4+4;
     return;
@@ -98,7 +98,11 @@ function update(state,record,mode){
   }
   state.work.scalarOperations+=K*82;
 }
-export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise'}={}){
+// tasteProgram: optional algorithm revision {step, replays, memory, prior} for
+// the plain single-head learner; omitted fields keep the original constants.
+export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise',tasteProgram=null}={}){
+  if(tasteProgram!==null){assert.ok(quantileHeads===1&&!splitTaste);const {step=.5,replays=1,memory=32,prior=priorLogit,...rest}=tasteProgram;assert.equal(Object.keys(rest).length,0);
+    assert.ok(step>0&&step<=4&&Number.isInteger(replays)&&replays>=0&&replays<=8&&Number.isInteger(memory)&&memory>=1&&memory<=512&&Number.isFinite(prior));}
   assert.ok(['pairwise','identity'].includes(tasteCode));
   assert.ok(tasteCode==='pairwise'||(quantileHeads===1&&!splitTaste),'identity code uses the plain single-head learner');
   assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
@@ -106,7 +110,7 @@ export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileH
   assert.equal(typeof splitTaste,'boolean');
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
-  state.taste={weights:Array(tasteCode==='identity'?16:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
+  state.taste={weights:Array(tasteCode==='identity'?16:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),...(tasteProgram!==null?{step:tasteProgram.step??.5,replays:tasteProgram.replays??1,memoryCap:tasteProgram.memory??32,prior:tasteProgram.prior??priorLogit}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){
@@ -145,11 +149,14 @@ export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
     else{
       const record={agentId:state.agentId,tick:own.tick,phi:features(state,example.cue),target:Number(example.outcomeSign===1)};
       state.taste.seen++;state.work.scalarOperations+=3;
-      if(state.taste.memory.length<32)state.taste.memory.push(record);
-      else{const index=Math.floor(draw(state)*state.taste.seen);state.work.scalarOperations+=3;if(index<32)state.taste.memory[index]=record;}
+      const cap=state.taste.memoryCap??32;
+      if(state.taste.memory.length<cap)state.taste.memory.push(record);
+      else{const index=Math.floor(draw(state)*state.taste.seen);state.work.scalarOperations+=3;if(index<cap)state.taste.memory[index]=record;}
       update(state,record,'live');
-      const index=Math.floor(draw(state)*state.taste.memory.length);state.work.scalarOperations+=2;
-      update(state,state.taste.memory[index],'replay');
+      for(let r=0;r<(state.taste.replays??1);r++){
+        const index=Math.floor(draw(state)*state.taste.memory.length);state.work.scalarOperations+=2;
+        update(state,state.taste.memory[index],'replay');
+      }
     }
   }
   observeOdorRoutedMotor(state,own);

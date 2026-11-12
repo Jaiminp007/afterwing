@@ -35,6 +35,6 @@ Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDI
 | Richer bodies only after simpler models are explained | Gate correctly shut (body transfer failed) |
 | Population, social, cultural studies with controls | Met as studies: two first-generation inheritance channels, with stated bounds |
 | Observatory and separate model tracks | Met |
-| Recursive self-improvement | Open (0 accepted revisions in 313 bounded trials; agent-internal loop designed, not built) |
+| Recursive self-improvement | Partial: autonomous loop made 2 successive validated learner revisions (one representational) and revised its own proposer; improved search does not beat the copied-improvement control; survival gain not significant ([results](RSI_SEARCH_RESULTS_V1.md)) |
 
 The vision is not complete. Recursive self-improvement stays open.
