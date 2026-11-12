@@ -147,9 +147,13 @@ export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneo
   beginStationaryTasteAction(state.credit,{agentId:own.agentId,tick:own.tick,action:creditAction,cue:own.cue,contactPresent:own.contactPresent&&own.odorPresent&&(!requireHomogeneousContact||own.contactHomogeneous)});
   return {...choice,action:move+1,move,accept,feedProbability:tasteDecisionMode==='threshold'?Number(accept):probability,...(tasteDecisionMode!==null?{tasteEstimate:probability}:{})};
 }
+// Read-only instrumentation: listeners receive each completed taste example.
+// They cannot change learner state, billing or random draws.
+export const tasteExampleListeners=new Set();
 export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
   const before=state.credit.scalarOperations,example=finishStationaryTasteAction(state.credit,own);
   state.work.scalarOperations+=state.credit.scalarOperations-before;
+  if(example&&tasteExampleListeners.size)for(const listener of tasteExampleListeners)listener({agentId:state.agentId,cue:[...example.cue],target:Number(example.outcomeSign===1)});
   if(state.acquisition&&example){
     state.tasteExamples++;
     if(state.cueTaste){const before=state.cueTaste.work.scalarOperations;learnDecoupledCueTaste(state.cueTaste,{agentId:state.agentId,tick:own.tick,cue:example.cue,target:Number(example.outcomeSign===1)},{replayPolicy:cueTasteReplay});state.work.scalarOperations+=state.cueTaste.work.scalarOperations-before;}

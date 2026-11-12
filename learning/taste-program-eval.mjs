@@ -5,7 +5,7 @@
 import {fork} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {OdorRoutedExperiment} from './odor-routed-experiment.mjs';
-import {predictTargetTaste} from './odor-routed-taste.mjs';
+import {predictTargetTaste,tasteExampleListeners} from './odor-routed-taste.mjs';
 import {makeCueCodebook} from './cue-foraging.mjs';
 import {advanceRng} from './intervention-study.mjs';
 
@@ -24,7 +24,14 @@ export function evaluateOne(program,history,world={}){
   const {code,...tasteProgram}=program,{valenceRule=null,...options}=world;
   const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...options});
   if(valenceRule)applyValenceRule(run,valenceRule);
-  const end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  // The flies' own experience: for each Walsh term, sum of term(cue)*(2*target-1).
+  const termEvidence=Array(16).fill(0);let examples=0;
+  const listener=({cue,target})=>{if(cue[0]===0)return;examples++;for(let m=0;m<16;m++){let v=1;for(let b=0;b<4;b++)if(m>>b&1)v*=cue[b];termEvidence[m]+=v*(2*target-1);}};
+  tasteExampleListeners.add(listener);
+  try{
+  var end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  }finally{tasteExampleListeners.delete(listener);}
+  const outcome={...outcome0,termEvidence,examples};
   const anchor=run.anchors.C;if(!anchor)return {score:0,alive:0,...outcome};
   const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[];
   for(const fly of probe.world.flies){const s=structuredClone(probe.learners[fly.id]);let d=0;
