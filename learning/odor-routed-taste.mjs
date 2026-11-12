@@ -8,6 +8,13 @@ import {chooseContactAction} from './contact-action-bandit.mjs';
 const priorLogit=Math.log(3),tasteScale=Math.sqrt(11);
 const draw=state=>{state.taste.rngState=advanceRng(state.taste.rngState);state.work.scalarOperations+=7;return state.taste.rngState/4294967296;};
 function features(state,cue){
+  if(state.taste.code==='identity'){
+    // Complete Walsh basis over the 4 cue bits: distinct cues get orthogonal
+    // feature vectors, so an update on one cue leaves every other cue's
+    // prediction unchanged (no cross-task interference). 16 products.
+    const phi=[];for(let mask=0;mask<16;mask++){let value=1;for(let bit=0;bit<4;bit++)if(mask>>bit&1)value*=cue[bit];phi.push(value);}
+    state.work.scalarOperations+=32;return phi;
+  }
   const phi=[1,...cue];
   for(let first=0;first<4;first++)for(let second=first+1;second<4;second++)phi.push(cue[first]*cue[second]);
   state.work.scalarOperations+=6;return phi;
@@ -23,7 +30,7 @@ function prediction(state,phi){
     return 1/(1+Math.exp(-(priorLogit+(dg-dn)/tasteScale)));
   }
   if(K<=1){
-    const logit=priorLogit+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/tasteScale;
+    const logit=priorLogit+state.taste.weights.reduce((sum,weight,index)=>sum+weight*phi[index],0)/Math.sqrt(phi.length);
     state.work.scalarOperations+=29;return 1/(1+Math.exp(-logit));
   }
   // R9 distributional behavior (docs/ODOR_DEV_ROUND9_PLAN_V1.md, frozen):
@@ -73,8 +80,8 @@ function update(state,record,mode){
     return;
   }
   if(K<=1){
-    const error=target-prediction(state,record.phi),step=.5*error/tasteScale;
-    for(let index=0;index<11;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
+    const error=target-prediction(state,record.phi),step=.5*error/Math.sqrt(record.phi.length);
+    for(let index=0;index<record.phi.length;index++)state.taste.weights[index]=Math.max(-8,Math.min(8,state.taste.weights[index]+step*record.phi[index]));
     state.work.scalarOperations+=4+11*4+4;
     return;
   }
@@ -91,13 +98,15 @@ function update(state,record,mode){
   }
   state.work.scalarOperations+=K*82;
 }
-export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false}={}){
+export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise'}={}){
+  assert.ok(['pairwise','identity'].includes(tasteCode));
+  assert.ok(tasteCode==='pairwise'||(quantileHeads===1&&!splitTaste),'identity code uses the plain single-head learner');
   assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
   assert.ok(Number.isInteger(quantileHeads)&&quantileHeads>=1);
   assert.equal(typeof splitTaste,'boolean');
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
-  state.taste={weights:Array(11).fill(0),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
+  state.taste={weights:Array(tasteCode==='identity'?16:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){

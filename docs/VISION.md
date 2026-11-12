@@ -30,12 +30,11 @@ Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDI
 |---|---|
 | Lifetime benefit on held-out tasks + loss under reset | Met |
 | Persistent adaptation, within-task (changing codebooks) | Met |
-| Persistent adaptation, across distinct tasks | Open (odor rounds 1–10 failed; round 11 designed, not run) |
+| Persistent adaptation, across distinct tasks | Met for the odor-taste skill: orthogonal code keeps 104–109% of earlier tasks' skill vs 84–93% before, two banks ([results](M2_DISTINCT_RESULTS_V1.md)); survival unchanged |
 | Bounded, checkpointable controller-change proposals | Met as a capability; no accepted improvement |
 | Richer bodies only after simpler models are explained | Gate correctly shut (body transfer failed) |
 | Population, social, cultural studies with controls | Met as studies: two first-generation inheritance channels, with stated bounds |
 | Observatory and separate model tracks | Met |
 | Recursive self-improvement | Open (0 accepted revisions in 313 bounded trials; agent-internal loop designed, not built) |
 
-The vision is not complete. Two items stay open until an experiment
-succeeds or a negative record rules them out.
+The vision is not complete. Recursive self-improvement stays open.
