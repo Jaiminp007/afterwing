@@ -8,6 +8,11 @@ import {chooseContactAction} from './contact-action-bandit.mjs';
 const priorLogit=Math.log(3),tasteScale=Math.sqrt(11);
 const draw=state=>{state.taste.rngState=advanceRng(state.taste.rngState);state.work.scalarOperations+=7;return state.taste.rngState/4294967296;};
 function features(state,cue){
+  if(state.taste.code==='masks'){
+    // Composable code: one Walsh product per listed mask over the 4 cue bits.
+    const phi=state.taste.masks.map(mask=>{let value=1;for(let bit=0;bit<4;bit++)if(mask>>bit&1)value*=cue[bit];return value;});
+    state.work.scalarOperations+=2*phi.length;return phi;
+  }
   if(state.taste.code==='identity'){
     // Complete Walsh basis over the 4 cue bits: distinct cues get orthogonal
     // feature vectors, so an update on one cue leaves every other cue's
@@ -101,16 +106,18 @@ function update(state,record,mode){
 // tasteProgram: optional algorithm revision {step, replays, memory, prior} for
 // the plain single-head learner; omitted fields keep the original constants.
 export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise',tasteProgram=null}={}){
-  if(tasteProgram!==null){assert.ok(quantileHeads===1&&!splitTaste);const {step=.5,replays=1,memory=32,prior=priorLogit,...rest}=tasteProgram;assert.equal(Object.keys(rest).length,0);
-    assert.ok(step>0&&step<=4&&Number.isInteger(replays)&&replays>=0&&replays<=8&&Number.isInteger(memory)&&memory>=1&&memory<=512&&Number.isFinite(prior));}
-  assert.ok(['pairwise','identity'].includes(tasteCode));
+  if(tasteProgram!==null){assert.ok(quantileHeads===1&&!splitTaste);const {step=.5,replays=1,memory=32,prior=priorLogit,masks:_masks,...rest}=tasteProgram;assert.equal(Object.keys(rest).length,0);
+    assert.ok(step>0&&step<=8&&Number.isInteger(replays)&&replays>=0&&replays<=8&&Number.isInteger(memory)&&memory>=1&&memory<=512&&Number.isFinite(prior));}
+  assert.ok(['pairwise','identity','masks'].includes(tasteCode));
+  const masks=tasteCode==='masks'?tasteProgram?.masks:null;
+  if(tasteCode==='masks')assert.ok(Array.isArray(masks)&&masks.length>0&&new Set(masks).size===masks.length&&masks.every(m=>Number.isInteger(m)&&m>=0&&m<16));
   assert.ok(tasteCode==='pairwise'||(quantileHeads===1&&!splitTaste),'identity code uses the plain single-head learner');
   assert.ok(Number.isFinite(baselineRate)&&baselineRate>=0&&baselineRate<=1);
   assert.ok(Number.isInteger(quantileHeads)&&quantileHeads>=1);
   assert.equal(typeof splitTaste,'boolean');
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
-  state.taste={weights:Array(tasteCode==='identity'?16:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),...(tasteProgram!==null?{step:tasteProgram.step??.5,replays:tasteProgram.replays??1,memoryCap:tasteProgram.memory??32,prior:tasteProgram.prior??priorLogit}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
+  state.taste={weights:Array(tasteCode==='identity'?16:tasteCode==='masks'?masks.length:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),...(tasteCode==='masks'?{code:'masks',masks:[...masks]}:{}),...(tasteProgram!==null?{step:tasteProgram.step??.5,replays:tasteProgram.replays??1,memoryCap:tasteProgram.memory??32,prior:tasteProgram.prior??priorLogit}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){

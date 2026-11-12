@@ -13,12 +13,20 @@ export function makeHistories(bankSeed,count){
   let rng=bankSeed>>>0||1;const next=()=>(rng=advanceRng(rng))>>>0||1;
   return Array.from({length:count},()=>({seed:next(),cueSeed:next(),resourceSeeds:[next(),next(),next(),next()],probeSeeds:{A:next(),B:next(),transfer:next()}}));
 }
+// Valence rule ("odor chemistry"): an odor's value = sign * product of its cue
+// bits over rule.mask, replacing the random codebook labels in every family.
+export function applyValenceRule(run,rule){
+  const value=bits=>{let v=rule.sign;for(let bit=0;bit<4;bit++)if(rule.mask>>bit&1)v*=bits[bit];return v;};
+  for(const family of Object.values(run.codebook))for(const item of family)item.valence=value(item.bits);
+  for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
+}
 export function evaluateOne(program,history,world={}){
-  const {code,...tasteProgram}=program;
-  const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...world});
-  const end=run.advance((world.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  const {code,...tasteProgram}=program,{valenceRule=null,...options}=world;
+  const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...options});
+  if(valenceRule)applyValenceRule(run,valenceRule);
+  const end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
   const anchor=run.anchors.C;if(!anchor)return {score:0,alive:0,...outcome};
-  const probe=OdorRoutedExperiment.restore(anchor),book=makeCueCodebook(history.cueSeed),values=[];
+  const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[];
   for(const fly of probe.world.flies){const s=structuredClone(probe.learners[fly.id]);let d=0;
     for(const family of ['A','B','C']){for(const item of book[family])d+=(item.valence>0?1:-1)*predictTargetTaste(s,item.bits)/2;}
     values.push(d/3);}

@@ -77,3 +77,51 @@ the survival benefit is not significant. To pass (b), the revision space has
 to keep producing new improvements after the first ones (a space that
 compounds), for example operators that compose new feature codes instead of
 choosing from a fixed list.
+
+## Follow-up: composable codes (V2 and V3, 2026-11-11)
+
+Script `scripts/rsi-compose.mjs`. Data (local): `evidence/rsi-compose/`.
+
+**Changes.** The taste code is any subset of the 16 Walsh terms
+(`tasteCode: 'masks'`). Moves are add, remove, swap, reduce-to-one-term,
+plus step and replay changes. Problems are "odor chemistry" worlds: an odor's
+value is a hidden product rule over its bits, with short phases. A code
+matched to the rule scores about 0.68, the full code about 0.50, and a wrong
+sparse code about 0, so copying the previous winner fails on a new rule. Test
+rules are disjoint from the training rules. The improver (weights over
+operators and over term order) rewrites itself after every two training
+problems. Two training problems with 20 proposals each feed each revision.
+
+**Gate (a) again: MET.** Training made 2-4 confirmed successive revisions per
+problem (for example reduce to [0,1] at +0.22, then add at +0.06), and
+compositions of earlier accepted moves kept producing new accepted moves.
+
+**Gate (b): NOT MET.** Mean held-out score after a 12-evaluation search:
+
+| run | start | no search | v0 fixed | v1 | v2 | paired v2 vs v0 |
+|---|---|---|---|---|---|---|
+| V2, count credit, 2 seeds | copy | 0.417 | 0.447 | 0.461 | 0.462 | 7-3 (v2 vs v1 10-3) |
+| V2 | identity | 0.474 | 0.490 | 0.496 | 0.512 | |
+| V3, gain credit, fresh banks, 3 seeds | copy | 0.216 | 0.366 | 0.314 | 0.359 | 10-9 (v1 vs v0 5-10) |
+| V3 | identity | 0.519 | 0.541 | 0.548 | 0.548 | |
+
+V2 showed a small, borderline edge. V3 changed the credit rule after V2 was
+seen, so it was run on fresh test banks with flipped rule signs, and it did
+not reproduce the edge. Every arm beats no search; the revised improver does
+not beat the fixed one.
+
+**Why it fails.**
+
+- The improver learns from about 40 proposals with 2-4 acceptances per
+  revision. That is too little signal to rank 8 operators and 4 term orders
+  above the evaluation noise.
+- More fundamentally, the winning move needs the right term (1 of 15), and
+  this improver can only learn which kinds of move tend to work. It cannot
+  look at the fly's experience to see which term predicts food value.
+  Operator statistics alone barely change the odds of that event.
+
+**What would be needed.** An improver that proposes from data (for example,
+from correlations between each Walsh term and the outcomes the fly
+recorded), with that proposal machinery also open to revision, and many more
+training problems per revision. That is new design work with no result yet.
+It is not run here.
