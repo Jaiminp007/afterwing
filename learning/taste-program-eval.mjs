@@ -15,8 +15,11 @@ export function makeHistories(bankSeed,count){
 }
 // Valence rule ("odor chemistry"): an odor's value = sign * product of its cue
 // bits over rule.mask, replacing the random codebook labels in every family.
+// With rule.terms ([[mask,coef],...]) and rule.bias: value = sign * sgn(bias +
+// sum coef * product over mask) (threshold rules, e.g. majority, AND, OR).
 export function applyValenceRule(run,rule){
-  const value=bits=>{let v=rule.sign;for(let bit=0;bit<4;bit++)if(rule.mask>>bit&1)v*=bits[bit];return v;};
+  const walsh=(mask,bits)=>{let v=1;for(let bit=0;bit<4;bit++)if(mask>>bit&1)v*=bits[bit];return v;};
+  const value=rule.terms?bits=>rule.sign*Math.sign(rule.bias+rule.terms.reduce((s,[m,c])=>s+c*walsh(m,bits),0)):bits=>rule.sign*walsh(rule.mask,bits);
   for(const family of Object.values(run.codebook))for(const item of family)item.valence=value(item.bits);
   for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
 }
@@ -33,11 +36,14 @@ export function evaluateOne(program,history,world={}){
   }finally{tasteExampleListeners.delete(listener);}
   const outcome={...outcome0,termEvidence,examples};
   const anchor=run.anchors.C;if(!anchor)return {score:0,alive:0,...outcome};
-  const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[];
-  for(const fly of probe.world.flies){const s=structuredClone(probe.learners[fly.id]);let d=0;
-    for(const family of ['A','B','C']){for(const item of book[family])d+=(item.valence>0?1:-1)*predictTargetTaste(s,item.bits)/2;}
-    values.push(d/3);}
-  return {score:values.length?values.reduce((a,b)=>a+b,0)/values.length:0,alive:values.length,...outcome};
+  const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[],balanced=[];
+  for(const fly of probe.world.flies){const s=structuredClone(probe.learners[fly.id]);let d=0,b=0,n=0;
+    for(const family of ['A','B','C']){const g=[],x=[];for(const item of book[family]){const p=predictTargetTaste(s,item.bits);d+=(item.valence>0?1:-1)*p/2;(item.valence>0?g:x).push(p);}
+      if(g.length&&x.length){b+=g.reduce((a,c)=>a+c,0)/g.length-x.reduce((a,c)=>a+c,0)/x.length;n++;}}
+    values.push(d/3);if(n)balanced.push(b/n);}
+  // discrimination: P(accept|good)-P(accept|bad) within each family that has both classes (base-rate free).
+  const avg=v=>v.length?v.reduce((a,c)=>a+c,0)/v.length:0;
+  return {score:avg(values),discrimination:avg(balanced),alive:values.length,...outcome};
 }
 // Child-process pool: evaluate many (program, history) jobs in parallel.
 export class Pool{
