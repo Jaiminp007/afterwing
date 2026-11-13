@@ -68,3 +68,16 @@ pool now replaces a dead worker and re-runs its job. Evaluation is
 deterministic, and a test showed the retried result is identical. The run
 uses 6 workers instead of 8. The run restarts from scratch with the plan
 above unchanged.
+
+## Second restart note (infrastructure only)
+
+The restarted run was killed by a machine reboot on 2026-11-13, during test
+replicate 102. By then level 2 had finished and rejected all 4 proposals, so
+U* = {gain, α 2, ρ 0.25, floor 0.2, power 1}. The runner now has a `resume`
+mode, which reuses the logged level-2 outcome instead of recomputing it.
+Level 2 is deterministic. The runner also saves trained test libraries and
+evaluated test rows to a checkpoint, so a later crash keeps finished test
+work. Only replicate 101's means had been logged, and no test rows were
+saved, so the whole test is recomputed. Replicate 101 must reproduce its
+logged means (L0 0.4708, U0 0.4686, U* 0.5170, U*-without-invention 0.4713),
+which checks determinism. The plan and criteria are unchanged.

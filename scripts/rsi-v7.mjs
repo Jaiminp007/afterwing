@@ -2,7 +2,7 @@
 // 72 test pairs, a fresh test bank, and level 2 continuing from V6's revised
 // update rule (untried single-gene neighbours only).
 // Usage: node scripts/rsi-v7.mjs <out.json> [smoke]
-import {writeFileSync} from 'node:fs';
+import {writeFileSync,readFileSync,existsSync} from 'node:fs';
 import {Pool,makeHistories} from '../learning/taste-program-eval.mjs';
 import {advanceRng} from '../learning/intervention-study.mjs';
 
@@ -140,6 +140,8 @@ function paired(A,B,field='score'){let w=0,l=0;A.forEach((x,i)=>{const y=B[i];if
   return {wins:w,losses:l,ties:A.length-w-l,pOneSided:signTest(w,l),meanA:mean(A.map(x=>x[field])),meanB:mean(B.map(x=>x[field]))};}
 
 const out=process.argv[2],pool=new Pool(6),t0=performance.now(),log=[],say=x=>{log.push(x);console.log(JSON.stringify({t:Math.round((performance.now()-t0)/1000),...x}));};
+// Test checkpoint (trained libraries and evaluated rows), so a crash or reboot does not lose finished test work.
+const CKPT=out+'.ckpt.json',ckpt=existsSync(CKPT)?JSON.parse(readFileSync(CKPT,'utf8')):{train:{},rows:{}},saveCkpt=()=>writeFileSync(CKPT,JSON.stringify(ckpt));
 const uKey=U=>JSON.stringify(U),passes=c=>c.wins>c.losses&&c.pOneSided<.05&&c.meanA>c.meanB;
 // Train one library per training seed, evaluate each frozen library; rows are ordered (trainSeed, problem, seed).
 async function trainAndEval(U,problems,seedsFor,trainSeeds){
@@ -152,7 +154,11 @@ async function trainAndEval(U,problems,seedsFor,trainSeeds){
 // the incumbent in a shuffled order (V6's tried rules are excluded); regenerated on acceptance.
 const validSeeds=p=>Array.from({length:C.validSeeds},(_,i)=>p.bankSeed*7+i+1),metaRng=makeRng(737373);
 const V6_TRIED=[U0,{...U0,rho:.1},{...U0,floor:.05},{...U0,alpha:2},{...U0,alpha:2,power:4},{...U0,alpha:2,credit:'count'},{...U0,alpha:2,rho:0}];
-let U={...U0,alpha:2},cur=await trainAndEval(U,C.valid,validSeeds,C.trainSeeds);const meta=[],triedU=new Set(V6_TRIED.map(uKey));
+// resume mode: level 2 is deterministic, so its logged outcome (argv[4]) is reused instead of recomputed.
+const RESUMED=MODE==='resume'?readFileSync(process.argv[4],'utf8').trim().split('\n').map(l=>JSON.parse(l)).filter(x=>x.phase==='meta-start'||x.phase==='meta'):null;
+let U={...U0,alpha:2},cur=null;const meta=[],triedU=new Set(V6_TRIED.map(uKey));
+if(RESUMED){for(const x of RESUMED){if(x.phase==='meta'){meta.push({...x,resumedFromLog:true});if(x.accepted)U=x.proposal;}say({...x,resumedFromLog:true});}}
+else{cur=await trainAndEval(U,C.valid,validSeeds,C.trainSeeds);
 say({phase:'meta-start',U,val:mean(cur.rows.map(r=>r.score)),libs:cur.libs.map(l=>[l.topTerm,l.inventedShare])});
 const neighbours=U=>{const n=[];for(const g of Object.keys(U_SPACE))if(g!=='beta'||U.credit==='meanGain')for(const v of U_SPACE[g])if(v!==U[g]){const x={...U,[g]:v};if(!triedU.has(uKey(x)))n.push(x);}
   for(let i=n.length-1;i>0;i--){const j=Math.floor(metaRng()*(i+1));[n[i],n[j]]=[n[j],n[i]];}return n;};
@@ -162,17 +168,21 @@ for(let i=0;i<C.metaSteps&&queue.length;i++){
   const r=await trainAndEval(V,C.valid,validSeeds,C.trainSeeds),cmp=paired(r.rows,cur.rows),ok=cmp.meanA>cmp.meanB&&cmp.wins>cmp.losses;
   meta.push({proposal:V,cmp,accepted:ok,libs:r.libs});say({phase:'meta',proposal:V,cmp,accepted:ok,libs:r.libs.map(l=>[l.topTerm,l.inventedShare])});
   if(ok){U=V;cur=r;queue=neighbours(U);}
-}
+}}
 const Ustar=U,UstarNoInv={...Ustar,rho:0};
 // Test: fresh training replicates; frozen libraries; unseen threshold-rule family.
 const testSeeds=rep=>p=>C.testSeeds.map(s=>p.bankSeed*7+rep*10+s);
 const names=['L0','U0','Ustar','UstarNoInv'],libs=Object.fromEntries(names.map(n=>[n,[]])),rows=Object.fromEntries(names.map(n=>[n,[]]));
 for(const rep of C.reps){
   const trained={L0:{lib:seedLibrary(),accepted:[]}},cache=new Map();
-  for(const [n,V] of [['U0',U0],['Ustar',Ustar],['UstarNoInv',UstarNoInv]]){if(!cache.has(uKey(V)))cache.set(uKey(V),{name:n,...await trainLibrary(pool,V,rep)});trained[n]=cache.get(uKey(V));}
+  for(const [n,V] of [['U0',U0],['Ustar',Ustar],['UstarNoInv',UstarNoInv]]){if(!cache.has(uKey(V))){const k=`${rep}|${uKey(V)}`;
+      if(!ckpt.train[k]){const T=await trainLibrary(pool,V,rep);ckpt.train[k]={lib:T.lib,accepted:T.accepted};saveCkpt();}
+      cache.set(uKey(V),{name:n,...structuredClone(ckpt.train[k])});}trained[n]=cache.get(uKey(V));}
   for(const n of names){
     if(n!=='L0')libs[n].push({rep,...libSummary(trained[n].lib),accepted:trained[n].accepted});
-    const same=trained[n].name&&trained[n].name!==n,r=same?rows[trained[n].name].filter(x=>x.rep===rep):(await evalLibrary(pool,trained[n].lib,C.test,testSeeds(rep))).map(x=>({rep,...x}));
+    const same=trained[n].name&&trained[n].name!==n,k=`${rep}|${n}`;
+    if(!same&&!ckpt.rows[k]){ckpt.rows[k]=(await evalLibrary(pool,trained[n].lib,C.test,testSeeds(rep))).map(x=>({rep,...x}));saveCkpt();}
+    const r=same?rows[trained[n].name].filter(x=>x.rep===rep):ckpt.rows[k];
     rows[n].push(...r);say({phase:'test',rep,lib:n,sameAs:same?trained[n].name:null,mean:mean(r.map(x=>x.score))});
   }
 }
