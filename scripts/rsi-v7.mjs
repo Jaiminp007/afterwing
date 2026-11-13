@@ -139,7 +139,7 @@ function signTest(w,l){const n=w+l;let p=0;const c=(n,k)=>{let r=1;for(let i=1;i
 function paired(A,B,field='score'){let w=0,l=0;A.forEach((x,i)=>{const y=B[i];if(x.problem!==y.problem||x.searchSeed!==y.searchSeed)throw new Error('unpaired');if(x[field]>y[field]+1e-12)w++;else if(x[field]<y[field]-1e-12)l++;});
   return {wins:w,losses:l,ties:A.length-w-l,pOneSided:signTest(w,l),meanA:mean(A.map(x=>x[field])),meanB:mean(B.map(x=>x[field]))};}
 
-const out=process.argv[2],pool=new Pool(8),t0=performance.now(),log=[],say=x=>{log.push(x);console.log(JSON.stringify({t:Math.round((performance.now()-t0)/1000),...x}));};
+const out=process.argv[2],pool=new Pool(6),t0=performance.now(),log=[],say=x=>{log.push(x);console.log(JSON.stringify({t:Math.round((performance.now()-t0)/1000),...x}));};
 const uKey=U=>JSON.stringify(U),passes=c=>c.wins>c.losses&&c.pOneSided<.05&&c.meanA>c.meanB;
 // Train one library per training seed, evaluate each frozen library; rows are ordered (trainSeed, problem, seed).
 async function trainAndEval(U,problems,seedsFor,trainSeeds){

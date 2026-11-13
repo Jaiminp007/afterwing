@@ -46,11 +46,20 @@ export function evaluateOne(program,history,world={}){
   return {score:avg(values),discrimination:avg(balanced),alive:values.length,...outcome};
 }
 // Child-process pool: evaluate many (program, history) jobs in parallel.
+// A worker that dies (e.g. out of memory) is replaced and its job re-queued;
+// evaluation is deterministic, so a retried job returns the same result.
 export class Pool{
-  constructor(size=6){this.workers=Array.from({length:size},()=>fork(fileURLToPath(import.meta.url),['worker'],{stdio:['ignore','ignore','inherit','ipc']}));this.idle=[...this.workers];this.queue=[];this.next=0;this.pending=new Map();
-    for(const w of this.workers)w.on('message',({id,result})=>{this.pending.get(id)(result);this.pending.delete(id);this.idle.push(w);this.pump();});}
+  constructor(size=6){this.closed=false;this.workers=new Set();this.idle=[];this.queue=[];this.next=0;this.busy=new Map();this.retries=0;for(let i=0;i<size;i++)this.spawn();}
+  spawn(){
+    const w=fork(fileURLToPath(import.meta.url),['worker'],{stdio:['ignore','ignore','inherit','ipc']});this.workers.add(w);
+    w.on('message',({id,result})=>{const job=this.busy.get(w);this.busy.delete(w);job.resolve(result);this.idle.push(w);this.pump();});
+    w.on('exit',()=>{this.workers.delete(w);this.idle=this.idle.filter(x=>x!==w);if(this.closed)return;
+      const job=this.busy.get(w);this.busy.delete(w);if(job){this.retries++;this.queue.unshift(job);}
+      if(this.retries>50)throw new Error('Pool: too many worker deaths');setTimeout(()=>{this.spawn();this.pump();},2000);});
+    this.idle.push(w);
+  }
   run(program,history,world={}){return new Promise(resolve=>{this.queue.push({id:this.next++,program,history,world,resolve});this.pump();});}
-  pump(){while(this.idle.length&&this.queue.length){const job=this.queue.shift(),w=this.idle.pop();this.pending.set(job.id,job.resolve);w.send({id:job.id,program:job.program,history:job.history,world:job.world});}}
-  close(){for(const w of this.workers)w.kill();}
+  pump(){while(this.idle.length&&this.queue.length){const job=this.queue.shift(),w=this.idle.pop();this.busy.set(w,job);w.send({id:job.id,program:job.program,history:job.history,world:job.world});}}
+  close(){this.closed=true;for(const w of this.workers)w.kill();}
 }
 if(process.argv[2]==='worker')process.on('message',({id,program,history,world})=>process.send({id,result:evaluateOne(program,history,world)}));

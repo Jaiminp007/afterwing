@@ -58,3 +58,13 @@ These are as in V6:
 V7 is a further design iteration: the budget and test-size changes were
 made after seeing V6. This is disclosed here, and is why the test bank is
 fresh.
+
+## Restart note (infrastructure only)
+
+The first V7 launch crashed after about 1 h. Two evaluation workers died
+out of memory (machine memory pressure), and the run hung waiting for them.
+It had reached level-2 proposal 1 of 4 and no test row had run. The worker
+pool now replaces a dead worker and re-runs its job. Evaluation is
+deterministic, and a test showed the retried result is identical. The run
+uses 6 workers instead of 8. The run restarts from scratch with the plan
+above unchanged.
