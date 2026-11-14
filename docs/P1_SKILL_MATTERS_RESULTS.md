@@ -1,5 +1,40 @@
 # P1 results: taste skill can matter. Gate PASSED with deterministic taste decisions
 
+> **Correction (2026-11-14, after a second review by Fable 5.2).** The gate
+> statistic is inflated. Threshold mode changes three things at once:
+>
+> - it removes decision noise;
+> - it removes exploration, because a taste example exists only when the fly
+>   accepts, so a refusal under threshold is permanent;
+> - it breaks the bias-only baseline. A bias-only fly then eats everything or
+>   nothing. Its survivors drop from 10.50 under sampled decisions to 6.25.
+>
+> Fairer contrasts from the same rows (threshold, toxin 1, nutrient 1):
+>
+> | Contrast | Survivors | Energy |
+> |---|---|---|
+> | Correct (threshold) vs bias (sampled), factorial | +2.1, 12–3 | +5.1, 15–1 |
+> | Correct vs identity, factorial | −0.4, 7–8 | +2.9, 12–4 |
+> | Correct vs identity, confirmation | −0.1, 11–5 | +4.3, 14–2 |
+>
+> The replicated finding is that **the correct code beats identity on
+> energy**. It is positive on all 8 rules across both banks.
+>
+> Three claims below are softened:
+>
+> - "Doubles to triples survival" holds only against the broken baseline.
+>   Against a sampled bias-only fly the gain is about +2 survivors.
+> - Toxin strength and scarcity interact with the decision rule. Under
+>   threshold, toxin 3 removed the effect, and only one level of each was
+>   tested.
+> - The "correct" code is not a ceiling. On single-term rules identity had
+>   higher discrimination.
+>
+> Also, rules with one quarter good odors (AND+, OR−) are extinction worlds:
+> identity had 0 survivors on AND(1,3)+. Threshold mode is a change to the
+> fly's decision policy, shared by every arm. It is not a change to the
+> world.
+
 Plan: [P1_SKILL_MATTERS_PLAN.md](P1_SKILL_MATTERS_PLAN.md), committed in
 `e66c818` before the runs. Evidence: `evidence/p1-skill-matters/
 {factorial,confirm}.{json,log}`.
