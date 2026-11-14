@@ -28,38 +28,57 @@ Mean energy per founder over the 6 dev rules:
 ## What the libraries learned
 
 All 6 libraries ranked a `keepOnly/evid/k` move first (k = 3 or 4), from
-independent training banks. So the learning step works: credit assignment
-finds the move family that the P1 analysis says is the right one. That move
-family did not turn into a test gain.
+independent training banks. So training-time credit assignment found the
+move family the P1 analysis points to.
 
-## Why it failed: headroom, not learning
+## Why it failed: two design confounds, plus no headroom on gate rules
 
-- **The oracle hardly beats random order.** O − B is 0.65, well under the
-  1.5 floor. Even the best fixed move set gains little over uniform order
-  within budget 8. A captured about 60% of that small gap (0.39 of 0.65),
-  so the learner was not the binding constraint. There was little to
-  capture.
-- **Search itself rarely changes anything.** About 0.5–1.0 moves were
-  accepted per rule (A 0.64, B 0.50, O 1.00). With 8 evaluations and a
-  confirm step costing 2, a search gets only 2–3 real chances.
-- **Three-quarter-good gate rules have no headroom.** On AND(0,2)−,
-  OR(1,3)+ and OR(0,3)+, every arm is within about 0.9 energy of identity.
-  When most odors are good, the default code already eats correctly. The
-  movement is on single-term rules (s9−, s6+), where O gains 2–4 over
-  identity.
-- **Survivors are flat:** A 13.5, B 13.4, identity 13.6.
+An earlier draft of this doc said "headroom, not learning". Fable's review
+showed that reading is not supported, and every claim below has been
+checked against `dev.json`.
+
+1. **The oracle arm was not an oracle.** O ran with one search seed, and 4
+   of its 10 moves are hyper moves. On s3+ it accepted only `replaysUp` and
+   finished at −52.06. On the same rule B averaged −50.05 and A −50.21. An
+   arm the uniform baseline beats is not a ceiling, so O − B (0.65) does
+   not measure headroom.
+2. **Frozen Thompson eval was close to uniform order.** The pooled variance
+   was 7.3–15.2 per library, because it mixes differences between moves
+   into the noise term. That gives a sampling sd of about 2.3 for a move
+   tried once, against top-move means of 1.2–4.2, with about 90 competing
+   moves. So the learned top move rarely sorted first. A accepted a
+   `keepOnly/evid` move in 6 of 36 rule-searches, and B in 5 of 36. The
+   output stores only accepted moves, so "not proposed" cannot be told
+   apart from "proposed and rejected".
+3. **Gate rules have no headroom.** On the three-quarter-good gates every
+   arm is within about 0.9 energy of identity (−38.49).
+
+Single-term rules do have headroom. Identity averages −53.86. A3, the one
+library whose top move was used reliably, accepted `keepOnly/evid/3` on all
+three and averaged about −49.0, a gain of about +4.9. A3 − B3 = +2.28. This
+is one library picked after the fact, so it is a hint, not a result.
 
 ## Decision
 
-Under the pre-committed stopping rule, the taste-program RSI line ends. The
-test (step 2) is not run. Nothing is re-tuned on these dev rules.
+The line still ends. Re-running with greedy eval on these dev rules is the
+re-tuning the stopping rule forbids. A pass would also show little: all six
+libraries found the same single move, so the "learner" learns one constant.
+There is no chain of improvements for a level-1 learner to shorten, and the
+best move does not depend on the problem.
 
-Lessons that carry forward to other targets:
+The test (step 2) is not run.
 
-1. Measure the oracle gap before building a learner. Here it was the
-   binding constraint, and it could have been measured cheaply.
-2. Count accepted moves per search. If a level-0 search accepts fewer than
-   one move, no move-ordering prior can matter much.
-3. The P1 energy effect (correct code vs identity, +3 to +4) is real but
-   reachable only on some rules. Within budget 8, search reaches only a
-   fraction of it.
+Before any future RSI learner is written, its target must pass a headroom
+check (roughly an hour of compute):
+
+1. **Greedy oracle vs uniform:** a hand-coded "best move first" policy beats
+   uniform order by a pre-set margin at the eval budget, over at least 3
+   seeds per rule.
+2. **Chain length:** level-0 search accepts at least 2–3 moves per run
+   (here 0.5–1.0).
+3. **Context dependence:** the best first move differs across problems. If
+   one move wins everywhere, hard-code it instead of learning it.
+
+Also: the eval-time ordering rule must be checked to see whether it
+actually expresses the learned ranking. Here the pooled-variance flaw was
+missed by both reviewers before the run.
