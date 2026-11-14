@@ -96,7 +96,8 @@ const trainBank=L=>{const rng=makeRng(994000+L*97),idx=[...POOL.keys()];for(let 
 
 const pool=new Pool(4),t0=performance.now(),say=x=>console.log(JSON.stringify({t:Math.round((performance.now()-t0)/1000),...x}));
 const CK=OUT+'.ckpt.json',ckpt=existsSync(CK)?JSON.parse(readFileSync(CK,'utf8')):{},save=()=>writeFileSync(CK,JSON.stringify(ckpt));
-const CFG_HASH=createHash('sha256').update(JSON.stringify({C,SIGMA0,N0,VAR_FLOOR,DEV_RULES,v:1})).digest('hex').slice(0,12);
+const CODE=['scripts/rsi-p2-dev.mjs','learning/taste-program-eval.mjs','engine.mjs'].map(f=>createHash('sha256').update(readFileSync(new URL('../'+f,import.meta.url))).digest('hex'));
+const CFG_HASH=createHash('sha256').update(JSON.stringify({C,SIGMA0,N0,VAR_FLOOR,DEV_RULES,CODE,v:2})).digest('hex').slice(0,12);
 if(ckpt.cfg&&ckpt.cfg!==CFG_HASH)throw new Error('checkpoint from a different config');ckpt.cfg=CFG_HASH;
 async function cached(k,f){if(!(k in ckpt)){ckpt[k]=await f();save();}return ckpt[k];}
 
@@ -113,20 +114,21 @@ for(let L=1;L<=C.libs;L++){
 const hashes=libs.map(l=>createHash('sha256').update(JSON.stringify(l.stats)).digest('hex'));
 if(new Set(hashes).size!==hashes.length)throw new Error('libraries are not independent (duplicate hash)');
 
-// 2. Evaluate A1..A6 (frozen Thompson), B (uniform grammar), O (oracle) and no-search identity on dev rules.
-const arms=[...libs.map((l,i)=>[`A${i+1}`,'thompson',l]),['B','uniform',null],['O','oracle',null]],rows={};
-for(const [name,mode,lib] of arms){rows[name]=[];
+// 2. Evaluate A_L (frozen Thompson) and B_L (uniform grammar) with eval seed bankSeed*7+L, O (oracle, seed L=1)
+// and no-search identity on dev rules. Each library difference gets its own B draw.
+const arms=[...libs.flatMap((l,i)=>[[`A${i+1}`,'thompson',l,i+1],[`B${i+1}`,'uniform',null,i+1]]),['O','oracle',null,1]],rows={};
+for(const [name,mode,lib,L] of arms){rows[name]=[];
   for(const problem of C.devRules){
-    const r=await cached(`eval:${name}:${problem.name}`,async()=>{const s=await search(pool,{problem,mode,lib,budget:C.evalBudget,seed:(problem.bankSeed*7+1)>>>0,learn:false});return {problem:problem.name,final:s.final,ops:s.record.filter(x=>x.accepted).map(x=>x.op),...await final(pool,s.final,problem)};});
+    const r=await cached(`eval:${name}:${problem.name}`,async()=>{const s=await search(pool,{problem,mode,lib,budget:C.evalBudget,seed:(problem.bankSeed*7+L)>>>0,learn:false});return {problem:problem.name,final:s.final,ops:s.record.filter(x=>x.accepted).map(x=>x.op),...await final(pool,s.final,problem)};});
     rows[name].push(r);}
   say({phase:'eval',arm:name,energy:mean(rows[name].map(r=>r.energy))});
 }
 const identity=[];for(const problem of C.devRules)identity.push(await cached(`id:${problem.name}`,async()=>({problem:problem.name,...await final(pool,IDENTITY,problem)})));
 
 // 3. Gate (plan section "Dev gate").
-const mB=mean(rows.B.map(r=>r.energy)),mO=mean(rows.O.map(r=>r.energy)),mI=mean(identity.map(r=>r.energy));
-const diffs=libs.map((_,i)=>mean(rows[`A${i+1}`].map(r=>r.energy))-mB),sd=Math.sqrt(diffs.reduce((a,d)=>a+(d-mean(diffs))**2,0)/Math.max(1,diffs.length-1));
-const requiredLibs=mean(diffs)>0?Math.ceil(10.03*(sd/mean(diffs))**2):Infinity;
+const mB=mean(libs.flatMap((_,i)=>rows[`B${i+1}`].map(r=>r.energy))),mO=mean(rows.O.map(r=>r.energy)),mI=mean(identity.map(r=>r.energy));
+const diffs=libs.map((_,i)=>mean(rows[`A${i+1}`].map(r=>r.energy))-mean(rows[`B${i+1}`].map(r=>r.energy))),sd=Math.sqrt(diffs.reduce((a,d)=>a+(d-mean(diffs))**2,0)/Math.max(1,diffs.length-1));
+const requiredLibs=mean(diffs)>0?Math.ceil(10.03*(sd/mean(diffs))**2+2.7):Infinity;
 const evidTop=libs.filter(l=>{const t=Object.entries(l.stats).sort((a,b)=>b[1].sum/(b[1].n+N0)-a[1].sum/(a[1].n+N0))[0][0];return t.startsWith('keepOnly/evid/');}).length;
 const gateRes={oracleMinusB:mO-mB,AminusB:diffs,meanAminusB:mean(diffs),sdAminusB:sd,positive:diffs.filter(d=>d>0).length,requiredLibs,evidTopCount:evidTop,
   identityEnergy:mI,Benergy:mB,Oenergy:mO,

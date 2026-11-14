@@ -15,3 +15,5 @@ Do not use any of these banks for a new test.
 | Fable review diagnostic (2026-11-14) | 991777, 991790, 991803, 991816, 996777, 996790 |
 | P1 factorial | 992001–992004 |
 | P1 confirmation | 993001–993004 |
+| P2 dev-check training banks | 994010–994067 |
+| P2 dev-check eval rules | 994901–994906 |

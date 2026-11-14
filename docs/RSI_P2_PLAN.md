@@ -63,20 +63,30 @@ this plan, before the run.
   OR(0,3)+.
 - **Arms:**
   - A1–A6: trained libraries, frozen;
-  - B: the same grammar with uniform order;
+  - B1–B6: the same grammar with uniform order. Each B_L runs with the
+    same eval seed as A_L, (bankSeed·7 + L), so every library difference
+    has its own B draw;
   - O (oracle): uniform over `keepOnly/evid/k` for all k, plus the hyper
     moves;
   - the no-search identity code.
-- Budget 8, 1 search seed, final energy on 8 held-out histories.
+- Budget 8, final energy on 8 held-out histories. O and identity use seed
+  L = 1.
+- Training banks are filtered against the dev rules by name only. They may
+  contain sign-flipped or same-support versions of dev rules (for example,
+  s3− when s3+ is a dev rule). This is accepted because a library holds no
+  rule-specific state.
+- The smoke run (1 library, 1 rule) used real dev-check seeds (training bank
+  994010, dev rule 994901). This is disclosed. Determinism means the smoke
+  run cannot change any full-run result.
 
 **Dev gate.** All of these must hold:
 
-1. O − B ≥ 1.5 energy per founder (mean over dev rules).
-2. A_L − B > 0 for at least 5 of the 6 libraries.
-3. The mean of A_L − B is ≥ 1.0.
+1. O − B ≥ 1.5 energy per founder, where B is the mean of all 36 B rows.
+2. A_L − B_L > 0 for at least 5 of the 6 libraries.
+3. The mean of A_L − B_L is ≥ 1.0.
 4. **Power:** the required number of libraries,
-   ⌈10.03·(sd/mean)²⌉ for a one-sided α = 0.01 test at 80% power from the
-   6 library differences, is ≤ 12.
+   ⌈10.03·(sd/mean)² + 2.7⌉ for a one-sided α = 0.01 test at 80% power,
+   with a small-n correction, from the 6 library differences, is ≤ 12.
 
 Whether `keepOnly/evid/k` ranks first is reported, not gated.
 
@@ -121,7 +131,11 @@ not", and the line stops.
 
 ## Compute
 
-- The dev check takes about 4.5 h on 4 workers (smoke: about 2 s per long
-  world, wall time). It is checkpointed, and the checkpoint is keyed by a
-  config hash.
+- The dev check takes about 5.5 h on 4 workers (smoke: about 2 s per long
+  world, wall time). It is checkpointed, and the checkpoint key hashes the
+  config and the code of the runner, the evaluator and the engine.
+
+Fable's pre-run review of `a8f3678` returned NO-GO with 5 fixes (separate B
+draw per library, power correction, code hash in the checkpoint key, and two
+disclosures). All 5 are applied in the next commit.
 - Stage 1 of the test takes about 10–13 h.
