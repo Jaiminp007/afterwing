@@ -136,7 +136,7 @@ export class World {
         if(this.challengeHistory.length>64)this.challengeHistory.shift();this.record('challenge',`${challenge.name} · cycle ${challenge.cycle}`);}
     }
     const season=this.config.seasonal?.6+.4*Math.sin(this.tick*DT/50):1;
-    for(const p of this.food){const inc=Math.min(p.capacity-p.amount,p.regrowth*this.config.nutrient*season*DT*fertility(challenge,p));p.amount+=inc;this.totals.externalEnergy+=inc;}
+    for(const p of this.food){const inc=Math.min(p.capacity-p.amount,p.regrowth*this.config.nutrient*(this.config.nutrientScale??1)*season*DT*fertility(challenge,p));p.amount+=inc;this.totals.externalEnergy+=inc;}
     const fi=new Spatial(this.food),ai=new Spatial(this.flies);const actions=new Map(),experimentCosts=experimentController?new Map():null;
     for(const f of this.flies){
       const inputs=this.sensors(f,fi,ai,challenge);
@@ -163,7 +163,7 @@ export class World {
       const energyBeforeCost=f.energy,cost=Math.min(f.energy,baselineCost+extraCost),paidExtra=Math.max(0,cost-Math.min(f.energy,baselineCost));f.energy-=cost;f.lastEnergyCost=cost;this.totals.dissipated+=cost;
       experiment?.afterEnergyCharge?.({requested:extraCost,paid:paidExtra});
       let eaten=0,netIntake=0,harmfulEaten=0,toxinDamage=0;if(eat>0){for(const p of fi.nearby(f,15)){const harmful=this.config.cueForaging&&p.valence<0,take=Math.min(p.amount,harmful?.8:Math.min(Math.max(0,120-f.energy),.8));p.amount-=take;eaten+=take;
-        if(harmful){const damage=Math.min(f.energy,take);f.energy-=damage;netIntake-=damage;harmfulEaten+=take;toxinDamage+=damage;this.totals.harmfulEaten+=take;this.totals.toxinDamage+=damage;this.totals.dissipated+=take+damage;}
+        if(harmful){const damage=Math.min(f.energy,take*(this.config.toxinScale??1));f.energy-=damage;netIntake-=damage;harmfulEaten+=take;toxinDamage+=damage;this.totals.harmfulEaten+=take;this.totals.toxinDamage+=damage;this.totals.dissipated+=take+damage;}
         else {f.energy+=take;netIntake+=take;if(this.config.cueForaging)this.totals.beneficialEaten+=take;}}}
       this.totals.foodEaten+=eaten;f.lastFood=this.config.cueForaging?clamp(netIntake,-1,1):Math.min(1,eaten);f.reward=clamp(netIntake-cost,-1,1);
       experiment?.afterStep?.({agentId:f.id,tick:this.tick,initialEnergy:energyBeforeCost,finalEnergy:f.energy,cost,paidExtra,beneficialEaten:eaten-harmfulEaten,harmfulEaten,toxinDamage});

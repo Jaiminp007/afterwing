@@ -24,9 +24,12 @@ export function applyValenceRule(run,rule){
   for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
 }
 export function evaluateOne(program,history,world={}){
-  const {code,...tasteProgram}=program,{valenceRule=null,...options}=world;
+  const {code,...tasteProgram}=program,{valenceRule=null,toxinScale=null,nutrientScale=null,...options}=world;
   const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...options});
   if(valenceRule)applyValenceRule(run,valenceRule);
+  // Opt-in world pressure (P1 of the 2026-11-14 review); null keeps the engine defaults.
+  if(toxinScale!==null)run.world.config.toxinScale=toxinScale;
+  if(nutrientScale!==null)run.world.config.nutrientScale=nutrientScale;
   // The flies' own experience: for each Walsh term, sum of term(cue)*(2*target-1).
   const termEvidence=Array(16).fill(0);let examples=0;
   const listener=({cue,target})=>{if(cue[0]===0)return;examples++;for(let m=0;m<16;m++){let v=1;for(let b=0;b<4;b++)if(m>>b&1)v*=cue[b];termEvidence[m]+=v*(2*target-1);}};
@@ -35,7 +38,7 @@ export function evaluateOne(program,history,world={}){
   var end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
   }finally{tasteExampleListeners.delete(listener);}
   const outcome={...outcome0,termEvidence,examples};
-  const anchor=run.anchors.C;if(!anchor)return {score:0,alive:0,...outcome};
+  const anchor=run.anchors.C;if(!anchor)return {score:0,discrimination:0,alive:0,...outcome};
   const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[],balanced=[];
   for(const fly of probe.world.flies){const s=structuredClone(probe.learners[fly.id]);let d=0,b=0,n=0;
     for(const family of ['A','B','C']){const g=[],x=[];for(const item of book[family]){const p=predictTargetTaste(s,item.bits);d+=(item.valence>0?1:-1)*p/2;(item.valence>0?g:x).push(p);}
