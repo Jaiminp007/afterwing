@@ -1,4 +1,27 @@
-# RSI V6 results: 2 of 3 criteria passed; FAILED overall (C1 missed)
+# RSI V6 results: FAILED. 0 of 3 criteria hold (row-level C2/C3 passes withdrawn)
+
+> **Correction (2026-11-14, after the independent review in
+> [fable-review/FABLE_REVIEW.md](fable-review/FABLE_REVIEW.md)).**
+>
+> The sign tests below treat 48 rows as independent. Those rows share 3
+> trained libraries and 8 rules. At the right unit, C2 and C3 do not hold.
+>
+> - **By library:** U* minus L0 is +0.054, +0.016 and +0.003 for replicates
+>   101, 102 and 103. With 3 libraries the smallest possible p is 0.125.
+> - **By rule:** 5 positive, 1 negative, 2 zero (p = 0.11).
+>
+> The single biggest contributor is one move in the replicate-101 library,
+> `keepOnly/evid/3`. That move is the grammar's version of V4's hand-written
+> `guidedReduce`. Rows where it was accepted went 5–0 against L0. The
+> remaining rows went 9–1 with small gains.
+>
+> The baseline L0 contains only 1-term moves, so C2 and C3 compared "a
+> bigger move set" against "a 1-term move set". They did not test learned
+> selection.
+>
+> V7 used these same 3 libraries (see [RSI_V7_RESULTS.md](RSI_V7_RESULTS.md)).
+> **None of V6's three criteria holds.** The original text below is kept
+> unchanged for the record.
 
 Plan: [RSI_V6_PLAN.md](RSI_V6_PLAN.md), committed in `d6550ed` before the
 run. Evidence: `evidence/rsi-v6/run-v6.{json,log}` (local). Runtime 16344 s.

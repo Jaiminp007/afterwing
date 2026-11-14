@@ -1,5 +1,9 @@
 # Bounded self-improving search: results V1
 
+> Later verdict (2026-11-14): RSI is not met. See [VISION.md](VISION.md),
+> [RSI_V7_RESULTS.md](RSI_V7_RESULTS.md) and
+> [fable-review/FABLE_REVIEW.md](fable-review/FABLE_REVIEW.md).
+
 Date: 2026-11-11. Script: `scripts/rsi-search.mjs`, evaluator
 `learning/taste-program-eval.mjs`. Data (local, gitignored):
 `evidence/rsi-search/run-20261111.{json,log}`. Wall time 42 minutes,

@@ -1,5 +1,10 @@
 # RSI V4 results: data-guided self-improving search — gate PASSED
 
+> Later verdict (2026-11-14): this gate was narrow. The move menu was
+> hand-written, the update rule was fixed, and the test stayed in one world
+> family. RSI is not met; see [VISION.md](VISION.md) and
+> [fable-review/FABLE_REVIEW.md](fable-review/FABLE_REVIEW.md).
+
 Date: 2026-11-12. Plan written and committed before the run:
 `docs/RSI_GUIDED_PLAN_V1.md` (commit 856ac1d). Runner `scripts/rsi-guided.mjs`
 (committed before launch). Data (local): `evidence/rsi-guided/run-v4.{json,log}`.

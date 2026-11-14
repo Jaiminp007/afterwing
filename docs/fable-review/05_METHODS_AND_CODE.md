@@ -47,7 +47,11 @@ Inside `rsi-v7.mjs`:
 | `invent()` | single-gene mutation |
 | `paired()` / `signTest()` | the statistics |
 
-## Seed banks used (each is fresh per version; none reused for a test)
+## Seed banks used
+
+Each version has its own fresh **test** bank. The training and validation
+banks, the training seeds 101–103 and U* were all reused from V6 to V7, so
+the trained libraries are identical.
 
 | Purpose | Bank seeds |
 |---|---|

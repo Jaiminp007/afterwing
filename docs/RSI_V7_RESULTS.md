@@ -51,6 +51,21 @@ replicate-101 library. The V6 passes therefore look like library-specific
 luck plus a small budget, not a robust effect of invention or of the rule.
 The real unit of evidence is the trained library (n = 3), not the row.
 
+## Which move carries the effect (added 2026-11-14, from the review)
+
+| Accepted move in test searches | Times accepted | Mean gain over no-search |
+|---|---|---|
+| `keepOnly/evid/3` (replicate-101 U* library only) | 9 | +0.155 |
+| `stepUp` | 83 | +0.046 |
+| `remove/random/1` | 26 | +0.022 |
+
+- U* vs L0 rows that accepted `keepOnly/evid/3`: 9–0.
+- All other rows: 12–17.
+
+The gain is one evidence-guided move, essentially V4's hand-written
+`guidedReduce`, which one library out of three picked up from a single
+training acceptance. It is not evidence that invention helps in general.
+
 ## Reading
 
 - The level-2 search found nothing better than α 2 on validation. Power 2,
