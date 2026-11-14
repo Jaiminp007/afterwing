@@ -13,3 +13,5 @@ Do not use any of these banks for a new test.
 | Validation (V6/V7) | 975101–975104 |
 | Dev check (V6) | 978001–978004 |
 | Fable review diagnostic (2026-11-14) | 991777, 991790, 991803, 991816, 996777, 996790 |
+| P1 factorial | 992001–992004 |
+| P1 confirmation | 993001–993004 |
