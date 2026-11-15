@@ -21,3 +21,7 @@ Do not use any of these banks for a new test.
 | P3-A training banks | 998010–998067 |
 | P3-A dev rules | 998901–998906 |
 | P4 chain check | 999001–999012 |
+| P5 exploration (surrogate, non-bank) | 777–782, 12345–12348, 50000–50011, 60000–60023, 70000–70011, smoke offsets +500 |
+| P5 chain check | 1001001–1001012 |
+| P5 dev rules / dev training | 1002001–1002006 / 1003010–1003065 |
+| P5 test rules / test training | 1004001–1004012 / 1005010–1005125 |
