@@ -20,3 +20,4 @@ Do not use any of these banks for a new test.
 | P3 headroom check | 997001–997012 |
 | P3-A training banks | 998010–998067 |
 | P3-A dev rules | 998901–998906 |
+| P4 chain check | 999001–999012 |

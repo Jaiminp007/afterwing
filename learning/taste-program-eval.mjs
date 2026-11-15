@@ -17,8 +17,11 @@ export function makeHistories(bankSeed,count){
 // bits over rule.mask, replacing the random codebook labels in every family.
 // With rule.terms ([[mask,coef],...]) and rule.bias: value = sign * sgn(bias +
 // sum coef * product over mask) (threshold rules, e.g. majority, AND, OR).
+// With rule.odor (16 n-bit codes, indexed by 4-bit cue pattern) masks range over the odor code.
+export const cueIndex=bits=>bits.reduce((sum,value,index)=>sum+(value===1?2**index:0),0);
 export function applyValenceRule(run,rule){
-  const walsh=(mask,bits)=>{let v=1;for(let bit=0;bit<4;bit++)if(mask>>bit&1)v*=bits[bit];return v;};
+  const code=rule.odor?bits=>rule.odor[cueIndex(bits)]:bits=>bits;
+  const walsh=(mask,cue)=>{const bits=code(cue);let v=1;for(let bit=0;bit<bits.length;bit++)if(mask>>bit&1)v*=bits[bit];return v;};
   const value=rule.terms?bits=>rule.sign*Math.sign(rule.bias+rule.terms.reduce((s,[m,c])=>s+c*walsh(m,bits),0)):bits=>rule.sign*walsh(rule.mask,bits);
   for(const family of Object.values(run.codebook))for(const item of family)item.valence=value(item.bits);
   for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
@@ -31,8 +34,8 @@ export function evaluateOne(program,history,world={}){
   if(toxinScale!==null)run.world.config.toxinScale=toxinScale;
   if(nutrientScale!==null)run.world.config.nutrientScale=nutrientScale;
   // The flies' own experience: for each Walsh term, sum of term(cue)*(2*target-1).
-  const termEvidence=Array(16).fill(0);let examples=0;
-  const listener=({cue,target})=>{if(cue[0]===0)return;examples++;for(let m=0;m<16;m++){let v=1;for(let b=0;b<4;b++)if(m>>b&1)v*=cue[b];termEvidence[m]+=v*(2*target-1);}};
+  const odor=tasteProgram.odor??null,width=odor?odor[0].length:4,termEvidence=Array(2**width).fill(0);let examples=0;
+  const listener=({cue,target})=>{if(cue[0]===0)return;examples++;const bits=odor?odor[cueIndex(cue)]:cue;for(let m=0;m<2**width;m++){let v=1;for(let b=0;b<width;b++)if(m>>b&1)v*=bits[b];termEvidence[m]+=v*(2*target-1);}};
   tasteExampleListeners.add(listener);
   try{
   var end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
