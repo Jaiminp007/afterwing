@@ -18,3 +18,5 @@ Do not use any of these banks for a new test.
 | P2 dev-check training banks | 994010–994067 |
 | P2 dev-check eval rules | 994901–994906 |
 | P3 headroom check | 997001–997012 |
+| P3-A training banks | 998010–998067 |
+| P3-A dev rules | 998901–998906 |
