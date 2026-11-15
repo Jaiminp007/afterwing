@@ -25,3 +25,6 @@ Do not use any of these banks for a new test.
 | P5 chain check | 1001001–1001012 |
 | P5 dev rules / dev training | 1002001–1002006 / 1003010–1003065 |
 | P5 test rules / test training | 1004001–1004012 / 1005010–1005125 |
+| P6 exploration (surrogate, non-bank) | 5–7, 80000–80002, 81010–81045, 82000–82005, 83000–83005, smoke offsets +500 |
+| P6 level-2 training / validation / proposal rng | 1101010–1101065 / 1102001–1102006 / 1103001 |
+| P6 test rules (pairs) / test training / staircase report | 1104001–1104012 / 1105010–1105125 / 1106001–1106006 |
