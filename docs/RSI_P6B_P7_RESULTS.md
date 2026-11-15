@@ -48,3 +48,26 @@ What this shows:
 | Benefits the embodied fly | **Not shown** | P7: A − B −0.03, A − S0 −0.16 |
 
 Every positive result above comes from the surrogate evaluator, on constructed tasks, using hand-written primitive genes.
+
+## Follow-up probe: does harsher toxin pressure make taste quality pay? (exploration, non-bank seeds 90001–90003)
+
+Embodied energy per founder, 8 histories, four programs:
+
+- S0: the start program;
+- S0+T: S0 plus the true staircase terms;
+- T: the true staircase terms alone;
+- bias: a constant-only program that cannot discriminate.
+
+| toxinScale | S0 | S0+T | T | bias |
+|---|---|---|---|---|
+| 1 | −52.1 / −39.4 / −47.6 | −50.0 / −38.9 / −45.9 | −50.4 / −37.9 / −45.8 | −61.2 / −53.4 / −54.6 |
+| 3 | −60.4 / −46.0 / −55.9 | −59.6 / −44.3 / −55.7 | −60.3 / −44.0 / −55.8 | −63.0 / −57.3 / −58.2 |
+| 6 | −63.3 / −53.5 / −60.5 | −63.0 / −52.6 / −59.9 | −64.0 / −49.3 / −59.0 | −63.8 / −61.1 / −59.7 |
+
+- Having *some* taste learning matters a lot: bias-only loses 8–14 energy at toxinScale 1.
+- Better taste *structure* barely matters: S0 → the true terms gains +0.5 to +2.1 at toxinScale 1.
+- More toxin does not widen that gap. The worlds just get more lethal.
+
+So the embodied benefit is capped by the world. With only 12 odors per run, the generic start program already discriminates them nearly as well as the correct structure does. A world where taste structure pays would need many more odors per lifetime, so that generalisation across unseen odors matters.
+
+That is an engine and world change (the 16-pattern cue codebook), not an RSI search change.
