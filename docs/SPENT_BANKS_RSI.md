@@ -28,3 +28,5 @@ Do not use any of these banks for a new test.
 | P6 exploration (surrogate, non-bank) | 5–7, 80000–80002, 81010–81045, 82000–82005, 83000–83005, smoke offsets +500 |
 | P6 level-2 training / validation / proposal rng | 1101010–1101065 / 1102001–1102006 / 1103001 |
 | P6 test rules (pairs) / test training / staircase report | 1104001–1104012 / 1105010–1105125 / 1106001–1106006 |
+| P6b replication: test rules / training | 1301001–1301012 / 1302010–1302325 |
+| P7 embodied: rules / histories / library training | 1201001–1201012 / 1202001–1202012 / 1205010–1205125 |
