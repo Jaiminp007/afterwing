@@ -30,3 +30,5 @@ Do not use any of these banks for a new test.
 | P6 test rules (pairs) / test training / staircase report | 1104001–1104012 / 1105010–1105125 / 1106001–1106006 |
 | P6b replication: test rules / training | 1301001–1301012 / 1302010–1302325 |
 | P7 embodied: rules / histories / library training | 1201001–1201012 / 1202001–1202012 / 1205010–1205125 |
+| P7 follow-up / P8 exploration (non-bank) | 90001–90003, 90011, 90021, 90100–90105, 90200–90205, 91000–91019, 92000–93999 |
+| P8 embodied many-odor: rules / histories / library training | 1401001–1401012 / 1402001–1402012 / 1405010–1405125 (smoke +500) |

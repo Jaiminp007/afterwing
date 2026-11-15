@@ -2,6 +2,7 @@
 // Score per history = mean over families A,B,C of each fly's discrimination
 // P(accept|good)-P(accept|bad), over flies alive at the end of phase C
 // (acquisition and retention together; read before return-A).
+import assert from 'node:assert/strict';
 import {fork} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {OdorRoutedExperiment} from './odor-routed-experiment.mjs';
@@ -27,18 +28,34 @@ export function applyValenceRule(run,rule){
   for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
 }
 export function evaluateOne(program,history,world={}){
-  const {code,...tasteProgram}=program,{valenceRule=null,toxinScale=null,nutrientScale=null,...options}=world;
+  const {code,...tasteProgram}=program,{valenceRule=null,toxinScale=null,nutrientScale=null,odorShiftEvery=null,odorShiftSeed=1,...options}=world;
   const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...options});
   if(valenceRule)applyValenceRule(run,valenceRule);
   // Opt-in world pressure (P1 of the 2026-11-14 review); null keeps the engine defaults.
   if(toxinScale!==null)run.world.config.toxinScale=toxinScale;
   if(nutrientScale!==null)run.world.config.nutrientScale=nutrientScale;
   // The flies' own experience: for each Walsh term, sum of term(cue)*(2*target-1).
-  const odor=tasteProgram.odor??null,width=odor?odor[0].length:4,termEvidence=Array(2**width).fill(0);let examples=0;
+  let odor=tasteProgram.odor??null;const width=odor?odor[0].length:4,termEvidence=Array(2**width).fill(0);let examples=0;
   const listener=({cue,target})=>{if(cue[0]===0)return;examples++;const bits=odor?odor[cueIndex(cue)]:cue;for(let m=0;m<2**width;m++){let v=1;for(let b=0;b<width;b++)if(m>>b&1)v*=bits[b];termEvidence[m]+=v*(2*target-1);}};
   tasteExampleListeners.add(listener);
   try{
-  var end=run.advance((options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0)),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  const total=(options.phaseDurations??[512,512,512,256]).reduce((x,y)=>x+y,0);
+  // Opt-in many-odor world: every odorShiftEvery ticks the 16 cue patterns are
+  // re-assigned fresh random odor codes (world chemistry); valences follow the
+  // rule and every fly's taste transduction reads the new codes. Steering still
+  // sees the 4-bit cue. null keeps one fixed table (16 odors per lifetime).
+  if(odorShiftEvery!==null){
+    assert.ok(Number.isInteger(odorShiftEvery)&&odorShiftEvery>0&&valenceRule?.odor&&odor&&valenceRule.odor[0].length===width);
+    let rng=odorShiftSeed>>>0||1,end=null,rule=valenceRule;const next=()=>(rng=advanceRng(rng))>>>0;
+    for(let t=0;t<total;t+=odorShiftEvery){
+      if(t>0){const seen=new Set(),table=[];while(table.length<16){const c=next()%2**width;if(seen.has(c))continue;seen.add(c);table.push(Array.from({length:width},(_,b)=>c>>b&1?1:-1));}
+        odor=table;rule={...rule,odor:table};applyValenceRule(run,rule);
+        for(const state of Object.values(run.learners))if(state.taste?.odor)state.taste.odor=table.map(c=>[...c]);}
+      end=run.advance(Math.min(odorShiftEvery,total-t));}
+    var outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  }else{
+  var end=run.advance(total),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
+  }
   }finally{tasteExampleListeners.delete(listener);}
   const outcome={...outcome0,termEvidence,examples};
   const anchor=run.anchors.C;if(!anchor)return {score:0,discrimination:0,alive:0,...outcome};
