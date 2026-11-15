@@ -35,3 +35,5 @@ Do not use any of these banks for a new test.
 | P9 exploration (non-bank) | 94000–94159, 95000–95005, 96000–96002, 96100 |
 | P9 level 2: training / validation / proposal rng | 1501010–1501125 / 1502001–1502006 / 1503001 |
 | P9 test: pairs rules / training / sign-flip rng | 1504001–1504012 / 1505010–1505325 / 1504999 (smoke +500) |
+| P10 exploration (non-bank) | 97001–97004 |
+| P10 joint embodied: rules / histories / library training | 1601001–1601012 / 1602001–1602012 / 1605010–1605125 (smoke +500) |
