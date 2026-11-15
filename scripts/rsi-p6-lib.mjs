@@ -98,10 +98,14 @@ export const post=(st,U)=>st.sum/(st.n+U.N0);
 function pooledVar(lib){let n=0,s=0,ss=0;for(const v of Object.values(lib.stats)){n+=v.n;s+=v.sum;ss+=v.sumSq;}return n<2?4:Math.max(.25,(ss-s*s/n)/(n-1));}
 function gauss(rng){const u=Math.max(rng(),1e-12),v=rng();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);}
 const shuffled=(set,rng)=>{const s=[...set];for(let i=s.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[s[i],s[j]]=[s[j],s[i]];}return s;};
+// Opt-in invention operator (U.inventParent 'best'|'sample', U.inventGenes 1|2); defaults keep P6-P8 exactly.
+// 'sample' picks the parent term move by a Thompson draw instead of the posterior-mean best.
 function invent(lib,U,rng){
-  const best=Object.keys(lib.stats).filter(id=>!HYPER.includes(id)).sort((a,b)=>post(lib.stats[b],U)-post(lib.stats[a],U))[0];
-  const g=parseMove(best),gene=['action','rank','k'][Math.floor(rng()*3)],opts={action:ACTIONS,rank:RANKS,k:KS}[gene].filter(v=>v!==g[gene]);
-  const id=moveId({...g,[gene]:opts[Math.floor(rng()*opts.length)]});if(lib.stats[id])return null;
+  const terms=Object.keys(lib.stats).filter(id=>!HYPER.includes(id));
+  const best=(U.inventParent??'best')==='sample'?moveOrder('train',{stats:Object.fromEntries(terms.map(id=>[id,lib.stats[id]]))},U,rng)[0]:terms.sort((a,b)=>post(lib.stats[b],U)-post(lib.stats[a],U))[0];
+  let g=parseMove(best);const genes=(U.inventGenes??1)===1?[['action','rank','k'][Math.floor(rng()*3)]]:shuffled(['action','rank','k'],rng).slice(0,U.inventGenes);
+  for(const gene of genes){const opts={action:ACTIONS,rank:RANKS,k:KS}[gene].filter(v=>v!==g[gene]);g={...g,[gene]:opts[Math.floor(rng()*opts.length)]};}
+  const id=moveId(g);if(lib.stats[id])return null;
   lib.stats[id]={n:0,sum:0,sumSq:0};lib.invented.push(id);return id;
 }
 function moveOrder(mode,lib,U,rng){
@@ -121,9 +125,12 @@ export function search({problem,lib,U=U0,mode,budget=18,seed}){
     const cand=run(m.q,dev,problem);used++;
     const gain=mean(cand.scores)-mean(incR.scores),wins=cand.scores.filter((x,i)=>x>incR.scores[i]).length;let ok=false;
     if(mode==='train'){const st=lib.stats[m.id],c=U.credit==='positive'?Math.max(gain,0):gain;st.n++;st.sum+=c;st.sumSq+=c*c;}
-    if(gain>0&&wins>=4&&used+2<=budget){
+    // Accept rule (opt-in U.winsMin, U.confirm; defaults 4 and true keep P2-P8 behaviour exactly).
+    const winsMin=U.winsMin??4,confirm=U.confirm??true;
+    if(!confirm&&gain>0&&wins>=winsMin)ok=true;
+    else if(confirm&&gain>0&&wins>=winsMin&&used+2<=budget){
       confirmSeed=advanceRng(confirmSeed);const h=makeHistories(confirmSeed,6),a=run(m.q,h,problem),b=run(inc,h,problem);used+=2;
-      ok=mean(a.scores)>mean(b.scores)&&a.scores.filter((x,i)=>x>b.scores[i]).length>=4;
+      ok=mean(a.scores)>mean(b.scores)&&a.scores.filter((x,i)=>x>b.scores[i]).length>=winsMin;
     }
     record.push({op:m.id,gain,accepted:ok});
     if(ok){inc=m.q;incR=cand;}
