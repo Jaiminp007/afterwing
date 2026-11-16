@@ -27,6 +27,30 @@ function features(state,cue){
   for(let first=0;first<4;first++)for(let second=first+1;second<4;second++)phi.push(cue[first]*cue[second]);
   state.work.scalarOperations+=6;return phi;
 }
+function odorBits(state,cue){const odor=state.taste.odor;return odor?odor[cue.reduce((sum,value,index)=>sum+(value===1?2**index:0),0)]:cue;}
+const walshOf=(mask,bits)=>{let value=1;for(let bit=0;bit<bits.length;bit++)if(mask>>bit&1)value*=bits[bit];return value;};
+// In-life self-revision. Evidence per Walsh term = sum over own examples of term*r, where r is
+// target - own prediction before the update ('residual': what the current model fails to explain)
+// or 2*target-1 ('raw'); the threshold scales with sqrt(sum r^2). Every `every` examples
+// the fly scores the one-bit extensions of its current masks; if the best one's |evidence| exceeds
+// z*sqrt(sum residual^2) it adds a mask: that one ('evid') or a random extension ('random', a sham
+// matched in timing and count). New weight 0; stored records gain the feature.
+function selfRevise(state,record){
+  const r=state.taste.revise,bits=record.bits,res=r.kind==='raw'?2*record.target-1:r.residual;r.n++;r.s2=(r.s2??0)+res*res;
+  for(let m=0;m<r.evidence.length;m++)r.evidence[m]+=walshOf(m,bits)*res;state.work.scalarOperations+=2*r.evidence.length+3;
+  if(r.n%r.every||state.taste.masks.length>=r.cap)return;
+  const have=new Set(state.taste.masks),kids=new Set();
+  for(const m of state.taste.masks)if(m)for(let b=0;b<bits.length;b++){const c=m|1<<b;if(!have.has(c))kids.add(c);}
+  const list=[...kids].sort((a,b)=>a-b);state.work.scalarOperations+=2*list.length;if(!list.length)return;
+  const best=list.reduce((a,c)=>Math.abs(r.evidence[c])>Math.abs(r.evidence[a])?c:a,list[0]);
+  if(Math.abs(r.evidence[best])<=r.z*Math.sqrt(r.s2))return;
+  let chosen=best;if(r.mode==='random'){r.rngState=advanceRng(r.rngState);chosen=list[Math.floor(r.rngState/4294967296*list.length)];}
+  // 'oracle' (bound check only): adds the next true term not yet held, at the times 'evid' would add.
+  if(r.mode==='oracle'){chosen=r.oracle.find(m=>!have.has(m));if(chosen===undefined)return;}
+  state.taste.masks.push(chosen);state.taste.weights.push(0);r.added.push({n:r.n,mask:chosen});
+  for(const rec of state.taste.memory)if(rec.bits)rec.phi.push(walshOf(chosen,rec.bits));
+  state.work.scalarOperations+=4+state.taste.memory.length;
+}
 function prediction(state,phi){
   const K=state.taste.quantileK??1;
   if(state.taste.splitTaste===true){
@@ -109,7 +133,7 @@ function update(state,record,mode){
 // tasteProgram: optional algorithm revision {step, replays, memory, prior} for
 // the plain single-head learner; omitted fields keep the original constants.
 export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileHeads=1,splitTaste=false,tasteCode='pairwise',tasteProgram=null}={}){
-  if(tasteProgram!==null){assert.ok(quantileHeads===1&&!splitTaste);const {step=.5,replays=1,memory=32,prior=priorLogit,masks:_masks,odor:_odor,...rest}=tasteProgram;assert.equal(Object.keys(rest).length,0);
+  if(tasteProgram!==null){assert.ok(quantileHeads===1&&!splitTaste);const {step=.5,replays=1,memory=32,prior=priorLogit,masks:_masks,odor:_odor,selfRevise:_selfRevise,...rest}=tasteProgram;assert.equal(Object.keys(rest).length,0);
     assert.ok(step>0&&step<=8&&Number.isInteger(replays)&&replays>=0&&replays<=8&&Number.isInteger(memory)&&memory>=1&&memory<=512&&Number.isFinite(prior));}
   assert.ok(['pairwise','identity','masks'].includes(tasteCode));
   const masks=tasteCode==='masks'?tasteProgram?.masks:null,odor=tasteProgram?.odor??null;
@@ -122,6 +146,11 @@ export function createOdorRoutedTasteBody(agentId,seed,{baselineRate=0,quantileH
   const state=createOdorRoutedMotor(agentId,seed);state.work.scalarOperations+=2;
   state.charge={operationsBilled:0,outstandingEnergy:0,incurredEnergy:0,paidEnergy:0,storageBytes:0};
   state.taste={weights:Array(tasteCode==='identity'?16:tasteCode==='masks'?masks.length:11).fill(0),...(tasteCode==='identity'?{code:'identity'}:{}),...(tasteCode==='masks'?{code:'masks',masks:[...masks],...(odor!==null?{odor:odor.map(code=>[...code])}:{})}:{}),...(tasteProgram!==null?{step:tasteProgram.step??.5,replays:tasteProgram.replays??1,memoryCap:tasteProgram.memory??32,prior:tasteProgram.prior??priorLogit}:{}),memory:[],seen:0,rngState:(seed^0x63d83595)>>>0||1,baselineC:0,baselineRate,quantileK:quantileHeads,splitTaste,...(quantileHeads>1?{qweights:Array.from({length:quantileHeads},()=>Array(11).fill(0))}:{}),...(splitTaste?{goW:Array(11).fill(0),nogoW:Array(11).fill(0)}:{})};
+  // Opt-in in-life self-revision (docs/RSI_P11_PLAN.md): the fly extends its own mask set from its own evidence.
+  const revise=tasteProgram?.selfRevise??null;
+  if(revise!==null){const {mode,every,z,cap,evidence='residual',oracle=null,...extra}=revise;assert.equal(Object.keys(extra).length,0);
+    assert.ok(tasteCode==='masks'&&['evid','random','oracle'].includes(mode)&&(mode==='oracle')===Array.isArray(oracle)&&Number.isInteger(every)&&every>=1&&z>0&&Number.isInteger(cap)&&cap>=masks.length&&['raw','residual'].includes(evidence));
+    state.taste.revise={mode,every,z,cap,kind:evidence,...(oracle?{oracle:[...oracle]}:{}),evidence:Array(2**(odor?odor[0].length:4)).fill(0),n:0,added:[],rngState:(seed^0x1b873593)>>>0||1};}
   state.credit=createStationaryTasteCredit(agentId);state.tasteExamples=0;return state;
 }
 export function chooseOdorRoutedTaste(state,own,{fixedMove=null,requireHomogeneousContact=false,tasteDecisionMode=null,cueTastePolicy=null,contactStop=null,contactBandit=null}={}){
@@ -163,6 +192,7 @@ export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
     if(state.cueTaste){const before=state.cueTaste.work.scalarOperations;learnDecoupledCueTaste(state.cueTaste,{agentId:state.agentId,tick:own.tick,cue:example.cue,target:Number(example.outcomeSign===1)},{replayPolicy:cueTasteReplay});state.work.scalarOperations+=state.cueTaste.work.scalarOperations-before;}
     else{
       const record={agentId:state.agentId,tick:own.tick,phi:features(state,example.cue),target:Number(example.outcomeSign===1)};
+      if(state.taste.revise){record.bits=[...odorBits(state,example.cue)];state.taste.revise.residual=record.target-prediction(state,record.phi);}
       state.taste.seen++;state.work.scalarOperations+=3;
       const cap=state.taste.memoryCap??32;
       if(state.taste.memory.length<cap)state.taste.memory.push(record);
@@ -172,6 +202,7 @@ export function observeOdorRoutedTaste(state,own,{cueTasteReplay=null}={}){
         const index=Math.floor(draw(state)*state.taste.memory.length);state.work.scalarOperations+=2;
         update(state,state.taste.memory[index],'replay');
       }
+      if(state.taste.revise)selfRevise(state,record);
     }
   }
   observeOdorRoutedMotor(state,own);
