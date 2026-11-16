@@ -41,3 +41,5 @@ Do not use any of these banks for a new test.
 | P11 embodied level-2: rules / histories / training / sign-flip rng | 1701001–1701032 / 1702001–1702032 / 1705010–1705325 / 1704999 (smoke +500) |
 | P12 exploration (lineage, non-bank) | 98001–98004 histories 98012–98015 |
 | P12 lineage: rules / histories / sign-flip rng | 1801001–1801024 / 1802001–1802024 / 1804999 (smoke +500) |
+| P13 exploration (headroom, pruning calibration; non-bank) | 98201–98208, histories 98214–98221 |
+| P13 reviser tuning: rules / histories / sign-flip rng | 1901001–1901024 / 1902001–1902024 / 1904999 (smoke +500) |

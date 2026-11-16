@@ -37,7 +37,8 @@ export function evaluateOne(program,history,world={}){
   if(inheritTaste!==null){assert.ok(Array.isArray(inheritTaste)&&inheritTaste.length===founders.length);
     for(const [i,st] of founders.entries()){const h=inheritTaste[i];assert.ok(st.taste.code==='masks'&&Array.isArray(h.masks));
       st.taste.masks=[...h.masks];st.taste.weights=Array(h.masks.length).fill(0);
-      if(st.taste.revise&&h.evidence){assert.equal(h.evidence.length,st.taste.revise.evidence.length);Object.assign(st.taste.revise,{evidence:[...h.evidence],n:h.n,s2:h.s2});}}}
+      if(st.taste.revise&&h.evidence){assert.equal(h.evidence.length,st.taste.revise.evidence.length);Object.assign(st.taste.revise,{evidence:[...h.evidence],n:h.n,s2:h.s2});}
+      if(st.taste.revise&&h.z!==undefined){assert.ok(h.z>0);st.taste.revise.z=h.z;}}}
   // Opt-in world pressure (P1 of the 2026-11-14 review); null keeps the engine defaults.
   if(toxinScale!==null)run.world.config.toxinScale=toxinScale;
   if(nutrientScale!==null)run.world.config.nutrientScale=nutrientScale;
@@ -64,7 +65,7 @@ export function evaluateOne(program,history,world={}){
   var end=run.advance(total),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
   }
   }finally{tasteExampleListeners.delete(listener);}
-  const tasteStates=founders.map(st=>({masks:[...(st.taste.masks??[])],...(st.taste.revise?{evidence:[...st.taste.revise.evidence],n:st.taste.revise.n,s2:st.taste.revise.s2??0}:{})}));
+  const tasteStates=founders.map(st=>({masks:[...(st.taste.masks??[])],weights:[...(st.taste.weights??[])],...(st.taste.revise?{evidence:[...st.taste.revise.evidence],n:st.taste.revise.n,s2:st.taste.revise.s2??0,z:st.taste.revise.z,added:st.taste.revise.added.map(a=>a.mask)}:{})}));
   const outcome={...outcome0,termEvidence,examples,tasteStates};
   const anchor=run.anchors.C;if(!anchor)return {score:0,discrimination:0,alive:0,...outcome};
   const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[],balanced=[];
