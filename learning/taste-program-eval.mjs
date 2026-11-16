@@ -28,7 +28,7 @@ export function applyValenceRule(run,rule){
   for(const patch of run.world.food)if(patch.cueId)patch.valence=value(patch.cue);
 }
 export function evaluateOne(program,history,world={}){
-  const {code,...tasteProgram}=program,{valenceRule=null,toxinScale=null,nutrientScale=null,odorShiftEvery=null,odorShiftSeed=1,inheritTaste=null,...options}=world;
+  const {code,...tasteProgram}=program,{valenceRule=null,toxinScale=null,nutrientScale=null,odorShiftEvery=null,odorShiftSeed=1,inheritTaste=null,sipFraction=null,sipLabels=false,...options}=world;
   const run=new OdorRoutedExperiment({history,acquisitionGeometry:'continual',steeringMode:'learned',trainingRegime:'continuous',steeringLearner:'original',tasteCode:code,tasteProgram,...options});
   if(valenceRule)applyValenceRule(run,valenceRule);
   // Opt-in lineage relay: founder i (by id order) starts with its parent's taste PROGRAM (masks) and
@@ -42,6 +42,9 @@ export function evaluateOne(program,history,world={}){
   // Opt-in world pressure (P1 of the 2026-11-14 review); null keeps the engine defaults.
   if(toxinScale!==null)run.world.config.toxinScale=toxinScale;
   if(nutrientScale!==null)run.world.config.nutrientScale=nutrientScale;
+  // Opt-in sip body (P15): sips in the engine; sipLabels turns stationary refusals with a sip into taste labels.
+  if(sipFraction!==null){assert.ok(sipFraction>0&&sipFraction<1);run.world.config.sipFraction=sipFraction;}
+  if(sipLabels){assert.ok(sipFraction!==null);for(const st of Object.values(run.learners))st.credit.sipLabels=true;}
   // The flies' own experience: for each Walsh term, sum of term(cue)*(2*target-1).
   let odor=tasteProgram.odor??null;const width=odor?odor[0].length:4,termEvidence=Array(2**width).fill(0);let examples=0;
   const listener=({cue,target})=>{if(cue[0]===0)return;examples++;const bits=odor?odor[cueIndex(cue)]:cue;for(let m=0;m<2**width;m++){let v=1;for(let b=0;b<width;b++)if(m>>b&1)v*=bits[b];termEvidence[m]+=v*(2*target-1);}};

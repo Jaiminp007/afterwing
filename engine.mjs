@@ -162,7 +162,9 @@ export class World {
       const experiment=experimentCosts?.get(f.id),extraCost=experiment?.energyCost||0;
       const energyBeforeCost=f.energy,cost=Math.min(f.energy,baselineCost+extraCost),paidExtra=Math.max(0,cost-Math.min(f.energy,baselineCost));f.energy-=cost;f.lastEnergyCost=cost;this.totals.dissipated+=cost;
       experiment?.afterEnergyCharge?.({requested:extraCost,paid:paidExtra});
-      let eaten=0,netIntake=0,harmfulEaten=0,toxinDamage=0;if(eat>0){for(const p of fi.nearby(f,15)){const harmful=this.config.cueForaging&&p.valence<0,take=Math.min(p.amount,harmful?.8:Math.min(Math.max(0,120-f.energy),.8));p.amount-=take;eaten+=take;
+      // Opt-in sip body (docs/RSI_P15_PLAN.md): a stopped fly that refuses food still takes sipFraction of a normal bite (same effects). Default 0 = unchanged.
+      const sip=eat>0?1:(this.config.sipFraction??0)>0&&move<=-1?this.config.sipFraction:0;
+      let eaten=0,netIntake=0,harmfulEaten=0,toxinDamage=0;if(sip>0){for(const p of fi.nearby(f,15)){const harmful=this.config.cueForaging&&p.valence<0,take=sip*Math.min(p.amount,harmful?.8:Math.min(Math.max(0,120-f.energy),.8));p.amount-=take;eaten+=take;
         if(harmful){const damage=Math.min(f.energy,take*(this.config.toxinScale??1));f.energy-=damage;netIntake-=damage;harmfulEaten+=take;toxinDamage+=damage;this.totals.harmfulEaten+=take;this.totals.toxinDamage+=damage;this.totals.dissipated+=take+damage;}
         else {f.energy+=take;netIntake+=take;if(this.config.cueForaging)this.totals.beneficialEaten+=take;}}}
       this.totals.foodEaten+=eaten;f.lastFood=this.config.cueForaging?clamp(netIntake,-1,1):Math.min(1,eaten);f.reward=clamp(netIntake-cost,-1,1);

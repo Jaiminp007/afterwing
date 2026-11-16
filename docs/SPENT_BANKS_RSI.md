@@ -46,3 +46,5 @@ Do not use any of these banks for a new test.
 | P14 survival: rules / histories | 2001001–2001012 / 2002001–2002012 (smoke +500) |
 | P14 follow-up check (non-bank) | 98301–98302, histories 98306–98307 |
 | P14b survival replication: rules / histories | 2101001–2101012 / 2102001–2102012 (smoke +500) |
+| P15 exploration (non-bank) | 98401–98404, histories 98406–98409 |
+| P15 sip body: rules / histories | 2201001–2201012 / 2202001–2202012 (smoke +500) |
