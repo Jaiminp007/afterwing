@@ -44,3 +44,27 @@ Setup: many-odor world (shift 32), 4 rules (2 pairs, 2 staircase) × 8 histories
 ## Conclusion
 
 In this world, in-life self-revision is **data-limited**. The fly does not taste enough foods within a lifetime to discover structure reliably, and even perfect discovery pays little. A meaningful in-life test needs a world where flies survive long enough to taste many more foods: a redesign of the energy balance. Following the Fable review, that should be run as a pre-registered dose-response with at least three levels including the current one, with a null predicted at the current level. It should not be one richer world reported only if it passes.
+
+## Decision: stop this line (Fable review, 2026-11-16)
+
+The oracle-add bound is +2.43 of the +6.64 available from birth. That falls between the stop rule set in advance (under +2) and the continue rule (+3 or more), so the facts about discovery decide it.
+
+Two limits are named:
+
+1. **Too few examples.** About 33 examples per lifetime cannot pick a true term out of 28 candidates.
+2. **Too late to pay off.** A term added mid-life has too few examples left to learn its weight.
+
+Three routes are closed:
+
+- **An inherited prior.** The relevant bits are random per rule, so a prior cannot narrow the candidates.
+- **Longer lives.** All flies die before they reach more examples.
+- **Lineage pooling.** Flies do not reproduce within a run.
+
+Even a third of the ceiling (+0.8) would need over 100 rules to test at the measured noise.
+
+A dose-response with a changed energy balance was considered and not recommended, for two reasons:
+
+- It would be a third world change, and it would change the outcome scale.
+- Its answer is predictable (feature selection works once there are enough samples), so it adds little to P8–P10.
+
+If in-life RSI becomes a goal of its own, it should be a separate line with its own stopping rule. The VISION RSI row stays "met in bounded form" (offline improvement).
