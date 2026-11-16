@@ -43,7 +43,7 @@ Setup: many-odor world (shift 32), 4 rules (2 pairs, 2 staircase) × 8 histories
 
 ## Conclusion
 
-In this world, in-life self-revision is **data-limited**. The fly does not taste enough foods within a lifetime to discover structure reliably, and even perfect discovery pays little. A meaningful in-life test needs a world where flies survive long enough to taste many more foods: a redesign of the energy balance. Following the Fable review, that should be run as a pre-registered dose-response with at least three levels including the current one, with a null predicted at the current level. It should not be one richer world reported only if it passes.
+In this world, in-life self-revision is **data-limited**. The fly does not taste enough foods within a lifetime to discover structure reliably, and even perfect discovery pays little. A meaningful in-life test would need a world where flies taste many more foods per lifetime. The decision below explains why that route was not taken.
 
 ## Decision: stop this line (Fable review, 2026-11-16)
 
