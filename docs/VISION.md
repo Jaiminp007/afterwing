@@ -39,6 +39,32 @@ Full sentence-by-sentence audit: [VISION_COMPLETE_AUDIT_V1](VISION_COMPLETE_AUDI
 
 Survival: in the opt-in many-odor world, taste skill changes survival strongly. Lifetime learning gives +4 to +8 survivors of 24, and the true structure gives +9 to +14, on 12/12 rules ([P14](RSI_P14_RESULTS.md)). The pre-registered milestone failed, but its no-skill arm turned out to be a non-eater: it tasted only 3–4 times per life. The intended comparison, a better program against the default learner, replicated on fresh rules in [P14b](RSI_P14B_RESULTS.md): +5.15 survivors (8.65 → 13.79 of 24), 12/12 rules, p = 0.00024. Its gates were chosen after P14.
 
-All measurable milestones are met, within the bounds stated in each results doc. Recursive self-improvement is met only in the bounded form described in its row: offline search, constructed tasks, and an opt-in many-odor world.
+## Final status (2026-11-16)
+
+This is the honest end state of the measurable milestones, following the independent Fable review.
+
+**Met.**
+- Lifetime benefit on held-out tasks, with loss under reset.
+- Persistent adaptation (odor-taste skill).
+- Bounded, checkpointable controller proposals.
+- A better taste program raises survival over the default learner: +5.15 of 24 ([P14b](RSI_P14B_RESULTS.md)). This is a replication; its gates were chosen after [P14](RSI_P14_RESULTS.md).
+- Observatory, and separate model tracks.
+- Population and social studies, as first-generation studies.
+
+**Met in bounded form.**
+- Recursive self-improvement offline, P5–P10. Search, invention and transfer happen in a calibrated surrogate. The found programs beat blind search in the embodied fly.
+- In-lineage self-revision of the fly's own taste program ([P12](RSI_P12_RESULTS.md)). Lineages learn from their own experience, with no surrogate. Self-pruning repairs a badly set reviser ([P13](RSI_P13_RESULTS.md)).
+
+**Not shown.**
+- Level 2 in the embodied fly: [P11](RSI_P11_RESULTS.md) failed to replicate the surrogate result P9.
+- In-life self-revision: data-limited at about 33 tastings per life ([exploration](RSI_INLIFE_EXPLORATION.md)).
+- Recursion inside the lineage, i.e. the lineage tuning its own reviser (P13).
+- Body transfer (V1–V3).
+- A body change that raises survival through information: the sip body, [P15](RSI_P15_RESULTS.md). It tripled taste labels but did not raise survival, because the bottleneck is the representation, not label count.
+
+**Scope.**
+- Every positive result from P8 on holds only in the opt-in many-odor world (`odorShiftEvery`), on constructed tasks.
+- The default 12-odor world does not reward taste structure (P7).
+- Human-like cognition, planetary worlds and long-run societies remain research aspirations.
 Human-like cognition, planetary worlds and long-run societies remain research
 aspirations, as stated above.
