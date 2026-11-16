@@ -1,6 +1,6 @@
 // P14 (plan: docs/RSI_P14_PLAN.md, frozen before the run): does taste skill change survival? NONE / S0 / TRUE
 // programs on 12 embodied rules (many-odor world) at nutrientScale 0.75, 1, 1.5. Usage: node scripts/p14-survival.mjs [smoke]
-import {writeFileSync,readFileSync,mkdirSync} from 'node:fs';
+import {writeFileSync,readFileSync,mkdirSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {Pool,makeHistories} from '../learning/taste-program-eval.mjs';
 import * as L from './rsi-p6-lib.mjs';
@@ -17,8 +17,13 @@ function makeEmbodied(seed,fam,name){
 const pool=new Pool(8),probs=[...Array(NR).keys()].map(i=>makeEmbodied(2001001+OFF+i,i<HALF?'pairs':'staircase',`${i<HALF?'p':'s'}${i+1}`));
 const arms=p=>({NONE:[0],S0:L.S0.masks,TRUE:[0,...p.target]});
 const rows=await Promise.all(probs.map(async(prob,i)=>{const hs=makeHistories((2002000+OFF+i+1)>>>0,H),out={rule:prob.name,family:prob.family};
-  for(const sc of SCALES)for(const [a,masks] of Object.entries(arms(prob))){const r=await Promise.all(hs.map(h=>pool.run({code:'masks',masks,step:4,replays:1,odor:prob.odor},h,{valenceRule:prob.rule,tasteDecisionMode:'threshold',odorShiftEvery:32,odorShiftSeed:L.mix(prob.bankSeed^0x7f4a7c15),nutrientScale:sc})));
-    for(const x of r)if(!Number.isFinite(x.energy))throw new Error('non-finite');out[`${a}@${sc}`]={survivors:L.mean(r.map(x=>x.survivors)),energy:L.mean(r.map(x=>x.energy))};}
+  // Resumable cache (infrastructure only, added after two interrupted runs): each (rule, scale, arm) cell is
+  // deterministic; a finished cell is stored and reused, so a restart cannot change any result.
+  const CACHE=new URL(SMOKE?'cells.smoke/':'cells/',DIR);mkdirSync(CACHE,{recursive:true});
+  for(const sc of SCALES)for(const [a,masks] of Object.entries(arms(prob))){const cell=new URL(`${prob.name}_${a}_${sc}.json`,CACHE);
+    if(existsSync(cell)){out[`${a}@${sc}`]=JSON.parse(readFileSync(cell,'utf8'));continue;}
+    const r=await Promise.all(hs.map(h=>pool.run({code:'masks',masks,step:4,replays:1,odor:prob.odor},h,{valenceRule:prob.rule,tasteDecisionMode:'threshold',odorShiftEvery:32,odorShiftSeed:L.mix(prob.bankSeed^0x7f4a7c15),nutrientScale:sc})));
+    for(const x of r)if(!Number.isFinite(x.energy))throw new Error('non-finite');out[`${a}@${sc}`]={survivors:L.mean(r.map(x=>x.survivors)),energy:L.mean(r.map(x=>x.energy))};writeFileSync(cell,JSON.stringify(out[`${a}@${sc}`]));}
   say({rule:out.rule,...Object.fromEntries(Object.entries(out).filter(([k])=>k.includes('@')).map(([k,v])=>[k,v.survivors.toFixed(1)]))});return out;}));
 const st=x=>({diffs:x,mean:L.mean(x),sd:sd(x),positive:x.filter(v=>v>0).length,p:signFlip(x)}),res={};
 for(const sc of SCALES){const S=a=>rows.map(r=>r[`${a}@${sc}`].survivors),E=a=>L.mean(rows.map(r=>r[`${a}@${sc}`].energy));
