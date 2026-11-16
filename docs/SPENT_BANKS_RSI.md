@@ -43,3 +43,4 @@ Do not use any of these banks for a new test.
 | P12 lineage: rules / histories / sign-flip rng | 1801001–1801024 / 1802001–1802024 / 1804999 (smoke +500) |
 | P13 exploration (headroom, pruning calibration; non-bank) | 98201–98208, histories 98214–98221 |
 | P13 reviser tuning: rules / histories / sign-flip rng | 1901001–1901024 / 1902001–1902024 / 1904999 (smoke +500) |
+| P14 survival: rules / histories | 2001001–2001012 / 2002001–2002012 (smoke +500) |
