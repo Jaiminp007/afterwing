@@ -39,3 +39,5 @@ Do not use any of these banks for a new test.
 | P10 joint embodied: rules / histories / library training | 1601001–1601012 / 1602001–1602012 / 1605010–1605125 (smoke +500) |
 | In-life self-revision exploration (non-bank) | 98001–98004, 98100, 98101–98111 (histories) |
 | P11 embodied level-2: rules / histories / training / sign-flip rng | 1701001–1701032 / 1702001–1702032 / 1705010–1705325 / 1704999 (smoke +500) |
+| P12 exploration (lineage, non-bank) | 98001–98004 histories 98012–98015 |
+| P12 lineage: rules / histories / sign-flip rng | 1801001–1801024 / 1802001–1802024 / 1804999 (smoke +500) |
