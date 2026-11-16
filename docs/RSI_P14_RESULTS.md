@@ -24,3 +24,22 @@ Reported, not gated:
 - **What is not shown.** The pre-registered milestone required a world where the unskilled flies are not simply wiped out. At these food values they are, so the survival gap partly reflects a world that kills any fly without taste skill. Raising food value by 2× (from 0.75 to 1.5) did not move NONE survivors at all, while the skilled arms gained.
 
 Labels: opt-in many-odor world; constructed tasks; TRUE is an oracle program, not something the flies found.
+
+## Follow-up check: NONE flies barely eat (Fable review, 2026-11-16)
+
+The check ran on exploration seeds 98301–98302 with 8 histories each, so it is not a bank run.
+
+| Rule | Arm | Tastings per founder | Survivors |
+|---|---|---|---|
+| pairs | NONE | 4.0 | 0.5 |
+| pairs | S0 | 89.0 | 5.8 |
+| pairs | TRUE | 95.0 | 13.6 |
+| staircase | NONE | 3.0 | 0.8 |
+| staircase | S0 | 62.8 | 1.1 |
+| staircase | TRUE | 67.7 | 9.6 |
+
+A bias-only fly makes threshold decisions. After a few bad tastes its single weight drops below the accept threshold, and it refuses all food for the rest of its life. **NONE was a non-eater, not an unskilled eater.** This explains why food value did not move NONE survivors.
+
+The S2 gate therefore tested the wrong arm. Fable's review had named the default learner (S0) as the baseline, but the plan gated on NONE, and the plan was not reviewed before the run.
+
+P14 stays FAILED as registered. The comparison the milestone was about, TRUE vs S0, is tested separately in P14b on fresh rules.

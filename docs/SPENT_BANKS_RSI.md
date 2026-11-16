@@ -44,3 +44,5 @@ Do not use any of these banks for a new test.
 | P13 exploration (headroom, pruning calibration; non-bank) | 98201–98208, histories 98214–98221 |
 | P13 reviser tuning: rules / histories / sign-flip rng | 1901001–1901024 / 1902001–1902024 / 1904999 (smoke +500) |
 | P14 survival: rules / histories | 2001001–2001012 / 2002001–2002012 (smoke +500) |
+| P14 follow-up check (non-bank) | 98301–98302, histories 98306–98307 |
+| P14b survival replication: rules / histories | 2101001–2101012 / 2102001–2102012 (smoke +500) |
