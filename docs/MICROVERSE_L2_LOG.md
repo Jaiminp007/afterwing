@@ -168,3 +168,41 @@ On practice seeds, the meta-tuners tried (direction rules, trial-and-revert, win
 **Reason.** The reviser that the P11b level-2 search found (forgetting, pruning, confidence gate, replay) is robust: one fixed setting is near-best across every situation tested. Evolution finds it, so in-life or in-lineage tuning of the reviser has nothing left to add.
 
 The original P13 stays FAILED. **P13b is closed as not achievable.** The gate and the controls were never changed.
+
+## P13b amendment A2: individual toxin sensitivity, tuned gene acceptAt (practice loop)
+
+| Attempt | META rule | vs EVO-R | vs SHAM | vs FIXED |
+|---|---|---|---|---|
+| 1 | Trial-and-revert on acceptAt from own net feeding gain (100-tick windows) | +.05 | −.21 | +1.61 |
+| 2 | Expected-value threshold from own measured toxin cost, c/(1+c); SHAM = same rule fed a random cost of the same distribution | +1.36 (11/16) | +.37 | +2.91 |
+| 3 | Risk-averse EV threshold 2c/(1+2c) (maps real costs onto the oracle's .2/.75) | +.25 | −.62 | +1.80 |
+| 4 | As 3, with the default threshold until the first toxic bite | −.13 | −1.01 | +1.43 |
+
+**Diagnostic** (32 extra practice seeds 301–332, vs SHAM):
+
+| Arm | Δ flies vs SHAM |
+|---|---|
+| ORACLE (knows sensitivity from birth) | +2.21 (27/32) |
+| META (attempt 4) | +.02 (14/32) |
+| FIXED | −1.70 (7/32) |
+
+**Why A2 cannot pass.** The oracle's whole advantage over the sham (about 2.2 flies) comes from protecting flies **before they have any evidence**: sensitive newborns avoid their first toxic bites. A fly can learn its sensitivity only from such a bite. Once evidence exists, the exact threshold barely matters: META, holding near-oracle thresholds after its first bite, ties a sham that assigns thresholds at random.
+
+The part of the gain that own experience can reach is about 0, against a gate of ≥ 1.0 over SHAM. **A2 is blocked.** No final was run (practice never passed).
+
+## P13b: final status after eight designs
+
+The gate (META ≥ EVO-R + 1.0, ≥ SHAM + 1.0, > FIXED, all p < .01) and the controls were never changed. Across eight designs, the gain available to own-experience tuning of the learning or decision system, beyond what evolution or a matched sham gets, is bounded below the gate:
+
+| Design | Bound |
+|---|---|
+| Normal | < 1 |
+| Fast switching | about .66 |
+| Volatile | about 1.1, needing ~100% capture |
+| Noisy volatile | about 0 |
+| Long-lived volatile | about .39 |
+| Individual sensor noise | none |
+| Habitats | none |
+| Individual toxin sensitivity | about 0 after evidence; the 2.2 oracle edge comes before any evidence exists |
+
+**P13b has no pass.** Producing one would require weakening the sham or EVO-R, lowering the bar, or continuing to search worlds until one crosses. All three would make the result false.

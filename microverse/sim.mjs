@@ -71,7 +71,7 @@ function tasteUpdate(brain, phi, target) {
 // P13b (docs/MICROVERSE_L2_GOALS.md, amendment A1): the fly tunes its own reviser genes from its own
 // experience at each revision check. 'meta' uses the rule's directions; 'sham' fires on the same
 // conditions with the same step sizes but random directions. Children inherit the adjusted genes.
-export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4];
+export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4], ACCEPT_GRID = [.1, .2, .3, .4, .5, .6, .75, .85];
 function gridStep(genes, gene, grid, dir) { let i = grid.indexOf(genes[gene]); if (i < 0) i = 0; genes[gene] = grid[Math.max(0, Math.min(grid.length - 1, i + dir))]; }
 function metaRevise(brain) {
   if (brain.program.metaR === 'trial' || brain.program.metaR === 'trialsham') return metaTrial(brain);
@@ -225,6 +225,7 @@ export class Microverse {
     if (parent) {
       const pb = parent.brain; prog = { ...pb.program, tasteMasks: [...pb.taste.masks], moveMasks: [...pb.move.masks], genes: { ...pb.genes } };
       if (prog.mutate) this.mutate(prog, r);
+      if (prog.evoA && r() < .1) gridStep(prog.genes, 'acceptAt', ACCEPT_GRID, r() < .5 ? -1 : 1); // P13b A2 EVO-R control
       if (prog.evoR) for (const [gene, grid] of [['tasteMemory', MEM_GRID], ['tastePrune', PRUNE_GRID]]) if (r() < .1) gridStep(prog.genes, gene, grid, r() < .5 ? -1 : 1); // P13b EVO-R control
     }
     // ORACLE (measuring instrument only): born with the true terms of the rule in force.
@@ -322,11 +323,22 @@ export class Microverse {
         const vol = cfg.habitats && this.isVol(f.x), bits = (vol ? this.codes2 : this.codes)[p.kind];
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
-          f.energy += good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
+          { const dE = good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); f.energy += dE; f.feedWin = (f.feedWin ?? 0) + dE; if (!good) { f.dmgSum = (f.dmgSum ?? 0) - dE; f.badTake = (f.badTake ?? 0) + take; } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }
       }
       f.energy = Math.min(cfg.maxEnergy, f.energy); f.age++;
+      // P13b A2: in-life trial-and-revert on acceptAt from own feeding outcome over W-tick windows.
+      const mA = b.program.metaA, W = b.program.metaW ?? 100;
+      // A2 attempt 2 ('ev'): set acceptAt by the expected-value rule from the fly's OWN measured toxin cost per bite;
+      // 'evsham': same rule fed a cost drawn at birth from the same two possibilities, independent of the fly's body.
+      if ((mA === 'ev' || mA === 'evsham') && f.age % W === 0) { let c;
+        if (mA === 'ev') c = f.badTake ? f.dmgSum / f.badTake : cfg.toxin;
+        else { if (f.shamCost === undefined) { const [lo, hi] = cfg.toxinNiche ?? [1, 1]; f.shamCost = cfg.toxin * (b.rand() < .5 ? lo : hi); } c = f.badTake ? f.shamCost : cfg.toxin; }
+        const a = b.program.riskAversion ?? 1; b.genes.acceptAt = b.program.evPrior && !f.badTake ? b.program.genes.acceptAt : a * c / (1 + a * c); }
+      else if (mA && f.age % W === 0) { const win = f.feedWin ?? 0; f.feedWin = 0; const tr = f.accTrial;
+        if (tr) { const keep = mA === 'trial' ? win > tr.base : b.rand() < .5; if (!keep) b.genes.acceptAt = tr.old; f.accTrial = null; }
+        else { const old = b.genes.acceptAt; gridStep(b.genes, 'acceptAt', ACCEPT_GRID, b.rand() < .5 ? -1 : 1); if (b.genes.acceptAt !== old) f.accTrial = { old, base: win }; } }
       b.move.pending.reward = (f.energy - e0) / 4; // reward for this move: its energy change
       if (f.energy >= b.genes.birthEnergy && this.flies.length + born.length < cfg.capacity) {
         f.energy -= cfg.birthCost; born.push([f, (f.x + Math.floor(this.r() * 3) - 1 + N) % N, (f.y + Math.floor(this.r() * 3) - 1 + N) % N]);

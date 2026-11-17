@@ -4,6 +4,7 @@ export const MOVE0 = [1, 2, 4, 8, 16, 32];
 // Innate movement instinct (heritable, not learned): approach food and good smell, avoid crowds.
 export const MOVE_INIT = { 2: .5, 4: 1, 8: 1, 16: -.3 };
 function SELF_P12() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, tasteMemory: 1e12, tastePrune: 0 }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true }; }
+function SELF_RSTAR() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, tasteMemory: 800, tastePrune: .5, tasteEvery: 4 }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true }; }
 export const STRAINS = {
   FIXED: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: null, moveRevise: null, mutate: false },
   SELF: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: 'evid', moveRevise: 'evid', mutate: true },
@@ -19,4 +20,9 @@ export const STRAINS = {
   P13_SHAM: { ...SELF_P12(), metaR: 'sham' },
   P13_EVOR: { ...SELF_P12(), evoR: true },
   P13_FIXED: { ...SELF_P12() },
+  // P13b amendment A2: base SELF with R* genes; the tuned gene is acceptAt (decision-and-sampling threshold).
+  A2_META: { ...SELF_RSTAR(), metaA: 'trial' },
+  A2_SHAM: { ...SELF_RSTAR(), metaA: 'sham' },
+  A2_EVOR: { ...SELF_RSTAR(), evoA: true },
+  A2_FIXED: { ...SELF_RSTAR() },
 };
