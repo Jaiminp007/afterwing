@@ -267,7 +267,9 @@ export class Microverse {
     const cfg = this.cfg, N = cfg.size;
     if (this.tick >= this.ruleEnds) { this.nextRule(); this.redrawCodes(); this.lastSwitch = this.tick; }
     // Headroom instrument (H3) only: memOracle flies forget fast for 300 ticks after each rule switch.
-    for (const f of this.flies) { const o = f.brain.program.memOracle; if (o) f.brain.genes.tasteMemory = this.lastSwitch !== undefined && this.tick - this.lastSwitch < 300 ? o.fast : o.slow; }
+    for (const f of this.flies) { const o = f.brain.program.memOracle; if (o) f.brain.genes.tasteMemory = this.lastSwitch !== undefined && this.tick - this.lastSwitch < 300 ? o.fast : o.slow;
+      // Headroom instrument (H4) only: regimeOracle knows whether the current rule epoch is volatile (< 300 ticks).
+      const ro = f.brain.program.regimeOracle; if (ro) f.brain.genes.tasteMemory = this.cfg.ruleSchedule[this.ruleIndex][1] < 300 ? ro.volatile : ro.calm; }
     if (this.tick % cfg.shiftEvery === 0 && this.tick) this.redrawCodes();
     if (this.tick % cfg.relocateEvery === 0 && this.tick) { const i = Math.floor(this.r() * cfg.patches); for (let k = 0; k < this.plant.length; k++) if (this.plant[k]?.patch === i) this.plant[k] = null; this.patchCenters[i] = this.randomCenter(); this.seedPatch(i); }
     for (const p of this.plant) if (p) p.amount = Math.min(cfg.plantCap, p.amount + cfg.regrow);

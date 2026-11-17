@@ -73,3 +73,20 @@ No final was run: practice never passed, and finals are not used to fish.
 |---|---|
 | **P11b** (level 2: the system's own search improves the reviser; embodied, fresh seeds) | **PASSED**: +5.73 flies, 48/48. It rediscovered forgetting and pruning and equals the designer's tuning |
 | **P13b** (the lineage tunes its own reviser from its own experience, beating evolution and a sham) | **Blocked / not shown.** There is no headroom: the reviser optimum is stable, so evolution suffices |
+
+## P13b escape-hatch redesign: volatility world (headroom H4; capped at two variants, decided in advance)
+
+**Idea.** In-life tuning should beat evolution when the best learning setting changes within a lifetime, unpredictably. The variant alternates calm epochs (one rule for 4000 ticks) with volatile bursts (rule switches every 150 ticks, 2000 ticks long); see `microverse/volatility.mjs`. Flies cannot sense the regime.
+
+Measuring-only regime oracle vs fixed settings (practice 101–116, paired solo, Δ flies vs R*):
+
+| Variant | Best fixed memory | Best regime oracle | Oracle − best fixed |
+|---|---|---|---|
+| A: label noise .05 | 200: +1.26 (12/16) | calm ∞ / volatile 50: +2.34 (13/16) | **about +1.1** |
+| B: label noise .15 | 200: +.07 | +.12 | **about 0** |
+
+**Verdict: still blocked.** In variant A, a tuner would have to capture nearly the whole oracle gap (about 1.1) over the best fixed setting just to reach the 1.0 gate. Evolution can find that fixed setting on its own. The headroom bar of 1.5 is not met. Variant B has none. The variant search stops here, as decided in advance, rather than hunting for a world that passes.
+
+**Diagnosis.** It is data-limited, the same limit that stopped in-life self-revision earlier. A fly's life holds too few tastings to measure which learning setting is better, and to profit from it, before evolution finds a good fixed setting anyway.
+
+What could honestly change this: much longer, richer lives (more feedback per lifetime), or a reviser knob whose optimum swings strongly and unpredictably within a lifetime. Both would be new lines with their own headroom checks.
