@@ -97,3 +97,28 @@ The planner headroom check gave only 5/8 against TASTEONLY, so the G7 bar (6/8) 
 ## Final run 2
 
 Fresh seeds 60001–60008. Every goal is re-tested, because the world changed.
+**Final run 2 result** (seeds 60001–60008, commit `da995b0`):
+- **G1–G6 pass** (all 8/8; G6 gain .362, late skill .711).
+- **G7 FAILED:** SELF vs TASTEONLY 5/8, share .625. Seeds 60001–60008 are spent.
+
+**G7 attempt 7** (movement evidence forgetting): 6/8 on practice, 10/16 on extra practice seeds 301–316. Dropped, not adopted.
+
+**Bigger world** (56², 16 patches): G7 7/16. Confounded: each patch relocates half as often. Not adopted.
+
+## Fable review (2026-11-17) and validity checks of G1–G6
+
+**Fable on G7:** "not shown". Pooled, it is 18/32 wins, indistinguishable from the null (18/40). Repeating finals is not acceptable. Any stronger test must be a new, separately named test with a lower-drift measure → G7b.
+
+Validity checks, all at commit `da995b0` on practice seeds:
+
+| Check | Result |
+|---|---|
+| Order swaps (weaker strain listed first) | G2, G4, G5 (both) all A share 0, 0/8: no side bias |
+| SELF vs EVO (mutation only, no evidence revision) | SELF 8/8: own evidence beats evolution alone |
+| G3 caveat | Instinct-only (no movement learning) also beats RANDMOVE 8/8, so G3 shows that movement matters, mostly through instinct. Movement learning on its own: TASTEONLY-learning vs instinct-only 6/8 (one practice check) |
+| FROZEN is a real eater | 42 tastings per 100 ticks, same as FIXED; good share .53 vs FIXED .67 |
+| G6 is rediscovery, not hoarding | After each epoch, current-rule targets held 0.61–1.00; higher-order targets of earlier rules still held ≤ .18 |
+| Arm parity | All arms pay the same per-feature cost. SHAM and SELF share forgetting and pruning; FIXED never adds features, so pruning does not apply to it |
+| Label leaks | Smell and movement senses use only the fly's own taste prediction of the current code |
+
+**Verdict: G1–G6 are CLOSED** (two fresh final runs).

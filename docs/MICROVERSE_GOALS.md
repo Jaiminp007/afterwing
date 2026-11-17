@@ -41,3 +41,16 @@ The attempt log is in [MICROVERSE_LOG.md](MICROVERSE_LOG.md). Every final run's 
 - The microverse is a new, constructed world.
 - Every revision operator and gene grammar is hand-written.
 - A pass means these flies, in this world, do these things. It does not mean open-ended intelligence.
+
+## G7b: a separately named, lower-drift re-test of G7 (frozen 2026-11-17, before its run)
+
+G7 failed both registered final runs (3/8 and 5/8). It stays recorded as **failed as registered**.
+
+Per the Fable review, the winner-take-all contests are drift-heavy: one bit per seed, and a 6/8 bar that passes 14.5% of the time under the null. G7b uses a continuous fitness measure instead.
+
+- **Measure.** Each strain lives alone in the same seeded world. The outcome is the mean population over ticks 10,000–20,000; ticks after an extinction count as 0. Runner: `microverse/solo.mjs`.
+- **Code.** Commit `da995b0`, the code on which G1–G6 passed final run 2. No further tuning toward G7 was made.
+- **Practice estimate** (seeds 101–116): SELF − TASTEONLY = +1.41 flies, 13/16 positive, p = .033.
+- **Seeds.** 48 fresh seeds, 70001–70048, sized for about 80% power at α = .01 from the practice spread.
+- **Pass.** Both SELF − TASTEONLY and SELF − MOVEONLY must have mean ≥ 0.7 flies (half the practice estimate) and one-sided sign-flip p < .01 (Monte Carlo, 200,000 draws).
+- **One shot.** If G7b fails, G7 is reported as not shown and the loop stops for this goal.
