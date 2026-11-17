@@ -232,6 +232,11 @@ export class Microverse {
     const inh = parent ? { tasteEv: parent.brain.taste.ev, tasteN: parent.brain.taste.n, tasteS2: parent.brain.taste.s2, moveEv: parent.brain.move.ev, moveN: parent.brain.move.n, moveS2: parent.brain.move.s2 } : null;
     const f = { id, strain, x, y, energy, age: 0, gen, parent: parent?.id ?? 0, brain: newBrain(prog, r, prog.inheritEvidence === false ? null : inh), eaten: { good: 0, bad: 0 }, tastings: 0 };
     // Opt-in individual senses: each fly draws its own taste-sensor noise at birth (not inherited).
+    // Opt-in individual toxin sensitivity (P13b H8): a non-heritable multiplier on toxin damage, drawn at birth.
+    if (this.cfg.toxinNiche) { const [lo, hi] = this.cfg.toxinNiche; f.toxinMul = r() < .5 ? lo : hi;
+      // Headroom instruments only: set exploration / accept threshold from the fly's true sensitivity.
+      if (prog.epsOracle) f.brain.genes.tasteEps = f.toxinMul === lo ? prog.epsOracle.lo : prog.epsOracle.hi;
+      if (prog.acceptOracle) f.brain.genes.acceptAt = f.toxinMul === lo ? prog.acceptOracle.lo : prog.acceptOracle.hi; }
     if (this.cfg.noiseNiche) { const [lo, hi] = this.cfg.noiseNiche; f.noise = r() < .5 ? lo : hi;
       // Headroom instrument (H6) only: stepOracle sets the learning rate from the fly's true noise level.
       if (prog.stepOracle) f.brain.genes.tasteStep = f.noise === lo ? prog.stepOracle.lo : prog.stepOracle.hi; }
@@ -317,7 +322,7 @@ export class Microverse {
         const vol = cfg.habitats && this.isVol(f.x), bits = (vol ? this.codes2 : this.codes)[p.kind];
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
-          f.energy += good ? take : -take * cfg.toxin; good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
+          f.energy += good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }
       }

@@ -114,3 +114,31 @@ Both tests now start from **R_P12**: the reviser as it was before the designer's
   - META − EVO-R ≥ 1.0, p < .01;
   - META − SHAM ≥ 1.0, p < .01;
   - META − FIXED > 0, p < .01.
+
+## Amendment A2 (2026-11-17, after headroom H8 and before any A2 tuning)
+
+The seven earlier designs left P13b bounded below its gate. A2 changes the flies, as the user allowed ("make anything you want to the flies").
+
+**World and fly variant.** Each fly draws, at birth, an individual and **non-heritable** toxin-damage multiplier: 0.2 (tolerant) or 3 (sensitive), with equal chance. Genes cannot know it; the fly's own energy losses reveal it (`toxinNiche` [.2, 3]).
+
+**Headroom H8** (practice seeds 101–116; base R* with eps .01, 65.91 flies):
+- the best fixed `acceptAt` is .4 (.3: −.75; .5: −.09; .6: −4.85; .75: −62, extinct);
+- a per-fly oracle (`acceptAt` .2 if tolerant, .75 if sensitive) gives **+8.36, 16/16**;
+- H8 passes by a wide margin.
+
+**Extended R.** The tuned gene is `acceptAt`, the taste system's decision-and-sampling threshold: it decides which foods a fly eats and so which labels it learns from. **It is not the feature-revision operator.** Every report must label this extension. Grid: [.1, .2, .3, .4, .5, .6, .75, .85].
+
+**Base for all arms.** SELF with R* genes (memory 800, prune .5, every 4) and defaults otherwise (`tasteEps` .05, `acceptAt` .4).
+
+**Arms:**
+- **META.** An in-life, hand-written meta-rule: trial-and-revert on `acceptAt` from the fly's own feeding outcome. Its exact form is designed on practice seeds; the gate is frozen here. Children inherit the current value.
+- **SHAM.** Identical trials; keep or revert is decided by a coin flip.
+- **EVO-R.** No meta-rule. At birth, `acceptAt` mutates one grid step in a random direction with probability .1.
+- **FIXED.** `acceptAt` .4.
+
+**Gates** (fresh seeds 90001–90048, reserved earlier and unused; paired solo; mean population over ticks 10,000–20,000):
+- META − EVO-R ≥ 1.0, p < .01;
+- META − SHAM ≥ 1.0, p < .01;
+- META − FIXED > 0, p < .01.
+
+**Label.** In-life self-tuning of the taste system's decision threshold from own experience, with inheritance; not recursive revision of the revision operator.
