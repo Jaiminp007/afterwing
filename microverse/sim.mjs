@@ -68,6 +68,21 @@ function tasteUpdate(brain, phi, target) {
   const step = brain.genes.tasteStep * (target - sigmoid(z)) / Math.sqrt(n);
   for (let i = 0; i < n; i++) t.w[i] = clip(t.w[i] + step * phi[i], 8);
 }
+// P13b (docs/MICROVERSE_L2_GOALS.md, amendment A1): the fly tunes its own reviser genes from its own
+// experience at each revision check. 'meta' uses the rule's directions; 'sham' fires on the same
+// conditions with the same step sizes but random directions. Children inherit the adjusted genes.
+export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4];
+function gridStep(genes, gene, grid, dir) { let i = grid.indexOf(genes[gene]); if (i < 0) i = 0; genes[gene] = grid[Math.max(0, Math.min(grid.length - 1, i + dir))]; }
+function metaRevise(brain) {
+  const t = brain.taste, g = brain.genes, sham = brain.program.metaR === 'sham', dirOf = d => sham ? (brain.rand() < .5 ? -1 : 1) : d;
+  const added = t.masks.map((m, i) => i).filter(i => popcount(t.masks[i]) > 1);
+  if (added.length) { const weak = added.filter(i => Math.abs(t.w[i]) < 1).length;
+    if (weak / added.length > .5) gridStep(g, 'tastePrune', PRUNE_GRID, dirOf(1)); else if (weak === 0) gridStep(g, 'tastePrune', PRUNE_GRID, dirOf(-1)); }
+  const trusted = t.lossModel !== undefined && t.lossModel < t.lossBase; t.everTrusted ||= trusted;
+  if (trusted) { t.trustRun = (t.trustRun ?? 0) + 1; t.distrustRun = 0; } else { t.distrustRun = (t.distrustRun ?? 0) + 1; t.trustRun = 0; }
+  if (t.everTrusted && t.distrustRun >= 3) { gridStep(g, 'tasteMemory', MEM_GRID, dirOf(1)); t.distrustRun = 0; }
+  else if (t.trustRun >= 10) { gridStep(g, 'tasteMemory', MEM_GRID, dirOf(-1)); t.trustRun = 0; }
+}
 export function tasteLearn(brain, bits, target) {
   const t = brain.taste, phi = t.masks.map(m => walsh(m, bits));
   const residual = target - sigmoid(Math.log(3) + t.w.reduce((s, w, i) => s + w * phi[i], 0) / Math.sqrt(phi.length));
@@ -83,6 +98,7 @@ export function tasteLearn(brain, bits, target) {
   const D = 1 - 1 / (brain.genes.tasteMemory ?? 200); t.n++; t.s2 = t.s2 * D + residual * residual;
   for (let k = 0; k < FULL; k++) t.ev[k] = t.ev[k] * D + walsh(k, bits) * residual;
   if (t.n % brain.genes.tasteEvery) return;
+  if (brain.program.metaR) metaRevise(brain);
   // Pruning when full: drop the weakest added (higher-order) feature if its weight is small (|w| < 2).
   if (t.masks.length >= brain.genes.tasteCap) {
     let j = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && Math.abs(t.w[i]) < (brain.genes.tastePrune ?? 2) && (j < 0 || Math.abs(t.w[i]) < Math.abs(t.w[j]))) j = i;
@@ -181,6 +197,7 @@ export class Microverse {
     if (parent) {
       const pb = parent.brain; prog = { ...pb.program, tasteMasks: [...pb.taste.masks], moveMasks: [...pb.move.masks], genes: { ...pb.genes } };
       if (prog.mutate) this.mutate(prog, r);
+      if (prog.evoR) for (const [gene, grid] of [['tasteMemory', MEM_GRID], ['tastePrune', PRUNE_GRID]]) if (r() < .1) gridStep(prog.genes, gene, grid, r() < .5 ? -1 : 1); // P13b EVO-R control
     }
     // ORACLE (measuring instrument only): born with the true terms of the rule in force.
     if (prog.oracle) prog = { ...prog, tasteMasks: [0, ...this.rule.target.filter(t => t)] };
