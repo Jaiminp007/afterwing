@@ -74,6 +74,7 @@ function tasteUpdate(brain, phi, target) {
 export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4];
 function gridStep(genes, gene, grid, dir) { let i = grid.indexOf(genes[gene]); if (i < 0) i = 0; genes[gene] = grid[Math.max(0, Math.min(grid.length - 1, i + dir))]; }
 function metaRevise(brain) {
+  if (brain.program.metaR === 'trial' || brain.program.metaR === 'trialsham') return metaTrial(brain);
   const t = brain.taste, g = brain.genes, sham = brain.program.metaR === 'sham', dirOf = d => sham ? (brain.rand() < .5 ? -1 : 1) : d;
   const added = t.masks.map((m, i) => i).filter(i => popcount(t.masks[i]) > 1);
   if (added.length) { const weak = added.filter(i => Math.abs(t.w[i]) < 1).length;
@@ -81,14 +82,28 @@ function metaRevise(brain) {
   const trusted = t.lossModel !== undefined && t.lossModel < t.lossBase; t.everTrusted ||= trusted;
   if (trusted) { t.trustRun = (t.trustRun ?? 0) + 1; t.distrustRun = 0; } else { t.distrustRun = (t.distrustRun ?? 0) + 1; t.trustRun = 0; }
   if (t.everTrusted && t.distrustRun >= 3) { gridStep(g, 'tasteMemory', MEM_GRID, dirOf(1)); t.distrustRun = 0; }
-  else if (t.trustRun >= 10) { gridStep(g, 'tasteMemory', MEM_GRID, dirOf(-1)); t.trustRun = 0; }
+  else if (t.trustRun >= (brain.program.metaLongRun ?? 10)) { if (!(brain.program.metaNoInfinite && MEM_GRID.indexOf(g.tasteMemory) <= 1 && !sham)) gridStep(g, 'tasteMemory', MEM_GRID, dirOf(-1)); t.trustRun = 0; }
+}
+// P13b attempt 3: in-life trial-and-revert on the fly's own reviser genes. Every K revision checks the fly
+// tries one grid step on tasteMemory or tastePrune; after K more checks it keeps the step only if its own
+// running taste-prediction loss fell ('trial'), or by coin flip ('trialsham': same trials, no evidence).
+function metaTrial(brain) {
+  const t = brain.taste, g = brain.genes, K = brain.program.metaK ?? 6; t.metaChecks = (t.metaChecks ?? 0) + 1;
+  if (t.metaChecks % K || t.lossModel === undefined) return;
+  // Window means: own average log-loss over the K checks before the trial vs the K checks of the trial.
+  const win = t.llN ? t.llSum / t.llN : null, wn = t.llN ?? 0; t.llSum = 0; t.llN = 0;
+  const tr = t.trial;
+  if (tr) { const keep = brain.program.metaR === 'trial' ? (brain.program.metaWindow ? (win !== null && wn >= 3 && win < tr.loss0) : t.lossModel < tr.loss0) : brain.rand() < .5; if (!keep) g[tr.gene] = tr.old; t.trial = null; return; }
+  if (brain.program.metaWindow && (win === null || wn < 3)) return;
+  const [gene, grid] = brain.rand() < .5 ? ['tasteMemory', MEM_GRID] : ['tastePrune', PRUNE_GRID], old = g[gene];
+  gridStep(g, gene, grid, brain.rand() < .5 ? -1 : 1); if (g[gene] !== old) t.trial = { gene, old, loss0: brain.program.metaWindow ? win : t.lossModel };
 }
 export function tasteLearn(brain, bits, target) {
   const t = brain.taste, phi = t.masks.map(m => walsh(m, bits));
   const residual = target - sigmoid(Math.log(3) + t.w.reduce((s, w, i) => s + w * phi[i], 0) / Math.sqrt(phi.length));
   { const pm = Math.min(1 - 1e-3, Math.max(1e-3, modelProb(brain, bits))), pb = Math.min(1 - 1e-3, Math.max(1e-3, t.base ?? .75)), ll = p => -(target ? Math.log(p) : Math.log(1 - p));
     if (t.lossModel === undefined) { t.lossModel = ll(pm); t.lossBase = ll(pb); } else { t.lossModel += .05 * (ll(pm) - t.lossModel); t.lossBase += .05 * (ll(pb) - t.lossBase); }
-    t.base = (t.base ?? .75) + .05 * (target - (t.base ?? .75)); }
+    t.base = (t.base ?? .75) + .05 * (target - (t.base ?? .75)); t.llSum = (t.llSum ?? 0) + ll(pm); t.llN = (t.llN ?? 0) + 1; }
   const rec = { bits, phi, target }; t.seen++;
   if (t.memory.length < 32) t.memory.push(rec); else { const j = Math.floor(brain.rand() * t.seen); if (j < 32) t.memory[j] = rec; }
   tasteUpdate(brain, phi, target);
@@ -250,7 +265,9 @@ export class Microverse {
   }
   step() {
     const cfg = this.cfg, N = cfg.size;
-    if (this.tick >= this.ruleEnds) { this.nextRule(); this.redrawCodes(); }
+    if (this.tick >= this.ruleEnds) { this.nextRule(); this.redrawCodes(); this.lastSwitch = this.tick; }
+    // Headroom instrument (H3) only: memOracle flies forget fast for 300 ticks after each rule switch.
+    for (const f of this.flies) { const o = f.brain.program.memOracle; if (o) f.brain.genes.tasteMemory = this.lastSwitch !== undefined && this.tick - this.lastSwitch < 300 ? o.fast : o.slow; }
     if (this.tick % cfg.shiftEvery === 0 && this.tick) this.redrawCodes();
     if (this.tick % cfg.relocateEvery === 0 && this.tick) { const i = Math.floor(this.r() * cfg.patches); for (let k = 0; k < this.plant.length; k++) if (this.plant[k]?.patch === i) this.plant[k] = null; this.patchCenters[i] = this.randomCenter(); this.seedPatch(i); }
     for (const p of this.plant) if (p) p.amount = Math.min(cfg.plantCap, p.amount + cfg.regrow);

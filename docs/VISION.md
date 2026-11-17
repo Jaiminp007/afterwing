@@ -86,3 +86,12 @@ The microverse is a separate, closed world (`microverse/`) where flies breed, le
 
 These results are for a constructed world with hand-written operators. They show bounded, in-world self-improvement, not open-ended intelligence.
 
+**Level 2 in the microverse (2026-11-17,** [goals](MICROVERSE_L2_GOALS.md), [log](MICROVERSE_L2_LOG.md)**).**
+
+P11 and P13 were re-asked as new tests, P11b and P13b; the originals stay failed.
+
+- **P11b PASSED.** The system's own level-2 search over its taste reviser started from the pre-tuning reviser. It rediscovered forgetting and pruning, and the found reviser beat the start by +5.73 flies on 48/48 fresh worlds, matching the designer's hand-tuning.
+- **P13b blocked (not shown).** A lineage tuning its own reviser from its own experience did not beat free evolution and a matched sham by the frozen margin. A headroom check shows why: the best reviser setting is stable in this world, so evolution finds it. Even perfect in-life tracking in a fast-switching variant adds only about .66 flies.
+
+Labels: the climber, the meta-rules and the search grid are hand-written. The start point was set after the first headroom checks failed. Fable review was unavailable for this line.
+
