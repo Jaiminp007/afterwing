@@ -19,3 +19,15 @@ All 21 later proposals were rejected.
 Unprompted, the system's level-2 search found the two mechanisms the designer had added by hand in the G6 loop: forgetting and pruning.
 
 ## P11b gate (fresh seeds 80001–80048)
+| Contrast | R* | Other | Δ | Positive seeds | p | Result |
+|---|---|---|---|---|---|---|
+| **Gate:** R* − R_P12 | 55.54 | 49.81 | **+5.73** | 48/48 | < .00001 | **PASS** (bar ≥ 1.0 flies, p < .01) |
+| Reported: R* − R0 (designer) | 55.54 | 56.08 | −.54 | 21/48 | .89 | Not gated |
+
+**P11b PASSES.** The system's own level-2 search improved its improvement rule, and the gain holds in the embodied world on fresh seeds. It is essentially as good as the designer's hand-tuning.
+
+Labels:
+- The climber is hand-written.
+- The search grid is designer-chosen, and it contains the answers (forgetting and pruning knobs).
+- The start point is the pre-tuning reviser (amendment A1, set after H1/H2 failed from R0).
+- This is the microverse, not the old embodied P11 setup. **The original P11 stays FAILED.**
