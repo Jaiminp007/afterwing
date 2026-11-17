@@ -68,7 +68,7 @@ export function evaluateOne(program,history,world={}){
   var end=run.advance(total),outcome0={survivors:end.survivors,energy:end.budgetAdjustedEnergyPerFounder};
   }
   }finally{tasteExampleListeners.delete(listener);}
-  const tasteStates=founders.map(st=>({masks:[...(st.taste.masks??[])],weights:[...(st.taste.weights??[])],...(st.taste.revise?{evidence:[...st.taste.revise.evidence],n:st.taste.revise.n,s2:st.taste.revise.s2??0,z:st.taste.revise.z,added:st.taste.revise.added.map(a=>a.mask)}:{})}));
+  const aliveIds=new Set(run.world.flies.map(f=>f.id)),tasteStates=founders.map(st=>({alive:aliveIds.has(st.agentId),masks:[...(st.taste.masks??[])],weights:[...(st.taste.weights??[])],...(st.taste.revise?{evidence:[...st.taste.revise.evidence],n:st.taste.revise.n,s2:st.taste.revise.s2??0,z:st.taste.revise.z,added:st.taste.revise.added.map(a=>a.mask)}:{})}));
   const outcome={...outcome0,termEvidence,examples,tasteStates};
   const anchor=run.anchors.C;if(!anchor)return {score:0,discrimination:0,alive:0,...outcome};
   const probe=OdorRoutedExperiment.restore(anchor),book=run.codebook,values=[],balanced=[];

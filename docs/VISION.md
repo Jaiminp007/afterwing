@@ -62,6 +62,9 @@ This is the honest end state of the measurable milestones, following the indepen
 - Body transfer (V1–V3).
 - A body change that raises survival through information: the sip body, [P15](RSI_P15_RESULTS.md). It tripled taste labels but did not raise survival, because the bottleneck is the representation, not label count.
 - A generic richer representation: all pairwise terms from birth, [P16](RSI_P16_RESULTS.md). +0.97 survivors overall (bar 1.25). It gave +2.13 on the pairs family, which it expresses exactly, and −0.18 on the staircase family, so it is a family-specific prior.
+- Selection between generations: not tested. A 4-rule exploration found no benefit, because the lineage relay already finds nearly all target terms without selection ([exploration](RSI_P17_SELECTION_EXPLORATION.md)).
+
+Per the Fable review (2026-11-17), nothing honest remains to try in this world. A further step would need a different world or task, chosen for its own reasons and with its own stopping rule.
 
 **Scope.**
 - Every positive result from P8 on holds only in the opt-in many-odor world (`odorShiftEvery`), on constructed tasks.
