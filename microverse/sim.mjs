@@ -45,10 +45,16 @@ export function newBrain(program, r, inherited = null) {
     rand: r
   };
 }
-function tastePredict(brain, bits) {
+function modelProb(brain, bits) {
   const t = brain.taste, n = t.masks.length; let z = Math.log(3);
   for (let i = 0; i < n; i++) z += t.w[i] * walsh(t.masks[i], bits) / Math.sqrt(n);
-  return .05 + .9 * sigmoid(z);
+  return sigmoid(z);
+}
+// Confidence gate (self-monitoring): the fly trusts its taste model only while the model's running
+// log-loss on fresh tastes beats a base-rate guess; otherwise it predicts the base rate it has seen.
+function tastePredict(brain, bits) {
+  const t = brain.taste, gate = brain.program.confidenceGate !== false && t.lossModel !== undefined && t.lossModel >= t.lossBase;
+  return .05 + .9 * (gate ? t.base : modelProb(brain, bits));
 }
 function tasteUpdate(brain, phi, target) {
   const t = brain.taste, n = phi.length; let z = Math.log(3);
@@ -59,6 +65,9 @@ function tasteUpdate(brain, phi, target) {
 export function tasteLearn(brain, bits, target) {
   const t = brain.taste, phi = t.masks.map(m => walsh(m, bits));
   const residual = target - sigmoid(Math.log(3) + t.w.reduce((s, w, i) => s + w * phi[i], 0) / Math.sqrt(phi.length));
+  { const pm = Math.min(1 - 1e-3, Math.max(1e-3, modelProb(brain, bits))), pb = Math.min(1 - 1e-3, Math.max(1e-3, t.base ?? .75)), ll = p => -(target ? Math.log(p) : Math.log(1 - p));
+    if (t.lossModel === undefined) { t.lossModel = ll(pm); t.lossBase = ll(pb); } else { t.lossModel += .05 * (ll(pm) - t.lossModel); t.lossBase += .05 * (ll(pb) - t.lossBase); }
+    t.base = (t.base ?? .75) + .05 * (target - (t.base ?? .75)); }
   const rec = { bits, phi, target }; t.seen++;
   if (t.memory.length < 32) t.memory.push(rec); else { const j = Math.floor(brain.rand() * t.seen); if (j < 32) t.memory[j] = rec; }
   tasteUpdate(brain, phi, target);
@@ -176,10 +185,10 @@ export class Microverse {
   // smell of predicted-good food in that direction, crowding, energy level]. Stay: dx=dy=0.
   moveFeatures(f, goodPred, dir, occupancy) {
     const N = this.cfg.size, [dx, dy] = MOVES[dir], x = f.x + dx, y = f.y + dy, p = this.plant[this.cell(x, y)];
-    const food = p ? p.amount / this.cfg.plantCap : 0, good = p ? food * (2 * goodPred[p.kind] - 1) : 0;
+    const food = p ? p.amount / this.cfg.plantCap : 0, good = p ? food * goodPred[p.kind] : 0;
     let smell = 0;
     if (dir) { const R = this.cfg.senseRadius;
-      for (let d = 1; d <= R; d++) for (let s = -d; s <= d; s++) { const cx = dx ? f.x + dx * d : f.x + s, cy = dy ? f.y + dy * d : f.y + s, q = this.plant[this.cell(cx, cy)]; if (q) smell += q.amount * (2 * goodPred[q.kind] - 1) / (d * d); }
+      for (let d = 1; d <= R; d++) for (let s = -d; s <= d; s++) { const cx = dx ? f.x + dx * d : f.x + s, cy = dy ? f.y + dy * d : f.y + s, q = this.plant[this.cell(cx, cy)]; if (q) smell += q.amount * goodPred[q.kind] / (d * d); }
       smell = Math.tanh(smell / 4); }
     return [1, food, good, smell, Math.min(1, (occupancy.get(this.cell(x, y)) ?? 0) / 3), f.energy / this.cfg.maxEnergy * 2 - 1];
   }
@@ -194,7 +203,8 @@ export class Microverse {
     const born = [];
     for (const i of order) {
       const f = this.flies[i], b = f.brain, e0 = f.energy;
-      const goodPred = this.codes.map(bits => tastePredict(b, bits));
+      // Expected value of eating each kind for this fly (0 if it would refuse it): drives smell-guided movement.
+      const goodPred = this.codes.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       const bases = MOVES.map((_, d) => this.moveFeatures(f, goodPred, d, occupancy));
       const qs = bases.map(base => moveValue(b, base));
       moveLearn(b, b.move.pending?.reward ?? 0); // complete the previous move with its observed reward

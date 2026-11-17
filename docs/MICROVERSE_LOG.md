@@ -41,3 +41,17 @@ Shares are mostly 0 or 1: competitions end in one strain's extinction.
 Diagnostics bug: `debug-taste.mjs` imported `suite.mjs` and re-ran the suite. The settings were moved to `config.mjs`.
 
 ## G2 / G4 loop (shared cause: the default taste learner chases noise on rules it cannot represent)
+Comparison tool `microverse/compare.mjs` (practice only). First, the decomposition: taste-learning-only vs FROZEN was 0/8, and move-learning-only vs FROZEN was 4/8, so taste learning is what hurts.
+
+| Attempt | Change | Result |
+|---|---|---|
+| 1 | Confidence gate: trust the taste model only while its running log-loss beats a base-rate guess | FIXED vs FROZEN 5/8 (from 0/8) |
+| 2 | Smell and food movement features weigh food by its expected value to the fly, p − (1−p)·toxin, counting only food it would eat. The old (2p−1) weighting made an unconfident fly smell nothing. | see below |
+
+**Null controls.** Identical strains: FIXED vs FIXED gave 9/24 wins (share .38) with no extinctions. That is consistent with chance; there is no structural A/B bias. Outcomes are drift-heavy (mostly 0 or 1), so the 7/8 bars demand large real effects.
+
+**Full practice suite after attempt 2.** Passed: G1–G5, all 8/8. Failed:
+- **G6:** gain .181, late skill .566.
+- **G7:** SELF vs TASTEONLY 5/8; vs MOVEONLY 8/8.
+
+## G6 loop
