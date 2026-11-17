@@ -70,3 +70,19 @@ Per the Fable review (2026-11-17), nothing honest remains to try in this world. 
 - Every positive result from P8 on holds only in the opt-in many-odor world (`odorShiftEvery`), on constructed tasks.
 - The default 12-odor world does not reward taste structure (P7).
 - Human-like cognition, planetary worlds and long-run societies remain research aspirations.
+
+## Microverse (2026-11-17)
+
+The microverse is a separate, closed world (`microverse/`) where flies breed, learn and die continuously. A goal ladder was fixed in advance ([goals](MICROVERSE_GOALS.md), [log](MICROVERSE_LOG.md)) and worked in fix-and-retest loops on practice seeds. A goal counts as closed only after passing on fresh seeds.
+
+- **Closed:** G1–G6, on two fresh final runs with validity checks:
+  - the world is livable;
+  - taste matters;
+  - movement matters;
+  - learning in life helps;
+  - self-improving flies out-compete fixed flies, a random-revision sham and mutation-only evolution in a shared world;
+  - after rule changes, skill is rediscovered.
+- **Not shown:** G7, a separate benefit of self-revising movement on top of taste. It failed twice as registered, and its lower-drift re-test G7b just missed (p = .012).
+
+These results are for a constructed world with hand-written operators. They show bounded, in-world self-improvement, not open-ended intelligence.
+

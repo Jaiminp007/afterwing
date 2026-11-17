@@ -122,3 +122,27 @@ Validity checks, all at commit `da995b0` on practice seeds:
 | Label leaks | Smell and movement senses use only the fly's own taste prediction of the current code |
 
 **Verdict: G1–G6 are CLOSED** (two fresh final runs).
+
+## G7b result (seeds 70001–70048, commit `da995b0`)
+
+| Contrast | SELF | Other | Difference | Positive seeds | p | Pass |
+|---|---|---|---|---|---|---|
+| SELF − TASTEONLY | 55.44 | 54.56 | +0.88 | 30/48 | 0.0119 | **no** (p ≥ .01) |
+| SELF − MOVEONLY | 55.44 | 47.63 | +7.81 | 48/48 | < 0.00001 | yes |
+
+**G7b FAILS** on SELF − TASTEONLY, by a narrow margin.
+- The size bar (≥ 0.7 flies) was met. The p-value missed the frozen cutoff of .01.
+- As frozen, this was one shot. **G7 is reported as not shown**, and the loop stops for this goal.
+- The direction is consistently positive (practice p = .033, final p = .012), so movement self-revision plausibly adds a small benefit, about 1.6% more flies sustained. The registered tests do not establish it.
+
+## Final status of the ladder
+
+| Goal | Status |
+|---|---|
+| G1 The world is livable | **CLOSED** |
+| G2 Taste matters | **CLOSED** |
+| G3 Movement matters | **CLOSED** (mostly via instinct; learning's part is smaller) |
+| G4 Learning in life helps | **CLOSED** |
+| G5 Self-improvement helps (vs FIXED and SHAM; also beats EVO) | **CLOSED** |
+| G6 They adapt | **CLOSED** (rediscovery, not hoarding) |
+| G7 Both systems improve | **NOT SHOWN**: taste self-revision is the main source of gains. Movement self-revision's extra benefit is small and missed significance (G7 failed 3/8 and 5/8; G7b p = .012) |
