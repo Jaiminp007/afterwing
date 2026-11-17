@@ -178,7 +178,7 @@ export class Microverse {
     const N = this.cfg.size; this.plant = Array.from({ length: N * N }, () => null);
     this.patchCenters = Array.from({ length: this.cfg.patches }, () => this.randomCenter());
     this.ruleIndex = -1; this.ruleEnds = 0; this.nextRule(); this.redrawCodes();
-    if (this.cfg.habitats) this.habitatInit();
+    if (this.cfg.habitats || this.cfg.dualFood) this.habitatInit();
     for (let i = 0; i < this.cfg.patches; i++) this.seedPatch(i);
     this.flies = []; this.stats = { births: 0, deaths: 0, starved: 0, aged: 0 }; this.history = [];
     const names = Object.keys(strains);
@@ -188,7 +188,9 @@ export class Microverse {
   // Opt-in habitats (P13b H7): the right half of the world (x >= size/2) is volatile, with its own rule
   // that switches every habitats.every ticks and its own balanced odor table; the left half keeps the main rule.
   isVol(x) { const N = this.cfg.size; return ((x % N) + N) % N >= N / 2; }
-  gv(gp, kind, x) { return this.cfg.habitats && this.isVol(x) ? this.gp2[kind] : gp[kind]; }
+  gv(gp, kind, x) { return (this.cfg.habitats && this.isVol(x)) || (this.cfg.dualFood && kind >= KINDS / 2) ? this.gp2[kind] : gp[kind]; }
+  // Opt-in dual food (P13b H9): fruit kinds (0-7) follow the main (stable) rule; leaf kinds (8-15) follow a
+  // second rule that switches every dualFood.every ticks. Even patches are fruit-rich, odd patches leaf-rich.
   habitatInit() { this.r2 = rng32(mix(this.seed ^ 0x5eed2)); this.habitatRule(); }
   habitatRule() { const fams = ['pairs', 'staircase', 'triples', 'single']; this.rule2 = makeRule(fams[Math.floor(this.r2() * 4)], Math.floor(this.r2() * 4294967296) >>> 0 || 1); this.habitatCodes(); }
   habitatCodes() { const seen = new Set(), good = [], bad = [];
@@ -216,7 +218,9 @@ export class Microverse {
     for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) {
       if (dx * dx + dy * dy > R * R || this.r() > this.cfg.plantDensity) continue;
       const x = (cx + dx + N) % N, y = (cy + dy + N) % N, k = y * N + x;
-      if (!this.plant[k]) this.plant[k] = { kind: Math.floor(this.r() * KINDS), amount: this.cfg.plantCap * this.r(), patch: i };
+      if (!this.plant[k]) { let kind = Math.floor(this.r() * KINDS);
+        if (this.cfg.dualFood) { const fruitPatch = i % 2 === 0, half = KINDS / 2, own = this.r() < .85; kind = Math.floor(this.r() * half) + ((fruitPatch === own) ? 0 : half); }
+        this.plant[k] = { kind, amount: this.cfg.plantCap * this.r(), patch: i }; }
     }
   }
   spawn(strain, program, parent, x, y, energy, gen) {
@@ -293,6 +297,8 @@ export class Microverse {
     for (const f of this.flies) { const o = f.brain.program.memOracle; if (o) f.brain.genes.tasteMemory = this.lastSwitch !== undefined && this.tick - this.lastSwitch < 300 ? o.fast : o.slow;
       // Headroom instrument (H4) only: regimeOracle knows whether the current rule epoch is volatile (< 300 ticks).
       const ro = f.brain.program.regimeOracle; if (ro) f.brain.genes.tasteMemory = this.cfg.ruleSchedule[this.ruleIndex][1] < 300 ? ro.volatile : ro.calm; }
+    if (this.cfg.dualFood) { if (this.tick && this.tick % this.cfg.dualFood.every === 0) this.habitatRule(); else if (this.tick && this.tick % cfg.shiftEvery === 0) this.habitatCodes();
+      for (const f of this.flies) { const dO = f.brain.program.dietOracle; if (dO) { const n = f.dietN ?? 0; f.brain.genes.tasteMemory = n >= 5 && (f.dietLeaf ?? 0) / n > .5 ? dO.leafy : dO.fruity; } } }
     if (this.cfg.habitats) { if (this.tick && this.tick % this.cfg.habitats.every === 0) this.habitatRule(); else if (this.tick && this.tick % cfg.shiftEvery === 0) this.habitatCodes();
       for (const f of this.flies) { const ho = f.brain.program.habitatOracle; if (ho) f.brain.genes.tasteMemory = this.isVol(f.x) ? ho.volatile : ho.calm; } }
     if (this.tick % cfg.shiftEvery === 0 && this.tick) this.redrawCodes();
@@ -305,7 +311,7 @@ export class Microverse {
       const f = this.flies[i], b = f.brain, e0 = f.energy;
       // Expected value of eating each kind for this fly (0 if it would refuse it): drives smell-guided movement.
       const goodPred = this.codes.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
-      if (cfg.habitats) this.gp2 = this.codes2.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
+      if (cfg.habitats || cfg.dualFood) this.gp2 = this.codes2.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       const needTarget = b.move.masks.some(m => m & 1 << 8) || b.program.moveRevise, target = needTarget ? this.bestTarget(f, goodPred, occupancy) : null;
       const bases = MOVES.map((_, d) => this.moveFeatures(f, goodPred, d, occupancy, target));
       const qs = bases.map(base => moveValue(b, base));
@@ -320,8 +326,9 @@ export class Microverse {
       f.energy -= cfg.metabolism + (dir ? cfg.moveCost : 0) + cfg.brainCost * (b.taste.masks.length + b.move.masks.length);
       const p = this.plant[to];
       if (p && p.amount > .2) {
-        const vol = cfg.habitats && this.isVol(f.x), bits = (vol ? this.codes2 : this.codes)[p.kind];
+        const vol = (cfg.habitats && this.isVol(f.x)) || (cfg.dualFood && p.kind >= KINDS / 2), bits = (vol ? this.codes2 : this.codes)[p.kind];
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
+          if (cfg.dualFood) { f.dietN = (f.dietN ?? 0) * .98 + 1; f.dietLeaf = (f.dietLeaf ?? 0) * .98 + (p.kind >= KINDS / 2 ? 1 : 0); }
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
           { const dE = good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); f.energy += dE; f.feedWin = (f.feedWin ?? 0) + dE; if (!good) { f.dmgSum = (f.dmgSum ?? 0) - dE; f.badTake = (f.badTake ?? 0) + take; } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));

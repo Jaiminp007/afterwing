@@ -206,3 +206,18 @@ The gate (META ≥ EVO-R + 1.0, ≥ SHAM + 1.0, > FIXED, all p < .01) and the co
 | Individual toxin sensitivity | about 0 after evidence; the 2.2 oracle edge comes before any evidence exists |
 
 **P13b has no pass.** Producing one would require weakening the sham or EVO-R, lowering the bar, or continuing to search worlds until one crosses. All three would make the result false.
+
+## P13b: two skills with conflicting learning needs (headroom H9; the direction named as untried)
+
+Opt-in `dualFood`: fruit kinds follow a stable rule all run (long memory should pay); leaf kinds follow a rule that switches every 150 ticks (short memory should pay). Both go through one shared taste learner with one memory gene. Patches are fruit-rich or leaf-rich (85/15), so each fly's diet depends on where it lives and is not predictable by genes. Leaf-diet fraction across flies: 10th percentile .02, median .39, 90th percentile .80. Practice seeds 101–116, Δ flies vs R* (memory 800):
+
+| Strategy | Δ flies |
+|---|---|
+| Fixed memory 50 | −.52 |
+| Fixed memory 200 | −.17 |
+| Fixed memory ∞ | **+.85**, the best fixed setting |
+| Diet oracle (memory set by the fly's own recent diet), best of three | −.35 |
+
+**H9 FAILED.** No headroom: a single fixed memory beats every diet-aware oracle. The rapidly switching leaf rule cannot be learned at any memory setting, so tuning memory for it buys nothing.
+
+**P13b status: nine designs, all bounded below the gate.** The gate and the controls are unchanged; no honest pass exists in any design tested.
