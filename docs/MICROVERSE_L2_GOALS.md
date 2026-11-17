@@ -57,3 +57,60 @@ Each fly runs a fixed, hand-written meta-rule that adjusts its R genes from its 
 - META − FIXED-R0 > 0, p < .01.
 
 **Label:** one level of in-lineage recursion with a hand-written meta-rule, plus selection.
+
+## Headroom results (practice seeds 101–116)
+
+**H1 FAILED its bar.** These are the single-knob changes vs R0 (bar ≥ 1.5 flies):
+
+| Change | Δ flies |
+|---|---|
+| z 1.5 | +1.05 (best) |
+| prune 3 | +.60 |
+| every 16 | +.16 |
+| cap 12 | +.03 |
+| memory 400 | −.52 |
+| memory 100 | −.62 |
+| every 4 | −.84 |
+| prune 1 | −1.05 |
+| cap 24 | −2.37 |
+| z 6 | −3.31 |
+
+**H2 FAILED its bar.** The per-family best settings differ (z 1.5 helps pairs / staircase / triples by about +1 but hurts single by −4.5; z 6 costs triples −7.8). But R0 sits near every family's optimum: an oracle schedule gains < 1 fly, against a bar of 1.5.
+
+**Diagnosis.** R0 is already hand-tuned. The designer did the level-2 step by hand in the G6 loop, adding forgetting and pruning. So, from R0, both P11b and P13b are **blocked (no headroom)**.
+
+## Amendment A1 (2026-11-17, after H1/H2 and before any P11b/P13b tuning)
+
+Both tests now start from **R_P12**: the reviser as it was before the designer's G-loop tuning. That means no forgetting (`tasteMemory` 1e12) and no pruning (`tastePrune` 0); the other knobs are at R0.
+
+**Headroom H1'.** R0 − R_P12 = +6.4 flies, 16/16, p = .00002. The question becomes: **can the system's own level-2 process rediscover what the designer added by hand?** The R0 − R_P12 gap is the reference.
+
+### P11b (A1)
+
+- **Level-2 operator** (hand-written, fixed now): a random one-step climber over the grid:
+
+| Gene | Values |
+|---|---|
+| `tasteMemory` | 1e12, 800, 400, 200, 100, 50 |
+| `tastePrune` | 0, .5, 1, 2, 3, 4 |
+| `tasteZ` | 1.5, 2, 3, 4, 6 |
+| `tasteEvery` | 4, 8, 16 |
+| `tasteCap` | 12, 16, 24 |
+
+- **Search.** 24 proposals. Each one changes a single knob by one grid step. A proposal is accepted if its paired-solo mean against the current best is ≥ +0.5 flies on training seeds 101–116. The climber seed is 4242.
+- **Gate** (fresh seeds 80001–80048): R* − R_P12 ≥ 1.0 flies with p < .01.
+- **Reported, not gated:** R* − R0 (system vs designer).
+
+### P13b (A1)
+
+- **META.** Starts at R_P12 and runs a hand-written meta-rule, applied at each of a fly's revision checks (every `tasteEvery` tastings):
+  - **Pruning.** If more than half of the fly's added features have |w| < 1, `tastePrune` goes one grid step up. If none do, it goes one step down.
+  - **Forgetting.** If the confidence gate has distrusted the model (model loss ≥ base-rate loss) for 3 consecutive checks after once trusting it, `tasteMemory` goes one step shorter. If the gate has trusted the model for 10 consecutive checks, it goes one step longer.
+  - Children inherit the adjusted genes.
+- **EVO-R.** Starts at R_P12. At birth, `tasteMemory` and `tastePrune` each mutate one grid step in a random direction with probability .1. There is no meta-rule.
+- **SHAM.** The same firing conditions and step sizes as META, with each step's direction drawn at random.
+- **FIXED.** R_P12 with no tuning.
+- **Gates** (fresh seeds 90001–90048, paired solo):
+  - META − EVO-R ≥ 1.0, p < .01;
+  - META − SHAM ≥ 1.0, p < .01;
+  - META − FIXED > 0, p < .01.
