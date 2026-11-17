@@ -116,3 +116,22 @@ Every world tried bounds the possible gain of own-experience reviser tuning over
 | Volatility, long lives | about .39 |
 
 **P13b is not achievable in the microverse as built**, and no amount of tuning the meta-rule can fix that: the cap comes from the world, not the tuner. Making it pass would require lowering the frozen bar or weakening the controls; neither was done.
+
+## P13b: redesigning the flies (headroom H6; user: "make anything you want to the flies")
+
+Opt-in individual senses (`noiseNiche` [.02, .3]): each fly draws its own taste-sensor noise at birth, and the noise is not inherited. The idea: when each fly must discover how much to trust its own feedback, in-life tuning of its learning rate should beat any fixed rate. Practice seeds 101–116:
+
+| Strategy | Δ flies |
+|---|---|
+| Fixed step 2, vs step 4 | **+1.07**, the best fixed setting |
+| Fixed step 1, vs step 4 | −.72 |
+| Fixed step 8, vs step 4 | −2.55 |
+| Best per-fly oracle (sets each fly's step from its true noise), vs the best fixed step | **−.33**; the other oracle mappings ran −.73 to −2.26 |
+
+**H6 FAILED.** No headroom: even knowing each fly's true noise does not beat one fixed learning rate. The learner (gated logistic with replay, forgetting and pruning) is robust enough that a single setting is near-best for every fly.
+
+### Conclusion after six designs (normal, fast, volatile, volatile + noisy, volatile + long lives, individual senses)
+
+**P13b is not achievable in this microverse.** In every design, the best possible gain from a lineage or fly tuning its own reviser over a fixed setting that evolution finds on its own is below the 1.0 gate, or there is none. The robustness that makes the reviser good is also why there is nothing left for in-life level-2 tuning to do.
+
+The gate and the controls were never changed.

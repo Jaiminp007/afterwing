@@ -218,6 +218,10 @@ export class Microverse {
     if (prog.oracle) prog = { ...prog, tasteMasks: [0, ...this.rule.target.filter(t => t)] };
     const inh = parent ? { tasteEv: parent.brain.taste.ev, tasteN: parent.brain.taste.n, tasteS2: parent.brain.taste.s2, moveEv: parent.brain.move.ev, moveN: parent.brain.move.n, moveS2: parent.brain.move.s2 } : null;
     const f = { id, strain, x, y, energy, age: 0, gen, parent: parent?.id ?? 0, brain: newBrain(prog, r, prog.inheritEvidence === false ? null : inh), eaten: { good: 0, bad: 0 }, tastings: 0 };
+    // Opt-in individual senses: each fly draws its own taste-sensor noise at birth (not inherited).
+    if (this.cfg.noiseNiche) { const [lo, hi] = this.cfg.noiseNiche; f.noise = r() < .5 ? lo : hi;
+      // Headroom instrument (H6) only: stepOracle sets the learning rate from the fly's true noise level.
+      if (prog.stepOracle) f.brain.genes.tasteStep = f.noise === lo ? prog.stepOracle.lo : prog.stepOracle.hi; }
     this.flies.push(f); return f;
   }
   mutate(prog, r) {
@@ -298,7 +302,7 @@ export class Microverse {
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = this.kindValence[p.kind] > 0;
           f.energy += good ? take : -take * cfg.toxin; good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
-          tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < cfg.labelNoise ? 1 : 0));
+          tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }
       }
       f.energy = Math.min(cfg.maxEnergy, f.energy); f.age++;
