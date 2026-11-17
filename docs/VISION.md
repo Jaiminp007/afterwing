@@ -66,5 +66,3 @@ This is the honest end state of the measurable milestones, following the indepen
 - Every positive result from P8 on holds only in the opt-in many-odor world (`odorShiftEvery`), on constructed tasks.
 - The default 12-odor world does not reward taste structure (P7).
 - Human-like cognition, planetary worlds and long-run societies remain research aspirations.
-Human-like cognition, planetary worlds and long-run societies remain research
-aspirations, as stated above.
