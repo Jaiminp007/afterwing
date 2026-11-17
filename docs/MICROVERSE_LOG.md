@@ -77,3 +77,23 @@ Headroom check: a measuring-only planner strain (heads for the best food it sens
 ## Final run 1
 
 Fresh seeds 50001–50008, never used before. The code is frozen at the commit before this run.
+**Result:**
+- **G1–G6 CLOSED** on fresh seeds. G2–G5 were all 8/8; G6 gain .394, late skill .775.
+- **G7 FAILED:** SELF vs TASTEONLY 3/8, share .33; vs MOVEONLY 8/8. The practice pass did not generalize.
+- Seeds 50001–50008 are spent.
+
+## G7 loop, continued (step back)
+
+The planner headroom check gave only 5/8 against TASTEONLY, so the G7 bar (6/8) is out of reach in this world even for perfect planning. Next: make movement matter more in the world, then re-check headroom before any brain change. All goals will be re-tested on the next final run.
+| Attempt | Change | SELF vs TASTEONLY |
+|---|---|---|
+| 4 (world) | Food relocates every 50 ticks with 8 patches. Planner headroom vs TASTEONLY rises to 8/8. | 2/8. Movement learning helps (6/8 vs instinct-only), but revision does not |
+| 5 (brain) | Sense menu: optional senses (near smell r2, far smell r6, heads-toward-best-food, food-worth-staying) wired in by the fly's own evidence; TASTEONLY can reach them only by random mutation | 3/8 |
+| diagnostic | brainCost 0 | 6/8. The feature cost (.002 per feature per tick, about +20% metabolism) ate the gain |
+| 6 (world) | brainCost .0005 (still a real cost) | 7/8, .89 |
+
+**Full practice suite in the new world (relocate 50, 8 patches, brainCost .0005): all of G1–G7 pass.**
+
+## Final run 2
+
+Fresh seeds 60001–60008. Every goal is re-tested, because the world changed.

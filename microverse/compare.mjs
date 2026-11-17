@@ -7,7 +7,7 @@ import { runWorld, STRAINS } from './run.mjs';
 import { TICKS, EVERY, CONFIG } from './config.mjs';
 const build = spec => { const s = STRAINS[spec.base]; return { ...s, ...(spec.set ?? {}), genes: { ...s.genes, ...(spec.genes ?? {}) } }; };
 if (!isMainThread) {
-  const { seed, A, B } = workerData, { snaps, final } = runWorld(seed, TICKS, ['A', 'B'], { every: EVERY, config: CONFIG, strains: { A: build(A), B: build(B) } });
+  const { seed, A, B } = workerData, { snaps, final } = runWorld(seed, TICKS, ['A', 'B'], { every: EVERY, config: { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') }, strains: { A: build(A), B: build(B) } });
   const late = snaps.filter(s => s.tick >= 15000), share = !late.length || !final.pop ? 0 : late.reduce((a, s) => a + (s.pop ? s.strains.A.n / s.pop : 0), 0) / late.length;
   parentPort.postMessage({ seed, share, extinct: !final.pop, diedAt: final.pop ? null : final.tick });
 } else {
