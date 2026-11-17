@@ -90,3 +90,29 @@ Measuring-only regime oracle vs fixed settings (practice 101–116, paired solo,
 **Diagnosis.** It is data-limited, the same limit that stopped in-life self-revision earlier. A fly's life holds too few tastings to measure which learning setting is better, and to profit from it, before evolution finds a good fixed setting anyway.
 
 What could honestly change this: much longer, richer lives (more feedback per lifetime), or a reviser knob whose optimum swings strongly and unpredictably within a lifetime. Both would be new lines with their own headroom checks.
+
+## P13b longer-lives line (headroom H5)
+
+Variant A (volatility world) with maxAge 1200 → 6000: more feedback per life and fewer generations for evolution. Δ flies vs R*, practice seeds 101–116:
+
+| Strategy | Δ flies |
+|---|---|
+| Best fixed: memory 200 | +1.40 (14/16) |
+| Regime oracle | +1.79 (12/16) |
+| **Oracle − best fixed** | **about +.39** |
+
+**H5 FAILED** (bar ≥ 1.5).
+
+### Final position on P13b
+
+Every world tried bounds the possible gain of own-experience reviser tuning over a fixed setting (which evolution finds on its own) well below the 1.0 gate:
+
+| World | Oracle − best fixed |
+|---|---|
+| Normal (H2/H3) | < 1 |
+| Fast switching | about .66 |
+| Volatility | about 1.1 |
+| Volatility, noisy labels | about 0 |
+| Volatility, long lives | about .39 |
+
+**P13b is not achievable in the microverse as built**, and no amount of tuning the meta-rule can fix that: the cap comes from the world, not the tuner. Making it pass would require lowering the frozen bar or weakening the controls; neither was done.
