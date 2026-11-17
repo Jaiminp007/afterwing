@@ -178,12 +178,25 @@ export class Microverse {
     const N = this.cfg.size; this.plant = Array.from({ length: N * N }, () => null);
     this.patchCenters = Array.from({ length: this.cfg.patches }, () => this.randomCenter());
     this.ruleIndex = -1; this.ruleEnds = 0; this.nextRule(); this.redrawCodes();
+    if (this.cfg.habitats) this.habitatInit();
     for (let i = 0; i < this.cfg.patches; i++) this.seedPatch(i);
     this.flies = []; this.stats = { births: 0, deaths: 0, starved: 0, aged: 0 }; this.history = [];
     const names = Object.keys(strains);
     for (let i = 0; i < this.cfg.founders; i++) { const s = names[i % names.length]; this.spawn(s, strains[s], null, Math.floor(this.r() * N), Math.floor(this.r() * N), 50, 0); }
   }
   randomCenter() { const N = this.cfg.size; return [Math.floor(this.r() * N), Math.floor(this.r() * N)]; }
+  // Opt-in habitats (P13b H7): the right half of the world (x >= size/2) is volatile, with its own rule
+  // that switches every habitats.every ticks and its own balanced odor table; the left half keeps the main rule.
+  isVol(x) { const N = this.cfg.size; return ((x % N) + N) % N >= N / 2; }
+  gv(gp, kind, x) { return this.cfg.habitats && this.isVol(x) ? this.gp2[kind] : gp[kind]; }
+  habitatInit() { this.r2 = rng32(mix(this.seed ^ 0x5eed2)); this.habitatRule(); }
+  habitatRule() { const fams = ['pairs', 'staircase', 'triples', 'single']; this.rule2 = makeRule(fams[Math.floor(this.r2() * 4)], Math.floor(this.r2() * 4294967296) >>> 0 || 1); this.habitatCodes(); }
+  habitatCodes() { const seen = new Set(), good = [], bad = [];
+    while (good.length < KINDS / 2 || bad.length < KINDS / 2) { const c = Math.floor(this.r2() * FULL); if (seen.has(c)) continue; seen.add(c);
+      const bits = [...Array(ODOR_BITS).keys()].map(b => c >> b & 1 ? 1 : -1), v = valence(this.rule2, bits);
+      if (v > 0 && good.length < KINDS / 2) good.push(bits); else if (v < 0 && bad.length < KINDS / 2) bad.push(bits); }
+    this.codes2 = [...good, ...bad]; for (let i = this.codes2.length - 1; i > 0; i--) { const j = Math.floor(this.r2() * (i + 1)); [this.codes2[i], this.codes2[j]] = [this.codes2[j], this.codes2[i]]; }
+    this.kindValence2 = this.codes2.map(b => valence(this.rule2, b)); }
   nextRule() {
     const sch = this.cfg.ruleSchedule; this.ruleIndex = (this.ruleIndex + 1) % sch.length;
     const [family, ticks] = sch[this.ruleIndex]; this.epoch = (this.epoch ?? -1) + 1; this.rule = makeRule(family, mix(this.seed ^ (this.tick + 1) * 7919)); this.ruleEnds = this.tick + ticks;
@@ -240,30 +253,30 @@ export class Microverse {
   // 8 heads toward the best food it senses, 9 food here worth staying for (stay only)]. Stay: dx=dy=0.
   moveFeatures(f, goodPred, dir, occupancy, target) {
     const [dx, dy] = MOVES[dir], x = f.x + dx, y = f.y + dy, p = this.plant[this.cell(x, y)];
-    const food = p ? p.amount / this.cfg.plantCap : 0, good = p ? food * goodPred[p.kind] : 0;
+    const food = p ? p.amount / this.cfg.plantCap : 0, good = p ? food * this.gv(goodPred, p.kind, x) : 0;
     let s2 = 0, s4 = 0, s6 = 0;
     if (dir) for (let d = 1; d <= 6; d++) for (let s = -d; s <= d; s++) { const cx = dx ? f.x + dx * d : f.x + s, cy = dy ? f.y + dy * d : f.y + s, q = this.plant[this.cell(cx, cy)];
-      if (!q) continue; const v = q.amount * goodPred[q.kind] / (d * d); if (d <= 2) s2 += v; if (d <= 4) s4 += v; s6 += v; }
+      if (!q) continue; const v = q.amount * this.gv(goodPred, q.kind, cx) / (d * d); if (d <= 2) s2 += v; if (d <= 4) s4 += v; s6 += v; }
     const toward = dir && target ? (Math.abs(target[0] - dx) + Math.abs(target[1] - dy) < Math.abs(target[0]) + Math.abs(target[1]) ? 1 : 0) : 0;
-    const stay = !dir && p && p.amount > 1 && goodPred[p.kind] > 0 ? 1 : 0;
+    const stay = !dir && p && p.amount > 1 && this.gv(goodPred, p.kind, x) > 0 ? 1 : 0;
     return [1, food, good, Math.tanh(s4 / 4), Math.min(1, (occupancy.get(this.cell(x, y)) ?? 0) / 3), f.energy / this.cfg.maxEnergy * 2 - 1,
       Math.tanh(s2 / 2), Math.tanh(s6 / 6), toward, stay];
   }
   // Best food cell the fly senses (radius 4), by amount*EV/(1+distance)/(1+crowd); null if none.
   bestTarget(f, goodPred, occupancy) {
     const R = this.cfg.senseRadius; let best = null, bv = 0;
-    for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) { if (!dx && !dy) continue; const q = this.plant[this.cell(f.x + dx, f.y + dy)]; if (!q || q.amount <= .2 || goodPred[q.kind] <= 0) continue;
-      const v = q.amount * goodPred[q.kind] / (1 + Math.abs(dx) + Math.abs(dy)) / (1 + (occupancy.get(this.cell(f.x + dx, f.y + dy)) ?? 0)); if (v > bv) { bv = v; best = [dx, dy]; } }
+    for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) { if (!dx && !dy) continue; const q = this.plant[this.cell(f.x + dx, f.y + dy)]; if (!q || q.amount <= .2 || this.gv(goodPred, q.kind, f.x + dx) <= 0) continue;
+      const v = q.amount * this.gv(goodPred, q.kind, f.x + dx) / (1 + Math.abs(dx) + Math.abs(dy)) / (1 + (occupancy.get(this.cell(f.x + dx, f.y + dy)) ?? 0)); if (v > bv) { bv = v; best = [dx, dy]; } }
     return best;
   }
   // Planner (instrument): stay on edible food worth a bite; else step toward the cell maximising
   // amount*EV/(1+distance) within the sense radius, judged by the fly's own taste (no oracle valence).
   plan(f, goodPred, occupancy) {
     const R = this.cfg.senseRadius, here = this.plant[this.cell(f.x, f.y)];
-    if (here && here.amount > 1 && goodPred[here.kind] > 0) return 0;
+    if (here && here.amount > 1 && this.gv(goodPred, here.kind, f.x) > 0) return 0;
     let best = null, bv = 0;
-    for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) { if (!dx && !dy) continue; const q = this.plant[this.cell(f.x + dx, f.y + dy)]; if (!q || q.amount <= .2 || goodPred[q.kind] <= 0) continue;
-      const v = q.amount * goodPred[q.kind] / (1 + Math.abs(dx) + Math.abs(dy)) / (1 + (occupancy.get(this.cell(f.x + dx, f.y + dy)) ?? 0)); if (v > bv) { bv = v; best = [dx, dy]; } }
+    for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) { if (!dx && !dy) continue; const q = this.plant[this.cell(f.x + dx, f.y + dy)]; if (!q || q.amount <= .2 || this.gv(goodPred, q.kind, f.x + dx) <= 0) continue;
+      const v = q.amount * this.gv(goodPred, q.kind, f.x + dx) / (1 + Math.abs(dx) + Math.abs(dy)) / (1 + (occupancy.get(this.cell(f.x + dx, f.y + dy)) ?? 0)); if (v > bv) { bv = v; best = [dx, dy]; } }
     if (!best) return 1 + Math.floor(f.brain.rand() * 4);
     const [dx, dy] = best; return Math.abs(dx) >= Math.abs(dy) ? (dx > 0 ? 2 : 4) : (dy > 0 ? 3 : 1);
   }
@@ -274,6 +287,8 @@ export class Microverse {
     for (const f of this.flies) { const o = f.brain.program.memOracle; if (o) f.brain.genes.tasteMemory = this.lastSwitch !== undefined && this.tick - this.lastSwitch < 300 ? o.fast : o.slow;
       // Headroom instrument (H4) only: regimeOracle knows whether the current rule epoch is volatile (< 300 ticks).
       const ro = f.brain.program.regimeOracle; if (ro) f.brain.genes.tasteMemory = this.cfg.ruleSchedule[this.ruleIndex][1] < 300 ? ro.volatile : ro.calm; }
+    if (this.cfg.habitats) { if (this.tick && this.tick % this.cfg.habitats.every === 0) this.habitatRule(); else if (this.tick && this.tick % cfg.shiftEvery === 0) this.habitatCodes();
+      for (const f of this.flies) { const ho = f.brain.program.habitatOracle; if (ho) f.brain.genes.tasteMemory = this.isVol(f.x) ? ho.volatile : ho.calm; } }
     if (this.tick % cfg.shiftEvery === 0 && this.tick) this.redrawCodes();
     if (this.tick % cfg.relocateEvery === 0 && this.tick) { const i = Math.floor(this.r() * cfg.patches); for (let k = 0; k < this.plant.length; k++) if (this.plant[k]?.patch === i) this.plant[k] = null; this.patchCenters[i] = this.randomCenter(); this.seedPatch(i); }
     for (const p of this.plant) if (p) p.amount = Math.min(cfg.plantCap, p.amount + cfg.regrow);
@@ -284,6 +299,7 @@ export class Microverse {
       const f = this.flies[i], b = f.brain, e0 = f.energy;
       // Expected value of eating each kind for this fly (0 if it would refuse it): drives smell-guided movement.
       const goodPred = this.codes.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
+      if (cfg.habitats) this.gp2 = this.codes2.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       const needTarget = b.move.masks.some(m => m & 1 << 8) || b.program.moveRevise, target = needTarget ? this.bestTarget(f, goodPred, occupancy) : null;
       const bases = MOVES.map((_, d) => this.moveFeatures(f, goodPred, d, occupancy, target));
       const qs = bases.map(base => moveValue(b, base));
@@ -298,9 +314,9 @@ export class Microverse {
       f.energy -= cfg.metabolism + (dir ? cfg.moveCost : 0) + cfg.brainCost * (b.taste.masks.length + b.move.masks.length);
       const p = this.plant[to];
       if (p && p.amount > .2) {
-        const bits = this.codes[p.kind];
+        const vol = cfg.habitats && this.isVol(f.x), bits = (vol ? this.codes2 : this.codes)[p.kind];
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
-          const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = this.kindValence[p.kind] > 0;
+          const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
           f.energy += good ? take : -take * cfg.toxin; good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }

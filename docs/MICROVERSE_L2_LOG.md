@@ -135,3 +135,36 @@ Opt-in individual senses (`noiseNiche` [.02, .3]): each fly draws its own taste-
 **P13b is not achievable in this microverse.** In every design, the best possible gain from a lineage or fly tuning its own reviser over a fixed setting that evolution finds on its own is below the 1.0 gate, or there is none. The robustness that makes the reviser good is also why there is nothing left for in-life level-2 tuning to do.
 
 The gate and the controls were never changed.
+
+## P13b: habitats (headroom H7)
+
+Opt-in `habitats`: the left half of the world is calm (one staircase rule all run); the right half is volatile (its own rule switches every 150 ticks, with its own balanced odor table). Flies wander and are born where their parents are, so genes cannot know a fly's habitat. The flies split evenly between the halves (28 / 28 at tick 20,000, seed 101). Practice seeds 101–116, Δ flies vs R* (memory 800):
+
+| Strategy | Δ flies |
+|---|---|
+| Fixed memory 50 | −2.48 |
+| Fixed memory 200 | −1.84 |
+| Fixed memory ∞ | −.92 |
+| Habitat oracle (memory set by the fly's current habitat), best of three | −.47 |
+
+**H7 FAILED.** No headroom: the single fixed R* beats every habitat-aware oracle. Switching memory as a fly crosses habitats disrupts its learning.
+
+## P13b: COMPLETE. Final verdict: NOT ACHIEVABLE in the microverse
+
+Seven designs were each checked with a measuring-only oracle, which sets the upper limit on what a lineage or fly tuning its own reviser could gain over a fixed setting that evolution finds on its own (gate: ≥ 1.0 flies):
+
+| # | Design | Oracle gain over best fixed |
+|---|---|---|
+| 1 | Normal world (H2/H3) | < 1; switch-timed oracle +.03 |
+| 2 | Fast rule switching | about +.66 |
+| 3 | Volatile calm/burst regimes | about +1.1 (a tuner would need ≈100% of the oracle) |
+| 4 | Volatile, noisy labels | about 0 |
+| 5 | Volatile, long lives | about +.39 |
+| 6 | Individual (non-heritable) sensor noise, learning-rate oracle | none (−.33) |
+| 7 | Calm/volatile habitats | none (−.47) |
+
+On practice seeds, the meta-tuners tried (direction rules, trial-and-revert, window evidence) never beat the matched sham by ≥ 1.0. No final was run.
+
+**Reason.** The reviser that the P11b level-2 search found (forgetting, pruning, confidence gate, replay) is robust: one fixed setting is near-best across every situation tested. Evolution finds it, so in-life or in-lineage tuning of the reviser has nothing left to add.
+
+The original P13 stays FAILED. **P13b is closed as not achievable.** The gate and the controls were never changed.
