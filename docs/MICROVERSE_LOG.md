@@ -55,3 +55,25 @@ Comparison tool `microverse/compare.mjs` (practice only). First, the decompositi
 - **G7:** SELF vs TASTEONLY 5/8; vs MOVEONLY 8/8.
 
 ## G6 loop
+Trace (SELF, seed 101): the taste feature set reaches its cap of 16 by tick 3,000 and stays full. Target terms held drop in later epochs (second pairs epoch: about 1.0–1.4, against 2.9 in the first).
+
+| Attempt | Change | G6 |
+|---|---|---|
+| 1 | Forgetting: evidence decays (×(1−1/200) per tasting); when the set is full, drop the weakest added feature with \|w\| < 2. SHAM shares the same pruning, so the control stays matched. | **pass**: gain .368, late skill .757 |
+
+**Full practice suite.** Passed: G1–G6. Failed: G7 (SELF vs TASTEONLY 3/8, share .47; vs MOVEONLY 8/8).
+
+## G7 loop
+Headroom check: a measuring-only planner strain (heads for the best food it senses, judged by its own taste) beat TASTEONLY 5/8 (share .72). So movement had modest room to improve.
+
+| Attempt | Change | SELF vs TASTEONLY |
+|---|---|---|
+| 1 | Movement-revision evidence uses the decaying trace (delayed credit) | 3/8, .45: no progress |
+| 2 | **Bug fix:** movement candidates were mostly duplicates (bias × x = x) or move-invariant. Candidates now must be products of real features with at least one move-dependent feature. | 5/8, .54 |
+| 3 | Prune the weakest added movement feature when full (\|w\| < .5), as for taste | 6/8, .66 |
+
+**Full practice suite after attempt 3: all of G1–G7 pass.**
+
+## Final run 1
+
+Fresh seeds 50001–50008, never used before. The code is frozen at the commit before this run.

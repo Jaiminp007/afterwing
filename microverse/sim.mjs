@@ -73,9 +73,16 @@ export function tasteLearn(brain, bits, target) {
   tasteUpdate(brain, phi, target);
   const m = t.memory[Math.floor(brain.rand() * t.memory.length)]; tasteUpdate(brain, m.phi, m.target);
   const mode = brain.program.tasteRevise; if (!mode) return;
-  t.n++; t.s2 += residual * residual;
-  for (let k = 0; k < FULL; k++) t.ev[k] += walsh(k, bits) * residual;
-  if (t.n % brain.genes.tasteEvery || t.masks.length >= brain.genes.tasteCap) return;
+  // Forgetting: evidence decays (half-life ~140 tastings), so evidence from an old rule fades.
+  const D = 1 - 1 / 200; t.n++; t.s2 = t.s2 * D + residual * residual;
+  for (let k = 0; k < FULL; k++) t.ev[k] = t.ev[k] * D + walsh(k, bits) * residual;
+  if (t.n % brain.genes.tasteEvery) return;
+  // Pruning when full: drop the weakest added (higher-order) feature if its weight is small (|w| < 2).
+  if (t.masks.length >= brain.genes.tasteCap) {
+    let j = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && Math.abs(t.w[i]) < 2 && (j < 0 || Math.abs(t.w[i]) < Math.abs(t.w[j]))) j = i;
+    if (j < 0) return;
+    t.masks.splice(j, 1); t.w.splice(j, 1); for (const rec of t.memory) rec.phi.splice(j, 1);
+  }
   const have = new Set(t.masks), kids = new Set();
   for (const mk of t.masks) if (mk) for (let b = 0; b < ODOR_BITS; b++) { const c = mk | 1 << b; if (!have.has(c)) kids.add(c); }
   const list = [...kids].sort((a, b) => a - b); if (!list.length) return;
@@ -104,10 +111,20 @@ export function moveLearn(brain, reward) {
   mv.pending = null;
   const mode = brain.program.moveRevise; if (!mode) return;
   mv.n++; mv.s2 += delta * delta;
-  for (let k = 0; k < mv.ev.length; k++) { let v = 1; for (let b = 0; b < MOVE_BASE; b++) if (k >> b & 1) v *= p.base[b]; mv.ev[k] += v * delta; }
-  if (mv.n % brain.genes.moveEvery || mv.masks.length >= brain.genes.moveCap) return;
+  // Delayed credit: evidence for each candidate product feature uses its decaying trace (same lambda as learning).
+  const et = mv.evTrace ?? (mv.evTrace = Array(mv.ev.length).fill(0));
+  for (let k = 0; k < mv.ev.length; k++) { let v = 1; for (let b = 0; b < MOVE_BASE; b++) if (k >> b & 1) v *= p.base[b]; et[k] = .8 * et[k] + v; mv.ev[k] += et[k] * delta; }
+  if (mv.n % brain.genes.moveEvery) return;
+  // Pruning when full (as for taste): drop the weakest added product feature if its weight is small.
+  if (mv.masks.length >= brain.genes.moveCap) {
+    let j = -1; for (let i = 0; i < mv.masks.length; i++) if (popcount(mv.masks[i]) > 1 && Math.abs(mv.w[i]) < .5 && (j < 0 || Math.abs(mv.w[i]) < Math.abs(mv.w[j]))) j = i;
+    if (j < 0) return; mv.masks.splice(j, 1); mv.w.splice(j, 1); if (mv.trace) mv.trace.splice(j, 1);
+  }
   const have = new Set(mv.masks), kids = new Set();
-  for (const mk of mv.masks) for (let b = 0; b < MOVE_BASE; b++) { const c = mk | 1 << b; if (!have.has(c) && popcount(c) <= 3) kids.add(c); }
+  // Candidates: products of real features only (no constant bias bit 0) that include at least one
+  // move-dependent feature (bits 1-4); energy (bit 5) only modulates. Duplicates like bias*x are excluded.
+  const useful = c => !(c & 1) && (c & 0b11110) && popcount(c) >= 2 && popcount(c) <= 3;
+  for (const mk of mv.masks) for (let b = 1; b < MOVE_BASE; b++) { const c = (mk & ~1) | 1 << b; if (!have.has(c) && useful(c)) kids.add(c); }
   const list = [...kids].sort((a, b) => a - b); if (!list.length) return;
   const best = list.reduce((a, c) => Math.abs(mv.ev[c]) > Math.abs(mv.ev[a]) ? c : a, list[0]);
   if (Math.abs(mv.ev[best]) <= brain.genes.moveZ * Math.sqrt(mv.s2)) return;
@@ -175,7 +192,7 @@ export class Microverse {
     if (r() < m && prog.tasteMasks.length > 2) prog.tasteMasks.splice(1 + Math.floor(r() * (prog.tasteMasks.length - 1)), 1);
     if (r() < m && prog.tasteMasks.length < prog.genes.tasteCap) { const c = Math.floor(r() * FULL); if (c && !prog.tasteMasks.includes(c)) prog.tasteMasks.push(c); }
     if (r() < m && prog.moveMasks.length > 2) prog.moveMasks.splice(1 + Math.floor(r() * (prog.moveMasks.length - 1)), 1);
-    if (r() < m && prog.moveMasks.length < prog.genes.moveCap) { const c = Math.floor(r() * (1 << MOVE_BASE)); if (c && !prog.moveMasks.includes(c)) prog.moveMasks.push(c); }
+    if (r() < m && prog.moveMasks.length < prog.genes.moveCap) { const c = Math.floor(r() * (1 << MOVE_BASE)) & ~1; if (c && (c & 0b11110) && !prog.moveMasks.includes(c)) prog.moveMasks.push(c); }
     for (const k of ['tasteStep', 'moveStep', 'tasteZ', 'moveZ', 'eps', 'birthEnergy', 'acceptAt']) if (r() < m) prog.genes[k] *= Math.exp((r() - .5) * .4);
     prog.genes.eps = Math.min(.5, prog.genes.eps); prog.genes.birthEnergy = Math.max(40, Math.min(95, prog.genes.birthEnergy));
     prog.genes.tasteStep = Math.min(8, prog.genes.tasteStep); prog.genes.acceptAt = Math.max(.1, Math.min(.9, prog.genes.acceptAt));
@@ -191,6 +208,17 @@ export class Microverse {
       for (let d = 1; d <= R; d++) for (let s = -d; s <= d; s++) { const cx = dx ? f.x + dx * d : f.x + s, cy = dy ? f.y + dy * d : f.y + s, q = this.plant[this.cell(cx, cy)]; if (q) smell += q.amount * goodPred[q.kind] / (d * d); }
       smell = Math.tanh(smell / 4); }
     return [1, food, good, smell, Math.min(1, (occupancy.get(this.cell(x, y)) ?? 0) / 3), f.energy / this.cfg.maxEnergy * 2 - 1];
+  }
+  // Planner (instrument): stay on edible food worth a bite; else step toward the cell maximising
+  // amount*EV/(1+distance) within the sense radius, judged by the fly's own taste (no oracle valence).
+  plan(f, goodPred, occupancy) {
+    const R = this.cfg.senseRadius, here = this.plant[this.cell(f.x, f.y)];
+    if (here && here.amount > 1 && goodPred[here.kind] > 0) return 0;
+    let best = null, bv = 0;
+    for (let dx = -R; dx <= R; dx++) for (let dy = -R; dy <= R; dy++) { if (!dx && !dy) continue; const q = this.plant[this.cell(f.x + dx, f.y + dy)]; if (!q || q.amount <= .2 || goodPred[q.kind] <= 0) continue;
+      const v = q.amount * goodPred[q.kind] / (1 + Math.abs(dx) + Math.abs(dy)) / (1 + (occupancy.get(this.cell(f.x + dx, f.y + dy)) ?? 0)); if (v > bv) { bv = v; best = [dx, dy]; } }
+    if (!best) return 1 + Math.floor(f.brain.rand() * 4);
+    const [dx, dy] = best; return Math.abs(dx) >= Math.abs(dy) ? (dx > 0 ? 2 : 4) : (dy > 0 ? 3 : 1);
   }
   step() {
     const cfg = this.cfg, N = cfg.size;
@@ -210,6 +238,7 @@ export class Microverse {
       moveLearn(b, b.move.pending?.reward ?? 0); // complete the previous move with its observed reward
       const qmax = Math.max(...qs), ties = qs.map((q, d) => q >= qmax - 1e-9 ? d : -1).filter(d => d >= 0);
       let dir = ties[Math.floor(b.rand() * ties.length)]; if (b.rand() < b.genes.eps) dir = Math.floor(b.rand() * MOVES.length);
+      if (b.program.movePlanner) dir = this.plan(f, goodPred, occupancy); // measuring instrument only (headroom check)
       b.move.pending = { base: bases[dir], phi: movePhi(b, bases[dir]) };
       const from = this.cell(f.x, f.y); occupancy.set(from, occupancy.get(from) - 1);
       f.x = (f.x + MOVES[dir][0] + N) % N; f.y = (f.y + MOVES[dir][1] + N) % N;
