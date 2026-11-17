@@ -32,7 +32,7 @@ export function makeRule(family, seed) {
 export const valence = (rule, bits) => rule.sign * Math.sign(rule.bias + rule.terms.reduce((s, [m, c]) => s + c * walsh(m, bits), 0) || 1e-9);
 
 // ---------- brains ----------
-export const DEFAULT_GENES = { tasteStep: 4, tasteZ: 3, tasteEvery: 8, tasteCap: 16, moveStep: .05, moveZ: 3, moveEvery: 32, moveCap: 12, eps: .08, birthEnergy: 70 };
+export const DEFAULT_GENES = { tasteStep: 4, tasteZ: 3, tasteEvery: 8, tasteCap: 16, moveStep: .05, moveZ: 3, moveEvery: 32, moveCap: 12, eps: .08, tasteEps: .05, acceptAt: .4, birthEnergy: 60 };
 export function S0Masks() { return [0, ...[...Array(ODOR_BITS).keys()].map(b => 1 << b)]; }
 // program = {tasteMasks, moveMasks, genes, tasteRevise: 'evid'|'random'|null, moveRevise, mutate: bool}
 export function newBrain(program, r, inherited = null) {
@@ -83,10 +83,15 @@ function moveValue(brain, base) {
   return q;
 }
 function movePhi(brain, base) { return brain.move.masks.map(m => { let v = 1; for (let b = 0; b < MOVE_BASE; b++) if (m >> b & 1) v *= base[b]; return v; }); }
-export function moveLearn(brain, reward, nextQ) {
+// Movement learning: reward-modulated preference with an eligibility trace (advantage over a running
+// reward baseline). It only shifts preferences by better/worse-than-usual outcomes, so the innate
+// instinct (initial weights) is refined rather than regressed toward the small absolute returns.
+export function moveLearn(brain, reward) {
   const mv = brain.move, p = mv.pending; if (!p) return;
-  const q = p.phi.reduce((s, x, i) => s + x * mv.w[i], 0), delta = clip(reward + .95 * nextQ - q, 4);
-  for (let i = 0; i < p.phi.length; i++) mv.w[i] = clip(mv.w[i] + brain.genes.moveStep * delta * p.phi[i], 8);
+  const delta = clip(reward - (mv.rbar ?? 0), 4); mv.rbar = (mv.rbar ?? 0) + .02 * (reward - (mv.rbar ?? 0));
+  const tr = mv.trace ?? (mv.trace = []); while (tr.length < p.phi.length) tr.push(0);
+  for (let i = 0; i < tr.length; i++) tr[i] = .8 * tr[i] + (p.phi[i] ?? 0);
+  for (let i = 0; i < tr.length; i++) mv.w[i] = clip(mv.w[i] + brain.genes.moveStep * delta * tr[i], 8);
   mv.pending = null;
   const mode = brain.program.moveRevise; if (!mode) return;
   mv.n++; mv.s2 += delta * delta;
@@ -103,10 +108,10 @@ export function moveLearn(brain, reward, nextQ) {
 
 // ---------- world ----------
 export const DEFAULT_WORLD = {
-  size: 32, patches: 6, patchRadius: 4, plantDensity: .6, regrow: .035, plantCap: 4, bite: 1.5,
-  toxin: 1.5, metabolism: .12, moveCost: .04, brainCost: .002, maxEnergy: 100, maxAge: 1200,
+  size: 40, patches: 12, patchRadius: 4, plantDensity: .6, regrow: .08, plantCap: 4, bite: 1.5,
+  toxin: .6, metabolism: .06, moveCost: .02, brainCost: .002, maxEnergy: 100, maxAge: 1200,
   relocateEvery: 300, shiftEvery: 100, ruleSchedule: [['pairs', 1500]], labelNoise: .05,
-  childEnergy: 30, birthCost: 36, mutation: .1, capacity: 400, founders: 60, senseRadius: 4
+  childEnergy: 25, birthCost: 30, mutation: .1, capacity: 400, founders: 60, senseRadius: 4
 };
 export class Microverse {
   constructor(seed, strains, config = {}) {
@@ -126,8 +131,13 @@ export class Microverse {
     const [family, ticks] = sch[this.ruleIndex]; this.epoch = (this.epoch ?? -1) + 1; this.rule = makeRule(family, mix(this.seed ^ (this.tick + 1) * 7919)); this.ruleEnds = this.tick + ticks;
   }
   redrawCodes() {
-    const seen = new Set(); this.codes = [];
-    while (this.codes.length < KINDS) { const c = Math.floor(this.r() * FULL); if (seen.has(c)) continue; seen.add(c); this.codes.push([...Array(ODOR_BITS).keys()].map(b => c >> b & 1 ? 1 : -1)); }
+    // Balanced chemistry: each draw has exactly KINDS/2 good and KINDS/2 bad odor kinds, so the base
+    // rate of good food never swings into famine; telling kinds apart still pays.
+    const seen = new Set(), good = [], bad = [];
+    while (good.length < KINDS / 2 || bad.length < KINDS / 2) { const c = Math.floor(this.r() * FULL); if (seen.has(c)) continue; seen.add(c);
+      const bits = [...Array(ODOR_BITS).keys()].map(b => c >> b & 1 ? 1 : -1), v = valence(this.rule, bits);
+      if (v > 0 && good.length < KINDS / 2) good.push(bits); else if (v < 0 && bad.length < KINDS / 2) bad.push(bits); }
+    this.codes = [...good, ...bad]; for (let i = this.codes.length - 1; i > 0; i--) { const j = Math.floor(this.r() * (i + 1)); [this.codes[i], this.codes[j]] = [this.codes[j], this.codes[i]]; }
     this.kindValence = this.codes.map(b => valence(this.rule, b));
   }
   seedPatch(i) {
@@ -157,9 +167,9 @@ export class Microverse {
     if (r() < m && prog.tasteMasks.length < prog.genes.tasteCap) { const c = Math.floor(r() * FULL); if (c && !prog.tasteMasks.includes(c)) prog.tasteMasks.push(c); }
     if (r() < m && prog.moveMasks.length > 2) prog.moveMasks.splice(1 + Math.floor(r() * (prog.moveMasks.length - 1)), 1);
     if (r() < m && prog.moveMasks.length < prog.genes.moveCap) { const c = Math.floor(r() * (1 << MOVE_BASE)); if (c && !prog.moveMasks.includes(c)) prog.moveMasks.push(c); }
-    for (const k of ['tasteStep', 'moveStep', 'tasteZ', 'moveZ', 'eps', 'birthEnergy']) if (r() < m) prog.genes[k] *= Math.exp((r() - .5) * .4);
+    for (const k of ['tasteStep', 'moveStep', 'tasteZ', 'moveZ', 'eps', 'birthEnergy', 'acceptAt']) if (r() < m) prog.genes[k] *= Math.exp((r() - .5) * .4);
     prog.genes.eps = Math.min(.5, prog.genes.eps); prog.genes.birthEnergy = Math.max(40, Math.min(95, prog.genes.birthEnergy));
-    prog.genes.tasteStep = Math.min(8, prog.genes.tasteStep);
+    prog.genes.tasteStep = Math.min(8, prog.genes.tasteStep); prog.genes.acceptAt = Math.max(.1, Math.min(.9, prog.genes.acceptAt));
   }
   cell(x, y) { const N = this.cfg.size; return ((y + N) % N) * N + ((x + N) % N); }
   // Base movement features for moving to (x+dx, y+dy): [bias, food here, predicted-good food here,
@@ -187,7 +197,7 @@ export class Microverse {
       const goodPred = this.codes.map(bits => tastePredict(b, bits));
       const bases = MOVES.map((_, d) => this.moveFeatures(f, goodPred, d, occupancy));
       const qs = bases.map(base => moveValue(b, base));
-      moveLearn(b, b.move.pending?.reward ?? 0, Math.max(...qs)); // complete the previous move with its observed reward
+      moveLearn(b, b.move.pending?.reward ?? 0); // complete the previous move with its observed reward
       const qmax = Math.max(...qs), ties = qs.map((q, d) => q >= qmax - 1e-9 ? d : -1).filter(d => d >= 0);
       let dir = ties[Math.floor(b.rand() * ties.length)]; if (b.rand() < b.genes.eps) dir = Math.floor(b.rand() * MOVES.length);
       b.move.pending = { base: bases[dir], phi: movePhi(b, bases[dir]) };
@@ -198,7 +208,7 @@ export class Microverse {
       const p = this.plant[to];
       if (p && p.amount > .2) {
         const bits = this.codes[p.kind];
-        if (tastePredict(b, bits) > .5) {
+        if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = this.kindValence[p.kind] > 0;
           f.energy += good ? take : -take * cfg.toxin; good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < cfg.labelNoise ? 1 : 0));

@@ -7,8 +7,7 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { cpus } from 'node:os';
 import { runWorld } from './run.mjs';
 
-export const TICKS = 20000, EVERY = 100;
-export const CONFIG = { ruleSchedule: [['pairs', 3000], ['staircase', 3000], ['triples', 3000], ['single', 3000]] };
+import { TICKS, EVERY, CONFIG } from './config.mjs';
 export const GOALS = {
   G1: { worlds: [['FIXED']] },
   G2: { worlds: [['ORACLE', 'FIXED']] },
