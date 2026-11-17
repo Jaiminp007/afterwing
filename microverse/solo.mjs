@@ -3,10 +3,12 @@
 // node microverse/solo.mjs A B seeds   -> per-seed A-B differences, mean, sign-flip p (one-sided, exact for n<=16 else MC)
 import { Worker, isMainThread, parentPort, workerData } from 'node:worker_threads';
 import { cpus } from 'node:os';
-import { runWorld } from './run.mjs';
+import { runWorld, STRAINS } from './run.mjs';
+// A strain arg is a name (SELF) or JSON {"base":"SELF","genes":{...},"set":{...}}; MV_WORLD env merges world overrides.
+const build = spec => { if (typeof spec === 'string') spec = spec.trim().startsWith('{') ? JSON.parse(spec) : { base: spec }; const b = STRAINS[spec.base]; return { ...b, ...(spec.set ?? {}), genes: { ...b.genes, ...(spec.genes ?? {}) } }; };
 import { TICKS, EVERY, CONFIG } from './config.mjs';
 if (!isMainThread) {
-  const { seed, name } = workerData, { snaps } = runWorld(seed, TICKS, [name], { every: EVERY, config: CONFIG });
+  const { seed, name } = workerData, { snaps } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') }, strains: { X: build(name) } });
   const late = []; for (let t = 10000 + EVERY; t <= TICKS; t += EVERY) { const s = snaps.find(x => x.tick === t); late.push(s ? s.pop : 0); }
   parentPort.postMessage({ seed, name, meanPop: late.reduce((a, b) => a + b, 0) / late.length });
 } else {

@@ -38,7 +38,7 @@ export function makeRule(family, seed) {
 export const valence = (rule, bits) => rule.sign * Math.sign(rule.bias + rule.terms.reduce((s, [m, c]) => s + c * walsh(m, bits), 0) || 1e-9);
 
 // ---------- brains ----------
-export const DEFAULT_GENES = { tasteStep: 4, tasteZ: 3, tasteEvery: 8, tasteCap: 16, moveStep: .05, moveZ: 3, moveEvery: 32, moveCap: 12, eps: .08, tasteEps: .05, acceptAt: .4, birthEnergy: 60 };
+export const DEFAULT_GENES = { tasteStep: 4, tasteZ: 3, tasteEvery: 8, tasteCap: 16, moveStep: .05, moveZ: 3, moveEvery: 32, moveCap: 12, eps: .08, tasteEps: .05, acceptAt: .4, birthEnergy: 60, tasteMemory: 200, tastePrune: 2, movePrune: .5 };
 export function S0Masks() { return [0, ...[...Array(ODOR_BITS).keys()].map(b => 1 << b)]; }
 // program = {tasteMasks, moveMasks, genes, tasteRevise: 'evid'|'random'|null, moveRevise, mutate: bool}
 export function newBrain(program, r, inherited = null) {
@@ -80,12 +80,12 @@ export function tasteLearn(brain, bits, target) {
   const m = t.memory[Math.floor(brain.rand() * t.memory.length)]; tasteUpdate(brain, m.phi, m.target);
   const mode = brain.program.tasteRevise; if (!mode) return;
   // Forgetting: evidence decays (half-life ~140 tastings), so evidence from an old rule fades.
-  const D = 1 - 1 / 200; t.n++; t.s2 = t.s2 * D + residual * residual;
+  const D = 1 - 1 / (brain.genes.tasteMemory ?? 200); t.n++; t.s2 = t.s2 * D + residual * residual;
   for (let k = 0; k < FULL; k++) t.ev[k] = t.ev[k] * D + walsh(k, bits) * residual;
   if (t.n % brain.genes.tasteEvery) return;
   // Pruning when full: drop the weakest added (higher-order) feature if its weight is small (|w| < 2).
   if (t.masks.length >= brain.genes.tasteCap) {
-    let j = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && Math.abs(t.w[i]) < 2 && (j < 0 || Math.abs(t.w[i]) < Math.abs(t.w[j]))) j = i;
+    let j = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && Math.abs(t.w[i]) < (brain.genes.tastePrune ?? 2) && (j < 0 || Math.abs(t.w[i]) < Math.abs(t.w[j]))) j = i;
     if (j < 0) return;
     t.masks.splice(j, 1); t.w.splice(j, 1); for (const rec of t.memory) rec.phi.splice(j, 1);
   }
@@ -123,7 +123,7 @@ export function moveLearn(brain, reward) {
   if (mv.n % brain.genes.moveEvery) return;
   // Pruning when full (as for taste): drop the weakest added product feature if its weight is small.
   if (mv.masks.length >= brain.genes.moveCap) {
-    let j = -1; for (let i = 0; i < mv.masks.length; i++) if (!innateMove(mv.masks[i]) && Math.abs(mv.w[i]) < .5 && (j < 0 || Math.abs(mv.w[i]) < Math.abs(mv.w[j]))) j = i;
+    let j = -1; for (let i = 0; i < mv.masks.length; i++) if (!innateMove(mv.masks[i]) && Math.abs(mv.w[i]) < (brain.genes.movePrune ?? .5) && (j < 0 || Math.abs(mv.w[i]) < Math.abs(mv.w[j]))) j = i;
     if (j < 0) return; mv.masks.splice(j, 1); mv.w.splice(j, 1); if (mv.trace) mv.trace.splice(j, 1);
   }
   const have = new Set(mv.masks), list = MOVE_CANDS.filter(c => !have.has(c)); if (!list.length) return;
