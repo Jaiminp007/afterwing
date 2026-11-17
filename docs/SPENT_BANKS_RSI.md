@@ -48,3 +48,5 @@ Do not use any of these banks for a new test.
 | P14b survival replication: rules / histories | 2101001–2101012 / 2102001–2102012 (smoke +500) |
 | P15 exploration (non-bank) | 98401–98404, histories 98406–98409 |
 | P15 sip body: rules / histories | 2201001–2201012 / 2202001–2202012 (smoke +500) |
+| P16 exploration (non-bank) | 99001–99004, histories 99501–99504 |
+| P16 pairwise representation: rules / histories / sign-flip rng | 2301001–2301024 / 2302001–2302024 / 2304999 (smoke +500) |
