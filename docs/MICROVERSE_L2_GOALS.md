@@ -168,3 +168,18 @@ Runner: `microverse/p13parts.mjs`. Practice seeds 101–116 reproduce the log: M
 - P13b-1 and P13b-2 hold even if the gain comes from trying steps plus selection, not from the evidence.
 - Only P13b-3 isolates the use of own evidence.
 - The meta-rule is hand-written.
+
+## P13b-2b (frozen 2026-11-17, after the P13b-2 failure and before any P13b-2b tuning)
+
+P13b-2 **stays FAILED** (+.53, p .13). P13b-2b is a new, separately named test of the same claim with a redesigned meta-rule.
+
+**Practice.**
+- 48 practice seeds: 101–116 and 301–332. This is more than before, because 16 practice seeds overstated the edge (+1.49 on practice vs +.53 on the fresh seeds).
+- At most 5 meta-rule attempts. EVO-R and its mutation rate are not changed.
+- The attempt with the best practice META − EVO-R goes to the final. If no attempt reaches +1.0 on practice, no final is run.
+
+**Final.** Fresh seeds 91001–91048, run once.
+
+**Gate.** META′ − EVO-R > 0, p < .01.
+
+**Reported, not gated.** META′ − its matched coin-flip sham, and META′ − FIXED.
