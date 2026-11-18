@@ -236,3 +236,30 @@ Mean flies: META 55.22, SHAM 55.24, EVO-R 54.68, FIXED 49.25. Raw data: `evidenc
 **Reading.** A lineage that tunes its own reviser in life recovers most of the designer's tuning: +5.96 over no tuning, on fresh worlds. The gain comes from trying steps plus selection, not from the fly's evidence. A coin-flip keep does just as well (−.02), and on fresh seeds the edge over blind mutation (+1.49 on practice) shrank to +.53, which is not significant. This fits the headroom bounds: the fly's evidence has nothing left to add.
 
 **P13b stays NOT SHOWN.** The original P13 stays FAILED.
+
+## P13b-2b (new test; P13b-2 stays FAILED)
+
+**Practice** (48 seeds: 101–116 and 301–332; EVO-R 53.92 flies). The variable is `metaK`, the number of revision checks between trials.
+
+| metaK | META flies | META − EVO-R |
+|---|---|---|
+| 3 (attempt 1) | 55.65 | +1.73 (38/48) |
+| 12 (attempt 2) | 55.36 | +1.44 |
+| 2 (attempt 3) | 55.54 | +1.62 |
+| 6 (the original rule, reference) | 55.82 | +1.90 |
+
+Practice cannot separate the variants. The original rule scored best on practice, yet it gave only +.53 on fresh seeds in P13b-2. Under the frozen rule, the best attempt (metaK 3) went to the final.
+
+**Final** (fresh seeds 91001–91048, run once). Mean flies: META′ 55.51, SHAM′ 55.25, EVO-R 54.26, FIXED 49.71.
+
+| Contrast | Δ flies | Seeds positive | p | Result |
+|---|---|---|---|---|
+| META′ − EVO-R (gated) | +1.24 | 34/48 | .0024 | **P13b-2b PASSED** |
+| META′ − SHAM′ (reported) | +.25 | 27/48 | .28 | not significant |
+| META′ − FIXED (reported) | +5.80 | 47/48 | < .00001 | — |
+
+**Reading and caveats.**
+- In-life trials plus selection beat blind mutation of the same genes on fresh worlds.
+- The fly's own keep/revert evidence still adds nothing significant over a coin flip. The edge comes from the trials, i.e. faster in-life variation, not from the evidence.
+- Practice could not separate metaK 3 from the original metaK 6. The difference between P13b-2 (+.53) and P13b-2b (+1.24) may be seed-to-seed variance rather than the redesign.
+- P13b-3 and P13b itself stay NOT SHOWN.
