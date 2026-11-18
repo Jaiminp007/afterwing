@@ -142,3 +142,29 @@ The seven earlier designs left P13b bounded below its gate. A2 changes the flies
 - META − FIXED > 0, p < .01.
 
 **Label.** In-life self-tuning of the taste system's decision threshold from own experience, with inheritance; not recursive revision of the revision operator.
+
+## P13b split into parts (frozen 2026-11-17, before any final run)
+
+The user asked to break P13b into smaller parts. Each part is a separately named, weaker claim. **Passing parts does not pass P13b.** P13b-4 *is* the original P13b gate and keeps its name and bar.
+
+**Arms** (fixed now; no further tuning). All start from R_P12 (A1):
+- **META:** attempt-3 in-life trial-and-revert (`metaR: 'trial'`). The fly tries one grid step on `tasteMemory` or `tastePrune` and keeps it only if its own running taste loss fell.
+- **SHAM:** the same trials with a coin-flip keep (`'trialsham'`).
+- **EVO-R:** as in A1.
+- **FIXED:** R_P12.
+
+Runner: `microverse/p13parts.mjs`. Practice seeds 101–116 reproduce the log: META − FIXED +6.36, − EVO-R +1.49, − SHAM +.26.
+
+**One final.** Fresh seeds 90001–90048 (reserved for P13b and unused) are run once, for all arms. Every part is scored from that single run. The run is never repeated.
+
+| Part | Claim | Gate (48 fresh seeds, one-sided sign-flip) |
+|---|---|---|
+| P13b-1 | The lineage's own tuning helps | META − FIXED > 0, p < .01 |
+| P13b-2 | Own-experience trials beat blind mutation of the same genes | META − EVO-R > 0, p < .01 |
+| P13b-3 | The fly's own keep/revert evidence beats a coin flip | META − SHAM > 0, p < .01 |
+| P13b-4 (= P13b) | All of the above, with margin | META − EVO-R ≥ 1.0 and META − SHAM ≥ 1.0 (both p < .01), and P13b-1 |
+
+**Labels:**
+- P13b-1 and P13b-2 hold even if the gain comes from trying steps plus selection, not from the evidence.
+- Only P13b-3 isolates the use of own evidence.
+- The meta-rule is hand-written.
