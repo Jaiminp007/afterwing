@@ -293,3 +293,18 @@ New meta-rule, **shadow trial** (`metaR: 'shadow'`). The fly runs a copy of its 
 Attempt 4 goes to the final, by the frozen rule (best 3a; both parts at p < .05).
 
 **Caution.** The coin-flip sham's balanced accuracy was .5052 (p .024) in attempt 4, although its decisions are random. That is a chance excursion, about 2 standard errors. The effect being measured is small. The final also reports META − SHAM accuracy.
+
+## P13b-3 parts: final (fresh seeds 92001–92048, run once; shadow trial, metaK 16; commit 7de7117)
+
+Mean flies: META 54.58, SHAM 54.18, EVO-R 54.29, FIXED 49.95. Raw data: `evidence/microverse/p13b-3-parts-final-92001-92048.json`.
+
+| Part | Measure | Value | p | Result |
+|---|---|---|---|---|
+| P13b-3a: own evidence picks the right direction | META balanced accuracy vs .5 | .5044 (27/48 above) | .019 | **FAILED** (bar p < .01) |
+| P13b-3b: genes end closer to R* | SHAM − META distance | +.06 | .41 | **FAILED** |
+| (reported) | META − SHAM accuracy | +.0036 (28/48) | .13 | — |
+| (reported) | META − SHAM flies | +.40 | .13 | — |
+| (reported) | META − EVO-R flies | +.29 | .28 | — |
+| (reported) | META − FIXED flies | +4.63 (45/48) | < .00001 | — |
+
+**Reading.** The shadow fly's keep decisions point the right way slightly more often than chance (.504), but the edge is too small to clear p < .01 on 48 fresh worlds. Practice (p .0048) overstated it again. No part of P13b-3 passed, and **P13b-3 and P13b stay NOT SHOWN**. The final will not be re-run.
