@@ -74,6 +74,7 @@ function tasteUpdate(brain, phi, target) {
 export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4], ACCEPT_GRID = [.1, .2, .3, .4, .5, .6, .75, .85];
 function gridStep(genes, gene, grid, dir) { let i = grid.indexOf(genes[gene]); if (i < 0) i = 0; genes[gene] = grid[Math.max(0, Math.min(grid.length - 1, i + dir))]; }
 function metaRevise(brain) {
+  if (brain.program.metaR === 'shadow' || brain.program.metaR === 'shadowsham') return metaShadow(brain);
   if (brain.program.metaR === 'trial' || brain.program.metaR === 'trialsham' || brain.program.metaR === 'trialoracle') return metaTrial(brain);
   const t = brain.taste, g = brain.genes, sham = brain.program.metaR === 'sham', dirOf = d => sham ? (brain.rand() < .5 ? -1 : 1) : d;
   const added = t.masks.map((m, i) => i).filter(i => popcount(t.masks[i]) > 1);
@@ -91,6 +92,20 @@ function metaRevise(brain) {
 export const META_STATS = { towardKeep: 0, towardN: 0, awayKeep: 0, awayN: 0 };
 function metaRecord(tr, now, keep) { const grid = tr.gene === 'tasteMemory' ? MEM_GRID : PRUNE_GRID, d = v => Math.abs(grid.indexOf(v) - 1);
   if (d(now) < d(tr.old)) { META_STATS.towardN++; META_STATS.towardKeep += keep; } else if (d(now) > d(tr.old)) { META_STATS.awayN++; META_STATS.awayKeep += keep; } }
+// P13b-3a attempt: shadow trial. The fly runs a copy of its taste learner with the trial setting on the same
+// tastings as its real learner, and adopts the setting if the copy predicted those tastings better ('shadow');
+// 'shadowsham' runs identical shadows and adopts by coin flip. Because both see the same tastings, changes in
+// the world cancel out of the comparison.
+function metaShadow(brain) {
+  const t = brain.taste, g = brain.genes, K = brain.program.metaK ?? 6; t.metaChecks = (t.metaChecks ?? 0) + 1;
+  if (t.metaChecks % K) return;
+  const sh = t.shadow;
+  if (sh) { const keep = brain.program.metaR === 'shadow' ? sh.L < t.shL : brain.rand() < .5;
+    metaRecord({ gene: sh.gene, old: g[sh.gene] }, sh.genes[sh.gene], keep); if (keep) g[sh.gene] = sh.genes[sh.gene]; t.shadow = null; return; }
+  const [gene, grid] = brain.rand() < .5 ? ['tasteMemory', MEM_GRID] : ['tastePrune', PRUNE_GRID], genes = { ...g };
+  gridStep(genes, gene, grid, brain.rand() < .5 ? -1 : 1); if (genes[gene] === g[gene]) return;
+  const { shadow, ...rest } = t; t.shadow = { gene, genes, taste: structuredClone(rest), L: 0 }; t.shL = 0;
+}
 function metaTrial(brain) {
   const t = brain.taste, g = brain.genes, K = brain.program.metaK ?? 6; t.metaChecks = (t.metaChecks ?? 0) + 1;
   if (t.metaChecks % K || t.lossModel === undefined) return;
@@ -105,6 +120,9 @@ function metaTrial(brain) {
   gridStep(g, gene, grid, brain.rand() < .5 ? -1 : 1); if (g[gene] !== old) t.trial = { gene, old, loss0: brain.program.metaWindow ? win : t.lossModel };
 }
 export function tasteLearn(brain, bits, target) {
+  if (brain.taste.shadow) { const sh = brain.taste.shadow, sb = { program: { ...brain.program, metaR: null }, genes: sh.genes, taste: sh.taste, rand: brain.rand },
+    ll = p => { p = Math.min(1 - 1e-3, Math.max(1e-3, p)); return -(target ? Math.log(p) : Math.log(1 - p)); };
+    sh.L += ll(modelProb(sb, bits)); brain.taste.shL += ll(modelProb(brain, bits)); tasteLearn(sb, bits, target); }
   const t = brain.taste, phi = t.masks.map(m => walsh(m, bits));
   const residual = target - sigmoid(Math.log(3) + t.w.reduce((s, w, i) => s + w * phi[i], 0) / Math.sqrt(phi.length));
   { const pm = Math.min(1 - 1e-3, Math.max(1e-3, modelProb(brain, bits))), pb = Math.min(1 - 1e-3, Math.max(1e-3, t.base ?? .75)), ll = p => -(target ? Math.log(p) : Math.log(1 - p));

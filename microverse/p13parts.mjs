@@ -6,7 +6,7 @@ import { runWorld, STRAINS } from './run.mjs';
 import { TICKS, EVERY, CONFIG } from './config.mjs';
 import { META_STATS, MEM_GRID, PRUNE_GRID } from './sim.mjs';
 // MV_META (JSON) overrides META/SHAM program fields (P13b-2b practice); MV_ARMS limits which arms run.
-const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, metaR: 'trialsham', ...X }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
+const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, ...X, metaR: X.metaR ? X.metaR + 'sham' : 'trialsham' }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
 const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
 if (!isMainThread) {
   const { seed, arm } = workerData, { snaps, world } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: CONFIG, strains: { X: ARMS[arm] } });

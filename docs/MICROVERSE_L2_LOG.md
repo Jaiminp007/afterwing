@@ -277,3 +277,19 @@ The keep/revert decision is the only thing that separates META from its sham. A 
 **P13b-3 is blocked: there is no headroom.** Even perfect keep decisions do not beat a coin flip. In-life trials plus selection already hold the reviser genes near their best values, and which way a single trial is kept does not change fitness. No rule the fly could use, however good its evidence, can pass P13b-3 in this world. No P13b-3b final was run.
 
 The default simulator is unchanged: the fingerprint still matches (7134d551…).
+
+## P13b-3 parts: practice (48 seeds: 101–116 and 301–332)
+
+New meta-rule, **shadow trial** (`metaR: 'shadow'`). The fly runs a copy of its taste learner with the trial setting on the same tastings as its real learner. It adopts the setting if the copy predicted those tastings better. SHAM runs identical shadows and adopts by coin flip (`'shadowsham'`). Because both learners see the same tastings, changes in the world cancel out of the comparison.
+
+| Attempt | Rule | 3a META balanced accuracy (p vs .5) | 3b distance, SHAM − META (p) | Flies, META − SHAM (reported) |
+|---|---|---|---|---|
+| 0 (reference) | Running-loss trial, metaK 3 | .494 (2-seed smoke test) | — | — |
+| 1 | Shadow, metaK 6 | .501 (p .26). The sham arm was misconfigured (it also ran META), so only META's figures are valid; the runner was fixed afterwards | — | — |
+| 2 | Shadow, metaK 24 | .5077 (p .048) | +.20 (p .076) | +1.08 (p .019) |
+| 3 | Shadow, metaK 48 | .500: trials outlast a life, none completed | 0 | 0; vs EVO-R −3.57 |
+| 4 | Shadow, metaK 16 | **.5076 (p .0048)** | **+.37 (p .026)** | +.53 (p .20) |
+
+Attempt 4 goes to the final, by the frozen rule (best 3a; both parts at p < .05).
+
+**Caution.** The coin-flip sham's balanced accuracy was .5052 (p .024) in attempt 4, although its decisions are random. That is a chance excursion, about 2 standard errors. The effect being measured is small. The final also reports META − SHAM accuracy.
