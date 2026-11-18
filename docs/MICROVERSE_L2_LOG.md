@@ -308,3 +308,17 @@ Mean flies: META 54.58, SHAM 54.18, EVO-R 54.29, FIXED 49.95. Raw data: `evidenc
 | (reported) | META − FIXED flies | +4.63 (45/48) | < .00001 | — |
 
 **Reading.** The shadow fly's keep decisions point the right way slightly more often than chance (.504), but the edge is too small to clear p < .01 on 48 fresh worlds. Practice (p .0048) overstated it again. No part of P13b-3 passed, and **P13b-3 and P13b stay NOT SHOWN**. The final will not be re-run.
+
+## P13b A3 (in-life switching toxin sensitivity): practice
+
+**Headroom H10** (16 practice seeds): tracking the current state is worth +10.71 flies over the best fixed setting. The same tracking fed a fake state is worth +.27.
+
+**Attempt 1** (48 practice seeds; `metaA: 'track'`, lo .2 / hi .75, last-bite estimate). Mean flies: META 58.60, SHAM 48.45, EVO-R 49.31, FIXED 49.43.
+
+| Contrast | Δ flies | Seeds positive |
+|---|---|---|
+| META − EVO-R | +9.29 | 48/48 |
+| META − SHAM | +10.15 | 48/48 |
+| META − FIXED | +9.18 | 48/48 |
+
+Every gate margin is cleared, so attempt 1 goes to the one final.
