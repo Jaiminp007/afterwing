@@ -54,3 +54,17 @@ Per the Fable review, the winner-take-all contests are drift-heavy: one bit per 
 - **Seeds.** 48 fresh seeds, 70001–70048, sized for about 80% power at α = .01 from the practice spread.
 - **Pass.** Both SELF − TASTEONLY and SELF − MOVEONLY must have mean ≥ 0.7 flies (half the practice estimate) and one-sided sign-flip p < .01 (Monte Carlo, 200,000 draws).
 - **One shot.** If G7b fails, G7 is reported as not shown and the loop stops for this goal.
+
+## G7c: a separately named re-test of "both systems improve" (frozen 2026-11-18, before any G7c tuning)
+
+G7 (failed 3/8 and 5/8) and G7b (+.88, p .0119) **stay recorded as failed**. G7c is a new test with the same claim and the same measure as G7b.
+
+**Changes from G7b:**
+1. **Practice loop.** The movement self-revision may be redesigned on the 48 practice seeds 101–116 and 301–332, with at most 5 attempts. The default world is not changed. A headroom check comes first: does movement have room left over taste-only flies?
+2. **Power.** The final uses **96** fresh seeds (94001–94096). G7b's 48 seeds were sized from a practice estimate of +1.41 that proved too high; at the observed +.88 they gave roughly a coin-flip chance of p < .01.
+
+**Selection rule.** If an attempt beats the current SELF on practice SELF − TASTEONLY, the best such attempt goes to the final; otherwise the current SELF does. The final is run once.
+
+**Pass** (the G7b bar, unchanged): SELF − TASTEONLY ≥ .7 flies and SELF − MOVEONLY ≥ .7 flies, both with one-sided sign-flip p < .01 (200,000 Monte Carlo draws). Every G1–G6 strain uses the same code; if movement revision changes, the full universal suite is re-run on practice to check that nothing else broke.
+
+**Reported together:** G7b's result, and a pooled G7b + G7c estimate.
