@@ -221,3 +221,18 @@ Opt-in `dualFood`: fruit kinds follow a stable rule all run (long memory should 
 **H9 FAILED.** No headroom: a single fixed memory beats every diet-aware oracle. The rapidly switching leaf rule cannot be learned at any memory setting, so tuning memory for it buys nothing.
 
 **P13b status: nine designs, all bounded below the gate.** The gate and the controls are unchanged; no honest pass exists in any design tested.
+
+## P13b parts: final (seeds 90001–90048, run once; commit e7d9619)
+
+Mean flies: META 55.22, SHAM 55.24, EVO-R 54.68, FIXED 49.25. Raw data: `evidence/microverse/p13b-parts-final-90001-90048.json`.
+
+| Part | Contrast | Δ flies | Seeds positive | p | Result |
+|---|---|---|---|---|---|
+| P13b-1: own tuning helps | META − FIXED | +5.96 | 46/48 | < .00001 | **PASSED** |
+| P13b-2: trials beat blind mutation | META − EVO-R | +.53 | 29/48 | .13 | FAILED |
+| P13b-3: own evidence beats a coin flip | META − SHAM | −.02 | 26/48 | .52 | FAILED |
+| P13b-4 (= P13b) | margins ≥ 1.0 | — | — | — | FAILED |
+
+**Reading.** A lineage that tunes its own reviser in life recovers most of the designer's tuning: +5.96 over no tuning, on fresh worlds. The gain comes from trying steps plus selection, not from the fly's evidence. A coin-flip keep does just as well (−.02), and on fresh seeds the edge over blind mutation (+1.49 on practice) shrank to +.53, which is not significant. This fits the headroom bounds: the fly's evidence has nothing left to add.
+
+**P13b stays NOT SHOWN.** The original P13 stays FAILED.
