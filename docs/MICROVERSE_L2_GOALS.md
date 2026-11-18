@@ -183,3 +183,20 @@ P13b-2 **stays FAILED** (+.53, p .13). P13b-2b is a new, separately named test o
 **Gate.** META′ − EVO-R > 0, p < .01.
 
 **Reported, not gated.** META′ − its matched coin-flip sham, and META′ − FIXED.
+
+## P13b-3 split into parts (frozen 2026-11-17, after the P13b-3 headroom check; 2-seed smoke test only)
+
+P13b-3 (fitness: own evidence beats a coin flip) **stays BLOCKED**: a perfect-keep oracle ties the sham (−.42). Its parts are separately named and weaker. **Passing them does not pass P13b-3 or P13b.**
+
+| Part | Claim | Gate (fresh seeds 92001–92048, run once; one-sided sign-flip) |
+|---|---|---|
+| P13b-3a | The fly's own evidence picks the right direction | META's balanced keep accuracy > .5 (chance), p < .01. Ground truth: a trial step is "right" if it moves toward R* (memory 800, prune .5); balanced = (keep rate on toward steps + revert rate on away steps) / 2 |
+| P13b-3b | Its reviser genes end closer to R* than the sham's | SHAM's mean grid distance from R* at tick 20,000 minus META's > 0, p < .01 (seeds where both arms survive) |
+| P13b-3c (= P13b-3) | More flies than the sham | blocked (no headroom) |
+
+**Protocol.**
+- Practice on the 48 seeds 101–116 and 301–332, with at most 5 META attempts.
+- SHAM is always the same META with a coin-flip keep.
+- The attempt with the best practice 3a goes to the final. A part is finalled only if its practice p is below .05.
+
+**Labels.** R* is the best fixed setting found by P11b, not a per-fly optimum. The meta-rule is hand-written.

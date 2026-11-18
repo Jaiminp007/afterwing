@@ -87,6 +87,10 @@ function metaRevise(brain) {
 // P13b attempt 3: in-life trial-and-revert on the fly's own reviser genes. Every K revision checks the fly
 // tries one grid step on tasteMemory or tastePrune; after K more checks it keeps the step only if its own
 // running taste-prediction loss fell ('trial'), or by coin flip ('trialsham': same trials, no evidence).
+// P13b-3a measurement only: tallies keep decisions by whether the trial step moved toward R* (memory 800, prune .5).
+export const META_STATS = { towardKeep: 0, towardN: 0, awayKeep: 0, awayN: 0 };
+function metaRecord(tr, now, keep) { const grid = tr.gene === 'tasteMemory' ? MEM_GRID : PRUNE_GRID, d = v => Math.abs(grid.indexOf(v) - 1);
+  if (d(now) < d(tr.old)) { META_STATS.towardN++; META_STATS.towardKeep += keep; } else if (d(now) > d(tr.old)) { META_STATS.awayN++; META_STATS.awayKeep += keep; } }
 function metaTrial(brain) {
   const t = brain.taste, g = brain.genes, K = brain.program.metaK ?? 6; t.metaChecks = (t.metaChecks ?? 0) + 1;
   if (t.metaChecks % K || t.lossModel === undefined) return;
@@ -95,7 +99,7 @@ function metaTrial(brain) {
   const tr = t.trial;
   // 'trialoracle' (measuring instrument only, P13b-3b headroom): keep a step only if it moves toward R* (memory 800, prune .5).
   if (tr && brain.program.metaR === 'trialoracle') { const grid = tr.gene === 'tasteMemory' ? MEM_GRID : PRUNE_GRID, d = v => Math.abs(grid.indexOf(v) - 1); if (!(d(g[tr.gene]) < d(tr.old))) g[tr.gene] = tr.old; t.trial = null; return; }
-  if (tr) { const keep = brain.program.metaR === 'trial' ? (brain.program.metaWindow ? (win !== null && wn >= 3 && win < tr.loss0) : t.lossModel < tr.loss0) : brain.rand() < .5; if (!keep) g[tr.gene] = tr.old; t.trial = null; return; }
+  if (tr) { const keep = brain.program.metaR === 'trial' ? (brain.program.metaWindow ? (win !== null && wn >= 3 && win < tr.loss0) : t.lossModel < tr.loss0) : brain.rand() < .5; metaRecord(tr, g[tr.gene], keep); if (!keep) g[tr.gene] = tr.old; t.trial = null; return; }
   if (brain.program.metaWindow && (win === null || wn < 3)) return;
   const [gene, grid] = brain.rand() < .5 ? ['tasteMemory', MEM_GRID] : ['tastePrune', PRUNE_GRID], old = g[gene];
   gridStep(g, gene, grid, brain.rand() < .5 ? -1 : 1); if (g[gene] !== old) t.trial = { gene, old, loss0: brain.program.metaWindow ? win : t.lossModel };
