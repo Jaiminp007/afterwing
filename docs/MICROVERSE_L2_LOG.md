@@ -322,3 +322,23 @@ Mean flies: META 54.58, SHAM 54.18, EVO-R 54.29, FIXED 49.95. Raw data: `evidenc
 | META − FIXED | +9.18 | 48/48 |
 
 Every gate margin is cleared, so attempt 1 goes to the one final.
+
+## P13b A3: final (fresh seeds 93001–93048, run once; commit aff0f0a) — PASSED
+
+Mean flies: META 58.62, SHAM 49.76, EVO-R 49.14, FIXED 49.50. Raw data: `evidence/microverse/p13b-a3-final-93001-93048.json`.
+
+| Gate | Δ flies | Seeds positive | p (200k sign flips) | Bar | Result |
+|---|---|---|---|---|---|
+| META − EVO-R | +9.48 | 48/48 | < .00001 | ≥ 1.0, p < .01 | pass |
+| META − SHAM | +8.86 | 48/48 | < .00001 | ≥ 1.0, p < .01 | pass |
+| META − FIXED | +9.12 | 48/48 | < .00001 | > 0, p < .01 | pass |
+
+**P13b PASSED under amendment A3.**
+
+**What passed.** In a constructed world, a fly's body sensitivity changes during its life. The fly retunes its own food-acceptance threshold from the damage it feels. That beats plain evolution of the threshold, beats a matched sham that makes identical updates from a fake state, and beats a fixed threshold.
+
+**Labels (they travel with the result):**
+- The tuned gene is the decision-and-sampling threshold `acceptAt` (extended R, as in A2). It is **not** the feature-revision operator, so this is not recursive revision of the reviser.
+- The meta-rule is hand-written. It reads the felt damage per bite (noise-free in this world) and maps it to two thresholds taken from the headroom oracle.
+- The world was built, in its tenth design, so that this kind of in-life tuning matters. Earlier designs H2–H9 and A2 are all reported above as not passed.
+- The original P13 stays FAILED. P13b under A1 stays not shown, including the parts P13b-3a and 3b.
