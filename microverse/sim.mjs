@@ -74,7 +74,7 @@ function tasteUpdate(brain, phi, target) {
 export const MEM_GRID = [1e12, 800, 400, 200, 100, 50], PRUNE_GRID = [0, .5, 1, 2, 3, 4], ACCEPT_GRID = [.1, .2, .3, .4, .5, .6, .75, .85];
 function gridStep(genes, gene, grid, dir) { let i = grid.indexOf(genes[gene]); if (i < 0) i = 0; genes[gene] = grid[Math.max(0, Math.min(grid.length - 1, i + dir))]; }
 function metaRevise(brain) {
-  if (brain.program.metaR === 'trial' || brain.program.metaR === 'trialsham') return metaTrial(brain);
+  if (brain.program.metaR === 'trial' || brain.program.metaR === 'trialsham' || brain.program.metaR === 'trialoracle') return metaTrial(brain);
   const t = brain.taste, g = brain.genes, sham = brain.program.metaR === 'sham', dirOf = d => sham ? (brain.rand() < .5 ? -1 : 1) : d;
   const added = t.masks.map((m, i) => i).filter(i => popcount(t.masks[i]) > 1);
   if (added.length) { const weak = added.filter(i => Math.abs(t.w[i]) < 1).length;
@@ -93,6 +93,8 @@ function metaTrial(brain) {
   // Window means: own average log-loss over the K checks before the trial vs the K checks of the trial.
   const win = t.llN ? t.llSum / t.llN : null, wn = t.llN ?? 0; t.llSum = 0; t.llN = 0;
   const tr = t.trial;
+  // 'trialoracle' (measuring instrument only, P13b-3b headroom): keep a step only if it moves toward R* (memory 800, prune .5).
+  if (tr && brain.program.metaR === 'trialoracle') { const grid = tr.gene === 'tasteMemory' ? MEM_GRID : PRUNE_GRID, d = v => Math.abs(grid.indexOf(v) - 1); if (!(d(g[tr.gene]) < d(tr.old))) g[tr.gene] = tr.old; t.trial = null; return; }
   if (tr) { const keep = brain.program.metaR === 'trial' ? (brain.program.metaWindow ? (win !== null && wn >= 3 && win < tr.loss0) : t.lossModel < tr.loss0) : brain.rand() < .5; if (!keep) g[tr.gene] = tr.old; t.trial = null; return; }
   if (brain.program.metaWindow && (win === null || wn < 3)) return;
   const [gene, grid] = brain.rand() < .5 ? ['tasteMemory', MEM_GRID] : ['tastePrune', PRUNE_GRID], old = g[gene];

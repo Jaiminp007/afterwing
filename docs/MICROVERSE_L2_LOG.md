@@ -263,3 +263,17 @@ Practice cannot separate the variants. The original rule scored best on practice
 - The fly's own keep/revert evidence still adds nothing significant over a coin flip. The edge comes from the trials, i.e. faster in-life variation, not from the evidence.
 - Practice could not separate metaK 3 from the original metaK 6. The difference between P13b-2 (+.53) and P13b-2b (+1.24) may be seed-to-seed variance rather than the redesign.
 - P13b-3 and P13b itself stay NOT SHOWN.
+
+## P13b-3: headroom check for "own evidence beats a coin flip" (practice seeds 101–116 and 301–332)
+
+The keep/revert decision is the only thing that separates META from its sham. A measuring-only oracle (`metaR: 'trialoracle'`) makes that decision perfectly: it keeps a trial step only if the step moves the gene toward R* (memory 800, prune .5). The arms are matched, with metaK 3 throughout.
+
+| Arm | Mean flies | Δ vs SHAM | Seeds positive | p |
+|---|---|---|---|---|
+| SHAM (coin-flip keep) | 55.70 | — | — | — |
+| META (own-loss keep) | 55.65 | −.05 | 23/48 | .56 |
+| ORACLE (perfect keep) | 55.28 | −.42 | 21/48 | .83 |
+
+**P13b-3 is blocked: there is no headroom.** Even perfect keep decisions do not beat a coin flip. In-life trials plus selection already hold the reviser genes near their best values, and which way a single trial is kept does not change fitness. No rule the fly could use, however good its evidence, can pass P13b-3 in this world. No P13b-3b final was run.
+
+The default simulator is unchanged: the fingerprint still matches (7134d551…).

@@ -5,8 +5,8 @@ import { cpus } from 'node:os';
 import { runWorld, STRAINS } from './run.mjs';
 import { TICKS, EVERY, CONFIG } from './config.mjs';
 // MV_META (JSON) overrides META/SHAM program fields (P13b-2b practice); MV_ARMS limits which arms run.
-const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, metaR: 'trialsham', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
-const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
+const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, metaR: 'trialsham', ...X }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
+const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
 if (!isMainThread) {
   const { seed, arm } = workerData, { snaps } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: CONFIG, strains: { X: ARMS[arm] } });
   const late = []; for (let t = 10000 + EVERY; t <= TICKS; t += EVERY) { const s = snaps.find(x => x.tick === t); late.push(s ? s.pop : 0); }
@@ -22,6 +22,6 @@ if (!isMainThread) {
     return { meanDiff: +obs.toFixed(2), positive: d.filter(x => x > 0).length, p: +(ge / total).toFixed(5) }; };
   const mean = a => +(seeds.reduce((s, x) => s + res[x][a], 0) / seeds.length).toFixed(2);
   const out = { seeds: seeds.length, means: Object.fromEntries(Object.keys(ARMS).map(a => [a, mean(a)])) };
-  for (const B of ['FIXED', 'EVOR', 'SHAM'].filter(b => ARMS[b] && ARMS.META)) out['META-' + B] = signflip(seeds.map(s => res[s].META - res[s][B]));
+  for (const [A, B] of [['META', 'FIXED'], ['META', 'EVOR'], ['META', 'SHAM'], ['ORACLE', 'SHAM']].filter(([a, b]) => ARMS[a] && ARMS[b])) out[A + '-' + B] = signflip(seeds.map(s => res[s][A] - res[s][B]));
   out.perSeed = res; console.log(JSON.stringify(out));
 }
