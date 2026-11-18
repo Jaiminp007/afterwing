@@ -200,3 +200,39 @@ P13b-3 (fitness: own evidence beats a coin flip) **stays BLOCKED**: a perfect-ke
 - The attempt with the best practice 3a goes to the final. A part is finalled only if its practice p is below .05.
 
 **Labels.** R* is the best fixed setting found by P11b, not a per-fly optimum. The meta-rule is hand-written.
+
+## Amendment A3 (frozen 2026-11-17, after headroom H10 and before any A3 tuning)
+
+**World.** Opt-in `toxinNiche` [.2, 3] plus `toxinSwitch` .005: each fly's toxin sensitivity flips between tolerant (×.2) and sensitive (×3) at random during its life, with a mean dwell of 200 ticks against a lifespan of up to 1200. The flips are not heritable and are not visible to genes; the fly feels them only as damage per toxic bite.
+
+**Headroom H10** (practice seeds 101–116, base R* genes, Δ flies vs fixed `acceptAt` .4):
+
+| Arm | Δ flies |
+|---|---|
+| `acceptAt` .3 | −.57 |
+| `acceptAt` .5 | −.59 |
+| Oracle that tracks the current state (.2 tolerant / .75 sensitive) | **+10.71 (16/16)** |
+| Same oracle fed an independent fake state | +.27 |
+
+H10 passes.
+
+**Extended R** is `acceptAt`, as in A2, and is labelled the same way: a decision-and-sampling threshold, not the feature-revision operator.
+
+**Arms** (`MV_SET=A3`):
+- **META** (`metaA: 'track'`): after each toxic bite, the fly sets `acceptAt` from the damage per unit it just felt. The rule's form is tuned on practice.
+- **SHAM** (`'tracksham'`): the same rule at the same update times, fed an independent fake state with the same switching dynamics.
+- **EVO-R:** `acceptAt` mutates at birth.
+- **FIXED:** `acceptAt` .4.
+
+**Protocol.**
+- Practice on the 48 seeds 101–116 and 301–332, with at most 5 attempts.
+- A final is run only if a practice attempt clears every gate margin.
+
+**Final.** Fresh seeds 93001–93048, run once.
+
+**Gates** (P13b's, unchanged):
+- META − EVO-R ≥ 1.0, p < .01;
+- META − SHAM ≥ 1.0, p < .01;
+- META − FIXED > 0, p < .01.
+
+**Label.** In-life self-tuning of the taste system's decision threshold from own bodily experience, with inheritance of the gene. It is not recursive revision of the revision operator. The world is constructed so that this tuning matters.

@@ -25,4 +25,9 @@ export const STRAINS = {
   A2_SHAM: { ...SELF_RSTAR(), metaA: 'sham' },
   A2_EVOR: { ...SELF_RSTAR(), evoA: true },
   A2_FIXED: { ...SELF_RSTAR() },
+  // P13b amendment A3 (in-life switching toxin sensitivity): META tracks own body state from felt damage; SHAM same updates, fake state.
+  A3_META: { ...SELF_RSTAR(), metaA: 'track' },
+  A3_SHAM: { ...SELF_RSTAR(), metaA: 'tracksham' },
+  A3_EVOR: { ...SELF_RSTAR(), evoA: true },
+  A3_FIXED: { ...SELF_RSTAR() },
 };

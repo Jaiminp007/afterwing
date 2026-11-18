@@ -333,6 +333,13 @@ export class Microverse {
     const born = [];
     for (const i of order) {
       const f = this.flies[i], b = f.brain, e0 = f.energy;
+      // P13b A3 (opt-in toxinSwitch = per-tick flip probability): the fly's toxin sensitivity flips between the two
+      // toxinNiche values during life. Headroom instrument only: acceptOracle tracks the current state ('shamState':
+      // an independent fake state flipping at the same rate).
+      if (cfg.toxinSwitch && cfg.toxinNiche) { const [lo, hi] = cfg.toxinNiche; if (this.r() < cfg.toxinSwitch) f.toxinMul = f.toxinMul === lo ? hi : lo;
+        if (b.program.metaA === 'tracksham') { f.fakeMul ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.toxinSwitch) f.fakeMul = f.fakeMul === lo ? hi : lo; }
+        const ao = b.program.acceptOracle; if (ao) { if (ao.shamState) { f.fakeMul ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.toxinSwitch) f.fakeMul = f.fakeMul === lo ? hi : lo; }
+          b.genes.acceptAt = (ao.shamState ? f.fakeMul : f.toxinMul) === lo ? ao.lo : ao.hi; } }
       // Expected value of eating each kind for this fly (0 if it would refuse it): drives smell-guided movement.
       const goodPred = this.codes.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       if (cfg.habitats || cfg.dualFood) this.gp2 = this.codes2.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
@@ -354,7 +361,12 @@ export class Microverse {
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           if (cfg.dualFood) { f.dietN = (f.dietN ?? 0) * .98 + 1; f.dietLeaf = (f.dietLeaf ?? 0) * .98 + (p.kind >= KINDS / 2 ? 1 : 0); }
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
-          { const dE = good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); f.energy += dE; f.feedWin = (f.feedWin ?? 0) + dE; if (!good) { f.dmgSum = (f.dmgSum ?? 0) - dE; f.badTake = (f.badTake ?? 0) + take; } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
+          { const dE = good ? take : -take * cfg.toxin * (f.toxinMul ?? 1); f.energy += dE; f.feedWin = (f.feedWin ?? 0) + dE; if (!good) { f.dmgSum = (f.dmgSum ?? 0) - dE; f.badTake = (f.badTake ?? 0) + take;
+            // P13b A3 'track': after each toxic bite, set acceptAt from the damage per unit just felt (own body state);
+            // 'tracksham': identical update times, but the value comes from an independent fake state of the same dynamics.
+            const mA3 = b.program.metaA; if (mA3 === 'track' || mA3 === 'tracksham') { const [lo, hi] = cfg.toxinNiche ?? [1, 1], felt = mA3 === 'track' ? -dE / take / cfg.toxin : f.fakeMul;
+              f.trackMul = (b.program.trackDecay ?? 0) && f.trackMul !== undefined ? f.trackMul * b.program.trackDecay + felt * (1 - b.program.trackDecay) : felt;
+              b.genes.acceptAt = f.trackMul < (lo + hi) / 2 ? (b.program.trackLo ?? .2) : (b.program.trackHi ?? .75); } } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }
       }

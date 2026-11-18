@@ -7,9 +7,12 @@ import { TICKS, EVERY, CONFIG } from './config.mjs';
 import { META_STATS, MEM_GRID, PRUNE_GRID } from './sim.mjs';
 // MV_META (JSON) overrides META/SHAM program fields (P13b-2b practice); MV_ARMS limits which arms run.
 const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, ...X, metaR: X.metaR ? X.metaR + 'sham' : 'trialsham' }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
+// MV_SET=A3: P13b amendment A3 arms (world settings come from MV_WORLD).
+if (process.env.MV_SET === 'A3') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.A3_META, ...X }, SHAM: { ...STRAINS.A3_SHAM, ...X }, EVOR: STRAINS.A3_EVOR, FIXED: STRAINS.A3_FIXED }); }
+const WORLD = { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') };
 const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
 if (!isMainThread) {
-  const { seed, arm } = workerData, { snaps, world } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: CONFIG, strains: { X: ARMS[arm] } });
+  const { seed, arm } = workerData, { snaps, world } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: WORLD, strains: { X: ARMS[arm] } });
   const late = []; for (let t = 10000 + EVERY; t <= TICKS; t += EVERY) { const s = snaps.find(x => x.tick === t); late.push(s ? s.pop : 0); }
   // P13b-3b: mean grid distance of living flies' reviser genes from R* (memory 800, prune .5) at the end.
   const dist = world.flies.length ? world.flies.reduce((a, f) => a + Math.abs(MEM_GRID.indexOf(f.brain.genes.tasteMemory) - 1) + Math.abs(PRUNE_GRID.indexOf(f.brain.genes.tastePrune) - 1), 0) / world.flies.length : null;
