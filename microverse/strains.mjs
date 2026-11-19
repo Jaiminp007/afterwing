@@ -7,6 +7,7 @@ function SELF_P12() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit
 function SELF_RSTAR() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, tasteMemory: 800, tastePrune: .5, tasteEvery: 4 }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true }; }
 // G7c (2026-11-18): movement self-revision starts an added sense at an evidence-signed weight of 2 (random sign for SHAM).
 const L2_LEAN = { tasteCap: 9, tastePrune: 8, tasteZ: 100, moveCap: 6, movePrune: 8, moveZ: 100 }, L2_FULL = { tasteCap: 16, tastePrune: 2, tasteZ: 3, moveCap: 12, movePrune: .5, moveZ: 3 };
+const L3I_X = { park: true, parkSingles: 2, inheritFull: true };
 function SELF_L2() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: 'evid', moveRevise: 'evid', mutate: true, moveAddInit: 2, leanGenes: L2_LEAN, fullGenes: L2_FULL }; }
 export const STRAINS = {
   FIXED: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: null, moveRevise: null, mutate: false },
@@ -34,6 +35,13 @@ export const STRAINS = {
   L2_EVOR: { ...SELF_L2(), evoB: true },
   L2_FIXED: { ...SELF_L2() },
   L2_NOREV: { ...SELF_L2(), tasteRevise: null, moveRevise: null }, // L3 reference: no level-1 self-revision at all
+  // Fly-RSI L3-I (docs/FLY_RSI_GOALS.md): parking screen with the fixed inheritance law; six arms.
+  L3I_META: { ...SELF_L2(), ...L3I_X, metaB: 'brainTrack' },
+  L3I_SHAM: { ...SELF_L2(), ...L3I_X, metaB: 'brainTracksham' },
+  L3I_EVOR: { ...SELF_L2(), ...L3I_X, evoB: true },
+  L3I_FIXED: { ...SELF_L2(), inheritFull: true },
+  L3I_NOREV: { ...SELF_L2(), inheritFull: true, tasteRevise: null, moveRevise: null },
+  L3I_METAOFF: { ...SELF_L2(), ...L3I_X, metaB: 'brainTrack', tasteRevise: null, moveRevise: null },
   // P13b amendment A3 (in-life switching toxin sensitivity): META tracks own body state from felt damage; SHAM same updates, fake state.
   A3_META: { ...SELF_RSTAR(), metaA: 'track' },
   A3_SHAM: { ...SELF_RSTAR(), metaA: 'tracksham' },

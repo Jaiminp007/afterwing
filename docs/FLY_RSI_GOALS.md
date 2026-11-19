@@ -92,3 +92,51 @@ L3b **stays FAILED** (best practice ratio 1.444). Under the agreed workflow, a s
 - **First new mechanism (attempt 1):** dormant features. When its brain becomes costly, the fly parks its added taste and movement features, with their weights, in cost-free storage. When the cost falls, it restores them.
 - **Final:** fresh seeds 97001–97048, run once, all five arms. It runs only if practice clears every gate.
 - **Gates:** as for L3b (the L3 ratio test plus the L2 gates, all at p < .01).
+
+## L3-I: factorial amplification (frozen 2026-11-19, before any L3-I practice run)
+
+Designed with GPT-6.2 Astra (advice only, [thread](t3-thread://v2/bad08e28-8c88-40fe-af57-ced9fd1ccf77/mcp:8e44d7f6-3728-4075-bccc-d22ecd4da085)). L3, L3b and L3c keep their recorded results.
+
+**Claim** (ecological amplification): level-1 self-revision pays at least 1.5× more under the level-2 controller than without it, after removing the controller's own direct effect. The claim must hold on average **and** in a typical world.
+
+This is not the narrower claim "the controller makes L1 discover better edits".
+
+**World.** `brainSwitch` mul [1, 20], switch .001.
+
+**Arms** (`microverse/l3i.mjs`, strains `L3I_*`):
+
+| Arm | Program |
+|---|---|
+| META | brainTrack plus parking, the L3c attempt-3 setting: park added features and singles with \|w\| < 2 |
+| SHAM | the identical controller on a fake cost state |
+| EVO-R | evolving package; a lean-born fly gets the same parking at birth |
+| FIXED | full package, no parking |
+| NOREV | no L1 |
+| METAOFF | the META controller with L1 structural revision disabled |
+
+**Inheritance law** (all arms, `inheritFull`):
+- A child inherits the parent's full repertoire (active plus parked masks), deduplicated, with no weights.
+- An in-life controller's temporary package is reset to the stable full package before birth mutation. EVO-R's inherited package is kept.
+- The birth audit passed: 431 births, 0 missing masks, 0 children carrying a temporary package.
+
+**Scorer v2.**
+- Paired one-sided sign-flip: exact for n ≤ 16; otherwise a Monte Carlo with 200,000 draws, using a `Math.imul` LCG and p = (exceedances + 1) / (draws + 1). Validated against exact enumeration: maximum error .0027.
+- Exact binomial sign test, with zeros counted as non-wins.
+- A missing arm result aborts the run; it is never treated as an extinction.
+- Extinctions are reported by arm and by seed; none are excluded.
+
+**Gates** (all must pass; p < .01; unrounded per-seed values):
+1. **L2:** META − EVO-R ≥ 1.0; META − SHAM ≥ 1.0; META − FIXED > 0.
+2. **Original L3:** mean d > 0, where d = (META − NOREV) − 1.5 (FIXED − NOREV).
+3. **Factorial mean:** mean of f = d − (METAOFF − NOREV) > 0.
+4. **Factorial sign:** f > 0 on ≥ 33/48 seeds (exact binomial p = .0066; 32/48 gives .0147).
+5. **Ordinary L1 gain:** FIXED − NOREV > 0.
+
+**Protocol.**
+- **Screen 1 (parking):** exactly this configuration, no tuning; one practice run on 101–116 and 301–332. If it clears every gate on practice, it gets the one final.
+- **Screen 2 (RewriteCost):** only if screen 1 misses. It needs its own registration, with numerical headroom bars and a 5-attempt budget, committed before its first measurement.
+- An oracle can never qualify. Selection is never by the smaller p.
+
+**Final bank.** 763001–763048, never used: a repo-wide search found these numbers only as incidental values inside runtime autosave files. It is run once. L3c's reserve, 97001–97048, stays untouched.
+
+**Default world.** The fingerprint stays bdaca307…; every mechanism is opt-in.

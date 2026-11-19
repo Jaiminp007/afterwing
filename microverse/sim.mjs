@@ -111,7 +111,8 @@ function metaShadow(brain) {
 // Fly-RSI L3c: dormant features. park() moves every added taste/movement feature (with its weight) into cost-free
 // storage; unpark() restores them. Used by the in-life reviser control when program.park is set.
 function park(b) { const t = b.taste, mv = b.move, P = { taste: [], move: [] };
-  for (let i = t.masks.length - 1; i >= 0; i--) if (popcount(t.masks[i]) > 1) { P.taste.push([t.masks[i], t.w[i]]); t.masks.splice(i, 1); t.w.splice(i, 1); for (const rec of t.memory) rec.phi.splice(i, 1); }
+  const ps = b.program.parkSingles; // optional: also park weak single-odor taste features (|w| < ps); bias is never parked
+  for (let i = t.masks.length - 1; i >= 0; i--) if (popcount(t.masks[i]) > 1 || (ps && popcount(t.masks[i]) === 1 && Math.abs(t.w[i]) < ps)) { P.taste.push([t.masks[i], t.w[i]]); t.masks.splice(i, 1); t.w.splice(i, 1); for (const rec of t.memory) rec.phi.splice(i, 1); }
   for (let i = mv.masks.length - 1; i >= 0; i--) if (!innateMove(mv.masks[i])) { P.move.push([mv.masks[i], mv.w[i]]); mv.masks.splice(i, 1); mv.w.splice(i, 1); if (mv.trace) mv.trace.splice(i, 1); }
   mv.pending = null; return P; }
 function unpark(b, P) { const t = b.taste, mv = b.move;
@@ -267,6 +268,11 @@ export class Microverse {
     let prog = program;
     if (parent) {
       const pb = parent.brain; prog = { ...pb.program, tasteMasks: [...pb.taste.masks], moveMasks: [...pb.move.masks], genes: { ...pb.genes } };
+      // L3-I inheritance law (opt-in inheritFull): the child inherits the parent's full repertoire (active + parked masks,
+      // deduplicated, active order first), and an in-life controller's temporary package is reset to the stable birth
+      // package before mutation (EVO-R's inherited package is genuine and kept).
+      if (prog.inheritFull) { if (parent.parked) { for (const [m] of parent.parked.taste) if (!prog.tasteMasks.includes(m)) prog.tasteMasks.push(m); for (const [m] of parent.parked.move) if (!prog.moveMasks.includes(m)) prog.moveMasks.push(m); }
+        if (prog.metaB) Object.assign(prog.genes, prog.fullGenes); }
       if (prog.mutate) this.mutate(prog, r);
       if (prog.evoB && r() < .1) { prog.genes._lean = !prog.genes._lean; Object.assign(prog.genes, prog.genes._lean ? prog.leanGenes : prog.fullGenes); } // Fly-RSI L2 EVO-R control
       if (prog.evoA && r() < .1) gridStep(prog.genes, 'acceptAt', ACCEPT_GRID, r() < .5 ? -1 : 1); // P13b A2 EVO-R control
@@ -285,6 +291,8 @@ export class Microverse {
     if (this.cfg.noiseNiche) { const [lo, hi] = this.cfg.noiseNiche; f.noise = r() < .5 ? lo : hi;
       // Headroom instrument (H6) only: stepOracle sets the learning rate from the fly's true noise level.
       if (prog.stepOracle) f.brain.genes.tasteStep = f.noise === lo ? prog.stepOracle.lo : prog.stepOracle.hi; }
+    // L3-I control parity: an EVO-R fly born with the lean package gets the same parking operation at birth.
+    if (prog.park && prog.evoB && prog.genes._lean) f.parked = park(f.brain);
     this.flies.push(f); return f;
   }
   mutate(prog, r) {
