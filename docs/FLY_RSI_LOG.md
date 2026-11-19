@@ -203,3 +203,22 @@ L3-II stops at stage A. No stage B.
 - The fingerprint is unchanged.
 
 **Stage A** (seeds 301–316; five static allocations; 0 extinctions). Mean late flies: S0 52.44, S25 55.49, S50 55.05, **S75 55.88 (locked as FIXED)**, S100 51.08. No META result entered the selection.
+
+**Stage B (feasibility; seeds 317–332; META, FIXED = S75, NOREV; 0 extinctions): MISSED. L3-III stops.**
+
+| Quantity | Value | Bar |
+|---|---|---|
+| mean g = FIXED − NOREV (ordinary L1 gain) | **+13.39** flies | > 0 (pass) |
+| mean m = META − FIXED | +0.88 flies | none |
+| mean d = m − .5g | **−5.81** | > 0 (**miss**) |
+| seeds with d > 0 | **1/16** | ≥ 9 (**miss**) |
+
+Mean late flies: META 55.74, S75 54.85, NOREV 41.46.
+
+**Reading.**
+- Ordinary L1 revision is worth about 13 flies in this world. Compounding would need the routing controller to add about 6.7 more on top of the best fixed split. It adds about 0.9, much the same small premium seen in L3-II practice (+0.91).
+- Astra's predicted failure mode, a stage-B stop, is what happened.
+- Telemetry (descriptive only; it changes no gate): META's true-bank match rate is .530, against .500 for S75. Its mean route run is 4.68 tastings, against 2.65 for S75. Bank admissions are 5,196 A / 5,321 B for META, against 3,826 / 1,635 for S75.
+- So the evidence scheduler barely tracks the receptor state. Its premium comes from runs of same-bank sampling and balanced admissions, not from finding the reliable bank.
+
+The registration's stop rule applies: no stage C and no final. Bank 874001–874048 stays untouched.
