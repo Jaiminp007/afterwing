@@ -169,3 +169,20 @@ Validity checks, all at commit `da995b0` on practice seeds:
 **Practice checks after adoption.**
 - SELF − MOVEONLY = +9.46 (48/48).
 - The universal suite on practice seeds 101–108 passes **G1–G7**: G5 8/8 and 8/8; G6 gain .42; G7 8/8 against both taste-only and move-only.
+
+## G7c final (fresh seeds 94001–94096, run once; commit dd0ea19) — PASSED
+
+| Contrast | SELF | Other | Difference | Positive seeds | p (200k sign flips) | Bar | Pass |
+|---|---|---|---|---|---|---|---|
+| SELF − TASTEONLY | 57.19 | 55.06 | **+2.14** | 66/96 | < .00001 | ≥ .7, p < .01 | **yes** |
+| SELF − MOVEONLY | 57.19 | 47.80 | **+9.40** | 96/96 | < .00001 | ≥ .7, p < .01 | **yes** |
+
+Raw data: `evidence/microverse/g7c-final-94001-94096-vs-*.json`.
+
+**G7c PASSED. "Both systems improve" is shown.** Self-revising movement adds +2.14 flies on top of self-revising taste, and self-revising taste adds +9.40 on top of self-revising movement.
+
+**Pooled with G7b, as frozen:** (48 × .88 + 96 × 2.14) / 144 = +1.72 flies. G7b ran the older movement reviser, so the pooled figure mixes two versions of the code.
+
+**Notes:**
+- G7 (3/8 and 5/8) and G7b (p .0119) stay recorded as failed. G7c is a new test with a redesigned movement reviser and a larger final.
+- G1–G6 were closed on fresh seeds with the earlier code (da995b0). With the G7c code they pass the universal suite on practice seeds only.

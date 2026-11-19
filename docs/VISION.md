@@ -82,7 +82,7 @@ The microverse is a separate, closed world (`microverse/`) where flies breed, le
   - learning in life helps;
   - self-improving flies out-compete fixed flies, a random-revision sham and mutation-only evolution in a shared world;
   - after rule changes, skill is rediscovered.
-- **Not shown:** G7, a separate benefit of self-revising movement on top of taste. It failed twice as registered, and its lower-drift re-test G7b just missed (p = .012).
+- **G7 shown via G7c (2026-11-18):** self-revising movement adds a separate benefit on top of taste. G7 failed twice as registered and G7b just missed (p = .012). The new test G7c used a redesigned movement reviser, in which an added sense starts at an evidence-signed weight. On 96 fresh worlds it gave +2.14 flies over taste-only flies (66/96, p < .00001) and +9.40 over move-only flies (96/96). G1–G6 also pass with this code, on practice seeds.
 
 These results are for a constructed world with hand-written operators. They show bounded, in-world self-improvement, not open-ended intelligence.
 
