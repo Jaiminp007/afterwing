@@ -11,9 +11,11 @@ const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P1
 if (process.env.MV_SET === 'L2') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.L2_META, ...X }, SHAM: { ...STRAINS.L2_SHAM, ...X }, EVOR: STRAINS.L2_EVOR, FIXED: STRAINS.L2_FIXED, NOREV: STRAINS.L2_NOREV }); }
 // MV_PKG (JSON {leanGenes, fullGenes}): L3b practice; the same packages go to every L2 arm that can switch (META, SHAM, EVO-R).
 if (process.env.MV_PKG) { const P = JSON.parse(process.env.MV_PKG); for (const k of ['META', 'SHAM', 'EVOR']) if (ALL[k]) ALL[k] = { ...ALL[k], ...P }; }
+// METAOFF (Fly-RSI diagnostic): the full META controller with level-1 structural revision disabled.
+if (process.env.MV_SET === 'L2') ALL.METAOFF = { ...ALL.META, tasteRevise: null, moveRevise: null };
 if (process.env.MV_SET === 'A3') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.A3_META, ...X }, SHAM: { ...STRAINS.A3_SHAM, ...X }, EVOR: STRAINS.A3_EVOR, FIXED: STRAINS.A3_FIXED }); }
 const WORLD = { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') };
-const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
+const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE' && k !== 'METAOFF') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
 if (!isMainThread) {
   const { seed, arm } = workerData, { snaps, world } = runWorld(seed, TICKS, ['X'], { every: EVERY, config: WORLD, strains: { X: ARMS[arm] } });
   const late = []; for (let t = 10000 + EVERY; t <= TICKS; t += EVERY) { const s = snaps.find(x => x.tick === t); late.push(s ? s.pop : 0); }

@@ -68,3 +68,21 @@ Mean flies: META 44.83, SHAM 41.96, EVO-R 41.19, FIXED 41.67. Raw data: `evidenc
 **L3b FAILED on practice** (5 attempts, best 1.444 < 1.5); no final was run.
 
 A costlier world raises level-1 revision's value for every arm, so it lowers the ratio. Partly this is because NOREV keeps accumulating mutated movement features it can never prune. Changes to the rule form gave steady progress (1.372 → 1.395 → 1.444).
+
+## L3c practice (world mul [1, 20], switch .001; 48 practice seeds)
+
+| Attempt | Rule | META − FIXED | vs EVO-R | vs SHAM | L1 ratio | L3 d > 0 | L3 p |
+|---|---|---|---|---|---|---|---|
+| 1 | Dormant features (park / unpark added features) | +4.61 | +3.92 | +7.05 | 1.453 | 20/48 | .59 |
+| 2 | + park weak single-odor features (\|w\| < 1) | +7.59 | +6.90 | +14.48 | 1.746 | 30/48 | .041 |
+| 3 | + park singles with \|w\| < 2 | +7.91 | +7.22 | +13.95 | **1.778** | 34/48 | **.017** |
+
+**L3c STOPPED after attempt 3; no final was run.** Seeds 97001–97048 stay untouched. The two remaining attempt slots were not used, by decision. They would only park more *founder* features, which a fly can switch off without L1 discovering anything. That would make any pass less, not more, about compounding. This decision was frozen before looking at the META-OFF diagnostic.
+
+**External review** (GPT-6.2 Astra, advice only: [thread](t3-thread://v2/bad08e28-8c88-40fe-af57-ced9fd1ccf77/mcp:8e44d7f6-3728-4075-bccc-d22ecd4da085)). It found two things:
+- **Heavy tails.** In attempt 2, a single seed (113, where FIXED went extinct; d = +59.6) contributes +1.24 of the +2.51 mean d.
+- **A confound.** Parking founder singles saves energy even without L1. A META-OFF arm (the same controller, with structural revision disabled) measures that direct benefit.
+
+**Diagnostic rule (frozen before running):** META-OFF on practice is descriptive only. It cannot select an attempt, change a threshold, or decide publication.
+
+**Scorer note.** The runner's Monte Carlo sign-flip uses `r * 1103515245` in floating point, which loses integer precision, and it reports `p: 0` instead of (exceed + 1) / (draws + 1). Old results are not rescored. New tests use a corrected, validated scorer.
