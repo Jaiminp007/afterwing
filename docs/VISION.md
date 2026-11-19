@@ -97,3 +97,18 @@ P11 and P13 were re-asked as new tests, P11b and P13b; the originals stay failed
 
 Labels: the climber, the meta-rules and the search grid are hand-written. The start point was set after the first headroom checks failed. Fable review was unavailable for this line.
 
+**Bounded fly-RSI (2026-11-18,** [goals](FLY_RSI_GOALS.md), [log](FLY_RSI_LOG.md)**).**
+
+A ladder for our flies only, not general RSI. Every level is done by the flies, inside the world, from their own experience, and tested on fresh seeds.
+
+| Level | Status |
+|---|---|
+| L0: learning helps | Shown (G4) |
+| L1: flies improve their own learning program | Shown (G5, G7c) |
+| L2: flies improve their own improver | **Shown** on 48 fresh worlds: +3.64 flies over evolution, +2.87 over a matched sham, +3.16 over no tuning |
+| L3: improving the improver makes self-improvement pay ≥ 1.5× more | **Not shown**: best 1.44 on practice, so no final |
+
+How L2 works: in a world where running a brain becomes costly for a while, each fly retunes its reviser's own settings (feature caps, pruning, evidence thresholds) from the energy cost it feels.
+
+Labels: the rule and the two settings packages are hand-written, the world was built for this, and the climb has two levels, not an open-ended one.
+

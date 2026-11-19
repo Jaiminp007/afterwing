@@ -29,3 +29,28 @@ Attempt 1, means: META 44.73, SHAM 41.18, EVO-R 41.61, FIXED 41.09, NOREV 32.74.
 **L2.** Attempt 1 clears every margin, so it goes to the one final.
 
 **L3** fails on practice in all 5 attempts (best 1.44 < 1.5), so **L3 is not shown** and gets no final. The final leaves out the NOREV arm, so no fresh-seed L3 number is produced.
+
+## L2 final (fresh seeds 95001–95048, run once; commit a8e5e6b) — PASSED
+
+Mean flies: META 44.83, SHAM 41.96, EVO-R 41.19, FIXED 41.67. Raw data: `evidence/microverse/fly-rsi-l2-final-95001-95048.json`.
+
+| Gate | Δ flies | Seeds positive | p (200k sign flips) | Bar | Result |
+|---|---|---|---|---|---|
+| META − EVO-R | +3.64 | 44/48 | < .00001 | ≥ 1.0, p < .01 | pass |
+| META − SHAM | +2.87 | 39/48 | < .00001 | ≥ 1.0, p < .01 | pass |
+| META − FIXED | +3.16 | 43/48 | < .00001 | > 0, p < .01 | pass |
+
+**L2 PASSED: the flies improve their own improver.** In life, each fly retunes the genes that control its own level-1 self-revision (feature caps, pruning, and the evidence threshold, for taste and for movement) from the brain cost it feels. That beats evolution of the same genes, a matched sham and no tuning, on fresh worlds.
+
+**Labels:**
+- The meta-rule is hand-written, and the two gene packages come from the headroom oracle.
+- The world was built so that the best reviser setting changes during life, and the felt signal is noise-free.
+
+## Bounded fly-RSI: status
+
+| Level | Status |
+|---|---|
+| L0: learning helps | **shown** (G4) |
+| L1: flies improve their own learning program | **shown** (G5, G7c) |
+| L2: flies improve their own improver | **shown** (this final) |
+| L3: compounding (L1 pays ≥ 1.5× more with L2) | **not shown**: practice best 1.44 in 5 attempts; no final |
