@@ -62,3 +62,23 @@ Arms:
 - The world was built so that the best reviser setting changes during life.
 - The felt signal is noise-free.
 - Not open-ended.
+
+## L3b (frozen 2026-11-18, after L3 failed practice and before any L3b tuning)
+
+L3 **stays NOT SHOWN** (best practice ratio 1.44 < 1.5, no final). L3b is a new, separately named test of the same claim.
+
+**Allowed changes (practice only, at most 5 attempts):**
+- the costly-state multiplier `brainSwitch.mul[1]`, chosen from {20, 30, 50}, with switch .001;
+- the META rule's form.
+
+The arms' definitions (META, SHAM, EVO-R, FIXED, NOREV) and both packages are as in L2.
+
+**Selection.** The final runs only if a practice attempt clears the L3 gate and every L2 margin. It goes to the best L3 attempt.
+
+**Final.** Fresh seeds 96001–96048, run once, all five arms.
+
+**Gates** (one-sided sign-flip, p < .01):
+- **L3b:** mean of d = (META − NOREV) − 1.5 × (FIXED − NOREV) > 0.
+- **The L2 gates in the same world:** META − EVO-R ≥ 1.0, META − SHAM ≥ 1.0, META − FIXED > 0. All must pass, so compounding counts only where level 2 itself holds.
+
+**Label.** The world's cost multiplier was chosen on practice to make level-1 self-revision costly without level 2. That choice is part of the constructed world.
