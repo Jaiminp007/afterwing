@@ -149,5 +149,43 @@ This retires the operator. It is **not** a measurement that L1 is at its ceiling
 | L3c | best 1.778, p .017; stopped, no final |
 | L3-I screen 1 (parking) | L1 gain ratio 1.46× on practice; the controller's direct benefit explains the margin above 1.5×; factorial −.45, 19/48 |
 | L3-I screen 2 (RewriteCost) | the targeted bottleneck is rare (0/16 at stage A) |
+| L3-II (attention) | oracle routing beats every static allocation, but not the cue-blind scheduler by the bar (+1.37 vs 2.0 flies; 10/16 vs 12) |
 
 No final has been run for any L3 variant. The reserved banks 97001–97048 and 763001–763048 are untouched.
+
+## L3-II (attention-limited structural revision): integrity checks and stage A — MISSED at stage A
+
+**Integrity (passed).**
+- **F1:** a routed bite changes exactly 15 correlations in its bank and 0 outside it.
+- **F2:** L0 weights are identical across different routes and corruption.
+- **F3:** METAOFF vs NOREV lockstep on seed 101, 20,000 ticks, 0 divergence.
+- The default fingerprint is unchanged.
+
+**Stage A** (seeds 101–116; population plus tape assay; every seed × arm value finite). Mean flies / tape loss (nats per bite):
+
+| Arm | Population | Tape loss |
+|---|---|---|
+| ORACLE | 58.29 | .5654 |
+| S0 | 50.72 | .6712 |
+| S25 | 55.56 | .6766 |
+| S50 (locked FIXED) | 56.00 | .6712 |
+| S75 | 55.56 | .6781 |
+| S100 | 51.80 | .6727 |
+| BLIND | 56.91 | .6338 |
+
+**Post-mortem** (per the frozen budget; from the original artifact only):
+
+| ORACLE vs | Tape-loss advantage (bar ≥ .01) | Population advantage (bar ≥ 2.0) | Population wins |
+|---|---|---|---|
+| S0 | .1058 | +7.56 | — |
+| S25 | .1112 | +2.73 | — |
+| S50 (FIXED) | .1059 | +2.28 | 12/16 (bar ≥ 12) |
+| S75 | .1128 | +2.73 | — |
+| S100 | .1074 | +6.48 | — |
+| **BLIND** | **.0684** | **+1.37 — missed by .63** | **10/16 — missed by 2** |
+
+**Reading.** Every static allocation clears every bar. The miss is against BLIND alone, on population, both in mean (+1.37 against 2.0) and in win count (10 against 12).
+
+Oracle routing improved prediction on common bites against every comparator, but did not buy enough flies over the cue-blind evidence scheduler. **"Correct features arrived too late"** cannot be established from this artifact. Mechanism telemetry was not retained.
+
+L3-II stops at stage A. No stage B.
