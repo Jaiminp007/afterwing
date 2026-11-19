@@ -185,7 +185,9 @@ export function moveLearn(brain, reward) {
   const best = list.reduce((a, c) => Math.abs(mv.ev[c]) > Math.abs(mv.ev[a]) ? c : a, list[0]);
   if (Math.abs(mv.ev[best]) <= brain.genes.moveZ * Math.sqrt(mv.s2)) return;
   const chosen = mode === 'random' ? list[Math.floor(brain.rand() * list.length)] : best;
-  mv.masks.push(chosen); mv.w.push(0); mv.added.push(chosen);
+  // G7c: optional evidence-signed start weight for an added sense (moveAddInit); the 'random' sham gets a random sign.
+  const a0 = brain.program.moveAddInit ?? 0, sgn = !a0 ? 0 : mode === 'random' ? (brain.rand() < .5 ? -1 : 1) : Math.sign(mv.ev[chosen]) || 1;
+  mv.masks.push(chosen); mv.w.push(a0 * sgn); mv.added.push(chosen);
 }
 
 // ---------- world ----------

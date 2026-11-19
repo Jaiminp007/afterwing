@@ -146,3 +146,26 @@ Validity checks, all at commit `da995b0` on practice seeds:
 | G5 Self-improvement helps (vs FIXED and SHAM; also beats EVO) | **CLOSED** |
 | G6 They adapt | **CLOSED** (rediscovery, not hoarding) |
 | G7 Both systems improve | **NOT SHOWN**: taste self-revision is the main source of gains. Movement self-revision's extra benefit is small and missed significance (G7 failed 3/8 and 5/8; G7b p = .012) |
+
+## G7c practice (frozen in MICROVERSE_GOALS.md; 48 practice seeds 101–116 and 301–332 unless noted)
+
+**Baseline** (current SELF): SELF − TASTEONLY = +.86 (31/48, p .033).
+
+**Headroom** (16 seeds, measuring instruments only):
+- The movement planner adds +5.24 over TASTEONLY (16/16).
+- Handing TASTEONLY the "toward best food" and "stay" senses at weight 1 adds +2.92 (13/16).
+
+**Diagnosis.** SELF adds "toward" with a tiny weight (about .2) and never adds "stay". Added senses start at weight 0 and learn slowly (step .05), so within a life they hardly change behaviour.
+
+**Attempts.** The change is to the movement self-revision operator only: an added sense starts at an evidence-signed weight (`moveAddInit`; the random-revision sham gets a random sign).
+
+| Attempt | moveAddInit | SELF − TASTEONLY |
+|---|---|---|
+| 1 | 1 | +2.39 (36/48, p < .00001) |
+| 2 | 2 | **+2.47 (42/48, p < .00001)** |
+
+**Adopted:** attempt 2, set for SELF, SHAM and MOVEONLY (every strain that revises movement). The default-world fingerprint changes accordingly (new hash bdaca307…; SELF and SHAM are part of it).
+
+**Practice checks after adoption.**
+- SELF − MOVEONLY = +9.46 (48/48).
+- The universal suite on practice seeds 101–108 passes **G1–G7**: G5 8/8 and 8/8; G6 gain .42; G7 8/8 against both taste-only and move-only.
