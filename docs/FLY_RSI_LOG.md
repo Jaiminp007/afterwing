@@ -189,3 +189,17 @@ No final has been run for any L3 variant. The reserved banks 97001–97048 and 7
 Oracle routing improved prediction on common bites against every comparator, but did not buy enough flies over the cue-blind evidence scheduler. **"Correct features arrived too late"** cannot be established from this artifact. Mechanism telemetry was not retained.
 
 L3-II stops at stage A. No stage B.
+
+## L3-III (evidence-routed attention): integrity and stage A (FIXED re-lock)
+
+**Integrity (passed, before stage A; `scratch/l3iii-fixtures.mjs`).**
+- META reproduces former BLIND on 600 scripted tastings, including ties and 60 exploratory choices against utility. It has 0 route differences and 0 state differences, every gene write is correct, and the context RNG ends in the same state. Over a 20,000-tick world on seed 101, the ecology is identical.
+- Offspring of a META parent are born at attentionA .5, and the parent is not reset. EVO-R offspring keep the real allele (51/60) or mutate only when their EVO stream fires (9/60); there were 0 bad cases.
+- **SHAM wiring.**
+  - S1: z′ was unchanged by the recipient's observation on 50/50 bites.
+  - S2: changing the donor changed z′ on 300/300 bites but never changed the recipient's real L0 or L1 state (0 divergences).
+  - S3: with identical scripted histories, z′ = META's z on 500/500 bites.
+- METAOFF vs NOREV lockstep on seed 101 for 20,000 ticks: 0 divergence, and the world RNG ended equal.
+- The fingerprint is unchanged.
+
+**Stage A** (seeds 301–316; five static allocations; 0 extinctions). Mean late flies: S0 52.44, S25 55.49, S50 55.05, **S75 55.88 (locked as FIXED)**, S100 51.08. No META result entered the selection.
