@@ -58,6 +58,8 @@ export const STRAINS = {
   AT_S0: SELF_AT('static', 0), AT_S25: SELF_AT('static', .25), AT_S50: SELF_AT('static', .5), AT_S75: SELF_AT('static', .75), AT_S100: SELF_AT('static', 1),
   AT_NOREV: { ...SELF_AT('static', .5), attention: false, tasteRevise: null, moveRevise: null },
   AT_METAOFF: { ...SELF_AT('meta'), tasteRevise: null, moveRevise: null },
+  // L3-III (evidence-routed attention): META = former BLIND policy writing attentionA; SHAM = same controller fed an independent sensory twin's innovation.
+  AT3_META: SELF_AT('ev'), AT3_SHAM: SELF_AT('evsham'), AT3_METAOFF: { ...SELF_AT('ev'), tasteRevise: null, moveRevise: null },
   // P13b amendment A3 (in-life switching toxin sensitivity): META tracks own body state from felt damage; SHAM same updates, fake state.
   A3_META: { ...SELF_RSTAR(), metaA: 'track' },
   A3_SHAM: { ...SELF_RSTAR(), metaA: 'tracksham' },

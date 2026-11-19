@@ -169,7 +169,7 @@ function tasteLearnCore(brain, bits, target) {
   if (brain.program.attention) { // L3-II admission: within-bank extensions only, ranked by |ev|/sqrt(S[bank])
     const S = t.S ?? [0, 0]; let bestK = -1, bestV = -1;
     for (const c of list) { const bk = bankOf(c); if (bk < 0 || !(S[bk] > 0)) continue; const v = Math.abs(t.ev[c]) / Math.sqrt(S[bk]); if (v > bestV) { bestV = v; bestK = c; } }
-    if (bestK < 0 || !(bestV > brain.genes.tasteZ)) return; chosen = bestK; ATT_STATS.admissions[bankOf(bestK)]++;
+    if (bestK < 0 || !(bestV > brain.genes.tasteZ)) return; chosen = bestK; if (brain.program.attnMode !== 'forced') { ATT_STATS.admissions[bankOf(bestK)]++; t.admits = (t.admits ?? 0) + 1; }
   } else {
     const best = list.reduce((a, c) => Math.abs(t.ev[c]) > Math.abs(t.ev[a]) ? c : a, list[0]);
     if (Math.abs(t.ev[best]) <= brain.genes.tasteZ * Math.sqrt(t.s2)) return;
@@ -182,7 +182,7 @@ function tasteLearnCore(brain, bits, target) {
 export const bankOf = m => !m ? -1 : (m & 0xF0) === 0 ? 0 : (m & 0x0F) === 0 ? 1 : -1;
 const BANK_MASKS = [[], []]; for (let m = 1; m < FULL; m++) { const b = bankOf(m); if (b >= 0) BANK_MASKS[b].push(m); }
 const PAIRS = [[], []]; for (const b of [0, 1]) for (const m of BANK_MASKS[b]) if (popcount(m) === 2) PAIRS[b].push(m);
-export const ATT_STATS = { routed: [0, 0], match: 0, tastings: 0, admissions: [0, 0] };
+export const ATT_STATS = { routed: [0, 0], match: 0, tastings: 0, admissions: [0, 0], bitesAfterAdm: 0, runs: 0, joins: 0, zN: 0, zSS: 0, lag: { n: 0, sx: 0, sy: 0, sxx: 0, syy: 0, sxy: 0 } };
 function attnEvidence(brain, D, r) {
   const t = brain.taste, a = brain.att; t.S ??= [0, 0];
   for (let k = 0; k < FULL; k++) t.ev[k] *= D; t.S[0] *= D; t.S[1] *= D;
@@ -190,7 +190,11 @@ function attnEvidence(brain, D, r) {
   if (a.blind) { for (const k of PAIRS[a.bank]) if (nom < 0 || Math.abs(t.ev[k]) > Math.abs(t.ev[nom])) nom = k; evBefore = t.ev[nom]; }
   for (const k of BANK_MASKS[a.bank]) t.ev[k] += walsh(k, a.sample) * r;
   t.S[a.bank] += r * r;
-  if (a.blind) { const U = brain.attU ??= [0, 0]; U[a.bank] = .8 * U[a.bank] + .2 * Math.sign(evBefore) * walsh(nom, a.sample) * r; }
+  if (a.blind) { const own = [Math.sign(evBefore), walsh(nom, a.sample), r], mode = brain.program.attnMode; a.zParts = own;
+    if (mode !== 'forced') { // L3-III: 'evsham' updates its utility from the independent sensory twin's innovation (a.twin), never its own
+      const [sg, wl, rr] = mode === 'evsham' ? a.twin : own, U = brain.attU ??= [0, 0]; U[a.bank] = .8 * U[a.bank] + .2 * sg * wl * rr;
+      const z = sg * wl * rr, L = brain.attLastZ ??= [null, null], g = ATT_STATS.lag; ATT_STATS.zN++; ATT_STATS.zSS += z * z;
+      if (L[a.bank] !== null) { const x = L[a.bank]; g.n++; g.sx += x; g.sy += z; g.sxx += x * x; g.syy += z * z; g.sxy += x * z; } L[a.bank] = z; } }
 }
 // Per-fly receptor context on dedicated streams (keyed by world seed, fly id and tag); shared by the world and the tape assay.
 export function newAttnCtx(seed, id) { const st = tag => rng32(mix(seed ^ Math.imul(id, 2654435761) ^ tag));
@@ -203,11 +207,21 @@ export function attnSample(c, brain, bits) {
   const flips = [c.X(), c.X(), c.X(), c.X()].map(u => u < .5), unrel = 1 - c.state, sample = bits.map((v, i) => (i >> 2) === unrel && flips[i & 3] ? -v : v);
   const u1 = c.O(), u2 = c.O(), m = prog.attnMode; let bank, blind = false;
   if (m === 'oracle') bank = c.state; else if (m === 'meta') bank = cue; else if (m === 'sham') bank = fakeCue;
-  else if (m === 'blind') { blind = true; const U = brain.attU ?? [0, 0]; bank = u1 < .8 ? (U[0] === U[1] ? (u2 < .5 ? 0 : 1) : U[0] > U[1] ? 0 : 1) : (u2 < .5 ? 0 : 1); }
+  else if (m === 'blind' || m === 'ev' || m === 'evsham') { blind = true; const U = brain.attU ?? [0, 0]; bank = u1 < .8 ? (U[0] === U[1] ? (u2 < .5 ? 0 : 1) : U[0] > U[1] ? 0 : 1) : (u2 < .5 ? 0 : 1);
+    if (m !== 'blind') { brain.genes.attentionA = bank === 0 ? 1 : 0; bank = u1 < brain.genes.attentionA ? 0 : 1; } } // L3-III: controller writes the gene; common reader routes (no third draw)
+  else if (m === 'forced') { blind = true; bank = brain.forceBank; } // L3-III SHAM twin: processes its donor bite in the recipient's chosen bank
   else bank = u1 < (brain.genes.attentionA ?? .5) ? 0 : 1; // static allocation (and EVO-R)
-  ATT_STATS.tastings++; ATT_STATS.routed[bank]++; if (bank === c.state) ATT_STATS.match++;
+  if (m === 'forced') return { bank, sample, blind };
+  ATT_STATS.tastings++; ATT_STATS.routed[bank]++; if (bank === c.state) ATT_STATS.match++; ATT_STATS.bitesAfterAdm += brain.taste.admits ?? 0;
+  if (brain.lastBank !== bank) ATT_STATS.runs++; brain.lastBank = bank;
   return { bank, sample, blind };
 }
+// L3-III SHAM: an independent sensory twin per recipient (docs/FLY_RSI_GOALS.md). Dedicated streams keyed by seed, recipient id and tag.
+export function newTwin(w, f) { const fp = { ...w.strains[f.strain], attnMode: 'forced' };
+  return { ctx: newAttnCtx(w.seed ^ 0x5457494e, f.id), brain: newBrain(fp, rng32(mix(w.seed ^ Math.imul(f.id, 3735928559) ^ 0x54574252))), sel: rng32(mix(w.seed ^ Math.imul(f.id, 2654435769) ^ 0x444f4e52)), tape: null, pos: 0 }; }
+export function twinBite(w, f, att) { const tw = f.tw, L = w.donor; if (!L || !L.length) throw Error('L3-III: empty donor library');
+  if (!tw.tape || tw.pos >= tw.tape.length) { if (tw.tape) ATT_STATS.joins++; tw.tape = L[Math.floor(tw.sel() * L.length)]; tw.pos = 0; }
+  const e = tw.tape[tw.pos++], tb = tw.brain; tb.forceBank = att.bank; tb.att = attnSample(tw.ctx, tb, e.bits); tasteLearn(tb, e.bits, e.y); att.twin = tb.att.zParts ?? [0, 0, 0]; tb.att = null; }
 // ---- L3-I screen 2 (RewriteCost; docs/FLY_RSI_GOALS.md): swap trial, scored on the fly's own next 16 tastings. ----
 export const RW_STATS = { checks: 0, nominations: 0, cancellations: 0, completions: 0, wins: 0, commits: 0, debit: 0, pendingAtDeath: 0 };
 export function resetRwStats() { for (const k of Object.keys(RW_STATS)) RW_STATS[k] = 0; }
@@ -348,6 +362,7 @@ export class Microverse {
       // package before mutation (EVO-R's inherited package is genuine and kept).
       if (prog.inheritFull) { if (parent.parked) { for (const [m] of parent.parked.taste) if (!prog.tasteMasks.includes(m)) prog.tasteMasks.push(m); for (const [m] of parent.parked.move) if (!prog.moveMasks.includes(m)) prog.moveMasks.push(m); }
         if (prog.metaB) Object.assign(prog.genes, prog.fullGenes); }
+      if (prog.attnMode === 'ev' || prog.attnMode === 'evsham') prog.genes.attentionA = .5; // L3-III: reset the transient allocation on the offspring copy
       if (prog.mutate) this.mutate(prog, r);
       if (prog.evoAttn) { const q = rng32(mix(this.seed ^ Math.imul(id, 1597334677) ^ 0x41545445)); if (q() < .1) { const G = [0, .25, .5, .75, 1], o = G.filter(x => x !== prog.genes.attentionA); prog.genes.attentionA = o[Math.floor(q() * o.length)]; } } // L3-II EVO-R
       if (prog.metaRW) prog.genes.swapHurdle = prog.stableHurdle ?? .075; // reset the transient hurdle before inheritance
@@ -445,7 +460,8 @@ export class Microverse {
         const dO = b.program.driftOracle; if (dO) { let ph = f.driftPhase; if (dO.sham) { f.fakePhase ??= b.rand() < .5 ? 1 : 0; if (b.rand() < sd.switch) f.fakePhase ^= 1; ph = f.fakePhase; }
           Object.assign(b.genes, ph ? dO.volatile : dO.calm); } }
       const dm = f.drift ?? null;
-      if (cfg.attention) { f.ac ??= newAttnCtx(this.seed, f.id); attnTick(f.ac, cfg.attention.switch); } // L3-II private receptor state
+      if (cfg.attention) { f.ac ??= newAttnCtx(this.seed, f.id); attnTick(f.ac, cfg.attention.switch);
+        if (b.program.attnMode === 'evsham') { f.tw ??= newTwin(this, f); attnTick(f.tw.ctx, cfg.attention.switch); } } // L3-II private receptor state
       // L3-I screen 2 world (opt-in rewriteCost {cheap, dear, switch}): private rewrite price state on dedicated streams.
       if (cfg.rewriteCost) { const rc = cfg.rewriteCost;
         if (!f.rwR) { f.rwR = rng32(mix(this.seed ^ Math.imul(f.id, 2246822519) ^ 0x52575231)); f.rwF = rng32(mix(this.seed ^ Math.imul(f.id, 3266489917) ^ 0x52575246)); f.rwDear = f.rwR() < .5; f.rwFakeDear = f.rwF() < .5; }
@@ -503,7 +519,7 @@ export class Microverse {
               b.genes.acceptAt = f.trackMul < (lo + hi) / 2 ? (b.program.trackLo ?? .2) : (b.program.trackHi ?? .75); } } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           const lab = (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0);
           if (this.tape) this.tape.push({ id: f.id, age: f.age, bits, y: lab }); // L3-II tape assay recorder (instrument only)
-          if (cfg.attention && b.program.attention) b.att = attnSample(f.ac, b, bits);
+          if (cfg.attention && b.program.attention) { b.att = attnSample(f.ac, b, bits); if (b.program.attnMode === 'evsham') twinBite(this, f, b.att); }
           tasteLearn(b, bits, lab); b.att = null;
         }
       }
