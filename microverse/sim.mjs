@@ -358,7 +358,9 @@ export class Microverse {
       // reviser genes between a lean and a full package. 'brainTracksham': same switching rule fed an independent fake state.
       if (cfg.brainSwitch && (b.program.metaB === 'brainTrack' || b.program.metaB === 'brainTracksham')) { const [lo, hi] = cfg.brainSwitch.mul;
         let felt; if (b.program.metaB === 'brainTrack') felt = f.brainMul; else { f.fakeB ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.brainSwitch.switch) f.fakeB = f.fakeB === lo ? hi : lo; felt = f.fakeB; }
-        Object.assign(b.genes, felt > (lo + hi) / 2 ? b.program.leanGenes : b.program.fullGenes); }
+        const costly = felt > (lo + hi) / 2; if (f.wasCostly && !costly) f.regrowAt = f.age; f.wasCostly = costly;
+        // Optional regrowth phase (program.regrow {ticks, genes}): for a while after costs fall, rebuild with these genes.
+        const rg = b.program.regrow; Object.assign(b.genes, costly ? b.program.leanGenes : rg && f.regrowAt !== undefined && f.age - f.regrowAt < rg.ticks ? { ...b.program.fullGenes, ...rg.genes } : b.program.fullGenes); }
       // P13b A3 (opt-in toxinSwitch = per-tick flip probability): the fly's toxin sensitivity flips between the two
       // toxinNiche values during life. Headroom instrument only: acceptOracle tracks the current state ('shamState':
       // an independent fake state flipping at the same rate).
