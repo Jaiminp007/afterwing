@@ -317,3 +317,14 @@ Extinctions are reported by arm and by seed and never excluded. A missing or non
 - If stage C passes, run the six arms once on that bank; otherwise run no final. The earlier reserved banks stay untouched.
 
 **Bank audit (done before commit).** A repo-wide search for 852001–852048 found only incidental values inside runtime autosave JSON (`handoff/runtime-snapshot/…/autosave.json`, `runs/platform/…/autosave.json`). They are not seeds. The ledger and run artifacts in `docs/SPENT_BANKS_RSI.md` contain no 6-digit ranges overlapping it. The bank is reserved.
+
+### L3-II addenda (frozen before reading stage A; text by GPT-6.2 Astra)
+
+**Post-mortem budget (verbatim).** On a Stage A miss, L3-II stops. No additional seeds, simulation runs, tape regeneration, parameter changes or alternative gates. From the original Stage A artifact, report ORACLE's paired tape-loss advantage and late-population advantage against **each** static allocation and BLIND, plus its population win counts against locked FIXED and BLIND. Identify the comparator and shortfall for each missed bar; do not assume the best population static is also the best tape static. Report registered mechanism telemetry only where retained. No post-mortem result permits Stage B.
+
+**Implementation disclosure.** ORACLE, META and SHAM choose the bank directly; only the static and EVO-R branches read `genes.attentionA`.
+- **For stage A** this is behaviorally equivalent for each bite, so stage A remains a valid oracle-routing headroom measurement.
+- **Before any stage B**, the controller must set `attentionA` (to 0 or 1), with the temporary value reset before birth mutation. Scripted births and tastings must show identical routes and RNG consumption, with EVO-R's allele preserved.
+- Until then, "the fly retuned its reviser's allocation setting" is not claimed as implemented.
+
+**Telemetry not retained by the stage A runner:** route counts, true-bank match rate, admissions by bank, bites after admission, per-arm extinction flags, and epoch-relative latency. These are reported as **not retained**, not as zero, and are not inferred. Every expected seed × arm value is checked for finiteness before the verdict is accepted.
