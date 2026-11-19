@@ -86,3 +86,18 @@ A costlier world raises level-1 revision's value for every arm, so it lowers the
 **Diagnostic rule (frozen before running):** META-OFF on practice is descriptive only. It cannot select an attempt, change a threshold, or decide publication.
 
 **Scorer note.** The runner's Monte Carlo sign-flip uses `r * 1103515245` in floating point, which loses integer precision, and it reports `p: 0` instead of (exceed + 1) / (draws + 1). Old results are not rescored. New tests use a corrected, validated scorer.
+
+## META-OFF diagnostic (L3c attempt 3, 48 practice seeds; descriptive only, per the frozen rule)
+
+| Quantity | Value |
+|---|---|
+| META-OFF mean flies | 21.75 (NOREV 26.90) |
+| Direct effect of the controller without L1 (META-OFF − NOREV) | **−5.15** (positive on 16/48) |
+| Old L3 d | +2.83 (34/48) |
+| Factorial amplification, d − (META-OFF − NOREV) | **+7.97** (positive on 32/48) |
+
+**Reading.** The controller is not a free energy saving: without L1 it *hurts*.
+- **Likely cause:** offspring born while singles are parked inherit only the active masks, and with no L1 the lineage cannot re-add them.
+- **Consequence:** part of the factorial gain is L1 repairing damage the controller causes. It is not purely L1 being more productive.
+
+The next registration (L3-I) must therefore keep parked features out of what offspring inherit, or restore them at birth, so that META-OFF has no lineage-damage channel.
