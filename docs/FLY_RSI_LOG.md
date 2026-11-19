@@ -117,3 +117,31 @@ Mean flies: META 45.07, SHAM 34.23, EVO-R 37.31, FIXED 37.07, NOREV 26.90, METAO
 The direct effect (METAOFF − NOREV) is **+3.36** (p .005). Extinctions: FIXED 1, NOREV 2, METAOFF 2.
 
 **Reading.** With parked features inherited properly, the controller's own direct benefit is positive. It accounts for the whole L3 margin, and there is no amplification left. Parking is an energy saving that works without L1. It does not make L1 pay more. Screen 1 is closed; by protocol, screen 2 follows.
+
+## L3-I screen 2 (RewriteCost): preflight and stage A — MISSED at stage A
+
+**Preflight (passed).**
+- The default fingerprint is unchanged (bdaca307…).
+- **Lockstep 1:** L1-on with hurdle NEVER vs swap disabled, seed 101, 20,000 ticks. Zero divergent ticks, 0 commits, 0 fee charged. The swap instrument observes without changing the live path.
+- **Lockstep 2:** METAOFF vs NOREV, seed 101, 20,000 ticks. Zero divergent ticks, 0 checks, 0 swaps, 0 fee.
+
+**Stage A** (hidden challengers, seeds 101–116, hurdle NEVER). Bar: at least 12/16 seeds with ≥ 20 checks and a win rate ≥ 10%.
+
+**Result: 0/16 qualify.** The accounting identity holds on every seed. Per seed:
+- **Blocked full-cap checks:** only 5–36 in a whole 20,000-tick run.
+- **Cancellations:** most nominations were cancelled by a live edit within 16 tastings.
+- **Wins:** 2 in total, both on seed 114 (rate .133, with only 15 checks).
+
+**Reading.** Better challengers hiding behind a full brain essentially do not occur. The L1 reviser prunes weak features readily, so the taste program is almost never capacity-bound by strong incumbents. L1 has no bottleneck here for an improver of the swap policy to relieve. By the registration, screen 2 stops at its first miss.
+
+## L3 status after L3, L3b, L3c and L3-I (screens 1 and 2): NOT SHOWN
+
+| Test | Result |
+|---|---|
+| L3 | practice ratio 1.44 < 1.5 |
+| L3b | best 1.444 |
+| L3c | best 1.778, p .017; stopped, no final |
+| L3-I screen 1 (parking) | the controller's direct energy saving explains the whole margin; factorial −.45 |
+| L3-I screen 2 (RewriteCost) | no hidden challengers (0/16 at stage A) |
+
+No final has been run for any L3 variant. The reserved banks 97001–97048 and 763001–763048 are untouched.
