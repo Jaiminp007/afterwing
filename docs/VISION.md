@@ -106,9 +106,11 @@ A ladder for our flies only, not general RSI. Every level is done by the flies, 
 | L0: learning helps | Shown (G4) |
 | L1: flies improve their own learning program | Shown (G5, G7c) |
 | L2: flies improve their own improver | **Shown** on 48 fresh worlds: +3.64 flies over evolution, +2.87 over a matched sham, +3.16 over no tuning |
-| L3: improving the improver makes self-improvement pay ≥ 1.5× more | **Not shown**: best 1.44 on practice, so no final |
+| L3: improving the improver makes self-improvement pay ≥ 1.5× more | **Not shown**: L3, L3b, L3c and two L3-I screens did not meet the pre-registered practice requirements, so no L3 final was run |
 
 How L2 works: in a world where running a brain becomes costly for a while, each fly retunes its reviser's own settings (feature caps, pruning, evidence thresholds) from the energy cost it feels.
 
 Labels: the rule and the two settings packages are hand-written, the world was built for this, and the climb has two levels, not an open-ended one.
+
+Summary (wording reviewed with GPT-6.2 Astra): our simulated flies learn during life (L0), revise which taste and movement features they use from their own experience (L1), and retune the settings of that reviser during life (L2). In a constructed world where the energy cost of a brain feature changes, flies used a hand-written rule to switch between two preset reviser settings from a noise-free bodily cue. On one final run across 48 fresh worlds, this produced larger late populations than evolution of the same settings, than the same rule driven by an independent cue, and than fixed settings. We have not shown compounding (L3): no design cleared the pre-registered practice requirements for showing that retuning the reviser makes self-revision pay at least 1.5 times as much, so no L3 final was run. The demonstrated result is bounded, experience-driven control of a fly's own learning process, not open-ended recursive self-improvement.
 

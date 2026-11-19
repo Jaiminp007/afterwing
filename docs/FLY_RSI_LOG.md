@@ -116,7 +116,11 @@ Mean flies: META 45.07, SHAM 34.23, EVO-R 37.31, FIXED 37.07, NOREV 26.90, METAO
 
 The direct effect (METAOFF − NOREV) is **+3.36** (p .005). Extinctions: FIXED 1, NOREV 2, METAOFF 2.
 
-**Reading.** With parked features inherited properly, the controller's own direct benefit is positive. It accounts for the whole L3 margin, and there is no amplification left. Parking is an energy saving that works without L1. It does not make L1 pay more. Screen 1 is closed; by protocol, screen 2 follows.
+**Reading** (corrected after review). With parked features inherited properly, the controller's own direct benefit is positive (+3.36). That accounts for the apparent margin *above the 1.5× gate*, not for META's whole advantage.
+
+The observed L1 gain was 14.81 flies with the controller (META − METAOFF) against 10.17 without it (FIXED − NOREV), i.e. **1.46× on practice**. The factorial −.45 is the shortfall against 1.5×; it is not an estimate of zero interaction. This is not promoted to a finding by testing a lower bar after the fact.
+
+Screen 1 is closed: it missed the pre-registered magnitude and the typical-world requirement. By protocol, screen 2 follows.
 
 ## L3-I screen 2 (RewriteCost): preflight and stage A — MISSED at stage A
 
@@ -132,7 +136,9 @@ The direct effect (METAOFF − NOREV) is **+3.36** (p .005). Extinctions: FIXED 
 - **Cancellations:** most nominations were cancelled by a live edit within 16 tastings.
 - **Wins:** 2 in total, both on seed 114 (rate .133, with only 15 checks).
 
-**Reading.** Better challengers hiding behind a full brain essentially do not occur. The L1 reviser prunes weak features readily, so the taste program is almost never capacity-bound by strong incumbents. L1 has no bottleneck here for an improver of the swap policy to relieve. By the registration, screen 2 stops at its first miss.
+**Reading** (corrected after review). The specific bottleneck that RewriteCost was built to relieve, a capacity-bound program with a better challenger waiting, is rare. Eligible checks are few, and most trials are interrupted by an ordinary live edit, which is not evidence that the challenger was bad.
+
+This retires the operator. It is **not** a measurement that L1 is at its ceiling. By the registration, screen 2 stops at its first miss.
 
 ## L3 status after L3, L3b, L3c and L3-I (screens 1 and 2): NOT SHOWN
 
@@ -141,7 +147,7 @@ The direct effect (METAOFF − NOREV) is **+3.36** (p .005). Extinctions: FIXED 
 | L3 | practice ratio 1.44 < 1.5 |
 | L3b | best 1.444 |
 | L3c | best 1.778, p .017; stopped, no final |
-| L3-I screen 1 (parking) | the controller's direct energy saving explains the whole margin; factorial −.45 |
-| L3-I screen 2 (RewriteCost) | no hidden challengers (0/16 at stage A) |
+| L3-I screen 1 (parking) | L1 gain ratio 1.46× on practice; the controller's direct benefit explains the margin above 1.5×; factorial −.45, 19/48 |
+| L3-I screen 2 (RewriteCost) | the targeted bottleneck is rare (0/16 at stage A) |
 
 No final has been run for any L3 variant. The reserved banks 97001–97048 and 763001–763048 are untouched.
