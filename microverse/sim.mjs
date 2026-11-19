@@ -133,7 +133,7 @@ function metaTrial(brain) {
   const [gene, grid] = brain.rand() < .5 ? ['tasteMemory', MEM_GRID] : ['tastePrune', PRUNE_GRID], old = g[gene];
   gridStep(g, gene, grid, brain.rand() < .5 ? -1 : 1); if (g[gene] !== old) t.trial = { gene, old, loss0: brain.program.metaWindow ? win : t.lossModel };
 }
-export function tasteLearn(brain, bits, target) {
+function tasteLearnCore(brain, bits, target) {
   if (brain.taste.shadow) { const sh = brain.taste.shadow, sb = { program: { ...brain.program, metaR: null }, genes: sh.genes, taste: sh.taste, rand: brain.rand },
     ll = p => { p = Math.min(1 - 1e-3, Math.max(1e-3, p)); return -(target ? Math.log(p) : Math.log(1 - p)); };
     sh.L += ll(modelProb(sb, bits)); brain.taste.shL += ll(modelProb(brain, bits)); tasteLearn(sb, bits, target); }
@@ -145,7 +145,7 @@ export function tasteLearn(brain, bits, target) {
   const rec = { bits, phi, target }; t.seen++;
   if (t.memory.length < 32) t.memory.push(rec); else { const j = Math.floor(brain.rand() * t.seen); if (j < 32) t.memory[j] = rec; }
   tasteUpdate(brain, phi, target);
-  const m = t.memory[Math.floor(brain.rand() * t.memory.length)]; tasteUpdate(brain, m.phi, m.target);
+  const m = t.memory[Math.floor(brain.rand() * t.memory.length)]; tasteUpdate(brain, m.phi, m.target); t.lastReplay = m;
   const mode = brain.program.tasteRevise; if (!mode) return;
   // Forgetting: evidence decays (half-life ~140 tastings), so evidence from an old rule fades.
   const D = 1 - 1 / (brain.genes.tasteMemory ?? 200); t.n++; t.s2 = t.s2 * D + residual * residual;
@@ -155,8 +155,8 @@ export function tasteLearn(brain, bits, target) {
   // Pruning when full: drop the weakest added (higher-order) feature if its weight is small (|w| < 2).
   if (t.masks.length >= brain.genes.tasteCap) {
     let j = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && Math.abs(t.w[i]) < (brain.genes.tastePrune ?? 2) && (j < 0 || Math.abs(t.w[i]) < Math.abs(t.w[j]))) j = i;
-    if (j < 0) return;
-    t.masks.splice(j, 1); t.w.splice(j, 1); for (const rec of t.memory) rec.phi.splice(j, 1);
+    if (j < 0) { if (brain.program.swap && !t.swapTrial) swapNominate(brain); return; } // L3-I screen 2: optional swap trial; live path unchanged
+    t.masks.splice(j, 1); t.w.splice(j, 1); for (const rec of t.memory) rec.phi.splice(j, 1); t.edits = (t.edits ?? 0) + 1;
   }
   const have = new Set(t.masks), kids = new Set();
   for (const mk of t.masks) if (mk) for (let b = 0; b < ODOR_BITS; b++) { const c = mk | 1 << b; if (!have.has(c)) kids.add(c); }
@@ -164,8 +164,42 @@ export function tasteLearn(brain, bits, target) {
   const best = list.reduce((a, c) => Math.abs(t.ev[c]) > Math.abs(t.ev[a]) ? c : a, list[0]);
   if (Math.abs(t.ev[best]) <= brain.genes.tasteZ * Math.sqrt(t.s2)) return;
   const chosen = mode === 'random' ? list[Math.floor(brain.rand() * list.length)] : best;
-  t.masks.push(chosen); t.w.push(0); t.added.push(chosen);
+  t.masks.push(chosen); t.w.push(0); t.added.push(chosen); t.edits = (t.edits ?? 0) + 1;
   for (const rec of t.memory) rec.phi.push(walsh(chosen, rec.bits));
+}
+// ---- L3-I screen 2 (RewriteCost; docs/FLY_RSI_GOALS.md): swap trial, scored on the fly's own next 16 tastings. ----
+export const RW_STATS = { checks: 0, nominations: 0, cancellations: 0, completions: 0, wins: 0, commits: 0, debit: 0, pendingAtDeath: 0 };
+export function resetRwStats() { for (const k of Object.keys(RW_STATS)) RW_STATS[k] = 0; }
+const llOf = (p, y) => { p = Math.min(1 - 1e-3, Math.max(1e-3, p)); return -(y ? Math.log(p) : Math.log(1 - p)); };
+function swapNominate(brain) {
+  const t = brain.taste; RW_STATS.checks++;
+  let inc = -1; for (let i = 0; i < t.masks.length; i++) if (popcount(t.masks[i]) > 1 && (inc < 0 || Math.abs(t.w[i]) < Math.abs(t.w[inc]) || (Math.abs(t.w[i]) === Math.abs(t.w[inc]) && t.masks[i] < t.masks[inc]))) inc = i;
+  if (inc < 0) return;
+  const have = new Set(t.masks), kids = new Set();
+  for (const mk of t.masks) if (mk) for (let b = 0; b < ODOR_BITS; b++) { const c = mk | 1 << b; if (!have.has(c)) kids.add(c); }
+  const list = [...kids].sort((a, b) => a - b); if (!list.length) return;
+  const chal = list.reduce((a, c) => Math.abs(t.ev[c]) > Math.abs(t.ev[a]) ? c : a, list[0]);
+  if (Math.abs(t.ev[chal]) <= brain.genes.tasteZ * Math.sqrt(t.s2)) return;
+  const masks = [...t.masks]; masks[inc] = chal; const w = [...t.w]; w[inc] = 0;
+  RW_STATS.nominations++; t.swapTrial = { chal, n: 0, live: 0, shadow: 0, edits0: t.edits ?? 0, sh: { taste: { masks, w }, genes: brain.genes } };
+}
+// Wrapper: scores a pending trial before training, runs the unchanged live step, trains the shadow on the same current and
+// replay samples, then adjudicates the trial captured at entry (live edits take priority and cancel it).
+export function tasteLearn(brain, bits, target) {
+  const tr = brain.taste.swapTrial;
+  if (tr) { tr.live += llOf(modelProb(brain, bits), target); tr.shadow += llOf(modelProb(tr.sh, bits), target); }
+  tasteLearnCore(brain, bits, target);
+  if (!tr || brain.taste.swapTrial !== tr) return;
+  const t = brain.taste, shPhi = b2 => tr.sh.taste.masks.map(m => walsh(m, b2));
+  tasteUpdate(tr.sh, shPhi(bits), target); const m = t.lastReplay; if (m) tasteUpdate(tr.sh, shPhi(m.bits), m.target);
+  tr.n++;
+  if ((t.edits ?? 0) !== tr.edits0) { RW_STATS.cancellations++; t.swapTrial = null; return; }
+  if (tr.n < 16) return;
+  const score = (tr.live - tr.shadow) / 16; RW_STATS.completions++; if (score > 0) RW_STATS.wins++; t.swapTrial = null;
+  const h = brain.genes.swapHurdle ?? 'NEVER'; if (h === 'NEVER' || !(score > h)) return;
+  t.masks = [...tr.sh.taste.masks]; t.w = [...tr.sh.taste.w]; t.added.push(tr.chal); t.edits = (t.edits ?? 0) + 1;
+  for (const rec of t.memory) rec.phi = t.masks.map(mk => walsh(mk, rec.bits));
+  RW_STATS.commits++; brain.pendingDebit = (brain.pendingDebit ?? 0) + (brain.rwPrice ?? 0);
 }
 // Movement: base features per candidate move (all in [-1,1] or [0,1]); masks are products of base features.
 function moveValue(brain, base) {
@@ -274,6 +308,8 @@ export class Microverse {
       if (prog.inheritFull) { if (parent.parked) { for (const [m] of parent.parked.taste) if (!prog.tasteMasks.includes(m)) prog.tasteMasks.push(m); for (const [m] of parent.parked.move) if (!prog.moveMasks.includes(m)) prog.moveMasks.push(m); }
         if (prog.metaB) Object.assign(prog.genes, prog.fullGenes); }
       if (prog.mutate) this.mutate(prog, r);
+      if (prog.metaRW) prog.genes.swapHurdle = prog.stableHurdle ?? .075; // reset the transient hurdle before inheritance
+      if (prog.evoH) { const q = rng32(mix(this.seed ^ Math.imul(id, 668265263) ^ 0x45564f48)); if (q() < .1) { const G = [0, .025, .075, .15, 'NEVER'], others = G.filter(x => x !== prog.genes.swapHurdle); prog.genes.swapHurdle = others[Math.floor(q() * others.length)]; } }
       if (prog.evoB && r() < .1) { prog.genes._lean = !prog.genes._lean; Object.assign(prog.genes, prog.genes._lean ? prog.leanGenes : prog.fullGenes); } // Fly-RSI L2 EVO-R control
       if (prog.evoA && r() < .1) gridStep(prog.genes, 'acceptAt', ACCEPT_GRID, r() < .5 ? -1 : 1); // P13b A2 EVO-R control
       if (prog.evoR) for (const [gene, grid] of [['tasteMemory', MEM_GRID], ['tastePrune', PRUNE_GRID]]) if (r() < .1) gridStep(prog.genes, gene, grid, r() < .5 ? -1 : 1); // P13b EVO-R control
@@ -367,6 +403,12 @@ export class Microverse {
         const dO = b.program.driftOracle; if (dO) { let ph = f.driftPhase; if (dO.sham) { f.fakePhase ??= b.rand() < .5 ? 1 : 0; if (b.rand() < sd.switch) f.fakePhase ^= 1; ph = f.fakePhase; }
           Object.assign(b.genes, ph ? dO.volatile : dO.calm); } }
       const dm = f.drift ?? null;
+      // L3-I screen 2 world (opt-in rewriteCost {cheap, dear, switch}): private rewrite price state on dedicated streams.
+      if (cfg.rewriteCost) { const rc = cfg.rewriteCost;
+        if (!f.rwR) { f.rwR = rng32(mix(this.seed ^ Math.imul(f.id, 2246822519) ^ 0x52575231)); f.rwF = rng32(mix(this.seed ^ Math.imul(f.id, 3266489917) ^ 0x52575246)); f.rwDear = f.rwR() < .5; f.rwFakeDear = f.rwF() < .5; }
+        else { if (f.rwR() < rc.switch) f.rwDear = !f.rwDear; if (f.rwF() < rc.switch) f.rwFakeDear = !f.rwFakeDear; }
+        b.rwPrice = f.rwDear ? rc.dear : rc.cheap;
+        const mr = b.program.metaRW; if (mr) b.genes.swapHurdle = (mr === 'track' ? f.rwDear : f.rwFakeDear) ? .15 : 0; }
       // Fly-RSI L2 world (opt-in brainSwitch {mul: [lo, hi], switch}): the energy cost of each brain feature switches
       // in life between lo and hi times the base cost (not inherited). Instrument only: brainOracle sets reviser genes
       // from the true state (or an independent fake state if brainOracle.sham).
@@ -419,6 +461,7 @@ export class Microverse {
           tasteLearn(b, bits, (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0));
         }
       }
+      if (b.pendingDebit) { f.energy -= b.pendingDebit; RW_STATS.debit += b.pendingDebit; b.pendingDebit = 0; } // L3-I screen 2 rewrite fee
       f.energy = Math.min(cfg.maxEnergy, f.energy); f.age++;
       // P13b A2: in-life trial-and-revert on acceptAt from own feeding outcome over W-tick windows.
       const mA = b.program.metaA, W = b.program.metaW ?? 100;
@@ -438,7 +481,7 @@ export class Microverse {
     }
     const alive = [];
     for (const f of this.flies) {
-      if (f.energy <= 0 || f.age >= cfg.maxAge) { this.stats.deaths++; f.energy <= 0 ? this.stats.starved++ : this.stats.aged++; } else alive.push(f);
+      if (f.energy <= 0 || f.age >= cfg.maxAge) { if (f.brain.taste.swapTrial) RW_STATS.pendingAtDeath++; this.stats.deaths++; f.energy <= 0 ? this.stats.starved++ : this.stats.aged++; } else alive.push(f);
     }
     this.flies = alive;
     for (const [p, x, y] of born) { this.spawn(p.strain, null, p, x, y, cfg.childEnergy, p.gen + 1); this.stats.births++; }

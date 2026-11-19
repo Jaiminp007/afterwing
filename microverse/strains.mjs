@@ -8,6 +8,7 @@ function SELF_RSTAR() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveIn
 // G7c (2026-11-18): movement self-revision starts an added sense at an evidence-signed weight of 2 (random sign for SHAM).
 const L2_LEAN = { tasteCap: 9, tastePrune: 8, tasteZ: 100, moveCap: 6, movePrune: 8, moveZ: 100 }, L2_FULL = { tasteCap: 16, tastePrune: 2, tasteZ: 3, moveCap: 12, movePrune: .5, moveZ: 3 };
 const L3I_X = { park: true, parkSingles: 2, inheritFull: true };
+function SELF_RC(h) { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, swapHurdle: h }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true, moveAddInit: 2, swap: true }; }
 function SELF_L2() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: 'evid', moveRevise: 'evid', mutate: true, moveAddInit: 2, leanGenes: L2_LEAN, fullGenes: L2_FULL }; }
 export const STRAINS = {
   FIXED: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: null, moveRevise: null, mutate: false },
@@ -42,6 +43,14 @@ export const STRAINS = {
   L3I_FIXED: { ...SELF_L2(), inheritFull: true },
   L3I_NOREV: { ...SELF_L2(), inheritFull: true, tasteRevise: null, moveRevise: null },
   L3I_METAOFF: { ...SELF_L2(), ...L3I_X, metaB: 'brainTrack', tasteRevise: null, moveRevise: null },
+  // Fly-RSI L3-I screen 2 (RewriteCost): swap trial operator; hurdle set in life from the felt rewrite price.
+  RC_META: { ...SELF_RC(.075), metaRW: 'track', stableHurdle: .075 },
+  RC_SHAM: { ...SELF_RC(.075), metaRW: 'tracksham', stableHurdle: .075 },
+  RC_EVOR: { ...SELF_RC(.075), evoH: true },
+  RC_H0: SELF_RC(0), RC_H025: SELF_RC(.025), RC_H075: SELF_RC(.075), RC_H15: SELF_RC(.15), RC_NEVER: SELF_RC('NEVER'),
+  RC_NOSWAP: { ...SELF_RC('NEVER'), swap: false },
+  RC_NOREV: { ...SELF_RC('NEVER'), swap: false, tasteRevise: null, moveRevise: null },
+  RC_METAOFF: { ...SELF_RC(.075), metaRW: 'track', stableHurdle: .075, tasteRevise: null, moveRevise: null },
   // P13b amendment A3 (in-life switching toxin sensitivity): META tracks own body state from felt damage; SHAM same updates, fake state.
   A3_META: { ...SELF_RSTAR(), metaA: 'track' },
   A3_SHAM: { ...SELF_RSTAR(), metaA: 'tracksham' },
