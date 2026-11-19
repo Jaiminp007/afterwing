@@ -51,3 +51,4 @@ Do not use any of these banks for a new test.
 | P16 exploration (non-bank) | 99001–99004, histories 99501–99504 |
 | P16 pairwise representation: rules / histories / sign-flip rng | 2301001–2301024 / 2302001–2302024 / 2304999 (smoke +500) |
 | P17 selection exploration (non-bank) | 99101–99104, histories 99601–99604 |
+| L3-III final (reserved) | 874001–874048 |

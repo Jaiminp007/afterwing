@@ -328,3 +328,66 @@ Extinctions are reported by arm and by seed and never excluded. A missing or non
 - Until then, "the fly retuned its reviser's allocation setting" is not claimed as implemented.
 
 **Telemetry not retained by the stage A runner:** route counts, true-bank match rate, admissions by bank, bites after admission, per-arm extinction flags, and epoch-relative latency. These are reported as **not retained**, not as zero, and are not inferred. Every expected seed × arm value is checked for finiteness before the verdict is accepted.
+
+## L3-III: Evidence-routed attention (registration text by GPT-6.2 Astra, committed verbatim before any L3-III measurement)
+
+**Claim and prior exposure.** A fly can make L1 structural revision pay at least 1.5 times as much by using its own past prediction errors to set its reviser’s attention allocation. L3-III is a new test, motivated by the L3-II practice result: on seeds 101–116, BLIND averaged 56.91 late flies versus 56.00 for S50. Those seeds were seen when choosing this hypothesis. They are not independent confirmation. The autonomous NOREV population contrast needed to evaluate compounding was not measured there. L3-II remains closed; no old result is rescored. [FLY_RSI_LOG.md:164-191](file:///C:/Users/nisar/fly-ecosystem/docs/FLY_RSI_LOG.md)
+
+### 1. World and intervention
+
+**Keep `L3II_WORLD` unchanged.** Retain `bankPairs`, the 3,000-tick epochs, 100-tick odor redraws, one structural bank per tasting, private receptor switch probability `.004` per tick, corruption `q=.5`, and `.90` cue accuracy. Keep the existing L0 learner, movement reviser, within-bank normalization, mutation, inheritance and energy accounting. **No L3-III controller reads the bodily cue, true receptor state, rule targets or valence.** Continue consuming the existing cue, corruption and routing draws in their original order. Labels: **constructed noisy structural sensor; hand-written evidence controller; no direct energy reward for routing.**
+
+**META is exactly the former BLIND policy, with an explicit gene write.** Utilities start at zero at birth. Before each tasting, use the existing two routing draws: exploit the larger utility with probability `.8`, otherwise choose uniformly; break utility ties uniformly. Write `genes.attentionA = 1` for the selected A bank or `0` for B. The common allocation reader routes from that gene, with **no third draw**. On the chosen bank nominate the strongest of its six pair correlations by prior `abs(ev)`, tie to the smallest numeric mask. Save its pre-increment sign. After the actual observation, update only the chosen utility:
+
+```text
+z = sign(ev_before[k]) × walsh(k, structural_sample) × pre_update_residual
+U[chosen] = .8 × U[chosen] + .2 × z
+```
+
+`sign(0)=0`. The current observation cannot affect its own routing. Reset the controller’s transient allocation to `.5` **on the offspring copy before birth mutation**; never reset the living parent. No fitted weights, utilities or receptor states pass to offspring. Keep the registered inheritance of masks, evidence, matching bank normalizers and revision clock. [sim.mjs:185-209](file:///C:/Users/nisar/fly-ecosystem/microverse/sim.mjs) [FLY_RSI_GOALS.md:263-273](file:///C:/Users/nisar/fly-ecosystem/docs/FLY_RSI_GOALS.md)
+
+### 2. SHAM: an independent sensory twin
+
+**Yoke the opportunities, not the recipient’s residual.** On every actual SHAM tasting, the real L0 learner and real L1 reviser receive the recipient’s ordinary observation and actual routed structural sample, exactly as for META. Only the scalar `z` entering the utility update is replaced. Do not shuffle the recipient’s residuals, reverse bank names, or multiply its own update by coin flips.
+
+- **Donor input.** For each experimental seed, produce one sacrificial NOREV world using the same world generator and a fixed `L3III_DONOR` RNG domain, independent of all scored arms. It is an instrument belonging to that seed, not an extra scored seed. Record each donor fly’s chronological sequence of clean odors and observed noisy labels. Never pool across experimental seeds, use outcomes from a scored arm, or select donors by prediction loss, route, fitness or receptor state.
+- **Yoking rule.** Each SHAM newborn has a dedicated donor-selection stream keyed by experimental seed and recipient ID. Draw uniformly, with replacement, from donor flies with at least one recorded tasting. Consume that fly’s tape from its first bite in order, **one donor bite per real recipient bite**. If exhausted, draw another tape by the same rule. No lookahead, length matching, or choice of a particularly successful donor. An empty donor library is an invalid run.
+- **Twin learner.** Start one private founder-initialized taste learner per recipient, with zero evidence and utilities. Give it an independent receptor chain with the registered initial distribution and `.004` tick dynamics, advanced on the recipient’s age clock, and independent corruption and L0 replay streams. On a recipient bite the twin processes the next donor odor and label **in the bank the SHAM controller actually selected**. Compute `z′` using the twin’s own nominated pair, prior evidence sign, corrupted donor sample and pre-update L0 residual. Update the controller by the identical `.8/.2` rule with `z′` in place of `z`. Train the twin normally on that donor bite. Keep the twin’s learner and receptor continuous across donor tape boundaries. The twin never feeds, moves, revises or pays costs on behalf of the real fly.
+- **What is and is not matched.** Update times, bank choice, exploration, learning rule, corruption law and persistence of the utility accumulator are matched. The donor has genuine bite sequences, but its diet, ancestry and tape boundaries do **not** reproduce the recipient’s lifetime exactly. Report donor-tape joins per 100 recipient bites, innovation RMS, lag-one correlation of successive innovations **within the same bank**, and route-run lengths for META and SHAM. Include counts; undefined correlations are reported as undefined. Do not tune the donor after inspecting these. A pass supports own experience over **this specified independent sensory-twin sham**, not over every possible sham.
+
+**Mandatory wiring fixture:** hold donor tape, twin state, bank and RNG fixed. Changing only the recipient’s current residual or corrupted bits must not change `z′`; changing only the donor observation must not change the real L0 update or the real L1 evidence increment on that bite. On an identical scripted donor/recipient history with identical learner initializations and receptor draws, `z′` must reproduce META’s `z` bite for bite. These checks distinguish a decorrelated control from a broken or inadvertently weakened one.
+
+### 3. Other arms and integrity
+
+- **EVO-R:** retain L3-II’s genuinely inherited static allele on `{0,.25,.5,.75,1}`, founder `.5`, birth mutation probability `.1` to a uniformly chosen different allele. **FIXED** uses the static allele selected in stage A. Neither updates utilities in life.
+- **METAOFF / NOREV:** disable both taste and movement structural revision; keep ordinary L0 and normal birth mutation. METAOFF runs the controller on its dedicated streams and writes its temporary allocation, but there is no structural consumer. With no L1 evidence to nominate a nonzero-sign pair, its utility innovation is zero. Do not turn evidence accumulation back on just to make METAOFF look active. NOREV does not route.
+- **Before stage A:** verify default fingerprint `bdaca307…`; reproduce former BLIND’s routes, live updates and RNG consumption on scripted tastings including ties and exploration; test that controller offspring start from `.5` while EVO-R offspring inherit their real allele before mutation. Run the SHAM wiring fixtures and the registered METAOFF/NOREV ecological lockstep on seed 101. Require zero divergent ticks over 20,000 ticks, apart from inert controller telemetry. Repeat the identity assertion for all qualification and final seeds. A mismatch is an implementation failure, not a contrast to score.
+
+### 4. Ordered practice stages
+
+Only **101–116 and 301–332** are authorized practice seeds. **Do not use 401–416.** The two sets below are disjoint for static selection and feasibility. Call them unused for the respective **L3-III decision**, not never-used worlds. The 48-seed qualification deliberately reuses practice data; only the final confirms the claim.
+
+| Stage | Run and decision |
+|---|---|
+| **A. Re-lock FIXED** | On **301–316**, run all five static alleles. Select the highest unrounded mean late population; exact tie → closest to `.5`, then lower allele. Commit the selected allele and resolved arm manifests before B. S50 has no preferred status. No META result enters selection. |
+| **B. Feasibility** | On **317–332**, run **META, locked FIXED and NOREV**. For each seed compute `g = FIXED − NOREV`, `m = META − FIXED`, and `d = m − .5g`. Advance only if **mean `g > 0`**, **mean `d > 0`**, and **`d > 0` on at least 9/16 seeds**. Otherwise stop. These are screening bars, not significance tests. No requirement that `m ≥ 1`: the one-fly L2 margins are against SHAM and EVO-R, not FIXED. Stage B cannot establish those margins or qualify a final. |
+| **C. Qualification** | Run the six locked arms on **101–116 and 301–332**. Apply every gate below to the entire 48-seed suite. Do not drop the exposed 101–116 subset or present the 48 as a holdout. Report the three 16-seed blocks separately as descriptive results only. |
+
+One prespecified multi-arm batch is one attempt. **Three attempts authorized under the five-attempt ceiling; two deliberately unused.** Stop on the first missed advance bar. No alternate donor, dwell, utility rule, static re-selection, extra practice block, or retry. If a technical defect invalidates a run, publish the defect; no silent replacement under this registration.
+
+### 5. Gates, records and final
+
+Endpoint: mean population over ticks 10,100–20,000 at 100-tick intervals, extinction zeros included. Use scorer v2, unrounded paired seed values, one-sided `p < .01`, and the parent sign-test convention that zeros are non-wins. **All gates must pass on practice and again on the final:**
+
+1. META−EVO-R ≥ 1.0; META−SHAM ≥ 1.0; META−FIXED > 0; each significant.
+2. Mean `d = (META−NOREV) − 1.5(FIXED−NOREV) > 0`, significant.
+3. Mean `f = d − (METAOFF−NOREV) > 0`, significant; `f > 0` on **at least 33/48** seeds.
+4. Mean `FIXED−NOREV > 0`, significant.
+
+With off-arm identity, `f = d` seed by seed. Preserve the per-seed outcomes that verify it. Record extinction from the actual world by arm and seed; a missing or nonfinite result is invalid, not extinction. Save route counts, true-bank match rate, bank admissions, bites after admissions, donor diagnostics and resolved configuration **in worker outputs**, separately by seed and arm. These describe mechanism; none changes a gate. No cue oracle or tape-loss result can qualify the experiment. [FLY_RSI_GOALS.md:295-311](file:///C:/Users/nisar/fly-ecosystem/docs/FLY_RSI_GOALS.md)
+
+**Proposed final bank: `874001–874048`, subject to audit before measurement.** Do not reuse `97001–97048`, `763001–763048` or `852001–852048`. A documentation text search is not a bank audit: verify interval overlap against ledgers, manifests and run artifacts, including ranges enclosing the candidate block without naming either endpoint. Commit the verified bank before any L3-III measurement; if occupied, commit a different verified block first. After C passes, freeze code, scorer, donor generator and arm manifests. Run the final bank **once**. Otherwise leave it untouched.
+
+**Bank audit (done before commit).** An interval-overlap scan of every text artifact in the repo (16,375 .md/.json/.mjs/.js/.txt/.py/.csv/.ts files outside `.git`, `node_modules`, the Python venv and runtime autosaves) parsed every numeric range (`a–b`, `a-b`, `a..b`, `a to b`, including abbreviated upper ends) and every bare 6-digit value. No range overlaps or encloses 874001–874048, and no value falls inside it. The bank is reserved.
+
+**Astra's pre-registration prediction (not part of the registration):** about 10% to clear practice and one fresh final; most likely outcome a stage-B stop.
