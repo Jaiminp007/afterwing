@@ -8,6 +8,7 @@ import { META_STATS, MEM_GRID, PRUNE_GRID } from './sim.mjs';
 // MV_META (JSON) overrides META/SHAM program fields (P13b-2b practice); MV_ARMS limits which arms run.
 const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, ...X, metaR: X.metaR ? X.metaR + 'sham' : 'trialsham' }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
 // MV_SET=A3: P13b amendment A3 arms (world settings come from MV_WORLD).
+if (process.env.MV_SET === 'L2') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.L2_META, ...X }, SHAM: { ...STRAINS.L2_SHAM, ...X }, EVOR: STRAINS.L2_EVOR, FIXED: STRAINS.L2_FIXED, NOREV: STRAINS.L2_NOREV }); }
 if (process.env.MV_SET === 'A3') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.A3_META, ...X }, SHAM: { ...STRAINS.A3_SHAM, ...X }, EVOR: STRAINS.A3_EVOR, FIXED: STRAINS.A3_FIXED }); }
 const WORLD = { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') };
 const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));
@@ -29,6 +30,8 @@ if (!isMainThread) {
   const mean = a => +(seeds.reduce((s, x) => s + res[x][a], 0) / seeds.length).toFixed(2);
   const out = { seeds: seeds.length, means: Object.fromEntries(Object.keys(ARMS).map(a => [a, mean(a)])) };
   for (const [A, B] of [['META', 'FIXED'], ['META', 'EVOR'], ['META', 'SHAM'], ['ORACLE', 'SHAM']].filter(([a, b]) => ARMS[a] && ARMS[b])) out[A + '-' + B] = signflip(seeds.map(s => res[s][A] - res[s][B]));
+  // Fly-RSI L3: d = (META - NOREV) - 1.5 * (FIXED - NOREV) per seed; > 0 means level-1 revision pays >= 50% more with L2.
+  if (ARMS.META && ARMS.FIXED && ARMS.NOREV) out['L3'] = { L1gainWithL2: mean('META') - mean('NOREV'), L1gainWithoutL2: mean('FIXED') - mean('NOREV'), test: signflip(seeds.map(s => (res[s].META - res[s].NOREV) - 1.5 * (res[s].FIXED - res[s].NOREV))) };
   // P13b-3a: balanced accuracy of keep decisions (keep rate on toward-R* steps + revert rate on away steps) / 2; chance = .5.
   const bal = (s, a) => { const x = extra[s][a].stats; return x.towardN && x.awayN ? (x.towardKeep / x.towardN + 1 - x.awayKeep / x.awayN) / 2 : .5; };
   for (const a of ['META', 'SHAM'].filter(a => ARMS[a])) out['balAcc-' + a] = { mean: +(seeds.reduce((t, s) => t + bal(s, a), 0) / seeds.length).toFixed(4), vsChance: signflip(seeds.map(s => bal(s, a) - .5)) };

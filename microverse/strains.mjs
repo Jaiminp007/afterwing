@@ -6,6 +6,8 @@ export const MOVE_INIT = { 2: .5, 4: 1, 8: 1, 16: -.3 };
 function SELF_P12() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, tasteMemory: 1e12, tastePrune: 0 }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true }; }
 function SELF_RSTAR() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: { ...DEFAULT_GENES, tasteMemory: 800, tastePrune: .5, tasteEvery: 4 }, tasteRevise: 'evid', moveRevise: 'evid', mutate: true }; }
 // G7c (2026-11-18): movement self-revision starts an added sense at an evidence-signed weight of 2 (random sign for SHAM).
+const L2_LEAN = { tasteCap: 9, tastePrune: 8, tasteZ: 100, moveCap: 6, movePrune: 8, moveZ: 100 }, L2_FULL = { tasteCap: 16, tastePrune: 2, tasteZ: 3, moveCap: 12, movePrune: .5, moveZ: 3 };
+function SELF_L2() { return { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: 'evid', moveRevise: 'evid', mutate: true, moveAddInit: 2, leanGenes: L2_LEAN, fullGenes: L2_FULL }; }
 export const STRAINS = {
   FIXED: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: null, moveRevise: null, mutate: false },
   SELF: { tasteMasks: S0Masks(), moveMasks: MOVE0, moveInit: MOVE_INIT, genes: DEFAULT_GENES, tasteRevise: 'evid', moveRevise: 'evid', mutate: true, moveAddInit: 2 },
@@ -26,6 +28,12 @@ export const STRAINS = {
   A2_SHAM: { ...SELF_RSTAR(), metaA: 'sham' },
   A2_EVOR: { ...SELF_RSTAR(), evoA: true },
   A2_FIXED: { ...SELF_RSTAR() },
+  // Fly-RSI L2 (docs/FLY_RSI_GOALS.md): the fly switches its reviser genes between lean and full packages from felt brain cost.
+  L2_META: { ...SELF_L2(), metaB: 'brainTrack' },
+  L2_SHAM: { ...SELF_L2(), metaB: 'brainTracksham' },
+  L2_EVOR: { ...SELF_L2(), evoB: true },
+  L2_FIXED: { ...SELF_L2() },
+  L2_NOREV: { ...SELF_L2(), tasteRevise: null, moveRevise: null }, // L3 reference: no level-1 self-revision at all
   // P13b amendment A3 (in-life switching toxin sensitivity): META tracks own body state from felt damage; SHAM same updates, fake state.
   A3_META: { ...SELF_RSTAR(), metaA: 'track' },
   A3_SHAM: { ...SELF_RSTAR(), metaA: 'tracksham' },

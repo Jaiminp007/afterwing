@@ -19,6 +19,8 @@ export function rng32(seed) {
   return () => { s ^= s << 13; s >>>= 0; s ^= s >>> 17; s ^= s << 5; s >>>= 0; return s / 4294967296; };
 }
 export const mix = x => { x = (x >>> 0) ^ 0x9e3779b9; x = Math.imul(x ^ x >>> 16, 0x85ebca6b); x = Math.imul(x ^ x >>> 13, 0xc2b2ae35); return (x ^ x >>> 16) >>> 0 || 1; };
+// Fly-RSI L2: a private drift permutation reassigns which odor channel the fly reads as which (identity when null).
+const perceive = (bits, dm) => dm ? dm.map(j => bits[j]) : bits;
 const walsh = (mask, bits) => { let v = 1; for (let b = 0; b < bits.length; b++) if (mask >> b & 1) v *= bits[b]; return v; };
 const sigmoid = x => 1 / (1 + Math.exp(-x));
 const clip = (x, a) => Math.max(-a, Math.min(a, x));
@@ -255,6 +257,7 @@ export class Microverse {
     if (parent) {
       const pb = parent.brain; prog = { ...pb.program, tasteMasks: [...pb.taste.masks], moveMasks: [...pb.move.masks], genes: { ...pb.genes } };
       if (prog.mutate) this.mutate(prog, r);
+      if (prog.evoB && r() < .1) { prog.genes._lean = !prog.genes._lean; Object.assign(prog.genes, prog.genes._lean ? prog.leanGenes : prog.fullGenes); } // Fly-RSI L2 EVO-R control
       if (prog.evoA && r() < .1) gridStep(prog.genes, 'acceptAt', ACCEPT_GRID, r() < .5 ? -1 : 1); // P13b A2 EVO-R control
       if (prog.evoR) for (const [gene, grid] of [['tasteMemory', MEM_GRID], ['tastePrune', PRUNE_GRID]]) if (r() < .1) gridStep(prog.genes, gene, grid, r() < .5 ? -1 : 1); // P13b EVO-R control
     }
@@ -335,6 +338,27 @@ export class Microverse {
     const born = [];
     for (const i of order) {
       const f = this.flies[i], b = f.brain, e0 = f.energy;
+      // Fly-RSI L2 world (opt-in senseDrift {switch, every}): each fly's odor perception is channel-shuffled by a private
+      // permutation. In a 'drifting' phase it is redrawn every `every` ticks; in a 'calm' phase it stays put. The phase
+      // flips with probability `switch` per tick; neither phase nor mask is inherited. Instrument only: driftOracle sets
+      // tasteMemory/tastePrune from the true phase (or from an independent fake phase if driftOracle.sham).
+      if (cfg.senseDrift) { const sd = cfg.senseDrift; f.drift ??= null; f.driftPhase ??= this.r() < .5 ? 1 : 0;
+        if (this.r() < sd.switch) f.driftPhase ^= 1;
+        if (f.driftPhase && f.age % sd.every === 0) { const pm = [...Array(ODOR_BITS).keys()]; for (let k = pm.length - 1; k > 0; k--) { const j = Math.floor(this.r() * (k + 1)); [pm[k], pm[j]] = [pm[j], pm[k]]; } f.drift = pm; }
+        const dO = b.program.driftOracle; if (dO) { let ph = f.driftPhase; if (dO.sham) { f.fakePhase ??= b.rand() < .5 ? 1 : 0; if (b.rand() < sd.switch) f.fakePhase ^= 1; ph = f.fakePhase; }
+          Object.assign(b.genes, ph ? dO.volatile : dO.calm); } }
+      const dm = f.drift ?? null;
+      // Fly-RSI L2 world (opt-in brainSwitch {mul: [lo, hi], switch}): the energy cost of each brain feature switches
+      // in life between lo and hi times the base cost (not inherited). Instrument only: brainOracle sets reviser genes
+      // from the true state (or an independent fake state if brainOracle.sham).
+      if (cfg.brainSwitch) { const [lo, hi] = cfg.brainSwitch.mul; f.brainMul ??= this.r() < .5 ? lo : hi; if (this.r() < cfg.brainSwitch.switch) f.brainMul = f.brainMul === lo ? hi : lo;
+        const bO = b.program.brainOracle; if (bO) { let st = f.brainMul; if (bO.sham) { f.fakeBrain ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.brainSwitch.switch) f.fakeBrain = f.fakeBrain === lo ? hi : lo; st = f.fakeBrain; }
+          Object.assign(b.genes, st === hi ? bO.hi : bO.lo); } }
+      // Fly-RSI L2 META ('brainTrack'): the fly feels its brain's energy drain per feature each tick and switches its
+      // reviser genes between a lean and a full package. 'brainTracksham': same switching rule fed an independent fake state.
+      if (cfg.brainSwitch && (b.program.metaB === 'brainTrack' || b.program.metaB === 'brainTracksham')) { const [lo, hi] = cfg.brainSwitch.mul;
+        let felt; if (b.program.metaB === 'brainTrack') felt = f.brainMul; else { f.fakeB ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.brainSwitch.switch) f.fakeB = f.fakeB === lo ? hi : lo; felt = f.fakeB; }
+        Object.assign(b.genes, felt > (lo + hi) / 2 ? b.program.leanGenes : b.program.fullGenes); }
       // P13b A3 (opt-in toxinSwitch = per-tick flip probability): the fly's toxin sensitivity flips between the two
       // toxinNiche values during life. Headroom instrument only: acceptOracle tracks the current state ('shamState':
       // an independent fake state flipping at the same rate).
@@ -343,7 +367,7 @@ export class Microverse {
         const ao = b.program.acceptOracle; if (ao) { if (ao.shamState) { f.fakeMul ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.toxinSwitch) f.fakeMul = f.fakeMul === lo ? hi : lo; }
           b.genes.acceptAt = (ao.shamState ? f.fakeMul : f.toxinMul) === lo ? ao.lo : ao.hi; } }
       // Expected value of eating each kind for this fly (0 if it would refuse it): drives smell-guided movement.
-      const goodPred = this.codes.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
+      const goodPred = this.codes.map(bits => { const p = tastePredict(b, perceive(bits, dm)); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       if (cfg.habitats || cfg.dualFood) this.gp2 = this.codes2.map(bits => { const p = tastePredict(b, bits); return p > (b.genes.acceptAt ?? .5) ? p - (1 - p) * cfg.toxin : 0; });
       const needTarget = b.move.masks.some(m => m & 1 << 8) || b.program.moveRevise, target = needTarget ? this.bestTarget(f, goodPred, occupancy) : null;
       const bases = MOVES.map((_, d) => this.moveFeatures(f, goodPred, d, occupancy, target));
@@ -356,10 +380,10 @@ export class Microverse {
       const from = this.cell(f.x, f.y); occupancy.set(from, occupancy.get(from) - 1);
       f.x = (f.x + MOVES[dir][0] + N) % N; f.y = (f.y + MOVES[dir][1] + N) % N;
       const to = this.cell(f.x, f.y); occupancy.set(to, (occupancy.get(to) ?? 0) + 1);
-      f.energy -= cfg.metabolism + (dir ? cfg.moveCost : 0) + cfg.brainCost * (b.taste.masks.length + b.move.masks.length);
+      f.energy -= cfg.metabolism + (dir ? cfg.moveCost : 0) + cfg.brainCost * (f.brainMul ?? 1) * (b.taste.masks.length + b.move.masks.length);
       const p = this.plant[to];
       if (p && p.amount > .2) {
-        const vol = (cfg.habitats && this.isVol(f.x)) || (cfg.dualFood && p.kind >= KINDS / 2), bits = (vol ? this.codes2 : this.codes)[p.kind];
+        const vol = (cfg.habitats && this.isVol(f.x)) || (cfg.dualFood && p.kind >= KINDS / 2), bits = perceive((vol ? this.codes2 : this.codes)[p.kind], dm);
         if (tastePredict(b, bits) > (b.genes.acceptAt ?? .5) || b.rand() < (b.genes.tasteEps ?? 0)) {
           if (cfg.dualFood) { f.dietN = (f.dietN ?? 0) * .98 + 1; f.dietLeaf = (f.dietLeaf ?? 0) * .98 + (p.kind >= KINDS / 2 ? 1 : 0); }
           const take = Math.min(p.amount, cfg.bite); p.amount -= take; const good = (vol ? this.kindValence2 : this.kindValence)[p.kind] > 0;
