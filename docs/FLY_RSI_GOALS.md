@@ -194,3 +194,126 @@ All L1-on arms get the same operator, evidence, shadow window and real prices. T
 - **Lockstep check.** Before measuring stage A, run an off-arm lockstep on practice seed 101 for 20,000 ticks, and repeat the identity assertion for every stage-D seed. Compare, tick by tick: ecological state, actions, energy, births and deaths, inherited repertoires, live masks, weights and evidence, and behavioral RNG states. Only arm identifiers and inert controller telemetry are excluded.
 - **Required result.** **Zero divergent ticks, zero swaps and zero rewrite debit** in both arms; equal final populations alone do not pass. With this invariant, f = d per seed by construction, and any discrepancy is an implementation error, not a result.
 - The default-world fingerprint must remain bdaca307….
+
+## L3-II: attention-limited structural revision (registration text by GPT-6.2 Astra, committed verbatim before any L3-II measurement)
+
+**Claim.** A fly can increase the ecological payoff of L1 revision by using a private bodily cue to decide **which structural evidence to collect**. The scarce resource is one evidence channel per tasting, not energy, active feature slots, or permission to edit. The cue identifies neither a useful mask nor food valence. Only L1 can turn the routed observations into a feature. L3-II is a new test; no earlier result is rescored.
+
+### 1. World and chemistry
+
+- **Base world.** The existing 40×40 world, 20,000 ticks, energy prices, ordinary label noise, 16 food kinds, balanced odor-code redraw every 100 ticks, and rule epochs of 3,000 ticks.
+- **Disabled.** `brainSwitch`, parking, RewriteCost, `senseDrift`, and the other niche mechanisms.
+- **New rule family, `bankPairs` (opt-in).** The existing families draw from all eight bits and do not guarantee a learnable target in each bank.
+
+Bank A is bits 0–3; bank B is bits 4–7. At each epoch, draw one of the six unordered pairs uniformly from each bank, independent signs a, b ∈ {−1, +1}, and an independent overall sign s. The rule is frozen for the epoch:
+
+```text
+valence(x) = s × sign(0.5 + a × walsh(pairA,x) + b × walsh(pairB,x))
+```
+
+Both pairs can change the answer, neither is sufficient, and their roles are symmetric. The existing balanced code generator is kept; not every 16-kind draw needs to be equally easy. A code redraw does **not** reset the rule, the evidence or the fly.
+
+### 2. Private receptor and evidence budget
+
+**Receptor state.**
+- Each fly has a private, non-inherited reliable bank, initially A or B with equal probability.
+- It flips with probability **.004 per world tick** (mean dwell 250 ticks), once per tick whether or not the fly eats.
+- At each actual tasting the fly feels a receptor-quality cue that names the reliable bank correctly with probability **.90**, independently given the current state. This makes an oracle instrument and an implementable tracker genuinely different.
+- The controller receives the cue, never the latent state or a corruption mask.
+
+**Corruption applies to structural evidence only.**
+- L0 perceives the usual clean odor, predicts, receives the usual noisy taste label, and trains weights and replays as today. Feeding, smell-guided movement and the prediction residual all use the ordinary perception.
+- For L1's evidence sample, the reliable bank's bits are copied correctly, and each bit of the unreliable bank is independently flipped with probability **q = .5** per tasting. An unreliable pair therefore contributes noise, not a stable inverted signal that `abs(ev)` could still exploit.
+- The router chooses **before** it sees the current label, residual or structural sample. Neither it nor the cue-blind controls may compare the structural copy with the clean L0 odor.
+- Label: **constructed noisy structural sensor, intact L0 sensor, hand-written controller.**
+
+**One family means 15 mask correlations.** A owns the nonzero masks wholly inside `0x0F`; B owns the nonzero masks wholly inside `0xF0`. The bias and mixed-bank masks belong to neither. Mixed masks remain legal under ordinary birth mutation and L0 weight learning, but are not L1 admission candidates in any arm. Each tasting yields exactly one routed sample. With D = 1 − 1/tasteMemory and the ordinary pre-update residual r:
+
+```text
+Both banks:   ev[k] ← D × ev[k]          S[bank] ← D × S[bank]
+Routed only:  ev[k] += walsh(k, structural_sample) × r
+              S[bank] += r²              (once per taste, not once per mask)
+```
+
+Decay without a fresh correlation is bookkeeping, not a second observation.
+
+**Admission.**
+- The existing revision clock (counted in **total tastings**), cap, pruning and one-bit-extension rule are kept.
+- At an admission check, consider the eligible absent extensions in either bank with S > 0. Rank them by `abs(ev[k])/sqrt(S[bank])`, ties to the smallest numeric mask, and admit only if the winning score strictly exceeds `tasteZ`.
+- Do **not** rank by raw evidence or use the global `s2`: either would change the effective hurdle merely because a bank received more samples.
+- L0 and movement L1 are otherwise unchanged.
+
+### 3. Arms and inheritance
+
+**Background.** The ordinary evidence-revising SELF background, normal mutation and `moveAddInit: 2`.
+- **The new L2 gene** is `attentionA`, the probability of routing the next tasting to A.
+- **Static grid:** {0, .25, .5, .75, 1}; static interior allocations draw independently on each tasting.
+- No arm gets extra correlations, free target masks, or changes to taste acceptance.
+
+| Arm | Routing rule |
+|---|---|
+| **ORACLE** | Measuring instrument only: sets `attentionA` to 1 or 0 from the true current reliable bank. No access to the rule, the target or the label. |
+| **META** | Sets `attentionA` to 1 when the current felt cue says A, else 0. No smoothing or tuning. |
+| **SHAM** | The identical META code, driven by an independent fake bank chain with the same initialization, tick transitions and .90 cue accuracy relative to the **fake** state. Structural corruption still follows the real state. |
+| **EVO-R** | Founders start at .5. At each birth, with probability .1, the inherited allocation is replaced by a uniformly chosen *different* grid value. No in-life cue use. |
+| **FIXED** | The static allocation selected and locked in stage A. No in-life tuning. |
+| **NOREV / METAOFF** | Both disable taste and movement structural revision, keeping L0 and normal birth mutation. METAOFF computes META's allocation but has no structural consumer; NOREV does not route. |
+| **BLIND** | The cue-blind scheduler below: a mandatory comparator in stages A and B, not a seventh final arm. |
+
+**BLIND uses evidence; it is not a coin disguised as a control.**
+- Bank utilities start at zero. Before a tasting, BLIND exploits the higher-utility bank with probability .8 and otherwise samples uniformly; utility ties break uniformly.
+- Before updating the selected bank, it nominates that bank's strongest of six pair correlations by prior `abs(ev)`, ties to the smallest mask.
+- After receiving the routed sample and residual, it updates only that bank's utility: `U ← .8 U + .2 sign(ev_before[k]) × walsh(k, sample) × r`, with sign(0) = 0. This rewards a bank when a correlation learned on **previous** bites predicts the sign of a new residual.
+- No current-bite lookahead, no second-bank sample. Utilities and receptor states start fresh at birth.
+
+**Inheritance.**
+- L3-I's repertoire inheritance applies, without fitted weights.
+- Where the existing model inherits structural evidence, each bank's `ev` is inherited **together with its matching S**, and the revision clock is preserved. One side of that normalization is never inherited alone.
+- A controller's temporary `attentionA` is reset to the stable .5 before birth mutation; EVO-R keeps its genuine allele.
+- The real state, fake state, cue error, corruption, routing and exploration, and allocation mutation use domain-separated streams, never the world, action or L0 replay RNG.
+
+### 4. Endpoints and ordered screens
+
+**Population** is the existing per-seed mean population over ticks 10,100–20,000 at 100-tick intervals, extinction zeros included.
+
+**Future-bite prediction** is a separate common-input assay, so that a policy cannot look more accurate just by eating easier food.
+- **Tape.** For each screening seed, record one NOREV reference world's actual tasting tape: fly ID, birth tick, tasting tick, ordinary odor and observed noisy label.
+- **Replay.** Replay each fly's tape through independent founder-initialized taste learners, one per comparator, with no inherited evidence in this assay. The private receptor path, the structural noise and the L0 replay choices are shared across comparators for that fly.
+- **Scoring.** Score the ordinary **ungated** `modelProb` on each bite *before* that bite updates anything, clipped to [.001, .999], as binary log loss in nats. Average over actual bites within a seed, then equally over seeds. No sampling by survival, admission or cue correctness. An empty tape fails the screen.
+- The assay is diagnostic; only autonomous population runs can qualify a fly.
+
+| Stage | Frozen comparison | Advance bar |
+|---|---|---|
+| **A. Routing headroom** | Seeds **101–116**. ORACLE vs all five static allocations and BLIND, in the tape assay and in autonomous worlds. FIXED is locked as the static allocation with the highest mean **population**; on an exact tie, the one closest to .5, then the lower allocation. | ORACLE beats **every static allocation and BLIND** by **≥ .01 nats/bite** lower mean loss and **≥ 2.0 late flies** higher mean population. It beats the locked FIXED and BLIND in population on **≥ 12/16** seeds each. |
+| **B. Implementable routing** | Seeds **301–316**, not used in A. The actual noisy-cue META vs the locked FIXED and BLIND, on the same two endpoints. No oracle substitution or static reselection. | Against **each** comparator: **≥ .005 nats/bite** lower mean loss, **≥ 1.0 fly** higher mean population, and a positive population contrast on **≥ 11/16** seeds. |
+| **C. Qualification** | The six locked arms on all 48 practice seeds, 101–116 and 301–332. BLIND is gated in A and B; no fresh-seed superiority over BLIND is claimed. | Every L3-I gate below passes, and so does the off-arm identity check. Only this real META may go to the final. |
+
+- These are three pre-specified batches, **not three tuning rounds**. Stop at the first miss.
+- Three attempts are authorized under the five-attempt ceiling. No retries, and no alternative dwell, corruption, chemistry, hurdle or scheduler.
+- Reusing the stage A and B practice seeds in stage C is practice, not independent confirmation.
+
+### 5. Qualification, integrity and final
+
+**Gates.** Scorer v2 and every L3-I gate, on unrounded, seed-paired values, all at one-sided p < .01 under the parent protocol:
+- META − EVO-R ≥ 1;
+- META − SHAM ≥ 1;
+- META − FIXED > 0;
+- mean d = (META − NOREV) − 1.5 (FIXED − NOREV) > 0;
+- mean f = d − (METAOFF − NOREV) > 0, with f > 0 on **≥ 33/48** seeds;
+- FIXED − NOREV > 0.
+
+Extinctions are reported by arm and by seed and never excluded. A missing or non-finite arm result is invalid, not an extinction.
+
+**Integrity checks before stage A.**
+- On fixtures, verify that each routed bite adds exactly 15 fresh correlations, that the other bank only decays, and that changing only the cue or the corruption cannot change the current bite's L0 update.
+- Run **METAOFF vs NOREV** in tickwise lockstep on seed 101 for 20,000 ticks, and repeat on every stage C seed. Require zero divergence in ecological trajectory, masks, weights, evidence, offspring and behavioral RNG, excluding only inert controller telemetry. Accordingly f = d, seed by seed.
+- Preserve the default fingerprint bdaca307….
+- Report route counts, the true-bank match rate, admissions by bank and the bites after each admission; none of these selects a configuration.
+
+**Final bank.** The proposed bank is **852001–852048**.
+- Reserve it only after a repo-wide **interval-overlap** audit against spent and reserved ranges and run artifacts, not just a search for the two endpoints.
+- If there is an overlap, commit a replacement **before any L3-II measurement**.
+- Freeze the resolved configuration, scorer and bank manifest.
+- If stage C passes, run the six arms once on that bank; otherwise run no final. The earlier reserved banks stay untouched.
+
+**Bank audit (done before commit).** A repo-wide search for 852001–852048 found only incidental values inside runtime autosave JSON (`handoff/runtime-snapshot/…/autosave.json`, `runs/platform/…/autosave.json`). They are not seeds. The ledger and run artifacts in `docs/SPENT_BANKS_RSI.md` contain no 6-digit ranges overlapping it. The bank is reserved.
