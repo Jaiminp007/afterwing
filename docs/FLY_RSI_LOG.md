@@ -101,3 +101,19 @@ A costlier world raises level-1 revision's value for every arm, so it lowers the
 - **Consequence:** part of the factorial gain is L1 repairing damage the controller causes. It is not purely L1 being more productive.
 
 The next registration (L3-I) must therefore keep parked features out of what offspring inherit, or restore them at birth, so that META-OFF has no lineage-damage channel.
+
+## L3-I screen 1 (parking, the L3c attempt-3 setting; inheritance law on; 48 practice seeds) — MISSED
+
+Mean flies: META 45.07, SHAM 34.23, EVO-R 37.31, FIXED 37.07, NOREV 26.90, METAOFF 30.26.
+
+| Gate | Value | Pass |
+|---|---|---|
+| META − EVO-R / − SHAM / − FIXED | +7.76 / +10.84 / +8.00 (each p ≈ 5e-6) | yes |
+| Original L3 d | +2.92, p .0108 | **no** |
+| Factorial mean | **−.45**, p .58 | **no** |
+| Factorial sign | 19/48 | **no** |
+| L1 gain (FIXED − NOREV) | +10.17 | yes |
+
+The direct effect (METAOFF − NOREV) is **+3.36** (p .005). Extinctions: FIXED 1, NOREV 2, METAOFF 2.
+
+**Reading.** With parked features inherited properly, the controller's own direct benefit is positive. It accounts for the whole L3 margin, and there is no amplification left. Parking is an energy saving that works without L1. It does not make L1 pay more. Screen 1 is closed; by protocol, screen 2 follows.
