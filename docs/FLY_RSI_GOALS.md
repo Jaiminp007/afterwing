@@ -82,3 +82,13 @@ The arms' definitions (META, SHAM, EVO-R, FIXED, NOREV) and both packages are as
 - **The L2 gates in the same world:** META − EVO-R ≥ 1.0, META − SHAM ≥ 1.0, META − FIXED > 0. All must pass, so compounding counts only where level 2 itself holds.
 
 **Label.** The world's cost multiplier was chosen on practice to make level-1 self-revision costly without level 2. That choice is part of the constructed world.
+
+## L3c (frozen 2026-11-18, after L3b failed practice with steady progress)
+
+L3b **stays FAILED** (best practice ratio 1.444). Under the agreed workflow, a step back is required after 5 attempts *without progress*; L3b's attempts were still progressing, so the line continues as a new, separately named test.
+
+- **World:** fixed at `brainSwitch` mul [1, 20], switch .001.
+- **Allowed changes:** only the META rule's form (in-life reviser control), with at most 5 practice attempts. SHAM always runs the identical rule on a fake state. EVO-R gets the same gene packages. FIXED and NOREV are as in L2.
+- **First new mechanism (attempt 1):** dormant features. When its brain becomes costly, the fly parks its added taste and movement features, with their weights, in cost-free storage. When the cost falls, it restores them.
+- **Final:** fresh seeds 97001–97048, run once, all five arms. It runs only if practice clears every gate.
+- **Gates:** as for L3b (the L3 ratio test plus the L2 gates, all at p < .01).

@@ -9,6 +9,8 @@ import { META_STATS, MEM_GRID, PRUNE_GRID } from './sim.mjs';
 const X = JSON.parse(process.env.MV_META || '{}'), ALL = { META: { ...STRAINS.P13_FIXED, metaR: 'trial', ...X }, SHAM: { ...STRAINS.P13_FIXED, ...X, metaR: X.metaR ? X.metaR + 'sham' : 'trialsham' }, ORACLE: { ...STRAINS.P13_FIXED, metaR: 'trialoracle', ...X }, EVOR: STRAINS.P13_EVOR, FIXED: STRAINS.P13_FIXED };
 // MV_SET=A3: P13b amendment A3 arms (world settings come from MV_WORLD).
 if (process.env.MV_SET === 'L2') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.L2_META, ...X }, SHAM: { ...STRAINS.L2_SHAM, ...X }, EVOR: STRAINS.L2_EVOR, FIXED: STRAINS.L2_FIXED, NOREV: STRAINS.L2_NOREV }); }
+// MV_PKG (JSON {leanGenes, fullGenes}): L3b practice; the same packages go to every L2 arm that can switch (META, SHAM, EVO-R).
+if (process.env.MV_PKG) { const P = JSON.parse(process.env.MV_PKG); for (const k of ['META', 'SHAM', 'EVOR']) if (ALL[k]) ALL[k] = { ...ALL[k], ...P }; }
 if (process.env.MV_SET === 'A3') { for (const k of Object.keys(ALL)) delete ALL[k]; Object.assign(ALL, { META: { ...STRAINS.A3_META, ...X }, SHAM: { ...STRAINS.A3_SHAM, ...X }, EVOR: STRAINS.A3_EVOR, FIXED: STRAINS.A3_FIXED }); }
 const WORLD = { ...CONFIG, ...JSON.parse(process.env.MV_WORLD || '{}') };
 const ARMS = Object.fromEntries(Object.entries(ALL).filter(([k]) => (process.env.MV_ARMS ? true : k !== 'ORACLE') && !process.env.MV_ARMS || process.env.MV_ARMS.split(',').includes(k)));

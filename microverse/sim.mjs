@@ -108,6 +108,17 @@ function metaShadow(brain) {
   gridStep(genes, gene, grid, brain.rand() < .5 ? -1 : 1); if (genes[gene] === g[gene]) return;
   const { shadow, ...rest } = t; t.shadow = { gene, genes, taste: structuredClone(rest), L: 0 }; t.shL = 0;
 }
+// Fly-RSI L3c: dormant features. park() moves every added taste/movement feature (with its weight) into cost-free
+// storage; unpark() restores them. Used by the in-life reviser control when program.park is set.
+function park(b) { const t = b.taste, mv = b.move, P = { taste: [], move: [] };
+  for (let i = t.masks.length - 1; i >= 0; i--) if (popcount(t.masks[i]) > 1) { P.taste.push([t.masks[i], t.w[i]]); t.masks.splice(i, 1); t.w.splice(i, 1); for (const rec of t.memory) rec.phi.splice(i, 1); }
+  for (let i = mv.masks.length - 1; i >= 0; i--) if (!innateMove(mv.masks[i])) { P.move.push([mv.masks[i], mv.w[i]]); mv.masks.splice(i, 1); mv.w.splice(i, 1); if (mv.trace) mv.trace.splice(i, 1); }
+  mv.pending = null; return P; }
+function unpark(b, P) { const t = b.taste, mv = b.move;
+  for (const [m, w] of P.taste) if (!t.masks.includes(m)) { t.masks.push(m); t.w.push(w); for (const rec of t.memory) rec.phi.push(walsh(m, rec.bits)); }
+  for (const [m, w] of P.move) if (!mv.masks.includes(m)) { mv.masks.push(m); mv.w.push(w); }
+  mv.pending = null; }
+export { park, unpark };
 function metaTrial(brain) {
   const t = brain.taste, g = brain.genes, K = brain.program.metaK ?? 6; t.metaChecks = (t.metaChecks ?? 0) + 1;
   if (t.metaChecks % K || t.lossModel === undefined) return;
@@ -358,7 +369,9 @@ export class Microverse {
       // reviser genes between a lean and a full package. 'brainTracksham': same switching rule fed an independent fake state.
       if (cfg.brainSwitch && (b.program.metaB === 'brainTrack' || b.program.metaB === 'brainTracksham')) { const [lo, hi] = cfg.brainSwitch.mul;
         let felt; if (b.program.metaB === 'brainTrack') felt = f.brainMul; else { f.fakeB ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.brainSwitch.switch) f.fakeB = f.fakeB === lo ? hi : lo; felt = f.fakeB; }
-        const costly = felt > (lo + hi) / 2; if (f.wasCostly && !costly) f.regrowAt = f.age; f.wasCostly = costly;
+        const costly = felt > (lo + hi) / 2; if (f.wasCostly && !costly) f.regrowAt = f.age;
+        if (b.program.park) { if (costly && !f.wasCostly) f.parked = park(b); else if (!costly && f.wasCostly && f.parked) { unpark(b, f.parked); f.parked = null; } }
+        f.wasCostly = costly;
         // Optional regrowth phase (program.regrow {ticks, genes}): for a while after costs fall, rebuild with these genes.
         const rg = b.program.regrow; Object.assign(b.genes, costly ? b.program.leanGenes : rg && f.regrowAt !== undefined && f.age - f.regrowAt < rg.ticks ? { ...b.program.fullGenes, ...rg.genes } : b.program.fullGenes); }
       // P13b A3 (opt-in toxinSwitch = per-tick flip probability): the fly's toxin sensitivity flips between the two

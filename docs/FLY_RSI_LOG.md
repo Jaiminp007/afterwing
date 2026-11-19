@@ -54,3 +54,17 @@ Mean flies: META 44.83, SHAM 41.96, EVO-R 41.19, FIXED 41.67. Raw data: `evidenc
 | L1: flies improve their own learning program | **shown** (G5, G7c) |
 | L2: flies improve their own improver | **shown** (this final) |
 | L3: compounding (L1 pays ≥ 1.5× more with L2) | **not shown**: practice best 1.44 in 5 attempts; no final |
+
+## L3b practice (world `brainSwitch` mul [1, hi], switch .001; 48 practice seeds)
+
+| Attempt | Change | META − FIXED | vs EVO-R | vs SHAM | L1 ratio (bar 1.5) |
+|---|---|---|---|---|---|
+| 1 | hi 20 | +3.78 | +3.09 | +4.39 | 1.372 |
+| 2 | hi 50 | +.63 | +.60 | +6.00 | 1.026 |
+| 3 | hi 30 | +1.58 | +2.59 | +4.33 | 1.106 |
+| 4 | hi 20; lean package also revises every step (fast shedding); same packages for EVO-R | +4.02 | +3.60 | +4.85 | 1.395 |
+| 5 | as 4, plus 300 ticks of frequent revision after costs fall (fast regrowth) | +4.52 | +4.09 | +5.12 | 1.444 |
+
+**L3b FAILED on practice** (5 attempts, best 1.444 < 1.5); no final was run.
+
+A costlier world raises level-1 revision's value for every arm, so it lowers the ratio. Partly this is because NOREV keeps accumulating mutated movement features it can never prune. Changes to the rule form gave steady progress (1.372 → 1.395 → 1.444).
