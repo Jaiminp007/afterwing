@@ -267,3 +267,37 @@ Implementation:
 - TRUE_ORACLE shows a large gap (+15 over F at .60). So knowing the rule is valuable, but in this world it is not limited by where structural evidence is collected.
 - Every arm ends near its feature cap, so how the fly *uses and keeps* features may be the binding constraint. This is a hypothesis from telemetry, not a tested result.
 - Both batches count toward the line budget. Per the registration, there is no third toxin, no rerun and no alternate bank count.
+
+**Post-hoc diagnosis (Gemini 4 Neon; exploratory read-only runs on new practice seeds 501–504; not registered; not a test).** At toxin .60, mean late flies:
+
+| Arm | Flies |
+|---|---|
+| NOREV | 41.55 |
+| S10 | 46.77 |
+| BLIND | 48.74 |
+| ORACLE | 49.88 |
+| TRUE_21 (bias + 16 founder singletons + 4 true pairs) | 53.29 |
+| TRUE_5 (bias + 4 true pairs) | 62.71 |
+
+**Most of the TRUE_ORACLE gap comes from feature count, not rule knowledge.** Every ordinary fly carries 16 unprunable founder singletons, which are uninformative under `quadBankPairs`. Adding them to TRUE_5 costs 9.4 flies:
+- about 4.2 flies of maintenance energy;
+- about 5.3 flies of L0 overfitting, since 21 features chase 16 food kinds that are redrawn every 100 ticks.
+
+Even TRUE_21 would only reach dO ≈ +3.9 against S10, short of the bar of 4.
+
+**The cap-crowding hypothesis is not supported.**
+- ORACLE was at its cap on only 5% of fly-ticks.
+- Raising the cap to 40 (49.97), turning mutation off (47.29), pruning harder (49.57) and raising the admission bar (46.21) did not help ORACLE.
+
+**A world without founder singletons fails the other way.** Started from `[0]` (direct within-bank candidates, cap 10), NOREV collapses to 16.96 (0 at toxin .85). So the 1.5× bar would need more than god-mode TRUE_5 achieves.
+
+**Movement L1 helps the static allocation much more than ORACLE.**
+- Taste-only runs: ORACLE beats S10 by 5.70.
+- With movement L1 on: S10 gains +3.74, ORACLE only +1.15.
+
+**Gemini's verdict.** This ecology is structurally hostile to an honest 1.5× L3 pass: about 5–15% odds without contrived world changes. The reasons:
+- the concave starvation-cliff / carrying-capacity curve;
+- the 16-kind representation trap;
+- population-wide search through inherited masks, which washes out gains from a better reviser.
+
+Gemini proposes no ninth screen.

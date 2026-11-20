@@ -52,3 +52,8 @@ Do not use any of these banks for a new test.
 | P16 pairwise representation: rules / histories / sign-flip rng | 2301001–2301024 / 2302001–2302024 / 2304999 (smoke +500) |
 | P17 selection exploration (non-bank) | 99101–99104, histories 99601–99604 |
 | L3-III final (reserved) | 874001–874048 |
+| Open-RSI practice (`PRACTICE_A..C`) | 301001–301048 (donor 3300001–3300048) |
+| Open-RSI OE-v4 Primary Final (spent: OE-1/OE-2 PASS, OE-3 sign 24/48 FAIL) | 3100001–3100048 (donor 3400001–3400048) |
+| Open-RSI OE-4 Transfer Final (spent: OE-2 L2 transfer PASS, full OE-4 compounding FAIL) | 3200001–3200048 (donor 3500001–3500048) |
+| Open-RSI OE-v5 Primary Final (spent: OE-1/OE-2/OE-3 ALL 7 GATES PASS) | 3600001–3600048 (donor 3700001–3700048) |
+| L3-IV-H0 post-hoc diagnostics by Gemini 4 Neon (exploratory, non-bank) | 501–504 |
