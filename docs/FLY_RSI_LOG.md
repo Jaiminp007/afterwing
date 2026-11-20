@@ -222,3 +222,21 @@ Mean late flies: META 55.74, S75 54.85, NOREV 41.46.
 - So the evidence scheduler barely tracks the receptor state. Its premium comes from runs of same-bank sampling and balanced admissions, not from finding the reliable bank.
 
 The registration's stop rule applies: no stage C and no final. Bank 874001–874048 stays untouched.
+
+## L3-IV-H0 (four-bank routing headroom screen): integrity
+
+These checks passed before any measurement (`scratch/l3iv-fixtures.mjs`). The fingerprint is unchanged.
+- **Static menu:** 39 distinct allocations, each summing to 1.
+- **Rule:** the `quadBankPairs` rule places one pair in each of the four banks. Flipping a bit of any bank's target pair changes valence (720 / 744 / 767 / 755 of 2,000 random odors, for banks 0–3).
+- **Banks 2 and 3 matter downstream:**
+  - prediction changes when a single bank-2 or bank-3 bit flips;
+  - replay features match the mask list;
+  - scripted clean bank-3 evidence gets a bank-3 pair admitted (12288 = bits 12, 13).
+- **Routing:** for each of the four labels, a routed bite updates exactly 15 correlations in its bank and 0 outside it. L0 weights are identical across routes.
+- **Corruption:** the reliable bank is never flipped. The unreliable bits flip at rate .5002, and the covariance between unreliable bits is −.0004, so the 12 draws are independent. ORACLE routes follow the true state exactly.
+- **Allocation:** static routing frequencies match the gene ([.501, .248, 0, .251] for [.5, .25, 0, .25]), and BLIND routes to all four banks.
+- **World:** codes are 16 bits, and NOREV runs.
+
+Implementation:
+- **Evidence:** 64 slots (60 used), indexed by bank × 16 + local mask; no 65,536-entry array.
+- **Mutation prior:** 1/256 null, 30/256 within-bank, 225/256 masks spanning two or more banks.

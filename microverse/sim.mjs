@@ -36,6 +36,9 @@ export function makeRule(family, seed) {
   else if (family === 'bankPairs') { // L3-II: one pair inside bank A (bits 0-3) and one inside bank B (bits 4-7)
     const pr = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]], pa = pr[Math.floor(r() * 6)], pb = pr[Math.floor(r() * 6)];
     terms = [[1 << pa[0] | 1 << pa[1], r() < .5 ? -1 : 1], [1 << 4 + pb[0] | 1 << 4 + pb[1], r() < .5 ? -1 : 1]]; bias = .5; }
+  else if (family === 'quadBankPairs') { // L3-IV-H0: one pair inside each of four 4-bit banks of a 16-bit odor
+    const pr = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]];
+    terms = [0, 1, 2, 3].map(bk => { const p = pr[Math.floor(r() * 6)]; return [1 << 4 * bk + p[0] | 1 << 4 * bk + p[1], r() < .5 ? -1 : 1]; }); bias = .5; }
   else if (family === 'triples') terms = [[1 << b[0] | 1 << b[1] | 1 << b[2], 1], [1 << b[3] | 1 << b[4] | 1 << b[5], 1], [1 << b[6], .5]];
   else throw Error('family ' + family);
   return { family, seed, terms, bias, sign, target: terms.map(t => t[0]) };
@@ -51,7 +54,7 @@ export function newBrain(program, r, inherited = null) {
   return {
     program, genes: { ...program.genes },
     taste: { masks: tm, w: Array(tm.length).fill(0), memory: [], seen: 0,
-      ev: inherited?.tasteEv ? [...inherited.tasteEv] : Array(FULL).fill(0), n: inherited?.tasteN ?? 0, s2: inherited?.tasteS2 ?? 0, added: [], ...(inherited?.tasteS ? { S: [...inherited.tasteS] } : {}) },
+      ev: inherited?.tasteEv ? [...inherited.tasteEv] : Array(program.quad ? 64 : FULL).fill(0), n: inherited?.tasteN ?? 0, s2: inherited?.tasteS2 ?? 0, added: [], ...(inherited?.tasteS ? { S: [...inherited.tasteS] } : {}) },
     move: { masks: mm, w: mm.map(m => program.moveInit?.[m] ?? 0), ev: inherited?.moveEv ? [...inherited.moveEv] : Array(1 << MOVE_BASE).fill(0), n: inherited?.moveN ?? 0, s2: inherited?.moveS2 ?? 0, pending: null, added: [] },
     rand: r
   };
@@ -152,7 +155,7 @@ function tasteLearnCore(brain, bits, target) {
   const mode = brain.program.tasteRevise; if (!mode) return;
   // Forgetting: evidence decays (half-life ~140 tastings), so evidence from an old rule fades.
   const D = 1 - 1 / (brain.genes.tasteMemory ?? 200); t.n++; t.s2 = t.s2 * D + residual * residual;
-  if (brain.att) attnEvidence(brain, D, residual); // L3-II: one routed bank of 15 correlations per tasting
+  if (brain.att) (brain.program.quad ? quadEvidence : attnEvidence)(brain, D, residual); // L3-II: one routed bank of 15 correlations per tasting
   else for (let k = 0; k < FULL; k++) t.ev[k] = t.ev[k] * D + walsh(k, bits) * residual;
   if (t.n % brain.genes.tasteEvery) return;
   if (brain.program.metaR) metaRevise(brain);
@@ -162,11 +165,15 @@ function tasteLearnCore(brain, bits, target) {
     if (j < 0) { if (brain.program.swap && !t.swapTrial) swapNominate(brain); return; } // L3-I screen 2: optional swap trial; live path unchanged
     t.masks.splice(j, 1); t.w.splice(j, 1); for (const rec of t.memory) rec.phi.splice(j, 1); t.edits = (t.edits ?? 0) + 1;
   }
-  const have = new Set(t.masks), kids = new Set();
-  for (const mk of t.masks) if (mk) for (let b = 0; b < ODOR_BITS; b++) { const c = mk | 1 << b; if (!have.has(c)) kids.add(c); }
+  const have = new Set(t.masks), kids = new Set(), NB = brain.program.quad ? 16 : ODOR_BITS;
+  for (const mk of t.masks) if (mk) for (let b = 0; b < NB; b++) { const c = mk | 1 << b; if (!have.has(c)) kids.add(c); }
   const list = [...kids].sort((a, b) => a - b); if (!list.length) return;
   let chosen;
-  if (brain.program.attention) { // L3-II admission: within-bank extensions only, ranked by |ev|/sqrt(S[bank])
+  if (brain.program.quad) { // L3-IV-H0 admission: within-bank extensions only, ranked by |ev|/sqrt(S[bank]); ties to the smallest mask
+    const S = t.S ?? [0, 0, 0, 0]; let bestK = -1, bestV = -1;
+    for (const c of list) { const bk = bankOf4(c); if (bk < 0 || !(S[bk] > 0)) continue; const v = Math.abs(t.ev[evIdx4(c)]) / Math.sqrt(S[bk]); if (v > bestV) { bestV = v; bestK = c; } }
+    if (bestK < 0 || !(bestV > brain.genes.tasteZ)) return; chosen = bestK; Q_STATS.admissions++; if (Q_STATS.target?.includes(bestK)) Q_STATS.correctAdmissions++;
+  } else if (brain.program.attention) { // L3-II admission: within-bank extensions only, ranked by |ev|/sqrt(S[bank])
     const S = t.S ?? [0, 0]; let bestK = -1, bestV = -1;
     for (const c of list) { const bk = bankOf(c); if (bk < 0 || !(S[bk] > 0)) continue; const v = Math.abs(t.ev[c]) / Math.sqrt(S[bk]); if (v > bestV) { bestV = v; bestK = c; } }
     if (bestK < 0 || !(bestV > brain.genes.tasteZ)) return; chosen = bestK; if (brain.program.attnMode !== 'forced') { ATT_STATS.admissions[bankOf(bestK)]++; t.admits = (t.admits ?? 0) + 1; }
@@ -215,6 +222,40 @@ export function attnSample(c, brain, bits) {
   ATT_STATS.tastings++; ATT_STATS.routed[bank]++; if (bank === c.state) ATT_STATS.match++; ATT_STATS.bitesAfterAdm += brain.taste.admits ?? 0;
   if (brain.lastBank !== bank) ATT_STATS.runs++; brain.lastBank = bank;
   return { bank, sample, blind };
+}
+// ---- L3-IV-H0 (four-bank routing headroom; docs/FLY_RSI_GOALS.md). Opt-in: cfg.quad = {switch}, program.quad. ----
+export const bankOf4 = m => { if (!m) return -1; for (let b = 0; b < 4; b++) if ((m & ~(0xF << 4 * b)) === 0) return b; return -1; };
+export const evIdx4 = m => { const b = bankOf4(m); return b * 16 + (m >>> 4 * b & 15); };
+export const BANK4 = [0, 1, 2, 3].map(b => Array.from({ length: 15 }, (_, i) => (i + 1) << 4 * b));
+const PAIRS4 = BANK4.map(ms => ms.filter(m => popcount(m) === 2)), BANK4_ALL = BANK4.flat();
+export const QUAD_ALLOCS = (() => { const o = []; for (let a = 0; a <= 4; a++) for (let b = 0; b <= 4 - a; b++) for (let c = 0; c <= 4 - a - b; c++) o.push([a, b, c, 4 - a - b - c].map(x => x / 4));
+  for (let k = 0; k < 4; k++) o.push([0, 1, 2, 3].map(i => i === k ? 0 : 1 / 3)); return o; })(); // 35 integer quarters + 4 three-bank uniforms = 39
+export const Q_STATS = { routed: [0, 0, 0, 0], match: 0, tastings: 0, admissions: 0, correctAdmissions: 0, births: 0, birthTargets: 0, target: null };
+// Mutation prior (identical in all arms): 1/256 null, 30/256 uniform within-bank (60 masks), 225/256 uniform over masks touching >= 2 banks.
+function quadMutMask(r) { const u = r(); if (u < 1 / 256) return 0; if (u < 31 / 256) return BANK4_ALL[Math.floor(r() * 60)];
+  for (;;) { const c = Math.floor(r() * 65536); if (c && bankOf4(c) < 0) return c; } }
+export function newQuadCtx(seed, id) { const st = tag => rng32(mix(seed ^ Math.imul(id, 2654435761) ^ tag));
+  const c = { R: st(0x51524350), C: st(0x51435545), W: st(0x51435557), X: st(0x51434f52), O: st(0x51524f55) }; c.state = Math.floor(c.R() * 4); return c; }
+export function quadTick(c, sw) { if (c.R() < sw) c.state = (c.state + 1 + Math.floor(c.R() * 3)) % 4; }
+// Fixed draw order per tasting: cue (C, W), 16 corruption draws (X; the 12 for unreliable bits are used), 2 routing draws (O).
+export function quadSample(c, brain, bits) {
+  const uc = c.C(), uw = c.W(), cue = uc < .9 ? c.state : (c.state + 1 + Math.floor(uw * 3)) % 4; // generated; no H0 arm reads it
+  const sample = bits.map((v, i) => { const u = c.X(); return (i >> 2) !== c.state && u < .5 ? -v : v; });
+  const u1 = c.O(), u2 = c.O(), m = brain.program.attnMode; let bank, blind = false;
+  if (m === 'oracle') bank = c.state;
+  else if (m === 'blind') { blind = true; const U = brain.attU ?? [0, 0, 0, 0];
+    if (u1 < .8) { const mx = Math.max(...U), cand = [0, 1, 2, 3].filter(b => U[b] === mx); bank = cand[Math.floor(u2 * cand.length)]; } else bank = Math.floor(u2 * 4); }
+  else { const a = brain.genes.alloc; let acc = 0; bank = 3; for (let b = 0; b < 4; b++) { acc += a[b]; if (u1 < acc) { bank = b; break; } } while (!(a[bank] > 0)) bank--; }
+  Q_STATS.tastings++; Q_STATS.routed[bank]++; if (bank === c.state) Q_STATS.match++;
+  return { bank, sample, blind, cue };
+}
+function quadEvidence(brain, D, r) { const t = brain.taste, a = brain.att; t.S ??= [0, 0, 0, 0];
+  for (let k = 0; k < 64; k++) t.ev[k] *= D; for (let b = 0; b < 4; b++) t.S[b] *= D;
+  let nom = -1, evBefore = 0;
+  if (a.blind) { for (const k of PAIRS4[a.bank]) if (nom < 0 || Math.abs(t.ev[evIdx4(k)]) > Math.abs(t.ev[evIdx4(nom)])) nom = k; evBefore = t.ev[evIdx4(nom)]; }
+  for (const k of BANK4[a.bank]) t.ev[evIdx4(k)] += walsh(k, a.sample) * r;
+  t.S[a.bank] += r * r;
+  if (a.blind) { const U = brain.attU ??= [0, 0, 0, 0]; U[a.bank] = .8 * U[a.bank] + .2 * Math.sign(evBefore) * walsh(nom, a.sample) * r; }
 }
 // L3-III SHAM: an independent sensory twin per recipient (docs/FLY_RSI_GOALS.md). Dedicated streams keyed by seed, recipient id and tag.
 export function newTwin(w, f) { const fp = { ...w.strains[f.strain], attnMode: 'forced' };
@@ -330,14 +371,14 @@ export class Microverse {
     this.kindValence2 = this.codes2.map(b => valence(this.rule2, b)); }
   nextRule() {
     const sch = this.cfg.ruleSchedule; this.ruleIndex = (this.ruleIndex + 1) % sch.length;
-    const [family, ticks] = sch[this.ruleIndex]; this.epoch = (this.epoch ?? -1) + 1; this.rule = makeRule(family, mix(this.seed ^ (this.tick + 1) * 7919)); this.ruleEnds = this.tick + ticks;
+    const [family, ticks] = sch[this.ruleIndex]; this.epoch = (this.epoch ?? -1) + 1; this.rule = makeRule(family, mix(this.seed ^ (this.tick + 1) * 7919)); this.ruleEnds = this.tick + ticks; if (this.cfg.quad) Q_STATS.target = this.rule.target; // read-only telemetry
   }
   redrawCodes() {
     // Balanced chemistry: each draw has exactly KINDS/2 good and KINDS/2 bad odor kinds, so the base
     // rate of good food never swings into famine; telling kinds apart still pays.
     const seen = new Set(), good = [], bad = [];
-    while (good.length < KINDS / 2 || bad.length < KINDS / 2) { const c = Math.floor(this.r() * FULL); if (seen.has(c)) continue; seen.add(c);
-      const bits = [...Array(ODOR_BITS).keys()].map(b => c >> b & 1 ? 1 : -1), v = valence(this.rule, bits);
+    while (good.length < KINDS / 2 || bad.length < KINDS / 2) { const c = Math.floor(this.r() * (this.cfg.quad ? 65536 : FULL)); if (seen.has(c)) continue; seen.add(c);
+      const bits = [...Array(this.cfg.quad ? 16 : ODOR_BITS).keys()].map(b => c >> b & 1 ? 1 : -1), v = valence(this.rule, bits);
       if (v > 0 && good.length < KINDS / 2) good.push(bits); else if (v < 0 && bad.length < KINDS / 2) bad.push(bits); }
     this.codes = [...good, ...bad]; for (let i = this.codes.length - 1; i > 0; i--) { const j = Math.floor(this.r() * (i + 1)); [this.codes[i], this.codes[j]] = [this.codes[j], this.codes[i]]; }
     this.kindValence = this.codes.map(b => valence(this.rule, b));
@@ -373,6 +414,7 @@ export class Microverse {
     }
     // ORACLE (measuring instrument only): born with the true terms of the rule in force.
     if (prog.oracle) prog = { ...prog, tasteMasks: [0, ...this.rule.target.filter(t => t)] };
+    if (this.cfg.quad) { Q_STATS.births++; Q_STATS.birthTargets += this.rule.target.filter(t => prog.tasteMasks.includes(t)).length; }
     const inh = parent ? { tasteEv: parent.brain.taste.ev, tasteN: parent.brain.taste.n, tasteS2: parent.brain.taste.s2, tasteS: parent.brain.taste.S, moveEv: parent.brain.move.ev, moveN: parent.brain.move.n, moveS2: parent.brain.move.s2 } : null;
     const f = { id, strain, x, y, energy, age: 0, gen, parent: parent?.id ?? 0, brain: newBrain(prog, r, prog.inheritEvidence === false ? null : inh), eaten: { good: 0, bad: 0 }, tastings: 0 };
     // Opt-in individual senses: each fly draws its own taste-sensor noise at birth (not inherited).
@@ -391,7 +433,7 @@ export class Microverse {
   mutate(prog, r) {
     const m = this.cfg.mutation;
     if (r() < m && prog.tasteMasks.length > 2) prog.tasteMasks.splice(1 + Math.floor(r() * (prog.tasteMasks.length - 1)), 1);
-    if (r() < m && prog.tasteMasks.length < prog.genes.tasteCap) { const c = Math.floor(r() * FULL); if (c && !prog.tasteMasks.includes(c)) prog.tasteMasks.push(c); }
+    if (r() < m && prog.tasteMasks.length < prog.genes.tasteCap) { const c = prog.quad ? quadMutMask(r) : Math.floor(r() * FULL); if (c && !prog.tasteMasks.includes(c)) prog.tasteMasks.push(c); }
     if (r() < m) { const opt = prog.moveMasks.filter(x => !innateMove(x)); if (opt.length) prog.moveMasks.splice(prog.moveMasks.indexOf(opt[Math.floor(r() * opt.length)]), 1); }
     if (r() < m && prog.moveMasks.length < prog.genes.moveCap) { const c = MOVE_CANDS[Math.floor(r() * MOVE_CANDS.length)]; if (!prog.moveMasks.includes(c)) prog.moveMasks.push(c); }
     for (const k of ['tasteStep', 'moveStep', 'tasteZ', 'moveZ', 'eps', 'birthEnergy', 'acceptAt']) if (r() < m) prog.genes[k] *= Math.exp((r() - .5) * .4);
@@ -460,6 +502,7 @@ export class Microverse {
         const dO = b.program.driftOracle; if (dO) { let ph = f.driftPhase; if (dO.sham) { f.fakePhase ??= b.rand() < .5 ? 1 : 0; if (b.rand() < sd.switch) f.fakePhase ^= 1; ph = f.fakePhase; }
           Object.assign(b.genes, ph ? dO.volatile : dO.calm); } }
       const dm = f.drift ?? null;
+      if (cfg.quad) { f.qc ??= newQuadCtx(this.seed, f.id); quadTick(f.qc, cfg.quad.switch); } // L3-IV-H0 private receptor state
       if (cfg.attention) { f.ac ??= newAttnCtx(this.seed, f.id); attnTick(f.ac, cfg.attention.switch);
         if (b.program.attnMode === 'evsham') { f.tw ??= newTwin(this, f); attnTick(f.tw.ctx, cfg.attention.switch); } } // L3-II private receptor state
       // L3-I screen 2 world (opt-in rewriteCost {cheap, dear, switch}): private rewrite price state on dedicated streams.
@@ -519,6 +562,7 @@ export class Microverse {
               b.genes.acceptAt = f.trackMul < (lo + hi) / 2 ? (b.program.trackLo ?? .2) : (b.program.trackHi ?? .75); } } } good ? f.eaten.good++ : f.eaten.bad++; f.tastings++;
           const lab = (good ? 1 : 0) ^ (this.r() < (f.noise ?? cfg.labelNoise) ? 1 : 0);
           if (this.tape) this.tape.push({ id: f.id, age: f.age, bits, y: lab }); // L3-II tape assay recorder (instrument only)
+          if (cfg.quad && b.program.attention) b.att = quadSample(f.qc, b, bits);
           if (cfg.attention && b.program.attention) { b.att = attnSample(f.ac, b, bits); if (b.program.attnMode === 'evsham') twinBite(this, f, b.att); }
           tasteLearn(b, bits, lab); b.att = null;
         }
