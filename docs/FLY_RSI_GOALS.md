@@ -391,3 +391,39 @@ With off-arm identity, `f = d` seed by seed. Preserve the per-seed outcomes that
 **Bank audit (done before commit).** An interval-overlap scan of every text artifact in the repo (16,375 .md/.json/.mjs/.js/.txt/.py/.csv/.ts files outside `.git`, `node_modules`, the Python venv and runtime autosaves) parsed every numeric range (`a–b`, `a-b`, `a..b`, `a to b`, including abbreviated upper ends) and every bare 6-digit value. No range overlaps or encloses 874001–874048, and no value falls inside it. The bank is reserved.
 
 **Astra's pre-registration prediction (not part of the registration):** about 10% to clear practice and one fresh final; most likely outcome a stage-B stop.
+
+## L3-IV-H0: four-bank routing headroom (registration text by GPT-6.2 Astra, committed verbatim before any four-bank measurement)
+
+*Origin: design proposed by Gemini 4 Neon (second advisor), cross-examined and rewritten by GPT-6.2 Astra. Astra's odds for the whole line (stage 0, practice, one fresh final): 15–25%, a planning estimate. Gemini's were 45–55%.*
+
+**Status and claim.** This is a practice-only feasibility screen, registered before any four-bank population or prediction measurement. Previous two-bank exploratory results on 101–104 are disclosed motivation, not stage-0 observations. H0 asks whether an explicit, privileged **routing policy** can beat a strong static allocation by more than half the ordinary L1 gain, with margin and consistency across seeds. It is not an L2 or L3 test, cannot qualify a final, and reserves no final bank.
+
+**World.** Use the ordinary 40×40, 20,000-tick ecology, 16 balanced odor kinds, redraw every 100 ticks and rule epoch every 3,000 ticks. Replace the odor with 16 ±1 bits in four labeled banks of four. In each epoch independently choose one of the six within-bank pairs per bank, four independent coefficient signs and an independent overall sign. Valence is `s × sign(.5 + Σ a[b] × walsh(pair[b], odor))`. Use the ordinary label noise, brain maintenance and feeding rules. The **only** world variants are toxin `.60` and `.85`. Disable parking, rewrite cost and brain-cost switching.
+
+The private reliable bank is uniform at birth. Each fly-tick, with probability `.004`, switch uniformly to one of the **other three** banks. On a tasting the structural copy preserves that bank and flips each of the other 12 bits independently with probability `.5`. The bodily cue names the correct bank with probability `.90`, otherwise a uniformly selected wrong bank. It is generated but **not used by any H0 decision arm**. L0 predicts, acts and learns from the ordinary odor and label. Label: constructed noisy structural sensor, privileged routing instrument, no energy subsidy for correct routing.
+
+**Brain and birth.** Ordinary founders start with bias plus all 16 singletons; taste cap 24. Keep movement L1 and the other ordinary SELF settings. Allocate 60 structural evidence entries, 15 nonzero within each bank. Mixed masks remain legal in L0 and birth mutation but cannot be admitted by L1. One bank per taste; update its 15 correlations and its `S` exactly as in L3-II, decay all four banks, preserve the total-tastings revision clock, and admit by strict `|ev|/sqrt(S[bank]) > tasteZ`, ties to smallest mask. Inherit masks and matching evidence/normalizers but not fitted weights, receptor state or BLIND utilities.
+
+Retain the ordinary mutation event rates. For a proposed taste-mask addition use the following prior, identical in all arms: probability `1/256` null proposal, `30/256` uniform over the 60 nonzero within-bank masks, and `225/256` uniform over all 16-bit masks touching at least two banks. Keep ordinary duplicate and cap checks. This preserves the two-bank prior mass on structurally accessible masks and, before duplicate checks, the chance of proposing a current target pair: `(30/256) × (4/60) = 2/256`. It does not give mutation the rule.
+
+**Arms.**
+
+- **NOREV:** no taste or movement structural revision. Ordinary L0, mutation, inheritance and ecology remain on.
+- **STATIC:** run every allocation `(n0,n1,n2,n3)/4` with nonnegative integer entries summing to four, plus the four uniform allocations on three-bank subsets: **39 distinct policies**. Sample independently per tasting. This includes every labeled singleton, every half-half pair, uniform four-way, and unequal allocations. Any later EVO-R must be able to evolve the same menu.
+- **ORACLE:** route every tasting to the fly’s current true reliable bank. Never read target identity, food valence or future state. All other learning, inheritance, costs and starting masks match STATIC.
+- **BLIND:** four-bank analogue of L3-II BLIND. Exploit the highest utility with probability `.8`, break ties uniformly, otherwise explore uniformly across all four banks. Use the same prior-evidence pair nomination, pre-increment sign and `.8/.2` utility update. No cue, latent state or second sample.
+- **TRUE_ORACLE:** diagnostic only. At birth replace taste masks with bias plus the four current true pairs; start with ordinary zero taste weights, ordinary L0 and movement L1, no taste structural revision, and no privileged refresh during life. Report its different starting feature count and maintenance cost. It never advances or eliminates a variant.
+
+**Execution and selection.** Run both toxin variants on **101–116 only**, one complete, predefined batch per variant. Primary endpoint: mean live population at ticks 10,100 through 20,000 inclusive, every 100 ticks, extinction zeros included. For each toxin value, `F` is the **single static allocation with highest mean population over the 16 seeds**; never choose a different static per seed. Exact tie: nearest uniform by squared Euclidean distance, then lexicographically smallest allocation vector in bank order 0–3. For each seed compute `g = F − NOREV`, `dO = (ORACLE − F) − .5g`, and `b = ORACLE − BLIND`.
+
+A toxin variant passes only if **all** hold on unrounded results:
+
+1. Mean `g ≥ 3.0`; NOREV goes extinct on at most **1/16** seeds.
+2. Mean `dO ≥ 4.0`; `dO > 0` on at least **13/16** seeds.
+3. Mean `b ≥ 4.0`; `b > 0` on at least **12/16** seeds.
+
+These are selection bars, not p-values. Report both batches in full. If `.60` passes, **choose `.60` even if `.85` looks better**. Otherwise choose `.85` only if it passes. If neither passes, stop. Report `α = mean(g)/mean(TRUE_ORACLE−NOREV)` when the denominator is positive; otherwise report it as undefined. **No α gate.** No third toxin, alternate bank count, static-menu change, rerun, or post-hoc exclusion. These two batches count against the five-attempt line budget; a later registration has at most three practice batches remaining.
+
+**Integrity and records.** Before measurement, preserve the default fingerprint `bdaca307…`; verify banks 2 and 3 affect valence, prediction, replay and admission, not only the chemistry generator. Test all four routing labels, exactly 15 fresh correlations per tasting, zero outside the routed bank beyond decay, and identical current-bite L0 updates under different routing. Verify that three unreliable banks get **12 independent corruption draws**, not four reused flips. Preserve dedicated RNG streams and the mutation prior above. The current simulator has global eight-bit assumptions in code generation, candidate extensions and mutation; do not implement this by merely changing `ODOR_BITS` and allocating 65,536 evidence entries per fly.
+
+Archive finite per-seed arm endpoints, actual extinctions, selected static, route counts, true-bank matches, correct-pair admissions versus all admissions, and whether correct pairs were already present at birth. Mark missing data invalid, not extinction. Target identity is available to the rule generator, TRUE_ORACLE and **read-only telemetry only**. No H0 result, however large, authorizes a final; it authorizes at most a separately committed test of the **noisy-cue fly**.
