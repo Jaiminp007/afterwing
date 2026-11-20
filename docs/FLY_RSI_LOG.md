@@ -240,3 +240,30 @@ These checks passed before any measurement (`scratch/l3iv-fixtures.mjs`). The fi
 Implementation:
 - **Evidence:** 64 slots (60 used), indexed by bank × 16 + local mask; no 65,536-entry array.
 - **Mutation prior:** 1/256 null, 30/256 within-bank, 225/256 masks spanning two or more banks.
+
+**H0 result (seeds 101–116; both pre-registered toxin batches; 0 extinctions in every arm): MISSED at both toxin levels. L3-IV stops; no noisy-cue fly is built.**
+
+| | toxin .60 | toxin .85 |
+|---|---|---|
+| NOREV | 42.40 | 31.26 |
+| Best static F (of 39) | 48.27 (S10 = [0, .5, .25, .25]) | 41.74 (S20 = uniform) |
+| ORACLE | 51.69 | 45.07 |
+| BLIND | 49.15 | 42.45 |
+| TRUE_ORACLE (diagnostic) | 63.19 | 55.02 |
+| mean g = F − NOREV (bar ≥ 3) | **+5.87 pass** | **+10.48 pass** |
+| mean dO = (ORACLE − F) − .5g (bar ≥ 4; > 0 on ≥ 13) | **+0.49, 8/16: miss** | **−1.91, 4/16: miss** |
+| mean b = ORACLE − BLIND (bar ≥ 4; > 0 on ≥ 12) | **+2.54 (13/16): miss** | **+2.62 (13/16): miss** |
+| α (reported only) | .28 | .44 |
+
+**Telemetry** (descriptive only; at .60, averaged per seed):
+- **ORACLE:** bank-match 1.000, 1,981 admissions, 637 correct-pair admissions.
+- **BLIND:** match .278, 975 admissions, 212 correct.
+- **F (S10):** match .250, 664 admissions, 102 correct.
+- **Masks at the end:** about 23 of the 24 cap in every arm.
+
+**Reading:**
+- Four banks did make perfect routing much better at *finding* the rule: about 6× as many correct-pair admissions as the best static allocation.
+- That bought only +3.4 flies, against the +2.9 needed merely to match half of L1's gain. The bar needed +7 or more.
+- TRUE_ORACLE shows a large gap (+15 over F at .60). So knowing the rule is valuable, but in this world it is not limited by where structural evidence is collected.
+- Every arm ends near its feature cap, so how the fly *uses and keeps* features may be the binding constraint. This is a hypothesis from telemetry, not a tested result.
+- Both batches count toward the line budget. Per the registration, there is no third toxin, no rerun and no alternate bank count.
