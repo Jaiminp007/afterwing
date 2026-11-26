@@ -13,12 +13,16 @@
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
 
+% Every headline effect, win count, CI and p-value below comes from numbers.tex,
+% which docs/paper/verify.mjs generates from evidence/microverse/*.json.
+\input{numbers}
+
 % Note on figures: the scripts under figures/ emit vector SVG files (fig1_ladder.svg,
 % fig2_g7c_l2_diffs.svg, fig3_l3_headroom.svg). Convert them to PDF (e.g., via Inkscape
 % or rsvg-convert) before compiling with pdflatex for arXiv submission.
 
 \title{Measuring bounded self-improvement in a closed breeding world:\\
-a pre-registered ladder from learning to in-life reviser tuning,\\
+a ladder of prospectively specified tests from learning to in-life reviser tuning,\\
 and why compounding failed}
 
 \author{Jaimin Patel\\
@@ -30,7 +34,7 @@ and why compounding failed}
 \maketitle
 
 \begin{abstract}
-Claims of self-improvement in artificial agents frequently blur offline tuning, benchmark selection, and genuine in-world adaptation. We evaluate a four-rung ladder of bounded self-improvement inside one deterministic, closed breeding world called Microverse: a $40\times 40$ toroidal grid where simulated flies forage, learn during life, reproduce asexually, and die over 20,000 ticks under hidden 8-bit Walsh-basis food rules that switch every 3,000 ticks and balanced 16-kind odor tables redrawn every 100 ticks. Before each confirmatory run, arm definitions, pass bars, and fresh seed banks were frozen in git commits (an internal version-controlled registration, not external third-party pre-registration), and each final bank was executed once (448 unique fresh seeds across 10 disjoint banks, with zero reruns to fish for significance). Three bounded rungs passed on fresh seeds: lifetime learning (L0; goals G1--G4 closed across two fresh finals, seeds 50001--50008 and 60001--60008); in-world structural self-revision of taste and movement programs (L1; G5 and G6 closed at 8/8; G7 failed twice and G7b missed at $p=0.0119$, after which a separately named test G7c with a redesigned movement reviser passed on seeds 94001--94096 at $+2.14$ late flies vs.\ taste-only, 95\% CI $[+1.48,+2.82]$, 66/96 wins, and $+9.40$ vs.\ move-only, $[+8.76,+10.07]$, 96/96 wins, both $p_{\mathrm{v2}}=5.0\times 10^{-6}$); and in-life reviser tuning (L2; in a constructed brain-cost-switching world, a hand-written switch using a noise-free felt brain-cost cue toggled between two preset reviser packages and beat evolution by $+3.64$ flies, $[+2.90,+4.37]$, 44/48 wins, $+8.8\%$; an independent-cue sham by $+2.87$, $[+1.95,+3.80]$, 39/48, $+6.8\%$; and fixed settings by $+3.16$, $[+2.41,+3.90]$, 43/48, $+7.6\%$, all $p_{\mathrm{v2}}=5.0\times 10^{-6}$ on seeds 95001--95048). External level-2 hill climbing over the pre-tuning taste reviser (P11b) also passed on fresh seeds 80001--80048 ($+5.73$ flies, 48/48), rediscovering forgetting and pruning to tie hand-tuned settings ($-0.54$, $p=0.89$). By contrast, bounded compounding (L3: making L1 self-revision pay at least $1.5\times$ more) was \textbf{not shown}. All eight registered L3 designs and headroom screens missed their pre-registered practice or oracle-headroom bars, so zero L3 finals were run and all five reserved L3 seed banks remain untouched. Oracle-headroom screens (L3-IV-H0) and post-hoc ablations identify three ecological barriers behind the failure: a concave carrying-capacity curve that compresses fitness returns from better discovery, a 9.4-fly penalty imposed by 16 unprunable founder singletons (maintenance energy plus overfitting to 16 redrawn odor kinds), and population-level mask search via inheritance that amortizes slower individual discovery.
+Claims of self-improvement in artificial agents often blur offline tuning, benchmark selection and in-world adaptation. We test a four-rung ladder of bounded self-improvement inside one deterministic, closed breeding world, Microverse, where simulated flies forage, learn, reproduce and die under hidden food rules that change every 3,000 ticks. Each confirmatory test was specified in a git commit before it ran and was run once on fresh seeds. Three rungs passed. Lifetime learning beats a frozen brain (L0). Flies that revise which taste and movement features they learn from beat fixed flies and a random-revision sham; revising both systems beats taste-only revision by \GsevenCTasteMean{} late flies (95\% CI \GsevenCTasteCI, \GsevenCTasteWins{} worlds) after two earlier versions of that test failed (L1). In a world built so that the best reviser setting changes during life, a hand-written rule that reads a perfect, noise-free signal of the current brain-energy price and switches between two preset reviser packages beats evolution of the same packages by \LtwoEvorMean{} flies (CI \LtwoEvorCI, \LtwoEvorWins), a sham driven by an independent cue by \LtwoShamMean{} (CI \LtwoShamCI), and fixed settings by \LtwoFixedMean{} (L2), on a baseline of about 41 flies. A hand-written search over the reviser's own settings, started from the reviser as it was before hand-tuning, rediscovered forgetting and pruning (\PelevenBMean{} flies, \PelevenBWins). Compounding (L3: making self-revision pay at least $1.5\times$ more) was \textbf{not shown}: all eight designs and headroom screens missed their bars, so no L3 final was run. Oracle screens point to three ecological limits. We also report a reproduction and audit of the results: P11b reproduces exactly at its recorded commit (the other reruns are in progress; \S\ref{sec:verification}), the runners' Monte Carlo p-value code is defective (no verdict in this paper depends on it), and an adversarial audit narrows how the L2 result may be described.
 \end{abstract}
 
 \section{Introduction}
@@ -41,17 +45,18 @@ Testing whether artificial agents can improve their own learning processes is ha
 This paper studies a concrete, falsifiable version of the problem inside one closed breeding world, Microverse. Every experiment takes place in the same 20,000-tick deterministic simulator, where individual flies carry heritable feature masks and learning genes, acquire weights during life without inheriting those weights, and compete for limited, relocating food patches. Rather than testing a single broad claim of ``recursive self-improvement,'' we decompose the progression into four explicitly bounded rungs:
 \begin{itemize}
   \item \textbf{L0 (Lifetime learning):} acquiring weights during life improves ecological fitness over an identical frozen brain (goal G4, supported by livability and sensory checks G1--G3).
-  \item \textbf{L1 (Program self-revision):} flies modify the structural feature masks of their own taste and movement learners during life from their own prediction-error evidence, outperforming fixed masks, random-revision shams, and mutation-only evolution (G5, G6, and G7c).
-  \item \textbf{L2 (In-life reviser tuning):} flies retune the hyperparameters of their own L1 reviser during life from a felt bodily signal, beating evolution of the same settings, an independent-cue sham, and fixed settings (Fly-RSI L2), alongside an offline external-search benchmark over the same reviser (P11b).
+  \item \textbf{L1 (Program self-revision):} flies modify the structural feature masks of their own taste and movement learners during life from their own prediction-error evidence, outperforming fixed masks and random-revision shams on fresh seeds (G5, G6, and G7c); they also beat mutation-only evolution in a practice-seed check.
+  \item \textbf{L2 (In-life reviser tuning):} flies retune the settings of their own L1 reviser during life through a hand-written rule that reads the current brain-energy price, beating evolution of the same settings, an independent-cue sham, and fixed settings (Fly-RSI L2), alongside an external search over the same reviser (P11b).
   \item \textbf{L3 (Bounded compounding):} L2 control makes L1 self-revision pay at least $1.5\times$ more than L1 without L2, after removing any direct non-L1 benefit of the controller.
 \end{itemize}
 
-A central lesson of this project is that measuring failure rigorously is as informative as recording passes. We preserve every failed run, every abandoned world variant, and every methodological correction made during development, including a Monte Carlo scorer bug and an inheritance-loss confound caught by adversarial review. Our main contributions are fourfold:
+A central lesson of this project is that measuring failure rigorously is as informative as recording passes. We preserve every failed run, every abandoned world variant, and every methodological correction made during development, including a Monte Carlo scorer bug and an inheritance-loss confound caught by adversarial review. Our main contributions are fivefold:
 \begin{enumerate}
   \item \textbf{A closed-ecology benchmark ladder (Section~\ref{sec:world}).} We specify Microverse, a lightweight deterministic breeding ecosystem with non-stationary Walsh-basis food chemistry, dual taste and movement learners, and opt-in switching worlds that leave the default simulator fingerprint untouched.
   \item \textbf{A transparent internal registration and audit protocol (Section~\ref{sec:protocol}).} Every confirmatory test, arm definition, and fresh seed bank was committed to git before execution; final banks were run once; and every practice attempt, amendment, and spent or reserved seed bank is archived in a complete forking-paths ledger (\texttt{docs/paper/attempts.md}).
   \item \textbf{Bounded fresh-seed demonstrations through L2 (Section~\ref{sec:results}).} We establish L0, L1 (including both taste and movement self-revision in G7c after reporting prior failures in G7 and G7b), external L2 rediscovery of forgetting and pruning (P11b), and in-life L2 reviser switching (Fly-RSI L2, $+6.8\%$ to $+8.8\%$ late population over controls), carrying explicit scope qualifiers (hand-written operators, constructed switching world, noise-free cue, two preset packages).
-  \item \textbf{A systematic negative result and mechanistic diagnosis for L3 compounding (Section~\ref{sec:l3}).} Across eight pre-registered designs and headroom screens covering energy-cost switching, dormant feature parking, rewrite-price gating, two-bank attention routing, evidence-routed attention, and four-bank oracle headroom, no lever cleared its advance bar. Using oracle bounds and post-hoc ablations, we explain why the ecology resists $1.5\times$ compounding even when an oracle increases correct feature discovery sixfold.
+  \item \textbf{A systematic negative result and mechanistic diagnosis for L3 compounding (Section~\ref{sec:l3}).} Across eight prespecified designs and headroom screens covering energy-cost switching, dormant feature parking, rewrite-price gating, two-bank attention routing, evidence-routed attention, and four-bank oracle headroom, no lever cleared its advance bar. Using oracle bounds and post-hoc ablations, we explain why the ecology resists $1.5\times$ compounding even when an oracle increases correct feature discovery sixfold.
+  \item \textbf{A reproduction and adversarial audit (Section~\ref{sec:verification}).} Finals are rerun deterministically at their recorded commits, every p-value is recomputed with an exact test, and an independent model audits the controls. The audit changes how the L2 cue must be described and finds a defect in the runners' Monte Carlo test.
 \end{enumerate}
 
 \section{The Microverse World}
@@ -118,7 +123,7 @@ For L1 taste self-revision (\texttt{tasteRevise = 'evid'}), the fly maintains de
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/fig1_ladder}
-\caption{Overview of the Microverse pre-registered self-improvement ladder (L0 to L3) and auxiliary rungs (P11b external search and the P13b decision-threshold line). Solid green boxes denote rungs that passed on fresh seeds under git-frozen protocols; the dashed red box denotes L3 compounding, which missed across all eight screens and was never promoted to a final run. Generated from committed evidence JSON by \texttt{docs/paper/figures/fig1\_ladder.mjs}.}
+\caption{Overview of the Microverse prespecified self-improvement ladder (L0 to L3) and auxiliary rungs (P11b external search and the P13b decision-threshold line). Solid green boxes denote rungs that passed on fresh seeds under git-frozen protocols; the dashed red box denotes L3 compounding, which missed across all eight screens and was never promoted to a final run. Generated from committed evidence JSON by \texttt{docs/paper/figures/fig1\_ladder.mjs}.}
 \label{fig:ladder}
 \end{figure}
 
@@ -144,10 +149,10 @@ The workflow enforced three rules: (1) an escape hatch requiring a redesign or a
 \toprule
 \textbf{Bank} & \textbf{Experiment} & \textbf{Status} & \textbf{Raw JSON committed} & \textbf{Seeds} \\
 \midrule
-50001--50008 & G1--G7 Final Run 1 (\texttt{73ffefe}) & G1--G6 closed; G7 failed & No (logged) & 8 \\
-60001--60008 & G1--G7 Final Run 2 (\texttt{da995b0}) & G1--G6 closed; G7 failed & No (logged) & 8 \\
-70001--70048 & G7b paired solo (\texttt{da995b0}) & Failed ($p=0.0119$) & No (logged) & 48 \\
-80001--80048 & P11b external L2 search (\texttt{07b54e7}) & Passed ($+5.73$) & No (logged) & 48 \\
+50001--50008 & G1--G7 Final Run 1 (\texttt{73ffefe}) & G1--G6 closed; G7 failed & Yes (added for paper) & 8 \\
+60001--60008 & G1--G7 Final Run 2 (\texttt{da995b0}) & G1--G6 closed; G7 failed & Yes (added for paper) & 8 \\
+70001--70048 & G7b paired solo (\texttt{da995b0}) & Failed ($p=0.0119$) & Yes (exact rerun) & 48 \\
+80001--80048 & P11b external L2 search (\texttt{07b54e7}) & Passed ($+5.73$) & Yes (exact rerun) & 48 \\
 90001--90048 & P13b parts 1--4 (\texttt{6521edb}) & 1 passed; 2, 3, 4 failed & Yes & 48 \\
 91001--91048 & P13b-2b trials vs.\ mutation (\texttt{228d500}) & Passed ($+1.24$) & Yes & 48 \\
 92001--92048 & P13b-3a/3b shadow trials (\texttt{e75f8d2}) & Both failed & Yes & 48 \\
@@ -176,9 +181,9 @@ Key experimental arms and controls are standardized across runners (\texttt{micr
 
 \subsection{Statistical Tests, Scorer Audit, and Bootstrap CIs}
 
-Every continuous paired-solo gate used a one-sided paired sign-flip permutation test at $\alpha = 0.01$ on seed-paired differences (exact enumeration over $2^n$ sign assignments for $n \le 16$, Monte Carlo with 200,000 draws for $n > 16$). During external review of L3c, GPT-6.2 Astra identified two implementation flaws in the earlier runners (\texttt{solo.mjs} and \texttt{p13parts.mjs}): (i) the Monte Carlo LCG computed \texttt{r * 1103515245} in IEEE-754 floating point, overflowing 53-bit integer exactness, and (ii) zero exceedances were reported as $p = 0$ rather than $(e+1)/(M+1)$ \citep{phipson2010permutation}. Starting with L3-I, \texttt{microverse/l3i.mjs} introduced Scorer v2 using integer-exact \texttt{Math.imul}, $p = (e+1)/(M+1)$ (floor $5.0\times 10^{-6}$ for $M=200{,}000$; validated to max absolute error $0.0027$ against exact enumeration on 20 random 16-seed vectors), and an exact one-sided binomial sign test counting zeros as non-wins.
+Every continuous paired-solo gate used a one-sided paired sign-flip permutation test at $\alpha = 0.01$ on seed-paired differences. The runners enumerate all $2^n$ sign assignments for $n \le 16$ and use 200,000 Monte Carlo draws for $n > 16$. Both versions of the Monte Carlo code are defective (Section~\ref{sec:verification}). The original runners (\texttt{solo.mjs}, \texttt{p13parts.mjs}) multiply the LCG state in floating point, which loses low bits and collapses the generator into a short cycle: 200,000 draws contain only about 570 distinct sign vectors at $n=48$. The corrected ``Scorer v2'' used from L3-I onward (\texttt{microverse/l3i.mjs}) is integer-exact but takes its sign from bit 16 of a power-of-two LCG, which has period $2^{17}$: at $n=48$ it yields only 8,192 distinct sign vectors, and 4,096 at $n=96$.
 
-In keeping with the repository policy, historical pass/fail verdicts were not altered retroactively. For this paper, \texttt{docs/paper/figures/compute\_stats.mjs} reads every committed JSON artifact under \texttt{evidence/microverse/}, recomputes Scorer v2 $p$-values ($p_{\mathrm{v2}}$), and computes deterministic 20,000-resample percentile bootstrap 95\% confidence intervals over seeds \citep{efron1993bootstrap}. Note that \texttt{solo.mjs} stored per-seed G7c \texttt{diffs} rounded to one decimal place while computing its reported mean and $p$ on unrounded values; all \texttt{p13parts.mjs} and \texttt{l3*.mjs} JSON files store exact per-seed populations.
+\textbf{No p-value in this paper comes from runner output.} \texttt{docs/paper/verify.mjs} recomputes every p-value with an exact sign-flip test (the null distribution of the signed sum is built by dynamic programming over all $2^n$ assignments, on a $0.01$-flies grid) and computes 20,000-resample percentile bootstrap 95\% confidence intervals over seeds \citep{efron1993bootstrap}. Its exact values agree with an independent exact implementation by the auditor to three significant figures. Historical pass/fail verdicts are reported as recorded; Section~\ref{sec:verification} lists every gate whose verdict was rechecked. \texttt{solo.mjs} stored per-seed G7c differences rounded to $0.1$ flies, so G7c statistics carry that rounding; all other files used here store unrounded per-seed values.
 
 \section{Results by Rung}
 \label{sec:results}
@@ -190,12 +195,12 @@ In the baseline simulator (\texttt{d459944}), every world went extinct by ticks 
 Goals G1--G6 passed two separate fresh-seed final runs (Table~\ref{tab:g1-g6}): Final Run 1 on seeds 50001--50008 (commit \texttt{73ffefe}) and Final Run 2 on seeds 60001--60008 (commit \texttt{da995b0}, re-testing the entire suite after the G7 world change to 50-tick patch relocation and \texttt{brainCost} $=0.0005$). Validity checks at \texttt{da995b0} on practice seeds confirmed:
 \begin{itemize}
   \item \textbf{No order bias:} swapping strain order gave 0/8 wins (share 0) for the weaker arm in G2, G4, and both G5 contests; an identical-strain null control (\texttt{FIXED} vs.\ \texttt{FIXED}) gave 9/24 wins (share $0.38$, 0 extinctions).
-  \item \textbf{Own evidence beats mutation alone:} \texttt{SELF} beat \texttt{EVO} 8/8 in competition.
+  \item \textbf{Own evidence beats mutation alone (practice only):} \texttt{SELF} beat \texttt{EVO} 8/8 in competition on practice seeds. This was a validity check, not a fresh-seed gate.
   \item \textbf{Non-trivial baselines:} \texttt{FROZEN} ate at the same rate as \texttt{FIXED} (42 tastings per 100 ticks), with good-bite share $0.53$ vs.\ $0.67$ for \texttt{FIXED}.
   \item \textbf{Rediscovery rather than hoarding:} in G6, current-rule target masks were held at rate $0.61$--$1.00$ after each epoch, while higher-order target masks from prior rules fell to $\le 0.18$.
   \item \textbf{G3 caveat:} instinct-only flies (no movement learning) also beat \texttt{RANDMOVE} 8/8, so G3 establishes that movement matters primarily via innate instinct, with a smaller contribution from movement learning (6/8 vs.\ instinct-only in one practice check).
 \end{itemize}
-Raw per-seed JSON files were not committed for G1--G6 Final Runs 1 and 2; results trace to \texttt{docs/MICROVERSE\_LOG.md}. After the later G7c movement-reviser change (\texttt{dd0ea19}), G1--G7 were re-checked on practice seeds 101--108 (\texttt{suite-dev-1795046397911.json}, all 8/8 pass, G6 gain $0.422$, late skill $0.782$), not on a third fresh final.
+The raw outputs of both finals existed only locally and are now committed (\texttt{evidence/microverse/suite-final-*.json}). After the later G7c movement-reviser change (\texttt{dd0ea19}), G1--G7 were re-checked on practice seeds 101--108 (\texttt{suite-dev-1795046397911.json}, all 8/8 pass, G6 gain $0.422$, late skill $0.782$), not on a third fresh final.
 
 \begin{table}[t]
 \centering
@@ -210,7 +215,7 @@ G1 & \texttt{FIXED} alone (livability) & Pass ($\ge 7/8$ ok) & Pass (8/8 ok) & C
 G2 & \texttt{ORACLE} vs.\ \texttt{FIXED} & 8/8 wins & 8/8 wins & Closed \\
 G3 & \texttt{FIXED} vs.\ \texttt{RANDMOVE} & 8/8 wins & 8/8 wins & Closed (instinct caveat) \\
 G4 (L0) & \texttt{FIXED} vs.\ \texttt{FROZEN} & 8/8 wins & 8/8 wins & Closed \\
-G5 (L1) & \texttt{SELF} vs.\ \texttt{FIXED} \& \texttt{SHAM} & 8/8 \& 8/8 wins & 8/8 \& 8/8 wins & Closed (also 8/8 vs.\ \texttt{EVO}) \\
+G5 (L1) & \texttt{SELF} vs.\ \texttt{FIXED} \& \texttt{SHAM} & 8/8 \& 8/8 wins & 8/8 \& 8/8 wins & Closed (8/8 vs.\ \texttt{EVO} on practice only) \\
 G6 (L1) & \texttt{SELF} alone (adaptation) & Gain $0.394$, late $0.775$ & Gain $0.362$, late $0.711$ & Closed (rediscovery) \\
 \bottomrule
 \end{tabular}
@@ -224,8 +229,8 @@ To replace the high-variance binary competition endpoint, a separately named one
 
 A new separately named test \textbf{G7c} (frozen in \texttt{9563c68}) permitted redesigning the movement reviser on 48 practice seeds (101--116 and 301--332, $\le 5$ attempts) without changing the default world, and increased final power to 96 fresh seeds (94001--94096) under the unchanged G7b bar. Practice diagnostics showed that \texttt{SELF} added the ``toward best food'' sense at weight $0$, which then learned too slowly ($\texttt{moveStep}=0.05$) within a 1,200-tick lifespan to alter behavior. Initializing an added movement sense with an evidence-signed weight ($\texttt{moveAddInit}=2$; random sign in \texttt{SHAM}) raised the 48-seed practice margin from $+0.86$ to $+2.47$ flies (42/48). On the one-shot 96-seed final (Table~\ref{tab:headline}, Figure~\ref{fig:diffs}A--B), G7c \textbf{passed} both contrasts:
 \begin{itemize}
-  \item $\texttt{SELF} - \texttt{TASTEONLY}$: $+2.14$ flies ($57.19$ vs.\ $55.06$, $+3.9\%$), 95\% CI $[+1.48, +2.82]$, 66/96 wins (3 ties, 27 losses), $p_{\mathrm{v2}} = 5.0\times 10^{-6}$.
-  \item $\texttt{SELF} - \texttt{MOVEONLY}$: $+9.40$ flies ($57.19$ vs.\ $47.80$, $+19.7\%$), 95\% CI $[+8.76, +10.07]$, 96/96 wins, $p_{\mathrm{v2}} = 5.0\times 10^{-6}$.
+  \item $\texttt{SELF} - \texttt{TASTEONLY}$: \GsevenCTasteMean{} flies ($57.19$ vs.\ $55.06$, $+3.9\%$), 95\% CI \GsevenCTasteCI, \GsevenCTasteWins{} wins (3 ties, 27 losses), exact $p = \GsevenCTasteP$.
+  \item $\texttt{SELF} - \texttt{MOVEONLY}$: \GsevenCMoveMean{} flies ($57.19$ vs.\ $47.80$, $+19.7\%$), 95\% CI \GsevenCMoveCI, \GsevenCMoveWins{} wins, exact $p = \GsevenCMoveP$.
 \end{itemize}
 The pre-specified pooled G7b + G7c estimate is $(48\times 0.88 + 96\times 2.14)/144 = +1.72$ flies, though this pools two distinct versions of the movement reviser.
 
@@ -233,40 +238,42 @@ The pre-specified pooled G7b + G7c estimate is $(48\times 0.88 + 96\times 2.14)/
 
 P11b (\texttt{docs/MICROVERSE\_L2\_GOALS.md}) re-asked the failed compact-fly P11 question inside Microverse: can a fixed, hand-written external climber improve the L1 taste reviser (\texttt{tasteMemory}, \texttt{tastePrune}, \texttt{tasteZ}, \texttt{tasteEvery}, \texttt{tasteCap}) when scored directly in the embodied world? Starting from the default hand-tuned reviser $R_0 = (3, 8, 16, 200, 2)$, headroom check H1 failed its $1.5$-fly bar (best single-knob change: $\texttt{tasteZ}=1.5$ at $+1.05$ flies), and H2 failed ($<1$ fly oracle gain across rule families) because the designer had already added forgetting and pruning by hand during G6.
 
-Under Amendment A1 (frozen in \texttt{e36cdca} before running the climber), the start point was reset to the pre-tuning reviser $R_{\mathrm{P12}}$ (no forgetting: $\texttt{tasteMemory}=10^{12}$; no pruning: $\texttt{tastePrune}=0$), where headroom H1$'$ gave $R_0 - R_{\mathrm{P12}} = +6.4$ flies (16/16, $p = 0.00002$). On training seeds 101--116 (\texttt{microverse/l2search.mjs}, climber seed 4242, 24 one-step proposals, accept if $\ge +0.5$), the climber accepted three steps (\texttt{tastePrune} $0 \to 0.5$ at $+2.15$; \texttt{tasteEvery} $8 \to 4$ at $+0.85$; \texttt{tasteMemory} $10^{12} \to 800$ at $+3.13$) and rejected 21 later proposals, reaching $R^* = (\text{memory } 800,\; \text{prune } 0.5,\; z=3,\; \text{every } 4,\; \text{cap } 16)$ at training population $55.91$ (vs.\ $R_{\mathrm{P12}} \approx 49.8$ and $R_0 = 56.17$). On 48 fresh seeds (80001--80048, commit \texttt{07b54e7}), P11b \textbf{passed}: $R^* - R_{\mathrm{P12}} = +5.73$ flies ($55.54$ vs.\ $49.81$, $+11.5\%$), 48/48 wins, $p < 0.00001$ (logged; raw JSON not committed, so no bootstrap CI is available). On the reported non-gated contrast, $R^*$ tied the designer's hand-tuned $R_0$: $-0.54$ flies ($55.54$ vs.\ $56.08$, 21/48 wins, $p = 0.89$). Original P11 stays failed; P11b's start point was chosen after H1/H2 failed, and the discrete search grid contained the forgetting and pruning knobs by design.
+Under Amendment A1 (frozen in \texttt{e36cdca} before running the climber), the start point was reset to the pre-tuning reviser $R_{\mathrm{P12}}$ (no forgetting: $\texttt{tasteMemory}=10^{12}$; no pruning: $\texttt{tastePrune}=0$), where headroom H1$'$ gave $R_0 - R_{\mathrm{P12}} = +6.4$ flies (16/16, $p = 0.00002$). On training seeds 101--116 (\texttt{microverse/l2search.mjs}, climber seed 4242, 24 one-step proposals, accept if $\ge +0.5$), the climber accepted three steps (\texttt{tastePrune} $0 \to 0.5$ at $+2.15$; \texttt{tasteEvery} $8 \to 4$ at $+0.85$; \texttt{tasteMemory} $10^{12} \to 800$ at $+3.13$) and rejected 21 later proposals, reaching $R^* = (\text{memory } 800,\; \text{prune } 0.5,\; z=3,\; \text{every } 4,\; \text{cap } 16)$ at training population $55.91$ (vs.\ $R_{\mathrm{P12}} \approx 49.8$ and $R_0 = 56.17$). On 48 fresh seeds (80001--80048, commit \texttt{07b54e7}), P11b \textbf{passed}: $R^* - R_{\mathrm{P12}} = \PelevenBMean$ flies ($55.54$ vs.\ $49.81$, $+11.5\%$), 95\% CI \PelevenBCI, \PelevenBWins{} wins, exact $p = \PelevenBP$. The original run kept only summary numbers; rerunning it at \texttt{07b54e7} reproduced every logged mean exactly and supplied the per-seed rows. On the reported, non-gated contrast against the designer's hand-tuned $R_0$, $R^*$ was \PelevenBvsRzeroMean{} flies ($55.54$ vs.\ $56.08$, \PelevenBvsRzeroWins{} wins, 95\% CI \PelevenBvsRzeroCI). That is not significantly different from $R_0$, but no equivalence test was specified, so we do not claim the two are equal. With current code the same comparison favors $R_0$ by $1.52$ flies, because G7c later changed the default fly (Section~\ref{sec:verification}). Original P11 stays failed; P11b's start point was chosen after H1/H2 failed, and the discrete search grid contained the forgetting and pruning knobs by design.
 
 \subsection{In-Life Reviser Tuning: Fly-RSI L2}
 
 To test whether flies themselves can retune their L1 reviser genes during life, \texttt{docs/FLY\_RSI\_GOALS.md} (frozen in \texttt{5272589}) evaluated five candidate non-stationary worlds on practice seeds 101--116. Two sensory-drift worlds failed headroom (sign flips $+0.77$; channel permutation $-0.54$). Three \texttt{brainSwitch} worlds varied per-feature brain energy cost during each fly's life without inheritance; multiplying cost by $\times 1$ vs.\ $\times 12$ with per-tick flip probability $0.001$ (mean dwell 1,000 ticks) gave oracle headroom $+3.05$ flies (15/16) and fake-state oracle $-0.83$, and was selected and frozen.
 
-In this world, \texttt{META} (\texttt{metaB = 'brainTrack'}) executes a hand-written rule every tick: when the fly's noise-free felt brain-cost multiplier is high, it sets its taste and movement reviser genes to a preset lean package (\texttt{tasteCap} 9, \texttt{tastePrune} 8, \texttt{tasteZ} 100, \texttt{moveCap} 6, \texttt{movePrune} 8, \texttt{moveZ} 100); when low, it restores the default full package. Both packages came from the headroom oracle. Controls are \texttt{EVO-R} (package flips at birth with probability $0.1$, no in-life rule), \texttt{SHAM} (identical rule driven by an independent fake cost chain), and \texttt{FIXED} (always full package). Practice Attempt 1 cleared all L2 margins on 48 seeds ($+3.12$ vs.\ \texttt{EVO-R}, $+3.55$ vs.\ \texttt{SHAM}, $+3.64$ vs.\ \texttt{FIXED}, all $\ge 41/48$).
+In this world, \texttt{META} (\texttt{metaB = 'brainTrack'}) executes a hand-written rule every tick. It reads the simulator's current brain-cost multiplier for that fly (\texttt{f.brainMul}) directly, before any energy is spent; the signal is a perfect price sensor, not an estimate the fly forms from its own energy drain. When the multiplier is high, the rule sets its taste and movement reviser genes to a preset lean package (\texttt{tasteCap} 9, \texttt{tastePrune} 8, \texttt{tasteZ} 100, \texttt{moveCap} 6, \texttt{movePrune} 8, \texttt{moveZ} 100); when low, it restores the default full package. Both packages came from the headroom oracle. Controls are \texttt{EVO-R} (package flips at birth with probability $0.1$, no in-life rule), \texttt{SHAM} (identical rule driven by an independent fake cost chain), and \texttt{FIXED} (always full package). Practice Attempt 1 cleared all L2 margins on 48 seeds ($+3.12$ vs.\ \texttt{EVO-R}, $+3.55$ vs.\ \texttt{SHAM}, $+3.64$ vs.\ \texttt{FIXED}, all $\ge 41/48$).
 
 On the one-shot 48-seed fresh final (95001--95048, commit \texttt{1ef4381}; Table~\ref{tab:headline} and Figure~\ref{fig:diffs}C--E), Fly-RSI L2 \textbf{passed} every gate. Mean late populations were \texttt{META} $44.83$, \texttt{SHAM} $41.96$, \texttt{EVO-R} $41.19$, and \texttt{FIXED} $41.67$, yielding relative improvements of roughly $7\%$--$9\%$:
 \begin{itemize}
-  \item $\texttt{META} - \texttt{EVO-R}$: $+3.64$ flies ($+8.8\%$), 95\% CI $[+2.90, +4.37]$, 44/48 wins, $p_{\mathrm{v2}} = 5.0\times 10^{-6}$ (bar $\ge 1.0$).
-  \item $\texttt{META} - \texttt{SHAM}$: $+2.87$ flies ($+6.8\%$), 95\% CI $[+1.95, +3.80]$, 39/48 wins, $p_{\mathrm{v2}} = 5.0\times 10^{-6}$ (bar $\ge 1.0$).
-  \item $\texttt{META} - \texttt{FIXED}$: $+3.16$ flies ($+7.6\%$), 95\% CI $[+2.41, +3.90]$, 43/48 wins, $p_{\mathrm{v2}} = 5.0\times 10^{-6}$ (bar $> 0$).
+  \item $\texttt{META} - \texttt{EVO-R}$: \LtwoEvorMean{} flies ($+8.8\%$), 95\% CI \LtwoEvorCI, \LtwoEvorWins{} wins, exact $p = \LtwoEvorP$ (bar $\ge 1.0$).
+  \item $\texttt{META} - \texttt{SHAM}$: \LtwoShamMean{} flies ($+6.8\%$), 95\% CI \LtwoShamCI, \LtwoShamWins{} wins, exact $p = \LtwoShamP$ (bar $\ge 1.0$).
+  \item $\texttt{META} - \texttt{FIXED}$: \LtwoFixedMean{} flies ($+7.6\%$), 95\% CI \LtwoFixedCI, \LtwoFixedWins{} wins, exact $p = \LtwoFixedP$ (bar $> 0$).
 \end{itemize}
 Because L3 failed practice in the same run, \texttt{NOREV} was omitted from the L2 final so no fresh-seed L3 number was generated.
 
+Four properties of this result, found by the audit (Section~\ref{sec:verification}), limit what it shows. (i) The cue is the simulator's price state itself, as above. (ii) The package choice acts through two paths: in-life revision, and birth mutation, because a child copies its parent's current caps and mutation consults them before adding a mask; the experiment does not separate the two. (iii) \texttt{SHAM}'s fake state draws from the fly's own random stream, which also drives movement and taste replay, so \texttt{META} and \texttt{SHAM} flies diverge even when the cue can have no effect; the size of this effect is measured on practice seeds in Section~\ref{sec:verification}. (iv) Birth mutation perturbs the \texttt{tasteZ} and \texttt{moveZ} thresholds; \texttt{META} and \texttt{SHAM} reset them every tick, while \texttt{FIXED} never does and \texttt{EVO-R} does so only when its package flips. The comparator is therefore this particular two-package evolutionary policy, not optimized evolution of six free genes.
+
 \begin{table}[t]
 \centering
-\caption{Headline fresh-seed results for continuous paired-solo rungs (G7c, P11b, Fly-RSI L2). Bootstrap 95\% CIs (20,000 resamples) and Scorer v2 $p$-values ($p_{\mathrm{v2}}$) are computed from committed JSON by \texttt{docs/paper/figures/compute\_stats.mjs}. P11b has no committed raw JSON (logged values shown).}
+\caption{Headline fresh-seed results for continuous paired-solo rungs (G7c, P11b, Fly-RSI L2). Effects, wins, bootstrap 95\% CIs (20,000 resamples) and exact one-sided sign-flip $p$-values are generated from committed per-seed data by \texttt{docs/paper/verify.mjs}.}
 \label{tab:headline}
 \small
 \begin{tabular}{@{}lllrrrrl@{}}
 \toprule
-\textbf{Rung / Test} & \textbf{Contrast} & \textbf{Seeds ($n$)} & \textbf{Effect ($\Delta$)} & \textbf{Rel.\ (\%)} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{$p_{\mathrm{v2}}$ (reported)} \\
+\textbf{Rung / Test} & \textbf{Contrast} & \textbf{Seeds ($n$)} & \textbf{Effect ($\Delta$)} & \textbf{Rel.\ (\%)} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Exact $p$} \\
 \midrule
-L1 (G7c) & \texttt{SELF} $-$ \texttt{TASTEONLY} & 94001--94096 (96) & $+2.14$ & $+3.9$ & $[+1.48,+2.82]$ & 66/96 & $5.0\times 10^{-6}$ ($<10^{-5}$) \\
-L1 (G7c) & \texttt{SELF} $-$ \texttt{MOVEONLY} & 94001--94096 (96) & $+9.40$ & $+19.7$ & $[+8.76,+10.07]$ & 96/96 & $5.0\times 10^{-6}$ ($<10^{-5}$) \\
+L1 (G7c) & \texttt{SELF} $-$ \texttt{TASTEONLY} & 94001--94096 (96) & \GsevenCTasteMean & $+3.9$ & \GsevenCTasteCI & \GsevenCTasteWins & $\GsevenCTasteP$ \\
+L1 (G7c) & \texttt{SELF} $-$ \texttt{MOVEONLY} & 94001--94096 (96) & \GsevenCMoveMean & $+19.7$ & \GsevenCMoveCI & \GsevenCMoveWins & $\GsevenCMoveP$ \\
 \midrule
-Ext.\ L2 (P11b) & $R^* - R_{\mathrm{P12}}$ (gate) & 80001--80048 (48) & $+5.73$ & $+11.5$ & N/A (no JSON) & 48/48 & N/A ($<10^{-5}$) \\
-Ext.\ L2 (P11b) & $R^* - R_0$ (reported) & 80001--80048 (48) & $-0.54$ & $-1.0$ & N/A (no JSON) & 21/48 & N/A ($0.89$, n.s.) \\
+Ext.\ L2 (P11b) & $R^* - R_{\mathrm{P12}}$ (gate) & 80001--80048 (48) & \PelevenBMean & $+11.5$ & \PelevenBCI & \PelevenBWins & $\PelevenBP$ \\
+Ext.\ L2 (P11b) & $R^* - R_0$ (reported) & 80001--80048 (48) & \PelevenBvsRzeroMean & $-1.0$ & \PelevenBvsRzeroCI & \PelevenBvsRzeroWins & $\PelevenBvsRzeroP$ \\
 \midrule
-L2 (Fly-RSI) & \texttt{META} $-$ \texttt{EVO-R} & 95001--95048 (48) & $+3.64$ & $+8.8$ & $[+2.90,+4.37]$ & 44/48 & $5.0\times 10^{-6}$ ($<10^{-5}$) \\
-L2 (Fly-RSI) & \texttt{META} $-$ \texttt{SHAM} & 95001--95048 (48) & $+2.87$ & $+6.8$ & $[+1.95,+3.80]$ & 39/48 & $5.0\times 10^{-6}$ ($<10^{-5}$) \\
-L2 (Fly-RSI) & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & $+3.16$ & $+7.6$ & $[+2.41,+3.90]$ & 43/48 & $5.0\times 10^{-6}$ ($<10^{-5}$) \\
+L2 (Fly-RSI) & \texttt{META} $-$ \texttt{EVO-R} & 95001--95048 (48) & \LtwoEvorMean & $+8.8$ & \LtwoEvorCI & \LtwoEvorWins & $\LtwoEvorP$ \\
+L2 (Fly-RSI) & \texttt{META} $-$ \texttt{SHAM} & 95001--95048 (48) & \LtwoShamMean & $+6.8$ & \LtwoShamCI & \LtwoShamWins & $\LtwoShamP$ \\
+L2 (Fly-RSI) & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & \LtwoFixedMean & $+7.6$ & \LtwoFixedCI & \LtwoFixedWins & $\LtwoFixedP$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -274,7 +281,7 @@ L2 (Fly-RSI) & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & $+3.16$ & 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/fig2_g7c_l2_diffs}
-\caption{Per-seed paired late-population differences for the G7c final ($n=96$, panels A--B) and the Fly-RSI L2 final ($n=48$, panels C--E). Seeds are sorted by paired difference; solid dark lines show sample means, shaded blue bands show 95\% percentile bootstrap CIs, and dashed orange lines mark pre-registered pass bars. Generated from committed JSON by \texttt{docs/paper/figures/fig2\_g7c\_l2\_diffs.mjs}.}
+\caption{Per-seed paired late-population differences for the G7c final ($n=96$, panels A--B) and the Fly-RSI L2 final ($n=48$, panels C--E). Seeds are sorted by paired difference; solid dark lines show sample means, shaded blue bands show 95\% percentile bootstrap CIs, and dashed orange lines mark prespecified pass bars. Generated from committed JSON by \texttt{docs/paper/figures/fig2\_g7c\_l2\_diffs.mjs}.}
 \label{fig:diffs}
 \end{figure}
 
@@ -282,31 +289,31 @@ L2 (Fly-RSI) & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & $+3.16$ & 
 
 Before settling on the \texttt{brainSwitch} world for Fly-RSI L2, an extensive parallel line (P13b; \texttt{docs/MICROVERSE\_L2\_GOALS.md}, \texttt{docs/MICROVERSE\_L2\_LOG.md}) tested whether a lineage could tune its own reviser genes in the default Microverse or in nine alternative world/body designs. Across all nine designs (normal world, fast 600-tick switching, calm/volatile regimes with noise $0.05$ and $0.15$, long lives $\texttt{maxAge}=6000$, individual non-heritable sensor noise, calm/volatile habitats, non-heritable static toxin sensitivity under Amendment A2, and conflicting dual-food diets), oracle headroom over the best fixed setting (or post-evidence headroom over \texttt{SHAM} in A2) stayed below the $1.0$-fly gate. Because the P11b/G6 reviser is already robust across regimes, one fixed setting suffices and free evolution finds it.
 
-Table~\ref{tab:related-rungs} summarizes the fresh-seed finals of the P13b split tests and Amendment A3, together with G7 and G7b. In the normal world starting from $R_{\mathrm{P12}}$ (seeds 90001--90048), in-life trial-and-revert beat no tuning (\texttt{P13b-1}: $+5.96$, 46/48) but failed to beat free evolution (\texttt{P13b-2}: $+0.53$, $p=0.131$) or a coin-flip keep sham (\texttt{P13b-3}: $-0.02$, $p=0.516$). Increasing trial frequency (\texttt{P13b-2b}, $\texttt{metaK}=3$, seeds 91001--91048) beat free evolution ($+1.24$, 34/48, $p_{\mathrm{v2}}=0.00268$) while still tying its coin-flip sham ($+0.25$, $p_{\mathrm{v2}}=0.259$), confirming that faster variation plus selection drove the gain rather than the fly's own evidence. A headroom check confirmed that even a perfect-keep oracle lost to the coin-flip sham ($-0.42$, 21/48). Splitting further with a shadow-learner comparison (\texttt{P13b-3a/3b}, seeds 92001--92048) failed both keep accuracy ($0.5044$, reported $p=0.01909$, $p_{\mathrm{v2}}=0.03121 > 0.01$) and gene proximity to $R^*$ ($+0.06$, $p_{\mathrm{v2}}=0.389$). Only the tenth design, \textbf{P13b Amendment A3} (in-life switching toxin sensitivity \texttt{toxinSwitch} $=0.005$, seeds 93001--93048), passed all three gates at 48/48 ($+9.48$ vs.\ \texttt{EVO-R}, $+8.86$ vs.\ \texttt{SHAM}, $+9.12$ vs.\ \texttt{FIXED}). As labeled in the repository, P13b A3 tunes the feeding decision threshold \texttt{acceptAt}, \textbf{not} the structural reviser; it is therefore kept separate from L2 reviser tuning.
+Table~\ref{tab:related-rungs} summarizes the fresh-seed finals of the P13b split tests and Amendment A3, together with G7 and G7b. In the normal world starting from $R_{\mathrm{P12}}$ (seeds 90001--90048), in-life trial-and-revert beat no tuning (\texttt{P13b-1}: $+5.96$, 46/48) but failed to beat free evolution (\texttt{P13b-2}: $+0.53$, $p=0.131$) or a coin-flip keep sham (\texttt{P13b-3}: $-0.02$, $p=0.516$). Increasing trial frequency (\texttt{P13b-2b}, $\texttt{metaK}=3$, seeds 91001--91048) beat free evolution (\PthirteenTwoBEvorMean, \PthirteenTwoBEvorWins, exact $p=\PthirteenTwoBEvorP$) while still tying its coin-flip sham (\PthirteenTwoBShamMean, $p=\PthirteenTwoBShamP$), confirming that faster variation plus selection drove the gain rather than the fly's own evidence. A headroom check confirmed that even a perfect-keep oracle lost to the coin-flip sham ($-0.42$, 21/48). Splitting further with a shadow-learner comparison (\texttt{P13b-3a/3b}, seeds 92001--92048) failed both keep accuracy ($0.5044$; runner printed $p=0.0191$, exact $p=\PthirteenThreeAP > 0.01$) and gene proximity to $R^*$ ($+0.06$, runner $p=0.408$). Only the tenth design, \textbf{P13b Amendment A3} (in-life switching toxin sensitivity \texttt{toxinSwitch} $=0.005$, seeds 93001--93048), passed all three gates at 48/48 ($+9.48$ vs.\ \texttt{EVO-R}, $+8.86$ vs.\ \texttt{SHAM}, $+9.12$ vs.\ \texttt{FIXED}). As labeled in the repository, P13b A3 tunes the feeding decision threshold \texttt{acceptAt}, \textbf{not} the structural reviser; it is therefore kept separate from L2 reviser tuning.
 
 \begin{table}[t]
 \centering
-\caption{Related rungs, failed tests, split sub-tests, and amended tests on fresh seeds. All bootstrap CIs and $p_{\mathrm{v2}}$ values come from committed JSON via \texttt{compute\_stats.mjs} (except G7 and G7b, which are logged only).}
+\caption{Related rungs, failed tests, split sub-tests, and amended tests on fresh seeds. Exact $p$-values and CIs come from committed per-seed data via \texttt{verify.mjs}; P13b-3a/3b CIs from \texttt{figures/compute\_stats.mjs}. G7 and G7b are logged values. No verdict changes under the exact test.}
 \label{tab:related-rungs}
 \small
 \begin{tabular}{@{}llllrrrl@{}}
 \toprule
-\textbf{Test} & \textbf{Target / Note} & \textbf{Seeds ($n$)} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Verdict ($p_{\mathrm{v2}}$ / rep.)} \\
+\textbf{Test} & \textbf{Target / Note} & \textbf{Seeds ($n$)} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Verdict (exact $p$)} \\
 \midrule
 G7 (FR1) & Competition move L1 & 50001--08 (8) & \texttt{SELF} vs.\ \texttt{TASTE} & share 0.33 & N/A & 3/8 & \textbf{FAILED} \\
 G7 (FR2) & Competition move L1 & 60001--08 (8) & \texttt{SELF} vs.\ \texttt{TASTE} & share 0.625 & N/A & 5/8 & \textbf{FAILED} \\
-G7b & Paired solo (\texttt{da995b0}) & 70001--48 (48) & \texttt{SELF}$-$\texttt{TASTE} & $+0.88$ & N/A & 30/48 & \textbf{FAILED} (rep.\ $0.0119$) \\
+G7b & Paired solo (\texttt{da995b0}) & 70001--48 (48) & \texttt{SELF}$-$\texttt{TASTE} & \GsevenBMean & \GsevenBCI & \GsevenBWins & \textbf{FAILED} ($\GsevenBP$; runner $0.0119$) \\
 \midrule
-P13b-1 & Own tuning vs.\ none & 90001--48 (48) & \texttt{META}$-$\texttt{FIXED} & $+5.96$ & $[+5.05,+6.85]$ & 46/48 & \textbf{PASSED} ($5.0\times 10^{-6}$) \\
-P13b-2 & Trials vs.\ mutation & 90001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & $+0.53$ & $[-0.39,+1.42]$ & 29/48 & \textbf{FAILED} ($0.131$) \\
-P13b-3 & Evidence vs.\ coin flip & 90001--48 (48) & \texttt{META}$-$\texttt{SHAM} & $-0.02$ & $[-0.93,+0.86]$ & 26/48 & \textbf{FAILED} ($0.518$) \\
-P13b-2b & Faster trials (\texttt{metaK}=3) & 91001--48 (48) & \texttt{META}$'-$\texttt{EVO-R} & $+1.24$ & $[+0.42,+2.04]$ & 34/48 & \textbf{PASSED} ($0.00268$; vs.\ SHAM $+0.25$ n.s.) \\
-P13b-3a & Shadow keep accuracy & 92001--48 (48) & bal.\ acc.\ $-0.5$ & $+0.0044$ & $[-0.0002,+0.0090]$ & 27/48 & \textbf{FAILED} ($0.0312$ / rep.\ $0.0191$) \\
-P13b-3b & Distance to $R^*$ & 92001--48 (48) & \texttt{SHAM}$-$\texttt{META} & $+0.06$ & $[-0.36,+0.49]$ & 26/48 & \textbf{FAILED} ($0.389$ / rep.\ $0.408$) \\
+P13b-1 & Own tuning vs.\ none & 90001--48 (48) & \texttt{META}$-$\texttt{FIXED} & \PthirteenPartsFixedMean & \PthirteenPartsFixedCI & \PthirteenPartsFixedWins & \textbf{PASSED} ($\PthirteenPartsFixedP$) \\
+P13b-2 & Trials vs.\ mutation & 90001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & \PthirteenPartsEvorMean & \PthirteenPartsEvorCI & \PthirteenPartsEvorWins & \textbf{FAILED} ($\PthirteenPartsEvorP$) \\
+P13b-3 & Evidence vs.\ coin flip & 90001--48 (48) & \texttt{META}$-$\texttt{SHAM} & \PthirteenPartsShamMean & \PthirteenPartsShamCI & \PthirteenPartsShamWins & \textbf{FAILED} ($\PthirteenPartsShamP$) \\
+P13b-2b & Faster trials (\texttt{metaK}=3) & 91001--48 (48) & \texttt{META}$'-$\texttt{EVO-R} & \PthirteenTwoBEvorMean & \PthirteenTwoBEvorCI & \PthirteenTwoBEvorWins & \textbf{PASSED} ($\PthirteenTwoBEvorP$; vs.\ SHAM \PthirteenTwoBShamMean, $p=\PthirteenTwoBShamP$) \\
+P13b-3a & Shadow keep accuracy & 92001--48 (48) & bal.\ acc.\ $-0.5$ & $+0.0044$ & $[-0.0002,+0.0090]$ & 27/48 & \textbf{FAILED} ($\PthirteenThreeAP$; runner printed $0.0191$) \\
+P13b-3b & Distance to $R^*$ & 92001--48 (48) & \texttt{SHAM}$-$\texttt{META} & $+0.06$ & $[-0.36,+0.49]$ & 26/48 & \textbf{FAILED} (runner $0.408$) \\
 \midrule
-P13b A3 & 10th design; \texttt{acceptAt} & 93001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & $+9.48$ & $[+8.70,+10.30]$ & 48/48 & \textbf{PASSED under A3} ($5.0\times 10^{-6}$) \\
-        & (decision threshold, &                & \texttt{META}$-$\texttt{SHAM} & $+8.86$ & $[+7.76,+10.20]$ & 48/48 & (not reviser tuning; \\
-        & not reviser)         &                & \texttt{META}$-$\texttt{FIXED} & $+9.12$ & $[+8.34,+9.95]$ & 48/48 & constructed \texttt{toxinSwitch}) \\
+P13b A3 & 10th design; \texttt{acceptAt} & 93001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & \PthirteenAthreeEvorMean & \PthirteenAthreeEvorCI & \PthirteenAthreeEvorWins & \textbf{PASSED under A3} ($\PthirteenAthreeEvorP$) \\
+        & (decision threshold, &                & \texttt{META}$-$\texttt{SHAM} & \PthirteenAthreeShamMean & \PthirteenAthreeShamCI & \PthirteenAthreeShamWins & (not reviser tuning; \\
+        & not reviser)         &                & \texttt{META}$-$\texttt{FIXED} & \PthirteenAthreeFixedMean & \PthirteenAthreeFixedCI & \PthirteenAthreeFixedWins & constructed \texttt{toxinSwitch}) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -314,11 +321,11 @@ P13b A3 & 10th design; \texttt{acceptAt} & 93001--48 (48) & \texttt{META}$-$\tex
 \section{L3 Negative Result and Mechanistic Diagnosis}
 \label{sec:l3}
 
-Demonstrating bounded L2 control in a constructed switching world left open the defining recursive question: \textbf{does improving the improver compound}, making L1 self-revision pay substantially more (operationalized as at least $1.5\times$ the L1 population gain without L2)? Across eight pre-registered designs and headroom screens (Table~\ref{tab:l3-screens}, Figure~\ref{fig:l3}), the answer in Microverse was consistently \textbf{no}. Every L3 design stopped on practice or oracle-headroom screens; zero L3 final runs were executed.
+Demonstrating bounded L2 control in a constructed switching world left open the defining recursive question: \textbf{does improving the improver compound}, making L1 self-revision pay substantially more (operationalized as at least $1.5\times$ the L1 population gain without L2)? Across eight prespecified designs and headroom screens (Table~\ref{tab:l3-screens}, Figure~\ref{fig:l3}), the answer in Microverse was consistently \textbf{no}. Every L3 design stopped on practice or oracle-headroom screens; zero L3 final runs were executed.
 
 \begin{table}[t]
 \centering
-\caption{All eight pre-registered L3 compounding designs and headroom screens. None qualified for a fresh-seed final run. Intervals are 95\% bootstrap CIs where raw JSON is committed.}
+\caption{All eight prespecified L3 compounding designs and headroom screens. None qualified for a fresh-seed final run. Intervals are 95\% bootstrap CIs where raw JSON is committed.}
 \label{tab:l3-screens}
 \small
 \begin{tabular}{@{}llllll@{}}
@@ -346,7 +353,7 @@ In the L2 \texttt{brainSwitch} world ($\times 1/\times 12$), five practice attem
 
 External review by GPT-6.2 Astra exposed two structural flaws in L3c: heavy tails (on Attempt 2, a single seed, 113, where \texttt{FIXED} went extinct gave $d=+59.6$, contributing $+1.24$ of the $+2.51$ mean $d$) and the missing direct-effect control \texttt{METAOFF} (running the controller with L1 disabled). Running the pre-specified descriptive \texttt{METAOFF} diagnostic on L3c Attempt 3 (\texttt{fly-rsi-l3c-metaoff-practice.json}) revealed a surprise: \texttt{METAOFF} averaged $21.75$ vs.\ \texttt{NOREV} $26.90$ ($-5.15$ flies, 4 extinctions), because offspring born while singletons were parked failed to inherit the parked masks and, lacking L1, could never recover them. Part of L3c's apparent factorial gain ($+7.97$) was therefore L1 repairing inheritance damage caused by the controller.
 
-\textbf{L3-I Screen 1} (\texttt{e43bda8}, \texttt{fly-rsi-l3i-screen1-practice.json}) fixed inheritance via \texttt{inheritFull} (children inherit the deduplicated union of active and parked masks, and transient controller packages reset before birth; verified on 431 births with 0 defects), upgraded to Scorer v2, and added a factorial mean gate $f = d - (\texttt{METAOFF}-\texttt{NOREV}) > 0$ plus a typical-world binomial sign gate ($f > 0$ on $\ge 33/48$ seeds, exact binomial $p=0.0066$). With inheritance repaired, \texttt{METAOFF} gained $+3.36$ flies over \texttt{NOREV} ($30.26$ vs.\ $26.90$, 95\% CI $[+0.70,+5.83]$, $p_{\mathrm{v2}}=0.00535$). Ordinary L1 gain was $+10.17$ ($\texttt{FIXED}-\texttt{NOREV}$, $[+7.59,+12.57]$), and L1 gain under the controller was $+14.81$ ($\texttt{META}-\texttt{METAOFF}$, $[+13.01,+17.05]$), an observed ratio of $1.456\times$ (logged $1.46\times$). Screen 1 missed all three compounding gates: original $d = +2.92$ ($[+0.48,+6.13]$, $p_{\mathrm{v2}}=0.01085 \ge 0.01$), factorial mean $f = -0.45$ ($[-4.52,+3.89]$, $p_{\mathrm{v2}}=0.578$), and factorial sign $19/48$ (bar $\ge 33/48$).
+\textbf{L3-I Screen 1} (\texttt{e43bda8}, \texttt{fly-rsi-l3i-screen1-practice.json}) fixed inheritance via \texttt{inheritFull} (children inherit the deduplicated union of active and parked masks, and transient controller packages reset before birth; verified on 431 births with 0 defects), upgraded to Scorer v2, and added a factorial mean gate $f = d - (\texttt{METAOFF}-\texttt{NOREV}) > 0$ plus a typical-world binomial sign gate ($f > 0$ on $\ge 33/48$ seeds, exact binomial $p=0.0066$). With inheritance repaired, \texttt{METAOFF} gained \LthreeImetaoffMean{} flies over \texttt{NOREV} ($30.26$ vs.\ $26.90$, 95\% CI \LthreeImetaoffCI, exact $p=\LthreeImetaoffP$). Ordinary L1 gain was $+10.17$ ($\texttt{FIXED}-\texttt{NOREV}$, $[+7.59,+12.57]$), and L1 gain under the controller was $+14.81$ ($\texttt{META}-\texttt{METAOFF}$, $[+13.01,+17.05]$), an observed ratio of $1.456\times$ (logged $1.46\times$). Screen 1 missed all three compounding gates: original $d = \LthreeIdOrigMean$ (\LthreeIdOrigCI, exact $p=\LthreeIdOrigP \ge 0.01$; Scorer v2 printed $0.01085$), factorial mean $f = \LthreeIfactMean$ (\LthreeIfactCI, exact $p=\LthreeIfactP$), and factorial sign $19/48$ (bar $\ge 33/48$).
 
 \subsection{Rewrite-Price Gating: L3-I Screen 2 (RewriteCost)}
 
@@ -369,7 +376,7 @@ L3-IV-H0 \textbf{missed at both toxins} (\texttt{fly-rsi-l3iv-h0.json}; Figure~\
   \item \textbf{Toxin 0.60:} \texttt{NOREV} $42.40$, best static $F = \texttt{S10} = [0,0.5,0.25,0.25]$ at $48.27$ ($g = +5.87$, $[+4.92,+6.98]$, 16/16), \texttt{BLIND} $49.15$, \texttt{ORACLE} $51.69$, \texttt{TRUE\_ORACLE} $63.19$ ($\alpha = 0.28$). Although \texttt{ORACLE} beat \texttt{S10} by $+3.42$ flies ($[+2.09,+4.69]$, 15/16, ratio $1.58\times$), its compounding surplus was only $d_O = (\texttt{ORACLE}-F)-0.5g = +0.49$ ($[-1.25,+2.02]$, 8/16 vs.\ bars $\ge 4.0$ and $\ge 13/16$), and $\texttt{ORACLE}-\texttt{BLIND} = +2.54$ ($[+1.25,+3.85]$, 13/16 vs.\ bar $\ge 4.0$).
   \item \textbf{Toxin 0.85:} \texttt{NOREV} $31.26$, best static $F = \texttt{S20} = [0.25,0.25,0.25,0.25]$ at $41.74$ ($g = +10.48$, $[+8.35,+12.68]$, 16/16), \texttt{BLIND} $42.45$, \texttt{ORACLE} $45.07$, \texttt{TRUE\_ORACLE} $55.02$ ($\alpha = 0.44$). Here $d_O = -1.91$ ($[-3.75,+0.02]$, 4/16) and $\texttt{ORACLE}-\texttt{BLIND} = +2.62$ ($[+0.87,+4.68]$, 13/16), both missing the $4.0$-fly bar.
 \end{itemize}
-Strikingly, telemetry at toxin $0.60$ showed that oracle routing dramatically accelerated discovery: \texttt{ORACLE} achieved $1.000$ bank-match accuracy, $1{,}981$ admissions per seed, $637$ correct-pair admissions per seed ($6.2\times$ \texttt{S10}'s $102$ and $3.0\times$ \texttt{BLIND}'s $212$), and $2.28$ true pairs held per newborn (vs.\ $0.99$ in \texttt{S10} and $1.46$ in \texttt{BLIND}). Yet this sixfold jump in correct feature discovery translated into only $+3.42$ flies, leaving an apparent $+11.5$-fly gap below \texttt{TRUE\_ORACLE} ($63.19$).
+Telemetry at toxin $0.60$ showed that oracle routing dramatically accelerated discovery: \texttt{ORACLE} achieved $1.000$ bank-match accuracy, $1{,}981$ admissions per seed, $637$ correct-pair admissions per seed ($6.2\times$ \texttt{S10}'s $102$ and $3.0\times$ \texttt{BLIND}'s $212$), and $2.28$ true pairs held per newborn (vs.\ $0.99$ in \texttt{S10} and $1.46$ in \texttt{BLIND}). Yet this sixfold jump in correct feature discovery translated into only $+3.42$ flies, leaving an apparent $+11.5$-fly gap below \texttt{TRUE\_ORACLE} ($63.19$).
 
 An exploratory post-hoc diagnosis by Gemini 4 Neon on four fresh non-bank seeds (501--504, commit \texttt{16b4372}; explicitly unregistered and marked spent) resolved that paradox (Figure~\ref{fig:l3}C):
 \begin{enumerate}
@@ -388,6 +395,29 @@ Taken together, the eight screens and post-hoc ablations identify three ecologic
 \label{fig:l3}
 \end{figure}
 
+\section{Reproduction and Adversarial Audit}
+\label{sec:verification}
+
+Before submission we ran a verification program whose plan was committed before any of its runs (\texttt{docs/PAPER\_VERIFICATION\_PLAN.md}, with one amendment made after the audit and before any replication or sensitivity run). Its log is \texttt{docs/PAPER\_VERIFICATION\_LOG.md}.
+
+\subsection{Exact recomputation of every number}
+\texttt{docs/paper/verify.mjs} recomputes every effect, win count, confidence interval and $p$-value in this paper from committed per-seed data, checks each against the value in the repository logs, and writes them as the \LaTeX{} macros used in the text, so the manuscript cannot drift from the data. All headline values match the logs. Two self-checks guard the test itself: six $+1$ differences with 42 zeros must give $p = 1/64$, and 48 positive differences must give $2^{-48}$.
+
+\subsection{Deterministic reruns}
+The simulator is deterministic, so rerunning a final at its recorded commit on its own seeds must reproduce it. Such reruns are reproductions, not new tests.
+\begin{itemize}
+  \item \textbf{P11b} at \texttt{07b54e7}: every logged mean reproduced exactly ($R^*$ 55.54, $R_{\mathrm{P12}}$ 49.81, $R_0$ 56.08).
+  \item \textbf{P11b with current code}: $+7.50$ and $-1.52$ instead of $+5.73$ and $-0.54$, because G7c changed the default fly. Results from before G7c must be reproduced at their own commits.
+  \item \textbf{G7b} at \texttt{da995b0}: reproduced exactly (SELF 55.44, TASTEONLY 54.56, 30/48 positive). Exact $p=\GsevenBP$: still a miss.
+  \item \textbf{G1--G6, G7c and L2}: in progress.
+\end{itemize}
+
+\subsection{Defects in the runners' Monte Carlo test}
+The audit found that the float-multiplied LCG in \texttt{solo.mjs} and \texttt{p13parts.mjs} enters a 419-state cycle after 7,245 updates; on a constructed case with exact $p=1/64$ it printed $0.0096$, which would pass the $0.01$ bar. We further found that the corrected Scorer v2 takes its sign from bit 16 of a power-of-two LCG, whose period is $2^{17}$, giving 8,192 distinct sign vectors in 200,000 draws at $n=48$. Neither defect changes a verdict reported here (Section~\ref{sec:threats}), but both make the printed values unreliable near the bar, so this paper uses only the exact test.
+
+\subsection{Adversarial audit of the controls}
+A fresh GPT-6.2 Astra thread, given only the code and the claims and asked to break the controls, audited information leaks, sham matching, cost parity, random-number coupling, the evolutionary control, the outcome measure and the statistics (\texttt{docs/paper/AUDIT\_CONTROLS.md}). It found the controls sound on information leaks (no arm can see the hidden rule, true food value or future draws), on energy parity (every arm pays the same rent per active mask, and \texttt{SHAM} pays the real price), and on the outcome measure (all runners average the same 100 snapshots, with extinctions scored as zeros). It also found the four L2 limitations listed in Section~\ref{sec:results} and one wording correction: arms that share a seed are \emph{paired by initial seed}; they do not see identical food or price histories, because behavior changes how the world's random stream is consumed.
+
 \section{Threats to Validity}
 \label{sec:threats}
 
@@ -395,7 +425,7 @@ Taken together, the eight screens and post-hoc ablations identify three ecologic
 
 Even when each fresh final bank is executed once under a frozen rule, iterating through alternative world designs, endpoints, and operators across a research program creates a garden of forking paths \citep{gelman2014statistical}. Table~\ref{tab:forking} counts every practice attempt, amendment, and fresh-seed final per goal (full chronological details appear in \texttt{docs/paper/attempts.md}). Three goals required multiple iterations or re-named successors: G7 (two failed finals plus G7b before G7c passed), P13b (nine blocked/failed designs and three failed part-finals before Amendment A3 passed on a decision threshold), and L3 (eight designs/screens, all failing before any final).
 
-We apply no post-hoc familywise $p$-value adjustment across distinct worlds, because the hypotheses, mechanisms, and endpoints differed; instead, we report the complete denominator of attempts alongside every pass. Even under a conservative Bonferroni correction across all 12 fresh-seed final runs (or across all $\sim 20$ gated final contrasts), the headline passes in G7c ($p_{\mathrm{v2}} = 5.0\times 10^{-6}$) and Fly-RSI L2 ($p_{\mathrm{v2}} = 5.0\times 10^{-6}$) remain well below $0.01 / 20 = 5\times 10^{-4}$. By contrast, the exploratory search over worlds in P13b (10 designs) and L2 (5 candidate headroom worlds) means the findings show \emph{existence} in a chosen constructed world, not prevalence across arbitrary worlds.
+We apply no post-hoc familywise $p$-value adjustment across distinct worlds, because the hypotheses, mechanisms, and endpoints differed; instead, we report the complete denominator of attempts alongside every pass. Even under a conservative Bonferroni correction across all $\sim 20$ gated final contrasts, the headline passes remain far below $0.01 / 20 = 5\times 10^{-4}$: the weakest is \texttt{META} $-$ \texttt{SHAM} in L2, exact $p = \LtwoShamP$. By contrast, the exploratory search over worlds in P13b (10 designs) and L2 (5 candidate headroom worlds) means the findings show \emph{existence} in a chosen constructed world, not prevalence across arbitrary worlds.
 
 \begin{table}[t]
 \centering
@@ -418,7 +448,7 @@ Fly-RSI L3 & 8 designs, 20 batches & 7 successor regs & 0 (0; 240 reserved) & No
 
 \subsection{``You Built a Switch and Showed a Switch Helps''}
 
-A direct critique of Fly-RSI L2 is that the experiment constructs a world with two brain-cost regimes, supplies a noise-free felt cue naming the current regime, pre-specifies two reviser packages derived from an oracle headroom scan, and then shows that switching between them beats not switching. That description is accurate, and we state its exact scope rather than obscuring it. Fly-RSI L2 does \emph{not} show that flies discovered the lean/full packages, inferred hidden regime dynamics from noisy observations, or invented a meta-learning algorithm. What it \emph{does} show, on 48 fresh worlds against matched controls, is that (i) an embodied agent's in-life bodily feedback controlling its own L1 structural-revision parameters produces a $+6.8\%$ to $+8.8\%$ ecological fitness gain over free genetic evolution of the exact same two packages (\texttt{EVO-R}), over identical switching driven by an independent cue (\texttt{SHAM}), and over static parameters (\texttt{FIXED}), and (ii) unlike P13b A3, the controlled parameters are genuinely the L1 reviser's own knobs (\texttt{cap}, \texttt{prune}, \texttt{z}). The same critique underscores why L3 compounding was necessary as a stronger bar, and why failing L3 leaves L2 firmly in the category of bounded, hand-wired control.
+A direct critique of Fly-RSI L2 is that the experiment constructs a world with two brain-cost regimes, gives the controller a perfect reading of the current regime, pre-specifies two reviser packages derived from an oracle headroom scan, and then shows that switching between them beats not switching. That description is accurate, and we state its exact scope rather than obscuring it. Fly-RSI L2 does \emph{not} show that flies discovered the lean/full packages, inferred hidden regime dynamics from noisy observations, or invented a meta-learning algorithm. What it \emph{does} show, on 48 fresh worlds against matched controls, is that (i) a controller that sets a fly's own L1 structural-revision parameters from a perfect in-life price signal produces a $+6.8\%$ to $+8.8\%$ ecological fitness gain over evolution of the same two packages (\texttt{EVO-R}), over identical switching driven by an independent cue (\texttt{SHAM}), and over static parameters (\texttt{FIXED}), through in-life revision and offspring mutation together, and (ii) unlike P13b A3, the controlled parameters are genuinely the L1 reviser's own knobs (\texttt{cap}, \texttt{prune}, \texttt{z}). The same critique underscores why L3 compounding was necessary as a stronger bar, and why failing L3 leaves L2 firmly in the category of bounded, hand-wired control.
 
 \subsection{Constructed World and Hand-Written Rules}
 
@@ -435,13 +465,13 @@ Small sample sizes impose hard discrete floors on one-sided sign-flip and sign t
   \item $n=8$ (G1--G7 competition finals): 8/8 exact binomial floor is $1/2^8 = 1/256 = 0.0039$, whereas G7's 6/8 threshold has null pass probability $37/256 = 14.5\%$.
   \item $n=12$ (the earlier offline P5--P10 and P14b compact-fly line referenced in Section~\ref{sec:prior-project}): 12/12 exact one-sided sign-flip floor is $1/2^{12} = 1/4096 = 0.000244$.
   \item $n=16$ (Microverse headroom and Stage A/B screens): 16/16 exact floor is $1/2^{16} = 1/65{,}536 = 1.53\times 10^{-5}$.
-  \item $n=48$ or $96$ (paired-solo finals): 200,000-draw Monte Carlo floor in Scorer v2 is $1/200{,}001 \approx 5.0\times 10^{-6}$ \citep{phipson2010permutation}.
+  \item $n=48$ or $96$ (paired-solo finals): the exact test has no practical floor ($2^{-48} = 3.6\times 10^{-15}$ for 48/48 positive), whereas the runners' Monte Carlo printed values are limited by their defective generators (Section~\ref{sec:verification}).
 \end{itemize}
-Re-scoring all committed pre-L3-I JSON files with Scorer v2 confirmed that the float-LCG bug in \texttt{solo.mjs} and \texttt{p13parts.mjs} did not flip any pass/fail verdict: G7c, Fly-RSI L2, P13b-1, and P13b A3 all remained at the $5.0\times 10^{-6}$ floor, and P13b-2b shifted only from $p=0.00238$ to $p_{\mathrm{v2}}=0.00268$. On the failing P13b-3a accuracy test, however, the float LCG underestimated the $p$-value ($0.01909$ vs.\ $p_{\mathrm{v2}} = 0.03121$, confirmed at $0.03290$ with 500,000 xorshift32 draws), illustrating why integer-exact RNG arithmetic matters near decision boundaries.
+Exact recomputation of every gated contrast with committed per-seed data leaves every verdict unchanged. The closest calls are P13b-2b \texttt{META} $-$ \texttt{EVO-R} (exact $p=\PthirteenTwoBEvorP$, pass), L3-I's original $d$ (exact $p=\LthreeIdOrigP$, miss; that screen also missed both factorial gates), and P13b-3a (exact $p=\PthirteenThreeAP$, miss; the runner printed $0.0191$). G7b, whose original per-seed rows were not saved, was rerun at \texttt{da995b0} and reproduced exactly; its exact $p=\GsevenBP$ is slightly further from the bar than the printed $0.0119$, so the defective test did not cause its miss.
 
 \subsection{Version Drift and Partial Early JSON Archival}
 
-Two bookkeeping caveats remain. First, G1--G6 were closed on fresh seeds at commit \texttt{da995b0} before G7c introduced $\texttt{moveAddInit}=2$; under the post-G7c code (\texttt{dd0ea19}), G1--G6 passed the practice suite (\texttt{suite-dev-1795046397911.json}) but were not given a third fresh-seed final. Second, raw per-seed JSON files were committed systematically starting at P13b parts (seeds 90001--90048), leaving G1--G6 finals, G7b, and P11b verifiable from repository logs and deterministic code replay rather than committed JSON files.
+Two bookkeeping caveats remain. First, G1--G6 were closed on fresh seeds at commit \texttt{da995b0} before G7c introduced $\texttt{moveAddInit}=2$; under the post-G7c code (\texttt{dd0ea19}), G1--G6 passed the practice suite (\texttt{suite-dev-1795046397911.json}) but were not given a third fresh-seed final. Second, the default \texttt{SELF} strain changed at G7c, so results obtained before it (G1--G6, G7b, P11b) reproduce only at their own commits. P11b rerun with current code gives $R^* - R_{\mathrm{P12}} = +7.50$ (48/48) and $R^* - R_0 = -1.52$ (12/48): the gate still passes, but the near-tie with the designer's reviser does not hold for the current fly.
 
 \section{Related Work}
 \label{sec:related}
@@ -472,9 +502,9 @@ Microverse grew out of an earlier compact-fly line in the same repository (exper
 
 This research program was directed by a human investigator (Jaimin Patel), who set research goals, approved world/fly scope changes, and made continuation and stopping decisions. Four AI models participated substantially across experimental design, implementation, execution, auditing, and writing, as recorded in the repository logs and git commit trailers:
 \begin{itemize}
-  \item \textbf{Claude Opus 5.5:} implemented the Microverse simulator, runners, and opt-in extensions; executed practice and final scripts; maintained the goal/log documents (\texttt{Co-Authored-By} on Microverse commits \texttt{d459944}--\texttt{16b4372}); and verified paper claims against the repository.
+  \item \textbf{Claude Opus 5.5:} implemented the Microverse simulator, runners, and opt-in extensions; executed practice and final scripts; maintained the goal/log documents (\texttt{Co-Authored-By} on Microverse commits \texttt{d459944}--\texttt{16b4372}); and, for this paper, wrote the verification plan, ran the reproductions, wrote the exact-test verifier, and edited the manuscript.
   \item \textbf{Claude Fable 5.2:} conducted the independent audit of the prior V1--V7 line (\texttt{docs/fable-review/FABLE\_REVIEW.md}) and reviewed Microverse G1--G7, identifying winner-take-all drift and motivating the paired-solo G7b test (unavailable during P11b/P13b due to usage credits).
-  \item \textbf{GPT-6.2 Astra:} served as an external adversarial advisor (read-only advice; ran no simulations); identified heavy tails, the L3c inheritance-loss confound, and the float-LCG scorer bug; drafted verbatim pre-registrations for L3-I, L3-I Screen 2 (\texttt{RewriteCost}), L3-II, L3-III, and L3-IV-H0; and reviewed final scope wording in \texttt{docs/VISION.md}.
+  \item \textbf{GPT-6.2 Astra:} served as an external adversarial advisor during the program (read-only advice; ran no simulations); identified heavy tails, the L3c inheritance-loss confound, and the float-LCG scorer bug; drafted verbatim pre-registrations for L3-I, L3-I Screen 2 (\texttt{RewriteCost}), L3-II, L3-III, and L3-IV-H0; and reviewed final scope wording in \texttt{docs/VISION.md}. For this paper, a fresh Astra thread with no prior context conducted the read-only control audit of Section~\ref{sec:verification}, running only practice seeds.
   \item \textbf{Gemini 4 Neon:} proposed the four-bank L3-IV-H0 headroom design; ran the exploratory post-hoc diagnosis of the \texttt{TRUE\_ORACLE} gap on non-bank seeds 501--504 (commit \texttt{16b4372}), recommending closure of L3; and drafted the initial manuscript, bootstrap/figure scripts, and claims ledger.
 \end{itemize}
 All simulation measurements were produced deterministically by the committed Node.js code; no AI model fabricated outcomes or touched any reserved L3 seed bank.
@@ -486,11 +516,11 @@ This study has seven principal limitations:
 \begin{enumerate}
   \item \textbf{Bounded depth.} Only two levels of in-world self-adaptation (L1 program revision and L2 reviser switching) were demonstrated; L3 compounding ($\ge 1.5\times$) was not shown.
   \item \textbf{Hand-written components.} All rule families, feature candidate menus, climbers, and meta-rules are hand-written; nothing discovers new operator grammars or open-ended algorithms.
-  \item \textbf{Constructed switching world and noise-free cue in L2.} Fly-RSI L2 relies on a purpose-built brain-cost switching world, a noise-free felt cost signal, and two preset gene packages derived from an oracle headroom check.
+  \item \textbf{Constructed switching world and perfect cue in L2.} Fly-RSI L2 relies on a purpose-built brain-cost switching world, a controller that reads the simulator's price state directly, and two preset gene packages derived from an oracle headroom check. Its effect runs through both in-life revision and offspring mutation.
   \item \textbf{Ecological saturation.} Carrying capacity, non-prunable founder singletons, and lineage-level parallel search restrict headroom for higher-order compounding in Microverse.
   \item \textbf{Internal registration only.} Git commits before runs provide an internal audit trail, not third-party external pre-registration.
   \item \textbf{Program-level multiplicity.} Multiple world and operator designs were explored on practice seeds (and across separate re-tests G7/G7b/G7c and P13b designs 1--10) without a formal cross-experiment error-spending budget.
-  \item \textbf{Incomplete early raw JSON archival.} Raw JSON outputs are committed for all runs from P13b parts (seeds 90001--90048) onward, including G7c, Fly-RSI L2, and all L3-I through L3-IV-H0 screens, but not for G1--G6 finals, G7b, or P11b.
+  \item \textbf{Archival gaps.} G7c per-seed differences were saved rounded to $0.1$ flies without per-arm values, and the original G7b and P11b runs saved no per-seed rows; we recovered the latter two by deterministic reruns that match the logs exactly.
 \end{enumerate}
 
 \section{Reproducibility Statement}
@@ -498,15 +528,16 @@ This study has seven principal limitations:
 
 All code, goal specifications, logs, and committed evidence artifacts reside in the \texttt{fly-ecosystem} repository (content identical to \texttt{origin/main} at commit \texttt{90a372a} and branch head \texttt{16b4372} prior to adding \texttt{docs/paper/}). The Microverse simulator and all analysis/figure scripts require only Node.js ($\ge 22$, tested on v22.19.0) with no third-party packages. Deterministic 32-bit xorshift PRNGs (\texttt{rng32}, \texttt{mix}) ensure exact reproducibility per seed.
 
-To verify the simulator tests, bootstrap confidence intervals, Scorer v2 audits, and all three figures without running new experiments or touching any seed bank:
+To verify every number in the paper, the simulator tests and all three figures without running new experiments or touching any seed bank:
 \begin{verbatim}
+node docs/paper/verify.mjs
 node --test tests/microverse.test.mjs
 node docs/paper/figures/compute_stats.mjs
 node docs/paper/figures/fig1_ladder.mjs
 node docs/paper/figures/fig2_g7c_l2_diffs.mjs
 node docs/paper/figures/fig3_l3_headroom.mjs
 \end{verbatim}
-Historical runners (\texttt{microverse/suite.mjs}, \texttt{solo.mjs}, \texttt{l2search.mjs}, \texttt{p13parts.mjs}, \texttt{l3i.mjs}, \texttt{rc-stageA.mjs}, \texttt{l3ii.mjs}, \texttt{l3iii.mjs}, \texttt{l3iv-h0.mjs}) can replay any logged seed range deterministically. Researchers extending this codebase must not reuse spent or reserved fresh seed banks listed in \texttt{docs/SPENT\_BANKS\_RSI.md} and \texttt{docs/paper/attempts.md}.
+Historical runners (\texttt{microverse/suite.mjs}, \texttt{solo.mjs}, \texttt{l2search.mjs}, \texttt{p13parts.mjs}, \texttt{l3i.mjs}, \texttt{rc-stageA.mjs}, \texttt{l3ii.mjs}, \texttt{l3iii.mjs}, \texttt{l3iv-h0.mjs}) can replay any logged seed range deterministically; \texttt{docs/REPRODUCE\_MICROVERSE.md} gives the exact command and commit for each final. Researchers extending this codebase must not reuse spent or reserved fresh seed banks listed in \texttt{docs/SPENT\_BANKS\_RSI.md} and \texttt{docs/paper/attempts.md}.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}

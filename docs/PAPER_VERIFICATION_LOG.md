@@ -27,3 +27,29 @@ Raw data: `evidence/microverse/p11b-final-80001-80048.json`. Exact one-sided
 sign-flip p for the gate: 3.55e-15; 95% bootstrap CI [5.10, 6.34]. For R\* − R0 the
 CI is [−1.32, 0.25]: the paper says "not significantly different from the designer's
 version", not "equal to it", because no equivalence test was registered.
+
+### G7b (seeds 70001–70048, code `da995b0`)
+
+**Reproduces the log exactly.** SELF 55.44, TASTEONLY 54.56, +0.88, 30/48 positive;
+the runner prints p = .01194, the same value as the original run. Raw data (full
+precision): `evidence/microverse/g7b-final-70001-70048-rerun-da995b0.json`.
+Exact one-sided sign-flip p = **.0130**, so G7b still misses the .01 bar, by a little
+more than the printed value suggested. The defective Monte Carlo test did not cause
+the miss.
+
+## V1. Exact recomputation (`docs/paper/verify.mjs`)
+
+All 21 contrasts match the logged means and win counts. The exact p-values agree
+with the auditor's independent exact implementation (L2: 1.83e-12, 1.48e-7,
+3.86e-10; G7c vs MOVEONLY 1.26e-29). Verdicts near the .01 bar, rechecked exactly:
+
+| Contrast | Printed p | Exact p | Verdict |
+|---|---|---|---|
+| G7b SELF − TASTEONLY | .0119 | .0130 | miss (unchanged) |
+| P13b-2b META − EVO-R | .00238 | .00243 | pass (unchanged) |
+| P13b-3a keep accuracy | .0191 | .0332 | miss (unchanged) |
+| L3-I screen 1, original d | .01085 (Scorer v2) | .0116 | miss (unchanged; also missed both factorial gates) |
+
+No verdict changes. A second defect was found while checking: Scorer v2 (used from
+L3-I on) takes its sign from bit 16 of a power-of-two LCG, period 2^17, so 200,000
+draws give only 8,192 distinct sign vectors at n = 48 and 4,096 at n = 96.
