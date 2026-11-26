@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Generates Figure 3: L3 compounding screens — observed headroom / effect vs pre-registered bars,
+// Generates Figure 3: L3 compounding screens — observed headroom / effect vs prespecified bars,
 // plus L3-IV-H0 oracle decomposition (including Gemini 4 Neon's post-hoc diagnosis).
 // Reads committed JSON via docs/paper/figures/stats_summary.json.
 
@@ -22,7 +22,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 let svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Helvetica Neue, Arial, DejaVu Sans, sans-serif">
   <rect x="0" y="0" width="${W}" height="${H}" fill="#ffffff"/>
-  <text x="24" y="30" font-size="17" font-weight="700" fill="#1a202c">Why Compounding (L3 ≥ 1.5×) Failed: Eight Pre-Registered Screens &amp; Oracle Diagnosis</text>
+  <text x="24" y="30" font-size="17" font-weight="700" fill="#1a202c">Why Compounding (L3 ≥ 1.5×) Failed: Eight Prespecified Screens &amp; Oracle Diagnosis</text>
   <text x="24" y="49" font-size="11.5" fill="#4a5568">Every L3 variant stopped on practice/headroom screens; zero L3 finals were run. Error bars: 95% bootstrap CIs over seeds from committed JSON.</text>
 `;
 
@@ -96,7 +96,7 @@ let svg = `<?xml version="1.0" encoding="UTF-8"?>
   svg += `  <g>
     <rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="${bx + 12}" y="${by + 22}" font-size="12.4" font-weight="700" fill="#1a202c">B. Committed-JSON Screen Contrasts vs Frozen Bars (flies)</text>
-    <text x="${bx + 12}" y="${by + 37}" font-size="9.8" fill="#475569">Red dots &amp; lines: observed mean &amp; 95% bootstrap CI. Orange vertical ticks: pre-registered advance bar.</text>
+    <text x="${bx + 12}" y="${by + 37}" font-size="9.8" fill="#475569">Red dots &amp; lines: observed mean &amp; 95% bootstrap CI. Orange vertical ticks: prespecified advance bar.</text>
 `;
   for (const tk of [-8, -4, 0, 4]) {
     const xx = xMap(tk);

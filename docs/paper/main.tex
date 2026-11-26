@@ -7,6 +7,8 @@
 \usepackage{microtype}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage[htt]{hyphenat}
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -31,6 +33,7 @@ and why compounding failed}
 
 \date{November 2026}
 
+\emergencystretch=3em
 \begin{document}
 \maketitle
 
@@ -76,6 +79,7 @@ Each simulation begins with 60 founders placed uniformly at random with initial 
 \caption{Default Microverse ecological parameters and genetic defaults (\texttt{microverse/sim.mjs}, \texttt{microverse/config.mjs}). Values reflect the post-G7c default world (fingerprint \texttt{bdaca307\dots}).}
 \label{tab:world-params}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llll@{}}
 \toprule
 \textbf{Ecology parameter} & \textbf{Default} & \textbf{Brain / gene parameter} & \textbf{Default} \\
@@ -92,6 +96,7 @@ Odor kinds / redraw / rule epoch & 16 / 100 / 3,000 ticks & \texttt{moveAddInit}
 Taste label noise / sense radius & 0.05 / 4 cells & Replay reservoir size / replays per bite & 32 / 1 \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \subsection{Non-Stationary Walsh-Basis Chemistry}
@@ -146,6 +151,7 @@ The workflow enforced three rules: (1) an escape hatch requiring a redesign or a
 \caption{Fresh-seed final banks and reserved untouched banks in the Microverse program. Practice work used seeds 101--108, 101--116, and 301--332 (plus exploratory 501--504). No fresh bank was ever reused.}
 \label{tab:seed-banks}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llllr@{}}
 \toprule
 \textbf{Bank} & \textbf{Experiment} & \textbf{Status} & \textbf{Raw JSON committed} & \textbf{Seeds} \\
@@ -168,13 +174,14 @@ The workflow enforced three rules: (1) an escape hatch requiring a redesign or a
 874001--874048 & L3-III (reserved) & Untouched (stage B missed) & N/A & (48) \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \subsection{Endpoints, Arms, and Controls}
 
 Two ecological fitness endpoints were used. The initial G1--G7 suite (\texttt{microverse/suite.mjs}) pitted two strains (30 founders each) in a shared competition world and measured strain A's mean population share over ticks 15,000--20,000 (an extinction counted as 0; a win required share $> 0.5$). Following Fable 5.2's review showing that winner-take-all contests reduce each seed to a drift-heavy binary bit (with a 6/8 bar passing 14.5\% of the time under the null), all subsequent tests (G7b, G7c, P11b, P13b, L2, and L3) used a continuous paired-solo measure (\texttt{microverse/solo.mjs}, \texttt{p13parts.mjs}, \texttt{l3i.mjs}--\texttt{l3iv-h0.mjs}): each arm lived alone in identically seeded worlds, and the per-seed outcome was its mean population over ticks 10,100--20,000 sampled every 100 ticks (100 snapshots, so exact per-seed values have two decimal places; ticks after extinction count as 0).
 
-Key experimental arms and controls are standardized across runners (\texttt{microverse/strains.mjs}):
+Key experimental arms and controls are shared by all runners and defined in \texttt{microverse/strains.mjs}:
 \begin{itemize}
   \item \textbf{Core L0/L1 arms:} \texttt{FIXED} (innate masks, lifetime learning on, no revision or mutation), \texttt{FROZEN} (same innate masks, learning rates set to 0), \texttt{RANDMOVE} (random movement $\varepsilon=1$), \texttt{ORACLE} (measuring instrument born with true rule masks), \texttt{SELF} (evidence-driven taste and movement self-revision plus mutation), \texttt{SHAM} (matched timing, pruning, and forgetting, but random candidate selection and random initial movement sign), \texttt{EVO} (birth mutation only, no evidence revision), \texttt{TASTEONLY} (taste revision only), and \texttt{MOVEONLY} (movement revision only).
   \item \textbf{L2/L3 and P13b arms:} \texttt{META} (in-life meta-rule tuning reviser genes or attention allocation from own experience), \texttt{SHAM} (identical meta-rule timing and mechanics driven by an independent fake state chain, coin-flip keep, or independent sensory twin in L3-III), \texttt{EVO-R} (free birth mutation over the same discrete reviser gene menu, no in-life rule), \texttt{FIXED} (fixed best static reviser setting), \texttt{NOREV} (L1 structural revision disabled; L0 learning and mutation active), \texttt{METAOFF} (identical \texttt{META} controller with L1 revision disabled, isolating direct non-L1 effects), \texttt{BLIND} (cue-blind evidence-driven attention scheduler), and \texttt{TRUE\_ORACLE} (diagnostic born with bias plus the true pairs).
@@ -201,13 +208,14 @@ Goals G1--G6 passed two separate fresh-seed final runs (Table~\ref{tab:g1-g6}): 
   \item \textbf{Rediscovery rather than hoarding:} in G6, current-rule target masks were held at rate $0.61$--$1.00$ after each epoch, while higher-order target masks from prior rules fell to $\le 0.18$.
   \item \textbf{G3 caveat:} instinct-only flies (no movement learning) also beat \texttt{RANDMOVE} 8/8, so G3 establishes that movement matters primarily via innate instinct, with a smaller contribution from movement learning (6/8 vs.\ instinct-only in one practice check).
 \end{itemize}
-The raw outputs of both finals existed only locally and are now committed (\texttt{evidence/microverse/suite-final-*.json}). After the later G7c movement-reviser change (\texttt{dd0ea19}), G1--G7 were re-checked on practice seeds 101--108 (\texttt{suite-dev-1795046397911.json}, all 8/8 pass, G6 gain $0.422$, late skill $0.782$), not on a third fresh final.
+The raw outputs of both finals existed only locally and are now committed under \texttt{evidence/microverse/}. After the later G7c movement-reviser change (\texttt{dd0ea19}), G1--G7 were re-checked on practice seeds 101--108 (all 8/8 pass, G6 gain $0.422$, late skill $0.782$), not on a third fresh final.
 
 \begin{table}[t]
 \centering
 \caption{Microverse core ladder results (G1--G6) across two fresh-seed final runs (8 fresh seeds each; winner-take-all competition shares except G1 and G6 solo runs). Source: \texttt{docs/MICROVERSE\_LOG.md}.}
 \label{tab:g1-g6}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}lllll@{}}
 \toprule
 \textbf{Goal} & \textbf{Test} & \textbf{Final Run 1 (50001--50008)} & \textbf{Final Run 2 (60001--60008)} & \textbf{Status} \\
@@ -220,6 +228,7 @@ G5 (L1) & \texttt{SELF} vs.\ \texttt{FIXED} \& \texttt{SHAM} & 8/8 \& 8/8 wins &
 G6 (L1) & \texttt{SELF} alone (adaptation) & Gain $0.394$, late $0.775$ & Gain $0.362$, late $0.711$ & Closed (rediscovery) \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \subsection{L1 Dual-System Self-Revision: G7, G7b, and G7c}
@@ -262,6 +271,7 @@ Four properties of this result, found by the audit (Section~\ref{sec:verificatio
 \caption{Headline fresh-seed results for continuous paired-solo rungs (G7c, P11b, Fly-RSI L2). Effects, wins, bootstrap 95\% CIs (20,000 resamples) and exact one-sided sign-flip $p$-values are generated from committed per-seed data by \texttt{docs/paper/verify.mjs}.}
 \label{tab:headline}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}lllrrrrl@{}}
 \toprule
 \textbf{Rung / Test} & \textbf{Contrast} & \textbf{Seeds ($n$)} & \textbf{Effect ($\Delta$)} & \textbf{Rel.\ (\%)} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Exact $p$} \\
@@ -277,6 +287,7 @@ L2 (Fly-RSI) & \texttt{META} $-$ \texttt{SHAM} & 95001--95048 (48) & \LtwoShamMe
 L2 (Fly-RSI) & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & \LtwoFixedMean & $+7.6$ & \LtwoFixedCI & \LtwoFixedWins & $\LtwoFixedP$ \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \begin{figure}[t]
@@ -297,6 +308,7 @@ Table~\ref{tab:related-rungs} summarizes the fresh-seed finals of the P13b split
 \caption{Related rungs, failed tests, split sub-tests, and amended tests on fresh seeds. Exact $p$-values and CIs come from committed per-seed data via \texttt{verify.mjs}; P13b-3a/3b CIs from \texttt{figures/compute\_stats.mjs}. G7 and G7b are logged values. No verdict changes under the exact test.}
 \label{tab:related-rungs}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llllrrrl@{}}
 \toprule
 \textbf{Test} & \textbf{Target / Note} & \textbf{Seeds ($n$)} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Verdict (exact $p$)} \\
@@ -317,6 +329,7 @@ P13b A3 & 10th design; \texttt{acceptAt} & 93001--48 (48) & \texttt{META}$-$\tex
         & not reviser)         &                & \texttt{META}$-$\texttt{FIXED} & \PthirteenAthreeFixedMean & \PthirteenAthreeFixedCI & \PthirteenAthreeFixedWins & constructed \texttt{toxinSwitch}) \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \section{L3 Negative Result and Mechanistic Diagnosis}
@@ -329,6 +342,7 @@ Demonstrating bounded L2 control in a constructed switching world left open the 
 \caption{All eight prespecified L3 compounding designs and headroom screens. None qualified for a fresh-seed final run. Intervals are 95\% bootstrap CIs where raw JSON is committed.}
 \label{tab:l3-screens}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llllll@{}}
 \toprule
 \textbf{\#} & \textbf{Design} & \textbf{Mechanism / World} & \textbf{Bar (Practice / Screen)} & \textbf{Observed Result} & \textbf{Outcome} \\
@@ -344,6 +358,7 @@ Demonstrating bounded L2 control in a constructed switching world left open the 
   &          &                                          &                                & .85: $d_O=-1.91$ (4/16), $b=+2.62$ & toxins \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \subsection{Energy-Cost Switching and Dormant Parking (L3, L3b, L3c, L3-I Screen 1)}
@@ -423,6 +438,7 @@ The plan fixed two new seed banks, never used by any test (6100001--6100048 for 
 \caption{Independent replication on new seed banks, run once. Original final values in brackets. Exact one-sided sign-flip $p$; bars unchanged from the original tests.}
 \label{tab:replication}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llrrrrl@{}}
 \toprule
 \textbf{Test} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Exact $p$} & \textbf{Bar / verdict} \\
@@ -434,6 +450,7 @@ G7c & \texttt{SELF} $-$ \texttt{TASTEONLY} & \RepGsevenCTasteMean{} [\GsevenCTas
 G7c & \texttt{SELF} $-$ \texttt{MOVEONLY} & \RepGsevenCMoveMean{} [\GsevenCMoveMean] & \RepGsevenCMoveCI & \RepGsevenCMoveWins & $\RepGsevenCMoveP$ & $\ge 0.7$: pass \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 The replication confirms the population effects under the same world and controls. It does not remove the limitations of Section~\ref{sec:results}: the same perfect price cue, mutation path and sham construction apply.
@@ -446,6 +463,7 @@ The world values behind L2 and G7c were chosen during design, so we varied them 
 \caption{Sensitivity of L2 and G7c to world settings (practice seeds 101--116, $n=16$; mean late-population difference, wins, exact one-sided $p$). Report-only.}
 \label{tab:sensitivity}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}llrrr@{}}
 \toprule
 \textbf{Test} & \textbf{Variant} & \textbf{vs.\ \texttt{EVO-R} / \texttt{TASTEONLY}} & \textbf{vs.\ \texttt{SHAM} / \texttt{MOVEONLY}} & \textbf{vs.\ \texttt{FIXED}} \\
@@ -463,6 +481,7 @@ G7c & long epochs (4,500) & $+3.05$, 12/16, $.007$ & $+5.88$, 15/16, $1\times 10
 L2 & inert packages (lean $=$ full), \texttt{META} $-$ \texttt{SHAM} & \multicolumn{3}{l}{$-0.26$, 7/16, $p=.65$: the random-stream difference alone has no detectable effect} \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 By the prespecified rule, both effects are robust to these settings: every gated contrast is positive in every variant. The size of the L2 effect, however, depends on the world. With a smaller cost contrast ($\times 8$) the advantage over \texttt{EVO-R} and \texttt{SHAM} falls to about one fly and would not clear the original bars; with a larger one ($\times 16$) the advantage over \texttt{EVO-R} also shrinks, to $+1.19$. The chosen world ($\times 12$) sits near the best of the values tried, which is what one expects of a world selected for its headroom. G7c's taste-only contrast holds or grows across epoch lengths; its move-only contrast shrinks with long epochs but stays large. The inert-package check answers audit finding 5: when the cue cannot act through genes, \texttt{META} and \texttt{SHAM} differ by $-0.26$ flies, so \texttt{SHAM}'s separate random stream does not explain the $+2.87$ \texttt{META} $-$ \texttt{SHAM} gap.
@@ -487,6 +506,7 @@ We apply no post-hoc familywise $p$-value adjustment across distinct worlds, bec
 \caption{Forking-paths audit across the Microverse line (commits \texttt{d459944}--\texttt{16b4372}). Complete per-attempt details are logged in \texttt{docs/paper/attempts.md}.}
 \label{tab:forking}
 \small
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{@{}lrrrl@{}}
 \toprule
 \textbf{Goal / Line} & \textbf{Practice att./scr.} & \textbf{Amendments / re-tests} & \textbf{Finals run (fresh seeds)} & \textbf{Final outcome} \\
@@ -499,6 +519,7 @@ Fly-RSI L2 & 5 worlds + 1 att. & 0 & 1 (48) & Passed (95001--95048) \\
 Fly-RSI L3 & 8 designs, 20 batches & 7 successor regs & 0 (0; 240 reserved) & Not shown (0 finals) \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 \subsection{``You Built a Switch and Showed a Switch Helps''}

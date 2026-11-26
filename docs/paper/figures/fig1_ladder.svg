@@ -10,7 +10,7 @@
   </defs>
 
   <rect x="0" y="0" width="990" height="776.5" fill="#ffffff"/>
-  <text x="28" y="32" font-size="18" font-weight="700" fill="#1a202c">Microverse Pre-Registered Self-Improvement Ladder (L0 to L3)</text>
+  <text x="28" y="32" font-size="18" font-weight="700" fill="#1a202c">Microverse Prespecified Self-Improvement Ladder (L0 to L3)</text>
   <text x="28" y="52" font-size="12" fill="#4a5568">Single closed 40×40 torus breeding world; plans frozen in git before runs; finals run once on fresh seeds.</text>
   <g>
     <rect x="28" y="76" width="690" height="147" rx="7" fill="#f0f7f4" stroke="#2a7b5f" stroke-width="1.8"/>
@@ -23,8 +23,8 @@
     <text x="42" y="142.5" font-size="10.8" fill="#1a202c">eligibility-trace movement Q-learner. Learned weights reset at birth.</text>
     <text x="42" y="160.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> G1–G4 closed across two fresh-seed finals (50001–50008 and 60001–60008; G4 FIXED vs</text>
     <text x="42" y="174.5" font-size="10.8" fill="#1a202c">FROZEN 8/8 in both finals).</text>
-    <text x="42" y="192.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Default 40×40 Microverse; G3 movement benefit is mostly innate instinct; G1–G6 finals are</text>
-    <text x="42" y="206.5" font-size="10.2" fill="#4a5568">logged (no raw JSON committed).</text>
+    <text x="42" y="192.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Default 40×40 Microverse; G3 movement benefit is mostly innate instinct; G1–G6 finals reproduce</text>
+    <text x="42" y="206.5" font-size="10.2" fill="#4a5568">bit for bit at their commits.</text>
   </g>
   <line x1="60" y1="224" x2="60" y2="238" stroke="#475569" stroke-width="2" marker-end="url(#arrowDown)"/>
   <g>
@@ -50,11 +50,11 @@
     <rect x="536" y="417" width="170" height="22" rx="11" fill="#1f624b"/>
     <text x="621" y="432" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">SHOWN (95001–95048)</text>
     <text x="42" y="458.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Hand-written rule switches taste and movement reviser genes (cap, prune, z) between two</text>
-    <text x="42" y="472.5" font-size="10.8" fill="#1a202c">preset packages from felt brain cost.</text>
+    <text x="42" y="472.5" font-size="10.8" fill="#1a202c">preset packages from a perfect brain-cost price reading.</text>
     <text x="42" y="490.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> Fresh seeds 95001–95048 (n=48): +3.64 vs EVO-R (44/48, +8.8%), +2.87 vs SHAM (39/48,</text>
-    <text x="42" y="504.5" font-size="10.8" fill="#1a202c">+6.8%), +3.16 vs FIXED (43/48); all p_v2 = 5.0e-6.</text>
-    <text x="42" y="522.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Constructed brainSwitch world (×1/×12, switch .001); noise-free bodily cue; packages taken from</text>
-    <text x="42" y="536.5" font-size="10.2" fill="#4a5568">headroom oracle.</text>
+    <text x="42" y="504.5" font-size="10.8" fill="#1a202c">+6.8%), +3.16 vs FIXED (43/48); exact p ≤ 1.5e-7; replicated on new seeds.</text>
+    <text x="42" y="522.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Constructed brainSwitch world (×1/×12, switch .001); perfect price cue (reads simulator state);</text>
+    <text x="42" y="536.5" font-size="10.2" fill="#4a5568">packages taken from headroom oracle.</text>
   </g>
   <line x1="60" y1="554" x2="60" y2="568" stroke="#475569" stroke-width="2" marker-end="url(#arrowDown)"/>
   <g>
@@ -66,9 +66,9 @@
     <text x="621" y="597" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">NOT SHOWN (0 FINALS)</text>
     <text x="42" y="623.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Requires L2 control to make L1 self-revision pay ≥ 1.5× more (plus factorial mean and</text>
     <text x="42" y="637.5" font-size="10.8" fill="#1a202c">sign gates in L3-I through L3-III).</text>
-    <text x="42" y="655.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> All 8 designs/screens missed pre-registered bars: L3 (1.44×), L3b (1.444×), L3c</text>
-    <text x="42" y="669.5" font-size="10.8" fill="#1a202c">(stopped, confound), L3-I scr1 (f = −0.45, 19/48), L3-I scr2 (0/16), L3-II (+1.37 vs BLIND),</text>
-    <text x="42" y="684.0" font-size="10.8" fill="#1a202c">L3-III (d = −5.81, 1/16), L3-IV-H0 (dO = +0.49 / −1.91 vs bar 4).</text>
+    <text x="42" y="655.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> All 8 designs/screens missed prespecified bars: L3 (1.44×), L3b (1.444×), L3c (stopped,</text>
+    <text x="42" y="669.5" font-size="10.8" fill="#1a202c">confound), L3-I scr1 (f = −0.45, 19/48), L3-I scr2 (0/16), L3-II (+1.37 vs BLIND), L3-III (d =</text>
+    <text x="42" y="684.0" font-size="10.8" fill="#1a202c">−5.81, 1/16), L3-IV-H0 (dO = +0.49 / −1.91 vs bar 4).</text>
     <text x="42" y="701.5" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Zero L3 finals run; reserved banks (97001–, 763001–, 852001–, 874001–) untouched. Post-hoc</text>
     <text x="42" y="716.0" font-size="10.2" fill="#4a5568">diagnosis: concave ecology &amp; founder-singleton overhead.</text>
   </g>
@@ -91,7 +91,7 @@
     <text x="752" y="301" font-size="10.2" fill="#1a202c">taste reviser from R_P12.</text>
     <text x="752" y="321" font-size="10.3" font-weight="700" fill="#1f624b">PASSED (80001–80048):</text>
     <text x="752" y="337" font-size="10.2" fill="#1a202c">+5.73 vs R_P12 (48/48);</text>
-    <text x="752" y="352" font-size="10.2" fill="#4a5568">tied R0 (−0.54, p=.89). Offline.</text>
+    <text x="752" y="352" font-size="10.2" fill="#4a5568">vs R0 −0.54 (n.s.). In-world search.</text>
     <text x="752" y="368" font-size="9.6" fill="#64748b">Start set after H1/H2 failed.</text>
   </g>
   <line x1="720" y1="479.5" x2="738" y2="479.5" stroke="#4c6788" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowRight)"/>
@@ -115,7 +115,7 @@
     <text x="754" y="629" font-size="10.2" fill="#78350f">• Git-frozen ≠ external pre-reg</text>
     <text x="754" y="645" font-size="10.2" fill="#78350f">• L0–L2 bounded; not open-ended</text>
     <text x="754" y="661" font-size="10.2" fill="#78350f">• No L3 bank spent (0 finals)</text>
-    <text x="754" y="677" font-size="10.2" fill="#78350f">• Scorer v2 fixed float-LCG bug</text>
+    <text x="754" y="677" font-size="10.2" fill="#78350f">• Exact p only (runner MC defective)</text>
     <text x="754" y="693" font-size="10.2" fill="#78350f">• All failed attempts disclosed</text>
   </g>
 

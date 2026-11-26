@@ -27,7 +27,7 @@ const panels = [
     gate: 0.7,
     gateLabel: 'bar ≥ 0.7',
     ymin: -10, ymax: 14, yTicks: [-10, -5, 0, 5, 10],
-    sub: `mean +${stats.datasets.g7c.vsTASTEONLY.reported.meanDiff.toFixed(2)} [+${stats.datasets.g7c.vsTASTEONLY.ci95[0].toFixed(2)}, +${stats.datasets.g7c.vsTASTEONLY.ci95[1].toFixed(2)}] · 66/96 wins (3 ties) · p_v2 = 5.0e-6`,
+    sub: `mean +${stats.datasets.g7c.vsTASTEONLY.reported.meanDiff.toFixed(2)} [+${stats.datasets.g7c.vsTASTEONLY.ci95[0].toFixed(2)}, +${stats.datasets.g7c.vsTASTEONLY.ci95[1].toFixed(2)}] · 66/96 wins (3 ties) · exact p = 9.4e-9`,
   },
   {
     id: 'B',
@@ -38,7 +38,7 @@ const panels = [
     gate: 0.7,
     gateLabel: 'bar ≥ 0.7',
     ymin: -2, ymax: 23, yTicks: [0, 5, 10, 15, 20],
-    sub: `mean +${stats.datasets.g7c.vsMOVEONLY.reported.meanDiff.toFixed(2)} [+${stats.datasets.g7c.vsMOVEONLY.ci95[0].toFixed(2)}, +${stats.datasets.g7c.vsMOVEONLY.ci95[1].toFixed(2)}] · 96/96 wins · p_v2 = 5.0e-6`,
+    sub: `mean +${stats.datasets.g7c.vsMOVEONLY.reported.meanDiff.toFixed(2)} [+${stats.datasets.g7c.vsMOVEONLY.ci95[0].toFixed(2)}, +${stats.datasets.g7c.vsMOVEONLY.ci95[1].toFixed(2)}] · 96/96 wins · exact p = 1.3e-29`,
   },
   {
     id: 'C',
@@ -82,7 +82,7 @@ let svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Helvetica Neue, Arial, DejaVu Sans, sans-serif">
   <rect x="0" y="0" width="${W}" height="${H}" fill="#ffffff"/>
   <text x="24" y="30" font-size="17" font-weight="700" fill="#1a202c">Per-Seed Paired Population Differences: G7c (L1) and Fly-RSI L2 Finals</text>
-  <text x="24" y="49" font-size="11.5" fill="#4a5568">Seeds sorted by paired difference (mean late flies, ticks 10,100–20,000). Solid dark line: mean; blue band: 95% bootstrap CI (20,000 resamples); dashed orange: pre-registered bar.</text>
+  <text x="24" y="49" font-size="11.5" fill="#4a5568">Seeds sorted by paired difference (mean late flies, ticks 10,100–20,000). Solid dark line: mean; blue band: 95% bootstrap CI (20,000 resamples); dashed orange: prespecified bar.</text>
 `;
 
 function drawPanel(p) {
@@ -170,7 +170,7 @@ svg += `  <g transform="translate(24, 616)">
     <rect x="380" y="-9" width="16" height="10" fill="#2563eb" fill-opacity="0.18"/>
     <text x="402" y="0" font-size="10.2" fill="#334155">95% bootstrap CI</text>
     <line x1="504" y1="-4" x2="526" y2="-4" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3"/>
-    <text x="532" y="0" font-size="10.2" fill="#334155">Pre-registered bar</text>
+    <text x="532" y="0" font-size="10.2" fill="#334155">Prespecified bar</text>
     <text x="646" y="0" font-size="9.6" fill="#64748b">Note: G7c per-seed diffs stored at 0.1 resolution by solo.mjs.</text>
   </g>
 </svg>

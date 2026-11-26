@@ -40,7 +40,7 @@ const rungs = [
     statusType: 'pass',
     mechanism: 'Logistic taste learner (Walsh masks, 32-slot replay, confidence gate) and eligibility-trace movement Q-learner. Learned weights reset at birth.',
     evidence: 'G1–G4 closed across two fresh-seed finals (50001–50008 and 60001–60008; G4 FIXED vs FROZEN 8/8 in both finals).',
-    caveat: 'Default 40×40 Microverse; G3 movement benefit is mostly innate instinct; G1–G6 finals are logged (no raw JSON committed).',
+    caveat: 'Default 40×40 Microverse; G3 movement benefit is mostly innate instinct; G1–G6 finals reproduce bit for bit at their commits.',
   },
   {
     badge: 'L1',
@@ -56,9 +56,9 @@ const rungs = [
     title: 'In-Life Reviser Tuning (Fly-RSI L2)',
     status: 'SHOWN (95001–95048)',
     statusType: 'pass',
-    mechanism: 'Hand-written rule switches taste and movement reviser genes (cap, prune, z) between two preset packages from felt brain cost.',
-    evidence: `Fresh seeds 95001–95048 (n=48): +${l2e.mean.toFixed(2)} vs EVO-R (${l2e.wins}/48, +${l2relE.toFixed(1)}%), +${l2s.mean.toFixed(2)} vs SHAM (${l2s.wins}/48, +${l2relS.toFixed(1)}%), +${l2f.mean.toFixed(2)} vs FIXED (${l2f.wins}/48); all p_v2 = 5.0e-6.`,
-    caveat: 'Constructed brainSwitch world (×1/×12, switch .001); noise-free bodily cue; packages taken from headroom oracle.',
+    mechanism: 'Hand-written rule switches taste and movement reviser genes (cap, prune, z) between two preset packages from a perfect brain-cost price reading.',
+    evidence: `Fresh seeds 95001–95048 (n=48): +${l2e.mean.toFixed(2)} vs EVO-R (${l2e.wins}/48, +${l2relE.toFixed(1)}%), +${l2s.mean.toFixed(2)} vs SHAM (${l2s.wins}/48, +${l2relS.toFixed(1)}%), +${l2f.mean.toFixed(2)} vs FIXED (${l2f.wins}/48); exact p ≤ 1.5e-7; replicated on new seeds.`,
+    caveat: 'Constructed brainSwitch world (×1/×12, switch .001); perfect price cue (reads simulator state); packages taken from headroom oracle.',
   },
   {
     badge: 'L3',
@@ -66,7 +66,7 @@ const rungs = [
     status: 'NOT SHOWN (0 FINALS)',
     statusType: 'fail',
     mechanism: 'Requires L2 control to make L1 self-revision pay ≥ 1.5× more (plus factorial mean and sign gates in L3-I through L3-III).',
-    evidence: 'All 8 designs/screens missed pre-registered bars: L3 (1.44×), L3b (1.444×), L3c (stopped, confound), L3-I scr1 (f = −0.45, 19/48), L3-I scr2 (0/16), L3-II (+1.37 vs BLIND), L3-III (d = −5.81, 1/16), L3-IV-H0 (dO = +0.49 / −1.91 vs bar 4).',
+    evidence: 'All 8 designs/screens missed prespecified bars: L3 (1.44×), L3b (1.444×), L3c (stopped, confound), L3-I scr1 (f = −0.45, 19/48), L3-I scr2 (0/16), L3-II (+1.37 vs BLIND), L3-III (d = −5.81, 1/16), L3-IV-H0 (dO = +0.49 / −1.91 vs bar 4).',
     caveat: 'Zero L3 finals run; reserved banks (97001–, 763001–, 852001–, 874001–) untouched. Post-hoc diagnosis: concave ecology & founder-singleton overhead.',
   },
 ];
@@ -116,7 +116,7 @@ let svg = `<?xml version="1.0" encoding="UTF-8"?>
   </defs>
 
   <rect x="0" y="0" width="${W}" height="${H}" fill="#ffffff"/>
-  <text x="28" y="32" font-size="18" font-weight="700" fill="${colors.text}">Microverse Pre-Registered Self-Improvement Ladder (L0 to L3)</text>
+  <text x="28" y="32" font-size="18" font-weight="700" fill="${colors.text}">Microverse Prespecified Self-Improvement Ladder (L0 to L3)</text>
   <text x="28" y="52" font-size="12" fill="${colors.muted}">Single closed 40×40 torus breeding world; plans frozen in git before runs; finals run once on fresh seeds.</text>
 `;
 
@@ -195,7 +195,7 @@ svg += `  <g>
     <text x="${sideX + 10}" y="${b1y + 60}" font-size="10.2" fill="${colors.text}">taste reviser from R_P12.</text>
     <text x="${sideX + 10}" y="${b1y + 80}" font-size="10.3" font-weight="700" fill="${colors.passBadge}">PASSED (80001–80048):</text>
     <text x="${sideX + 10}" y="${b1y + 96}" font-size="10.2" fill="${colors.text}">+5.73 vs R_P12 (48/48);</text>
-    <text x="${sideX + 10}" y="${b1y + 111}" font-size="10.2" fill="${colors.muted}">tied R0 (−0.54, p=.89). Offline.</text>
+    <text x="${sideX + 10}" y="${b1y + 111}" font-size="10.2" fill="${colors.muted}">vs R0 −0.54 (n.s.). In-world search.</text>
     <text x="${sideX + 10}" y="${b1y + 127}" font-size="9.6" fill="${colors.lightMuted}">Start set after H1/H2 failed.</text>
   </g>
 `;
@@ -227,7 +227,7 @@ svg += `  <g>
     <text x="${sideX + 12}" y="${b3y + 58}" font-size="10.2" fill="#78350f">• Git-frozen ≠ external pre-reg</text>
     <text x="${sideX + 12}" y="${b3y + 74}" font-size="10.2" fill="#78350f">• L0–L2 bounded; not open-ended</text>
     <text x="${sideX + 12}" y="${b3y + 90}" font-size="10.2" fill="#78350f">• No L3 bank spent (0 finals)</text>
-    <text x="${sideX + 12}" y="${b3y + 106}" font-size="10.2" fill="#78350f">• Scorer v2 fixed float-LCG bug</text>
+    <text x="${sideX + 12}" y="${b3y + 106}" font-size="10.2" fill="#78350f">• Exact p only (runner MC defective)</text>
     <text x="${sideX + 12}" y="${b3y + 122}" font-size="10.2" fill="#78350f">• All failed attempts disclosed</text>
   </g>
 

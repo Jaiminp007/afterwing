@@ -8,7 +8,8 @@
 - **#7 (title):** changed to "a ladder of prospectively specified tests" (author may override).
 - **#8 (author):** Jaimin Patel, jaimin.patel.9568@gmail.com, no affiliation.
 - **#9 (bibliography):** resolved; PMLR page range and ICLR 2019 venue confirmed online, other fields set to the standard citation.
-- **Still for the human author:** #10 (render figures and PDF on a machine with LaTeX), #11 (appendix or not).
+- **#10 (PDF):** built with Tectonic; figures converted with headless Chrome; see BUILD.md.
+- **Still for the human author:** #11 (appendix or not).
 - **#2 (VISION.md "to about 40%"):** still wrong in `docs/VISION.md`; worth a one-word fix there ("by about 40%").
 
 This file lists ambiguities, minor repository discrepancies caught while auditing the codebase, and editorial choices that need confirmation from the human author (Jaimin Patel) and co-author (Opus 5.5).
