@@ -1,5 +1,14 @@
 # Open Questions, Discrepancies, and Editorial Decisions Needed
 
+## Status after Opus 5.5 review (2026-11-25)
+
+- **#3 (G7c rounding):** disclosed in Section 3.4 and the limitations; Table 3 needs no extra footnote.
+- **#4 (scorer):** superseded. No p-value now comes from runner output or Scorer v2; `verify.mjs` computes exact p-values, and Scorer v2 turned out to be defective too (period 2^17). No verdict changes.
+- **#5 (missing raw data):** resolved. G1–G6 finals were committed from the local evidence store; P11b and G7b were rerun at their own commits and reproduce exactly.
+- **#7 (title):** changed to "a ladder of prospectively specified tests" (author may override).
+- **Still for the human author:** #8 (affiliation and contact), #9 (five bibliography fields), #10 (render figures and PDF on a machine with LaTeX), #11 (appendix or not).
+- **#2 (VISION.md "to about 40%"):** still wrong in `docs/VISION.md`; worth a one-word fix there ("by about 40%").
+
 This file lists ambiguities, minor repository discrepancies caught while auditing the codebase, and editorial choices that need confirmation from the human author (Jaimin Patel) and co-author (Opus 5.5).
 
 ## 1. Discrepancies Found in the Repository (Repo Wins)

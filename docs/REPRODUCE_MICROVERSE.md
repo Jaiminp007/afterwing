@@ -11,7 +11,7 @@ CPU core minus one.
 
 | Result | Seeds | Code commit | Command | Raw data |
 |---|---|---|---|---|
-| G1–G6 final 1 | 50001–50008 | `da995b0` | `node microverse/suite.mjs final 50000` | `evidence/microverse/suite-final-50000-1794893331557.json` |
+| G1–G6 final 1 | 50001–50008 | `73ffefe` | `node microverse/suite.mjs final 50000` | `evidence/microverse/suite-final-50000-1794893331557.json` |
 | G1–G6 final 2 | 60001–60008 | `da995b0` | `node microverse/suite.mjs final 60000` | `evidence/microverse/suite-final-60000-1794893845135.json` |
 | G7c vs TASTEONLY | 94001–94096 | `dd0ea19` | `node microverse/solo.mjs SELF TASTEONLY $(seq -s, 94001 94096)` | `evidence/microverse/g7c-final-94001-94096-vs-TASTEONLY.json` |
 | G7c vs MOVEONLY | 94001–94096 | `dd0ea19` | `node microverse/solo.mjs SELF MOVEONLY $(seq -s, 94001 94096)` | `evidence/microverse/g7c-final-94001-94096-vs-MOVEONLY.json` |
@@ -34,8 +34,10 @@ are reconstructed from the runners and from the arms and fields in the raw data
 
 Notes:
 
-- G1–G6 were closed with the code at `da995b0`. Later code (G7c onward) passes the
-  same suite on practice seeds only, so check out `da995b0` to reproduce those finals.
+- G1–G6 final run 1 was frozen at `73ffefe` and final run 2 at `da995b0` (which
+  changed the world: faster food relocation, lower brain cost). Later code (G7c
+  onward) passes the same suite on practice seeds only, so check out each final's own
+  commit to reproduce it.
 - The original P11b gate kept only summary numbers. `microverse/p11b-gate.mjs`
   reruns it and saves per-seed data. Run it at `07b54e7`: there it reproduces the
   log exactly. With current code it does not, because G7c later changed the default

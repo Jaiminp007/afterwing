@@ -53,3 +53,13 @@ with the auditor's independent exact implementation (L2: 1.83e-12, 1.48e-7,
 No verdict changes. A second defect was found while checking: Scorer v2 (used from
 L3-I on) takes its sign from bit 16 of a power-of-two LCG, period 2^17, so 200,000
 draws give only 8,192 distinct sign vectors at n = 48 and 4,096 at n = 96.
+
+### G1–G6 final run 1 (seeds 50001–50008): first rerun used the wrong commit
+
+The first rerun used `da995b0`, the code of final run 2. Final run 1 was frozen at
+`73ffefe`; `da995b0` changed the world (faster food relocation, lower brain cost).
+That rerun is therefore not a reproduction and does not count. For the record, it
+gave G1–G6 pass, G6 gain .373 / late .735 (log at `73ffefe`: .394 / .775), and G7
+8/8 (log: 3/8). It is the final-run-1 seeds under final-run-2 code, an unplanned
+look at spent seeds; it is not a test of anything and the paper does not use it.
+The rerun at `73ffefe` follows.
