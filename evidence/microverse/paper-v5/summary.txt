@@ -1,0 +1,28 @@
+L2 base: means {"META":44.63,"SHAM":40.74,"EVOR":41.6,"FIXED":41.57}
+  META-EVOR                    mean   3.02  wins 14/16  p 6.1e-5
+  META-SHAM                    mean   3.88  wins 16/16  p 1.5e-5
+  META-FIXED                   mean   3.05  wins 15/16  p 1.8e-4
+L2 lowcost: means {"META":46.5,"SHAM":45.3,"EVOR":45.65,"FIXED":45.04}
+  META-EVOR                    mean   0.85  wins 10/16  p 8.5e-2
+  META-SHAM                    mean   1.20  wins 10/16  p 9.1e-2
+  META-FIXED                   mean   1.46  wins 13/16  p 7.9e-3
+L2 highcost: means {"META":41.96,"SHAM":38.69,"EVOR":40.77,"FIXED":39.46}
+  META-EVOR                    mean   1.19  wins 13/16  p 3.3e-2
+  META-SHAM                    mean   3.27  wins 13/16  p 2.3e-3
+  META-FIXED                   mean   2.50  wins 14/16  p 2.3e-4
+L2 slowswitch: means {"META":45.84,"SHAM":41.63,"EVOR":42.39,"FIXED":42.04}
+  META-EVOR                    mean   3.44  wins 14/16  p 2.3e-4
+  META-SHAM                    mean   4.21  wins 14/16  p 1.4e-4
+  META-FIXED                   mean   3.80  wins 14/16  p 9.2e-5
+L2 fastswitch: means {"META":42.46,"SHAM":40.72,"EVOR":39.85,"FIXED":39.1}
+  META-EVOR                    mean   2.61  wins 13/16  p 1.4e-3
+  META-SHAM                    mean   1.74  wins 11/16  p 2.5e-2
+  META-FIXED                   mean   3.36  wins 15/16  p 3.1e-5
+L2 inert (lean=full): means {"META":40.78,"SHAM":41.04}
+  META-SHAM (RNG only)         mean  -0.26  wins 7/16  p 6.5e-1
+G7c epoch 3000: SELF-TASTEONLY               mean   2.17  wins 15/16  p 4.6e-5  (SELF 56.92, TASTEONLY 54.76)
+G7c epoch 3000: SELF-MOVEONLY                mean   9.13  wins 16/16  p 1.5e-5  (SELF 56.92, MOVEONLY 47.78)
+G7c epoch 2000: SELF-TASTEONLY               mean   2.77  wins 12/16  p 5.6e-3  (SELF 56.64, TASTEONLY 53.89)
+G7c epoch 2000: SELF-MOVEONLY                mean   9.38  wins 16/16  p 1.5e-5  (SELF 56.64, MOVEONLY 47.26)
+G7c epoch 4500: SELF-TASTEONLY               mean   3.05  wins 12/16  p 6.8e-3  (SELF 58.58, TASTEONLY 55.53)
+G7c epoch 4500: SELF-MOVEONLY                mean   5.88  wins 15/16  p 1.1e-4  (SELF 58.58, MOVEONLY 52.7)

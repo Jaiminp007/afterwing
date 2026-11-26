@@ -144,3 +144,28 @@ TASTEONLY 54.82, and MOVEONLY 47.87, rounded to 0.01.
 
 **R-L2 overall: PASS**, with all three gates passing.
 **R-G7c overall: PASS**, with both gates passing. No gated contrast failed.
+
+## V5. Sensitivity to world settings (practice seeds 101–116, report-only)
+
+Runner: `docs/paper/run-v5.sh`; scorer: `docs/paper/score-v5.mjs` (exact test). Raw data
+and the printed summary: `evidence/microverse/paper-v5/`.
+
+| Test | Variant | vs EVO-R / TASTEONLY | vs SHAM / MOVEONLY | vs FIXED |
+|---|---|---|---|---|
+| L2 | base (×12, switch .001) | +3.02, 14/16, 6e-5 | +3.88, 16/16, 1.5e-5 | +3.05, 15/16, 1.8e-4 |
+| L2 | low cost ×8 | +0.85, 10/16, .085 | +1.20, 10/16, .091 | +1.46, 13/16, .008 |
+| L2 | high cost ×16 | +1.19, 13/16, .033 | +3.27, 13/16, .0023 | +2.50, 14/16, 2.3e-4 |
+| L2 | slow switch .0005 | +3.44, 14/16, 2.3e-4 | +4.21, 14/16, 1.4e-4 | +3.80, 14/16, 9.2e-5 |
+| L2 | fast switch .002 | +2.61, 13/16, .0014 | +1.74, 11/16, .025 | +3.36, 15/16, 3.1e-5 |
+| G7c | epoch 3000 (base) | +2.17, 15/16, 4.6e-5 | +9.13, 16/16, 1.5e-5 | |
+| G7c | epoch 2000 | +2.77, 12/16, .0056 | +9.38, 16/16, 1.5e-5 | |
+| G7c | epoch 4500 | +3.05, 12/16, .0068 | +5.88, 15/16, 1.1e-4 | |
+| L2 | inert packages, META − SHAM | −0.26, 7/16, p .65 | | |
+
+**Reading (rule fixed in the plan):** every gated contrast is positive in every
+variant, so both effects are "robust to these settings" in the plan's sense. The L2
+effect's size depends on the world: at ×8 the gains over EVO-R and SHAM are about one
+fly and would not clear the original bars, and at ×16 the gain over EVO-R shrinks to
++1.19. The chosen ×12 sits near the best value tried. **Inert check (amendment A1):**
+with lean = full, META − SHAM = −0.26 (p .65), so SHAM's separate random stream does not
+explain the L2 SHAM contrast.

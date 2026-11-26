@@ -438,7 +438,33 @@ G7c & \texttt{SELF} $-$ \texttt{MOVEONLY} & \RepGsevenCMoveMean{} [\GsevenCMoveM
 The replication confirms the population effects under the same world and controls. It does not remove the limitations of Section~\ref{sec:results}: the same perfect price cue, mutation path and sham construction apply.
 
 \subsection{Sensitivity to world settings}
-% FILLED IN FROM evidence/microverse/paper-v5 WHEN V5 COMPLETES.
+The world values behind L2 and G7c were chosen during design, so we varied them on practice seeds 101--116 (report-only, no gates; reading rule fixed in the plan: an effect is called robust to these settings only if every gated contrast keeps a positive sign in every variant). Table~\ref{tab:sensitivity} gives the results, scored with the exact test (\texttt{docs/paper/score-v5.mjs}).
+
+\begin{table}[t]
+\centering
+\caption{Sensitivity of L2 and G7c to world settings (practice seeds 101--116, $n=16$; mean late-population difference, wins, exact one-sided $p$). Report-only.}
+\label{tab:sensitivity}
+\small
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+\textbf{Test} & \textbf{Variant} & \textbf{vs.\ \texttt{EVO-R} / \texttt{TASTEONLY}} & \textbf{vs.\ \texttt{SHAM} / \texttt{MOVEONLY}} & \textbf{vs.\ \texttt{FIXED}} \\
+\midrule
+L2 & base (cost $\times 12$, switch $.001$) & $+3.02$, 14/16, $6\times 10^{-5}$ & $+3.88$, 16/16, $2\times 10^{-5}$ & $+3.05$, 15/16, $2\times 10^{-4}$ \\
+L2 & low cost ($\times 8$) & $+0.85$, 10/16, $.085$ & $+1.20$, 10/16, $.091$ & $+1.46$, 13/16, $.008$ \\
+L2 & high cost ($\times 16$) & $+1.19$, 13/16, $.033$ & $+3.27$, 13/16, $.002$ & $+2.50$, 14/16, $2\times 10^{-4}$ \\
+L2 & slow switching ($.0005$) & $+3.44$, 14/16, $2\times 10^{-4}$ & $+4.21$, 14/16, $1\times 10^{-4}$ & $+3.80$, 14/16, $9\times 10^{-5}$ \\
+L2 & fast switching ($.002$) & $+2.61$, 13/16, $.001$ & $+1.74$, 11/16, $.025$ & $+3.36$, 15/16, $3\times 10^{-5}$ \\
+\midrule
+G7c & base (epoch 3,000 ticks) & $+2.17$, 15/16, $5\times 10^{-5}$ & $+9.13$, 16/16, $2\times 10^{-5}$ & \\
+G7c & short epochs (2,000) & $+2.77$, 12/16, $.006$ & $+9.38$, 16/16, $2\times 10^{-5}$ & \\
+G7c & long epochs (4,500) & $+3.05$, 12/16, $.007$ & $+5.88$, 15/16, $1\times 10^{-4}$ & \\
+\midrule
+L2 & inert packages (lean $=$ full), \texttt{META} $-$ \texttt{SHAM} & \multicolumn{3}{l}{$-0.26$, 7/16, $p=.65$: the random-stream difference alone has no detectable effect} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+By the prespecified rule, both effects are robust to these settings: every gated contrast is positive in every variant. The size of the L2 effect, however, depends on the world. With a smaller cost contrast ($\times 8$) the advantage over \texttt{EVO-R} and \texttt{SHAM} falls to about one fly and would not clear the original bars; with a larger one ($\times 16$) the advantage over \texttt{EVO-R} also shrinks, to $+1.19$. The chosen world ($\times 12$) sits near the best of the values tried, which is what one expects of a world selected for its headroom. G7c's taste-only contrast holds or grows across epoch lengths; its move-only contrast shrinks with long epochs but stays large. The inert-package check answers audit finding 5: when the cue cannot act through genes, \texttt{META} and \texttt{SHAM} differ by $-0.26$ flies, so \texttt{SHAM}'s separate random stream does not explain the $+2.87$ \texttt{META} $-$ \texttt{SHAM} gap.
 
 \subsection{Defects in the runners' Monte Carlo test}
 The audit found that the float-multiplied LCG in \texttt{solo.mjs} and \texttt{p13parts.mjs} enters a 419-state cycle after 7,245 updates; on a constructed case with exact $p=1/64$ it printed $0.0096$, which would pass the $0.01$ bar. We further found that the corrected Scorer v2 takes its sign from bit 16 of a power-of-two LCG, whose period is $2^{17}$, giving 8,192 distinct sign vectors in 200,000 draws at $n=48$. Neither defect changes a verdict reported here (Section~\ref{sec:threats}), but both make the printed values unreliable near the bar, so this paper uses only the exact test.
