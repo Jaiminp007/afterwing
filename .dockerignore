@@ -1,8 +1,0 @@
-.git
-runs
-data
-.venv*
-node_modules
-__pycache__
-evidence
-.env*

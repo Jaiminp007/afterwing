@@ -1,5 +1,8 @@
 # Bounded fly-RSI log
 
+<img src="img/ladder.png" alt="The L0 to L3 ladder: L0, L1 and L2 shown; L3 not shown" width="100%">
+
+
 Goals and gates: [FLY_RSI_GOALS.md](FLY_RSI_GOALS.md).
 
 ## Designs ruled out before L2 (headroom, practice seeds 101–116, Δ flies vs SELF)
@@ -32,6 +35,9 @@ Attempt 1, means: META 44.73, SHAM 41.18, EVO-R 41.61, FIXED 41.09, NOREV 32.74.
 
 ## L2 final (fresh seeds 95001–95048, run once; commit a8e5e6b) — PASSED
 
+<img src="img/l2-final.png" alt="L2 final, 48 fresh worlds: per-world differences vs evolution, matched sham and no tuning" width="100%">
+
+
 Mean flies: META 44.83, SHAM 41.96, EVO-R 41.19, FIXED 41.67. Raw data: `evidence/microverse/fly-rsi-l2-final-95001-95048.json`.
 
 | Gate | Δ flies | Seeds positive | p (200k sign flips) | Bar | Result |
@@ -47,6 +53,9 @@ Mean flies: META 44.83, SHAM 41.96, EVO-R 41.19, FIXED 41.67. Raw data: `evidenc
 - The world was built so that the best reviser setting changes during life, and the felt signal is noise-free.
 
 ## Bounded fly-RSI: status
+
+<img src="img/l3-attempts.png" alt="Ten L3 practice designs, all below the registered 1.5x bar; best 1.444x" width="100%">
+
 
 | Level | Status |
 |---|---|
