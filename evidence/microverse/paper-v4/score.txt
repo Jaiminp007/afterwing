@@ -1,0 +1,22 @@
+V4/A1: exact one-sided sign-flip p from stats.mjs; runner p-values ignored.
+L2 uses perSeed arm differences; G7c uses saved diffs rounded to 0.1.
+Sign-flip grid: 0.01. Bootstrap: 20,000 percentile resamples, seed 4242.
+
+Arm means (late mean population):
+R-L2 META: 44.958333
+R-L2 SHAM: 41.353750
+R-L2 EVOR: 41.122917
+R-L2 FIXED: 41.237292
+R-G7c vs TASTEONLY: SELF 57.57, TASTEONLY 54.82 (stored means rounded to 0.01)
+R-G7c vs MOVEONLY: SELF 57.57, MOVEONLY 47.87 (stored means rounded to 0.01)
+
+| Replication | Contrast | Mean difference | Positive seeds/n | Exact one-sided p | Bootstrap 95% CI | Bar | Verdict |
+|---|---|---:|---:|---:|---|---|---|
+| R-L2 | META-EVOR | 3.835417 | 44/48 | 2.38884467763e-11 | [2.998542, 4.670208] | mean >= 1; p < .01 | PASS |
+| R-L2 | META-SHAM | 3.604583 | 42/48 | 1.50345513816e-9 | [2.690417, 4.501458] | mean >= 1; p < .01 | PASS |
+| R-L2 | META-FIXED | 3.721042 | 45/48 | 1.25304211451e-11 | [2.940417, 4.471667] | mean > 0; p < .01 | PASS |
+| R-G7c | SELF-TASTEONLY | 2.747917 | 77/96 | 2.53804770174e-13 | [2.137500, 3.354167] | mean >= 0.7; p < .01 | PASS |
+| R-G7c | SELF-MOVEONLY | 9.705208 | 96/96 | 1.26217744835e-29 | [9.138542, 10.281250] | mean >= 0.7; p < .01 | PASS |
+
+R-L2 overall: PASS (all three gates required)
+R-G7c overall: PASS (both gates required)

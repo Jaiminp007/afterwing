@@ -504,8 +504,8 @@ td.vs{font-weight:400;color:var(--ink-2);padding-left:14px}
     <ol class="ladder" id="ladder" aria-label="Afterwing self-improvement ladder">
       <li data-rung="L0"><b>L0</b><span class="lt">Lifetime learning</span><span class="ld">A fly gets better at telling food from poison during its own life.</span><span class="ls">Shown</span></li>
       <li data-rung="L1"><b>L1</b><span class="lt">Program revision</span><span class="ld">Lineages add and drop the features their learning uses, from their own evidence.</span><span class="ls">Shown</span></li>
-      <li data-rung="L2"><b>L2</b><span class="lt">Reviser tuning</span><span class="ld">Flies retune the settings of the thing that revises them, in response to brain cost.</span><span class="ls">Shown</span></li>
-      <li data-rung="L3" class="no"><b>L3</b><span class="lt">Compounding</span><span class="ld">Each level makes the next pay off more, at least 1.5×. Four designs tried; none cleared the bar.</span><span class="ls">Not shown</span></li>
+      <li data-rung="L2"><b>L2</b><span class="lt">Reviser tuning</span><span class="ld">Flies retune the settings of the thing that revises them, from a perfect reading of the current brain-cost price.</span><span class="ls">Shown</span></li>
+      <li data-rung="L3" class="no"><b>L3</b><span class="lt">Compounding</span><span class="ld">Each level makes the next pay off more, at least 1.5×. Eight designs and screens tried; none cleared the bar.</span><span class="ls">Not shown</span></li>
     </ol>
     <p class="about-scope">This is bounded self-improvement in a hand-built world, not open-ended intelligence, and the flies are not models of real insects. Richer minds, larger worlds and societies remain the long-term direction, not something this code has shown.</p>
   </div>
@@ -654,7 +654,7 @@ td.vs{font-weight:400;color:var(--ink-2);padding-left:14px}
             <tr><td data-label="Track">MaleCNS arena</td><td data-label="What it is">Whole-connectome flies: 166,700 neurons and 25,582,938 directed edges each; local runtime, needs a C++17 compiler</td><td class="n" data-label="Result">one birth, tick 300</td><td data-label="Status"><span class="st">construction path only</span></td></tr>
           </tbody>
         </table>
-        <p class="scope">Scope: hand-written rules in a constructed world. The self-improvement shown here is bounded: flies revise which features they use and retune their reviser's settings. It is not open-ended intelligence, and these are not models of real insects.</p>
+        <p class="scope">Scope: hand-written rules in a constructed world. The self-improvement shown here is bounded: flies revise which features they use and retune their reviser's settings. It is not open-ended intelligence, and these are not models of real insects. G7c and L2 replicated on new seed banks, and later controls narrowed both: about 60% of the L2 benefit comes from reading the price once at birth, and choosing movement senses from evidence beats choosing them at random but not giving the fly the two useful senses from the start. <a href="https://github.com/Jaiminp007/afterwing/blob/main/docs/paper/microverse-bounded-self-improvement.pdf">Read the paper</a>.</p>
       </div>
     </div>
   </div>

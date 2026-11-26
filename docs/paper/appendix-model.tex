@@ -1,0 +1,61 @@
+% Moved from the v1 main text. Model details for Appendix A.
+\section{Microverse model details}
+\label{app:model}
+\subsection{Ecology and Life Cycle}
+
+Each world runs for $T = 20{,}000$ ticks on a $40\times 40$ toroidal grid with carrying capacity $400$ flies (Table~\ref{tab:world-params}). Eight circular food patches (radius 4, plant density 0.6) hold plants that regrow by $0.08$ units per tick up to capacity $4.0$. Every 50 ticks, one patch chosen uniformly at random is erased and re-seeded at a new random center, forcing flies to relocate rather than camp indefinitely on a single patch.
+
+Each simulation begins with 60 founders placed uniformly at random with initial energy $50$ (30 per strain in two-strain competitions; 60 in solo worlds). On each tick, living flies act in a reproducibly shuffled order: each fly chooses one of 5 moves (stay or step north, east, south, west), pays basal metabolism ($0.06$), movement cost ($0.02$ if stepping), and per-feature brain maintenance cost ($0.0005$ per active taste or movement mask per tick). If a plant with amount $> 0.2$ occupies the destination cell, the fly predicts whether the food is edible; if its predicted probability exceeds \texttt{acceptAt} ($0.4$) or with taste-exploration probability \texttt{tasteEps} ($0.05$), it takes a bite of $\min(\text{amount}, 1.5)$. Good food adds $+\text{take}$ energy; toxic food subtracts $\text{toxin}\times\text{take}$ (default $\text{toxin}=0.6$). Energy is capped at $100$. When a fly's energy reaches \texttt{birthEnergy} ($60$) and total population is below $400$, it pays $30$ energy to spawn an asexual child in an adjacent cell with $25$ energy (the $5$-unit difference is dissipated). Flies die upon energy $\le 0$ (starvation) or age $\ge 1{,}200$ ticks.
+
+\begin{table}[t]
+\centering
+\caption{Default Microverse ecological parameters and genetic defaults (\texttt{microverse/sim.mjs}, \texttt{microverse/config.mjs}). Values reflect the post-G7c default world (fingerprint \texttt{bdaca307\dots}).}
+\label{tab:world-params}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Ecology parameter} & \textbf{Default} & \textbf{Brain / gene parameter} & \textbf{Default} \\
+\midrule
+Grid size (torus) & $40 \times 40$ & Initial taste masks (\texttt{S0Masks}) & 9 (bias + 8 singletons) \\
+Run length / snapshot interval & 20,000 / 100 ticks & \texttt{tasteStep} / \texttt{tasteCap} & $4.0$ / $16$ \\
+Food patches / radius / density & 8 / 4 / 0.6 & \texttt{tasteZ} / \texttt{tasteEvery} & $3.0$ / $8$ tastings \\
+Patch relocation / plant cap / regrow & 50 ticks / 4.0 / 0.08 & \texttt{tasteMemory} / \texttt{tastePrune} & $200$ / $2.0$ \\
+Bite size / default toxin & 1.5 / 0.6 & \texttt{acceptAt} / \texttt{tasteEps} & $0.4$ / $0.05$ \\
+Basal metabolism / move / brain cost & 0.06 / 0.02 / 0.0005 & Initial move masks (\texttt{MOVE0}) & 6 innate features \\
+Founders / capacity / max age & 60 / 400 / 1,200 & \texttt{moveStep} / \texttt{moveCap} / \texttt{eps} & $0.05$ / $12$ / $0.08$ \\
+Birth energy / cost / child energy & 60 / 30 / 25 & \texttt{moveZ} / \texttt{moveEvery} / \texttt{movePrune} & $3.0$ / $32$ / $0.5$ \\
+Odor kinds / redraw / rule epoch & 16 / 100 / 3,000 ticks & \texttt{moveAddInit} (G7c) / mutation & $2.0$ / $0.1$ \\
+Taste label noise / sense radius & 0.05 / 4 cells & Replay reservoir size / replays per bite & 32 / 1 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Non-Stationary Walsh-Basis Chemistry}
+
+Each plant belongs to one of $K=16$ odor kinds, each assigned an 8-bit odor code $x \in \{-1,+1\}^8$. Hidden food valence is governed by a Walsh-basis rule over $x$, where for bitmask $m \in \{0,\dots,255\}$ the Walsh feature is $\psi_m(x) = \prod_{b:\, (m \gg b)\,\&\,1} x_b$. Rules cycle deterministically every 3,000 ticks through four families (\texttt{microverse/config.mjs}):
+\begin{itemize}
+  \item \texttt{pairs}: three disjoint 2-bit Walsh products (weight 1 each, bias 0);
+  \item \texttt{staircase}: nested 1-, 2-, 3-, and 4-bit Walsh products on a 4-bit permutation (weights $1,2,2,1$, bias $0.5$);
+  \item \texttt{triples}: two disjoint 3-bit products (weight 1) plus one 1-bit term (weight $0.5$, bias 0);
+  \item \texttt{single}: one 1-bit Walsh term (weight 1, bias 0).
+\end{itemize}
+Each rule draws a fresh bit permutation and overall sign $s \in \{-1,+1\}$, with valence $v(x) = s \cdot \operatorname{sign}\!\big(\text{bias} + \sum_j c_j \psi_{m_j}(x)\big)$. Every 100 ticks, the 16 odor codes are redrawn from $\{0,\dots,255\}$ under balanced chemistry: exactly 8 good and 8 bad kinds per draw. Redrawing odor codes prevents flies from memorizing static kind IDs while keeping the hidden rule invariant within each 3,000-tick epoch. When a fly eats a plant, its binary taste label is flipped with probability $0.05$.
+
+\subsection{Dual Brain Architecture: L0 Learning and L1 Self-Revision}
+
+Each fly has two subsystems: a taste predictor and a movement controller. Both separate acquired weights (L0, reset at birth) from heritable structural feature masks and accumulated structural evidence (L1, inherited with optional mutation).
+
+\textbf{Taste subsystem.} A fly holds a list of Walsh masks $M_{\text{taste}}$ (starting from the bias mask $0$ and all 8 singletons, so 9 masks; maximum \texttt{tasteCap} $=16$) with weights $w_i \in [-8,8]$. The model probability is
+\[
+  p_{\text{model}}(x) = \sigma\!\left(\ln 3 + \frac{1}{\sqrt{|M_{\text{taste}}|}} \sum_{i} w_i \psi_{m_i}(x)\right),
+\]
+where $\sigma(z) = (1+e^{-z})^{-1}$. A confidence gate compares an exponential moving average (rate $0.05$) of the model's pre-update binary log-loss against the loss of a running base-rate predictor; if the model loss is not strictly lower, the fly falls back to its running base rate, and final output is clipped to $[0.05, 0.95]$ via $0.05 + 0.9\,p$. On each tasting, the fly updates $w$ by one logistic gradient step (\texttt{tasteStep} $=4$) on the current bite and one step on a sample drawn uniformly from a 32-slot reservoir buffer.
+
+For L1 taste self-revision (\texttt{tasteRevise = 'evid'}), the fly maintains decayed correlation evidence $\text{ev}[k]$ over all 256 masks and decayed squared residual $s^2$, updating on every bite with decay $D = 1 - 1/\texttt{tasteMemory}$ and pre-update residual $r$: $\text{ev}[k] \leftarrow D\,\text{ev}[k] + \psi_k(x)\,r$ and $s^2 \leftarrow D\,s^2 + r^2$. Every \texttt{tasteEvery} ($8$) tastings, if $|M_{\text{taste}}| \ge \texttt{tasteCap}$, the fly prunes the weakest higher-order mask ($\operatorname{popcount}(m)>1$) satisfying $|w_i| < \texttt{tastePrune}$ ($2$); founder singletons and bias are never pruned. If a slot is available, the fly forms the candidate set of absent one-bit extensions $m \mid 2^b$ of its current masks, selects $k^* = \arg\max_k |\text{ev}[k]|$, and admits $k^*$ if $|\text{ev}[k^*]| > \texttt{tasteZ}\sqrt{s^2}$ (\texttt{tasteZ} $=3$) at initial weight 0.
+
+\textbf{Movement subsystem.} For each of the 5 candidate moves, the fly computes 6 innate base features (bias, food amount at target cell, expected-value food at target cell, smell within radius 4, local crowding, normalized energy) plus 4 optional senses in the movement sense menu (near smell radius 2, far smell radius 6, indicator for stepping toward the highest-value sensed food cell within radius 4, and indicator for staying on worthwhile edible food). All food-smell features weight food solely by the fly's own expected value $p - (1-p)\cdot\text{toxin}$ for kinds it would accept, with no oracle valence leak. Actions are chosen $\varepsilon$-greedily ($\varepsilon = 0.08$) from a linear value function over movement masks $M_{\text{move}}$ (initialized with innate instinct weights \texttt{MOVE\_INIT}: food $0.5$, EV-food $1.0$, smell $1.0$, crowding $-0.3$). Weights update via an advantage-with-eligibility-trace rule ($\lambda = 0.8$, baseline rate $0.02$, \texttt{moveStep} $=0.05$, reward $\Delta E / 4$). L1 movement revision tracks trace-weighted residual evidence over the menu of optional singletons and move-dependent pairwise feature products, checking every 32 moves, pruning the weakest non-innate feature with $|w| < 0.5$ at cap 12, and admitting the top candidate when $|\text{ev}| > 3\sqrt{s^2}$. In the redesigned G7c operator, an admitted movement sense starts at an evidence-signed weight $\texttt{moveAddInit} \cdot \operatorname{sign}(\text{ev})$ with $\texttt{moveAddInit}=2$ (random sign for the matched sham).
+
+\textbf{Inheritance and opt-in extensions.} At birth, a child inherits its parent's taste masks, movement masks, genes, and structural evidence arrays (never learned weights). Under mutation ($m=0.1$), random mask additions/deletions and multiplicative log-normal gene perturbations ($\exp((u-0.5)\cdot 0.4)$) occur independently. All L2, L3, and P13b world modifications (\texttt{brainSwitch}, \texttt{rewriteCost}, \texttt{attention}, \texttt{quad}, \texttt{toxinNiche}, \texttt{toxinSwitch}, etc.) are strictly opt-in; every extension after G7c verified that the default-world fingerprint (\texttt{bdaca307\dots}) remained bit-for-bit unchanged.
+
