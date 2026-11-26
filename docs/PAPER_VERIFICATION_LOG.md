@@ -21,4 +21,9 @@ reviser, `dd0ea19`), so `SELF` with R\* genes is not the same fly as at P11b. Th
 gate contrast still passes with current code, and by more. The tie with the
 designer's R0 does not hold with current code: R0 is 1.52 flies better.
 
-Rerun at the original commit `07b54e7`: pending.
+**Rerun at the original commit `07b54e7`: reproduces the log exactly.** Means R\*
+55.54, R_P12 49.81, R0 56.08; R\* − R_P12 +5.73 (48/48), R\* − R0 −0.54 (21/48).
+Raw data: `evidence/microverse/p11b-final-80001-80048.json`. Exact one-sided
+sign-flip p for the gate: 3.55e-15; 95% bootstrap CI [5.10, 6.34]. For R\* − R0 the
+CI is [−1.32, 0.25]: the paper says "not significantly different from the designer's
+version", not "equal to it", because no equivalence test was registered.
