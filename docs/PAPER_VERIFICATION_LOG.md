@@ -84,3 +84,63 @@ is a valid base for the V4 replication.
 **V2 summary:** every final the paper cites reproduces exactly at its recorded commit
 (G1–G6 ×2, G7b, G7c, P11b, L2). P11b alone does not reproduce with current code,
 because G7c changed the default fly.
+
+## V4. Independent replication (run once)
+
+Executor: Devin (GPT-6 Astra), the independent test sub-agent. This executor did
+not write the frozen protocol. Work ran only in
+`C:\Users\nisar\fly-ecosystem-paper`, on `paper/microverse-ladder`, using Bash and
+Node v22.19.0 on Windows.
+
+The run started at **2026-11-26T03:57:19Z**, at commit
+`120601c91259f9bcc79b02fbc2b74f1cd8749786`. The final simulation output completed
+at **2026-11-26T04:37:19.710Z**. Scoring completed at
+**2026-11-26T04:38:09.643Z**. All times below are UTC.
+
+Before creating any artifact, `git log --oneline -1 --
+docs/PAPER_VERIFICATION_PLAN.md` identified
+`d008d58f2c8492d1329ab2acfdaff020fe6b5225`, committed at
+2026-11-26T03:06:12Z. Its timestamp predates the creation and modification times
+of all five new files. Both banks, 6100001–6100048 and 6200001–6200096, were
+already marked spent in `docs/SPENT_BANKS_RSI.md`, as expected.
+
+The initial preflight saw HEAD `26df34f2f33b990be5581103b5f86f0431e5f9dd`.
+HEAD advanced to the run-start commit before the first simulation. That change
+touched only `docs/paper/main.tex`. The simulation code, statistical helpers,
+and frozen plan remained unchanged throughout this replication.
+
+The three V4 commands ran verbatim, sequentially, once each. No seeds, arms,
+world settings, or measures changed. **Restarts: none.** The terminal monitor
+disconnected around completion of each run. Each complete JSON output was
+validated before proceeding; no completed command was rerun. Completion times
+below are the output files' final modification times because terminal exit
+notifications were unavailable.
+
+| Run | Start | Output completed | Saved stdout |
+|---|---|---|---|
+| R-L2 | 2026-11-26T03:57:19Z | 2026-11-26T04:07:56.965Z | `evidence/microverse/paper-v4/r-l2-6100001-6100048.json` |
+| R-G7c-T | 2026-11-26T04:13:00Z | 2026-11-26T04:24:32.017Z | `evidence/microverse/paper-v4/r-g7c-tasteonly-6200001-6200096.json` |
+| R-G7c-M | 2026-11-26T04:26:04Z | 2026-11-26T04:37:19.710Z | `evidence/microverse/paper-v4/r-g7c-moveonly-6200001-6200096.json` |
+
+`node docs/paper/score-v4.mjs` produced
+`evidence/microverse/paper-v4/score.txt`. The scorer imports `signflip`, `bootCI`,
+and `mean` from `docs/paper/stats.mjs`, as required by Amendment A1. It uses the
+48 complete L2 `perSeed` rows and each solo output's 96 saved `diffs`, rounded
+to 0.1. Runner p-values are ignored. The exact one-sided sign-flip test uses
+the helper's 0.01 grid. Confidence intervals use 20,000 percentile bootstrap
+resamples with seed 4242.
+
+Arm means for R-L2 are META 44.958333, SHAM 41.353750, EVOR 41.122917, and
+FIXED 41.237292. The solo outputs report SELF 57.57 in both comparisons,
+TASTEONLY 54.82, and MOVEONLY 47.87, rounded to 0.01.
+
+| Replication | Contrast | Mean difference | Positive seeds/n | Exact one-sided p | Bootstrap 95% CI | Bar | Verdict |
+|---|---|---:|---:|---:|---|---|---|
+| R-L2 | META-EVOR | 3.835417 | 44/48 | 2.38884467763e-11 | [2.998542, 4.670208] | mean >= 1; p < .01 | PASS |
+| R-L2 | META-SHAM | 3.604583 | 42/48 | 1.50345513816e-9 | [2.690417, 4.501458] | mean >= 1; p < .01 | PASS |
+| R-L2 | META-FIXED | 3.721042 | 45/48 | 1.25304211451e-11 | [2.940417, 4.471667] | mean > 0; p < .01 | PASS |
+| R-G7c | SELF-TASTEONLY | 2.747917 | 77/96 | 2.53804770174e-13 | [2.137500, 3.354167] | mean >= 0.7; p < .01 | PASS |
+| R-G7c | SELF-MOVEONLY | 9.705208 | 96/96 | 1.26217744835e-29 | [9.138542, 10.281250] | mean >= 0.7; p < .01 | PASS |
+
+**R-L2 overall: PASS**, with all three gates passing.
+**R-G7c overall: PASS**, with both gates passing. No gated contrast failed.
