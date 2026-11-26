@@ -1,0 +1,14 @@
+# Vercel serves only the static Microverse: the page, its scripts, and the three simulator modules.
+/*
+!/vercel.json
+!/dist
+/dist/*
+!/dist/microverse.html
+!/dist/microverse.js
+!/dist/picker.js
+!/dist/favicon.svg
+!/microverse
+/microverse/*
+!/microverse/sim.mjs
+!/microverse/strains.mjs
+!/microverse/config.mjs

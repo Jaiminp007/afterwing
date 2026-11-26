@@ -17,3 +17,4 @@ evidence/challenge-release/*world.json
 # Existing tracked reports and explicitly selected review artifacts remain tracked.
 /evidence/
 /handoff/runtime-snapshot/
+/.vercel/
