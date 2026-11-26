@@ -1,5 +1,8 @@
 # Microverse attempt log
 
+<img src="img/skill-over-time.png" alt="Taste skill in one practice world: the self-improving lineage re-learns each new rule; the fixed program dies out" width="100%">
+
+
 Workflow and thresholds: [MICROVERSE_GOALS.md](MICROVERSE_GOALS.md). Practice seeds: 101–108. Final-run seeds are listed here and never reused.
 
 ## Baseline (2026-11-17)
@@ -171,6 +174,9 @@ Validity checks, all at commit `da995b0` on practice seeds:
 - The universal suite on practice seeds 101–108 passes **G1–G7**: G5 8/8 and 8/8; G6 gain .42; G7 8/8 against both taste-only and move-only.
 
 ## G7c final (fresh seeds 94001–94096, run once; commit dd0ea19) — PASSED
+
+<img src="img/g7c-final.png" alt="G7c final, 96 fresh worlds: per-world differences vs taste-only and movement-only revision" width="100%">
+
 
 | Contrast | SELF | Other | Difference | Positive seeds | p (200k sign flips) | Bar | Pass |
 |---|---|---|---|---|---|---|---|
