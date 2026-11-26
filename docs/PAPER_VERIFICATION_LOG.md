@@ -169,3 +169,50 @@ fly and would not clear the original bars, and at ×16 the gain over EVO-R shrin
 +1.19. The chosen ×12 sits near the best value tried. **Inert check (amendment A1):**
 with lean = full, META − SHAM = −0.26 (p .65), so SHAM's separate random stream does not
 explain the L2 SHAM contrast.
+
+## Revision experiments after blind review (plan `docs/PAPER_REVISION_PLAN.md`, frozen at `ccb4ce1`)
+
+Run once each by Opus 5.5 at `ccb4ce1`, 2026-11-26 01:13–01:52, no restarts. Raw data:
+`evidence/microverse/paper-rev/`. Scored with the exact test by `docs/paper/verify.mjs`.
+
+### E1. L2 decomposition, seeds 6300001–6300048
+
+| Contrast | Mean | Wins | Exact p | 95% CI | Gate |
+|---|---|---|---|---|---|
+| META − BIRTH (E1a) | +1.67 | 39/48 | 2.7e-5 | [0.93, 2.39] | > 0: **pass** |
+| META − EVO-R | +3.34 | 42/48 | 2.2e-10 | [2.58, 4.08] | ≥ 1.0: **pass** |
+| META − SHAM (own stream) | +3.23 | 42/48 | 3.2e-10 | [2.42, 4.06] | ≥ 1.0: **pass** |
+| META − FIXED | +4.53 | 47/48 | 1.4e-14 | [3.91, 5.16] | > 0: **pass** |
+| META − LEAN | +11.80 | 48/48 | 3.6e-15 | [10.99, 12.58] | > 0: **pass** |
+| BIRTH − FIXED (reported) | +2.86 | 45/48 | 1.5e-10 | [2.19, 3.49] | — |
+| LEAN − FIXED (reported) | −7.27 | 1/48 | — | [−8.22, −6.31] | — |
+| METAOFF − NOREV (reported) | 0.00 | 0/48 | — | identical on every seed | — |
+| factorial f (reported) | +4.53 | 47/48 | 1.4e-14 | [3.91, 5.16] | — |
+
+Means: META 44.85, BIRTH 43.18, SHAM 41.62, EVO-R 41.51, FIXED 40.32, LEAN 33.05, METAOFF = NOREV 31.83.
+Telemetry: 40–46% of flies experienced at least one price switch before death (META 40%);
+mean lifespan 556–678 ticks; mean active features per fly-tick META 21.7, BIRTH 23.0, FIXED 26.2, LEAN 14.0.
+
+**Reading (fixed in the plan):** E1a and E1b pass. Tracking the price during life adds to
+assigning the package at birth, but birth assignment alone gives about 60% of META's gain
+over FIXED (+2.86 of +4.53). With the package reset before birth, the controller has no
+effect without L1 revision (METAOFF = NOREV exactly), so the whole effect runs through the
+reviser. Always-lean is much worse than always-full, so the gain is shedding features only
+while they are expensive, not shedding as such.
+
+### E2. G7c evidence-selection controls, seeds 6400001–6400096
+
+| Contrast | Mean | Wins | Exact p | 95% CI | Gate |
+|---|---|---|---|---|---|
+| SELF − SHAM (E2a) | +5.09 | 93/96 | 3.0e-24 | [4.06, 6.61] | ≥ 0.7: **pass** |
+| SELF − MOVESHAM (E2b) | +1.28 | 65/96 | 5.9e-5 | [0.66, 1.91] | ≥ 0.7: **pass** |
+| SELF − GIFT (E2c) | −0.78 | 43/96 | .99 | [−1.46, −0.10] | > 0: **FAIL** |
+| SELF − FIXED (E2d) | +13.54 | 96/96 | 1.3e-29 | [12.96, 14.12] | ≥ 0.7: **pass** |
+
+Means: SELF 57.14, GIFT 57.92, MOVESHAM 55.85, SHAM 52.04, FIXED 43.60.
+
+**Reading (fixed in the plan):** E2c fails. Choosing movement senses from evidence beats
+choosing them at random (E2b), but it does not beat giving the fly the two useful senses
+from birth; the gift is 0.78 flies better. The G7c movement claim narrows to: evidence-driven
+movement revision beats random revision and no revision, and is matched (in fact slightly
+beaten) by a designer who supplies the right senses.

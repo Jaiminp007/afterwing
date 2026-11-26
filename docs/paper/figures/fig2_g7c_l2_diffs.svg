@@ -6,7 +6,7 @@
   <g>
     <rect x="24.0" y="68" width="486.0" height="252" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="36.0" y="88" font-size="12" font-weight="700" fill="#1a202c">A. G7c: SELF − TASTEONLY (94001–94096, n = 96)</text>
-    <text x="36.0" y="103" font-size="9.8" fill="#475569">mean +2.14 [+1.48, +2.82] · 66/96 wins (3 ties) · exact p = 9.4e-9</text>
+    <text x="36.0" y="103" font-size="9.8" fill="#475569">mean +2.14 [+1.46, +2.82] · 66/96 wins (3 ties) · exact p = 9.4e-9</text>
     <line x1="68.0" y1="286.0" x2="496.0" y2="286.0" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="62.0" y="289.5" font-size="9.8" fill="#475569" text-anchor="end">-10</text>
     <line x1="68.0" y1="250.2" x2="496.0" y2="250.2" stroke="#e2e8f0" stroke-width="0.8"/>
@@ -17,7 +17,7 @@
     <text x="62.0" y="182.0" font-size="9.8" fill="#475569" text-anchor="end">5</text>
     <line x1="68.0" y1="142.7" x2="496.0" y2="142.7" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="62.0" y="146.2" font-size="9.8" fill="#475569" text-anchor="end">10</text>
-    <rect x="68.0" y="194.1" width="428.0" height="9.6" fill="#2563eb" fill-opacity="0.16"/>
+    <rect x="68.0" y="194.1" width="428.0" height="9.8" fill="#2563eb" fill-opacity="0.16"/>
     <rect x="68.62" y="214.33" width="3.21" height="56.62" fill="#c44545" fill-opacity="0.82"/>
     <rect x="73.08" y="214.33" width="3.21" height="35.83" fill="#c44545" fill-opacity="0.82"/>
     <rect x="77.54" y="214.33" width="3.21" height="30.82" fill="#c44545" fill-opacity="0.82"/>
@@ -124,7 +124,7 @@
   <g>
     <rect x="530.0" y="68" width="486.0" height="252" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="542.0" y="88" font-size="12" font-weight="700" fill="#1a202c">B. G7c: SELF − MOVEONLY (94001–94096, n = 96)</text>
-    <text x="542.0" y="103" font-size="9.8" fill="#475569">mean +9.40 [+8.76, +10.07] · 96/96 wins · exact p = 1.3e-29</text>
+    <text x="542.0" y="103" font-size="9.8" fill="#475569">mean +9.40 [+8.76, +10.06] · 96/96 wins · exact p = 1.3e-29</text>
     <line x1="574.0" y1="272.2" x2="1002.0" y2="272.2" stroke="#64748b" stroke-width="1.2"/>
     <text x="568.0" y="275.7" font-size="9.8" fill="#475569" text-anchor="end">0</text>
     <line x1="574.0" y1="237.8" x2="1002.0" y2="237.8" stroke="#e2e8f0" stroke-width="0.8"/>
@@ -135,7 +135,7 @@
     <text x="568.0" y="172.5" font-size="9.8" fill="#475569" text-anchor="end">15</text>
     <line x1="574.0" y1="134.6" x2="1002.0" y2="134.6" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="568.0" y="138.1" font-size="9.8" fill="#475569" text-anchor="end">20</text>
-    <rect x="574.0" y="202.9" width="428.0" height="9.1" fill="#2563eb" fill-opacity="0.16"/>
+    <rect x="574.0" y="203.0" width="428.0" height="9.0" fill="#2563eb" fill-opacity="0.16"/>
     <rect x="574.62" y="259.86" width="3.21" height="12.38" fill="#1f7a63" fill-opacity="0.82"/>
     <rect x="579.08" y="249.54" width="3.21" height="22.70" fill="#1f7a63" fill-opacity="0.82"/>
     <rect x="583.54" y="248.85" width="3.21" height="23.39" fill="#1f7a63" fill-opacity="0.82"/>
@@ -241,7 +241,7 @@
   <g>
     <rect x="24.0" y="346" width="317.3" height="252" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="36.0" y="366" font-size="12" font-weight="700" fill="#1a202c">C. L2: META − EVO-R (95001–95048, n = 48)</text>
-    <text x="36.0" y="381" font-size="9.8" fill="#475569">+3.64 [+2.90, +4.37] · 44/48 (+8.8%)</text>
+    <text x="36.0" y="381" font-size="9.8" fill="#475569">+3.64 [+2.92, +4.36] · 44/48 (+8.8%)</text>
     <line x1="68.0" y1="554.4" x2="327.3" y2="554.4" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="62.0" y="557.9" font-size="9.8" fill="#475569" text-anchor="end">-5</text>
     <line x1="68.0" y1="506.7" x2="327.3" y2="506.7" stroke="#64748b" stroke-width="1.2"/>
@@ -250,7 +250,7 @@
     <text x="62.0" y="462.4" font-size="9.8" fill="#475569" text-anchor="end">5</text>
     <line x1="68.0" y1="411.1" x2="327.3" y2="411.1" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="62.0" y="414.6" font-size="9.8" fill="#475569" text-anchor="end">10</text>
-    <rect x="68.0" y="464.9" width="259.3" height="14.0" fill="#2563eb" fill-opacity="0.16"/>
+    <rect x="68.0" y="465.0" width="259.3" height="13.8" fill="#2563eb" fill-opacity="0.16"/>
     <rect x="68.76" y="506.67" width="3.89" height="23.60" fill="#c44545" fill-opacity="0.82"/>
     <rect x="74.16" y="506.67" width="3.89" height="1.24" fill="#c44545" fill-opacity="0.82"/>
     <rect x="79.56" y="505.87" width="3.89" height="1.6" fill="#64748b"/>
@@ -309,7 +309,7 @@
   <g>
     <rect x="361.3" y="346" width="317.3" height="252" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="373.3" y="366" font-size="12" font-weight="700" fill="#1a202c">D. L2: META − SHAM (95001–95048, n = 48)</text>
-    <text x="373.3" y="381" font-size="9.8" fill="#475569">+2.87 [+1.95, +3.80] · 39/48 (+6.8%)</text>
+    <text x="373.3" y="381" font-size="9.8" fill="#475569">+2.87 [+1.95, +3.79] · 39/48 (+6.8%)</text>
     <line x1="405.3" y1="554.4" x2="664.7" y2="554.4" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="399.3" y="557.9" font-size="9.8" fill="#475569" text-anchor="end">-5</text>
     <line x1="405.3" y1="506.7" x2="664.7" y2="506.7" stroke="#64748b" stroke-width="1.2"/>
@@ -318,7 +318,7 @@
     <text x="399.3" y="462.4" font-size="9.8" fill="#475569" text-anchor="end">5</text>
     <line x1="405.3" y1="411.1" x2="664.7" y2="411.1" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="399.3" y="414.6" font-size="9.8" fill="#475569" text-anchor="end">10</text>
-    <rect x="405.3" y="470.4" width="259.3" height="17.6" fill="#2563eb" fill-opacity="0.16"/>
+    <rect x="405.3" y="470.5" width="259.3" height="17.6" fill="#2563eb" fill-opacity="0.16"/>
     <rect x="406.09" y="506.67" width="3.89" height="51.22" fill="#c44545" fill-opacity="0.82"/>
     <rect x="411.49" y="506.67" width="3.89" height="33.06" fill="#c44545" fill-opacity="0.82"/>
     <rect x="416.90" y="506.67" width="3.89" height="20.74" fill="#c44545" fill-opacity="0.82"/>
@@ -376,7 +376,7 @@
   <g>
     <rect x="698.7" y="346" width="317.3" height="252" rx="6" fill="#fafbfc" stroke="#d8dee6" stroke-width="1"/>
     <text x="710.7" y="366" font-size="12" font-weight="700" fill="#1a202c">E. L2: META − FIXED (95001–95048, n = 48)</text>
-    <text x="710.7" y="381" font-size="9.8" fill="#475569">+3.16 [+2.41, +3.90] · 43/48 (+7.6%)</text>
+    <text x="710.7" y="381" font-size="9.8" fill="#475569">+3.16 [+2.40, +3.90] · 43/48 (+7.6%)</text>
     <line x1="742.7" y1="554.4" x2="1002.0" y2="554.4" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="736.7" y="557.9" font-size="9.8" fill="#475569" text-anchor="end">-5</text>
     <line x1="742.7" y1="506.7" x2="1002.0" y2="506.7" stroke="#64748b" stroke-width="1.2"/>
@@ -385,7 +385,7 @@
     <text x="736.7" y="462.4" font-size="9.8" fill="#475569" text-anchor="end">5</text>
     <line x1="742.7" y1="411.1" x2="1002.0" y2="411.1" stroke="#e2e8f0" stroke-width="0.8"/>
     <text x="736.7" y="414.6" font-size="9.8" fill="#475569" text-anchor="end">10</text>
-    <rect x="742.7" y="469.4" width="259.3" height="14.2" fill="#2563eb" fill-opacity="0.16"/>
+    <rect x="742.7" y="469.4" width="259.3" height="14.3" fill="#2563eb" fill-opacity="0.16"/>
     <rect x="743.42" y="506.67" width="3.89" height="44.15" fill="#c44545" fill-opacity="0.82"/>
     <rect x="748.83" y="506.67" width="3.89" height="23.89" fill="#c44545" fill-opacity="0.82"/>
     <rect x="754.23" y="506.67" width="3.89" height="12.71" fill="#c44545" fill-opacity="0.82"/>

@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { bootCI, signflip } from '../stats.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO = resolve(__dirname, '../../..');
@@ -99,8 +100,10 @@ function summarize(diffs, { bootSeed = 20261125, reported = null } = {}) {
   const sorted = [...diffs].sort((a, b) => a - b);
   const m = mean(diffs);
   const s = sd(diffs);
-  const ci = bootstrapCI(diffs, 20000, bootSeed);
-  const sf = signflipV2(diffs);
+  // Same bootstrap and exact sign-flip test as docs/paper/verify.mjs, so figures and text cannot disagree.
+  const [lo, hi] = bootCI(diffs);
+  const ci = { lo, hi };
+  const sf = { p: signflip(diffs), exact: true };
   const st = signTestExact(diffs);
   const maxAbs = Math.max(...diffs.map(Math.abs));
   return {
