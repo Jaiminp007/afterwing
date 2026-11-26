@@ -29,7 +29,7 @@ and why compounding failed}
 
 \author{Jaimin Patel\\
 \small\texttt{jaimin.patel.9568@gmail.com}\\
-\small With experimental design, execution, auditing, and drafting assistance from AI models (Section~\ref{sec:ai-disclosure})}
+\small Built and written with substantial help from Claude (Anthropic) and other AI models (Section~\ref{sec:ai-disclosure})}
 
 \date{November 2026}
 
@@ -582,8 +582,9 @@ This research program was directed by a human investigator (Jaimin Patel), who s
   \item \textbf{Claude Fable 5.2:} conducted the independent audit of the prior V1--V7 line (\texttt{docs/fable-review/FABLE\_REVIEW.md}) and reviewed Microverse G1--G7, identifying winner-take-all drift and motivating the paired-solo G7b test (unavailable during P11b/P13b due to usage credits).
   \item \textbf{GPT-6.2 Astra:} served as an external adversarial advisor during the program (read-only advice; ran no simulations); identified heavy tails, the L3c inheritance-loss confound, and the float-LCG scorer bug; drafted verbatim pre-registrations for L3-I, L3-I Screen 2 (\texttt{RewriteCost}), L3-II, L3-III, and L3-IV-H0; and reviewed final scope wording in \texttt{docs/VISION.md}. For this paper, a fresh Astra thread with no prior context conducted the read-only control audit of Section~\ref{sec:verification}, running only practice seeds.
   \item \textbf{Gemini 4 Neon:} proposed the four-bank L3-IV-H0 headroom design; ran the exploratory post-hoc diagnosis of the \texttt{TRUE\_ORACLE} gap on non-bank seeds 501--504 (commit \texttt{16b4372}), recommending closure of L3; and drafted the initial manuscript, bootstrap/figure scripts, and claims ledger.
+  \item \textbf{GPT-6 Astra:} executed the independent replication of Section~\ref{sec:verification} on new seed banks, following the frozen plan verbatim.
 \end{itemize}
-All simulation measurements were produced deterministically by the committed Node.js code; no AI model fabricated outcomes or touched any reserved L3 seed bank.
+All simulation measurements were produced deterministically by the committed Node.js code; no AI model fabricated outcomes or touched any reserved L3 seed bank. AI models are not listed as authors because they cannot take responsibility for the work; the human author is responsible for every claim in this paper.
 
 \section{Limitations}
 \label{sec:limitations}
@@ -614,6 +615,9 @@ node docs/paper/figures/fig2_g7c_l2_diffs.mjs
 node docs/paper/figures/fig3_l3_headroom.mjs
 \end{verbatim}
 Historical runners (\texttt{microverse/suite.mjs}, \texttt{solo.mjs}, \texttt{l2search.mjs}, \texttt{p13parts.mjs}, \texttt{l3i.mjs}, \texttt{rc-stageA.mjs}, \texttt{l3ii.mjs}, \texttt{l3iii.mjs}, \texttt{l3iv-h0.mjs}) can replay any logged seed range deterministically; \texttt{docs/REPRODUCE\_MICROVERSE.md} gives the exact command and commit for each final. Researchers extending this codebase must not reuse spent or reserved fresh seed banks listed in \texttt{docs/SPENT\_BANKS\_RSI.md} and \texttt{docs/paper/attempts.md}.
+
+\section*{Acknowledgments}
+Much of this work was done with Claude, Anthropic's AI model. Claude Opus 5.5 wrote the Microverse simulator and its runners, ran the experiments, kept the goal and result logs, and, for this paper, planned and ran the verification, wrote the exact-test verifier and edited the manuscript. Claude Fable 5.2 audited the earlier line of experiments and the first Microverse goals, and its review led to withdrawn claims and a better test design. I also thank GPT-6.2 Astra and GPT-6 Astra (OpenAI) for adversarial review, registration wording, the control audit and the independent replication, and Gemini 4 Neon (Google) for the four-bank design, the L3 diagnosis and the first draft of this paper. Section~\ref{sec:ai-disclosure} details each contribution.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
