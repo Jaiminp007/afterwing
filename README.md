@@ -8,7 +8,7 @@
 
 Afterwing is an artificial-life research project built to test that question honestly. Its main experiment is the **Microverse**: a closed 40 × 40 world where simulated flies forage, breed and die, while a hidden rule about which food is poison keeps changing under them.
 
-[Watch it run](#run-it) · [What has been shown](#what-has-been-shown) · [Reproduce every number](REPRODUCE.md)
+**[Open it live: afterwing.vercel.app](https://afterwing.vercel.app)** · [Run it locally](#run-it) · [What has been shown](#what-has-been-shown) · [Reproduce every number](REPRODUCE.md)
 
 ---
 
