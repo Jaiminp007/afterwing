@@ -34,7 +34,7 @@ and why compounding failed}
 \maketitle
 
 \begin{abstract}
-Claims of self-improvement in artificial agents often blur offline tuning, benchmark selection and in-world adaptation. We test a four-rung ladder of bounded self-improvement inside one deterministic, closed breeding world, Microverse, where simulated flies forage, learn, reproduce and die under hidden food rules that change every 3,000 ticks. Each confirmatory test was specified in a git commit before it ran and was run once on fresh seeds. Three rungs passed. Lifetime learning beats a frozen brain (L0). Flies that revise which taste and movement features they learn from beat fixed flies and a random-revision sham; revising both systems beats taste-only revision by \GsevenCTasteMean{} late flies (95\% CI \GsevenCTasteCI, \GsevenCTasteWins{} worlds) after two earlier versions of that test failed (L1). In a world built so that the best reviser setting changes during life, a hand-written rule that reads a perfect, noise-free signal of the current brain-energy price and switches between two preset reviser packages beats evolution of the same packages by \LtwoEvorMean{} flies (CI \LtwoEvorCI, \LtwoEvorWins), a sham driven by an independent cue by \LtwoShamMean{} (CI \LtwoShamCI), and fixed settings by \LtwoFixedMean{} (L2), on a baseline of about 41 flies. A hand-written search over the reviser's own settings, started from the reviser as it was before hand-tuning, rediscovered forgetting and pruning (\PelevenBMean{} flies, \PelevenBWins). Compounding (L3: making self-revision pay at least $1.5\times$ more) was \textbf{not shown}: all eight designs and headroom screens missed their bars, so no L3 final was run. Oracle screens point to three ecological limits. We also report a reproduction and audit of the results: every cited final reproduces exactly at its recorded commit (\S\ref{sec:verification}), the runners' Monte Carlo p-value code is defective (no verdict in this paper depends on it), and an adversarial audit narrows how the L2 result may be described.
+Claims of self-improvement in artificial agents often blur offline tuning, benchmark selection and in-world adaptation. We test a four-rung ladder of bounded self-improvement inside one deterministic, closed breeding world, Microverse, where simulated flies forage, learn, reproduce and die under hidden food rules that change every 3,000 ticks. Each confirmatory test was specified in a git commit before it ran and was run once on fresh seeds. Three rungs passed. Lifetime learning beats a frozen brain (L0). Flies that revise which taste and movement features they learn from beat fixed flies and a random-revision sham; revising both systems beats taste-only revision by \GsevenCTasteMean{} late flies (95\% CI \GsevenCTasteCI, \GsevenCTasteWins{} worlds) after two earlier versions of that test failed (L1). In a world built so that the best reviser setting changes during life, a hand-written rule that reads a perfect, noise-free signal of the current brain-energy price and switches between two preset reviser packages beats evolution of the same packages by \LtwoEvorMean{} flies (CI \LtwoEvorCI, \LtwoEvorWins), a sham driven by an independent cue by \LtwoShamMean{} (CI \LtwoShamCI), and fixed settings by \LtwoFixedMean{} (L2), on a baseline of about 41 flies. A hand-written search over the reviser's own settings, started from the reviser as it was before hand-tuning, rediscovered forgetting and pruning (\PelevenBMean{} flies, \PelevenBWins). Compounding (L3: making self-revision pay at least $1.5\times$ more) was \textbf{not shown}: all eight designs and headroom screens missed their bars, so no L3 final was run. Oracle screens point to three ecological limits. We also report a reproduction and audit of the results: every cited final reproduces exactly at its recorded commit, an independent run on new seed banks replicates both the L2 and the G7c results (\S\ref{sec:verification}), the runners' Monte Carlo p-value code is defective (no verdict in this paper depends on it), and an adversarial audit narrows how the L2 result may be described.
 \end{abstract}
 
 \section{Introduction}
@@ -413,9 +413,32 @@ The simulator is deterministic, so rerunning a final at its recorded commit on i
   \item \textbf{G7c} and \textbf{Fly-RSI L2} with current code: all 96 stored differences (each G7c contrast) and all 192 per-seed L2 values identical to the committed finals.
 \end{itemize}
 Every final this paper cites therefore reproduces exactly at its recorded commit, and the commands in \texttt{docs/REPRODUCE\_MICROVERSE.md} are confirmed.
-\begin{itemize}
-  \item \textbf{Independent replication on new seeds} (seeds 6100001--6100048 for L2, 6200001--6200096 for G7c; plan frozen before the run, run once by a separate agent): in progress.
-\end{itemize}
+
+\subsection{Independent replication on new seeds}
+The plan fixed two new seed banks, never used by any test (6100001--6100048 for L2, 6200001--6200096 for G7c), the original arms, commands and bars, and the rule that each replication runs exactly once with exact $p$-values. A separate agent (GPT-6 Astra), which did not write the plan, ran the commands verbatim, once each, with no restarts. Both replications passed every gate (Table~\ref{tab:replication}), and every effect was at least as large as in the original final.
+
+\begin{table}[t]
+\centering
+\caption{Independent replication on new seed banks, run once. Original final values in brackets. Exact one-sided sign-flip $p$; bars unchanged from the original tests.}
+\label{tab:replication}
+\small
+\begin{tabular}{@{}llrrrrl@{}}
+\toprule
+\textbf{Test} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Exact $p$} & \textbf{Bar / verdict} \\
+\midrule
+L2 & \texttt{META} $-$ \texttt{EVO-R} & \RepLtwoEvorMean{} [\LtwoEvorMean] & \RepLtwoEvorCI & \RepLtwoEvorWins & $\RepLtwoEvorP$ & $\ge 1.0$: pass \\
+L2 & \texttt{META} $-$ \texttt{SHAM} & \RepLtwoShamMean{} [\LtwoShamMean] & \RepLtwoShamCI & \RepLtwoShamWins & $\RepLtwoShamP$ & $\ge 1.0$: pass \\
+L2 & \texttt{META} $-$ \texttt{FIXED} & \RepLtwoFixedMean{} [\LtwoFixedMean] & \RepLtwoFixedCI & \RepLtwoFixedWins & $\RepLtwoFixedP$ & $> 0$: pass \\
+G7c & \texttt{SELF} $-$ \texttt{TASTEONLY} & \RepGsevenCTasteMean{} [\GsevenCTasteMean] & \RepGsevenCTasteCI & \RepGsevenCTasteWins & $\RepGsevenCTasteP$ & $\ge 0.7$: pass \\
+G7c & \texttt{SELF} $-$ \texttt{MOVEONLY} & \RepGsevenCMoveMean{} [\GsevenCMoveMean] & \RepGsevenCMoveCI & \RepGsevenCMoveWins & $\RepGsevenCMoveP$ & $\ge 0.7$: pass \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The replication confirms the population effects under the same world and controls. It does not remove the limitations of Section~\ref{sec:results}: the same perfect price cue, mutation path and sham construction apply.
+
+\subsection{Sensitivity to world settings}
+% FILLED IN FROM evidence/microverse/paper-v5 WHEN V5 COMPLETES.
 
 \subsection{Defects in the runners' Monte Carlo test}
 The audit found that the float-multiplied LCG in \texttt{solo.mjs} and \texttt{p13parts.mjs} enters a 419-state cycle after 7,245 updates; on a constructed case with exact $p=1/64$ it printed $0.0096$, which would pass the $0.01$ bar. We further found that the corrected Scorer v2 takes its sign from bit 16 of a power-of-two LCG, whose period is $2^{17}$, giving 8,192 distinct sign vectors in 200,000 draws at $n=48$. Neither defect changes a verdict reported here (Section~\ref{sec:threats}), but both make the printed values unreliable near the bar, so this paper uses only the exact test.
