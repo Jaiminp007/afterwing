@@ -63,3 +63,10 @@ gave G1–G6 pass, G6 gain .373 / late .735 (log at `73ffefe`: .394 / .775), and
 8/8 (log: 3/8). It is the final-run-1 seeds under final-run-2 code, an unplanned
 look at spent seeds; it is not a test of anything and the paper does not use it.
 The rerun at `73ffefe` follows.
+
+### G1–G6 finals (seeds 50001–50008 at `73ffefe`, 60001–60008 at `da995b0`)
+
+**Both reproduce bit for bit.** For each final, the rerun's report (pass/fail, shares,
+G6 gain and late skill) and its full raw snapshot data are identical to the committed
+files `evidence/microverse/suite-final-50000-1794893331557.json` and
+`suite-final-60000-1794893845135.json`. G1–G6 pass and G7 fails in both, as logged.
