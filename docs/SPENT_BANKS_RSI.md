@@ -59,3 +59,5 @@ Do not use any of these banks for a new test.
 | L3-IV-H0 post-hoc diagnostics by Gemini 4 Neon (exploratory, non-bank) | 501–504 |
 | Paper V4 replication, fly-RSI L2 (Microverse; run once, plan `docs/PAPER_VERIFICATION_PLAN.md`) | 6100001–6100048 |
 | Paper V4 replication, G7c (Microverse; run once, same plan) | 6200001–6200096 |
+| Paper revision E1, L2 decomposition (Microverse; run once, plan `docs/PAPER_REVISION_PLAN.md`) | 6300001–6300048 |
+| Paper revision E2, G7c evidence controls (Microverse; run once, same plan) | 6400001–6400096 |

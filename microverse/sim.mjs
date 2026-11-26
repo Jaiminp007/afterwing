@@ -98,6 +98,8 @@ function metaRevise(brain) {
 // running taste-prediction loss fell ('trial'), or by coin flip ('trialsham': same trials, no evidence).
 // P13b-3a measurement only: tallies keep decisions by whether the trial step moved toward R* (memory 800, prune .5).
 export const META_STATS = { towardKeep: 0, towardN: 0, awayKeep: 0, awayN: 0 };
+// L2-D measurement only: deaths, deaths that experienced >= 1 price switch in life, lifespan, active features per fly-tick.
+export const L2D_STATS = { deaths: 0, switched: 0, ageSum: 0, featSum: 0, featN: 0 };
 function metaRecord(tr, now, keep) { const grid = tr.gene === 'tasteMemory' ? MEM_GRID : PRUNE_GRID, d = v => Math.abs(grid.indexOf(v) - 1);
   if (d(now) < d(tr.old)) { META_STATS.towardN++; META_STATS.towardKeep += keep; } else if (d(now) > d(tr.old)) { META_STATS.awayN++; META_STATS.awayKeep += keep; } }
 // P13b-3a attempt: shadow trial. The fly runs a copy of its taste learner with the trial setting on the same
@@ -403,6 +405,9 @@ export class Microverse {
       // package before mutation (EVO-R's inherited package is genuine and kept).
       if (prog.inheritFull) { if (parent.parked) { for (const [m] of parent.parked.taste) if (!prog.tasteMasks.includes(m)) prog.tasteMasks.push(m); for (const [m] of parent.parked.move) if (!prog.moveMasks.includes(m)) prog.moveMasks.push(m); }
         if (prog.metaB) Object.assign(prog.genes, prog.fullGenes); }
+      // L2-D (opt-in pkgReset): an in-life controller's transient package is reset to the full package before mutation,
+      // so the parent's current price state cannot change the offspring's mutation (static and EVO-R packages are genuine).
+      if (prog.pkgReset && prog.metaB) Object.assign(prog.genes, prog.fullGenes);
       if (prog.attnMode === 'ev' || prog.attnMode === 'evsham') prog.genes.attentionA = .5; // L3-III: reset the transient allocation on the offspring copy
       if (prog.mutate) this.mutate(prog, r);
       if (prog.evoAttn) { const q = rng32(mix(this.seed ^ Math.imul(id, 1597334677) ^ 0x41545445)); if (q() < .1) { const G = [0, .25, .5, .75, 1], o = G.filter(x => x !== prog.genes.attentionA); prog.genes.attentionA = o[Math.floor(q() * o.length)]; } } // L3-II EVO-R
@@ -514,7 +519,7 @@ export class Microverse {
       // Fly-RSI L2 world (opt-in brainSwitch {mul: [lo, hi], switch}): the energy cost of each brain feature switches
       // in life between lo and hi times the base cost (not inherited). Instrument only: brainOracle sets reviser genes
       // from the true state (or an independent fake state if brainOracle.sham).
-      if (cfg.brainSwitch) { const [lo, hi] = cfg.brainSwitch.mul; f.brainMul ??= this.r() < .5 ? lo : hi; if (this.r() < cfg.brainSwitch.switch) f.brainMul = f.brainMul === lo ? hi : lo;
+      if (cfg.brainSwitch) { const [lo, hi] = cfg.brainSwitch.mul; f.brainMul ??= this.r() < .5 ? lo : hi; if (this.r() < cfg.brainSwitch.switch) { f.brainMul = f.brainMul === lo ? hi : lo; f.mulSwitches = (f.mulSwitches ?? 0) + 1; }
         const bO = b.program.brainOracle; if (bO) { let st = f.brainMul; if (bO.sham) { f.fakeBrain ??= b.rand() < .5 ? lo : hi; if (b.rand() < cfg.brainSwitch.switch) f.fakeBrain = f.fakeBrain === lo ? hi : lo; st = f.fakeBrain; }
           Object.assign(b.genes, st === hi ? bO.hi : bO.lo); } }
       // Fly-RSI L2 META ('brainTrack'): the fly feels its brain's energy drain per feature each tick and switches its
@@ -526,6 +531,16 @@ export class Microverse {
         f.wasCostly = costly;
         // Optional regrowth phase (program.regrow {ticks, genes}): for a while after costs fall, rebuild with these genes.
         const rg = b.program.regrow; Object.assign(b.genes, costly ? b.program.leanGenes : rg && f.regrowAt !== undefined && f.age - f.regrowAt < rg.ticks ? { ...b.program.fullGenes, ...rg.genes } : b.program.fullGenes); }
+      // L2-D controls (docs/PAPER_REVISION_PLAN.md). 'brainBirth': reads the true price once, at its first tick, and keeps
+      // that package for life. 'brainShamS': the sham rule with its fake price on a dedicated random stream, so the cue
+      // cannot change the fly's own movement/replay draws. pkgTick: static and EVO-R arms re-apply their package every
+      // tick, as the controllers do, so mutated thresholds are reset in every arm.
+      if (cfg.brainSwitch && (b.program.metaB === 'brainBirth' || b.program.metaB === 'brainShamS')) { const [lo, hi] = cfg.brainSwitch.mul;
+        let felt; if (b.program.metaB === 'brainBirth') felt = f.birthMul ??= f.brainMul;
+        else { f.shamR ??= rng32(mix(this.seed ^ Math.imul(f.id, 2654435789) ^ 0x4c324453)); f.fakeS ??= f.shamR() < .5 ? lo : hi; if (f.shamR() < cfg.brainSwitch.switch) f.fakeS = f.fakeS === lo ? hi : lo; felt = f.fakeS; }
+        Object.assign(b.genes, felt > (lo + hi) / 2 ? b.program.leanGenes : b.program.fullGenes); }
+      if (b.program.pkgTick) Object.assign(b.genes, b.program.pkgTick === 'lean' || (b.program.pkgTick === 'evo' && b.genes._lean) ? b.program.leanGenes : b.program.fullGenes);
+      if (cfg.brainSwitch && b.program.l2dStats) { L2D_STATS.featSum += b.taste.masks.length + b.move.masks.length; L2D_STATS.featN++; }
       // P13b A3 (opt-in toxinSwitch = per-tick flip probability): the fly's toxin sensitivity flips between the two
       // toxinNiche values during life. Headroom instrument only: acceptOracle tracks the current state ('shamState':
       // an independent fake state flipping at the same rate).
@@ -587,7 +602,8 @@ export class Microverse {
     }
     const alive = [];
     for (const f of this.flies) {
-      if (f.energy <= 0 || f.age >= cfg.maxAge) { if (f.brain.taste.swapTrial) RW_STATS.pendingAtDeath++; this.stats.deaths++; f.energy <= 0 ? this.stats.starved++ : this.stats.aged++; } else alive.push(f);
+      if (f.energy <= 0 || f.age >= cfg.maxAge) { if (f.brain.taste.swapTrial) RW_STATS.pendingAtDeath++;
+        if (cfg.brainSwitch && f.brain.program.l2dStats) { L2D_STATS.deaths++; if (f.mulSwitches) L2D_STATS.switched++; L2D_STATS.ageSum += f.age; } this.stats.deaths++; f.energy <= 0 ? this.stats.starved++ : this.stats.aged++; } else alive.push(f);
     }
     this.flies = alive;
     for (const [p, x, y] of born) { this.spawn(p.strain, null, p, x, y, cfg.childEnergy, p.gen + 1); this.stats.births++; }
