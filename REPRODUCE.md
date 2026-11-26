@@ -100,7 +100,12 @@ The thresholds each goal must meet are fixed in [docs/MICROVERSE_GOALS.md](docs/
 - **Fresh seeds.** Designs are tuned on practice seeds 101–116 only. A final uses seeds that have
   never been run, once, and the result stands whichever way it goes.
 - **p-values.** One-sided sign-flip test on the per-seed differences: exact for 16 seeds or fewer,
-  200,000 random flips above that.
+  200,000 random flips above that. The random-flip generators in the runners are defective (they
+  repeat after a few thousand sign patterns), so treat printed values near 0.01 with care. No
+  recorded pass or fail changes when the test is done exactly: `node docs/paper/verify.mjs`
+  recomputes every p-value exactly from the committed data. Per-final commands, commits and the
+  later controls are in [docs/REPRODUCE_MICROVERSE.md](docs/REPRODUCE_MICROVERSE.md) and the
+  [verification log](docs/PAPER_VERIFICATION_LOG.md).
 
 ## Other tracks
 

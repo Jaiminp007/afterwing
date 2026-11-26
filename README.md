@@ -8,7 +8,7 @@
 
 Afterwing is an artificial-life research project built to test that question honestly. Its main experiment is the **Microverse**: a closed 40 × 40 world where simulated flies forage, breed and die, while a hidden rule about which food is poison keeps changing under them.
 
-[Watch it run](#run-it) · [What has been shown](#what-has-been-shown) · [Reproduce every number](REPRODUCE.md)
+[Watch it run](#run-it) · [What has been shown](#what-has-been-shown) · [Reproduce every number](REPRODUCE.md) · [Read the paper](docs/paper/microverse-bounded-self-improvement.pdf)
 
 ---
 
@@ -34,7 +34,7 @@ A newborn gets its parent's **learning program**: which bit combinations it pays
 |---|---|---|
 | **L0** | A fly gets better at telling food from poison during its own life | shown (G4) |
 | **L1** | Lineages revise which features their learning uses, from their own evidence | shown: +2.14 flies vs taste-only revision, 66/96 worlds (G7c) |
-| **L2** | Flies retune their own reviser in life, from the brain cost they feel | shown: +3.64 flies vs evolution, 44/48 worlds |
+| **L2** | Flies retune their own reviser in life, from a perfect reading of the current brain-cost price | shown: +3.64 flies vs evolution, 44/48 worlds |
 | **L3** | Each level makes the next pay off at least 1.5× more | **not shown**: best practice ratio 1.44× |
 
 <img src="docs/img/g7c-final.png" alt="Bar chart of 96 fresh worlds: revising taste and movement beats taste-only revision by 2.14 flies on average and movement-only revision by 9.40" width="100%">
@@ -44,6 +44,8 @@ A newborn gets its parent's **learning program**: which bit combinations it pays
 <img src="docs/img/l3-attempts.png" alt="Horizontal bar chart: ten practice designs for compounding all fall short of the 1.5x bar; the best reaches 1.444x" width="100%">
 
 This is **bounded** self-improvement in a hand-built world. It is not open-ended intelligence, and the flies are not models of real insects.
+
+The G7c and L2 results replicated on new seed banks, and later controls narrowed both. About 60% of the L2 benefit comes from reading the price once at birth rather than tracking it during life. Choosing movement senses from evidence beats choosing them at random, but not giving the fly the two useful senses from the start. Details, the audit of the controls and an exact recomputation of every number are in the [paper](docs/paper/microverse-bounded-self-improvement.pdf) and [verification log](docs/PAPER_VERIFICATION_LOG.md).
 
 ## How results are earned
 

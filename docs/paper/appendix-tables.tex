@@ -1,0 +1,178 @@
+% Moved from the v1 main text. Supporting tables and the detailed L3 narrative for Appendix B.
+
+\section{Supporting tables and the L3 screens in detail}
+
+\label{app:tables}
+
+\begin{table}[t]
+\centering
+\caption{Fresh-seed final banks and reserved untouched banks in the Microverse program. Practice work used seeds 101--108, 101--116, and 301--332 (plus exploratory 501--504). No fresh bank was ever reused.}
+\label{tab:seed-banks}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llllr@{}}
+\toprule
+\textbf{Bank} & \textbf{Experiment} & \textbf{Status} & \textbf{Raw JSON committed} & \textbf{Seeds} \\
+\midrule
+50001--50008 & G1--G7 Final Run 1 (\texttt{73ffefe}) & G1--G6 closed; G7 failed & Yes (added for paper) & 8 \\
+60001--60008 & G1--G7 Final Run 2 (\texttt{da995b0}) & G1--G6 closed; G7 failed & Yes (added for paper) & 8 \\
+70001--70048 & G7b paired solo (\texttt{da995b0}) & Failed ($p=0.0119$) & Yes (exact rerun) & 48 \\
+80001--80048 & P11b external L2 search (\texttt{07b54e7}) & Passed ($+5.73$) & Yes (exact rerun) & 48 \\
+90001--90048 & P13b parts 1--4 (\texttt{6521edb}) & 1 passed; 2, 3, 4 failed & Yes & 48 \\
+91001--91048 & P13b-2b trials vs.\ mutation (\texttt{228d500}) & Passed ($+1.24$) & Yes & 48 \\
+92001--92048 & P13b-3a/3b shadow trials (\texttt{e75f8d2}) & Both failed & Yes & 48 \\
+93001--93048 & P13b A3 (\texttt{acceptAt}, \texttt{d75ad75}) & Passed (decision gene) & Yes & 48 \\
+94001--94096 & G7c redesigned move reviser (\texttt{95a3f21}) & Passed ($+2.14$, $+9.40$) & Yes & 96 \\
+95001--95048 & Fly-RSI L2 reviser switch (\texttt{1ef4381}) & Passed ($+3.64$ vs.\ EVO-R) & Yes & 48 \\
+\midrule
+96001--96048 & L3b (reserved) & Untouched (failed practice) & N/A & (48) \\
+97001--97048 & L3c (reserved) & Untouched (stopped att.\ 3) & N/A & (48) \\
+763001--763048 & L3-I (reserved) & Untouched (scr.\ 1 \& 2 missed) & N/A & (48) \\
+852001--852048 & L3-II (reserved) & Untouched (stage A missed) & N/A & (48) \\
+874001--874048 & L3-III (reserved) & Untouched (stage B missed) & N/A & (48) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Microverse core ladder results (G1--G6) across two fresh-seed final runs (8 fresh seeds each; winner-take-all competition shares except G1 and G6 solo runs). Source: \texttt{docs/MICROVERSE\_LOG.md}.}
+\label{tab:g1-g6}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Goal} & \textbf{Test} & \textbf{Final Run 1 (50001--50008)} & \textbf{Final Run 2 (60001--60008)} & \textbf{Status} \\
+\midrule
+G1 & \texttt{FIXED} alone (livability) & Pass ($\ge 7/8$ ok) & Pass (8/8 ok) & Closed \\
+G2 & \texttt{ORACLE} vs.\ \texttt{FIXED} & 8/8 wins & 8/8 wins & Closed \\
+G3 & \texttt{FIXED} vs.\ \texttt{RANDMOVE} & 8/8 wins & 8/8 wins & Closed (instinct caveat) \\
+G4 (L0) & \texttt{FIXED} vs.\ \texttt{FROZEN} & 8/8 wins & 8/8 wins & Closed \\
+G5 (L1) & \texttt{SELF} vs.\ \texttt{FIXED} \& \texttt{SHAM} & 8/8 \& 8/8 wins & 8/8 \& 8/8 wins & Closed (8/8 vs.\ \texttt{EVO} on practice only) \\
+G6 (L1) & \texttt{SELF} alone (adaptation) & Gain $0.394$, late $0.775$ & Gain $0.362$, late $0.711$ & Closed (rediscovery) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Related rungs, failed tests, split sub-tests, and amended tests on fresh seeds. Exact $p$-values and CIs come from committed per-seed data via \texttt{verify.mjs}; P13b-3a/3b CIs from \texttt{figures/compute\_stats.mjs}. G7 and G7b are logged values. No verdict changes under the exact test.}
+\label{tab:related-rungs}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llllrrrl@{}}
+\toprule
+\textbf{Test} & \textbf{Target / Note} & \textbf{Seeds ($n$)} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{Verdict (exact $p$)} \\
+\midrule
+G7 (FR1) & Competition move L1 & 50001--08 (8) & \texttt{SELF} vs.\ \texttt{TASTE} & share 0.33 & N/A & 3/8 & \textbf{FAILED} \\
+G7 (FR2) & Competition move L1 & 60001--08 (8) & \texttt{SELF} vs.\ \texttt{TASTE} & share 0.625 & N/A & 5/8 & \textbf{FAILED} \\
+G7b & Paired solo (\texttt{da995b0}) & 70001--48 (48) & \texttt{SELF}$-$\texttt{TASTE} & \GsevenBMean & \GsevenBCI & \GsevenBWins & \textbf{FAILED} ($\GsevenBPv$; runner $0.0119$) \\
+\midrule
+P13b-1 & Own tuning vs.\ none & 90001--48 (48) & \texttt{META}$-$\texttt{FIXED} & \PthirteenPartsFixedMean & \PthirteenPartsFixedCI & \PthirteenPartsFixedWins & \textbf{PASSED} ($\PthirteenPartsFixedPv$) \\
+P13b-2 & Trials vs.\ mutation & 90001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & \PthirteenPartsEvorMean & \PthirteenPartsEvorCI & \PthirteenPartsEvorWins & \textbf{FAILED} ($\PthirteenPartsEvorPv$) \\
+P13b-3 & Evidence vs.\ coin flip & 90001--48 (48) & \texttt{META}$-$\texttt{SHAM} & \PthirteenPartsShamMean & \PthirteenPartsShamCI & \PthirteenPartsShamWins & \textbf{FAILED} ($\PthirteenPartsShamPv$) \\
+P13b-2b & Faster trials (\texttt{metaK}=3) & 91001--48 (48) & \texttt{META}$'-$\texttt{EVO-R} & \PthirteenTwoBEvorMean & \PthirteenTwoBEvorCI & \PthirteenTwoBEvorWins & \textbf{PASSED} ($\PthirteenTwoBEvorPv$; vs.\ SHAM \PthirteenTwoBShamMean, $p \PthirteenTwoBShamP$) \\
+P13b-3a & Shadow keep accuracy & 92001--48 (48) & bal.\ acc.\ $-0.5$ & $+0.0044$ & $[-0.0002,+0.0090]$ & 27/48 & \textbf{FAILED} ($\PthirteenThreeAPv$; runner printed $0.0191$) \\
+P13b-3b & Distance to $R^*$ & 92001--48 (48) & \texttt{SHAM}$-$\texttt{META} & $+0.06$ & $[-0.36,+0.49]$ & 26/48 & \textbf{FAILED} (runner $0.408$) \\
+\midrule
+P13b A3 & 10th design; \texttt{acceptAt} & 93001--48 (48) & \texttt{META}$-$\texttt{EVO-R} & \PthirteenAthreeEvorMean & \PthirteenAthreeEvorCI & \PthirteenAthreeEvorWins & \textbf{PASSED under A3} ($\PthirteenAthreeEvorPv$) \\
+        & (decision threshold, &                & \texttt{META}$-$\texttt{SHAM} & \PthirteenAthreeShamMean & \PthirteenAthreeShamCI & \PthirteenAthreeShamWins & (not reviser tuning; \\
+        & not reviser)         &                & \texttt{META}$-$\texttt{FIXED} & \PthirteenAthreeFixedMean & \PthirteenAthreeFixedCI & \PthirteenAthreeFixedWins & constructed \texttt{toxinSwitch}) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Forking-paths audit across the Microverse line (commits \texttt{d459944}--\texttt{16b4372}). Complete per-attempt details are in Appendix~\ref{app:attempts}.}
+\label{tab:forking}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}lrrrl@{}}
+\toprule
+\textbf{Goal / Line} & \textbf{Practice att./scr.} & \textbf{Amendments / re-tests} & \textbf{Finals run (fresh seeds)} & \textbf{Final outcome} \\
+\midrule
+G1--G6 (core ladder) & 12 att.\ (+ checks) & 1 (G6 validity rule) & 2 shared (16) & All 6 closed (FR1 \& FR2) \\
+G7 / G7b / G7c & 9 att.\ (+ 4 checks) & 2 (\texttt{G7b}, \texttt{G7c}) & 4 (144 dedicated) & G7 $\times 2$ fail, G7b fail, G7c pass \\
+P11b (external L2) & 2 headroom + 24 props & 1 (\texttt{A1}: start $R_{\mathrm{P12}}$) & 1 (48) & Passed (orig.\ P11 stays failed) \\
+P13b (related line) & 10 designs, 16 att. & 3 (\texttt{A1}--\texttt{A3}) + 3 splits & 4 (192) & A1 not shown; A3 pass (\texttt{acceptAt}) \\
+Fly-RSI L2 & 5 worlds + 1 att. & 0 & 1 (48) & Passed (95001--95048) \\
+Fly-RSI L3 & 8 designs, 20 batches & 7 successor regs & 0 (0; 240 reserved) & Not shown (0 finals) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{The L3 screens in detail}
+
+\label{app:l3}
+
+\begin{table}[t]
+\centering
+\caption{All eight prespecified L3 compounding designs and headroom screens. None qualified for a fresh-seed final run. Intervals are 95\% bootstrap CIs where raw JSON is committed.}
+\label{tab:l3-screens}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{\#} & \textbf{Design} & \textbf{Mechanism / World} & \textbf{Bar (Practice / Screen)} & \textbf{Observed Result} & \textbf{Outcome} \\
+\midrule
+1 & L3 & \texttt{brainSwitch} $\times 1/\times 12$, 5 rule att. & Ratio $\ge 1.5\times$ ($d>0, p<.01$) & Best ratio $1.44\times$ (att.\ 1) & Failed practice \\
+2 & L3b & \texttt{brainSwitch} hi $\in\{20,30,50\}$, 5 att. & Ratio $\ge 1.5\times$ + L2 gates & Best ratio $1.444\times$ (att.\ 5) & Failed practice \\
+3 & L3c & hi $20$ + dormant parking, 3/5 att. & Ratio $\ge 1.5\times$ + L2 gates & $1.778\times$ ($p=.017$), confound & Stopped att.\ 3 \\
+4 & L3-I scr1 & Parking + \texttt{inheritFull} ($n=48$) & $f>0$ ($p<.01$) \& $\ge 33/48$ & $f=-0.45$ $[-4.52,+3.89]$, 19/48 & Missed (1.46$\times$) \\
+5 & L3-I scr2 & \texttt{RewriteCost} swap trial ($n=16$) & $\ge 12/16$ ($\ge 20$ chk, $\ge 10\%$) & 0/16 qualify (2 wins / 230 chk) & Missed St.\ A \\
+6 & L3-II & 2-bank attention \texttt{bankPairs} ($n=16$) & \texttt{ORAC}$-$\texttt{BLIND} $\ge 2.0$, $\ge 12/16$ & $+1.37$ $[-0.36,+3.16]$, 10/16 & Missed St.\ A \\
+7 & L3-III & Evidence-routed \texttt{attentionA} ($n=16$) & $g>0, d>0, \ge 9/16$ $d>0$ & $g=+13.39$, $d=-5.81$, 1/16 & Missed St.\ B \\
+8 & L3-IV-H0 & 4-bank \texttt{quadBankPairs} ($n=16\times 2$) & $d_O\ge 4$ ($\ge 13/16$), $b\ge 4$ & .60: $d_O=+0.49$ (8/16), $b=+2.54$ & Missed both \\
+  &          &                                          &                                & .85: $d_O=-1.91$ (4/16), $b=+2.62$ & toxins \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Energy-Cost Switching and Dormant Parking (L3, L3b, L3c, L3-I Screen 1)}
+
+In the L2 \texttt{brainSwitch} world ($\times 1/\times 12$), five practice attempts reached a maximum L1 gain ratio of $1.44\times$ (Attempt 1: $(\text{META}-\text{NOREV})/(\text{FIXED}-\text{NOREV}) = (44.73-32.74)/(41.09-32.74) = 1.44 < 1.5$). Raising the costly-state multiplier to $\times 20, \times 30, \times 50$ in \textbf{L3b} backfired on the ratio: harsher brain costs inflated the ordinary L1 denominator ($\texttt{FIXED}-\texttt{NOREV}$) because \texttt{NOREV} accumulated mutated movement masks it could never prune. Even adding fast shedding and a 300-tick fast-regrowth phase topped out at $1.444\times$.
+
+\textbf{L3c} fixed the multiplier at $\times 20$ and introduced dormant-feature parking (\texttt{park}/\texttt{unpark}): storing added masks and their weights cost-free while brain cost is high and restoring them when cost falls. Parking added masks alone gave $1.453\times$ (20/48 seeds with $d>0$, $p=0.59$). Extending parking to weak founder singletons ($|w|<1$ in Attempt 2, $|w|<2$ in Attempt 3) pushed the headline ratio to $1.746\times$ ($p=0.041$) and $1.778\times$ (34/48, $p=0.017$), at which point the run was deliberately stopped after 3 of 5 attempts because parking founder singletons saves energy even without L1 discovery.
+
+External review by GPT-6.2 Astra exposed two structural flaws in L3c: heavy tails (on Attempt 2, a single seed, 113, where \texttt{FIXED} went extinct gave $d=+59.6$, contributing $+1.24$ of the $+2.51$ mean $d$) and the missing direct-effect control \texttt{METAOFF} (running the controller with L1 disabled). Running the pre-specified descriptive \texttt{METAOFF} diagnostic on L3c Attempt 3 (\texttt{fly-rsi-l3c-metaoff-practice.json}) revealed a surprise: \texttt{METAOFF} averaged $21.75$ vs.\ \texttt{NOREV} $26.90$ ($-5.15$ flies, 4 extinctions), because offspring born while singletons were parked failed to inherit the parked masks and, lacking L1, could never recover them. Part of L3c's apparent factorial gain ($+7.97$) was therefore L1 repairing inheritance damage caused by the controller.
+
+\textbf{L3-I Screen 1} (\texttt{e43bda8}, \texttt{fly-rsi-l3i-screen1-practice.json}) fixed inheritance via \texttt{inheritFull} (children inherit the deduplicated union of active and parked masks, and transient controller packages reset before birth; verified on 431 births with 0 defects), upgraded to Scorer v2, and added a factorial mean gate $f = d - (\texttt{METAOFF}-\texttt{NOREV}) > 0$ plus a typical-world binomial sign gate ($f > 0$ on $\ge 33/48$ seeds, exact binomial $p=0.0066$). With inheritance repaired, \texttt{METAOFF} gained \LthreeImetaoffMean{} flies over \texttt{NOREV} ($30.26$ vs.\ $26.90$, 95\% CI \LthreeImetaoffCI, exact $p \LthreeImetaoffP$). Ordinary L1 gain was $+10.17$ ($\texttt{FIXED}-\texttt{NOREV}$, $[+7.59,+12.57]$), and L1 gain under the controller was $+14.81$ ($\texttt{META}-\texttt{METAOFF}$, $[+13.01,+17.05]$), an observed ratio of $1.456\times$ (logged $1.46\times$). Screen 1 missed all three compounding gates: original $d = \LthreeIdOrigMean$ (\LthreeIdOrigCI, exact $p \LthreeIdOrigP \ge 0.01$; Scorer v2 printed $0.01085$), factorial mean $f = \LthreeIfactMean$ (\LthreeIfactCI, exact $p \LthreeIfactP$), and factorial sign $19/48$ (bar $\ge 33/48$).
+
+\subsection{Rewrite-Price Gating: L3-I Screen 2 (RewriteCost)}
+
+To eliminate direct energy savings in \texttt{METAOFF} by construction, \textbf{L3-I Screen 2} (\texttt{RewriteCost}, registered verbatim by Astra in \texttt{a373341}) replaced \texttt{brainSwitch} with a switching energy fee ($0.15$ vs.\ $3.00$, flip rate $0.002$) charged only when committing a taste-mask swap at full capacity, evaluated by a 16-tasting shadow trial against a hurdle gene \texttt{swapHurdle} $\in \{0, 0.025, 0.075, 0.15, \text{NEVER}\}$. Preflight tickwise lockstep tests passed with zero divergent ticks over 20,000 ticks (ensuring $f = d$ identically). However, Stage A (seeds 101--116, hurdle \texttt{NEVER}; \texttt{fly-rsi-l3i-screen2-stageA.json}) failed decisively: \textbf{0/16} seeds qualified against the bar of $\ge 12/16$ seeds with $\ge 20$ blocked checks and $\ge 10\%$ positive-score rate. Across all 16 worlds there were only 5--36 blocked full-cap checks per seed (230 total), 102 nominations, 80 cancellations due to ordinary live edits occurring during the 16-tasting window, 13 pending at death, 9 completions, and 2 wins total (both on seed 114, 15 checks). The targeted full-cap bottleneck is simply too rare in Microverse, retiring the operator without implying an L1 ceiling.
+
+\subsection{Attention-Limited Structural Routing: L3-II and L3-III}
+
+The next mechanism targeted L1's information bottleneck rather than energy cost. \textbf{L3-II} (\texttt{50e0a25}) introduced an opt-in rule family \texttt{bankPairs} splitting the 8 odor bits into Bank A (bits 0--3) and Bank B (bits 4--7), placing one target pair in each bank. Each fly had a private reliable bank switching at $0.004$/tick; L0 perceived the clean odor normally, while L1's structural evidence could route only one bank (15 masks) per tasting, with bits in the unreliable bank flipped independently with probability $q=0.5$. A noisy bodily cue named the reliable bank with accuracy $0.90$.
+
+In Stage A (seeds 101--116, \texttt{fly-rsi-l3ii-stageA.json}), \texttt{ORACLE} ($58.29$ flies, common-tape loss $0.5654$ nats/bite) beat all five static allocations (\texttt{S0} $50.72$ through \texttt{S100} $51.80$, locked \texttt{FIXED} $=$ \texttt{S50} at $56.00$, loss $0.6712$) by $+2.28$ to $+7.56$ flies ($12/16$ wins vs.\ \texttt{S50}) and $-0.1058$ to $-0.1128$ nats/bite, confirming that structural routing works as a mechanism. Yet a mandatory cue-blind evidence scheduler (\texttt{BLIND}, which routes $80\%$ greedily by an exponentially smoothed bank utility built from prior pair correlations predicting new residuals) reached $56.91$ flies (loss $0.6338$), erasing roughly $40\%$ of \texttt{ORACLE}'s population advantage over \texttt{S50}. \texttt{ORACLE} minus \texttt{BLIND} was $+1.37$ flies ($[-0.36,+3.16]$, $10/16$ wins), missing both Stage A bars ($\ge 2.0$ flies and $\ge 12/16$ wins), so L3-II stopped.
+
+\textbf{L3-III} (\texttt{8af02b7}) promoted the cue-blind scheduler itself to \texttt{META} (writing its decision explicitly to \texttt{genes.attentionA}, tested against an independent sensory-twin \texttt{SHAM}). Stage A (seeds 301--316, \texttt{fly-rsi-l3iii-stageA.json}) re-locked \texttt{FIXED} $=$ \texttt{S75} ($55.88$ flies). Stage B (seeds 317--332, \texttt{fly-rsi-l3iii-stageB.json}) missed sharply: ordinary L1 gain was large ($g = \texttt{S75} - \texttt{NOREV} = +13.39$ flies, $[+11.89,+14.89]$, 16/16), so $1.5\times$ compounding required \texttt{META} to add $+6.70$ flies over \texttt{S75}. Instead, $m = \texttt{META} - \texttt{S75} = +0.88$ ($[-0.14,+1.97]$, 10/16; ratio $1.066\times$), yielding $d = m - 0.5g = -5.81$ ($[-7.32,-4.21]$) with only \textbf{1/16} seeds $d > 0$ (bar $\ge 9/16$). Telemetry showed \texttt{META} barely tracked the true reliable bank (match rate $0.530$ vs.\ $0.500$ for \texttt{S75}), earning its small $+0.88$-fly premium from longer same-bank sampling runs ($4.68$ vs.\ $2.65$ tastings) and balanced admissions ($5{,}196$ A / $5{,}321$ B total across 16 seeds vs.\ $3{,}826$ / $1{,}635$ for \texttt{S75}).
+
+\subsection{Four-Bank Oracle Headroom (L3-IV-H0) and Post-Hoc Diagnosis}
+
+To test whether increasing the bank dilution penalty from 1-of-2 to 1-of-4 could open sufficient headroom, \textbf{L3-IV-H0} (proposed by Gemini 4 Neon, cross-examined and registered by Astra in \texttt{12b8e7f}) expanded odors to 16 bits across four 4-bit banks (\texttt{quadBankPairs}, one true pair per bank, \texttt{tasteCap} $=24$, 39 static allocations, toxins $0.60$ and $0.85$ on seeds 101--116; no final bank reserved).
+
+L3-IV-H0 \textbf{missed at both toxins} :
+\begin{itemize}
+  \item \textbf{Toxin 0.60:} \texttt{NOREV} $42.40$, best static $F = \texttt{S10} = [0,0.5,0.25,0.25]$ at $48.27$ ($g = +5.87$, $[+4.92,+6.98]$, 16/16), \texttt{BLIND} $49.15$, \texttt{ORACLE} $51.69$, \texttt{TRUE\_ORACLE} $63.19$ ($\alpha = 0.28$). Although \texttt{ORACLE} beat \texttt{S10} by $+3.42$ flies ($[+2.09,+4.69]$, 15/16, ratio $1.58\times$), its compounding surplus was only $d_O = (\texttt{ORACLE}-F)-0.5g = +0.49$ ($[-1.25,+2.02]$, 8/16 vs.\ bars $\ge 4.0$ and $\ge 13/16$), and $\texttt{ORACLE}-\texttt{BLIND} = +2.54$ ($[+1.25,+3.85]$, 13/16 vs.\ bar $\ge 4.0$).
+  \item \textbf{Toxin 0.85:} \texttt{NOREV} $31.26$, best static $F = \texttt{S20} = [0.25,0.25,0.25,0.25]$ at $41.74$ ($g = +10.48$, $[+8.35,+12.68]$, 16/16), \texttt{BLIND} $42.45$, \texttt{ORACLE} $45.07$, \texttt{TRUE\_ORACLE} $55.02$ ($\alpha = 0.44$). Here $d_O = -1.91$ ($[-3.75,+0.02]$, 4/16) and $\texttt{ORACLE}-\texttt{BLIND} = +2.62$ ($[+0.87,+4.68]$, 13/16), both missing the $4.0$-fly bar.
+\end{itemize}
+Telemetry at toxin $0.60$ showed that oracle routing accelerated discovery: \texttt{ORACLE} achieved $1.000$ bank-match accuracy, $1{,}981$ admissions per seed, $637$ correct-pair admissions per seed ($6.2\times$ \texttt{S10}'s $102$ and $3.0\times$ \texttt{BLIND}'s $212$), and $2.28$ true pairs held per newborn (vs.\ $0.99$ in \texttt{S10} and $1.46$ in \texttt{BLIND}). Yet this sixfold jump in correct feature discovery translated into only $+3.42$ flies, leaving an apparent $+11.5$-fly gap below \texttt{TRUE\_ORACLE} ($63.19$).
+
+An exploratory post-hoc diagnosis by Gemini 4 Neon on four fresh non-bank seeds (501--504; unregistered, no confidence intervals) suggests where the expected gain went. These are hypotheses from four seeds, not established mechanisms:
+\begin{enumerate}
+  \item \textbf{The \texttt{TRUE\_ORACLE} gap is mostly feature count, not rule knowledge.} On seeds 501--504 at toxin $0.60$, \texttt{NOREV} averaged $41.55$, \texttt{S10} $46.77$, \texttt{BLIND} $48.74$, and \texttt{ORACLE} $49.88$. Comparing \texttt{TRUE\_5} (bias plus 4 true pairs $=5$ masks: $62.71$ flies) against \texttt{TRUE\_21} (bias plus 16 unprunable founder singletons plus 4 true pairs $=21$ masks: $53.29$ flies) suggests a cost of about 9.4 flies for carrying 16 founder singletons that cannot be pruned. The split into about 4.2 flies of maintenance energy and 5.3 flies of overfitting comes from one further ablation and has no stated uncertainty. Even god-mode \texttt{TRUE\_21} reached only $d_O \approx +3.9 < 4$.
+  \item \textbf{Cap crowding was not supported.} \texttt{ORACLE} sat at its 24-mask cap on only $5\%$ of fly-ticks; raising the cap to 40 ($49.97$), disabling mutation ($47.29$), pruning harder ($49.57$), and raising \texttt{tasteZ} ($46.21$) all failed to help \texttt{ORACLE}.
+  \item \textbf{Removing founder singletons fails in the opposite direction.} Starting from bias-only \texttt{[0]} with direct within-bank candidates collapsed \texttt{NOREV} to $16.96$ (and $0$ at toxin $0.85$), inflating $g$ so much that the $1.5\times$ bar demanded more flies than \texttt{TRUE\_5} achieves.
+  \item \textbf{Movement L1 compresses taste-routing margins.} In taste-only runs, \texttt{ORACLE} beat \texttt{S10} by $+5.70$ flies; enabling movement L1 added $+3.74$ flies to \texttt{S10} but only $+1.15$ to \texttt{ORACLE}.
+\end{enumerate}
+
+These observations are hypotheses about why the oracle surplus was small in the four-bank world. They do not establish a general ceiling: the oracle reached a ratio of $1.58\times$ at toxin $0.60$, above $1.5\times$, and missed only the prespecified margin of $+4$ flies (Section~\ref{sec:l3}).

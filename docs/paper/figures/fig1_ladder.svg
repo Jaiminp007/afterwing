@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 776.5" width="990" height="776.5" font-family="Helvetica Neue, Arial, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrowDown" viewBox="0 0 10 10" refX="5" refY="8" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1,1 L5,9 L9,1 z" fill="#475569"/>
+    </marker>
+    <marker id="arrowRight" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1,1 L9,5 L1,9 z" fill="#4c6788"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="990" height="776.5" fill="#ffffff"/>
+  <text x="28" y="32" font-size="18" font-weight="700" fill="#1a202c">Microverse Prespecified Self-Improvement Ladder (L0 to L3)</text>
+  <text x="28" y="52" font-size="12" fill="#4a5568">Single closed 40×40 torus breeding world; plans frozen in git before runs; finals run once on fresh seeds.</text>
+  <g>
+    <rect x="28" y="76" width="690" height="147" rx="7" fill="#f0f7f4" stroke="#2a7b5f" stroke-width="1.8"/>
+    <rect x="40" y="87" width="40" height="24" rx="4" fill="#1f624b"/>
+    <text x="60" y="104" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">L0</text>
+    <text x="92" y="104" font-size="14.2" font-weight="700" fill="#1a202c">Lifetime Learning</text>
+    <rect x="536" y="87" width="170" height="22" rx="11" fill="#1f624b"/>
+    <text x="621" y="102" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">SHOWN (G1–G4)</text>
+    <text x="42" y="128.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Logistic taste learner (Walsh masks, 32-slot replay, confidence gate) and</text>
+    <text x="42" y="142.5" font-size="10.8" fill="#1a202c">eligibility-trace movement Q-learner. Learned weights reset at birth.</text>
+    <text x="42" y="160.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> G1–G4 closed across two fresh-seed finals (50001–50008 and 60001–60008; G4 FIXED vs</text>
+    <text x="42" y="174.5" font-size="10.8" fill="#1a202c">FROZEN 8/8 in both finals).</text>
+    <text x="42" y="192.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Default 40×40 Microverse; G3 movement benefit is mostly innate instinct; G1–G6 finals reproduce</text>
+    <text x="42" y="206.5" font-size="10.2" fill="#4a5568">bit for bit at their commits.</text>
+  </g>
+  <line x1="60" y1="224" x2="60" y2="238" stroke="#475569" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <g>
+    <rect x="28" y="241" width="690" height="147" rx="7" fill="#f0f7f4" stroke="#2a7b5f" stroke-width="1.8"/>
+    <rect x="40" y="252" width="40" height="24" rx="4" fill="#1f624b"/>
+    <text x="60" y="269" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">L1</text>
+    <text x="92" y="269" font-size="14.2" font-weight="700" fill="#1a202c">In-World Program Self-Revision</text>
+    <rect x="536" y="252" width="170" height="22" rx="11" fill="#1f624b"/>
+    <text x="621" y="267" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">SHOWN (G5, G6, G7c)</text>
+    <text x="42" y="293.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Flies add/prune Walsh taste masks and optional movement senses from residual evidence;</text>
+    <text x="42" y="307.5" font-size="10.8" fill="#1a202c">masks and evidence are inherited.</text>
+    <text x="42" y="325.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> G5 (vs FIXED &amp; SHAM, 8/8) and G6 (rediscovery, gain 0.394 / 0.362) closed. G7c</text>
+    <text x="42" y="339.5" font-size="10.8" fill="#1a202c">(94001–94096, n=96): +2.14 vs TASTEONLY (66/96, 95% CI [1.48, 2.82]), +9.40 vs MOVEONLY (96/96).</text>
+    <text x="42" y="357.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> G7 failed twice (3/8, 5/8) and G7b missed (p = .0119); G7c is a new test with redesigned</text>
+    <text x="42" y="371.5" font-size="10.2" fill="#4a5568">moveAddInit = 2.</text>
+  </g>
+  <line x1="60" y1="389" x2="60" y2="403" stroke="#475569" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <g>
+    <rect x="28" y="406" width="690" height="147" rx="7" fill="#f0f7f4" stroke="#2a7b5f" stroke-width="1.8"/>
+    <rect x="40" y="417" width="40" height="24" rx="4" fill="#1f624b"/>
+    <text x="60" y="434" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">L2</text>
+    <text x="92" y="434" font-size="14.2" font-weight="700" fill="#1a202c">In-Life Reviser Tuning (Fly-RSI L2)</text>
+    <rect x="536" y="417" width="170" height="22" rx="11" fill="#1f624b"/>
+    <text x="621" y="432" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">SHOWN (95001–95048)</text>
+    <text x="42" y="458.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Hand-written rule switches taste and movement reviser genes (cap, prune, z) between two</text>
+    <text x="42" y="472.5" font-size="10.8" fill="#1a202c">preset packages from a perfect brain-cost price reading.</text>
+    <text x="42" y="490.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> Fresh seeds 95001–95048 (n=48): +3.64 vs EVO-R (44/48, +8.8%), +2.87 vs SHAM (39/48,</text>
+    <text x="42" y="504.5" font-size="10.8" fill="#1a202c">+6.8%), +3.16 vs FIXED (43/48); exact p ≤ 1.5e-7; replicated on new seeds.</text>
+    <text x="42" y="522.0" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Constructed brainSwitch world (×1/×12, switch .001); perfect price cue (reads simulator state);</text>
+    <text x="42" y="536.5" font-size="10.2" fill="#4a5568">packages taken from headroom oracle.</text>
+  </g>
+  <line x1="60" y1="554" x2="60" y2="568" stroke="#475569" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <g>
+    <rect x="28" y="571" width="690" height="161.5" rx="7" fill="#fdf2f2" stroke="#b83b3b" stroke-width="1.8" stroke-dasharray="6,4"/>
+    <rect x="40" y="582" width="40" height="24" rx="4" fill="#9b2c2c"/>
+    <text x="60" y="599" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">L3</text>
+    <text x="92" y="599" font-size="14.2" font-weight="700" fill="#1a202c">Bounded Compounding (≥ 1.5× L1 Payoff)</text>
+    <rect x="536" y="582" width="170" height="22" rx="11" fill="#9b2c2c"/>
+    <text x="621" y="597" font-size="10.6" font-weight="700" fill="#ffffff" text-anchor="middle">NOT SHOWN (0 FINALS)</text>
+    <text x="42" y="623.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Mechanism:</tspan> Requires L2 control to make L1 self-revision pay ≥ 1.5× more (plus factorial mean and</text>
+    <text x="42" y="637.5" font-size="10.8" fill="#1a202c">sign gates in L3-I through L3-III).</text>
+    <text x="42" y="655.0" font-size="10.8" fill="#1a202c"><tspan font-weight="700">Evidence:</tspan> All 8 designs/screens missed prespecified bars: L3 (1.44×), L3b (1.444×), L3c (stopped,</text>
+    <text x="42" y="669.5" font-size="10.8" fill="#1a202c">confound), L3-I scr1 (f = −0.45, 19/48), L3-I scr2 (0/16), L3-II (+1.37 vs BLIND), L3-III (d =</text>
+    <text x="42" y="684.0" font-size="10.8" fill="#1a202c">−5.81, 1/16), L3-IV-H0 (dO = +0.49 / −1.91 vs bar 4).</text>
+    <text x="42" y="701.5" font-size="10.2" fill="#4a5568"><tspan font-weight="700">Caveat:</tspan> Zero L3 finals run; reserved banks (97001–, 763001–, 852001–, 874001–) untouched. Post-hoc</text>
+    <text x="42" y="716.0" font-size="10.2" fill="#4a5568">diagnosis: concave ecology &amp; founder-singleton overhead.</text>
+  </g>
+  <g>
+    <rect x="742" y="76" width="224" height="147" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="754" y="98" font-size="11.8" font-weight="700" fill="#1a202c">Closed Ecology Specs</text>
+    <text x="754" y="118" font-size="10.3" fill="#4a5568">• 40×40 torus, cap 400 flies</text>
+    <text x="754" y="134" font-size="10.3" fill="#4a5568">• 20,000 ticks; maxAge 1,200</text>
+    <text x="754" y="150" font-size="10.3" fill="#4a5568">• 8-bit Walsh food rules (3k)</text>
+    <text x="754" y="166" font-size="10.3" fill="#4a5568">• 16 odor kinds redrawn / 100t</text>
+    <text x="754" y="182" font-size="10.3" fill="#4a5568">• Balanced 8 good / 8 bad kinds</text>
+  </g>
+  <line x1="720" y1="314.5" x2="738" y2="314.5" stroke="#4c6788" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowRight)"/>
+  <g>
+    <rect x="742" y="241" width="224" height="147" rx="7" fill="#f4f6fa" stroke="#4c6788" stroke-width="1.5"/>
+    <rect x="752" y="251" width="44" height="20" rx="4" fill="#3b5370"/>
+    <text x="774" y="265" font-size="10.8" font-weight="700" fill="#ffffff" text-anchor="middle">P11b</text>
+    <text x="804" y="265" font-size="11.8" font-weight="700" fill="#1a202c">External L2 Search</text>
+    <text x="752" y="286" font-size="10.2" fill="#1a202c">Hand-written climber over L1</text>
+    <text x="752" y="301" font-size="10.2" fill="#1a202c">taste reviser from R_P12.</text>
+    <text x="752" y="321" font-size="10.3" font-weight="700" fill="#1f624b">PASSED (80001–80048):</text>
+    <text x="752" y="337" font-size="10.2" fill="#1a202c">+5.73 vs R_P12 (48/48);</text>
+    <text x="752" y="352" font-size="10.2" fill="#4a5568">vs R0 −0.54 (n.s.). In-world search.</text>
+    <text x="752" y="368" font-size="9.6" fill="#64748b">Start set after H1/H2 failed.</text>
+  </g>
+  <line x1="720" y1="479.5" x2="738" y2="479.5" stroke="#4c6788" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowRight)"/>
+  <g>
+    <rect x="742" y="406" width="224" height="147" rx="7" fill="#f4f6fa" stroke="#4c6788" stroke-width="1.5"/>
+    <rect x="752" y="416" width="58" height="20" rx="4" fill="#3b5370"/>
+    <text x="781" y="430" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">P13b</text>
+    <text x="818" y="430" font-size="11.5" font-weight="700" fill="#1a202c">Related Rungs</text>
+    <text x="752" y="450" font-size="10.1" font-weight="700" fill="#9b2c2c">A1 (reviser): NOT SHOWN</text>
+    <text x="752" y="464" font-size="10" fill="#4a5568">9 designs bounded below gate;</text>
+    <text x="752" y="478" font-size="10" fill="#4a5568">P13b-1 (+5.96) &amp; 2b (+1.24)</text>
+    <text x="752" y="492" font-size="10" fill="#4a5568">passed; 3/3a/3b failed.</text>
+    <text x="752" y="511" font-size="10.1" font-weight="700" fill="#3b5370">A3 (10th): PASSED (93001–)</text>
+    <text x="752" y="526" font-size="10" fill="#1a202c">+9.48 vs EVO-R, +8.86 vs SHAM</text>
+    <text x="752" y="540" font-size="9.6" fill="#4a5568">Tunes acceptAt, NOT reviser.</text>
+  </g>
+  <g>
+    <rect x="742" y="571" width="224" height="161.5" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+    <text x="754" y="593" font-size="11.5" font-weight="700" fill="#92400e">Audit &amp; Scope Guardrails</text>
+    <text x="754" y="613" font-size="10.2" fill="#78350f">• All rules &amp; menus hand-written</text>
+    <text x="754" y="629" font-size="10.2" fill="#78350f">• Git-frozen ≠ external pre-reg</text>
+    <text x="754" y="645" font-size="10.2" fill="#78350f">• L0–L2 bounded; not open-ended</text>
+    <text x="754" y="661" font-size="10.2" fill="#78350f">• No L3 bank spent (0 finals)</text>
+    <text x="754" y="677" font-size="10.2" fill="#78350f">• Exact p only (runner MC defective)</text>
+    <text x="754" y="693" font-size="10.2" fill="#78350f">• All failed attempts disclosed</text>
+  </g>
+
+  <text x="28" y="764.5" font-size="10.2" fill="#64748b">Generated deterministically by docs/paper/figures/fig1_ladder.mjs from committed evidence/microverse/*.json and docs/*_LOG.md.</text>
+</svg>

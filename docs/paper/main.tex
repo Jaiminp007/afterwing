@@ -1,0 +1,341 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{adjustbox}
+\usepackage[htt]{hyphenat}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+
+% Every effect, win count, CI and p-value that comes from per-seed data is a macro from numbers.tex,
+% which docs/paper/verify.mjs generates from evidence/microverse/*.json and checks against the logs.
+\input{numbers}
+
+\title{Testing self-improvement claims in an artificial-life world:\\
+controls, replication, and a negative result for compounding}
+
+\author{Jaimin Patel\\
+\small Independent researcher\\
+\small\texttt{jaimin.patel.9568@gmail.com}\\
+\small Built and written with substantial help from Claude (Anthropic) and other AI models (Section~\ref{sec:ai-disclosure})}
+
+\date{November 2026}
+
+\emergencystretch=3em
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Claims that an artificial agent improves its own learning are easy to state and hard to test. We report a program of tests in Microverse, a deterministic breeding world in which simulated flies learn food values and movement during life and pass learning structure, but not learned values, to their offspring. Each confirmatory test was specified in a version-control commit before it ran and was run once on fresh seeds; tests that failed keep their names. Three results hold on new seed banks run with the same implementation. Lifetime learning helps. Revising both taste and movement features sustains more flies than revising either alone (\GsevenCTasteMean{} late flies, replicated at \RepGsevenCTasteMean). In a world built so that the cost of brain features changes during a fly's life, a hand-written rule that reads the current price and switches between two preset reviser packages beats evolution of those packages, a sham driven by an independent cue, and fixed settings (\LtwoEvorMean, \LtwoShamMean, \LtwoFixedMean{} flies on a baseline of about 41; replicated). Controls added after blind review sharpen both claims: tracking the price during life adds \EoneBirthMean{} flies over reading it once at birth, but birth assignment alone gives most of the gain; and choosing movement senses from evidence beats choosing them at random, but not giving the fly the two useful senses from the start.
+Making revision pay at least 1.5 times more (compounding) was not reached in eight designs; we report what each screen rules out, not a ceiling. The main contribution is methodological: controls that overturned apparent successes, defects found in our own permutation-test code, and a pipeline that regenerates every reported number from raw data.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+A system that ``improves its own improvement'' is an old idea \citep{schmidhuber2007godel,schmidhuber2013powerplay} and a current one \citep{zhang2025darwin}. In artificial life the question is sharper, because the improvement has to pay off in survival and reproduction rather than on a benchmark \citep{ofria2004avida,yaeger1994polyworld}. It is also easy to get wrong. A gain attributed to an agent's own evidence can come from random variation plus selection, from a side effect of the controller, from a world chosen because it favors the mechanism, or from repeated runs on noisy seeds \citep{gelman2014statistical}.
+
+This paper reports what survived when we tried to rule those explanations out in one world. Microverse is a closed, deterministic breeding world (Section~\ref{sec:world}). We arranged the claims as a ladder: lifetime learning (L0), revision of the features a fly learns from (L1), in-life control of that reviser's settings (L2), and compounding, meaning that L2 makes L1 pay at least $1.5\times$ more (L3). Each rung was tested against named controls under a plan committed before the run (Section~\ref{sec:protocol}).
+
+Our contributions are:
+\begin{enumerate}
+  \item \textbf{A test protocol for adaptation claims in a breeding world}, with one-shot finals on fresh seeds, a ledger of spent seeds, failed tests kept under their names (Appendix~\ref{app:attempts}), and exact paired tests.
+  \item \textbf{Results that survive, with their scope stated} (Section~\ref{sec:results}): L0, the G7c taste-plus-movement result, and the L2 result, each replicated on new seeds, and each narrowed by new controls: most of the L2 benefit comes from choosing the right package at birth, and a designer's gift of the right movement senses matches evidence-driven movement revision.
+  \item \textbf{Controls that changed the answer} (Section~\ref{sec:controls}): an inheritance confound that inflated an apparent compounding result, a coin-flip sham that matched an evidence-driven tuning rule, and the birth-only and gift controls blind reviewers asked for.
+  \item \textbf{A negative result for compounding}, presented by the hypotheses each screen excludes (Section~\ref{sec:l3}).
+  \item \textbf{Verification}: deterministic reruns, a replication on new seed banks, a sensitivity analysis, an adversarial audit of the controls, and two defective permutation-test generators found in our own runners (Section~\ref{sec:verification}).
+\end{enumerate}
+
+\section{Microverse}
+\label{sec:world}
+
+Microverse is a $40\times 40$ torus with eight food patches that relocate (Appendix~\ref{app:model} gives every parameter). Each plant has an 8-bit odor code; whether it is nutritious or toxic follows a hidden rule over that code, a sum of Walsh products of odor bits. The rule changes every 3,000 ticks through four families (pairs of bits, a staircase, triples, a single bit), and the odor codes are redrawn every 100 ticks, so a fly must learn the rule rather than memorize odors. Flies pay energy to live, move and maintain brain features; they breed asexually above an energy threshold and die when they starve or reach age 1,200. A run lasts 20,000 ticks.
+
+Each fly has two learners (Figure~\ref{fig:controller}). The taste learner predicts whether food is good from a set of Walsh features (``masks'') of the odor code; the movement learner values moves from a set of senses. Both learn their weights during life (L0). A self-revising fly also changes its feature sets during life (L1): it adds the candidate feature its own prediction errors support most strongly, prunes features whose weights stay small, and slowly forgets old evidence. These revision rules have settings, such as a cap on the number of features, a pruning threshold and an evidence threshold for adding a feature; we call a full set of them a reviser package. A child inherits its parent's feature sets, the evidence behind them and its genes, with mutation; it never inherits learned weights.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[font=\small, node distance=4mm and 6mm,
+  box/.style={draw, rounded corners=2pt, align=center, inner sep=4pt, minimum height=9mm},
+  sense/.style={box, fill=blue!6}, life/.style={box, fill=green!7}, birth/.style={box, fill=orange!10},
+  arr/.style={-{Stealth[length=2mm]}, thick}]
+  \node[sense] (odor) {odor code of food\\(8 bits)};
+  \node[sense, below=of odor] (taste) {taste outcome\\(good / bad, noisy)};
+  \node[sense, below=of taste] (price) {L2 world only:\\current brain-cost price};
+  \node[life, right=14mm of odor] (weights) {L0: learned weights\\(taste and movement)};
+  \node[life, below=of weights] (masks) {L1: feature sets\\(added and pruned from\\own prediction errors)};
+  \node[life, below=9mm of masks] (pkg) {L2: reviser package\\(lean or full)};
+  \node[birth, right=14mm of masks] (child) {offspring inherits:\\feature sets, evidence,\\genes (mutated)\\\textbf{not} learned weights};
+  \draw[arr] (odor) -- (weights); \draw[arr] (taste) -- (weights); \draw[arr] (taste) -- (masks);
+  \draw[arr] (price) -- node[below, font=\scriptsize]{rule} (pkg);
+  \draw[arr] (pkg) -- node[right, font=\scriptsize]{sets caps and thresholds} (masks);
+  \draw[arr] (masks) -- (weights);
+  \draw[arr] (masks) -- (child);
+  \draw[arr, dashed] (pkg.east) -| node[below right, font=\scriptsize, align=left]{reset to full before\\mutation in E1 (L2-D)} (child.south);
+  \node[above=2mm of odor, font=\bfseries\small] {What the fly senses};
+  \node[above=2mm of weights, font=\bfseries\small] {What changes during life};
+  \node[font=\bfseries\small] at (child |- weights.north) [anchor=south, yshift=2mm] {What crosses birth};
+\end{tikzpicture}
+\caption{What a Microverse fly senses, what changes during its life, and what passes to its offspring. In the original L2 experiment the controller's current package was copied to the child and constrained its mutation (dashed arrow); in the controlled re-test (E1) it is reset to the full package first.}
+\label{fig:controller}
+\end{figure}
+
+\section{Protocol and statistics}
+\label{sec:protocol}
+
+\textbf{Prospective specification.} For every confirmatory test, the arms, the outcome, the pass bars and a fresh seed bank were written into a goal document and committed to git before the run. This is an internal discipline, not external pre-registration \citep{nosek2018preregistration}: local commits can be rewritten before they are pushed, and the plans were not lodged with a third party. Design work used practice seeds (101--116 and 301--332). A final ran once on its fresh bank and was never rerun to seek a pass; a redesigned test got a new name and a new bank, and the failed test kept its verdict. Appendix~\ref{app:attempts} lists every attempt.
+
+\textbf{Outcome.} Except for the first goal suite, every test is a paired-solo comparison: each arm lives alone in a world started from the same seed, and the outcome is its \emph{late population}, the mean number of living flies over the 100 snapshots at ticks 10,100 to 20,000, with zero after extinction. Arms that share a seed start identically but do not see identical histories, because behavior changes how the world's random stream is consumed; they are \emph{paired by initial seed}. The first suite (goals G1--G7) used head-to-head competition between two strains and scored the share of the late population; we replaced it after a review showed that a contest with eight seeds is close to a coin flip per seed.
+
+\textbf{Tests.} For each contrast we report the mean paired difference, the number of seeds on which it was positive, a 20,000-resample percentile bootstrap 95\% confidence interval over seeds \citep{efron1993bootstrap}, and a one-sided sign-flip $p$-value. The test's null hypothesis is that each seed's paired difference is equally likely to have either sign (sign symmetry), which holds if the two arm labels are exchangeable within a seed. It is a test against zero, not evidence that an effect exceeds a margin; margins are separate bars on the mean. The $p$-values are exact: the null distribution of the signed sum is enumerated over all $2^n$ sign assignments by dynamic programming on a $0.01$-fly grid. We report values below $10^{-6}$ as $p<10^{-6}$. The runners' own Monte Carlo $p$-values are defective (Section~\ref{sec:verification}); every $p$-value in this paper is recomputed, and where we quote a historical printed value we label it as such.
+
+\textbf{Multiplicity.} We do not correct across tests that asked different questions. Two kinds of multiplicity matter and fresh seeds do not remove either. Across about 20 gated final contrasts, a Bonferroni line of $0.01/20$ would be passed by every headline result but not by P13b-2b ($p \PthirteenTwoBEvorP$). More importantly, worlds and designs were selected on practice seeds: the L2 world was chosen from five candidates for its headroom, and the P13b line tried ten designs. Our positive results therefore show that an effect exists in a world chosen for it, not that it is common.
+
+\section{Results}
+\label{sec:results}
+
+Table~\ref{tab:headline} collects the headline fresh-seed results; Figure~\ref{fig:diffs} shows their per-seed differences.
+
+\begin{table}[t]
+\centering
+\caption{Headline fresh-seed results. Effect is the mean paired difference in late population (flies); exact one-sided sign-flip $p$. All values are generated from committed per-seed data by \texttt{docs/paper/verify.mjs}.}
+\label{tab:headline}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llrrrrl@{}}
+\toprule
+\textbf{Test} & \textbf{Contrast} & \textbf{Seeds ($n$)} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{$p$} \\
+\midrule
+G7c & \texttt{SELF} $-$ \texttt{TASTEONLY} & 94001--94096 (96) & \GsevenCTasteMean & \GsevenCTasteCI & \GsevenCTasteWins & $\GsevenCTastePv$ \\
+G7c & \texttt{SELF} $-$ \texttt{MOVEONLY} & 94001--94096 (96) & \GsevenCMoveMean & \GsevenCMoveCI & \GsevenCMoveWins & $\GsevenCMovePv$ \\
+\midrule
+P11b & $R^* - R_{\mathrm{P12}}$ (gate) & 80001--80048 (48) & \PelevenBMean & \PelevenBCI & \PelevenBWins & $\PelevenBPv$ \\
+P11b & $R^* - R_0$ (reported) & 80001--80048 (48) & \PelevenBvsRzeroMean & \PelevenBvsRzeroCI & \PelevenBvsRzeroWins & $\PelevenBvsRzeroPv$ \\
+\midrule
+L2 & \texttt{META} $-$ \texttt{EVO-R} & 95001--95048 (48) & \LtwoEvorMean & \LtwoEvorCI & \LtwoEvorWins & $\LtwoEvorPv$ \\
+L2 & \texttt{META} $-$ \texttt{SHAM} & 95001--95048 (48) & \LtwoShamMean & \LtwoShamCI & \LtwoShamWins & $\LtwoShamPv$ \\
+L2 & \texttt{META} $-$ \texttt{FIXED} & 95001--95048 (48) & \LtwoFixedMean & \LtwoFixedCI & \LtwoFixedWins & $\LtwoFixedPv$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_g7c_l2_diffs}
+\caption{Per-seed paired differences in late population for the G7c final ($n=96$, A--B) and the L2 final ($n=48$, C--E), sorted. Lines show the mean, bands the bootstrap 95\% CI, dashed lines the prespecified bars.}
+\label{fig:diffs}
+\end{figure}
+
+\subsection{Lifetime learning and feature revision (L0, L1)}
+
+The first world went extinct on every practice seed; nine logged attempts made it livable (Appendix~\ref{app:attempts}). The goal suite G1--G6 then passed two fresh competition finals (seeds 50001--50008 and 60001--60008; Table~\ref{tab:g1-g6}). Lifetime learning beat a frozen brain on 8/8 seeds in both (G4, L0), and self-revising flies beat fixed flies and a random-revision sham on 8/8 (G5, L1). These are eight-seed competition results on the fly as it was before the G7c change; a check against mutation-only evolution was run on practice seeds only.
+
+The next goal asked whether revising movement adds to revising taste (G7). It failed twice in competition (3/8 and 5/8 wins), and its paired-solo successor G7b missed narrowly ($+0.88$ flies, 30/48; printed $p=0.0119$, exact $p \GsevenBP$). A third, separately named test, G7c, allowed a redesign of the movement reviser on practice seeds: an added movement sense now starts at weight 2 with the sign of its evidence, instead of at zero. On 96 fresh seeds, flies revising both systems sustained \GsevenCTasteMean{} more flies than taste-only revision (CI \GsevenCTasteCI) and \GsevenCMoveMean{} more than movement-only revision.
+
+G7c compares the whole movement-revision package against its absence. It does not show that choosing senses from evidence matters, as opposed to switching on a useful sense at a large weight: on practice seeds, simply giving the fly the ``toward best food'' and ``stay'' senses at weight 1 added about 2.9 flies. Experiment E2 tests this directly.
+
+\textbf{E2: does evidence-driven selection matter?} After two blind reviews we ran four controls on the current fly, on 96 fresh seeds under a plan committed before the run (Table~\ref{tab:e1e2}). \texttt{SELF} beat full random revision (\texttt{SHAM}, \EtwoShamMean{} flies) and no revision (\texttt{FIXED}, \EtwoFixedMean), and beat a fly whose taste revision uses evidence but whose movement revision is random (\texttt{MOVESHAM}, \EtwoMoveshamMean{} flies, $p \EtwoMoveshamP$). So choosing movement senses from evidence beats choosing them at random. But a fly with no movement revision that is simply born with the ``toward best food'' and ``stay'' senses at weight 2 (\texttt{GIFT}) did slightly better than \texttt{SELF}: \texttt{SELF} $-$ \texttt{GIFT} $=$ \EtwoGiftMean{} flies (CI \EtwoGiftCI), failing the prespecified gate. The movement half of G7c is therefore matched by a designer who supplies the right senses; what evidence-driven revision adds is finding them without being told, which in this world is worth less than knowing them from birth.
+
+\subsection{An external search over the reviser (P11b)}
+
+P11b asked whether a hand-written hill climber, scored in the world, could improve the taste reviser's five settings. From the designer's tuned reviser $R_0$ there was too little headroom to test, so the search was restarted from $R_{\mathrm{P12}}$, the reviser as it was before forgetting and pruning were added by hand, over a grid that contained those settings. The climber accepted three steps that restored pruning, faster revision and forgetting. On 48 fresh seeds the found reviser $R^*$ beat $R_{\mathrm{P12}}$ by \PelevenBMean{} flies (\PelevenBWins). The gate therefore measures undoing a known handicap, not finding something new. Against $R_0$ the result was \PelevenBvsRzeroMean{} flies (CI \PelevenBvsRzeroCI): not significantly worse, but not shown equal. With the current fly (after G7c), $R_0$ is better by 1.52 flies, and $R^*$ is ahead on only 12 of 48 seeds. P11b is an external search, not in-life self-improvement, and we report it as a positive control for the search machinery.
+
+\subsection{In-life control of the reviser (L2)}
+
+The L2 world was built so that the best reviser package changes during a fly's life. The energy cost of each brain feature switches between $\times 1$ and $\times 12$ of its base cost, independently for each fly, with a mean dwell of 1,000 ticks against a maximum lifespan of 1,200. The state is not inherited. The controller (\texttt{META}) is hand-written: each tick it reads the fly's current price multiplier from the simulator, before any energy is spent, and applies a lean package while the price is high and a full package otherwise. The lean package caps the taste and movement feature sets at the founder sets, prunes hard and blocks new features; in effect, it sheds and stops adding features while they are expensive. Both packages were taken from the headroom analysis.
+
+On 48 fresh seeds \texttt{META} beat evolution of the same two packages (\texttt{EVO-R}: the package flips at birth with probability 0.1) by \LtwoEvorMean{} flies, the same rule driven by an independent fake price (\texttt{SHAM}) by \LtwoShamMean, and the always-full package (\texttt{FIXED}) by \LtwoFixedMean, on a baseline of about 41 flies (7--9\%). The result replicated on new seeds (Section~\ref{sec:verification}).
+
+Much of this is true by construction, and both reviewers said so. Evolution cannot track a non-heritable state that changes within a lifetime, so \texttt{EVO-R} can only be a static mixture. The cue is the simulator's own state, not an estimate the fly forms. The original final also left four questions open, which a controlled re-test (E1) addresses: whether reading the price once at birth gives the same benefit as tracking it; whether the gain runs through revision or is simple feature shedding (no \texttt{METAOFF} or always-lean arm was run); whether the controller acted through offspring mutation as well, since a child copied its parent's current package before mutation; and whether \texttt{SHAM}'s fake price, drawn from the fly's own random stream, perturbed it.
+
+\textbf{E1: decomposing the L2 effect.} The controlled re-test (Table~\ref{tab:e1e2}) ran eight arms on 48 fresh seeds. Every arm re-applies its package each tick, so mutated thresholds are reset alike; a controller's package is reset to the full one before its offspring mutate; and the sham's fake price has its own random stream. All prespecified gates passed. \texttt{META} beat a fly that reads the true price once, at birth, and keeps that package for life (\texttt{BIRTH}, \EoneBirthMean{} flies, $p \EoneBirthP$), so following changes during life adds to choosing well at birth. Birth assignment alone, however, gave \EoneBirthFixedMean{} of \texttt{META}'s \EoneFixedMean{} over the always-full package: about 60\% of the benefit is choosing the right package once. About \EoneSwitchedMeta{} of \texttt{META} flies saw a price switch before they died. \texttt{META} also beat evolution of the packages (\EoneEvorMean), the own-stream sham (\EoneShamMean) and an always-lean fly (\EoneLeanMean). With revision switched off, \texttt{META} and \texttt{NOREV} were identical on every seed, so once the package is reset before birth the controller acts only through L1 revision. That revision is mostly shedding: \texttt{META} carried \EoneFeatMeta{} active features on average against \EoneFeatFixed{} for the always-full fly. Shedding as such does not help (always-lean lost \EoneLeanFixedMean{} flies to always-full); shedding while features are expensive does. The L2 result is best described as a population benefit of state-conditioned package assignment, about two-fifths of which comes from tracking changes during life.
+
+\begin{table}[t]
+\centering
+\caption{Controls added after blind review (fresh seeds, run once; plan committed before the run). E1: L2 world, $n=48$; E2: default world, $n=96$. Exact one-sided $p$.}
+\label{tab:e1e2}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llrrrrl@{}}
+\toprule
+\textbf{Exp.} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{$p$} & \textbf{Bar} \\
+\midrule
+E1 & \texttt{META} $-$ \texttt{BIRTH} & \EoneBirthMean & \EoneBirthCI & \EoneBirthWins & $\EoneBirthPv$ & $> 0$: pass \\
+E1 & \texttt{META} $-$ \texttt{EVO-R} & \EoneEvorMean & \EoneEvorCI & \EoneEvorWins & $\EoneEvorPv$ & $\ge 1.0$: pass \\
+E1 & \texttt{META} $-$ \texttt{SHAM} (own stream) & \EoneShamMean & \EoneShamCI & \EoneShamWins & $\EoneShamPv$ & $\ge 1.0$: pass \\
+E1 & \texttt{META} $-$ \texttt{FIXED} & \EoneFixedMean & \EoneFixedCI & \EoneFixedWins & $\EoneFixedPv$ & $> 0$: pass \\
+E1 & \texttt{META} $-$ \texttt{LEAN} & \EoneLeanMean & \EoneLeanCI & \EoneLeanWins & $\EoneLeanPv$ & $> 0$: pass \\
+E1 & \texttt{BIRTH} $-$ \texttt{FIXED} & \EoneBirthFixedMean & \EoneBirthFixedCI & \EoneBirthFixedWins & $\EoneBirthFixedPv$ & reported \\
+E1 & \texttt{METAOFF} $-$ \texttt{NOREV} & \EoneMetaoffMean & \EoneMetaoffCI & \EoneMetaoffWins & & reported \\
+\midrule
+E2 & \texttt{SELF} $-$ \texttt{SHAM} & \EtwoShamMean & \EtwoShamCI & \EtwoShamWins & $\EtwoShamPv$ & $\ge 0.7$: pass \\
+E2 & \texttt{SELF} $-$ \texttt{MOVESHAM} & \EtwoMoveshamMean & \EtwoMoveshamCI & \EtwoMoveshamWins & $\EtwoMoveshamPv$ & $\ge 0.7$: pass \\
+E2 & \texttt{SELF} $-$ \texttt{GIFT} & \EtwoGiftMean & \EtwoGiftCI & \EtwoGiftWins & $\EtwoGiftPv$ & $> 0$: \textbf{fail} \\
+E2 & \texttt{SELF} $-$ \texttt{FIXED} & \EtwoFixedMean & \EtwoFixedCI & \EtwoFixedWins & $\EtwoFixedPv$ & $\ge 0.7$: pass \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Compounding (L3) was not reached}
+\label{sec:l3}
+
+L3 asks whether L2 control makes L1 revision pay at least $1.5\times$ more than L1 without it. Eight designs and screens were tried; none qualified for a fresh-seed final, and the five reserved final banks are untouched. Table~\ref{tab:l3-hyp} groups them by the hypothesis each one tests; Appendix~\ref{app:l3} gives every number.
+
+\begin{table}[t]
+\centering
+\caption{The eight L3 designs and screens, grouped by what each tests. None advanced to a final.}
+\label{tab:l3-hyp}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}p{3.2cm}p{4.6cm}p{6.6cm}@{}}
+\toprule
+\textbf{Screens} & \textbf{Hypothesis tested} & \textbf{What the result supports} \\
+\midrule
+L3, L3b (10 practice attempts) & The L2 controller in the L2 world, with harsher or softer prices, amplifies L1 & Best ratio $1.44\times$. Harsher prices raised the ordinary L1 gain as well, so the ratio fell. Not shown for this controller. \\
+L3c, L3-I screen 1 & Parking features while expensive amplifies L1 & An apparent $1.78\times$ was partly L1 repairing damage the controller did to inheritance (Section~\ref{sec:controls}). With inheritance fixed, the factorial effect was \LthreeIfactMean{} (CI \LthreeIfactCI). Not shown. \\
+L3-I screen 2 & A price on rewriting features at capacity gives a lever & The targeted situation occurred too rarely (0 of 16 worlds qualified) to test anything. Uninformative about compounding. \\
+L3-II & Routing structural evidence by a noisy body cue beats a cue-blind scheduler & The oracle beat every static allocation, but a cue-blind scheduler closed about 40\% of its gain; the margin over it ($+1.37$) missed the bar of 2.0. \\
+L3-III & The cue-blind scheduler itself compounds L1 & Clearly not: surplus $d=-5.81$ flies, positive on 1 of 16 worlds. \\
+L3-IV-H0 & A four-bank world gives an oracle controller enough headroom & The oracle reached $1.58\times$ at toxin 0.60 but its surplus over the $1.5\times$ line was $+0.49$ (CI spans 0), against a required $+4$. Headroom too small to justify a controller. \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+These are stopping decisions under prespecified bars, not evidence of a ceiling. In the four-bank screen the oracle itself exceeded $1.5\times$; what failed was the margin the protocol demanded before building a controller. Only L3-III gives a clearly negative estimate for the controller it tested. An unregistered four-seed diagnosis suggests where the oracle's expected gain went, chiefly the cost of carrying sixteen founder features that cannot be pruned (Appendix~\ref{app:l3}); we treat it as a hypothesis. We did not demonstrate an L2 lever with enough headroom for $1.5\times$ compounding, and we did not show that none exists.
+
+\section{Controls that changed the answer}
+\label{sec:controls}
+
+The most transferable findings are the controls that reversed or narrowed an apparent result.
+
+\textbf{Inheritance damage posing as compounding.} In L3c, parking features while they were expensive raised the L1 payoff ratio to $1.78\times$. A controller-only arm with L1 switched off (\texttt{METAOFF}) then lost 5.15 flies to the no-revision baseline, because offspring born while features were parked did not inherit them; part of the apparent amplification was L1 repairing damage the controller caused. With inheritance repaired, the controller's direct effect became positive (\LthreeImetaoffMean{} flies, $p \LthreeImetaoffP$) and the factorial effect vanished. A factorial design with a controller-only arm should be standard whenever a controller can affect fitness by a route other than the mechanism under test.
+
+\textbf{A coin flip matched an evidence rule.} In the P13b line, an in-life trial-and-revert rule for the reviser's settings beat evolution of those settings (P13b-2b, \PthirteenTwoBEvorMean{} flies, $p \PthirteenTwoBEvorP$), yet a sham that kept or reverted each trial by coin flip did just as well (\PthirteenTwoBShamMean, $p \PthirteenTwoBShamP$). Faster variation plus selection, not the fly's evidence, produced the gain. Beating an evolutionary baseline is not enough to show that an organism used its own evidence. Of ten P13b designs, the only one that passed every gate (A3) tunes a feeding threshold rather than the reviser, and we keep it out of the ladder (Table~\ref{tab:related-rungs}).
+
+\textbf{Controls from blind review.} Two reviewers given only an earlier draft asked for the birth-only, always-lean, controller-only, own-stream-sham and gift controls of experiments E1 and E2. Two of them changed the conclusions. Reading the price once at birth gives most of the L2 benefit (E1), so the claim that the fly ``tracks'' its world rests on the remaining two-fifths. Giving the fly the right movement senses from birth matches evidence-driven movement revision (E2), so G7c shows that revision can find useful senses, not that it finds them better than a designer would. Both results replaced stronger claims in the earlier draft.
+
+\section{Verification}
+\label{sec:verification}
+
+The verification plan was committed before its runs (\texttt{docs/PAPER\_VERIFICATION\_PLAN.md}), as was the plan for E1 and E2 (\texttt{docs/PAPER\_REVISION\_PLAN.md}); results are logged in \texttt{docs/PAPER\_VERIFICATION\_LOG.md}.
+
+\textbf{Numbers from raw data.} \texttt{docs/paper/verify.mjs} recomputes every effect, win count, confidence interval and $p$-value from committed per-seed data, checks each against the original logs, and writes the macros this manuscript uses; the figures use the same code. A self-check guards the test: six differences of $+1$ and 42 zeros must give $p=1/64$.
+
+\textbf{Deterministic reruns.} The simulator is deterministic. Rerun at their recorded commits on their own seeds, the G1--G6 finals (both), G7b, G7c, P11b and L2 reproduced exactly; these reruns supplied per-seed data where only summaries had been saved. The P13b finals were not rerun. P11b does not reproduce with current code, because G7c later changed the default fly. A deterministic rerun confirms that the archived numbers match the code, not that the design is sound.
+
+\textbf{Replication on new seeds.} A separate agent ran the G7c and L2 finals once, verbatim, on new banks (6100001--6100048, 6200001--6200096) under unchanged bars. This is a new-seed replication with the same implementation, not an independent reimplementation. Both passed every gate, with effects at least as large as the originals (Table~\ref{tab:replication}).
+
+\begin{table}[t]
+\centering
+\caption{Replication on new seed banks with the same implementation, run once. Original final values in brackets.}
+\label{tab:replication}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llrrrrl@{}}
+\toprule
+\textbf{Test} & \textbf{Contrast} & \textbf{Effect} & \textbf{95\% CI} & \textbf{Wins/$n$} & \textbf{$p$} & \textbf{Bar} \\
+\midrule
+L2 & \texttt{META} $-$ \texttt{EVO-R} & \RepLtwoEvorMean{} [\LtwoEvorMean] & \RepLtwoEvorCI & \RepLtwoEvorWins & $\RepLtwoEvorPv$ & $\ge 1.0$: pass \\
+L2 & \texttt{META} $-$ \texttt{SHAM} & \RepLtwoShamMean{} [\LtwoShamMean] & \RepLtwoShamCI & \RepLtwoShamWins & $\RepLtwoShamPv$ & $\ge 1.0$: pass \\
+L2 & \texttt{META} $-$ \texttt{FIXED} & \RepLtwoFixedMean{} [\LtwoFixedMean] & \RepLtwoFixedCI & \RepLtwoFixedWins & $\RepLtwoFixedPv$ & $> 0$: pass \\
+G7c & \texttt{SELF} $-$ \texttt{TASTEONLY} & \RepGsevenCTasteMean{} [\GsevenCTasteMean] & \RepGsevenCTasteCI & \RepGsevenCTasteWins & $\RepGsevenCTastePv$ & $\ge 0.7$: pass \\
+G7c & \texttt{SELF} $-$ \texttt{MOVEONLY} & \RepGsevenCMoveMean{} [\GsevenCMoveMean] & \RepGsevenCMoveCI & \RepGsevenCMoveWins & $\RepGsevenCMovePv$ & $\ge 0.7$: pass \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\textbf{Sensitivity.} On practice seeds we varied the L2 price contrast ($\times 8$, $\times 16$) and switching rate ($.0005$, $.002$), and the G7c rule-epoch length (2,000 and 4,500 ticks). Every gated contrast stayed positive (Table~\ref{tab:sensitivity}), but on 16 seeds that is a weak requirement and the effect sizes moved: at a $\times 8$ price the L2 advantage over \texttt{EVO-R} and \texttt{SHAM} fell to about one fly and would not clear the original bars. The chosen world sits near the best value tried, as expected for a world selected for headroom.
+
+\begin{table}[t]
+\centering
+\caption{Sensitivity to world settings (practice seeds 101--116, $n=16$; mean difference, wins, exact $p$). Report-only.}
+\label{tab:sensitivity}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+\textbf{Test} & \textbf{Variant} & \textbf{vs.\ \texttt{EVO-R} / \texttt{TASTEONLY}} & \textbf{vs.\ \texttt{SHAM} / \texttt{MOVEONLY}} & \textbf{vs.\ \texttt{FIXED}} \\
+\midrule
+L2 & base (price $\times 12$, switch $.001$) & $+3.02$, 14/16, $6\times 10^{-5}$ & $+3.88$, 16/16, $2\times 10^{-5}$ & $+3.05$, 15/16, $2\times 10^{-4}$ \\
+L2 & low price ($\times 8$) & $+0.85$, 10/16, $.085$ & $+1.20$, 10/16, $.091$ & $+1.46$, 13/16, $.008$ \\
+L2 & high price ($\times 16$) & $+1.19$, 13/16, $.033$ & $+3.27$, 13/16, $.002$ & $+2.50$, 14/16, $2\times 10^{-4}$ \\
+L2 & slow switching ($.0005$) & $+3.44$, 14/16, $2\times 10^{-4}$ & $+4.21$, 14/16, $1\times 10^{-4}$ & $+3.80$, 14/16, $9\times 10^{-5}$ \\
+L2 & fast switching ($.002$) & $+2.61$, 13/16, $.001$ & $+1.74$, 11/16, $.025$ & $+3.36$, 15/16, $3\times 10^{-5}$ \\
+\midrule
+G7c & base (epoch 3,000 ticks) & $+2.17$, 15/16, $5\times 10^{-5}$ & $+9.13$, 16/16, $2\times 10^{-5}$ & \\
+G7c & short epochs (2,000) & $+2.77$, 12/16, $.006$ & $+9.38$, 16/16, $2\times 10^{-5}$ & \\
+G7c & long epochs (4,500) & $+3.05$, 12/16, $.007$ & $+5.88$, 15/16, $1\times 10^{-4}$ & \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\textbf{Audit and code defects.} A model given only the code and the claims audited the controls (\texttt{docs/paper/AUDIT\_CONTROLS.md}). It found no information leak (no arm can see the hidden rule or future draws), equal feature rent across arms, and an identical outcome computation in every runner. It also found the L2 issues that E1 addresses. Separately, both Monte Carlo generators in our runners were defective. The original one multiplied a 32-bit linear congruential state in floating point, lost low bits and fell into a cycle of 419 states, giving about 570 distinct sign vectors in 200,000 draws at $n=48$; on a case with exact $p=1/64$ it printed $0.0096$. Its replacement was integer-exact but took its sign from bit 16 of a power-of-two generator, whose period is $2^{17}$: 8,192 distinct sign vectors at $n=48$. Rechecked exactly, no historical pass or fail changes; the closest calls are G7b (printed $0.0119$, exact $\GsevenBPv$, a miss) and P13b-3a (printed $0.0191$, exact $\PthirteenThreeAPv$, a miss).
+
+\section{Related work}
+\label{sec:related}
+
+\textbf{Learning, plasticity and evolution.} When learning beats fixed behavior depends on how predictable the environment is within and across generations \citep{stephens1991change,dunlap2009components,dunlap2016reliability}; plasticity theory makes the same point for phenotypes in general \citep{westeberhard2003developmental}. The Baldwin effect describes how learning shapes the evolutionary landscape \citep{baldwin1896new,hinton1987learning}, and evolved plastic networks learn during life under evolved rules \citep{soltoggio2008evolutionary,soltoggio2018born,fernando2018meta,najarro2020meta}. The L2 result is a case of this prediction: in-life control of learning settings beats genetic adaptation when the best setting changes within a lifetime on a cue evolution cannot anticipate. What this paper adds is not the prediction but a breeding-world protocol that separates it from its confounds.
+
+\textbf{Adapting learning settings.} Adapting learning rates and other meta-parameters online is long established, from incremental delta-bar-delta \citep{sutton1992adapting} and gain adaptation \citep{schraudolph1999local} to neuromodulation as meta-parameter control \citep{doya2002metalearning}. Differentiable plasticity and gradient-based meta-learning learn such rules offline \citep{miconi2018differentiable,miconi2020backpropamine,finn2017model,hospedales2022meta}; learned optimizers do so at scale, with mixed returns over tuned baselines \citep{metz2022velo,rezk2023scaling}. Our P13b and L3 results echo the last point: a well-tuned fixed reviser leaves little room for tuning it.
+
+\textbf{Self-improving systems.} G\"odel machines rewrite themselves on proof of improvement \citep{schmidhuber2007godel}; PowerPlay invents tasks and solvers together \citep{schmidhuber2013powerplay}; the Darwin G\"odel Machine evolves coding agents against benchmarks \citep{zhang2025darwin}; statistical certification replaces proof with error-controlled tests \citep{wu2025sgm}. Microverse tests the idea in a closed ecology where improvement must pay off in survival.
+
+\textbf{Artificial-life ecologies.} Microverse belongs with Avida and PolyWorld \citep{ofria2004avida,yaeger1994polyworld}. Work on open-endedness argues that sustained innovation needs a changing environment \citep{bedau2000open,taylor2015requirements,wang2019poet,clune2019aigas,faldor2024omni}, and varying goals can drive structure \citep{kashtan2005spontaneous}; our single hand-built ecology does not test those claims.
+
+\textbf{Earlier work in this project.} Microverse followed a compact-fly line (P5--P16) in an offline surrogate and a many-odor world without breeding. There, a search that invented its own edit operator improved the embodied fly's energy on unseen rules, an embodied replication of its level-2 step failed, and lineages revised their own taste program across generations without a surrogate. Microverse was built to test such claims inside one continuous breeding world with selection.
+
+\section{Limitations}
+\label{sec:limitations}
+
+\begin{enumerate}
+  \item \textbf{One hand-built world.} All operators, menus, climbers and controllers are hand-written, and the L2 and P13b worlds were chosen for headroom. The results show existence in these worlds, not generality.
+  \item \textbf{L2 is a designed switch.} The controller reads the true price and chooses between two preset packages; nothing in the fly discovers the packages or the cue. About 60\% of its benefit is obtained by reading the price once at birth.
+  \item \textbf{Movement revision is matched by a gift.} Evidence-driven movement revision beats random revision but not a fly born with the two useful senses; we did not test a gift of other senses or a gift with revision added.
+  \item \textbf{Same implementation throughout.} Reruns and the replication use the same code; an independent reimplementation would test the model itself.
+  \item \textbf{Internal registration.} Plans were committed to git, not registered externally.
+  \item \textbf{Mixed fly versions.} G1--G6 used the fly before G7c changed it; under current code those goals passed on practice seeds only, and P11b's comparison with the designer's reviser reverses.
+  \item \textbf{Archival gaps.} G7c stored differences rounded to $0.1$ flies; the G7b and P11b per-seed rows were recovered by rerun.
+\end{enumerate}
+
+\section{AI-assistance disclosure}
+\label{sec:ai-disclosure}
+
+The human author set the research goals, approved changes in scope and made continuation and stopping decisions, and is responsible for every claim. Much of the work was done with AI models, credited here; they are not listed as authors because they cannot take responsibility for the work.
+\begin{itemize}
+  \item \textbf{Claude Opus 5.5 (Anthropic)} wrote the Microverse simulator and runners, ran the experiments, kept the goal and result logs, and for this paper planned and ran the verification and the E1/E2 experiments, wrote the exact-test verifier, and revised the manuscript.
+  \item \textbf{Claude Fable 5.2 (Anthropic)} audited the earlier experiment line and the first Microverse goals; its review led to withdrawn claims and to the paired-solo design.
+  \item \textbf{GPT-6.2 Astra (OpenAI)} gave adversarial advice and wrote the registration wording for the L3 screens, audited the controls for this paper, and reviewed a draft blind; \textbf{GPT-6 Astra} ran the new-seed replication.
+  \item \textbf{Gemini 4 Neon (Google)} proposed the four-bank screen, ran its unregistered diagnosis, and wrote the first draft of this paper.
+\end{itemize}
+Every simulation result was produced by the committed code; no model edited results.
+
+\section{Reproducibility}
+\label{sec:repro}
+
+Code, plans, logs and per-seed data are in the \texttt{fly-ecosystem} repository; the simulator and scripts need only Node.js. \texttt{node docs/paper/verify.mjs} regenerates every number in this paper from the data without running a simulation, and \texttt{docs/REPRODUCE\_MICROVERSE.md} gives the command and commit for each final. Spent and reserved seed banks are listed in \texttt{docs/SPENT\_BANKS\_RSI.md}; new work should not reuse them.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\appendix
+\input{appendix-model}
+\input{appendix-tables}
+\input{appendix-attempts}
+
+\end{document}
