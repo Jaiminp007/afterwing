@@ -70,3 +70,17 @@ The rerun at `73ffefe` follows.
 G6 gain and late skill) and its full raw snapshot data are identical to the committed
 files `evidence/microverse/suite-final-50000-1794893331557.json` and
 `suite-final-60000-1794893845135.json`. G1–G6 pass and G7 fails in both, as logged.
+
+### G7c (seeds 94001–94096) and fly-RSI L2 (seeds 95001–95048), current code
+
+**Both reproduce exactly with current code** (this branch, default world unchanged
+since `90a372a`). G7c: SELF 57.19, TASTEONLY 55.06, MOVEONLY 47.80; all 96 stored
+differences identical for both contrasts. L2: means META 44.83, SHAM 41.96, EVO-R
+41.19, FIXED 41.67; all 192 per-seed values identical (max absolute difference 0;
+only the key order, which follows worker completion, differs). So the commands in
+`docs/REPRODUCE_MICROVERSE.md` are confirmed for these two finals, and current code
+is a valid base for the V4 replication.
+
+**V2 summary:** every final the paper cites reproduces exactly at its recorded commit
+(G1–G6 ×2, G7b, G7c, P11b, L2). P11b alone does not reproduce with current code,
+because G7c changed the default fly.

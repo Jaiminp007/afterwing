@@ -57,3 +57,5 @@ Do not use any of these banks for a new test.
 | Open-RSI OE-4 Transfer Final (spent: OE-2 L2 transfer PASS, full OE-4 compounding FAIL) | 3200001–3200048 (donor 3500001–3500048) |
 | Open-RSI OE-v5 Primary Final (spent: OE-1/OE-2/OE-3 ALL 7 GATES PASS) | 3600001–3600048 (donor 3700001–3700048) |
 | L3-IV-H0 post-hoc diagnostics by Gemini 4 Neon (exploratory, non-bank) | 501–504 |
+| Paper V4 replication, fly-RSI L2 (Microverse; run once, plan `docs/PAPER_VERIFICATION_PLAN.md`) | 6100001–6100048 |
+| Paper V4 replication, G7c (Microverse; run once, same plan) | 6200001–6200096 |
