@@ -1,5 +1,8 @@
 # Microverse goal ladder
 
+<img src="img/protocol.png" alt="Five-step flow: register the goal, tune on practice seeds, freeze, one final on fresh seeds, report" width="100%">
+
+
 The goals and thresholds were fixed on 2026-11-17, before any fixing began. They do not move.
 
 The microverse is a small, closed, resource-limited world (`microverse/sim.mjs`). Flies in it live, learn, breed and die continuously. Each brain is a heritable program: taste feature masks, movement feature masks, innate movement instinct, and learning genes. Learned weights are never inherited.

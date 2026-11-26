@@ -1,224 +1,95 @@
-> **Model correction:** The published v1/v2 population used compact artificial networks, not the Google/Janelia connectome. The primary local entry point now runs the actual MaleCNS graph. The existing Railway deployment still runs the legacy compact model until a full-brain deployment is verified. See [MaleCNS integration](docs/MALECNS.md). No legacy results establish anything about the full-connectome model.
+<p align="center">
+  <img src="docs/img/microverse.png" alt="The Afterwing Microverse: a live map of simulated flies foraging, next to the running verdict and controls" width="100%">
+</p>
 
 # Afterwing
 
-**Small lives. Long histories.**
+**Can a creature improve *how* it learns, not just what it knows, and pass that ability to its offspring?**
 
-**Paused research handoff:** start with [HANDOFF.md](HANDOFF.md) for the complete
-new-machine setup, evidence restore, Astra findings, file map and exact unfinished
-work. Recursive self-improvement is met only in a bounded form: in constructed
-worlds, with hand-written rules, up to level 2 (the flies retune their own
-reviser). Compounding (level 3) was not shown. See [VISION.md](docs/VISION.md)
-for the exact scope.
+Afterwing is an artificial-life research project built to test that question honestly. Its main experiment is the **Microverse**: a closed 40 × 40 world where simulated flies forage, breed and die, while a hidden rule about which food is poison keeps changing under them.
 
-## Neural ecosystem platform
+[Watch it run](#run-it) · [What has been shown](#what-has-been-shown) · [Reproduce every number](REPRODUCE.md) · [Read the paper](docs/paper/microverse-bounded-self-improvement.pdf)
 
-The first platform milestone manages independent habitats for evolving artificial
-neural agents, with a dashboard, agent/network inspection, inherited genomes,
-lifetime learning, checkpoints and experimental branches.
+---
 
-```sh
-npm run start:platform
-```
+## The world
 
-Requires Node.js 22 or newer and binds locally on port 8767. Create a named habitat,
-run or step it, inspect an agent, and fork a paused copy to compare interventions.
-Checkpoints persist under `runs/platform/`; restarts recover habitats paused.
-This platform uses the compact artificial controller. The default `npm start`
-continues to run the separate MaleCNS model described below.
-Read [platform behavior, validation and next milestones](docs/PLATFORM.md).
+<img src="docs/img/odor-rule.png" alt="Diagram: an 8-bit smell is read as plus and minus ones, a hidden rule multiplies pairs of bits and adds them, and the sign decides nutritious or toxic" width="100%">
 
-With the platform running, `npm run train:platform` starts or resumes three
-matched learning/control seed pairs. The runner uses Python's standard library.
-[Recorded results](evidence/platform-training/summary.md) show 822 births across
-the first full cycle, with no consistent learning advantage. The next goal is
-learning and memory that improve performance on unseen, unpredictable tasks.
+Every food kind smells like an 8-bit code. A hidden formula multiplies some of those bits together and adds the results; the sign says nutritious or toxic. The flies never see the formula. Every 3,000 ticks it switches to a new family (pairs, staircase, triples, single), so whatever a fly worked out stops being true.
 
-Use `npm run evaluate:memory` for the held-out delayed-cue task,
-`npm run evaluate:ecology` for seeded food relocations,
-`npm run evaluate:signals` for signal-channel controls, and
-`npm run profile:platform` for the local scale baseline. Each runner writes
-seed-level measurements and source hashes under `evidence/`; results apply only
-to the compact model and their stated protocols.
+## What gets inherited
 
-[Open the legacy compact observatory](https://afterwing-production.up.railway.app) · [Releases](https://github.com/Jaiminp007/fly-ecosystem/releases)
+<img src="docs/img/inheritance.png" alt="Diagram: a parent passes its learning program (features, reviser settings, evidence) to its offspring, but its learned weights are not passed on" width="100%">
 
-The Railway deployment runs on limited trial credit with a persistent volume.
-Public controls are read-only; availability beyond the trial is not guaranteed.
+A newborn gets its parent's **learning program**: which bit combinations it pays attention to, the settings of the reviser that adds and drops them, and the evidence gathered so far. It does **not** get its parent's learned weights. Each fly has to learn the current rule again, but a lineage can get better at learning it.
 
-A local artificial-life experiment in which every visible fly has independent
-state for the **166,700-neuron MaleCNS v1.0 graph**. The arena connects engineered
-food stimuli to annotated LC9 visual cells and decodes annotated DNp09/MN9 activity
-into movement and feeding. Offspring inherit gain traits and full graph topology.
-The published v1/v2 compact experiment remains available only as an explicit legacy mode.
+<img src="docs/img/skill-over-time.png" alt="Line chart: in one world, the self-improving lineage's taste skill collapses at each rule switch and recovers, while the fixed program dies out at tick 1,050" width="100%">
 
-## The changing world
+## What has been shown
 
-Four repeating challenges change food renewal and introduce a moving stress zone.
-Watch phase outcomes in the observatory, or start an original-habitat control locally.
-[Challenge design and limitations](docs/CHALLENGES.md) · [Measured comparison](evidence/challenge-release/summary.md)
+<img src="docs/img/ladder.png" alt="Staircase diagram of four rungs: L0 lifetime learning shown, L1 program revision shown, L2 reviser tuning shown, L3 compounding not shown" width="100%">
 
-## Project status
+| Rung | Claim | Fresh-world result |
+|---|---|---|
+| **L0** | A fly gets better at telling food from poison during its own life | shown (G4) |
+| **L1** | Lineages revise which features their learning uses, from their own evidence | shown: +2.14 flies vs taste-only revision, 66/96 worlds (G7c) |
+| **L2** | Flies retune their own reviser in life, from a perfect reading of the current brain-cost price | shown: +3.64 flies vs evolution, 44/48 worlds |
+| **L3** | Each level makes the next pay off at least 1.5× more | **not shown**: best practice ratio 1.44× |
 
-Version 3 is a local full-connectome integration under active validation. Its
-retinal adapter, body decoder, physiology and reproduction rules are engineered
-model assumptions. It is not a biological emulation or evidence of intelligence.
-The public Railway deployment is still the archived compact experiment.
+<img src="docs/img/g7c-final.png" alt="Bar chart of 96 fresh worlds: revising taste and movement beats taste-only revision by 2.14 flies on average and movement-only revision by 9.40" width="100%">
 
-- [Model and architecture](docs/ARCHITECTURE.md)
-- [Release checklist](docs/RELEASE_PLAN.md)
-- [Hosting and deployment](docs/DEPLOYMENT.md)
-- [Extinction investigation](evidence/extinction/report.md)
-- [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+<img src="docs/img/l2-final.png" alt="Bar chart of 48 fresh worlds: meta-tuning beats evolution by 3.64 flies, a matched sham by 2.87 and no tuning by 3.16" width="100%">
 
-## Run
+<img src="docs/img/l3-attempts.png" alt="Horizontal bar chart: ten practice designs for compounding all fall short of the 1.5x bar; the best reaches 1.444x" width="100%">
 
-The default requires Python, the packages in `requirements-connectome.txt`, a C++17
-compiler, and the verified MaleCNS data. Prepare it once as described below.
+This is **bounded** self-improvement in a hand-built world. It is not open-ended intelligence, and the flies are not models of real insects.
+
+The G7c and L2 results replicated on new seed banks, and later controls narrowed both. About 60% of the L2 benefit comes from reading the price once at birth rather than tracking it during life. Choosing movement senses from evidence beats choosing them at random, but not giving the fly the two useful senses from the start. Details, the audit of the controls and an exact recomputation of every number are in the [paper](docs/paper/microverse-bounded-self-improvement.pdf) and [verification log](docs/PAPER_VERIFICATION_LOG.md).
+
+## How results are earned
+
+<img src="docs/img/protocol.png" alt="Five-step flow: write the goal down, tune on practice seeds, freeze the code, run one final on fresh seeds, report pass or not shown" width="100%">
+
+Every goal and its pass bar are written down before testing. Designs are tuned on practice seeds only, then judged once on fresh seeds nobody has used, against controls. A miss is recorded as a miss. The simulator is deterministic, so anyone can re-run a final and get the same numbers: see **[REPRODUCE.md](REPRODUCE.md)**.
+
+## Run it
+
+Requires Node.js 22 or newer. There is nothing to install.
 
 ```sh
-npm start
+git clone https://github.com/Jaiminp007/fly-ecosystem.git
+cd fly-ecosystem
+node server.mjs
 ```
 
-Open [the MaleCNS observer](http://127.0.0.1:8766/). The server binds only to
-localhost, runs a bounded experiment, then pauses and checkpoints. No cloud account
-or API key is required. Use `npm start -- --steps 600 --founders 2 --capacity 4`
-to select the bounded run. See [the full model and its limits](docs/MALECNS.md).
-
-To run the old compact control panel, use `npm run start:legacy` and open
-http://127.0.0.1:8765/. Its population results do not describe the MaleCNS model.
-
-## Legacy compact model
-
-The following controls, implementation notes, experiments, and JavaScript files
-describe the retained v1/v2 compact model. They are preserved for comparison and
-for the public Railway observatory; their results do not apply to the MaleCNS arena.
-
-### Controls
-
-- Click a fly, or select its ID, to inspect parents, inherited traits and current memory.
-- Pause or advance exactly one world second. World seconds are artificial units.
-- Change resource renewal to conduct a recorded environmental intervention.
-- Save a checkpoint, restore it, export it as JSON, or import it later. Restoration is paused.
-- Start a new seeded world with mutation, lifetime learning and seasonality independently selectable.
-- Inspect population history, recent ancestry, birth/death notes and accounting residuals.
-
-The server saves automatic recovery snapshots every 15 seconds, retains twelve
-rolling checkpoints at five simulated-minute intervals, and archives terminal
-worlds. Corrupt recovery files stop startup instead of being overwritten. User checkpoints
-are stored in `runs/`. A new world first saves the previous world. Capacity pauses
-the simulation; increasing it is an explicit intervention. There is **no reseeding
-after extinction**. Low-resource worlds may die out, and this is a valid result.
-
-### Legacy implementation
-
-`engine.mjs` is a deterministic fixed-step model with an explicit pseudorandom
-state. Local food and agent queries use a spatial index. All neural proposals are
-calculated before movement, then individuals consume resources in a reproducibly
-shuffled order so fixed IDs do not always get first access.
-
-Each founder starts with a small network containing sensory inputs, hidden units
-and action outputs. A disclosed food-attraction reflex is encoded in founder
-weights. It is scaffolding for a viable population, **not an evolved finding**.
-Movement noise, simplified collision handling and a periodic environmental signal
-are model choices. Food-target sensing is an engineered abstraction, not a
-reconstructed compound eye or olfactory pathway.
-
-Eligible nearby parents of opposite simulated sexes transfer energy to a child.
-The child inherits homologous node/connection genes and selected trait alleles
-from both parents. Sex is assigned probabilistically, not by a real chromosome
-model. Maturation and lifespan are artificial parameters; eggs, larvae and
-metamorphosis are not simulated. One genome describes all life-history traits.
-
-Mutation can alter inherited weights and traits, split an edge with a new neuron,
-add/remove edges and remove hidden neurons. Structural innovations receive unique
-IDs. Brain topology has no fixed fly-anatomy template. Runs and checkpoint imports
-still have finite operational limits, including a local population ceiling and
-checkpoint size limits. This is not unbounded evolution.
-
-Lifetime learning uses an explicit candidate reward-modulated Hebbian rule with
-eligibility traces, a reward baseline and bounded individual weight deviations.
-The teaching signal is food energy received minus immediate expenditure.
-Children do **not** inherit acquired deviations or recurrent activity. Mechanical
-weight change does not prove useful learning; read the experiment results.
-
-Food renewal is an external energy source. Metabolism, movement and remaining
-energy at death are accounted as dissipated energy. Birth energy is transferred
-from parents, never created. Lifeline depth is `max(parent depths) + 1`, not a
-population-wide discrete generation count. A richer world was selected during
-development; low-resource controls are retained in evaluation.
-
-See [measured validation results](evidence/validation.md) for outcomes and limitations.
-
-### Legacy verification and experiments
+Open <http://127.0.0.1:8765/microverse>. The simulation runs entirely in your browser.
 
 ```sh
-npm test
-npm run experiment
+node --test tests/microverse.test.mjs     # 6 tests, ~10 s: confirms you have the measured world
+node microverse/run.mjs 101 6000 SELF,FIXED   # one world, headless
 ```
 
-Tests cover deterministic checkpoint continuation, energy balance, two-parent
-inheritance without acquired-memory transfer, valid structural mutations, frozen
-learning, extinction, capacity handling, and the HTTP save/restore workflow.
+## Repository
 
-The experiment compares learning plus mutation, frozen lifetime weights, no
-inherited mutation, and low-resource conditions on the same independent seeds.
-It writes measured results and an engine source digest to
-`evidence/experiments.json`. To change the duration or seeds:
+| Path | Contents |
+|---|---|
+| `microverse/` | The simulator (`sim.mjs`), lineages (`strains.mjs`) and experiment runners |
+| `dist/` | The browser front end |
+| `tests/` | Test suite |
+| `docs/` | Goals, logs and results for every experiment; [goals](docs/MICROVERSE_GOALS.md), [Microverse log](docs/MICROVERSE_LOG.md), [Fly-RSI log](docs/FLY_RSI_LOG.md) |
+| `docs/img/` | Every figure on this page, rebuilt by `node scripts/figures/build.mjs` |
+| `evidence/` | Raw output of the recorded runs |
+| `handoff/` | Checksummed archives of large run data ([restore](REPRODUCE.md#other-tracks)) |
+| `scripts/` | Runners for the other research tracks |
+| `connectome/`, `vendor/` | The separate MaleCNS whole-connectome arena |
+| `platform/`, `learning/`, `engine.mjs` | Earlier compact-brain platform and learning experiments |
 
-```sh
-TICKS=10000 SEEDS=5,8,13 npm run experiment
-```
+## Other tracks
 
-The results are descriptive, with a small number of seeds. Population size and
-neuron counts are not intelligence metrics. No evidence here establishes open-ended
-intelligence, civilization, consciousness, or a learning advantage.
+- **Offline search, P5–P14:** recursive search over the fly's learning program in an opt-in many-odor world. Status and scope: [docs/VISION.md](docs/VISION.md).
+- **MaleCNS arena:** flies running the 166,700-neuron MaleCNS v1.0 graph. Needs Python and a C++17 compiler; see [docs/MALECNS.md](docs/MALECNS.md). Its results are separate from the Microverse.
 
-## MaleCNS preparation and assay
+## License
 
-`scripts/connectome.py` and `vendor/stonkfly/neural/` verify source checksums,
-prepare the retained MaleCNS graph, and provide the approximate spiking kernel used
-by the v3 arena. The upstream MIT license is preserved. See `THIRD_PARTY.md`.
-
-This path needs Python, NumPy, pandas, PyArrow, a C++17 compiler, several GB of
-local memory, and roughly 1.1 GB of source downloads plus generated files. Use an isolated environment:
-
-```sh
-python3 -m venv .venv-connectome
-.venv-connectome/bin/python -m pip install -r requirements-connectome.txt
-.venv-connectome/bin/python scripts/connectome.py prepare
-.venv-connectome/bin/python scripts/connectome.py assay --ms 100
-```
-
-Strict numeric checks fail the assay on invalid operations. Read the recorded
-`evidence/connectome-assay.json` and validation notes for the tested environment.
-The arena creates independent full-connectome offspring and inherits three gain
-traits. One uninterrupted v3 run produced a generation-1 offspring at 30 artificial
-seconds; this establishes one birth, not a self-sustaining population. Structural
-neural evolution remains absent. Read `docs/MALECNS.md` before interpreting or
-extending the experiment.
-
-## Repository map
-
-- `connectome/`: primary MaleCNS arena, observer, checkpoints, and assays.
-- `engine.mjs`: legacy compact world, artificial genomes, neural state, inheritance and persistence.
-- `server.mjs`: legacy compact local process, recovery, and HTTP API.
-- `dist/`: legacy compact visual control panel and optional feature-detected WebMCP tools.
-- `tests/`: legacy compact model and HTTP regression checks.
-- `scripts/experiment.mjs`: reproducible compact-model ecological comparisons.
-- `scripts/connectome.py`: MaleCNS data preparation and low-level neural assay.
-- `evidence/`: measured results; `runs/` and `data/`: ignored local state and datasets.
-
-UI source, JavaScript syntax and HTTP behavior are checked. Browser screenshot
-and interaction QA, and a supported-browser WebMCP contract test, have not been
-performed unless explicitly recorded in the validation notes. Optional WebMCP
-availability does not affect normal controls.
-
-### Autonomous learning lab
-
-The platform includes an experimental trace actor, checkpointed parameter search,
-independent cue-memory evaluations, and gated ecological difficulty. Open the
-**Autonomous learning lab** in the app, or use `npm run train:autonomy` and
-`npm run train:ecology`. These are bounded experiments toward the research goal
-and do not by themselves demonstrate RSI; the bounded RSI results are listed in
-[VISION.md](docs/VISION.md). See [the protocol and controls](docs/AUTONOMY.md).
+MIT. Third-party code and data notices are in [THIRD_PARTY.md](THIRD_PARTY.md).
