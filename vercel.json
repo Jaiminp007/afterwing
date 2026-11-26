@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/", "destination": "/dist/microverse.html" },
+    { "source": "/microverse", "destination": "/dist/microverse.html" },
+    { "source": "/microverse.js", "destination": "/dist/microverse.js" },
+    { "source": "/picker.js", "destination": "/dist/picker.js" },
+    { "source": "/favicon.svg", "destination": "/dist/favicon.svg" }
+  ],
+  "headers": [
+    { "source": "/microverse/(.*)\\.mjs", "headers": [{ "key": "Content-Type", "value": "text/javascript; charset=utf-8" }] }
+  ]
+}

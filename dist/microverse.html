@@ -1,91 +1,667 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en" data-type="software">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Afterwing Microverse</title>
-<meta name="description" content="A small closed world where artificial flies breed, learn, improve their own learning programs and die. Runs entirely in your browser.">
+<meta name="description" content="A live, closed world of simulated flies that inherit a learning program, not learned weights. Watch a hidden odor chemistry switch and see which lineages re-learn it.">
+<meta name="page-type" content="software">
+<meta name="site-kind" content="software">
+<meta property="og:title" content="Afterwing Microverse">
+<meta property="og:description" content="Simulated flies inherit how to learn, not what they learned. Watch them rediscover a hidden chemistry that keeps changing.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#fefae0">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
 <style>
-:root{color-scheme:dark;--bg:#101218;--panel:#171b24;--line:#303644;--text:#f1f1e9;--muted:#adb5c3;--accent:#edcf70;--self:#edcf70;--other:#99cae8;--good:#7fc97a;--bad:#d9827a}
+:root{
+  color-scheme:light;
+  /* palette: #ccd5ae sage · #e9edc9 mist · #fefae0 cream · #faedcd sand · #d4a373 tan */
+  --sage:#ccd5ae; --mist:#e9edc9; --cream:#fefae0; --sand:#faedcd; --tan:#d4a373;
+  --paper:#fffdf2;
+  --ink:#2b2a1e; --ink-2:#45432f; --muted:#5f5b45; --faint:#7c7759;
+  --rule:rgba(43,42,30,.14); --rule-2:rgba(43,42,30,.26);
+  --terra:#94592c; --green:#5f7a2e; --ochre:#8a6a1c; --toxic:#b5452e;
+  --sans:'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'Geist Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --gutter:48px; --r:6px;
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,sans-serif}
-header{padding:20px 4vw;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.brand{font-size:18px;letter-spacing:.13em;font-weight:600;display:flex;align-items:center;gap:12px}.brand .mark{color:var(--accent);font-size:28px}
-nav{display:flex;gap:20px;font-size:14px}nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--text)}
-main{max-width:1500px;margin:auto;padding:28px 4vw;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:32px}
-.eyebrow{display:block;font:12px/1.5 ui-monospace,monospace;letter-spacing:.13em;color:var(--accent);margin-bottom:10px}
-h1{font-size:clamp(32px,4vw,56px);line-height:1.04;font-weight:500;letter-spacing:-.05em;margin:0}h1 em{font-family:Georgia,serif;font-weight:400}
-h2{font-size:18px;font-weight:550;margin:0 0 12px;letter-spacing:-.01em}
-p{color:var(--muted);margin:10px 0 16px;max-width:70ch}
-.toolbar{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:20px 0 16px}
-button,select,input{font:inherit;font-size:14px;color:var(--text);background:#1c2330;border:1px solid #3c4656;border-radius:3px;min-height:40px;padding:6px 12px}
-button{cursor:pointer}button:hover{background:#303b4d}button.primary{background:var(--accent);color:#211b0b;border-color:var(--accent);font-weight:650}
-input[type=number]{width:110px}input[type=range]{accent-color:var(--accent);min-height:0;padding:0;border:0;background:none}
-label{font-size:14px;color:var(--muted);display:flex;align-items:center;gap:8px}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.world{border:1px solid #404858;background:#121924;position:relative}
-.world-label{display:flex;justify-content:space-between;gap:10px;padding:10px 14px;font:12px ui-monospace,monospace;letter-spacing:.1em;color:var(--accent);border-bottom:1px solid var(--line);flex-wrap:wrap}.world-label span{color:var(--muted);letter-spacing:0}
-canvas#world{display:block;width:100%;height:auto;image-rendering:pixelated;cursor:crosshair;aspect-ratio:1}
-.legend{display:flex;flex-wrap:wrap;gap:16px;padding:10px 14px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}.legend span{display:flex;align-items:center;gap:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%}.legend b{display:inline-block;width:10px;height:10px}
-.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:20px 0;border-bottom:1px solid var(--line)}
-.metrics span{display:block;font-size:13px;color:var(--muted)}.metrics strong{font:clamp(20px,2vw,28px)/1.4 ui-monospace,monospace;letter-spacing:-.05em;font-variant-numeric:tabular-nums}
-#chart{width:100%;height:170px;display:block;margin-top:8px}
-aside section{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:20px}
-.strain{border-left:3px solid var(--line);padding:4px 0 4px 12px;margin-bottom:14px}
-.strain h3{margin:0 0 6px;font-size:15px;font-weight:600}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px}.grid2 span{display:block;font-size:12px;color:var(--muted)}.grid2 strong{font:15px ui-monospace,monospace;font-variant-numeric:tabular-nums}
-.subtle{font-size:13px;color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}.chips code{font:12px ui-monospace,monospace;background:#202736;border:1px solid var(--line);padding:2px 6px;border-radius:3px}
-.chips code.hit{border-color:var(--accent);color:var(--accent)}
-.methods{grid-column:1/-1;border-top:1px solid var(--line);padding-top:24px}.methods p{font-size:15px}
-.notice{padding:14px 18px;border:1px solid #716344;background:#252219;color:#eddaa4;font-size:14px;margin-top:16px}
-@media(max-width:980px){main{display:block;padding:20px 16px}aside{margin-top:28px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:520px){header{padding:14px 16px}nav{gap:14px}.toolbar label{flex-wrap:wrap}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
-</style></head>
+html{background:var(--cream);scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:3px}
+.skip{position:absolute;left:var(--gutter);top:-48px;z-index:20;background:var(--ink);color:var(--cream);padding:8px 12px;border-radius:var(--r);text-decoration:none}
+.skip:focus{top:8px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.wrap{max-width:1320px;margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- bar ---------- */
+.bar{position:sticky;top:0;z-index:10;background:rgba(254,250,224,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.bar .wrap{display:flex;align-items:center;height:56px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.wordmark{font:500 22px/1 var(--serif);letter-spacing:-.015em}
+.nav{margin-left:auto;display:flex;gap:28px}
+.nav a{display:inline-flex;align-items:center;min-height:36px;text-decoration:none;color:var(--muted);font-size:14px;position:relative;white-space:nowrap}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:1.5px;background:var(--tan);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.nav a:hover{color:var(--ink)} .nav a:hover::after,.nav a[aria-current="page"]::after{transform:scaleX(1)}
+.nav a[aria-current="page"]{color:var(--ink)}
+
+/* ---------- hero ---------- */
+.hero{padding:40px 0 56px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:56px;align-items:start}
+.story{padding-top:12px;display:flex;flex-direction:column;animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.eyebrow{display:flex;align-items:center;gap:14px;margin:0 0 18px;font-size:13px;font-weight:500;color:var(--terra)}
+#tickPill{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:400;color:var(--muted)}
+#tickPill i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(95,122,46,.18)}
+#tickPill.paused i{background:var(--faint);box-shadow:none}
+.hero h1{margin:0;font:400 52px/1.04 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+.hero h1 em{font-style:italic;color:var(--terra)}
+.lede{margin:18px 0 0;max-width:46ch;font-size:16.5px;line-height:1.55;color:var(--ink-2)}
+
+.verdict{margin:28px 0 0;padding:18px 0 0;border-top:1px solid var(--rule)}
+.verdict p{margin:0;font:400 21px/1.35 var(--serif);letter-spacing:-.008em;color:var(--ink)}
+.verdict p .k{font-family:var(--mono);font-size:17px;letter-spacing:0}
+.verdict .ctx{margin:8px 0 14px;font:13.5px/1.5 var(--sans);letter-spacing:0;color:var(--muted)}
+.sharerow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;font-size:12px;color:var(--muted)}
+.sharebar{display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--mist)}
+.sharebar i{display:block;height:100%;transition:width .4s ease}
+.sharebar i+i{border-left:2px solid var(--cream)}
+
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:28px}
+.btn{height:40px;padding:0 14px;border:1px solid var(--rule-2);border-radius:var(--r);background:transparent;cursor:pointer;white-space:nowrap;font-size:14px;transition:background .15s ease,border-color .15s ease,transform .1s ease}
+.btn:hover{background:var(--sand);border-color:var(--ink-2)}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--ink);border-color:var(--ink);color:var(--cream);min-width:86px;font-weight:500}
+.btn.primary:hover{background:#3d3b2a}
+.btn.accent{background:var(--tan);border-color:var(--tan);color:var(--ink);font-weight:500}
+.btn.accent:hover{background:#c8955f;border-color:#c8955f}
+.btn[disabled]{opacity:.5;cursor:default;transform:none}
+.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:var(--r);overflow:hidden}
+.seg button{height:38px;padding:0 11px;border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:13.5px;transition:background .15s ease,color .15s ease}
+.seg button+button{border-left:1px solid var(--rule)}
+.seg button:focus-visible{position:relative;z-index:2;outline-offset:-3px}
+.seg button:hover{color:var(--ink);background:var(--sand)}
+.seg button[aria-pressed="true"]{background:var(--sage);color:var(--ink);font-weight:500}
+.notice{margin:12px 0 0;padding:10px 14px;border-left:2px solid var(--tan);background:var(--sand);font-size:13.5px;color:var(--ink-2)}
+.notice[hidden]{display:none}
+
+.field{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13.5px;white-space:nowrap}
+select,input[type=number]{height:40px;border:1px solid var(--rule-2);border-radius:var(--r);background:var(--paper);padding:0 12px;color:var(--ink);font-size:14px}
+select{flex:1;min-width:0;padding-right:32px;appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 16px) 18px,calc(100% - 12px) 18px;background-size:4px 4px;background-repeat:no-repeat}
+input[type=number]{width:100px;font-family:var(--mono)}
+
+
+.map{margin:0;position:sticky;top:76px;animation:rise .8s .08s cubic-bezier(.2,.7,.2,1) both}
+.map-h{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.hint{font-size:13px;color:var(--muted)}
+.map canvas{display:block;width:min(100%,calc(100vh - 170px));margin:0 auto;aspect-ratio:1/1;border-radius:4px;cursor:crosshair;background:var(--mist);touch-action:manipulation;box-shadow:0 0 0 1px var(--rule),0 30px 60px -40px rgba(43,42,30,.45)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:14px;color:var(--muted);font-size:12.5px;min-height:20px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{display:inline-block;width:12px;height:12px;flex:none}
+.sw.bloom{border-radius:50%;background:radial-gradient(circle,rgba(95,122,46,.85),rgba(95,122,46,.1) 70%)}
+.sw.hazard{width:9px;height:9px;border:1.5px solid var(--toxic);transform:rotate(45deg);margin:0 2px}
+.sw.poison{width:9px;height:9px;background:var(--toxic);transform:rotate(45deg);margin:0 3px;box-shadow:0 0 0 2.5px var(--cream),0 0 0 4px rgba(181,69,46,.5)}
+.sw.miss{border-radius:50%;border:1.4px dashed var(--ochre)}
+.sw.ring{width:10px;height:10px;border-radius:50%;border:1.5px solid var(--green)} .sw.ring.t{border-color:var(--toxic);margin-left:-3px}
+.sw.avoid{width:8px;height:8px;border:1px solid var(--faint);transform:rotate(45deg);margin:0 2px}
+.flyglyph{width:16px;height:12px}
+
+
+.settings{display:flex;gap:8px;align-items:stretch;margin:22px 0 0;max-width:520px}
+.settings .field{flex:1;min-width:0}
+
+.toc{margin-top:22px}
+.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.toc a{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 13px 0 11px;border-radius:999px;background:var(--mist);text-decoration:none;font-size:13.5px;color:var(--ink);transition:background .15s ease}
+.toc a span{font:500 11.5px var(--mono);color:var(--terra)}
+.toc a:hover{background:var(--sage)}
+
+.band-about{background:var(--paper);border-top:1px solid var(--rule)}
+.about-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-left:96px}
+.about-col{border-top:2px solid var(--ink);padding-top:16px}
+.about-col h3,.ladder-h{margin:0 0 10px;font:600 17px var(--sans)}
+.about-col p{margin:0;font-size:15px;line-height:1.65;color:var(--ink-2)}
+.ladder-h{margin:72px 0 18px 96px}
+.ladder{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:0 0 0 96px;padding:0}
+.ladder li{position:relative;display:flex;flex-direction:column;gap:4px;padding:20px 24px 0 0;font-size:14px;line-height:1.45}
+.ladder li::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--sage)}
+.ladder li.no::before{background:repeating-linear-gradient(90deg,var(--rule-2) 0 5px,transparent 5px 10px)}
+.ladder li.on::before{background:var(--tan)}
+.ladder b{font:500 12px var(--mono);color:var(--muted)}
+.ladder li.on b{color:var(--terra)}
+.ladder .lt{font:400 22px/1.2 var(--serif);color:var(--ink)}
+.ladder .ld{color:var(--muted)}
+.ladder .ls{margin-top:6px;font-size:13px;font-weight:500;color:var(--green)}
+.ladder li.no .ls{color:var(--toxic)}
+.about-scope{margin:48px 0 0 96px;max-width:72ch;padding-left:18px;border-left:2px solid var(--tan);font-size:14.5px;color:var(--ink-2)}
+
+/* ---------- sections ---------- */
+.band{padding:88px 0 96px;scroll-margin-top:56px}
+.band-rule{background:var(--mist)}
+.band-pop{background:var(--cream)}
+.band-fly{background:var(--sand)}
+.sec-h{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:0 24px;align-items:start;margin-bottom:40px}
+.sec-h .num{margin:6px 0 0;font:500 13px var(--mono);color:var(--terra)}
+.sec-h h2{margin:0;font:400 38px/1.1 var(--serif);letter-spacing:-.02em}
+.sec-h h2+p{margin:12px 0 0;max-width:62ch;font-size:15.5px;color:var(--ink-2)}
+.sec-h .tag{align-self:end;font-size:12.5px;color:var(--muted)}
+.sec-h .seg{align-self:end}
+
+/* rule */
+.rule-grid{display:grid;grid-template-columns:240px minmax(0,1fr);gap:48px;align-items:start;margin-left:96px}
+.constel{margin:0}
+#constellation{width:100%;height:auto;display:block}
+#constellation .node circle{fill:var(--paper);stroke:var(--ink);stroke-width:1}
+#constellation .node text{font:500 10px var(--mono);fill:var(--ink);text-anchor:middle;dominant-baseline:central}
+#constellation .node.lit circle{fill:var(--ink)} #constellation .node.lit text{fill:var(--cream)}
+#constellation .prev{transition:opacity 2.6s ease}
+.constel figcaption{margin-top:8px;font-size:12.5px;line-height:1.45;color:var(--muted);text-align:center}
+.formula{font:16px/1.5 var(--mono);color:var(--ink);padding:0 0 16px;border-bottom:1px solid var(--rule-2);overflow-wrap:anywhere}
+.formula .fam{display:block;margin-bottom:4px;font:13px var(--sans);color:var(--muted)}
+.terms-h{display:flex;flex-wrap:wrap;gap:4px 18px;padding:16px 0 6px;font-size:12.5px;color:var(--muted)}
+.terms-h span{display:inline-flex;align-items:center;gap:6px}
+.terms{list-style:none;margin:0;padding:0}
+.terms li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;align-items:center;padding:9px 10px;margin:0 -10px;border-bottom:1px solid var(--rule);cursor:default;transition:background .15s ease}
+.terms li:hover,.terms li.hot{background:rgba(254,250,224,.7)}
+.terms .t{font:500 13.5px var(--mono)}
+.terms .bars{display:grid;gap:4px}
+.lsw{display:inline-block;width:9px;height:9px;border-radius:2px;flex:none}
+.share{display:grid;grid-template-columns:9px minmax(0,1fr) 38px;gap:10px;align-items:center;font:11.5px/13px var(--mono);color:var(--muted)}
+.share b{display:block;height:6px;background:rgba(254,250,224,.85);border-radius:3px;overflow:hidden;position:relative}
+.share b i{position:absolute;inset:0 auto 0 0;border-radius:3px;transition:width .35s ease}
+.share span[data-v]{text-align:right}
+.clock{display:flex;gap:24px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--muted)}
+.clock b{font:500 13px var(--mono);color:var(--ink)}
+.menu{margin:56px 0 0 96px;padding:24px 28px 20px;background:var(--cream);border-radius:4px}
+.menu-h{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 16px;margin-bottom:14px;font-size:13px;color:var(--muted)}
+.menu-h h3{margin:0;font:600 15px var(--sans);color:var(--ink)}
+#menu{width:100%;display:block;cursor:pointer}
+#menu:focus-visible{outline-offset:4px}
+.trace{margin:10px 0 0;min-height:18px;font:12.5px/18px var(--mono);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trace b{font-weight:500;color:var(--ink)} .trace .ok,.trace .good{color:var(--green)} .trace .bad,.trace .tox{color:var(--toxic)}
+
+/* population */
+.band-pop .chart-box,.band-pop .legend,.band-pop .cards,.band-pop .cost{margin-left:96px}
+.cost{display:none;margin-bottom:20px;padding:12px 16px;border-left:2px solid var(--tan);background:var(--sand);font-size:13.5px;line-height:1.5}
+.cost.on{display:block}
+.cost .row{display:flex;flex-wrap:wrap;gap:0 16px;align-items:baseline}
+.cost .big{font:500 13.5px var(--mono)}
+.cost .why{color:var(--muted)}
+.cost .fine{color:var(--faint);font-size:12.5px}
+.chart-box{position:relative;height:300px}
+.chart-box canvas{position:absolute;inset:0;display:block;width:100%;height:100%}
+.band-pop .legend .why{flex-basis:100%;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;margin-top:40px;border-top:1px solid var(--rule-2)}
+.card{padding:22px 28px 6px 0}
+.card+.card{padding-left:28px;border-left:1px solid var(--rule)}
+.card h3{display:flex;align-items:center;gap:9px;margin:0 0 6px;font:600 16px var(--sans)}
+.card .why{margin:0 0 16px;color:var(--muted);font-size:13.5px;line-height:1.5;max-width:48ch}
+.card dl{display:grid;grid-template-columns:1fr auto;gap:6px 16px;margin:0 0 16px;font-size:13.5px}
+.card dt{color:var(--muted)} .card dd{margin:0;font-family:var(--mono);text-align:right}
+.card .btn{width:auto}
+
+/* fly */
+.fly-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px;margin-left:96px;align-items:start}
+.spec h3{margin:0 0 16px;font:600 17px var(--sans);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.spec .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:0 0 20px;border-top:1px solid var(--rule-2)}
+.spec .stats div{padding:12px 12px 0 0}
+.spec .stats div+div{padding-left:14px;border-left:1px solid var(--rule)}
+.spec .stats span{display:block;color:var(--muted);font-size:12.5px}
+.spec .stats b{font:500 20px var(--mono);letter-spacing:-.01em}
+.spec h4{margin:20px 0 10px;font:600 13.5px var(--sans);color:var(--ink-2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:12.5px var(--mono);padding:4px 9px;border-radius:4px;color:var(--ink-2);background:var(--cream);box-shadow:inset 0 0 0 1px var(--rule)}
+.chip.hit{color:var(--ink);background:var(--tan);box-shadow:none}
+.chip.miss{background:transparent;box-shadow:inset 0 0 0 1px var(--rule-2);color:var(--faint);border:0;outline:1px dashed transparent}
+.chip.base{color:var(--muted)}
+.gate{font:12px var(--mono);padding:3px 9px;border-radius:4px;background:var(--cream);color:var(--muted)}
+.gate.ok{background:var(--sage);color:var(--ink)}
+.gate.fb{background:rgba(181,69,46,.12);color:var(--toxic)}
+.events h3{margin:0 0 12px;font:600 17px var(--sans)}
+.log{list-style:none;margin:0;padding:0;font-size:13.5px}
+.log li{display:grid;grid-template-columns:84px minmax(0,1fr);gap:12px;padding:10px 0;border-top:1px solid var(--rule)}
+.log .tk{font:12px var(--mono);color:var(--faint);padding-top:2px}
+.log li.handoff{color:var(--muted)}
+.empty{color:var(--muted);font-size:13.5px}
+
+/* ---------- evidence ---------- */
+.ledger{background:var(--cream);padding:96px 0 104px;scroll-margin-top:56px;border-top:1px solid var(--rule)}
+.ev-head{max-width:760px;margin:0 0 40px}
+.ev-head h2{margin:0;font:400 44px/1.08 var(--serif);letter-spacing:-.022em}
+.ev-head p{margin:14px 0 0;color:var(--ink-2);font-size:16px}
+.projmap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 72px;border-top:1px solid var(--ink)}
+.projmap article{padding:20px 24px 8px 0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.projmap article+article{padding-left:24px;border-left:1px solid var(--rule)}
+.projmap .k{font:500 12px var(--mono);color:var(--faint)}
+.projmap h3{margin:0;font:600 16px/1.3 var(--sans);color:var(--ink)}
+.projmap p{margin:0;color:var(--ink-2);font-size:14px;line-height:1.55}
+.projmap .n,.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.projmap .go{margin-top:auto;display:inline-flex;align-items:center;min-height:40px;color:var(--terra);font-weight:500;font-size:14px;text-decoration:none}
+.projmap .go:hover{text-decoration:underline;text-underline-offset:3px}
+.projmap article.here .k{color:var(--terra)}
+.ev-body{display:grid;grid-template-columns:240px minmax(0,1fr);gap:64px}
+.ev-body .side p{color:var(--muted);font-size:14px;margin:0 0 18px}
+.doclinks{list-style:none;margin:0;padding:0;font:13px var(--mono)}
+.doclinks a{display:flex;align-items:center;min-height:40px;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink-2)}
+.doclinks a:hover{color:var(--terra)}
+.ledger h3{margin:0 0 8px;font:600 17px var(--sans);color:var(--ink)}
+.ledger .projmap h3{font-size:16px}
+.ledger .lead{margin:0 0 20px;max-width:760px;font:400 19px/1.5 var(--serif);color:var(--ink-2)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:0 0 56px}
+th{text-align:left;font:500 12.5px var(--sans);color:var(--muted);padding:0 14px 10px 0;border-bottom:1px solid var(--ink);white-space:nowrap}
+td{padding:14px 14px 14px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+td.n,.nw{font-family:var(--mono);font-size:13px;white-space:nowrap}
+td:first-child{white-space:nowrap;font-weight:600}
+.st{display:inline-flex;align-items:center;gap:6px;font:500 13px var(--sans);white-space:nowrap;color:var(--muted)}
+.st::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.st.pass{color:var(--green)} .st.no{color:var(--toxic)}
+td a{color:var(--terra);text-underline-offset:3px}
+.sans{font-family:var(--sans)}
+tbody.grp tr:not(:last-child) td{border-bottom:0}
+tbody.grp tr.sub td{padding-top:3px;padding-bottom:3px}
+tbody.grp tr.sub:last-child td{padding-bottom:14px}
+tbody.grp tr:first-child td{padding-bottom:4px}
+tbody.grp td[rowspan]{border-bottom:1px solid var(--rule)}
+td.vs{font-weight:400;color:var(--ink-2);padding-left:14px}
+.scope{border-left:2px solid var(--tan);padding:4px 0 4px 18px;color:var(--ink-2);font-size:14px;margin:0;max-width:80ch}
+.foot{background:var(--ink);color:var(--sage);padding:10px 0 18px;font-size:13px}
+.foot .wrap{display:flex;gap:4px 20px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+.foot a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;color:var(--cream)}
+.foot .mono{color:var(--cream)}
+
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* ---------- responsive ---------- */
+@media (max-width:1100px){
+  :root{--gutter:32px}
+  .hero-grid{grid-template-columns:minmax(0,1fr);gap:0}
+  .story{display:contents}
+  .story>*{grid-column:1}
+  .map{position:relative;top:auto;max-width:720px;order:1;margin-top:28px}
+  .story>.verdict,.story>.controls,.story>.notice,.story>.toc-x{order:2}
+  .map canvas{width:100%}
+  .about-grid,.ladder,.ladder-h,.about-scope,.rule-grid,.menu,.fly-grid,.band-pop .chart-box,.band-pop .legend,.band-pop .cards,.band-pop .cost{margin-left:0}
+  .sec-h{grid-template-columns:minmax(0,1fr) auto}
+  .sec-h .num{grid-column:1/-1;margin:0 0 8px}
+  .fly-grid{grid-template-columns:minmax(0,1fr);gap:40px}
+  .about-grid{grid-template-columns:minmax(0,1fr);gap:28px}
+  .ladder{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}
+  .ev-body{grid-template-columns:minmax(0,1fr);gap:28px}
+}
+@media (max-width:720px){
+  :root{--gutter:16px}
+  .bar .wrap{flex-wrap:wrap;height:auto;padding-top:8px}
+  .brand{min-height:40px}
+  .nav{order:3;width:calc(100% + 2 * var(--gutter));margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter);gap:20px;overflow-x:auto;scrollbar-width:none}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{min-height:40px;flex:none}
+  .hero{padding:28px 0 40px}
+  .hero h1{font-size:38px}
+  .lede{font-size:15.5px}
+  .verdict p{font-size:19px}
+  .controls{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .controls .seg{grid-column:1/-1;width:100%} .controls .seg button{flex:1;height:44px}
+  #skip{grid-column:1/-1}
+  .btn{height:44px}
+  .settings{flex-wrap:wrap}
+  .settings .field{flex-basis:100%}
+  .settings .btn{width:100%}
+  .toc a{min-height:40px}
+  .ladder{grid-template-columns:minmax(0,1fr)}
+  .map-h{flex-wrap:wrap}
+  .band{padding:56px 0 64px}
+  .sec-h{grid-template-columns:minmax(0,1fr);margin-bottom:28px}
+  .sec-h h2{font-size:30px}
+  .sec-h .tag,.sec-h .seg{justify-self:start;margin-top:16px}
+  .rule-grid{grid-template-columns:minmax(0,1fr);gap:24px}
+  .constel{max-width:220px;margin:0 auto}
+  .terms li{grid-template-columns:96px minmax(0,1fr)}
+  .menu{margin-top:36px;padding:16px 14px}
+  .chart-box{height:220px}
+  .cards{grid-template-columns:minmax(0,1fr)}
+  .card+.card{padding-left:0;border-left:0;border-top:1px solid var(--rule)}
+  .card .btn{width:100%}
+  .spec .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .spec .stats div:nth-child(3){padding-left:0;border-left:0}
+  .ledger{padding:56px 0}
+  .ev-head h2{font-size:32px}
+  .projmap{grid-template-columns:minmax(0,1fr)}
+  .projmap article,.projmap article+article{padding-left:0;border-left:0}
+  .projmap article+article{border-top:1px solid var(--rule)}
+  table,thead,tbody,tr,td,th{display:block}
+  thead{display:none}
+  tbody{padding:14px 0;border-bottom:1px solid var(--rule)}
+  td{position:relative;border:0;padding:3px 0 3px 104px;white-space:normal}
+  td::before{content:attr(data-label);position:absolute;left:0;top:3px;font:500 12px/1.7 var(--sans);color:var(--faint)}
+  td:first-child{font-size:15px;white-space:normal}
+  td.n{white-space:normal}
+  tbody.grp{display:flex;flex-direction:column}
+  tbody.grp tr:first-child{display:contents}
+  tbody.grp td[rowspan]{border:0}
+  tbody.grp td.st-cell{order:9}
+  tbody.grp tr.sub{display:flex;flex-wrap:wrap;gap:0 6px;margin:3px 0 3px 104px;padding:1px 0 1px 10px;border-left:2px solid var(--sage)}
+  tbody.grp tr.sub td{display:inline;padding:0;font-size:13px;line-height:1.5}
+  tbody.grp tr.sub td::before{content:none}
+  tbody.grp tr.sub td+td::before{content:"\00b7";position:static;margin-right:6px;font:inherit;color:var(--faint)}
+  td.vs{padding-left:0}
+}
+@media (pointer:coarse){
+  .seg button,.btn,select,input[type=number]{min-height:44px}
+  .doclinks a,.nav a{min-height:44px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+
+/* scenario picker: a styled listbox driving the hidden native select */
+.picker{position:relative;flex:1;min-width:0}
+.picker select{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.picker-btn{display:flex;flex-direction:row;align-items:center;gap:10px;width:100%;min-height:40px;padding:0 36px 0 12px;border:1px solid var(--rule-2);border-radius:var(--r);background:var(--paper);cursor:pointer;text-align:left;position:relative;transition:border-color .15s ease}
+.picker-btn::after{content:"";position:absolute;right:14px;top:50%;width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-70%) rotate(45deg);transition:transform .2s ease}
+.picker-btn[aria-expanded="true"]::after{transform:translateY(-25%) rotate(-135deg)}
+.picker-btn:hover{border-color:var(--ink-2)}
+.picker-lbl{font-size:13px;color:var(--muted);flex:none}
+.picker-val{display:flex;align-items:center;gap:8px;min-width:0;font-size:13.5px;font-weight:500;line-height:1.3}
+.picker-val .pt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rung{display:inline-grid;place-items:center;min-width:34px;height:20px;padding:0 6px;border-radius:4px;background:var(--sage);font:500 11px var(--mono);color:var(--ink);flex:none}
+.rung.r-L2{background:var(--tan)} .rung.r-ctrl{background:var(--mist);color:var(--muted)}
+.pt small{font-weight:400;color:var(--muted);font-size:12px}
+.picker-list{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:30;margin:0;padding:4px;list-style:none;background:var(--paper);border:1px solid var(--rule-2);border-radius:10px;box-shadow:0 16px 32px -14px rgba(43,42,30,.3);max-height:min(360px,60vh);overflow:auto;outline:none;animation:pop .16s ease both}
+.picker-list[hidden]{display:none}
+.picker-list .grp{padding:8px 8px 2px;font-size:11px;font-weight:500;color:var(--faint)}
+.picker-list .grp:first-child{padding-top:4px}
+.picker-list [role=option]{display:flex;align-items:center;gap:8px;min-height:30px;padding:4px 8px;border-radius:5px;cursor:pointer;font-size:13px}
+.picker-list .rung{display:none}
+.picker-list [role=option]:hover,.picker-list [role=option].act{background:var(--mist)}
+.picker-list [role=option][aria-selected="true"]{font-weight:500}
+.picker-list [role=option][aria-selected="true"]::after{content:"✓";margin-left:auto;padding-left:8px}
+@keyframes pop{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+.settings .btn{height:40px;font-size:13.5px}
+
+/* Live text reserves its tallest size so the page never shifts while the world runs. */
+.verdict p#verdict{min-height:calc(1.35em * 3)}
+.verdict .ctx{min-height:calc(1.5em * 3)}
+.log{height:340px;overflow-y:auto;overscroll-behavior:contain}
+@media (max-width:720px){.log{height:300px}}
+.spec{min-height:460px}
+@media (max-width:720px){.spec{min-height:0}}
+@media (min-width:721px){
+  .controls{flex-wrap:nowrap;gap:6px}
+  .controls .btn{padding:0 12px;font-size:13.5px}
+  .controls .seg button{padding:0 9px;font-size:13px}
+  .controls #skip{margin-left:2px}
+}
+</style>
+</head>
 <body>
-<header><div class="brand"><span class="mark">⠿</span> AFTERWING <span class="subtle" style="letter-spacing:.08em">MICROVERSE</span></div>
-<nav><a href="/">Observatory</a><a href="#about">About this world</a><a href="https://github.com/Jaiminp007/fly-ecosystem">Source ↗</a></nav></header>
+<a class="skip" href="#stage">Skip to the live world</a>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Afterwing, home">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="10.5" cy="13" rx="8.5" ry="5" transform="rotate(-28 10.5 13)" fill="#d4a373"/><ellipse cx="21.5" cy="13" rx="8.5" ry="5" transform="rotate(28 21.5 13)" fill="#ccd5ae" style="mix-blend-mode:multiply"/><ellipse cx="16" cy="18.5" rx="3.2" ry="7" fill="#2b2a1e"/><circle cx="16" cy="10" r="2.9" fill="#2b2a1e"/><circle cx="14.6" cy="9.4" r="1" fill="#b5452e"/><circle cx="17.4" cy="9.4" r="1" fill="#b5452e"/><path d="M14.4 7.6 12.6 4.8M17.6 7.6 19.4 4.8" stroke="#2b2a1e" stroke-width="1" stroke-linecap="round"/><path d="M16 15.5h-.01M16 19h-.01M16 22.5h-.01" stroke="#fefae0" stroke-width="5" stroke-linecap="round" opacity=".18"/></svg>
+      <span class="wordmark">Afterwing</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#rule">Hidden rule</a>
+      <a href="#survive">Taste skill</a>
+      <a href="#evidence">What was measured</a>
+      <a href="https://github.com/Jaiminp007/fly-ecosystem" rel="noopener">Source&nbsp;↗</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section>
-  <span class="eyebrow">A CLOSED WORLD · RUNS IN YOUR BROWSER</span>
-  <h1>Flies that improve<br><em>how they learn.</em></h1>
-  <p>Each fly inherits a learning program — which taste features to compute, which senses to use — but none of its parent's learned knowledge. During life it can rewrite that program from its own experience. Food chemistry keeps changing. Watch which lineages take over.</p>
-  <div class="toolbar">
-    <select id="scenario" aria-label="Scenario">
-      <option value="SELF,FIXED">Self-improving vs fixed flies</option>
-      <option value="SELF,SHAM">Self-improving vs fake self-improvers (random rewrites)</option>
-      <option value="SELF,EVO">Self-improving vs mutation-only evolution</option>
-      <option value="SELF">Self-improving flies alone</option>
-      <option value="ORACLE,FIXED">Born knowing the rule vs fixed flies</option>
-    </select>
-    <label>Seed <input id="seed" type="number" min="1" value="101"></label>
-    <button id="play" class="primary">Pause</button>
-    <button id="reset">New world</button>
-    <label>Speed <input id="speed" type="range" min="1" max="60" value="12" aria-label="Ticks per frame"></label>
+<section class="hero" id="stage" aria-labelledby="title">
+  <div class="wrap hero-grid">
+    <div class="story">
+      <p class="eyebrow">Microverse <span class="mono" id="tickPill" aria-live="off"><i></i><span id="tickText">tick 0 · pairs</span></span></p>
+      <h1 id="title">Flies that inherit <em>how to learn</em>, not what they learned.</h1>
+      <p class="lede">A small world of simulated flies. A hidden rule decides which smells are food and which are poison, and every 3,000 ticks it changes. Watch which lineage works it out again.</p>
+      <div class="settings">
+        <div class="picker" id="picker">
+          <select id="scenario" aria-label="Scenario" tabindex="-1" aria-hidden="true"></select>
+          <button type="button" class="picker-btn" id="pickerBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="pickerLbl pickerVal">
+            <span class="picker-lbl" id="pickerLbl">Scenario</span>
+            <span class="picker-val" id="pickerVal"></span>
+          </button>
+          <ul class="picker-list" id="pickerList" role="listbox" aria-labelledby="pickerLbl" tabindex="-1" hidden></ul>
+        </div>
+        <button class="btn" id="newWorld" type="button">New world</button>
+        <input id="seed" type="hidden" value="101">
+      </div>
+
+      <div class="verdict" aria-live="polite">
+        <p id="verdict">Starting the world.</p>
+        <p class="ctx" id="context"></p>
+        <div class="sharerow"><div class="sharebar" id="sharebar" aria-hidden="true"></div><span id="shareN" class="mono"></span></div>
+      </div>
+
+      <div class="controls" role="group" aria-label="World controls">
+        <button class="btn primary" id="play" type="button">Pause</button>
+        <button class="btn" id="step" type="button">Step</button>
+        <div class="seg" role="group" aria-label="Speed" id="speed">
+          <button type="button" data-speed="slow" aria-pressed="false">Slow</button>
+          <button type="button" data-speed="normal" aria-pressed="true">Normal</button>
+          <button type="button" data-speed="fast" aria-pressed="false">Fast</button>
+          <button type="button" data-speed="max" aria-pressed="false">Max</button>
+        </div>
+        <button class="btn accent" id="skip" type="button" title="Fast-forward to just before the hidden rule changes">Skip to switch →</button>
+      </div>
+      <p class="notice" id="notice" role="status" hidden></p>
+
+
+
+    </div>
+
+    <figure class="map" aria-labelledby="mapTitle">
+      <div class="map-h">
+        <h2 id="mapTitle" class="vh">The world, a 40 × 40 torus</h2>
+        <div class="seg" role="group" aria-label="Map layer" id="layer">
+          <button type="button" data-layer="truth" aria-pressed="true">True chemistry</button>
+          <button type="button" data-layer="mind" aria-pressed="false">What the fly thinks</button>
+        </div>
+        <span class="hint" id="pickHint">Click any fly to follow it.</span>
+      </div>
+      <canvas id="world" role="img" aria-label="Live map of the world: food patches and flies. Click a fly to follow it."></canvas>
+      <figcaption class="legend" id="mapLegend"></figcaption>
+    </figure>
   </div>
-  <div class="world">
-    <div class="world-label">MICROVERSE · 40 × 40 <span id="ruleLabel">—</span></div>
-    <canvas id="world" width="640" height="640" aria-label="World map: food patches and flies"></canvas>
-    <div class="legend" id="legend"></div>
-  </div>
-  <div class="metrics">
-    <div><span>World time</span><strong id="mTick">0</strong></div>
-    <div><span>Population</span><strong id="mPop">0</strong></div>
-    <div><span>Births</span><strong id="mBirths">0</strong></div>
-    <div><span>Deaths</span><strong id="mDeaths">0</strong></div>
-  </div>
-  <h2 style="margin-top:20px">Population by lineage</h2>
-  <canvas id="chart" width="900" height="170" aria-label="Population of each strain over time"></canvas>
 </section>
-<aside>
-  <section><h2>Lineages</h2><div id="strains"></div></section>
-  <section><h2>Selected fly</h2><div id="fly" class="subtle">Click a fly on the map to inspect its inherited program and what it has learned.</div></section>
-</aside>
-<section class="methods" id="about">
-  <h2>About this world</h2>
-  <p><strong>The world.</strong> A 40 × 40 torus with eight food patches that keep moving. Every food plant has an odor, an 8-bit chemical code. Whether food is nutritious or toxic follows a hidden rule over that code, and the rule changes every 3,000 ticks (pairs of bits, a staircase, triples, a single bit). Odor codes are redrawn every 100 ticks, so flies must learn the rule, not memorize odors. Flies breed when they have enough energy, and die when they starve or grow old.</p>
-  <p><strong>The flies.</strong> Each fly has a taste learner (a set of feature masks over the odor code) and a movement learner (a set of senses). Both learn during life. A self-improving fly can also add features its own evidence supports and drop ones that stopped paying, and it watches whether its taste model actually predicts better than guessing. Children inherit the program and the evidence behind it, never the learned values.</p>
-  <p><strong>What has been tested.</strong> In pre-registered tests on fresh worlds, self-improving flies out-competed fixed flies, a random-rewrite sham, and mutation-only evolution, and re-learned after every rule change. A separate benefit of self-improving <em>movement</em> on top of taste was not shown. Details: <a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/MICROVERSE_LOG.md" style="color:var(--accent)">goal ladder and full log</a>.</p>
-  <div class="notice">This is a small constructed world with hand-written learning rules. It shows bounded self-improvement inside one world — not open-ended intelligence, and not a model of real insects. Food colors on the map show the true value, which the flies cannot see.</div>
+
+<section class="band band-about" id="about" aria-labelledby="aboutTitle">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="num">01</p>
+      <div>
+        <h2 id="aboutTitle">What Afterwing is</h2>
+        <p>An artificial-life research project. The long-term aim is agents that learn from experience, then get better at learning itself, measured honestly at every step.</p>
+      </div>
+    </header>
+    <div class="about-grid">
+      <div class="about-col">
+        <h3>The question</h3>
+        <p>Can a creature improve <em>how</em> it learns, not just what it knows? Most learning systems tune numbers inside a fixed design. Afterwing asks whether simulated flies can revise the design itself, which features they pay attention to and how they decide to change them, and pass that ability to their offspring.</p>
+      </div>
+      <div class="about-col">
+        <h3>The world</h3>
+        <p>The Microverse at the top of this page is a closed 40 × 40 world where flies forage, breed and die continuously. Food smells are 8-bit codes, and a hidden formula says which are nutritious. The formula changes every 3,000 ticks, so nothing a fly memorised stays true for long. Offspring inherit their parent's learning program, never its learned weights.</p>
+      </div>
+      <div class="about-col">
+        <h3>How we keep it honest</h3>
+        <p>Every goal is written down before it is tested. Ideas are tuned on practice seeds, then judged once on fresh worlds nobody has seen, against controls: a fixed program, random rewrites, plain evolution. A result that does not clear its pre-set bar is reported as not shown.</p>
+      </div>
+    </div>
+    <h3 class="ladder-h">The ladder we are climbing</h3>
+    <ol class="ladder" id="ladder" aria-label="Afterwing self-improvement ladder">
+      <li data-rung="L0"><b>L0</b><span class="lt">Lifetime learning</span><span class="ld">A fly gets better at telling food from poison during its own life.</span><span class="ls">Shown</span></li>
+      <li data-rung="L1"><b>L1</b><span class="lt">Program revision</span><span class="ld">Lineages add and drop the features their learning uses, from their own evidence.</span><span class="ls">Shown</span></li>
+      <li data-rung="L2"><b>L2</b><span class="lt">Reviser tuning</span><span class="ld">Flies retune the settings of the thing that revises them, in response to brain cost.</span><span class="ls">Shown</span></li>
+      <li data-rung="L3" class="no"><b>L3</b><span class="lt">Compounding</span><span class="ld">Each level makes the next pay off more, at least 1.5×. Four designs tried; none cleared the bar.</span><span class="ls">Not shown</span></li>
+    </ol>
+    <p class="about-scope">This is bounded self-improvement in a hand-built world, not open-ended intelligence, and the flies are not models of real insects. Richer minds, larger worlds and societies remain the long-term direction, not something this code has shown.</p>
+  </div>
+</section>
+
+<section class="band band-rule" id="rule" aria-labelledby="mindTitle">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="num">02</p>
+      <div>
+        <h2 id="mindTitle">The hidden rule</h2>
+        <p>Each food smell is an 8-bit code. The rule multiplies some of those bits together and adds the results; the sign says nutritious or toxic. The flies never see the formula. They have to guess which bit-combinations matter.</p>
+      </div>
+      <span class="tag mono" id="ruleTag"></span>
+    </header>
+
+    <div class="rule-grid">
+      <figure class="constel">
+        <svg id="constellation" viewBox="0 0 260 260" role="img" aria-label="The eight odor bits on a circle. Dashed shapes are the hidden rule's terms; solid colored shapes are the terms each lineage holds."></svg>
+        <figcaption>Dashed: the rule's terms. Solid: what each lineage has found.</figcaption>
+      </figure>
+      <div class="rulebox">
+        <div class="formula" id="formula"></div>
+        <div class="terms-h" id="termsKey"></div>
+        <ul class="terms" id="terms"></ul>
+        <div class="clock"><span>Codes redrawn in <b id="redraw">–</b></span><span>Rule switches in <b id="switchIn">–</b></span></div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="menu-h"><h3>The 16 smells on offer right now</h3><span id="menuNote"></span></div>
+      <svg id="menu" tabindex="0" role="img" aria-label="Current odor codes: eight bits per food kind, the hidden formula's sum, true value, and the followed fly's decision. Use the arrow keys to trace one code through the formula."></svg>
+      <p class="trace" id="trace" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<section class="band band-pop" id="survive" aria-labelledby="chartTitle">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="num">03</p>
+      <div>
+        <h2 id="chartTitle"><span id="chartHead">Taste skill over time</span></h2>
+        <p id="chartSub">P(eat | nutritious) − P(eat | toxic)</p>
+      </div>
+      <div class="seg" role="group" aria-label="Chart measure" id="chartMode">
+        <button type="button" data-mode="skill" aria-pressed="true">Taste skill</button>
+        <button type="button" data-mode="pop" aria-pressed="false">Population</button>
+      </div>
+    </header>
+    <div class="cost" id="cost"></div>
+    <div class="chart-box"><canvas id="chart" role="img" aria-labelledby="chartTitle"></canvas></div>
+    <div class="legend" id="chartLegend"></div>
+    <div class="cards" id="cards"></div>
+  </div>
+</section>
+
+<section class="band band-fly" id="fly" aria-labelledby="specTitle">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="num">04</p>
+      <div>
+        <h2 id="specTitle">One fly, up close</h2>
+        <p>The fly marked on the map. Pick another by clicking it.</p>
+      </div>
+    </header>
+    <div class="fly-grid">
+      <div class="spec" id="spec"><p class="empty">No fly selected.</p></div>
+      <div class="events">
+        <h3 id="logTitle">What just happened</h3>
+        <ul class="log" id="log" aria-labelledby="logTitle"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ledger" id="evidence" aria-labelledby="evTitle">
+  <div class="wrap">
+    <header class="ev-head">
+      <h2 id="evTitle">What was measured</h2>
+      <p>Three tracks in one repository. Only the Microverse runs on this page; each track reports its own tests.</p>
+    </header>
+    <div class="projmap">
+      <article class="here">
+        <span class="k">1 · this page</span>
+        <h3>Microverse</h3>
+        <p>A <span class="num">40 × 40</span> browser torus. L0–L2 shown on fresh seeds; L3 compounding not shown.</p>
+        <a class="go" href="#stage">Back to the live world ↑</a>
+      </article>
+      <article>
+        <span class="k">2 · P5–P12</span>
+        <h3>Embodied and offline search</h3>
+        <p>Opt-in many-odor world. P10 move invention: <span class="n">+3.59 energy, 12/12</span>. P12 in-lineage self-revision: <span class="n">+3.54 energy, 24/24</span>.</p>
+      </article>
+      <article>
+        <span class="k">3 · local runtime</span>
+        <h3>MaleCNS whole-connectome arena</h3>
+        <p><span class="n">166,700</span> neurons and <span class="n">25,582,938</span> edges per fly; Python + C++17 runtime (<span class="mono">npm start</span>). One verified generation-1 birth at tick 300. Separate from the RSI results.</p>
+      </article>
+    </div>
+    <div class="ev-body">
+      <div class="side">
+        <h3>How to read this</h3>
+        <p>The world above is one practice seed. The table rows are pre-registered tests, each run once on fresh seeds. Each p is a one-sided sign-flip test with 200,000 draws.</p>
+        <ul class="doclinks" aria-label="Full logs">
+          <li><a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/VISION.md" rel="noopener">docs/VISION.md ↗</a></li>
+          <li><a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/MICROVERSE_LOG.md" rel="noopener">docs/MICROVERSE_LOG.md ↗</a></li>
+          <li><a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/FLY_RSI_LOG.md" rel="noopener">docs/FLY_RSI_LOG.md ↗</a></li>
+          <li><a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/MALECNS.md" rel="noopener">docs/MALECNS.md ↗</a></li>
+          <li><a href="https://github.com/Jaiminp007/fly-ecosystem/blob/main/docs/SPENT_BANKS_RSI.md" rel="noopener">docs/SPENT_BANKS_RSI.md ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Microverse: this world</h3>
+        <p class="lead">Each comparison pits lineages against each other in the same kind of world. Differences are in surviving flies.</p>
+        <table>
+          <thead><tr><th>Test</th><th>Comparison</th><th>Result</th><th>Fresh worlds</th><th>p-value</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Test">G1–G6</td><td data-label="Comparison">The world is livable; taste, movement and lifetime learning matter; self-improving flies beat fixed and sham; they adapt to each rule</td><td class="n" data-label="Result"><span class="sans">G2–G5</span> 8/8 each</td><td class="n" data-label="Fresh worlds">8 per run, two final runs</td><td class="n" data-label="p-value">—</td><td data-label="Status"><span class="st pass">closed</span></td></tr>
+          </tbody>
+          <tbody class="grp">
+            <tr><td data-label="Test" rowspan="3">G7c</td><td colspan="4" data-label="Comparison">Taste + movement revision</td><td class="st-cell" data-label="Status" rowspan="3"><span class="st pass">passed</span></td></tr>
+            <tr class="sub"><td class="vs">vs taste-only</td><td class="n">+2.14 flies</td><td class="n">96 (66/96)</td><td class="n">p &lt; 0.00001</td></tr>
+            <tr class="sub"><td class="vs">vs movement-only</td><td class="n">+9.40 flies</td><td class="n">96 (96/96)</td><td class="n">p &lt; 0.00001</td></tr>
+          </tbody>
+          <tbody>
+            <tr><td data-label="Test">P11b</td><td data-label="Comparison">Reviser found by the system's own search vs its starting reviser</td><td class="n" data-label="Result">+5.73 flies</td><td class="n" data-label="Fresh worlds">48 (48/48)</td><td class="n" data-label="p-value">&lt; 0.00001</td><td data-label="Status"><span class="st pass">passed</span></td></tr>
+          </tbody>
+          <tbody class="grp">
+            <tr><td data-label="Test" rowspan="4">Fly-RSI L2</td><td colspan="4" data-label="Comparison">In-life lean/full reviser switching</td><td class="st-cell" data-label="Status" rowspan="4"><span class="st pass">shown</span></td></tr>
+            <tr class="sub"><td class="vs">vs evolution</td><td class="n">+3.64 flies</td><td class="n">48 (44/48)</td><td class="n">p &lt; 0.00001</td></tr>
+            <tr class="sub"><td class="vs">vs matched sham</td><td class="n">+2.87 flies</td><td class="n">48 (39/48)</td><td class="n">p &lt; 0.00001</td></tr>
+            <tr class="sub"><td class="vs">vs no tuning</td><td class="n">+3.16 flies</td><td class="n">48 (43/48)</td><td class="n">p &lt; 0.00001</td></tr>
+          </tbody>
+          <tbody>
+            <tr><td data-label="Test">Fly-RSI L3</td><td data-label="Comparison">Compounding: level 1 pays ≥ 1.5× more with level 2</td><td colspan="3" data-label="Result">No design cleared pre-registered practice (L3 through L3-IV; best L3 practice ratio <span class="nw">1.44 &lt; 1.5</span>); no final run.</td><td data-label="Status"><span class="st no">not shown</span></td></tr>
+          </tbody>
+        </table>
+        <h3>Separate tracks in the repository</h3>
+        <p class="lead">Different worlds and models. Their numbers do not describe the Microverse.</p>
+        <table>
+          <thead><tr><th>Track</th><th>What it is</th><th>Result</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Track">P10</td><td data-label="What it is">Embodied fly in the opt-in many-odor world: system search vs blind search</td><td class="n" data-label="Result">+3.59 energy, 12/12</td><td data-label="Status"><span class="st pass">passed</span></td></tr>
+            <tr><td data-label="Track">P12</td><td data-label="What it is">Self-revising vs default learner, generations 7–8</td><td class="n" data-label="Result">+3.54 energy, 24/24</td><td data-label="Status"><span class="st pass">passed</span></td></tr>
+            <tr><td data-label="Track">MaleCNS arena</td><td data-label="What it is">Whole-connectome flies: 166,700 neurons and 25,582,938 directed edges each; local runtime, needs a C++17 compiler</td><td class="n" data-label="Result">one birth, tick 300</td><td data-label="Status"><span class="st">construction path only</span></td></tr>
+          </tbody>
+        </table>
+        <p class="scope">Scope: hand-written rules in a constructed world. The self-improvement shown here is bounded: flies revise which features they use and retune their reviser's settings. It is not open-ended intelligence, and these are not models of real insects.</p>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
+<footer class="foot"><div class="wrap"><span>The simulator runs in your browser from <span class="mono">microverse/sim.mjs</span>; nothing is sent to a server.</span><span><a href="#about">About</a> · <a href="https://github.com/Jaiminp007/fly-ecosystem" rel="noopener">Source</a></span></div></footer>
 <script type="module" src="/microverse.js"></script>
-</body></html>
+<script type="module" src="/picker.js"></script>
+</body>
+</html>

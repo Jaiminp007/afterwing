@@ -54,9 +54,10 @@ test('server serves the microverse viewer and its modules',async()=>{
   try{
     await new Promise((ok,fail)=>{const t=setTimeout(()=>fail(new Error('startup timeout')),6000);child.stdout.once('data',()=>{clearTimeout(t);ok();});child.once('error',fail);});
     const base=`http://127.0.0.1:${port}`;
-    for(const [p,type] of [['/microverse','text/html'],['/microverse.js','text/javascript'],['/microverse/sim.mjs','text/javascript'],['/microverse/strains.mjs','text/javascript'],['/microverse/config.mjs','text/javascript']]){
+    for(const [p,type] of [['/microverse','text/html'],['/microverse.js','text/javascript'],['/picker.js','text/javascript'],['/microverse/sim.mjs','text/javascript'],['/microverse/strains.mjs','text/javascript'],['/microverse/config.mjs','text/javascript']]){
       const r=await fetch(base+p);assert.equal(r.status,200,p);assert.equal(r.headers.get('content-type'),type,p);}
     assert.equal((await fetch(base+'/microverse/suite.mjs')).status,404);
-    assert.match(await (await fetch(base+'/')).text(),/href="\/microverse"/);
+    // The home page is the Microverse itself.
+    assert.match(await (await fetch(base+'/')).text(),/src="\/microverse.js"/);
   }finally{child.kill('SIGTERM');await once(child,'exit');await rm(dir,{recursive:true,force:true});}
 });
