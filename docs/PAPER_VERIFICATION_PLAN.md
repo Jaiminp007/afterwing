@@ -83,6 +83,31 @@ MOVEONLY), with the rule schedule changed:
 | short epochs | 2000 |
 | long epochs | 4500 |
 
-Reading, fixed now: the paper reports every variant's mean differences and wins. It
+Reading, fixed now: the paper reports every variant's mean differences and wins.
+A later amendment (A1, below) adds one more practice check. It
 calls an effect "robust to these settings" only if the sign of each gated contrast
 is positive in every variant; otherwise it names the variants where it is not.
+
+## Amendment A1 (2026-11-25, after the V3 audit and before any V4 or V5 run)
+
+The audit (`docs/paper/AUDIT_CONTROLS.md`) found that the runners' Monte Carlo
+sign-flip test is broken for n > 16, and that SHAM's fake cue shares the fly's own
+RNG with movement and taste replay. Two changes, made before any V4 or V5 run:
+
+1. **V4 p-values** come from the exact sign-flip test in `docs/paper/verify.mjs`,
+   applied to the per-seed values the runners print. The p-value the runners print
+   is ignored. Bars, arms, seeds and commands are unchanged.
+2. **V5 adds an inert-package check** (practice seeds 101–116, report-only): META
+   against SHAM with the lean package set equal to the full package, so the cue
+   cannot act through genes. Any difference measures the RNG effect alone.
+
+   ```sh
+   MV_SET=L2 MV_ARMS=META,SHAM \
+   MV_META='{"leanGenes":{"tasteCap":16,"tastePrune":2,"tasteZ":3,"moveCap":12,"movePrune":0.5,"moveZ":3}}' \
+   MV_WORLD='{"brainSwitch":{"mul":[1,12],"switch":0.001}}' \
+   node microverse/p13parts.mjs 101-116
+   ```
+
+   Reading: if the mean META − SHAM difference here is small next to the +2.87 of
+   the L2 final, the RNG difference does not explain the SHAM contrast. The paper
+   reports the number either way.
