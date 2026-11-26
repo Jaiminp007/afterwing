@@ -6,7 +6,10 @@
 
 **Paused research handoff:** start with [HANDOFF.md](HANDOFF.md) for the complete
 new-machine setup, evidence restore, Astra findings, file map and exact unfinished
-work. The research studies do not demonstrate recursive self-improvement.
+work. Recursive self-improvement is met only in a bounded form: in constructed
+worlds, with hand-written rules, up to level 2 (the flies retune their own
+reviser). Compounding (level 3) was not shown. See [VISION.md](docs/VISION.md)
+for the exact scope.
 
 ## Neural ecosystem platform
 
@@ -216,5 +219,6 @@ availability does not affect normal controls.
 The platform includes an experimental trace actor, checkpointed parameter search,
 independent cue-memory evaluations, and gated ecological difficulty. Open the
 **Autonomous learning lab** in the app, or use `npm run train:autonomy` and
-`npm run train:ecology`. These are bounded experiments toward the research goal;
-RSI is not demonstrated. See [the protocol and controls](docs/AUTONOMY.md).
+`npm run train:ecology`. These are bounded experiments toward the research goal
+and do not by themselves demonstrate RSI; the bounded RSI results are listed in
+[VISION.md](docs/VISION.md). See [the protocol and controls](docs/AUTONOMY.md).

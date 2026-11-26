@@ -1,0 +1,237 @@
+{
+ "plan": "docs/MICROVERSE_L2_GOALS.md#P11b-A1",
+ "start": {
+  "tasteMemory": 1000000000000,
+  "tastePrune": 0,
+  "tasteZ": 3,
+  "tasteEvery": 8,
+  "tasteCap": 16
+ },
+ "Rstar": {
+  "tasteMemory": 800,
+  "tastePrune": 0.5,
+  "tasteZ": 3,
+  "tasteEvery": 4,
+  "tasteCap": 16
+ },
+ "trainMeanPop": 55.905625,
+ "log": [
+  {
+   "proposal": 0,
+   "knob": "tastePrune",
+   "from": 0,
+   "to": 0.5,
+   "meanDiff": 2.15,
+   "positive": 12,
+   "accept": true
+  },
+  {
+   "proposal": 1,
+   "knob": "tasteEvery",
+   "from": 8,
+   "to": 4,
+   "meanDiff": 0.85,
+   "positive": 10,
+   "accept": true
+  },
+  {
+   "proposal": 2,
+   "knob": "tasteMemory",
+   "from": 1000000000000,
+   "to": 800,
+   "meanDiff": 3.13,
+   "positive": 15,
+   "accept": true
+  },
+  {
+   "proposal": 3,
+   "knob": "tasteEvery",
+   "from": 4,
+   "to": 8,
+   "meanDiff": -0.13,
+   "positive": 6,
+   "accept": false
+  },
+  {
+   "proposal": 4,
+   "knob": "tasteCap",
+   "from": 16,
+   "to": 12,
+   "meanDiff": -0.85,
+   "positive": 9,
+   "accept": false
+  },
+  {
+   "proposal": 5,
+   "knob": "tasteEvery",
+   "from": 4,
+   "to": 8,
+   "meanDiff": -0.13,
+   "positive": 6,
+   "accept": false
+  },
+  {
+   "proposal": 6,
+   "knob": "tasteZ",
+   "from": 3,
+   "to": 4,
+   "meanDiff": -1.73,
+   "positive": 3,
+   "accept": false
+  },
+  {
+   "proposal": 7,
+   "knob": "tastePrune",
+   "from": 0.5,
+   "to": 0,
+   "meanDiff": -3.98,
+   "positive": 1,
+   "accept": false
+  },
+  {
+   "proposal": 8,
+   "knob": "tasteEvery",
+   "from": 4,
+   "to": 8,
+   "meanDiff": -0.13,
+   "positive": 6,
+   "accept": false
+  },
+  {
+   "proposal": 9,
+   "knob": "tasteZ",
+   "from": 3,
+   "to": 4,
+   "meanDiff": -1.73,
+   "positive": 3,
+   "accept": false
+  },
+  {
+   "proposal": 10,
+   "knob": "tasteMemory",
+   "from": 800,
+   "to": 1000000000000,
+   "meanDiff": -3.13,
+   "positive": 1,
+   "accept": false
+  },
+  {
+   "proposal": 11,
+   "knob": "tasteMemory",
+   "from": 800,
+   "to": 400,
+   "meanDiff": -0.18,
+   "positive": 7,
+   "accept": false
+  },
+  {
+   "proposal": 12,
+   "knob": "tasteMemory",
+   "from": 800,
+   "to": 400,
+   "meanDiff": -0.18,
+   "positive": 7,
+   "accept": false
+  },
+  {
+   "proposal": 13,
+   "knob": "tastePrune",
+   "from": 0.5,
+   "to": 1,
+   "meanDiff": -0.6,
+   "positive": 5,
+   "accept": false
+  },
+  {
+   "proposal": 14,
+   "knob": "tasteZ",
+   "from": 3,
+   "to": 2,
+   "meanDiff": 0.23,
+   "positive": 8,
+   "accept": false
+  },
+  {
+   "proposal": 15,
+   "knob": "tastePrune",
+   "from": 0.5,
+   "to": 1,
+   "meanDiff": -0.6,
+   "positive": 5,
+   "accept": false
+  },
+  {
+   "proposal": 16,
+   "knob": "tasteZ",
+   "from": 3,
+   "to": 2,
+   "meanDiff": 0.23,
+   "positive": 8,
+   "accept": false
+  },
+  {
+   "proposal": 17,
+   "knob": "tasteEvery",
+   "from": 4,
+   "to": 8,
+   "meanDiff": -0.13,
+   "positive": 6,
+   "accept": false
+  },
+  {
+   "proposal": 18,
+   "knob": "tasteZ",
+   "from": 3,
+   "to": 2,
+   "meanDiff": 0.23,
+   "positive": 8,
+   "accept": false
+  },
+  {
+   "proposal": 19,
+   "knob": "tasteCap",
+   "from": 16,
+   "to": 24,
+   "meanDiff": -3.15,
+   "positive": 0,
+   "accept": false
+  },
+  {
+   "proposal": 20,
+   "knob": "tastePrune",
+   "from": 0.5,
+   "to": 1,
+   "meanDiff": -0.6,
+   "positive": 5,
+   "accept": false
+  },
+  {
+   "proposal": 21,
+   "knob": "tasteEvery",
+   "from": 4,
+   "to": 8,
+   "meanDiff": -0.13,
+   "positive": 6,
+   "accept": false
+  },
+  {
+   "proposal": 22,
+   "knob": "tasteMemory",
+   "from": 800,
+   "to": 400,
+   "meanDiff": -0.18,
+   "positive": 7,
+   "accept": false
+  },
+  {
+   "proposal": 23,
+   "knob": "tasteMemory",
+   "from": 800,
+   "to": 1000000000000,
+   "meanDiff": -3.13,
+   "positive": 1,
+   "accept": false
+  }
+ ],
+ "seconds": 473.018
+}
