@@ -7,6 +7,7 @@
 \usepackage{microtype}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
+\usepackage{longtable}
 \usepackage{adjustbox}
 \usepackage[htt]{hyphenat}
 \usepackage{array}
@@ -28,6 +29,7 @@ a ladder of prospectively specified tests from learning to in-life reviser tunin
 and why compounding failed}
 
 \author{Jaimin Patel\\
+\small Independent researcher\\
 \small\texttt{jaimin.patel.9568@gmail.com}\\
 \small Built and written with substantial help from Claude (Anthropic) and other AI models (Section~\ref{sec:ai-disclosure})}
 
@@ -497,13 +499,13 @@ A fresh GPT-6.2 Astra thread, given only the code and the claims and asked to br
 
 \subsection{Garden of Forking Paths and Program-Level Multiplicity}
 
-Even when each fresh final bank is executed once under a frozen rule, iterating through alternative world designs, endpoints, and operators across a research program creates a garden of forking paths \citep{gelman2014statistical}. Table~\ref{tab:forking} counts every practice attempt, amendment, and fresh-seed final per goal (full chronological details appear in \texttt{docs/paper/attempts.md}). Three goals required multiple iterations or re-named successors: G7 (two failed finals plus G7b before G7c passed), P13b (nine blocked/failed designs and three failed part-finals before Amendment A3 passed on a decision threshold), and L3 (eight designs/screens, all failing before any final).
+Even when each fresh final bank is executed once under a frozen rule, iterating through alternative world designs, endpoints, and operators across a research program creates a garden of forking paths \citep{gelman2014statistical}. Table~\ref{tab:forking} counts every practice attempt, amendment, and fresh-seed final per goal (full chronological details appear in Appendix~\ref{app:attempts}). Three goals required multiple iterations or re-named successors: G7 (two failed finals plus G7b before G7c passed), P13b (nine blocked/failed designs and three failed part-finals before Amendment A3 passed on a decision threshold), and L3 (eight designs/screens, all failing before any final).
 
 We apply no post-hoc familywise $p$-value adjustment across distinct worlds, because the hypotheses, mechanisms, and endpoints differed; instead, we report the complete denominator of attempts alongside every pass. Even under a conservative Bonferroni correction across all $\sim 20$ gated final contrasts, the headline passes remain far below $0.01 / 20 = 5\times 10^{-4}$: the weakest is \texttt{META} $-$ \texttt{SHAM} in L2, exact $p = \LtwoShamP$. By contrast, the exploratory search over worlds in P13b (10 designs) and L2 (5 candidate headroom worlds) means the findings show \emph{existence} in a chosen constructed world, not prevalence across arbitrary worlds.
 
 \begin{table}[t]
 \centering
-\caption{Forking-paths audit across the Microverse line (commits \texttt{d459944}--\texttt{16b4372}). Complete per-attempt details are logged in \texttt{docs/paper/attempts.md}.}
+\caption{Forking-paths audit across the Microverse line (commits \texttt{d459944}--\texttt{16b4372}). Complete per-attempt details are in Appendix~\ref{app:attempts}.}
 \label{tab:forking}
 \small
 \begin{adjustbox}{max width=\textwidth}
@@ -621,5 +623,8 @@ Much of this work was done with Claude, Anthropic's AI model. Claude Opus 5.5 wr
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
+
+\appendix
+\input{appendix-attempts}
 
 \end{document}
