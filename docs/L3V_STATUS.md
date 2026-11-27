@@ -33,8 +33,9 @@ Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − F
   - [x] Astra/Sol (864 cells, 2101–2116 only; `scratch/advice-astra-l4/`): **no prototype passes against a tuned constant L2.** Best: *credit map* (hidden bit-partner matching that drifts; META3 scores 5 candidate L2 credit rules on paired tastes). META3 69.97 vs best constant META 68.25 vs FIXED 61.68 → d₄ −3.12, 4/16 (ratio 1.26×); vs *frozen* L3-V META it is +6.45, 16/16. The comparator choice reverses the verdict, so **lock the best constant L2 in stage A** (frozen META descriptive only). The oracle-map version reaches d₄ +3.84 (12/16), so headroom exists. Forgetting-rate and cue-routing designs fail even with oracles (<1%). Fairness requirements: donor-replay SHAM3, EVO-R3 with standing variation that includes the best constant, factorial 2(P11−P01)−3(P10−P00). Disclosure: the advisor added recency and retuned challengers after inspecting early rows (exploration only).
   - [x] Gemini Neon (2001–2016 only; `scratch/advice-gemini-l4/`): top pick **META3_UPD, a learned L2 credit kernel in a modular-partition world.** Per seed, the 12 bits split into 3 hidden 4-bit modules; S switches module every 1,500 ticks, and the pair inside S every 250. L3 keeps an inherited 12×12 co-validation matrix G, learned from L2's own validated masks. G rewrites L2's update: it spreads boosts to module partners, suppresses non-partners, and raises alpha decay as G matures. L1 still reads only alpha. On 2001–2016, vs the best constant L2 from its in-sample grid (M_D060: decay .06, boost 20, cap 60): META3 64.11, M_D060 59.38, FIXED 55.98 → d₄ +3.02, 12/16, p 9.8e-4, ratio 2.39×. Beats SHAM3 by +6.73 and the EVO-R3 variants by +4.72 / +6.77, each 16/16. Without G inheritance, M3_UPD_RESET is 59.77, so the gain needs inheritance. Oracle G: 66.09. **Exposure:** Gemini tuned META3's constants (gDecay .0002, hiDecay .18, suppression .65, thresholds .25/.5) on these seeds; the forgetting/plasticity and alternating-regime designs failed there (≤1.46× and ≤1.23× even with an oracle).
 - [x] Merge: both advisors converge on *learning L2's credit-assignment map*. Astra's drifting map fails against tuned constant L2; Gemini's fixed-per-seed hidden partition clears it in exploration. **Chosen: L4-A = Gemini's META3_UPD**, plus Astra's controls: a stage-A-locked constant-L2 grid as META, with frozen L3-V META descriptive; a donor-replay SHAM3; EVO-R3 with standing variation and an E0 that equals locked META; factorial f₄ = 2(P11−P01)−3(P10−P00).
-- [ ] (2) Registration with fresh audited banks.
-- [ ] (3) Astra/Sol adversarial pre-freeze review; apply required changes.
+- [x] (1) Advice done.
+- [x] (2) L4-A draft registration (`c02d596`): `microverse/l4.mjs` reproduces Gemini's prototype exactly on 2001 (7 arms); runner, scorer and 37 fixtures all pass (l4.mjs sha 92a1fe418d00, seed 2901). Banks audited clean: final 936001–936048, stage A 937001–937016.
+- [ ] (3) Astra/Sol adversarial pre-freeze review: **running** (may explore on 2201–2232 only); apply required changes.
 - [ ] (4) Fixtures; commit registration before any registered measurement.
 - [ ] (5) Stage A lock; stage B (48 practice seeds).
 - [ ] (6) Final, once, only if B passes.
@@ -47,6 +48,7 @@ Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − F
 - 801–808 (Astra review checks)
 - 901 (fixtures)
 - Spent or reserved for L3-V: 919001–919016 (stage A), 918001–918048 (final, spent)
+- L4 exploration: 2001–2016 (Gemini), 2101–2116 (Astra), 2201–2232 (Astra review), 2901 (L4 fixtures). Reserved for L4-A: 937001–937016 (stage A), 936001–936048 (final)
 
 ## L4 handoff notes (for the next loop, on DESKTOP-ESS5J5U)
 
