@@ -23,6 +23,20 @@ Goal: bounded compounding (L3), then L4 (improver-of-improver compounding), unde
 - [x] Logged in FLY_RSI_LOG.md.
 - [ ] **NEXT: L4**, compounding of the improver-of-the-improver: design with the Devin advisors, register, run the same way. Handoff to DESKTOP-ESS5J5U.
 
+## L4 (on DESKTOP-ESS5J5U, Windows, Node v22.19.0, 10 cores)
+
+Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − FIXED) > 0, i.e. META3's L2 gain ≥ 1.5× META's, plus SHAM, EVO-R and factorial controls at p < .01, then one fresh final.
+
+- [x] Machine check (2026-11-26): HEAD = `fcc1290`; `l3v-fixtures.mjs` 33/33 PASS at l3v.mjs sha256 1fbb5b2eb105. Committed stage-A row 919001 FIXED_DECK reproduced bit-for-bit (popSum 5566), a determinism check only, informing no choice. Note: the SV25 founder fixture prints 57 distinct genotypes here, where GOALS says 56 (the check only needs > 30; the reproduced row says the RNG streams agree, so 56 is likely a doc slip).
+- [x] Advisors available here: Devin `gemini-4-neon-high` and `fusion-gpt-6-2-astra-high-sidekick-gpt-5-6-sol-high`.
+- [ ] (1) L4 design advice from both advisors (exploration seeds: Gemini 2001–2016, Astra 2101–2116).
+- [ ] (2) Registration with fresh audited banks.
+- [ ] (3) Astra/Sol adversarial pre-freeze review; apply required changes.
+- [ ] (4) Fixtures; commit registration before any registered measurement.
+- [ ] (5) Stage A lock; stage B (48 practice seeds).
+- [ ] (6) Final, once, only if B passes.
+- [ ] (7) Log result.
+
 ## Seeds used for exploration (not finals)
 
 - 601–616 (Gemini advice)
