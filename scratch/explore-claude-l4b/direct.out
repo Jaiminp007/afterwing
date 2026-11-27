@@ -1,0 +1,24 @@
+=== Exp 6: Full Challenger Sweep (M=11, era=4800, mac=1200, sub=300, n=16, 85.7s) ===
+FIXED           pop=56.30  ruleAcc=  0.0%
+SCALAR_120B40   pop=58.05  ruleAcc=  0.0%
+TX_S015_H05     pop=58.85  ruleAcc=  0.0%
+META3_D65       pop=62.60  ruleAcc= 78.6%
+DIRECT_G05      pop=59.76  ruleAcc=  0.0%
+DIRECT_G1       pop=59.63  ruleAcc=  0.0%
+DIRECT_G2       pop=59.80  ruleAcc=  0.0%
+DIRECT_P10      pop=61.52  ruleAcc=  0.0%
+DIRECT_P40      pop=61.89  ruleAcc=  0.0%
+d4 META3_D65 vs SCALAR_120B40            3.66 ratio 3.58x 13/16 p=1.37e-4
+META3_D65 - SCALAR_120B40                4.54 16/16 p=1.53e-5
+d4 META3_D65 vs TX_S015_H05              2.47 ratio 2.47x 14/16 p=2.76e-3
+META3_D65 - TX_S015_H05                  3.75 15/16 p=7.63e-5
+d4 META3_D65 vs DIRECT_G05               1.11 ratio 1.82x 11/16 p=3.06e-2
+META3_D65 - DIRECT_G05                   2.84 15/16 p=9.16e-5
+d4 META3_D65 vs DIRECT_G1                1.30 ratio 1.89x 11/16 p=9.02e-3
+META3_D65 - DIRECT_G1                    2.97 16/16 p=1.53e-5
+d4 META3_D65 vs DIRECT_G2                1.05 ratio 1.80x 9/16 p=5.52e-2
+META3_D65 - DIRECT_G2                    2.80 14/16 p=6.10e-5
+d4 META3_D65 vs DIRECT_P10               -1.53 ratio 1.21x 6/16 p=9.59e-1
+META3_D65 - DIRECT_P10                   1.08 12/16 p=4.63e-2
+d4 META3_D65 vs DIRECT_P40               -2.09 ratio 1.13x 5/16 p=9.87e-1
+META3_D65 - DIRECT_P40                   0.71 10/16 p=1.29e-1
