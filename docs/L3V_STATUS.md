@@ -95,3 +95,10 @@ The bar and integrity rules are unchanged. The new constraint follows from phase
   - **What stands:** the inherited representation-learning gain over FIXED (+3.94) replicates. It stands only as a narrower result, not as L4.
 - [x] **HARD STOP (Fable ruling): the L4 line closes as NOT SHOWN.** The loop is stopped. Banks 936001–936048 and 937001–937016 and the practice seeds remain unused for L4.
   - Original item: Astra/Sol builds the strongest flat challengers (online ICA/PCA plus Autostep as one learner, full-matrix preconditioners, Bayes) on fresh seeds 3401–3432, plus a code audit. Then register as L4-D with banks 936/937, run stage A and B, and one final.
+
+## L4, phase 3 (reopened by the user 2026-11-27, `/goal`): L4-H blind-world depth test
+
+- [x] Fable ruling on L4-G (`scratch/judge-fable-l4g/ruling.md`): **definition 1 and world 2 rejected.** An inherited task-family prior is an L3-type claim. My abstract screen (`scratch/explore-claude-l4g/`, seeds 5001–5006) agrees: a Kalman given the inherited prior (0.445; oracle 0.490) beats frame-based META3 (0.370; oracle 0.410). Fable accepts one form: blind worlds with a declared depth-limited Class F library (about 5%). Neon's L4-G task was cancelled because its brief used the rejected class.
+- [x] L4-H harness, library, runner, scorer and fixtures (83 checks) written. The blind adversary (Astra+Sol, `scratch/adversary-astra-l4h/`) added 21 Class F configs and 7 required fixes, all applied. Registered in FLY_RSI_GOALS.md. **Frozen and committed before any world family exists.**
+- [ ] Blind world family written by a third party (Devin GPT-6.2 Sol), committed before any run.
+- [ ] Stage A1/A2/A3 on 939001–939016; stage B on the 48 practice seeds; final on 938001–938048, only if B passes.
