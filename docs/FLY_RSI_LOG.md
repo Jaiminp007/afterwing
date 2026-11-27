@@ -384,3 +384,16 @@ Both advisors and the L4-A review reached this conclusion independently. It is a
 - a declared, interface-constrained protocol that names its comparators in advance.
 
 Beating an unrestricted same-information learner in this interface is not possible. **L3 stays SHOWN in the L3-V world, and L4 is NOT SHOWN.**
+
+### L4 phase 2 and independent judgment (2026-11-27)
+
+**Phase 2, architecture change, authorized by the user.**
+- **L4-D, step-size hierarchy (Astra/Sol, tuning 3101–3116; held-out untouched).** The meta-rate oracle reaches 74.81 against BAYES-DIRECT's 81.85: 0.23×, 0/16.
+- **L4-E, equal budget (Astra/Sol, tuning 3201–3216; held-out untouched).** The oracle reaches 1.28× against a same-budget Bayesian reader, and META3 is byte-identical to a flat DIRECT learner. Under an equal budget, the hierarchy is a member of the flat class, so beating every flat learner is unsatisfiable by construction.
+
+**Independent conceptual judgment: Claude Fable 5.2 via Devin, read-only** (the Claude-proxy Fable run failed on usage credits).
+1. **Verdict.** L4 is **NOT SHOWN** under the strict standard. That standard asks whether L3's gain must pass through L2, which is what "improver of the improver" asserts. The verdict is a real negative result.
+2. **Attribution.** In Gemini's meta-credit design, the learned rule-score statistic is worth ~2.47× over the best L2 that lacks it. Routing it through L2 is worth only 1.13× (+0.71 flies, 10/16, p .13), and DIRECT recovers ~89% of the gain.
+3. **No relabeled L4.** Re-registering that design as L4 with DIRECT demoted would be moving the goalposts. The "lacks u" boundary was drawn after seeing which side wins. A fresh-bank test is licensed only as a separately named information claim, with DIRECT gated or co-headlined. It may never be called "L4 shown" or "RSI completed".
+4. **L3-V caveat.** L3-V showed that a learned, inherited prior beats fixed, mutation-only and sham priors. At depth 2 no bypass exists (alpha's only consumer is L1), so whether a hierarchy is *necessary* cannot be tested there. Its pass stands with that narrower meaning.
+5. **One final attempt with a hard stop.** A "lineage-tempo" mediation world: L3's learned object has no target-level content, and its signal is L2's realized on-policy outcome. An oracle screen comes first, and the line stops if it fails. Fable's odds: ≤10–15%.
