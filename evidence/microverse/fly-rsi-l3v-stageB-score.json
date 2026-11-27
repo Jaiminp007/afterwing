@@ -1,0 +1,263 @@
+{
+ "file": "evidence/microverse/fly-rsi-l3v-stageB.json",
+ "commit": "367b1fb7577b9084d703f37083a4b5f4e8fe5cab",
+ "n": 48,
+ "lock": {
+  "stage": "A",
+  "seeds": [
+   919001,
+   919002,
+   919003,
+   919004,
+   919005,
+   919006,
+   919007,
+   919008,
+   919009,
+   919010,
+   919011,
+   919012,
+   919013,
+   919014,
+   919015,
+   919016
+  ],
+  "commit": "675fc81895d038f6d7c3d8f40ab8012bc87ccbaa",
+  "fixed": "FIXED_DECK",
+  "evor": "EVOR:J50",
+  "means": {
+   "FIXED_DECK": 56.38375,
+   "FIXED_U": 55.510625,
+   "EVOR:J50": 57.499375,
+   "EVOR:J25": 56.73,
+   "EVOR:L50": 56.66125,
+   "EVOR:J10": 56.549375,
+   "EVOR:SV25": 56.460625,
+   "EVOR:L25": 56.24375,
+   "EVOR:E0": 55.510625,
+   "EVOR:L10": 55.395625
+  }
+ },
+ "ratio": 2.107,
+ "skillRatio": 2.057,
+ "allGatesPass": true,
+ "gates": [
+  {
+   "name": "META - EVO-R",
+   "mean": 8.7902,
+   "ci95": [
+    7.676,
+    9.951
+   ],
+   "wins": "48/48",
+   "p": 3.552713678800501e-15,
+   "bar": ">= 1, p < .01",
+   "pass": true
+  },
+  {
+   "name": "META - SHAM",
+   "mean": 9.9977,
+   "ci95": [
+    9.245,
+    10.794
+   ],
+   "wins": "48/48",
+   "p": 3.552713678800501e-15,
+   "bar": ">= 1, p < .01",
+   "pass": true
+  },
+  {
+   "name": "META - FIXED (FIXED_DECK)",
+   "mean": 9.5883,
+   "ci95": [
+    8.692,
+    10.536
+   ],
+   "wins": "48/48",
+   "p": 3.552713678800501e-15,
+   "bar": ">= 1, p < .01",
+   "pass": true
+  },
+  {
+   "name": "d = (META-NOREV) - 1.5(FIXED-NOREV)",
+   "mean": 5.2571,
+   "ci95": [
+    4.175,
+    6.394
+   ],
+   "wins": "44/48",
+   "p": 3.5846881019097054e-12,
+   "bar": "> 0, p < .01",
+   "pass": true
+  },
+  {
+   "name": "f = d - (METAOFF-NOREV)",
+   "mean": 5.2571,
+   "ci95": [
+    4.175,
+    6.394
+   ],
+   "wins": "44/48",
+   "p": 3.5846881019097054e-12,
+   "bar": "> 0, p < .01",
+   "pass": true,
+   "signP": 7.569163074094848e-10,
+   "signBar": ">= 33/48"
+  },
+  {
+   "name": "FIXED - NOREV",
+   "mean": 8.6625,
+   "ci95": [
+    8.067,
+    9.284
+   ],
+   "wins": "48/48",
+   "p": 3.552713678800501e-15,
+   "bar": "> 0, p < .01",
+   "pass": true
+  }
+ ],
+ "descriptive": {
+  "arms": {
+   "NOREV": {
+    "pop": 47.805,
+    "skill": 0,
+    "extinct": [],
+    "alphaShareOnS": 0.333,
+    "correctPerEvBite": 0
+   },
+   "METAOFF": {
+    "pop": 47.805,
+    "skill": 0,
+    "extinct": [],
+    "alphaShareOnS": 0.333,
+    "correctPerEvBite": 0
+   },
+   "FIXED_DECK": {
+    "pop": 56.468,
+    "skill": 0.0685,
+    "extinct": [],
+    "alphaShareOnS": 0.333,
+    "correctPerEvBite": 0.00176
+   },
+   "META": {
+    "pop": 66.056,
+    "skill": 0.1409,
+    "extinct": [],
+    "alphaShareOnS": 0.632,
+    "correctPerEvBite": 0.00389
+   },
+   "SHAM": {
+    "pop": 56.058,
+    "skill": 0.0654,
+    "extinct": [],
+    "alphaShareOnS": 0.65,
+    "correctPerEvBite": 0.00164
+   },
+   "EVOR:J50": {
+    "pop": 57.266,
+    "skill": 0.0713,
+    "extinct": [],
+    "alphaShareOnS": 0.447,
+    "correctPerEvBite": 0.0018
+   },
+   "META_RESET": {
+    "pop": 59.057,
+    "skill": 0.0918,
+    "extinct": [],
+    "alphaShareOnS": 0.493,
+    "correctPerEvBite": 0.00223
+   },
+   "REUSE": {
+    "pop": 60.416,
+    "skill": 0.0968,
+    "extinct": [],
+    "alphaShareOnS": 0.333,
+    "correctPerEvBite": 0.00265
+   },
+   "SHAM_PERM": {
+    "pop": 56.589,
+    "skill": 0.0664,
+    "extinct": [],
+    "alphaShareOnS": 0.352,
+    "correctPerEvBite": 0.00167
+   },
+   "ORACLE_L2": {
+    "pop": 84.775,
+    "skill": 0.3256,
+    "extinct": [],
+    "alphaShareOnS": 1,
+    "correctPerEvBite": 0.008
+   },
+   "TRUE_ORACLE": {
+    "pop": 126.419,
+    "skill": 0.7312,
+    "extinct": [],
+    "alphaShareOnS": 0.333,
+    "correctPerEvBite": 0
+   }
+  },
+  "contrasts": {
+   "META - REUSE": {
+    "name": "META - REUSE",
+    "mean": 5.6402,
+    "ci95": [
+     4.837,
+     6.478
+    ],
+    "wins": "47/48",
+    "p": 7.105427357601002e-15,
+    "bar": "> 0, p < .01",
+    "pass": true
+   },
+   "META - META_RESET": {
+    "name": "META - META_RESET",
+    "mean": 6.9992,
+    "ci95": [
+     6.22,
+     7.809
+    ],
+    "wins": "48/48",
+    "p": 3.552713678800501e-15,
+    "bar": "> 0, p < .01",
+    "pass": true
+   },
+   "META - SHAM_PERM": {
+    "name": "META - SHAM_PERM",
+    "mean": 9.4675,
+    "ci95": [
+     8.68,
+     10.26
+    ],
+    "wins": "48/48",
+    "p": 3.552713678800501e-15,
+    "bar": "> 0, p < .01",
+    "pass": true
+   },
+   "META - ORACLE_L2": {
+    "name": "META - ORACLE_L2",
+    "mean": -18.7188,
+    "ci95": [
+     -19.463,
+     -17.95
+    ],
+    "wins": "0/48",
+    "p": 1,
+    "bar": "> 0, p < .01",
+    "pass": false
+   },
+   "dO (oracle headroom)": {
+    "name": "dO",
+    "mean": 23.9758,
+    "ci95": [
+     23.282,
+     24.671
+    ],
+    "wins": "48/48",
+    "p": 3.552713678800501e-15,
+    "bar": "> 0, p < .01",
+    "pass": true
+   }
+  }
+ }
+}
