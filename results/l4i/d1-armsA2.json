@@ -1,0 +1,163 @@
+{
+ "arms": [
+  {
+   "kind": "static",
+   "name": "STATIC_-6",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -6
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-5",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -5
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-4",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -4
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-3",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -3
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-2",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -2
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-1",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -1
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_0",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 0
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_1",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 1
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_2",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 2
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_3",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 3
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_4",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 4
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_5",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 5
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_6",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": 6
+  }
+ ],
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ]
+}
