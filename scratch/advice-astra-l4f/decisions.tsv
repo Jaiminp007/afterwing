@@ -1,0 +1,6 @@
+ts	phase	decision	why	evidence	result
+2026-11-27T10:13:08Z	design	Run a four-deme batch ecology using the L3-V validator	The tempo oracle must improve real population, not just prediction accuracy	protocol.md	frozen before seed exposure
+2026-11-27T10:15:59Z	fixture	Compare the hooked constant learner with the original on scripted tastes	The instrumentation must preserve L2 updates	ecology.mjs	equal alpha, masks and taste weights throughout
+2026-11-27T10:16:05Z	screen	Lock the full tuning grid before measuring any endpoint	One common mapping across seeds prevents per-seed oracle cherry-picking	started.json	73 configurations on 16 seeds
+2026-11-27T10:17:24Z	stop	Stop without evaluating META3 or held-out seeds	The oracle missed both the gain and sign thresholds	result.json	0 of 16 positive
+2026-11-27T10:17:42Z	audit	Check saved integer contrasts and compare only the floating mean within tolerance	The first spot check compared two floating summation orders for exact equality	audit.mjs	all saved census and contrast checks pass; no ecology rerun

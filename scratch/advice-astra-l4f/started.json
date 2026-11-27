@@ -1,0 +1,481 @@
+{
+ "at": "2026-11-27T10:16:05.438Z",
+ "stage": "tuning only",
+ "seeds": [
+  3301,
+  3302,
+  3303,
+  3304,
+  3305,
+  3306,
+  3307,
+  3308,
+  3309,
+  3310,
+  3311,
+  3312,
+  3313,
+  3314,
+  3315,
+  3316
+ ],
+ "arms": [
+  {
+   "name": "NOREV",
+   "family": "NOREV"
+  },
+  {
+   "name": "FIXED:uniform",
+   "family": "FIXED",
+   "f": "uniform"
+  },
+  {
+   "name": "FIXED:deck",
+   "family": "FIXED",
+   "f": "deck"
+  },
+  {
+   "name": "C:0",
+   "family": "C",
+   "k": 0
+  },
+  {
+   "name": "C:1",
+   "family": "C",
+   "k": 1
+  },
+  {
+   "name": "C:2",
+   "family": "C",
+   "k": 2
+  },
+  {
+   "name": "C:3",
+   "family": "C",
+   "k": 3
+  },
+  {
+   "name": "C:4",
+   "family": "C",
+   "k": 4
+  },
+  {
+   "name": "C:5",
+   "family": "C",
+   "k": 5
+  },
+  {
+   "name": "EVO:0",
+   "family": "EVO",
+   "pm": 0
+  },
+  {
+   "name": "EVO:0.03",
+   "family": "EVO",
+   "pm": 0.03
+  },
+  {
+   "name": "EVO:0.15",
+   "family": "EVO",
+   "pm": 0.15
+  },
+  {
+   "name": "EVO:0.4",
+   "family": "EVO",
+   "pm": 0.4
+  },
+  {
+   "name": "SUR:0:0.5",
+   "family": "SUR",
+   "k": 0,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:0:1.5",
+   "family": "SUR",
+   "k": 0,
+   "rate": 1.5
+  },
+  {
+   "name": "SUR:1:0.5",
+   "family": "SUR",
+   "k": 1,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:1:1.5",
+   "family": "SUR",
+   "k": 1,
+   "rate": 1.5
+  },
+  {
+   "name": "SUR:2:0.5",
+   "family": "SUR",
+   "k": 2,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:2:1.5",
+   "family": "SUR",
+   "k": 2,
+   "rate": 1.5
+  },
+  {
+   "name": "SUR:3:0.5",
+   "family": "SUR",
+   "k": 3,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:3:1.5",
+   "family": "SUR",
+   "k": 3,
+   "rate": 1.5
+  },
+  {
+   "name": "SUR:4:0.5",
+   "family": "SUR",
+   "k": 4,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:4:1.5",
+   "family": "SUR",
+   "k": 4,
+   "rate": 1.5
+  },
+  {
+   "name": "SUR:5:0.5",
+   "family": "SUR",
+   "k": 5,
+   "rate": 0.5
+  },
+  {
+   "name": "SUR:5:1.5",
+   "family": "SUR",
+   "k": 5,
+   "rate": 1.5
+  },
+  {
+   "name": "IDBD:0:0.05",
+   "family": "IDBD",
+   "k": 0,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:0:0.5",
+   "family": "IDBD",
+   "k": 0,
+   "rate": 0.5
+  },
+  {
+   "name": "IDBD:1:0.05",
+   "family": "IDBD",
+   "k": 1,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:1:0.5",
+   "family": "IDBD",
+   "k": 1,
+   "rate": 0.5
+  },
+  {
+   "name": "IDBD:2:0.05",
+   "family": "IDBD",
+   "k": 2,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:2:0.5",
+   "family": "IDBD",
+   "k": 2,
+   "rate": 0.5
+  },
+  {
+   "name": "IDBD:3:0.05",
+   "family": "IDBD",
+   "k": 3,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:3:0.5",
+   "family": "IDBD",
+   "k": 3,
+   "rate": 0.5
+  },
+  {
+   "name": "IDBD:4:0.05",
+   "family": "IDBD",
+   "k": 4,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:4:0.5",
+   "family": "IDBD",
+   "k": 4,
+   "rate": 0.5
+  },
+  {
+   "name": "IDBD:5:0.05",
+   "family": "IDBD",
+   "k": 5,
+   "rate": 0.05
+  },
+  {
+   "name": "IDBD:5:0.5",
+   "family": "IDBD",
+   "k": 5,
+   "rate": 0.5
+  },
+  {
+   "name": "BAYES:8:0",
+   "family": "BAYES",
+   "H": 8,
+   "u": 0
+  },
+  {
+   "name": "BAYES:8:0.1",
+   "family": "BAYES",
+   "H": 8,
+   "u": 0.1
+  },
+  {
+   "name": "BAYES:16:0",
+   "family": "BAYES",
+   "H": 16,
+   "u": 0
+  },
+  {
+   "name": "BAYES:16:0.1",
+   "family": "BAYES",
+   "H": 16,
+   "u": 0.1
+  },
+  {
+   "name": "BAYES:32:0",
+   "family": "BAYES",
+   "H": 32,
+   "u": 0
+  },
+  {
+   "name": "BAYES:32:0.1",
+   "family": "BAYES",
+   "H": 32,
+   "u": 0.1
+  },
+  {
+   "name": "O:0:1",
+   "family": "O",
+   "s": 0,
+   "f": 1
+  },
+  {
+   "name": "O:0:2",
+   "family": "O",
+   "s": 0,
+   "f": 2
+  },
+  {
+   "name": "O:0:3",
+   "family": "O",
+   "s": 0,
+   "f": 3
+  },
+  {
+   "name": "O:0:4",
+   "family": "O",
+   "s": 0,
+   "f": 4
+  },
+  {
+   "name": "O:0:5",
+   "family": "O",
+   "s": 0,
+   "f": 5
+  },
+  {
+   "name": "O:1:0",
+   "family": "O",
+   "s": 1,
+   "f": 0
+  },
+  {
+   "name": "O:1:2",
+   "family": "O",
+   "s": 1,
+   "f": 2
+  },
+  {
+   "name": "O:1:3",
+   "family": "O",
+   "s": 1,
+   "f": 3
+  },
+  {
+   "name": "O:1:4",
+   "family": "O",
+   "s": 1,
+   "f": 4
+  },
+  {
+   "name": "O:1:5",
+   "family": "O",
+   "s": 1,
+   "f": 5
+  },
+  {
+   "name": "O:2:0",
+   "family": "O",
+   "s": 2,
+   "f": 0
+  },
+  {
+   "name": "O:2:1",
+   "family": "O",
+   "s": 2,
+   "f": 1
+  },
+  {
+   "name": "O:2:3",
+   "family": "O",
+   "s": 2,
+   "f": 3
+  },
+  {
+   "name": "O:2:4",
+   "family": "O",
+   "s": 2,
+   "f": 4
+  },
+  {
+   "name": "O:2:5",
+   "family": "O",
+   "s": 2,
+   "f": 5
+  },
+  {
+   "name": "O:3:0",
+   "family": "O",
+   "s": 3,
+   "f": 0
+  },
+  {
+   "name": "O:3:1",
+   "family": "O",
+   "s": 3,
+   "f": 1
+  },
+  {
+   "name": "O:3:2",
+   "family": "O",
+   "s": 3,
+   "f": 2
+  },
+  {
+   "name": "O:3:4",
+   "family": "O",
+   "s": 3,
+   "f": 4
+  },
+  {
+   "name": "O:3:5",
+   "family": "O",
+   "s": 3,
+   "f": 5
+  },
+  {
+   "name": "O:4:0",
+   "family": "O",
+   "s": 4,
+   "f": 0
+  },
+  {
+   "name": "O:4:1",
+   "family": "O",
+   "s": 4,
+   "f": 1
+  },
+  {
+   "name": "O:4:2",
+   "family": "O",
+   "s": 4,
+   "f": 2
+  },
+  {
+   "name": "O:4:3",
+   "family": "O",
+   "s": 4,
+   "f": 3
+  },
+  {
+   "name": "O:4:5",
+   "family": "O",
+   "s": 4,
+   "f": 5
+  },
+  {
+   "name": "O:5:0",
+   "family": "O",
+   "s": 5,
+   "f": 0
+  },
+  {
+   "name": "O:5:1",
+   "family": "O",
+   "s": 5,
+   "f": 1
+  },
+  {
+   "name": "O:5:2",
+   "family": "O",
+   "s": 5,
+   "f": 2
+  },
+  {
+   "name": "O:5:3",
+   "family": "O",
+   "s": 5,
+   "f": 3
+  },
+  {
+   "name": "O:5:4",
+   "family": "O",
+   "s": 5,
+   "f": 4
+  }
+ ],
+ "grid": [
+  {
+   "delta": 0.006,
+   "beta": 4
+  },
+  {
+   "delta": 0.006,
+   "beta": 20
+  },
+  {
+   "delta": 0.06,
+   "beta": 4
+  },
+  {
+   "delta": 0.06,
+   "beta": 20
+  },
+  {
+   "delta": 0.3,
+   "beta": 4
+  },
+  {
+   "delta": 0.3,
+   "beta": 20
+  }
+ ],
+ "hashes": {
+  "protocol.md": "dcef82d18a416dc4afbdc93450750da2d41e89d401bc980c56e406c1bef78da5",
+  "ecology.mjs": "f91963df8666b21cd025edd3a0bc91f7bf48a372487e47754d319d532a08dc10",
+  "screen.mjs": "c8014d340d62e07d9ed7c49ef11fc2cbc56258bc05323efdda6f22556ae6c254",
+  "../../microverse/l3v.mjs": "1fbb5b2eb10583c37b1754831513e3ad92859c2e6cd6da177ff11aa00e203315",
+  "../../docs/paper/stats.mjs": "8e070d2c6382cec4c50e3e559c1fbe6c56296d95c1a510831d6e5a857fcf23d8"
+ }
+}
