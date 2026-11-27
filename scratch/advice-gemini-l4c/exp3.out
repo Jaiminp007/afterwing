@@ -1,0 +1,56 @@
+=== STAGE 1: TUNING ON SEEDS 2801-2816 ONLY ===
+  NOREV           pop=49.80  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  FIXED           pop=57.79  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  S_015           pop=57.39  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  S_030           pop=58.71  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  S_060           pop=58.82  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  S_120           pop=58.49  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  PX_S            pop=58.24  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  PX_M            pop=59.65  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  TX_INV_S        pop=57.57  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  TX_INV_M        pop=57.98  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  TX_OV           pop=55.92  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  DIR_INV_S       pop=58.25  ruleAcc= 47.3%  probes= 157  yTrue=0.212  yWrong=0.071
+  DIR_INV_M       pop=58.73  ruleAcc= 47.0%  probes= 175  yTrue=0.228  yWrong=0.084
+  DIR_LAST        pop=58.16  ruleAcc= 46.5%  probes= 160  yTrue=0.225  yWrong=0.094
+  M3_P25          pop=58.82  ruleAcc= 61.6%  probes= 140  yTrue=0.205  yWrong=0.121
+  M3_P35          pop=58.39  ruleAcc= 61.6%  probes= 184  yTrue=0.197  yWrong=0.093
+  ORACLE_CLEAN    pop=59.96  ruleAcc=100.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  ORACLE_PROBED   pop=59.06  ruleAcc=100.0%  probes= 173  yTrue=0.205  yWrong=0.116
+  EVO_E0          pop=59.65
+  EVO_SV0         pop=58.98
+  EVO_SV10        pop=58.42
+  EVO_SV50        pop=58.44
+
+LOCKED FROM 2801-2816: scalar=S_060, pairx=PX_M, tx=TX_INV_M, direct=DIR_INV_M, L2best=PX_M, meta3=M3_P25, evo=EVO_E0 (185.7s)
+
+=== STAGE 2: HELD-OUT EVALUATION ON SEEDS 2817-2832 ONLY ===
+  NOREV           pop=50.59  gain=-7.64  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  FIXED           pop=58.23  gain=+0.00  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  META3_L1OFF     pop=50.59  gain=-7.64  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  SCALAR_LOCK     pop=60.02  gain=+1.79  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  PAIRX_LOCK      pop=60.08  gain=+1.85  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  TX_LOCK         pop=59.29  gain=+1.05  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  DIRECT_LOCK     pop=59.58  gain=+1.34  ruleAcc= 51.0%  probes= 187  yTrue=0.206  yWrong=0.090
+  META3           pop=59.23  gain=+1.00  ruleAcc= 65.0%  probes= 147  yTrue=0.202  yWrong=0.106
+  SHAM3           pop=59.67  gain=+1.44  ruleAcc=  0.0%  probes= 151  yTrue=0.204  yWrong=0.107
+  META3_RESET     pop=58.98  gain=+0.74  ruleAcc= 65.9%  probes= 153  yTrue=0.201  yWrong=0.094
+  EVO_LOCK        pop=60.08  gain=+1.85  ruleAcc=  0.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  ORACLE_CLEAN    pop=61.09  gain=+2.85  ruleAcc=100.0%  probes=   0  yTrue=0.000  yWrong=0.000
+  ORACLE_PROBED   pop=60.10  gain=+1.87  ruleAcc=100.0%  probes= 186  yTrue=0.229  yWrong=0.099
+
+--- HELD-OUT CONTRASTS (n=16, exact one-sided sign-flip p) ---
+  d4(META3 vs PAIRX_LOCK)           d4=-1.78  ratio=0.54x  signs=5/16  p=9.95e-1
+  d4(META3 vs DIRECT_LOCK)          d4=-1.02  ratio=0.74x  signs=4/16  p=9.93e-1
+  d4(META3 vs TX_LOCK)              d4=-0.58  ratio=0.95x  signs=6/16  p=8.12e-1
+  d4(META3 vs SCALAR_LOCK)          d4=-1.69  ratio=0.56x  signs=3/16  p=1.00e+0
+  d4(ORACLE_CLEAN vs PAIRX_LOCK)    d4=0.08  ratio=1.54x  signs=8/16  p=4.43e-1
+  d4(ORACLE_CLEAN vs DIRECT_LOCK)   d4=0.84  ratio=2.12x  signs=12/16  p=4.50e-2
+  d4(ORACLE_PROBED vs DIRECT_LOCK)  d4=-0.15  ratio=1.39x  signs=9/16  p=6.11e-1
+  META3 - DIRECT_LOCK               diff=-0.35  signs=6/16  p=8.38e-1
+  META3 - SHAM3                     diff=-0.44  signs=6/16  p=7.70e-1
+  META3 - EVO_LOCK                  diff=-0.86  signs=5/16  p=9.56e-1
+  META3 - META3_RESET               diff=0.25  signs=7/16  p=1.39e-1
+  matched f4 (PAIRX_LOCK as P10)    f4=-5.60  signs=0/16  p=1.00e+0
+
+Total runtime: 294.6s

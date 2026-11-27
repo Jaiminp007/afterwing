@@ -1,0 +1,53 @@
+=== Exp 1: Oracle Headroom across 4 L4-C worlds (seeds 2801-2808, 257.2s) ===
+
+--- WORLD: share_vs_disjoint ---
+  FIXED            pop=56.85  gain=+0.00  vals=0
+  SCALAR_SLOW      pop=57.73  gain=+0.88  vals=642
+  SCALAR_MED       pop=58.43  gain=+1.58  vals=736
+  SCALAR_FAST      pop=57.93  gain=+1.08  vals=709
+  PAIRX            pop=58.42  gain=+1.58  vals=711
+  TX_OVERLAP       pop=57.20  gain=+0.35  vals=562
+  DIRECT_LAST      pop=59.94  gain=+3.09  vals=690
+  DIRECT_INV       pop=58.98  gain=+2.13  vals=716
+  ORACLE_W         pop=58.80  gain=+1.96  vals=715
+  ORACLE vs bestScalar (SCALAR_MED  ): d4=-0.41  ratio=1.24x  signs=2/8  p=7.07e-1
+  ORACLE vs bestALL    (DIRECT_LAST ): d4=-2.67  ratio=0.63x  signs=0/8  p=1.00e+0
+
+--- WORLD: stay_vs_exhaust ---
+  FIXED            pop=58.01  gain=+0.00  vals=0
+  SCALAR_SLOW      pop=57.56  gain=-0.45  vals=609
+  SCALAR_MED       pop=58.73  gain=+0.73  vals=698
+  SCALAR_FAST      pop=58.21  gain=+0.20  vals=689
+  PAIRX            pop=57.52  gain=-0.48  vals=603
+  TX_INV           pop=59.03  gain=+1.02  vals=607
+  DIRECT_LAST      pop=57.81  gain=-0.20  vals=573
+  DIRECT_INV_S     pop=60.43  gain=+2.42  vals=763
+  DIRECT_INV_M     pop=60.83  gain=+2.82  vals=798
+  ORACLE_W         pop=58.98  gain=+0.98  vals=667
+  ORACLE vs bestScalar (SCALAR_MED  ): d4=-0.11  ratio=1.34x  signs=3/8  p=5.59e-1
+  ORACLE vs bestALL    (DIRECT_INV_M): d4=-3.25  ratio=0.35x  signs=0/8  p=1.00e+0
+
+--- WORLD: slow_vs_fast ---
+  FIXED            pop=57.81  gain=+0.00  vals=0
+  SCALAR_004       pop=61.76  gain=+3.95  vals=1034
+  SCALAR_015       pop=64.65  gain=+6.84  vals=1234
+  SCALAR_040       pop=60.90  gain=+3.08  vals=891
+  SCALAR_100       pop=58.65  gain=+0.84  vals=693
+  SCALAR_200       pop=57.85  gain=+0.04  vals=673
+  PAIRX            pop=62.59  gain=+4.78  vals=1013
+  DIRECT_TEMP      pop=63.02  gain=+5.21  vals=1077
+  ORACLE_W         pop=66.09  gain=+8.28  vals=1371
+  ORACLE vs bestScalar (SCALAR_015  ): d4=-1.98  ratio=1.21x  signs=1/8  p=9.88e-1
+  ORACLE vs bestALL    (SCALAR_015  ): d4=-1.98  ratio=1.21x  signs=1/8  p=9.88e-1
+
+--- WORLD: clique_vs_pairs ---
+  FIXED            pop=57.78  gain=+0.00  vals=0
+  SCALAR_SLOW      pop=59.06  gain=+1.28  vals=749
+  SCALAR_MED       pop=59.91  gain=+2.12  vals=824
+  PAIR_ONLY        pop=61.16  gain=+3.38  vals=837
+  PAIRX            pop=59.87  gain=+2.08  vals=766
+  DIRECT_GRAM      pop=61.61  gain=+3.83  vals=889
+  ORACLE_W         pop=61.61  gain=+3.83  vals=889
+  ORACLE vs bestScalar (SCALAR_MED  ): d4=0.64  ratio=1.80x  signs=6/8  p=2.73e-1
+  ORACLE vs bestALL    (DIRECT_GRAM ): d4=-1.91  ratio=1.00x  signs=0/8  p=1.00e+0
+

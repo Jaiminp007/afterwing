@@ -358,3 +358,29 @@ Mean late flies: NOREV 48.72, FIXED 57.14, **META 65.63**, SHAM 56.91, EVO-R 57.
   - the design (the inherited-alpha law) was chosen after exploratory runs on other seeds;
   - it is not open-ended.
 - **L3 in the default microverse remains NOT SHOWN** (L3 through L3-IV above). The reserved banks 97001–97048, 763001–763048, 852001–852048 and 874001–874048 are untouched.
+
+## L4 (improver of the improver), exploration on DESKTOP-ESS5J5U: **L4 NOT SHOWN; no design reached registration**
+
+*2026-11-27. Every number below is exploratory and comes from seeds disclosed in `docs/L3V_STATUS.md`. No registered bank was run. The 48 practice seeds (101–116, 301–332) were never run in any L4 world, and banks 936001–936048 and 937001–937016 are unused. The 1.5× bar never moved.*
+
+**Gate.** Mean (META3 − FIXED) ≥ 1.5 × (L2best − FIXED). After the L4-A review, **L2best must include equally informed single-level learners**. These have the same inputs, memory and probe budget, and they use the learned statistic directly in proposals instead of rewriting L2.
+
+| Design | Source | Exploration seeds | Strongest same-information challenger | Result |
+|---|---|---|---|---|
+| L4-A: pair memory G rewrites L2's credit rule (3 hidden modules) | Gemini | 2001–2016; review 2201–2209; Claude 2301–2316 | PAIRX (G read directly in proposals) | META3 − PAIRX −1.84 (4/16). META3F with PAIRX as its base: 1.28×. **Withdrawn before freeze** |
+| L4-B: credit translation between odor frames | Astra/Sol | 2501–2516 (held-out 2509–2516) | DIRECT (same rule scores, read when proposing) | held-out d₄ −4.83, 0.55×, 1/8 |
+| L4-B: meta-credit over the 11 matchings of K₁₂ | Gemini | 2401–2416; Claude 2601–2616 | DIRECT_P40 (same u scores; boosts the predicted pairs directly) | 2.47× vs Gemini's 11 challengers, but **1.13× vs DIRECT_P40** (d₄ −2.09, 5/16) |
+| L4-C: randomized L2 write, credited by causal yield | Astra/Sol | 2701–2716 (held-out untouched) | DIRECT using the same yield statistics | **the oracle itself fails**: d₄ −1.89, 0.83×, 3/16 |
+| L4-C: randomized write, 7 write-rule worlds plus a causal prototype | Gemini | 2801–2816; held-out 2817–2832 run once | DIRECT / PAIRX | best oracle 1.21× across 7 worlds; held-out META3 vs L2best d₄ −1.78, 0.54×, 5/16, p .995 |
+
+**Disclosed incident.** Astra/Sol's first L4-C batch on 2701–2716 (448 cells) was invalid: a yield array overwrote a movement coordinate, so flies could not feed. Those rows are kept separately and none of them is reported above.
+
+**Verdict.** In this ladder's interface, L2's only output is a proposal prior over exogenous targets. Two things follow:
+- Any statistic that lets L3 choose an L2 write rule either shows up in L1's validation transitions or directly defines an equal or better proposal rule.
+- So an equally informed single-level reader (PAIRX or DIRECT) matches or beats every L3 tested. Forgetting-rate worlds are the one family that DIRECT cannot invert, and there a single constant decay captures ≥ 82% of the oracle's gain.
+
+Both advisors and the L4-A review reached this conclusion independently. It is also a general fact: a fixed program over the joint (L2, L3) state always reproduces META3. A defensible L4 claim therefore needs a **changed architecture**, for example:
+- L2 controls an internal, multi-step optimization or representation state that L1 cannot bypass; or
+- a declared, interface-constrained protocol that names its comparators in advance.
+
+Beating an unrestricted same-information learner in this interface is not possible. **L3 stays SHOWN in the L3-V world, and L4 is NOT SHOWN.**

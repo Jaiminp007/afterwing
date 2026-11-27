@@ -1,0 +1,5724 @@
+{
+  "locks": {
+    "lockScalar": "S_060",
+    "lockPairx": "PX_M",
+    "lockTx": "TX_INV_M",
+    "lockDirect": "DIR_INV_M",
+    "lockL2Best": "PX_M",
+    "lockMeta3": "M3_P25",
+    "lockEvo": "EVO_E0",
+    "l2Key": "PAIRX_LOCK"
+  },
+  "tuneSeeds": [
+    2801,
+    2802,
+    2803,
+    2804,
+    2805,
+    2806,
+    2807,
+    2808,
+    2809,
+    2810,
+    2811,
+    2812,
+    2813,
+    2814,
+    2815,
+    2816
+  ],
+  "heldSeeds": [
+    2817,
+    2818,
+    2819,
+    2820,
+    2821,
+    2822,
+    2823,
+    2824,
+    2825,
+    2826,
+    2827,
+    2828,
+    2829,
+    2830,
+    2831,
+    2832
+  ],
+  "tuneRes": {
+    "NOREV": {
+      "2801": {
+        "seed": 2801,
+        "armName": "NOREV",
+        "popSum": 4765,
+        "pop": 47.65,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "NOREV",
+        "popSum": 4859,
+        "pop": 48.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "NOREV",
+        "popSum": 4852,
+        "pop": 48.52,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "NOREV",
+        "popSum": 5423,
+        "pop": 54.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "NOREV",
+        "popSum": 4871,
+        "pop": 48.71,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "NOREV",
+        "popSum": 4821,
+        "pop": 48.21,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "NOREV",
+        "popSum": 5030,
+        "pop": 50.3,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "NOREV",
+        "popSum": 4956,
+        "pop": 49.56,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "NOREV",
+        "popSum": 4934,
+        "pop": 49.34,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "NOREV",
+        "popSum": 5118,
+        "pop": 51.18,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "NOREV",
+        "popSum": 4752,
+        "pop": 47.52,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "NOREV",
+        "popSum": 4963,
+        "pop": 49.63,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "NOREV",
+        "popSum": 5057,
+        "pop": 50.57,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "NOREV",
+        "popSum": 5363,
+        "pop": 53.63,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "NOREV",
+        "popSum": 4918,
+        "pop": 49.18,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "NOREV",
+        "popSum": 5000,
+        "pop": 50,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "FIXED": {
+      "2801": {
+        "seed": 2801,
+        "armName": "FIXED",
+        "popSum": 5686,
+        "pop": 56.86,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "FIXED",
+        "popSum": 5693,
+        "pop": 56.93,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "FIXED",
+        "popSum": 5738,
+        "pop": 57.38,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "FIXED",
+        "popSum": 5982,
+        "pop": 59.82,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "FIXED",
+        "popSum": 5691,
+        "pop": 56.91,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "FIXED",
+        "popSum": 6025,
+        "pop": 60.25,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "FIXED",
+        "popSum": 5998,
+        "pop": 59.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "FIXED",
+        "popSum": 5594,
+        "pop": 55.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "FIXED",
+        "popSum": 5811,
+        "pop": 58.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "FIXED",
+        "popSum": 5908,
+        "pop": 59.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "FIXED",
+        "popSum": 5540,
+        "pop": 55.4,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "FIXED",
+        "popSum": 5554,
+        "pop": 55.54,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "FIXED",
+        "popSum": 5648,
+        "pop": 56.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "FIXED",
+        "popSum": 6048,
+        "pop": 60.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "FIXED",
+        "popSum": 5490,
+        "pop": 54.9,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "FIXED",
+        "popSum": 6055,
+        "pop": 60.55,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "S_015": {
+      "2801": {
+        "seed": 2801,
+        "armName": "S_015",
+        "popSum": 5675,
+        "pop": 56.75,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "S_015",
+        "popSum": 5782,
+        "pop": 57.82,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "S_015",
+        "popSum": 5669,
+        "pop": 56.69,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "S_015",
+        "popSum": 6100,
+        "pop": 61,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "S_015",
+        "popSum": 5421,
+        "pop": 54.21,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "S_015",
+        "popSum": 5768,
+        "pop": 57.68,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "S_015",
+        "popSum": 5759,
+        "pop": 57.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "S_015",
+        "popSum": 5549,
+        "pop": 55.49,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "S_015",
+        "popSum": 5681,
+        "pop": 56.81,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "S_015",
+        "popSum": 6077,
+        "pop": 60.77,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "S_015",
+        "popSum": 5344,
+        "pop": 53.44,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "S_015",
+        "popSum": 5838,
+        "pop": 58.38,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "S_015",
+        "popSum": 5827,
+        "pop": 58.27,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "S_015",
+        "popSum": 5908,
+        "pop": 59.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "S_015",
+        "popSum": 5450,
+        "pop": 54.5,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "S_015",
+        "popSum": 5972,
+        "pop": 59.72,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "S_030": {
+      "2801": {
+        "seed": 2801,
+        "armName": "S_030",
+        "popSum": 5712,
+        "pop": 57.12,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "S_030",
+        "popSum": 5785,
+        "pop": 57.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "S_030",
+        "popSum": 5732,
+        "pop": 57.32,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "S_030",
+        "popSum": 6191,
+        "pop": 61.91,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "S_030",
+        "popSum": 5618,
+        "pop": 56.18,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "S_030",
+        "popSum": 5979,
+        "pop": 59.79,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "S_030",
+        "popSum": 5907,
+        "pop": 59.07,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "S_030",
+        "popSum": 5648,
+        "pop": 56.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "S_030",
+        "popSum": 5994,
+        "pop": 59.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "S_030",
+        "popSum": 6081,
+        "pop": 60.81,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "S_030",
+        "popSum": 5627,
+        "pop": 56.27,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "S_030",
+        "popSum": 5721,
+        "pop": 57.21,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "S_030",
+        "popSum": 5905,
+        "pop": 59.05,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "S_030",
+        "popSum": 6323,
+        "pop": 63.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "S_030",
+        "popSum": 5551,
+        "pop": 55.51,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "S_030",
+        "popSum": 6156,
+        "pop": 61.56,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "S_060": {
+      "2801": {
+        "seed": 2801,
+        "armName": "S_060",
+        "popSum": 5764,
+        "pop": 57.64,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "S_060",
+        "popSum": 5948,
+        "pop": 59.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "S_060",
+        "popSum": 5780,
+        "pop": 57.8,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "S_060",
+        "popSum": 6293,
+        "pop": 62.93,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "S_060",
+        "popSum": 5514,
+        "pop": 55.14,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "S_060",
+        "popSum": 5910,
+        "pop": 59.1,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "S_060",
+        "popSum": 5888,
+        "pop": 58.88,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "S_060",
+        "popSum": 5712,
+        "pop": 57.12,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "S_060",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "S_060",
+        "popSum": 5934,
+        "pop": 59.34,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "S_060",
+        "popSum": 5877,
+        "pop": 58.77,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "S_060",
+        "popSum": 5852,
+        "pop": 58.52,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "S_060",
+        "popSum": 5910,
+        "pop": 59.1,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "S_060",
+        "popSum": 6131,
+        "pop": 61.31,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "S_060",
+        "popSum": 5550,
+        "pop": 55.5,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "S_060",
+        "popSum": 6196,
+        "pop": 61.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "S_120": {
+      "2801": {
+        "seed": 2801,
+        "armName": "S_120",
+        "popSum": 5823,
+        "pop": 58.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "S_120",
+        "popSum": 5998,
+        "pop": 59.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "S_120",
+        "popSum": 5596,
+        "pop": 55.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "S_120",
+        "popSum": 6185,
+        "pop": 61.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "S_120",
+        "popSum": 5610,
+        "pop": 56.1,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "S_120",
+        "popSum": 5811,
+        "pop": 58.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "S_120",
+        "popSum": 6003,
+        "pop": 60.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "S_120",
+        "popSum": 5690,
+        "pop": 56.9,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "S_120",
+        "popSum": 5878,
+        "pop": 58.78,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "S_120",
+        "popSum": 5760,
+        "pop": 57.6,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "S_120",
+        "popSum": 5689,
+        "pop": 56.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "S_120",
+        "popSum": 5939,
+        "pop": 59.39,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "S_120",
+        "popSum": 6077,
+        "pop": 60.77,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "S_120",
+        "popSum": 6158,
+        "pop": 61.58,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "S_120",
+        "popSum": 5270,
+        "pop": 52.7,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "S_120",
+        "popSum": 6103,
+        "pop": 61.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "PX_S": {
+      "2801": {
+        "seed": 2801,
+        "armName": "PX_S",
+        "popSum": 5474,
+        "pop": 54.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "PX_S",
+        "popSum": 5996,
+        "pop": 59.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "PX_S",
+        "popSum": 5704,
+        "pop": 57.04,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "PX_S",
+        "popSum": 6084,
+        "pop": 60.84,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "PX_S",
+        "popSum": 5743,
+        "pop": 57.43,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "PX_S",
+        "popSum": 5891,
+        "pop": 58.91,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "PX_S",
+        "popSum": 5756,
+        "pop": 57.56,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "PX_S",
+        "popSum": 5794,
+        "pop": 57.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "PX_S",
+        "popSum": 5990,
+        "pop": 59.9,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "PX_S",
+        "popSum": 5916,
+        "pop": 59.16,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "PX_S",
+        "popSum": 5546,
+        "pop": 55.46,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "PX_S",
+        "popSum": 5766,
+        "pop": 57.66,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "PX_S",
+        "popSum": 5973,
+        "pop": 59.73,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "PX_S",
+        "popSum": 6112,
+        "pop": 61.12,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "PX_S",
+        "popSum": 5493,
+        "pop": 54.93,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "PX_S",
+        "popSum": 5942,
+        "pop": 59.42,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "PX_M": {
+      "2801": {
+        "seed": 2801,
+        "armName": "PX_M",
+        "popSum": 5756,
+        "pop": 57.56,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "PX_M",
+        "popSum": 5978,
+        "pop": 59.78,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "PX_M",
+        "popSum": 5624,
+        "pop": 56.24,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "PX_M",
+        "popSum": 6229,
+        "pop": 62.29,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "PX_M",
+        "popSum": 5708,
+        "pop": 57.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "PX_M",
+        "popSum": 6011,
+        "pop": 60.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "PX_M",
+        "popSum": 5936,
+        "pop": 59.36,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "PX_M",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "PX_M",
+        "popSum": 6266,
+        "pop": 62.66,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "PX_M",
+        "popSum": 6076,
+        "pop": 60.76,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "PX_M",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "PX_M",
+        "popSum": 6035,
+        "pop": 60.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "PX_M",
+        "popSum": 6088,
+        "pop": 60.88,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "PX_M",
+        "popSum": 6011,
+        "pop": 60.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "PX_M",
+        "popSum": 5707,
+        "pop": 57.07,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "PX_M",
+        "popSum": 6298,
+        "pop": 62.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "TX_INV_S": {
+      "2801": {
+        "seed": 2801,
+        "armName": "TX_INV_S",
+        "popSum": 5604,
+        "pop": 56.04,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "TX_INV_S",
+        "popSum": 5997,
+        "pop": 59.97,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "TX_INV_S",
+        "popSum": 5706,
+        "pop": 57.06,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "TX_INV_S",
+        "popSum": 6343,
+        "pop": 63.43,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "TX_INV_S",
+        "popSum": 5328,
+        "pop": 53.28,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "TX_INV_S",
+        "popSum": 5647,
+        "pop": 56.47,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "TX_INV_S",
+        "popSum": 6012,
+        "pop": 60.12,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "TX_INV_S",
+        "popSum": 5637,
+        "pop": 56.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "TX_INV_S",
+        "popSum": 5709,
+        "pop": 57.09,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "TX_INV_S",
+        "popSum": 6169,
+        "pop": 61.69,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "TX_INV_S",
+        "popSum": 5465,
+        "pop": 54.65,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "TX_INV_S",
+        "popSum": 5784,
+        "pop": 57.84,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "TX_INV_S",
+        "popSum": 5629,
+        "pop": 56.29,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "TX_INV_S",
+        "popSum": 5978,
+        "pop": 59.78,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "TX_INV_S",
+        "popSum": 5313,
+        "pop": 53.13,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "TX_INV_S",
+        "popSum": 5787,
+        "pop": 57.87,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "TX_INV_M": {
+      "2801": {
+        "seed": 2801,
+        "armName": "TX_INV_M",
+        "popSum": 5648,
+        "pop": 56.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "TX_INV_M",
+        "popSum": 5665,
+        "pop": 56.65,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "TX_INV_M",
+        "popSum": 5580,
+        "pop": 55.8,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "TX_INV_M",
+        "popSum": 5997,
+        "pop": 59.97,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "TX_INV_M",
+        "popSum": 5524,
+        "pop": 55.24,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "TX_INV_M",
+        "popSum": 5803,
+        "pop": 58.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "TX_INV_M",
+        "popSum": 5894,
+        "pop": 58.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "TX_INV_M",
+        "popSum": 5847,
+        "pop": 58.47,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "TX_INV_M",
+        "popSum": 5898,
+        "pop": 58.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "TX_INV_M",
+        "popSum": 5984,
+        "pop": 59.84,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "TX_INV_M",
+        "popSum": 5762,
+        "pop": 57.62,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "TX_INV_M",
+        "popSum": 5841,
+        "pop": 58.41,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "TX_INV_M",
+        "popSum": 5935,
+        "pop": 59.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "TX_INV_M",
+        "popSum": 6137,
+        "pop": 61.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "TX_INV_M",
+        "popSum": 5386,
+        "pop": 53.86,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "TX_INV_M",
+        "popSum": 5872,
+        "pop": 58.72,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "TX_OV": {
+      "2801": {
+        "seed": 2801,
+        "armName": "TX_OV",
+        "popSum": 5660,
+        "pop": 56.6,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "TX_OV",
+        "popSum": 5327,
+        "pop": 53.27,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "TX_OV",
+        "popSum": 5679,
+        "pop": 56.79,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "TX_OV",
+        "popSum": 6021,
+        "pop": 60.21,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "TX_OV",
+        "popSum": 5265,
+        "pop": 52.65,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "TX_OV",
+        "popSum": 5693,
+        "pop": 56.93,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "TX_OV",
+        "popSum": 5768,
+        "pop": 57.68,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "TX_OV",
+        "popSum": 5529,
+        "pop": 55.29,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "TX_OV",
+        "popSum": 5599,
+        "pop": 55.99,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "TX_OV",
+        "popSum": 5707,
+        "pop": 57.07,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "TX_OV",
+        "popSum": 5208,
+        "pop": 52.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "TX_OV",
+        "popSum": 5689,
+        "pop": 56.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "TX_OV",
+        "popSum": 5394,
+        "pop": 53.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "TX_OV",
+        "popSum": 5969,
+        "pop": 59.69,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "TX_OV",
+        "popSum": 5324,
+        "pop": 53.24,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "TX_OV",
+        "popSum": 5648,
+        "pop": 56.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "DIR_INV_S": {
+      "2801": {
+        "seed": 2801,
+        "armName": "DIR_INV_S",
+        "popSum": 5699,
+        "pop": 56.99,
+        "ruleAcc": 0.41911656234852795,
+        "probesDone": 152,
+        "yTrue": 0.16666666666666666,
+        "yWrong": 0.05405405405405406
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "DIR_INV_S",
+        "popSum": 5752,
+        "pop": 57.52,
+        "ruleAcc": 0.6431465517241379,
+        "probesDone": 152,
+        "yTrue": 0.25,
+        "yWrong": 0.1323529411764706
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "DIR_INV_S",
+        "popSum": 5801,
+        "pop": 58.01,
+        "ruleAcc": 0.4076178138339669,
+        "probesDone": 138,
+        "yTrue": 0.18055555555555555,
+        "yWrong": 0.030303030303030304
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "DIR_INV_S",
+        "popSum": 6219,
+        "pop": 62.19,
+        "ruleAcc": 0.40374828584488803,
+        "probesDone": 154,
+        "yTrue": 0.2972972972972973,
+        "yWrong": 0.075
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "DIR_INV_S",
+        "popSum": 5486,
+        "pop": 54.86,
+        "ruleAcc": 0.38638895667766615,
+        "probesDone": 153,
+        "yTrue": 0.19540229885057472,
+        "yWrong": 0.06060606060606061
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "DIR_INV_S",
+        "popSum": 5914,
+        "pop": 59.14,
+        "ruleAcc": 0.4338109519049206,
+        "probesDone": 163,
+        "yTrue": 0.1566265060240964,
+        "yWrong": 0.0625
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "DIR_INV_S",
+        "popSum": 6103,
+        "pop": 61.03,
+        "ruleAcc": 0.4088465786567086,
+        "probesDone": 176,
+        "yTrue": 0.17073170731707318,
+        "yWrong": 0.05319148936170213
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "DIR_INV_S",
+        "popSum": 5691,
+        "pop": 56.91,
+        "ruleAcc": 0.4892210311825976,
+        "probesDone": 129,
+        "yTrue": 0.24615384615384617,
+        "yWrong": 0.046875
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "DIR_INV_S",
+        "popSum": 5820,
+        "pop": 58.2,
+        "ruleAcc": 0.5838019534057757,
+        "probesDone": 161,
+        "yTrue": 0.25316455696202533,
+        "yWrong": 0.06097560975609756
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "DIR_INV_S",
+        "popSum": 5972,
+        "pop": 59.72,
+        "ruleAcc": 0.46171504893879,
+        "probesDone": 163,
+        "yTrue": 0.13924050632911392,
+        "yWrong": 0.11904761904761904
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "DIR_INV_S",
+        "popSum": 5861,
+        "pop": 58.61,
+        "ruleAcc": 0.6033432614319135,
+        "probesDone": 189,
+        "yTrue": 0.24468085106382978,
+        "yWrong": 0.09473684210526316
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "DIR_INV_S",
+        "popSum": 5725,
+        "pop": 57.25,
+        "ruleAcc": 0.4084782330072201,
+        "probesDone": 146,
+        "yTrue": 0.2465753424657534,
+        "yWrong": 0.0410958904109589
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "DIR_INV_S",
+        "popSum": 5814,
+        "pop": 58.14,
+        "ruleAcc": 0.6232627563712754,
+        "probesDone": 165,
+        "yTrue": 0.21794871794871795,
+        "yWrong": 0.11494252873563218
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "DIR_INV_S",
+        "popSum": 5969,
+        "pop": 59.69,
+        "ruleAcc": 0.398918896268516,
+        "probesDone": 148,
+        "yTrue": 0.16666666666666666,
+        "yWrong": 0.039473684210526314
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "DIR_INV_S",
+        "popSum": 5446,
+        "pop": 54.46,
+        "ruleAcc": 0.4246411747793971,
+        "probesDone": 148,
+        "yTrue": 0.25,
+        "yWrong": 0.09722222222222222
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "DIR_INV_S",
+        "popSum": 5924,
+        "pop": 59.24,
+        "ruleAcc": 0.466432824014322,
+        "probesDone": 174,
+        "yTrue": 0.20481927710843373,
+        "yWrong": 0.054945054945054944
+      }
+    },
+    "DIR_INV_M": {
+      "2801": {
+        "seed": 2801,
+        "armName": "DIR_INV_M",
+        "popSum": 5751,
+        "pop": 57.51,
+        "ruleAcc": 0.38714587116480703,
+        "probesDone": 168,
+        "yTrue": 0.1686746987951807,
+        "yWrong": 0.058823529411764705
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "DIR_INV_M",
+        "popSum": 6028,
+        "pop": 60.28,
+        "ruleAcc": 0.6032400037456691,
+        "probesDone": 182,
+        "yTrue": 0.20833333333333334,
+        "yWrong": 0.08139534883720931
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "DIR_INV_M",
+        "popSum": 5497,
+        "pop": 54.97,
+        "ruleAcc": 0.5140996438997787,
+        "probesDone": 163,
+        "yTrue": 0.13580246913580246,
+        "yWrong": 0.12195121951219512
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "DIR_INV_M",
+        "popSum": 6176,
+        "pop": 61.76,
+        "ruleAcc": 0.49987284213096245,
+        "probesDone": 190,
+        "yTrue": 0.17,
+        "yWrong": 0.1
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "DIR_INV_M",
+        "popSum": 5692,
+        "pop": 56.92,
+        "ruleAcc": 0.35880507118187177,
+        "probesDone": 150,
+        "yTrue": 0.24050632911392406,
+        "yWrong": 0.07042253521126761
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "DIR_INV_M",
+        "popSum": 5770,
+        "pop": 57.7,
+        "ruleAcc": 0.4534887531817735,
+        "probesDone": 153,
+        "yTrue": 0.20512820512820512,
+        "yWrong": 0.06666666666666667
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "DIR_INV_M",
+        "popSum": 5889,
+        "pop": 58.89,
+        "ruleAcc": 0.434096256684492,
+        "probesDone": 172,
+        "yTrue": 0.2875,
+        "yWrong": 0.08695652173913043
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "DIR_INV_M",
+        "popSum": 5547,
+        "pop": 55.47,
+        "ruleAcc": 0.44129102820218075,
+        "probesDone": 151,
+        "yTrue": 0.2328767123287671,
+        "yWrong": 0.08974358974358974
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "DIR_INV_M",
+        "popSum": 6029,
+        "pop": 60.29,
+        "ruleAcc": 0.5856228510975933,
+        "probesDone": 191,
+        "yTrue": 0.3076923076923077,
+        "yWrong": 0.09
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "DIR_INV_M",
+        "popSum": 6105,
+        "pop": 61.05,
+        "ruleAcc": 0.4039820498272038,
+        "probesDone": 203,
+        "yTrue": 0.2247191011235955,
+        "yWrong": 0.07894736842105263
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "DIR_INV_M",
+        "popSum": 5930,
+        "pop": 59.3,
+        "ruleAcc": 0.6352040281128711,
+        "probesDone": 213,
+        "yTrue": 0.3,
+        "yWrong": 0.11650485436893204
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "DIR_INV_M",
+        "popSum": 5948,
+        "pop": 59.48,
+        "ruleAcc": 0.4084536601746138,
+        "probesDone": 182,
+        "yTrue": 0.3617021276595745,
+        "yWrong": 0.11363636363636363
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "DIR_INV_M",
+        "popSum": 5752,
+        "pop": 57.52,
+        "ruleAcc": 0.6157244205516876,
+        "probesDone": 183,
+        "yTrue": 0.20987654320987653,
+        "yWrong": 0.058823529411764705
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "DIR_INV_M",
+        "popSum": 6153,
+        "pop": 61.53,
+        "ruleAcc": 0.3723327566320646,
+        "probesDone": 163,
+        "yTrue": 0.325,
+        "yWrong": 0.07228915662650602
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "DIR_INV_M",
+        "popSum": 5566,
+        "pop": 55.66,
+        "ruleAcc": 0.41624393170784924,
+        "probesDone": 160,
+        "yTrue": 0.13636363636363635,
+        "yWrong": 0.05555555555555555
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "DIR_INV_M",
+        "popSum": 6136,
+        "pop": 61.36,
+        "ruleAcc": 0.38861396303901435,
+        "probesDone": 170,
+        "yTrue": 0.13043478260869565,
+        "yWrong": 0.07692307692307693
+      }
+    },
+    "DIR_LAST": {
+      "2801": {
+        "seed": 2801,
+        "armName": "DIR_LAST",
+        "popSum": 5668,
+        "pop": 56.68,
+        "ruleAcc": 0.3843621751025992,
+        "probesDone": 125,
+        "yTrue": 0.22413793103448276,
+        "yWrong": 0.1044776119402985
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "DIR_LAST",
+        "popSum": 5776,
+        "pop": 57.76,
+        "ruleAcc": 0.5992480336813883,
+        "probesDone": 145,
+        "yTrue": 0.17105263157894737,
+        "yWrong": 0.14492753623188406
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "DIR_LAST",
+        "popSum": 5850,
+        "pop": 58.5,
+        "ruleAcc": 0.5120102196812633,
+        "probesDone": 184,
+        "yTrue": 0.3020833333333333,
+        "yWrong": 0.11363636363636363
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "DIR_LAST",
+        "popSum": 6108,
+        "pop": 61.08,
+        "ruleAcc": 0.4293118165928214,
+        "probesDone": 170,
+        "yTrue": 0.10989010989010989,
+        "yWrong": 0.08860759493670886
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "DIR_LAST",
+        "popSum": 5754,
+        "pop": 57.54,
+        "ruleAcc": 0.3963770657533681,
+        "probesDone": 150,
+        "yTrue": 0.25,
+        "yWrong": 0.13414634146341464
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "DIR_LAST",
+        "popSum": 5844,
+        "pop": 58.44,
+        "ruleAcc": 0.42717231623048046,
+        "probesDone": 175,
+        "yTrue": 0.27956989247311825,
+        "yWrong": 0.024390243902439025
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "DIR_LAST",
+        "popSum": 5821,
+        "pop": 58.21,
+        "ruleAcc": 0.4012996958158729,
+        "probesDone": 171,
+        "yTrue": 0.21518987341772153,
+        "yWrong": 0.05434782608695652
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "DIR_LAST",
+        "popSum": 5880,
+        "pop": 58.8,
+        "ruleAcc": 0.4020149253731343,
+        "probesDone": 144,
+        "yTrue": 0.2714285714285714,
+        "yWrong": 0.0945945945945946
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "DIR_LAST",
+        "popSum": 5608,
+        "pop": 56.08,
+        "ruleAcc": 0.5641814071590044,
+        "probesDone": 156,
+        "yTrue": 0.275,
+        "yWrong": 0.06578947368421052
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "DIR_LAST",
+        "popSum": 5938,
+        "pop": 59.38,
+        "ruleAcc": 0.39734732763484243,
+        "probesDone": 155,
+        "yTrue": 0.15584415584415584,
+        "yWrong": 0.0641025641025641
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "DIR_LAST",
+        "popSum": 5729,
+        "pop": 57.29,
+        "ruleAcc": 0.613474733571086,
+        "probesDone": 185,
+        "yTrue": 0.18556701030927836,
+        "yWrong": 0.056818181818181816
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "DIR_LAST",
+        "popSum": 5649,
+        "pop": 56.49,
+        "ruleAcc": 0.46436932903211886,
+        "probesDone": 134,
+        "yTrue": 0.18055555555555555,
+        "yWrong": 0.08064516129032258
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "DIR_LAST",
+        "popSum": 5842,
+        "pop": 58.42,
+        "ruleAcc": 0.5762611607142857,
+        "probesDone": 158,
+        "yTrue": 0.3194444444444444,
+        "yWrong": 0.06976744186046512
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "DIR_LAST",
+        "popSum": 5999,
+        "pop": 59.99,
+        "ruleAcc": 0.4079689038828238,
+        "probesDone": 163,
+        "yTrue": 0.23076923076923078,
+        "yWrong": 0.1411764705882353
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "DIR_LAST",
+        "popSum": 5499,
+        "pop": 54.99,
+        "ruleAcc": 0.4515177488117368,
+        "probesDone": 160,
+        "yTrue": 0.21839080459770116,
+        "yWrong": 0.1232876712328767
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "DIR_LAST",
+        "popSum": 6099,
+        "pop": 60.99,
+        "ruleAcc": 0.41184425129549723,
+        "probesDone": 178,
+        "yTrue": 0.21428571428571427,
+        "yWrong": 0.1375
+      }
+    },
+    "M3_P25": {
+      "2801": {
+        "seed": 2801,
+        "armName": "M3_P25",
+        "popSum": 5868,
+        "pop": 58.68,
+        "ruleAcc": 0.592957451268078,
+        "probesDone": 147,
+        "yTrue": 0.16216216216216217,
+        "yWrong": 0.0821917808219178
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "M3_P25",
+        "popSum": 5798,
+        "pop": 57.98,
+        "ruleAcc": 0.6731986119616248,
+        "probesDone": 130,
+        "yTrue": 0.2916666666666667,
+        "yWrong": 0.1724137931034483
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "M3_P25",
+        "popSum": 5753,
+        "pop": 57.53,
+        "ruleAcc": 0.6123021438589461,
+        "probesDone": 141,
+        "yTrue": 0.20512820512820512,
+        "yWrong": 0.1746031746031746
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "M3_P25",
+        "popSum": 6156,
+        "pop": 61.56,
+        "ruleAcc": 0.544032569102207,
+        "probesDone": 139,
+        "yTrue": 0.15714285714285714,
+        "yWrong": 0.10144927536231885
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "M3_P25",
+        "popSum": 5671,
+        "pop": 56.71,
+        "ruleAcc": 0.5834485938220378,
+        "probesDone": 138,
+        "yTrue": 0.14084507042253522,
+        "yWrong": 0.11940298507462686
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "M3_P25",
+        "popSum": 5935,
+        "pop": 59.35,
+        "ruleAcc": 0.5620767494356659,
+        "probesDone": 139,
+        "yTrue": 0.19402985074626866,
+        "yWrong": 0.08333333333333333
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "M3_P25",
+        "popSum": 6002,
+        "pop": 60.02,
+        "ruleAcc": 0.5759422252313248,
+        "probesDone": 139,
+        "yTrue": 0.2537313432835821,
+        "yWrong": 0.09722222222222222
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "M3_P25",
+        "popSum": 5989,
+        "pop": 59.89,
+        "ruleAcc": 0.6224892059320443,
+        "probesDone": 134,
+        "yTrue": 0.20253164556962025,
+        "yWrong": 0.14545454545454545
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "M3_P25",
+        "popSum": 5711,
+        "pop": 57.11,
+        "ruleAcc": 0.7679859621758628,
+        "probesDone": 128,
+        "yTrue": 0.24324324324324326,
+        "yWrong": 0.09259259259259259
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "M3_P25",
+        "popSum": 6174,
+        "pop": 61.74,
+        "ruleAcc": 0.6069811320754717,
+        "probesDone": 152,
+        "yTrue": 0.19117647058823528,
+        "yWrong": 0.13095238095238096
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "M3_P25",
+        "popSum": 5604,
+        "pop": 56.04,
+        "ruleAcc": 0.6447396614527534,
+        "probesDone": 140,
+        "yTrue": 0.2191780821917808,
+        "yWrong": 0.14925373134328357
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "M3_P25",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0.577030162412993,
+        "probesDone": 133,
+        "yTrue": 0.19736842105263158,
+        "yWrong": 0.10526315789473684
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "M3_P25",
+        "popSum": 5995,
+        "pop": 59.95,
+        "ruleAcc": 0.8041659248709275,
+        "probesDone": 162,
+        "yTrue": 0.25555555555555554,
+        "yWrong": 0.1527777777777778
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "M3_P25",
+        "popSum": 6146,
+        "pop": 61.46,
+        "ruleAcc": 0.5791139240506329,
+        "probesDone": 157,
+        "yTrue": 0.17567567567567569,
+        "yWrong": 0.13253012048192772
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "M3_P25",
+        "popSum": 5472,
+        "pop": 54.72,
+        "ruleAcc": 0.5279135580138925,
+        "probesDone": 117,
+        "yTrue": 0.18,
+        "yWrong": 0.07462686567164178
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "M3_P25",
+        "popSum": 5980,
+        "pop": 59.8,
+        "ruleAcc": 0.5825943493503816,
+        "probesDone": 141,
+        "yTrue": 0.21518987341772153,
+        "yWrong": 0.12903225806451613
+      }
+    },
+    "M3_P35": {
+      "2801": {
+        "seed": 2801,
+        "armName": "M3_P35",
+        "popSum": 5770,
+        "pop": 57.7,
+        "ruleAcc": 0.5257861635220126,
+        "probesDone": 199,
+        "yTrue": 0.10869565217391304,
+        "yWrong": 0.08411214953271028
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "M3_P35",
+        "popSum": 5976,
+        "pop": 59.76,
+        "ruleAcc": 0.7038543897216274,
+        "probesDone": 207,
+        "yTrue": 0.23333333333333334,
+        "yWrong": 0.08547008547008547
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "M3_P35",
+        "popSum": 5658,
+        "pop": 56.58,
+        "ruleAcc": 0.6442767295597485,
+        "probesDone": 179,
+        "yTrue": 0.18085106382978725,
+        "yWrong": 0.07058823529411765
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "M3_P35",
+        "popSum": 6157,
+        "pop": 61.57,
+        "ruleAcc": 0.5403517224765116,
+        "probesDone": 186,
+        "yTrue": 0.1919191919191919,
+        "yWrong": 0.12643678160919541
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "M3_P35",
+        "popSum": 5602,
+        "pop": 56.02,
+        "ruleAcc": 0.5661285754743699,
+        "probesDone": 179,
+        "yTrue": 0.21782178217821782,
+        "yWrong": 0.07692307692307693
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "M3_P35",
+        "popSum": 5873,
+        "pop": 58.73,
+        "ruleAcc": 0.6083690987124464,
+        "probesDone": 185,
+        "yTrue": 0.16363636363636364,
+        "yWrong": 0.04
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "M3_P35",
+        "popSum": 5833,
+        "pop": 58.33,
+        "ruleAcc": 0.5407467974925048,
+        "probesDone": 165,
+        "yTrue": 0.189873417721519,
+        "yWrong": 0.05813953488372093
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "M3_P35",
+        "popSum": 5792,
+        "pop": 57.92,
+        "ruleAcc": 0.534655722754218,
+        "probesDone": 174,
+        "yTrue": 0.2441860465116279,
+        "yWrong": 0.125
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "M3_P35",
+        "popSum": 5910,
+        "pop": 59.1,
+        "ruleAcc": 0.7392385689688158,
+        "probesDone": 203,
+        "yTrue": 0.2169811320754717,
+        "yWrong": 0.07216494845360824
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "M3_P35",
+        "popSum": 5894,
+        "pop": 58.94,
+        "ruleAcc": 0.6653465346534654,
+        "probesDone": 184,
+        "yTrue": 0.15555555555555556,
+        "yWrong": 0.09574468085106383
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "M3_P35",
+        "popSum": 5875,
+        "pop": 58.75,
+        "ruleAcc": 0.7736090385845236,
+        "probesDone": 208,
+        "yTrue": 0.28,
+        "yWrong": 0.12962962962962962
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "M3_P35",
+        "popSum": 5695,
+        "pop": 56.95,
+        "ruleAcc": 0.6132264529058116,
+        "probesDone": 177,
+        "yTrue": 0.13402061855670103,
+        "yWrong": 0.075
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "M3_P35",
+        "popSum": 5884,
+        "pop": 58.84,
+        "ruleAcc": 0.8230963399242743,
+        "probesDone": 194,
+        "yTrue": 0.2828282828282828,
+        "yWrong": 0.14736842105263157
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "M3_P35",
+        "popSum": 6147,
+        "pop": 61.47,
+        "ruleAcc": 0.47833495618305744,
+        "probesDone": 181,
+        "yTrue": 0.2912621359223301,
+        "yWrong": 0.08974358974358974
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "M3_P35",
+        "popSum": 5343,
+        "pop": 53.43,
+        "ruleAcc": 0.534805890227577,
+        "probesDone": 138,
+        "yTrue": 0.13846153846153847,
+        "yWrong": 0.0684931506849315
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "M3_P35",
+        "popSum": 6008,
+        "pop": 60.08,
+        "ruleAcc": 0.5701734104046243,
+        "probesDone": 178,
+        "yTrue": 0.12643678160919541,
+        "yWrong": 0.14285714285714285
+      }
+    },
+    "ORACLE_CLEAN": {
+      "2801": {
+        "seed": 2801,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6070,
+        "pop": 60.7,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6167,
+        "pop": 61.67,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5984,
+        "pop": 59.84,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6203,
+        "pop": 62.03,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5909,
+        "pop": 59.09,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5762,
+        "pop": 57.62,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6039,
+        "pop": 60.39,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5808,
+        "pop": 58.08,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6038,
+        "pop": 60.38,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6166,
+        "pop": 61.66,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5625,
+        "pop": 56.25,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5808,
+        "pop": 58.08,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6047,
+        "pop": 60.47,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6303,
+        "pop": 63.03,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5633,
+        "pop": 56.33,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6368,
+        "pop": 63.68,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "ORACLE_PROBED": {
+      "2801": {
+        "seed": 2801,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5857,
+        "pop": 58.57,
+        "ruleAcc": 1,
+        "probesDone": 187,
+        "yTrue": 0.15625,
+        "yWrong": 0.17582417582417584
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5780,
+        "pop": 57.8,
+        "ruleAcc": 1,
+        "probesDone": 171,
+        "yTrue": 0.20238095238095238,
+        "yWrong": 0.16091954022988506
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5910,
+        "pop": 59.1,
+        "ruleAcc": 1,
+        "probesDone": 175,
+        "yTrue": 0.18181818181818182,
+        "yWrong": 0.22988505747126436
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6044,
+        "pop": 60.44,
+        "ruleAcc": 1,
+        "probesDone": 210,
+        "yTrue": 0.2037037037037037,
+        "yWrong": 0.0784313725490196
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5860,
+        "pop": 58.6,
+        "ruleAcc": 1,
+        "probesDone": 187,
+        "yTrue": 0.2,
+        "yWrong": 0.10309278350515463
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6004,
+        "pop": 60.04,
+        "ruleAcc": 1,
+        "probesDone": 142,
+        "yTrue": 0.2222222222222222,
+        "yWrong": 0.11428571428571428
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6065,
+        "pop": 60.65,
+        "ruleAcc": 1,
+        "probesDone": 162,
+        "yTrue": 0.15789473684210525,
+        "yWrong": 0.10465116279069768
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5861,
+        "pop": 58.61,
+        "ruleAcc": 1,
+        "probesDone": 158,
+        "yTrue": 0.24285714285714285,
+        "yWrong": 0.09090909090909091
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5849,
+        "pop": 58.49,
+        "ruleAcc": 1,
+        "probesDone": 186,
+        "yTrue": 0.24242424242424243,
+        "yWrong": 0.14942528735632185
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6036,
+        "pop": 60.36,
+        "ruleAcc": 1,
+        "probesDone": 163,
+        "yTrue": 0.18840579710144928,
+        "yWrong": 0.10638297872340426
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5607,
+        "pop": 56.07,
+        "ruleAcc": 1,
+        "probesDone": 167,
+        "yTrue": 0.25,
+        "yWrong": 0.060240963855421686
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5772,
+        "pop": 57.72,
+        "ruleAcc": 1,
+        "probesDone": 167,
+        "yTrue": 0.1978021978021978,
+        "yWrong": 0.15789473684210525
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5944,
+        "pop": 59.44,
+        "ruleAcc": 1,
+        "probesDone": 173,
+        "yTrue": 0.28205128205128205,
+        "yWrong": 0.12631578947368421
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6081,
+        "pop": 60.81,
+        "ruleAcc": 1,
+        "probesDone": 177,
+        "yTrue": 0.18518518518518517,
+        "yWrong": 0.020833333333333332
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5567,
+        "pop": 55.67,
+        "ruleAcc": 1,
+        "probesDone": 158,
+        "yTrue": 0.1125,
+        "yWrong": 0.0641025641025641
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6261,
+        "pop": 62.61,
+        "ruleAcc": 1,
+        "probesDone": 190,
+        "yTrue": 0.24752475247524752,
+        "yWrong": 0.11235955056179775
+      }
+    }
+  },
+  "evoTuneRes": {
+    "EVO_E0": {
+      "2801": {
+        "seed": 2801,
+        "armName": "EVO_E0",
+        "popSum": 5756,
+        "pop": 57.56,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "EVO_E0",
+        "popSum": 5978,
+        "pop": 59.78,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "EVO_E0",
+        "popSum": 5624,
+        "pop": 56.24,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "EVO_E0",
+        "popSum": 6229,
+        "pop": 62.29,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "EVO_E0",
+        "popSum": 5708,
+        "pop": 57.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "EVO_E0",
+        "popSum": 6011,
+        "pop": 60.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "EVO_E0",
+        "popSum": 5936,
+        "pop": 59.36,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "EVO_E0",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "EVO_E0",
+        "popSum": 6266,
+        "pop": 62.66,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "EVO_E0",
+        "popSum": 6076,
+        "pop": 60.76,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "EVO_E0",
+        "popSum": 5859,
+        "pop": 58.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "EVO_E0",
+        "popSum": 6035,
+        "pop": 60.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "EVO_E0",
+        "popSum": 6088,
+        "pop": 60.88,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "EVO_E0",
+        "popSum": 6011,
+        "pop": 60.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "EVO_E0",
+        "popSum": 5707,
+        "pop": 57.07,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "EVO_E0",
+        "popSum": 6298,
+        "pop": 62.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "EVO_SV0": {
+      "2801": {
+        "seed": 2801,
+        "armName": "EVO_SV0",
+        "popSum": 5919,
+        "pop": 59.19,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "EVO_SV0",
+        "popSum": 5825,
+        "pop": 58.25,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "EVO_SV0",
+        "popSum": 6083,
+        "pop": 60.83,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "EVO_SV0",
+        "popSum": 6150,
+        "pop": 61.5,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "EVO_SV0",
+        "popSum": 5501,
+        "pop": 55.01,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "EVO_SV0",
+        "popSum": 5896,
+        "pop": 58.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "EVO_SV0",
+        "popSum": 6058,
+        "pop": 60.58,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "EVO_SV0",
+        "popSum": 5866,
+        "pop": 58.66,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "EVO_SV0",
+        "popSum": 6000,
+        "pop": 60,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "EVO_SV0",
+        "popSum": 6053,
+        "pop": 60.53,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "EVO_SV0",
+        "popSum": 5897,
+        "pop": 58.97,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "EVO_SV0",
+        "popSum": 5875,
+        "pop": 58.75,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "EVO_SV0",
+        "popSum": 5774,
+        "pop": 57.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "EVO_SV0",
+        "popSum": 6139,
+        "pop": 61.39,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "EVO_SV0",
+        "popSum": 5387,
+        "pop": 53.87,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "EVO_SV0",
+        "popSum": 5947,
+        "pop": 59.47,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "EVO_SV10": {
+      "2801": {
+        "seed": 2801,
+        "armName": "EVO_SV10",
+        "popSum": 5785,
+        "pop": 57.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "EVO_SV10",
+        "popSum": 5692,
+        "pop": 56.92,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "EVO_SV10",
+        "popSum": 5735,
+        "pop": 57.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "EVO_SV10",
+        "popSum": 6154,
+        "pop": 61.54,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "EVO_SV10",
+        "popSum": 5940,
+        "pop": 59.4,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "EVO_SV10",
+        "popSum": 6008,
+        "pop": 60.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "EVO_SV10",
+        "popSum": 5971,
+        "pop": 59.71,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "EVO_SV10",
+        "popSum": 5622,
+        "pop": 56.22,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "EVO_SV10",
+        "popSum": 5466,
+        "pop": 54.66,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "EVO_SV10",
+        "popSum": 5898,
+        "pop": 58.98,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "EVO_SV10",
+        "popSum": 5786,
+        "pop": 57.86,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "EVO_SV10",
+        "popSum": 5846,
+        "pop": 58.46,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "EVO_SV10",
+        "popSum": 5921,
+        "pop": 59.21,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "EVO_SV10",
+        "popSum": 6194,
+        "pop": 61.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "EVO_SV10",
+        "popSum": 5458,
+        "pop": 54.58,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "EVO_SV10",
+        "popSum": 5999,
+        "pop": 59.99,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "EVO_SV50": {
+      "2801": {
+        "seed": 2801,
+        "armName": "EVO_SV50",
+        "popSum": 5777,
+        "pop": 57.77,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2802": {
+        "seed": 2802,
+        "armName": "EVO_SV50",
+        "popSum": 5795,
+        "pop": 57.95,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2803": {
+        "seed": 2803,
+        "armName": "EVO_SV50",
+        "popSum": 5739,
+        "pop": 57.39,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2804": {
+        "seed": 2804,
+        "armName": "EVO_SV50",
+        "popSum": 6242,
+        "pop": 62.42,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2805": {
+        "seed": 2805,
+        "armName": "EVO_SV50",
+        "popSum": 5589,
+        "pop": 55.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2806": {
+        "seed": 2806,
+        "armName": "EVO_SV50",
+        "popSum": 5871,
+        "pop": 58.71,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2807": {
+        "seed": 2807,
+        "armName": "EVO_SV50",
+        "popSum": 5939,
+        "pop": 59.39,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2808": {
+        "seed": 2808,
+        "armName": "EVO_SV50",
+        "popSum": 5846,
+        "pop": 58.46,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2809": {
+        "seed": 2809,
+        "armName": "EVO_SV50",
+        "popSum": 5899,
+        "pop": 58.99,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2810": {
+        "seed": 2810,
+        "armName": "EVO_SV50",
+        "popSum": 5992,
+        "pop": 59.92,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2811": {
+        "seed": 2811,
+        "armName": "EVO_SV50",
+        "popSum": 5616,
+        "pop": 56.16,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2812": {
+        "seed": 2812,
+        "armName": "EVO_SV50",
+        "popSum": 5606,
+        "pop": 56.06,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2813": {
+        "seed": 2813,
+        "armName": "EVO_SV50",
+        "popSum": 5823,
+        "pop": 58.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2814": {
+        "seed": 2814,
+        "armName": "EVO_SV50",
+        "popSum": 6139,
+        "pop": 61.39,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2815": {
+        "seed": 2815,
+        "armName": "EVO_SV50",
+        "popSum": 5423,
+        "pop": 54.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2816": {
+        "seed": 2816,
+        "armName": "EVO_SV50",
+        "popSum": 6213,
+        "pop": 62.13,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    }
+  },
+  "heldRes": {
+    "NOREV": {
+      "2817": {
+        "seed": 2817,
+        "armName": "NOREV",
+        "popSum": 5089,
+        "pop": 50.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "NOREV",
+        "popSum": 5169,
+        "pop": 51.69,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "NOREV",
+        "popSum": 5108,
+        "pop": 51.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "NOREV",
+        "popSum": 4851,
+        "pop": 48.51,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "NOREV",
+        "popSum": 5337,
+        "pop": 53.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "NOREV",
+        "popSum": 4874,
+        "pop": 48.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "NOREV",
+        "popSum": 4996,
+        "pop": 49.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "NOREV",
+        "popSum": 5303,
+        "pop": 53.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "NOREV",
+        "popSum": 4735,
+        "pop": 47.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "NOREV",
+        "popSum": 5101,
+        "pop": 51.01,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "NOREV",
+        "popSum": 5008,
+        "pop": 50.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "NOREV",
+        "popSum": 5180,
+        "pop": 51.8,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "NOREV",
+        "popSum": 5205,
+        "pop": 52.05,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "NOREV",
+        "popSum": 5135,
+        "pop": 51.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "NOREV",
+        "popSum": 4759,
+        "pop": 47.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "NOREV",
+        "popSum": 5100,
+        "pop": 51,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "FIXED": {
+      "2817": {
+        "seed": 2817,
+        "armName": "FIXED",
+        "popSum": 6103,
+        "pop": 61.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "FIXED",
+        "popSum": 5905,
+        "pop": 59.05,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "FIXED",
+        "popSum": 5895,
+        "pop": 58.95,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "FIXED",
+        "popSum": 5646,
+        "pop": 56.46,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "FIXED",
+        "popSum": 6149,
+        "pop": 61.49,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "FIXED",
+        "popSum": 5631,
+        "pop": 56.31,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "FIXED",
+        "popSum": 5789,
+        "pop": 57.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "FIXED",
+        "popSum": 5975,
+        "pop": 59.75,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "FIXED",
+        "popSum": 5948,
+        "pop": 59.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "FIXED",
+        "popSum": 5738,
+        "pop": 57.38,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "FIXED",
+        "popSum": 5714,
+        "pop": 57.14,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "FIXED",
+        "popSum": 5588,
+        "pop": 55.88,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "FIXED",
+        "popSum": 5774,
+        "pop": 57.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "FIXED",
+        "popSum": 5783,
+        "pop": 57.83,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "FIXED",
+        "popSum": 5585,
+        "pop": 55.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "FIXED",
+        "popSum": 5948,
+        "pop": 59.48,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "META3_L1OFF": {
+      "2817": {
+        "seed": 2817,
+        "armName": "META3_L1OFF",
+        "popSum": 5089,
+        "pop": 50.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "META3_L1OFF",
+        "popSum": 5169,
+        "pop": 51.69,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "META3_L1OFF",
+        "popSum": 5108,
+        "pop": 51.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "META3_L1OFF",
+        "popSum": 4851,
+        "pop": 48.51,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "META3_L1OFF",
+        "popSum": 5337,
+        "pop": 53.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "META3_L1OFF",
+        "popSum": 4874,
+        "pop": 48.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "META3_L1OFF",
+        "popSum": 4996,
+        "pop": 49.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "META3_L1OFF",
+        "popSum": 5303,
+        "pop": 53.03,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "META3_L1OFF",
+        "popSum": 4735,
+        "pop": 47.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "META3_L1OFF",
+        "popSum": 5101,
+        "pop": 51.01,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "META3_L1OFF",
+        "popSum": 5008,
+        "pop": 50.08,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "META3_L1OFF",
+        "popSum": 5180,
+        "pop": 51.8,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "META3_L1OFF",
+        "popSum": 5205,
+        "pop": 52.05,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "META3_L1OFF",
+        "popSum": 5135,
+        "pop": 51.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "META3_L1OFF",
+        "popSum": 4759,
+        "pop": 47.59,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "META3_L1OFF",
+        "popSum": 5100,
+        "pop": 51,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "SCALAR_LOCK": {
+      "2817": {
+        "seed": 2817,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6223,
+        "pop": 62.23,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6106,
+        "pop": 61.06,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5911,
+        "pop": 59.11,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5601,
+        "pop": 56.01,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6330,
+        "pop": 63.3,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5887,
+        "pop": 58.87,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6080,
+        "pop": 60.8,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6337,
+        "pop": 63.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5960,
+        "pop": 59.6,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5937,
+        "pop": 59.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5800,
+        "pop": 58,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5961,
+        "pop": 59.61,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6037,
+        "pop": 60.37,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5922,
+        "pop": 59.22,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "SCALAR_LOCK",
+        "popSum": 6029,
+        "pop": 60.29,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "SCALAR_LOCK",
+        "popSum": 5919,
+        "pop": 59.19,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "PAIRX_LOCK": {
+      "2817": {
+        "seed": 2817,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6167,
+        "pop": 61.67,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5928,
+        "pop": 59.28,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5953,
+        "pop": 59.53,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5540,
+        "pop": 55.4,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6472,
+        "pop": 64.72,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5752,
+        "pop": 57.52,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6170,
+        "pop": 61.7,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6196,
+        "pop": 61.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6133,
+        "pop": 61.33,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5995,
+        "pop": 59.95,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5974,
+        "pop": 59.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5989,
+        "pop": 59.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6219,
+        "pop": 62.19,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6027,
+        "pop": 60.27,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "PAIRX_LOCK",
+        "popSum": 5585,
+        "pop": 55.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "PAIRX_LOCK",
+        "popSum": 6035,
+        "pop": 60.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "TX_LOCK": {
+      "2817": {
+        "seed": 2817,
+        "armName": "TX_LOCK",
+        "popSum": 6316,
+        "pop": 63.16,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "TX_LOCK",
+        "popSum": 5887,
+        "pop": 58.87,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "TX_LOCK",
+        "popSum": 6035,
+        "pop": 60.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "TX_LOCK",
+        "popSum": 5257,
+        "pop": 52.57,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "TX_LOCK",
+        "popSum": 6183,
+        "pop": 61.83,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "TX_LOCK",
+        "popSum": 5895,
+        "pop": 58.95,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "TX_LOCK",
+        "popSum": 6092,
+        "pop": 60.92,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "TX_LOCK",
+        "popSum": 6085,
+        "pop": 60.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "TX_LOCK",
+        "popSum": 6236,
+        "pop": 62.36,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "TX_LOCK",
+        "popSum": 5857,
+        "pop": 58.57,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "TX_LOCK",
+        "popSum": 5641,
+        "pop": 56.41,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "TX_LOCK",
+        "popSum": 5838,
+        "pop": 58.38,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "TX_LOCK",
+        "popSum": 6176,
+        "pop": 61.76,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "TX_LOCK",
+        "popSum": 5792,
+        "pop": 57.92,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "TX_LOCK",
+        "popSum": 5494,
+        "pop": 54.94,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "TX_LOCK",
+        "popSum": 6073,
+        "pop": 60.73,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "DIRECT_LOCK": {
+      "2817": {
+        "seed": 2817,
+        "armName": "DIRECT_LOCK",
+        "popSum": 6135,
+        "pop": 61.35,
+        "ruleAcc": 0.4095317408445953,
+        "probesDone": 180,
+        "yTrue": 0.13793103448275862,
+        "yWrong": 0.08602150537634409
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5912,
+        "pop": 59.12,
+        "ruleAcc": 0.6444072394354258,
+        "probesDone": 201,
+        "yTrue": 0.18095238095238095,
+        "yWrong": 0.11458333333333333
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5931,
+        "pop": 59.31,
+        "ruleAcc": 0.6230884273497073,
+        "probesDone": 174,
+        "yTrue": 0.17894736842105263,
+        "yWrong": 0.08860759493670886
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5733,
+        "pop": 57.33,
+        "ruleAcc": 0.3782597834233021,
+        "probesDone": 197,
+        "yTrue": 0.20388349514563106,
+        "yWrong": 0.07446808510638298
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "DIRECT_LOCK",
+        "popSum": 6119,
+        "pop": 61.19,
+        "ruleAcc": 0.4149790293588975,
+        "probesDone": 175,
+        "yTrue": 0.18888888888888888,
+        "yWrong": 0.12941176470588237
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5940,
+        "pop": 59.4,
+        "ruleAcc": 0.5998518407180357,
+        "probesDone": 224,
+        "yTrue": 0.24107142857142858,
+        "yWrong": 0.07142857142857142
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5999,
+        "pop": 59.99,
+        "ruleAcc": 0.6369060773480663,
+        "probesDone": 210,
+        "yTrue": 0.3235294117647059,
+        "yWrong": 0.05555555555555555
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "DIRECT_LOCK",
+        "popSum": 6227,
+        "pop": 62.27,
+        "ruleAcc": 0.6334386814153982,
+        "probesDone": 219,
+        "yTrue": 0.25925925925925924,
+        "yWrong": 0.07207207207207207
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "DIRECT_LOCK",
+        "popSum": 6075,
+        "pop": 60.75,
+        "ruleAcc": 0.5693452229299363,
+        "probesDone": 201,
+        "yTrue": 0.19,
+        "yWrong": 0.1188118811881188
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5957,
+        "pop": 59.57,
+        "ruleAcc": 0.6257311187581901,
+        "probesDone": 184,
+        "yTrue": 0.17391304347826086,
+        "yWrong": 0.09782608695652174
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5759,
+        "pop": 57.59,
+        "ruleAcc": 0.610741698915995,
+        "probesDone": 180,
+        "yTrue": 0.2268041237113402,
+        "yWrong": 0.10843373493975904
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5757,
+        "pop": 57.57,
+        "ruleAcc": 0.38993183009963295,
+        "probesDone": 167,
+        "yTrue": 0.21794871794871795,
+        "yWrong": 0.10112359550561797
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "DIRECT_LOCK",
+        "popSum": 6225,
+        "pop": 62.25,
+        "ruleAcc": 0.39219835126274,
+        "probesDone": 179,
+        "yTrue": 0.19047619047619047,
+        "yWrong": 0.09473684210526316
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5931,
+        "pop": 59.31,
+        "ruleAcc": 0.38948674633464725,
+        "probesDone": 165,
+        "yTrue": 0.11392405063291139,
+        "yWrong": 0.08139534883720931
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5732,
+        "pop": 57.32,
+        "ruleAcc": 0.45103895824827556,
+        "probesDone": 170,
+        "yTrue": 0.27848101265822783,
+        "yWrong": 0.054945054945054944
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "DIRECT_LOCK",
+        "popSum": 5890,
+        "pop": 58.9,
+        "ruleAcc": 0.3931315794895037,
+        "probesDone": 167,
+        "yTrue": 0.18478260869565216,
+        "yWrong": 0.09333333333333334
+      }
+    },
+    "META3": {
+      "2817": {
+        "seed": 2817,
+        "armName": "META3",
+        "popSum": 6255,
+        "pop": 62.55,
+        "ruleAcc": 0.633451171011931,
+        "probesDone": 145,
+        "yTrue": 0.16883116883116883,
+        "yWrong": 0.058823529411764705
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "META3",
+        "popSum": 5914,
+        "pop": 59.14,
+        "ruleAcc": 0.7422959701997968,
+        "probesDone": 137,
+        "yTrue": 0.18666666666666668,
+        "yWrong": 0.06451612903225806
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "META3",
+        "popSum": 5864,
+        "pop": 58.64,
+        "ruleAcc": 0.7877565339414138,
+        "probesDone": 167,
+        "yTrue": 0.24719101123595505,
+        "yWrong": 0.19230769230769232
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "META3",
+        "popSum": 5584,
+        "pop": 55.84,
+        "ruleAcc": 0.4549438509997261,
+        "probesDone": 146,
+        "yTrue": 0.1,
+        "yWrong": 0.09302325581395349
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "META3",
+        "popSum": 6022,
+        "pop": 60.22,
+        "ruleAcc": 0.5466587584025306,
+        "probesDone": 132,
+        "yTrue": 0.19117647058823528,
+        "yWrong": 0.109375
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "META3",
+        "popSum": 5913,
+        "pop": 59.13,
+        "ruleAcc": 0.7288043478260869,
+        "probesDone": 158,
+        "yTrue": 0.23076923076923078,
+        "yWrong": 0.1125
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "META3",
+        "popSum": 6019,
+        "pop": 60.19,
+        "ruleAcc": 0.7970963792198705,
+        "probesDone": 172,
+        "yTrue": 0.225,
+        "yWrong": 0.14130434782608695
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "META3",
+        "popSum": 6434,
+        "pop": 64.34,
+        "ruleAcc": 0.7892204042348412,
+        "probesDone": 179,
+        "yTrue": 0.22093023255813954,
+        "yWrong": 0.15053763440860216
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "META3",
+        "popSum": 6022,
+        "pop": 60.22,
+        "ruleAcc": 0.7070355441553683,
+        "probesDone": 146,
+        "yTrue": 0.2,
+        "yWrong": 0.09876543209876543
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "META3",
+        "popSum": 5812,
+        "pop": 58.12,
+        "ruleAcc": 0.7517851071064264,
+        "probesDone": 162,
+        "yTrue": 0.27848101265822783,
+        "yWrong": 0.0963855421686747
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "META3",
+        "popSum": 5632,
+        "pop": 56.32,
+        "ruleAcc": 0.7482736974262398,
+        "probesDone": 140,
+        "yTrue": 0.22857142857142856,
+        "yWrong": 0.15714285714285714
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "META3",
+        "popSum": 5919,
+        "pop": 59.19,
+        "ruleAcc": 0.5747200689061154,
+        "probesDone": 140,
+        "yTrue": 0.18055555555555555,
+        "yWrong": 0.07352941176470588
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "META3",
+        "popSum": 5871,
+        "pop": 58.71,
+        "ruleAcc": 0.4636451769268056,
+        "probesDone": 125,
+        "yTrue": 0.14754098360655737,
+        "yWrong": 0.109375
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "META3",
+        "popSum": 5912,
+        "pop": 59.12,
+        "ruleAcc": 0.5467032967032966,
+        "probesDone": 152,
+        "yTrue": 0.16091954022988506,
+        "yWrong": 0.06153846153846154
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "META3",
+        "popSum": 5670,
+        "pop": 56.7,
+        "ruleAcc": 0.5478419730532085,
+        "probesDone": 114,
+        "yTrue": 0.26229508196721313,
+        "yWrong": 0.09433962264150944
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "META3",
+        "popSum": 5922,
+        "pop": 59.22,
+        "ruleAcc": 0.5843088929965086,
+        "probesDone": 140,
+        "yTrue": 0.2073170731707317,
+        "yWrong": 0.08620689655172414
+      }
+    },
+    "SHAM3": {
+      "2817": {
+        "seed": 2817,
+        "armName": "SHAM3",
+        "popSum": 6106,
+        "pop": 61.06,
+        "ruleAcc": 0,
+        "probesDone": 149,
+        "yTrue": 0.1875,
+        "yWrong": 0.10144927536231885
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "SHAM3",
+        "popSum": 5894,
+        "pop": 58.94,
+        "ruleAcc": 0,
+        "probesDone": 155,
+        "yTrue": 0.2054794520547945,
+        "yWrong": 0.17073170731707318
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "SHAM3",
+        "popSum": 6105,
+        "pop": 61.05,
+        "ruleAcc": 0,
+        "probesDone": 170,
+        "yTrue": 0.2717391304347826,
+        "yWrong": 0.1794871794871795
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "SHAM3",
+        "popSum": 5492,
+        "pop": 54.92,
+        "ruleAcc": 0,
+        "probesDone": 143,
+        "yTrue": 0.11842105263157894,
+        "yWrong": 0.08955223880597014
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "SHAM3",
+        "popSum": 6480,
+        "pop": 64.8,
+        "ruleAcc": 0,
+        "probesDone": 151,
+        "yTrue": 0.12987012987012986,
+        "yWrong": 0.06756756756756757
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "SHAM3",
+        "popSum": 5757,
+        "pop": 57.57,
+        "ruleAcc": 0,
+        "probesDone": 148,
+        "yTrue": 0.24324324324324326,
+        "yWrong": 0.08108108108108109
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "SHAM3",
+        "popSum": 5800,
+        "pop": 58,
+        "ruleAcc": 0,
+        "probesDone": 159,
+        "yTrue": 0.19718309859154928,
+        "yWrong": 0.10227272727272728
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "SHAM3",
+        "popSum": 5962,
+        "pop": 59.62,
+        "ruleAcc": 0,
+        "probesDone": 159,
+        "yTrue": 0.22666666666666666,
+        "yWrong": 0.14285714285714285
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "SHAM3",
+        "popSum": 6079,
+        "pop": 60.79,
+        "ruleAcc": 0,
+        "probesDone": 167,
+        "yTrue": 0.29069767441860467,
+        "yWrong": 0.09876543209876543
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "SHAM3",
+        "popSum": 6138,
+        "pop": 61.38,
+        "ruleAcc": 0,
+        "probesDone": 159,
+        "yTrue": 0.2,
+        "yWrong": 0.0379746835443038
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "SHAM3",
+        "popSum": 5926,
+        "pop": 59.26,
+        "ruleAcc": 0,
+        "probesDone": 155,
+        "yTrue": 0.21621621621621623,
+        "yWrong": 0.08641975308641975
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "SHAM3",
+        "popSum": 5944,
+        "pop": 59.44,
+        "ruleAcc": 0,
+        "probesDone": 141,
+        "yTrue": 0.17333333333333334,
+        "yWrong": 0.13636363636363635
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "SHAM3",
+        "popSum": 5936,
+        "pop": 59.36,
+        "ruleAcc": 0,
+        "probesDone": 143,
+        "yTrue": 0.14035087719298245,
+        "yWrong": 0.08139534883720931
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "SHAM3",
+        "popSum": 5929,
+        "pop": 59.29,
+        "ruleAcc": 0,
+        "probesDone": 144,
+        "yTrue": 0.21052631578947367,
+        "yWrong": 0.14705882352941177
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "SHAM3",
+        "popSum": 5892,
+        "pop": 58.92,
+        "ruleAcc": 0,
+        "probesDone": 146,
+        "yTrue": 0.24285714285714285,
+        "yWrong": 0.10526315789473684
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "SHAM3",
+        "popSum": 6033,
+        "pop": 60.33,
+        "ruleAcc": 0,
+        "probesDone": 133,
+        "yTrue": 0.20833333333333334,
+        "yWrong": 0.08196721311475409
+      }
+    },
+    "META3_RESET": {
+      "2817": {
+        "seed": 2817,
+        "armName": "META3_RESET",
+        "popSum": 6255,
+        "pop": 62.55,
+        "ruleAcc": 0.633451171011931,
+        "probesDone": 145,
+        "yTrue": 0.16883116883116883,
+        "yWrong": 0.058823529411764705
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "META3_RESET",
+        "popSum": 5825,
+        "pop": 58.25,
+        "ruleAcc": 0.7698046181172291,
+        "probesDone": 130,
+        "yTrue": 0.2571428571428571,
+        "yWrong": 0.05
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "META3_RESET",
+        "popSum": 5856,
+        "pop": 58.56,
+        "ruleAcc": 0.7941818181818182,
+        "probesDone": 178,
+        "yTrue": 0.20833333333333334,
+        "yWrong": 0.15853658536585366
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "META3_RESET",
+        "popSum": 5584,
+        "pop": 55.84,
+        "ruleAcc": 0.4546699534374144,
+        "probesDone": 146,
+        "yTrue": 0.1,
+        "yWrong": 0.09302325581395349
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "META3_RESET",
+        "popSum": 6171,
+        "pop": 61.71,
+        "ruleAcc": 0.5218261914297156,
+        "probesDone": 150,
+        "yTrue": 0.24691358024691357,
+        "yWrong": 0.07246376811594203
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "META3_RESET",
+        "popSum": 5954,
+        "pop": 59.54,
+        "ruleAcc": 0.745142657097847,
+        "probesDone": 169,
+        "yTrue": 0.2077922077922078,
+        "yWrong": 0.10869565217391304
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "META3_RESET",
+        "popSum": 6020,
+        "pop": 60.2,
+        "ruleAcc": 0.8068337912087912,
+        "probesDone": 172,
+        "yTrue": 0.225,
+        "yWrong": 0.14130434782608695
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "META3_RESET",
+        "popSum": 6482,
+        "pop": 64.82,
+        "ruleAcc": 0.803366388308977,
+        "probesDone": 194,
+        "yTrue": 0.19791666666666666,
+        "yWrong": 0.15306122448979592
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "META3_RESET",
+        "popSum": 5898,
+        "pop": 58.98,
+        "ruleAcc": 0.7339127218934911,
+        "probesDone": 155,
+        "yTrue": 0.23943661971830985,
+        "yWrong": 0.03571428571428571
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "META3_RESET",
+        "popSum": 5656,
+        "pop": 56.56,
+        "ruleAcc": 0.7766823161189358,
+        "probesDone": 173,
+        "yTrue": 0.31868131868131866,
+        "yWrong": 0.0975609756097561
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "META3_RESET",
+        "popSum": 5422,
+        "pop": 54.22,
+        "ruleAcc": 0.7682060390763765,
+        "probesDone": 153,
+        "yTrue": 0.2236842105263158,
+        "yWrong": 0.14285714285714285
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "META3_RESET",
+        "popSum": 5952,
+        "pop": 59.52,
+        "ruleAcc": 0.5585903083700441,
+        "probesDone": 157,
+        "yTrue": 0.14634146341463414,
+        "yWrong": 0.04
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "META3_RESET",
+        "popSum": 5783,
+        "pop": 57.83,
+        "ruleAcc": 0.5273828944302027,
+        "probesDone": 123,
+        "yTrue": 0.09090909090909091,
+        "yWrong": 0.11764705882352941
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "META3_RESET",
+        "popSum": 5941,
+        "pop": 59.41,
+        "ruleAcc": 0.5383268482490272,
+        "probesDone": 152,
+        "yTrue": 0.14772727272727273,
+        "yWrong": 0.0625
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "META3_RESET",
+        "popSum": 5641,
+        "pop": 56.41,
+        "ruleAcc": 0.5265049415992812,
+        "probesDone": 116,
+        "yTrue": 0.22950819672131148,
+        "yWrong": 0.09090909090909091
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "META3_RESET",
+        "popSum": 5922,
+        "pop": 59.22,
+        "ruleAcc": 0.5843088929965086,
+        "probesDone": 140,
+        "yTrue": 0.2073170731707317,
+        "yWrong": 0.08620689655172414
+      }
+    },
+    "EVO_LOCK": {
+      "2817": {
+        "seed": 2817,
+        "armName": "EVO_LOCK",
+        "popSum": 6167,
+        "pop": 61.67,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "EVO_LOCK",
+        "popSum": 5928,
+        "pop": 59.28,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "EVO_LOCK",
+        "popSum": 5953,
+        "pop": 59.53,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "EVO_LOCK",
+        "popSum": 5540,
+        "pop": 55.4,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "EVO_LOCK",
+        "popSum": 6472,
+        "pop": 64.72,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "EVO_LOCK",
+        "popSum": 5752,
+        "pop": 57.52,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "EVO_LOCK",
+        "popSum": 6170,
+        "pop": 61.7,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "EVO_LOCK",
+        "popSum": 6196,
+        "pop": 61.96,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "EVO_LOCK",
+        "popSum": 6133,
+        "pop": 61.33,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "EVO_LOCK",
+        "popSum": 5995,
+        "pop": 59.95,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "EVO_LOCK",
+        "popSum": 5974,
+        "pop": 59.74,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "EVO_LOCK",
+        "popSum": 5989,
+        "pop": 59.89,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "EVO_LOCK",
+        "popSum": 6219,
+        "pop": 62.19,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "EVO_LOCK",
+        "popSum": 6027,
+        "pop": 60.27,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "EVO_LOCK",
+        "popSum": 5585,
+        "pop": 55.85,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "EVO_LOCK",
+        "popSum": 6035,
+        "pop": 60.35,
+        "ruleAcc": 0,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "ORACLE_CLEAN": {
+      "2817": {
+        "seed": 2817,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6377,
+        "pop": 63.77,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6071,
+        "pop": 60.71,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6194,
+        "pop": 61.94,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5801,
+        "pop": 58.01,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6381,
+        "pop": 63.81,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5873,
+        "pop": 58.73,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6211,
+        "pop": 62.11,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6009,
+        "pop": 60.09,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6268,
+        "pop": 62.68,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5968,
+        "pop": 59.68,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 5857,
+        "pop": 58.57,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6124,
+        "pop": 61.24,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6358,
+        "pop": 63.58,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6164,
+        "pop": 61.64,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6004,
+        "pop": 60.04,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "ORACLE_CLEAN",
+        "popSum": 6078,
+        "pop": 60.78,
+        "ruleAcc": 1,
+        "probesDone": 0,
+        "yTrue": 0,
+        "yWrong": 0
+      }
+    },
+    "ORACLE_PROBED": {
+      "2817": {
+        "seed": 2817,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6251,
+        "pop": 62.51,
+        "ruleAcc": 1,
+        "probesDone": 194,
+        "yTrue": 0.25,
+        "yWrong": 0.0784313725490196
+      },
+      "2818": {
+        "seed": 2818,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5786,
+        "pop": 57.86,
+        "ruleAcc": 1,
+        "probesDone": 160,
+        "yTrue": 0.18681318681318682,
+        "yWrong": 0.043478260869565216
+      },
+      "2819": {
+        "seed": 2819,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5955,
+        "pop": 59.55,
+        "ruleAcc": 1,
+        "probesDone": 183,
+        "yTrue": 0.20930232558139536,
+        "yWrong": 0.16494845360824742
+      },
+      "2820": {
+        "seed": 2820,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5845,
+        "pop": 58.45,
+        "ruleAcc": 1,
+        "probesDone": 175,
+        "yTrue": 0.20481927710843373,
+        "yWrong": 0.09782608695652174
+      },
+      "2821": {
+        "seed": 2821,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6428,
+        "pop": 64.28,
+        "ruleAcc": 1,
+        "probesDone": 203,
+        "yTrue": 0.32222222222222224,
+        "yWrong": 0.035398230088495575
+      },
+      "2822": {
+        "seed": 2822,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5738,
+        "pop": 57.38,
+        "ruleAcc": 1,
+        "probesDone": 207,
+        "yTrue": 0.22448979591836735,
+        "yWrong": 0.11009174311926606
+      },
+      "2823": {
+        "seed": 2823,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5717,
+        "pop": 57.17,
+        "ruleAcc": 1,
+        "probesDone": 177,
+        "yTrue": 0.26744186046511625,
+        "yWrong": 0.13186813186813187
+      },
+      "2824": {
+        "seed": 2824,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6229,
+        "pop": 62.29,
+        "ruleAcc": 1,
+        "probesDone": 220,
+        "yTrue": 0.2524271844660194,
+        "yWrong": 0.20512820512820512
+      },
+      "2825": {
+        "seed": 2825,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6052,
+        "pop": 60.52,
+        "ruleAcc": 1,
+        "probesDone": 200,
+        "yTrue": 0.26785714285714285,
+        "yWrong": 0.06818181818181818
+      },
+      "2826": {
+        "seed": 2826,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5844,
+        "pop": 58.44,
+        "ruleAcc": 1,
+        "probesDone": 173,
+        "yTrue": 0.2,
+        "yWrong": 0.10227272727272728
+      },
+      "2827": {
+        "seed": 2827,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5882,
+        "pop": 58.82,
+        "ruleAcc": 1,
+        "probesDone": 198,
+        "yTrue": 0.23469387755102042,
+        "yWrong": 0.1
+      },
+      "2828": {
+        "seed": 2828,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6015,
+        "pop": 60.15,
+        "ruleAcc": 1,
+        "probesDone": 167,
+        "yTrue": 0.25,
+        "yWrong": 0.11392405063291139
+      },
+      "2829": {
+        "seed": 2829,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6245,
+        "pop": 62.45,
+        "ruleAcc": 1,
+        "probesDone": 172,
+        "yTrue": 0.2127659574468085,
+        "yWrong": 0.038461538461538464
+      },
+      "2830": {
+        "seed": 2830,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6096,
+        "pop": 60.96,
+        "ruleAcc": 1,
+        "probesDone": 190,
+        "yTrue": 0.18947368421052632,
+        "yWrong": 0.09473684210526316
+      },
+      "2831": {
+        "seed": 2831,
+        "armName": "ORACLE_PROBED",
+        "popSum": 5969,
+        "pop": 59.69,
+        "ruleAcc": 1,
+        "probesDone": 184,
+        "yTrue": 0.16470588235294117,
+        "yWrong": 0.08080808080808081
+      },
+      "2832": {
+        "seed": 2832,
+        "armName": "ORACLE_PROBED",
+        "popSum": 6108,
+        "pop": 61.08,
+        "ruleAcc": 1,
+        "probesDone": 180,
+        "yTrue": 0.2222222222222222,
+        "yWrong": 0.12345679012345678
+      }
+    }
+  }
+}

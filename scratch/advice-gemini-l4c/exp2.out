@@ -1,0 +1,31 @@
+=== Exp 2: Additional Oracle Headroom Tests (seeds 2801-2808, 86.5s) ===
+
+--- WORLD: slow_vs_fast_v2 ---
+  FIXED              pop=55.97  gain=+0.00  vals=0
+  SCALAR_003         pop=59.46  gain=+3.49  vals=981
+  SCALAR_010         pop=60.79  gain=+4.82  vals=1041
+  SCALAR_025         pop=58.30  gain=+2.32  vals=815
+  SCALAR_060         pop=56.25  gain=+0.28  vals=634
+  SCALAR_150         pop=55.45  gain=-0.52  vals=599
+  ORACLE_W           pop=61.57  gain=+5.60  vals=1170
+  ORACLE vs bestALL (SCALAR_010      ): d4=-1.63  ratio=1.16x  signs=4/8  p=8.48e-1
+
+--- WORLD: core_vs_drift ---
+  FIXED              pop=56.18  gain=+0.00  vals=0
+  SCALAR_004         pop=58.45  gain=+2.27  vals=743
+  SCALAR_012         pop=60.30  gain=+4.13  vals=821
+  SCALAR_030         pop=57.41  gain=+1.23  vals=692
+  SCALAR_080         pop=56.66  gain=+0.48  vals=596
+  SCALAR_180         pop=57.20  gain=+1.02  vals=601
+  ORACLE_W           pop=59.55  gain=+3.37  vals=830
+  ORACLE vs bestALL (SCALAR_012      ): d4=-2.82  ratio=0.82x  signs=2/8  p=9.88e-1
+
+--- WORLD: matchings_11 ---
+  FIXED              pop=59.06  gain=+0.00  vals=0
+  SCALAR_120         pop=60.63  gain=+1.57  vals=820
+  DIRECT_ALPHA       pop=70.51  gain=+11.45  vals=1333
+  DIRECT_PAIR_ONLY   pop=69.30  gain=+10.24  vals=1351
+  DIRECT_BOTH        pop=70.66  gain=+11.59  vals=1366
+  ORACLE_W           pop=69.72  gain=+10.66  vals=1348
+  ORACLE vs bestALL (DIRECT_BOTH     ): d4=-6.73  ratio=0.92x  signs=0/8  p=1.00e+0
+
