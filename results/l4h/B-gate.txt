@@ -1,0 +1,17 @@
+n seeds 48; FIXED 80.80  L2BEST 80.80  META3 80.83
+  SHAM_NOWRITE   80.66
+  SHAM_RANDSIGN  80.75
+  RESET          80.69
+  EVOR           80.70
+L2 gain 0.00 flies; ratio undefined (L2 gain <= 0) (needs >= 1.5)
+d4 = 2M3 - 3L2 + F              0.06 flies  CI [-0.29, 0.41]  25/48  p 3.73e-1  FAIL
+META3 - L2BEST                  0.03 flies  CI [-0.09, 0.15]  26/48  p 3.20e-1  FAIL
+META3 - SHAM_NOWRITE            0.17 flies  CI [0.00, 0.34]  29/48  p 2.51e-2  FAIL
+META3 - SHAM_RANDSIGN           0.08 flies  CI [-0.08, 0.23]  30/48  p 1.74e-1  FAIL
+META3 - EVOR                    0.14 flies  CI [-0.04, 0.32]  29/48  p 7.30e-2  FAIL
+descriptive:
+SHAM_NOWRITE - L2BEST          -0.14 flies  CI [-0.33, 0.05]  20/48  p 9.23e-1  FAIL
+SHAM_RANDSIGN - SHAM_NOWRITE    0.09 flies  CI [-0.10, 0.29]  21/48  p 1.84e-1  FAIL
+SHAM_RANDSIGN - L2BEST         -0.05 flies  CI [-0.21, 0.12]  21/48  p 7.11e-1  FAIL
+META3 - RESET                   0.14 flies  CI [-0.00, 0.29]  27/48  p 3.46e-2  FAIL
+GATE FAIL

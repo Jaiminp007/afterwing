@@ -415,3 +415,19 @@ Beating an unrestricted same-information learner in this interface is not possib
   - feedback from L2's *realized* performance;
   - a pre-declared comparator budget.
 - No world built here met them. **Final ladder state: L2 shown; L3 shown in the L3-V world, where hierarchy necessity cannot be tested at depth 2; L4 NOT SHOWN.**
+
+
+## L4-H (blind-world depth test): FAILED at stage B (2026-11-27)
+
+The run followed Fable's one accepted form, blind worlds (`scratch/judge-fable-l4g/ruling.md`):
+- The learner library was frozen and committed (`1343120`) before any world existed. The blind adversary, Astra+Sol, added 21 Class F configs and 7 fixes.
+- A third party, Devin GPT-6.2 Sol, wrote the world family without reading any arm code (`7af0c94`). It has three types: ripening, succession and seasons.
+
+| Stage | FIXED | L2BEST | META3 | SHAM_NOWRITE | SHAM_RANDSIGN | EVOR |
+|---|---|---|---|---|---|---|
+| A (tuning, 16 seeds) | 79.65 | 79.58 | 79.40 | – | – | 79.64 |
+| B (48 practice seeds) | 80.80 | 80.80 | 80.83 | 80.66 | 80.75 | 80.70 |
+
+**Stage B:** L2 gain 0.00, so the 1.5× ratio is undefined. d₄ +0.06 flies, 25/48, p .37. **GATE FAIL; no final run; bank 938001–938048 unused.**
+
+The failure is upstream of L3. In this family, adaptive learning dynamics (L2) add nothing over a tuned fixed-gain Kalman. An improver of L2 therefore has no headroom. A blind world cannot guarantee the precondition L4 needs, a world where L2 itself matters. Forecasts before the run were 3% (adversary) and about 5% (Fable).
