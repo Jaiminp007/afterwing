@@ -1,0 +1,264 @@
+{
+  "digest": "7df21cbc3b32b87da96eebf2de8b88a387130793403cb66e64c228270139ec38",
+  "seeds": [
+    2701,
+    2702,
+    2703,
+    2704,
+    2705,
+    2706,
+    2707,
+    2708,
+    2709,
+    2710,
+    2711,
+    2712,
+    2713,
+    2714,
+    2715,
+    2716
+  ],
+  "locks": {
+    "scalar": "SCALAR2",
+    "pair": "PAIR1",
+    "transition": "TRANS8",
+    "direct": "DIRECT4soft",
+    "fixedKernel": "K0_4",
+    "all": "DIRECT4soft",
+    "oracle": "ORACLE4"
+  },
+  "specs": {
+    "FIXED": {
+      "kind": "FIXED"
+    },
+    "NOREV": {
+      "kind": "NOREV"
+    },
+    "SCALAR0": {
+      "kind": "SCALAR",
+      "scalar": 0
+    },
+    "SCALAR1": {
+      "kind": "SCALAR",
+      "scalar": 1
+    },
+    "SCALAR2": {
+      "kind": "SCALAR",
+      "scalar": 2
+    },
+    "SCALAR3": {
+      "kind": "SCALAR",
+      "scalar": 3
+    },
+    "SCALAR4": {
+      "kind": "SCALAR",
+      "scalar": 4
+    },
+    "SCALAR5": {
+      "kind": "SCALAR",
+      "scalar": 5
+    },
+    "PAIR1": {
+      "kind": "PAIR",
+      "scalar": 2,
+      "gain": 1
+    },
+    "PAIR8": {
+      "kind": "PAIR",
+      "scalar": 2,
+      "gain": 8
+    },
+    "PAIR40": {
+      "kind": "PAIR",
+      "scalar": 2,
+      "gain": 40
+    },
+    "TRANS1": {
+      "kind": "TRANS",
+      "scalar": 2,
+      "gain": 1
+    },
+    "TRANS8": {
+      "kind": "TRANS",
+      "scalar": 2,
+      "gain": 8
+    },
+    "TRANS40": {
+      "kind": "TRANS",
+      "scalar": 2,
+      "gain": 40
+    },
+    "DIRECT4hard": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 4,
+      "soft": false
+    },
+    "DIRECT4soft": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 4,
+      "soft": true
+    },
+    "DIRECT20hard": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 20,
+      "soft": false
+    },
+    "DIRECT20soft": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 20,
+      "soft": true
+    },
+    "DIRECT80hard": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 80,
+      "soft": false
+    },
+    "DIRECT80soft": {
+      "kind": "DIRECT",
+      "scalar": 2,
+      "gain": 80,
+      "soft": true
+    },
+    "K0_4": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 4,
+      "r": 0
+    },
+    "K1_4": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 4,
+      "r": 1
+    },
+    "K0_20": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 20,
+      "r": 0
+    },
+    "K1_20": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 20,
+      "r": 1
+    },
+    "K0_60": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 60,
+      "r": 0
+    },
+    "K1_60": {
+      "kind": "K",
+      "scalar": 2,
+      "gain": 60,
+      "r": 1
+    },
+    "ORACLE4": {
+      "kind": "ORACLE",
+      "scalar": 2,
+      "gain": 4
+    },
+    "ORACLE20": {
+      "kind": "ORACLE",
+      "scalar": 2,
+      "gain": 20
+    },
+    "ORACLE60": {
+      "kind": "ORACLE",
+      "scalar": 2,
+      "gain": 60
+    }
+  },
+  "means": {
+    "FIXED": 54.738125,
+    "SCALAR0": 55.95125,
+    "SCALAR1": 56.4975,
+    "SCALAR2": 57.18,
+    "SCALAR3": 56.63625,
+    "SCALAR4": 56.389375,
+    "SCALAR5": 55.57625,
+    "PAIR1": 57.531875,
+    "PAIR8": 56.361875,
+    "PAIR40": 56.113125,
+    "TRANS1": 56.784375,
+    "TRANS8": 57.495,
+    "TRANS40": 56.918125,
+    "DIRECT4hard": 56.821875,
+    "DIRECT4soft": 57.566875,
+    "DIRECT20hard": 56.386875,
+    "DIRECT20soft": 56.663125,
+    "DIRECT80hard": 55.90125,
+    "DIRECT80soft": 56.51125,
+    "K0_4": 57.269375,
+    "K1_4": 56.845625,
+    "K0_20": 56.821875,
+    "K1_20": 57.053125,
+    "K0_60": 55.619375,
+    "K1_60": 57.170625,
+    "ORACLE4": 57.0925,
+    "ORACLE20": 56.92625,
+    "ORACLE60": 55.9975
+  },
+  "oracleD4": {
+    "mean": -1.88875,
+    "sd": 2.0538358421905745,
+    "positive": 3,
+    "ties": 0,
+    "p": 0.9984283447265625,
+    "ints": [
+      510,
+      -237,
+      129,
+      23,
+      -613,
+      -809,
+      -823,
+      -899,
+      -150,
+      -627,
+      -513,
+      -418,
+      -306,
+      -963,
+      -296,
+      -52
+    ],
+    "gain2": 2.82875,
+    "ratio": 0.8323022536456032
+  },
+  "oracleVsDirect": {
+    "mean": -1.88875,
+    "sd": 2.0538358421905745,
+    "positive": 3,
+    "ties": 0,
+    "p": 0.9984283447265625,
+    "ints": [
+      510,
+      -237,
+      129,
+      23,
+      -613,
+      -809,
+      -823,
+      -899,
+      -150,
+      -627,
+      -513,
+      -418,
+      -306,
+      -963,
+      -296,
+      -52
+    ],
+    "gain2": 2.82875,
+    "ratio": 0.8323022536456032
+  },
+  "pass": false
+}

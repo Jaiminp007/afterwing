@@ -1,0 +1,6 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const data=JSON.parse(readFileSync(new URL('./diagnostics.json',import.meta.url))).oracleBySeed;
+const extent=Math.max(2,...data.map(([,v])=>Math.ceil(Math.abs(v)))),y=v=>97-74*v/extent;
+const dots=data.map(([seed,v],i)=>`<line x1="${45+35*i}" x2="${45+35*i}" y1="97" y2="${y(v)}" stroke="var(--border)"/><circle cx="${45+35*i}" cy="${y(v)}" r="4.5" fill="var(--${v>0?'chart-2':'chart-1'})"><title>${seed}: ${v.toFixed(3)} flies</title></circle>`).join('');
+const chart=`<!doctype html><meta charset="utf-8"><style>figure{margin:0}svg{height:210px;width:100%;display:block}text{fill:var(--foreground);font:13px var(--font-sans)}figcaption{font:14px var(--font-sans);color:var(--foreground)}</style><figure><figcaption>Oracle compounding margin, in live flies per tuning seed</figcaption><svg viewBox="0 0 604 210" role="img" aria-label="Paired oracle margins, ${data.filter(([,v])=>v>0).length} of 16 above zero"><line x1="30" x2="591" y1="97" y2="97" stroke="var(--foreground)"/><text x="8" y="101">0</text><text x="4" y="27">+${extent}</text><text x="4" y="175">-${extent}</text>${dots}<text x="30" y="199">2701</text><text x="551" y="199">2716</text></svg></figure>`;
+writeFileSync(new URL('./margin.html',import.meta.url),chart);

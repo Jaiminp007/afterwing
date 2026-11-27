@@ -1,0 +1,6 @@
+ts	phase	decision	why	evidence	result
+2026-11-27T06:21:27Z	design	Fork each randomized calibration garden before comparing policies	Forks give the same ancestral assignment and yield records, not just the same observation schema	protocol.md; world.mjs:enterAssay	locked before measuring
+2026-11-27T06:21:27Z	screen	Set the comfort threshold to more than one fly, positive L2 gain and p below .05	Do not spend the confirmation bank on weak oracle headroom	protocol.md; experiment.mjs:screen	locked before measuring
+2026-11-27T06:21:27Z	fixture	Correct Node worker URL after first launch failed before any simulation cells	The worker constructor needs a URL object on this runtime	experiment.mjs:batch; check.mjs	fixtures passed; tuning in progress
+2026-11-27T06:22:21Z	invalid	Archive all 448 attempted tuning rows and fix the coordinate collision	Every fly starved before assay, the oracle never read a rule, and a 2701 trace showed NaN coordinates	invalid-coordinate/; world.mjs:spawn; check.mjs	invalid run, no policy selection; same design
+2026-11-27T06:28:43Z	stop	Stop before held-out, without measuring META3 or its controls	Even the oracle fell below both the compounding target and the direct challenger	screen.json; diagnostics.json	no registration
