@@ -47,7 +47,7 @@ export const BASE_CFG = Object.freeze({
   graceTastings: 10, evictAge: 18, valThresh: 2.5,
   alphaFloor: .02,
   // L3 (META3) constants: Gemini's exploratory values, frozen with the registration.
-  gDecay: .0002, gInc: 1, gCap: 10, gHalf: 2, spreadAt: .25, suppressAt: .5, suppressDecay: .65, hiDecay: .18, gConfN: 12,
+  gDecay: .0002, gInc: 1, gCap: 10, gHalf: 2, spreadAt: .25, suppressAt: .5, suppressDecay: .65, hiDecay: .18, gConfN: 12, gFloor: .15,
   evorG: 5,
   ticks: 20000, every: 100, lateFrom: 10000,
 });
@@ -92,10 +92,12 @@ export const ARMS = {
   EVOR3: { l1: true, l2: 'alpha', l3: 'evor' },
   ORACLE3: { l1: true, l2: 'alpha', l3: 'oracle' },
   META3OFF: { l1: true, l2: 'deck', l3: 'shadow' },
+  PAIRX: { l1: true, l2: 'alpha', l3: 'pair', gProp: true },
+  META3F: { l1: true, l2: 'alpha', l3: 'learn', gProp: true },
 };
-const HAS_G = new Set(['learn', 'reset', 'sham', 'evor', 'oracle', 'shadow']);
-const LEARNS_G = new Set(['learn', 'reset', 'sham', 'shadow']);
-const INHERITS_G = new Set(['learn', 'sham', 'evor', 'shadow']);
+const HAS_G = new Set(['learn', 'reset', 'sham', 'evor', 'oracle', 'shadow', 'pair']);
+const LEARNS_G = new Set(['learn', 'reset', 'sham', 'shadow', 'pair']);
+const INHERITS_G = new Set(['learn', 'sham', 'evor', 'shadow', 'pair']);
 
 // Partition of the 12 bits into `modules` disjoint sorted groups of subsetSize.
 function makePartition(r, cfg) {
@@ -121,6 +123,20 @@ export function samplePair(alpha, excl, r, floor) {
   for (const p of ALL_PAIRS) {
     if (excl.has(p.mask)) continue;
     const w = (floor + alpha[p.a]) * (floor + alpha[p.b]);
+    if (w > 0) { masks.push(p.mask); ws.push(w); }
+  }
+  if (!masks.length) return -1;
+  let sum = 0; for (const w of ws) sum += w;
+  let u = r() * sum;
+  for (let i = 0; i < masks.length; i++) { u -= ws[i]; if (u <= 0) return masks[i]; }
+  return masks[masks.length - 1];
+}
+// Pair-memory proposals (PAIRX, META3F): weight (floor+alpha_i)(floor+alpha_j)(gFloor+G_ij).
+export function samplePairG(alpha, G, excl, r, floor, gFloor) {
+  const masks = [], ws = [];
+  for (const p of ALL_PAIRS) {
+    if (excl.has(p.mask)) continue;
+    const w = (floor + alpha[p.a]) * (floor + alpha[p.b]) * (gFloor + G[p.a][p.b]);
     if (w > 0) { masks.push(p.mask); ws.push(w); }
   }
   if (!masks.length) return -1;
@@ -267,6 +283,7 @@ export class World4 {
       }
       return -1;
     }
+    if (this.arm.gProp) return samplePairG(f.alpha, f.G, excl, f.rProp, this.cfg.alphaFloor, this.cfg.gFloor);
     return samplePair(this.arm.l2 === 'alpha' ? f.alpha : Array(B).fill(1), excl, f.rProp, this.cfg.alphaFloor);
   }
 
@@ -279,7 +296,7 @@ export class World4 {
       for (let i = 0; i < B; i++) for (let j = 0; j < B; j++) if (i !== j) f.G[i][j] *= 1 - cfg.gDecay;
       for (const m of val) { const [a, b] = pairBits(m); f.G[a][b] = f.G[b][a] = Math.min(cfg.gCap, f.G[a][b] + cfg.gInc); }
     }
-    const G = l3 === 'oracle' ? this.oracleG : f.G;
+    const G = l3 === 'oracle' ? this.oracleG : l3 === 'pair' ? null : f.G;
     const decay = G ? v.alphaDecay + gConfidence(G, cfg) * (cfg.hiDecay - v.alphaDecay) : v.alphaDecay;
     for (let b = 0; b < B; b++) f.alpha[b] = Math.max(.05, 1 + (1 - decay) * (f.alpha[b] - 1));
     for (const m of val) {

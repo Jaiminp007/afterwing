@@ -35,7 +35,9 @@ Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − F
 - [x] Merge: both advisors converge on *learning L2's credit-assignment map*. Astra's drifting map fails against tuned constant L2; Gemini's fixed-per-seed hidden partition clears it in exploration. **Chosen: L4-A = Gemini's META3_UPD**, plus Astra's controls: a stage-A-locked constant-L2 grid as META, with frozen L3-V META descriptive; a donor-replay SHAM3; EVO-R3 with standing variation and an E0 that equals locked META; factorial f₄ = 2(P11−P01)−3(P10−P00).
 - [x] (1) Advice done.
 - [x] (2) L4-A draft registration (`c02d596`): `microverse/l4.mjs` reproduces Gemini's prototype exactly on 2001 (7 arms); runner, scorer and 37 fixtures all pass (l4.mjs sha 92a1fe418d00, seed 2901). Banks audited clean: final 936001–936048, stage A 937001–937016.
-- [ ] (3) Astra/Sol adversarial pre-freeze review: **running** (may explore on 2201–2232 only); apply required changes.
+- [x] (3) Astra/Sol pre-freeze review: **7 required changes**. (1) Gate the same-information challenger PAIRX and narrow the claim. (2) Use a matched factorial with META:D060B20 as P10, and gate META3 − META3_RESET. (3) Hard-enforce bank, arm set and content hashes in the runner and scorer; lock from the raw A artifact; nonzero exit on a miss. (4) Use a deterministic label-neutral SHAM, averaging the 10 post-clip outcomes. (5) Let EVO-R3 run on the locked L2 background, plus SV0. (6) Correct the exposure and inference language. (7) Fix the oracle telemetry. Forecast with the changes: 20% for B, 10% for B and C.
+- [x] Exploration on fresh seeds 2301–2316: META3 − PAIRX −1.84 (4/16); META3F − PAIRX +2.74 (13/16), but d₄ with PAIRX as the L2 base is −2.10 (1.28×). **L4-A WITHDRAWN before freeze**; never measured on a registered seed; banks released.
+- [ ] **L4-B:** new design advice from both advisors (Gemini 2401–2416, Astra 2501–2516). Constraints: the "L2 without L3" class must include same-information learners (PAIRX), and L3 should learn from L2's outcomes. Carry over all 7 of the review's required changes.
 - [ ] (4) Fixtures; commit registration before any registered measurement.
 - [ ] (5) Stage A lock; stage B (48 practice seeds).
 - [ ] (6) Final, once, only if B passes.
@@ -48,7 +50,7 @@ Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − F
 - 801–808 (Astra review checks)
 - 901 (fixtures)
 - Spent or reserved for L3-V: 919001–919016 (stage A), 918001–918048 (final, spent)
-- L4 exploration: 2001–2016 (Gemini), 2101–2116 (Astra), 2201–2232 (Astra review), 2901 (L4 fixtures). Reserved for L4-A: 937001–937016 (stage A), 936001–936048 (final)
+- L4 exploration: 2001–2016 (Gemini), 2101–2116 (Astra), 2201–2232 (Astra review), 2301–2316 (Claude, PAIRX check), 2901 (L4 fixtures); 2401–2416 (Gemini, L4-B), 2501–2516 (Astra, L4-B). L4-A banks 936001–936048 and 937001–937016 were never run (L4-A withdrawn); free for L4-B.
 
 ## L4 handoff notes (for the next loop, on DESKTOP-ESS5J5U)
 

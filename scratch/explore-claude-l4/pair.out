@@ -1,0 +1,11 @@
+FIXED   54.96
+META    57.65
+META3   62.81
+META3F  67.40
+PAIRX   64.65
+META3 - PAIRX                      -1.84 4/16 p 9.96e-1
+d4 META3 vs META:D060B20           3.82 15/16 p 1.22e-4
+d4 META3 vs PAIRX as L2            -6.69 0/16 p 1.00e+0
+META3F - PAIRX                     2.74 13/16 p 5.95e-4
+d4 META3F vs META:D060B20          8.41 16/16 p 1.53e-5
+d4 META3F vs PAIRX as L2           -2.10 5/16 p 9.90e-1

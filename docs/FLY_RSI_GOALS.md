@@ -573,7 +573,13 @@ Archive finite per-seed arm endpoints, actual extinctions, selected static, rout
   - a generalizing grammar;
   - anything about the default world, where L3 stays NOT SHOWN.
 
-## L4-A: learned L2 credit kernel (DRAFT, pending the Astra/Sol pre-freeze review; no registered measurement yet)
+## L4-A: learned L2 credit kernel (WITHDRAWN before freeze, 2026-11-27; never measured on a registered seed)
+
+> **Withdrawn before freeze.** The Astra/Sol pre-freeze review (`scratch/review-astra-l4a/`; its exploration used seeds 2201–2209) required gating a same-information single-level challenger, **PAIRX**. PAIRX uses the same learned and inherited pair memory G directly in proposals, with weights ∝ (.02+αᵢ)(.02+αⱼ)(.15+Gᵢⱼ), and keeps constant D060B20 alpha updates. Claude's disclosed exploration on fresh seeds **2301–2316** (`scratch/explore-claude-l4/`):
+> - FIXED 54.96, META:D060B20 57.65, META3 62.81, PAIRX 64.65, META3F (update rewrite **plus** G in proposals) 67.40.
+> - **META3 − PAIRX = −1.84 (4/16).** META3F − PAIRX = +2.74 (13/16, p 6e-4). However, treating PAIRX as the L2 that META3F's L3 sits on, d₄ is −2.10 and the ratio is 1.28×, below 1.5×.
+>
+> So most of L4-A's apparent compounding is a **richer L2 (pair memory)**, not an L3 that improves L2. The review agrees: G sees only L1's validations, never whether an L2 credit choice paid off. Banks 936001–936048 and 937001–937016 were never run and are released for later registrations. Stage-B seeds 101–116 and 301–332 were never run in this world. The 1.5× bar is unchanged. **Lesson for L4-B:** the comparator class for "L2 without L3" must include same-information single-level learners such as PAIRX. L3 should learn from L2's own outcomes, e.g. whether L2's credit assignments led to validations, not only from L1's validation stream.
 
 *Design: Gemini 4 Neon (META3_UPD, "learned L2 update kernel in a modular-partition world"). Control requirements: GPT-6.2 Astra / GPT-5.6 Sol (stage-A-locked constant L2; L3-V META descriptive only; fair EVO-R3 that contains the locked constant's family; factorial with a shadow controller). Implementation: Claude (Opus 5.5), on DESKTOP-ESS5J5U (Windows, Node v22.19.0). Every L4-A run, including the final, runs on this machine. L3-V keeps its recorded result; nothing is rescored.*
 
