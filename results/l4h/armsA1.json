@@ -1,0 +1,598 @@
+{
+ "arms": [
+  {
+   "kind": "lms",
+   "alpha": 0.004,
+   "name": "LMS_alpha0.004",
+   "family": "LMS"
+  },
+  {
+   "kind": "lms",
+   "alpha": 0.008,
+   "name": "LMS_alpha0.008",
+   "family": "LMS"
+  },
+  {
+   "kind": "lms",
+   "alpha": 0.016,
+   "name": "LMS_alpha0.016",
+   "family": "LMS"
+  },
+  {
+   "kind": "lms",
+   "alpha": 0.032,
+   "name": "LMS_alpha0.032",
+   "family": "LMS"
+  },
+  {
+   "kind": "lms",
+   "alpha": 0.064,
+   "name": "LMS_alpha0.064",
+   "family": "LMS"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.0001,
+   "R": 0.5,
+   "name": "KALRW_q0.0001_R0.5",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.0001,
+   "R": 1,
+   "name": "KALRW_q0.0001_R1",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.0001,
+   "R": 2,
+   "name": "KALRW_q0.0001_R2",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.001,
+   "R": 0.5,
+   "name": "KALRW_q0.001_R0.5",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.001,
+   "R": 1,
+   "name": "KALRW_q0.001_R1",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.001,
+   "R": 2,
+   "name": "KALRW_q0.001_R2",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.01,
+   "R": 0.5,
+   "name": "KALRW_q0.01_R0.5",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.01,
+   "R": 1,
+   "name": "KALRW_q0.01_R1",
+   "family": "KALRW"
+  },
+  {
+   "kind": "kalRW",
+   "q": 0.01,
+   "R": 2,
+   "name": "KALRW_q0.01_R2",
+   "family": "KALRW"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.001,
+   "alpha0": 0.003,
+   "name": "IDBD_theta0.001_alpha00.003",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.001,
+   "alpha0": 0.01,
+   "name": "IDBD_theta0.001_alpha00.01",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.003,
+   "alpha0": 0.003,
+   "name": "IDBD_theta0.003_alpha00.003",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.003,
+   "alpha0": 0.01,
+   "name": "IDBD_theta0.003_alpha00.01",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.01,
+   "alpha0": 0.003,
+   "name": "IDBD_theta0.01_alpha00.003",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.01,
+   "alpha0": 0.01,
+   "name": "IDBD_theta0.01_alpha00.01",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.03,
+   "alpha0": 0.003,
+   "name": "IDBD_theta0.03_alpha00.003",
+   "family": "IDBD"
+  },
+  {
+   "kind": "idbd",
+   "theta": 0.03,
+   "alpha0": 0.01,
+   "name": "IDBD_theta0.03_alpha00.01",
+   "family": "IDBD"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.003,
+   "alpha0": 0.003,
+   "name": "AUTO_mu0.003_alpha00.003",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.003,
+   "alpha0": 0.01,
+   "name": "AUTO_mu0.003_alpha00.01",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.01,
+   "alpha0": 0.003,
+   "name": "AUTO_mu0.01_alpha00.003",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.01,
+   "alpha0": 0.01,
+   "name": "AUTO_mu0.01_alpha00.01",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.03,
+   "alpha0": 0.003,
+   "name": "AUTO_mu0.03_alpha00.003",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.03,
+   "alpha0": 0.01,
+   "name": "AUTO_mu0.03_alpha00.01",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.1,
+   "alpha0": 0.003,
+   "name": "AUTO_mu0.1_alpha00.003",
+   "family": "AUTO"
+  },
+  {
+   "kind": "autostep",
+   "mu": 0.1,
+   "alpha0": 0.01,
+   "name": "AUTO_mu0.1_alpha00.01",
+   "family": "AUTO"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.003,
+   "q0": 0.001,
+   "R": 0.5,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.003_q00.001_R0.5_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.003,
+   "q0": 0.001,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.003_q00.001_R1_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.003,
+   "q0": 0.001,
+   "R": 2,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.003_q00.001_R2_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.01,
+   "q0": 0.001,
+   "R": 0.5,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.01_q00.001_R0.5_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.01,
+   "q0": 0.001,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.01_q00.001_R1_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.01,
+   "q0": 0.001,
+   "R": 2,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.01_q00.001_R2_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.03,
+   "q0": 0.001,
+   "R": 0.5,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.03_q00.001_R0.5_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.03,
+   "q0": 0.001,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.03_q00.001_R1_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.03,
+   "q0": 0.001,
+   "R": 2,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.03_q00.001_R2_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.1,
+   "q0": 0.001,
+   "R": 0.5,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.1_q00.001_R0.5_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.1,
+   "q0": 0.001,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.1_q00.001_R1_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalADQ",
+   "rho": 0.1,
+   "q0": 0.001,
+   "R": 2,
+   "inheritL2": true,
+   "name": "KALADQ_rho0.1_q00.001_R2_inheritL2true",
+   "family": "KALADQ"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.003,
+   "p0": 0.3,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.003_p00.3_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.003,
+   "p0": 0.3,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.003_p00.3_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.003,
+   "p0": 1,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.003_p01_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.003,
+   "p0": 1,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.003_p01_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.01,
+   "p0": 0.3,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.01_p00.3_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.01,
+   "p0": 0.3,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.01_p00.3_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.01,
+   "p0": 1,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.01_p01_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.01,
+   "p0": 1,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.01_p01_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.03,
+   "p0": 0.3,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.03_p00.3_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.03,
+   "p0": 0.3,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.03_p00.3_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.03,
+   "p0": 1,
+   "rho": 0.01,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.03_p01_rho0.01_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "kind": "kalSW",
+   "h": 0.03,
+   "p0": 1,
+   "rho": 0.05,
+   "R": 1,
+   "inheritL2": true,
+   "name": "KALSW_h0.03_p01_rho0.05_R1_inheritL2true",
+   "family": "KALSW"
+  },
+  {
+   "family": "DIRRLS",
+   "kind": "dirRLS",
+   "name": "DIRRLS_0.94_0.03",
+   "lambda": 0.94,
+   "rate": 0.03
+  },
+  {
+   "family": "DIRRLS",
+   "kind": "dirRLS",
+   "name": "DIRRLS_0.94_0.2",
+   "lambda": 0.94,
+   "rate": 0.2
+  },
+  {
+   "family": "DIRRLS",
+   "kind": "dirRLS",
+   "name": "DIRRLS_0.99_0.03",
+   "lambda": 0.99,
+   "rate": 0.03
+  },
+  {
+   "family": "DIRRLS",
+   "kind": "dirRLS",
+   "name": "DIRRLS_0.99_0.2",
+   "lambda": 0.99,
+   "rate": 0.2
+  },
+  {
+   "family": "SIGNGAIN",
+   "kind": "signGain",
+   "name": "SIGNGAIN_0.05",
+   "rate": 0.05
+  },
+  {
+   "family": "SIGNGAIN",
+   "kind": "signGain",
+   "name": "SIGNGAIN_0.25",
+   "rate": 0.25
+  },
+  {
+   "family": "SIGNGAIN",
+   "kind": "signGain",
+   "name": "SIGNGAIN_1",
+   "rate": 1
+  },
+  {
+   "family": "RMSADAM",
+   "kind": "rmsAdam",
+   "name": "RMSADAM_0.15_0.02",
+   "step": 0.15,
+   "rate": 0.02
+  },
+  {
+   "family": "RMSADAM",
+   "kind": "rmsAdam",
+   "name": "RMSADAM_0.15_0.15",
+   "step": 0.15,
+   "rate": 0.15
+  },
+  {
+   "family": "RMSADAM",
+   "kind": "rmsAdam",
+   "name": "RMSADAM_0.6_0.02",
+   "step": 0.6,
+   "rate": 0.02
+  },
+  {
+   "family": "RMSADAM",
+   "kind": "rmsAdam",
+   "name": "RMSADAM_0.6_0.15",
+   "step": 0.6,
+   "rate": 0.15
+  },
+  {
+   "family": "REPEATQR",
+   "kind": "repeatQR",
+   "name": "REPEATQR_false_0.05",
+   "carryR": false,
+   "rate": 0.05
+  },
+  {
+   "family": "REPEATQR",
+   "kind": "repeatQR",
+   "name": "REPEATQR_false_0.3",
+   "carryR": false,
+   "rate": 0.3
+  },
+  {
+   "family": "REPEATQR",
+   "kind": "repeatQR",
+   "name": "REPEATQR_true_0.05",
+   "carryR": true,
+   "rate": 0.05
+  },
+  {
+   "family": "REPEATQR",
+   "kind": "repeatQR",
+   "name": "REPEATQR_true_0.3",
+   "carryR": true,
+   "rate": 0.3
+  },
+  {
+   "family": "SHAREKF",
+   "kind": "shareKF",
+   "name": "SHAREKF_false_0.3_0.01_1",
+   "adaptive": false,
+   "rate": 0.3,
+   "share": 0.01,
+   "R": 1
+  },
+  {
+   "family": "SHAREKF",
+   "kind": "shareKF",
+   "name": "SHAREKF_false_0.3_0.08_1",
+   "adaptive": false,
+   "rate": 0.3,
+   "share": 0.08,
+   "R": 1
+  },
+  {
+   "family": "SHAREKF",
+   "kind": "shareKF",
+   "name": "SHAREKF_false_1_0.01_1",
+   "adaptive": false,
+   "rate": 1,
+   "share": 0.01,
+   "R": 1
+  },
+  {
+   "family": "SHAREKF",
+   "kind": "shareKF",
+   "name": "SHAREKF_false_1_0.08_1",
+   "adaptive": false,
+   "rate": 1,
+   "share": 0.08,
+   "R": 1
+  },
+  {
+   "family": "SHAREADQ",
+   "kind": "shareKF",
+   "name": "SHAREADQ_true_0.3_0.03_1_true",
+   "adaptive": true,
+   "rate": 0.3,
+   "share": 0.03,
+   "R": 1,
+   "borderline": true
+  },
+  {
+   "family": "SHAREADQ",
+   "kind": "shareKF",
+   "name": "SHAREADQ_true_1_0.03_1_true",
+   "adaptive": true,
+   "rate": 1,
+   "share": 0.03,
+   "R": 1,
+   "borderline": true
+  }
+ ],
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ]
+}
