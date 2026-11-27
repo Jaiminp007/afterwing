@@ -1,0 +1,132 @@
+{
+ "arms": [
+  {
+   "kind": "kalRW",
+   "q": 0.001,
+   "R": 2,
+   "name": "FIXED",
+   "family": "KALRW"
+  },
+  {
+   "kind": "static",
+   "name": "L2BEST",
+   "base": {
+    "family": "REPEATQR",
+    "kind": "repeatQR",
+    "name": "REPEATQR_true_0.05",
+    "carryR": true,
+    "rate": 0.05
+   },
+   "offset": -3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "nowrite",
+   "name": "SHAM_NOWRITE",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "randsign",
+   "name": "SHAM_RANDSIGN",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "reset",
+   "name": "RESET",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.3,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 0.75
+  }
+ ],
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ]
+}
