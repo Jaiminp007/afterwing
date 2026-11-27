@@ -1,0 +1,412 @@
+{
+ "arms": [
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g0",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g1",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.15,
+   "eta": 0.15,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g2",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.3,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g3",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 8,
+   "c": 0.3,
+   "eta": 0.15,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g4",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 16,
+   "c": 0.15,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g5",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 16,
+   "c": 0.15,
+   "eta": 0.15,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g6",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 16,
+   "c": 0.3,
+   "eta": 0.05,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "learn",
+   "name": "META3_g7",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "n": 16,
+   "c": 0.3,
+   "eta": 0.15,
+   "span": 3
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g0",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": false
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g1",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.1,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": false
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g2",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.1,
+   "sm": 0.5,
+   "span": 3.3,
+   "standing": false
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g3",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.3,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": false
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g4",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.3,
+   "sm": 0.5,
+   "span": 3.3,
+   "standing": false
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g5",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 0.75
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g6",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 3.3
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g7",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.1,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 0.75
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g8",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.1,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 3.3
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g9",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.3,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 0.75
+  },
+  {
+   "kind": "l3",
+   "l3": "evo",
+   "name": "EVOR_g10",
+   "base": {
+    "kind": "static",
+    "name": "STATIC_-3",
+    "base": {
+     "family": "REPEATQR",
+     "kind": "repeatQR",
+     "name": "REPEATQR_true_0.05",
+     "carryR": true,
+     "rate": 0.05
+    },
+    "offset": -3
+   },
+   "pm": 0.3,
+   "sm": 0.25,
+   "span": 3.3,
+   "standing": true,
+   "width": 3.3
+  }
+ ],
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ]
+}
