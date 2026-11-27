@@ -1,0 +1,32 @@
+=== Exp 12: L3 Rule & Toxin Tuning (toxin=0.72, seeds 3001-3008, 420.1s) ===
+  NOLEARN     pop= 33.57  gain=-59.02  skill=0.000  align=0.000  ext=0
+  FIX_030     pop= 90.90  gain=-1.69  skill=0.588  align=0.000  ext=0
+  FIX_050     pop= 92.59  gain=+ 0.00  skill=0.614  align=0.000  ext=0
+  AUTO_015    pop= 93.86  gain=+ 1.27  skill=0.639  align=0.000  ext=0
+  AUTO_025    pop= 93.89  gain=+ 1.30  skill=0.643  align=0.000  ext=0
+  DIR_Q_DIAG  pop= 93.67  gain=+ 1.08  skill=0.642  align=1.000  ext=0
+  DIR_Q_MIX5  pop= 90.71  gain=-1.88  skill=0.605  align=1.000  ext=0
+  EVO_E0      pop= 93.57  gain=+ 0.98  skill=0.641  align=0.616  ext=0
+  EVO_J25     pop= 93.49  gain=+ 0.90  skill=0.637  align=0.610  ext=0
+  EVO_SV0     pop= 93.26  gain=+ 0.67  skill=0.636  align=0.603  ext=0
+  EVO_SV25    pop= 93.21  gain=+ 0.62  skill=0.634  align=0.600  ext=0
+  SHAM_ICA    pop= 91.63  gain=-0.96  skill=0.607  align=0.532  ext=0
+  RST_ICA6    pop= 94.99  gain=+ 2.40  skill=0.660  align=0.621  ext=0
+  M3_ICA_3    pop= 94.39  gain=+ 1.80  skill=0.656  align=0.658  ext=0
+  M3_ICA_6    pop= 95.11  gain=+ 2.52  skill=0.663  align=0.665  ext=0
+  M3_ICA_12   pop= 94.83  gain=+ 2.24  skill=0.664  align=0.653  ext=0
+  RST_L2U1    pop= 94.61  gain=+ 2.02  skill=0.657  align=0.622  ext=0
+  M3_L2U_12   pop= 94.93  gain=+ 2.34  skill=0.659  align=0.684  ext=0
+  M3_L2U_25   pop= 95.20  gain=+ 2.61  skill=0.664  align=0.680  ext=0
+  ORACLE3     pop= 97.83  gain=+ 5.24  skill=0.710  align=1.000  ext=0
+
+Best FIXED: FIX_050 (92.59) | Best L2: AUTO_025 (93.89, gain=+1.30)
+  SHAM_ICA   vs AUTO_025  : d4=-2.91  ratio=-0.73x  signs=0/8  p=1.00e+0
+  RST_ICA6   vs AUTO_025  : d4=0.44  ratio=1.84x  signs=6/8  p=4.69e-2
+  M3_ICA_3   vs AUTO_025  : d4=-0.15  ratio=1.38x  signs=3/8  p=7.54e-1
+  M3_ICA_6   vs AUTO_025  : d4=0.57  ratio=1.94x  signs=6/8  p=2.73e-2
+  M3_ICA_12  vs AUTO_025  : d4=0.28  ratio=1.72x  signs=6/8  p=1.33e-1
+  RST_L2U1   vs AUTO_025  : d4=0.06  ratio=1.55x  signs=5/8  p=3.63e-1
+  M3_L2U_12  vs AUTO_025  : d4=0.38  ratio=1.79x  signs=5/8  p=1.29e-1
+  M3_L2U_25  vs AUTO_025  : d4=0.66  ratio=2.00x  signs=6/8  p=4.30e-2
+  ORACLE3    vs AUTO_025  : d4=3.29  ratio=4.02x  signs=8/8  p=3.91e-3

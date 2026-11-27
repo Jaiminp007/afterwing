@@ -1,0 +1,96 @@
+====================================================================
+L4-D PROTOCOL: ORTHOGONAL-FRAME STEP-SIZE HIERARCHY
+World cfg: {"nBlocks":2,"blockSize":8,"nFast":1,"toxin":0.78,"blockEvery":3400,"modeEvery":1000,"driftEvery":200,"slowDriftEvery":1000,"ticks":20000,"every":100,"lateFrom":10000}
+====================================================================
+
+=== STAGE 1A: TUNING FIXED & ALL L2 CHALLENGERS ON SEEDS 3001-3016 (30 arms x 16 seeds) ===
+  NOLEARN       pop= 22.65  skill=0.000  ext=0
+  FIX_015       pop= 77.15  skill=0.570  ext=0
+  FIX_030       pop= 84.26  skill=0.649  ext=0
+  FIX_040       pop= 86.50  skill=0.673  ext=0
+  FIX_050       pop= 87.65  skill=0.684  ext=0
+  FIX_065       pop= 87.49  skill=0.681  ext=0
+  FIX_080       pop= 85.20  skill=0.654  ext=0
+  IDBD_005      pop= 87.28  skill=0.678  ext=0
+  IDBD_015      pop= 88.57  skill=0.696  ext=0
+  IDBD_030      pop= 89.27  skill=0.704  ext=0
+  IDBD_060      pop= 85.19  skill=0.664  ext=0
+  AUTO_010      pop= 88.83  skill=0.695  ext=0
+  AUTO_018      pop= 89.32  skill=0.702  ext=0
+  AUTO_025      pop= 89.19  skill=0.704  ext=0
+  AUTO_035      pop= 88.91  skill=0.700  ext=0
+  AUTO_050      pop= 87.73  skill=0.689  ext=0
+  RMS_010       pop= 84.90  skill=0.651  ext=0
+  RMS_020       pop= 87.80  skill=0.685  ext=0
+  SNR_025       pop= 78.40  skill=0.605  ext=0
+  COVW_02       pop= 87.83  skill=0.724  ext=0
+  COVDW_005     pop= 88.37  skill=0.713  ext=0
+  COVDW_01      pop= 88.54  skill=0.718  ext=0
+  COVDW_03      pop= 84.13  skill=0.677  ext=0
+  COVDT_01      pop= 85.25  skill=0.674  ext=0
+  DIR_Q_CONST   pop= 87.65  skill=0.684  ext=0
+  DIR_Q_DIAG    pop= 89.43  skill=0.704  ext=0
+  DIR_Q_RAWL2   pop= 85.93  skill=0.662  ext=0
+  DIR_DU_10     pop= 89.33  skill=0.703  ext=0
+  DIR_DU_25     pop= 86.02  skill=0.678  ext=0
+  DIR_DT_15     pop= 88.43  skill=0.700  ext=0
+Stage 1A done in 464.8s.
+LOCKED FROM 1A: FIXED=FIX_050, IDBD=IDBD_030, AUTO=AUTO_018, RMS=RMS_020, MAT=COVDW_01, DIRECT=DIR_Q_DIAG => L2best=DIR_Q_DIAG
+
+=== STAGE 1B: TUNING META3 & EVO-R3 ON LOCKED mu=0.18 (3001-3016, 11 arms x 16 seeds) ===
+  M3_BTH_12_Q5   pop= 91.87  skill=0.737  align=0.849  ext=0
+  M3_BTH_18_Q8   pop= 91.64  skill=0.736  align=0.846  ext=0
+  M3_BTH_24_Q10  pop= 91.54  skill=0.736  align=0.839  ext=0
+  EVO_E0         pop= 89.32  skill=0.702  align=0.656  ext=0
+  EVO_J10        pop= 89.16  skill=0.703  align=0.655  ext=0
+  EVO_J25        pop= 89.38  skill=0.703  align=0.655  ext=0
+  EVO_J50        pop= 88.70  skill=0.702  align=0.655  ext=0
+  EVO_SV0        pop= 88.71  skill=0.704  align=0.662  ext=0
+  EVO_SV25       pop= 88.54  skill=0.705  align=0.660  ext=0
+  EVO_SV50       pop= 88.75  skill=0.702  align=0.659  ext=0
+  ORACLE3        pop= 96.23  skill=0.789  align=1.000  ext=0
+Lockstep check max|EVO_E0 - AUTO_018| = 0.00e+0
+Stage 1B done in 260.2s.
+LOCKED FROM 1B: META3=M3_BTH_12_Q5, EVO-R3=EVO_J25
+Tuning d4(META3 vs DIR_Q_DIAG): mean=1.56, ratio=2.38x, signs=15/16, p=3.05e-5
+Tuning d4(ORACLE3 vs DIR_Q_DIAG): mean=5.92, ratio=4.84x, signs=16/16, p=1.53e-5
+
+=== STAGE 2: HELD-OUT EVALUATION ON SEEDS 3017-3032 (RUN ONCE, 13 arms x 16 seeds) ===
+  NOLEARN       pop= 23.70  gain=-64.45  skill=0.000  align=0.000  ext=0
+  FIXED_LOCK    pop= 88.15  gain=+  0.00  skill=0.681  align=0.000  ext=0
+  META3OFF      pop= 88.15  gain=+  0.00  skill=0.681  align=1.000  ext=0
+  IDBD_LOCK     pop= 89.36  gain=+  1.21  skill=0.698  align=0.000  ext=0
+  AUTO_LOCK     pop= 89.47  gain=+  1.33  skill=0.698  align=0.000  ext=0
+  RMS_LOCK      pop= 88.14  gain= -0.01  skill=0.682  align=0.000  ext=0
+  MAT_LOCK      pop= 89.00  gain=+  0.86  skill=0.714  align=0.000  ext=0
+  DIRECT_LOCK   pop= 89.54  gain=+  1.39  skill=0.699  align=1.000  ext=0
+  META3_LOCK    pop= 91.88  gain=+  3.73  skill=0.731  align=0.850  ext=0
+  SHAM3         pop= 87.87  gain= -0.28  skill=0.686  align=0.612  ext=0
+  META3_RESET   pop= 90.27  gain=+  2.12  skill=0.706  align=0.665  ext=0
+  EVO_LOCK      pop= 89.44  gain=+  1.30  skill=0.699  align=0.648  ext=0
+  ORACLE3       pop= 96.07  gain=+  7.92  skill=0.783  align=1.000  ext=0
+
+Held-out factorial P01 invariance max|META3OFF - FIXED_LOCK| = 0.00e+0
+Locked L2best = DIR_Q_DIAG (DIRECT_LOCK)
+
+--- HELD-OUT CONTRASTS (seeds 3017-3032, n=16, exact one-sided sign-flip p) ---
+  L2best (DIR_Q_DIAG) - FIXED          mean=+1.39  CI=[0.99, 1.84]  signs=16/16  p=1.53e-5
+  META3 (M3_BTH_12_Q5) - FIXED         mean=+3.73  CI=[3.32, 4.15]  signs=16/16  p=1.53e-5
+  d4(META3 vs DIR_Q_DIAG)              mean=+1.64  CI=[1.08, 2.23]  signs=13/16  p=1.22e-4  ratio=2.68x (skill=2.86x)
+  matched f4 (P10=DIR_Q_DIAG)          mean=+1.64  CI=[1.08, 2.23]  signs=13/16  p=1.22e-4
+  d4(ORACLE3 vs DIR_Q_DIAG)            mean=+5.84  CI=[5.19, 6.53]  signs=16/16  p=1.53e-5  ratio=5.69x
+  META3 - L2best                       mean=+2.34  CI=[1.92, 2.78]  signs=16/16  p=1.53e-5
+  META3 - SHAM3                        mean=+4.01  CI=[3.62, 4.39]  signs=16/16  p=1.53e-5
+  META3 - EVO_LOCK (EVO_J25)           mean=+2.43  CI=[2.01, 2.86]  signs=16/16  p=1.53e-5
+  META3 - META3_RESET                  mean=+1.61  CI=[1.25, 1.97]  signs=16/16  p=1.53e-5
+
+--- HELD-OUT d4 VS EVERY INDIVIDUAL L2 CHALLENGER LOCK ---
+  d4(META3 vs IDBD_030)                mean=+1.91  CI=[1.37, 2.51]  signs=16/16  p=1.53e-5  ratio=3.08x
+  d4(META3 vs AUTO_018)                mean=+1.74  CI=[1.16, 2.37]  signs=14/16  p=6.10e-5  ratio=2.81x
+  d4(META3 vs RMS_020)                 mean=+3.74  CI=[3.22, 4.33]  signs=16/16  p=1.53e-5  ratio=-373.00x
+  d4(META3 vs COVDW_01)                mean=+2.44  CI=[1.86, 3.03]  signs=16/16  p=1.53e-5  ratio=4.35x
+  d4(META3 vs DIR_Q_DIAG)              mean=+1.64  CI=[1.08, 2.23]  signs=13/16  p=1.22e-4  ratio=2.68x
+
+Fresh 48-seed power estimate for d4>0, p<0.01 (from held-out mean=1.64, sd=1.20): ~100.0%
+Total runtime: 994.6s (Stage 2: 269.6s)
+Saved raw artifact: scratch/advice-gemini-l4d/l4d_results.json

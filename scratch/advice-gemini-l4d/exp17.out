@@ -1,0 +1,22 @@
+=== Exp 17: Fine eta3 & du_both Tuning (2x8, seeds 3001-3008, 160.9s) ===
+  FIX_050    pop= 87.33  gain=+ 0.00  skill=0.604  align=0.000
+  AUTO_025   pop= 90.41  gain=+ 3.09  skill=0.651  align=0.000
+  M3_DU_02   pop= 90.71  gain=+ 3.39  skill=0.663  align=0.725
+  M3_DU_04   pop= 91.67  gain=+ 4.34  skill=0.678  align=0.775
+  M3_DU_07   pop= 91.60  gain=+ 4.27  skill=0.685  align=0.816
+  M3_BTH_02  pop= 90.95  gain=+ 3.62  skill=0.668  align=0.749
+  M3_BTH_04  pop= 92.20  gain=+ 4.88  skill=0.685  align=0.814
+  M3_BTH_07  pop= 92.89  gain=+ 5.57  skill=0.698  align=0.856
+  RST_BTH04  pop= 90.40  gain=+ 3.08  skill=0.656  align=0.669
+  SHAM_BTH4  pop= 88.92  gain=+ 1.60  skill=0.643  align=0.653
+  ORACLE3    pop= 97.94  gain=+10.61  skill=0.770  align=1.000
+
+  M3_DU_02   vs AUTO_025: d4=-1.25  ratio=1.10x  signs=0/8  p=1.00e+0
+  M3_DU_04   vs AUTO_025: d4=-0.29  ratio=1.41x  signs=4/8  p=7.81e-1
+  M3_DU_07   vs AUTO_025: d4=-0.36  ratio=1.38x  signs=3/8  p=8.16e-1
+  M3_BTH_02  vs AUTO_025: d4=-1.01  ratio=1.17x  signs=0/8  p=1.00e+0
+  M3_BTH_04  vs AUTO_025: d4=0.25  ratio=1.58x  signs=5/8  p=2.73e-1
+  M3_BTH_07  vs AUTO_025: d4=0.94  ratio=1.80x  signs=6/8  p=4.69e-2
+  RST_BTH04  vs AUTO_025: d4=-1.56  ratio=1.00x  signs=0/8  p=1.00e+0
+  SHAM_BTH4  vs AUTO_025: d4=-3.04  ratio=0.52x  signs=0/8  p=1.00e+0
+  ORACLE3    vs AUTO_025: d4=5.98  ratio=3.44x  signs=8/8  p=3.91e-3

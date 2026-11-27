@@ -1,0 +1,16 @@
+=== Exp 19: qAge Damping + Faster Mode Coverage (2500/750/180, seeds 3001-3008, 101.8s) ===
+  FIX_050    pop= 86.08  gain=+ 0.00  skill=0.587  align=0.000
+  AUTO_025   pop= 86.20  gain=+ 0.12  skill=0.608  align=0.000
+  COVDW_01   pop= 85.92  gain=-0.16  skill=0.639  align=0.000
+  BTH_08     pop= 88.91  gain=+ 2.83  skill=0.653  align=0.854
+  BTH_12_Q3  pop= 88.60  gain=+ 2.52  skill=0.649  align=0.850
+  BTH_18_Q2  pop= 88.27  gain=+ 2.19  skill=0.651  align=0.851
+  BTH_18_Q5  pop= 89.14  gain=+ 3.06  skill=0.655  align=0.867
+  ORACLE3    pop= 92.47  gain=+ 6.39  skill=0.702  align=1.000
+
+Best L2: AUTO_025 (86.20, gain=+0.12)
+  BTH_08     vs AUTO_025: d4=2.64  ratio=23.06x  signs=8/8  p=3.91e-3
+  BTH_12_Q3  vs AUTO_025: d4=2.34  ratio=20.56x  signs=8/8  p=3.91e-3
+  BTH_18_Q2  vs AUTO_025: d4=2.01  ratio=17.89x  signs=8/8  p=3.91e-3
+  BTH_18_Q5  vs AUTO_025: d4=2.87  ratio=24.97x  signs=8/8  p=3.91e-3
+  ORACLE3    vs AUTO_025: d4=6.21  ratio=52.20x  signs=8/8  p=3.91e-3

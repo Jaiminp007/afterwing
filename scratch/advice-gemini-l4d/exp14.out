@@ -1,0 +1,22 @@
+=== Exp 14: DT_ICA Verification in Full Ecology (toxin=0.78, seeds 3001-3008, 254.2s) ===
+  NOLEARN     pop= 23.83  gain=-65.84  skill=0.000  align=0.000  ext=0
+  FIX_050     pop= 89.67  gain=+ 0.00  skill=0.613  align=0.000  ext=0
+  AUTO_020    pop= 91.06  gain=+ 1.39  skill=0.642  align=0.000  ext=0
+  DIR_DT_10   pop= 90.95  gain=+ 1.27  skill=0.643  align=0.000  ext=0
+  COV_DT_02   pop= 85.70  gain=-3.97  skill=0.586  align=0.000  ext=0
+  SHAM_DT     pop= 89.05  gain=-0.62  skill=0.617  align=0.564  ext=0
+  RST_DT      pop= 91.05  gain=+ 1.38  skill=0.645  align=0.619  ext=0
+  M3_DT_08    pop= 91.23  gain=+ 1.55  skill=0.646  align=0.666  ext=0
+  M3_DT_15    pop= 90.84  gain=+ 1.17  skill=0.640  align=0.672  ext=0
+  M3_DT_30    pop= 89.80  gain=+ 0.13  skill=0.626  align=0.617  ext=0
+  M3_DIR_08   pop= 90.14  gain=+ 0.47  skill=0.637  align=0.660  ext=0
+  ORACLE3     pop= 95.24  gain=+ 5.56  skill=0.712  align=1.000  ext=0
+
+Best L2: AUTO_020 (91.06, gain=+1.39)
+  SHAM_DT    vs AUTO_020: d4=-2.71  ratio=-0.45x  signs=0/8  p=1.00e+0
+  RST_DT     vs AUTO_020: d4=-0.71  ratio=0.99x  signs=1/8  p=9.92e-1
+  M3_DT_08   vs AUTO_020: d4=-0.53  ratio=1.12x  signs=3/8  p=9.14e-1
+  M3_DT_15   vs AUTO_020: d4=-0.91  ratio=0.84x  signs=1/8  p=9.92e-1
+  M3_DT_30   vs AUTO_020: d4=-1.96  ratio=0.09x  signs=0/8  p=1.00e+0
+  M3_DIR_08  vs AUTO_020: d4=-1.62  ratio=0.34x  signs=0/8  p=1.00e+0
+  ORACLE3    vs AUTO_020: d4=3.48  ratio=4.00x  signs=8/8  p=3.91e-3

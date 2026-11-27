@@ -1,0 +1,14 @@
+=== Exp 20: Sweet-Spot Check (3400/1000/200, seeds 3001-3008, 83.0s) ===
+  FIX_050    pop= 89.44  gain=+ 0.00  skill=0.702  align=0.000
+  AUTO_025   pop= 91.39  gain=+ 1.95  skill=0.723  align=0.000
+  COVDW_01   pop= 90.52  gain=+ 1.08  skill=0.734  align=0.000
+  BTH_12_Q5  pop= 93.94  gain=+ 4.50  skill=0.761  align=0.872
+  BTH_18_Q5  pop= 94.01  gain=+ 4.56  skill=0.760  align=0.885
+  BTH_18_Q8  pop= 94.39  gain=+ 4.94  skill=0.762  align=0.882
+  ORACLE3    pop= 98.81  gain=+ 9.36  skill=0.812  align=1.000
+
+Best L2: AUTO_025 (91.39, gain=+1.95, signs=8/8, p=3.91e-3)
+  BTH_12_Q5  vs AUTO_025: d4=1.58  ratio=2.31x  signs=7/8  p=7.81e-3
+  BTH_18_Q5  vs AUTO_025: d4=1.64  ratio=2.34x  signs=7/8  p=7.81e-3
+  BTH_18_Q8  vs AUTO_025: d4=2.02  ratio=2.54x  signs=7/8  p=7.81e-3
+  ORACLE3    vs AUTO_025: d4=6.44  ratio=4.81x  signs=8/8  p=3.91e-3

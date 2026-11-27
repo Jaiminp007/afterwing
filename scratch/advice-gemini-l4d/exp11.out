@@ -1,0 +1,31 @@
+=== Exp 11: L4-D Full Microverse Ecology Headroom (seeds 3001-3008, 296.9s) ===
+  NOLEARN       pop=  0.00  gain=-84.47  skill=0.000  align=0.000  ext=8
+  FIX_015       pop= 76.13  gain=-8.35  skill=0.516  align=0.000  ext=0
+  FIX_030       pop= 82.98  gain=-1.50  skill=0.586  align=0.000  ext=0
+  FIX_050       pop= 84.47  gain=+ 0.00  skill=0.611  align=0.000  ext=0
+  FIX_080       pop= 75.60  gain=-8.88  skill=0.533  align=0.000  ext=0
+  META3OFF_050  pop= 84.47  gain=+ 0.00  skill=0.611  align=1.000  ext=0
+  IDBD_010      pop= 85.13  gain=+ 0.65  skill=0.622  align=0.000  ext=0
+  IDBD_030      pop= 85.76  gain=+ 1.29  skill=0.638  align=0.000  ext=0
+  AUTO_010      pop= 85.79  gain=+ 1.32  skill=0.629  align=0.000  ext=0
+  AUTO_020      pop= 85.74  gain=+ 1.26  skill=0.641  align=0.000  ext=0
+  AUTO_035      pop= 85.75  gain=+ 1.27  skill=0.640  align=0.000  ext=0
+  RMS_010       pop= 82.56  gain=-1.91  skill=0.582  align=0.000  ext=0
+  SNR_030       pop= 71.44  gain=-13.03  skill=0.500  align=0.000  ext=0
+  COVW_02       pop= 79.02  gain=-5.45  skill=0.588  align=0.000  ext=0
+  COVDW_01      pop= 80.20  gain=-4.27  skill=0.596  align=0.000  ext=0
+  COVDW_04      pop= 74.32  gain=-10.15  skill=0.541  align=0.000  ext=0
+  DIR_Q_RAWL2   pop= 72.54  gain=-11.94  skill=0.502  align=1.000  ext=0
+  SHAM3_25      pop= 82.85  gain=-1.63  skill=0.601  align=0.501  ext=0
+  M3_RESET      pop= 87.58  gain=+ 3.11  skill=0.662  align=0.624  ext=0
+  META3_15      pop= 87.52  gain=+ 3.05  skill=0.659  align=0.687  ext=0
+  META3_30      pop= 88.09  gain=+ 3.62  skill=0.662  align=0.673  ext=0
+  ORACLE3       pop= 90.98  gain=+ 6.50  skill=0.710  align=1.000  ext=0
+
+Factorial P01 invariance check max|META3OFF_050 - FIX_050| = 0.00e+0
+Best FIXED: FIX_050 (84.47) | Best Challenger: AUTO_010 (85.79, gain=+1.32)
+  SHAM3_25   vs AUTO_010   : d4=-3.60  ratio=-1.23x  signs=0/8  p=1.00e+0
+  M3_RESET   vs AUTO_010   : d4=1.13  ratio=2.36x  signs=7/8  p=7.81e-3
+  META3_15   vs AUTO_010   : d4=1.08  ratio=2.32x  signs=6/8  p=1.56e-2
+  META3_30   vs AUTO_010   : d4=1.65  ratio=2.75x  signs=7/8  p=7.81e-3
+  ORACLE3    vs AUTO_010   : d4=4.53  ratio=4.94x  signs=8/8  p=3.91e-3

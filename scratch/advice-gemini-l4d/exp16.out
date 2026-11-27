@@ -1,0 +1,24 @@
+=== Exp 16: 2x8 (D=16, nFast=1, toxin=0.78) Ecology Check (seeds 3001-3008, 166.6s) ===
+  NOLEARN    pop= 23.81  gain=-63.51  skill=0.000  align=0.000  ext=0
+  FIX_030    pop= 84.04  gain=-3.28  skill=0.566  align=0.000  ext=0
+  FIX_050    pop= 87.33  gain=+ 0.00  skill=0.604  align=0.000  ext=0
+  FIX_080    pop= 84.96  gain=-2.36  skill=0.586  align=0.000  ext=0
+  AUTO_015   pop= 89.71  gain=+ 2.38  skill=0.644  align=0.000  ext=0
+  AUTO_025   pop= 90.41  gain=+ 3.09  skill=0.651  align=0.000  ext=0
+  COVDW_01   pop= 89.62  gain=+ 2.29  skill=0.680  align=0.000  ext=0
+  COVDW_04   pop= 82.76  gain=-4.57  skill=0.624  align=0.000  ext=0
+  COVW_02    pop= 87.88  gain=+ 0.55  skill=0.665  align=0.000  ext=0
+  SHAM_DU    pop= 86.56  gain=-0.77  skill=0.608  align=0.564  ext=0
+  RST_DU     pop= 90.56  gain=+ 3.23  skill=0.662  align=0.677  ext=0
+  M3_DU_10   pop= 91.79  gain=+ 4.47  skill=0.684  align=0.824  ext=0
+  M3_DU_18   pop= 91.04  gain=+ 3.71  skill=0.676  align=0.793  ext=0
+  M3_DU_30   pop= 89.87  gain=+ 2.54  skill=0.664  align=0.707  ext=0
+  ORACLE3    pop= 97.13  gain=+ 9.81  skill=0.756  align=1.000  ext=0
+
+Best FIXED: FIX_050 (87.33) | Best L2: AUTO_025 (90.41, gain=+3.09)
+  SHAM_DU    vs AUTO_025: d4=-5.40  ratio=-0.25x  signs=0/8  p=1.00e+0
+  RST_DU     vs AUTO_025: d4=-1.40  ratio=1.05x  signs=2/8  p=9.80e-1
+  M3_DU_10   vs AUTO_025: d4=-0.16  ratio=1.45x  signs=4/8  p=6.33e-1
+  M3_DU_18   vs AUTO_025: d4=-0.92  ratio=1.20x  signs=3/8  p=8.83e-1
+  M3_DU_30   vs AUTO_025: d4=-2.09  ratio=0.82x  signs=2/8  p=9.88e-1
+  ORACLE3    vs AUTO_025: d4=5.17  ratio=3.18x  signs=7/8  p=7.81e-3

@@ -1,0 +1,16 @@
+=== Exp 18: Peak eta3 & slowScale Tuning (2x8, seeds 3001-3008, 116.5s) ===
+  FIX_050    pop= 87.33  gain=+ 0.00  skill=0.604  align=0.000
+  AUTO_025   pop= 90.41  gain=+ 3.09  skill=0.651  align=0.000
+  BTH_11     pop= 92.87  gain=+ 5.55  skill=0.701  align=0.861
+  BTH_16     pop= 92.34  gain=+ 5.01  skill=0.695  align=0.840
+  BTH_22     pop= 92.02  gain=+ 4.69  skill=0.690  align=0.817
+  BTH1_11    pop= 92.47  gain=+ 5.14  skill=0.696  align=0.845
+  BTH1_16    pop= 91.71  gain=+ 4.39  skill=0.688  align=0.816
+  BTH1_16_R  pop= 90.46  gain=+ 3.13  skill=0.665  align=0.686
+
+  BTH_11     vs AUTO_025: d4=0.91  ratio=1.80x  signs=5/8  p=9.38e-2
+  BTH_16     vs AUTO_025: d4=0.38  ratio=1.62x  signs=5/8  p=2.89e-1
+  BTH_22     vs AUTO_025: d4=0.06  ratio=1.52x  signs=5/8  p=4.65e-1
+  BTH1_11    vs AUTO_025: d4=0.51  ratio=1.67x  signs=5/8  p=2.07e-1
+  BTH1_16    vs AUTO_025: d4=-0.25  ratio=1.42x  signs=4/8  p=6.64e-1
+  BTH1_16_R  vs AUTO_025: d4=-1.50  ratio=1.01x  signs=0/8  p=1.00e+0
