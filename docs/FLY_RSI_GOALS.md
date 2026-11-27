@@ -572,3 +572,120 @@ Archive finite per-seed arm endpoints, actual extinctions, selected static, rout
   - a learned form for the controller;
   - a generalizing grammar;
   - anything about the default world, where L3 stays NOT SHOWN.
+
+## L4-A: learned L2 credit kernel (DRAFT, pending the Astra/Sol pre-freeze review; no registered measurement yet)
+
+*Design: Gemini 4 Neon (META3_UPD, "learned L2 update kernel in a modular-partition world"). Control requirements: GPT-6.2 Astra / GPT-5.6 Sol (stage-A-locked constant L2; L3-V META descriptive only; fair EVO-R3 that contains the locked constant's family; factorial with a shadow controller). Implementation: Claude (Opus 5.5), on DESKTOP-ESS5J5U (Windows, Node v22.19.0). Every L4-A run, including the final, runs on this machine. L3-V keeps its recorded result; nothing is rescored.*
+
+**Claim (narrow).** One level above L3-V. In a constructed foraging world, an **inherited, experience-updated L3 controller improves the L2 update rule** (how L2 assigns credit and how fast it forgets). It makes L2's gain over the fixed L1 search at least 1.5× the gain of the **best locked constant L2**. The bar is the original one moved up a level: mean d₄ = (META3 − FIXED) − 1.5 (META − FIXED) > 0.
+
+**Prior exposure (disclosed).**
+- **Gemini, seeds 2001–2016.** It explored forgetting-rate controllers (≤ 1.46×), alternating-regime worlds (oracle ≤ 1.23×), and modular-partition designs. It **chose this design and all of META3's constants on those seeds**: gDecay .0002, gInc 1, gCap 10, gHalf 2, spread threshold .25, suppression threshold .5 and rate .65, hiDecay .18, confidence normalizer 12, base L2 D060B20 with cap 60. The 16-seed check: d₄ +3.02, 12/16, ratio 2.39×, against the best constant of its in-sample grid.
+- **Astra/Sol, seeds 2101–2116.** Three other L4 worlds (credit map, forgetting, cue routing). None passed against a tuned constant L2.
+- **Claude.**
+  - Reproduced Gemini's prototype exactly on seed 2001 (7 arms). No design choice followed that print.
+  - Ran one determinism check of the committed L3-V stage-A row 919001 FIXED_DECK.
+  - Ran the fixtures on seed 2901, which print no contrasts.
+- Seeds 2001–2016, 2101–2116 and 2901 are never used again for this line.
+- **The L4 world was never run on 101–116 or 301–332**, so stage B is not selection-exposed in this world. Those seeds are reused from earlier worlds (disclosed).
+
+### World (`microverse/l4.mjs`; self-contained copy of the L3-V world; `l3v.mjs` and `sim.mjs` untouched)
+
+- The L3-V ecology, brain, L0 and L1 are unchanged: 40×40 grid, 9 patches, 20,000 ticks, 60 founders, capacity 400, 12-bit odors, 32 balanced kinds redrawn every 30 ticks, K 6, admission z 3.3, prune 1.5, grace 10.
+- **New rule schedule.**
+  - Per seed, the 12 bits split into **3 hidden disjoint 4-bit modules**, drawn on the exogenous rule stream.
+  - The causal subset S is one module. Every **1,500** ticks, S switches uniformly to one of the other two modules.
+  - Inside S, the target pair (never the previous pair) and its sign are redrawn every **250** ticks.
+  - The fly sees only odors and noisy taste labels.
+- Every arm has the same proposal floor .02. Every arm except L3V uses cap 60.
+- **Paired arms face the same external world:** exogenous rule, codebook, patch and plant-kind streams, verified tickwise.
+
+### Levels and arms
+
+- **L2 (constant).** Every 4 evidence bites, alpha decays toward 1 at the variant's rate. Each validated mask (past grace, |w| ≥ 2.5) adds the variant's boost to both its bits, capped. L1 samples pairs ∝ (.02 + αᵢ)(.02 + αⱼ). Children copy alpha.
+- **L3 (META3).** Each fly carries a 12×12 symmetric matrix **G**, inherited by copy.
+  - At each L2 step, G decays by .0002, then each validated mask (a, b) adds 1 to G[a][b], capped at 10.
+  - G then rewrites that L2 step, on base L2 D060B20:
+    - **decay** = .06 + c·(.18 − .06), where c = min(1, Σᵢ<ⱼ min(1, Gᵢⱼ/2)/12);
+    - for each validated (a, b), each other bit k gets score sₖ = min(1, (G[a][k] + G[b][k])/2);
+    - bits with sₖ > .25 get boost·sₖ;
+    - if max s > .5, the remaining bits are pulled toward 1 at rate .65.
+  - **L1 never reads G** (fixture F6).
+
+| Arm | Program |
+|---|---|
+| NOREV | no structural revision |
+| FIXED | L1 with a per-fly shuffled deck of all 66 pairs. **Fixed a priori, not locked.** It was L3-V's locked FIXED. Because d₄ *increases* with FIXED, choosing the best fixed search here would be anti-conservative. FIXED_U is reported. |
+| **META** (gated) | constant L2; the variant is **locked in stage A** from `L2_GRID`: decay {.006, .015, .03, .06, .10, .15, .20} × boost {4, 12, 20, 40} at cap 60, plus L3V (the frozen L3-V META: .006, 4, cap 30). 29 variants. META3's base D060B20 is one of them. |
+| **META3** | L2 D060B20 + L3 as above (fixed, independent of the lock) |
+| **SHAM3** (gated) | **Information-neutral.** META3's exact G learning, confidence-driven decay and inheritance. Before every use, the 10 partner scores are freshly permuted among the 10 other bits on a dedicated stream. So the spread and suppression mass is kept, but which bits receive it carries no information. |
+| **EVO-R3** (gated) | META3's G-driven L2 rule on G, which is inherited with birth mutation only; no in-life G learning. Variant locked in stage A from `EVOR3_GRID`: E0 (G = 0, which is tickwise META:D060B20); jump J10/J25/J50 (with pm, two random pairs set to 5 or 0); standing variation SV10/SV25/SV50 (each founder a random 3×4 partition at G = 5; with pm, two bits swap G rows). |
+| META3OFF | factorial cell P01. L2 off (deck proposals) while META3's whole G and alpha computation runs in shadow and is never read. Must equal FIXED tickwise. |
+| META3_RESET | *descriptive:* META3, but the newborn's G starts at 0 (alpha still inherited); isolates G inheritance |
+| ORACLE3 | *diagnostic:* G fixed to the true partition at 10, no G learning |
+| META:L3V, FIXED_U | *descriptive* |
+
+### Stages (one attempt each; stop at the first miss; no reruns)
+
+**A. Lock META and EVO-R3 (fresh seeds 937001–937016).**
+- Run the 29 META variants and the 7 EVO-R3 variants (576 runs). No META3, SHAM3 or FIXED run.
+- The lock is the highest mean late population. Exact tie: earlier grid entry.
+- Commit the lock (`l4-score.mjs lock`) before B.
+
+**B. Qualification (101–116 and 301–332, 48 seeds).** Run NOREV, FIXED, FIXED_U, locked META, META:L3V (if not locked), META3, META3OFF, SHAM3, locked EVO-R3, META3_RESET and ORACLE3. Every gate must pass.
+
+**C. Final (936001–936048, once).** Run only if B passes, with the same arms, gates and frozen code.
+
+**Budget.** One batch each for A, B and C. After a miss, nothing changes: no parameter, world, gate or seed batch. If B misses, L4-A closes, and any next design is registered under a new name with new seeds.
+
+### Gates (all must pass on B and again on C)
+
+**Scorer:** `microverse/l4-score.mjs`, frozen with this text.
+- **Endpoint:** the integer sum P of live population at ticks 10,100–20,000, every 100 ticks (100 samples), extinction zeros included.
+- **Contrasts are exact integers:** margins in 1/100 fly; d₄ = 2P_META3 − 3P_META + P_FIXED, in 1/200 fly.
+- **Test:** exact one-sided sign-flip (`docs/paper/stats.mjs`), p < .01. Sign counts use an exact binomial.
+- **The scorer rejects:**
+  - batches from uncommitted code;
+  - missing, duplicate or non-integer rows;
+  - batch seeds that overlap the stage-A seeds;
+  - any seed where META3OFF ≠ FIXED, which is an implementation error. `f₄ = d₄` is an integrity identity, not independent replication.
+
+1. **L3 margins:** observed means META3 − META ≥ 1.0, META3 − SHAM3 ≥ 1.0 and META3 − EVO-R3 ≥ 1.0, each also significant against zero.
+2. **L4:** mean d₄ > 0, significant.
+3. **Factorial:** f₄ = 2(P11 − P01) − 3(P10 − P00) > 0, significant, with f₄ > 0 on ≥ 33/48 seeds. Here P00 = FIXED, P10 = META, P01 = META3OFF and P11 = META3.
+4. **Ordinary L2:** META − FIXED > 0, significant. Without this, the ratio is meaningless.
+5. **Ordinary L1:** FIXED − NOREV > 0, significant.
+
+**Reported, never gating:**
+- the ratio (META3 − FIXED)/(META − FIXED), and the skill ratio;
+- META3 − META3_RESET (a G-inheritance benefit is claimed only at p < .01);
+- the d₄ oracle headroom;
+- d₄ against frozen L3-V META;
+- extinctions;
+- the G share inside the true modules;
+- alpha share on S;
+- correct admissions per evidence bite.
+
+### Integrity (`microverse/l4-fixtures.mjs`; 37 checks, all passing at l4.mjs sha256 92a1fe418d00, seed 2901)
+
+- `l4.mjs` imports nothing, and `l3v.mjs` is unchanged (1fbb5b2eb105).
+- META3OFF runs in tickwise lockstep with FIXED for 20,000 ticks, while its shadow controller is live (9,518 shadow updates).
+- The exogenous schedule is identical across 8 arms whose populations differ.
+- EVOR3:E0 runs in lockstep with META:D060B20.
+- The partition and switching are verified: S is always a module, and each of the 13 macro switches changes module.
+- L1 proposals are invariant to G.
+- Credit rule: scripted META3 and oracle-G updates behave as specified. SHAM3's spread hits the true partner at the uniform rate (≈10%).
+- The inheritance law holds for 8 arms.
+- EVO-R3 visible mutation rates are within bounds. Standing founders carry valid partitions.
+- The grid has 29 variants.
+- Scorer synthetic test (d₄, p = 2⁻⁴⁸, ratio) and dirty-batch rejection.
+
+**Banks (`scripts/bank-audit.mjs`, 5,330 files).** 936001–936048 and 937001–937016 overlap nothing except timestamped filenames (`50000-1794893331557`). The positive control 874001–874048 finds 46 hits. Both banks are reserved for L4-A.
+
+**What a pass would and would not show.**
+- **Would show:** bounded compounding one level up (L4) in a constructed world. An inherited, experience-learned rewrite of L2's credit rule makes L2 pay ≥ 1.5× over the best tested constant L2. It also beats evolution-only variation of the same rule and an information-neutral sham.
+- **Would not show:**
+  - open-endedness;
+  - a learned form for L3 itself, whose update law is hand-written;
+  - that L3 beats every equally resourced single-level learner, since only the tested constant family was compared;
+  - anything about the default world or L3-V's world.
