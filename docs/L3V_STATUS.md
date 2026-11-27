@@ -67,3 +67,9 @@ Gate (fixed, by analogy with L3's d): d₄ = 2(META3 − FIXED) − 3(META − F
 - **Seeds and banks.** Use new 6-digit banks, audited with `scripts/bank-audit.mjs`. Do not reuse anything listed above. Practice seeds 101–116 and 301–332 are fine to reuse in a new world, but disclose that.
 - **Running long jobs.** Run them detached (nohup) with a waiter. Tool calls time out at 30 minutes, and server restarts kill attached jobs.
 - **GitHub.** Push as `jaiminp007` to the branch `l3-continue` (not `main`).
+
+## L4, phase 2: architecture change (authorized by the user 2026-11-27: "change it up ... don't stop until RSI is completed")
+
+The bar and integrity rules are unchanged. The new constraint follows from phase 1: **L2's output channel must not be a proposal prior that an equally informed single-level learner can read directly.** Candidates: L2 sets L1's internal learning dynamics (per-feature step sizes, IDBD-style), or L2 controls a representation or multi-step internal search that L1 cannot bypass. The "L2 without L3" class must still include the strongest single-level learners using the same statistics through the same output channel.
+
+- [ ] (1) Architecture-change design advice (Gemini 3001–3032, Astra 3101–3132; first half tune, second half held out).
