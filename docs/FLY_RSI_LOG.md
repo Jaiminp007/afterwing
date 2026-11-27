@@ -471,3 +471,16 @@ No L3 arm was run on any draw. The final bank 938001–938048 is unused.
   - "Hierarchies cannot help".
   - "L2 never matters in blind worlds".
 - **Per Fable:** further designs are at 1–3% each. A loop run until something passes ends in a chance pass, or in a world with the result built in.
+
+
+## L4-J (parallel design round, the user's "keep trying long shots"): no design passes the oracle screen (2026-11-27)
+
+| Designer | L2 headroom | L3 room (need) | Oracle L3 vs strongest flat | Verdict |
+|---|---|---|---|---|
+| Astra+Sol | +8.62 (16/16) | 1.77 (4.48) | d₄ −11.57 (0/16) against a product-state filter | stopped |
+| Opus (ORBIT) | +2.91 (p .017) | 1.46 (1.45) | flat fixed-share MIX3W 91.25 > best ORACLE3 89.23 (tuning) | stopped |
+| Neon | – | – | – | incomplete (Devin weekly quota exhausted) |
+
+**Structural reading.** When L2 has headroom, the L3 object is a choice among L2 settings made by realized performance. A flat learner reproduces that choice within the same compute, by mixing the outputs of L2 copies at fixed settings (fixed-share) or by filtering over the joint state. L3 escapes only if the setting space is too large to mix and does not factorize. In that case, L3's own search from noisy realized performance suffers too. This is the joint-state theorem from phase 1, now measured with oracles.
+
+The Devin quota is exhausted, so no named advisor is available until it resets.
