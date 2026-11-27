@@ -1,0 +1,57 @@
+{
+ "stage": "A2",
+ "source": "results/l4i/d2-A1.ndjson",
+ "head": "35cd15caf521aa4a5cd7f82b8d9f521c033f2256",
+ "sha": {
+  "microverse/l4h.mjs": "7c856db9a1c0",
+  "microverse/l4i-arms.mjs": "cbd56b83b427",
+  "microverse/l4h-run.mjs": "d4d59e3eccd8",
+  "microverse/l4i-world-2.mjs": "fc1501171e3c",
+  "results/l4i/armsA1.json": "d2e912a68e46",
+  "microverse/l4i-score.mjs": "11eef620f715",
+  "docs/paper/stats.mjs": "8e070d2c6382",
+  "microverse/l4h-classf.mjs": "f49aeae150ac"
+ },
+ "seedSpec": "941001-941016",
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ],
+ "FIXED": {
+  "kind": "kalRW",
+  "q": 0.001,
+  "R": 0.5,
+  "name": "KALRW_q0.001_R0.5",
+  "family": "KALRW"
+ },
+ "L2A": {
+  "family": "SHAREKF",
+  "kind": "shareKF",
+  "name": "SHAREKF_false_0.3_0.01_1",
+  "adaptive": false,
+  "rate": 0.3,
+  "share": 0.01,
+  "R": 1
+ },
+ "means": {
+  "FIXED": 9255.75,
+  "L2A": 9260.8125
+ },
+ "source2": "results/l4i/d2-A2.ndjson",
+ "L2BEST": {
+  "kind": "static",
+  "name": "STATIC_-2",
+  "base": {
+   "family": "SHAREKF",
+   "kind": "shareKF",
+   "name": "SHAREKF_false_0.3_0.01_1",
+   "adaptive": false,
+   "rate": 0.3,
+   "share": 0.01,
+   "R": 1
+  },
+  "offset": -2
+ },
+ "means2": {
+  "L2BEST": 9275.4375
+ }
+}

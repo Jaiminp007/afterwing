@@ -108,4 +108,5 @@ The bar and integrity rules are unchanged. The new constraint follows from phase
 ### L4-I (blind worlds + L2 admissibility; Fable ruling `scratch/judge-fable-l4i/ruling.md`, ~3%)
 - [x] Registered and frozen before the first draw: `l4i-arms.mjs` (±6 sweep, clamp = sweep, META3P paired-shadow candidate), `l4i-score.mjs` (admit/futility, L2-gain test), 86 fixtures.
 - [x] **Draw 1 (Devin Claude Opus 5.5, `l4i-world-1.mjs`, regime-switching worlds; tuning 940001–940016): INADMISSIBLE.** FIXED = KALRW q .001 R .5 (78.34). L2A = REPEATQR carryR .05 (78.99). L2BEST = static offset −1 (79.31). L2BEST − FIXED 0.97 flies, p .011 (needs ≥ 1 and p < .01). Interior optimum; per-seed static room 0.78. No L3 arm was run. Logged; next draw.
-- [ ] Draw 2 (Devin Gemini 4 Neon), tuning bank 941001–941016.
+- [x] **Draw 2 (Devin Gemini 4 Neon, `l4i-world-2.mjs`, six volatility-regime types; tuning 941001–941016): INADMISSIBLE.** FIXED = KALRW q .001 R .5 (92.56). L2A = SHAREKF (92.61). L2BEST = static offset −2 (92.75). L2BEST − FIXED 0.20 flies, p .16. No L3 arm was run.
+- [ ] Draw 3 (Devin GPT-6 Sol), tuning bank 942001–942016. This is the last allowed draw.
