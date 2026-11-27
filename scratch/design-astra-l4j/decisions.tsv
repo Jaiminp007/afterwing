@@ -1,0 +1,7 @@
+ts	phase	decision	why	evidence	result
+2026-11-27T22:39:53.479Z	design	Freeze the line-edit screen and the compressed product-state challenger.	Errors can justify a structural edit even when scalar gain changes do little.	tune.json	61 configurations locked on 16 tuning seeds
+2026-11-27T22:40:31.760Z	tune	Lock constant editor and test its oracle against flat models.	Select both orientation thresholds from the tuning censuses.	challengers.json	Row bias 1, column bias -4
+2026-11-27T22:44:23.022Z	amend	Retain the failed editor and add whole-map beam validation before holdout.	The local editor lost to the fixed predictor, and its estimates need not be a valid map.	extension.md	Second substrate; identical ecology
+2026-11-27T22:44:50.949Z	tune	Lock the beam and compare its two oracle policies and challengers.	The constant beam passes headroom on the tuning half.	beamchall.json	Hazard .12, row share .5
+2026-11-27T22:45:06.830Z	holdout	Freeze all held-out arms and both conditional learned policies.	Test the actual dynamic oracle, not a splice of census rows.	hold.json	18 configurations locked
+2026-11-27T22:46:00.000Z	stop	Do not run META3 or SHAM.	Both oracle d4 values are negative on the untouched half.	analysis.json	0 of 16 positive for each

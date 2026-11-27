@@ -1,0 +1,197 @@
+{
+  "specs": [
+    {
+      "name": "BEAM_0.08_0",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0
+    },
+    {
+      "name": "BEAM_0.08_0.06",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0.06
+    },
+    {
+      "name": "BEAM_0.08_0.25",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0.25
+    },
+    {
+      "name": "BEAM_0.08_0.5",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0.5
+    },
+    {
+      "name": "BEAM_0.08_0.75",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0.75
+    },
+    {
+      "name": "BEAM_0.08_0.94",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 0.94
+    },
+    {
+      "name": "BEAM_0.08_1",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.08,
+      "q": 1
+    },
+    {
+      "name": "BEAM_0.12_0",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0
+    },
+    {
+      "name": "BEAM_0.12_0.06",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0.06
+    },
+    {
+      "name": "BEAM_0.12_0.25",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0.25
+    },
+    {
+      "name": "BEAM_0.12_0.5",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0.5
+    },
+    {
+      "name": "BEAM_0.12_0.75",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0.75
+    },
+    {
+      "name": "BEAM_0.12_0.94",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 0.94
+    },
+    {
+      "name": "BEAM_0.12_1",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.12,
+      "q": 1
+    },
+    {
+      "name": "BEAM_0.18_0",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0
+    },
+    {
+      "name": "BEAM_0.18_0.06",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0.06
+    },
+    {
+      "name": "BEAM_0.18_0.25",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0.25
+    },
+    {
+      "name": "BEAM_0.18_0.5",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0.5
+    },
+    {
+      "name": "BEAM_0.18_0.75",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0.75
+    },
+    {
+      "name": "BEAM_0.18_0.94",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 0.94
+    },
+    {
+      "name": "BEAM_0.18_1",
+      "kind": "beam",
+      "sub": "beam",
+      "h": 0.18,
+      "q": 1
+    },
+    {
+      "name": "UNPRUNED",
+      "kind": "full",
+      "sub": "beam",
+      "q": 0.5,
+      "h": 0.12
+    },
+    {
+      "name": "FULL_ORACLE",
+      "kind": "oracle",
+      "sub": "beam",
+      "q": 0.5,
+      "h": 0.12,
+      "map": [
+        1,
+        0
+      ],
+      "full": true
+    }
+  ],
+  "seeds": [
+    952001,
+    952002,
+    952003,
+    952004,
+    952005,
+    952006,
+    952007,
+    952008,
+    952009,
+    952010,
+    952011,
+    952012,
+    952013,
+    952014,
+    952015,
+    952016
+  ],
+  "code": {
+    "arms.mjs": "9643b7d5e13dde016821098ec5028319a9d4815dc632dfc0c3859dca08866ee1",
+    "world.mjs": "eca1f37a9ba73f586330b1086668fbb00a1fddefb0cb38ed8d0648f23eb874f1",
+    "batch.mjs": "e10268a9cc5bf8c2103f236a857d9933960dfab1370cefe99f75699b96520b60",
+    "design.md": "92c1c2bfdf45241773f590de43d56d7e880a05a2f1c169a786a462bc9ae684c4",
+    "beam.mjs": "7439142c490613dc01770bf22b17e2393b4ffd836e8209649044299f115f3816",
+    "extension.md": "45142cf76b8372c278494e3038c46122bad127bca26eb7022fea9ad75d33a039"
+  },
+  "frozen": "2026-11-27T22:44:23.022Z"
+}
