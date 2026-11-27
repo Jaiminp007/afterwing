@@ -310,3 +310,51 @@ Even TRUE_21 would only reach dO ≈ +3.9 against S10, short of the bar of 4.
 - population-wide search through inherited masks, which washes out gains from a better reviser.
 
 Gemini proposes no ninth screen.
+
+## L3-V (learned proposal grammar, constructed world): **L3 SHOWN in this world**
+
+Registration [FLY_RSI_GOALS.md](FLY_RSI_GOALS.md), section "L3-V". It was committed at `675fc81` before any registered measurement, and the code is unchanged since then. Design: Gemini 4 Neon, converging with GPT-6.2 Astra / GPT-5.6 Sol. Astra/Sol's adversarial review required six changes, and all were applied. Implementation: Claude (Opus 5.5).
+
+**Stage A** (919001–919016; `fly-rsi-l3v-stageA.json`, lock at `367b1fb`):
+- FIXED = FIXED_DECK, 56.38 flies, against 55.51 for uniform.
+- EVO-R = J50, 57.50 flies, the best of 8 variants. Evolution beats the fixed search.
+
+**Stage B** (48 practice seeds 101–116 and 301–332, partly selection-exposed; `fly-rsi-l3v-stageB*.json`, `bb376b5`): every gate passes.
+- Ratio 2.11×.
+- d +5.26 (44/48, p 3.6e-12).
+- L2 margins: +8.79 over EVO-R, +10.00 over SHAM, +9.59 over FIXED, each 48/48.
+
+**Final** (918001–918048, run once; `fly-rsi-l3v-final.json`, `fly-rsi-l3v-final-score.json`): every gate passes. Exact one-sided sign-flip on integer contrasts.
+
+| Gate | Mean (flies) | 95% CI | Seeds | p |
+|---|---|---|---|---|
+| META − EVO-R ≥ 1 | +7.91 | [6.93, 8.88] | 48/48 | 3.6e-15 |
+| META − SHAM ≥ 1 | +8.72 | [7.85, 9.60] | 48/48 | 3.6e-15 |
+| META − FIXED ≥ 1 | +8.49 | [7.61, 9.40] | 48/48 | 3.6e-15 |
+| **d = (META − NOREV) − 1.5 (FIXED − NOREV) > 0** | **+4.28** | [3.33, 5.25] | **46/48** | 3.7e-12 |
+| f = d − (METAOFF − NOREV) > 0, on ≥ 33/48 | +4.28 | [3.33, 5.25] | 46/48 (sign p 4.2e-12) | 3.7e-12 |
+| FIXED − NOREV > 0 | +8.42 | [7.93, 8.96] | 48/48 | 3.6e-15 |
+
+**Ratio (META − NOREV)/(FIXED − NOREV) = 2.01×; on taste discrimination, 1.93×.** The anti-cliff check agrees, so this is not a population-saturation artifact. There were 0 extinctions in every arm, and METAOFF = NOREV on every seed.
+
+Mean late flies: NOREV 48.72, FIXED 57.14, **META 65.63**, SHAM 56.91, EVO-R 57.72, META_RESET 59.45, REUSE 61.28, SHAM_PERM 56.87, ORACLE_L2 85.22, TRUE_ORACLE 126.90.
+
+**Interpretation, per the registered rules:**
+- **Inheritance helps.** META − META_RESET = +6.18 (47/48, p 1.1e-14). The inherited, experience-updated prior beats relearning it from scratch each generation.
+- **META beats REUSE** (+4.35, 44/48, p 2.6e-12). As registered, this does not by itself establish a generalizing grammar, because transfer to never-validated pairs was not measured.
+- **Mechanism (descriptive).** META's effective proposal share on the true subset S is .60 (uniform is .33), and its correct admissions per evidence bite are about 2.2× FIXED's. ORACLE_L2 shows large remaining headroom: dO +23.9.
+
+**Execution notes.**
+- The first stage B batch was killed by the 30-minute tool limit before it wrote any output.
+- The first final launch was killed about 1 minute in by a T3 server restart, also before it wrote any output.
+- Both were restarted unchanged. No partial result existed or was seen, and no seed or arm was rerun after its result was observed.
+
+**Verdict.** L3 (bounded compounding) is **SHOWN in the L3-V constructed world**.
+- **What passed:** an inherited, experience-updated search prior, learned by each fly's L2 from its own L1's validated edits, makes L1 self-revision pay **2.0×** as much as the best locked fixed search, beyond the tested mutation-only priors and an information-neutral sham.
+- **Caveats:**
+  - the world was constructed so that L1's bottleneck is where it searches;
+  - the L2 update rule is hand-written;
+  - inheritance is Lamarckian;
+  - the design (the inherited-alpha law) was chosen after exploratory runs on other seeds;
+  - it is not open-ended.
+- **L3 in the default microverse remains NOT SHOWN** (L3 through L3-IV above). The reserved banks 97001–97048, 763001–763048, 852001–852048 and 874001–874048 are untouched.
