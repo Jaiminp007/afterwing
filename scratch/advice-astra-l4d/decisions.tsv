@@ -1,0 +1,5 @@
+ts	phase	decision	why	evidence	result
+2026-11-27T09:31:35Z	design	Use a taste-rate write with delayed candidate-loss credit and a Bayesian direct challenger	A role switch creates competing time scales without a proposal target	protocol.md	frozen before tuning
+2026-11-27T09:31:42Z	fixtures	Checked causal timing, controls and hidden-state filter before the screen	Protect the oracle comparison against assay bugs	check.mjs	passed including 4 short tuning-seed fixture cells
+2026-11-27T09:33:06Z	screen	Stop; do not run holdout or final	Oracle misses the 1.5x threshold on every paired seed	screen.json	0/16 positive; heldout unopened
+2026-11-27T09:33:08Z	audit	Validated raw matrix and exact upper-tail probability; disclose repeated fixtures	Every grid cell and exact sign assignment is accounted for	audit.mjs;check.mjs	1264 complete cells; 4 x 256-tick fixtures twice on 3101, before late samples
