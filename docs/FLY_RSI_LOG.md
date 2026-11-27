@@ -431,3 +431,23 @@ The run followed Fable's one accepted form, blind worlds (`scratch/judge-fable-l
 **Stage B:** L2 gain 0.00, so the 1.5× ratio is undefined. d₄ +0.06 flies, 25/48, p .37. **GATE FAIL; no final run; bank 938001–938048 unused.**
 
 The failure is upstream of L3. In this family, adaptive learning dynamics (L2) add nothing over a tuned fixed-gain Kalman. An improver of L2 therefore has no headroom. A blind world cannot guarantee the precondition L4 needs, a world where L2 itself matters. Forecasts before the run were 3% (adversary) and about 5% (Fable).
+
+
+## L4-I (blind worlds with L2 admissibility): NOT SHOWN, all draws inadmissible (2026-11-27)
+
+The registration (`04ef2cc`) adopted Fable's four amendments and two additions:
+- a family counts only if L2BEST − FIXED ≥ 1 fly at p < .01 on its tuning seeds, with an interior optimum;
+- a futility screen;
+- a ±6 static sweep;
+- a paired-shadow META3P candidate;
+- at most 3 independent blind draws, each written by a different third party from an identical brief that names no learner.
+
+| Draw | Author | FIXED | L2BEST | Gain (flies) | p | Verdict |
+|---|---|---|---|---|---|---|
+| 1 | Devin Claude Opus 5.5 | 78.34 | 79.31 | 0.97 | .011 | inadmissible |
+| 2 | Devin Gemini 4 Neon | 92.56 | 92.75 | 0.20 | .16 | inadmissible |
+| 3 | Devin GPT-6 Sol | 90.10 | 90.47 | 0.36 | .0093 | inadmissible |
+
+No L3 arm was run on any draw. The final bank 938001–938048 is unused.
+
+**Pattern across L4-H and all three L4-I draws (four independent blind families).** A tuned fixed-gain Kalman (KALRW) is within 0–1 fly of the best adaptive depth-2 learner. In this ecology, adapting learning dynamics buys under 1 fly, so the precondition for L4, that L2 matters, does not occur in blind-drawn worlds.
