@@ -427,3 +427,148 @@ These are selection bars, not p-values. Report both batches in full. If `.60` pa
 **Integrity and records.** Before measurement, preserve the default fingerprint `bdaca307…`; verify banks 2 and 3 affect valence, prediction, replay and admission, not only the chemistry generator. Test all four routing labels, exactly 15 fresh correlations per tasting, zero outside the routed bank beyond decay, and identical current-bite L0 updates under different routing. Verify that three unreliable banks get **12 independent corruption draws**, not four reused flips. Preserve dedicated RNG streams and the mutation prior above. The current simulator has global eight-bit assumptions in code generation, candidate extensions and mutation; do not implement this by merely changing `ODOR_BITS` and allocating 65,536 evidence entries per fly.
 
 Archive finite per-seed arm endpoints, actual extinctions, selected static, route counts, true-bank matches, correct-pair admissions versus all admissions, and whether correct pairs were already present at birth. Mark missing data invalid, not extinction. Target identity is available to the rule generator, TRUE_ORACLE and **read-only telemetry only**. No H0 result, however large, authorizes a final; it authorizes at most a separately committed test of the **noisy-cue fly**.
+
+## L3-V: learned proposal grammar (frozen before any registered L3-V measurement)
+
+*Design: Gemini 4 Neon (Design 1, "learned bit-affinity proposal grammar"), converging with GPT-6.2 Astra / GPT-5.6 Sol's "edit-family prior". An adversarial pre-freeze review by Astra/Sol required six changes; all are applied below. Implementation: Claude (Opus 5.5). The author authorized a new, separately constructed world for this line. L3 through L3-IV keep their recorded results, and nothing is rescored.*
+
+**Claim (narrow).** In a constructed foraging world, an **inherited, experience-updated proposal prior beats the tested mutation-only priors.** Each fly's L2 updates it from L1's own validated edits, and it tells L1 *where to search*. It makes L1 self-revision pay at least 1.5× as much as L1 under the strongest locked fixed search. The bar is the original one: mean d = (META − NOREV) − 1.5 (FIXED − NOREV) > 0.
+
+**Prior exposure (disclosed).**
+- **Gemini, seeds 601–616**, three exploratory variants:
+  - in-life-only alpha: 1.37×, d −1.15, 7/16;
+  - inherited alpha: 2.06×, d +4.78, 14/16;
+  - inherited alpha plus inherited masks: 1.58× on 8 seeds.
+  - **The inherited-alpha law was chosen after seeing these.**
+- **Astra:** a standalone assay on 701–716 and review checks on 801–808.
+- **Claude:**
+  - reproduced Gemini's numbers exactly on 601–602, with the pre-review module;
+  - **by mistake, an exogenous-schedule fixture printed one practice seed's populations before freeze**: seed 101, pre-review code, META 64.8, SHAM 56.6, FIXED_DECK 56.7, ORACLE_L2 85.0, NOREV 47.4. No design choice was made after that print. The fixtures now use seed 901 and print no populations.
+- Seeds 601–616, 701–716, 801–808 and 901 are never used again for this line.
+- **The qualification suite (stage B) is therefore partly selection-exposed. Only the final confirms the claim.**
+
+### World (`microverse/l3v.mjs`; self-contained, does not import `sim.mjs`; default fingerprint untouched)
+
+- **Ecology.** 40×40 grid, 9 relocating food patches, 20,000 ticks, 60 founders, capacity 400, maximum age 2,400. Toxin .60, label noise .05, brain cost .0005 per feature per tick.
+- **Odors.** 12 bits; 32 balanced kinds, redrawn every 30 ticks.
+- **Rule.** Valence = s × walsh(pair, odor).
+  - A secret 4-bit subset S is redrawn every 3,600 ticks.
+  - Inside S, the pair (one of 6, never the previous one) and its sign are redrawn every 300 ticks.
+  - The fly sees only odors and noisy taste labels.
+- **Paired arms face the same external world.**
+  - The rule, codebook, patch placement and plant kinds come from dedicated exogenous streams keyed by seed.
+  - Turn order and founder positions use a separate behavioral stream; each fly's actions, label noise and birth placement use its own stream.
+  - Each fly also has separate keyed streams for proposals, mutation and SHAM.
+- **Brain.**
+  - Founders carry the bias feature only; taste cap 4; FIFO replay of 32 bites.
+  - L1 keeps K = 6 candidate pairs. Each candidate accumulates residual correlation over **distinct** consecutive kinds.
+  - L1 admits by |ev|/√s2 > 3.3, and prunes \|w\| < 1.5 after a grace of 10 tastings.
+- **Constructed differences from the default microverse:**
+  - no birth mutation of masks;
+  - masks and weights are never inherited;
+  - no founder singletons;
+  - nested rule schedules.
+- **Label:** constructed world whose L1 bottleneck is where it searches; hand-written L2 update rule; Lamarckian inheritance of the learned prior.
+
+### Arms
+
+| Arm | Program |
+|---|---|
+| NOREV | no structural revision |
+| METAOFF | META's controller with L1 disabled: it gets no input and makes no update |
+| FIXED_U / FIXED_DECK | L1 with uniform proposals / a per-fly shuffled deck of all 66 pairs (skipping active and buffered masks, reshuffled when exhausted). **The better one is locked as FIXED in stage A.** |
+| **META** | Every 4 evidence bites, alpha decays toward 1 at rate .006. Each admitted mask past grace with \|w\| ≥ 2.5 adds +4 to both of its bits, capped at 30. Proposals ∝ (.02 + αᵢ)(.02 + αⱼ). Children copy alpha. |
+| **SHAM** (gated) | **Information-neutral.** META's exact alpha updates and inheritance, but before every draw the eligible pair weights are freshly permuted among the eligible labels, on a dedicated stream. Given its history, every eligible pair is equally likely. |
+| **EVO-R** (gated) | Inherited alpha, birth mutation only, no in-life update; the variant is locked in stage A |
+| META_RESET | *descriptive:* META's in-life learning, but the newborn's alpha is reset to 1; this isolates inheritance |
+| REUSE | *descriptive:* re-proposes cached validated exact masks with probability .5 (cache 6, inherited) |
+| SHAM_PERM | *diagnostic:* boosts relabelled by a private bit permutation, i.e. scrambling, not neutral |
+| ORACLE_L2, TRUE_ORACLE | *diagnostic:* proposals confined to the true S (it skips nonpositive weights and returns none when S is exhausted) / the true pair given at each rule change |
+
+**EVO-R grid (`EVOR_GRID`).**
+- E0: no mutation; exactly FIXED_U, verified by lockstep.
+- Lognormal on 2 bits, step 1, with pm ∈ {.1, .25, .5}.
+- Jump (one bit set to 30 or reset to 1), with pm ∈ {.1, .25, .5}.
+- **SV25, standing variation:** each founder gets 4 random bits at 30; at birth, with probability .25, one high bit and one low bit swap.
+
+**Parameters.** Controller parameters (boost 4, decay .006, cap 30, floor .02, validation 2.5) are Gemini's exploratory values, frozen now and never tuned on practice.
+
+### Stages (one attempt each; stop at the first miss; no reruns)
+
+**A. Lock FIXED and EVO-R (fresh seeds 919001–919016).**
+- Run FIXED_U, FIXED_DECK and all 8 EVO-R variants.
+- FIXED = the higher mean late population; exact tie → FIXED_U.
+- EVO-R = the highest mean; exact tie → lower pm, then E0 < logn < jump < swap.
+- No META or SHAM run.
+- Commit the lock (`l3v-score.mjs lock`) before B.
+
+**B. Qualification (101–116 and 301–332, 48 seeds; partly selection-exposed, see above).** Run NOREV, METAOFF, FIXED, META, SHAM and EVO-R, plus the descriptive and diagnostic arms. Every gate must pass.
+
+**C. Final (918001–918048, once).** Run only if B passes, with the same arms and gates and frozen code.
+
+**Budget.**
+- L3-IV-H0 left at most three practice batches. A and B use two of them, so one remains.
+- After a miss, nothing changes: no parameter, inheritance law, world, gate or seed batch.
+- If A's locks are committed and B misses, L3-V closes.
+
+### Gates (all must pass on B and again on C)
+
+**Scorer:** `microverse/l3v-score.mjs`, frozen with this text.
+- **Endpoint:** the integer sum P of live population at ticks 10,100–20,000, every 100 ticks (100 samples), extinction zeros included.
+- **Contrasts are exact integers:**
+  - L2 margins in 1/100 fly;
+  - d₂₀₀ = 2P_META − 3P_FIXED + P_NOREV, in 1/200 fly.
+- **Test:** exact one-sided sign-flip (`docs/paper/stats.mjs`, grid 1 on integers), p < .01. Sign counts use an exact binomial, with zeros as non-wins.
+- **The scorer rejects:**
+  - batches produced from uncommitted code;
+  - missing, duplicate or non-integer rows;
+  - any seed where METAOFF ≠ NOREV. That is an implementation error. `f = d` is an integrity identity, not independent replication.
+
+1. **L2:** observed means META − EVO-R ≥ 1.0, META − SHAM ≥ 1.0 and **META − FIXED ≥ 1.0**. Each is also significant against zero at p < .01. These are an observed one-fly margin plus a test against zero, not a test of a one-fly null.
+2. **L3:** mean d > 0, significant.
+3. **Factorial:** mean f > 0, significant, with f > 0 on ≥ 33/48 seeds.
+4. **Ordinary L1:** FIXED − NOREV > 0, significant.
+
+**Reported, never gating:**
+- the ratio (META − NOREV)/(FIXED − NOREV);
+- the same contrasts on taste discrimination at threshold .5, which is not realized feeding (anti-cliff check);
+- extinctions by arm and seed;
+- dO for ORACLE_L2, and TRUE_ORACLE;
+- effective proposal share on S;
+- correct admissions per evidence bite;
+- META − REUSE, META − META_RESET and META − SHAM_PERM.
+
+**Interpretation rules.**
+- **Inheritance.** A benefit from inheritance is claimed only if META − META_RESET > 0 at p < .01.
+- **Generalization is not claimed by this test.** A non-significant META − REUSE means "generalization not established"; it does not mean "reuse established". A win over REUSE also does not prove a generalizing grammar. That would need transfer to target pairs never validated in the lineage, which this test does not measure.
+
+### Integrity (`microverse/l3v-fixtures.mjs`; all 33 checks pass at l3v.mjs sha256 1fbb5b2eb105, seed 901)
+
+- **Isolation and identity.**
+  - `l3v.mjs` is self-contained.
+  - METAOFF vs NOREV run in tick-wise lockstep for 20,000 ticks with 0 divergent ticks; METAOFF makes 0 L2 updates.
+  - **The exogenous schedule is identical** between NOREV and each of META, SHAM, FIXED_DECK and ORACLE_L2, though their populations differ.
+  - EVOR:E0 runs in lockstep with FIXED_U.
+- **Proposals.**
+  - Uniform alpha gives uniform proposals, and concentrated alpha concentrates them.
+  - Neutral SHAM proposals are uniform even under concentrated alpha.
+  - The oracle returns none when S is exhausted, and always proposes the last remaining S-pair.
+  - The deck covers all 66 pairs in one pass.
+- **Inheritance and mutation.**
+  - The scripted inheritance law holds for all 8 L1 arms.
+  - EVO-R visible mutation rates match the grid. SV25 founders have 4 bits at 30, with 56 distinct founder genotypes.
+  - SHAM_PERM's permutation is a bijection.
+- **Scorer.** A synthetic test with known contrasts gives a ratio of 2.61, d = 11.1, and p = 2⁻⁴⁸ when all 48 seeds win.
+
+**Bank audits (`scripts/bank-audit.mjs`, 5,286 files).**
+- 918001–918048 and 919001–919016 overlap nothing except timestamped filenames (`50000-1794893331557`), which are not seed ranges.
+- Run on the reserved bank 874001–874048, the auditor finds 39 hits, so it detects real overlaps.
+- **Both banks are reserved for L3-V.**
+
+**What a pass would and would not show.**
+- **Would show:** bounded compounding (L3) in a constructed world. An inherited, experience-updated search prior makes self-revision pay ≥ 1.5× over the best locked fixed search, beyond the tested evolution-only priors and an information-neutral sham.
+- **Would not show:**
+  - open-endedness;
+  - a learned form for the controller;
+  - a generalizing grammar;
+  - anything about the default world, where L3 stays NOT SHOWN.
