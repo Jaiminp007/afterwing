@@ -1,0 +1,189 @@
+{
+ "arms": [
+  {
+   "kind": "static",
+   "name": "STATIC_-6",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -6
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-5",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -5
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-4",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -4
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-3",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -3
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-2",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -2
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_-1",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": -1
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_0",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 0
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_1",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 1
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_2",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 2
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_3",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 3
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_4",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 4
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_5",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 5
+  },
+  {
+   "kind": "static",
+   "name": "STATIC_6",
+   "base": {
+    "family": "SHAREKF",
+    "kind": "shareKF",
+    "name": "SHAREKF_false_0.3_0.01_1",
+    "adaptive": false,
+    "rate": 0.3,
+    "share": 0.01,
+    "R": 1
+   },
+   "offset": 6
+  }
+ ],
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ]
+}
