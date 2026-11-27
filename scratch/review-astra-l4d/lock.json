@@ -1,0 +1,71 @@
+{
+  "lockedAt": "2026-11-27T11:22:44.212Z",
+  "scores": {
+    "ICA_I_0.06": 92.386875,
+    "ICA_I_0.16": 92.63375,
+    "ICA_R_0.06": 89.654375,
+    "ICA_R_0.16": 89.899375,
+    "FULL_K_0.01": 92.675625,
+    "FULL_K_0.05": 92.415,
+    "FULL_R_0.95": 89.759375,
+    "BLOCK_0.015": 102.02625,
+    "BLOCK_0.06": 98.47375,
+    "BLOCK_0.14": 90.8975,
+    "SPHERE_8": 50.713125,
+    "SPHERE_16": 51.62375
+  },
+  "families": [
+    {
+      "name": "ICA_I_0.16",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": true,
+      "l3": "learn",
+      "l3Rule": "du_both",
+      "eta3": 0.16,
+      "s2Min": 1.5,
+      "qHalf": 5,
+      "custom": "ica"
+    },
+    {
+      "name": "ICA_R_0.16",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": false,
+      "l3": "learn",
+      "l3Rule": "du_both",
+      "eta3": 0.16,
+      "s2Min": 1.5,
+      "qHalf": 5,
+      "custom": "ica"
+    },
+    {
+      "name": "FULL_K_0.01",
+      "custom": "full",
+      "type": "K",
+      "value": 0.01
+    },
+    {
+      "name": "BLOCK_0.015",
+      "custom": "block",
+      "h": 0.015
+    },
+    {
+      "name": "SPHERE_16",
+      "custom": "sphere",
+      "window": 16
+    }
+  ],
+  "primary": "BLOCK_0.015",
+  "hashes": {
+    "arms.mjs": "72441e19b9a0e2a43e11b8672afd96577c80aeecfad52b2212d6016133a2d472",
+    "run.mjs": "4e233918a666bbb022f1763c61cb33fd0904b947b29ee9bd33adf659d42f1862",
+    "../advice-gemini-l4d/l4d_world.mjs": "cc58706440085e75d8b104ec86fb94d81d7ebf1b24b8ef31a68c9debcb9e681f"
+  }
+}

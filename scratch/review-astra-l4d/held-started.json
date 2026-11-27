@@ -1,0 +1,185 @@
+{
+  "start": "2026-11-27T11:22:44.268Z",
+  "hashes": {
+    "arms.mjs": "72441e19b9a0e2a43e11b8672afd96577c80aeecfad52b2212d6016133a2d472",
+    "run.mjs": "4e233918a666bbb022f1763c61cb33fd0904b947b29ee9bd33adf659d42f1862",
+    "../advice-gemini-l4d/l4d_world.mjs": "cc58706440085e75d8b104ec86fb94d81d7ebf1b24b8ef31a68c9debcb9e681f"
+  },
+  "seeds": [
+    3417,
+    3418,
+    3419,
+    3420,
+    3421,
+    3422,
+    3423,
+    3424,
+    3425,
+    3426,
+    3427,
+    3428,
+    3429,
+    3430,
+    3431,
+    3432
+  ],
+  "arms": [
+    {
+      "name": "FIXED",
+      "kind": "fixed",
+      "alpha": 0.05
+    },
+    {
+      "name": "META3",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": true,
+      "l3": "learn",
+      "l3Rule": "du_both",
+      "eta3": 0.12,
+      "s2Min": 1.5,
+      "qHalf": 5
+    },
+    {
+      "name": "META3OFF",
+      "kind": "meta3off",
+      "alpha": 0.05,
+      "usesQ": true,
+      "l3": "oracle"
+    },
+    {
+      "name": "DIR_Q_DIAG",
+      "kind": "direct_q_diag",
+      "mu": 0.25,
+      "qGain": 0.5,
+      "usesQ": true,
+      "rawPred": true,
+      "l3": "oracle",
+      "inheritL2": true
+    },
+    {
+      "name": "ORACLE3",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "l3": "oracle"
+    },
+    {
+      "name": "AUTO",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "inheritL2": true
+    },
+    {
+      "name": "SHAM",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": true,
+      "l3": "sham",
+      "l3Rule": "du_both",
+      "eta3": 0.12,
+      "s2Min": 1.5,
+      "qHalf": 5
+    },
+    {
+      "name": "RESET",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": false,
+      "l3": "reset",
+      "l3Rule": "du_both",
+      "eta3": 0.12,
+      "s2Min": 1.5,
+      "qHalf": 5
+    },
+    {
+      "name": "EVO",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": true,
+      "l3": "evor",
+      "l3Rule": "du_both",
+      "eta3": 0.12,
+      "s2Min": 1.5,
+      "qHalf": 5,
+      "pm": 0.25,
+      "nRot": 4,
+      "angScale": 0.4
+    },
+    {
+      "name": "ICA_I_0.16",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": true,
+      "l3": "learn",
+      "l3Rule": "du_both",
+      "eta3": 0.16,
+      "s2Min": 1.5,
+      "qHalf": 5,
+      "custom": "ica"
+    },
+    {
+      "name": "ICA_R_0.16",
+      "kind": "l2",
+      "l2": "autostep",
+      "mu": 0.18,
+      "usesQ": true,
+      "inheritL2": true,
+      "inheritQ": false,
+      "l3": "learn",
+      "l3Rule": "du_both",
+      "eta3": 0.16,
+      "s2Min": 1.5,
+      "qHalf": 5,
+      "custom": "ica"
+    },
+    {
+      "name": "FULL_K_0.01",
+      "custom": "full",
+      "type": "K",
+      "value": 0.01
+    },
+    {
+      "name": "BLOCK_0.015",
+      "custom": "block",
+      "h": 0.015
+    },
+    {
+      "name": "SPHERE_16",
+      "custom": "sphere",
+      "window": 16
+    }
+  ],
+  "cfg": {
+    "nBlocks": 2,
+    "blockSize": 8,
+    "nFast": 1,
+    "toxin": 0.78,
+    "blockEvery": 3400,
+    "modeEvery": 1000,
+    "driftEvery": 200,
+    "slowDriftEvery": 1000,
+    "ticks": 20000,
+    "every": 100,
+    "lateFrom": 10000
+  },
+  "node": "v22.19.0"
+}

@@ -397,3 +397,21 @@ Beating an unrestricted same-information learner in this interface is not possib
 3. **No relabeled L4.** Re-registering that design as L4 with DIRECT demoted would be moving the goalposts. The "lacks u" boundary was drawn after seeing which side wins. A fresh-bank test is licensed only as a separately named information claim, with DIRECT gated or co-headlined. It may never be called "L4 shown" or "RSI completed".
 4. **L3-V caveat.** L3-V showed that a learned, inherited prior beats fixed, mutation-only and sham priors. At depth 2 no bypass exists (alpha's only consumer is L1), so whether a hierarchy is *necessary* cannot be tested there. Its pass stands with that narrower meaning.
 5. **One final attempt with a hard stop.** A "lineage-tempo" mediation world: L3's learned object has no target-level content, and its signal is L2's realized on-policy outcome. An oracle screen comes first, and the line stops if it fails. Fable's odds: ≤10–15%.
+
+### L4 closed: NOT SHOWN (hard stop, 2026-11-27)
+
+- **L4-F, lineage tempo, the final attempt (Astra/Sol, tuning 3301–3316).** The oracle screen fails: the tempo oracle reaches 68.13 against finite-history Bayes 77.63 → 0.32×, 0/16.
+- **L4-D, orthogonal-frame step-size hierarchy (Gemini).**
+  - It passed its own held-out screen: d₄ +1.64, 2.68×, 13/16 on 3017–3032, against Autostep/IDBD/RMS/covariance learners and an oracle-frame DIRECT.
+  - Astra/Sol's adversarial attack broke it before registration. A flat block Kalman, with no inheritance and less state, beats META3 on all 16 held-out seeds (3417–3432): 102.73 vs 92.22, d₄ −17.72, 0.27×, p 1.
+  - Q carries reward directions, so Fable's mediation criterion fails.
+  - The inherited representation-learning gain over FIXED (+3.94, replicated) stands as a narrower result.
+
+**Summary of L4.**
+- Ten designs were tried; none reached registration. No registered bank was spent, and the 1.5× bar never moved.
+- In every case an equally informed flat learner with the same budget (PAIRX, DIRECT, Bayes, Kalman) matched or beat the hierarchy. Each time, the choice of comparator decided the verdict.
+- A fixed program over the joint state can always reproduce a hierarchy. So a defensible L4 needs three things:
+  - a learned object with no target-level content;
+  - feedback from L2's *realized* performance;
+  - a pre-declared comparator budget.
+- No world built here met them. **Final ladder state: L2 shown; L3 shown in the L3-V world, where hierarchy necessity cannot be tested at depth 2; L4 NOT SHOWN.**

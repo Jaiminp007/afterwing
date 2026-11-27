@@ -85,4 +85,13 @@ The bar and integrity rules are unchanged. The new constraint follows from phase
   - **Levels:** L1 is LMS taste weights. L2 is per-coordinate step sizes (Autostep). L3 is an inherited orthogonal frame Q in which L2 adapts. Q is rotated by kurtosis steps on L2's weight innovations, gated by L2's step-size spread. w = Qᵀu is preserved exactly, so **L3 has zero direct effect on L1**: META3OFF = FIXED bit for bit.
   - **Held-out:** FIXED 88.15; L2best = DIRECT (DIR_Q_DIAG, which gets the oracle frame) 89.54; best of IDBD/AUTO/RMS/COV 89.47; META3 91.88; SHAM3 87.87; EVO-R3 89.44; RESET 90.27; ORACLE3 96.07. **d₄ +1.64 [1.08, 2.23], 2.68×, 13/16, p 1.2e-4.** META3 beats L2best, SHAM3, EVO-R3 and RESET by +2.3/+4.0/+2.4/+1.6, each 16/16.
   - **Exposure:** all constants tuned on 3001–3016 (exp1–exp20 on 3001–3008).
-- [ ] **Next: adversarial attack before registration.** Astra/Sol builds the strongest flat challengers (online ICA/PCA plus Autostep as one learner, full-matrix preconditioners, Bayes) on fresh seeds 3401–3432, plus a code audit. Then register as L4-D with banks 936/937, run stage A and B, and one final.
+- [x] **Adversarial attack (Astra/Sol, tuning 3401–3416, held-out 3417–3432 run once; `scratch/review-astra-l4d/`): L4-D BROKEN; not registered.**
+  - **Challenger:** a flat block Kalman with no inheritance and 161 doubles of state (META3's frame alone is 256) reaches **102.73** on held-out. META3 92.22, ORACLE3 96.55, FIXED 88.28 → **d₄ −17.72, 0.27×, 0/16, p 1.** Even a full raw-space Kalman that does not know the two-block model gives d₄ −3.67 (0/16), and ungated ICA + Autostep with frame inheritance reaches 94.01 (d₄ −4.65).
+  - **Audit:**
+    - DIR_Q_DIAG was a weak reader of the oracle frame.
+    - Q carries reward directions, so the mediation criterion fails.
+    - META3OFF equals FIXED in population, but not bit for bit in skill.
+    - SHAM3 was punitive: −1.93 vs plain AUTO on 16/16 seeds.
+  - **What stands:** the inherited representation-learning gain over FIXED (+3.94) replicates. It stands only as a narrower result, not as L4.
+- [x] **HARD STOP (Fable ruling): the L4 line closes as NOT SHOWN.** The loop is stopped. Banks 936001–936048 and 937001–937016 and the practice seeds remain unused for L4.
+  - Original item: Astra/Sol builds the strongest flat challengers (online ICA/PCA plus Autostep as one learner, full-matrix preconditioners, Bayes) on fresh seeds 3401–3432, plus a code audit. Then register as L4-D with banks 936/937, run stage A and B, and one final.

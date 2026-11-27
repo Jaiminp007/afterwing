@@ -1,0 +1,42 @@
+{
+  "seed": 3401,
+  "fullRunsInProbe": 0,
+  "arms": [
+    "FIXED",
+    "META3",
+    "EVO",
+    "SHAM"
+  ],
+  "ticks": 3501,
+  "checks": 164,
+  "exogenousDigest": "334f0d8ea28e95041a75e56f4f204001716c06520a42dcf97c3d05da7aef2c80",
+  "qCross": {
+    "META3": {
+      "mean": 0.008493744839251288,
+      "max": 0.02266645292878154
+    },
+    "EVO": {
+      "mean": 0,
+      "max": 0
+    },
+    "SHAM": {
+      "mean": 0.01799677804760425,
+      "max": 0.05169136331914246
+    }
+  },
+  "childCopyFixture": true,
+  "clipWitness": {
+    "fixed": 12,
+    "oracleRotated": 12.500000000000002
+  },
+  "maxReaderError": 2.220446049250313e-15,
+  "oracleFixtureBites": 256,
+  "archiveOnly": {
+    "n": 16,
+    "meanD4": 1.6421875000000001,
+    "exactP": 0.0001220703125,
+    "skillMismatches": 16,
+    "maxSkillDiff": 0.00010118801113856435,
+    "popMismatches": 0
+  }
+}
