@@ -1,0 +1,31 @@
+# L4-B design advice: do not freeze the frame-translation prototype
+
+**1. Translate credit between odor frames (top pre-run choice, now rejected).** Every 200 ticks a public receptor frame changes. One hidden rule, out of 11 cyclic translations on 11 receptors (the twelfth stays put), maps a canonical pair into that frame. The canonical pair redraws every five frames. The translation changes unannounced every 23-33 frames. Knowing the frame or the translation alone does not tell a fly the target. The underlying L4-A feeding ecology, L1 buffer, and admission threshold remain in place.
+
+At proposal time a ticket records which translation of the last validated pair nominated the mask actually tested. Credit goes to that rule only if the ticket is adjudicated in its original frame. Admission alone is not success: the mask must survive grace and reach the validation threshold. Eviction or pruning before validation counts as failure. Unfinished tickets die with their fly. This measures predictions on tested proposals, not counterfactual outcomes for untested proposals.
+
+META3 updates 11 inherited rule scores from ticket outcomes. At the next successful validation it uses their clipped-score softmax to write L2's translated proposal prior. L1 cannot read the live scores. SHAM3 averages the post-clip, post-softmax writes over all label permutations; the uniform rule mixture retains information shared by all rules. EVO-R3 adds a birth-only translation to the locked L2, with E0 exactly that L2, standing founders and mutation rates 0%, 10%, or 50%.
+
+Raw pair frequency cannot distinguish histories with the same physical masks but different frame changes. **DIRECT can:** it reads the same 11 scores directly when it proposes, rather than waiting for the next L2 write. It has the same inputs, state allocation, inheritance, and proposal budget. It won. Subjective probability of passing all gates on a fresh 48-seed final unchanged: **<1%**.
+
+| Mean late live flies | 2509-2516 held out | All 16, descriptive |
+|---|---:|---:|
+| FIXED | 54.42 | 54.17 |
+| Best locked scalar, D060B20 | 55.33 | 55.62 |
+| Best locked PAIRX, decay .10 / floor 1 / D060B20 | 54.94 | 55.60 |
+| Best locked L2 overall, DIRECT temperature multiplier 1 | **59.48** | **59.28** |
+| META3 | 57.17 | 58.02 |
+| SHAM3 / equal-rule POOL | 57.15 | 56.72 |
+| EVO-R3, SV10 on DIRECT | 59.34 | 59.48 |
+| META3_RESET | 58.79 | 58.16 |
+| Oracle translation, still requires actual validation | 63.71 | 63.23 |
+
+Held-out compounding was **0.545x**, d4 **-4.830** flies, SD 3.97, **1/8**, exact upper-tail p **255/256**. All 16: 0.753x, d4 -3.824, 3/16, p 65503/65536. DIRECT also wins retrospectively across all 16. Using only locked PAIRX would reverse the pooled d4 sign to +1.699 (13/16, p 3273/65536). META3 assigned 73.5% of write mass to the true translation on held-out validated writes, yet it did not beat SHAM3. Being right about the rule did not earn the population gain.
+
+Other held-out contrasts (flies, positive seeds, exact upper-tail numerator over 256): META3 minus SHAM3 +0.026, 5/8, 128; minus EVO-R3 -2.161, 3/8, 238; minus RESET -1.616, 2/8, 222. Matched factorial using POOL as P10 and live shadow OFF as P01: -1.339, 3/8, 218 (in d4 units). Locked L2 minus FIXED and FIXED minus NOREV were both positive on 8/8, p 1/256 each. Oracle d4 +1.703, 6/8, p 10/256. No extinction. Fractional-gain p-values use exact integer contrasts, not rounded means; sign-flip inference assumes the relevant sign symmetry.
+
+**Exposure.** One world and META3 setting, 25 arms x 16 seeds = 400 full runs. 2501-2508 selected the highest mean scalar, PAIRX, all-L2 and then EVO on locked L2; 2509-2516 tested them without retuning. The five scalars were L3V, D015B4, D030B12, D060B20, D150B40. Five PAIRX tuples (pair decay/floor/scalar): .0002/.15/D060B20, .02/.15/D060B20, .10/1/D060B20, .02/1/D030B12, .10/.15/D150B40. Also POOL, three direct multipliers (.5, 1, 2), E0/SV0/SV10/SV50, FIXED/NOREV/META3/SHAM3/OFF/RESET/ORACLE. Only 2501 was reused for fixtures, not tuning. No registered seed run.
+
+**2. Randomize the L2 write (untested backup).** Across short-lived food patches, the next causal pair either shares a receptor with the prior pair or excludes both. An unannounced longer season sets that tendency. Marginal pair frequencies stay uniform by permutation symmetry. At a fixed fraction of eligible validations, randomize whether L2 reinforces the validated receptors or spreads credit away. For the next 120 ticks allow no other write; reward the number of ensuing new proposals validated in that window, including zeros after death. META3 uses the randomized difference in yields to select later writes. All arms get the same probe schedule, budget and logged assignments/outcomes; no extra tastes. SHAM3 averages the two post-clip writes. EVO gets both fixed kernels and E0/SV0/mutants on the locked best L2. Gate a direct, discounted action-outcome proposal scorer and transition-conditioned PAIRX as well as static kernels and scalar settings. Absolute pair memory has to relearn on a fresh patch; a direct relative-transition scorer need not, and may tie. Subjective fresh-final chance **5-10%**, not a measured power calculation. Check oracle headroom against that direct scorer first.
+
+**Claim boundary.** A fixed program on the joint (L2,L3) state reproduces META3 exactly. No world separates those classes without interface or resource restrictions. The defensible claim is that *using measured L2 performance to rewrite a specified L2 update beats named, equally informed alternatives under a fixed budget in this ecology*. Test input/output interventions, not layer names: freeze/shuffle the outcome-to-write link, keep L1 blind to L3, and transplant learned L3 between fresh L2 states. Before any registration retain all seven review requirements: lock same-information challengers; separately gate matched factorial and RESET for inheritance; pin banks, arms and content hashes, derive locks from raw A and fail closed; label-neutral post-clip SHAM; EVO on the locked background plus SV0; disclose exposure and inference assumptions; measure the oracle actually read. Require all gates at p < .01 on 48 qualification seeds, then one unchanged fresh final. This probe is not qualification.
