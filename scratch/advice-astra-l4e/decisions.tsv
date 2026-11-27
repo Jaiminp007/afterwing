@@ -1,0 +1,5 @@
+ts	phase	decision	why	evidence	result
+2026-11-27T10:02:46Z	design	Use equal finite memories and a direct flattening challenger	An unknown family cannot distinguish identical joint transitions	protocol.md	protocol fixed before scores
+2026-11-27T10:03:55Z	fixture	Verify ROM identities and independent exact posterior	A flat reader and reset must not differ by hidden state or computation	check.mjs	PASS; two 64-pulse fixtures on 3201; zero late reads
+2026-11-27T10:05:14Z	screen	Stop before held-out; decline registration	Both oracle contrasts are negative on every tuning seed	screen.json	5152 tuning rows; held-out unspent
+2026-11-27T10:05:14Z	audit	Recover the matched treatment contrast without running a treatment cell	The matched DIRECT ROM is byte-identical to META3, including inheritance	audit.mjs	d4 -13.703125; 0 of 16 positive
