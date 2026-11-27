@@ -1,5 +1,5 @@
 // L4-H batch runner. Refuses to run unless every code file it loads is committed and clean.
-// usage: node microverse/l4h-run.mjs --world <module> --arms <arms.json> --seeds <lo>-<hi> --out <file.ndjson> [--workers N] [--ticks T]
+// usage: node microverse/l4h-run.mjs --world <module> --arms <arms.json> --seeds <lo>-<hi>[,<lo>-<hi>] --out <file.ndjson> [--workers N] [--ticks T] [--lib l4i-arms.mjs --scorer l4i-score.mjs]
 import { Worker, isMainThread, parentPort, workerData } from 'node:worker_threads';
 import { execSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -15,7 +15,8 @@ if (isMainThread) {
   const a = process.argv.slice(2), opt = {};
   for (let i = 0; i < a.length; i += 2) opt[a[i].replace(/^--/, '')] = a[i + 1];
   for (const k of ['world', 'arms', 'seeds', 'out']) if (!opt[k]) { console.error('missing --' + k); process.exit(2); }
-  const files = [path.join(here, 'l4h.mjs'), path.join(here, 'l4h-arms.mjs'), path.join(here, 'l4h-run.mjs'), path.resolve(opt.world), path.resolve(opt.arms), path.join(here, 'l4h-score.mjs'), path.join(repo, 'docs/paper/stats.mjs')];
+  const lib = opt.lib ?? 'l4h-arms.mjs', scorer = opt.scorer ?? 'l4h-score.mjs';
+  const files = [path.join(here, 'l4h.mjs'), path.join(here, lib), path.join(here, 'l4h-run.mjs'), path.resolve(opt.world), path.resolve(opt.arms), path.join(here, scorer), path.join(repo, 'docs/paper/stats.mjs')];
   const extra = JSON.parse(fs.readFileSync(opt.arms, 'utf8')).extraModules ?? [];
   for (const m of extra) files.push(path.resolve(repo, m));
   const rel = files.map(f => path.relative(repo, f).replaceAll('\\', '/'));
@@ -28,14 +29,14 @@ if (isMainThread) {
   const seeds = opt.seeds.split(',').flatMap(r => { const [lo, hi] = r.split('-').map(Number); return Array.from({ length: (hi ?? lo) - lo + 1 }, (_, i) => lo + i); });
   const tasks = [];
   for (const s of seeds) for (const arm of spec.arms) tasks.push({ seed: s, arm });
-  const header = { header: true, head, sha, world: rel[3], arms: rel[4], seedSpec: opt.seeds, seeds, armNames: spec.arms.map(a => a.name), n: tasks.length, ticks: opt.ticks ? +opt.ticks : null, started: new Date().toISOString() };
+  const header = { header: true, lib, scorer, head, sha, world: rel[3], arms: rel[4], seedSpec: opt.seeds, seeds, armNames: spec.arms.map(a => a.name), n: tasks.length, ticks: opt.ticks ? +opt.ticks : null, started: new Date().toISOString() };
   fs.writeFileSync(opt.out, JSON.stringify(header) + '\n');
   const nW = Math.min(+(opt.workers ?? Math.max(1, os.cpus().length - 1)), tasks.length);
   let next = 0, done = 0;
   const worldUrl = pathToFileURL(path.resolve(opt.world)).href;
   const extraUrls = extra.map(m => pathToFileURL(path.resolve(repo, m)).href);
   for (let k = 0; k < nW; k++) {
-    const w = new Worker(fileURLToPath(import.meta.url), { workerData: { worldUrl, extraUrls, ticks: opt.ticks ? +opt.ticks : null } });
+    const w = new Worker(fileURLToPath(import.meta.url), { workerData: { worldUrl, extraUrls, lib, ticks: opt.ticks ? +opt.ticks : null } });
     const feed = () => { if (next < tasks.length) w.postMessage(tasks[next++]); else w.terminate(); };
     w.on('message', row => { fs.appendFileSync(opt.out, JSON.stringify(row) + '\n'); done++; if (done % 20 === 0 || done === tasks.length) console.log(`${done}/${tasks.length}`); feed(); });
     w.on('error', e => { console.error(e); process.exit(1); });
@@ -43,7 +44,7 @@ if (isMainThread) {
   }
 } else {
   const H = await import(pathToFileURL(path.join(here, 'l4h.mjs')).href);
-  const A = await import(pathToFileURL(path.join(here, 'l4h-arms.mjs')).href);
+  const A = await import(pathToFileURL(path.join(here, workerData.lib)).href);
   const W = await import(workerData.worldUrl);
   for (const u of workerData.extraUrls) { const m = await import(u); m.register?.(A); }
   parentPort.on('message', ({ seed, arm }) => {

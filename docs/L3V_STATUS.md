@@ -104,3 +104,7 @@ The bar and integrity rules are unchanged. The new constraint follows from phase
 - [x] Stage A (tuning 939001–939016; `results/l4h/lock*.json`). A1: FIXED = KALRW q .001 R 2 (79.65); best depth 2 = REPEATQR carryR .05 (78.92). **Every adaptive depth-2 learner is at or below the fixed Kalman.** A2: the static sweep's best is offset −3 (79.58). A3: META3_g0 79.40; EVOR_g9 79.64. Disclosed: a first A1 launch was aborted after about 45 unseen rows (a pipe risk) and restarted from scratch.
 - [x] **Stage B (practice seeds 101–116 and 301–332): L4-H FAILS; no final.** FIXED 80.80, L2BEST 80.80, META3 80.83. L2 gain 0.00, so the ratio is undefined. d₄ +0.06 flies, CI [−0.29, 0.41], 25/48, p .37. META3 − L2BEST +0.03 (p .32). META3 − SHAM_NOWRITE +0.17 (p .025). META3 − SHAM_RANDSIGN +0.08 (p .17). META3 − EVOR +0.14 (p .073). Full output: `results/l4h/B-gate.txt`. Final bank 938001–938048 unused.
 - **Lesson.** In the blind family, food rules change slowly enough relative to the bite rate that a well-tuned fixed-gain Kalman is already near the ceiling. Nothing about learning dynamics needed adapting, so neither L2 nor L3 had headroom. A blind world cannot guarantee that L2 matters, and L4 requires it.
+
+### L4-I (blind worlds + L2 admissibility; Fable ruling `scratch/judge-fable-l4i/ruling.md`, ~3%)
+- [x] Registered and frozen before the first draw: `l4i-arms.mjs` (±6 sweep, clamp = sweep, META3P paired-shadow candidate), `l4i-score.mjs` (admit/futility, L2-gain test), 86 fixtures.
+- [ ] Draw 1 (Devin Claude Opus 5.5), tuning bank 940001–940016.
