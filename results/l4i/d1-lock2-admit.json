@@ -1,0 +1,10 @@
+{
+ "gain": 0.96875,
+ "p": 0.0111541748046875,
+ "edge": false,
+ "offset": -1,
+ "perSeedMaxStatic": 80.090625,
+ "room": 0.7781250000000028,
+ "need": 0.484375,
+ "verdict": "INADMISSIBLE (redraw)"
+}

@@ -1,0 +1,53 @@
+{
+ "stage": "A2",
+ "source": "results/l4i/d1-A1.ndjson",
+ "head": "c86c3797af4b7cab9bb826a2047bf25eebdfb12c",
+ "sha": {
+  "microverse/l4h.mjs": "7c856db9a1c0",
+  "microverse/l4i-arms.mjs": "cbd56b83b427",
+  "microverse/l4h-run.mjs": "d4d59e3eccd8",
+  "microverse/l4i-world-1.mjs": "d0e880771dac",
+  "results/l4i/armsA1.json": "d2e912a68e46",
+  "microverse/l4i-score.mjs": "11eef620f715",
+  "docs/paper/stats.mjs": "8e070d2c6382",
+  "microverse/l4h-classf.mjs": "f49aeae150ac"
+ },
+ "seedSpec": "940001-940016",
+ "extraModules": [
+  "microverse/l4h-classf.mjs"
+ ],
+ "FIXED": {
+  "kind": "kalRW",
+  "q": 0.001,
+  "R": 0.5,
+  "name": "KALRW_q0.001_R0.5",
+  "family": "KALRW"
+ },
+ "L2A": {
+  "family": "REPEATQR",
+  "kind": "repeatQR",
+  "name": "REPEATQR_true_0.05",
+  "carryR": true,
+  "rate": 0.05
+ },
+ "means": {
+  "FIXED": 7834.375,
+  "L2A": 7899.1875
+ },
+ "source2": "results/l4i/d1-A2.ndjson",
+ "L2BEST": {
+  "kind": "static",
+  "name": "STATIC_-1",
+  "base": {
+   "family": "REPEATQR",
+   "kind": "repeatQR",
+   "name": "REPEATQR_true_0.05",
+   "carryR": true,
+   "rate": 0.05
+  },
+  "offset": -1
+ },
+ "means2": {
+  "L2BEST": 7931.25
+ }
+}
