@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8">
+<style>
+body{font:14px var(--font-sans,sans-serif);color:var(--foreground)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 16px;margin:0 0 12px;font-size:12px}
+.legend span:before{content:'';display:inline-block;width:12px;height:7px;margin-right:5px;background:var(--chart-1)}
+.legend span+span:before,.need{background:var(--chart-2)}
+section{display:grid;grid-template-columns:55px 1fr;align-items:center;gap:8px;margin-bottom:12px}
+.bars{display:grid;grid-template-columns:1fr 38px;align-items:center;gap:2px 8px}
+.track{height:10px;border-left:1px solid var(--border);background:var(--muted)}i{display:block;height:10px}
+.room{background:var(--chart-1)}b{font:12px var(--font-mono,monospace);text-align:right}
+p{font-size:12px;margin:8px 0;color:var(--muted-foreground)}
+</style><div class="legend"><span>Hindsight gain from choosing a gate per world</span><span>Gain L3 needs</span></div>
+<section><strong>L4-H</strong><div class="bars">
+<div class="track"><i class="room" style="width:12.28125%"></i></div><b>0.25</b><div class="track"><i class="need" style="width:66.37500000000003%"></i></div><b>1.33</b></div></section><section><strong>Draw 1</strong><div class="bars">
+<div class="track"><i class="room" style="width:32.0625%"></i></div><b>0.64</b><div class="track"><i class="need" style="width:70.65625000000004%"></i></div><b>1.41</b></div></section><section><strong>Draw 2</strong><div class="bars">
+<div class="track"><i class="room" style="width:13.624999999999998%"></i></div><b>0.27</b><div class="track"><i class="need" style="width:94.15624999999999%"></i></div><b>1.88</b></div></section><section><strong>Draw 3</strong><div class="bars">
+<div class="track"><i class="room" style="width:20.375%"></i></div><b>0.41</b><div class="track"><i class="need" style="width:81.57812500000006%"></i></div><b>1.63</b></div></section><p>Mean late-population difference in flies; 16 paired tuning worlds per family. Bars share a zero baseline.</p>

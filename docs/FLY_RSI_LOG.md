@@ -451,3 +451,23 @@ The registration (`04ef2cc`) adopted Fable's four amendments and two additions:
 No L3 arm was run on any draw. The final bank 938001–938048 is unused.
 
 **Pattern across L4-H and all three L4-I draws (four independent blind families).** A tuned fixed-gain Kalman (KALRW) is within 0–1 fly of the best adaptive depth-2 learner. In this ecology, adapting learning dynamics buys under 1 fly, so the precondition for L4, that L2 matters, does not occur in blind-drawn worlds.
+
+
+## L4 closed: NOT SHOWN (second closure, 2026-11-27, after the user's `/goal` reopening)
+
+- **Designs since the reopening:**
+  - L4-G: rejected before build.
+  - L4-H: registered; failed at stage B.
+  - L4-I: registered; 3 of 3 blind draws inadmissible.
+  - The memory route: screened and stopped at about 0.5%.
+- **Totals:** 13 L4 designs; 2 registered; no final bank spent; the 1.5× bar unmoved.
+- **What was measured.** In blind worlds there is headroom: a current-rule oracle reaches +13 to +23 flies. It is not reachable by adapting learning dynamics. Rate-adaptive L2 gains 0 to 1 fly. The largest blind gain found is flat parent-weight inheritance, +2.6 to +3.8. A third level on top of the best depth-2 learner has at most 0.25 to 0.64 flies of hindsight room, against a required 1.3 to 1.9.
+- **May be claimed:**
+  - L2 shown.
+  - L3 shown in the constructed L3-V world, with its caveats.
+  - L4 NOT SHOWN for this learner class in this microverse.
+- **May not be claimed:**
+  - "L4 shown" or "RSI completed".
+  - "Hierarchies cannot help".
+  - "L2 never matters in blind worlds".
+- **Per Fable:** further designs are at 1–3% each. A loop run until something passes ends in a chance pass, or in a world with the result built in.

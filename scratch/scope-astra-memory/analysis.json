@@ -1,0 +1,2510 @@
+{
+  "jumpIdentity": 34,
+  "localIdentity": 29,
+  "data": [
+    {
+      "family": "h",
+      "seeds": [
+        939001,
+        939002,
+        939003,
+        939004,
+        939005,
+        939006,
+        939007,
+        939008,
+        939009,
+        939010,
+        939011,
+        939012,
+        939013,
+        939014,
+        939015,
+        939016
+      ],
+      "means": {
+        "FIXED": 79.651875,
+        "CEILING": 92.84125,
+        "RAW": 68.458125,
+        "LAG": 78.1725,
+        "MEM_LOCAL": 78.16375,
+        "MEM": 81.360625,
+        "LAST": 82.283125,
+        "LOCAL20": 74.325625,
+        "G0": 70.18375,
+        "G20": 72.955,
+        "G50": 77.30125,
+        "G80": 79.36625,
+        "JUMP": 79.6175,
+        "WORLD_MEM": 81.591875,
+        "TRUE_FIFO": 82.88125,
+        "W0": 76.0225,
+        "W35": 80.845625,
+        "W65": 82.090625,
+        "W85": 82.306875
+      },
+      "comparisons": {
+        "W85-FIXED": {
+          "mean": 2.655,
+          "se": 0.3167293797550205,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "W85-LAST": {
+          "mean": 0.023750000000000007,
+          "se": 0.08271373827847464,
+          "wins": 3,
+          "p": 0.375
+        },
+        "G80-FIXED": {
+          "mean": -0.285625,
+          "se": 0.15748272061298235,
+          "wins": 5,
+          "p": 0.9552764892578125
+        },
+        "JUMP-FIXED": {
+          "mean": -0.03437499999999998,
+          "se": 0.15498378611433306,
+          "wins": 5,
+          "p": 0.5625
+        },
+        "LAG-FIXED": {
+          "mean": -1.479375,
+          "se": 0.4838926092550564,
+          "wins": 5,
+          "p": 0.99658203125
+        },
+        "MEM_LOCAL-LAG": {
+          "mean": -0.00875,
+          "se": 0.07479903631286525,
+          "wins": 3,
+          "p": 0.5625
+        },
+        "MEM-MEM_LOCAL": {
+          "mean": 3.1968750000000004,
+          "se": 0.3436213016655593,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "WORLD_MEM-LAG": {
+          "mean": 3.4193750000000005,
+          "se": 0.4288992390896336,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LAST-FIXED": {
+          "mean": 2.6312499999999996,
+          "se": 0.3242476869616806,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "TRUE_FIFO-W85": {
+          "mean": 0.574375,
+          "se": 0.2511456561937713,
+          "wins": 11,
+          "p": 0.0189971923828125
+        },
+        "CEILING-TRUE_FIFO": {
+          "mean": 9.959999999999999,
+          "se": 0.6247506169131274,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "MEM-LAST": {
+          "mean": -0.9225,
+          "se": 0.6588009942311867,
+          "wins": 9,
+          "p": 0.886810302734375
+        },
+        "WORLD_MEM-W85": {
+          "mean": -0.7150000000000001,
+          "se": 0.69368220389455,
+          "wins": 10,
+          "p": 0.8521881103515625
+        },
+        "CEILING-MEM": {
+          "mean": 11.480625,
+          "se": 1.107166228391955,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LOCAL20-FIXED": {
+          "mean": -5.32625,
+          "se": 0.23932174124666014,
+          "wins": 0,
+          "p": 1
+        },
+        "G20-LOCAL20": {
+          "mean": -1.370625,
+          "se": 0.34019047207655106,
+          "wins": 3,
+          "p": 0.9986419677734375
+        }
+      },
+      "gates": {
+        "L2": "W85",
+        "finite": "W85",
+        "bare": "G80",
+        "gain": 2.655000000000001,
+        "need": 1.3275000000000006,
+        "room": {
+          "mean": 0.245625,
+          "se": 0.10526541355861699,
+          "wins": 6,
+          "p": 0.015625
+        },
+        "half": 0.43437499999999996,
+        "forward": {
+          "mean": 0.041249999999999995,
+          "se": 0.2230281652616996,
+          "wins": 4,
+          "p": 0.44921875
+        },
+        "bestFirst": "LAST",
+        "oracleDeltaVsTarget": -1.0818750000000006
+      },
+      "choices": [
+        {
+          "s": 939001,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 312,
+            "events": 28,
+            "prototypes": 3,
+            "returns": 26
+          }
+        },
+        {
+          "s": 939002,
+          "perWorld": "W85",
+          "halves": [
+            "LAST",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0.59,
+          "forward": 0,
+          "clock": {
+            "nRaw": 27,
+            "events": 27,
+            "prototypes": 27,
+            "returns": 1
+          }
+        },
+        {
+          "s": 939003,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 0.53,
+          "roomHalf": 0.53,
+          "forward": 1.02,
+          "clock": {
+            "nRaw": 321,
+            "events": 30,
+            "prototypes": 3,
+            "returns": 28
+          }
+        },
+        {
+          "s": 939004,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0.19,
+          "forward": -0.38,
+          "clock": {
+            "nRaw": 30,
+            "events": 29,
+            "prototypes": 28,
+            "returns": 2
+          }
+        },
+        {
+          "s": 939005,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0.02,
+          "forward": -0.14,
+          "clock": {
+            "nRaw": 239,
+            "events": 35,
+            "prototypes": 4,
+            "returns": 32
+          }
+        },
+        {
+          "s": 939006,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0.65,
+          "forward": -1.84,
+          "clock": {
+            "nRaw": 2232,
+            "events": 50,
+            "prototypes": 51,
+            "returns": 0
+          }
+        },
+        {
+          "s": 939007,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 0.08,
+          "roomHalf": 0.08,
+          "forward": 0.04,
+          "clock": {
+            "nRaw": 399,
+            "events": 15,
+            "prototypes": 2,
+            "returns": 14
+          }
+        },
+        {
+          "s": 939008,
+          "perWorld": "W65",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0.18,
+          "roomHalf": 0.75,
+          "forward": 0,
+          "clock": {
+            "nRaw": 28,
+            "events": 28,
+            "prototypes": 29,
+            "returns": 0
+          }
+        },
+        {
+          "s": 939009,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0.96,
+          "roomHalf": 1.37,
+          "forward": 0,
+          "clock": {
+            "nRaw": 29,
+            "events": 29,
+            "prototypes": 29,
+            "returns": 1
+          }
+        },
+        {
+          "s": 939010,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": -1.36,
+          "clock": {
+            "nRaw": 407,
+            "events": 32,
+            "prototypes": 3,
+            "returns": 30
+          }
+        },
+        {
+          "s": 939011,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 27,
+            "events": 27,
+            "prototypes": 26,
+            "returns": 2
+          }
+        },
+        {
+          "s": 939012,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 29,
+            "events": 29,
+            "prototypes": 29,
+            "returns": 1
+          }
+        },
+        {
+          "s": 939013,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 1826,
+            "events": 49,
+            "prototypes": 50,
+            "returns": 0
+          }
+        },
+        {
+          "s": 939014,
+          "perWorld": "W35",
+          "halves": [
+            "W65",
+            "W35"
+          ],
+          "room": 1.03,
+          "roomHalf": 1.55,
+          "forward": 1.74,
+          "clock": {
+            "nRaw": 1547,
+            "events": 53,
+            "prototypes": 54,
+            "returns": 0
+          }
+        },
+        {
+          "s": 939015,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.07,
+          "forward": 0,
+          "clock": {
+            "nRaw": 29,
+            "events": 29,
+            "prototypes": 28,
+            "returns": 2
+          }
+        },
+        {
+          "s": 939016,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 1.15,
+          "roomHalf": 1.15,
+          "forward": 1.58,
+          "clock": {
+            "nRaw": 33,
+            "events": 33,
+            "prototypes": 34,
+            "returns": 0
+          }
+        }
+      ],
+      "stats": {
+        "RAW": {
+          "extinct": 0,
+          "bites": 746019.75,
+          "skill": 0.42560491717532317,
+          "sd": 11.406254552510507,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LAG": {
+          "extinct": 0,
+          "bites": 797619.0625,
+          "skill": 0.514111515734305,
+          "sd": 7.149896502747436,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM_LOCAL": {
+          "extinct": 0,
+          "bites": 798290,
+          "skill": 0.5162929810644046,
+          "sd": 7.150683766838898,
+          "birthRecall": 0,
+          "eventRecall": 236.5625,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM": {
+          "extinct": 0,
+          "bites": 820030.9375,
+          "skill": 0.5399786408153172,
+          "sd": 7.251190678088666,
+          "birthRecall": 1030.3125,
+          "eventRecall": 692.25,
+          "older": 0,
+          "switches": 0
+        },
+        "LAST": {
+          "extinct": 0,
+          "bites": 821942.375,
+          "skill": 0.5449111758137463,
+          "sd": 9.64778504372895,
+          "birthRecall": 1067.4375,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LOCAL20": {
+          "extinct": 0,
+          "bites": 780165.1875,
+          "skill": 0.4783978313091201,
+          "sd": 9.072290389789487,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 20800.1875,
+          "switches": 25941.625
+        },
+        "G0": {
+          "extinct": 0,
+          "bites": 750475.0625,
+          "skill": 0.4446895338115679,
+          "sd": 8.118243549766987,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 48260.875,
+          "switches": 56372.375
+        },
+        "G20": {
+          "extinct": 0,
+          "bites": 771441.6875,
+          "skill": 0.47277691479248574,
+          "sd": 9.029102576299225,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 30330.875,
+          "switches": 35474.5625
+        },
+        "G50": {
+          "extinct": 0,
+          "bites": 794550.3125,
+          "skill": 0.5107205515463998,
+          "sd": 9.60434198683075,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 10693.3125,
+          "switches": 12264.5625
+        },
+        "G80": {
+          "extinct": 0,
+          "bites": 802904.3125,
+          "skill": 0.5277464813624084,
+          "sd": 9.019388652600945,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 720.1875,
+          "switches": 810.6875
+        },
+        "JUMP": {
+          "extinct": 0,
+          "bites": 806119.625,
+          "skill": 0.5291942065750884,
+          "sd": 8.588427485091009,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "WORLD_MEM": {
+          "extinct": 0,
+          "bites": 818393.625,
+          "skill": 0.5393753990269381,
+          "sd": 7.2646066365174455,
+          "birthRecall": 1035.25,
+          "eventRecall": 693.375,
+          "older": 0,
+          "switches": 0
+        },
+        "TRUE_FIFO": {
+          "extinct": 0,
+          "bites": 822674.0625,
+          "skill": 0.5669679287867389,
+          "sd": 9.836706003535939,
+          "birthRecall": 1083.0625,
+          "eventRecall": 0,
+          "older": 13828.125,
+          "switches": 24961.625
+        },
+        "W0": {
+          "extinct": 0,
+          "bites": 791228.1875,
+          "skill": 0.49476858428935905,
+          "sd": 10.089779977779498,
+          "birthRecall": 990.5625,
+          "eventRecall": 0,
+          "older": 21251.8125,
+          "switches": 25401.6875
+        },
+        "W35": {
+          "extinct": 0,
+          "bites": 816114.5,
+          "skill": 0.5347327646499384,
+          "sd": 10.16345936431095,
+          "birthRecall": 1039.6875,
+          "eventRecall": 0,
+          "older": 5059.125,
+          "switches": 5496.5625
+        },
+        "W65": {
+          "extinct": 0,
+          "bites": 821116.375,
+          "skill": 0.5443881975041074,
+          "sd": 9.84985446169976,
+          "birthRecall": 1064,
+          "eventRecall": 0,
+          "older": 137.5,
+          "switches": 139.3125
+        },
+        "W85": {
+          "extinct": 0,
+          "bites": 821767.8125,
+          "skill": 0.5449655109849904,
+          "sd": 9.593048676863194,
+          "birthRecall": 1065.1875,
+          "eventRecall": 0,
+          "older": 0.3125,
+          "switches": 0.3125
+        }
+      },
+      "jumps": [
+        0,
+        27,
+        0,
+        29,
+        0,
+        0,
+        0,
+        28,
+        29,
+        0,
+        27,
+        29,
+        0,
+        0,
+        29,
+        33
+      ]
+    },
+    {
+      "family": "d1",
+      "seeds": [
+        940001,
+        940002,
+        940003,
+        940004,
+        940005,
+        940006,
+        940007,
+        940008,
+        940009,
+        940010,
+        940011,
+        940012,
+        940013,
+        940014,
+        940015,
+        940016
+      ],
+      "means": {
+        "FIXED": 78.34375,
+        "CEILING": 98.123125,
+        "RAW": 20.781875,
+        "LAG": 73.445625,
+        "MEM_LOCAL": 74.735,
+        "MEM": 80.713125,
+        "LAST": 81.138125,
+        "LOCAL20": 74.228125,
+        "G0": 70.411875,
+        "G20": 73.101875,
+        "G50": 77.156875,
+        "G80": 78.76875,
+        "JUMP": 78.186875,
+        "WORLD_MEM": 81.230625,
+        "TRUE_FIFO": 83.059375,
+        "W0": 77.370625,
+        "W35": 80.586875,
+        "W65": 81.17,
+        "W85": 81.075
+      },
+      "comparisons": {
+        "W65-FIXED": {
+          "mean": 2.82625,
+          "se": 0.2905653612643232,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "W65-LAST": {
+          "mean": 0.03187499999999999,
+          "se": 0.19735167162116124,
+          "wins": 8,
+          "p": 0.438079833984375
+        },
+        "G80-FIXED": {
+          "mean": 0.42499999999999993,
+          "se": 0.33922951915578725,
+          "wins": 7,
+          "p": 0.114410400390625
+        },
+        "JUMP-FIXED": {
+          "mean": -0.15687500000000001,
+          "se": 0.27088699788841847,
+          "wins": 2,
+          "p": 0.71875
+        },
+        "LAG-FIXED": {
+          "mean": -4.898124999999999,
+          "se": 0.7810458900036966,
+          "wins": 1,
+          "p": 0.9999847412109375
+        },
+        "MEM_LOCAL-LAG": {
+          "mean": 1.289375,
+          "se": 0.5524999764328804,
+          "wins": 9,
+          "p": 0.017578125
+        },
+        "MEM-MEM_LOCAL": {
+          "mean": 5.978125000000001,
+          "se": 1.1357270867708493,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "WORLD_MEM-LAG": {
+          "mean": 7.785000000000001,
+          "se": 1.8328325073503033,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LAST-FIXED": {
+          "mean": 2.794375,
+          "se": 0.3417162184596062,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "TRUE_FIFO-W65": {
+          "mean": 1.8893749999999998,
+          "se": 0.5693889039648853,
+          "wins": 12,
+          "p": 0.000457763671875
+        },
+        "CEILING-TRUE_FIFO": {
+          "mean": 15.063749999999999,
+          "se": 0.9801398178321297,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "MEM-LAST": {
+          "mean": -0.42500000000000004,
+          "se": 1.5372556716434647,
+          "wins": 7,
+          "p": 0.6071929931640625
+        },
+        "WORLD_MEM-W65": {
+          "mean": 0.06062500000000001,
+          "se": 1.5964667938790122,
+          "wins": 8,
+          "p": 0.485748291015625
+        },
+        "CEILING-MEM": {
+          "mean": 17.41,
+          "se": 1.496381190294327,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LOCAL20-FIXED": {
+          "mean": -4.1156250000000005,
+          "se": 0.5677557931232405,
+          "wins": 2,
+          "p": 0.9999542236328125
+        },
+        "G20-LOCAL20": {
+          "mean": -1.12625,
+          "se": 0.4278286991698118,
+          "wins": 2,
+          "p": 0.9902191162109375
+        }
+      },
+      "gates": {
+        "L2": "W65",
+        "finite": "W65",
+        "bare": "G80",
+        "gain": 2.8262500000000017,
+        "need": 1.4131250000000009,
+        "room": {
+          "mean": 0.64125,
+          "se": 0.20751079289200042,
+          "wins": 10,
+          "p": 0.0009765625
+        },
+        "half": 0.8387499999999999,
+        "forward": {
+          "mean": 0.23625000000000004,
+          "se": 0.3790787901830788,
+          "wins": 4,
+          "p": 0.28515625
+        },
+        "bestFirst": "LAST",
+        "oracleDeltaVsTarget": -0.7718750000000009
+      },
+      "choices": [
+        {
+          "s": 940001,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0.46,
+          "roomHalf": 0.52,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19122,
+            "events": 364,
+            "prototypes": 21,
+            "returns": 335
+          }
+        },
+        {
+          "s": 940002,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0.99,
+          "roomHalf": 1.32,
+          "forward": -0.54,
+          "clock": {
+            "nRaw": 19999,
+            "events": 107,
+            "prototypes": 97,
+            "returns": 11
+          }
+        },
+        {
+          "s": 940003,
+          "perWorld": "W85",
+          "halves": [
+            "LAST",
+            "W85"
+          ],
+          "room": 0.63,
+          "roomHalf": 1.05,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19976,
+            "events": 235,
+            "prototypes": 12,
+            "returns": 217
+          }
+        },
+        {
+          "s": 940004,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0.14,
+          "clock": {
+            "nRaw": 19999,
+            "events": 49,
+            "prototypes": 50,
+            "returns": 0
+          }
+        },
+        {
+          "s": 940005,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "W85"
+          ],
+          "room": 0.84,
+          "roomHalf": 1.26,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19899,
+            "events": 81,
+            "prototypes": 44,
+            "returns": 36
+          }
+        },
+        {
+          "s": 940006,
+          "perWorld": "W35",
+          "halves": [
+            "W35",
+            "W0"
+          ],
+          "room": 3.24,
+          "roomHalf": 3.5,
+          "forward": 4.54,
+          "clock": {
+            "nRaw": 19999,
+            "events": 459,
+            "prototypes": 17,
+            "returns": 435
+          }
+        },
+        {
+          "s": 940007,
+          "perWorld": "W65",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.34,
+          "forward": -0.82,
+          "clock": {
+            "nRaw": 19838,
+            "events": 265,
+            "prototypes": 214,
+            "returns": 48
+          }
+        },
+        {
+          "s": 940008,
+          "perWorld": "W65",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.61,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19698,
+            "events": 155,
+            "prototypes": 20,
+            "returns": 134
+          }
+        },
+        {
+          "s": 940009,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0.92,
+          "roomHalf": 0.92,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19957,
+            "events": 63,
+            "prototypes": 14,
+            "returns": 48
+          }
+        },
+        {
+          "s": 940010,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0.27,
+          "roomHalf": 0.27,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19970,
+            "events": 53,
+            "prototypes": 54,
+            "returns": 0
+          }
+        },
+        {
+          "s": 940011,
+          "perWorld": "W35",
+          "halves": [
+            "W35",
+            "W35"
+          ],
+          "room": 1.17,
+          "roomHalf": 1.17,
+          "forward": 2.08,
+          "clock": {
+            "nRaw": 19999,
+            "events": 245,
+            "prototypes": 10,
+            "returns": 233
+          }
+        },
+        {
+          "s": 940012,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0.47,
+          "roomHalf": 0.61,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19999,
+            "events": 150,
+            "prototypes": 151,
+            "returns": 0
+          }
+        },
+        {
+          "s": 940013,
+          "perWorld": "W65",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.25,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19999,
+            "events": 36,
+            "prototypes": 37,
+            "returns": 0
+          }
+        },
+        {
+          "s": 940014,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 1.58,
+          "clock": {
+            "nRaw": 19999,
+            "events": 687,
+            "prototypes": 10,
+            "returns": 678
+          }
+        },
+        {
+          "s": 940015,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0.32,
+          "forward": -0.64,
+          "clock": {
+            "nRaw": 17653,
+            "events": 44,
+            "prototypes": 45,
+            "returns": 0
+          }
+        },
+        {
+          "s": 940016,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 1.27,
+          "roomHalf": 1.28,
+          "forward": -2.56,
+          "clock": {
+            "nRaw": 17977,
+            "events": 94,
+            "prototypes": 58,
+            "returns": 37
+          }
+        }
+      ],
+      "stats": {
+        "RAW": {
+          "extinct": 3,
+          "bites": 395428.1875,
+          "skill": 0.0922070026177579,
+          "sd": 9.712246028425488,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LAG": {
+          "extinct": 0,
+          "bites": 776224.625,
+          "skill": 0.5216215586025843,
+          "sd": 9.118727958620836,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM_LOCAL": {
+          "extinct": 0,
+          "bites": 785543.5625,
+          "skill": 0.5459294784991444,
+          "sd": 8.197236119571034,
+          "birthRecall": 0,
+          "eventRecall": 5960.0625,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM": {
+          "extinct": 0,
+          "bites": 821095.4375,
+          "skill": 0.592237432487555,
+          "sd": 9.21950448324999,
+          "birthRecall": 1041.5625,
+          "eventRecall": 10661.3125,
+          "older": 0,
+          "switches": 0
+        },
+        "LAST": {
+          "extinct": 0,
+          "bites": 811264.1875,
+          "skill": 0.5669091952287009,
+          "sd": 9.87728249992544,
+          "birthRecall": 1075.5625,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LOCAL20": {
+          "extinct": 0,
+          "bites": 774056.75,
+          "skill": 0.5192230127194287,
+          "sd": 9.312658924818411,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 23573.6875,
+          "switches": 29992.6875
+        },
+        "G0": {
+          "extinct": 0,
+          "bites": 749251.125,
+          "skill": 0.48016134720933445,
+          "sd": 10.009630841511255,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 45487.125,
+          "switches": 54270.125
+        },
+        "G20": {
+          "extinct": 0,
+          "bites": 768088.25,
+          "skill": 0.5138820508892903,
+          "sd": 10.010810302701108,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 33169.6875,
+          "switches": 39401.625
+        },
+        "G50": {
+          "extinct": 0,
+          "bites": 793039.875,
+          "skill": 0.5549784815523975,
+          "sd": 9.519062782123035,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 13486.5,
+          "switches": 15574.0625
+        },
+        "G80": {
+          "extinct": 0,
+          "bites": 798449.4375,
+          "skill": 0.5597500812511761,
+          "sd": 9.009161910706974,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 1600,
+          "switches": 1767.75
+        },
+        "JUMP": {
+          "extinct": 0,
+          "bites": 793465.375,
+          "skill": 0.5526207467974754,
+          "sd": 9.070400004961193,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "WORLD_MEM": {
+          "extinct": 0,
+          "bites": 819724.3125,
+          "skill": 0.5909535948421024,
+          "sd": 9.229781845562044,
+          "birthRecall": 1045.3125,
+          "eventRecall": 11036.0625,
+          "older": 0,
+          "switches": 0
+        },
+        "TRUE_FIFO": {
+          "extinct": 0,
+          "bites": 833084.375,
+          "skill": 0.6185679716332335,
+          "sd": 9.40972225502255,
+          "birthRecall": 1106.5,
+          "eventRecall": 0,
+          "older": 16705.3125,
+          "switches": 24306.75
+        },
+        "W0": {
+          "extinct": 0,
+          "bites": 796406.75,
+          "skill": 0.5444981897064731,
+          "sd": 10.08880796972566,
+          "birthRecall": 1022.0625,
+          "eventRecall": 0,
+          "older": 20424.5625,
+          "switches": 24774.5
+        },
+        "W35": {
+          "extinct": 0,
+          "bites": 812415.3125,
+          "skill": 0.5704775641868413,
+          "sd": 10.101048604806664,
+          "birthRecall": 1064.4375,
+          "eventRecall": 0,
+          "older": 6950.375,
+          "switches": 7659.8125
+        },
+        "W65": {
+          "extinct": 0,
+          "bites": 812147.1875,
+          "skill": 0.5715182981449193,
+          "sd": 9.796649767480035,
+          "birthRecall": 1076.875,
+          "eventRecall": 0,
+          "older": 817.375,
+          "switches": 830.375
+        },
+        "W85": {
+          "extinct": 0,
+          "bites": 810551.875,
+          "skill": 0.5661517763956162,
+          "sd": 10.042356297204355,
+          "birthRecall": 1074.375,
+          "eventRecall": 0,
+          "older": 67.9375,
+          "switches": 68.375
+        }
+      },
+      "jumps": [
+        0,
+        93,
+        0,
+        0,
+        12,
+        0,
+        87,
+        0,
+        15,
+        43,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17
+      ]
+    },
+    {
+      "family": "d2",
+      "seeds": [
+        941001,
+        941002,
+        941003,
+        941004,
+        941005,
+        941006,
+        941007,
+        941008,
+        941009,
+        941010,
+        941011,
+        941012,
+        941013,
+        941014,
+        941015,
+        941016
+      ],
+      "means": {
+        "FIXED": 92.5575,
+        "CEILING": 115.381875,
+        "RAW": 63.6725,
+        "LAG": 88.486875,
+        "MEM_LOCAL": 88.559375,
+        "MEM": 91.928125,
+        "LAST": 96.32375,
+        "LOCAL20": 88.04125,
+        "G0": 81.8475,
+        "G20": 86.066875,
+        "G50": 91.44375,
+        "G80": 93.208125,
+        "JUMP": 92.686875,
+        "WORLD_MEM": 92.185625,
+        "TRUE_FIFO": 97.158125,
+        "W0": 91.615625,
+        "W35": 95.763125,
+        "W65": 96.22625,
+        "W85": 96.200625
+      },
+      "comparisons": {
+        "LAST-FIXED": {
+          "mean": 3.7662500000000003,
+          "se": 0.23123017933075546,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LAST-LAST": {
+          "mean": 0,
+          "se": 0,
+          "wins": 0,
+          "p": 1
+        },
+        "W65-LAST": {
+          "mean": -0.0975,
+          "se": 0.15319513699853532,
+          "wins": 6,
+          "p": 0.7359771728515625
+        },
+        "G80-FIXED": {
+          "mean": 0.6506249999999999,
+          "se": 0.1710980926009015,
+          "wins": 13,
+          "p": 0.0009613037109375
+        },
+        "JUMP-FIXED": {
+          "mean": 0.12937500000000002,
+          "se": 0.34116890825269136,
+          "wins": 8,
+          "p": 0.3522186279296875
+        },
+        "LAG-FIXED": {
+          "mean": -4.070625,
+          "se": 0.6681182958815503,
+          "wins": 1,
+          "p": 0.9999847412109375
+        },
+        "MEM_LOCAL-LAG": {
+          "mean": 0.07250000000000001,
+          "se": 0.07601260860322229,
+          "wins": 4,
+          "p": 0.1875
+        },
+        "MEM-MEM_LOCAL": {
+          "mean": 3.36875,
+          "se": 0.35443837616714136,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "WORLD_MEM-LAG": {
+          "mean": 3.69875,
+          "se": 0.4157792633517614,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "TRUE_FIFO-LAST": {
+          "mean": 0.834375,
+          "se": 0.2708812297391608,
+          "wins": 13,
+          "p": 0.0010833740234375
+        },
+        "CEILING-TRUE_FIFO": {
+          "mean": 18.22375,
+          "se": 0.9333483071715512,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "MEM-LAST": {
+          "mean": -4.395625000000001,
+          "se": 0.7945407314658786,
+          "wins": 1,
+          "p": 0.999908447265625
+        },
+        "WORLD_MEM-LAST": {
+          "mean": -4.1381250000000005,
+          "se": 0.7864388187424373,
+          "wins": 1,
+          "p": 0.9998779296875
+        },
+        "CEILING-MEM": {
+          "mean": 23.45375,
+          "se": 1.3922750790821954,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LOCAL20-FIXED": {
+          "mean": -4.51625,
+          "se": 0.3551136848484815,
+          "wins": 0,
+          "p": 1
+        },
+        "G20-LOCAL20": {
+          "mean": -1.9743750000000002,
+          "se": 0.3783527550998759,
+          "wins": 1,
+          "p": 0.9998779296875
+        }
+      },
+      "gates": {
+        "L2": "LAST",
+        "finite": "W65",
+        "bare": "G80",
+        "gain": 3.7662499999999994,
+        "need": 1.8831249999999997,
+        "room": {
+          "mean": 0.27249999999999996,
+          "se": 0.10099298655517287,
+          "wins": 8,
+          "p": 0.00390625
+        },
+        "half": 0.3787499999999999,
+        "forward": {
+          "mean": -0.024999999999999994,
+          "se": 0.16058746318854822,
+          "wins": 6,
+          "p": 0.560546875
+        },
+        "bestFirst": "LAST",
+        "oracleDeltaVsTarget": -1.6106249999999998
+      },
+      "choices": [
+        {
+          "s": 941001,
+          "perWorld": "W65",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0.19,
+          "roomHalf": 0.46,
+          "forward": 0,
+          "clock": {
+            "nRaw": 2755,
+            "events": 65,
+            "prototypes": 66,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941002,
+          "perWorld": "LAST",
+          "halves": [
+            "W65",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0.03,
+          "forward": -0.9,
+          "clock": {
+            "nRaw": 8909,
+            "events": 212,
+            "prototypes": 212,
+            "returns": 1
+          }
+        },
+        {
+          "s": 941003,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 5847,
+            "events": 146,
+            "prototypes": 144,
+            "returns": 3
+          }
+        },
+        {
+          "s": 941004,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W35"
+          ],
+          "room": 0,
+          "roomHalf": 0.18,
+          "forward": 0,
+          "clock": {
+            "nRaw": 4404,
+            "events": 81,
+            "prototypes": 81,
+            "returns": 1
+          }
+        },
+        {
+          "s": 941005,
+          "perWorld": "W65",
+          "halves": [
+            "W35",
+            "W65"
+          ],
+          "room": 1.28,
+          "roomHalf": 1.37,
+          "forward": 0.7,
+          "clock": {
+            "nRaw": 3357,
+            "events": 83,
+            "prototypes": 84,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941006,
+          "perWorld": "W65",
+          "halves": [
+            "W35",
+            "W65"
+          ],
+          "room": 0.8,
+          "roomHalf": 0.8,
+          "forward": 0.72,
+          "clock": {
+            "nRaw": 1710,
+            "events": 75,
+            "prototypes": 32,
+            "returns": 44
+          }
+        },
+        {
+          "s": 941007,
+          "perWorld": "W35",
+          "halves": [
+            "W35",
+            "W35"
+          ],
+          "room": 0.94,
+          "roomHalf": 0.94,
+          "forward": 0.94,
+          "clock": {
+            "nRaw": 3040,
+            "events": 75,
+            "prototypes": 53,
+            "returns": 23
+          }
+        },
+        {
+          "s": 941008,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 2931,
+            "events": 54,
+            "prototypes": 55,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941009,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.09,
+          "forward": 0,
+          "clock": {
+            "nRaw": 1739,
+            "events": 73,
+            "prototypes": 74,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941010,
+          "perWorld": "W65",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0.48,
+          "roomHalf": 0.86,
+          "forward": 0.34,
+          "clock": {
+            "nRaw": 1495,
+            "events": 68,
+            "prototypes": 68,
+            "returns": 1
+          }
+        },
+        {
+          "s": 941011,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0.29,
+          "roomHalf": 0.29,
+          "forward": 0.1,
+          "clock": {
+            "nRaw": 2473,
+            "events": 48,
+            "prototypes": 49,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941012,
+          "perWorld": "W85",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0.03,
+          "roomHalf": 0.08,
+          "forward": 0,
+          "clock": {
+            "nRaw": 2544,
+            "events": 35,
+            "prototypes": 36,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941013,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 2707,
+            "events": 49,
+            "prototypes": 50,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941014,
+          "perWorld": "W85",
+          "halves": [
+            "W65",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0.43,
+          "forward": -1.06,
+          "clock": {
+            "nRaw": 6505,
+            "events": 121,
+            "prototypes": 121,
+            "returns": 1
+          }
+        },
+        {
+          "s": 941015,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W65"
+          ],
+          "room": 0.35,
+          "roomHalf": 0.35,
+          "forward": 0.24,
+          "clock": {
+            "nRaw": 6921,
+            "events": 138,
+            "prototypes": 139,
+            "returns": 0
+          }
+        },
+        {
+          "s": 941016,
+          "perWorld": "LAST",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.18,
+          "forward": -1.48,
+          "clock": {
+            "nRaw": 8433,
+            "events": 208,
+            "prototypes": 209,
+            "returns": 0
+          }
+        }
+      ],
+      "stats": {
+        "RAW": {
+          "extinct": 0,
+          "bites": 749925.125,
+          "skill": 0.43929050841796957,
+          "sd": 15.909892729577615,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LAG": {
+          "extinct": 0,
+          "bites": 857342.1875,
+          "skill": 0.6719945171748658,
+          "sd": 5.945872202629317,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM_LOCAL": {
+          "extinct": 0,
+          "bites": 857294.8125,
+          "skill": 0.6734376535350879,
+          "sd": 5.948368368720955,
+          "birthRecall": 0,
+          "eventRecall": 164.25,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM": {
+          "extinct": 0,
+          "bites": 876759.9375,
+          "skill": 0.6917935058785649,
+          "sd": 6.971287034448278,
+          "birthRecall": 1182.8125,
+          "eventRecall": 437.9375,
+          "older": 0,
+          "switches": 0
+        },
+        "LAST": {
+          "extinct": 0,
+          "bites": 886398.625,
+          "skill": 0.7037163636296611,
+          "sd": 5.817888362627802,
+          "birthRecall": 1305.8125,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LOCAL20": {
+          "extinct": 0,
+          "bites": 848175.625,
+          "skill": 0.6380343541877337,
+          "sd": 5.968011254457663,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 16514.1875,
+          "switches": 25114.125
+        },
+        "G0": {
+          "extinct": 0,
+          "bites": 811871.75,
+          "skill": 0.5722814372679887,
+          "sd": 7.344445066397688,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 35542,
+          "switches": 49459
+        },
+        "G20": {
+          "extinct": 0,
+          "bites": 837080.0625,
+          "skill": 0.6232225469913554,
+          "sd": 6.960234400985836,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 23338.3125,
+          "switches": 32592.75
+        },
+        "G50": {
+          "extinct": 0,
+          "bites": 863312.9375,
+          "skill": 0.6792560006132681,
+          "sd": 6.344952718499956,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 7310.4375,
+          "switches": 9752.875
+        },
+        "G80": {
+          "extinct": 0,
+          "bites": 871870.75,
+          "skill": 0.6944508970231611,
+          "sd": 5.696916380815151,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 811.0625,
+          "switches": 1176.9375
+        },
+        "JUMP": {
+          "extinct": 0,
+          "bites": 872570.25,
+          "skill": 0.705770223335596,
+          "sd": 5.588122784084114,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "WORLD_MEM": {
+          "extinct": 0,
+          "bites": 876849.75,
+          "skill": 0.6915527624536187,
+          "sd": 6.962990706825145,
+          "birthRecall": 1183.75,
+          "eventRecall": 449.0625,
+          "older": 0,
+          "switches": 0
+        },
+        "TRUE_FIFO": {
+          "extinct": 0,
+          "bites": 894161.5625,
+          "skill": 0.7209600440557441,
+          "sd": 5.807465561671459,
+          "birthRecall": 1319.625,
+          "eventRecall": 0,
+          "older": 5364.8125,
+          "switches": 12977.3125
+        },
+        "W0": {
+          "extinct": 0,
+          "bites": 868666.375,
+          "skill": 0.6661169989409926,
+          "sd": 6.642850762285722,
+          "birthRecall": 1236.5625,
+          "eventRecall": 0,
+          "older": 12548.375,
+          "switches": 19867.6875
+        },
+        "W35": {
+          "extinct": 0,
+          "bites": 886540.375,
+          "skill": 0.700637370388862,
+          "sd": 6.178422364703362,
+          "birthRecall": 1291,
+          "eventRecall": 0,
+          "older": 2707.9375,
+          "switches": 3402.6875
+        },
+        "W65": {
+          "extinct": 0,
+          "bites": 888168.8125,
+          "skill": 0.7052219277719474,
+          "sd": 5.759299581256968,
+          "birthRecall": 1298.9375,
+          "eventRecall": 0,
+          "older": 181,
+          "switches": 187.375
+        },
+        "W85": {
+          "extinct": 0,
+          "bites": 887132,
+          "skill": 0.704361049048003,
+          "sd": 5.750027789787919,
+          "birthRecall": 1302.125,
+          "eventRecall": 0,
+          "older": 17.9375,
+          "switches": 18
+        }
+      },
+      "jumps": [
+        23,
+        28,
+        43,
+        16,
+        12,
+        38,
+        16,
+        22,
+        24,
+        32,
+        20,
+        17,
+        13,
+        42,
+        30,
+        25
+      ]
+    },
+    {
+      "family": "d3",
+      "seeds": [
+        942001,
+        942002,
+        942003,
+        942004,
+        942005,
+        942006,
+        942007,
+        942008,
+        942009,
+        942010,
+        942011,
+        942012,
+        942013,
+        942014,
+        942015,
+        942016
+      ],
+      "means": {
+        "FIXED": 90.100625,
+        "CEILING": 111.95125,
+        "RAW": 62.070625,
+        "LAG": 83.329375,
+        "MEM_LOCAL": 84.634375,
+        "MEM": 92.958125,
+        "LAST": 93.36375,
+        "LOCAL20": 84.999375,
+        "G0": 79.995,
+        "G20": 84.0275,
+        "G50": 88.6725,
+        "G80": 90.220625,
+        "JUMP": 90.100625,
+        "WORLD_MEM": 93.8475,
+        "TRUE_FIFO": 95.364375,
+        "W0": 88.85125,
+        "W35": 92.691875,
+        "W65": 93.1125,
+        "W85": 93.01375
+      },
+      "comparisons": {
+        "LAST-FIXED": {
+          "mean": 3.263125,
+          "se": 0.2439598989417455,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LAST-LAST": {
+          "mean": 0,
+          "se": 0,
+          "wins": 0,
+          "p": 1
+        },
+        "W65-LAST": {
+          "mean": -0.25125,
+          "se": 0.12140454068938279,
+          "wins": 4,
+          "p": 0.9722137451171875
+        },
+        "G80-FIXED": {
+          "mean": 0.12,
+          "se": 0.0932559202767667,
+          "wins": 9,
+          "p": 0.11126708984375
+        },
+        "JUMP-FIXED": {
+          "mean": 0,
+          "se": 0,
+          "wins": 0,
+          "p": 1
+        },
+        "LAG-FIXED": {
+          "mean": -6.771249999999999,
+          "se": 1.4008624947391044,
+          "wins": 0,
+          "p": 1
+        },
+        "MEM_LOCAL-LAG": {
+          "mean": 1.3050000000000002,
+          "se": 0.45627111823271627,
+          "wins": 10,
+          "p": 0.00244140625
+        },
+        "MEM-MEM_LOCAL": {
+          "mean": 8.32375,
+          "se": 1.8114528871875193,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "WORLD_MEM-LAG": {
+          "mean": 10.518125000000003,
+          "se": 2.435891044831781,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "TRUE_FIFO-LAST": {
+          "mean": 2.000625,
+          "se": 0.572873945376875,
+          "wins": 13,
+          "p": 0.0015869140625
+        },
+        "CEILING-TRUE_FIFO": {
+          "mean": 16.586875,
+          "se": 1.1810926151767267,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "MEM-LAST": {
+          "mean": -0.40562500000000007,
+          "se": 1.0197675261017418,
+          "wins": 5,
+          "p": 0.6534271240234375
+        },
+        "WORLD_MEM-LAST": {
+          "mean": 0.4837499999999999,
+          "se": 1.2960818759502297,
+          "wins": 5,
+          "p": 0.3577728271484375
+        },
+        "CEILING-MEM": {
+          "mean": 18.993125000000003,
+          "se": 1.0447753820598633,
+          "wins": 16,
+          "p": 0.0000152587890625
+        },
+        "LOCAL20-FIXED": {
+          "mean": -5.10125,
+          "se": 0.3154505706128933,
+          "wins": 0,
+          "p": 1
+        },
+        "G20-LOCAL20": {
+          "mean": -0.9718749999999999,
+          "se": 0.5782201273087958,
+          "wins": 7,
+          "p": 0.9435272216796875
+        }
+      },
+      "gates": {
+        "L2": "LAST",
+        "finite": "W65",
+        "bare": "G80",
+        "gain": 3.2631250000000023,
+        "need": 1.6315625000000011,
+        "room": {
+          "mean": 0.4075,
+          "se": 0.19463106124151916,
+          "wins": 8,
+          "p": 0.00390625
+        },
+        "half": 0.5125,
+        "forward": {
+          "mean": 0,
+          "se": 0.2882591426708498,
+          "wins": 5,
+          "p": 0.50390625
+        },
+        "bestFirst": "LAST",
+        "oracleDeltaVsTarget": -1.2240625000000012
+      },
+      "choices": [
+        {
+          "s": 942001,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0.61,
+          "roomHalf": 0.61,
+          "forward": 0.32,
+          "clock": {
+            "nRaw": 19999,
+            "events": 216,
+            "prototypes": 14,
+            "returns": 203
+          }
+        },
+        {
+          "s": 942002,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 4308,
+            "events": 69,
+            "prototypes": 36,
+            "returns": 34
+          }
+        },
+        {
+          "s": 942003,
+          "perWorld": "LAST",
+          "halves": [
+            "W65",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0.19,
+          "forward": -0.7,
+          "clock": {
+            "nRaw": 4330,
+            "events": 61,
+            "prototypes": 31,
+            "returns": 31
+          }
+        },
+        {
+          "s": 942004,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "LAST"
+          ],
+          "room": 0.43,
+          "roomHalf": 0.48,
+          "forward": -0.1,
+          "clock": {
+            "nRaw": 4592,
+            "events": 60,
+            "prototypes": 35,
+            "returns": 25
+          }
+        },
+        {
+          "s": 942005,
+          "perWorld": "W35",
+          "halves": [
+            "W35",
+            "W35"
+          ],
+          "room": 2.4,
+          "roomHalf": 2.4,
+          "forward": 1.12,
+          "clock": {
+            "nRaw": 19999,
+            "events": 370,
+            "prototypes": 15,
+            "returns": 354
+          }
+        },
+        {
+          "s": 942006,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 2042,
+            "events": 74,
+            "prototypes": 75,
+            "returns": 0
+          }
+        },
+        {
+          "s": 942007,
+          "perWorld": "LAST",
+          "halves": [
+            "W65",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0.56,
+          "forward": -3.44,
+          "clock": {
+            "nRaw": 1960,
+            "events": 85,
+            "prototypes": 86,
+            "returns": 0
+          }
+        },
+        {
+          "s": 942008,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 4333,
+            "events": 73,
+            "prototypes": 37,
+            "returns": 37
+          }
+        },
+        {
+          "s": 942009,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 1853,
+            "events": 93,
+            "prototypes": 94,
+            "returns": 0
+          }
+        },
+        {
+          "s": 942010,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W65"
+          ],
+          "room": 0,
+          "roomHalf": 0.24,
+          "forward": 0,
+          "clock": {
+            "nRaw": 1990,
+            "events": 94,
+            "prototypes": 95,
+            "returns": 0
+          }
+        },
+        {
+          "s": 942011,
+          "perWorld": "LAST",
+          "halves": [
+            "LAST",
+            "LAST"
+          ],
+          "room": 0,
+          "roomHalf": 0,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19999,
+            "events": 200,
+            "prototypes": 14,
+            "returns": 187
+          }
+        },
+        {
+          "s": 942012,
+          "perWorld": "W85",
+          "halves": [
+            "LAST",
+            "W65"
+          ],
+          "room": 0.01,
+          "roomHalf": 0.49,
+          "forward": 0,
+          "clock": {
+            "nRaw": 19999,
+            "events": 186,
+            "prototypes": 15,
+            "returns": 167
+          }
+        },
+        {
+          "s": 942013,
+          "perWorld": "W85",
+          "halves": [
+            "W85",
+            "W85"
+          ],
+          "room": 0.02,
+          "roomHalf": 0.02,
+          "forward": 0.04,
+          "clock": {
+            "nRaw": 1591,
+            "events": 82,
+            "prototypes": 82,
+            "returns": 1
+          }
+        },
+        {
+          "s": 942014,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "W35"
+          ],
+          "room": 0.32,
+          "roomHalf": 0.36,
+          "forward": 0.58,
+          "clock": {
+            "nRaw": 4107,
+            "events": 62,
+            "prototypes": 32,
+            "returns": 31
+          }
+        },
+        {
+          "s": 942015,
+          "perWorld": "W65",
+          "halves": [
+            "W65",
+            "LAST"
+          ],
+          "room": 0.47,
+          "roomHalf": 0.59,
+          "forward": -0.24,
+          "clock": {
+            "nRaw": 1996,
+            "events": 93,
+            "prototypes": 93,
+            "returns": 1
+          }
+        },
+        {
+          "s": 942016,
+          "perWorld": "W35",
+          "halves": [
+            "W35",
+            "W35"
+          ],
+          "room": 2.26,
+          "roomHalf": 2.26,
+          "forward": 2.42,
+          "clock": {
+            "nRaw": 19999,
+            "events": 368,
+            "prototypes": 15,
+            "returns": 350
+          }
+        }
+      ],
+      "stats": {
+        "RAW": {
+          "extinct": 0,
+          "bites": 728687.875,
+          "skill": 0.4408044165103355,
+          "sd": 29.05361881504609,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LAG": {
+          "extinct": 0,
+          "bites": 836835.4375,
+          "skill": 0.6044332835956326,
+          "sd": 7.70309415646293,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM_LOCAL": {
+          "extinct": 0,
+          "bites": 842899.1875,
+          "skill": 0.6326236750622027,
+          "sd": 6.354632922784236,
+          "birthRecall": 0,
+          "eventRecall": 3314.4375,
+          "older": 0,
+          "switches": 0
+        },
+        "MEM": {
+          "extinct": 0,
+          "bites": 884479.1875,
+          "skill": 0.7071296756535743,
+          "sd": 3.1901352505288334,
+          "birthRecall": 1185.9375,
+          "eventRecall": 8324,
+          "older": 0,
+          "switches": 0
+        },
+        "LAST": {
+          "extinct": 0,
+          "bites": 879778.75,
+          "skill": 0.6768529153092504,
+          "sd": 4.339317726709273,
+          "birthRecall": 1232.4375,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "LOCAL20": {
+          "extinct": 0,
+          "bites": 838103.1875,
+          "skill": 0.6177227920257619,
+          "sd": 4.508740354393157,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 21652.25,
+          "switches": 28978.5
+        },
+        "G0": {
+          "extinct": 0,
+          "bites": 807861.4375,
+          "skill": 0.5764423935405428,
+          "sd": 8.015865933675952,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 46169.25,
+          "switches": 56959.5625
+        },
+        "G20": {
+          "extinct": 0,
+          "bites": 832738.25,
+          "skill": 0.614886702664237,
+          "sd": 5.965062167879448,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 31860.5625,
+          "switches": 39312.5
+        },
+        "G50": {
+          "extinct": 0,
+          "bites": 856938.625,
+          "skill": 0.6608174274211153,
+          "sd": 4.001462232734429,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 12125.125,
+          "switches": 14500.6875
+        },
+        "G80": {
+          "extinct": 0,
+          "bites": 861931.5,
+          "skill": 0.6656244610885583,
+          "sd": 3.7574343529417336,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 1207.8125,
+          "switches": 1394.8125
+        },
+        "JUMP": {
+          "extinct": 0,
+          "bites": 860721.1875,
+          "skill": 0.66100964000906,
+          "sd": 3.6897849417908737,
+          "birthRecall": 0,
+          "eventRecall": 0,
+          "older": 0,
+          "switches": 0
+        },
+        "WORLD_MEM": {
+          "extinct": 0,
+          "bites": 884775.5625,
+          "skill": 0.7030202444580596,
+          "sd": 3.7450117934838754,
+          "birthRecall": 1203.9375,
+          "eventRecall": 8607.1875,
+          "older": 0,
+          "switches": 0
+        },
+        "TRUE_FIFO": {
+          "extinct": 0,
+          "bites": 890626.125,
+          "skill": 0.7316066103178228,
+          "sd": 5.122622985346472,
+          "birthRecall": 1269.75,
+          "eventRecall": 0,
+          "older": 17740.0625,
+          "switches": 25890.5
+        },
+        "W0": {
+          "extinct": 0,
+          "bites": 862550.3125,
+          "skill": 0.6568016609053778,
+          "sd": 5.0051252065591045,
+          "birthRecall": 1159.875,
+          "eventRecall": 0,
+          "older": 18803.875,
+          "switches": 24075.9375
+        },
+        "W35": {
+          "extinct": 0,
+          "bites": 878995.625,
+          "skill": 0.6817228886230485,
+          "sd": 3.8364414392333246,
+          "birthRecall": 1208.0625,
+          "eventRecall": 0,
+          "older": 5687.375,
+          "switches": 6414.625
+        },
+        "W65": {
+          "extinct": 0,
+          "bites": 878695.4375,
+          "skill": 0.6794866599002356,
+          "sd": 4.38235172785876,
+          "birthRecall": 1220.0625,
+          "eventRecall": 0,
+          "older": 420.25,
+          "switches": 426.4375
+        },
+        "W85": {
+          "extinct": 0,
+          "bites": 876846.0625,
+          "skill": 0.678173259221219,
+          "sd": 4.293835697834747,
+          "birthRecall": 1228.5625,
+          "eventRecall": 0,
+          "older": 7.3125,
+          "switches": 7.3125
+        }
+      },
+      "jumps": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
